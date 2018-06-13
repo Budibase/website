@@ -1,0 +1,64 @@
+
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+<!--Header-->
+<header class="main-header">
+  {{ partial "contact-header.html" . }}
+</header>
+<!--Header-->
+
+
+
+<!--Blog-->
+<!--div class="background" removed indigers for a gradient bg-->
+  <section id="blog" class="container section">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 id="blog_header" class="section__title">Quick Contact_</h2>
+    </div>
+  </div>
+
+  <div class="row post-cards">
+    <div class="col-md-4">
+      <a href="blog.html">
+        <div class="post-cards__card">
+          <div class="post-cards__info">
+            <h3 class="post-cards_title"><a href="{{ .Permalink }}">Phone</a></h3>
+            <p class="post-cards__date">07718904774</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-md-4">
+      <a href="blog.html">
+        <div class="post-cards__card">
+          <div class="post-cards__info">
+            <h3 class="post-cards_title"><a href="{{ .Permalink }}">Email</a></h3>
+            <p class="post-cards__date">hi@digijo.co.uk</p>
+          </div>
+        </div>
+      </a>
+      </div>
+
+    <div class="col-md-4">
+      <a href="blog.html">
+        <div class="post-cards__card">
+          <div class="post-cards__info">
+            <h3 class="post-cards_title"><a href="{{ .Permalink }}">Live Chat</a></h3>
+            <p class="post-cards__date">Down Below</p>
+          </div>
+        </div>
+      </a>
+    </div>
+</div>
+
+</section>
+
+{{ partial "typeform.html" . }}
+
+
+
+{{ partial "footer.html" . }}

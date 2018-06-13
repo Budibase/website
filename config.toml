@@ -1,6 +1,8 @@
 baseURL = "https://example.org/"
 languageCode = "en-us"
 title = "DigiJo - Belfast's Leading Marketing and Web Design Freelancer"
+theme = "hugo-theme-sarah"
+
 
 [params]
 author = "DigiJo"
