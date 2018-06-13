@@ -1,4 +1,5 @@
 @charset "UTF-8";
+<<<<<<< HEAD
 /*------------------------------------
  #MAIN
 \*------------------------------------*/
@@ -42,6 +43,51 @@
  * Copyright 2011-2017 The Bootstrap Authors
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+=======
+/*------------------------------------
+ #MAIN
+\*------------------------------------*/
+/**
+ * SETTINGS
+ * Variables...............Variables for themes.
+ *
+ * Base
+ * Scaffolding...............Style bare tags.
+ *
+ * COMPONENTS
+ * Article................Post's article styling.
+ * Background..............Background styles.
+ * Blog-header..............Header of blog.html.
+ * Contact-list..............List of contacts styles.
+ * Contacts..............Contact block styles.
+ * Footer..............Copyri styles.
+ * Main-header..............Header of index.html.
+ * Menu..............Menu styles.
+ * Mobile-menu..............Mobile-menu styles.
+ * Personal-profile..............Styles for personal info.
+ * portfolio-menu..............Menu of portfolio block styles.
+ * Portfolio-modal..............Modal with project information from portfolio.
+ * Post-cards..............Card with preview of posts styles.
+ * Posts..............Posts preview in blog.html.
+ * Progress-list..............List with progress-bars styles.
+ * Resume-list..............List  styles.
+ * Section..............Sections styles.
+ * Site-btn..............Buttons styles.
+ * Slider-carousel..............Slider-carousel styles (Bootstrap 4.0).
+ * Style-switcher..............Switcher styles.
+ * Tags..............Tags styles.
+ *
+ * VENDOR
+ * Bootstrap..............Bootstrap 4.0 - framework of styles.
+ * Font-awesome..............Icon font.
+ *
+ */
+/*!
+ * Bootstrap v4.0.0-beta (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors
+ * Copyright 2011-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 @media print {
   *,
@@ -6598,11 +6644,19 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+<<<<<<< HEAD
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
+=======
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
@@ -6772,7 +6826,11 @@ a.text-dark:focus, a.text-dark:hover {
 .fa-inverse {
   color: #fff; }
 
+<<<<<<< HEAD
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+=======
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
    readers do not read off random characters that represent icons */
 .fa-glass:before {
   content: ""; }
@@ -8928,7 +8986,11 @@ a.text-dark:focus, a.text-dark:hover {
   overflow: visible;
   clip: auto; }
 
+<<<<<<< HEAD
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+=======
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
    readers do not read off random characters that represent icons */
 .fa-glass:before {
   content: ""; }
@@ -11067,12 +11129,21 @@ a.text-dark:focus, a.text-dark:hover {
   content: ""; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+<<<<<<< HEAD
 /* Document
    ========================================================================== */
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
+=======
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 html {
   line-height: 1.15;
@@ -11082,16 +11153,28 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */ }
 
+<<<<<<< HEAD
 /* Sections
    ========================================================================== */
 /**
  * Remove the margin in all browsers (opinionated).
+=======
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 body {
   margin: 0; }
 
+<<<<<<< HEAD
 /**
  * Add the correct display in IE 9-.
+=======
+/**
+ * Add the correct display in IE 9-.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 article,
 aside,
@@ -11101,19 +11184,33 @@ nav,
 section {
   display: block; }
 
+<<<<<<< HEAD
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
+=======
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
+<<<<<<< HEAD
 /* Grouping content
    ========================================================================== */
 /**
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
+=======
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 figcaption,
 figure,
@@ -11121,15 +11218,26 @@ main {
   /* 1 */
   display: block; }
 
+<<<<<<< HEAD
 /**
  * Add the correct margin in IE 8.
+=======
+/**
+ * Add the correct margin in IE 8.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 figure {
   margin: 1em 40px; }
 
+<<<<<<< HEAD
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
+=======
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 hr {
   -webkit-box-sizing: content-box;
@@ -11140,9 +11248,15 @@ hr {
   overflow: visible;
   /* 2 */ }
 
+<<<<<<< HEAD
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
+=======
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 pre {
   font-family: monospace, monospace;
@@ -11150,11 +11264,19 @@ pre {
   font-size: 1em;
   /* 2 */ }
 
+<<<<<<< HEAD
 /* Text-level semantics
    ========================================================================== */
 /**
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+=======
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 a {
   background-color: transparent;
@@ -11162,9 +11284,15 @@ a {
   -webkit-text-decoration-skip: objects;
   /* 2 */ }
 
+<<<<<<< HEAD
 /**
  * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+=======
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 abbr[title] {
   border-bottom: none;
@@ -11175,23 +11303,39 @@ abbr[title] {
           text-decoration: underline dotted;
   /* 2 */ }
 
+<<<<<<< HEAD
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+=======
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 b,
 strong {
   font-weight: inherit; }
 
+<<<<<<< HEAD
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
+=======
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 b,
 strong {
   font-weight: bolder; }
 
+<<<<<<< HEAD
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
+=======
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 code,
 kbd,
@@ -11201,28 +11345,49 @@ samp {
   font-size: 1em;
   /* 2 */ }
 
+<<<<<<< HEAD
 /**
  * Add the correct font style in Android 4.3-.
+=======
+/**
+ * Add the correct font style in Android 4.3-.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 dfn {
   font-style: italic; }
 
+<<<<<<< HEAD
 /**
  * Add the correct background and color in IE 9-.
+=======
+/**
+ * Add the correct background and color in IE 9-.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 mark {
   background-color: #ff0;
   color: #000; }
 
+<<<<<<< HEAD
 /**
  * Add the correct font size in all browsers.
+=======
+/**
+ * Add the correct font size in all browsers.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 small {
   font-size: 80%; }
 
+<<<<<<< HEAD
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
+=======
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 sub,
 sup {
@@ -11237,39 +11402,69 @@ sub {
 sup {
   top: -0.5em; }
 
+<<<<<<< HEAD
 /* Embedded content
    ========================================================================== */
 /**
  * Add the correct display in IE 9-.
+=======
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 audio,
 video {
   display: inline-block; }
 
+<<<<<<< HEAD
 /**
  * Add the correct display in iOS 4-7.
+=======
+/**
+ * Add the correct display in iOS 4-7.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 audio:not([controls]) {
   display: none;
   height: 0; }
 
+<<<<<<< HEAD
 /**
  * Remove the border on images inside links in IE 10-.
+=======
+/**
+ * Remove the border on images inside links in IE 10-.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 img {
   border-style: none; }
 
+<<<<<<< HEAD
 /**
  * Hide the overflow in IE.
+=======
+/**
+ * Hide the overflow in IE.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 svg:not(:root) {
   overflow: hidden; }
 
+<<<<<<< HEAD
 /* Forms
    ========================================================================== */
 /**
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
+=======
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 button,
 input,
@@ -11285,28 +11480,47 @@ textarea {
   margin: 0;
   /* 2 */ }
 
+<<<<<<< HEAD
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
+=======
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 button,
 input {
   /* 1 */
   overflow: visible; }
 
+<<<<<<< HEAD
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
+=======
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 button,
 select {
   /* 1 */
   text-transform: none; }
 
+<<<<<<< HEAD
 /**
  * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
+=======
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 button,
 html [type="button"],
@@ -11315,8 +11529,13 @@ html [type="button"],
   -webkit-appearance: button;
   /* 2 */ }
 
+<<<<<<< HEAD
 /**
  * Remove the inner border and padding in Firefox.
+=======
+/**
+ * Remove the inner border and padding in Firefox.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -11325,8 +11544,13 @@ button::-moz-focus-inner,
   border-style: none;
   padding: 0; }
 
+<<<<<<< HEAD
 /**
  * Restore the focus styles unset by the previous rule.
+=======
+/**
+ * Restore the focus styles unset by the previous rule.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
@@ -11334,17 +11558,30 @@ button:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText; }
 
+<<<<<<< HEAD
 /**
  * Correct the padding in Firefox.
+=======
+/**
+ * Correct the padding in Firefox.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 fieldset {
   padding: 0.35em 0.75em 0.625em; }
 
+<<<<<<< HEAD
 /**
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
+=======
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 legend {
   -webkit-box-sizing: border-box;
@@ -11361,9 +11598,15 @@ legend {
   white-space: normal;
   /* 1 */ }
 
+<<<<<<< HEAD
 /**
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+=======
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 progress {
   display: inline-block;
@@ -11371,15 +11614,26 @@ progress {
   vertical-align: baseline;
   /* 2 */ }
 
+<<<<<<< HEAD
 /**
  * Remove the default vertical scrollbar in IE.
+=======
+/**
+ * Remove the default vertical scrollbar in IE.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 textarea {
   overflow: auto; }
 
+<<<<<<< HEAD
 /**
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
+=======
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 [type="checkbox"],
 [type="radio"] {
@@ -11389,16 +11643,27 @@ textarea {
   padding: 0;
   /* 2 */ }
 
+<<<<<<< HEAD
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
+=======
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
+<<<<<<< HEAD
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
+=======
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 [type="search"] {
   -webkit-appearance: textfield;
@@ -11406,16 +11671,27 @@ textarea {
   outline-offset: -2px;
   /* 2 */ }
 
+<<<<<<< HEAD
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+=======
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
+<<<<<<< HEAD
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
+=======
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
@@ -11423,40 +11699,72 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+<<<<<<< HEAD
 /* Interactive
    ========================================================================== */
 /*
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
+=======
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 details,
 menu {
   display: block; }
 
+<<<<<<< HEAD
 /*
  * Add the correct display in all browsers.
+=======
+/*
+ * Add the correct display in all browsers.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 summary {
   display: list-item; }
 
+<<<<<<< HEAD
 /* Scripting
    ========================================================================== */
 /**
  * Add the correct display in IE 9-.
+=======
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 canvas {
   display: inline-block; }
 
+<<<<<<< HEAD
 /**
  * Add the correct display in IE.
+=======
+/**
+ * Add the correct display in IE.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 template {
   display: none; }
 
+<<<<<<< HEAD
 /* Hidden
    ========================================================================== */
 /**
  * Add the correct display in IE 10-.
+=======
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+>>>>>>> 00eb354f8b09512514b01bfa842aa09b309cd186
  */
 [hidden] {
   display: none; }
