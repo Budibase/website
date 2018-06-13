@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"
+baseURL = "https://www.digijo.co.uk/"
 languageCode = "en-us"
 title = "DigiJo - Belfast's Leading Marketing and Web Design Freelancer"
 theme = "hugo-theme-sarah"
@@ -11,6 +11,10 @@ dateform = "Jan 2, 2006"
 lang = "en"
 footertext = "written by DigiJo_"
 googleAnalytics = ""
+typeformid = "u6nTL7" # Required
+typeformuser = "myuser" # Optional
+typeformwidth = "100%" # Optional
+typeformheight = "800px" # Optional
 about = """
 I'm not in the marketing industry to serve people, I'm in the people industry to serve great digital marketing. As an award winning digital marketer from beautiful Belfast, I help local businesses reach their true potential. Before you know it, you'll be attracting and converting leads like you never thought possible.
 """
@@ -44,5 +48,3 @@ link = "www.tm3pm.com/"
 name = "KQ Barbering"
 desc = "Kristopher came to DigiJo for help with branding. DigiJo designed Kristopher a new logo, which represented the company's edge and style."
 img = "img/coverrun.png"
-
-
