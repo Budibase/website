@@ -1,0 +1,19 @@
+.cta-background{
+    background-color: $color-accent;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-size: relative;
+    position: relative;
+    color: $color-text-main;
+  
+    &::before{
+      background: $cta-background;
+      height: 100%;
+      left: 0;
+      right: 0;
+      position: absolute;
+      content: '';
+      z-index: 0;
+    }
+  }
