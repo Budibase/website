@@ -1,0 +1,254 @@
+
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+<!--Header-->
+<header class="main-header">
+  {{ partial "personal-header.html" . }}
+</header>
+<!--Header-->
+
+
+
+<!--Hello-->
+
+<section id="hello" class="container section">
+  <div class="row">
+    <div class="col-md-6">
+      <h2 id="hello_header" class="section__title">Award Winning Digital Marketing_</h2>
+
+  {{ .Site.Params.About | markdownify }}
+  
+
+    </div>
+    <div class="col-md-6 personal-profile__avatar center">
+      <img class="img-fluid rounded" src="img/homepage/about.jpg" alt="About-DigiJo">
+    </div>
+  </div>
+</section>
+<!--Hello-->
+
+<hr>
+
+<!--Services-->
+
+<section id="projects" class="container section">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 id="portfolio_header" class="section__title">Services_</h2>
+    </div>
+  </div>
+
+  <div class="portfolio-cards">
+
+
+    <div class="row project-card" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
+      <div class="col-md-6 col-lg-5 project-card__img">
+        <img class="" src="img/homepage/service-seo.jpg" alt="seo">
+      </div>
+      <div class="col-md-6 col-lg-7 project-card__info">
+        <h3 class="project-card__title">SEO</h3>
+        <p class="project-card__description">SEO is what I do best! I am a fully certified Google Specialist and one of Belfast's leading SEO Experts. SEO is an extremely cost-effective tactic for lead generation. My goal is to get your website to the top of Google's SERPs. Once your website reaches the peaks of Google, you will receive a generous increase in leads to your website.</p>
+        <a ref="nofollow" href="/seo" target="_blank" class="project-card__link">SEO_</a>
+      </div>
+    </div>
+
+    <div class="row project-card" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
+      <div class="col-md-6 col-lg-5 project-card__img">
+        <img class="" src="img/homepage/service-social-media.jpg" alt="graphic design">
+      </div>
+      <div class="col-md-6 col-lg-7 project-card__info">
+        <h3 class="project-card__title">Social Media Marketing</h3>
+        <p class="project-card__description">Social Media is a lifestyle. Its adaption is unparalleled. Brands can now target and interact with highly tailored audiences in seconds. Today, it's a crucial element of smart businesses' digital marketing strategy. As social media specialists, DigiJo can help you find new, loyal customers whilst improving brand awareness. Utilising our skills, we can deliver you results in no time! </p>
+        <a ref="nofollow" href="/social-media" target="_blank" class="project-card__link">SEO_</a>
+      </div>
+    </div>
+
+    <div class="row project-card" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
+      <div class="col-md-6 col-lg-5 project-card__img">
+        <img class="" src="img/homepage/service-web-design.jpg" alt="web design">
+      </div>
+      <div class="col-md-6 col-lg-7 project-card__info">
+        <h3 class="project-card__title">Web Design</h3>
+        <p class="project-card__description">I design beautiful websites that convert. I build easy-to-use responsive websites powered by WordPress, the world’s most widely-adopted CMS. You are in full control, so you can manage all of your site content and make changes were necessary. If you prefer to not use a CMS, I also build static websites - which are faster, more secure and often a lot cheaper! Whatever your website need, I have a solution that will convert your visitors into customers.</p>
+        <a ref="nofollow" href="/web-design" target="_blank" class="project-card__link">Web Design_</a>
+      </div>
+    </div>
+<!--
+    <div class="row project-card" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
+      <div class="col-md-6 col-lg-5 project-card__img">
+        <img class="" src="img/homepage/graphic-design.png" alt="graphic design">
+      </div>
+      <div class="col-md-6 col-lg-7 project-card__info">
+        <h3 class="project-card__title">Graphic Design</h3>
+        <p class="project-card__description">When it comes to Graphic Design, I am luckily joined by the amazingly talented digital artist Jennie Harvey. Jennie designs from the heart, I design from the head, so together we've got you covered. Every piece of graphic design we create, supports your objectives. Whether it's branding or illustration, we will not release a design unless we feel it drives emotion from you, your staff, and your customers. To produce amazing designs, we take time to get know you. This is a fun process and ensures the end product is one you can be proud of.</p>
+        <a ref="nofollow" href="/graphic-design" target="_blank" class="project-card__link">Graphic Design_</a>
+      </div>
+    </div>
+
+-->
+
+  </div>
+</section>
+
+<!--ServiceEnd-->
+
+<hr />
+
+<!--Testimonial-->
+
+<div class="grey-background">
+<div class="container section">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 id="portfolio_header" class="section__title">Why Choose DigiJo_</h2>
+    </div>
+  </div>
+
+  
+   <div class="row post-cards">
+      
+      
+      <div class="col-md-6">
+          <div class="post-cards__card">
+            <div class="post-cards__info">
+              <i class="fa fa-certificate fa-lg"></i>
+              <h3 class="post-cards_title">1. Fully certified</h3>
+              <p class="project-card__description">From my Adwords to Abobe, I am fully certified to take your business to a new level.</p>
+            </div>
+          </div>
+      </div>
+      
+      <div class="col-md-6">
+          <div class="post-cards__card">
+            <div class="post-cards__info">
+              <i class="fa fa-percent fa-lg"></i>
+              <h3 class="post-cards_title">2. Results Driven</h3>
+              <p class="project-card__description">First and foremost, I am results driven. I've always been this way and I am proud of it, and you'll be too. </p>
+            </div>
+          </div>
+        </div>
+
+      <div class="col-md-6">
+          <div class="post-cards__card">
+            <div class="post-cards__info">
+              <i class="fa fa-heart fa-lg"></i>
+              <h3 class="post-cards_title">3. Quality</h3>
+              <p class="project-card__description">Nothing leaves my computer without being quality tested by close assosiates and most importantly, you!</p>
+            </div>
+          </div>
+      </div>
+      
+      <div class="col-md-6">
+          <div class="post-cards__card">
+            <div class="post-cards__info">
+                <i class="fa fa-star fa-lg"></i>
+              <h3 class="post-cards_title">4. Price</h3>
+              <p class="project-card__description">At DigiJo, you'll get agency quality for freelance prices. I have little overheads, but a lot of skills and experience.</p>
+            </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!--TestimonialEnd-->
+
+<hr />
+
+
+
+{{ partial "allsystemsgrow.html" . }}
+
+
+<!--Projects-->
+
+</div>
+<section id="projects" class="container section">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 id="portfolio_header" class="section__title">Success Stories_</h2>
+    </div>
+  </div>
+
+  <div class="portfolio-cards">
+
+    {{ range $project := .Site.Params.Projects }}
+    <div class="row project-card" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
+      <div class="col-md-6 col-lg-5 project-card__img">
+        <img class="" src="/{{ $project.Img }}" alt="{{ $project.Name }}">
+      </div>
+      <div class="col-md-6 col-lg-7 project-card__info">
+        <h3 class="project-card__title">{{ $project.Name }}</h3>
+        <p class="project-card__description">{{ $project.Desc }}</p>
+        <a ref="nofollow" href="{{ $project.Link }}" target="_blank" class="project-card__link">{{ $project.Link }}</a>
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+</section>
+<!--Portfolio-->
+
+<hr />
+
+<!--Testimonial-->
+
+<div class="background">
+  <div class="container section">
+  <div class="row">
+    <div class="col-md-10">
+      <h2 id="hello_header" class="section__title">Award Winning Marketer_</h2>
+      <p class="section__description">
+	{{ .Site.Params.About | markdownify }}
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--TestimonialEnd-->
+
+<!--Blog-->
+<section id="blog" class="container section">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 id="blog_header" class="section__title">Latest Posts_</h2>
+    </div>
+  </div>
+
+  <div class="row post-cards">
+
+    {{ range first 3 .Data.Pages.ByPublishDate.Reverse }}
+    {{ if eq .Section "blog" }}
+    <div class="col-md-4">
+      <a href="blog.html">
+        <div class="post-cards__card">
+          <div class="post-cards__info">
+            <p class="post-cards__date">{{ .Date.Format .Site.Params.dateform }}</p>
+            <h3 class="post-cards_title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+	    {{ if isset .Params "tags" }}
+	    <ul class="tags">
+	      {{ range first 2 .Params.Tags }}
+	      <li><a class="meta" href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a></li>
+	      {{ end }}
+	    </ul>
+	    {{ end }}
+          </div>
+        </div>
+      </a>
+    </div>
+    {{ end }}
+    {{ end }}
+
+  </div>
+</section>
+<!--Blog-->
+
+
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,23 @@
+<div class="container ">
+        <div class="row personal-profile">
+          <div class="col-md-6 personal-profile__avatar">
+            <img class="" src="img/social-media/social-media-header.jpg" alt="Say Hello To Joe">
+          </div>
+          <div class="col-md-6">
+            <h1 class="personal-profile__name">Belfast Social Media Marketing Expert_</h1>
+            <h1 class="personal-profile__work">From Instagram advertising to viral campaigns, I'll grow your audience, your brand and your business.</h1>
+            <div class="personal-profile__contacts">
+              <dl class="contact-list contact-list__opacity-titles">
+            {{ range $info := .Site.Params.Info }}
+            <dt>Facebook</dt>
+              <dd>Certified</dd>
+            {{ end }}
+              </dl>
+            </div>
+      
+            {{ partial "social.html" . }}
+      
+          </div>
+        </div>
+      </div>
+      
