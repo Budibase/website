@@ -19,12 +19,6 @@
   <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
   {{ end }}
 
-  <!-- CSS -->
-  <link href="{{ .Site.BaseURL }}css/main.css?hash={{ $staticHash }}" rel="stylesheet">
-  <link href="{{ .Site.BaseURL }}css/highlightjs-dracula.css?hash={{ $staticHash }}" rel="stylesheet">
-
-  <!-- CSS - Fonts -->
-  <link href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css" rel="stylesheet">
 
   <!-- Google Analytics -->
   {{ template "_internal/google_analytics_async.html" . }}
