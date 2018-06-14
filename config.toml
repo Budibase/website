@@ -1,4 +1,4 @@
-baseURL = "https://digijo.netlify.com/"
+baseURL = "https://digijo.co.uk/"
 languageCode = "en-us"
 title = "DigiJo - Belfast's Leading Marketing and Web Design Freelancer"
 theme = "hugo-theme-sarah"
@@ -45,7 +45,4 @@ desc = "At TM3 I co-ordinated with Eyekiller to design a beautiful, responsive w
 img = "img/homepage/testimonials/tm3.jpg"
 link = "www.tm3pm.com/"
 
-[[params.projects]]
-name = "KQ Barbering"
-desc = "Kristopher came to DigiJo for help with branding. DigiJo designed Kristopher a new logo, which represented the company's edge and style."
-img = "img/coverrun.png"
+

@@ -1,0 +1,134 @@
+.price-tag {
+	display: block;
+	padding: 0.75rem 0;
+}
+.price-tag--1 {
+	font-size: 3rem;
+}
+.price-tag--1 sup {
+	font-size: 1.25rem;
+	color: rgba(0, 0, 0, 0.4);
+	top: -1em;
+	right: -8px;
+}
+.price-tag--1 .price-type {
+	font-size: 0.875rem;
+	color: rgba(0, 0, 0, 0.4);
+	position: relative;
+	left: -10px;
+}
+.pricing-plans:after,
+.pricing-plans:before,
+.pricing-table:after,
+.pricing-table:before {
+	display: table;
+	content: " ";
+}
+.pricing-plans:before,
+.pricing-table:before {
+	clear: both;
+}
+
+.pricing-plans .plan-title {
+	margin: 0;
+	padding: 1rem 0;
+	font-size: $font-size-t5;
+	font-weight: 600;
+	color: $color-accent;
+}
+.pricing-plans .price-tag {
+	margin: 0;
+	height: 90px;
+	line-height: 90px;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+}
+.pricing-plans .price-tag span {
+	font-size: 28px;
+	font-weight: 600;
+}
+.pricing-plans .price-tag span.price-type {
+	font-size: 20px;
+	font-weight: 500;
+}
+.pricing-plans ul {
+	margin: 0;
+	padding: 0 15px;
+	list-style: none;
+}
+.pricing-plans ul li {
+	padding: 10px 0;
+	border-bottom: 1px solid $color-accent;
+	font-size: $font-size-sm;
+}
+.pricing-plans ul li i {
+	margin-right: 8px;
+}
+.pricing-plans .plan-info {
+	margin: 0;
+	padding: 15px;
+	text-align: center;
+}
+.pricing-plans .plan-select {
+	padding: 15px;
+	border-top: 1px solid $color-accent;
+}
+// Pricing plans: STYLE 1
+.pricing-plans--style-1 .block-pricing {
+	background: $card-bg;
+}
+.pricing-plans--style-1 .block-pricing.active {
+	background: $linear-gradient-background;
+	color: $color-accent;
+}
+.pricing-plans--style-1 .block-pricing.active * {
+	color: $color-text-main;
+}
+.pricing-plans--style-1 .block-pricing.active .btn {
+	color: $color-text-main !important;
+	border-color: $color-text-main !important;
+}
+.pricing-plans--style-1 .plan-title {
+	margin: 0;
+	font-size: 1rem;
+	font-weight: 500;
+	background: transparent;
+	color: $linear-gradient-background;
+	text-transform: normal;
+}
+.pricing-plans--style-1 .price-tag {
+	margin: 0;
+	padding: 1rem ;
+	font-size: 4rem;
+	font-weight: 400;
+	height: auto;
+	line-height: 1;
+	text-align: center;
+	color: $linear-gradient-background;
+}
+.pricing-plans--style-1 .price-tag span {
+	font-size: 28px;
+	font-weight: 600;
+	color: $color-text-main;
+}
+.pricing-plans--style-1 .price-tag span.price-type {
+	font-size: 20px;
+	font-weight: 500;
+}
+.pricing-plans--style-1 .price-tag-subtitle {
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: capitalize;
+	color: $color-text-main;
+	display: block;
+	text-align: center;
+}
+.pricing-plans--style-1 ul li {
+	padding: 0.875rem 0;
+	color: $color-text-main;
+}
+.pricing-plans--style-1 ul li.active {
+	color: $color-text-main;
+}
+
