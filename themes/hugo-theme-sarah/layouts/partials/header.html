@@ -23,6 +23,9 @@
   <!-- Google Analytics -->
   {{ template "_internal/google_analytics_async.html" . }}
 
+  <link href="{{ .Site.BaseURL }}css/main.css?hash={{ $staticHash }}" rel="stylesheet">
+
+
   <!-- RSS -->
   {{ if .RSSLink }}
   <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
