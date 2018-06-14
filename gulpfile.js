@@ -1,4 +1,4 @@
-const gulp = require('gulp'); 
+const gulp = require('gulp');
 const runSequence = require('run-sequence');
 const watch = require('gulp-watch');
 const sass = require('gulp-sass');
@@ -7,18 +7,10 @@ const autoprefixer = require('gulp-autoprefixer');
 const notify = require('gulp-notify');
 const cssnano = require('gulp-cssnano');
 const plumber = require('gulp-plumber');
+
 const scssFiles = ['./static/scss/**/*.scss'];
 const scssMain = ['./static/scss/main.scss'];
-const pathStyleDest = ['./static/css'];
-
-
-// cssnano
-gulp.task('default', function() {
-  return gulp.src('./themes/hugo-theme-sarah/static/css/main.css')
-      .pipe(cssnano())
-      .pipe(rename( {suffix : 'min'}) )
-      .pipe(gulp.dest('./themes/hugo-theme-sarah/static/css/'));
-});
+const pathStyleDest = './static/css';
 
 // SASS
 gulp.task('style', function () {

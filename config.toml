@@ -45,6 +45,4 @@ desc = "At TM3 I co-ordinated with Eyekiller to design a beautiful, responsive w
 img = "img/homepage/testimonials/tm3.jpg"
 link = "www.tm3pm.com/"
 
-{{< gist ratson 3fa6ed459c6770f02767 >}}
-
 
