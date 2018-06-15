@@ -6,7 +6,7 @@ description = "A no BS approach to marketing strategy. These 5 simple tips will 
 +++
 
 
-**It's Christmas, we should be relaxing, drinking wine, farting out loud with that ‘I don’t give a feck attitude’! And rightly so! But what happens when January comes? Are you prepared for 2018? Or are you clawing on to your Americano with desperation? Well, you can relax, your 3rd favourite Irish Marketer has got your back. In January you can smooth into your office like a Marketing Martyr who’s recently read 50 shades of Seth Godin. I introduce you to a sweet collection of 5 tips for your 2018 marketing plan. Read on — you’re going to dig it.**
+It's Christmas, we should be relaxing, drinking wine, farting out loud with that ‘I don’t give a feck attitude’! And rightly so! But what happens when January comes? Are you prepared for 2018? Or are you clawing on to your Americano with desperation? Well, you can relax, your 3rd favourite Irish Marketer has got your back. In January you can smooth into your office like a Marketing Martyr who’s recently read 50 shades of Seth Godin. I introduce you to a sweet collection of 5 tips for your 2018 marketing plan. Read on — you’re going to dig it.
 
 Marketing plans come in all shapes and sizes. Some marketers consider marketing plans to be long lists of whatever task is ‘hip’ at that moment in time — Facebook, Twitter, Instagram, PPC, everything digital, Facebook, Facebook. The lists are general meaningless with no substance. We need more than just bones in marketing, we need meat — juicy, data-driven meat. It’s time to bulk up those lists.<br>
 
