@@ -11,7 +11,7 @@
       transition: all 0.3s;
   
       &:hover{
-        box-shadow: 0 1px 31px rgba(0,0,0,0.09);
+        box-shadow: $box-shadow-btn;
       }
     }
   
@@ -42,8 +42,8 @@
   
     .cta_title{
       font-family: $font-family-title;
-      font-size: $font-size-t4;
-      line-height: $line-height-t5;
+      font-size: $font-size-t3;
+      line-height: $line-height-t3;
       text-transform: uppercase;
       margin-bottom: 15px;
       font-weight: 700;
@@ -51,7 +51,7 @@
     }
   
     .cta_description{
-      font-size: $font-size-t5;
+      font-size: $font-size-t4;
       line-height: $line-height-t3;
       color: $color-text-light;
       margin-bottom: 20px;
