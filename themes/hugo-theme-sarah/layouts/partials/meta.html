@@ -6,5 +6,6 @@
 <title>{{ .Site.Title }}</title>
 {{ else }}
 {{ with .Params.Tags }}<meta name="keywords" content="{{ range $index, $tag := . }}{{ if $index }},{{ end }}{{ $tag }}{{ end }}">{{ end }}
-<title>{{ .Title }} - {{ .Site.Title }}</title>
+<title>{{ .Title }}</title>
+{{ with .Params.Description }}<meta name="description" content="{{ . }}">{{ end }}
 {{ end }}

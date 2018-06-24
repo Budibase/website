@@ -6,9 +6,15 @@ description = "A no BS approach to marketing strategy. These 5 simple tips will 
 +++
 
 
-It's Christmas, we should be relaxing, drinking wine, farting out loud with that ‘I don’t give a feck attitude’! And rightly so! But what happens when January comes? Are you prepared for 2018? Or are you clawing on to your Americano with desperation? Well, you can relax, your 3rd favourite Irish Marketer has got your back. In January you can smooth into your office like a Marketing Martyr who’s recently read 50 shades of Seth Godin. I introduce you to a sweet collection of 5 tips for your 2018 marketing plan. Read on — you’re going to dig it.
+It's Christmas, you should be relaxing, drinking wine, farting out loud with that ‘I don’t give a feck attitude’! And rightly so! 
 
-Marketing plans come in all shapes and sizes. Some marketers consider marketing plans to be long lists of whatever task is ‘hip’ at that moment in time — Facebook, Twitter, Instagram, PPC, everything digital, Facebook, Facebook. The lists are general meaningless with no substance. We need more than just bones in marketing, we need meat — juicy, data-driven meat. It’s time to bulk up those lists.<br>
+But what happens when January comes? Are you prepared for 2018? Or are you clawing on to your Americano with desperation? 
+
+Well, you can relax, your 3rd favourite Irish Marketer has got your back. In January you can skip into your office like a marketing martyr who’s recently read 50 shades of Seth Godin. 
+
+Marketing plans come in all shapes and sizes. Some marketers consider marketing plans to be long lists of whatever task is ‘hip’ at that moment in time — Facebook, Twitter, Instagram, PPC, everything digital, Facebook, Facebook. 
+
+The lists are general meaningless with no substance. We need more than just bones in marketing, we need meat — juicy, data-driven meat. It’s time to bulk up those lists.
 
 <h2>What is a marketing plan?</h2>
 
@@ -26,7 +32,7 @@ Why are you writing this marketing plan? Is it for a single campaign, or a compa
 
 Keep your plan simple. Your marketing plan must be easily communicated and straight to the point. No messing around, you ain't got the time! </blockquote>
 
-<h2>Get your trainers on, we're about to jump over 5 key steps to produce a sweet marketing plan!</h2>
+<h2>5 steps to create a sweet marketing plan!</h2>
 
 <iframe src="https://giphy.com/embed/uokhSmdmyfh2o" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/rocky-uokhSmdmyfh2o"></a></p>
 
@@ -34,12 +40,15 @@ Keep your plan simple. Your marketing plan must be easily communicated and strai
 
 <h3>Step 1 - Justify!</h3>
 
-Remember that old saying, ‘You can’t sell snow to the Eskimos’? The same goes for marketing. Does your product or business offer something unique? If it doesn’t, your first step is to find your USP. If you can’t find it, you need to rethink your product/service/business. To put it bluntly, no amount of great marketing will help shift a shitty product.<br>
+Remember that old saying, ‘You can’t sell snow to the Eskimos’? The same goes for marketing. 
 
-Make sure what you are offering is what people want and unique. Don’t jump into bed with marketing until you have your USP. You’ll only end up disappointed if you don’t - it sucks. This is the most important step in this entire post - DO NOT UNDERESTIMATE THIS.<br>
+Does your product or business offer something unique? If it doesn’t, your first step is to find your USP. If you can’t find it, you need to rethink your product/service/business. 
 
-Thankfully, research plays a large part in this step. Understanding what your customer wants, and giving them more. Marketing should always be involved in R&D. In my eyes, it should be MRD - market research and development (massively biased). Marketing should feed into R&D. Do you know your target market? Ask them what they like, what gets them to press the purchase button. Once they tell you, ask them what could make that one thing better - the cherry on the top strategy. It’s at this stage you are gathering feedback which will create the blueprint for your USP. Once you have this USP, you have your validation, your target market, and a glorious night with sweet, sweet marketing success.
+To put it bluntly, no amount of great marketing will help shift a shitty product.
 
+Make sure what you are offering is what people want and unique. Don’t jump into bed with marketing until you have your USP. You’ll only end up disappointed if you don’t - it sucks. 
+
+This is the most important step in this entire post - DO NOT UNDERESTIMATE THIS.
 
 
 <h3>Step 2 - Objectives</h3>
