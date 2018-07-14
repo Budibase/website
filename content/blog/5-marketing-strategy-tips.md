@@ -24,7 +24,7 @@ To use a boring football analogy, a team’s strategy may be to win the league, 
 
 But before you jump in, there is one tiny hurdle to consider:
 
-<centre><iframe src="https://giphy.com/embed/L4GGMA4HMqJHi" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dog-hurdles-L4GGMA4HMqJHi"></a></p></centre>
+
 
 Why are you writing this marketing plan? Is it for a single campaign, or a company marketing strategy. Both are very different as you can guess: a campaign marketing plan only focuses on the campaign, a company marketing plan focuses on everything.
 
@@ -34,7 +34,7 @@ Keep your plan simple. Your marketing plan must be easily communicated and strai
 
 <h2>5 steps to create a sweet marketing plan!</h2>
 
-<iframe src="https://giphy.com/embed/uokhSmdmyfh2o" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/rocky-uokhSmdmyfh2o"></a></p>
+
 
 
 
@@ -57,7 +57,7 @@ Once you pick the destination, the journey is much clearer - Pick a SMART object
 
 Your objective is the focal point for any marketing plan. It’s your plan’s north star, your light at the end of the tunnel, your McDonalds after your workout (I’m not the gym type).
 
-<iframe src="https://giphy.com/embed/xUA7b6kzzYVKmcqZfW" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/movie-lisa-kudrow-romy-and-micheles-high-school-reunion-xUA7b6kzzYVKmcqZfW"></a></p>
+
 
 Before you start thinking about specific tactics or growth hacks (apologies to anyone who is offended by this term), you need to have your objective locked down.
 
@@ -146,7 +146,6 @@ I think what’s important at this stage is to picture your perfect customer and
 
 You now understand why you are doing this, who you are targeting, and the direction you are going in. You are ready to get creative. The time is now. It’s show time!
 
-<iframe src="https://giphy.com/embed/Pbxj4ujhKth8Q" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>
 
 As marketers, we are our own worst enemies. We love shiny new things. We are the early adapters searching for our next fix. This is great but it’s also our downfall. We will often jump on the bandwagon of a new marketing trend #InstaRush #Who’sYourData. Sadly, we must be analytical and focused. If you are marketing to an older generation, Snapchat is sadly not your medium.
 
@@ -161,8 +160,6 @@ You now have the research and information to make a rational approach to what ty
 An objective may be the north star, but to get to your destination you are going to need a few sign posts on the way. Targets are important, they keep people motivated and on-course.
 
 Performance anxiety… It’s horrible and we all get it in marketing. We refrain from setting targets, and telling people where we sit with those targets. It’s not a great feeling telling someone you are not performing. But guess what, from measuring your marketing tactics above, you can pinpoint why you are not hitting those targets.
-
-<iframe src="https://giphy.com/embed/cLJdDcAWTkW6k" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></p>
 
 Targets should be broken down by time; monthly, weekly, daily. Your reviews should reflect these targets. Belfast Marketing’s targets break down our objectives on a monthly basis. There are 5 months left of 2017; we hoped to have 30 Meetup members by the end of July - awesome! We wanted to have a website up and running by August - awesome. We wanted to have 30 Facebook followers by the end of July - dammit. But that’s ok, I know what I need to do. I need to up my Facebook game and hopefully, this post will help.
 
