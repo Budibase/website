@@ -1,7 +1,7 @@
 baseURL = "https://digijo.co.uk/"
 languageCode = "en-us"
 title = "DigiJo - Award Winning Digital Marketing Consultant Belfast"
-Description = "Digital Marketing Consultant based in Belfast, Northern Ireland. Award-winner in search marketing: SEO, Social, and Web Design."
+description = "Digital Marketing Consultant based in Belfast, Northern Ireland. Award-winner in search marketing: SEO, Social, and Web Design."
 theme = "hugo-theme-sarah"
 
 
