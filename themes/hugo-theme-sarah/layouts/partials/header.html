@@ -11,6 +11,10 @@
  <link href="{{ .Site.BaseURL }}css/main.css?hash={{ $staticHash }}" rel="stylesheet">
  <link href="{{ .Site.BaseURL }}css/highlightjs-dracula.css?hash={{ $staticHash }}" rel="stylesheet">
 
+  <!-- CSS - Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Inconsolata" rel="stylesheet">
+  <link href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css" rel="stylesheet">
+
   {{ partial "meta.html" . }}
 
   {{ with .Site.Params.Author }}<meta name="author" content="{{ . }}">{{ end }}
@@ -19,12 +23,6 @@
   {{ .Hugo.Generator }}
 
 
-
-
-
-  <!-- CSS - Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Inconsolata" rel="stylesheet">
-  <link href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css" rel="stylesheet">
 
 
     <!-- RSS -->
