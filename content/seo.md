@@ -1,6 +1,6 @@
 ---
-title: Belfast SEO Expert - Award Winning Search Engine Optimisation
-description: Award Winning SEO consultant based in Belfast, providing complete SEO services that will rocket your website to the top of search engines and find you new customers.
+title: Belfast SEO Consultant - Award Winning Search Engine Optimisation
+description: Belfast SEO Consultant with a track record of Generating Millions of New Revenue for my Clients with Organic Search Engine Traffic.
 type: seo
 layout: single
 date: 2017-07-31
