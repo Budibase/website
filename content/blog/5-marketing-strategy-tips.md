@@ -2,7 +2,7 @@
 date = "2017-12-19"
 title = "5 marketing strategy tips that you have to be doing - or you'll cry"
 tags = ["marketing strategy"]
-description = "A no BS approach to marketing strategy. These 5 simple tips will help, make you smile and drive your marketing strategy to the sweet avenues of success."
+description = "A no BS approach to marketing strategy.  5 simple tips to help you, make you smile and bring you marketing success."
 +++
 
 

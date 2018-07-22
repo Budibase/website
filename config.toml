@@ -1,12 +1,12 @@
 baseURL = "https://digijo.co.uk/"
 languageCode = "en-us"
 title = "DigiJo - Award Winning Digital Marketing Consultant Belfast"
-description = "Digital Marketing Consultant based in Belfast, Northern Ireland. Award-winner in search marketing: SEO, Social, and Web Design."
 theme = "hugo-theme-sarah"
 
 
 [params]
 author = "DigiJo"
+description = "Digital marketing consultant based in Belfast, Northern Ireland. Award-winner in SEO, Social, and Web Design."
 keywords = ["Digital Marketing", "Web Design", "Branding"]
 avatar = "img/header-image.jpg"
 dateform = "Jan 2, 2006"
@@ -40,4 +40,9 @@ desc = "At TM3 I co-ordinated with Eyekiller to design a beautiful, responsive w
 img = "img/homepage/testimonials/tm3.jpg"
 link = "https://www.tm3pm.com/"
 
+enableRobotsTXT = true
+canonifyURLs = true
+# and if you think your md file names or locations might change:
+[permalinks]
+    post = "/blog/:title/"
 
