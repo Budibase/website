@@ -61,7 +61,7 @@ Your objective is the focal point for any marketing plan. It’s your plan’s n
 
 Before you start thinking about specific tactics or growth hacks (apologies to anyone who is offended by this term), you need to have your objective locked down.
 
-For example, here’s a breakdown of some of Belfast Marketing's Goals:
+For example, here’s a breakdown of some of DigiJo's Goals:
 
 <b>2017:</b>
 
@@ -97,8 +97,6 @@ Attract 2 guest speakers to Meetups
 
 Clear and well-defined objectives are easily translated to your team members. You want everyone on the same page with your objectives; Sailing towards the sunset in sweet harmony. One strange observation I’ve made over time, is business owners seem to scare away from quantifying their objectives. Don’t scare away! Objectives are not there to catch you out, they are there to keep you driving in the one direction - and who doesn’t love achieving their objectives! If you don’t achieve your objective, ask yourself why and calculate the difference, and input your learning into your next objectives. You’ll get there in the end. Always learning, always growing.
 
-All tasks Peter and I complete are focused on getting closer to Belfast Marketing’s objectives. This blog post, for example, will hopefully drive visitors to our website, grow membership and our Facebook presence once shared.
-
 Take a few seconds, close your eyes and ask yourself what’s the most important focus for your company right now?
 
 Answering that question is a super way to figure out your first objective.
@@ -113,7 +111,7 @@ At a basic level, you want to know two key components of your target market:
 
 <mark>Who are they? What's their age, sex, interests?</mark>
 
-At Belfast Marketing we understand our target audience to be:
+At DigiJo, I understand my target audience to be:
 
 1. Either a marketer, business owner, charity or marketing enthusiast.
 
@@ -161,7 +159,7 @@ An objective may be the north star, but to get to your destination you are going
 
 Performance anxiety… It’s horrible and we all get it in marketing. We refrain from setting targets, and telling people where we sit with those targets. It’s not a great feeling telling someone you are not performing. But guess what, from measuring your marketing tactics above, you can pinpoint why you are not hitting those targets.
 
-Targets should be broken down by time; monthly, weekly, daily. Your reviews should reflect these targets. Belfast Marketing’s targets break down our objectives on a monthly basis. There are 5 months left of 2017; we hoped to have 30 Meetup members by the end of July - awesome! We wanted to have a website up and running by August - awesome. We wanted to have 30 Facebook followers by the end of July - dammit. But that’s ok, I know what I need to do. I need to up my Facebook game and hopefully, this post will help.
+Targets should be broken down by time; monthly, weekly, daily. Your reviews should reflect these targets. DigiJo's targets break down our objectives on a monthly basis. There are 5 months left of 2017; we hoped to have 30 Meetup members by the end of July - awesome! We wanted to have a website up and running by August - awesome. We wanted to have 30 Facebook followers by the end of July - dammit. But that’s ok, I know what I need to do. I need to up my Facebook game and hopefully, this post will help.
 
 <blockquote>Tip Top: Reviewing those targets is imperative to success. 
 

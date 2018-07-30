@@ -7,7 +7,7 @@ theme = "hugo-theme-sarah"
 [params]
 author = "DigiJo"
 description = "Digital marketing consultant based in Belfast, Northern Ireland. Award-winner in SEO, Social, and Web Design."
-keywords = ["Digital Marketing", "Web Design", "Branding"]
+keywords = ["Digital Marketing", "Web Design", "SEO"]
 avatar = "img/header-image.jpg"
 dateform = "Jan 2, 2006"
 lang = "en"

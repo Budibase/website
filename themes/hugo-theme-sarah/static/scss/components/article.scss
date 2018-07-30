@@ -1,6 +1,6 @@
 .article{
   background-color: #ffffff;
-  padding: 50px 160px 60px 160px;
+  padding: 50px 130px 60px 160px;
   margin-top: -270px;
   
   margin-bottom: 40px;
@@ -23,11 +23,10 @@
   }
 
   .article__title{
-    font-family: $font-family-title;
-    text-transform: uppercase;
-    font-weight: 700;
     margin-top: 60px;
     margin-bottom: 40px;
+    font-weight: 500;
+
   }
 
   .article_date{
@@ -39,20 +38,23 @@
 
   p{
     margin-bottom: 20px;
-    font-size: 1em;
-    line-height: 2em;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    color: #757575
   }
 
   h2{
     margin-top: 60px;
     margin-bottom: 40px;
-    font-family:  monospace
+    font-weight: 500;
+    color: #424242
   }
 
   h3{
     margin-top: 50px;
     margin-bottom: 30px;
-    font-family:  monospace
+    font-weight: 500;
+    color: #424242
   }
 
   img{
