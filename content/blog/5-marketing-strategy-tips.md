@@ -3,7 +3,6 @@ date = "2017-12-19"
 title = "5 tips for your next marketing strategy"
 tags = ["marketing strategy"]
 description = "A no BS approach to marketing strategy.  5 simple tips to help you, make you smile and bring you marketing success."
-featured_image= "seo-header.jpg"
 +++
 
 
