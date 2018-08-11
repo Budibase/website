@@ -5,7 +5,7 @@ theme = "hugo-theme-sarah"
 
 
 [params]
-author = "DigiJo"
+author = "Joseph Johnston"
 description = "Digital marketing consultant based in Belfast, Northern Ireland. Award-winner in SEO, Social, and Web Design."
 keywords = ["Digital Marketing", "Web Design", "SEO"]
 avatar = "img/header-image.jpg"

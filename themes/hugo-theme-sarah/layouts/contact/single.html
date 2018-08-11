@@ -10,55 +10,49 @@
 <!--Header-->
 
 
-
-<!--Blog-->
-<!--div class="background" removed indigers for a gradient bg-->
-  <section id="blog" class="container section">
+<div class="container section">
   <div class="row">
     <div class="col-md-12">
-      <h2 id="blog_header" class="section__title">Quick Contact_</h2>
+      <h2 id="blog_header" class="section__title">Leave Me A Message_</h2>
+      <p>Leave me a message below using the contact form. Alternatively, contact me using live chat.</p>
     </div>
   </div>
 
-  <div class="row post-cards">
-    <div class="col-md-4">
-      <a href="blog.html">
-        <div class="post-cards__card">
-          <div class="post-cards__info">
-            <h3 class="post-cards_title"><a href="{{ .Permalink }}">Phone</a></h3>
-            <p class="post-cards__date">07718904774</p>
+<div class="form-control">
+  <div class="container" >
+        <form name="contact" method="POST" netlify>
+            
+          <div class="row">
+            <div class="col">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="col">
+                <label for="exampleFormControlInput1">Company</label>
+                <input type="text" class="form-control" placeholder="Company Name">
+              </div>
           </div>
-        </div>
-      </a>
-    </div>
+          <br>
 
-    <div class="col-md-4">
-      <a href="blog.html">
-        <div class="post-cards__card">
-          <div class="post-cards__info">
-            <h3 class="post-cards_title"><a href="{{ .Permalink }}">Email</a></h3>
-            <p class="post-cards__date">hi@digijo.co.uk</p>
-          </div>
-        </div>
-      </a>
-      </div>
+          <div class="row">
+            <div class="col">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="col">
+                <label for="exampleFormControlInput1">Phone Number</label>
+                <input type="text" class="form-control" placeholder="Phone Number">
+              </div>
+            </div>
+            <br>
 
-    <div class="col-md-4">
-      <a href="blog.html">
-        <div class="post-cards__card">
-          <div class="post-cards__info">
-            <h3 class="post-cards_title"><a href="{{ .Permalink }}">Live Chat</a></h3>
-            <p class="post-cards__date">Down Below</p>
-          </div>
-        </div>
-      </a>
-    </div>
+            <label for="exampleFormControlInput1">Message</label>
+            <textarea class="form-control" name="text" placeholder="How can I help you?" style="height:150px;"></textarea><br /></div>
+            <input class="btn btn-outline-warning" type="submit" value="SEND MESSAGE" /><br /><br />
+        </form>
+</div>
 </div>
 
-</section>
-
-{{ partial "typeform.html" . }}
-
-
+</div>
 
 {{ partial "footer.html" . }}

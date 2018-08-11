@@ -20,11 +20,16 @@
 
         <h1 class="article__title">{{ .Title }}</h1>
         <p class="article_date">
-	  {{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}
-	</p>
+	  {{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read | Author: {{ .Site.Params.author }}{{ end }}
+  </p>
+
+
 	{{ partial "share.html" . }}
 
-	{{ .Content }}
+  {{ .Content }}
+  <p class="article_date">
+Author: {{ .Site.Params.author }}
+</p>
 
   {{ partial "share.html" . }}
       </div>
