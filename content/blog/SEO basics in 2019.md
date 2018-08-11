@@ -1,7 +1,7 @@
 +++
 
 date = "2018-01-01"
-draft = "false"
+draft = "true"
 title = "Must know SEO basics in 2019"
 categories = ["SEO"] 
 tags = ["SEO", "Keyword Research", "ETM", "Crawling"]
