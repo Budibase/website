@@ -34,27 +34,24 @@
 <script src="{{ .Site.BaseURL }}js/mbclicker.min.js?hash={{ $staticHash }}"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
+<<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
 <div class="fb-customerchat"
- page_id="2223418551220860"
- minimized="true">
+  attribution=setup_tool
+  page_id="2223418551220860"
+  theme_color="#ec8b69"
+  logged_in_greeting="Hello from Digijo. If you need any digital marketing advice, I'm here to help."
+  logged_out_greeting="Hello from Digijo. If you need any digital marketing advice, I'm here to help.">
 </div>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId            : '912333495590130',
-      autoLogAppEvents : true,
-      xfbml            : true,
-      version          : 'v2.11'
-    });
-  };
-(function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
 
 </body>
 </html>
