@@ -201,7 +201,7 @@
 <!--TestimonialEnd-->
 
 <!--Blog-->
-<section id="blog" class="container section">
+<section class="container section">
   <div class="row">
     <div class="col-md-12">
       <h2 id="blog_header" class="section__title">Latest Posts_</h2>
@@ -210,7 +210,7 @@
 
   <div class="row post-cards">
 
-    {{ range first 3 .Data.Pages.ByPublishDate.Reverse }}
+    {{ range .Data.Pages.ByPublishDate.Reverse }}
     {{ if eq .Section "blog" }}
     <div class="col-md-4">
       <a href="blog.html">
@@ -218,13 +218,14 @@
           <div class="post-cards__info">
             <p class="post-cards__date">{{ .Date.Format .Site.Params.dateform }}</p>
             <h3 class="post-cards_title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-	    {{ if isset .Params "tags" }}
-	    <ul class="tags">
-	      {{ range first 2 .Params.Tags }}
-	      <li><a class="meta" href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a></li>
-	      {{ end }}
-	    </ul>
-	    {{ end }}
+
+      {{ if isset .Params "tags" }}
+      <ul class="tags">
+        {{ range first 2 .Params.Tags }}
+        <li><a class="meta" href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
           </div>
         </div>
       </a>
