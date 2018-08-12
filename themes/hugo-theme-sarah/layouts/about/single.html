@@ -1,0 +1,124 @@
+
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+<!--Header-->
+<header class="main-header">
+    <div class="container ">
+        <div class="row personal-profile">
+          <div class="col-md-6 personal-profile__avatar">
+            <img class="" src="img\about\life.png" alt="Say Hello To Joe">
+          </div>
+          <div class="col-md-6">
+            <h1 class="personal-profile__name">About DigiJo_</h1>
+            <h1 class="personal-profile__work">For over 10 years, I've has helped Belfast businesses attract and convert new customers.</h1>
+            <div class="personal-profile__contacts">
+              <dl class="contact-list contact-list__opacity-titles">
+            {{ range $info := .Site.Params.Info }}
+            <dt>Certified</dt>
+          <dd>Google Specialist</dd>
+            {{ end }}
+              </dl>
+            </div>
+      
+            {{ partial "social.html" . }}
+      
+          </div>
+        </div>
+      </div>
+      
+</header>
+
+<!--HeaderEnd-->
+
+<section id="hello" class="container section">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 id="hello_header" class="section__title">Joe Johnston</h2>
+        <p>My name is Joseph Johnston and I am a <a href="https://www.digijo.co.uk/belfast-web-design">Web Design</a> and <a href="https://www.digijo.co.uk/belfast-seo">SEO</a> consultant based in Belfast. Recently, I decided to brand myself professional so I use the name DigiJo - a combination and minification of the name Digital Joe (Rocket Science!).  </p>
+      </div>
+      <div class="col-md-6 personal-profile__avatar center">
+        <img class="img-fluid rounded" src="img\about\josephjohnston.svg" alt="What-is-seo-belfast">
+      </div>
+    </div>
+</section>
+
+<section id="hello" class="container section">
+    <div class="row">
+        <div class="col-md-6 personal-profile__avatar center">
+            <img class="img-fluid rounded" src="img\about\bot.svg" alt="What-is-seo-belfast">
+      </div>
+      <div class="col-md-6">
+        <h2 id="hello_header" class="section__title">Black Hat SEO (Bad)</h2>
+        <p>My first taste of SEO and web design was certainly not something to be proud of. Over 15 years ago, I had too much time on my young hands and decided to dabble in the world of Black Hat SEO, bots and Ad Sense.  
+          </p>
+      </div>
+    </div>
+  </section>
+
+<section id="hello" class="container section">
+  <div class="row">
+    <div class="col-md-6">
+      <h2 id="hello_header" class="section__title">White Hat SEO (Good)</h2>
+      <p>At the beginning, the return on investment was incredible, but short lived. Google picked up on what I was doing and my sites were penalised. I decided to stop with the dark arts of SEO. But my love for SEO continued and I moved into the more ethical side - white hat SEO. 
+        </p>
+    </div>
+    <div class="col-md-6 personal-profile__avatar center">
+      <img class="img-fluid rounded" src="img\about\blackhat.svg" alt="What-is-seo-belfast">
+    </div>
+  </div>
+</section>
+
+<section id="hello" class="container section">
+  <div class="row">
+      <div class="col-md-6 personal-profile__avatar center">
+          <img class="img-fluid rounded" src="img\about\web-design.svg" alt="What-is-seo-belfast">
+        </div>
+    <div class="col-md-6">
+      <h2 id="hello_header" class="section__title">Web Design Time</h2>
+      <p>Before moving to white hat SEO, I could design a website in plain HTML and minimal CSS. That's all what was required for previous ventures. Moving to white hat SEO helped me to consider the design and flow of a website. A loved for web design was born.
+        </p>
+    </div>
+  </div>
+</section>
+
+<section id="hello" class="container section">
+  <div class="row">
+    <div class="col-md-6">
+      <h2 id="hello_header" class="section__title">The Rest Is History</h2>
+      <p>Thankfully, I've continued to succeed with Web Design and SEO for 10 years. I feel privileged to work with two subjects I love. Singly and combined, web design and SEO allow me the opportunity to drive revenue to local businesses and help them prosper. </p>
+    </div>
+    <div class="col-md-6 personal-profile__avatar center">
+      <img class="img-fluid rounded" src="img\about\whitehat.svg" alt="What-is-seo-belfast">
+    </div>
+  </div>
+</section>
+
+<section id="hello" class="container section">
+    <div class="row">
+        <div class="col-md-6 personal-profile__avatar center">
+            <img class="img-fluid rounded" src="img\about\relationship.svg" alt="What-is-seo-belfast">
+          </div>
+      <div class="col-md-6">
+        <h2 id="hello_header" class="section__title">The important part of my life</h2>
+        <p>Outside of work, I enjoy spending time with my convivial, and beautiful girlfriend Amy Harvey. We both live and have grew up in Belfast. If you've never been, I recommend going; it's cheap, friendly and has a huge backlog of interesting history.  </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="hello" class="container section">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 id="hello_header" class="section__title">Casual Coffee</h2>
+          <p>Like most other digital enthusiasts I enjoy coffee. On Thursdays, Saturdays and Sundays, you'll often find me touring Belfast's finest coffee shops, with my trustee laptop. If you enjoy coffee, marketing and live in Belfast, consider joining me sometime. I'm always open for casual chats with likeminded people, especially when it's about digital marketing, web design and SEO.</p>
+        </div>
+        <div class="col-md-6 personal-profile__avatar center">
+          <img class="img-fluid rounded" src="img\about\coffee.svg" alt="What-is-seo-belfast">
+        </div>
+      </div>
+    </section>
+
+
+
+{{ partial "footer.html" . }}
