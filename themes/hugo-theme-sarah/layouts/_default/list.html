@@ -22,7 +22,7 @@
 				
 					<div class="row post-cards">
 				
-						{{ range .Data.Pages.ByPublishDate.Reverse }}
+						{{ range $index, $element := $.Paginator.Pages }}
 						{{ if eq .Section "blog" }}
 						<div class="col-md-6">
 							<a href="blog.html">
@@ -44,7 +44,8 @@
 						</div>
 						{{ end }}
 						{{ end }}
-				
+						{{ partial "pagination.html" . }}
+
 					</div>
       </div>
     </div>

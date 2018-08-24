@@ -32,7 +32,7 @@ a{
   cursor: pointer;
 
   &:visited{
-    //color: $color-link--visited;
+    color: $color-link--visited;
   }
 
   &:hover, &:focus, a:active{
@@ -94,6 +94,30 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 50px 0px 50px -25px;
+}
+
+.resume-list__block h2 {
+  margin: 0px 0px 0px 0px;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+ul.tags .next {
+  position: absolute;
+  right: 5px;
+}
+
+@media (max-width: 600px) {
+  h1, h2, h3, h4, h5, h6 {
+    margin: 50px 0px 50px 0px;
+  }
 }
 
 

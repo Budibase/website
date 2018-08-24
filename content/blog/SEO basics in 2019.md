@@ -169,7 +169,7 @@ Repeat this process on a monthly/quarterly basis.
 
 
 
-#### Top 5 SEO Competitor Research Tools
+#### DigiJo's Top 5 SEO Competitor Research Tools
 
 Many SEO tools have the capability of performing one of the steps above. There are few which can complete them all.
 
@@ -197,27 +197,47 @@ https://docs.google.com/spreadsheets/d/1o_Z3udq3qbdh4eRaW0juUepqUUBg9kNK2IjT4t_i
 
 ## Make Life Easier For Your Users
 
-#### Responsive design (Be Mobile)
+Your website users are customers, new employees, LEADS! It makes sense to provide them with a great experience, when visiting your website. 
 
-#### What is Responsive design
+Search engines, including Google agree with this sentiment. They also want to ensure their users have the best experience possible. This includes the user's experience on your website. This is why, the likes of Google have ranking factors dedicated to the experience your provide to your users.
 
-#### How To Build Links For SEO
+If you provide your users with a bad web experience, they're not going to stick around. There are multiple ranking factors used by search engines to ensure your website is providing users with a great experience. I've listed these below:
 
-#### Tools for building Links
 
-#### Additional Resources
+
+#### Responsive Web design (Be Mobile)
+
+Responsive web design is the process of designing a website which provides the user with a seamless experience across different sized devices. 
+
+This is done using CSS. CSS can detect the screen size of the device and will structure the HTML accordingly.
+
+Responsive web design is a key Google ranking factor. More importantly, responsive web design improves user experience, convert leads, and improve engagement.
+
+In early 2018, Google introduced [Mobile First Indexing](https://webmasters.googleblog.com/2016/11/mobile-first-indexing.html). To summarise, Google is taking mobile very serious. So serious, they're mostly ranking your pages based on your mobile site. 
+
+**Top tip, serve the same html and content to both desktop and mobile users.**
+
+
+
+#### How to make your website responsive
+
+In 2019, you must have a website that is optimised for mobile. If your website is not optimised, quickly visit DigiJo's [web design services](https://www.digijo.co.uk/belfast-web-design) . There are lots of great web designers in Belfast, you're truly spoilt for choice. 
+
+
+
+#### Tools for responsive design
+
+#### Responsive Design Additional Resources
 
 
 
 #### **HTTPS (Call Security)**  
 
-#### What is EAT
+#### How to add HTTPs to your website
 
-#### How To Build Links For SEO
+#### Tools for HTTPs
 
-#### Tools for building Links
-
-#### Additional Resources
+#### HTTPS Additional Resources
 
 
 
