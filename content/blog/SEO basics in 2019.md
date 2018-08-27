@@ -1,16 +1,14 @@
 +++
 
 date = "2018-01-01"
-draft = "true"
+draft = "false"
 title = "SEO basics in 2019 - SEO For Your Website"
 categories = ["SEO"] 
 tags = ["SEO", "Keyword Research", "ETM", "Crawling"]
 author = ["Joseph Johnston"] 
 description = "This is the ultimate guide to SEO basics in 2019. SEO is tough but if you get the basics right, you're almost guaranteed success. "
 
-+++
 
-# SEO basics in 2019 - How To Do SEO For Your Website
 
 It's your SEO north star, guiding you to the peeks of search results. 
 
@@ -32,13 +30,15 @@ SEO is a complex subject after all, but ultimately it serves one purpose.
 
 Within the above sentence, you'll notice one subject; SEO, and three entities:
 
-1. **You**
-2. **The user**
-3. **The Search Engine**
+<ol>
+<li>1. You
+<li>2. The user
+<li>3. The Search Engine
+</ol>
 
 
 
-Making life easier for the above three entities when implementing SEO will help you rank better on SERPs and attract users to your website. 
+Making life easier for the above three entities when implementing SEO will help you rank better on SERPs and attract users to your website.
 
 For this reason I have decided to structure this post slightly different to other SEO posts.
 
@@ -70,8 +70,12 @@ Keyword research involves finding out which keywords your target market is searc
 Keyword research can take multiple forms and contain multiple data sets. Ultimately, though it boils down to three types of data:
 
 1. Queries- What queries are people searching for?  
+
 2. Volume - How many times do people search for the term?  
+
 3. Difficulty - How hard is it to rank for the term in search engines?  
+
+   
 
 #### How To Do Keyword Research
 
@@ -83,29 +87,24 @@ Google Keyword Planner is a tool within Google Ads. It is sometimes referred to 
 
 
 
-MORE TO DO HERE ON HOW TO DO KEYWORD RESEARCH
+My process for keyword research is pretty straight forward and it works:
 
+- Create 3-5 buckets related to the mission and subject of your business. DigiJo's buckets are Digital Marketing, SEO, and Web Design. 
+- Under each bucket, make a list of keywords (2-5 keywords in length) relevant to your business and product. Have a primary keyword for each bucket. DigiJo's primary keywords are 'Digital Marketing Belfast', 'SEO Belfast', 'Web Design Belfast'. 
+- To find keywords, use Google's Keyword Planner (GKP). Once logged into GKP, click the 'find keywords' option and add your search queries to the search bar. Ignore the search data - it's not very reliable. GKP is used to provide keyword ideas. An additional method of finding keywords is to search for your primary keyword on Google, scroll to the bottom of the SERP, and record the related search terms. 
+- Analyse your keywords. GKP is not reliable. To understand search volume (avg. number of times a term is search for over a period of a month) and keyword difficulty (how hard it is to rank for the given term), you need to a tool like SEMrush. This data is key as it helps you understand which keywords are worth fighting for and which are not.
 
+   
 
-####Top 5 Keyword Research Tools
+####DigiJo's Top 5 Keyword Research Tools
 
 To obtain the above data you will need a keyword research tool. There are lots of tools to choose from but I would recommend the following:
 
-- 
-  Ahref (Paid)  
-
-- SEMrush (Paid)  
-- Moz (Paid)
+- SEMrush (Paid) 
+- Ahref (Paid)  
 - Google Keyword Planner (Free)    
-
+- Moz (Paid)
 - Answer the public (Free tier)  
-
-
-
-
-#### Additional Resources 
-
-
 
 
 
@@ -124,6 +123,8 @@ Your SEO competitors might be slightly different from your business competitors.
 
 
 #### How To Do SEO Competitor Research
+
+
 
 ##### Step 1. Identify your keywords, and then your competitors
 
@@ -151,25 +152,25 @@ Examining your competitors content is a great way to find out their strategy, th
 
 
 
-##### Step 3. Backlink Analysis
+##### Step 4. Backlink Analysis
 
 Analysing your competitors backlinks brings numerous opportunities. Ahref is a great tool for backlink analysis.
 
 
 
-##### Step 4 - Implement Changes
+##### Step 5 - Implement Changes
 
 This is the fun part. It's time to take your competitors strengths, make them better and apply them to your own website. Over time, this should help your website and rankings perform better.
 
 
 
-##### Step 5 - Repeat
+##### Step 6 - Repeat
 
 Repeat this process on a monthly/quarterly basis. 
 
 
 
-#### DigiJo's Top 5 SEO Competitor Research Tools
+#### DigiJo's SEO Competitor Research Tools
 
 Many SEO tools have the capability of performing one of the steps above. There are few which can complete them all.
 
@@ -183,15 +184,6 @@ Many SEO tools have the capability of performing one of the steps above. There a
 
 - Search Engines (Free)
 
-  
-
-#### Additional Resources 
-
-https://yoast.com/benchmarking-seo-competitive-analysis/
-
-https://moz.com/blog/competitive-analysis
-
-https://docs.google.com/spreadsheets/d/1o_Z3udq3qbdh4eRaW0juUepqUUBg9kNK2IjT4t_iLBo/edit#gid=0
 
 
 
@@ -225,43 +217,59 @@ In 2019, you must have a website that is optimised for mobile. If your website i
 
 
 
-#### Tools for responsive design
+#### DigiJo's tools for responsive design
 
-#### Responsive Design Additional Resources
+[Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly)
+
+Chrome Debugger
+
+
 
 
 
 #### **HTTPS (Call Security)**  
 
+As you can probably guess, the S at the end of HTTPS means security -  (Hypertext Transport Protocol Security). HTTPS websites have an an additional layer of security over HTTP websites. This extra layer is obtained through an SSL certificate. It's the SSL certificate which activities the tiny padlock and HTTPs.
+
+Websites without HTTPs are now labelled 'not secure'. HTTPs protects your users against man-in-the-middle attacks. On top of that, Google outlined HTTPs provides a ranking boost over websites without it. In 2019, you need a secure website. Luckily, it's not very hard to secure your website.
+
+
+
 #### How to add HTTPs to your website
+
+To add HTTPs to you website, simply contact your hosting provider and ask them to add an SSL certificate to your website. This might come with a small fee.
+
+Hosting providers such as Netlify, they automatically secure your website with HTTPs.
+
+
 
 #### Tools for HTTPs
 
-#### HTTPS Additional Resources
+Lets Encrypt
+
+Netlify
+
+
 
 
 
 #### Website Speed (Need for speed)
 
-#### What is EAT
+#### How To Improve Your Website Speed
 
-#### How To Build Links For SEO
+#### DigiJo's tools for building Links
 
-#### Tools for building Links
-
-#### Additional Resources
+#### 
 
 
 
 #### User Intent (Give your users what they want)
 
-#### What is EAT
+#### How To Cater For User Intent
 
-#### How To Build Links For SEO
+#### DigiJo's tools for user intent
 
-#### Tools for building Links
 
-#### Additional Resources
 
 
 
@@ -311,4 +319,10 @@ Some of the strategies above can be tricky to implement. If you need help or SEO
 
 
 
+#### Additional Resources
 
+https://yoast.com/benchmarking-seo-competitive-analysis/
+
+https://moz.com/blog/competitive-analysis
+
+https://docs.google.com/spreadsheets/d/1o_Z3udq3qbdh4eRaW0juUepqUUBg9kNK2IjT4t_iLBo/edit#gid=0
