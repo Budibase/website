@@ -8,7 +8,9 @@ tags = ["SEO", "Keyword Research", "ETM", "Crawling"]
 author = ["Joseph Johnston"] 
 description = "This is the ultimate guide to SEO basics in 2019. SEO is tough but if you get the basics right, you're almost guaranteed success. "
 
++++
 
+# 
 
 It's your SEO north star, guiding you to the peeks of search results. 
 
