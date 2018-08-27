@@ -25,14 +25,14 @@ ol, ul{
 
 // Links
 a{
-  color: #ec8b69;
+  color: $color-text-main;
   transition: all 0.3s;
   position: relative;
   text-decoration: none;
   cursor: pointer;
 
   &:visited{
-  color: #ffffff;
+  color: $color-text-main;
   }
 
   &:hover, &:focus, a:active{
