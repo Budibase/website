@@ -2050,12 +2050,12 @@ fieldset[disabled] a.btn {
 
 .btn-outline-light {
   color: #f8f9fa;
-  background-color: transparent;
+  background-color: #f8f9fa;
   background-image: none;
   border-color: #f8f9fa; }
   .btn-outline-light:hover {
-    color: #fff;
-    background-color: #f8f9fa;
+    color: #f8f9fa;
+    background-color: #343a40;
     border-color: #f8f9fa; }
   .btn-outline-light:focus, .btn-outline-light.focus {
     -webkit-box-shadow: 0 0 0 3px rgba(248, 249, 250, 0.5);

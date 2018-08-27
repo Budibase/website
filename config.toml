@@ -16,8 +16,8 @@ I'm not in the marketing industry to serve people, I'm in the people industry to
 """
 
 [params.social]
-linkedin      = "linkedin.com/in/joejohnston1989"
-twitter       = "https://twitter.com/joejohnston1989"
+linkedin      = "https://www.linkedin.com/in/joejohnston1989"
+twitter       = "https://www.twitter.com/joejohnston1989"
 
 [[params.info]]
 label = "Certified"
@@ -44,4 +44,3 @@ canonifyURLs = true
 # and if you think your md file names or locations might change:
 [permalinks]
     post = "/blog/:title/"
-
