@@ -4,17 +4,17 @@ date = "2018-01-01"
 draft = "true"
 title = "SEO basics in 2019 - SEO For Your Website"
 categories = ["SEO"] 
-tags = ["SEO", "Keyword Research", "ETM", "Crawling"]
+tags = ["SEO", "Keyword Research", "EAT", "Crawling"]
 author = ["Joseph Johnston"] 
-description = "This is the ultimate guide to SEO basics in 2019. SEO is tough but if you get the basics right, you're almost guaranteed success. "
+description = "Your ultimate guide to SEO basics in 2019. SEO is tough but if you get the basics right, you're almost guaranteed success. "
 
 +++
 
 # 
 
-It's your SEO north star, guiding you to the peeks of search results. 
+This post is your ultimate guide to SEO basics in 2019. Think of it as your SEO north star, guiding you to the peeks of search results in 2019. 
 
-Implementing the knowledge gained within this guide will help you build a solid SEO foundation and improve your rankings in Google and Bing. 
+Implementing the knowledge gained within this guide will help you build a solid SEO foundation and improve your rankings in Google. 
 
 Implementing this guide will not **guarantee** you a number one ranking on Google for your keywords. What it will do, is dramatically improve your rankings if you are not utilizing some of the strategies listed. 
 
@@ -32,11 +32,9 @@ SEO is a complex subject after all, but ultimately it serves one purpose.
 
 Within the above sentence, you'll notice one subject; SEO, and three entities:
 
-<ol>
-<li>1. You
-<li>2. The user
-<li>3. The Search Engine
-</ol>
+1. You
+2. The user
+3. The Search Engine
 
 
 
@@ -48,7 +46,7 @@ For this reason I have decided to structure this post slightly different to othe
 2. Make Life Easier For Your Users (Design, HTTPs, Speed, User Intent, Fresh content)
 3. Make Life Easier For Search Engines (Indexing, Crawling, Accessibility, Structured Data, Link Building, EAT)
 
-So if you're game, let's get started with understanding and implementing SEO basics in 2019.
+So if you're game, let's get started understanding and implementing DigiJo's SEO basics in 2019.
 
 
 
@@ -255,17 +253,73 @@ Netlify
 
 
 
-#### Website Speed (Need for speed)
+### Website Speed 
+
+There's a huge need for speed in the search world.
+
+Speed is a key element of SEO. From 2018, it is key [ranking factor](https://searchengineland.com/google-speed-update-page-speed-will-become-ranking-factor-mobile-search-289904) in mobile search. Since the 2018 'Google Speed Update', there are clear correlations between speed and rankings.
+
+A fast website is also better for your users. The fast paced world we live in, hates slow loading web pages - it's a personal pet hate.
+
+In a recent study by [Akamai](https://blog.kissmetrics.com/loading-time/), they reported 50% of users expect a site to load in under 2 seconds. If the site does not load within 3 seconds, your users tend to exit.
+
+Pretty scary statistic, right?
+
+Thankfully, there are multiple ways to speed up your website, improving user experience.
+
+
 
 #### How To Improve Your Website Speed
 
-#### DigiJo's tools for building Links
+To improve your website speed, you first need to run a performance audit. For performance audits, you can use [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) or Google's Lighthouse.  I use Lighthouse as it take's a user-focused approach to the audit.
 
-#### 
+To use Lighthouse, add the extension to Chrome: [Google Lighthouse Extension](https://chrome.google.com/webstore/search/lighthouse).
+
+You can now run a Lighthouse audit on any website by simple clicking the extension button in your browser. Once Lighthouse has performed the audit, it will provide you with scores and actions to improve those scores. Research these actions further, and implement the advised changes.
 
 
 
-#### User Intent (Give your users what they want)
+On top of the actions provided by Lighthouse, I've listed two additional suggestions. These suggestions will take your website to a new level - think Formula 1 of the website world.
+
+
+
+##### Using a Content Delivery Network (CDN)
+
+A content delivery network (CDN) is a network of servers which hold cached versions of your content. These servers are spread out across the world. This geographical dispersion ensures your content is stored closer to the user. The closer the server is to the user, the quicker the user will receive the content.
+
+Popular CDNs include [Cloudfare](https://www.cloudflare.com/) and [Netlify](https://www.netlify.com/). The DigiJo website uses Netlify.
+
+
+
+##### Go Static
+
+Static websites are generally faster than dynamic websites. After all, static websites do not have the added weight of a database/CMS.
+
+A great way of developing a static website is to use a Static Site Generator (SSG). The DigiJo website uses an SSG called [Hugo](http://gohugo.io/).
+
+
+
+#### DigiJo's tools for improving website speed
+
+[Google Lighthouse Extension](https://chrome.google.com/webstore/search/lighthouse)
+
+[Google Pagespeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+
+[Netlify](https://www.netlify.com/)
+
+[Cloudfare](https://www.cloudflare.com/)
+
+[Hugo](http://gohugo.io/)
+
+[GTmetrix](https://gtmetrix.com/)
+
+
+
+
+
+
+
+### User Intent (Give your users what they want)
 
 #### How To Cater For User Intent
 
@@ -279,39 +333,29 @@ Netlify
 
 ## Make Life Easier For Your Search Engines
 
+
+
 ### Crawling and Accessibility 
 
-#### What is crawling and accessibility
+#### How to help Google crawl and access your website
 
-#### Crawling and Accessibility Tools
-
-#### How to implement crawling and accessibility
-
-#### Additional Resources
+#### DigiJo's tools for crawling and accessibility
 
 
 
 ### Link Building
 
-#### What is Link Building
+#### How to build links
 
-#### How To Build Links For SEO
-
-#### Tools for building Links
-
-#### Additional Resources
+#### DigiJo's tools for link building
 
 
 
 ### EAT
 
-#### What is EAT
+#### How to take advantage of EAT
 
-#### How To Build Links For SEO
-
-#### Tools for building Links
-
-#### Additional Resources
+#### DigiJo's tools for EAT
 
 
 
