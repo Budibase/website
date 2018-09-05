@@ -277,8 +277,6 @@ To use Lighthouse, add the extension to Chrome: [Google Lighthouse Extension](ht
 
 You can now run a Lighthouse audit on any website by simple clicking the extension button in your browser. Once Lighthouse has performed the audit, it will provide you with scores and actions to improve those scores. Research these actions further, and implement the advised changes.
 
-
-
 On top of the actions provided by Lighthouse, I've listed two additional suggestions. These suggestions will take your website to a new level - think Formula 1 of the website world.
 
 
@@ -315,17 +313,37 @@ A great way of developing a static website is to use a Static Site Generator (SS
 
 
 
+### User Intent 
+
+User intent or search intent is the reasoning behind why a user has searched a term. User's search for many different reasons. These reasons can be categorised into three terms, [Do, Know, Go.](https://www.searchenginejournal.com/seo-101/how-people-search/)
+
+Do - Also known as action intent. This is when a user is expecting to perform an action after the search; buy a car, book a hotel room, etc.
+
+Know - This is when a user wants to learn additional information about a given topic related to the search term. 
+
+Go - A 'Go' search is when a user knows where they want to go to. Usually a branded query.
+
+It's no longer enough to optimise your content to rank for targeted keywords or phrases. Google wants to know the content you deliver is answering the user's intent. Google takes into account the users engagement and dwell time on your site. If the user quickly clicks the back button when accessing your content, changes their search, or visits an alternative site, you're probably not delivery the best user experience.
 
 
 
+#### How to improve your content for user intent
 
-### User Intent (Give your users what they want)
+User Intent Step #1: Provide the user with what they want
 
-#### How To Cater For User Intent
+Align your keywords with the type of user intent.  Write great content fulfilling user intent and targeting the keyword.
+
+
+
+User Intent Tip #2: Provide content in multiple formats
+
+Content can take many forms; video, podcasts, blog posts. Produce content in different formats and test their impact. Check if your competitors are using video and take note of their viewing rates.
+
+
 
 #### DigiJo's tools for user intent
 
-
+Setup a YouTube account, grab yourself a good microphone and produce good content.
 
 
 
@@ -333,9 +351,23 @@ A great way of developing a static website is to use a Static Site Generator (SS
 
 ## Make Life Easier For Your Search Engines
 
+You should always create content and web pages for your users, never for search engines. But it is important to build your website and content so search engines can easily crawl and index your pages.
+
+Search engines do two things; they crawl and index websites, and answer user queries with a list of relevant web pages.
 
 
-### Crawling and Accessibility 
+
+### Crawling And Indexing 
+
+You can conduct extensive keyword research and write great content but if a search engine can't crawl your website, you're pretty screwed.
+
+
+
+It's important we understand what crawling and indexing are:
+
+Crawling - 
+
+
 
 #### How to help Google crawl and access your website
 

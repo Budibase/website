@@ -16,8 +16,8 @@ I'm not in the marketing industry to serve people, I'm in the people industry to
 """
 
 [params.social]
-linkedin      = "https://www.linkedin.com/in/joejohnston1989"
-twitter       = "https://www.twitter.com/joejohnston1989"
+linkedin      = "joejohnston1989"
+twitter       = "joejohnston1989"
 
 [[params.info]]
 label = "Certified"
