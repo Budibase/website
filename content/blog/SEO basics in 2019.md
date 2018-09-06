@@ -2,15 +2,15 @@
 
 date = "2018-01-01"
 draft = "true"
-title = "SEO basics in 2019 - SEO For Your Website"
+title = "SEO basics in 2019"
 categories = ["SEO"] 
 tags = ["SEO", "Keyword Research", "EAT", "Crawling"]
 author = ["Joseph Johnston"] 
 description = "Your ultimate guide to SEO basics in 2019. SEO is tough but if you get the basics right, you're almost guaranteed success. "
+thumbnail = "img/blog/social-media-header.jpg"
 
 +++
 
-# 
 
 This post is your ultimate guide to SEO basics in 2019. Think of it as your SEO north star, guiding you to the peeks of search results in 2019. 
 

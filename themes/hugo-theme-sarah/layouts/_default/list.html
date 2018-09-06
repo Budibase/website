@@ -4,7 +4,10 @@
 {{ partial "navigation.html" . }}
 
 <!--Header-->
-<header class="background blog-header"></header>
+<header class="main-header">
+{{ partial "blog-list-header.html" . }}
+      
+</header>
 <!--Header-->
 
 <!-- Blog -->
@@ -12,8 +15,6 @@
   <div class="article">
     <div class="row">
       <div class="col-md-12">
-        <a class="article__back-link" href="/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Back</a>
-
 				<div class="row">
 						<div class="col-md-12">
 							<h2 id="blog_header" class="section__title">Latest Posts_</h2>
