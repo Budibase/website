@@ -1,6 +1,6 @@
 +++
 
-date = "2018-01-01"
+date = "2018-09-09"
 draft = "true"
 title = "SEO basics in 2019"
 categories = ["SEO"] 
@@ -349,7 +349,7 @@ Setup a YouTube account, grab yourself a good microphone and produce good conten
 
 
 
-## Make Life Easier For Your Search Engines
+## Make Life Easier For Search Engines
 
 You should always create content and web pages for your users, never for search engines. But it is important to build your website and content so search engines can easily crawl and index your pages.
 
@@ -357,21 +357,37 @@ Search engines do two things; they crawl and index websites, and answer user que
 
 
 
-### Crawling And Indexing 
+### Crawling and Indexing 
 
-You can conduct extensive keyword research and write great content but if a search engine can't crawl your website, you're pretty screwed.
-
-
-
-It's important we understand what crawling and indexing are:
-
-Crawling - 
+You can conduct extensive keyword research and write great content but if a search engine can't crawl your website, you're pretty screwed. 
 
 
 
-#### How to help Google crawl and access your website
+There is lots of great content on the web around crawling and indexing. Some of the content is quite technical which makes it hard for less-experienced technical SEOs to digest. I will attempt to translate this information into a simpler way to understand.
 
-#### DigiJo's tools for crawling and accessibility
+
+
+Before we start, watch this video by Google - [How Search Works](https://www.youtube.com/watch?v=BNHR6IQJGZs). This video will provide insight into how Google, the search engine, works.
+
+
+
+Back to SEO crawling and indexing. It's important you understand what crawling and indexing are:
+
+
+
+Crawling - Google use GoogleBot, also known as a spider to crawl the internet. GoogleBot is like a search engine explorer. It uses sitemaps and database links to travel far and wide searching for new content. Once Googlebot finds and reads new content, it suggests what should be added to Google's index - a huge database of URLs.
+
+
+
+Indexing - 
+
+
+
+#### How to help Google crawl and index your website
+
+
+
+#### DigiJo's tools for crawling and indexing
 
 
 
