@@ -1,6 +1,7 @@
 +++
 date = "2017-12-19"
 title = "5 tips for your next marketing strategy"
+categories = ["Marketing strategy"] 
 tags = ["marketing strategy"]
 description = "A no BS approach to marketing strategy.  5 simple tips to help bring success to your marketing strategy."
 thumbnail = "img/blog/social-media-header.jpg"

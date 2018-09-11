@@ -17,10 +17,15 @@ hr{
   margin: 0;
 }
 
-ol, ul{
+ul{
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: circle;
+}
+ol{
+  margin: 0;
+  padding: 0;
+  list-style: decimal;
 }
 
 // Links

@@ -31,9 +31,10 @@
 									<div class="post-cards__info">
 										<p class="post-cards__date">{{ .Date.Format .Site.Params.dateform }}</p>
 										<p class="post-cards_title"><a href="{{ .Permalink }}">{{ .Title }}</a></p>
-							{{ if isset .Params "tags" }}
+										
+							{{ if isset .Params "categories" }}
 							<ul class="tags">
-								{{ range first 2 .Params.Tags }}
+								{{ range first 2 .Params.Categories }}
 								<li><a class="meta" href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a></li>
 								{{ end }}
 							</ul>
