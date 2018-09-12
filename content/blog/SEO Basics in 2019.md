@@ -195,7 +195,7 @@ Many SEO tools have the capability of performing one or more of the steps above.
 * Search Engines (Free)
 
 
-
+------
 
 ## Make Life Easier For Your Users
 
@@ -205,7 +205,7 @@ Search engines, including Google agree with this sentiment. They also want to en
 
 If you provide your users with a bad web experience, they're not going to stick around. There are multiple ranking factors used by search engines to ensure your website is providing users with a great experience. I've listed these below:
 
-
+------
 
 #### Responsive Web Design 
 
@@ -234,9 +234,7 @@ In 2019, you must have a website that is optimised for mobile. If your website i
 - Chrome Debugger
 
 
-
 ------
-
 
 
 #### **HTTPS (Call Security)**  
@@ -262,9 +260,7 @@ Hosting providers such as Netlify automatically secure your website with HTTPs.
 - Netlify
 
 
-
 ------
-
 
 
 ### Website Speed 
@@ -326,9 +322,7 @@ A great way of developing a static website is to use a Static Site Generator (SS
 - [GTmetrix](https://gtmetrix.com/)
 
 
-
 ------
-
 
 
 ### User Intent 
@@ -510,7 +504,6 @@ For outreach - Buzzsumo. Alternative - BrightLocal
 For reporting- Ahrefs. Alternative - Google sheets.
 
 ------
-
 
 
 ### EAT
