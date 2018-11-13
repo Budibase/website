@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 502.4 608.4" style="enable-background:new 0 0 502.4 608.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.3;fill:#E7EAF3;enable-background:new    ;}
+	.st1{fill:#E7EAF3;stroke:#E7EAF3;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke:#E7EAF3;stroke-miterlimit:10;}
+	.st3{fill:#E3E6F0;}
+	.st4{clip-path:url(#SVGID_3_);}
+	.st5{fill:none;stroke:#E7EAF3;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M117.9,353.1L117.9,353.1l-14.8-1.3c-1.1-0.1-2-0.2-3.1-0.3h-0.4l0,0c-10.6-0.8-20.5,0.7-27.5,4.6L9.2,391.2
+	c-15.4,8.6-11.1,26.2,9.6,38.8l259.9,159.4c11,6.8,24.5,10.9,37.2,12l13.7,1.2l0,0c12.1,1.4,23.4,0.1,31.2-4.2l62.9-35.2
+	c15.4-8.6,11.2-26.1-9.6-38.8L154.1,365C143.4,358.3,130.3,354.2,117.9,353.1z"/>
+<path class="st1" d="M486.4,17.4l1.4-5.3l-10.5-7c-0.7-0.6-1.4-1-2.2-1.4l-0.3-0.2l0,0c-7.9-4.5-18.1-4.1-29.2,2.3l-100.3,58
+	c-24.6,14.3-44.8,52.8-44.8,85.6v411.5c0,17.4,5.7,30,14.8,35.6l9.8,6.4l0.9-3c5.9,0.4,12.6-1.2,19.5-5.3l100.3-58
+	c24.6-14.1,44.7-52.5,44.7-85.5V39.8C490.4,31,489,23.5,486.4,17.4z"/>
+<path class="st2" d="M457.1,544.6l-100.3,58c-24.6,14.2-44.8-1.1-44.8-33.9V157.1c0-32.9,20.1-71.4,44.8-85.6l100.3-57.9
+	c24.7-14.3,44.8,1,44.8,33.8V459C501.9,492,481.8,530.4,457.1,544.6z"/>
+<ellipse transform="matrix(0.3916 -0.9201 0.9201 0.3916 -245.3732 701.2883)" class="st3" cx="407.6" cy="536.2" rx="23.5" ry="13.2"/>
+<g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<g>
+						<g>
+							<g>
+								<g>
+									<defs>
+										<polygon id="SVGID_1_" points="323.6,154.7 491.4,57.9 491.4,457.2 323.6,554.1 										"/>
+									</defs>
+									<clipPath id="SVGID_3_">
+										<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+									</clipPath>
+									<g class="st4">
+										
+											<image style="overflow:visible;enable-background:new    ;" width="204" height="361" xlink:href="../../img/204x361/img6.jpg"  transform="matrix(0.8297 -0.479 0 1.1063 322.9983 155.0761)">
+										</image>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<polygon id="SVGID_2_" class="st5" points="323.6,154.7 491.4,57.9 491.4,457.2 323.6,554.1 		"/>
+	</g>
+</g>
+<path class="st3" d="M419.9,75.8l-25.1,14.6c-1.3,0.8-2.4-0.1-2.4-1.8l0,0c0-1.7,1.1-3.8,2.4-4.6l25.1-14.6c1.3-0.8,2.4,0.1,2.4,1.8
+	l0,0C422.3,72.9,421.2,75,419.9,75.8z"/>
+</svg>

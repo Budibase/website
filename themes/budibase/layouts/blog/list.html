@@ -1,0 +1,105 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+    <div class="bg-img-hero">
+        <div class="container text-center space-2 space-3-top space-1-bottom--lg">
+          <div class="w-md-80 mx-auto mb-3">
+            <h1 class="display-4 font-size-48--md-down">SaaS News At The Budi Blog</h1>
+        <div class="col-lg-10 mx-auto">
+            <div class="mb-5">
+              <p class="lead">Everything you need to know about creating a SaaS application, building a startup, and taking control of your career. Along with research, tips and interviews with industry professionals, we aim to provide insight blended with humour. We're a fun company and we want that to show in our writing.</p>
+            </div>
+            <div class="d-sm-flex justify-content-sm-center align-items-sm-center mb-7">
+                    <form class="js-validate w-lg-80">
+                            <div class="row mx-gutters-2">
+                              <div class="col-sm-7 mb-3">
+                                <!-- Input -->
+                                <div class="js-form-message">
+                                  <div class="js-focus-state input-group form">
+                                    <input type="email" class="form-control form__input" name="email" required
+                                           placeholder="Submit Email Address"
+                                           aria-label="Email"
+                                           data-msg="Please enter a valid email address.">
+                                  </div>
+                                </div>
+                                <!-- End Input -->
+                              </div>
+              
+                              <div class="col-sm-5 mb-3">
+                                <button type="submit" class="btn btn-block btn-primary">Get early access</button>
+                              </div>
+                            </div>
+                          </form>
+            </div>
+    
+            <!-- End Clients -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container space-2">
+        <h2 class="display-4 font-size-48--md-down text-center">Categories</h2>
+        <div class="row justify-content-md-center space-1-top">
+          <div class="col-3 col-md-5 col-lg-3 ">
+            <div class="text-center">
+              <h3>Tools</h3>
+            </div>
+          </div>
+      
+          <div class="col-3 col-md-5 col-lg-3">
+            <div class="text-center">
+                <h3>SaaS</h3>
+              </div>
+          </div>
+
+          <div class="col-3 col-md-5 col-lg-3">
+              <div class="text-center">
+                  <h3>Business</h3>
+                </div>
+            </div>
+
+            <div class="col-3 col-md-5 col-lg-3">
+                <div class="text-center">
+                    <h3>Life</h3>
+                  </div>
+              </div>
+        </div>
+      </div>
+      <!-- End Stats Section -->
+
+<div class="container space-3-bottom--lg">
+<div class="row">
+    {{ range .Pages.ByDate }}
+    <div class="col-sm-4 ">
+        <article class="card mb-5 ">
+            <div class="card-body p-5">
+              <small class="d-block-2">{{ .Date.Format "2006-01-02"}}</small>
+              <h2 class="h5">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+              </h2>
+              <p class="mb-0">{{ .Description }}</p>
+            </div>
+            <div class="card-footer bg-dark py-4 px-5">
+              <div class="media">
+                <img class="u-sm-avatar rounded-circle mr-3" src="img/img/100x100/img1.jpg" alt="Image Description">
+                <div class="media-body">
+                  <h3 class="d-inline-block mb-0">
+                    <a class="d-block font-size-13 text-light" href="{{ .Permalink }}">Joe Johnston</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+        </article>
+    </div>
+    {{ end }}
+</div>   
+
+</div> 
+
+</div> 
+
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}

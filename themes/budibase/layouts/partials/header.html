@@ -1,0 +1,29 @@
+{{ $staticHash := now.Unix }}
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="/favicon.ico">
+   <!-- CSS -->
+ <link href="{{ .Site.BaseURL }}css/main.css" rel="stylesheet">
+
+  <!-- CSS - Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito|PT+Serif" rel="stylesheet">
+  {{ partial "bootstraphead.html" . }}
+  {{ partial "meta.html" . }}
+  {{ with .Site.Params.Author }}<meta name="author" content="{{ . }}">{{ end }}
+  <base href="{{ .Site.BaseURL }}">
+  {{ .Hugo.Generator }}
+
+ <!-- RSS -->
+  {{ if .RSSLink }}
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ end }}
+
+</head>
+
+<body lang="{{ .Site.LanguageCode }}">
+

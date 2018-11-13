@@ -1,14 +1,7 @@
 ---
-title: About DigiJo - Belfast's leading digital marketing consultant
-description: DigiJo is the brand name for SEO and Web Design consultant Joe Johnston. For  10 years, I've helped Belfast businesses attract and convert new customers.
+title: "About Budibase"
+description: "Our mission is to empower the world to develop amazing SaaS applications, build SaaS businesses, and live life on their own terms. "
 type: about
 layout: single
 date: 2018-07-31
-
 ---
-
-
-
-
-
-

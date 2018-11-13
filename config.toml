@@ -1,46 +1,14 @@
-baseURL = "https://digijo.co.uk/"
-languageCode = "en-us"
-title = "DigiJo - Award Winning Digital Marketing Consultant Belfast"
-theme = "hugo-theme-sarah"
-
+baseURL = "https://www.budibase.com/"
+languageCode = "en-uk"
+title = "Budibase - Build Life Changing SaaS Applications With Ease"
+theme = "budibase"
 
 [params]
-author = "Joseph Johnston"
-description = "Digital marketing consultant based in Belfast, Northern Ireland. Award-winner in SEO, Social, and Web Design."
-keywords = ["Digital Marketing", "Web Design", "SEO"]
-avatar = "img/header-image.jpg"
+author = "Joe Johnston"
+keywords = ["SaaS Applications", "SaaS builder", "Application builder"]
+description = "Budibase is the new abd better way to build software and SaaS applications. Budibase eliminates repetition and dramatically reduces development time. Check it out."
 dateform = "Jan 2, 2006"
 lang = "en"
-about = """
-I'm not in the marketing industry to serve people, I'm in the people industry to serve great digital marketing. As an award winning SEO and Web Design consultant from beautiful Belfast, I help local businesses reach their true potential. Before you know it, you'll be attracting and converting leads like you never thought possible.
-"""
+googleAnalytics = ""
 
-[params.social]
-linkedin      = "joejohnston1989"
-twitter       = "joejohnston1989"
 
-[[params.info]]
-label = "Certified"
-value = "Google Specialist"
-
-[[params.infogd]]
-label = "Certified"
-value = "Adobe Masterclass"
-
-[[params.projects]]
-name = "Seven Technologies Group"
-desc = "At Seven Technologies, I delivered a website that was, secure, super fast, and SEO-optimised. The design of the website is clean and impactful to represent the sector 7TG operate in."
-img = "img/homepage/testimonials/7tg.jpg"
-link = "https://www.7techgroup.com"
-
-[[params.projects]]
-name = "TM3"
-desc = "At TM3 I co-ordinated with Eyekiller to design a beautiful, responsive website that was fully focused on converting visitors to leads - and it worked! SEO was a major focus with the TM3 website. Moving domain and keeping SEO juice was imperative. Thankfully, I managed the job perfectly, with the new domain authority jumping from 0 - 35 in 8 months. Icing on this beautiful cake, the website now ranks top of Google (#1!) for their prime keyword - Physio Software"
-img = "img/homepage/testimonials/tm3.jpg"
-link = "https://www.tm3pm.com/"
-
-enableRobotsTXT = true
-canonifyURLs = true
-# and if you think your md file names or locations might change:
-[permalinks]
-    post = "/blog/:title/"

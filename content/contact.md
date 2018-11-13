@@ -1,7 +1,7 @@
 ---
-title: Contact DigiJo - Leading SEO and Web Design Consultant
-description: Say hello to DigiJo - Belfast's leading digital marketing consultant. A specialist in SEO and web design, I help local companies attract and convert leads.
+title: "Contact Budibase"
+description: "Contact Budibase. Complete the contact form and we promise to respond as soon as possible."
 type: contact
 layout: single
-date: 2017-07-31
+date: 2018-07-31
 ---

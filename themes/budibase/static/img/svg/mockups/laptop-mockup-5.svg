@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="macbook_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1155 618.1" style="enable-background:new 0 0 1155 618.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.3;fill:#E7EAF3;}
+	.st1{fill:#FFFFFF;stroke:#E7EAF3;stroke-miterlimit:10;}
+	.st2{fill:#F7F7F7;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#EFEFEF;}
+	.st5{fill:url(#SVGID_1_);}
+	.st6{clip-path:url(#SVGID_4_);}
+	.st7{fill:none;stroke:#E7EAF3;stroke-miterlimit:10;}
+</style>
+<ellipse class="st0" cx="577.5" cy="569.6" rx="577.5" ry="48.5"/>
+<g id="laptop">
+	<path class="st1" d="M958.3,577H194.5c-14.4,0-26.2-11.8-26.2-26.2V26.7c0-14.4,11.8-26.2,26.2-26.2h763.9
+		c14.4,0,26.2,11.8,26.2,26.2v524.2C984.5,565.2,972.7,577,958.3,577z"/>
+	<circle class="st2" cx="575" cy="23.8" r="3"/>
+	<path class="st3" d="M1073.3,561.2H79.9c-1.5,0-2.8-1.3-2.8-2.8l0,0c0-1.5,1.3-2.8,2.8-2.8h993.4c1.5,0,2.8,1.3,2.8,2.8l0,0
+		C1076.1,559.9,1074.9,561.2,1073.3,561.2z"/>
+	<path class="st4" d="M576.6,563L77,561.2c0,0,24.1,11.3,117.8,15.8H575h3.1h380.2c93.7-4.5,117.8-15.8,117.8-15.8L576.6,563z"/>
+
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="480.9" y1="20.8" x2="672.0001" y2="20.8" gradientTransform="matrix(1 0 0 -1 0 580)">
+		<stop  offset="5.908129e-07" style="stop-color:#F0F1F2"/>
+		<stop  offset="5.235744e-02" style="stop-color:#F6F7F8"/>
+		<stop  offset="0.1708" style="stop-color:#FDFDFD"/>
+		<stop  offset="0.5" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.8292" style="stop-color:#FDFDFD"/>
+		<stop  offset="0.9476" style="stop-color:#F6F7F8"/>
+		<stop  offset="1" style="stop-color:#F0F1F2"/>
+	</linearGradient>
+	<path class="st5" d="M668.4,562.7h-184c-1.9,0-3.5-1.6-3.5-3.5v-3.5H672v3.5C672,561.1,670.4,562.7,668.4,562.7z"/>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_3_" x="198.7" y="38" width="752.5" height="469.7"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st6">
+
+					<image style="overflow:visible;enable-background:new    ;" width="753" height="470" xlink:href="../../img/753x470/img6.jpg"  transform="matrix(1 0 0 1 198.5 37.8352)">
+				</image>
+			</g>
+		</g>
+		<g>
+			<rect id="SVGID_2_" x="198.7" y="38" class="st7" width="752.5" height="469.7"/>
+		</g>
+	</g>
+</g>
+</svg>
