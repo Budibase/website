@@ -1,12 +1,12 @@
-baseURL = "https://www.budibase.com/"
+baseURL = "https://musing-aryabhata-ae83d1.netlify.com"
 languageCode = "en-uk"
-title = "Budibase - Build Life Changing SaaS Applications With Ease"
+title = "Budibase - A Better Way To Build SaaS Applications"
 theme = "budibase"
 
 [params]
 author = "Joe Johnston"
 keywords = ["SaaS Applications", "SaaS builder", "Application builder"]
-description = "Budibase is the new abd better way to build software and SaaS applications. Budibase eliminates repetition and dramatically reduces development time. Check it out."
+description = "Budibase is the new and better way to build SaaS applications. Budibase eliminates repetition and dramatically reduces development time. Check it out."
 dateform = "Jan 2, 2006"
 lang = "en"
 googleAnalytics = ""

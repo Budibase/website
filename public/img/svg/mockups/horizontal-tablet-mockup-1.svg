@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="tablet_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 893 604" style="enable-background:new 0 0 893 604;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#E7EAF3;stroke-miterlimit:10;}
+	.st1{fill:#F7F7F7;}
+</style>
+<path id="BG_Color" class="st0" d="M840.7,603.5H52.3c-28.5,0-51.8-23.3-51.8-51.8V52.3c0-28.5,23.3-51.8,51.8-51.8h788.5
+	c28.5,0,51.8,23.3,51.8,51.8v499.5C892.5,580.2,869.2,603.5,840.7,603.5z"/>
+<circle id="Touch" class="st1" cx="46" cy="303" r="25.5"/>
+<circle id="Camera_1_" class="st1" cx="846.6" cy="302.3" r="6.2"/>
+<g>
+	<defs>
+		
+			<rect id="SVGID_1_" x="184.5" y="-52.5" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 754 -148)" width="533" height="711"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_2_);">
+		
+			<image style="overflow:visible;" width="711" height="532" xlink:href="../../img/711x532/img1.jpg"  transform="matrix(1 0 0 1 95.5 37)">
+		</image>
+	</g>
+	<use xlink:href="#SVGID_1_"  style="overflow:visible;fill:none;stroke:#E7EAF3;stroke-miterlimit:10;"/>
+</g>
+</svg>

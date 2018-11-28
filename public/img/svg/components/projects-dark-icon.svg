@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#151B26;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<rect x="13.2" y="106.4" class="st0" width="123.5" height="8.5"/>
+	<g>
+		<g>
+			<polyline class="st0" points="38.2,114.9 45.2,128.3 37.7,128.3 30.7,114.9 			"/>
+			<line class="st0" x1="45.2" y1="128.3" x2="45.2" y2="114.9"/>
+		</g>
+		<g>
+			<polyline class="st0" points="111.8,114.9 104.8,128.3 112.3,128.3 119.3,114.9 			"/>
+			<line class="st0" x1="104.8" y1="128.3" x2="104.8" y2="114.9"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<rect x="59.8" y="21.7" class="st0" width="30.4" height="79.3"/>
+			<rect x="66.9" y="29.8" class="st0" width="16.3" height="43.9"/>
+			<path class="st0" d="M81.3,88.2c0,3.5-2.8,6.3-6.3,6.3s-6.3-2.8-6.3-6.3s2.8-6.3,6.3-6.3S81.3,84.7,81.3,88.2z"/>
+			<g>
+				<line class="st0" x1="71.2" y1="35.2" x2="78.8" y2="35.2"/>
+				<line class="st0" x1="71.2" y1="39.9" x2="78.8" y2="39.9"/>
+				<line class="st0" x1="71.2" y1="63.6" x2="78.8" y2="63.6"/>
+				<line class="st0" x1="71.2" y1="68.4" x2="78.8" y2="68.4"/>
+			</g>
+		</g>
+		<g>
+			<rect x="24" y="21.7" class="st0" width="30.4" height="79.3"/>
+			<rect x="31.1" y="29.8" class="st0" width="16.3" height="43.9"/>
+			<path class="st0" d="M45.5,88.2c0,3.5-2.8,6.3-6.3,6.3S33,91.7,33,88.2s2.8-6.3,6.3-6.3S45.5,84.7,45.5,88.2z"/>
+			<g>
+				<line class="st0" x1="35.5" y1="35.2" x2="43" y2="35.2"/>
+				<line class="st0" x1="35.5" y1="39.9" x2="43" y2="39.9"/>
+				<line class="st0" x1="35.5" y1="63.6" x2="43" y2="63.6"/>
+				<line class="st0" x1="35.5" y1="68.4" x2="43" y2="68.4"/>
+			</g>
+		</g>
+		<g>
+			<rect x="95.5" y="21.7" class="st0" width="30.4" height="79.3"/>
+			<rect x="102.6" y="29.8" class="st0" width="16.3" height="43.9"/>
+			<path class="st0" d="M117,88.2c0,3.5-2.8,6.3-6.3,6.3s-6.3-2.8-6.3-6.3s2.8-6.3,6.3-6.3S117,84.7,117,88.2z"/>
+			<g>
+				<line class="st0" x1="107" y1="35.2" x2="114.5" y2="35.2"/>
+				<line class="st0" x1="107" y1="39.9" x2="114.5" y2="39.9"/>
+				<line class="st0" x1="107" y1="63.6" x2="114.5" y2="63.6"/>
+				<line class="st0" x1="107" y1="68.4" x2="114.5" y2="68.4"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
