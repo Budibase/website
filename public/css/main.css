@@ -447,6 +447,18 @@ h6, .h6 {
   font-weight: 400;
 }
 
+.serif {
+  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.serif-lead {
+  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
 .display-1 {
   font-size: 6rem;
   font-weight: 400;
