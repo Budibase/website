@@ -11,16 +11,26 @@
               <!-- End Title -->
       
               <!-- Input -->
-              <form class="js-validate js-form-message mb-2">
-                <div class="js-focus-state input-group form">
-                  <input type="email" class="form-control form__input" name="email" required
-                         placeholder="Enter email address"
-                         aria-label="Enter email address">
-                  <span class="input-group-append form__append">
-                    <button type="submit" class="btn btn-sm btn-secondary btn-wide">Get Early Access</button>
-                  </span>
-                </div>
-              </form>
+              <form class="js-validate">
+                  <div class="row mx-gutters-2">
+                    <div class="col-sm-7 mb-3">
+                      <!-- Input -->
+                      <div class="js-form-message">
+                        <div class="js-focus-state input-group form">
+                          <input type="email" class="form-control form__input" name="email" required
+                                 placeholder="Submit Email Address"
+                                 aria-label="Email"
+                                 data-msg="Please enter a valid email address.">
+                        </div>
+                      </div>
+                      <!-- End Input -->
+                    </div>
+    
+                    <div class="col-sm-5 mb-3">
+                      <button type="submit" class="btn btn-block btn-secondary">Get Early Access</button>
+                    </div>
+                  </div>
+                </form>
               <!-- End Input -->
             </div>
           </div>
