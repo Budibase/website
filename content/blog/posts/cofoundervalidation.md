@@ -1,6 +1,6 @@
 +++
 date = "2018-12-10"
-title = "Respect, idea validation, shared vision. The 3 components of cofounder validation."
+title = "The 3 components of cofounder validation."
 categories = ["Startup"] 
 tags = ["founder"]
 description = "Becoming a cofounder is one of the most important decisions in your life, so make sure it's the right one."
