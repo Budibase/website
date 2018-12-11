@@ -19,5 +19,4 @@
 [context.deploy-preview]
   command = "hugo --buildDrafts --buildFuture"
 
-  # Redirect default Netlify subdomain to primary domain
 https://budibase.netlify.com/* https://www.budibase.com/:splat 301!
