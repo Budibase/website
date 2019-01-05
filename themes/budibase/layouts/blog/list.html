@@ -70,31 +70,28 @@
 
 <div class="container space-3-bottom--lg">
 <div class="row">
-    {{ range .Pages.ByDate }}
-    <div class="col-sm-4 ">
-        <article class="card mb-5 ">
+    {{ range .Pages.ByDate.Reverse }}
+    <div class="w-md-60 mx-auto mb-3">
+    <div class="col-sm-12">
+        <article class="card mb-5">
             <div class="card-body p-5">
-              <small class="d-block-2">{{ .Date.Format "2006-01-02"}}</small>
-              <h2 class="h5">
+              <h3 class="strong">
                 <a href="{{ .Permalink }}">{{ .Title }}</a>
-              </h2>
-              <p>{{ .Description }}</p>
-            </div>
-            <div class="card-footer bg-dark py-4 px-5">
-              <div class="media">
-                <img class="u-sm-avatar rounded-circle mr-3" src="img/logo/budibase-white-emblem.svg" alt="Image Description">
-                <div class="media-body">
-                  <h3 class="d-inline-block mb-0">
-                    <a class="d-block font-size-13 text-light" href="{{ .Permalink }}">Joe Johnston</a>
-                  </h3>
-                </div>
+              </h3>
+              <p class="lead mb-0">{{ .Description }}</p>
+              <div class="space-1-top">
               </div>
+              <h4 class="cta"><a href="{{ .Permalink }}">Read More</a></h4>
+                <small class="d-block-2 text-dark">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }} | By: {{ .Site.Params.author }} </small>
+              </div>
+            </div>
             </div>
         </article>
     </div>
-    {{ end }}
+  </div>
+    
 </div>   
-
+{{ end }}
 </div> 
 
 </div> 

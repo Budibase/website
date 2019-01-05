@@ -16,6 +16,6 @@ Respect can be earned, but best when it's natural. Natural respect is only possi
 
 Idea validation can come from your gut, statistics, or qualitative feedback. It can also be negotiated, iterated, and polished during initial discussions.
 
-The Vision component is natural and must be aligned. This is your north star, shining far in the distance. If your visions are not aligned, misdirection and darkness is sure to follow. A vision determines culture, direction, and identity. It's crucial.
+The vision component is natural and must be aligned. This is your north star, shining far in the distance. If your visions are not aligned, misdirection and darkness is sure to follow. A vision determines culture, direction, and identity. It's crucial.
 
 When all the components are met, you have cofounder validation. A new relationship, a new journey, a combined outlook. Two, in this case, is better than one.

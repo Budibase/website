@@ -447,6 +447,11 @@ h6, .h6 {
   font-weight: 400;
 }
 
+.cta {
+  font-size: 1.2rem;
+  color:#0052CC;
+}
+
 .serif {
   font-family: "PT Serif", Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
