@@ -12,7 +12,7 @@
         <!-- Author -->
         <div class="media align-items-center mb-5">
           <div class="media-body">
-            <h4 class="h6 mb-0">By: {{ .Site.Params.author }}</h4>
+            <h4 class="h6 mb-0">By: {{ .Params.author }}</h4>
             <small class="d-block text-muted">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</small>
           </div>
         </div>
