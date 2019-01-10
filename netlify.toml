@@ -4,17 +4,17 @@
   command = "hugo -d public"
 [build.environment]
   #overwritten by context.production.environment, et. al.
-  HUGO_VERSION = "0.48"
+  HUGO_VERSION = "0.53"
 # The following environments overwrite the global above if you target them.
 # The version you use for production
 [context.production.environment]
-  HUGO_VERSION = "0.48"
+  HUGO_VERSION = "0.53"
 # you can lock a version of hugo for a deploy preview
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.48"
+  HUGO_VERSION = "0.53"
 # you can lock a version of hugo for a branch-deploy (other than previews)
 [context.branch-deploy.environment]
-  HUGO_VERSION = "0.48"
+  HUGO_VERSION = "0.53"
 # build a preview of the site (Drafts and Future dates also)
 [context.deploy-preview]
   command = "hugo --buildDrafts --buildFuture"

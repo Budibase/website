@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 {{ partial "navigation.html" . }}
-<div class="bg-img-hero" style="background-image: url(img/svg/shapes/herobg.svg);">
+<div class="bg-img-hero space-3-bottom--lg" style="background-image: url(img/svg/shapes/herobg.svg);">
   <div class="container text-center space-2 space-4-top space-1-bottom--lg">
           <div class="w-md-80 mx-auto mb-3">
             <h1 class="col display-4 font-size-48--md-down">SaaS News At The Budi Blog</h1>
@@ -68,11 +68,12 @@
       </div>
       <!-- End Stats Section -->
 
-<div class="container space-3-bottom--lg">
-<div class="row">
+
     {{ range .Pages.ByDate.Reverse }}
+<div class="container ">
+  <div class="row">
     <div class="w-md-60 mx-auto mb-3">
-    <div class="col-sm-12">
+      <div class="col-sm-12">
         <article class="card mb-5">
             <div class="card-body p-5">
               <h3 class="strong">
@@ -84,14 +85,14 @@
               <h4 class="cta"><a href="{{ .Permalink }}">Read More</a></h4>
                 <small class="d-block-2 text-dark">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }} | By: {{ .Params.author }} </small>
               </div>
-            </div>
-            </div>
         </article>
+      </div>
     </div>
   </div>
-    
-</div>   
+</div>
 {{ end }}
+ 
+</div>   
 </div> 
 
 </div> 

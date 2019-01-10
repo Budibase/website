@@ -21,11 +21,8 @@
 
       <!-- Description -->
       <div class="w-md-75 w-lg-60 mx-md-auto mb-9">
-        <p class="lead mb-0 ">
-
-  {{ .Content }}
-</p>
-
+          <img class="img-fluid space-1" {{ with .Params.image }} src="{{ . }}"{{ end }} alt="{{ .Title }}">
+            {{ .Content }}
       </div>
     </div>
 </main>

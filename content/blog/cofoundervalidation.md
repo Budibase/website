@@ -5,6 +5,7 @@ categories = ["Startup"]
 tags = ["founder"]
 description = "Becoming a cofounder is one of the most important decisions in your life, so make sure it's the right one."
 author = "Joe Johnston"
+image = "/cofounder.jpg"
 +++
 
 

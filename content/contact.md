@@ -1,5 +1,5 @@
 ---
-title: "Contact Budibase"
+title: "Contact Budibase - We try to respond within 2 hours"
 description: "Contact Budibase. Complete the contact form and we promise to respond as soon as possible."
 type: contact
 layout: single

@@ -2,6 +2,7 @@ baseURL = "https://www.budibase.com/"
 languageCode = "en-uk"
 title = "Budibase - A Better Way To Build SaaS Applications"
 theme = "budibase"
+enableEmoji = "true"
 
 [params]
 author = "Joe Johnston"
@@ -10,5 +11,7 @@ description = "Budibase is the new and better way to build SaaS applications. Bu
 dateform = "Jan 2, 2006"
 lang = "en"
 googleAnalytics = ""
+image = "img/img/saas-app-header.png"
+
 
 
