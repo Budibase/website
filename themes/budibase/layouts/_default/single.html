@@ -1,54 +1,29 @@
-
-{{ partial "header.html" . }}
-
-
-
-<!--Header-->
-
-<header class="main-header">
-      
-</header>
-
-<!--Header-->
-
-<!--Article-->
-<!-- ========== MAIN CONTENT ========== -->
 <main id="content" role="main">
-    <!-- Article Content -->
-    <div class="container space-2 space-3--lg">
-      <header class="w-md-75 w-lg-60 mx-md-auto">
-        <h1 class="mb-5">{{ .Title }}</h1>
+  <!-- Article Content -->
+<div class="article">
+  <div class="container space-3-top">
+    <header class="w-md-75 w-lg-60 mx-md-auto">
+      <h1 class="mb-5">{{ .Title }}</h1>
 
-        <!-- Author -->
-        <div class="media align-items-center mb-5">
-          <img class="u-avatar rounded-circle mr-3" src="img/img/100x100/img1.jpg" alt="Image Description">
-          <div class="media-body">
-            <h4 class="h6 mb-0">Author: {{ .Site.Params.author }}</h4>
-            <small class="d-block text-muted">{{.Date.Format "2006-01-02"}}</small>
-          </div>
-          <div class="d-flex">
-            <a class="btn btn-xs btn-primary" href="https://themes.getbootstrap.com/product/space-multipurpose-responsive-template/">Follow Me</a>
-          </div>
+      <!-- Author -->
+      <div class="media align-items-center mb-5">
+        <div class="media-body">
+          <h4 class="h6 mb-0">By: {{ .Params.author }}</h4>
+          <small class="d-block text-muted">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</small>
         </div>
-        <!-- End Author -->
-      </header>
-
-      <!-- Image -->
-      <div class="w-lg-75 text-center mx-lg-auto mb-5">
-        <img class="img-fluid mb-2" src="img/img/900x450/img1.jpg" alt="Image Description">
       </div>
-      <!-- End Image -->
+@ -20,12 +21,13 @@
+    </header>
 
-      <!-- Description -->
-      <div class="w-md-75 w-lg-60 mx-md-auto mb-9">
-
-  {{ .Content }}
-  <p class="article_date">
-</p>
-
-      </div>
+    <!-- Description -->
+  
+    <div class="w-md-75 w-lg-60 mx-md-auto mb-9"><hr>
+          {{ .Content }}
     </div>
+  </div>
+</div>
 </main>
+
 <!--Article-->
 
-{{ partial "footer.html" . }}
+{{ partial "cta.html" . }}
