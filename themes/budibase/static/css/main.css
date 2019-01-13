@@ -17169,11 +17169,11 @@ button:focus {
     }
 }
 .article {
-  background-color: #ffffff;
+  background-color: #FEFFFF;
 }
 .article p {
   font-family: "PT Serif", Helvetica, Arial, sans-serif; 
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .article h1 {
   font-family: "Nunito", Helvetica, Arial, sans-serif; 
