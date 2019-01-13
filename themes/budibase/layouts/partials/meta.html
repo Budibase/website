@@ -72,12 +72,12 @@
     "@type": "WebPage",
     "@id": "{{ .Permalink }}"
   },
-  {{ if ge (.Param "lua.image.width") 696 -}}
+  {{ if ge (.Param "image.width") 696 -}}
   "image": {
     "@type": "ImageObject",
-    "url": "{{ .Param "lua.image.url" | absURL }}",
-    "width": {{ .Param "lua.image.width" }},
-    "height": {{ .Param "lua.image.height" }}
+    "url": "{{ .Param "image.url" | absURL }}",
+    "width": {{ .Param "image.width" }},
+    "height": {{ .Param "image.height" }}
   },
   {{- else if ge .Site.Params.image.width 696 -}}
    "image": {
