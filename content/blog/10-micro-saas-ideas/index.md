@@ -6,7 +6,6 @@ tags = ["SaaS, ideas, micro saas"]
 description = "This list of Micro SaaS ideas is perfect if you are considering starting a new project. Each idea on the list is original and validated by the Budibase community."
 author = "Joe Johnston"
 draft ="true"
-type = "techArticle"
 
 +++
 
