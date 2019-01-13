@@ -33,13 +33,13 @@
     <script type="application/ld+json">
     { 
       "@context": "http://schema.org", 
-      "@type": "WebSite", 
+      "@type": "Article", 
       "url": "{{ .Permalink }}", 
       "name": "{{ .Site.Title }}",
        "author": {
           "@type": "Person",
           "name": "{ .Site.Params.author }}"
-        },
+        }
       "description": "{ .Site.Params.description }}",
     }
     </script>

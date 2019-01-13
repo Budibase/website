@@ -34,7 +34,7 @@ I'm pretty sure you'll like them.
 
 ## Benefits of owning a Micro SaaS business
 
-#### Freedom
+### Freedom
 
 When your new Micro SaaS business is successful, you can explore the freedom of working for yourself - more family time, days off when you want, and control. 
 
@@ -42,15 +42,15 @@ No more apathy or bureaucracy - you make the decisions, you rule the roost!
 
 Leaving the 9-5 rat race is an objective for many and a Micro SaaS business is a super-quick way out of it.
 
-#### Speed
+### Speed
 
-As the name suggests Micro SaaS businesses are small, involving less resources and a lot of the time less functionality. 
+As the name suggests Micro SaaS businesses are small, involving less resources and often less functionality. 
 
 It's also made a lot easier and quicker with [SaaS App Builders](https://www.budibase.com) .  MVPs are built at lightning speeds - sometimes [under 24 hours](https://www.youtube.com/watch?v=DexyfHomC4Q) . 
 
 Also, building and validating an MVP is quicker with a focused market.
 
-#### Support
+### Support
 
 With less functionality, a focused solution, and a niche market, support is easier to manage. 
 
