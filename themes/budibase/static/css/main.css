@@ -17192,13 +17192,13 @@ button:focus {
   font-size: 1.7rem;
 }
 .article h4 {
-  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
   margin-top: 2rem;
   margin-bottom: .5rem; 
   font-weight: 900;
 }
 .article h5 {
-  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
   margin-top: 2rem;
   margin-bottom: .5rem; 
   font-weight: 900;
@@ -17206,6 +17206,7 @@ button:focus {
 .article li {
   font-family: "PT Serif", Helvetica, Arial, sans-serif; 
   font-size: 1.2rem;
+  padding-left: 0;
 }
 
 .article figure {
