@@ -9,10 +9,10 @@
   
    <!-- CSS -->
    <link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
+   <link rel="stylesheet" href="fonts/all.min.css">
 
   <!-- CSS - Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Nunito|PT+Serif" rel="stylesheet">
-  {{ partial "bootstraphead.html" . }}
+  <link href="https://fonts.googleapis.com/css?family=Nunito|PT+Serif|Lato:700,900" rel="stylesheet">
   {{ partial "meta.html" . }}
   {{ with .Site.Params.Author }}<meta name="author" content="{{ . }}">{{ end }}
   <base href="{{ .Site.BaseURL }}">

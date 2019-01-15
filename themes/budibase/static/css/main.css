@@ -87,7 +87,7 @@ hr {
 h1, h2 {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   color: #172B4D;
 }
 
@@ -100,7 +100,7 @@ h1, h2 {
 h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   color: #172B4D;
 
 }
@@ -390,7 +390,6 @@ template {
 h1, h2,
 .h1, .h2, {
   margin-bottom: 0.5rem;
-  font-family: PT Serif;
   line-height: 1.7;
   color: #172B4D;
 }
@@ -404,7 +403,6 @@ h1, h2,
  h3, h4, h5, h6,
 .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: Nunito;
   font-weight: 700;
   line-height: 1.5;
   color: #172B4D;
@@ -414,7 +412,7 @@ h1, .h1 {
   margin-bottom: 1rem;
   font-size: 2.6rem;
   line-height: 1.4;
-  font-weight: 700;
+  font-weight: 800;
 
 }
 
@@ -465,7 +463,7 @@ h6, .h6 {
 
 .display-1 {
   font-size: 6rem;
-  font-weight: 400;
+  font-weight: 900;
   line-height: 1.2;
 }
 
@@ -477,7 +475,7 @@ h6, .h6 {
 
 .display-3 {
   font-size: 4.5rem;
-  font-weight: 400;
+  font-weight: 900;
   line-height: 1.2;
 }
 
@@ -17176,32 +17174,32 @@ button:focus {
   font-size: 1.2rem;
 }
 .article h1 {
-  font-family: "Nunito", Helvetica, Arial, sans-serif; 
+  font-family: "Lato", Helvetica, Arial, sans-serif; 
   font-weight: 900;
 }
 .article h2 {
-  font-family: "Nunito", Helvetica, Arial, sans-serif; 
+  font-family: "Lato", Helvetica, Arial, sans-serif; 
   margin-top: 4rem;
   margin-bottom: 1rem;
   font-size: 2.2rem;
 }
 .article h3 {
-  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   margin-top: 2rem;
   margin-bottom: .5rem; 
   font-size: 1.7rem;
 }
 .article h4 {
-  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   margin-top: 2rem;
   margin-bottom: .5rem; 
-  font-weight: 900;
+  font-weight: 700;
 }
 .article h5 {
-  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   margin-top: 2rem;
   margin-bottom: .5rem; 
-  font-weight: 900;
+  font-weight: 700;
 }
 .article li {
   font-family: "PT Serif", Helvetica, Arial, sans-serif; 
