@@ -12,7 +12,7 @@
           <small class="d-block text-muted">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</small>
         </div>
       </div>
-@ -20,12 +21,13 @@
+
     </header>
 
     <!-- Description -->
@@ -20,7 +20,10 @@
     <div class="w-md-75 w-lg-60 mx-md-auto mb-9"><hr>
           {{ .Content }}
     </div>
+
+
   </div>
 </div>
 </main>
+
 {{ partial "cta.html" . }}

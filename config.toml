@@ -1,6 +1,6 @@
 baseURL = "https://www.budibase.com/"
 languageCode = "en-uk"
-title = "All-in-one SaaS Builder For Rapid Development | Budibase"
+title = "All-in-one SaaS Builder for building, hosting & managing apps"
 theme = "budibase"
 enableEmoji = "true"
 
@@ -9,7 +9,7 @@ copyright = "This work is licensed and owned by Budibase"
 
 [params]
 keywords = ["SaaS Applications", "SaaS builder", "Application builder"]
-description = "Budibase is a modern SaaS builder for building, managing and hosting SaaS applications. Budibase eliminates repetition and dramatically reduces development time. Check it out."
+description = "Budibase is a modern SaaS builder for building, hosting and managing SaaS applications. Budibase eliminates repetition and dramatically reduces development time. Check it out."
 dateform = "Jan 2, 2006"
 lang = "en"
 googleAnalytics = ""
@@ -21,7 +21,7 @@ googleAnalytics = ""
 [params.publisher]
     name = "Budibase"
 
-   [params.publisher.logo]
+  [params.publisher.logo]
       url = "/img/logo/budibase-logo-small.png"
       width = 127
       height = 40
