@@ -92,7 +92,9 @@ Blood, sweat and tears were poured whilst creating and documenting these ideas. 
 
 {{< figure src="/freelancercrm.jpg" alt="Freelance CRM" >}}
 
-The freelance market is growing rapidly, with Forbes reporting half of the US workforce will be freelance by 2020.  The figure is a little optimistic but you get the idea. This influx in demand is due to the low labour costs which makes freelancers an attractive proposition for over 66% of large organisations.
+> The freelance market is growing rapidly, with Forbes reporting half of the US workforce will be freelance by 2020.  [Forbes](https://www.forbes.com/sites/elainepofeldt/2017/10/17/are-we-ready-for-a-workforce-that-is-50-freelance/)
+
+This figure is a little optimistic but you get the idea - the market is growing fast. This influx in demand is due to the low labour costs which makes freelancers an attractive proposition for over 66% of large organisations.
 
 #### Problem
 
@@ -116,7 +118,13 @@ We can confirm the term 'freelance crm' receives around 390 searches per month o
 
 ### 2. Content Scheduler
 
-The freelance market is growing rapidly, with Forbes reporting half of the US workforce will be freelance by 2020.  The figure is a little optimistic but you get the idea. This influx in demand is due to the low labour costs which makes freelancers an attractive proposition for over 66% of large organisations.
+{{< figure src="/micro-saas-ideas/contentmarketing.jpg" alt="Podcast" >}}
+
+> Half of the respondents to a SearchEngineWatch survey expect their content marketing budget to increase over the next 12 months. [SearchEngineWatch](https://searchenginewatch.com/2018/11/21/7-content-marketing-stats-2019/)
+
+
+
+Just look at the sheer velocity surrounding the popularity of podcasts.
 
 #### Problem
 
@@ -139,6 +147,8 @@ We can confirm the term 'freelance crm' receives around 390 searches per month o
 ---
 
 ### 3. Church Database
+
+{{< figure src="/micro-saas-ideas/church.jpg" alt="Church" >}}
 
 The freelance market is growing rapidly, with Forbes reporting half of the US workforce will be freelance by 2020.  The figure is a little optimistic but you get the idea. This influx in demand is due to the low labour costs which makes freelancers an attractive proposition for over 66% of large organisations.
 
@@ -164,6 +174,8 @@ We can confirm the term 'freelance crm' receives around 390 searches per month o
 
 ### 4. Wedding Planner
 
+{{< figure src="/micro-saas-ideas/wedding.jpg" alt="Wedding" >}}
+
 The freelance market is growing rapidly, with Forbes reporting half of the US workforce will be freelance by 2020.  The figure is a little optimistic but you get the idea. This influx in demand is due to the low labour costs which makes freelancers an attractive proposition for over 66% of large organisations.
 
 #### Problem
@@ -181,11 +193,15 @@ There are lots of CRMs out there but your biggest competitor is probably not a C
 #### Demand
 
 We can confirm the term 'freelance crm' receives around 390 searches per month on Google.
+
+
 
 ---
 
 ### 5. Recipe App
 
+{{< figure src="/micro-saas-ideas/recipe.jpg" alt="Recipe App" >}}
+
 The freelance market is growing rapidly, with Forbes reporting half of the US workforce will be freelance by 2020.  The figure is a little optimistic but you get the idea. This influx in demand is due to the low labour costs which makes freelancers an attractive proposition for over 66% of large organisations.
 
 #### Problem
@@ -203,11 +219,15 @@ There are lots of CRMs out there but your biggest competitor is probably not a C
 #### Demand
 
 We can confirm the term 'freelance crm' receives around 390 searches per month on Google.
+
+
 
 ---
 
 ### 6. Birthday App
 
+{{< figure src="/micro-saas-ideas/birthday.jpg" alt="Birthday App" >}}
+
 The freelance market is growing rapidly, with Forbes reporting half of the US workforce will be freelance by 2020.  The figure is a little optimistic but you get the idea. This influx in demand is due to the low labour costs which makes freelancers an attractive proposition for over 66% of large organisations.
 
 #### Problem
@@ -226,9 +246,13 @@ There are lots of CRMs out there but your biggest competitor is probably not a C
 
 We can confirm the term 'freelance crm' receives around 390 searches per month on Google.
 
+
+
 ---
 
 ### 7. Sports Team Database
+
+{{< figure src="/micro-saas-ideas/team.jpg" alt="Sports Team Database" >}}
 
 The freelance market is growing rapidly, with Forbes reporting half of the US workforce will be freelance by 2020.  The figure is a little optimistic but you get the idea. This influx in demand is due to the low labour costs which makes freelancers an attractive proposition for over 66% of large organisations.
 
@@ -254,6 +278,8 @@ We can confirm the term 'freelance crm' receives around 390 searches per month o
 
 ### 8. OKR Tracker
 
+{{< figure src="/micro-saas-ideas/okr.jpg" alt="OKR Tracker" >}}
+
 The freelance market is growing rapidly, with Forbes reporting half of the US workforce will be freelance by 2020.  The figure is a little optimistic but you get the idea. This influx in demand is due to the low labour costs which makes freelancers an attractive proposition for over 66% of large organisations.
 
 #### Problem
@@ -276,7 +302,9 @@ We can confirm the term 'freelance crm' receives around 390 searches per month o
 
 ---
 
-### 9. Tea/Coffee Round
+### 9. Tea/Coffee Round App
+
+{{< figure src="/micro-saas-ideas/tearound.jpg" alt="Tea Round App" >}}
 
 The freelance market is growing rapidly, with Forbes reporting half of the US workforce will be freelance by 2020.  The figure is a little optimistic but you get the idea. This influx in demand is due to the low labour costs which makes freelancers an attractive proposition for over 66% of large organisations.
 
@@ -301,6 +329,8 @@ We can confirm the term 'freelance crm' receives around 390 searches per month o
 ---
 
 ### 10. Product Roadmap Tracker
+
+{{< figure src="/micro-saas-ideas/productroadmap.jpg" alt="Product Roadmap Tracker" >}}
 
 The freelance market is growing rapidly, with Forbes reporting half of the US workforce will be freelance by 2020.  The figure is a little optimistic but you get the idea. This influx in demand is due to the low labour costs which makes freelancers an attractive proposition for over 66% of large organisations.
 
