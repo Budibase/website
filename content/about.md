@@ -1,5 +1,5 @@
 ---
-title: "About Budibase - SaaS Builder, Business Manager and Live Changer"
+title: "About Budibase - A SaaS Builder To Help You Escape The 9-5"
 description: "Our mission is to empower the world to develop amazing SaaS applications, build businesses, and live life on their own terms."
 type: about
 layout: single
