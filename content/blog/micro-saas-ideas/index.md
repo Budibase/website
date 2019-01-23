@@ -1,5 +1,5 @@
 +++
-date = "2019-01-12"
+date = "2019-01-23"
 title = "6 Micro SaaS Ideas You'll Want To Steal"
 categories = ["SaaS"] 
 tags = ["SaaS, ideas, micro saas"]
