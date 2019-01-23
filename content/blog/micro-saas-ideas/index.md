@@ -74,19 +74,19 @@ To whet your appetite, here's three Micro SaaS examples which have generated suc
 
 [$120,000/month revenue](https://www.indiehackers.com/product/everhour)
 
-Everhour is a straightforward time tracking platform which solves all your time tracking needs. Perfect for companies who require a solution for time management and a need for better productivity.
+Everhour is a straightforward time tracking platform which solves all the user's time tracking needs. Perfect for companies who require a solution for time management and a need for better productivity.
 
 ### [2. Mealime](https://www.mealime.com/) 
 
 [$64,000/month revenue](https://www.indiehackers.com/product/mealime)
 
-Mealime is a simple way for busy singles, couples, and families to plan their meals and eat healthier. Our meal plans & recipes are highly customizable so you can easily personalize a plan that works with your unique tastes and lifestyle.
+Mealime is a simple way for busy singles, couples, and families to plan their meals and eat healthier. Users can customise their recipes to suit their needs and diets.
 
 ### [3. Complice](https://complice.co) 
 
 [$64,000/month revenue](https://www.indiehackers.com/product/complice)
 
-Complice connects your high-level goals with your day-to-day actions, and helps you think more strategically about your life. Complice’s intuitive daily planning, nightly reflection and progress tracking keep your goals in focus as you take steps towards them every day.
+Complice connects high-level goals with day-to-day actions. Complice’s intuitive daily planning, nightly reflection and progress tracking keep the user's goals in focus.
 
 
 
