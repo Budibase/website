@@ -206,7 +206,7 @@ Just look at that fine Google Trend:
 
 {{< figure src="/micro-saas-ideas/instagram.jpg" alt="Instagram Automater" >}}
 
-Instagram needs little introduction. It's extremely powerfull and its reach is... scary, with over 1 billion users. 
+Instagram needs little introduction. It's extremely powerful and its reach is... scary, with over 1 billion users. 
 
 But not everyone's a fan, or at least until recent times.
 
