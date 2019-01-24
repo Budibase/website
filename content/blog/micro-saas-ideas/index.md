@@ -153,7 +153,7 @@ We can confirm the term 'freelance crm' receives around 390 searches per month o
 
 We are absorbing more digital content than ever before and there's a reason for that. 
 
-We are always online; when we're in bed, at work, in the shower :shower: - I have a Google Home in my bathroom and Shower quizzes" are an important element of my morning wake-up.
+We are always online; when we're in bed, at work, in the shower :shower: - I have a Google Home in my bathroom and "shower quizzes" are an important element of my morning wake-up.
 
 Please, read on! 
 
@@ -206,7 +206,7 @@ Just look at that fine Google Trend:
 
 {{< figure src="/micro-saas-ideas/instagram.jpg" alt="Instagram Automater" >}}
 
-Instagram needs little introduction. It's extremely powerfull and its reach is... scary, with over 1 billion users. 
+Instagram needs little introduction. It's extremely powerful and its reach is... scary, with over 1 billion users. 
 
 But not everyone's a fan, or at least until recent times.
 
