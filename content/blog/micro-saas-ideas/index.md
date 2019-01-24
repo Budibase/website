@@ -153,7 +153,7 @@ We can confirm the term 'freelance crm' receives around 390 searches per month o
 
 We are absorbing more digital content than ever before and there's a reason for that. 
 
-We are always online; when we're in bed, at work, in the shower :shower: - I have a Google Home in my bathroom and Shower quizzes" are an important element of my morning wake-up.
+We are always online; when we're in bed, at work, in the shower :shower: - I have a Google Home in my bathroom and "shower quizzes" are an important element of my morning wake-up.
 
 Please, read on! 
 
@@ -173,13 +173,13 @@ According to the [CMI](https://optinmonster.com/content-marketing-statistics/), 
 
 Producing content is tough and involves a lot of time and resource. 
 
-The last thing you want is to lose track of what your producing and when. 
+The last thing you want is to lose track of what you're producing and when. 
 
 Many marketers, bloggers, writers, are producing up to 6 different forms of content per day. This workload often leads to workflow issues, and is only heightened within a team.
 
 #### Solution
 
-A simple content planner where multiple people can edit and members of the team are notified when a post is deployed or scheduled. 
+A simple content planner where multiple people can edit, and members of the team are notified when a post is deployed or scheduled. 
 
 This would be a great MVP.
 
@@ -189,7 +189,7 @@ This would allow for scheduling and automatic deployment.
 
 #### Competition
 
-After scanning the internet, there does not seem to be many content planners which focus on blog posts, podcasts and social media posts. CoSchedule seems to be the leader - surely there's room for one more.
+After scanning the internet, there does not seem to be many content planners which focus on blog posts, podcasts and social media posts. [CoSchedule](https://coschedule.com) seems to be the leader - surely there's room for one more.
 
 #### Demand
 
@@ -206,7 +206,7 @@ Just look at that fine Google Trend:
 
 {{< figure src="/micro-saas-ideas/instagram.jpg" attr="Photo by [Ialo Hernadez](https://unsplash.com/photos/r34cKhbEDCU)" alt="Instagram Automater" >}}
 
-Instagram needs little introduction. It's extremely power and its reach is... scary, with over 1 billion users. 
+Instagram needs little introduction. It's extremely powerful and its reach is... scary, with over 1 billion users. 
 
 But not everyone's a fan, or at least until recent times.
 
@@ -254,9 +254,9 @@ OKRs was the corporate craze of 2018 - I myself, have been smothered by the new 
 
 For those who do not know, OKR stands for Objective and Key Results. They were developed by IBM in the 80's and adopted by Google - hence the craze in the tech community. 
 
-But here's a little oxymoron for you, a craze is your promise land. 
+But here's a little oxymoron for you, a craze is your promised land. 
 
-When their's attention in 'corporate world', there's usually money to be made. This is no different to OKRs. 
+When there's attention in 'corporate world', there's usually money to be made. This is no different to OKRs. 
 
 #### Problem
 
@@ -370,7 +370,7 @@ Other than that, there doesn't seem to be many apps which are closely related an
 
 #### Demand
 
-There is over 15000 searches per month for 'Bookmark Manager' which is quite generic but it's the best data we can get on this one. This one needs more research combined with in-depth validation.
+There are over 15000 searches per month for 'Bookmark Manager' which is quite generic but it's the best data we can get on this one. This one needs more research combined with in-depth validation.
 
 
 
