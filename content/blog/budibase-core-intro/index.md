@@ -34,7 +34,7 @@ Database engine threads should operate without shared memory. This will enable u
 - Define collections of records.
 - Declare "indexes" - by which we mean a "view" on a collection. This would be declared in the form of a "map" and "filter" function, written in javascript. Indexes will be the only way to list records.
 - Declare aggregate (summary) functions on an index.
-- Declare relationships between record types.
+- Declare relationships between record types (with referential integrity).
 - Records may have child collections.
 - Define user roles, that define which records/collections/indexes may be viewed and edited by users who have this role applied.
 - Create, read, update and delete operations on records.
@@ -45,7 +45,7 @@ Database engine threads should operate without shared memory. This will enable u
 
 ## Budibase Core - The Serverless (no, really - actually no server) Database. 
 
-![](/budibase-core-intro/Budibase Core - ClientServer.png)
+{{< figure src="/budibase-core-intro/Budibase Core - ClientServer.png" alt="Client Server Architecture" >}}
 
 Above, is a simplified version of one mode of working with Budibase core. Key Points are
 
@@ -60,7 +60,8 @@ Not clear from the above picture:
 
 Additionally, these features (or constrains?)  open up a new paradigm for structured data storage. We now have the option of connecting an app directly to file storage - *no web server required*. Of course, in doing so, we will lose some features that an always-on, trusted web server can provide us. That discussion is for another post.
 
-![](/budibase-core-intro/Budibase Core - ClientOnly.png)
+{{< figure src="/budibase-core-intro/Budibase Core - ClientOnly.png" alt="Client Only Architecture" >}}
+
 
 ## Trade-Offs
 
