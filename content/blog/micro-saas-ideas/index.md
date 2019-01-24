@@ -105,7 +105,7 @@ Blood, sweat and tears were poured whilst creating and documenting these ideas. 
 
 ### 1. CRM For Freelancers
 
-{{< figure src="/micro-saas-ideas/freelancercrm.jpg" alt="Freelance CRM" >}}
+{{< figure src="/micro-saas-ideas/freelancercrm.jpg" attr="Picture by [Rob Bye](https://unsplash.com/@robertbye)" alt="Freelance CRM" >}}
 
 > The freelance market is growing rapidly, with Forbes reporting half of the US workforce will be freelance by 2020.  [Forbes](https://www.forbes.com/sites/elainepofeldt/2017/10/17/are-we-ready-for-a-workforce-that-is-50-freelance/)
 
@@ -147,7 +147,7 @@ We can confirm the term 'freelance crm' receives around 390 searches per month o
 
 ### 2. Content Planner
 
-{{< figure src="/micro-saas-ideas/contentmarketing.jpg" alt="Podcast" >}}
+{{< figure src="/micro-saas-ideas/contentmarketing.jpg" attr="Picture by [Jason Rosewell](https://unsplash.com/photos/ASKeuOZqhYU)" alt="Podcast" >}}
 
 > Half of the respondents to a SearchEngineWatch survey expect their content marketing budget to increase over the next 12 months. [SearchEngineWatch](https://searchenginewatch.com/2018/11/21/7-content-marketing-stats-2019/)
 
@@ -157,9 +157,9 @@ We are always online; when we're in bed, at work, in the shower :shower: - I hav
 
 Please, read on! 
 
-Companies understand our need to always be connected, which is why 55% of marketers say blog content creation is their top inbound marketing priority. [(HubSpot, 2018)](Source: <https://www.hubspot.com/marketing-statistics>) 
+Companies understand our need to always be connected, which is why '55% of marketers say blog content creation is their top inbound marketing priority'. [(HubSpot, 2018)](Source: <https://www.hubspot.com/marketing-statistics>) 
 
-On top of that, Monthly podcast listeners grew from 24% of Americans to 26% year over year. [Edison Research, 2018](https://www.edisonresearch.com/podcast-consumer-2018/)
+On top of that, 'Monthly podcast listeners grew from 24% of Americans to 26% year on year'. [Edison Research, 2018](https://www.edisonresearch.com/podcast-consumer-2018/)
 
 We are not just absorbing more content than ever, we are producing more too. 
 
@@ -204,7 +204,7 @@ Just look at that fine Google Trend:
 
 ### 3. Instagram Post Automator
 
-{{< figure src="/micro-saas-ideas/instagram.jpg" alt="Instagram Automater" >}}
+{{< figure src="/micro-saas-ideas/instagram.jpg" attr="Photo by [Ialo Hernadez](https://unsplash.com/photos/r34cKhbEDCU)" alt="Instagram Automater" >}}
 
 Instagram needs little introduction. It's extremely power and its reach is... scary, with over 1 billion users. 
 
@@ -248,7 +248,7 @@ With over 2600 searches per month for 'Instagram Scheduler', and a lot of wishfu
 
 ### 4. OKR Tracker
 
-{{< figure src="/micro-saas-ideas/okr.jpg" alt="OKR Tracker" >}}
+{{< figure src="/micro-saas-ideas/okr.jpg" attr="Photo by [Rawpixel](https://unsplash.com/photos/gNUMZjxd89w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)" alt="OKR Tracker" >}}
 
 OKRs was the corporate craze of 2018 - I myself, have been smothered by the new framework. 
 
@@ -290,7 +290,7 @@ And just look at that trend. A beautiful illustration of corporate craze.
 
 ### 5. Tea/Coffee Round App ☕️ 
 
-{{< figure src="/micro-saas-ideas/tearound.jpg" alt="Tea Round App" >}}
+{{< figure src="/micro-saas-ideas/tearound.jpg" attr="Photo by [Nate Dumalo](https://unsplash.com/@nate_dumlao)" alt="Tea Round App" >}}
 
 You might think this a novelty idea, and you'd be completely right, but novelty ideas can sometimes pay £$£$. Just look at the [Fu*** Weather app](https://play.google.com/store/apps/details?id=pl.lawiusz.funnyweather.release&hl=en). It wakes you up in the morning by shouting the weather report mixed with vulgarities. For some it's a little silly; for others it's cool, but more importantly it has over 1 million downloads just on Android. I think that's a success!
 
@@ -330,7 +330,7 @@ There's not much data around tea round apps. Instead, here's a trend comparison 
 
 ### 6. Bookmarks For Designers
 
-{{< figure src="/micro-saas-ideas/designer.jpg" alt="Designer Bookmark App" >}}
+{{< figure src="/micro-saas-ideas/designer.jpg" attr="Picture by [Headway](https://unsplash.com/photos/jfR5wu2hMI0)" alt="Designer Bookmark App" >}}
 
 Design is a continually changing environment. 
 
