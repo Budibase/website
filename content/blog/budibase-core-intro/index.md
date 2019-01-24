@@ -9,8 +9,6 @@ draft ="false"
 
 +++
 
-# Budibase Core. A Serverless Database Engine, for fast SaaS development.
-
 At Budibase, we are building a platform for accelerated development and easy management of SaaS businesses. We are beginning at the very bottom of the stack, by inventing a database engine specifically for this purpose. This post will attempt to give a good overview of what we are trying to achieve. I will get into detail in later posts.
 
 ## What we need from a database
