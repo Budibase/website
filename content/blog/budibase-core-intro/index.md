@@ -25,7 +25,7 @@ Datasets should be horizontally scalable. Adding thousands of new datasets (I.e.
 
 Management of the database should be easy. This includes schema & rules updates, backups, dataset creation and copying.
 
-Database engine threads should operate without shared memory. This will enable us to run on stateless "Serverless Cloud Functions", e.g. Azure Functions or AWS Lambda. This will enable allow a paradigm for databases - multiple clients writing structured data directly to disk, without a server in between.
+Database engine threads should operate without shared memory. This will enable us to run on stateless "Serverless Cloud Functions", e.g. Azure Functions or AWS Lambda. This will enable a new paradigm for databases - multiple clients writing structured data directly to disk, without a server in between.
 
 ### In Terms of Actual Features...
 
