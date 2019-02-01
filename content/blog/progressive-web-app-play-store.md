@@ -14,14 +14,17 @@ draft = "false"
 
 With Chrome 72, you can now publish your PWA in the Play Store and from the browser. 
 
-Chrome 72 was shipped in November 2018 and included Tursted Web Activity (TWA) which allows your you open Chrome in standalone mode thanks to your native Android package.
+Chrome 72 was shipped in November 2018 and included Tursted Web Activity (TWA) which allows you to open Chrome in standalone mode thanks to your native Android package.
 
 The primary advantages over your normal PWA installation are:
 
-*Home screen widget
-*Offer a wear OS companion app
-*Background services can access native features
-*Native screens mixed with PWA content
+- Home screen widget
+
+- Offer a wear OS companion app
+
+- Background services can access native features
+
+- Native screens mixed with PWA content
 
 To list your PWA in the store, you need to compile your own APK, and publish. 
 
