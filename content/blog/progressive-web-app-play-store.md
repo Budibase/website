@@ -1,5 +1,5 @@
 +++ 
-date = "2019-02-02" 
+date = "2019-02-01" 
 title = "Progressive Web Apps Can Now Be Shipped Via The Play Store" 
 categories = ["SaaS"] 
 tags = ["SaaS, apps, pwa"] 
