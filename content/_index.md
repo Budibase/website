@@ -1,8 +1,8 @@
 ---
 title: "Budibase - All-in-one Web App Builder For Rapid Development"
-description: "Our mission is to empower the world to develop amazing SaaS applications, build businesses, and live life on their own terms."
+description: "Budibase is a modern, open source web app builder for creating, hosting and managing applications. Budibase eliminates repetition and dramatically reduces development time. Check it out."
 images:
-- budibase-logo.png
+- budibase-logo.jpg
 layout: single
-date: 2018-07-31
+date: 2019-01-01
 ---
