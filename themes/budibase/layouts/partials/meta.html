@@ -18,7 +18,6 @@
     <meta name="twitter:title" content="{{ .Title }}{{ if .IsHome }} - {{ .Site.Params.Tagline }}{{ else }} - {{ .Site.Title }}{{ end }}" />
     <meta name="twitter:site" content="{{ .Site.Params.twitter }}" />
     <meta name="twitter:creator" content="{{ .Site.Params.twitter }}" />
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.images }}" />
     <!-- OG data -->
     <meta property="og:locale" content="en_GB" />
     <meta property="og:type" content="{{ if .Params.tags}}article{{ else }}website{{ end }}" />
@@ -26,7 +25,6 @@
     <meta content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" property="og:description">
     <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:site_name" content="{{ .Site.Title }}" />
-    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.images }}" />
     {{ range .Params.categories }}<meta property="article:section" content="{{ . }}" />{{ end }}
     {{ if isset .Params "date" }}<meta property="article:published_time" content="{{ time .Date }}" />{{ end }}
 
