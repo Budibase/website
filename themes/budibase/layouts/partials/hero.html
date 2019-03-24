@@ -11,12 +11,15 @@
         <!-- End Title -->
 
             <!-- Form -->
-            <form action="/thankyou" class="js-validate w-lg-80" form name="signup" method="POST" data-netlify="true">
+            <form action="/thankyou" netlify-honeypot="bot-field" class="js-validate w-lg-80" form name="signup" method="POST" data-netlify="true">
               <div class="row mx-gutters-2">
                 <div class="col-sm-7 mb-3">
                   <!-- Input -->
                   <div class="js-form-message">
                     <div class="js-focus-state input-group form">
+                        <p style="display:none;">
+                            <label>Don’t fill this out: <input name="bot-field"></label>
+                          </p>
                       <input type="email" class="form-control form__input" name="email" required
                              placeholder="Submit Email Address"
                              aria-label="Email"

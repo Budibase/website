@@ -1,4 +1,4 @@
-<header class="u-header u-header--left-aligned-nav u-header--sticky-top">
+<header id="headerDropdown" class="u-header u-header--left-aligned-nav u-header--sticky-top ">
   <div class="u-header__section">
     <div id="logoAndNav" class="container">
         <div class="js-scrollbar-header u-header--sticky__inner">
@@ -15,30 +15,59 @@
 
         <!-- Responsive Toggle Button -->
         <button type="button" class="navbar-toggler btn u-hamburger u-header__hamburger"
-                aria-label="Toggle navigation"
-                aria-expanded="false"
-                aria-controls="navBar"
-                data-toggle="collapse"
-                data-target="#navBar">
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="navBarDropdown"
+        data-toggle="collapse"
+        data-target="#navBarDropdown">
           <span class="d-none d-sm-inline-block">Menu</span>
-          <span id="hamburgerTrigger" class="u-hamburger__box ml-3">
+          <span id="hamburgerTriggerDropdown" class="u-hamburger__box ml-3">
             <span class="u-hamburger__inner"></span>
           </span>
         </button>
         <!-- End Responsive Toggle Button -->
+        
 
         <!-- Navigation -->
-        <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse py-0">
+        <div id="navBarDropdown" class="collapse navbar-collapse u-header__navbar-collapse py-0">
           <ul class="navbar-nav u-header__navbar-nav">
-
-            <!-- About - Link -->
             <li class="nav-item u-header__nav-item">
               <a class="nav-link u-header__nav-link" href="/about">
                 About
               </a>
             </li>
-            <!-- About - Link -->
             
+
+            <!-- Dropdown -->
+            <li class="nav-item u-header__nav-item hs-has-sub-menu"
+                data-event="hover"
+                data-animation-in="fadeInUp"
+                data-animation-out="fadeOut">
+                  <a id="dropdownMegaMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                 aria-haspopup="true"
+                 aria-expanded="false"
+                 aria-labelledby="dropdownSubMenu">
+                Features▾
+                </a>
+
+              <!-- Dropdown Submenu -->
+              <ul id="dropdownSubMenu" class="list-inline hs-sub-menu u-header__sub-menu mb-0" style="min-width: 220px;"
+                  aria-labelledby="dropdownMegaMenu">
+                <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                  <a class="nav-link u-header__sub-menu-nav-link" href="/build-a-web-app">Build A Web App</a>
+                </li>
+                <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                  <a class="nav-link u-header__sub-menu-nav-link" href="/host-a-web-app">Host A Web App</a>
+                </li>
+                <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                  <a class="nav-link u-header__sub-menu-nav-link" href="/manage-a-web-app">Manage A Web App</a>
+                </li>
+              </ul>
+              <!-- Dropdown Submenu -->
+            </li>
+            <!-- End Dropdown -->
+            
+
             <!-- Blog -->
             <!-- Starter - Link -->
             <li class="nav-item u-header__nav-item">
@@ -66,6 +95,7 @@
             <!-- End Button -->
 
           </nav>
+        </ul>
       <!-- End Nav -->
     </div>
   </div>

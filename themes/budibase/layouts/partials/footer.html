@@ -70,7 +70,34 @@
 <script src="{{ "js/mobile-menu.js" | absURL }}"></script>
 <script src="{{ "js/mbclicker.min.js" | absURL }}"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+<script src="{{ "js/components/hs.header.js" | absURL }}"></script>
+<script src="{{ "js/components/hs.megamenu.js" | absURL }}"></script>
+<script src="{{ "js/components/hs.unfold.js" | absURL }}"></script>
 
 
+<script>
+  $(document).on('ready', function () {
+    // initialization of header
+    $.HSCore.components.HSHeader.init($('#header'));
+  });
+</script>
+<script>
+  $(document).on('ready', function () {
+    // initialization of unfold component
+    $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+  });
+</script>
+
+<script>
+  $(window).on('load', function () {
+    // initialization of HSMegaMenu component
+    $('.js-mega-menu').HSMegaMenu({
+      event: 'hover',
+      pageContainer: $('.container'),
+      breakpoint: 767.98,
+      hideTimeOut: 0
+    });
+  });
+</script>
 </body>
 </html>
