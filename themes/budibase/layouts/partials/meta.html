@@ -18,7 +18,7 @@
     <meta name="twitter:title" content="{{ .Title }}{{ if .IsHome }} - {{ .Site.Params.Tagline }}{{ else }} - {{ .Site.Title }}{{ end }}" />
     <meta name="twitter:site" content="{{ .Site.Params.twitter }}" />
     <meta name="twitter:creator" content="{{ .Site.Params.twitter }}" />
-    <meta name="twitter:image" content="https://www.budibase.com/img/logo/budibase-logo.png" />
+    <meta name="twitter:image" content="{{ .Site.Params.image }}" />
     <!-- OG data -->
     <meta property="og:locale" content="en_GB" />
     <meta property="og:type" content="{{ if .Params.tags}}article{{ else }}website{{ end }}" />

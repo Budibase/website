@@ -22,16 +22,16 @@ googleAnalytics = ""
     name = "Budibase"
 
   [params.publisher.logo]
-      url = "/img/logo/budibase-logo-small.png"
+      url = "/budibase-logo-small.png"
       width = 127
       height = 40
 
   [params.logo]
-    url = "/img/logo/budibase-logo-small.png"
+    url = "/budibase-logo-small.png"
     width = 127
     height = 40
 
   [params.image]
-    url = "/img/logo/budibase-logo.png"
+    url = "/budibase-logo.png"
     width = 800
     height = 600
