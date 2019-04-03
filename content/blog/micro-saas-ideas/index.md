@@ -1,12 +1,11 @@
 +++
 date = "2019-01-23"
 title = "6 Micro SaaS Ideas You'll Want To Steal"
-categories = ["SaaS"] 
+categories = ["Inspire"] 
 tags = ["SaaS, ideas, micro saas"]
 description = "This list of Micro SaaS ideas is perfect if you are considering starting a new project. Each idea on the list is original and validated by the Budibase team."
 author = "Joe Johnston"
 draft ="false"
-
 +++
 
 I'm often thinking of Micro SaaS ideas for my next project but most of the time they are either rubbish or I don't have the capacity to pursue them. 

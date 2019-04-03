@@ -1,42 +1,42 @@
 {{ partial "header.html" . }}
 
 {{ partial "navigation.html" . }}
-    <div class="bg-img-hero">
-        <div class="container text-center space-2 space-3-top space-1-bottom--lg">
+<div class="bg-img-hero space-3-bottom--lg">
+  <div class="container text-center space-2 space-4-top space-1-bottom--lg">
           <div class="w-md-80 mx-auto mb-3">
-            <h1 class="display-4 font-size-48--md-down">SaaS News At The Budi Blog</h1>
+            <h1 class="col display-4 font-size-48--md-down">{{ .Title }}</h1>
         <div class="col-lg-10 mx-auto">
             <div class="mb-5">
-              <p class="lead">Everything you need to know about creating a SaaS application, building a startup, and taking control of your career. Along with research, tips and interviews with industry professionals, we aim to provide insight blended with humour. We're a fun company and we want that to show in our writing.</p>
+              <p class="lead">Everything you need to know about creating a web application, building a startup, and living a life outside the 9-5. </p>
             </div>
             <div class="d-sm-flex justify-content-sm-center align-items-sm-center mb-7">
-                    <form class="js-validate w-lg-80">
-                            <div class="row mx-gutters-2">
-                              <div class="col-sm-7 mb-3">
-                                <!-- Input -->
-                                <div class="js-form-message">
-                                  <div class="js-focus-state input-group form">
-                                    <input type="email" class="form-control form__input" name="email" required
-                                           placeholder="Submit Email Address"
-                                           aria-label="Email"
-                                           data-msg="Please enter a valid email address.">
-                                  </div>
-                                </div>
-                                <!-- End Input -->
-                              </div>
-              
-                              <div class="col-sm-5 mb-3">
-                                <button type="submit" class="btn btn-block btn-primary">Get early access</button>
-                              </div>
-                            </div>
-                          </form>
+<!-- Input -->
+              <form class="js-validate w-lg-80" form name="signup" method="POST" data-netlify="true">
+                  <div class="row mx-gutters-2">
+                    <div class="col-sm-7 mb-3">
+                      <!-- Input -->
+                      <div class="js-form-message">
+                        <div class="js-focus-state input-group form">
+                          <input type="email" class="form-control form__input" name="email" required
+                                placeholder="Submit Email Address"
+                                aria-label="Email"
+                                data-msg="Please enter a valid email address.">
+                        </div>
+                      </div>
+                      <!-- End Input -->
+                    </div>
+
+                    <div class="col-sm-5 mb-3">
+                      <button type="submit" class="btn btn-block btn-primary">Get Early Access</button>
+                    </div>
+                  </div>
+                </form>
             </div>
     
             <!-- End Clients -->
           </div>
         </div>
       </div>
-    </div>
 
     <!-- <div class="container space-2">
         <h2 class="display-4 font-size-48--md-down text-center">Categories</h2>
@@ -68,36 +68,36 @@
       </div>
       <!-- End Stats Section -->
 
-<div class="container space-3-bottom--lg">
-<div class="row">
-    {{ range .Pages.ByDate }}
-    <div class="col-sm-4 ">
-        <article class="card mb-5 ">
+
+    {{ range .Pages.ByDate.Reverse }}
+<div class="container ">
+  <div class="row">
+    <div class="w-md-60 mx-auto mb-3">
+      <div class="col-sm-12">
+        <article class="card mb-5">
             <div class="card-body p-5">
-              <small class="d-block-2">{{ .Date.Format "2006-01-02"}}</small>
-              <h2 class="h5">
+              <h3 class="strong">
                 <a href="{{ .Permalink }}">{{ .Title }}</a>
-              </h2>
-              <p class="mb-0">{{ .Description }}</p>
-            </div>
-            <div class="card-footer bg-dark py-4 px-5">
-              <div class="media">
-                <img class="u-sm-avatar rounded-circle mr-3" src="img/img/100x100/img1.jpg" alt="Image Description">
-                <div class="media-body">
-                  <h3 class="d-inline-block mb-0">
-                    <a class="d-block font-size-13 text-light" href="{{ .Permalink }}">Joe Johnston</a>
-                  </h3>
-                </div>
+              </h3>
+              <p class="lead mb-0">{{ .Description }}</p>
+              <div class="space-1-top">
               </div>
-            </div>
+              <h4 class="cta"><a href="{{ .Permalink }}">Read More</a></h4>
+                <small class="d-block-2 text-dark">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }} | By: {{ .Params.author }} </small>
+              </div>
         </article>
+      </div>
     </div>
-    {{ end }}
+  </div>
+</div>
+{{ end }}
+ 
 </div>   
-
 </div> 
 
 </div> 
+</div>
+
 
 
 {{ partial "cta.html" . }}

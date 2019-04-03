@@ -6,6 +6,9 @@ enableEmoji = "true"
 
 copyright = "This work is licensed and owned by Budibase"
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
 [params]
 keywords = ["SaaS Applications", "SaaS builder", "Application builder"]
