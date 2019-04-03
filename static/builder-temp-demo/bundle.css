@@ -1,0 +1,158 @@
+button.svelte-1mtiv64{border-radius:var(--borderradius);border-style:solid;padding:7px 15px}.primary.svelte-1mtiv64{background-color:var(--primary100);border-color:var(--primary100);color:var(--white)}.primary.svelte-1mtiv64:hover{background-color:var(--primary75);border-color:var(--primary75)}.primary.svelte-1mtiv64:pressed{background-color:var(--primarydark);border-color:var(--primarydark)}.primary-outline.svelte-1mtiv64{background-color:var(--white);border-color:var(--primary100);color:var(--primary100)}.primary-outline.svelte-1mtiv64:hover{background-color:var(--primary10)}.primary-outline.svelte-1mtiv64:pressed{background-color:var(--primary25)}.secondary.svelte-1mtiv64{background-color:var(--secondary100);border-color:var(--secondary100);color:var(--white)}.secondary.svelte-1mtiv64:hover{background-color:var(--secondary75);border-color:var(--secondary75)}.secondary.svelte-1mtiv64:pressed{background-color:var(--secondarydark);border-color:var(--secondarydark)}.secondary-outline.svelte-1mtiv64{background-color:var(--white);border-color:var(--secondary100);color:var(--secondary100)}.secondary-outline.svelte-1mtiv64:hover{background-color:var(--secondary10)}.secondary-outline.svelte-1mtiv64:pressed{background-color:var(--secondary25)}.success.svelte-1mtiv64{background-color:var(--success100);border-color:var(--success100);color:var(--white)}.success.svelte-1mtiv64:hover{background-color:var(--success75);border-color:var(--success75)}.success.svelte-1mtiv64:pressed{background-color:var(--successdark);border-color:var(--successdark)}.success-outline.svelte-1mtiv64{background-color:var(--white);border-color:var(--success100);color:var(--success100)}.success-outline.svelte-1mtiv64:hover{background-color:var(--success10)}.success-outline.svelte-1mtiv64:pressed{background-color:var(--success25)}.deletion.svelte-1mtiv64{background-color:var(--deletion100);border-color:var(--deletion100);color:var(--white)}.deletion.svelte-1mtiv64:hover{background-color:var(--deletion75);border-color:var(--deletion75)}.deletion.svelte-1mtiv64:pressed{background-color:var(--deletiondark);border-color:var(--deletiondark)}.deletion-outline.svelte-1mtiv64{background-color:var(--white);border-color:var(--deletion100);color:var(--deletion100)}.deletion-outline.svelte-1mtiv64:hover{background-color:var(--deletion10)}.deletion-outline.svelte-1mtiv64:pressed{background-color:var(--deletion25)}
+.root.svelte-siv2n6{position:fixed;margin:0 auto;text-align:center;top:20%;width:100%}.inner.svelte-siv2n6{display:inline-block;margin:auto}.logo.svelte-siv2n6{width:300px;margin-bottom:40px}.root.svelte-siv2n6 .option{width:250px}
+.nav-item.svelte-1jdiajy{padding:0px 5px;display:block;padding:10px;color:var(--slate);cursor:pointer}.inner.svelte-1jdiajy{padding:0px 20px 10px 0px;display:inline-block;border-style:solid;border-width:0 0 1px 0;border-color:var(--secondary100)}.nav-item.svelte-1jdiajy:hover{background-color:var(--primary25)}.icon.svelte-1jdiajy{font-size:0.9em;display:inline-block;position:relative;top:5px;margin-right:5px}.active.svelte-1jdiajy{border-color:var(--primary75)}
+.nav.svelte-sqk49k{height:100%;position:fixed;left:0px;background-color:var(--secondary100);color:var(--darkslate)}.nav.svelte-sqk49k>img.svelte-sqk49k{width:130px;margin-bottom:30px;margin-top:15px;margin-left:10px}
+h4.svelte-o0id5a{margin-top:20px}
+.root.svelte-1amg7b0{height:100%}.content-wrapper-inner.svelte-1amg7b0{background-color:var(--secondary100)}.content-wrapper.svelte-1amg7b0{position:fixed}.content.svelte-1amg7b0{border-radius:10px 0 0 0;padding-left:10px;background-color:var(--white);overflow:auto;top:10px}.header.svelte-1amg7b0{height:5px;background:var(--secondary100)}
+.app-root.svelte-rqgp85{height:100%;width:100%;font-family:"Nunito", Helvetica, Arial, sans-serif}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(/assets/lato-latin-ext.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+  /* latin */
+@font-face {
+    font-family: 'Lato';
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(/assets/lato-latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+  
+
+/* Black latin-ext */
+@font-face {
+    font-family: 'Lato Black';
+    font-weight: 900;
+    src: local('Lato Regular'), local('Lato-Regular'), url(/assets/lato-latin-ext.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+  /* Black latin */
+@font-face {
+    font-family: 'Lato Black';
+    font-weight: 900;
+    src: local('Lato Regular'), local('Lato-Regular'), url(/assets/lato-latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Bold latin-ext */
+@font-face {
+    font-family: 'Lato Bold';
+    font-weight: 700;
+    src: local('Lato Regular'), local('Lato-Regular'), url(/assets/lato-latin-ext.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+  /* Bold latin */
+@font-face {
+    font-family: 'Lato Bold';
+    font-weight: 700;
+    src: local('Lato Regular'), local('Lato-Regular'), url(/assets/lato-latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Semi Bold latin-ext */
+@font-face {
+    font-family: 'Lato Semi Bold';
+    font-weight: 600;
+    src: local('Lato Regular'), local('Lato-Regular'), url(/assets/lato-latin-ext.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+  /* Semi Bold latin */
+@font-face {
+    font-family: 'Lato Semi Bold';
+    font-weight: 600;
+    src: local('Lato Regular'), local('Lato-Regular'), url(/assets/lato-latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+  
+:root {
+    --primary100: #454CA0FF;
+    --primary75: #454CA0BF;
+    --primary25: #454CA040;
+    --primary10: #454CA01A;
+    --primarydark: #3F448A;
+    
+    --secondary100: #162B4DFF;
+    --secondary75: #162B4DBF;
+    --secondary25: #162B4D40;
+    --secondary10: #162B4D1A;
+    --secondarydark: #3F448A;
+
+    --tertiary: #F2F5F7;
+    
+    --success100: #49C39EFF;
+    --success75: #49C39EBF;
+    --success25: #49C39E40;
+    --success10: #49C39E1A;
+    --successdark: #44B492;
+    
+    --deletion100: #F2545BFF;
+    --deletion75: #F2545BBF;
+    --deletion25: #F2545B40;
+    --deletion10: #F2545B1A;
+    --deletiondark: #CF4046;
+
+    --white: #FFFFFF;
+    --darkslate: #5C6B82;
+    --slate: #8B95A6;
+
+    --borderradius: 2px 2px 2px 2px;
+
+    --fontblack: "Lato Black";
+    --fontbold: "Lato Bold";
+    --fontsemibold: "Lato Semi Bold";
+    --fontnormal: "Lato";
+
+    --bodytext: var(--fontnormal) "regular" var(--secondary100) 16pt;
+    --bigbodytext: var(--fontnormal) "regular" var(--secondary100) 20pt;
+    --smallbodytext: var(--fontnormal) "regular" var(--secondary100) 12pt;
+    --lightbodytext: var(--fontnormal) "regular" var(--darkslate) 16pt;
+    --heavybodytext: var(--fontbold) "regular" var(--secondary100) 16pt;
+    --quotation: var(--fontnormal) "italics" var(--darkslate) 16pt;
+    --smallheavybodytext: var(--fontbold) "regular" var(--secondary100) 14pt;
+
+}
+
+html, body {
+    font-family: var(--fontnormal);
+    color: var(--secondary100);
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: var(--fontblack);
+    font-size: 36pt;
+    color: var(--secondary100);
+}
+
+h2 {
+    font-family: var(--fontbold);
+    font-size: 30pt;
+    color: var(--secondary100);
+}
+
+h3 {
+    font-family: var(--fontbold);
+    font-size: 24pt;
+    color: var(--darkslate);
+}
+
+h4 {
+    font-family: var(--fontsemibold);
+    font-size: 18pt;
+    color: var(--secondary100);
+}
+
+h5 {
+    font-family: var(--fontblack);
+    font-size: 14pt;
+    color: var(--secondary100);
+}
+
+h5 {
+    font-family: var(--fontblack);
+    font-size: 12pt;
+    color: var(--darkslate);
+}
