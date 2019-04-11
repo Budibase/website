@@ -3,7 +3,7 @@ date = "2019-04-03"
 title = "5 Good Habits For Success In 2019"
 categories = ["Manage","grow"] 
 tags = ["SaaS, manage, micro saas"]
-description = "Good Habits for success are imperative to leading a successful life and ensuring you remain health, confident and in a position to succeed."
+description = "Good Habits for success are imperative to leading a successful life and ensuring you remain healthy, confident and in a position to perform."
 author = "Joe Johnston"
 draft ="false"
 +++
