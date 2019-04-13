@@ -3,7 +3,7 @@ date = "2019-04-03"
 title = "5 Good Habits For Success In 2019"
 categories = ["Manage","grow"] 
 tags = ["SaaS, manage, micro saas"]
-description = "This list of Micro SaaS ideas is perfect if you are considering starting a new project. Each idea on the list is original and validated by the Budibase team."
+description = "Good Habits for success are imperative to leading a successful life and ensuring you remain healthy, confident and in a position to perform."
 author = "Joe Johnston"
 draft ="false"
 +++
