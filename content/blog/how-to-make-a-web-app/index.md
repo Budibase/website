@@ -8,21 +8,22 @@ author = "Joe Johnston"
 draft ="false"
 +++
 
+{{< figure src="/how-to-make-a-web-app/how-to-make-a-web-app.jpg" attr="Picture by [Med Badr](https://unsplash.com/@medbadrc)" alt="How to make a web app" >}}
+
 In this post, I’m going to show you EXACTLY how to make a web app.
 
 In fact, this is the process I’ve used, revised and perfected over the last 5 years.
 
 I’ve used this exact process, or a version of it to build over 15 applications of all shapes and sizes. For me, this is 100% the best way to build web applications.
 
-But, before we start the  tutorial. a quick recap on what we define as a web application at Budibase.
-
+But, before we start the  tutorial, a quick recap on what we define as a web application at Budibase.
 
 
 ## What is a web app
 
-An interactive tool, built with web technologies (HTML, CSS, JS), which stores (Database, Files) and manipulates data (CRUD), and is used by a team  or single user.
+An interactive computer program, built with web technologies (HTML, CSS, JS), which stores (Database, Files) and manipulates data (CRUD), and is used by a team or single user to perform tasks over the internet.
 
-There is a lot of confusion around what exactly is a web app. We feel our definition above simplifies  what a web app is, for the purpose of this post. If you’re still unsure, we've included examples of what we believe are web apps, and what are not, below:
+There is a lot of confusion around what exactly is a web app. For the purpose of this post, we feel our definition above simplifies what a web app is. If you’re still unsure, we've included examples of what we believe are web apps, and what are not, below:
 
 
 
@@ -99,18 +100,16 @@ To make a data-centric web app from the bottom-up, it is advantageous to underst
 
 1. Backend language (e.g. Python, Ruby) - control how your web app works
 2. Web front end (HTML, CSS, Javascript) - for the look and feel of your web app
-3. DevOps (Github, Jenkins) - Deploying/hosting your web app
+3. DevOps (Github, Jenkins) - Deploying / hosting your web app
 
 If you don’t have any experience with the points above, don’t worry. You have two options:
 
 1. Learn the points above - there are lots of resources online to help you. I’d recommend [Codecademy]([https://www.codecademy.com/](https://www.codecademy.com/)).
 2. Use a [web app builder](https://www.udibase.com) like Budibase - As a builder, Budibase will remove the need to learn a backend language. On top of that, Budibase will also take care of a lot of your DevOps tasks such as hosting.
 
-The time has arrived to quickly dive into the 12 steps for making a web app.
+Moving on. The time has arrived to quickly dive into the 12 steps for making a web app.
 
-Are you ready?
-
-Let’s do this.
+Are you ready? Let’s do this!
 
 ## How to make a web app in 12 steps (4 stages)
 
@@ -164,9 +163,9 @@ Before making a web app, you must first understand what you intend on building, 
 
 The idea process for many is the toughest part.
 
-**Your idea should stem from solving someone's problem. Ideally, you should also share this problem.** 
+**Your idea should stem from solving someone's problem. Ideally, your own problem.** 
 
-It’s important that you choose an idea which interests you. Interest is key to fuelling motivation which is crucial when making a web app. It takes effort building web apps and its important you have fun during the process.
+It’s important that you choose an idea which interests you. Interest is key to fuelling motivation which is crucial when making a web app. It takes effort building web apps and it's important you have fun during the process.
 
 Ask yourself:
 
@@ -191,7 +190,7 @@ Once you’ve chosen your idea(s), it’s important to research the market to se
 
 The number 1 reason startups fail, is down to the failure to achieve product-market fit.
 
-Marc Andreessen defined the term as follows: 
+Marc Andreessen defined the term product-market fit as follows: 
 
 “Product/market fit means being in a good market with a product that can satisfy that market.”
 
@@ -213,9 +212,9 @@ Nobody wants to experience that, so it’s important to dive deep into the marke
 1. Your Web App’s target market - Share your web app idea on forums related to your target market. If you know anyone who works within your target market, explain your idea to them. The more you talk and receive validation from your target market, the better.
 
 2. [Google Trends]([https://trends.google.com/trends/](https://trends.google.com/trends/)) - A quick search of your web app idea will reveal relating trends.
-3. SEO tool - I’d recommend MOZ/Ahrefs. Google Ad keyword planner will suffice. Write a list of keywords relating to your web app. If it’s an ‘OKR tool’, use the tools to search ‘OKR tool’, ‘OKR app’,  and ‘objectives and key results software’. If the SEO tool indicates there are lots of people searching for your keyword terms, this is a small indicator you have a target market. 
+3. SEO tool - I’d recommend MOZ/Ahrefs. Google's keyword planner will suffice. Write a list of keywords relating to your web app. If it’s an ‘OKR tool’, use the tools to search ‘OKR tool’, ‘OKR app’,  and ‘objectives and key results software’. If the SEO tool indicates there are lots of people searching for your keyword terms, this is a small indicator you have a target market. 
 4. Social Media - Jump over to Twitter/Facebook groups and present your idea to your target market. 
-5. Events - If there is a local event in your area, attracting people from your target market, go to it. Share your idea and record the feedback.
+5. Events - If there is a local event in your area attracting people from your target market, go to it. Share your idea and record the feedback.
 
 After completing the above steps, you should have enough information to understand if there’s a market for your product.
 
@@ -229,15 +228,15 @@ If there is a market for your product, and there’s also established competitio
 
 You’ve got your idea, you’ve validated the market, it’s now time to list everything you want your app to do.
 
-A common mistake here is to get carried away. 
+A common mistake here is to get carried away.
 
-Your web app is NOT a swiss army knife. It won’t have all the features and functionality of Salesforce, and it doesn’t have to.
+Your web app is NOT a swiss army knife. It won’t have all the features and functionality of Salesforce and it doesn’t have to.
 
 I repeat, don’t get carried away. The more functionality you add, the longer it will take to build your web app. Quite often, the longer a web app takes to build, the more frustration you’ll experience.  
 
 One of the most important aspects of making a web app is having fun, enjoying the ride, and celebrating the small wins.
 
-Only  define functionality which solves your target markets problems. 
+Only  define functionality which solves your target markets problems.
 
 I promise I’m not here to kill your dreams. Remember, you’re web app is a work in progress and the first goal is version 1. It will still have cool features and delight your users, but you must keep things simple. 
 
@@ -286,11 +285,11 @@ When sketching, consider the following:
 *   Buttons
 *   Any other interactive elements 
 
-Sketch different versions of your web app. Consider how your web apps functionality will affect the overall design.
+Sketch different versions of your web app. Consider how your web app's functionality will affect the overall design.
 
-Annotate your sketch, and outline how your app should work. 
+Annotate your sketch and outline how your app should work. 
 
-Taking notes will help you clarify and understand why you’ve designed certain elements, at a later stage.
+Taking notes will help you clarify and understand why you’ve designed certain elements at a later stage.
 
 Once again, don’t get carried here. Your sketch is for communicating and experimenting, not selling. Overcomplicating the design at this stage will only lead to frustration. 
 
@@ -302,9 +301,9 @@ After sketching your app, it’s time to move on to step 5.
 
 It’s time to put yourself in the shoes of your user. In step 5 we’re going to plan your web apps workflow.
 
-Now is the time to go back to step 2 and look at your market research. Take your list of competitors and sign up to their free trials. Have a quick play around with their product. 
+Now is the time to go back to step 2 and look at your market research. Take your list of competitors and sign up to their free trials. Have a quick play around with their product.
 
-Write notes on what you thought was good, and what you thought was bad. Pay particular attention to the workflow. 
+Write notes on what you thought was good and what you thought was bad. Pay particular attention to the workflow.
 
 After you’ve finished analysing your competitor’s web apps, it’s time to write down different workflows for your app. Consider the following points:
 
@@ -321,7 +320,7 @@ All of a sudden our one-page web app turns into a 10-page web app.
 
 Write a list of all the different pages your web application will have.
 
-Consider the different states of pages. For example, the homepage will have two states; logged in and logged out. Logged in people will see a different page than logged out people.
+Consider the different states of pages. For example, the homepage will have two states; logged in and logged out. Logged in users will see a different page than logged out users.
 
 ## Step 6 – Wireframing / Prototyping Your Web Application {#wireframe}
 
@@ -332,7 +331,7 @@ Ok, it’s time to turn those sketches and that new-found understanding of your 
 
 ### What is wireframing / prototyping
 
-Wireframing is the process of designing a blueprint of your web application. Prototyping is taking wireframing a step further, and adding a more dynamic interactive display.
+Wireframing is the process of designing a blueprint of your web application. Prototyping is taking wireframing a step further, adding an interactive display.
 
 The decision is to wireframe or prototype is down to you. If you have the time, I’d recommend prototyping as it will make it easier to communicate your web app when seeking validation.
 
@@ -344,7 +343,7 @@ You can prototype/wireframe using the following tools:
 *   [Figma](https://zapier.com/blog/best-wireframe-tools/#figma) (Web, macOS, Windows, Linux) 
 *   [Balsamiq](https://zapier.com/blog/best-wireframe-tools/#balsamiq) (macOS, Windows, Web) 
 
-I recommend you create a design system / style guide first. You can find inspiration at [UXPin]([https://adele.uxpin.com/](https://adele.uxpin.com/)). Design systems help you remain consistent and improves consistency. But it’s not required.
+I recommend you create a design system / style guide first. You can find inspiration at [UXPin]([https://adele.uxpin.com/](https://adele.uxpin.com/)). Design systems improve design consistency. But it’s not required.
 
 ## Step 7 – Seek early validation {#validation}
 
@@ -354,11 +353,11 @@ You’ve now got a beautiful wireframe/prototype which visually describes your w
 
 Digital high five ✋.
 
-It’s time to show your beautiful wireframe to the world. At this stage, we want constructive feedback. 
+It’s time to show your beautiful wireframe to the world. At this stage we want constructive feedback. 
 
-Simply asking your friends would they use your new web app, is not enough.
+Simply asking your friends would they use your new web app is not enough.
 
-You should start with a small number of representative users.  Go to your target market’s forums,  watering holes, their places of work and verify the problem with them, and present your solution.
+You should start with a small number of representative users. Go to your target market’s forums, watering holes, their places of work and verify the problem with them, and present your solution.
 
 Try to build a rapport with these representatives as they could become your customers.
 
@@ -380,46 +379,46 @@ Before we make our web app, I would like to share the following tips:
 2. At the start - expect things to change a lot as you learn and discover what you haven’t thought about. 
     *   Have faith that your app will stabilise.
     *   Don’t be afraid to make big changes.
-3. Spend time learning your tools
-    *   You may feel like you are wasting your time, reading, or experimenting with “hello world”. Learning the correct way to do things, will have a huge positive, cumulative effect on your productivity over time.
-    *   Where possible, “Go with the grain” of your tools. Realise that as soon as you step out of the normal flow / usage of your toolset, you are on your own, and could be in a deep time sink. There are always exceptions to this of course!
+3. Spend time learning your tools.
+    *   You may feel like you are wasting your time, reading, or experimenting with “hello world”. Learning the correct way to do things will have a huge positive, cumulative effect on your productivity over time.
+    *   Where possible, “Go with the grain” of your tools. Realise that as soon as you step out of the normal flow / usage of your toolset, you are on your own and could be in a deep time sink. There are always exceptions to this of course!
 4. Don’t avoid issues that need to be fixed. 
     *   Face your issues head on - they will never go away and will only grow in stature. 
     *   However, If things are still likely to change - its best to spend as little time as possible on things… It’s a tricky balance!
 
-It’s time to leave the design stage and move to the development phase. 
+It’s time to consider your database.
 
 Exciting times!
 
-## Step 8 – Architect the database {#database}
+## Step 8 – Architect and build your database {#database}
 
 {{< figure src="/how-to-make-a-web-app/database.png" alt="Architect the database" >}}
 
-So, we know roughly our web application’s functionality, what it looks like, and the pages required. Now it’s time to determine what information we will need to store in our database.
+So, we know roughly our web application’s functionality, what it looks like, and the pages required. Now it’s time to determine what information we will store in our database.
 
 
 ### What is a database
 
 A database is simply a collection of data! Data can be stored to disk, or in memory on a server, or both.  You could create a folder on your hard drive, store a few documents, and call it a database.
 
-A Database Management System (DBMS) is a system that provides  you consistent APIS to (most commonly):
+A Database Management System (DBMS) is a system that provides you with consistent APIs to (most commonly):
 
 *   Create databases, update and delete databases
 *   Read and write data to databases
 *   Secure access to a database by providing leveled access to different areas and functions
 
-What data you need to store, and what your users need to do, will determine the type of database required to run your web app.
+What data you need to store and what your users need to do, will determine the type of database required to run your web app.
 
 
 ### Database types
 
-There are many types of database, for many different purposes. A web app will most commonly use one of the following.
+There are many types of database for many different purposes. A web app will most commonly use one of the following:
 
 #### SQL
 
 You should use a SQL database if your data is very relational. Your data is relational if you have multiple, well defined record types that have relationships between them. For example, a “Customer” may have many “Invoices” stored against their record. Typically, you would create a Customer table and an Invoice table - which could be linked together by “Foreign Key” columns. E.g. Customer.Id = Invoice.CustomerId.
 
-SQL databases have an extremely powerful query language, that allows you to present your data in all sorts of useful ways. 
+SQL databases have an extremely powerful query language that allows you to present your data in all sorts of useful ways. 
 
 They have been around for decades, are very well understood, and usually a safe choice. MySQL, Postgresql, Microsoft SQLServer are some of the most common - along with many more modern offerings.
 
@@ -429,7 +428,7 @@ The downside of SQL databases is that you must declare all your tables and colum
 
 #### Document Database
 
-You should use a document database if your data is not very relational. Document database store “documents”. Each record in your database is simply a big blob of structured data - often in JSON format. 
+You should use a document database if your data is not very relational. Document databases store “documents”. Each record in your database is simply a big blob of structured data - often in JSON format. 
 
 If you need to store relationships between your records, you will have to write code to manage this yourself. However, many other aspects of using document databases are much simpler. Your database can be “schemaless” - meaning that you do not have to declare your records’ definitions up front. 
 
@@ -439,11 +438,11 @@ Examples of document databases are: MongoDb, CouchDb, Firebase (serverless), Dyn
 
 ### Decide how to segregate your data
 
-Each of your clients has their own, private dataset. One one the worst things that can happen to your app is for one client’s data to be seen by another client.
+Each of your clients has their own, private dataset. One of the worst things that can happen to your app is for one client’s data to be seen by another client.
 
 Even if there is only a small amount of non-sensitive leaked data, and no damage is done, an event like this will massively erode trust in the security of your app.
 
-You must architect a solid strategy for segregating your clients’ data, to make sure that this never happens. 
+You must architect a solid strategy for segregating your clients’ data to make sure that this never happens. 
 
 Broadly speaking, you have two options - Physical Separation and Logical Separation.
 
@@ -475,7 +474,7 @@ The code you will need to write:
 
 * If you need to upgrade your database (e.g. add a new table), you need to code to upgrade each separately.
 
-* If you need to query all your client’s data into one - you need to pull the data out of each and aggregate it.
+* If you need to query all your client’s data into one, you need to pull the data out of each and aggregate it.
 
   
 
@@ -483,7 +482,7 @@ The code you will need to write:
 
 All of your clients are stored in one giant database. 
 
-Every time you need to get data for a single client, you must remember to include a filter for the client. E.g. “select * from customers where customerClientId = 1234”
+Every time you need to get data for a single client, you must remember to include a filter for the client. E.g. 'select' from customers where customerClientId = 1234”
 
 ##### Pros:
 
@@ -496,9 +495,9 @@ Every time you need to get data for a single client, you must remember to includ
 *   Easy to make a mistake that will result in a data breach
 *   More difficult to scale
 
-You now only have one database to manage. Setting this up, and connecting to your database is easy. Your speed to market increases.
+You now only have one database to manage. Setting this up and connecting to your database is easy. Your speed to market increases.
 
-When you need to upgrade your database, you can do so with a few clicks, or by typing a few commands. It’s so easy to add new features.
+When you need to upgrade your database, you can do so with a few clicks, or by typing a few commands. It’s very easy to add new features.
 
 As you gain more users, your database will grow to millions of rows. Put some effort into how your database handles this extra volume and load. You will have to start tuning your queries.
 
@@ -523,7 +522,7 @@ From the start, you should create a  login with “Just Enough” access. If you
 
 Note: In reality, you will build your backend and frontend at the same time. But for this post, we’ll keep it simple.
 
-**What do we mean by the frontend?**
+### What do we mean by the frontend?
 
 The Frontend is the visual element of your web application.  It defines what you see and interact with. The frontend is developed with HTML, CSS, and JavaScript.
 
@@ -541,7 +540,7 @@ First, you need to set up your development environment. The components of this w
 
     3. [Grunt](https://gruntjs.com/)
 
-        This is commonly also used for serving and “Hot Loading” your application at development time, on a nodejs web server, running on localhost.
+        This is also used for serving and “Hot Loading” your application at development time, on a nodejs web server, running on localhost.
     
 3. A frontend framework (strictly not necessary, but highly advised unless you are an experienced frontend developer): 
     1. [React](https://reactjs.org/)
@@ -553,12 +552,12 @@ First, you need to set up your development environment. The components of this w
     4. [Svelte](https://svelte.dev/)
     
        The list is endless!
-4. Configuring your packaging tool to talk to your backend - which is most likely running on a different port on localhost. Usually, this is done using node’s HTTP proxy. Most packaging solutions have this option built-in, or available as plugins. This point commonly gets people stuck, and may need a diagram. Remember - if you write your backend API in C Sharp (for example), then at dev time, you will be running it on a local web server, through visual studio. I.e. your frontend and backend are running on 2 different web servers, in dev. However, in production, your frontend should (probably) be running on the SAME web server as your backend - mainly because you want them to run under the same domain. 
+4. Configuring your packaging tool to talk to your backend - which is most likely running on a different port on localhost. Usually, this is done using Node’s HTTP proxy. Most packaging solutions have this option built-in, or available as plugins. This point commonly gets people stuck, and may need a diagram. Remember - if you write your backend API in C Sharp (for example) then at dev time, you will be running it on a local web server, through your code editor. I.e. your frontend and backend are running on 2 different web servers, in dev. However, in production, your frontend should (probably) be running on the SAME web server as your backend - mainly because you want them to run under the same domain. 
 
     This means a few things
 
-    1. At dev time, Your frontend should make API requests to its own (nodejs server - e.g. Webpack dev server). This nodejs server should then proxy all “/api” request to your backend server.
-    2. When building for production, you need to get your compiled frontend files into your backend server - so they can be served as static files. You can of course copy and paste the files in when you deploy, but you will want to set up some sort of script to do this for you
+    1. At dev time, your frontend should make API requests to its own (Nodejs server - e.g. Webpack dev server). This Nodejs server should then proxy all “/api” request to your backend server.
+    2. When building for production, you need to get your compiled frontend files into your backend server - so they can be served as static files. You can copy and paste the files in when you deploy, but you will want to set up some sort of script to do this.
 
 There is always a significant time required to set up your dev environment for a SPA. There are plenty of boilerplate templates out there for your frameworks of choice. However, I have never written an app that has not eventually needed some custom code on top of the boilerplate.
 
@@ -568,9 +567,9 @@ Still, I always choose a SPA.
 *   When you are up and running with your dev environment, I find SPAs much more productive to work with - which is more likely to do with the capabilities of modern javascript frameworks than anything else. 
 *   Writing a SPA is really the only way to make a Progressive Web Application.
 
-This is a skill worth investing in.
+You should now have a better idea of how to setup your frontend and define the look and feel of your web app. In most cases I build the fontend and backend together.
 
-
+Moving on to the backend.
 
 ## Step 10 - Build your backend {#backend}
 
@@ -589,18 +588,18 @@ When building your web app, you need to choose between:
 1. Server Pages (Multiple Page Application)
 2. Single Page Application
 
-“But isn’t this the front end?” - I hear you say. Yes! But your choice will affect how you develop your backend.
+“But isn’t this the frontend?” - I hear you say. Yes! But your choice will affect how you develop your backend.
 
-The primary jobs of the backend will be to 
+The primary jobs of the backend will be to:
 
-*   Provide HTTP endpoints for your front end, which allow it to operate on your data. E.g. Create, Read, Update and Delete (“CRUD”) records.
-*   Authenticate users (verify they are who they say they are: aka log them in.
+*   Provide HTTP endpoints for your frontend, which allow it to operate on your data. E.g. Create, Read, Update and Delete (“CRUD”) records.
+*   Authenticate users (verify they are who they say they are: aka log them in).
 *   Authorization. When a logged in user makes a request, the backend will determine whether they are allowed (authorized) to perform the requested action.
-*   Serve the front end 
+*   Serve the frontend 
 
 If you have chosen Server Pages, your backend will also be generating your frontend and serving it to your user. 
 
-With a single page app, the backend will simple serve your static front end files (i.e. your “Single Page” and it’s related assets).
+With a single page app, the backend will simply serve your static frontend files (i.e. your “Single Page” and it’s related assets).
 
 When choosing your backend: 
 
@@ -633,13 +632,15 @@ Environments. You will usually need to create multiple environments. For example
 
 ### What is hosting
 
-Hosting involves running your web app on a particular server. When using Budibase, this step can be automated with [Budibase hosting]([https://www.budibase.com/host-a-web-app/](https://www.budibase.com/host-a-web-app/)). With Budibase, you are still required to buy a domain.
+Hosting involves running your web app on a particular server. 
+
+When using Budibase, this step can be automated with [Budibase hosting]([https://www.budibase.com/host-a-web-app/](https://www.budibase.com/host-a-web-app/)). With Budibase, you are still required to buy a domain.
 
 If you are not using Budibase to host your web application, follow these quick steps: \
 
 
-1. Buy a domain [Namecheap]([https://www.namecheap.com/](https://www.namecheap.com/))
-2. Buy/Setup an SSL Certificate [Let’s Encrypt]([https://letsencrypt.org/](https://letsencrypt.org/))
+1. Buy a domain -  [Namecheap]([https://www.namecheap.com/](https://www.namecheap.com/))
+2. Buy/Setup an SSL Certificate -  [Let’s Encrypt]([https://letsencrypt.org/](https://letsencrypt.org/))
 3. Choose a cloud provider: 
     1. [Amazon]([https://aws.amazon.com/](https://aws.amazon.com/)) 
     2. [MS Azure]([https://azure.microsoft.com/en-gb/](https://azure.microsoft.com/en-gb/))
@@ -647,7 +648,7 @@ If you are not using Budibase to host your web application, follow these quick s
     4. Lower cost: Digital Ocean / Linode - if you are happy managing your own VMs
     5. Zeit Now, Heroku, Firebase are interesting alternatives that aim to be faster and easier to get things done - you should read about what they offer.
 
-Choosing one of these hosting options will almost certainly provide you with everything you need. They have ample documentation and community support and are generally reliable options.
+Choosing one of these hosting options will almost certainly provide you with everything you need. They have ample documentation and community support, and are generally reliable options.
 
 ## Step 12 - Deploy your web app {#deployment}
 
@@ -659,7 +660,7 @@ You’ve sourced your idea, validated it, designed and developed your web app, a
 
 You’re now at the last step. Well done!
 
-The deployment step includes all the processes required for preparing your web application to run and operate in a specific environment. It is how your web application gets from your source control or your computer to your cloud hosting from step 11.
+The deployment step includes is how your web application gets from your source control on your computer to your cloud hosting from step 11.
 
 How does your application get from Source Control / Your computer to your cloud hosting provider?
 
