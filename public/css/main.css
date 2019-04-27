@@ -10129,6 +10129,14 @@ a.text-purple:hover, a.text-purple:focus {
   color: #4a3bff !important;
 }
 
+.text-green {
+  color: #49C39E !important;
+}
+
+a.text-green:hover, a.text-green:focus {
+  color: #44B492 !important;
+}
+
 .text-blue {
   color: #1c6be1 !important;
 }

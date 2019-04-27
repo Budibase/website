@@ -28,6 +28,9 @@
   --light: #f5f8fb;
   --dark: #172B4D;
   --purple: #6A78D1;
+  --green: #49C39E;
+  --yellow: #F5C26B;
+  --red: #F2545B;
   --blue: #1c6be1;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -10140,6 +10143,22 @@ a.text-purple:hover, a.text-purple:focus {
   color: #4a3bff !important;
 }
 
+.text-green {
+  color: #49C39E !important;
+}
+
+a.text-green:hover, a.text-green:focus {
+  color: #44B492 !important;
+}
+
+.text-yellow {
+  color: #F5C26B !important;
+}
+
+a.text-yellow:hover, a.text-yellow:focus {
+  color: #ffd489 !important;
+}
+
 .text-blue {
   color: #1c6be1 !important;
 }
@@ -14129,6 +14148,42 @@ button:focus {
   border-color: #6A78D1;
 }
 
+/* green */
+.u-icon--green {
+  color: #fff;
+  background-color: #49C39E;
+  border-color: #49C39E;
+}
+
+.u-icon--green[href]:hover {
+  color: #fff;
+  background-color: #44B492;
+  border-color: #49C39E;
+}
+
+.u-icon--green.disabled, .u-icon--green:disabled {
+  background-color: #49C39E;
+  border-color: #49C39E;
+}
+
+/* yellow */
+.u-icon--yellow {
+  color: #fff;
+  background-color: #F5C26B;
+  border-color: #F5C26B;
+}
+
+.u-icon--yellow[href]:hover {
+  color: #fff;
+  background-color: #f9ba4d;
+  border-color: #ffd489;
+}
+
+.u-icon--yellow.disabled, .u-icon--yellow:disabled {
+  background-color: #F5C26B;
+  border-color: #F5C26B;
+}
+
 /* blue */
 .u-icon--blue {
   color: #fff;
@@ -15096,6 +15151,28 @@ button:focus {
 .u-label--purple[href]:hover, .u-label--purple[href]:focus {
   color: #fff;
   background-color: #6A78D1;
+}
+
+/* label green */
+.u-label--green {
+  color: #49C39E;
+  background-color: rgba(73, 195, 158, 0.1);
+}
+
+.u-label--green[href]:hover, .u-label--green[href]:focus {
+  color: #fff;
+  background-color: #49C39E;
+}
+
+/* label yellow */
+.u-label--yellow {
+  color: #F5C26B;
+  background-color: rgba(245, 194, 107, 0.1);
+}
+
+.u-label--yellow[href]:hover, .u-label--yellow[href]:focus {
+  color: #fff;
+  background-color: #F5C26B;
 }
 
 /* label blue */
