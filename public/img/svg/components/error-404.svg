@@ -16,7 +16,7 @@
 		z"/>
 </g>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="587.4418" y1="285.3567" x2="587.4418" y2="195.3567">
-	<stop  offset="5.908129e-07" style="stop-color:#F5F8FB"/>
+	<stop  offset="5.908129e-07" style="stop-color:#f9fbfd"/>
 	<stop  offset="0.334" style="stop-color:#F1F5F9"/>
 	<stop  offset="0.6664" style="stop-color:#E5ECF1"/>
 	<stop  offset="0.9975" style="stop-color:#D1DDE5"/>
