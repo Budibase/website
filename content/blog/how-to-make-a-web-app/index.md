@@ -104,7 +104,7 @@ To make a data-centric web app from the bottom-up, it is advantageous to underst
 
 If you don’t have any experience with the points above, don’t worry. You have two options:
 
-1. Learn the points above - there are lots of resources online to help you. I’d recommend [Codecademy]([https://www.codecademy.com/](https://www.codecademy.com/)).
+1. Learn the points above - there are lots of resources online to help you. I’d recommend [Codecademy](https://www.codecademy.com/).
 2. Use a [web app builder](https://www.udibase.com) like Budibase - As a builder, Budibase will remove the need to learn a backend language. On top of that, Budibase will also take care of a lot of your DevOps tasks such as hosting.
 
 Moving on. The time has arrived to quickly dive into the 12 steps for making a web app.
@@ -176,7 +176,7 @@ Ask yourself:
 - How much time/money will this app save or generate for me (as a user)?
 - How much will it improve my life?
 
-If you are having a hard time finding ideas, here’s [6 micro saas ideas]( /blog/micro-saas-ideas/). 
+If you are having a hard time finding ideas, here’s [6 micro saas ideas](/blog/micro-saas-ideas/). 
 
 
 ## Step 2 – Market Research {#research}
@@ -197,9 +197,9 @@ Marc Andreessen defined the term product-market fit as follows:
 To quickly find out if a similar web app exists, use the following tools to search for your idea:
 
 1. [Google](https://www.google.com)
-2. [Patent and trademark search]([https://www.uspto.gov/trademarks-application-process/search-trademark-database](https://www.uspto.gov/trademarks-application-process/search-trademark-database))
-3. [Betalist]([https://betalist.com/](https://betalist.com/))
-4. [Product hunt]([https://www.uspto.gov/trademarks-application-process/search-trademark-database](https://www.uspto.gov/trademarks-application-process/search-trademark-database))
+2. [Patent and trademark search](https://www.uspto.gov/trademarks-application-process/search-trademark-database)
+3. [Betalist](https://betalist.com/)
+4. [Product hunt](https://www.uspto.gov/trademarks-application-process/search-trademark-database)
 
 If a similar product exists, don’t worry. This can be a sign a market for your idea exists. Your future competitors have laid the groundwork, educated the market. It’s time for you to swoop in and steal the thunder. 
 
@@ -211,7 +211,7 @@ Nobody wants to experience that, so it’s important to dive deep into the marke
 
 1. Your Web App’s target market - Share your web app idea on forums related to your target market. If you know anyone who works within your target market, explain your idea to them. The more you talk and receive validation from your target market, the better.
 
-2. [Google Trends]([https://trends.google.com/trends/](https://trends.google.com/trends/)) - A quick search of your web app idea will reveal relating trends.
+2. [Google Trends](https://trends.google.com/trends/) - A quick search of your web app idea will reveal relating trends.
 3. SEO tool - I’d recommend MOZ/Ahrefs. Google's keyword planner will suffice. Write a list of keywords relating to your web app. If it’s an ‘OKR tool’, use the tools to search ‘OKR tool’, ‘OKR app’,  and ‘objectives and key results software’. If the SEO tool indicates there are lots of people searching for your keyword terms, this is a small indicator you have a target market. 
 4. Social Media - Jump over to Twitter/Facebook groups and present your idea to your target market. 
 5. Events - If there is a local event in your area attracting people from your target market, go to it. Share your idea and record the feedback.
@@ -343,7 +343,7 @@ You can prototype/wireframe using the following tools:
 *   [Figma](https://zapier.com/blog/best-wireframe-tools/#figma) (Web, macOS, Windows, Linux) 
 *   [Balsamiq](https://zapier.com/blog/best-wireframe-tools/#balsamiq) (macOS, Windows, Web) 
 
-I recommend you create a design system / style guide first. You can find inspiration at [UXPin]([https://adele.uxpin.com/](https://adele.uxpin.com/)). Design systems improve design consistency. But it’s not required.
+I recommend you create a design system / style guide first. You can find inspiration at [UXPin](https://adele.uxpin.com/). Design systems improve design consistency. But it’s not required.
 
 ## Step 7 – Seek early validation {#validation}
 
@@ -615,7 +615,7 @@ Login/User & Session Management
 *   How will users authenticate?
     *   Username and password?
     *   Open ID (i.e. sign in as Google, FB, etc)
-*   Be sure to read up on security best practices. I highly recommend: [OWASP]([https://github.com/OWASP/CheatSheetSeries](https://github.com/OWASP/CheatSheetSeries) )
+*   Be sure to read up on security best practices. I highly recommend: [OWASP](https://github.com/OWASP/CheatSheetSeries)
 *   What user levels will you create in the system?
 
 Environments. You will usually need to create multiple environments. For example: 
@@ -634,17 +634,17 @@ Environments. You will usually need to create multiple environments. For example
 
 Hosting involves running your web app on a particular server. 
 
-When using Budibase, this step can be automated with [Budibase hosting]([https://www.budibase.com/host-a-web-app/](https://www.budibase.com/host-a-web-app/)). With Budibase, you are still required to buy a domain.
+When using Budibase, this step can be automated with [Budibase hosting](https://www.budibase.com/host-a-web-app/). With Budibase, you are still required to buy a domain.
 
 If you are not using Budibase to host your web application, follow these quick steps: \
 
 
-1. Buy a domain -  [Namecheap]([https://www.namecheap.com/](https://www.namecheap.com/))
-2. Buy/Setup an SSL Certificate -  [Let’s Encrypt]([https://letsencrypt.org/](https://letsencrypt.org/))
+1. Buy a domain - [Namecheap](https://www.namecheap.com/)
+2. Buy/Setup an SSL certificate - [Let’s Encrypt](https://letsencrypt.org/)
 3. Choose a cloud provider: 
-    1. [Amazon]([https://aws.amazon.com/](https://aws.amazon.com/)) 
-    2. [MS Azure]([https://azure.microsoft.com/en-gb/](https://azure.microsoft.com/en-gb/))
-    3. [Google Cloud Platform]([https://cloud.google.com/](https://cloud.google.com/)) 
+    1. [Amazon](https://aws.amazon.com/)
+    2. [MS Azure](https://azure.microsoft.com/en-gb/)
+    3. [Google Cloud Platform](https://cloud.google.com/)
     4. Lower cost: Digital Ocean / Linode - if you are happy managing your own VMs
     5. Zeit Now, Heroku, Firebase are interesting alternatives that aim to be faster and easier to get things done - you should read about what they offer.
 
@@ -666,9 +666,9 @@ How does your application get from Source Control / Your computer to your cloud 
 
 The following development tools provide continuous integration and will help you with deploying your web app to your cloud hosting:
 
-1. [GitLab]([https://about.gitlab.com/](https://about.gitlab.com/))
-2. [Bitbucket]([https://bitbucket.org/](https://bitbucket.org/))
-3. [Jenkins]([https://jenkins.io/](https://jenkins.io/))
+1. [GitLab](https://about.gitlab.com/)
+2. [Bitbucket](https://bitbucket.org/)
+3. [Jenkins](https://jenkins.io/)
 
 There are many of course.
 
@@ -682,9 +682,9 @@ And that’s it. You have made a web application. Well done. You should take som
 
 I hope you have enjoyed this tutorial. I will continue to update this tutorial and refine the process of how to make a web app.
 
-From the team at Budibase, thank you. 
+From the team at Budibase, thank you.
 
-If you are interested in Budibase, please sign up below and join the community. The builder will be open source, and you can benefit from automated hosting and a user management platform. 
+If you are interested in Budibase, please sign up below and join the community. The builder will be open source, and you can benefit from automated hosting and a user management platform.
 
 Awesome, right!
 
