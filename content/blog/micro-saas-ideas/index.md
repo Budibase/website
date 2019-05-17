@@ -114,7 +114,7 @@ This influx in demand is due to the low labour costs which makes freelancers an 
 
 #### Problem
 
-Freelancers are super busy working, networking and learning new skills such as marketing, sales, design, administration, finance, account management. 
+Freelancers are super busy working, networking and learning new skills such as marketing, sales, design, administration, finance, account management.
 
 When juggling so many tasks, its very easy to lose track of things. For some freelancers, life is stressful and unsystematic - as a cluttered freelancer for 5 years, I can wholeheartedly vouch for this.
 
