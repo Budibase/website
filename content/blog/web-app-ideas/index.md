@@ -1,15 +1,15 @@
 +++
 date = "2019-05-11"
-title = "20 Simple Web App Ideas You'll Want To Steal (2019)"
+title = "12 Best Web App Ideas You'll Want To Steal (2019)"
 categories = ["Ideas"] 
 tags = ["Ideas, web app"]
-description = "Within this post you will find 15 simple web app ideas you will want to steal in 2019. Grab some inspiration, choose your idea, and build your next awesome web app."
+description = "Within this post you will find 12 great web app ideas you will want to steal in 2019. Grab some inspiration, choose your idea, and build your next awesome web app."
 author = "Joe Johnston"
 draft ="true"
 
 +++
 
-{{< figure src="/web-app-ideas/web-app-ideas.png" alt="20 web app ideas" >}}
+{{< figure src="/web-app-ideas/web-app-ideas.png" alt="12 web app ideas" >}}
 
 Do you ever feel like the hardest part of building a web application is thinking of the idea.
 
@@ -40,17 +40,14 @@ I've included the complete list of ideas below. If you want further information 
 2. The CEO dashboard
 3. Retreat management platform
 4. On-call directory
-5. Food truck manager
 6. Crime Alert
 2. Content marketing tracker
 3. Product launch tracker
-4. Validation platform
 5. Tinder for real estate
 6. A daily highlight web app
 7. IMDB for Books
 8. Car sharing 
 9. Family album 
-10. Book club management software
 
 Ok, let's dive in a little deeper.
 
@@ -120,8 +117,6 @@ Time to MVP - ⏰⏰⏰⏰
 
 ### 4. On-call directory
 
-### 5. Food truck manager
-
 
 
 ## Web app ideas for portfolio
@@ -131,8 +126,6 @@ Time to MVP - ⏰⏰⏰⏰
 ### 7. Content marketing tracker
 
 ### 8. Product launch tracker
-
-### 9. Validation platform
 
 ### 10. Tinder for real estate
 
@@ -146,11 +139,21 @@ A to-do app focused on one daily, simple to-do/highlight.
 
 ###	12. IMDB for Books
 
+Do you know what IMDB or Rotten Tomatoes is? 
+
+Well, as a book lover, I'm always looking for decent book reviews. 
+
+Sadly there are few places that offer this and I feel there is a gap in the market. 
+
+This is a great project for a book lover and a great web idea for beginners. Building a simple version of this would
+
 ###	13. Car sharing 
+
+
 
 ### 	14. Family album 
 
-###	15. Book club management software
+###	
 
 
 

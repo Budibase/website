@@ -17,16 +17,21 @@
         </div>
         <div class="d-sm-flex justify-content-sm-center align-items-sm-center mb-7">
 <!-- Input -->
-          <form class="js-validate w-lg-80" form name="signup" method="POST" data-netlify="true">
+          <form class="js-validate w-lg-80" form action="https://budibase.us20.list-manage.com/subscribe/post" form name="signup" method="POST">
+              <input type="hidden" name="u" value="761756dde90443a4375dead81">
+              <input type="hidden" name="id" value="4999d7f159">  
               <div class="row mx-gutters-2">
                 <div class="col-sm-7 mb-3">
                   <!-- Input -->
                   <div class="js-form-message">
                     <div class="js-focus-state input-group form">
-                      <input type="email" class="form-control form__input" name="email" required
-                            placeholder="Submit Email Address"
-                            aria-label="Email"
-                            data-msg="Please enter a valid email address.">
+                        <p style="display:none;">
+                            <label>Don’t fill this out: <input name="bot-field"></label>
+                          </p>
+                          <input type="email" class="form-control form__input" name="MERGE0" id="MERGE0" required
+                             placeholder="Submit Email Address"
+                             aria-label="Email"
+                             data-msg="Please enter a valid email address.">
                     </div>
                   </div>
                   <!-- End Input -->
