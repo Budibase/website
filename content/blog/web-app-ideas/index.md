@@ -34,17 +34,24 @@ The ideas differ depending on their purpose and fall into one of the following 3
 2. Great for your portfolio
 3. Suitable for beginners or students
 
-I've included the complete list of ideas below. If you want further information on a particular idea, simply click the link:
+I've included the complete list of 8 web app ideas below:
 
 
-1. The CEO dashboard
-2. CRM for startups / small businesses
-3. Retreat management platform
-4. Employee Orientation Software
-5. Crime Alert
-6. Family app
-7. A daily highlight web app
-8. IMDB for Books
+[1. The CEO dashboard](#ceo)
+
+[2. CRM for startups / small businesses](#crm)
+
+[3. Retreat management platform](#retreat)
+
+[4. Employee Orientation Software](#orientation)
+
+[5. Crime Alert](#alert)
+
+[6. Family app](#family)
+
+[7. A daily highlight web app](#highlight)
+
+[8. IMDB for Books](#books)
 
 If you are unsure how to build a web application, not to worry. 
 
@@ -54,7 +61,7 @@ Ok, let's dive in.
 
 ## Web app ideas to make money
 
-### 1. The CEO dashboard 📈 
+### 1. The CEO dashboard 📈 {#ceo}
 
 {{< figure src="/web-app-ideas/dashboard-web-app.jpg" alt="The CEO Dashboard Web App" >}}
 
@@ -93,7 +100,7 @@ Time to MVP - ⏰⏰⏰
 
 ---
 
-### 2. CRM for startups / small businesses 📅
+### 2. CRM for startups / small businesses 📅 {#crm}
 
 {{< figure src="/web-app-ideas/crm.jpg" alt="CRM for startups / small businesses" >}}
 
@@ -132,7 +139,7 @@ Time to MVP - ⏰⏰
 
 ---
 
-### 3. Retreat management platform 🌄
+### 3. Retreat management platform 🌄 {#retreat}
 
 {{< figure src="/web-app-ideas/retreat.jpg" alt="Retreat management platform" >}}
 
@@ -171,7 +178,7 @@ Time to MVP - ⏰⏰⏰⏰⏰
 
 ---
 
-### 4. Employee Orientation Software 🏢
+### 4. Employee Orientation Software 🏢 {#orientation}
 
 {{< figure src="/web-app-ideas/orientation.jpg" alt="Employee Orientation Software" >}}
 
@@ -206,7 +213,7 @@ Time to MVP - ⏰⏰
 
 ## Web app ideas for portfolio
 
-### 5. Crime Alert Web App 🚔
+### 5. Crime Alert Web App 🚔 {#alert}
 
 {{< figure src="/web-app-ideas/alert.jpg" alt="Crime Alert Web App" >}}
 
@@ -240,7 +247,7 @@ Time to MVP - ⏰⏰
 
 ---
 
-### 6. Family web app 👪
+### 6. Family web app 👪 {#family}
 
 {{< figure src="/web-app-ideas/family.jpg" alt="Family web application" >}}
 
@@ -274,7 +281,7 @@ Time to MVP - ⏰⏰⏰⏰
 
 ## Web app ideas for beginners
 
-###	7. A daily highlight web app 📋
+###	7. A daily highlight web app 📋 {#highlight}
 
 {{< figure src="/web-app-ideas/highlight.jpg" alt="A daily highlight web app" >}}
 
@@ -304,7 +311,7 @@ Time to MVP - ⏰
 
 ---
 
-###	8. IMDB for Books / Book database 📚
+###	8. IMDB for Books / Book database 📚 {#books}
 
 {{< figure src="/web-app-ideas/book.jpg" alt="IMDB for Books / Book database" >}}
 
