@@ -1,5 +1,5 @@
 +++
-date = "2019-05-11"
+date = "2019-05-25"
 title = " 8 Web App Ideas You'll Want To Steal (2019)"
 categories = ["Ideas"] 
 tags = ["Ideas, web app"]
@@ -259,7 +259,7 @@ The family app market is a large and moderately competitive. There are some lead
 
 {{< figure src="/web-app-ideas/family-app-google-trend.PNG" alt="Family App Google Trend" >}}
 
-The fact your app will be a web application, will be a key differentiator when comparing against competition. Most of the current family apps on offer are mobile apps. With your family web app, users will be able to access your app from their laptops and desktops. This brings with it many advantages - dad can organise the shopping list at his computer in work if he pleases 🍕🍕🍕.
+The fact your app will be a web application, will be a key differentiator when competing against competition. Most of the current family apps on offer are mobile apps. With your family web app, users will be able to access your app from their laptops and desktops. This brings with it many advantages - dad can organise the shopping list at his computer in work if he pleases 🍕🍕🍕.
 
 If you are still not convinced about the demand for family apps, check out the following graph detailing the search volume for the term 'family app'.
 
