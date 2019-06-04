@@ -1,25 +1,27 @@
-
 {{ partial "header.html" . }}
 
 {{ partial "navigation.html" . }}
+<div class="container space-2">
+<div class="d-lg-flex align-items-lg-center height-100vh--lg">
+    <div class="container space-2 space-2-bottom space-0--lg">
+      <div class="row justify-content-lg-between align-items-lg-center">
 
-<!--Header-->
-<header class="background blog-header"></header>
-<!--Header-->
+          <div class="col-lg-5  space-1-bottom">
+              <!-- Title -->
+              <div class="mb-4">
+                <h1 class="h2">Call the cops, a page has been stolen!</h1>
+                <p class="lead">Kidding! For some reason your page has not been found. Apologies for an inconvenience caused. I'd recommend you go back to the homepage.</p>
+              </div>
+              <!-- End Title -->
+              <a href="/">Back to the homepage</a>
+            </div>
 
-<!--Article-->
-<div class="container">
-  <div class="article">
-    <div class="row">
-      <div class="col-md-12">
-        <a class="article__back-link" href="/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Back</a>
 
-        <h1 class="article__title">Oops, page not found!</h1>
-	<img src="/img/404bath.gif" alt="404, page not found!" />
+        <div class="col-lg-6 mb-9 mb-lg-6">
+          <img class="w-60" src="img/svg/404.svg" alt="404 image">
+        </div>
       </div>
     </div>
   </div>
 </div>
-<!--Article-->
-
-{{ partial "footer.html" . }}
+  {{ partial "footer.html" . }}
