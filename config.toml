@@ -1,6 +1,6 @@
 baseURL = "https://www.budibase.com/"
 languageCode = "en-uk"
-title = "Free Web App Builder: Build, Launch & Grow Quickly - Budibase"
+title = "Budibase: Web App Builder - Build Your Web App With Speed"
 theme = "budibase"
 enableEmoji = "true"
 
