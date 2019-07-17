@@ -1,7 +1,7 @@
 # Global settings applied to the whole site.
 [build]
   publish = "public"
-  command = "hugo"
+  command = "hugo -d public"
 [build.environment]
   #overwritten by context.production.environment, et. al.
   HUGO_VERSION = "0.53"
