@@ -105,7 +105,7 @@ To make a data-centric web app from the bottom-up, it is advantageous to underst
 If you don’t have any experience with the points above, don’t worry. You have two options:
 
 1. Learn the points above - there are lots of resources online to help you. I’d recommend [Codecademy](https://www.codecademy.com/).
-2. Use a [web app builder](https://www.udibase.com) like Budibase - As a builder, Budibase will remove the need to learn a backend language. On top of that, Budibase will also take care of a lot of your DevOps tasks such as hosting.
+2. Use a [web app builder](https://www.budibase.com) like Budibase - As a builder, Budibase will remove the need to learn a backend language. On top of that, Budibase will also take care of a lot of your DevOps tasks such as hosting.
 
 Moving on. The time has arrived to quickly dive into the 12 steps for making a web app.
 
