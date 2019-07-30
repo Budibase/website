@@ -20,12 +20,12 @@
   command = "hugo --buildDrafts --buildFuture"
 
   [[redirects]]
-  from = /blog/posts/cofoundervalidation/
-  to = /blog/cofoundervalidation/ 
+  from = "/blog/posts/cofoundervalidation/"
+  to = "/blog/cofoundervalidation/" 
   status = 301
 
   [[redirects]]
-  from = /css/annimate.css
-  to = /css/main.css
+  from = "/css/annimate.css"
+  to = "/css/main.css"
   status = 301
 
