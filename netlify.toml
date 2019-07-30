@@ -19,3 +19,11 @@
 [context.deploy-preview]
   command = "hugo --buildDrafts --buildFuture"
 
+  [[redirects]]
+  from = https://www.budibase.com/blog/posts/cofoundervalidation/
+  to = https://www.budibase.com/blog/cofoundervalidation/ 
+
+  [[redirects]]
+  from = https://www.budibase.com/css/annimate.css
+  to = https://www.budibase.com/css/main.css
+
