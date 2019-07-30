@@ -20,10 +20,12 @@
   command = "hugo --buildDrafts --buildFuture"
 
   [[redirects]]
-  from = https://www.budibase.com/blog/posts/cofoundervalidation/
-  to = https://www.budibase.com/blog/cofoundervalidation/ 
+  from = /blog/posts/cofoundervalidation/
+  to = /blog/cofoundervalidation/ 
+  status = 301
 
   [[redirects]]
-  from = https://www.budibase.com/css/annimate.css
-  to = https://www.budibase.com/css/main.css
+  from = /css/annimate.css
+  to = /css/main.css
+  status = 301
 
