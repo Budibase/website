@@ -1,6 +1,5 @@
 +++
-
-date = "2019-07-28
+date = "2019-07-28"
 title = "5 Recent Examples Of Modern Web Application Design (2019)"
 categories = ["Inspire"] 
 tags = ["SaaS, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture"]
