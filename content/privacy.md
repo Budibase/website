@@ -18,6 +18,7 @@ This privacy policy applies to all information collected through our website (su
 ## 1. WHAT INFORMATION DO WE COLLECT?
 
 **Information automatically collected**
+
 In Short: Some information – such as IP address and/or browser and device characteristics – is collected automatically when you visit our Sites. We automatically collect certain information when you visit, use or navigate the Sites. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Sites and other technical information. This information is primarily needed to maintain the security and operation of our Sites, and for our internal analytics and reporting purposes. Like many businesses, we also collect information through cookies and similar technologies.
 
 **Information collected from other sources**
