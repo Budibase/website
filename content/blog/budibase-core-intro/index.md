@@ -5,8 +5,7 @@ categories = ["SaaS"]
 tags = ["SaaS, Serverless"]
 description = "An introduction to Budibase Core - a Javascript library used to build Budibase, a Micros SaaS Builder"
 author = "Michael Shanks"
-draft ="true"
-
+draft ="false"
 +++
 
 At Budibase, we are building a platform for accelerated development and easy management of SaaS businesses. We are beginning at the very bottom of the stack, by inventing a database engine specifically for this purpose. This post will attempt to give a good overview of what we are trying to achieve. I will get into detail in later posts.
