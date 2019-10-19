@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ideas on Budibase: Web App Builder - Build Your Web App With Speed</title>
+    <link>https://www.budibase.com/categories/ideas/</link>
+    <description>Recent content in Ideas on Budibase: Web App Builder - Build Your Web App With Speed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>This work is licensed and owned by Budibase</copyright>
+    <lastBuildDate>Sat, 25 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.budibase.com/categories/ideas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> 8 Web App Ideas You&#39;ll Want To Steal (2019)</title>
+      <link>https://www.budibase.com/blog/web-app-ideas/</link>
+      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/web-app-ideas/</guid>
+      <description>Do you ever feel like the hardest part of building a web application is thinking of the idea?
+You&amp;rsquo;re not alone.
+Coming up with web app ideas consumes a lot of time.
+Finding an idea which solves a problem, is possible to build, and won&amp;rsquo;t take millions of dollars is really difficult.
+We get it.
+Which is why we spent 3 weeks researching viable ideas to help you build a successful web app.</description>
+    </item>
+    
+  </channel>
+</rss>

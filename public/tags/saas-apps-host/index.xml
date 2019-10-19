@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SaaS, apps, host on Budibase: Web App Builder - Build Your Web App With Speed</title>
+    <link>https://www.budibase.com/tags/saas-apps-host/</link>
+    <description>Recent content in SaaS, apps, host on Budibase: Web App Builder - Build Your Web App With Speed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>This work is licensed and owned by Budibase</copyright>
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.budibase.com/tags/saas-apps-host/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Progressive Web Apps Can Now Be Shipped Via The Play Store</title>
+      <link>https://www.budibase.com/blog/progressive-web-app-play-store/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/progressive-web-app-play-store/</guid>
+      <description>With Chrome 72, you can now publish your PWA in the Play Store and from the browser.
+Chrome 72 was shipped in November 2018 and included Tursted Web Activity (TWA) which allows you to open Chrome in standalone mode thanks to your native Android package.
+The primary advantages over your normal PWA installation are:
+ Home screen widget
+ Offer a wear OS companion app
+ Background services can access native features</description>
+    </item>
+    
+  </channel>
+</rss>

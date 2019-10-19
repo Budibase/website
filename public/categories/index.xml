@@ -1,30 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Budibase - A Better Way To Build SaaS Applications</title>
-    <link>https://musing-aryabhata-ae83d1.netlify.com/categories/</link>
-    <description>Recent content in Categories on Budibase - A Better Way To Build SaaS Applications</description>
+    <title>Categories on Budibase: Web App Builder - Build Your Web App With Speed</title>
+    <link>https://www.budibase.com/categories/</link>
+    <description>Recent content in Categories on Budibase: Web App Builder - Build Your Web App With Speed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
+    <copyright>This work is licensed and owned by Budibase</copyright>
+    <lastBuildDate>Sun, 28 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://musing-aryabhata-ae83d1.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.budibase.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Marketing Strategy</title>
-      <link>https://musing-aryabhata-ae83d1.netlify.com/categories/marketing-strategy/</link>
-      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
+      <title>Inspire</title>
+      <link>https://www.budibase.com/categories/inspire/</link>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://musing-aryabhata-ae83d1.netlify.com/categories/marketing-strategy/</guid>
+      <guid>https://www.budibase.com/categories/inspire/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Seo</title>
-      <link>https://musing-aryabhata-ae83d1.netlify.com/categories/seo/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <title>Ideas</title>
+      <link>https://www.budibase.com/categories/ideas/</link>
+      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://musing-aryabhata-ae83d1.netlify.com/categories/seo/</guid>
+      <guid>https://www.budibase.com/categories/ideas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Build</title>
+      <link>https://www.budibase.com/categories/build/</link>
+      <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/build/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grow</title>
+      <link>https://www.budibase.com/categories/grow/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/grow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manage</title>
+      <link>https://www.budibase.com/categories/manage/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/manage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>host</title>
+      <link>https://www.budibase.com/categories/host/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/host/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SaaS</title>
+      <link>https://www.budibase.com/categories/saas/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/saas/</guid>
       <description></description>
     </item>
     

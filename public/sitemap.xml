@@ -3,126 +3,165 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/blog/posts/seo-basics-in-2019---copy-2/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+    <loc>https://www.budibase.com/privacy/</loc>
+    <lastmod>2019-08-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/blog/posts/seo-basics-in-2019---copy-3/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+    <loc>https://www.budibase.com/blog/5-examples-of-web-application-design/</loc>
+    <lastmod>2019-07-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/blog/posts/seo-basics-in-2019---copy/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+    <loc>https://www.budibase.com/categories/</loc>
+    <lastmod>2019-07-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/blog/posts/seo-basics-in-2019/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+    <loc>https://www.budibase.com/categories/inspire/</loc>
+    <lastmod>2019-07-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/about/</loc>
+    <loc>https://www.budibase.com/tags/saas-backend-frontend-web-app-deployment-hosting-ideation-wireframing-database-architecture/</loc>
+    <lastmod>2019-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/</loc>
+    <lastmod>2019-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/blog/web-app-ideas/</loc>
+    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/categories/ideas/</loc>
+    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/ideas-web-app/</loc>
+    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/categories/build/</loc>
+    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/blog/how-to-make-a-web-app/</loc>
+    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/blog/5-good-habits-for-success/</loc>
+    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/categories/grow/</loc>
+    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/categories/manage/</loc>
+    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/saas-manage-micro-saas/</loc>
+    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/thankyou/</loc>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/categories/host/</loc>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/blog/progressive-web-app-play-store/</loc>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/saas-apps-host/</loc>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/blog/budibase-core-intro/</loc>
+    <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/categories/saas/</loc>
+    <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/saas-serverless/</loc>
+    <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/blog/micro-saas-ideas/</loc>
+    <lastmod>2019-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/saas-ideas-micro-saas/</loc>
+    <lastmod>2019-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/blog/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/founder/</loc>
+    <lastmod>2018-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/blog/cofoundervalidation/</loc>
+    <lastmod>2018-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/about/</loc>
     <lastmod>2018-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/contact/</loc>
+    <loc>https://www.budibase.com/contact/</loc>
     <lastmod>2018-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/blog/posts/5-marketing-strategy-tips---copy/</loc>
-    <lastmod>2017-12-19T00:00:00+00:00</lastmod>
+    <loc>https://www.budibase.com/build-a-web-app/</loc>
   </url>
   
   <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/blog/posts/5-marketing-strategy-tips/</loc>
-    <lastmod>2017-12-19T00:00:00+00:00</lastmod>
+    <loc>https://www.budibase.com/host-a-web-app/</loc>
   </url>
   
   <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/blog/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/tags/crawling/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/tags/eat/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/tags/https/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/tags/indexing/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/tags/keyword-research/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/tags/marketing-strategy/</loc>
-    <lastmod>2017-12-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/categories/marketing-strategy/</loc>
-    <lastmod>2017-12-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/tags/mobile-seo/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/tags/seo/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/categories/seo/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://musing-aryabhata-ae83d1.netlify.com/tags/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://www.budibase.com/manage-a-web-app/</loc>
   </url>
   
 </urlset>

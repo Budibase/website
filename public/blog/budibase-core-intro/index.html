@@ -1,0 +1,517 @@
+
+<!DOCTYPE html>
+<html lang="en-uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="/favicon.ico">
+  
+   
+   <link rel="stylesheet" href="https://www.budibase.com/css/main.css">
+   <link rel="stylesheet" href="https://www.budibase.com/css/hs.megamenu.css">
+   <link rel="stylesheet" href="https://www.budibase.com/css/animate.min.css">
+   <link rel="stylesheet" href="https://www.budibase.com/css/cookiealert.css">
+   <link rel="stylesheet" href="fonts/all.min.css">
+   
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Nunito|PT+Serif|Lato:700,900" rel="stylesheet">
+  
+
+<meta name="keywords" content="SaaS, Serverless">
+<title>Budibase Core. A Serverless Database Engine, for fast SaaS development.</title>
+<meta name="description" content="An introduction to Budibase Core - a Javascript library used to build Budibase, a Micros SaaS Builder">
+
+
+    <meta name="robots" content="noodp"/>
+    <link rel="canonical" href="https://www.budibase.com/blog/budibase-core-intro/" />
+
+    
+
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Budibase Core. A Serverless Database Engine, for fast SaaS development.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https:\/\/www.budibase.com\/blog\/budibase-core-intro\/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https:\/\/www.budibase.com\/budibase-logo.png",
+    "width":  800 ,
+    "height":  600 
+  },
+  "genre": "blog",
+  "keywords": "SaaS, Serverless",
+  "wordcount":  896 ,
+  "url": "https:\/\/www.budibase.com\/blog\/budibase-core-intro\/",
+  "datePublished": "2019-01-24T00:00:00\x2b00:00",
+  "dateModified": "2019-01-24T00:00:00\x2b00:00",
+  "license": "This work is licensed and owned by Budibase",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Budibase",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https:\/\/www.budibase.com\/budibase-logo-small.png",
+      "width":  127 ,
+      "height":  40 
+    }
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Michael Shanks"
+  },
+  "description": "An introduction to Budibase Core - a Javascript library used to build Budibase, a Micros SaaS Builder"
+}
+</script>
+
+
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:1165731,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+  
+  <base href="https://www.budibase.com/">
+  <meta name="generator" content="Hugo 0.58.3" />
+
+ 
+  
+
+      
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131388657-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131388657-1', { 'optimize_id': 'GTM-N5R5DWD'});
+</script>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Budibase Core. A Serverless Database Engine, for fast SaaS development."/>
+<meta name="twitter:description" content="An introduction to Budibase Core - a Javascript library used to build Budibase, a Micros SaaS Builder"/>
+
+<meta property="og:title" content="Budibase Core. A Serverless Database Engine, for fast SaaS development." />
+<meta property="og:description" content="An introduction to Budibase Core - a Javascript library used to build Budibase, a Micros SaaS Builder" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.budibase.com/blog/budibase-core-intro/" />
+<meta property="article:published_time" content="2019-01-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-01-24T00:00:00+00:00" />
+
+
+</head>
+
+<body lang="en-uk">
+
+
+
+<header id="headerDropdown" class="u-header u-header--left-aligned-nav u-header--sticky-top ">
+  <div class="u-header__section">
+    <div id="logoAndNav" class="container">
+        <div class="js-scrollbar-header u-header--sticky__inner">
+      
+      <nav class="js-mega-menu navbar navbar-expand-lg u-header__navbar">
+        
+        <div class="u-header__navbar-brand-wrapper">
+          <a class="navbar-brand u-header__navbar-brand" href="/" aria-label="Space">
+            <img class="u-header__navbar-brand-default" src="img/logo/budibase-logo.svg" alt="Logo">
+            <img class="u-header__navbar-brand-mobile" src="img/logo/budibase-logo.svg" alt="Logo">
+          </a>
+        </div>
+        
+
+        
+        <button type="button" class="navbar-toggler btn u-hamburger u-header__hamburger"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="navBarDropdown"
+        data-toggle="collapse"
+        data-target="#navBarDropdown">
+          <span class="d-none d-sm-inline-block">Menu</span>
+          <span id="hamburgerTriggerDropdown" class="u-hamburger__box ml-3">
+            <span class="u-hamburger__inner"></span>
+          </span>
+        </button>
+        
+        
+
+        
+        <div id="navBarDropdown" class="collapse navbar-collapse u-header__navbar-collapse py-0">
+          <ul class="navbar-nav u-header__navbar-nav">
+            <li class="nav-item u-header__nav-item">
+              <a class="nav-link u-header__nav-link" href="/about">
+                About
+              </a>
+            </li>
+            
+
+            
+            <li class="nav-item u-header__nav-item hs-has-sub-menu"
+                data-event="hover"
+                data-animation-in="fadeInUp"
+                data-animation-out="fadeOut">
+                  <a id="dropdownMegaMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                 aria-haspopup="true"
+                 aria-expanded="false"
+                 aria-labelledby="dropdownSubMenu">
+                Features▾
+                </a>
+
+              
+              <ul id="dropdownSubMenu" class="list-inline hs-sub-menu u-header__sub-menu mb-0" style="min-width: 220px;"
+                  aria-labelledby="dropdownMegaMenu">
+                <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                  <a class="nav-link u-header__sub-menu-nav-link" href="/build-a-web-app">Build A Web App</a>
+                </li>
+                <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                  <a class="nav-link u-header__sub-menu-nav-link" href="/host-a-web-app">Host A Web App</a>
+                </li>
+                <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                  <a class="nav-link u-header__sub-menu-nav-link" href="/manage-a-web-app">Manage A Web App</a>
+                </li>
+              </ul>
+              
+            </li>
+            
+            
+
+            
+            
+            <li class="nav-item u-header__nav-item">
+              <a class="nav-link u-header__nav-link" href="/blog">
+                Blog
+              </a>
+            </li>
+            
+            
+            <li class="nav-item u-header__nav-item">
+              <a class="nav-link u-header__nav-link" href="/contact">
+                Contact
+              </a>
+            </li>
+            
+
+            
+            <li class="nav-item u-header__nav-item-btn">
+              <a class="btn btn-sm btn-primary" href="#signup" role="button"
+                 data-modal-target="#signupModal"
+                 data-overlay-color="#151b26">
+                Request Access
+              </a>
+            </li>
+            
+
+          </nav>
+        </ul>
+      
+    </div>
+  </div>
+</header>
+
+
+
+
+<main id="content" role="main">
+    
+  <div class="article">
+    <div class="container space-3-top">
+      <header class="w-md-75 w-lg-60 mx-md-auto">
+        <h1 class="mb-5">Budibase Core. A Serverless Database Engine, for fast SaaS development.</h1>
+
+        
+        <div class="media align-items-center mb-5">
+          <div class="media-body">
+            <h6 class="h6 mb-0">By: Michael Shanks</h6>
+            <small class="d-block text-muted">Jan 24, 2019 | 5 minutes read</small>
+          </div>
+        </div>
+        
+      </header>
+
+      
+      <div class="w-md-75 w-lg-60 mx-md-auto mb-9"><hr>
+            
+
+<p>At Budibase, we are building a platform for accelerated development and easy management of SaaS businesses. We are beginning at the very bottom of the stack, by inventing a database engine specifically for this purpose. This post will attempt to give a good overview of what we are trying to achieve. I will get into detail in later posts.</p>
+
+<h2 id="what-we-need-from-a-database">What we need from a database</h2>
+
+<p>A key requirement of Budibase is the ability to reduce repetition. We should be able to declare our data structures and rules in one place, and apply everywhere - frontend and backend.</p>
+
+<p>Initially, Budibase will target SaaS applications for small to medium sized teams. So, we expect to be able to handle ~20 record creates/updates per second, into a single dataset or &ldquo;Instance&rdquo;. Depending on the application, this could equate to ~100 or more concurrent users, on a single instance.</p>
+
+<p>Instances should be horizontally scalable. Creating and managing many thousands of instances (I.e. customers) should be trivial.</p>
+
+<p>A collection of records should be able to hold multiple millions of records.</p>
+
+<p>A dataset should be single tenant. I.e. Customers&rsquo; data should be segregated from other customers.</p>
+
+<p>Management of the database should be easy. This includes schema &amp; rules updates, backups, dataset creation and copying.</p>
+
+<p>The end storage engine should be interchangeable, allowing us to drive up performance of a single instance, if necessary.</p>
+
+<p>Database engine threads should operate without shared memory. This will enable us to horizontally scale a stateless web server component, or even use &ldquo;Serverless Cloud Functions&rdquo;, e.g. Azure Functions or AWS Lambda. This will enable a new paradigm for databases - multiple clients writing structured data directly to disk, without a server in between.</p>
+
+<h3 id="in-terms-of-actual-features">In Terms of Actual Features&hellip;</h3>
+
+<ul>
+<li>Define record &ldquo;types&rdquo;, with a defined schema (i.e. set of fields). Fields will have types.</li>
+<li>Define validation rules for records, written in javascript.</li>
+<li>Define collections of records.</li>
+<li>Declare &ldquo;indexes&rdquo; - by which we mean a &ldquo;view&rdquo; on a collection. This would be declared in the form of a &ldquo;map&rdquo; and &ldquo;filter&rdquo; function, written in javascript. Indexes will be the only way to list records.</li>
+<li>Declare aggregate (summary) functions on an index.</li>
+<li>Declare relationships between record types (with referential integrity).</li>
+<li>Records may have child collections.</li>
+<li>Define user roles, that define which records/collections/indexes may be viewed and edited by users who have this role applied.</li>
+<li>Create, read, update and delete operations on records.</li>
+<li>Validate a record (according to previously defined rules).</li>
+<li>List items in an index.</li>
+<li>Search an index.</li>
+<li>Handling of database updates when the definition is changed.</li>
+</ul>
+
+<h2 id="budibase-core-the-serverless-database-actually-no-db-server">Budibase Core - The Serverless Database (actually - no db server) .</h2>
+
+<figure>
+    <img src="/budibase-core-intro/Budibase%20Core%20-%20ClientServer.png"
+         alt="Client Server Architecture"/> 
+</figure>
+
+
+<p>Above, is a simplified version of one mode of working with Budibase core. Key Points are</p>
+
+<ul>
+<li>The &ldquo;Budibase Application Definition&rdquo; will define various rules and structures of our data. This will be shared and understood on both the client and server. This will allow us to always keep the user interface consistent with what&rsquo;s allowed on the backend. We will explore this in more depth in a later post.</li>
+<li>The Budibase Core library, on the server, will store all data as standard files on a file storage service.</li>
+<li>The actual file storage service used by Budibase will be pluggable (e.g. for a super fast instance, we could plug it into Redis).</li>
+</ul>
+
+<p>Not clear from the above picture:</p>
+
+<ul>
+<li>There will be no shared memory, between server threads. All shared state will be stored as files in our file store.</li>
+<li>A single dataset (represents one team) will be stored under one root folder.</li>
+</ul>
+
+<p>Additionally, these features (or constrains?)  open up a new paradigm for structured data storage. We now have the option of connecting an app directly to file storage - <em>no web server required</em>. Of course, in doing so, we will lose some features that an always-on, trusted web server can provide us. That discussion is for another post.</p>
+
+<figure>
+    <img src="/budibase-core-intro/Budibase%20Core%20-%20ClientOnly.png"
+         alt="Client Only Architecture"/> 
+</figure>
+
+
+<h2 id="trade-offs">Trade-Offs</h2>
+
+<p>We will not achieve these features without giving something up, over a traditional database.</p>
+
+<ul>
+<li>Performance. Budibase is not for Big Data. It is not for high throughput or very low latency requirements. Budibase is made for building web applications for small to medium sized teams - while still provisioning for a large number of separate teams.</li>
+<li>Data segregation. Whilst good for security and performance, physically segregating instances in this way reduces our ability to query data across all instances. Tools can be built to do this, it&rsquo;s just more difficult.</li>
+<li>Eventual Consistency. When an update is made, it will succeed or fail. If it succeeds, it may not immediately appear in lists, aggregates and searches. The record will always be immediately available, if accessed directly.</li>
+<li>No Partitions. Budibase will not support partitioning of data, in a single instance. We do not see this as necessary for the size of the datasets that we are aiming for. Separate instances can be physically partitioned with ease.</li>
+</ul>
+
+<h2 id="summary">Summary</h2>
+
+<p>Budibase Core is a Javascript library that turns any file-storage-like service into a structured datastore. It will initially target applications that are meant for teams of &lt; 100 users (although this number can be improved). Using a Javascript library to be the sole manager of data on disk, will enable Budibase to understand and apply one set of application rules across the entire application stack. This is the base from which we will build Budibase, a platform-as-a-service for developing and managing SaaS applications.</p>
+
+<p>P.S. We are open source.</p>
+
+      </div>
+    </div>
+  </div>
+</main>
+
+
+
+
+<div id="signup" class="bg-primary bg-img-hero" style="background-image: url(img/bg/bg2.png);">
+        <div class="container space-2 space-3-top--lg space-3-bottom--lg col-12">
+          <div class="row justify-content-md-center align-items-md-center">
+            <div class="col-md-8 col-lg-6">
+              
+              <div class="mb-5 text-center">
+                <h2 class="text-white mb-1">Request Access</h2>
+                <p class="lead text-light">We will notify you when BudiBase is ready to speed up your development.</p>
+              </div>
+              
+      
+              
+              <form action="https://budibase.us20.list-manage.com/subscribe/post" class="js-validate" form name="signup" method="POST">
+                <input type="hidden" name="u" value="761756dde90443a4375dead81">
+                <input type="hidden" name="id" value="4999d7f159">  
+                <div class="row mx-gutters-2">
+                    <div class="col-sm-7 mb-3">
+                      
+                      <div class="js-form-message">
+                        <div class="js-focus-state input-group form">
+                            <p style="display:none;">
+                                <label>Don’t fill this out: <input name="bot-field"></label>
+                              </p>
+                          <input type="email" class="form-control form__input" name="MERGE0" id="MERGE0" required
+                                 placeholder="Submit Email Address"
+                                 aria-label="Email"
+                                 data-msg="Please enter a valid email address.">
+                        </div>
+                      </div>
+                      
+                    </div>
+    
+                    <div class="col-sm-5 mb-3">
+                      <button type="submit" class="btn btn-block btn-secondary">Request Access</button>
+                    </div>
+                  </div>
+                </form>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
+<div class="alert text-center cookiealert" role="alert">
+  <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="/privacy" target="_blank">Learn more</a>
+
+  <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+      I agree
+  </button>
+</div>
+
+
+
+<footer class="bg-dark">
+    <div class="container space-2">
+      <div class="row justify-content-md-between">
+        <div class="col-6 col-md-3 col-lg-2 order-lg-3 mb-7 mb-lg-0">
+          <h3 class="h6 text-white mb-3">Company</h3>
+  
+          
+          <div class="list-group list-group-flush list-group-transparent">
+            <a class="list-group-item list-group-item-action" href="/about">About</a>
+          </div>
+          <div class="list-group list-group-flush list-group-transparent">
+            <a class="list-group-item list-group-item-action" href="/privacy">Privacy Policy</a>
+          </div>
+          
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0">
+          <h3 class="h6 text-white mb-3">Features</h3>
+  
+          
+          <div class="list-group list-group-flush list-group-transparent">
+            <a class="list-group-item list-group-item-action" href="/build-a-web-app">Build a web app</a>
+          </div>
+          <div class="list-group list-group-flush list-group-transparent">
+            <a class="list-group-item list-group-item-action" href="/host-a-web-app">Host a web app</a>
+          </div>
+          <div class="list-group list-group-flush list-group-transparent">
+            <a class="list-group-item list-group-item-action" href="/manage-a-web-app">Manage a web app</a>
+          </div>
+          
+        </div>
+  
+        <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0">
+          <h3 class="h6 text-white mb-3">Information</h3>
+  
+          
+          <div class="list-group list-group-flush list-group-transparent">
+            <a class="list-group-item list-group-item-action" href="/blog">Blog</a>
+          </div>
+          
+        </div>
+  
+  
+        <div class="col-6 col-md-3 col-lg-2 order-lg-6 mb-7 mb-lg-0">
+          <h3 class="h6 text-white mb-3">Get In Touch</h3>
+  
+          
+          <div class="list-group list-group-flush list-group-transparent">
+              <a class="list-group-item list-group-item-action" href="/contact">Contact Us</a>
+
+            <a class="list-group-item list-group-item-action" href="https://twitter.com/budibase">
+              <span class="fab fa-twitter min-width-3 text-center mr-2"></span>
+              Twitter
+            </a>
+          </div>
+          
+          
+        </div>
+  
+        <div class="col-lg-4 order-lg-1 d-flex align-items-start flex-column">
+          
+          <a class="d-inline-block mb-5" href="/" aria-label="Space">
+            <img src="img/logo/budibase-white-emblem.svg" alt="Logo" style="width: 40px; max-width: 100%;">
+          </a>
+          
+  
+         
+  
+          <p class="small text-muted">All rights reserved. ©Budibase 2019</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/go.min.js"></script>
+
+
+<script src="https://www.budibase.com/js/menu.js"></script>
+<script src="https://www.budibase.com/js/theme.min.js"></script>
+<script src="https://www.budibase.com/js/hs.core.js"></script>
+<script src="https://www.budibase.com/js/mobile-menu.js"></script>
+<script src="https://www.budibase.com/js/mbclicker.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://www.budibase.com/js/components/hs.header.js"></script>
+<script src="https://www.budibase.com/js/components/hs.megamenu.js"></script>
+<script src="https://www.budibase.com/js/components/hs.unfold.js"></script>
+<script src="https://www.budibase.com/js/cookiealert.js"></script>
+
+
+
+<script>
+  $(document).on('ready', function () {
+    
+    $.HSCore.components.HSHeader.init($('#header'));
+  });
+</script>
+<script>
+  $(document).on('ready', function () {
+    
+    $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+  });
+</script>
+
+<script>
+  $(window).on('load', function () {
+    
+    $('.js-mega-menu').HSMegaMenu({
+      event: 'hover',
+      pageContainer: $('.container'),
+      breakpoint: 767.98,
+      hideTimeOut: 0
+    });
+  });
+</script>
+</body>
+</html>
+
