@@ -1,6 +1,6 @@
 +++
 date = "2019-01-23"
-title = "6 Micro SaaS Ideas You'll Want To Steal"
+title = "6 Micro SaaS Ideas You'll Want To Steal in 2020"
 categories = ["Inspire"] 
 tags = ["SaaS, ideas, micro saas"]
 description = "This list of Micro SaaS ideas is perfect if you are considering starting a new project. Each idea on the list is original and validated by the Budibase team."
