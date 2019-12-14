@@ -1,2 +1,2 @@
 # BudiBase
-Budibase website
+Budibase website, built with Hugo and deployed via Netlify.
