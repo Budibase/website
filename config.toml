@@ -15,7 +15,6 @@ keywords = ["SaaS Applications", "SaaS builder", "Application builder"]
 description = "Budibase is a modern, open source web app builder for creating, hosting and managing applications. Budibase eliminates repetition and dramatically reduces development time. Check it out."
 dateform = "Jan 2, 2006"
 lang = "en"
-googleAnalytics = ""
 
 [author]
   name = "Joseph Johnston"
