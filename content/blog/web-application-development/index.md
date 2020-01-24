@@ -228,7 +228,7 @@ The following frontend frameworks are all written in JavaScript.
 
 Web application development platforms are a super-fast and easier way to build web applications. They remove many of the complexities experienced with coding, and replaces them with a simple to use user interface. This is a pretty new category and the tools can also be described as low-code platforms.
 
- #### [Budibase](https://www.budibase.com)  
+#### [Budibase](https://www.budibase.com)  
 
    Budibase is a low-code platform for building web applications super-quickly. With Budibase, coding is optional. Users can build a web application in days, rather than months. Budibase is low-code, so we do advise users to know/learn some code to get the most out of the platform. Budibase is open source which provides long term viability, assurances around data, and flexibility to change the code base to suit your project. It also won't cost you a dime to develop your web application. Budibase takes care of the backend, frontend, and hosting processes involved with building a web application. Request early access by submitting your email address at the bottom of the page.
 
