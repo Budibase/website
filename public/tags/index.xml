@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Budibase: Web App Builder - Build Your Web App With Speed</title>
@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
-    <lastBuildDate>Sun, 28 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.budibase.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>web application, deployment, database, architecture, processes, frameworks, backend, frontend</title>
+      <link>https://www.budibase.com/tags/web-application-deployment-database-architecture-processes-frameworks-backend-frontend/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/tags/web-application-deployment-database-architecture-processes-frameworks-backend-frontend/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SaaS, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture</title>

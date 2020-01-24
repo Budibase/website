@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Budibase: Web App Builder - Build Your Web App With Speed</title>
@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>The beginners guide to web application development (2020)</title>
+      <link>https://www.budibase.com/blog/web-application-development/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/web-application-development/</guid>
+      <description>It was the year 2010, I had an idea for a web application which would allow my family and I to share images, organise shopping, populate a shared calendar, and store bills. My family was horribly organised. We needed this!
+Obiously, my idea was going to make me millions of $$$s. Perfect! I thought.
+There was a small complication with my vision - I didn&#39;t know how to build a web application.</description>
+    </item>
+    
+    <item>
       <title>Privacy Policy</title>
       <link>https://www.budibase.com/privacy/</link>
       <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
@@ -23,32 +34,32 @@ Thank you for choosing to be part of our community at Budibase (“company”, �
     </item>
     
     <item>
-      <title>5 Recent Examples Of Modern Web Application Design (2019)</title>
+      <title>5 Recent Examples Of Modern Web Application Design (2020)</title>
       <link>https://www.budibase.com/blog/5-examples-of-web-application-design/</link>
       <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/blog/5-examples-of-web-application-design/</guid>
-      <description>Every once in a while, I&amp;rsquo;ll come across examples of web application design that really draw me in. I&amp;rsquo;ve listed these web applications below and ranked them from 5 - 1.
+      <description>Every once in a while, I&#39;ll come across examples of web application design that really draw me in. I&#39;ve listed these web applications below and ranked them from 5 - 1.
 These web applications contain a beautiful mix of design, usability and creativity. They are masterpieces, and wonderful tokens of inspiration.
 Huge amounts of time and thought have went into the design of these web applications and credit must go to the designs.</description>
     </item>
     
     <item>
-      <title> 8 Web App Ideas You&#39;ll Want To Steal (2019)</title>
+      <title> 8 Web App Ideas You&#39;ll Want To Steal (2020)</title>
       <link>https://www.budibase.com/blog/web-app-ideas/</link>
       <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/blog/web-app-ideas/</guid>
       <description>Do you ever feel like the hardest part of building a web application is thinking of the idea?
-You&amp;rsquo;re not alone.
+You&#39;re not alone.
 Coming up with web app ideas consumes a lot of time.
-Finding an idea which solves a problem, is possible to build, and won&amp;rsquo;t take millions of dollars is really difficult.
+Finding an idea which solves a problem, is possible to build, and won&#39;t take millions of dollars is really difficult.
 We get it.
 Which is why we spent 3 weeks researching viable ideas to help you build a successful web app.</description>
     </item>
     
     <item>
-      <title>How to build a web app: A beginner&#39;s guide (2019)</title>
+      <title>How to build a web app: A beginner&#39;s guide (2020)</title>
       <link>https://www.budibase.com/blog/how-to-make-a-web-app/</link>
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
       
@@ -65,9 +76,9 @@ I’ve used this exact process, or a version of it to build over 15 applications
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/blog/5-good-habits-for-success/</guid>
-      <description>I&amp;rsquo;m the cofounder of Budibase - a super speedy web app builder for makers.
-Over the last 15 years working on small to large (£15m+) projects, I&amp;rsquo;ve often considered what is success, and what are the good habits for success in 2019.
-I&amp;rsquo;ve poured my thoughts on to this page to help others in a similar position, develop successful habits.
+      <description>I&#39;m the cofounder of Budibase - a super speedy web app builder for makers.
+Over the last 15 years working on small to large (£15m+) projects, I&#39;ve often considered what is success, and what are the good habits for success in 2019.
+I&#39;ve poured my thoughts on to this page to help others in a similar position, develop successful habits.
 I hope you enjoy it.
   Photo byDrew Beamer</description>
     </item>
@@ -90,9 +101,9 @@ I hope you enjoy it.
       <description>With Chrome 72, you can now publish your PWA in the Play Store and from the browser.
 Chrome 72 was shipped in November 2018 and included Tursted Web Activity (TWA) which allows you to open Chrome in standalone mode thanks to your native Android package.
 The primary advantages over your normal PWA installation are:
- Home screen widget
- Offer a wear OS companion app
- Background services can access native features</description>
+  Home screen widget
+  Offer a wear OS companion app
+  Background services can access native features</description>
     </item>
     
     <item>
@@ -106,13 +117,13 @@ What we need from a database A key requirement of Budibase is the ability to red
     </item>
     
     <item>
-      <title>6 Micro SaaS Ideas You&#39;ll Want To Steal</title>
+      <title>6 Micro SaaS Ideas You&#39;ll Want To Steal in 2020</title>
       <link>https://www.budibase.com/blog/micro-saas-ideas/</link>
       <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/blog/micro-saas-ideas/</guid>
-      <description>I&amp;rsquo;m often thinking of Micro SaaS ideas for my next project but most of the time they are either rubbish or I don&amp;rsquo;t have the capacity to pursue them.
-Instead of throwing all the good ideas away, I&amp;rsquo;ve decided to share them with you - how thoughtful, right 😄.
+      <description>I&#39;m often thinking of Micro SaaS ideas for my next project but most of the time they are either rubbish or I don&#39;t have the capacity to pursue them.
+Instead of throwing all the good ideas away, I&#39;ve decided to share them with you - how thoughtful, right 😄.
 This post is not a simple static list; created, posted, and forgotten about. I will revisit and update this list on a monthly basis, delivering you super-fresh ideas to feed your entrepreneurial hunger.</description>
     </item>
     
@@ -124,7 +135,7 @@ This post is not a simple static list; created, posted, and forgotten about. I w
       <guid>https://www.budibase.com/blog/cofoundervalidation/</guid>
       <description>When someone whom you respect, approaches you with a business proposal, you listen. When their idea passes your gut validation, you get excited. When their vision of how a business should operate aligns with your vision, you fall in love with the product instantly. Your future brightens 💥
 Respect, idea validation, shared vision. The 3 components of cofounder validation.
-Respect can be earned, but best when it&amp;rsquo;s natural. Natural respect is only possible through previous encounters.</description>
+Respect can be earned, but best when it&#39;s natural. Natural respect is only possible through previous encounters.</description>
     </item>
     
     <item>

@@ -1,0 +1,594 @@
+
+<!DOCTYPE html>
+<html lang="en-uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="/favicon.ico">
+  
+   
+   <link rel="stylesheet" href="https://www.budibase.com/css/main.css">
+   <link rel="stylesheet" href="https://www.budibase.com/css/hs.megamenu.css">
+   <link rel="stylesheet" href="https://www.budibase.com/css/animate.min.css">
+   <link rel="stylesheet" href="https://www.budibase.com/css/cookiealert.css">
+   <link rel="stylesheet" href="fonts/all.min.css">
+   
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  
+
+<meta name="keywords" content="web application, deployment, database, architecture, processes, frameworks, backend, frontend">
+<title>The beginners guide to web application development (2020)</title>
+<meta name="description" content="Within Budibase&#39;s web application development guide you will learn processes, definitions, frameworks, platforms, and much more.">
+
+
+    <meta name="robots" content="noodp"/>
+    <link rel="canonical" href="https://www.budibase.com/blog/web-application-development/" />
+
+    
+
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The beginners guide to web application development (2020)",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https:\/\/www.budibase.com\/blog\/web-application-development\/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https:\/\/www.budibase.com\/budibase-logo.png",
+    "width":  800 ,
+    "height":  600 
+  },
+  "genre": "blog",
+  "keywords": "web application, deployment, database, architecture, processes, frameworks, backend, frontend",
+  "wordcount":  2299 ,
+  "url": "https:\/\/www.budibase.com\/blog\/web-application-development\/",
+  "datePublished": "2020-01-23T00:00:00\x2b00:00",
+  "dateModified": "2020-01-23T00:00:00\x2b00:00",
+  "license": "This work is licensed and owned by Budibase",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Budibase",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https:\/\/www.budibase.com\/budibase-logo-small.png",
+      "width":  127 ,
+      "height":  40 
+    }
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Joe Johnston"
+  },
+  "description": "Within Budibase\x27s web application development guide you will learn processes, definitions, frameworks, platforms, and much more."
+}
+</script>
+
+
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:1165731,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+  
+  <base href="https://www.budibase.com/">
+  <meta name="generator" content="Hugo 0.62.2" />
+
+ 
+  
+
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TW89LL3');</script>
+  
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.budibase.com/web-app-ideas/dashboard-web-app.jpg"/>
+
+<meta name="twitter:title" content="The beginners guide to web application development (2020)"/>
+<meta name="twitter:description" content="Within Budibase&#39;s web application development guide you will learn processes, definitions, frameworks, platforms, and much more."/>
+
+<meta property="og:title" content="The beginners guide to web application development (2020)" />
+<meta property="og:description" content="Within Budibase&#39;s web application development guide you will learn processes, definitions, frameworks, platforms, and much more." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.budibase.com/blog/web-application-development/" />
+<meta property="og:image" content="https://www.budibase.com/web-app-ideas/dashboard-web-app.jpg" />
+<meta property="article:published_time" content="2020-01-23T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-23T00:00:00+00:00" />
+
+
+</head>
+
+<body lang="en-uk">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TW89LL3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+
+<header id="headerDropdown" class="u-header u-header--left-aligned-nav u-header--sticky-top ">
+  <div class="u-header__section">
+    <div id="logoAndNav" class="container">
+        <div class="js-scrollbar-header u-header--sticky__inner">
+      
+      <nav class="js-mega-menu navbar navbar-expand-lg u-header__navbar">
+        
+        <div class="u-header__navbar-brand-wrapper">
+          <a class="navbar-brand u-header__navbar-brand" href="/" aria-label="Space">
+            <img class="u-header__navbar-brand-default" src="img/logo/budibase-logo.svg" alt="Logo">
+            <img class="u-header__navbar-brand-mobile" src="img/logo/budibase-logo.svg" alt="Logo">
+          </a>
+        </div>
+        
+
+        
+        <button type="button" class="navbar-toggler btn u-hamburger u-header__hamburger"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="navBarDropdown"
+        data-toggle="collapse"
+        data-target="#navBarDropdown">
+          <span class="d-none d-sm-inline-block">Menu</span>
+          <span id="hamburgerTriggerDropdown" class="u-hamburger__box ml-3">
+            <span class="u-hamburger__inner"></span>
+          </span>
+        </button>
+        
+        
+
+        
+        <div id="navBarDropdown" class="collapse navbar-collapse u-header__navbar-collapse py-0">
+          <ul class="navbar-nav u-header__navbar-nav">
+            <li class="nav-item u-header__nav-item">
+              <a class="nav-link u-header__nav-link" href="/about">
+                About
+              </a>
+            </li>
+            
+
+            
+            <li class="nav-item u-header__nav-item hs-has-sub-menu"
+                data-event="hover"
+                data-animation-in="fadeInUp"
+                data-animation-out="fadeOut">
+                  <a id="dropdownMegaMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                 aria-haspopup="true"
+                 aria-expanded="false"
+                 aria-labelledby="dropdownSubMenu">
+                Features▾
+                </a>
+
+              
+              <ul id="dropdownSubMenu" class="list-inline hs-sub-menu u-header__sub-menu mb-0" style="min-width: 220px;"
+                  aria-labelledby="dropdownMegaMenu">
+                <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                  <a class="nav-link u-header__sub-menu-nav-link" href="/build-a-web-app">Build A Web App</a>
+                </li>
+                <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                  <a class="nav-link u-header__sub-menu-nav-link" href="/host-a-web-app">Host A Web App</a>
+                </li>
+                <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                  <a class="nav-link u-header__sub-menu-nav-link" href="/manage-a-web-app">Manage A Web App</a>
+                </li>
+              </ul>
+              
+            </li>
+            
+            
+
+            
+            
+            <li class="nav-item u-header__nav-item">
+              <a class="nav-link u-header__nav-link" href="/blog">
+                Blog
+              </a>
+            </li>
+            
+            
+            <li class="nav-item u-header__nav-item">
+              <a class="nav-link u-header__nav-link" href="/contact">
+                Contact
+              </a>
+            </li>
+            
+
+            
+            <li class="nav-item u-header__nav-item-btn">
+              <a class="btn btn-sm btn-primary" href="#signup" role="button"
+                 data-modal-target="#signupModal"
+                 data-overlay-color="#151b26">
+                Request Access
+              </a>
+            </li>
+            
+
+          </nav>
+        </ul>
+      
+    </div>
+  </div>
+</header>
+
+
+
+
+<main id="content" role="main">
+    
+  <div class="article">
+    <div class="container space-3-top">
+      <header class="w-md-75 w-lg-60 mx-md-auto">
+        <h1 class="mb-5">The beginners guide to web application development (2020)</h1>
+
+        
+        <div class="media align-items-center mb-5">
+          <div class="media-body">
+            <h6 class="h6 mb-0">By: Joe Johnston</h6>
+            <small class="d-block text-muted">Jan 23, 2020 | 11 minutes read</small>
+          </div>
+        </div>
+        
+      </header>
+
+      
+      <div class="w-md-75 w-lg-60 mx-md-auto mb-9"><hr>
+            <p>It was the year 2010, I had an idea for a web application which would allow my family and I to share images, organise shopping, populate a shared calendar, and store bills. My family was horribly organised. We needed this!</p>
+<p>Obiously, my idea was going to make me millions of $$$s. Perfect! I thought.</p>
+<p>There was a small complication with my vision - I didn't know how to build a web application. I knew how to build a static site with HTML and CSS, so it couldn't be that hard, right?</p>
+<p>I was wrong, I spent 3 days attempting to learn the ins and outs of a database, and how to connect the frontend to the backend. Those 3 days were tough, and spelled the end of my dream.</p>
+<p>Thankfully, this did not deter me. I rose from the ashes and perservered, developing many successful web applications over the span of 9 years.</p>
+<h2 id="what-is-this-guide-and-how-will-is-help-me">What is this guide and how will is help me?</h2>
+<p>The web application development landscape is capricious in nature and often seen as a dark art to many &lsquo;non-coders&rsquo;. The lexicon surrounding the &lsquo;dark art&rsquo; makes it less approachable, and in many ways deterring to hopefuls. I promise you, this guide is not like that.</p>
+<p>Within this guide, I hope to shine a light on web application development and provide the reader, you, with a level of understanding which should equip you with the skills and dialogue to stand comfortable amongst developers, and develop your own web application.</p>
+<p>This guide is designed for developers (beginner), entrepeneurs hoping to build a web application, technical product managers, computer science students, engineers, technical marketers.</p>
+<p>You'll learn what web application development is, how it works, and what you must do to build a web app.</p>
+<p>In the upcoming sections, I am going to break the broad topic of web application development into its most basic and interesting parts and show you how to combine its elements to build a success web app.</p>
+<p>The sections within this guide, include:</p>
+<ol>
+<li>What is web application development</li>
+<li>Examples of web application development</li>
+<li>Web application development process</li>
+<li>Web application development frameworks</li>
+<li>Web application development platforms</li>
+<li>Courses and resources</li>
+</ol>
+<h2 id="what-is-web-application-development">What is web application development</h2>
+<p>Web application development is the process involved with building a web application. It is more focused on interacting with the browser than standard engineering processes. Most cases of web application development will involve defining the problem, mocking-up the solution, engaging with users, adopting a framework/choosing a tool, and finally, building and testing the web application - in most cases, interatively with users.</p>
+<h3 id="what-is-a-web-app">What is a web app</h3>
+<p>For those of you who do not know what a web application is, I have included a definition below:</p>
+<p>A web application, often referred to as a web app, is an interactive computer program built with web technologies (HTML, CSS, JS), which stores (Database, Files) and manipulates data (CRUD), and is used by a team or single user to perform tasks over the internet. CRUD is a popular acronym and is at the heart of web app development. It stands for Create, Read, Update, and Delete. Web apps are accessed via a web browser such as Google Chrome, and often involve a login/signup mechanism.</p>
+<h3 id="web-applications-vs-website">Web applications vs website</h3>
+<p>The key difference is how we interact with each. Web applications are defined by their <strong>input</strong> - we create, read, update. delete data with a web application. Websites are defined by their <strong>output</strong> - we read the news, marketing information, FAQs on a website.</p>
+<h3 id="progressive-web-applications">Progressive web applications</h3>
+<p>Progressive web applications are a newer type of web application which behaves like and often outperforms native applications. They are web applications which follow a slightly different methodology, and involve an additional set of technologies such as service workers, manifests, push notifications. Progressive web applications can be downloaded to your device, and stored on your homescreen which makes them incredibly accessible, and &lsquo;native-like&rsquo;, and unlike web applications they can be accessed and used offline.</p>
+<h2 id="6-examples-of-web-applications">6 examples of web applications</h2>
+<ol>
+<li>
+<p>Mailchimp</p>
+<p>Mailchimp is a marketing automation platform, specialising in email marketing. They have been around since 2001 and their plaltform is a highly complex web application with a beautiful UI making the platform feel simple to use.</p>
+</li>
+<li>
+<p>Google Docs</p>
+<p>Google Docs, believe it or not, is a web application. It is also available as a mobile application. Created in 2012, Google Docs was born from a acquisition of a number of other web applications, and is perfect for <strong>creating, reading, updated,</strong> and <strong>deleting</strong> documents 😉</p>
+</li>
+<li>
+<p>Notion</p>
+<p>Notion is an all-in-one, note-taking and collaboration web application with markdown support. The product was released in 2016 and is fast becoming a staple in many small businesses.</p>
+</li>
+<li>
+<p>Airtable</p>
+<p>Many refer to Airtable as the &lsquo;Online Excel&rsquo;. It is similar to Excel in UI but adds additional layers of functionality making it a powerful database solution for businesses. Airtable is a complex web application, with thousands of users.</p>
+</li>
+<li>
+<p>Xero</p>
+<p>Xero is an accountancy web application. With a focus on data, Xero highlights how a web application can deal with difficult computations and present it to users in a simple interface.</p>
+</li>
+<li>
+<p>Salesforce</p>
+<p>Salesforce is the number 1 SaaS product in the world, in regards to revenue. As a CRM it is complex in nature making it a great example of a web application.</p>
+</li>
+</ol>
+<h2 id="web-application-development-process">Web application development process</h2>
+<p>There are many different processes involved with building a web application. Below, I have attempted to summaried the different steps involved with the web application development process. <strong>If you are keen to learn how to build a web application in more detail, I would advise you to check out this incredibly informative post - <a href="https://www.budibase.com/blog/how-to-make-a-web-app/">How to build a web app</a></strong></p>
+<ol>
+<li>
+<p>Define the problem you are solving</p>
+<p>Defining the problem is critical. It acts as your North Star and provides direction. Your solution is born from your problem.</p>
+</li>
+<li>
+<p>Plan the workflow of your web application</p>
+<p>Once you know your solution, map out the workflow of how it will work. What needs to happen within your web application for it to solve the problem?</p>
+</li>
+<li>
+<p>Wireframe/prototype your web application</p>
+<p>Transform your workflow into a wireframe. Your wireframe is simply a tool for communicating your solution to your target user.</p>
+</li>
+<li>
+<p>Receive Validation</p>
+<p>Present your wireframe to potential users of your new web application. Record feedback and iterate on the design until you, and your potential users are happy.</p>
+</li>
+<li>
+<p>Choose your firepower</p>
+<p>You will user different tools/platforms/frameworks to build your web application. It's important to choose a tool that fits the job (in this case your web application) and not to go with what is popular. Example - for a simple to-do app, Django combined with React might be overkill.</p>
+</li>
+<li>
+<p>Build your web application</p>
+<ol>
+<li>Database
+Determine what data you need to store in your database and also your data types.</li>
+<li>Frontend
+You will likely build your frontend and backend at the same time. Your frontend end will loosely mirror your wireframe/prototype you validated earlier. The frontend consists of HTML, CSS, and JS - like one of our frontend frameworks below.</li>
+<li>Backend
+Building your backend is one of the toughest parts of the web application development process. The primary functions of the backend is to provide HTTP endpoints for your frontend (remember CRUD!), authenticate users, athorization, and to serve the frontend.</li>
+</ol>
+</li>
+<li>
+<p>Test your web application</p>
+<p>Testing your web application is an ongoing process, and usually happens during and after the building phase. You can automate testing or do it manually. During the testing phase, you should try to cover functionality, usability, compatibility, security and performance testing.</p>
+</li>
+<li>
+<p>Host and deploy your web application</p>
+<p>Hosting involves running your web application on a server. You will need to buy a domain and choose a cloud hosting provider. To get your web application from your local machine to your cloud provider and deploy your web app, you will need to use a CI tool.</p>
+</li>
+</ol>
+<p>And in a nut shell, that's the web application development process. Once again, if require more information on how to build a web application, visit <a href="https://www.budibase.com/blog/how-to-make-a-web-app/">How to build a web app</a></p>
+<h2 id="web-application-development-frameworks">Web application development frameworks</h2>
+<p>The purpose of frameworks is to make web application development easier than coding from scratch, but also flexible enough to cover many web application specifications.</p>
+<p>Web application frameworks are opinionated and each have their own philiosphy and benefits. They come in two types; backend and frontend. Truth be told, the frontend frameworks below are not really frameworks at all; they only represent the view layer of a web application. But for the sake of simplicitiy we'll refer to them as frameworks.</p>
+<h3 id="backend-frameworks">Backend frameworks</h3>
+<ol>
+<li>
+<p><strong>Rails</strong> <em>written in Ruby</em></p>
+<p>Rails describes itself as &lsquo;a web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern&rsquo;. Rails is great framework for metaprogramming (where a computer program can treat other programs as their data) and database orientated web programming. In my opinion Rails a great backend framework for small projects.</p>
+</li>
+<li>
+<p><strong>Django</strong> <em>written in Python</em></p>
+<p>Django describes itself as a &lsquo;high-level Python Web framework that encourages rapid development and clean, pragmatic design&rsquo;. In my opinion, I would advise anyone who is working scientific programming or data minipulation to choose Django.</p>
+</li>
+<li>
+<p><strong>Laravel</strong> <em>written in PHP</em></p>
+<p>Laravel describe itself as &lsquo;a web application framework with expressive, elegant syntax. Laravel is written in PHP - a programming language. Laravel gollows the model-view-controller architectural pattern&rsquo;. Laravel has a lot of tools making it accessible and simple to use. It is well suit for multiple types of applications.</p>
+</li>
+</ol>
+<h3 id="frontend-frameworkslibraries">Frontend frameworks/libraries</h3>
+<p>The following frontend frameworks are all written in JavaScript.</p>
+<ol>
+<li>
+<p><strong>React</strong></p>
+<p>React simply describes itself as &lsquo;a javascript library for building user interface&rsquo;. This is a very simple, and humble description of React. It is a incredibly powerful frontend library created and maintained by Facebook. Of all the frontend frameworks listed, React is the most popular and powerful. It is well suited for large-scale web projects. Choosing it for small to medium sized projects is a little overkill - once again, in my opinion.</p>
+</li>
+<li>
+<p><strong>Vue</strong></p>
+<p>Vue describes itself as &lsquo;the progressive JavaScript framework&rsquo;. Vue is smaller in size and easier to learn than React, and is good for most sizes of projects. It's also incredible easy to implement into a project which is helpful.</p>
+</li>
+<li>
+<p><strong>Svelte</strong></p>
+<p>Svelte describes itself as &lsquo;cybernativally enhanced web apps&rsquo;. Svelte is the new kid on the block, and is a compiler rather than a framework. This means no virtual DOM, no frameworks on top of frameworks, and <strong>no framework to load at runtime</strong>, resulting in incredibly performant web apps. Svelte's syntax makes the framework the easiet to learn from the frontend frameworks mentioned, and perfect for small to medium size web applications. It is unproven with large web applications. The community and ecosystem is smaller than React and Vue, but it's growing. Budibase uses Svelte, and we truly love it.</p>
+</li>
+</ol>
+<h2 id="web-application-development-platforms">Web application development platforms</h2>
+<p>Web application development platforms are a super-fast and easier way to build web applications. They remove many of the complexities experienced with coding, and replaces them with a simple to use user interface, which involves simply selecting components (like a table or a picture) and add them to your screen. This is a pretty new category and the tools can also be described as low-code platforms.</p>
+<ol>
+<li>
+<p><a href="https://www.budibase.com"><strong>Budibase</strong></a></p>
+<p>Budibase is a low-code platform for building web applications super-quickly. With Budibase coding is optional. Users can build web application in days, rather than months. Budibase is low-code, so we do advise users to know/learn some code to get the most out of the platform. Budibase is open source, which provides long term viability, assurances around data, and flexibility to change the code base to suit your project. It's also free to build your web app. Simply download Budibase to your computer (using NPM), and get building.</p>
+</li>
+</ol>
+<h2 id="web-application-development-courses">Web application development courses</h2>
+<p>If you would like to learn how to build a web application, courses are a great option. Everyone learns differently. I learn best by doing; simply jumping in at the deepend and learn as I progress. I have listed the courses I feel will provide you with further context and learning when it comes to web application development. The courses I have listed below are for beginners.</p>
+<ol>
+<li>
+<p><a href="https://www.udemy.com/course/the-web-developer-bootcamp/?LSNPUBID=QqcN8lE0l0I&amp;ranEAID=QqcN8lE0l0I&amp;ranMID=39197&amp;ranSiteID=QqcN8lE0l0I-9_jY69Jyw0MpAjhwSEUahg">The web development bootcamp - Udemy</a>
+Colt is a wonderful instructor and has a lot of experience, and helped thousands, if not millions of people. This course is rated a 4.6 from 151,568 ratings. Over 500,000 students have enrolled in the course. It only costs £29.99 too!</p>
+</li>
+<li>
+<p><a href="https://www.codecademy.com/learn/paths/web-development">Become a web developer - Codecademy</a></p>
+<p>Learn frontend and backend development, and how to build a complete web application. Within this course you will master HTML, React, NodeJS. Codecademy charge a subscription to users. They have a free tier and offer a 7 day free trial - enough to complete the course if you cram it.</p>
+</li>
+</ol>
+<h2 id="finishing-notes">Finishing notes</h2>
+<p>Ultimately, when building a web application you have choices to make. Following the process above, once you get to the development stage you will have to decide whether to code your web application from scratch, use a framework, or use a web development platlform. Each has their own benefits. Coding from scratch is more flexible than using a web development platform, but slower and harder. A web development platform is easier and faster to use than a framework, but less scalable. Think carefully, and choose what's right for the job at hand.</p>
+<p>If you are considering using a web development platform, I, biasedly, would welcome you to try Budibase  when it is released in the next couple of months. Sign up at the bottom of the page.</p>
+<p>Whatever choices you make, I wish you well. Building a web application, and in some cases a business, is hard work and we are routing for you on the sidelines.</p>
+
+      </div>
+    </div>
+  </div>
+</main>
+
+
+
+
+<div id="signup" class="bg-primary bg-img-hero" style="background-image: url(img/bg/bg2.png);">
+        <div class="container space-2 space-3-top--lg space-3-bottom--lg col-12">
+          <div class="row justify-content-md-center align-items-md-center">
+            <div class="col-md-8 col-lg-6">
+              
+              <div class="mb-5 text-center">
+                <h2 class="text-white mb-1">Request Access</h2>
+                <p class="lead text-light">We will notify you when Budibase is ready to speed up your development.</p>
+              </div>
+              
+      
+              
+              <form action="https://budibase.us20.list-manage.com/subscribe/post" class="js-validate" form name="signup" method="POST">
+                <input type="hidden" name="u" value="761756dde90443a4375dead81">
+                <input type="hidden" name="id" value="4999d7f159">  
+                <div class="row mx-gutters-2">
+                    <div class="col-sm-7 mb-3">
+                      
+                      <div class="js-form-message">
+                        <div class="js-focus-state input-group form">
+                            <p style="display:none;">
+                                <label>Don’t fill this out: <input name="bot-field"></label>
+                              </p>
+                          <input type="email" class="form-control form__input" name="MERGE0" id="MERGE0" required
+                                 placeholder="Submit Email Address"
+                                 aria-label="Email"
+                                 data-msg="Please enter a valid email address.">
+                        </div>
+                      </div>
+                      
+                    </div>
+    
+                    <div class="col-sm-5 mb-3">
+                      <button type="submit" class="btn btn-block btn-secondary">Request Access</button>
+                    </div>
+                  </div>
+                </form>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
+<div class="alert text-center cookiealert" role="alert">
+  <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="/privacy" target="_blank">Learn more</a>
+
+  <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+      I agree
+  </button>
+</div>
+
+
+
+<footer class="bg-dark">
+    <div class="container space-2">
+      <div class="row justify-content-md-between">
+        <div class="col-6 col-md-3 col-lg-2 order-lg-3 mb-7 mb-lg-0">
+          <h3 class="h6 text-white mb-3">Company</h3>
+  
+          
+          <div class="list-group list-group-flush list-group-transparent">
+            <a class="list-group-item list-group-item-action" href="/about">About</a>
+          </div>
+          <div class="list-group list-group-flush list-group-transparent">
+            <a class="list-group-item list-group-item-action" href="/privacy">Privacy Policy</a>
+          </div>
+          
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0">
+          <h3 class="h6 text-white mb-3">Features</h3>
+  
+          
+          <div class="list-group list-group-flush list-group-transparent">
+            <a class="list-group-item list-group-item-action" href="/build-a-web-app">Build a web app</a>
+          </div>
+          <div class="list-group list-group-flush list-group-transparent">
+            <a class="list-group-item list-group-item-action" href="/host-a-web-app">Host a web app</a>
+          </div>
+          <div class="list-group list-group-flush list-group-transparent">
+            <a class="list-group-item list-group-item-action" href="/manage-a-web-app">Manage a web app</a>
+          </div>
+          
+        </div>
+  
+        <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0">
+          <h3 class="h6 text-white mb-3">Information</h3>
+  
+          
+          <div class="list-group list-group-flush list-group-transparent">
+            <a class="list-group-item list-group-item-action" href="/blog">Blog</a>
+          </div>
+          
+        </div>
+  
+  
+        <div class="col-6 col-md-3 col-lg-2 order-lg-6 mb-7 mb-lg-0">
+          <h3 class="h6 text-white mb-3">Get In Touch</h3>
+  
+          
+          <div class="list-group list-group-flush list-group-transparent">
+              <a class="list-group-item list-group-item-action" href="/contact">Contact Us</a>
+
+            <a class="list-group-item list-group-item-action" href="https://twitter.com/budibase">
+              <span class="fab fa-twitter min-width-3 text-center mr-2"></span>
+              Twitter
+            </a>
+          </div>
+          
+          
+        </div>
+  
+        <div class="col-lg-4 order-lg-1 d-flex align-items-start flex-column">
+          
+          <a class="d-inline-block mb-5" href="/" aria-label="Space">
+            <img src="img/logo/budibase-white-emblem.svg" alt="Logo" style="width: 40px; max-width: 100%;">
+          </a>
+          
+  
+         
+  
+          <p class="small text-muted">All rights reserved. ©Budibase 2019</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/go.min.js"></script>
+
+
+<script src="https://www.budibase.com/js/menu.js"></script>
+<script src="https://www.budibase.com/js/theme.min.js"></script>
+<script src="https://www.budibase.com/js/hs.core.js"></script>
+<script src="https://www.budibase.com/js/mobile-menu.js"></script>
+<script src="https://www.budibase.com/js/mbclicker.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://www.budibase.com/js/components/hs.header.js"></script>
+<script src="https://www.budibase.com/js/components/hs.megamenu.js"></script>
+<script src="https://www.budibase.com/js/components/hs.unfold.js"></script>
+<script src="https://www.budibase.com/js/cookiealert.js"></script>
+
+
+
+<script>
+  $(document).on('ready', function () {
+    
+    $.HSCore.components.HSHeader.init($('#header'));
+  });
+</script>
+<script>
+  $(document).on('ready', function () {
+    
+    $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+  });
+</script>
+
+<script>
+  $(window).on('load', function () {
+    
+    $('.js-mega-menu').HSMegaMenu({
+      event: 'hover',
+      pageContainer: $('.container'),
+      breakpoint: 767.98,
+      hideTimeOut: 0
+    });
+  });
+</script>
+</body>
+</html>
+

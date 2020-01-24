@@ -1,19 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Build on Budibase: Web App Builder - Build Your Web App With Speed</title>
+    <title>build on Budibase: Web App Builder - Build Your Web App With Speed</title>
     <link>https://www.budibase.com/categories/build/</link>
-    <description>Recent content in Build on Budibase: Web App Builder - Build Your Web App With Speed</description>
+    <description>Recent content in build on Budibase: Web App Builder - Build Your Web App With Speed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
-    <lastBuildDate>Tue, 23 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.budibase.com/categories/build/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>How to build a web app: A beginner&#39;s guide (2019)</title>
+      <title>The beginners guide to web application development (2020)</title>
+      <link>https://www.budibase.com/blog/web-application-development/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/web-application-development/</guid>
+      <description>It was the year 2010, I had an idea for a web application which would allow my family and I to share images, organise shopping, populate a shared calendar, and store bills. My family was horribly organised. We needed this!
+Obiously, my idea was going to make me millions of $$$s. Perfect! I thought.
+There was a small complication with my vision - I didn&#39;t know how to build a web application.</description>
+    </item>
+    
+    <item>
+      <title>How to build a web app: A beginner&#39;s guide (2020)</title>
       <link>https://www.budibase.com/blog/how-to-make-a-web-app/</link>
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
       
@@ -33,9 +44,9 @@ I’ve used this exact process, or a version of it to build over 15 applications
       <description>With Chrome 72, you can now publish your PWA in the Play Store and from the browser.
 Chrome 72 was shipped in November 2018 and included Tursted Web Activity (TWA) which allows you to open Chrome in standalone mode thanks to your native Android package.
 The primary advantages over your normal PWA installation are:
- Home screen widget
- Offer a wear OS companion app
- Background services can access native features</description>
+  Home screen widget
+  Offer a wear OS companion app
+  Background services can access native features</description>
     </item>
     
   </channel>

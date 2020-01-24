@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SaaS, apps, host on Budibase: Web App Builder - Build Your Web App With Speed</title>
@@ -21,9 +21,9 @@
       <description>With Chrome 72, you can now publish your PWA in the Play Store and from the browser.
 Chrome 72 was shipped in November 2018 and included Tursted Web Activity (TWA) which allows you to open Chrome in standalone mode thanks to your native Android package.
 The primary advantages over your normal PWA installation are:
- Home screen widget
- Offer a wear OS companion app
- Background services can access native features</description>
+  Home screen widget
+  Offer a wear OS companion app
+  Background services can access native features</description>
     </item>
     
   </channel>

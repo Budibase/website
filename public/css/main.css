@@ -38,7 +38,7 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Nunito", Helvetica, Arial, sans-serif;
-  --font-family-serif: SFMono-Regular, Menlo, Monaco, Consolas, "PT Serif", Courier New, monospace;
+  --font-family-serif: SFMono-Regular, Menlo, Monaco, Consolas, "Roboto", Courier New, monospace;
 }
 
 *,
@@ -90,7 +90,7 @@ hr {
 h1, h2 {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   color: #172B4D;
 }
 
@@ -103,7 +103,7 @@ h1, h2 {
 h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   color: #172B4D;
 
 }
@@ -221,7 +221,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "PT Serif", "Courier New", monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Roboto", "Courier New", monospace;
   font-size: 1em;
 }
 
@@ -453,13 +453,13 @@ h6, .h6 {
 }
 
 .serif {
-  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
 }
 
 .serif-lead {
-  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
 }
@@ -5830,7 +5830,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.7;
@@ -5943,7 +5943,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.7;
@@ -9962,7 +9962,7 @@ button.bg-blue:focus {
 }
 
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "PT Serif", "Courier New", monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Roboto", "Courier New", monospace;
 }
 
 .text-justify {
@@ -17268,39 +17268,39 @@ button:focus {
   background-color: #FEFFFF;
 }
 .article p {
-  font-family: "PT Serif", Helvetica, Arial, sans-serif; 
+  font-family: "Roboto", Helvetica, Arial, sans-serif; 
   font-size: 1.2rem;
 }
 .article h1 {
-  font-family: "Lato", Helvetica, Arial, sans-serif; 
+  font-family: "Roboto", Helvetica, Arial, sans-serif; 
   font-weight: 900;
 }
 .article h2 {
-  font-family: "Lato", Helvetica, Arial, sans-serif; 
+  font-family: "Roboto", Helvetica, Arial, sans-serif; 
   margin-top: 4rem;
   margin-bottom: 1rem;
   font-size: 2.3rem;
 }
 .article h3 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   margin-top: 2rem;
   margin-bottom: .5rem; 
   font-size: 1.7rem;
 }
 .article h4 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   margin-top: 2rem;
   margin-bottom: .5rem; 
   font-weight: 700;
 }
 .article h5 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   margin-top: 2rem;
   margin-bottom: .5rem; 
   font-weight: 700;
 }
 .article li {
-  font-family: "PT Serif", Helvetica, Arial, sans-serif; 
+  font-family: "Roboto", Helvetica, Arial, sans-serif; 
   font-size: 1.2rem;
   padding-left: 0;
 }

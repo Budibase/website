@@ -1,6 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.budibase.com/categories/build/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/categories/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/blog/web-application-development/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/web-application-deployment-database-architecture-processes-frameworks-backend-frontend/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>https://www.budibase.com/privacy/</loc>
@@ -13,22 +38,12 @@
   </url>
   
   <url>
-    <loc>https://www.budibase.com/categories/</loc>
-    <lastmod>2019-07-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.budibase.com/categories/inspire/</loc>
     <lastmod>2019-07-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.budibase.com/tags/saas-backend-frontend-web-app-deployment-hosting-ideation-wireframing-database-architecture/</loc>
-    <lastmod>2019-07-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.budibase.com/tags/</loc>
     <lastmod>2019-07-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -45,11 +60,6 @@
   <url>
     <loc>https://www.budibase.com/tags/ideas-web-app/</loc>
     <lastmod>2019-05-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.budibase.com/categories/build/</loc>
-    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
