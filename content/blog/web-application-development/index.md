@@ -180,7 +180,7 @@ And in a nut shell, that's the web application development process. Once again, 
 
 The purpose of frameworks is to make web application development easier and faster than coding a web app from scratch.
 
-Web application frameworks are opinionated and each has its own philiosphy and benefits. They come in two types; backend and frontend. Truth be told, the frontend frameworks below are not really frameworks at all; they only represent the view layer of a web application. But for the sake of simplicitiy we'll refer to them as frameworks.
+Web application frameworks are opinionated and each has its own philosophy and benefits. They come in two types; backend and frontend. Truth be told, the frontend frameworks below are not really frameworks at all; they only represent the view layer of a web application. But for the sake of simplicitiy we'll refer to them as frameworks.
 
 
 ### Backend frameworks
@@ -206,7 +206,7 @@ The following frontend frameworks are all written in JavaScript.
 
 #### 1. [React](https://reactjs.org/)
 
-   React simply describes itself as 'a javascript library for building user interface'. This is a very simple, and humble description of React. It is a powerful frontend library created and maintained by Facebook. Of all the frontend frameworks listed, React is the most popular and powerful. It is well suited for large-scale web projects. Choosing it for small to medium sized projects is a little overkill - once again, in my opinion.
+   React simply describes itself as 'a javascript library for building user interface'. This is a very simple and humble description of React. It is a powerful frontend library created and maintained by Facebook. Of all the frontend frameworks listed, React is the most popular and powerful. It is well suited for large-scale web projects. Choosing it for small to medium sized projects is a little overkill - once again, in my opinion.
 
    
 #### 2. [Vue](https://vuejs.org/)
@@ -228,9 +228,9 @@ The following frontend frameworks are all written in JavaScript.
 
 Web application development platforms are a super-fast and easier way to build web applications. They remove many of the complexities experienced with coding, and replaces them with a simple to use user interface. This is a pretty new category and the tools can also be described as low-code platforms.
 
- #### [**Budibase**](https://www.budibase.com)  
+ #### [Budibase](https://www.budibase.com)  
 
-   Budibase is a low-code platform for building web applications super-quickly. With Budibase, coding is optional. Users can build web application in days, rather than months. Budibase is low-code, so we do advise users to know/learn some code to get the most out of the platform. Budibase is open source which provides long term viability, assurances around data, and flexibility to change the code base to suit your project. It also won't cost you a dime to develop your web application. Budibase takes care of the backend, frontend, and hosting processes involved with building a web application. Request early access by submitting your email address at the bottom of the page.
+   Budibase is a low-code platform for building web applications super-quickly. With Budibase, coding is optional. Users can build a web application in days, rather than months. Budibase is low-code, so we do advise users to know/learn some code to get the most out of the platform. Budibase is open source which provides long term viability, assurances around data, and flexibility to change the code base to suit your project. It also won't cost you a dime to develop your web application. Budibase takes care of the backend, frontend, and hosting processes involved with building a web application. Request early access by submitting your email address at the bottom of the page.
 
    [**Learn more about Budibase**](https://www.budibase.com)
 
@@ -254,7 +254,7 @@ If you would like to learn how to build a web application, courses are a great o
 
 ## Finishing notes
 
-Ultimately, when building a web application you have choices to make. Following the process above, once you get to the development stage you will have to decide whether to code your web application from scratch, use a framework, or use a web development platlform. Each has their own benefits. Coding from scratch is more flexible than using a web development platform, but slower and harder. A web development platform is easier and faster to use than a framework, but less scalable. Think carefully, and choose what's right for the job at hand.
+Ultimately, when building a web application you have choices to make. If you follow the process above, once you get to the development stage you will have to decide whether to code your web application from scratch, use a framework, or use a web development platlform. Each has their own benefits. Coding from scratch is more flexible than using a web development platform, but slower and harder. A web development platform is easier and faster to use than a framework, but less scalable. Think carefully, and choose what's right for the job at hand.
 
 If you are considering using a web development platform, I, biasedly, would welcome you to try Budibase  when it is released within the next couple of months. Request access at the bottom of the page.
 
