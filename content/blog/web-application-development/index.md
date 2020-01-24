@@ -196,7 +196,7 @@ Web application frameworks are opinionated and each has its own philosophy and b
 
 #### [3. Laravel *written in PHP*](https://laravel.com/)
 
-   Laravel describe itself as 'a web application framework with expressive, elegant syntax. Laravel is written in PHP - a programming language. Laravel gollows the model-view-controller architectural pattern'. Laravel has a lot of tools making it accessible and simple to use. It is well suit for multiple types of applications.
+   Laravel describe itself as 'a web application framework with expressive, elegant syntax. Laravel is written in PHP - a programming language. Laravel follows the model-view-controller architectural pattern'. Laravel has a lot of tools making it accessible and simple to use. It is well suit for multiple types of applications.
 
    
 
