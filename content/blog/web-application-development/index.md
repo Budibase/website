@@ -29,9 +29,9 @@ Thankfully, this did not deter me. Over the following 9 years I developed over 2
 
 The web application development landscape is capricious in nature and often seen as a dark art to many 'non-coders'. The lexicon surrounding the 'dark art' makes it less approachable, and in many ways deterring to hopefuls. I promise you, this guide is not like that.
 
-Within this guide, I hope to shine a light on web application development and provide the reader, you, with a level of understanding which should equip you with the skills and dialogue to stand comfortable amongst developers, and develop your own web application. 
+Within this guide, I hope to shine a light on web application development and provide the reader, you, with a level of understanding which should equip you with the skills and dialogue to stand comfortably amongst developers, and develop your own web application. 
 
-This guide is designed for developers (beginner), entrepeneurs, technical product managers, students, engineers, technical marketers.
+This guide is designed for developers (beginner), entrepreneurs, technical product managers, students, engineers, technical marketers.
 
 You'll learn what web application development is, how it works, and what you must do to build a web app.
 
