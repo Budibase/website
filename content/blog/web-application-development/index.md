@@ -180,7 +180,7 @@ And in a nutshell, that's the web application development process. Once again, i
 
 The purpose of frameworks is to make web application development easier and faster than coding a web app from scratch.
 
-Web application frameworks are opinionated and each has its own philosophy and benefits. They come in two types; backend and frontend. Truth be told, the frontend frameworks below are not really frameworks at all; they only represent the view layer of a web application. But for the sake of simplicitiy we'll refer to them as frameworks.
+Web application frameworks are opinionated and each has its own philosophy and benefits. They come in two types; backend and frontend. Truth be told, the frontend frameworks below are not really frameworks at all; they only represent the view layer of a web application. But for the sake of simplicity we'll refer to them as frameworks.
 
 
 ### Backend frameworks
@@ -216,7 +216,7 @@ The following frontend frameworks are all written in JavaScript.
 
 #### 3. [Svelte](https://svelte.dev/)
 
-   Svelte describes itself as 'cybernativally enhanced web apps'. Svelte is the new kid on the block and is a compiler rather than a framework. This means no virtual DOM, no frameworks on top of frameworks, and **no framework to load at runtime**, resulting in incredibly performant web applications. Svelte's syntax makes the framework the easiet to learn from the frontend frameworks mentioned, and perfect for small to medium sized web applications. It is unproven with large web applications. The community and ecosystem is smaller than React and Vue, but it's growing. Budibase uses Svelte, and we truly love it.
+   Svelte describes itself as 'cybernativally enhanced web apps'. Svelte is the new kid on the block and is a compiler rather than a framework. This means no virtual DOM, no frameworks on top of frameworks, and **no framework to load at runtime**, resulting in incredibly performant web applications. Svelte's syntax makes the framework the easiest to learn from the frontend frameworks mentioned, and perfect for small to medium sized web applications. It is unproven with large web applications. The community and ecosystem is smaller than React and Vue, but it's growing. Budibase uses Svelte, and we truly love it.
 
    
 
@@ -230,7 +230,7 @@ Web application development platforms are a super-fast and easier way to build w
 
 #### [Budibase](https://www.budibase.com)  
 
-   Budibase is a low-code platform for building web applications super-quickly. With Budibase, coding is optional. Users can build a web application in days, rather than months. Budibase is low-code, so we do advise users to know/learn some code to get the most out of the platform. Budibase is open source which provides long term viability, assurances around data, and flexibility to change the code base to suit your project. It also won't cost you a dime to develop your web application. Budibase takes care of the backend, frontend, and hosting processes involved with building a web application. Request early access by submitting your email address at the bottom of the page.
+   Budibase is a low-code platform for building web applications super-quickly. With Budibase, coding is optional. Users can build a web application in days, rather than months. Budibase is low-code, so we do advise users to know/learn some code to get the most out of the platform. Budibase is open source which provides long term viability, assurances around data, and flexibility to change the codebase to suit your project. It also won't cost you a dime to develop your web application. Budibase takes care of the backend, frontend, and hosting processes involved with building a web application. Request early access by submitting your email address at the bottom of the page.
 
    [**Learn more about Budibase**](https://www.budibase.com)
 
@@ -240,7 +240,7 @@ Web application development platforms are a super-fast and easier way to build w
 
 {{< figure src="/web-application-development/udemy.jpg" alt="Udemy courses" >}}
 
-If you would like to learn how to build a web application, courses are a great option. Everyone learns differently. I learn best by doing; simply jumping in at the deepend and learn as I progress. I have listed the courses I feel will provide you with further context and learning when it comes to web application development. The courses I have listed below are for beginners.
+If you would like to learn how to build a web application, courses are a great option. Everyone learns differently. I learn best by doing; simply jumping in at the deep end and learn as I progress. I have listed the courses I feel will provide you with further context and learning when it comes to web application development. The courses I have listed below are for beginners.
 
 1. [The web development bootcamp - Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/?LSNPUBID=QqcN8lE0l0I&ranEAID=QqcN8lE0l0I&ranMID=39197&ranSiteID=QqcN8lE0l0I-9_jY69Jyw0MpAjhwSEUahg)
    
