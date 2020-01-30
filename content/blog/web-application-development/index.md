@@ -80,7 +80,7 @@ Progressive web applications are a newer type of web application which behaves l
 
 ### 1. Mailchimp
 
-   Mailchimp is a marketing automation platform specialising in email marketing. They have been around since 2001 and their plaltform is a highly complex web application with a beautiful UI making the platform feel simple to use.
+   Mailchimp is a marketing automation platform specialising in email marketing. They have been around since 2001 and their platform is a highly complex web application with a beautiful UI making the platform feel simple to use.
 
    {{< figure src="/web-app-design/mailchimp.PNG" alt="Mailchimp UI" >}}
 
@@ -122,7 +122,7 @@ Progressive web applications are a newer type of web application which behaves l
 
 {{< figure src="/web-app-ideas/orientation.jpg" alt="Employee Orientation Software" >}}
 
-There are many different processes involved with building a web application. Below, I have summaried the different steps involved with the web application development process. 
+There are many different processes involved with building a web application. Below, I have summarised the different steps involved with the web application development process. 
 
 If you are keen to learn how to build a web application in more detail, I would advise you to check out this incredibly informative post - [How to build a web app](https://www.budibase.com/blog/how-to-make-a-web-app/). 
 
@@ -160,7 +160,7 @@ Here we go, the 8 steps for creating a web application.
       
    3. **Backend**
       
-      Building your backend is one of the toughest parts of the web application development process. The primary functions of the backend is to provide HTTP endpoints for your frontend (remember CRUD!), authenticate users, athorization, and to serve the frontend.
+      Building your backend is one of the toughest parts of the web application development process. The primary functions of the backend is to provide HTTP endpoints for your frontend (remember CRUD!), authenticate users, authorization, and to serve the frontend.
 
 ### 7. Test your web application
 
@@ -170,7 +170,7 @@ Here we go, the 8 steps for creating a web application.
 
    Hosting involves running your web application on a server. You will need to buy a domain and choose a cloud hosting provider. To get your web application from your local machine to your cloud provider and deploy it, you will need to use a CI tool.
 
-And in a nut shell, that's the web application development process. Once again, if you require more information on how to build a web application, visit [How to build a web app](https://www.budibase.com/blog/how-to-make-a-web-app/)
+And in a nutshell, that's the web application development process. Once again, if you require more information on how to build a web application, visit [How to build a web app](https://www.budibase.com/blog/how-to-make-a-web-app/)
 
 
 
@@ -191,12 +191,12 @@ Web application frameworks are opinionated and each has its own philosophy and b
 
 #### [2. Django *written in Python*](https://www.djangoproject.com/)
 
-   Django describes itself as a 'high-level Python Web framework that encourages rapid development and clean, pragmatic design'. In my opinion, I would advise anyone who is working scientific programming or data minipulation to choose Django.
+   Django describes itself as a 'high-level Python Web framework that encourages rapid development and clean, pragmatic design'. In my opinion, I would advise anyone who is working scientific programming or data manipulation to choose Django.
 
 
 #### [3. Laravel *written in PHP*](https://laravel.com/)
 
-   Laravel describe itself as 'a web application framework with expressive, elegant syntax. Laravel is written in PHP - a programming language. Laravel follows the model-view-controller architectural pattern'. Laravel has a lot of tools making it accessible and simple to use. It is well suit for multiple types of applications.
+   Laravel describe itself as 'a web application framework with expressive, elegant syntax. Laravel is written in PHP - a programming language. Laravel follows the model-view-controller architectural pattern'. Laravel has a lot of tools making it accessible and simple to use. It is well suited for multiple types of applications.
 
    
 
