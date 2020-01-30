@@ -58,7 +58,7 @@ The sections within this guide, include:
 
 {{< figure src="/web-app-ideas/dashboard-web-app.jpg" alt="The CEO Dashboard Web App" >}}
 
-Web application development is the process involved with building a web application. It is more focused on interacting with the browser than standard engineering processes. Most cases of web application development will involve defining the problem, mocking-up the solution, engaging with users, adopting a framework/choosing a tool, and finally, building and testing the web application - in most cases, interatively with users.
+Web application development is the process involved with building a web application. It is more focused on interacting with the browser than standard engineering processes. Most cases of web application development will involve defining the problem, mocking-up the solution, engaging with users, adopting a framework/choosing a tool, and finally, building and testing the web application - in most cases, iteratively with users.
 
 ### What is a web application
 
