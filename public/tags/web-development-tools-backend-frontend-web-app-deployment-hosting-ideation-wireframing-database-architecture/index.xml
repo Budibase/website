@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web development tools, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture on Budibase: Web App Builder - Build Your Web App With Speed</title>
+    <link>https://www.budibase.com/tags/web-development-tools-backend-frontend-web-app-deployment-hosting-ideation-wireframing-database-architecture/</link>
+    <description>Recent content in Web development tools, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture on Budibase: Web App Builder - Build Your Web App With Speed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>This work is licensed and owned by Budibase</copyright>
+    <lastBuildDate>Sun, 28 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.budibase.com/tags/web-development-tools-backend-frontend-web-app-deployment-hosting-ideation-wireframing-database-architecture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>40 web development tools you must know about in 2020</title>
+      <link>https://www.budibase.com/blog/web-development-tools/</link>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/web-development-tools/</guid>
+      <description>40 web development tools you should know about in 2020 What does a doctor, builder, and developer have in common?
+They are all highly skilled individuals who use tools to improve their workflow and do their jobs.
+By now, developers recognize that web development tools play an integral role in the development process. It&#39;s impossible to build a web application without them! (I&#39;m happy to be proven wrong here.)
+In this post, we&#39;ve rounded up some of the most helpful tools for developing a successful web application.</description>
+    </item>
+    
+  </channel>
+</rss>

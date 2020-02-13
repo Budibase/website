@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
-    <lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.budibase.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>web application, deployment, database, architecture, processes, frameworks, backend, frontend</title>
       <link>https://www.budibase.com/tags/web-application-deployment-database-architecture-processes-frameworks-backend-frontend/</link>
-      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/tags/web-application-deployment-database-architecture-processes-frameworks-backend-frontend/</guid>
       <description></description>
@@ -27,6 +27,15 @@
       <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/tags/saas-backend-frontend-web-app-deployment-hosting-ideation-wireframing-database-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web development tools, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture</title>
+      <link>https://www.budibase.com/tags/web-development-tools-backend-frontend-web-app-deployment-hosting-ideation-wireframing-database-architecture/</link>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/tags/web-development-tools-backend-frontend-web-app-deployment-hosting-ideation-wireframing-database-architecture/</guid>
       <description></description>
     </item>
     
