@@ -5,7 +5,7 @@ categories = ["Build"]
 tags = ["Web development tools, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture"]
 description = "Web development is hard. Thankfully, there are tools at our disposal to help make life easier. Within this post, you will find 40 web development tools to help improve your workflow."
 author = "Joe Johnston"
-images = ["/web-app-ideas/dashboard-web-app.jpg"]
+images = ["/web-development-tools/budibase.png"]
 draft ="false"
 +++
 
