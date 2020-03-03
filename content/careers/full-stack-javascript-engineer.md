@@ -67,7 +67,6 @@ Education and qualifications are great, but not a huge deal to us in comparison 
 - Flexible, autonomous working culture
 - Pension Scheme
 - Budget to spend on a new laptop and home office setup
-- Equity (Probably shouldn't add this unless they ask specifically)
 
 ## How to Apply
 
