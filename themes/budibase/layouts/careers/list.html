@@ -1,0 +1,50 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+<div class="bg-img-hero space-3-bottom--lg">
+  <div class="container text-center space-2 space-4-top space-1-bottom--lg">
+          <div class="w-md-80 mx-auto mb-3">
+            <h1 class="col display-4 font-size-48--md-down">Careers At Budibase</h1>
+        <div class="col-lg-10 mx-auto">
+            <div class="mb-5">
+              <p class="lead">Come and help us build the best low-code platform on the planet.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Input -->
+
+{{ range .Pages.ByDate.Reverse }}
+<div class="container ">
+  <div class="row">
+    <div class="w-md-60 mx-auto mb-3">
+      <div class="col-sm-12">
+        <article class="card mb-5">
+            <div class="card-body p-5">
+              <h3 class="strong">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+              </h3>
+              <p class="lead mb-0">{{ .Description }}</p>
+              <div class="space-1-top">
+              </div>
+              <h4 class="cta"><a href="{{ .Permalink }}">View Job Details</a></h4>
+                <small class="d-block-2 text-dark">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }} | By: {{ .Params.author }} </small>
+              </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+ 
+</div>   
+</div> 
+
+</div> 
+</div>
+
+
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}
