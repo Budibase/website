@@ -71,6 +71,6 @@ Education and qualifications are great, but not a huge deal to us in comparison 
 
 ## How to Apply
 
-Send a CV to to us at **careers@budibase.com**. 
+Send a CV to to us at **careers@budibase.com**, or use the form below to submit your CV. 
 
 Budibase is an equal opportunity employer and considers qualified applicants for employment without regard to race, color, religion, creed, sex, sexual orientation, gender identity, marital status, national origin, ancestry, age, veteran status, disability, or any other protected class.

@@ -1,35 +1,107 @@
-{{ partial "header.html" . }}
-
-{{ partial "navigation.html" . }}
-
+{{ partial "header.html" . }} {{ partial "navigation.html" . }}
 
 <!-- Hero Section -->
 <div class="bg-img-hero">
   <div class="container text-center space-2 space-4-top space-1-bottom--lg">
-      <div class="w-md-80 mx-auto mb-3">
-        <h1 class="col display-4 font-size-48--md-down">{{ .Title }}</h1>
-      </div>
-  
-      <div class="col-lg-8 mx-auto">
-        <div class="mb-5">
-          <p class="lead mb-0">{{ .Description }}</p>
-        </div>
-
-        <img src="img/svg/components/about.svg" alt="Image Description">        
-      </div>
+    <div class="w-md-80 mx-auto mb-3">
+      <h1 class="col display-4 font-size-48--md-down">{{ .Title }}</h1>
     </div>
 
-  <div class="container space-3-bottom--lg">
-      <div class="col-lg-8 mx-auto">
-          <div class="mb-5">
-            <p class="lead mb-0">
-            {{ .Content }}
-          </p>
+    <div class="col-lg-8 mx-auto">
+      <div class="mb-5">
+        <p class="lead mb-0">{{ .Description }}</p>
+      </div>
 
+      <img src="img/svg/components/about.svg" alt="Image Description" />
+    </div>
   </div>
-</div>
-</div>
+
+  <div class="container space-2-bottom--lg">
+    <div class="col-lg-8 mx-auto">
+      <div class="mb-5">
+        <p class="lead mb-0">{{ .Content }}</p>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-lg-10 mx-auto">
+        <form
+            class="js-validate"
+            form
+            name="job-apply"
+            method="POST"
+            data-netlify="true"
+        >
+            <div class="row col-lg-6 text-center mx-auto">
+            <!-- Input -->
+            <div class="col-sm-12 mb-6">
+                <div class="js-form-message">
+                <div class="js-focus-state input-group form">
+                    <input
+                    class="form-control form__input"
+                    type="text"
+                    name="name"
+                    required
+                    placeholder="Your name"
+                    aria-label="Your name"
+                    data-msg="Please enter your name."
+                    data-error-class="u-has-error"
+                    data-success-class="u-has-success"
+                    />
+                </div>
+                </div>
+            </div>
+            <!-- End Input -->
+
+            <!-- Input -->
+            <div class="col-sm-12 mb-6">
+                <div class="js-form-message">
+                <div class="js-focus-state input-group form">
+                    <input
+                    class="form-control form__input"
+                    type="email"
+                    name="email"
+                    required
+                    placeholder="Your email address"
+                    aria-label="Your email address"
+                    data-msg="Please enter a valid email address."
+                    data-error-class="u-has-error"
+                    data-success-class="u-has-success"
+                    />
+                </div>
+                </div>
+            </div>
+
+            <!-- Input -->
+            <div class="js-form-message col-sm-12 mb-9">
+                <div class="js-focus-state input-group form">
+                <input
+                    class="form-control form__input"
+                    type="file"
+                    rows="6"
+                    name="cv"
+                    required
+                    placeholder="Please attach your CV."
+                    aria-label="Please attach your CV."
+                    data-msg="Please attach your CV."
+                    data-error-class="u-has-error"
+                    data-success-class="u-has-success"
+                ></input>
+                </div>
+            </div>
+            </div>
+
+            <!-- End Input -->
+
+            <div class="text-center space-3-bottom--lg">
+            <button type="submit" class="btn btn-primary btn-wide mb-4">
+                Submit
+            </button>
+            <p class="small">We'll get back to you in 1-2 business days.</p>
+            </div>
+        </form>
+    </div>
+
 </div>
 
-{{ partial "cta.html" . }}
-{{ partial "footer.html" . }}
+{{ partial "cta.html" . }} {{ partial "footer.html" . }}
