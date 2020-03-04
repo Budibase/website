@@ -24,7 +24,11 @@
     </div>
   </div>
 
-    <div class="col-lg-10 mx-auto">
+
+  <div class="container space-2 bg-gray-100 mb-8">
+    <div class="col-lg-6 mx-auto">
+      <h2 class="mb-5 text-center">How to apply</h2>
+      <p class="lead mb-5 text-center"> Either email us your CV at careers at budibase.com, or use the form below to submit your CV:</p>
         <form
             class="js-validate"
             form
@@ -32,9 +36,8 @@
             method="POST"
             data-netlify="true"
         >
-            <div class="row col-lg-6 text-center mx-auto">
             <!-- Input -->
-            <div class="col-sm-12 mb-6">
+            <div class="mb-3">
                 <div class="js-form-message">
                 <div class="js-focus-state input-group form">
                     <input
@@ -52,9 +55,9 @@
                 </div>
             </div>
             <!-- End Input -->
-
+            
             <!-- Input -->
-            <div class="col-sm-12 mb-6">
+            <div class="mb-3">
                 <div class="js-form-message">
                 <div class="js-focus-state input-group form">
                     <input
@@ -73,7 +76,7 @@
             </div>
 
             <!-- Input -->
-            <div class="js-form-message col-sm-12 mb-9">
+            <div class="js-form-message mb-3">
                 <div class="js-focus-state input-group form">
                 <input
                     class="form-control form__input"
@@ -93,15 +96,17 @@
 
             <!-- End Input -->
 
-            <div class="text-center space-3-bottom--lg">
+            <div class="text-center space-2-bottom--lg">
             <button type="submit" class="btn btn-primary btn-wide mb-4">
                 Submit
             </button>
-            <p class="small">We'll get back to you in 1-2 business days.</p>
-            </div>
+            <p class="small mx-auto col-lg-6">We'll get back to you in 1-2 business days.</p>
+            <p class="mb-5 small col-lg-6 mx-auto">Budibase is an equal opportunity employer and considers qualified applicants for employment without regard to race, color, religion, creed, sex, sexual orientation, gender identity, marital status, national origin, ancestry, age, veteran status, disability, or any other protected class.</p>
+          </div>
         </form>
-    </div>
+      </div>
 
+    </div>
 </div>
 
 {{ partial "cta.html" . }} {{ partial "footer.html" . }}

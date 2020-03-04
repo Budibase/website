@@ -1,9 +1,9 @@
 +++
-date = "2019-07-28"
+date = "2020-03-04"
 title = "Full Stack JavaScript Engineer"
 categories = ["JavaScript"] 
 tags = ["SaaS, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture"]
-description = "Belfast, Northern Ireland"
+description = "£40,000 - £45,000 | Belfast, Northern Ireland"
 author = "Martin McKeaveney"
 images = ["/web-app-ideas/dashboard-web-app.jpg"]
 draft ="false"
@@ -11,7 +11,7 @@ draft ="false"
 
 ## Description
 
-**Budibase** is an open-source low code platform, designed for speed and customisation. When you need to build, launch, and grow a web application, Budibase has you covered. We have just secured a funding round and are seeking to expand our team in Belfast as we take our product to the next level.
+Budibase is an open-source low code platform, designed for speed and customisation. When you need to build, launch, and grow a web application, Budibase has you covered. We have just secured a funding round and are seeking to expand our team in Belfast as we take our product to the next level.
 
 ## The Role
 
@@ -20,10 +20,10 @@ draft ="false"
 - Have a lot influence and input in the direction of the product
 - Huge opportunities for growth
 - Work closely with design and engineering staff to deliver a fantastic user experience for our customers
-- Take ownership of parts of the product and codebase.
-- Present your ideas in a clear and effective manner to the rest of the team.
-- Working as a team player as part of a small development team.
-- Help manage and implement processes that make Budibase a fantastic place to work.
+- Take ownership of parts of the product and codebase
+- Present your ideas in a clear and effective manner to the rest of the team
+- Working as a team player as part of a small development team
+- Help manage and implement processes that make Budibase a fantastic place to work
 
 ## Tech Stack
 
@@ -57,19 +57,16 @@ Education and qualifications are great, but not a huge deal to us in comparison 
 
 - Experience with AWS or any other cloud provider
 - Good communication skills
-- Experience using low-code/no-code products like airtable or zapier
-- Experience using UI Kits like material UI, bootstrap or foundation
+- Experience using low-code/no-code products like Airtable or Zapier
+- Experience using UI Kits like Material UI, Bootstrap or Tailwind
 
 ## Benefits
 
+- £40,000 - £45,000 salary
 - 35 days holiday
 - Work from Home
 - Flexible, autonomous working culture
 - Pension Scheme
 - Budget to spend on a new laptop and home office setup
 
-## How to Apply
 
-Send a CV to to us at **careers@budibase.com**, or use the form below to submit your CV. 
-
-Budibase is an equal opportunity employer and considers qualified applicants for employment without regard to race, color, religion, creed, sex, sexual orientation, gender identity, marital status, national origin, ancestry, age, veteran status, disability, or any other protected class.
