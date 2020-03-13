@@ -417,7 +417,7 @@ h1, .h1 {
   margin-bottom: 1rem;
   font-size: calc(1.375rem + (1vw - 3.75px) * 1.6901);
   line-height: calc(2rem + (1vw - 3.75px) * 2.2535);
-  font-weight: 700;
+  font-weight: 900;
   text-rendering: optimizeLegibility;
 }
 
