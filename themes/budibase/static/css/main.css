@@ -14847,7 +14847,7 @@ button:focus {
 }
 
 .card-frame.active, .card-frame:hover {
-  border-color: rgba(33, 200, 122, 0.7);
+  border-color: #0055ff;
   box-shadow: 0 0 35px rgba(140, 152, 164, 0.25);
 }
 
@@ -17308,26 +17308,30 @@ button:focus {
   font-size: 1.1rem;
 }
 .article h1 {
-  font-family: "Roboto", Helvetica, Arial, sans-serif; 
-  font-weight: 900;
+  font-family: "poppins", Helvetica, Arial, sans-serif; 
+  text-rendering: optimizeLegibility;
+  font-weight: 700;
 }
 .article h2 {
   font-family: "Roboto", Helvetica, Arial, sans-serif; 
   margin-top: 4rem;
   margin-bottom: 1rem;
-  font-size: 2.3rem;
+  font-weight: 700;
 }
 .article h3 {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   margin-top: 2rem;
   margin-bottom: .5rem; 
-  font-size: 1.7rem;
+  color: #0055ff;
+  font-size: calc(1.15rem + (1vw - 3.75px) * 1.1268);
+  line-height: calc(1.6rem + 6 * ((100vw - 21rem) / 680));
 }
 .article h4 {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   margin-top: 2rem;
   margin-bottom: .5rem; 
-  font-weight: 700;
+  font-size: calc(1.0rem + (1vw - 3.75px) * 1.1268);
+  line-height: calc(1.5rem + 6 * ((100vw - 21rem) / 680));
 }
 .article h5 {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
