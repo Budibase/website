@@ -488,9 +488,10 @@ h6, .h6 {
 }
 
 .display-4 {
-  font-size: 3rem;
-  font-weight: 900;
-  line-height: 1.2;
+  font-size: calc(1.8rem + (1vw - 3.75px) * 1.6901);
+  line-height: calc(2.5rem + (1vw - 3.75px) * 2.2535);
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
 }
 
 hr {
