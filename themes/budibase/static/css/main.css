@@ -445,9 +445,8 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  text-align: center;
   opacity: 0.8;
 }
 
