@@ -421,7 +421,7 @@ h1, .h1 {
 
 h2, .h2 {
   margin-bottom: 0.5rem;
-  font-size: 2.1rem;
+  font-size: 1.4rem;
   font-weight: 700;
   line-height: 2;
 }
@@ -16761,11 +16761,23 @@ button:focus {
 }
 
 .space-4-top {
-  padding-top: 12.5rem;
+  padding-top: 8rem;
+}
+
+@media (min-width: 1200px) {
+  .space-4-top {
+    padding-top: 12rem;
+    }
 }
 
 .space-4-bottom {
-  padding-bottom: 12.5rem;
+  padding-bottom: 8rem;
+}
+
+@media (min-width: 1200px) {
+  .space-4-top {
+    padding-top: 12rem;
+    }
 }
 
 .space-5 {
