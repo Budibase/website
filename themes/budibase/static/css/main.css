@@ -91,7 +91,7 @@ hr {
 h1, h2 {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
   color: #000333;
   text-rendering: optimizeLegibility;
 }
@@ -106,14 +106,14 @@ h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  color: #172B4D;
+  color: #000333;
 
 }
 
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  color: #172B4D
+  color: #000333;
 }
 
 @media (max-width: 576px) {
@@ -496,7 +496,7 @@ h6, .h6 {
 .display-4 {
   font-size: calc(1.8rem + (1vw - 3.75px) * 1.6901);
   line-height: calc(2.5rem + (1vw - 3.75px) * 2.2535);
-  font-weight: 900;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
 }
 
@@ -6402,6 +6402,10 @@ button.close {
   background-color: #3f46ad !important;
 }
 
+.bg-grey {
+  background-color: #fafafa !important;
+}
+
 .bg-green {
   background-color: #49C39E !important;
 }
@@ -6467,7 +6471,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f9fbfd !important;
+  background-color: #f9f9f9 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -16767,10 +16771,6 @@ button:focus {
   padding-bottom: 8.125rem;
 }
 
-.space-4 {
-  padding-top: 12.5rem;
-  padding-bottom: 12.5rem;
-}
 
 .space-4-top {
   padding-top: 8rem;
@@ -16783,13 +16783,24 @@ button:focus {
 }
 
 .space-4-bottom {
+  padding-top: 8rem;
+}
+
+@media (min-width: 1200px) {
+  .space-4-bottom {
+    padding-top: 12rem;
+  }
+}
+
+.space-4 {
+  padding-top: 4rem;
   padding-bottom: 8rem;
 }
 
 @media (min-width: 1200px) {
-  .space-4-top {
+  .space-4 {
     padding-top: 12rem;
-    }
+  }
 }
 
 .space-5 {
