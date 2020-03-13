@@ -450,6 +450,12 @@ h6, .h6 {
   opacity: 0.8;
 }
 
+@media (max-width: 576px) {
+  .lead {
+    font-size: 1rem;
+  }
+}
+
 .cta {
   font-size: 1.2rem;
   color:#3f46ad;
