@@ -54,6 +54,7 @@ html {
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased;
 }
 
 @-ms-viewport {
@@ -91,7 +92,8 @@ h1, h2 {
   margin-top: 0;
   margin-bottom: 1rem;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  color: #172B4D;
+  color: #000333;
+  text-rendering: optimizeLegibility;
 }
 
 @media (max-width: 576px) {
@@ -413,17 +415,17 @@ h1, h2,
 
 h1, .h1 {
   margin-bottom: 1rem;
-  font-size: 2.6rem;
-  line-height: 1.4;
-  font-weight: 800;
-
+  font-size: calc(1.375rem + (1vw - 3.75px) * 1.6901);
+  line-height: calc(2rem + (1vw - 3.75px) * 2.2535);
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
 }
 
 h2, .h2 {
-  margin-bottom: 0.5rem;
-  font-size: 2.1rem;
+  font-size: calc(1.375rem + (1vw - 3.75px) * 1.1268);
+  line-height: calc(1.875rem + 6 * ((100vw - 21rem) / 680));
   font-weight: 700;
-  line-height: 1.2;
+  margin: 0px 0px 1.5rem;
 }
 
 h3, .h3 {
@@ -443,8 +445,10 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
+  text-align: center;
+  opacity: 0.8;
 }
 
 .cta {
@@ -465,9 +469,11 @@ h6, .h6 {
 }
 
 .display-1 {
-  font-size: 6rem;
-  font-weight: 900;
-  line-height: 1.2;
+  font-size: calc(1.8rem + (1vw - 3.75px) * 1.6901);
+  line-height: calc(2.5rem + (1vw - 3.75px) * 2.2535);
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  text-align: center !important;
 }
 
 .display-2 {
