@@ -5,24 +5,28 @@
 
 <main id="content" role="main">
     <!-- Article Content -->
-  <div class="article">
-    <div class="container space-3-top">
+  
+  <div class="article bg-dark">
+    <div class="container">
       <header class="w-md-75 w-lg-60 mx-md-auto">
-        <h1 class="mb-5">{{ .Title }}</h1>
-
-        <!-- Author -->
-        <div class="media align-items-center mb-5">
-          <div class="media-body">
+        <div class="article-title">
+          <h1>{{ .Title }}</h1>
             <h6 class="h6 mb-0">By: {{ .Params.author }}</h6>
-            <small class="d-block text-muted">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</small>
+            <h6 class="h6 mb-0 text-muted">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</h6>
+          </div>
           </div>
         </div>
+      </div>
         <!-- End Author -->
       </header>
 
       <!-- Description -->
-      <div class="w-md-75 w-lg-60 mx-md-auto mb-9"><hr>
-            {{ .Content }}
+      <div class="article">
+        <div class="container space-1-top ">
+          <div class="w-md-75 w-lg-60 mx-md-auto mb-9"><hr>
+              {{ .Content }}
+          </div>
+        </div>
       </div>
     </div>
   </div>
