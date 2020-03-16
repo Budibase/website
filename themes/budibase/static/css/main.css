@@ -17336,13 +17336,13 @@ button:focus {
   text-rendering: optimizeLegibility;
   font-weight: 700;
   color: white;
-  font-size: 24px;
 }
 .article h2 {
   font-family: "Roboto", Helvetica, Arial, sans-serif; 
   margin-top: 4rem;
   margin-bottom: 1rem;
   font-weight: 700;
+  font-size: 24px;
 }
 .article h3 {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
