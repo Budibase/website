@@ -18,7 +18,7 @@
   --white: #fff;
   --gray: #8c98a4;
   --gray-dark: #343a40;
-  --primary: #3f46ad;
+  --primary: #0055ff;
   --navy: #172B4D;
   --secondary: #172B4D;
   --success: #3f46ad;
@@ -85,7 +85,7 @@ hr {
   height: 0;
   overflow: visible;
   width: 50%;
-  color: #3f46ad; 
+  color: #0055ff; 
 }
 
 h1, h2 {
@@ -194,14 +194,14 @@ sup {
 }
 
 a {
-  color: #3f46ad;
+  color: #0055ff;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #168652;
+  color: #004fed;
   text-decoration: none;
 }
 
@@ -410,7 +410,7 @@ h1, h2,
   margin-bottom: 0.5rem;
   font-weight: 700;
   line-height: 1.5;
-  color: #172B4D;
+  color: #000333;
 }
 
 h1, .h1 {
@@ -458,7 +458,7 @@ h6, .h6 {
 
 .cta {
   font-size: 1.2rem;
-  color:#3f46ad;
+  color:#0055ff;
 }
 
 .serif {
