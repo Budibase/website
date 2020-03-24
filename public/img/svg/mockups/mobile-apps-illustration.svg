@@ -8,7 +8,7 @@
 	.st1{fill:#21C87A;}
 	.st2{fill:#444053;}
 	.st3{fill:url(#SVGID_1_);}
-	.st4{fill:#172B4D;}
+	.st4{fill:#000333;}
 	.st5{fill:#f9fbfd;}
 	.st6{fill:#796EFF;}
 	.st7{fill:#EEEEEE;}
@@ -44,8 +44,8 @@
 	.st37{fill:url(#SVGID_10_);}
 	.st38{opacity:5.000000e-02;}
 	.st39{opacity:0.1;fill:#21C87A;enable-background:new    ;}
-	.st40{fill:none;stroke:#172B4D;stroke-linecap:round;stroke-miterlimit:10;}
-	.st41{fill:none;stroke:#172B4D;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st40{fill:none;stroke:#000333;stroke-linecap:round;stroke-miterlimit:10;}
+	.st41{fill:none;stroke:#000333;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
 </style>
 <ellipse class="st0" cx="504.2" cy="1366.5" rx="503" ry="68"/>
 <g>

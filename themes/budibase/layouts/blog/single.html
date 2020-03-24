@@ -11,7 +11,7 @@
       <header class="w-md-75 w-lg-60 mx-md-auto">
         <div class="article-title">
           <h1>{{ .Title }}</h1>
-            <h6 class="h6 mb-0">By: {{ .Params.author }}</h6>
+            <h6 class="h6 text-white mb-0">By: {{ .Params.author }}</h6>
             <h6 class="h6 mb-0 text-muted">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</h6>
           </div>
           </div>
@@ -23,7 +23,7 @@
       <!-- Description -->
       <div class="article">
         <div class="container space-1-top ">
-          <div class="w-md-75 w-lg-60 mx-md-auto mb-9"><hr>
+          <div class="w-md-75 w-lg-60 mx-md-auto mb-9">
               {{ .Content }}
           </div>
         </div>

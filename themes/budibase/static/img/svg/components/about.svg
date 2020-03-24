@@ -3,24 +3,24 @@
 <svg version="1.1" id="Lineart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1200 864" style="enable-background:new 0 0 1200 864;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#172B4D;stroke-linecap:round;stroke-linejoin:round;}
+	.st0{fill:none;stroke:#000333;stroke-linecap:round;stroke-linejoin:round;}
 	.st1{fill:none;stroke:#6A78D1;stroke-linecap:round;stroke-linejoin:round;}
 	.st2{fill:none;stroke:#F2545B;stroke-linecap:round;stroke-linejoin:round;}
 	.st3{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}
-	.st4{fill:none;stroke:#172B4D;stroke-linecap:round;stroke-miterlimit:10;}
-	.st5{fill:#172B4D;}
+	.st4{fill:none;stroke:#000333;stroke-linecap:round;stroke-miterlimit:10;}
+	.st5{fill:#000333;}
 	.st6{fill:none;stroke:#000000;stroke-linecap:round;stroke-miterlimit:10;}
-	.st7{fill:#F5C26B;stroke:#172B4D;stroke-linecap:round;stroke-miterlimit:10;}
-	.st8{fill:#49C39E;stroke:#172B4D;stroke-linecap:round;stroke-miterlimit:10;}
-	.st9{fill:none;stroke:#172B4D;stroke-width:2.39;stroke-linecap:round;stroke-linejoin:round;}
-	.st10{fill:#49C39E;stroke:#172B4D;stroke-width:2.39;stroke-linecap:round;stroke-linejoin:round;}
-	.st11{fill:#F5C26B;stroke:#172B4D;stroke-linecap:round;stroke-linejoin:round;}
+	.st7{fill:#F5C26B;stroke:#000333;stroke-linecap:round;stroke-miterlimit:10;}
+	.st8{fill:#49C39E;stroke:#000333;stroke-linecap:round;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#000333;stroke-width:2.39;stroke-linecap:round;stroke-linejoin:round;}
+	.st10{fill:#49C39E;stroke:#000333;stroke-width:2.39;stroke-linecap:round;stroke-linejoin:round;}
+	.st11{fill:#F5C26B;stroke:#000333;stroke-linecap:round;stroke-linejoin:round;}
 	.st12{fill:#1AAFD0;}
-	.st13{fill:#F2545B;stroke:#172B4D;stroke-linecap:round;stroke-linejoin:round;}
+	.st13{fill:#F2545B;stroke:#000333;stroke-linecap:round;stroke-linejoin:round;}
 	.st14{fill:#6A78D1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}
-	.st15{fill:#6A78D1;stroke:#172B4D;stroke-linecap:round;stroke-linejoin:round;}
-	.st16{fill:#F2545B;stroke:#172B4D;stroke-miterlimit:10;}
-	.st17{fill:#49C39E;stroke:#172B4D;stroke-linecap:round;stroke-linejoin:round;}
+	.st15{fill:#6A78D1;stroke:#000333;stroke-linecap:round;stroke-linejoin:round;}
+	.st16{fill:#F2545B;stroke:#000333;stroke-miterlimit:10;}
+	.st17{fill:#49C39E;stroke:#000333;stroke-linecap:round;stroke-linejoin:round;}
 </style>
 <title>Artboard 1</title>
 <path class="st0" d="M231.8,294.6c-9.9,11.7-17.6,23.7-22.3,35.6"/>

@@ -5,13 +5,13 @@
 <style type="text/css">
 	.st0{fill:none;}
 	.st1{fill:#949494;}
-	.st2{fill:url(#SVGID_1_);stroke:#172B4D;stroke-miterlimit:10;}
-	.st3{fill:#F8F8F8;stroke:#172B4D;stroke-miterlimit:10;}
-	.st4{fill:url(#SVGID_2_);stroke:#172B4D;stroke-miterlimit:10;}
-	.st5{fill:#D3D3D3;stroke:#172B4D;stroke-miterlimit:10;}
-	.st6{fill:#172B4D;stroke:#172B4D;stroke-miterlimit:10;}
-	.st7{fill:none;stroke:#172B4D;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;}
-	.st8{fill:none;stroke:#172B4D;stroke-width:2.5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:url(#SVGID_1_);stroke:#000333;stroke-miterlimit:10;}
+	.st3{fill:#F8F8F8;stroke:#000333;stroke-miterlimit:10;}
+	.st4{fill:url(#SVGID_2_);stroke:#000333;stroke-miterlimit:10;}
+	.st5{fill:#D3D3D3;stroke:#000333;stroke-miterlimit:10;}
+	.st6{fill:#000333;stroke:#000333;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#000333;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st8{fill:none;stroke:#000333;stroke-width:2.5;stroke-linecap:round;stroke-miterlimit:10;}
 </style>
 <pattern  y="814.6" width="12" height="12" patternUnits="userSpaceOnUse" id="New_Pattern" viewBox="2 -14 12 12" style="overflow:visible;">
 	<g>
