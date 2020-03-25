@@ -6,7 +6,7 @@ tags = ["Web development tools, backend, frontend, web app, deployment, hosting,
 description = "While it is early to say if no code tools can completely replace talented developers, having the right no code stack can certainly help you get the job done a lot faster, easier and cheaper."
 author = "Joe Johnston"
 images = ["/web-development-tools/budibase.png"]
-draft ="false"
+draft ="true"
 
 +++
 
@@ -109,11 +109,17 @@ Airtable is free to use until you hit 1,200 records. The free tier is also limit
 
 With a beautiful UI and conversational approach to collecting information, Typeform is the perfect no-code tool for creating forms and surveys. Having used Typeform, it is very easy to get started and simple to use. Typeform integrates with over 500 applications allowing you to send your data to multiple end points. The forms produced by Typeform are professional and usable leading to high conversion rates.
 
+Typeform has a free plan. It consists of 3 typeforms, 10 questions per type form and 100 responses/month. The next tier, 'Essentials', provides you with 1,000 responses/month, unlimited typeforms, unlimited questions, and 3 logic jumps per typeform.
+
+Bonus - Typeform recently released a new product - Videoask - which instead of written questions, users  post videos of them asking the questions. It's pretty cool and would be perfect for UX / UI testing. I'm going to give it a go and test it with Alpha participants. It has a free tier which allows you to create up to 20 mins of recordings.
 
 
 
+### 6. Shopify
 
+Shopify is the ultimate no-code tool for building e-commerce sites to promote, sell and ship your products. It's easy to use and offers users templates to choose from to help get started quicker. Shopify is reliable and a proven performer with over 1,000,000 online businesses relying on the platform to power their online commerce. 
 
+If you are interested in dropshipping, you can add Oberlo to your Shopify account. This allows you to ship your products straight from your supplier's warehouse to your customer's doorstep whenever you make a sale. There are many more interesting add ons within the shopify app store which can help improve the process of selling online, and I would advise you check them out if you decide to sell via Shopify.
 
 
 
