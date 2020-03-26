@@ -17378,8 +17378,7 @@ button:focus {
 }
 .article li {
   font-family: "Roboto", Helvetica, Arial, sans-serif; 
-  font-size: 1rem;
-  padding-left: 0;
+  font-size: 18px;
 }
 
 .article figure {
@@ -17397,4 +17396,5 @@ button:focus {
   padding-left: 1rem;
   
 }
-  
+
+
