@@ -30,7 +30,7 @@ With no-code tools, you can build a web app, website, database, etc. without hav
 
 Truth be told, I am not a fan of the phrase no-code because it is wrong. Code powers the internet, and always will. What no code stands for is more of a movement and set of tools. 'No coding' is more appropriate, and even that is not technically correct. A short description can be found below:
 
-No-code is a method of programming that involves building web technologies with GUI-based tools, instead of writing code. 
+> No-code is a method of programming that involves building web technologies with GUI-based tools, instead of writing code. 
 
 ## History
 
@@ -159,7 +159,8 @@ Stripe does not have a free tier, and its pricing is based on transactions. For 
 
 We spoke with Scott, Payhere cofounder, and he informed us:
 
-“Payhere allows our users to create one-off, recurring, and donation-based payment in minutes. Why spend time or money developing payments when it is not your core feature, simply plug and play with Payhere!” Scott, cofounder of Payhere
+> “Payhere allows our users to create one-off, recurring, and donation-based payment in minutes. Why spend time or money developing payments when it is not your core feature, simply plug and play with Payhere!” 
+> Scott, Cofounder of Payhere
 
 Payhere offers a similar pricing setup to Stripe where they charge 2% per transaction.
 
