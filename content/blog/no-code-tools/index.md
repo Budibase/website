@@ -12,7 +12,9 @@ draft ="false"
 
 No-code tools empower people around the world to build technology without code. Before no-code tools, building a simple web application was a challenging task, and often left to developers. Thankfully, this is not the case anymore. While no-code tools cannot solve all technical challenges, having the right no-code stack can undoubtedly help you get certain jobs done a lot faster, easier, and cheaper.
 
-There are hundreds of no-code tools available, some free and some expensive. They also serve tons of different purposes, from 3rd party integrations to building web applications and more. The no-code landscape is attracting a lot of interest and is growing year on year. Check out this trend line:
+There are hundreds of no-code tools available, some free and some expensive. They also serve tons of different purposes, from 3rd party integrations to building web applications and more. 
+
+The no-code landscape is attracting a lot of interest and is growing year on year. Check out this trend line:
 
 {{< figure src="/no-code-tools/no-code-trend.png" alt="No-code-trend" >}}
 
