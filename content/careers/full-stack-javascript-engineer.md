@@ -11,7 +11,7 @@ draft ="false"
 
 ## Description
 
-Budibase is an open-source low code platform, designed for speed and customisation. When you need to build, launch, and grow a web application, Budibase has you covered. We have just secured a funding round and are seeking to expand our team in Belfast as we take our product to the next level.
+Budibase is an open-source low code platform, designed for speed and customisation. When you need to build, launch, and grow a web application, Budibase has you covered. To date, we've received over 10,000 signups from the likes of F1, Deloitte, KPMG and we're a few weeks from private beta. We have also recently secured a funding round and are seeking to expand our team in Belfast as we take our product to the next level.
 
 ## The Role
 
@@ -44,7 +44,7 @@ At Budibase, we love using lean and modern open source web technologies. Here ar
 
 ## The Ideal Candidate
 
-Education and qualifications are great, but not a huge deal to us in comparison to the right personality and attitude we are looking for to help us make Budibase the best company it can be. We love to see creative, hard-working folks who enjoy building cool things. Please feel free to include evidence of your side projects, github account or things you have built in your job application. We would be thrilled to see them!
+Education and qualifications are great, but not a huge deal to us in comparison to the right personality and attitude we are looking for to help us make Budibase the best company it can be. We love to see creative, hard-working folks who enjoy building cool things. Please feel free to include evidence of your side projects, Github account or things you have built in your job application. We would be thrilled to see them!
 
 
 - 4+ years experience building web applications with JavaScript (any framework or vanilla)

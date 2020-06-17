@@ -11,7 +11,7 @@ draft ="false"
 
 ## Description
 
-Budibase is an open-source low code platform, designed for speed and customisation. When you need to build, launch, and grow a web application, Budibase has you covered. We have just secured a funding round and are seeking to expand our team in Belfast as we take our product to the next level.
+Budibase is an open-source low code platform, designed for speed and customisation. When you need to build, launch, and grow a web application, Budibase has you covered. To date, we've received over 10,000 signups from the likes of F1, Deloitte, KPMG and we're a few weeks from private beta. We have also recently secured a funding round and are seeking to expand our team in Belfast as we take our product to the next level.
 
 ## The Role
 
