@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
-    <lastBuildDate>Sat, 25 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.budibase.com/categories/ideas/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The 12 best no-code tools in 2020</title>
+      <link>https://www.budibase.com/blog/no-code-tools/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/no-code-tools/</guid>
+      <description>No-code tools empower people around the world to build technology without code. Before no-code tools, building a simple web application was a challenging task, and often left to developers. Thankfully, this is not the case anymore. While no-code tools cannot solve all technical challenges, having the right no-code stack can undoubtedly help you get certain jobs done a lot faster, easier, and cheaper.
+There are hundreds of no-code tools available, some free and some expensive.</description>
+    </item>
     
     <item>
       <title> 8 Web App Ideas You&#39;ll Want To Steal (2020)</title>
@@ -19,9 +29,9 @@
       
       <guid>https://www.budibase.com/blog/web-app-ideas/</guid>
       <description>Do you ever feel like the hardest part of building a web application is thinking of the idea?
-You&#39;re not alone.
+You&amp;rsquo;re not alone.
 Coming up with web app ideas consumes a lot of time.
-Finding an idea which solves a problem, is possible to build, and won&#39;t take millions of dollars is really difficult.
+Finding an idea which solves a problem, is possible to build, and won&amp;rsquo;t take millions of dollars is really difficult.
 We get it.
 Which is why we spent 3 weeks researching viable ideas to help you build a successful web app.</description>
     </item>

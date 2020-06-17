@@ -7,35 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
-    <lastBuildDate>Fri, 24 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.budibase.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>build</title>
+      <title>Ideas</title>
+      <link>https://www.budibase.com/categories/ideas/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/ideas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>https://www.budibase.com/categories/javascript/</link>
+      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Build</title>
       <link>https://www.budibase.com/categories/build/</link>
-      <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/categories/build/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>inspire</title>
+      <title>Inspire</title>
       <link>https://www.budibase.com/categories/inspire/</link>
       <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/categories/inspire/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ideas</title>
-      <link>https://www.budibase.com/categories/ideas/</link>
-      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.budibase.com/categories/ideas/</guid>
       <description></description>
     </item>
     

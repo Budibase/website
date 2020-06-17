@@ -3,22 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.budibase.com/blog/web-application-development/</loc>
-    <lastmod>2020-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.budibase.com/categories/build/</loc>
-    <lastmod>2020-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.budibase.com/categories/</loc>
-    <lastmod>2020-01-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/categories/ideas/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/no-code/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.budibase.com/tags/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/blog/no-code-tools/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/careers/full-stack-javascript-engineer/</loc>
+    <lastmod>2020-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/categories/javascript/</loc>
+    <lastmod>2020-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/saas-backend-frontend-web-app-deployment-hosting-ideation-wireframing-database-architecture/</loc>
+    <lastmod>2020-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/blog/web-development-tools/</loc>
+    <lastmod>2020-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/categories/build/</loc>
+    <lastmod>2020-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/web-development-tools-backend-frontend-web-app-deployment-hosting-ideation-wireframing-database-architecture/</loc>
+    <lastmod>2020-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/blog/web-application-development/</loc>
     <lastmod>2020-01-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,11 +73,6 @@
   </url>
   
   <url>
-    <loc>https://www.budibase.com/blog/web-development-tools/</loc>
-    <lastmod>2019-07-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.budibase.com/blog/5-examples-of-web-application-design/</loc>
     <lastmod>2019-07-28T00:00:00+00:00</lastmod>
   </url>
@@ -48,22 +83,7 @@
   </url>
   
   <url>
-    <loc>https://www.budibase.com/tags/saas-backend-frontend-web-app-deployment-hosting-ideation-wireframing-database-architecture/</loc>
-    <lastmod>2019-07-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.budibase.com/tags/web-development-tools-backend-frontend-web-app-deployment-hosting-ideation-wireframing-database-architecture/</loc>
-    <lastmod>2019-07-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.budibase.com/blog/web-app-ideas/</loc>
-    <lastmod>2019-05-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.budibase.com/categories/ideas/</loc>
     <lastmod>2019-05-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -149,6 +169,11 @@
   
   <url>
     <loc>https://www.budibase.com/blog/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/careers/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on Budibase: Web App Builder - Build Your Web App With Speed</title>
+    <link>https://www.budibase.com/categories/javascript/</link>
+    <description>Recent content in JavaScript on Budibase: Web App Builder - Build Your Web App With Speed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>This work is licensed and owned by Budibase</copyright>
+    <lastBuildDate>Wed, 04 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.budibase.com/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Full Stack JavaScript Engineer</title>
+      <link>https://www.budibase.com/careers/full-stack-javascript-engineer/</link>
+      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/careers/full-stack-javascript-engineer/</guid>
+      <description>Description Budibase is an open-source low code platform, designed for speed and customisation. When you need to build, launch, and grow a web application, Budibase has you covered. We have just secured a funding round and are seeking to expand our team in Belfast as we take our product to the next level.
+The Role  Work on an open source product in an extremely exciting market. &amp;ldquo;Be the customer&amp;rdquo; - Develop a product that you could potentially use Have a lot influence and input in the direction of the product Huge opportunities for growth Work closely with design and engineering staff to deliver a fantastic user experience for our customers Take ownership of parts of the product and codebase Present your ideas in a clear and effective manner to the rest of the team Working as a team player as part of a small development team Help manage and implement processes that make Budibase a fantastic place to work  Tech Stack At Budibase, we love using lean and modern open source web technologies.</description>
+    </item>
+    
+  </channel>
+</rss>

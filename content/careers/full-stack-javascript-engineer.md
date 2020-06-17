@@ -1,9 +1,9 @@
 +++
-date = "2020-03-04"
-title = "Full Stack JavaScript Engineer"
+date = "2020-06-17"
+title = "Senior JavaScript Engineer"
 categories = ["JavaScript"] 
 tags = ["SaaS, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture"]
-description = "£40,000 - £45,000 | Belfast, Northern Ireland"
+description = "£50,000 - £60,000 | Belfast, Northern Ireland"
 author = "Martin McKeaveney"
 images = ["/web-app-ideas/dashboard-web-app.jpg"]
 draft ="false"
@@ -15,19 +15,22 @@ Budibase is an open-source low code platform, designed for speed and customisati
 
 ## The Role
 
+We are looking for a full-stack JavaScript engineer who is passionate about all parts of the web app development process. Here are some of the great things about working at budibase:
+
 - Work on an open source product in an extremely exciting market.
-- "Be the customer" -  Develop a product that you could potentially use
+- “Be the customer” - Develop a product that you could potentially use
 - Have a lot influence and input in the direction of the product
-- Huge opportunities for growth
+- Huge opportunities for growth both technically and professionally
 - Work closely with design and engineering staff to deliver a fantastic user experience for our customers
 - Take ownership of parts of the product and codebase
 - Present your ideas in a clear and effective manner to the rest of the team
-- Working as a team player as part of a small development team
+- Be an integral player as part of a small development team
 - Help manage and implement processes that make Budibase a fantastic place to work
+- Write code every day in a dynamic, greenfield environment
 
 ## Tech Stack
 
-At Budibase, we love using lean and modern open source web technologies. Here are some of the main  ones we work with. 
+At Budibase, we love using lean and modern open source web technologies. Here are some of the main ones we work with.
 
 - Svelte
 - HTML/CSS
@@ -37,16 +40,18 @@ At Budibase, we love using lean and modern open source web technologies. Here ar
 - Jest
 - Rollup
 - Babel
+- Amazon Web Services
 
 ## The Ideal Candidate
 
-Education and qualifications are great, but not a huge deal to us in comparison to the right personality and attitude we are looking for to help us make Budibase the best company it can be. We love to see creative, hard-working folks who love to build cool things. Please feel free to include evidence of your side projects, github account or things you have built in your job application. We would love to see them!
+Education and qualifications are great, but not a huge deal to us in comparison to the right personality and attitude we are looking for to help us make Budibase the best company it can be. We love to see creative, hard-working folks who enjoy building cool things. Please feel free to include evidence of your side projects, github account or things you have built in your job application. We would be thrilled to see them!
 
-- 3-5 years experience building web applications with JavaScript (any framework or vanilla)
-- Experience using and configuring the modern JavaScript stack
-- Experience with CI/CD
+
+- 4+ years experience building web applications with JavaScript (any framework or vanilla)
+- Experience using and configuring the modern JavaScript stack (Babel, Webpack, ES6 etc)
+- Experience with Continuous Integration and Continuous Delivery
 - Experience building cloud native products
-- Curious, driven and motivated to learn and grasp concepts
+- Curious, driven and motivated to learn
 - Passionate about quality software
 - Good communication skills
 - Experience working in a startup
@@ -56,13 +61,14 @@ Education and qualifications are great, but not a huge deal to us in comparison 
 ## Nice to Haves
 
 - Experience with AWS or any other cloud provider
-- Good communication skills
+- Experience with Serverless Technologies
+- Experience with Docker
 - Experience using low-code/no-code products like Airtable or Zapier
 - Experience using UI Kits like Material UI, Bootstrap or Tailwind
 
 ## Benefits
 
-- £40,000 - £45,000 salary
+- £50,000 - £60,000 salary
 - 35 days holiday
 - Work from Home
 - Flexible, autonomous working culture

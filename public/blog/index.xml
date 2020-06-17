@@ -13,6 +13,28 @@
     
     
     <item>
+      <title>The 12 best no-code tools in 2020</title>
+      <link>https://www.budibase.com/blog/no-code-tools/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/no-code-tools/</guid>
+      <description>No-code tools empower people around the world to build technology without code. Before no-code tools, building a simple web application was a challenging task, and often left to developers. Thankfully, this is not the case anymore. While no-code tools cannot solve all technical challenges, having the right no-code stack can undoubtedly help you get certain jobs done a lot faster, easier, and cheaper.
+There are hundreds of no-code tools available, some free and some expensive.</description>
+    </item>
+    
+    <item>
+      <title>40 web development tools you must know about in 2020</title>
+      <link>https://www.budibase.com/blog/web-development-tools/</link>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/web-development-tools/</guid>
+      <description>What does a doctor, builder, and developer have in common?
+They are all highly skilled individuals who use tools to improve their workflow and do their jobs.
+By now, developers recognize that web development tools play an integral role in the development process. It&amp;rsquo;s impossible to build a web application without them! (I&amp;rsquo;m happy to be proven wrong here.)
+In this post, we&amp;rsquo;ve rounded up some of the most helpful tools for developing a successful web application.</description>
+    </item>
+    
+    <item>
       <title>A beginners guide to web application development (2020)</title>
       <link>https://www.budibase.com/blog/web-application-development/</link>
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
@@ -20,19 +42,7 @@
       <guid>https://www.budibase.com/blog/web-application-development/</guid>
       <description>It was the year 2010, I had an idea for a web application which would allow my family and I to share images, organise shopping, populate a shared calendar, and store bills. My family was terribly disorganised. We needed this!
 This idea was going to make me 💰💰💰.
-There was a small complication with my vision - I didn&#39;t know how to build a web application. But thankfully, I could build a static site with HTML and CSS so it couldn&#39;t be that hard, right?</description>
-    </item>
-    
-    <item>
-      <title>40 web development tools you must know about in 2020</title>
-      <link>https://www.budibase.com/blog/web-development-tools/</link>
-      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.budibase.com/blog/web-development-tools/</guid>
-      <description>40 web development tools you should know about in 2020 What does a doctor, builder, and developer have in common?
-They are all highly skilled individuals who use tools to improve their workflow and do their jobs.
-By now, developers recognize that web development tools play an integral role in the development process. It&#39;s impossible to build a web application without them! (I&#39;m happy to be proven wrong here.)
-In this post, we&#39;ve rounded up some of the most helpful tools for developing a successful web application.</description>
+There was a small complication with my vision - I didn&amp;rsquo;t know how to build a web application. But thankfully, I could build a static site with HTML and CSS so it couldn&amp;rsquo;t be that hard, right?</description>
     </item>
     
     <item>
@@ -41,7 +51,7 @@ In this post, we&#39;ve rounded up some of the most helpful tools for developing
       <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/blog/5-examples-of-web-application-design/</guid>
-      <description>Every once in a while, I&#39;ll come across examples of web application design that really draw me in. I&#39;ve listed these web applications below and ranked them from 5 - 1.
+      <description>Every once in a while, I&amp;rsquo;ll come across examples of web application design that really draw me in. I&amp;rsquo;ve listed these web applications below and ranked them from 5 - 1.
 These web applications contain a beautiful mix of design, usability and creativity. They are masterpieces, and wonderful tokens of inspiration.
 Huge amounts of time and thought have went into the design of these web applications and credit must go to the designs.</description>
     </item>
@@ -53,9 +63,9 @@ Huge amounts of time and thought have went into the design of these web applicat
       
       <guid>https://www.budibase.com/blog/web-app-ideas/</guid>
       <description>Do you ever feel like the hardest part of building a web application is thinking of the idea?
-You&#39;re not alone.
+You&amp;rsquo;re not alone.
 Coming up with web app ideas consumes a lot of time.
-Finding an idea which solves a problem, is possible to build, and won&#39;t take millions of dollars is really difficult.
+Finding an idea which solves a problem, is possible to build, and won&amp;rsquo;t take millions of dollars is really difficult.
 We get it.
 Which is why we spent 3 weeks researching viable ideas to help you build a successful web app.</description>
     </item>
@@ -78,9 +88,9 @@ I’ve used this exact process, or a version of it to build over 15 applications
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/blog/5-good-habits-for-success/</guid>
-      <description>I&#39;m the cofounder of Budibase - a super speedy web app builder for makers.
-Over the last 15 years working on small to large (£15m+) projects, I&#39;ve often considered what is success, and what are the good habits for success in 2019.
-I&#39;ve poured my thoughts on to this page to help others in a similar position, develop successful habits.
+      <description>I&amp;rsquo;m the cofounder of Budibase - a super speedy web app builder for makers.
+Over the last 15 years working on small to large (£15m+) projects, I&amp;rsquo;ve often considered what is success, and what are the good habits for success in 2019.
+I&amp;rsquo;ve poured my thoughts on to this page to help others in a similar position, develop successful habits.
 I hope you enjoy it.
   Photo byDrew Beamer</description>
     </item>
@@ -115,8 +125,8 @@ What we need from a database A key requirement of Budibase is the ability to red
       <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/blog/micro-saas-ideas/</guid>
-      <description>I&#39;m often thinking of Micro SaaS ideas for my next project but most of the time they are either rubbish or I don&#39;t have the capacity to pursue them.
-Instead of throwing all the good ideas away, I&#39;ve decided to share them with you - how thoughtful, right 😄.
+      <description>I&amp;rsquo;m often thinking of Micro SaaS ideas for my next project but most of the time they are either rubbish or I don&amp;rsquo;t have the capacity to pursue them.
+Instead of throwing all the good ideas away, I&amp;rsquo;ve decided to share them with you - how thoughtful, right 😄.
 This post is not a simple static list; created, posted, and forgotten about. I will revisit and update this list on a monthly basis, delivering you super-fresh ideas to feed your entrepreneurial hunger.</description>
     </item>
     
@@ -128,7 +138,7 @@ This post is not a simple static list; created, posted, and forgotten about. I w
       <guid>https://www.budibase.com/blog/cofoundervalidation/</guid>
       <description>When someone whom you respect, approaches you with a business proposal, you listen. When their idea passes your gut validation, you get excited. When their vision of how a business should operate aligns with your vision, you fall in love with the product instantly. Your future brightens 💥
 Respect, idea validation, shared vision. The 3 components of cofounder validation.
-Respect can be earned, but best when it&#39;s natural. Natural respect is only possible through previous encounters.</description>
+Respect can be earned, but best when it&amp;rsquo;s natural. Natural respect is only possible through previous encounters.</description>
     </item>
     
   </channel>

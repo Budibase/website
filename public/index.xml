@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Budibase: Web App Builder - Build Your Web App With Speed</title>
+    <title>Budibase | Open source low code platform for building web apps on Budibase: Web App Builder - Build Your Web App With Speed</title>
     <link>https://www.budibase.com/</link>
-    <description>Recent content on Budibase: Web App Builder - Build Your Web App With Speed</description>
+    <description>Recent content in Budibase | Open source low code platform for building web apps on Budibase: Web App Builder - Build Your Web App With Speed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
@@ -13,6 +13,38 @@
     
     
     <item>
+      <title>The 12 best no-code tools in 2020</title>
+      <link>https://www.budibase.com/blog/no-code-tools/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/no-code-tools/</guid>
+      <description>No-code tools empower people around the world to build technology without code. Before no-code tools, building a simple web application was a challenging task, and often left to developers. Thankfully, this is not the case anymore. While no-code tools cannot solve all technical challenges, having the right no-code stack can undoubtedly help you get certain jobs done a lot faster, easier, and cheaper.
+There are hundreds of no-code tools available, some free and some expensive.</description>
+    </item>
+    
+    <item>
+      <title>Full Stack JavaScript Engineer</title>
+      <link>https://www.budibase.com/careers/full-stack-javascript-engineer/</link>
+      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/careers/full-stack-javascript-engineer/</guid>
+      <description>Description Budibase is an open-source low code platform, designed for speed and customisation. When you need to build, launch, and grow a web application, Budibase has you covered. We have just secured a funding round and are seeking to expand our team in Belfast as we take our product to the next level.
+The Role  Work on an open source product in an extremely exciting market. &amp;ldquo;Be the customer&amp;rdquo; - Develop a product that you could potentially use Have a lot influence and input in the direction of the product Huge opportunities for growth Work closely with design and engineering staff to deliver a fantastic user experience for our customers Take ownership of parts of the product and codebase Present your ideas in a clear and effective manner to the rest of the team Working as a team player as part of a small development team Help manage and implement processes that make Budibase a fantastic place to work  Tech Stack At Budibase, we love using lean and modern open source web technologies.</description>
+    </item>
+    
+    <item>
+      <title>40 web development tools you must know about in 2020</title>
+      <link>https://www.budibase.com/blog/web-development-tools/</link>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/web-development-tools/</guid>
+      <description>What does a doctor, builder, and developer have in common?
+They are all highly skilled individuals who use tools to improve their workflow and do their jobs.
+By now, developers recognize that web development tools play an integral role in the development process. It&amp;rsquo;s impossible to build a web application without them! (I&amp;rsquo;m happy to be proven wrong here.)
+In this post, we&amp;rsquo;ve rounded up some of the most helpful tools for developing a successful web application.</description>
+    </item>
+    
+    <item>
       <title>A beginners guide to web application development (2020)</title>
       <link>https://www.budibase.com/blog/web-application-development/</link>
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
@@ -20,7 +52,7 @@
       <guid>https://www.budibase.com/blog/web-application-development/</guid>
       <description>It was the year 2010, I had an idea for a web application which would allow my family and I to share images, organise shopping, populate a shared calendar, and store bills. My family was terribly disorganised. We needed this!
 This idea was going to make me 💰💰💰.
-There was a small complication with my vision - I didn&#39;t know how to build a web application. But thankfully, I could build a static site with HTML and CSS so it couldn&#39;t be that hard, right?</description>
+There was a small complication with my vision - I didn&amp;rsquo;t know how to build a web application. But thankfully, I could build a static site with HTML and CSS so it couldn&amp;rsquo;t be that hard, right?</description>
     </item>
     
     <item>
@@ -34,24 +66,12 @@ Thank you for choosing to be part of our community at Budibase (“company”, �
     </item>
     
     <item>
-      <title>40 web development tools you must know about in 2020</title>
-      <link>https://www.budibase.com/blog/web-development-tools/</link>
-      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.budibase.com/blog/web-development-tools/</guid>
-      <description>40 web development tools you should know about in 2020 What does a doctor, builder, and developer have in common?
-They are all highly skilled individuals who use tools to improve their workflow and do their jobs.
-By now, developers recognize that web development tools play an integral role in the development process. It&#39;s impossible to build a web application without them! (I&#39;m happy to be proven wrong here.)
-In this post, we&#39;ve rounded up some of the most helpful tools for developing a successful web application.</description>
-    </item>
-    
-    <item>
       <title>5 Recent Examples Of Modern Web Application Design (2020)</title>
       <link>https://www.budibase.com/blog/5-examples-of-web-application-design/</link>
       <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/blog/5-examples-of-web-application-design/</guid>
-      <description>Every once in a while, I&#39;ll come across examples of web application design that really draw me in. I&#39;ve listed these web applications below and ranked them from 5 - 1.
+      <description>Every once in a while, I&amp;rsquo;ll come across examples of web application design that really draw me in. I&amp;rsquo;ve listed these web applications below and ranked them from 5 - 1.
 These web applications contain a beautiful mix of design, usability and creativity. They are masterpieces, and wonderful tokens of inspiration.
 Huge amounts of time and thought have went into the design of these web applications and credit must go to the designs.</description>
     </item>
@@ -63,9 +83,9 @@ Huge amounts of time and thought have went into the design of these web applicat
       
       <guid>https://www.budibase.com/blog/web-app-ideas/</guid>
       <description>Do you ever feel like the hardest part of building a web application is thinking of the idea?
-You&#39;re not alone.
+You&amp;rsquo;re not alone.
 Coming up with web app ideas consumes a lot of time.
-Finding an idea which solves a problem, is possible to build, and won&#39;t take millions of dollars is really difficult.
+Finding an idea which solves a problem, is possible to build, and won&amp;rsquo;t take millions of dollars is really difficult.
 We get it.
 Which is why we spent 3 weeks researching viable ideas to help you build a successful web app.</description>
     </item>
@@ -88,9 +108,9 @@ I’ve used this exact process, or a version of it to build over 15 applications
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/blog/5-good-habits-for-success/</guid>
-      <description>I&#39;m the cofounder of Budibase - a super speedy web app builder for makers.
-Over the last 15 years working on small to large (£15m+) projects, I&#39;ve often considered what is success, and what are the good habits for success in 2019.
-I&#39;ve poured my thoughts on to this page to help others in a similar position, develop successful habits.
+      <description>I&amp;rsquo;m the cofounder of Budibase - a super speedy web app builder for makers.
+Over the last 15 years working on small to large (£15m+) projects, I&amp;rsquo;ve often considered what is success, and what are the good habits for success in 2019.
+I&amp;rsquo;ve poured my thoughts on to this page to help others in a similar position, develop successful habits.
 I hope you enjoy it.
   Photo byDrew Beamer</description>
     </item>
@@ -134,8 +154,8 @@ What we need from a database A key requirement of Budibase is the ability to red
       <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/blog/micro-saas-ideas/</guid>
-      <description>I&#39;m often thinking of Micro SaaS ideas for my next project but most of the time they are either rubbish or I don&#39;t have the capacity to pursue them.
-Instead of throwing all the good ideas away, I&#39;ve decided to share them with you - how thoughtful, right 😄.
+      <description>I&amp;rsquo;m often thinking of Micro SaaS ideas for my next project but most of the time they are either rubbish or I don&amp;rsquo;t have the capacity to pursue them.
+Instead of throwing all the good ideas away, I&amp;rsquo;ve decided to share them with you - how thoughtful, right 😄.
 This post is not a simple static list; created, posted, and forgotten about. I will revisit and update this list on a monthly basis, delivering you super-fresh ideas to feed your entrepreneurial hunger.</description>
     </item>
     
@@ -147,7 +167,7 @@ This post is not a simple static list; created, posted, and forgotten about. I w
       <guid>https://www.budibase.com/blog/cofoundervalidation/</guid>
       <description>When someone whom you respect, approaches you with a business proposal, you listen. When their idea passes your gut validation, you get excited. When their vision of how a business should operate aligns with your vision, you fall in love with the product instantly. Your future brightens 💥
 Respect, idea validation, shared vision. The 3 components of cofounder validation.
-Respect can be earned, but best when it&#39;s natural. Natural respect is only possible through previous encounters.</description>
+Respect can be earned, but best when it&amp;rsquo;s natural. Natural respect is only possible through previous encounters.</description>
     </item>
     
     <item>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>no-code on Budibase: Web App Builder - Build Your Web App With Speed</title>
+    <link>https://www.budibase.com/tags/no-code/</link>
+    <description>Recent content in no-code on Budibase: Web App Builder - Build Your Web App With Speed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>This work is licensed and owned by Budibase</copyright>
+    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.budibase.com/tags/no-code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The 12 best no-code tools in 2020</title>
+      <link>https://www.budibase.com/blog/no-code-tools/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/no-code-tools/</guid>
+      <description>No-code tools empower people around the world to build technology without code. Before no-code tools, building a simple web application was a challenging task, and often left to developers. Thankfully, this is not the case anymore. While no-code tools cannot solve all technical challenges, having the right no-code stack can undoubtedly help you get certain jobs done a lot faster, easier, and cheaper.
+There are hundreds of no-code tools available, some free and some expensive.</description>
+    </item>
+    
+  </channel>
+</rss>
