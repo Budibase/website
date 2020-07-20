@@ -157,7 +157,7 @@ We are always online; when we're in bed, at work, in the shower :shower: - I hav
 
 Please, read on! 
 
-Companies understand our need to always be connected, which is why '55% of marketers say blog content creation is their top inbound marketing priority'. [(HubSpot, 2018)](Source: <https://www.hubspot.com/marketing-statistics>) 
+Companies understand our need to always be connected, which is why '55% of marketers say blog content creation is their top inbound marketing priority'. [(HubSpot, 2018)](https://www.hubspot.com/marketing-statistics) 
 
 On top of that, 'Monthly podcast listeners grew from 24% of Americans to 26% year on year'. [Edison Research, 2018](https://www.edisonresearch.com/podcast-consumer-2018/)
 
