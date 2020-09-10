@@ -86,7 +86,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <header id="headerDropdown" class="u-header u-header--sticky-top ">
-  <div class="u-header__section bg-light u-header--left-aligned-nav">
+  <div class="u-header__section u-header--left-aligned-nav">
     <div id="logoAndNav" class="container">
       <div class="js-scrollbar-header u-header--sticky__inner">
       
@@ -113,63 +113,119 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </span>
         </button>
         
-        
+                
+                <div id="navBarDropdown" class="collapse navbar-collapse u-header__navbar-collapse py-0 u-header--left-aligned-nav">
+                  <ul class="navbar-nav u-header__navbar-nav">
+                    <li class="nav-item u-header__nav-item hs-has-sub-menu"
+                    data-event="hover"
+                    data-animation-in="fadeInUp"
+                    data-animation-out="fadeOut">
+                    <a id="dropdownMegaMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                     aria-haspopup="true"
+                     aria-expanded="false"
+                     aria-labelledby="dropdownSubMenu">
+                    Product ▾
+                    </a>
+                  
+                  <ul id="dropdownSubMenu" class="list-inline hs-sub-menu u-header__sub-menu mb-0" style="min-width: 220px;"
+                      aria-labelledby="dropdownMegaMenu">
+                    <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                      <a class="nav-link u-header__sub-menu-nav-link" href="/data">1. Data</a>
+                    </li>
+                    <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                      <a class="nav-link u-header__sub-menu-nav-link" href="/design">2. Design</a>
+                    </li>
+                    <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                      <a class="nav-link u-header__sub-menu-nav-link" href="/automate" >3. Automate</a>
+                    </li>
+                    <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                      <a class="nav-link u-header__sub-menu-nav-link" href="/deploy" >4. Deploy</a>
+                    </li>
+                    <hr>
+                    <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                      <a class="nav-link u-header__sub-menu-nav-link" href="/features">Treasure chest</a>
+                    </li>
+                  </ul>
+                  
+                </li>
+                
 
         
-        <div id="navBarDropdown" class="collapse navbar-collapse u-header__navbar-collapse py-0 u-header--left-aligned-nav">
-          <ul class="navbar-nav u-header__navbar-nav">
             <li class="nav-item u-header__nav-item">
-              <a class="nav-link u-header__nav-link" href="/build-a-web-app">
-                Build
+              <a class="nav-link u-header__nav-link" href="/pricing">
+                Pricing
               </a>
             </li>
-            <li class="nav-item u-header__nav-item">
-              <a class="nav-link u-header__nav-link" href="/host-a-web-app">
-                Launch
-              </a>
+            <li class="nav-item u-header__nav-item hs-has-sub-menu"
+            data-event="hover"
+            data-animation-in="fadeInUp"
+            data-animation-out="fadeOut">
+            <a id="dropdownMegaMenu" class="nav-link u-header__nav-link" href="javascript:;"
+             aria-haspopup="true"
+             aria-expanded="false"
+             aria-labelledby="dropdownSubMenu">
+            Learn ▾
+            </a>
+          
+          <ul id="dropdownSubMenu" class="list-inline hs-sub-menu u-header__sub-menu mb-0" style="min-width: 220px;"
+              aria-labelledby="dropdownMegaMenu">
+            <li class="dropdown-item u-header__sub-menu-list-item py-0">
+              <a class="nav-link u-header__sub-menu-nav-link" href="/blog">Blog</a>
             </li>
-            <li class="nav-item u-header__nav-item">
-              <a class="nav-link u-header__nav-link" href="/manage-a-web-app">
-                Grow
-              </a>
+            <li class="dropdown-item u-header__sub-menu-list-item py-0">
+              <a class="nav-link u-header__sub-menu-nav-link" href="https://docs.budibase.com/" target="_blank">Docs</a>
             </li>
+            <li class="dropdown-item u-header__sub-menu-list-item py-0">
+              <a class="nav-link u-header__sub-menu-nav-link" href="/about">Company</a>
+            </li>
+          </ul>
+
+        
+        </li>
+            <li class="nav-item u-header__nav-item hs-has-sub-menu"
+            data-event="hover"
+            data-animation-in="fadeInUp"
+            data-animation-out="fadeOut">
+            <a id="dropdownMegaMenu" class="nav-link u-header__nav-link" href="javascript:;"
+             aria-haspopup="true"
+             aria-expanded="false"
+             aria-labelledby="dropdownSubMenu">
+            Community ▾
+            </a>
+          
+          <ul id="dropdownSubMenu" class="list-inline hs-sub-menu u-header__sub-menu mb-0" style="min-width: 220px;"
+              aria-labelledby="dropdownMegaMenu">
+            <li class="dropdown-item u-header__sub-menu-list-item py-0">
+              <a class="nav-link u-header__sub-menu-nav-link" href="https://forum.budibase.com/" target="_blank">Community</a>
+            </li>
+            <li class="dropdown-item u-header__sub-menu-list-item py-0">
+              <a class="nav-link u-header__sub-menu-nav-link" href="https://forum.budibase.com/" target="_blank">Partners</a>
+            </li>
+            <li class="dropdown-item u-header__sub-menu-list-item py-0">
+              <a class="nav-link u-header__sub-menu-nav-link" href="https://github.com/Budibase/budibase" target="_blank">Github</a>
+            </li>
+            <li class="dropdown-item u-header__sub-menu-list-item py-0">
+              <a class="nav-link u-header__sub-menu-nav-link" href="https://discord.com/invite/rCYayfe" target="_blank">Discord</a>
+            </li>
+          </ul>
+          
+        </li>
+
             <div class=" navbar-nav u-header__nav-item-btn">
             <li class="nav-item u-header__nav-item">
               <a class="nav-link u-header__nav-link" href="/blog">
-                Blog
+                Log in
               </a>
             </li>
  
             
-            <li class="nav-item u-header__nav-item hs-has-sub-menu"
-                data-event="hover"
-                data-animation-in="fadeInUp"
-                data-animation-out="fadeOut">
-                <a id="dropdownMegaMenu" class="nav-link u-header__nav-link" href="javascript:;"
-                 aria-haspopup="true"
-                 aria-expanded="false"
-                 aria-labelledby="dropdownSubMenu">
-                Company ▾
-                </a>
-              
-              <ul id="dropdownSubMenu" class="list-inline hs-sub-menu u-header__sub-menu mb-0" style="min-width: 220px;"
-                  aria-labelledby="dropdownMegaMenu">
-                <li class="dropdown-item u-header__sub-menu-list-item py-0">
-                  <a class="nav-link u-header__sub-menu-nav-link" href="/about">About Us</a>
-                </li>
-                <li class="dropdown-item u-header__sub-menu-list-item py-0">
-                  <a class="nav-link u-header__sub-menu-nav-link" href="/careers">Careers</a>
-                </li>
-              </ul>
-              
-            </li>
-            
+           
             
             <li class="nav-item u-header__nav-item-btn">
               <a class="btn btn-sm btn-primary" href="#signup" role="button"
                  data-modal-target="#signupModal"
                  data-overlay-color="#151b26">
-                Request Access
+                Get started ↓
               </a>
             </li>
             
@@ -182,395 +238,217 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </header>
 
 
-<div class="bg-img-hero bg-light space-3-bottom--lg">
-  <div class="container text-center space-2 space-4-top space-1-bottom--lg">
-          <div class="w-md-80 mx-auto mb-3">
-            <h1 class="col display-4 font-size-48--md-down">BudiBlog</h1>
-        <div class="col-lg-10 mx-auto">
-            <div class="mb-5">
-              <p class="lead">Everything you need to know about creating a web application, building a startup, and living a life outside the 9-5. </p>
-            </div>
-            <div class="d-sm-flex justify-content-sm-center align-items-sm-center mb-7">
+<div class="space-3-bottom">
+  <div class="container container-blog  space-3-top ">
+    <div class=" mb-3">
+      <h1 class="mb-2">BudiBlog</h1>
+    </div>
+    <div class="categories">
+      <a href="/categories/inspire/">
+        <h3 class="h6 text-dark mb-0">Ideas</h3>
+      </a>
+      <a href="/categories/build/">
+        <h3 class="h6 text-dark mb-0">Building</h3>
+      </a>
+      <a href="/categories/host/">
+        <h3 class="h6 text-dark mb-0">Design</h3>
+      </a>
+      <a href="/categories/inspire/">
+        <h3 class="h6 text-dark mb-0">Automation</h3>
+      </a>
+    </div>
+  </div>
 
-<form class="js-validate w-lg-80" form action="https://budibase.us20.list-manage.com/subscribe/post" form name="signup" method="POST">
-  <input type="hidden" name="u" value="761756dde90443a4375dead81">
-  <input type="hidden" name="id" value="4999d7f159">  
-  <div class="row mx-gutters-2">
-    <div class="col-sm-7 mb-3">
-      
-      <div class="js-form-message">
-        <div class="js-focus-state input-group form">
-            <p style="display:none;">
-                <label>Don’t fill this out: <input name="bot-field"></label>
-              </p>
-              <input type="email" class="form-control form__input" name="MERGE0" id="MERGE0" required
-                 placeholder="Submit Email Address"
-                 aria-label="Email"
-                 data-msg="Please enter a valid email address.">
-        </div>
-      </div>
-      
-                    </div>
-
-                    <div class="col-sm-5 mb-3">
-                      <button type="submit" class="btn btn-block btn-primary">Request Access</button>
-                    </div>
-                  </div>
-                </form>
-            </div>
-    
-            
+  
+  <div class="container">
+    <div class="mx-auto mb-3">
+      <a href="https://www.budibase.com/blog/no-code-tools/">
+        <div class="col-sm-12 blog-item">
+          <div class="blog-item-title">
+            <h4>The 12 best no-code tools in 2020</h4>
+          </div>
+          <div class="blog-item-info">
+            <p class="text-light">Mar 12, 2020</p>
+            <p class="text-light">Joe Johnston </p>
           </div>
         </div>
-      </div>
-
-<div class="container text-center ">
-  <div class="w-md-80 mx-auto mb-3">
-    <h2 class="strong">Categories</h2>
-    
-  <div class="container space-2 ">
-    <div class="row justify-content-center">
-      <div class="col-6 col-sm-4 col-lg mb-5 mb-lg-0">
-        
-        <a class="d-block card-frame bg-white text-center rounded py-7 px-5" href="/categories/inspire/">
-          <img class="d-block max-width-6 mx-auto mb-2" src="icon/inspire.svg" alt="Inspire Icon">
-          <h3 class="h6 text-dark mb-0">Inspire</h3>
-        </a>
-        
-      </div>
-
-      <div class="col-6 col-sm-4 col-lg mb-5 mb-sm-0">
-        
-        <a class="d-block card-frame bg-white text-center rounded py-7 px-5" href="/categories/build/">
-          <img class="d-block max-width-6 mx-auto mb-2" src="icon/build.svg" alt="Build icon">
-          <h3 class="h6 text-dark mb-0">Build</h3>
-        </a>
-        
-      </div>
-
-      <div class="col-6 col-sm-4 col-lg mb-5 mb-sm-0">
-        
-        <a class="d-block card-frame bg-white text-center rounded py-7 px-5" href="/categories/host/">
-          <img class="d-block max-width-6 mx-auto mb-2" src="icon/host.svg" alt="Manage icon">
-          <h3 class="h6 text-dark mb-0">Host</h3>
-        </a>
-        
-      </div>
-
-      <div class="col-6 col-sm-4 col-lg mb-5 mb-sm-0">
-        
-        <a class="d-block card-frame bg-white text-center rounded py-7 px-5" href="/categories/manage/">
-          <img class="d-block max-width-6 mx-auto mb-2" src="icon/manage.svg" alt="Manage icon">
-          <h3 class="h6 text-dark mb-0">Manage</h3>
-        </a>
-        
-      </div>
-
-      <div class="col-6 col-sm-4 col-lg">
-        
-        <a class="d-block card-frame bg-white text-center rounded py-7 px-5" href="/categories/grow/">
-          <img class="d-block max-width-6 mx-auto mb-2" src="icon/grow.svg" alt="Grow icon">
-          <h3 class="h6 text-dark mb-0">Grow</h3>
-        </a>
-        
-      </div>
+      </a>
     </div>
   </div>
-
-  </div>
-</div>
-
-
-
-
-<div class="container ">
-  <div class="row">
-    <div class="w-md-60 mx-auto mb-3">
-      <div class="col-sm-12">
-        <article class="card mb-5">
-            <div class="card-body p-5">
-              <h3 class="strong">
-                <a href="https://www.budibase.com/blog/no-code-tools/">The 12 best no-code tools in 2020</a>
-              </h3>
-              <p class="lead mb-0">Having the right no-code stack can help you get the job done a lot faster, easier and cheaper. Here are my top 12 best no-code tools to use in 2020.</p>
-              <div class="space-1-top">
-              </div>
-              <h4 class="cta"><a href="https://www.budibase.com/blog/no-code-tools/">Read More</a></h4>
-                <small class="d-block-2 text-dark">Mar 12, 2020 | 14 minutes read | By: Joe Johnston </small>
-              </div>
-        </article>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container ">
-  <div class="row">
-    <div class="w-md-60 mx-auto mb-3">
-      <div class="col-sm-12">
-        <article class="card mb-5">
-            <div class="card-body p-5">
-              <h3 class="strong">
-                <a href="https://www.budibase.com/blog/web-development-tools/">40 web development tools you must know about in 2020</a>
-              </h3>
-              <p class="lead mb-0">Web development is hard. Thankfully, there are tools at our disposal to help make life easier. Within this post, you will find 40 web development tools to help improve your workflow.</p>
-              <div class="space-1-top">
-              </div>
-              <h4 class="cta"><a href="https://www.budibase.com/blog/web-development-tools/">Read More</a></h4>
-                <small class="d-block-2 text-dark">Feb 12, 2020 | 21 minutes read | By: Joe Johnston </small>
-              </div>
-        </article>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container ">
-  <div class="row">
-    <div class="w-md-60 mx-auto mb-3">
-      <div class="col-sm-12">
-        <article class="card mb-5">
-            <div class="card-body p-5">
-              <h3 class="strong">
-                <a href="https://www.budibase.com/blog/web-application-development/">A beginners guide to web application development (2020)</a>
-              </h3>
-              <p class="lead mb-0">Within Budibase&#39;s web application development guide you will learn processes, definitions, frameworks, platforms, and much more.</p>
-              <div class="space-1-top">
-              </div>
-              <h4 class="cta"><a href="https://www.budibase.com/blog/web-application-development/">Read More</a></h4>
-                <small class="d-block-2 text-dark">Jan 24, 2020 | 12 minutes read | By: Joe Johnston </small>
-              </div>
-        </article>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container ">
-  <div class="row">
-    <div class="w-md-60 mx-auto mb-3">
-      <div class="col-sm-12">
-        <article class="card mb-5">
-            <div class="card-body p-5">
-              <h3 class="strong">
-                <a href="https://www.budibase.com/blog/5-examples-of-web-application-design/">5 Recent Examples Of Modern Web Application Design (2020)</a>
-              </h3>
-              <p class="lead mb-0">We have debated for many hours to present you with 5 recent examples of modern web application design. Please use these designs as inspiration for your next web app.</p>
-              <div class="space-1-top">
-              </div>
-              <h4 class="cta"><a href="https://www.budibase.com/blog/5-examples-of-web-application-design/">Read More</a></h4>
-                <small class="d-block-2 text-dark">Jul 28, 2019 | 7 minutes read | By: Joe Johnston </small>
-              </div>
-        </article>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container ">
-  <div class="row">
-    <div class="w-md-60 mx-auto mb-3">
-      <div class="col-sm-12">
-        <article class="card mb-5">
-            <div class="card-body p-5">
-              <h3 class="strong">
-                <a href="https://www.budibase.com/blog/web-app-ideas/"> 8 Web App Ideas You&#39;ll Want To Steal (2020)</a>
-              </h3>
-              <p class="lead mb-0">Within this post you will find my top 8 exciting web app ideas you will want to steal in 2020. Grab some inspiration, choose your idea, and build your next awesome web app.</p>
-              <div class="space-1-top">
-              </div>
-              <h4 class="cta"><a href="https://www.budibase.com/blog/web-app-ideas/">Read More</a></h4>
-                <small class="d-block-2 text-dark">May 25, 2019 | 11 minutes read | By: Joe Johnston </small>
-              </div>
-        </article>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container ">
-  <div class="row">
-    <div class="w-md-60 mx-auto mb-3">
-      <div class="col-sm-12">
-        <article class="card mb-5">
-            <div class="card-body p-5">
-              <h3 class="strong">
-                <a href="https://www.budibase.com/blog/how-to-make-a-web-app/">How to build a web app: A beginner&#39;s guide (2020)</a>
-              </h3>
-              <p class="lead mb-0">Learn the best way to create a web application and deploy it. This tutorial will provide you with a simple and informative stepped approach on how to build a web app.</p>
-              <div class="space-1-top">
-              </div>
-              <h4 class="cta"><a href="https://www.budibase.com/blog/how-to-make-a-web-app/">Read More</a></h4>
-                <small class="d-block-2 text-dark">Apr 23, 2019 | 22 minutes read | By: Joe Johnston </small>
-              </div>
-        </article>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container ">
-  <div class="row">
-    <div class="w-md-60 mx-auto mb-3">
-      <div class="col-sm-12">
-        <article class="card mb-5">
-            <div class="card-body p-5">
-              <h3 class="strong">
-                <a href="https://www.budibase.com/blog/5-good-habits-for-success/">5 Good Habits For Success In 2019</a>
-              </h3>
-              <p class="lead mb-0">Good Habits for success are imperative to leading a successful life and ensuring you remain healthy, confident and in a position to perform.</p>
-              <div class="space-1-top">
-              </div>
-              <h4 class="cta"><a href="https://www.budibase.com/blog/5-good-habits-for-success/">Read More</a></h4>
-                <small class="d-block-2 text-dark">Apr 3, 2019 | 6 minutes read | By: Joe Johnston </small>
-              </div>
-        </article>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container ">
-  <div class="row">
-    <div class="w-md-60 mx-auto mb-3">
-      <div class="col-sm-12">
-        <article class="card mb-5">
-            <div class="card-body p-5">
-              <h3 class="strong">
-                <a href="https://www.budibase.com/blog/progressive-web-app-play-store/">Progressive Web Apps Can Now Be Shipped Via The Play Store</a>
-              </h3>
-              <p class="lead mb-0">With Chrome 72, you can now publish your progressive web app in the Play Store and from the browser.</p>
-              <div class="space-1-top">
-              </div>
-              <h4 class="cta"><a href="https://www.budibase.com/blog/progressive-web-app-play-store/">Read More</a></h4>
-                <small class="d-block-2 text-dark">Feb 1, 2019 | 1 minute read | By: Joe Johnston </small>
-              </div>
-        </article>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container ">
-  <div class="row">
-    <div class="w-md-60 mx-auto mb-3">
-      <div class="col-sm-12">
-        <article class="card mb-5">
-            <div class="card-body p-5">
-              <h3 class="strong">
-                <a href="https://www.budibase.com/blog/budibase-core-intro/">Budibase Core. A Serverless Database Engine, for fast SaaS development.</a>
-              </h3>
-              <p class="lead mb-0">An introduction to Budibase Core - a Javascript library used to build Budibase, a Micros SaaS Builder</p>
-              <div class="space-1-top">
-              </div>
-              <h4 class="cta"><a href="https://www.budibase.com/blog/budibase-core-intro/">Read More</a></h4>
-                <small class="d-block-2 text-dark">Jan 24, 2019 | 5 minutes read | By: Michael Shanks </small>
-              </div>
-        </article>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container ">
-  <div class="row">
-    <div class="w-md-60 mx-auto mb-3">
-      <div class="col-sm-12">
-        <article class="card mb-5">
-            <div class="card-body p-5">
-              <h3 class="strong">
-                <a href="https://www.budibase.com/blog/micro-saas-ideas/">6 Micro SaaS Ideas You&#39;ll Want To Steal in 2020</a>
-              </h3>
-              <p class="lead mb-0">This list of Micro SaaS ideas is perfect if you are considering starting a new project. Each idea on the list is original and validated by the Budibase team.</p>
-              <div class="space-1-top">
-              </div>
-              <h4 class="cta"><a href="https://www.budibase.com/blog/micro-saas-ideas/">Read More</a></h4>
-                <small class="d-block-2 text-dark">Jan 23, 2019 | 13 minutes read | By: Joe Johnston </small>
-              </div>
-        </article>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container ">
-  <div class="row">
-    <div class="w-md-60 mx-auto mb-3">
-      <div class="col-sm-12">
-        <article class="card mb-5">
-            <div class="card-body p-5">
-              <h3 class="strong">
-                <a href="https://www.budibase.com/blog/cofoundervalidation/">The 3 components of co-founder validation</a>
-              </h3>
-              <p class="lead mb-0">Becoming a cofounder is one of the most important decisions in your life, so make sure it&#39;s the right one.</p>
-              <div class="space-1-top">
-              </div>
-              <h4 class="cta"><a href="https://www.budibase.com/blog/cofoundervalidation/">Read More</a></h4>
-                <small class="d-block-2 text-dark">Dec 10, 2018 | 1 minute read | By: Joe Johnston </small>
-              </div>
-        </article>
-      </div>
-    </div>
-  </div>
-</div>
-
- 
-</div>   
-</div> 
-
-</div> 
-</div>
-
-
-
-
-<div id="signup" class="bg-primary bg-img-hero" style="background-image: url(img/bg/bg2.png);">
-        <div class="container space-2-bottom space-3-top--lg space-3-bottom--lg col-12">
-          <div class="row justify-content-md-center align-items-md-center">
-            <div class="col-md-8 col-lg-6">
-              
-              <div class="mb-5 text-center">
-                <h2 class="text-white mb-1">Request Access</h2>
-                <p class="lead text-light">We will notify you when Budibase is ready to speed up your development.</p>
-              </div>
-              
-      
-              
-              <form action="https://budibase.us20.list-manage.com/subscribe/post" class="js-validate" form name="signup" method="POST">
-                <input type="hidden" name="u" value="761756dde90443a4375dead81">
-                <input type="hidden" name="id" value="4999d7f159">  
-                <div class="row mx-gutters-2">
-                    <div class="col-sm-7 w-md-60 mx-auto mb-3">
-                      
-                      <div class="js-form-message">
-                        <div class="js-focus-state input-group form">
-                            <p style="display:none;">
-                                <label>Don’t fill this out: <input name="bot-field"></label>
-                              </p>
-                          <input type="email" class="form-control form__input" name="MERGE0" id="MERGE0" required
-                                 placeholder="Submit Email Address"
-                                 aria-label="Email"
-                                 data-msg="Please enter a valid email address.">
-                        </div>
-                      </div>
-                      
-                    </div>
-    
-                    <div class="col-sm-5 mb-3">
-                      <button type="submit" class="btn btn-block btn-secondary">Request Access</button>
-                    </div>
-                  </div>
-                </form>
-              
-            </div>
+  
+  <div class="container">
+    <div class="mx-auto mb-3">
+      <a href="https://www.budibase.com/blog/web-development-tools/">
+        <div class="col-sm-12 blog-item">
+          <div class="blog-item-title">
+            <h4>40 web development tools you must know about in 2020</h4>
+          </div>
+          <div class="blog-item-info">
+            <p class="text-light">Feb 12, 2020</p>
+            <p class="text-light">Joe Johnston </p>
           </div>
         </div>
-      </div>
-      
+      </a>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="mx-auto mb-3">
+      <a href="https://www.budibase.com/blog/web-application-development/">
+        <div class="col-sm-12 blog-item">
+          <div class="blog-item-title">
+            <h4>A beginners guide to web application development (2020)</h4>
+          </div>
+          <div class="blog-item-info">
+            <p class="text-light">Jan 24, 2020</p>
+            <p class="text-light">Joe Johnston </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="mx-auto mb-3">
+      <a href="https://www.budibase.com/blog/5-examples-of-web-application-design/">
+        <div class="col-sm-12 blog-item">
+          <div class="blog-item-title">
+            <h4>5 Recent Examples Of Modern Web Application Design (2020)</h4>
+          </div>
+          <div class="blog-item-info">
+            <p class="text-light">Jul 28, 2019</p>
+            <p class="text-light">Joe Johnston </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="mx-auto mb-3">
+      <a href="https://www.budibase.com/blog/web-app-ideas/">
+        <div class="col-sm-12 blog-item">
+          <div class="blog-item-title">
+            <h4> 8 Web App Ideas You&#39;ll Want To Steal (2020)</h4>
+          </div>
+          <div class="blog-item-info">
+            <p class="text-light">May 25, 2019</p>
+            <p class="text-light">Joe Johnston </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="mx-auto mb-3">
+      <a href="https://www.budibase.com/blog/how-to-make-a-web-app/">
+        <div class="col-sm-12 blog-item">
+          <div class="blog-item-title">
+            <h4>How to build a web app: A beginner&#39;s guide (2020)</h4>
+          </div>
+          <div class="blog-item-info">
+            <p class="text-light">Apr 23, 2019</p>
+            <p class="text-light">Joe Johnston </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="mx-auto mb-3">
+      <a href="https://www.budibase.com/blog/5-good-habits-for-success/">
+        <div class="col-sm-12 blog-item">
+          <div class="blog-item-title">
+            <h4>5 Good Habits For Success In 2019</h4>
+          </div>
+          <div class="blog-item-info">
+            <p class="text-light">Apr 3, 2019</p>
+            <p class="text-light">Joe Johnston </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="mx-auto mb-3">
+      <a href="https://www.budibase.com/blog/progressive-web-app-play-store/">
+        <div class="col-sm-12 blog-item">
+          <div class="blog-item-title">
+            <h4>Progressive Web Apps Can Now Be Shipped Via The Play Store</h4>
+          </div>
+          <div class="blog-item-info">
+            <p class="text-light">Feb 1, 2019</p>
+            <p class="text-light">Joe Johnston </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="mx-auto mb-3">
+      <a href="https://www.budibase.com/blog/budibase-core-intro/">
+        <div class="col-sm-12 blog-item">
+          <div class="blog-item-title">
+            <h4>Budibase Core. A Serverless Database Engine, for fast SaaS development.</h4>
+          </div>
+          <div class="blog-item-info">
+            <p class="text-light">Jan 24, 2019</p>
+            <p class="text-light">Michael Shanks </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="mx-auto mb-3">
+      <a href="https://www.budibase.com/blog/micro-saas-ideas/">
+        <div class="col-sm-12 blog-item">
+          <div class="blog-item-title">
+            <h4>6 Micro SaaS Ideas You&#39;ll Want To Steal in 2020</h4>
+          </div>
+          <div class="blog-item-info">
+            <p class="text-light">Jan 23, 2019</p>
+            <p class="text-light">Joe Johnston </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="mx-auto mb-3">
+      <a href="https://www.budibase.com/blog/cofoundervalidation/">
+        <div class="col-sm-12 blog-item">
+          <div class="blog-item-title">
+            <h4>The 3 components of co-founder validation</h4>
+          </div>
+          <div class="blog-item-info">
+            <p class="text-light">Dec 10, 2018</p>
+            <p class="text-light">Joe Johnston </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+</div>
+
+<div class="cta-container container bg-blue mb-8 space-2">
+    <h2 class="text-white w-60 text-center mx-auto">Choose the new and better way to build business apps.</h2>
+    <div class="col-sm-5 mb-2 mx-auto">
+        <button type="submit" class="btn btn-block btn-secondary">Get started for free ↓</button>
+    </div>
+    </div>
+</div>
 
 
 <div class="alert text-center cookiealert" role="alert">
-  <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="/privacy" target="_blank">Learn more</a>
+  <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="/privacy" target="_blank">Budibase Privacy</a>
 
   <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
       I agree
@@ -579,46 +457,46 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<footer class="bg-dark">
+<footer>
     <div class="container space-2">
       <div class="row justify-content-md-between">
         <div class="col-6 col-md-3 col-lg-2 order-lg-3 mb-7 mb-lg-0">
-          <h3 class="h6 text-white mb-3">Company</h3>
+          <h3 class="h6 mb-3">Company</h3>
   
           
-          <div class="list-group list-group-flush list-group-transparent">
+          <div class="list-group list-group-flush ">
             <a class="list-group-item list-group-item-action" href="/about">About</a>
           </div>
-          <div class="list-group list-group-flush list-group-transparent">
+          <div class="list-group list-group-flush">
             <a class="list-group-item list-group-item-action" href="/privacy">Privacy Policy</a>
           </div>
-          <div class="list-group list-group-flush list-group-transparent">
+          <div class="list-group list-group-flush">
             <a class="list-group-item list-group-item-action" href="/careers">Careers</a>
           </div>
           
         </div>
 
         <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0">
-          <h3 class="h6 text-white mb-3">Features</h3>
+          <h3 class="h6 mb-3">Features</h3>
   
           
-          <div class="list-group list-group-flush list-group-transparent">
+          <div class="list-group list-group-flush ">
             <a class="list-group-item list-group-item-action" href="/build-a-web-app">Build a web app</a>
           </div>
-          <div class="list-group list-group-flush list-group-transparent">
+          <div class="list-group list-group-flush ">
             <a class="list-group-item list-group-item-action" href="/host-a-web-app">Host a web app</a>
           </div>
-          <div class="list-group list-group-flush list-group-transparent">
+          <div class="list-group list-group-flush ">
             <a class="list-group-item list-group-item-action" href="/manage-a-web-app">Manage a web app</a>
           </div>
           
         </div>
   
         <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0">
-          <h3 class="h6 text-white mb-3">Information</h3>
+          <h3 class="h6 mb-3">Learn</h3>
   
           
-          <div class="list-group list-group-flush list-group-transparent">
+          <div class="list-group list-group-flush ">
             <a class="list-group-item list-group-item-action" href="/blog">Blog</a>
           </div>
           
@@ -626,14 +504,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   
         <div class="col-6 col-md-3 col-lg-2 order-lg-6 mb-7 mb-lg-0">
-          <h3 class="h6 text-white mb-3">Get In Touch</h3>
+          <h3 class="h6 mb-3">Get In Touch</h3>
   
           
-          <div class="list-group list-group-flush list-group-transparent">
+          <div class="list-group list-group-flush ">
               <a class="list-group-item list-group-item-action" href="/contact">Contact Us</a>
 
             <a class="list-group-item list-group-item-action" href="https://twitter.com/budibase">
-              <span class="fab fa-twitter min-width-3 text-center mr-2"></span>
               Twitter
             </a>
           </div>
@@ -641,10 +518,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
         </div>
   
-        <div class="col-lg-4 order-lg-1 d-flex align-items-start flex-column">
+        <div class="col-lg-2 order-lg-1 d-flex align-items-start flex-column">
           
           <a class="d-inline-block mb-5" href="/" aria-label="Space">
-            <img src="img/logo/budibase-white-emblem.svg" alt="Logo" style="width: 40px; max-width: 100%;">
+            <img src="img/logo/bb-emblem.svg" alt="Logo" style="width: 40px; max-width: 100%;">
           </a>
           
   

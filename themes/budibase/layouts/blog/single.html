@@ -6,19 +6,18 @@
 <main id="content" role="main">
     <!-- Article Content -->
   
-  <div class="article bg-dark">
+  <div class="article space-4-top">
     <div class="container">
       <header class="w-md-75 w-lg-60 mx-md-auto">
-        <div class="article-title">
           <h1>{{ .Title }}</h1>
-            <h6 class="h6 text-white mb-0">By: {{ .Params.author }}</h6>
-            <h6 class="h6 mb-0 text-muted">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</h6>
-          </div>
+            <h6 class="h6 mt-4">By: {{ .Params.author }}</h6>
+            <h6 class="h6 mt-2 text-muted space-1-bottom">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</h6>
           </div>
         </div>
       </div>
         <!-- End Author -->
       </header>
+
 
       <!-- Description -->
       <div class="article">
