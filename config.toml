@@ -1,6 +1,6 @@
 baseURL = "https://www.budibase.com/"
 languageCode = "en-uk"
-title = "Budibase - No code platform for creating business apps"
+title = "Budibase - No code platform | Open Source | Custom Software"
 theme = "budibase"
 enableEmoji = "true"
 
@@ -11,8 +11,8 @@ copyright = "This work is licensed and owned by Budibase"
   tag = "tags"
 
 [params]
-keywords = ["SaaS Applications", "SaaS builder", "Application builder"]
-description = "Budibase is a modern, open source no code app builder for designing, building and deploying web applications. Budibase eliminates coding and allows you to build web applications in minutes. Check it out."
+keywords = ["No code platform", "Custom software", "Web application builder"]
+description = "Budibase is a modern, open source no code platform for designing, building and deploying custom software. Budibase eliminates coding and allows you to build web applications in minutes. Check it out."
 dateform = "Jan 2, 2006"
 lang = "en"
 
