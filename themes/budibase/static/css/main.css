@@ -423,7 +423,7 @@ h5, h6,
 }
 
 h1, .h1 {
-  font-size: clamp(2.2rem, 3vw, 3rem);
+  font-size: clamp(2rem, 3vw, 3rem);
   font-weight: 500;
   line-height: 1.3;
   text-rendering: optimizeLegibility;
@@ -468,7 +468,7 @@ h6, .h6 {
 
 @media (max-width: 576px) {
   .lead {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -692,6 +692,11 @@ pre code {
   }
 }
 
+@media (min-width: 576px) {
+  .benefit-frame {
+  padding: 2rem;
+  }
+}
 .card-small {
   border: black 2px solid;
   border-radius: 6px;
@@ -1116,6 +1121,7 @@ display: none;
 /* Product hero */
 
 .product-hero-image {
+  background-color: var(--purple);
   padding: 2.5rem;
   border-radius: .75rem;
   border: 3px solid black;
@@ -1259,10 +1265,17 @@ display: none;
   }
 
 .benefit-img {
-  height: 300px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
   margin: auto;
   display: flex;
+}
+
+@media (min-width: 556px) {
+  .benefit-img {
+  max-height: 300px;
+  max-width: 400px;
+  }
 }
 
 .benefit-content {
@@ -4357,11 +4370,20 @@ input[type="button"].btn-block {
   display: flex;
 }
 
+@media (max-width: 556px) {
+  .input-group-prepend,
+  .input-group-append {
+    display: -ms-flexbox;
+    display: contents;
+  }
+}
+
 .input-group-prepend .btn,
 .input-group-append .btn {
   position: relative;
   z-index: 2;
 }
+
 
 .input-group-prepend .btn + .btn,
 .input-group-prepend .btn + .input-group-text,
@@ -4447,6 +4469,18 @@ input[type="button"].btn-block {
 .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+@media (max-width: 556px) {
+.input-group > .input-group-append > .btn,
+.input-group > .input-group-append > .input-group-text,
+.input-group > .input-group-prepend:not(:first-child) > .btn,
+.input-group > .input-group-prepend:not(:first-child) > .input-group-text,
+.input-group > .input-group-prepend:first-child > .btn:not(:first-child),
+.input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
+  margin-top: .5rem;
+  border-radius: 6px;
+}
 }
 
 .custom-control {
