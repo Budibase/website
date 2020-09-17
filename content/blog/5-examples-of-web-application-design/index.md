@@ -1,7 +1,7 @@
 +++
 date = "2019-07-28"
 title = "5 Recent Examples Of Modern Web Application Design (2020)"
-categories = ["Inspire"] 
+categories = ["Inspire", "Design"] 
 tags = ["SaaS, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture"]
 description = "We have debated for many hours to present you with 5 recent examples of modern web application design. Please use these designs as inspiration for your next web app."
 author = "Joe Johnston"
@@ -82,7 +82,7 @@ Buffer takes advantage of a primary top nav, and secondary left navigation panel
 
 The platform is simple to use and a pleasure to work with. It makes scheduling social media posts easy, and presents users with a wonderful reporting platform for simple analyse. Well done Buffer - you aced the redesign!
 
-Bonus - Buffer have 'open-sourced' their UI. Check out their [UI components](https://github.com/bufferapp/buffer-components) repo on Github. They've also 'open sourced' the UI for their [Analyse tool](https://github.com/bufferapp/buffer-analyze).
+Bonus - Buffer have 'open-sourced' their UI. Check out their [UI components](https://github.com/bufferapp/ui) repo on Github. They've also 'open sourced' the UI for their [Analyse tool](hhttps://github.com/bufferapp/ui).
 
 Design - ❤️❤️❤️
 

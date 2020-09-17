@@ -1,0 +1,60 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+<div class="mb-2">
+    <div class="container container-blog space-3-top ">
+      <div class="pricing-heading container mb-2">
+        <h1>Self-hosting pricing</h1>
+        <a href="/pricing">Prefer to let Budibase manage your hosting?</a>
+      </div>
+    </div>
+</div>
+
+<div class="container">
+    <p class="lead">
+      Self-hosting will require you to extract your app from Budibase, and host it wherever you please. This option is ideal if your team has technical expertise. 
+      We will attempt to document the process as best we can. Assistance and support is available and we offer an supported service which you can find below. 
+    </p> 
+
+    <div class="pricing mt-8 mb-8">
+      <div class="pricing-card">
+        <div class="pricing-in-content">
+          <div class="pricing-title">
+            <h5>Open Source</h5>
+            <h5 class="text-blue">$0</h5>
+          </div>
+          <div class="mb-4 mx-auto">
+            <button type="submit" class="btn btn-block btn-secondary">Select</button>
+          </div>  
+            <p class="mb-2">✓ Unlimited records</p>
+            <p class="mb-2">✓ Unlimited attachment storage</p>
+            <p class="mb-2">✓ Unlimited users</p>
+            <p class="mb-2">✓ Unlimited apps</p>
+        </div>
+      </div>
+      <div class="pricing-card">
+        <div class="pricing-in-content">
+          <div class="pricing-title">
+            <h4>Supported</h4>
+            <h5 class="text-blue">$2k <span class="small">p/m</span></h5>
+          </div>  
+          <div class="mb-4 mx-auto">
+            <button type="submit" class="btn btn-block btn-secondary">Select</button>
+          </div>
+          <p class="mb-2">✓ Budibase deploys for you</p>
+          <p class="mb-2">✓ Budibase maintains for you</p>
+          <p class="mb-2">✓ Uptime and scalability SLAs</p>
+          <p class="mb-2">✓ Dedicated support</p>
+          <p class="mb-2">✓ Custom databases</p>
+          <p class="mb-2">✓ Custom integrations</p>
+          <p class="mb-2">✓ Open source benefits</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}
+

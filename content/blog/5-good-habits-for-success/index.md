@@ -80,7 +80,7 @@ It's very important to build on the relationships you have, and just as importan
 It's important to remove the negative relationships in your life. If people are bringing you down, drop them.
 
 ## 3. Focus On Your Health
-{{< figure src="/5-good-habits-for-success/health.jpg" attr="Photo by [Marion Michele](https://unsplash.com/@marion_michele)" alt="health" >}}
+{{< figure src="/5-good-habits-for-success/health.jpg" attr="Photo by [Marion Michele](https://unsplash.com/)" alt="health" >}}
 
 Eating healthy/healthier.
 

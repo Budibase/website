@@ -1,62 +1,80 @@
 {{ partial "header.html" . }}
-
 {{ partial "navigation.html" . }}
+{{ partial "circle-cta.html" . }}
 
 
-<!-- Hero Section -->
-<div class="bg-img-hero">
-  <div class="container text-center space-2 space-4-top space-1-bottom--lg">
-      <div class="w-md-80 mx-auto mb-3">
-        <h1 class="col display-4 font-size-48--md-down">About Budibase</h1>
-      </div>
-  
-      <div class="col-lg-8 mx-auto">
-        <div class="mb-5">
-          <p class="lead mb-0">"There is one thing stronger than all the armies in the world, and that is an idea whose time has come." - Victor Hugo
-</p>
-        </div>
-        <div class="d-sm-flex justify-content-sm-center align-items-sm-center mb-7">
-<!-- Input -->
-          <form class="js-validate w-lg-80" form action="https://budibase.us20.list-manage.com/subscribe/post" form name="signup" method="POST">
-              <input type="hidden" name="u" value="761756dde90443a4375dead81">
-              <input type="hidden" name="id" value="4999d7f159">  
-              <div class="row mx-gutters-2">
-                <div class="col-sm-7 mb-3">
-                  <!-- Input -->
-                  <div class="js-form-message">
-                    <div class="js-focus-state input-group form">
-                        <p style="display:none;">
-                            <label>Don’t fill this out: <input name="bot-field"></label>
-                          </p>
-                          <input type="email" class="form-control form__input" name="MERGE0" id="MERGE0" required
-                             placeholder="Submit Email Address"
-                             aria-label="Email"
-                             data-msg="Please enter a valid email address.">
-                    </div>
-                  </div>
-                  <!-- End Input -->
-                </div>
-
-                <div class="col-sm-5 mb-3">
-                  <button type="submit" class="btn btn-block btn-primary">Request Access</button>
-                </div>
-              </div>
-            </form>
-          </div>
-          <img class="img-fluid" src="img/img/joe-and-mike.jpg" alt="Image Description">       
-        </div>
-      </div>
-
-  <div class="container space-3-bottom--lg">
-      <div class="col-lg-8 mx-auto">
-          <div class="mb-5">
-            <p class="lead mb-0">
-            {{ .Content }}
-          </p>
-
+<div class="space-2-bottom">
+  <div class="container container-blog  space-3-top ">
+    <div class=" mb-3">
+      <h1 class="mb-2">Our Story</h1>
+    </div>
+    <div class="categories">
+      <a href="/about">
+        <h3 class="h6 text-blue mb-0">Story</h3>
+      </a>
+      <a href="/people">
+        <h3 class="h6 text-dark mb-0">People</h3>
+      </a>
+      <a href="/investment">
+        <h3 class="h6 text-dark mb-0">Investment</h3>
+      </a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="about-hero-image">
+      <img class="img-fluid border-black" src="img/img/joe-and-mike.jpg" alt="Image Description">       
+    </div>
   </div>
 </div>
+
+  <div class="container ">
+      <div class="mb-5">
+            <p class="display-lead">There's this notion that to create a web application, you must know how to code. Thankfully, that's now false. There's a new way to build web apps.</p>
+            <br>
+            <p class="display-lead">One, that's accessible by all. We believe every person on earth should have the opportunity to build a web app for themselves or the company they work for - which is why made the decision to open source the Budibase builder. </p>
+            <br>
+            <p class="display-lead">That’s why we’re building Budibase -  to reduce the time it takes to build web apps. We’re abstracting the coding part, taking care of hosting, and providing you with a platform to solve problems and drive digital transformation.</p>
+            <br>
+            <p class="display-lead">This is just the beginning. We eventually want to add additional functionality to improve the usability of the product, and we’ll continue to reduce the time it takes to build web applications.</p>
+            <br>
+            <p class="display-lead">By 2023, the spending on the technologies and services that enable digital transformation worldwide is expected to amount to 2.3 trillion U.S. dollars.</p>
+          </p>
+    </div>
+  </div>
+<div class="space-2"></div>
+  <div class="container-fluid space-3 bg-dark">
+    <div class="container">
+      <div class="value">
+          <div class="question">
+            <h3 class="text-white h2"><b>Vision</h3></p>
+            </div>
+          <div class="answer">
+            <p class="display-lead text-white">To make web development accessible to everyone.</p>
+          </div>
+      </div>
+      <div class="value">
+          <div class="question">
+            <h3 class="text-white h2"><b>Mission</h3></p>
+          </div>
+          <div class="answer text-white">
+            <p class="display-lead text-white">To create the easiest and quickest way to build custom software. </p>
+          </div>
+      </div>
+      <div class="value">
+        <div class="question">
+          <h3 class="text-white h2"><b>Values</h3></p>
+        </div>
+        <div class="answer text-white">
+          <p class="display-lead text-white">Have fun, be open, express yourself, and educate.
+          </p>
+        </div>
+    </div>   
+  </div>
 </div>
+<div class="space-2"></div>
+
+
+
 </div>
 
 {{ partial "cta.html" . }}

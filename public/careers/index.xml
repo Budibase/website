@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Careers at Budibase on Budibase: Web App Builder - Build Your Web App With Speed</title>
+    <title>Careers at Budibase on Budibase - No code platform for creating business apps</title>
     <link>https://www.budibase.com/careers/</link>
-    <description>Recent content in Careers at Budibase on Budibase: Web App Builder - Build Your Web App With Speed</description>
+    <description>Recent content in Careers at Budibase on Budibase - No code platform for creating business apps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.budibase.com/careers/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/careers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Senior Backend Engineer</title>
+      <link>https://www.budibase.com/careers/senior-backend-engineer/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/careers/senior-backend-engineer/</guid>
+      <description>Description Budibase is an open-source low code platform, designed for speed and customisation. When you need to build, launch, and grow a web application, Budibase has you covered. To date, we&amp;rsquo;ve received over 10,000 signups from the likes of F1, Deloitte, KPMG and we&amp;rsquo;re a few weeks from private beta. We have also recently secured a funding round and are seeking to expand our team in Belfast as we take our product to the next level.</description>
+    </item>
     
     <item>
-      <title>Full Stack JavaScript Engineer</title>
+      <title>Senior JavaScript Engineer</title>
       <link>https://www.budibase.com/careers/full-stack-javascript-engineer/</link>
-      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/careers/full-stack-javascript-engineer/</guid>
-      <description>Description Budibase is an open-source low code platform, designed for speed and customisation. When you need to build, launch, and grow a web application, Budibase has you covered. We have just secured a funding round and are seeking to expand our team in Belfast as we take our product to the next level.
-The Role  Work on an open source product in an extremely exciting market. &amp;ldquo;Be the customer&amp;rdquo; - Develop a product that you could potentially use Have a lot influence and input in the direction of the product Huge opportunities for growth Work closely with design and engineering staff to deliver a fantastic user experience for our customers Take ownership of parts of the product and codebase Present your ideas in a clear and effective manner to the rest of the team Working as a team player as part of a small development team Help manage and implement processes that make Budibase a fantastic place to work  Tech Stack At Budibase, we love using lean and modern open source web technologies.</description>
+      <description>Description Budibase is an open-source low code platform, designed for speed and customisation. When you need to build, launch, and grow a web application, Budibase has you covered. To date, we&amp;rsquo;ve received over 10,000 signups from the likes of F1, Deloitte, KPMG and we&amp;rsquo;re a few weeks from private beta. We have also recently secured a funding round and are seeking to expand our team in Belfast as we take our product to the next level.</description>
     </item>
     
   </channel>

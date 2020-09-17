@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SaaS, Serverless on Budibase: Web App Builder - Build Your Web App With Speed</title>
+    <title>SaaS, Serverless on Budibase - No code platform for creating business apps</title>
     <link>https://www.budibase.com/tags/saas-serverless/</link>
-    <description>Recent content in SaaS, Serverless on Budibase: Web App Builder - Build Your Web App With Speed</description>
+    <description>Recent content in SaaS, Serverless on Budibase - No code platform for creating business apps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
-    <lastBuildDate>Thu, 24 Jan 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.budibase.com/tags/saas-serverless/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 24 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/tags/saas-serverless/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Budibase Core. A Serverless Database Engine, for fast SaaS development.</title>
       <link>https://www.budibase.com/blog/budibase-core-intro/</link>

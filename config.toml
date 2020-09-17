@@ -1,6 +1,6 @@
 baseURL = "https://www.budibase.com/"
 languageCode = "en-uk"
-title = "Budibase: Web App Builder - Build Your Web App With Speed"
+title = "Budibase - No code platform for creating business apps"
 theme = "budibase"
 enableEmoji = "true"
 
@@ -12,7 +12,7 @@ copyright = "This work is licensed and owned by Budibase"
 
 [params]
 keywords = ["SaaS Applications", "SaaS builder", "Application builder"]
-description = "Budibase is a modern, open source web app builder for creating, hosting and managing applications. Budibase eliminates repetition and dramatically reduces development time. Check it out."
+description = "Budibase is a modern, open source no code app builder for designing, building and deploying web applications. Budibase eliminates coding and allows you to build web applications in minutes. Check it out."
 dateform = "Jan 2, 2006"
 lang = "en"
 
@@ -24,12 +24,12 @@ lang = "en"
     name = "Budibase"
 
   [params.publisher.logo]
-      url = "/budibase-logo-small.png"
+      url = "/budibase-logo.png"
       width = 127
       height = 40
 
   [params.logo]
-    url = "/budibase-logo-small.png"
+    url = "/budibase-logo.png"
     width = 127
     height = 40
 

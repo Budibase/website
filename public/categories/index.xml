@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Budibase: Web App Builder - Build Your Web App With Speed</title>
+    <title>Categories on Budibase - No code platform for creating business apps</title>
     <link>https://www.budibase.com/categories/</link>
-    <description>Recent content in Categories on Budibase: Web App Builder - Build Your Web App With Speed</description>
+    <description>Recent content in Categories on Budibase - No code platform for creating business apps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
-    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript</title>
+      <link>https://www.budibase.com/categories/javascript/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/javascript/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://www.budibase.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Build</title>
+      <link>https://www.budibase.com/categories/build/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/build/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Ideas</title>
@@ -22,20 +36,11 @@
     </item>
     
     <item>
-      <title>JavaScript</title>
-      <link>https://www.budibase.com/categories/javascript/</link>
-      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+      <title>Design</title>
+      <link>https://www.budibase.com/categories/design/</link>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.budibase.com/categories/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Build</title>
-      <link>https://www.budibase.com/categories/build/</link>
-      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.budibase.com/categories/build/</guid>
+      <guid>https://www.budibase.com/categories/design/</guid>
       <description></description>
     </item>
     
@@ -45,6 +50,15 @@
       <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/categories/inspire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automation</title>
+      <link>https://www.budibase.com/categories/automation/</link>
+      <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/automation/</guid>
       <description></description>
     </item>
     

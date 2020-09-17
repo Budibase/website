@@ -1,23 +1,33 @@
-# Global settings applied to the whole site.
 [build]
-  publish = "public"
-  command = "hugo -d public"
-[build.environment]
-  #overwritten by context.production.environment, et. al.
-  HUGO_VERSION = "0.53"
-# The following environments overwrite the global above if you target them.
-# The version you use for production
+publish = "public"
+command = "hugo --gc --minify"
+
 [context.production.environment]
-  HUGO_VERSION = "0.53"
-# you can lock a version of hugo for a deploy preview
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.53"
-# you can lock a version of hugo for a branch-deploy (other than previews)
-[context.branch-deploy.environment]
-  HUGO_VERSION = "0.53"
-# build a preview of the site (Drafts and Future dates also)
+HUGO_VERSION = "0.75.1"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[context.split1]
+command = "hugo --gc --minify --enableGitInfo"
+
+[context.split1.environment]
+HUGO_VERSION = "0.75.1"
+HUGO_ENV = "production"
+
 [context.deploy-preview]
-  command = "hugo --buildDrafts --buildFuture"
+command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.75.1"
+
+[context.branch-deploy]
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.75.1"
+
+[context.next.environment]
+HUGO_ENABLEGITINFO = "true"
 
   [[redirects]]
   from = "/blog/posts/cofoundervalidation/"
@@ -27,5 +37,20 @@
   [[redirects]]
   from = "/css/annimate.css"
   to = "/css/main.css"
+  status = 301
+
+  [[redirects]]
+  from = "/build-a-web-app"
+  to = "/design"
+  status = 301
+
+  [[redirects]]
+  from = "/host-a-web-app"
+  to = "/deploy"
+  status = 301
+
+  [[redirects]]
+  from = "/manage-a-web-app"
+  to = "/data"
   status = 301
 
