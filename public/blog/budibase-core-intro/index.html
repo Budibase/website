@@ -46,8 +46,8 @@
   "keywords": "SaaS, Serverless",
   "wordcount":  896 ,
   "url": "https:\/\/www.budibase.com\/blog\/budibase-core-intro\/",
-  "datePublished": "2019-01-24T00:00:00\x2b00:00",
-  "dateModified": "2019-01-24T00:00:00\x2b00:00",
+  "datePublished": "2019-01-24T00:00:00\u002b00:00",
+  "dateModified": "2019-01-24T00:00:00\u002b00:00",
   "license": "This work is licensed and owned by Budibase",
   "publisher": {
     "@type": "Organization",
@@ -81,7 +81,7 @@
 
   
   <base href="https://www.budibase.com/">
-  <meta name="generator" content="Hugo 0.67.0" />
+  <meta name="generator" content="Hugo 0.75.1" />
 
  
   
@@ -290,7 +290,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p>Initially, Budibase will target SaaS applications for small to medium sized teams. So, we expect to be able to handle ~20 record creates/updates per second, into a single dataset or &ldquo;Instance&rdquo;. Depending on the application, this could equate to ~100 or more concurrent users, on a single instance.</p>
 <p>Instances should be horizontally scalable. Creating and managing many thousands of instances (I.e. customers) should be trivial.</p>
 <p>A collection of records should be able to hold multiple millions of records.</p>
-<p>A dataset should be single tenant. I.e. Customers&rsquo; data should be segregated from other customers.</p>
+<p>A dataset should be single tenant. I.e. Customers' data should be segregated from other customers.</p>
 <p>Management of the database should be easy. This includes schema &amp; rules updates, backups, dataset creation and copying.</p>
 <p>The end storage engine should be interchangeable, allowing us to drive up performance of a single instance, if necessary.</p>
 <p>Database engine threads should operate without shared memory. This will enable us to horizontally scale a stateless web server component, or even use &ldquo;Serverless Cloud Functions&rdquo;, e.g. Azure Functions or AWS Lambda. This will enable a new paradigm for databases - multiple clients writing structured data directly to disk, without a server in between.</p>
