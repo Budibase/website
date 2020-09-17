@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.budibase.com/automate/</loc>
+    <loc>https://www.budibase.com/design/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.budibase.com/design/</loc>
+    <loc>https://www.budibase.com/automate/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -29,11 +29,6 @@
   
   <url>
     <loc>https://www.budibase.com/self-host/</loc>
-    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.budibase.com/product/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,6 +63,11 @@
   </url>
   
   <url>
+    <loc>https://www.budibase.com/categories/build/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.budibase.com/categories/ideas/</loc>
     <lastmod>2020-03-12T00:00:00+00:00</lastmod>
   </url>
@@ -84,11 +84,6 @@
   
   <url>
     <loc>https://www.budibase.com/blog/web-development-tools/</loc>
-    <lastmod>2020-02-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.budibase.com/categories/build/</loc>
     <lastmod>2020-02-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -218,17 +213,17 @@
   </url>
   
   <url>
-    <loc>https://www.budibase.com/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.budibase.com/blog/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.budibase.com/careers/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   

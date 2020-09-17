@@ -248,7 +248,7 @@ With over 2600 searches per month for 'Instagram Scheduler', and a lot of wishfu
 
 ### 4. OKR Tracker
 
-{{< figure src="/micro-saas-ideas/okr.jpg" attr="Photo by [Rawpixel](https://unsplash.com/photos/gNUMZjxd89w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)" alt="OKR Tracker" >}}
+{{< figure src="/micro-saas-ideas/okr.jpg" attr="Photo by [Rawpixel](https://unsplash.com/)" alt="OKR Tracker" >}}
 
 OKRs was the corporate craze of 2018 - I myself, have been smothered by the new framework. 
 

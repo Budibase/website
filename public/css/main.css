@@ -579,7 +579,6 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  border: solid black 3px;
   border-radius: 12px;
   object-fit: cover;
   margin: auto;
@@ -797,14 +796,22 @@ pre code {
   border: 3px solid black;
 }
 
+
 /* Investment */
 
 .investment-hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
 }
 
+@media (min-width: 762px) {
+  .investment-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
 
 .investment-hero-container {
   display: flex;
@@ -1109,7 +1116,6 @@ display: none;
 /* Product hero */
 
 .product-hero-image {
-  background-color: var(--purple);
   padding: 2.5rem;
   border-radius: .75rem;
   border: 3px solid black;
@@ -1336,7 +1342,10 @@ border: 3px solid black;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
+
 
 .categories {
   display: flex;

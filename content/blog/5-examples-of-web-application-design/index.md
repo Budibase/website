@@ -82,7 +82,7 @@ Buffer takes advantage of a primary top nav, and secondary left navigation panel
 
 The platform is simple to use and a pleasure to work with. It makes scheduling social media posts easy, and presents users with a wonderful reporting platform for simple analyse. Well done Buffer - you aced the redesign!
 
-Bonus - Buffer have 'open-sourced' their UI. Check out their [UI components](https://github.com/bufferapp/buffer-components) repo on Github. They've also 'open sourced' the UI for their [Analyse tool](https://github.com/bufferapp/buffer-analyze).
+Bonus - Buffer have 'open-sourced' their UI. Check out their [UI components](https://github.com/bufferapp/ui) repo on Github. They've also 'open sourced' the UI for their [Analyse tool](hhttps://github.com/bufferapp/ui).
 
 Design - ❤️❤️❤️
 
