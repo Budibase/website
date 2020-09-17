@@ -29,3 +29,18 @@
   to = "/css/main.css"
   status = 301
 
+  [[redirects]]
+  from = "/build-a-web-app"
+  to = "/design"
+  status = 301
+
+  [[redirects]]
+  from = "/host-a-web-app"
+  to = "/deploy"
+  status = 301
+
+  [[redirects]]
+  from = "/manage-a-web-app"
+  to = "/data"
+  status = 301
+

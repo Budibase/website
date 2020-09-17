@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Budibase: Web App Builder - Build Your Web App With Speed</title>
+    <title>Categories on Budibase - No code platform for creating business apps</title>
     <link>https://www.budibase.com/categories/</link>
-    <description>Recent content in Categories on Budibase: Web App Builder - Build Your Web App With Speed</description>
+    <description>Recent content in Categories on Budibase - No code platform for creating business apps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
@@ -40,11 +40,29 @@
     </item>
     
     <item>
+      <title>Design</title>
+      <link>https://www.budibase.com/categories/design/</link>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Inspire</title>
       <link>https://www.budibase.com/categories/inspire/</link>
       <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/categories/inspire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automation</title>
+      <link>https://www.budibase.com/categories/automation/</link>
+      <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/automation/</guid>
       <description></description>
     </item>
     

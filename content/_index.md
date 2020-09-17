@@ -1,8 +1,8 @@
 ---
-title: "Budibase | Open source low code platform for building web apps"
-description: "Budibase is a modern, open source low code platform for creating, launching and growing web applications. Budibase eliminates repetition and dramatically reduces development time. Check it out."
+title: "No code platform | Open Source | Custom Software | Budibase"
+description: "Budibase is a modern, open source no code platform for designing, building and deploying custom software. Budibase eliminates coding and allows you to build web applications in minutes. Check it out."
 images:
-- budibase-logo.jpg
+- budibase-logo.png
 layout: single
 date: 2019-01-01
 ---

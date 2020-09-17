@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://www.budibase.com/design/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.budibase.com/data/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
@@ -18,12 +23,12 @@
   </url>
   
   <url>
-    <loc>https://www.budibase.com/design/</loc>
+    <loc>https://www.budibase.com/pricing/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.budibase.com/pricing/</loc>
+    <loc>https://www.budibase.com/self-host/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,6 +123,11 @@
   </url>
   
   <url>
+    <loc>https://www.budibase.com/categories/design/</loc>
+    <lastmod>2019-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.budibase.com/categories/inspire/</loc>
     <lastmod>2019-07-28T00:00:00+00:00</lastmod>
   </url>
@@ -130,6 +140,11 @@
   <url>
     <loc>https://www.budibase.com/tags/ideas-web-app/</loc>
     <lastmod>2019-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/categories/automation/</loc>
+    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -1,133 +1,52 @@
 {{ partial "header.html" . }}
 
 {{ partial "navigation.html" . }}
-<div class="bg-img-hero space-2-bottom--lg">
-  <div class="container text-center space-2 space-4-top">
-          <div class="w-md-80 mx-auto mb-3">
-            <h1 class="col display-4 font-size-48--md-down">{{ .Title }}</h1>
-        <div class="col-lg-10 mx-auto">
-            <div class="mb-5">
-              <p class="lead">Everything you need to know about creating a web application, building a startup, and living a life outside the 9-5. </p>
-            </div>
-            <div class="d-sm-flex justify-content-sm-center align-items-sm-center mb-7">
-<!-- Input -->
-<form class="js-validate w-lg-80" form action="https://budibase.us20.list-manage.com/subscribe/post" form name="signup" method="POST">
-  <input type="hidden" name="u" value="761756dde90443a4375dead81">
-  <input type="hidden" name="id" value="4999d7f159">  
-  <div class="row mx-gutters-2">
-    <div class="col-sm-7 mb-3">
-      <!-- Input -->
-      <div class="js-form-message">
-        <div class="js-focus-state input-group form">
-            <p style="display:none;">
-                <label>Don’t fill this out: <input name="bot-field"></label>
-              </p>
-              <input type="email" class="form-control form__input" name="MERGE0" id="MERGE0" required
-                 placeholder="Submit Email Address"
-                 aria-label="Email"
-                 data-msg="Please enter a valid email address.">
-        </div>
-      </div>
-      <!-- End Input -->
-                    </div>
+<div class="space-3-bottom">
+  <div class="container container-blog mb-4  space-3-top ">
+    <div class=" mb-3">
+      <h1 class="mb-2">BudiBlog</h1>
+    </div>
+    <div class="categories">
+      <a href="/blog">
+        <h3 class="h6 text-dark mb-0">All</h3>
+      </a>
+      <a href="/categories/inspire/">
+        <h3 class="h6 text-dark mb-0">Ideas</h3>
+      </a>
+      <a href="/categories/build/">
+        <h3 class="h6 text-dark mb-0">Dev</h3>
+      </a>
+      <a href="/categories/design/">
+        <h3 class="h6 text-dark mb-0">Design</h3>
+      </a>
+      <a href="/categories/automation/">
+        <h3 class="h6 text-dark mb-0">Automation</h3>
+      </a>
+      <a href="/categories/host/">
+        <h3 class="h6 text-dark mb-0">Infra</h3>
+      </a>
+    </div>
+  </div>
 
-                    <div class="col-sm-5 mb-3">
-                      <button type="submit" class="btn btn-block btn-primary">Request Access</button>
-                    </div>
-                  </div>
-                </form>
-            </div>
-    
-            <!-- End Clients -->
+  {{ range .Pages.ByDate.Reverse }}
+  <div class="container">
+    <div class="mx-auto mb-3">
+      <a href="{{ .Permalink }}">
+        <div class="col-sm-12 blog-item">
+          <div class="blog-item-title">
+            <h4>{{ .Title }}</h4>
+          </div>
+          <div class="blog-item-info">
+            <p class="text-light">{{ .Date.Format .Site.Params.dateform }}</p>
+            <p class="text-light">{{ .Params.author }} </p>
           </div>
         </div>
-      </div>
-
-     
-
-{{ range .Pages.ByDate.Reverse }}
-<div class="container ">
-  <div class="row">
-    <div class="w-md-60 mx-auto mb-3">
-      <div class="col-sm-12">
-        <article class="card mb-5">
-            <div class="card-body p-5">
-              <h3 class="strong">
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-              </h3>
-              <p class="lead mb-0">{{ .Description }}</p>
-              <div class="space-1-top">
-              </div>
-              <h4 class="cta"><a href="{{ .Permalink }}">Read More</a></h4>
-                <small class="d-block-2 text-dark">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }} | By: {{ .Params.author }} </small>
-              </div>
-        </article>
-      </div>
+      </a>
     </div>
   </div>
-</div>
-{{ end }}
- 
-</div>   
-
-<div class="container text-center space-1">
-  <div class="w-md-80 mx-auto mb-3">
-    <h2 class="strong">Categories</h2>
-    <!-- Icon Blocks Section -->
-  <div class="container space-2 ">
-    <div class="row justify-content-center">
-      <div class="col-6 col-sm-4 col-lg mb-5 mb-lg-0">
-        <!-- Icon Block -->
-        <a class="d-block card-frame bg-white text-center rounded py-7 px-5" href="/categories/inspire/">
-          <img class="d-block max-width-6 mx-auto mb-2" src="icon/inspire.svg" alt="Inspire Icon">
-          <h3 class="h6 text-dark mb-0">Inspire</h3>
-        </a>
-        <!-- End Icon Block -->
-      </div>
-
-      <div class="col-6 col-sm-4 col-lg mb-5 mb-sm-0">
-        <!-- Icon Block -->
-        <a class="d-block card-frame bg-white text-center rounded py-7 px-5" href="/categories/build/">
-          <img class="d-block max-width-6 mx-auto mb-2" src="icon/build.svg" alt="Build icon">
-          <h3 class="h6 text-dark mb-0">Build</h3>
-        </a>
-        <!-- End Icon Block -->
-      </div>
-
-      <div class="col-6 col-sm-4 col-lg mb-5 mb-sm-0">
-        <!-- Icon Block -->
-        <a class="d-block card-frame bg-white text-center rounded py-7 px-5" href="/categories/host/">
-          <img class="d-block max-width-6 mx-auto mb-2" src="icon/host.svg" alt="Manage icon">
-          <h3 class="h6 text-dark mb-0">Host</h3>
-        </a>
-        <!-- End Icon Block -->
-      </div>
-
-      <div class="col-6 col-sm-4 col-lg mb-5 mb-sm-0">
-        <!-- Icon Block -->
-        <a class="d-block card-frame bg-white text-center rounded py-7 px-5" href="/categories/manage/">
-          <img class="d-block max-width-6 mx-auto mb-2" src="icon/manage.svg" alt="Manage icon">
-          <h3 class="h6 text-dark mb-0">Manage</h3>
-        </a>
-        <!-- End Icon Block -->
-      </div>
-
-      <div class="col-6 col-sm-4 col-lg">
-        <!-- Icon Block -->
-        <a class="d-block card-frame bg-white text-center rounded py-7 px-5" href="/categories/grow/">
-          <img class="d-block max-width-6 mx-auto mb-2" src="icon/grow.svg" alt="Grow icon">
-          <h3 class="h6 text-dark mb-0">Grow</h3>
-        </a>
-        <!-- End Icon Block -->
-      </div>
-    </div>
-  </div>
-<!-- End Icon Blocks Section -->
-  </div>
+  {{ end }}
 </div>
 
-
-
-{{ partial "cta.html" . }}
+{{ partial "cta-dark.html" . }}
 
 {{ partial "footer.html" . }}

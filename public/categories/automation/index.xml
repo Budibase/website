@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation on Budibase - No code platform for creating business apps</title>
+    <link>https://www.budibase.com/categories/automation/</link>
+    <description>Recent content in Automation on Budibase - No code platform for creating business apps</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>This work is licensed and owned by Budibase</copyright>
+    <lastBuildDate>Tue, 23 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.budibase.com/categories/automation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to build a web app: A beginner&#39;s guide (2020)</title>
+      <link>https://www.budibase.com/blog/how-to-make-a-web-app/</link>
+      <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/how-to-make-a-web-app/</guid>
+      <description>Picture by Med Badr
+  In this post, I’m going to show you EXACTLY how to make a web app.
+In fact, this is the process I’ve used, revised and perfected over the last 5 years.
+I’ve used this exact process, or a version of it to build over 15 applications of all shapes and sizes. For me, this is 100% the best way to build web applications.</description>
+    </item>
+    
+  </channel>
+</rss>

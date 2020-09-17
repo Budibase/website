@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Budibase | Open source low code platform for building web apps on Budibase: Web App Builder - Build Your Web App With Speed</title>
+    <title>All-in-one no code app builder | Budibase on Budibase - No code platform for creating business apps</title>
     <link>https://www.budibase.com/</link>
-    <description>Recent content in Budibase | Open source low code platform for building web apps on Budibase: Web App Builder - Build Your Web App With Speed</description>
+    <description>Recent content in All-in-one no code app builder | Budibase on Budibase - No code platform for creating business apps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
@@ -13,7 +13,7 @@
     
     
     <item>
-      <title>Database Apps - The easy way to build database apps for free</title>
+      <title>BPM Software | Budibase is simple, free and open source</title>
       <link>https://www.budibase.com/automate/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -22,7 +22,16 @@
     </item>
     
     <item>
-      <title>Database Apps - The easy way to build database apps for free</title>
+      <title>Custom software - Build web apps with no code and for free</title>
+      <link>https://www.budibase.com/design/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database application builder - Free, open source and no coding</title>
       <link>https://www.budibase.com/data/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -40,20 +49,20 @@
     </item>
     
     <item>
-      <title>Database Apps - The easy way to build database apps for free</title>
-      <link>https://www.budibase.com/design/</link>
-      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.budibase.com/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>No Code Platform Pricing | Budibase</title>
       <link>https://www.budibase.com/pricing/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/pricing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-hosting no code platform | Budibase</title>
+      <link>https://www.budibase.com/self-host/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/self-host/</guid>
       <description></description>
     </item>
     

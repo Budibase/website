@@ -1,7 +1,7 @@
 +++
 date = "2019-04-23"
 title = "How to build a web app: A beginner's guide (2020)"
-categories = ["Build"] 
+categories = ["Build", "Automation"] 
 tags = ["SaaS, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture"]
 description = "Learn the best way to create a web application and deploy it. This tutorial will provide you with a simple and informative stepped approach on how to build a web app."
 author = "Joe Johnston"

@@ -1,6 +1,6 @@
 ---
-title: "Database Apps - The easy way to build database apps for free"
-description: "Budibase is the quick and easier way to build the best database apps. Simply add and manage your data with just a few clicks, or upload from a CSV"
+title: "BPM Software | Budibase is simple, free and open source"
+description: "Budibase is the new and better custom software development platform. Build custom software in minutes, with no code, and for free. Check it out."
 type: automate
 layout: single
 date: 2020-09-01

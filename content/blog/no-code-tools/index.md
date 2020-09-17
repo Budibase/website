@@ -1,7 +1,7 @@
 +++
 date = "2020-03-12"
 title = "The 12 best no-code tools in 2020"
-categories = ["Ideas"] 
+categories = ["Ideas", "Build"] 
 tags = ["no-code"]
 description = "Having the right no-code stack can help you get the job done a lot faster, easier and cheaper. Here are my top 12 best no-code tools to use in 2020."
 author = "Joe Johnston"
