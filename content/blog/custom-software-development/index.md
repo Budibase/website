@@ -61,7 +61,8 @@ No longer do SMEs, startups, or entreprise organizations have to suffer at the h
    Custom software development focuses on your specific problem. You can fully customize your new software to your requirements - no bloat, no strange UX, no overly engineered component. You specifically design and develop to solve your problem - nothing else.
 
 2. **ROI** 
-   Investing in COTS, is investing money into another organization. Building internal software is a great way of investing in your own organisation. In addition, there's also potential to sell your new software and make money from it - depending on the general make-up of the product and if it can be packaged and distributed easily. But, you can be guaranteed, that if your product solves your solution, it will solve someone elses.
+   Investing in COTS, is investing money into another organization. Building internal software is a great way of investing in your own organization. In addition, there's also potential to sell your new software and make money from it - depending on the general make-up of the product and if it can be packaged and distributed easily. But, you can be guaranteed, that if your product solves your solution, it will solve someone else's.
+   
 
 3. **Scalability** 
    With COTS software it is hard to scale solutions to fit new requirements. There is limited access to the code in some cases and you have no say over the roadmap, so changing the software can be impossible, leading to scalability issues.
