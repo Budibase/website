@@ -7,6 +7,7 @@ description = "Custom software development is the method of building specific so
 author = "Joe Johnston"
 draft = "false"
 image = "/custom-software-development/world-eating-software.png"
+images = ["/custom-software-development/world-eating-software.png"]
 
 +++
 
