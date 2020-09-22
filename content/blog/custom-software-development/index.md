@@ -13,7 +13,7 @@ images = ["/custom-software-development/world-eating-software.png"]
 
 The world is eating software. 🌎 🍴🌐
 
-The above is a tongue-in-cheek response to the famous words of Marc Andreessen, 'software is eating the world.' Marc's words hail from his wondrous post, dated 2011, and tited, [Why software is eating the world](https://a16z.com/2011/08/20/why-software-is-eating-the-world/). 
+The above is a tongue-in-cheek response to the famous words of Marc Andreessen, 'software is eating the world.' Marc's words hail from his wondrous post, dated 2011, and titled, [Why software is eating the world](https://a16z.com/2011/08/20/why-software-is-eating-the-world/). 
 
 In 2011, software was indeed eating the world. A new wave of digital pathfinders developed and launched innovative software that would inevitably take the internet by storm. We had a surge of companies such as Amazon, Hubspot, Mailchimp, Salesforce, and Pipedrive. Companies excitedly swarmed to these platforms and equipped themselves with newfound superpowers. The digital revolution was upon us. Productivity hit new heights, the startup ecosystem exploded, and SaaS was prominent. 
 
