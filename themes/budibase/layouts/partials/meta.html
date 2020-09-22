@@ -128,3 +128,35 @@
       a.appendChild(r);
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+    
+    var targetCookie = "_ga="
+    var cookieParts = document.cookie.split(";")
+    
+    var gidCookie
+    for (var i = 0; i < cookieParts.length; i++) {
+      if (cookieParts[i].trim().startsWith(targetCookie)) {
+        gidCookie = cookieParts[i].trim()
+      }      
+    }
+
+    if (gidCookie) {
+
+      var gid = gidCookie.substring(targetCookie.length)
+
+      var allLinks = document.getElementsByTagName("A");
+      var index = 0;
+
+      for (let index = 0; index < allLinks.length; index++) {
+        var anchor = allLinks[index];
+        if (anchor.href.indexOf("portal.budi.live") >= 0) {
+          anchor.href = anchor.href + "?id=" + gid
+        }
+      }
+
+    }
+    
+  }, false)
+</script>
