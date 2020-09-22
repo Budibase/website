@@ -43,7 +43,7 @@ One significant benefit for choosing COTS software is support. COTS companies de
 
 {{< figure src="/custom-software-development/software-development-changing.png"  alt="Custom Software Development Is Changing" >}}
 
-In the last 30 years, custom software development was primarily utilised within enterprise. SMEs simply did not have the time or resource available for custom software development. And, when COTS software did not solve the problem for SMEs, tools like Excel and Access were drafted in and a solution glued together. 
+In the last 30 years, custom software development was primarily utilized within enterprise. SMEs simply did not have the time or resource available for custom software development. And, when COTS software did not solve the problem for SMEs, tools like Excel and Access were drafted in and a solution glued together. 
 
 This is no longer the case. A solution is upon us - the no code platform.
 
@@ -80,7 +80,7 @@ No longer do SMEs, startups, or entreprise organizations have to suffer at the h
 
 {{< figure src="/custom-software-development/cost.png"  alt="How much does it cost to develop custom software?" >}}
 
-Traditionally, it will cost you $30,000 - $80,000 to hire an engineer(s) to develop custom software. The price can vary dramaticaly and depends on the size and scope of the desired project, and the quality/experience of the individual/team you seek to hire. 
+Traditionally, it will cost you $30,000 - $80,000 to hire an engineer(s) to develop custom software. The price can vary dramatically and depends on the size and scope of the desired project, and the quality/experience of the individual/team you seek to hire. 
 
 Primarily, the following impact the cost:
 
@@ -157,12 +157,11 @@ In other words, try to do your research, keep things simple, and always communic
 
 ## Custom software examples
 
-On a recent call with David Singleton (lead engineer at [Stripe](https://www.stripe.com)), we asked David when was the right time to buy COTS software or build your own. David explained, at Stripe, they generally build their own tools. But there are situations where building their own tools is not feasible as they would not be as good as the available tools on the market -  he used Github as an example. I would agree with this sentiment. There are tools, which for most companies, are simply out of reach. No code tools are best for small web applications, like CRMs, ERPs, Inventory platforms, bug tracking, employee management, booking platforms, etc. Below, I have listed my three favourite examples of custom software development:
+On a recent call with David Singleton (lead engineer at [Stripe](https://www.stripe.com)), we asked David when was the right time to buy COTS software or build your own. David explained, at Stripe, they generally build their own tools. But there are situations where building their own tools is not feasible as they would not be as good as the available tools on the market -  he used Github as an example. I would agree with this sentiment. There are tools, which for most companies, are simply out of reach. No code tools are best for small web applications, like CRMs, ERPs, Inventory platforms, bug tracking, employee management, booking platforms, etc. Below, I have listed my three favorite examples of custom software development:
 
 1. **Percolate**
    Percolate is a content management system for the enterprise. Early in Percolate's life, CEO Noah Brier knew the importance of automating processes and distributing knowledge. He wanted the right people to have the right information, no duplication, and no wasted time. To solve these problems, he decided to build custom software / internal tools. One of Percolate's tools is called Barista -  a knowledge exchange platform, which routes questions to the right people. Noah quickly noticed that one of the biggest problems within an organization is communication between business and product teams. Barista solves this problem by automatically populating user questions and automatically funneling the question to the product expert.
    Pretty neat, right! 
-
 2. **Oribi**
    Oribi is an all-in-one analytics tool, led by CEO and serial founder, Iris Shoor. One of Iris's main issues, recently, has been how to work smarter and more efficiently. To solve this issue, Iris created custom software, specific to her company's problems. In total, she has created five tools, from a Slack integration through to a debugger. The tool I find the most fascinating is their dashboard. Within their dashboard, you will find the company's milestones, monthly and weekly task lists, monthly and weekly goals, website traffic, and details on new users. The reason Iris decided to build their dashboard was that other analytics tools only focused on displaying data, rather than content.
 
@@ -172,7 +171,7 @@ On a recent call with David Singleton (lead engineer at [Stripe](https://www.str
 
 I hope the examples above inspire you. Due to platforms like [Budibase](https://www,budibase.com),  the barrier for building custom software is at an all-time low. You don't need to be a developer. You don't need to know how to code. And you can build custom software in minutes, not months. A new generation of software development awaits us. 
 
-Thank-you for reading and good luck. If you are interested, please sign-up to Budibase below, and get started (it's free and no CC required).
+Thank you for reading and good luck. If you are interested, please sign-up to Budibase below, and get started (it's free and no CC required).
 
 
 
