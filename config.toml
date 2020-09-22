@@ -6,6 +6,9 @@ enableEmoji = "true"
 
 copyright = "This work is licensed and owned by Budibase"
 
+[markup.goldmark.renderer]
+hardWraps = true
+
 [taxonomies]
   category = "categories"
   tag = "tags"

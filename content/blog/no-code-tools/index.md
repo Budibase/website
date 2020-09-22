@@ -7,7 +7,6 @@ description = "Having the right no-code stack can help you get the job done a lo
 author = "Joe Johnston"
 images = ["/no-code-tools/no-code-tools.png"]
 draft ="false"
-
 +++
 
 No-code tools empower people around the world to build technology without code. Before no-code tools, building a simple web application was a challenging task, and often left to developers. Thankfully, this is not the case anymore. While no-code tools cannot solve all technical challenges, having the right no-code stack can undoubtedly help you get certain jobs done a lot faster, easier, and cheaper.

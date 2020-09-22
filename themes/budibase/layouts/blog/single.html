@@ -6,19 +6,19 @@
 <main id="content" role="main">
     <!-- Article Content -->
   
-  <div class="article space-4-top">
+  <div class="article space-3-top">
     <div class="container">
       <header class="w-md-75 w-lg-60 mx-md-auto">
-          <h1>{{ .Title }}</h1>
-            <h6 class="h6 mt-4">By: {{ .Params.author }}</h6>
-            <h6 class="h6 mt-2 text-muted space-1-bottom">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</h6>
-          </div>
+          <h1 class="text-center">{{ .Title }}</h1>
+          <img class="u-md-avatar mt-4" src="/img/img/joe.jpg">
+          <p class="text-center text-light">By: {{ .Params.author }} </p>
+          <p class="text-light mb-4 text-center">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</p>
         </div>
       </div>
         <!-- End Author -->
       </header>
 
-
+      <img class="article-title-img rounded" src="{{ with .Params.image }}{{ . }}{{ end }}" />      
       <!-- Description -->
       <div class="article">
         <div class="container space-1-top ">

@@ -182,7 +182,7 @@ strong {
 }
 
 small {
-  font-size: 80%;
+  font-size: 88%;
 }
 
 sub,
@@ -202,7 +202,7 @@ sup {
 }
 
 a {
-  color: #4285F4;
+  color: #0060ff;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -423,7 +423,7 @@ h5, h6,
 }
 
 h1, .h1 {
-  font-size: clamp(2.2rem, 3vw, 3rem);
+  font-size: clamp(2rem, 3vw, 3rem);
   font-weight: 500;
   line-height: 1.3;
   text-rendering: optimizeLegibility;
@@ -468,7 +468,7 @@ h6, .h6 {
 
 @media (max-width: 576px) {
   .lead {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -529,7 +529,7 @@ hr {
 
 small,
 .small {
-  font-size: 80%;
+  font-size: 82%;
   font-weight: 400;
 }
 
@@ -692,6 +692,11 @@ pre code {
   }
 }
 
+@media (min-width: 576px) {
+  .benefit-frame {
+  padding: 2rem;
+  }
+}
 .card-small {
   border: black 2px solid;
   border-radius: 6px;
@@ -1116,6 +1121,7 @@ display: none;
 /* Product hero */
 
 .product-hero-image {
+  background-color: var(--purple);
   padding: 2.5rem;
   border-radius: .75rem;
   border: 3px solid black;
@@ -1259,10 +1265,17 @@ display: none;
   }
 
 .benefit-img {
-  height: 300px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
   margin: auto;
   display: flex;
+}
+
+@media (min-width: 556px) {
+  .benefit-img {
+  max-height: 300px;
+  max-width: 400px;
+  }
 }
 
 .benefit-content {
@@ -4357,11 +4370,20 @@ input[type="button"].btn-block {
   display: flex;
 }
 
+@media (max-width: 556px) {
+  .input-group-prepend,
+  .input-group-append {
+    display: -ms-flexbox;
+    display: contents;
+  }
+}
+
 .input-group-prepend .btn,
 .input-group-append .btn {
   position: relative;
   z-index: 2;
 }
+
 
 .input-group-prepend .btn + .btn,
 .input-group-prepend .btn + .input-group-text,
@@ -4447,6 +4469,18 @@ input[type="button"].btn-block {
 .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+@media (max-width: 556px) {
+.input-group > .input-group-append > .btn,
+.input-group > .input-group-append > .input-group-text,
+.input-group > .input-group-prepend:not(:first-child) > .btn,
+.input-group > .input-group-prepend:not(:first-child) > .input-group-text,
+.input-group > .input-group-prepend:first-child > .btn:not(:first-child),
+.input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
+  margin-top: .5rem;
+  border-radius: 6px;
+}
 }
 
 .custom-control {
@@ -10916,7 +10950,7 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .text-light {
-  color: #757575 !important;
+  color: #616161 !important;
 }
 
 a.text-light:hover, a.text-light:focus {
@@ -14667,446 +14701,6 @@ button:focus {
 
 .btn-text-blue:hover, .btn-text-blue:focus, .btn-text-blue:active {
   color: #000000;
-}
-
-/*------------------------------------
-  Dropwodn
-------------------------------------*/
-.dropdown-menu {
-  font-size: 0.875rem;
-  padding: 1rem 1.5rem;
-  box-shadow: 0 4px 15px rgba(100, 111, 121, 0.1);
-}
-
-/*------------------------------------
-  Divider
-------------------------------------*/
-.u-divider {
-  position: relative;
-  display: inline-block;
-}
-
-.u-divider::before, .u-divider::after {
-  position: absolute;
-  top: 50%;
-  background-color: #d4d7dd;
-  content: "";
-}
-
-.u-divider::before {
-  right: 100%;
-}
-
-.u-divider::after {
-  left: 100%;
-}
-
-.u-divider-wrapper {
-  overflow: hidden;
-}
-
-/*------------------------------------
-  Divider Sizes
-------------------------------------*/
-/* Extra Small */
-.u-divider--xs {
-  font-size: 0.75rem;
-}
-
-.u-divider--xs::before, .u-divider--xs::after {
-  width: 62.4375rem;
-  height: 0.0625rem;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-.u-divider--xs::before {
-  margin-right: 0.625rem;
-}
-
-.u-divider--xs::after {
-  margin-left: 0.625rem;
-}
-
-/*------------------------------------
-  Divider Styles
-------------------------------------*/
-/* Text */
-.u-divider--text {
-  color: #000000;
-}
-
-/*------------------------------------
-  Icon
-------------------------------------*/
-.u-icon {
-  position: relative;
-  z-index: 1;
-  line-height: 0.7;
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center;
-  width: 2.75rem;
-  height: 2.75rem;
-  font-size: 1rem;
-  border-radius: 0.25rem;
-  transition: 0.3s ease-in-out;
-}
-
-.u-icon__inner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.u-icon--shadow {
-  box-shadow: 0 4px 8px 0 #e3e6f0;
-}
-
-/*------------------------------------
-  Icon Default Styles
-------------------------------------*/
-/* primary */
-.u-icon--primary {
-  color: #fff;
-  background-color: #4285F4;
-  border-color: #4285F4;
-}
-
-.u-icon--primary[href]:hover {
-  color: #fff;
-  background-color: #1ca766;
-  border-color: #1a9c5f;
-}
-
-.u-icon--primary.disabled, .u-icon--primary:disabled {
-  background-color: #4285F4;
-  border-color: #4285F4;
-}
-
-/* secondary */
-.u-icon--secondary {
-  color: #fff;
-  background-color: #646f79;
-  border-color: #646f79;
-}
-
-.u-icon--secondary[href]:hover {
-  color: #fff;
-  background-color: #535c64;
-  border-color: #4d555d;
-}
-
-.u-icon--secondary.disabled, .u-icon--secondary:disabled {
-  background-color: #646f79;
-  border-color: #646f79;
-}
-
-/* success */
-.u-icon--success {
-  color: #fff;
-  background-color: #4285F4;
-  border-color: #4285F4;
-}
-
-.u-icon--success[href]:hover {
-  color: #fff;
-  background-color: #1ca766;
-  border-color: #1a9c5f;
-}
-
-.u-icon--success.disabled, .u-icon--success:disabled {
-  background-color: #4285F4;
-  border-color: #4285F4;
-}
-
-/* info */
-.u-icon--info {
-  color: #000000;
-  background-color: #00dffc;
-  border-color: #00dffc;
-}
-
-.u-icon--info[href]:hover {
-  color: #fff;
-  background-color: #00bdd6;
-  border-color: #00b2c9;
-}
-
-.u-icon--info.disabled, .u-icon--info:disabled {
-  background-color: #00dffc;
-  border-color: #00dffc;
-}
-
-/* warning */
-.u-icon--warning {
-  color: #000000;
-  background-color: #ffbc42;
-  border-color: #ffbc42;
-}
-
-.u-icon--warning[href]:hover {
-  color: #000000;
-  background-color: #ffae1c;
-  border-color: #ffaa0f;
-}
-
-.u-icon--warning.disabled, .u-icon--warning:disabled {
-  background-color: #ffbc42;
-  border-color: #ffbc42;
-}
-
-/* danger */
-.u-icon--danger {
-  color: #fff;
-  background-color: #da4b48;
-  border-color: #da4b48;
-}
-
-.u-icon--danger[href]:hover {
-  color: #fff;
-  background-color: #d12e2a;
-  border-color: #c72b28;
-}
-
-.u-icon--danger.disabled, .u-icon--danger:disabled {
-  background-color: #da4b48;
-  border-color: #da4b48;
-}
-
-/* light */
-.u-icon--light {
-  color: #000000;
-  background-color: #f9fbfd;
-  border-color: #f9fbfd;
-}
-
-.u-icon--light[href]:hover {
-  color: #000000;
-  background-color: #dae5f0;
-  border-color: #d1dfec;
-}
-
-.u-icon--light.disabled, .u-icon--light:disabled {
-  background-color: #f9fbfd;
-  border-color: #f9fbfd;
-}
-
-/* dark */
-.u-icon--dark {
-  color: #fff;
-  background-color: #000000;
-  border-color: #000000;
-}
-
-.u-icon--dark[href]:hover {
-  color: #fff;
-  background-color: #07090d;
-  border-color: #030405;
-}
-
-.u-icon--dark.disabled, .u-icon--dark:disabled {
-  background-color: #000000;
-  border-color: #000000;
-}
-
-/* purple */
-.u-icon--purple {
-  color: #fff;
-  background-color: #6A78D1;
-  border-color: #6A78D1;
-}
-
-.u-icon--purple[href]:hover {
-  color: #fff;
-  background-color: #5648ff;
-  border-color: #4a3bff;
-}
-
-.u-icon--purple.disabled, .u-icon--purple:disabled {
-  background-color: #6A78D1;
-  border-color: #6A78D1;
-}
-
-/* green */
-.u-icon--green {
-  color: #fff;
-  background-color: #49C39E;
-  border-color: #49C39E;
-}
-
-.u-icon--green[href]:hover {
-  color: #fff;
-  background-color: #44B492;
-  border-color: #49C39E;
-}
-
-.u-icon--green.disabled, .u-icon--green:disabled {
-  background-color: #49C39E;
-  border-color: #49C39E;
-}
-
-/* yellow */
-.u-icon--yellow {
-  color: #fff;
-  background-color: #F5C26B;
-  border-color: #F5C26B;
-}
-
-.u-icon--yellow[href]:hover {
-  color: #fff;
-  background-color: #f9ba4d;
-  border-color: #ffd489;
-}
-
-.u-icon--yellow.disabled, .u-icon--yellow:disabled {
-  background-color: #F5C26B;
-  border-color: #F5C26B;
-}
-
-/* blue */
-.u-icon--blue {
-  color: #fff;
-  background-color: #1c6be1;
-  border-color: #1c6be1;
-}
-
-.u-icon--blue[href]:hover {
-  color: #fff;
-  background-color: #185bbf;
-  border-color: #1655b4;
-}
-
-.u-icon--blue.disabled, .u-icon--blue:disabled {
-  background-color: #1c6be1;
-  border-color: #1c6be1;
-}
-
-/* facebook */
-.u-icon--facebook {
-  color: #fff;
-  background-color: #3b5998;
-  border-color: #3b5998;
-}
-
-.u-icon--facebook[href]:hover {
-  color: #fff;
-  background-color: #30497c;
-  border-color: #2d4373;
-}
-
-.u-icon--facebook.disabled, .u-icon--facebook:disabled {
-  background-color: #3b5998;
-  border-color: #3b5998;
-}
-
-/* google */
-.u-icon--google {
-  color: #fff;
-  background-color: #d14130;
-  border-color: #d14130;
-}
-
-.u-icon--google[href]:hover {
-  color: #fff;
-  background-color: #b33628;
-  border-color: #a93325;
-}
-
-.u-icon--google.disabled, .u-icon--google:disabled {
-  background-color: #d14130;
-  border-color: #d14130;
-}
-
-/* twitter */
-.u-icon--twitter {
-  color: #fff;
-  background-color: #1da1f2;
-  border-color: #1da1f2;
-}
-
-.u-icon--twitter[href]:hover {
-  color: #fff;
-  background-color: #0d8ddc;
-  border-color: #0c85d0;
-}
-
-.u-icon--twitter.disabled, .u-icon--twitter:disabled {
-  background-color: #1da1f2;
-  border-color: #1da1f2;
-}
-
-/* instagram */
-.u-icon--instagram {
-  color: #fff;
-  background-color: #3f729b;
-  border-color: #3f729b;
-}
-
-.u-icon--instagram[href]:hover {
-  color: #fff;
-  background-color: #345e80;
-  border-color: #305777;
-}
-
-.u-icon--instagram.disabled, .u-icon--instagram:disabled {
-  background-color: #3f729b;
-  border-color: #3f729b;
-}
-
-/* github */
-.u-icon--github {
-  color: #fff;
-  background-color: #24292e;
-  border-color: #24292e;
-}
-
-.u-icon--github[href]:hover {
-  color: #fff;
-  background-color: #131619;
-  border-color: #0e1011;
-}
-
-.u-icon--github.disabled, .u-icon--github:disabled {
-  background-color: #24292e;
-  border-color: #24292e;
-}
-
-/*------------------------------------
-  Icon Sizes
-------------------------------------*/
-/* Extra Small */
-.u-icon--xs {
-  width: 1.375rem;
-  height: 1.375rem;
-  font-size: 0.5625rem;
-  border-radius: 0.25rem;
-}
-
-/* Small */
-.u-icon--sm {
-  width: 2rem;
-  height: 2rem;
-  font-size: 0.8125rem;
-  border-radius: 0.25rem;
-}
-
-/* Medium */
-.u-icon--md {
-  width: 4rem;
-  height: 4rem;
-  font-size: 1.75rem;
-  border-radius: 0.25rem;
-}
-
-/* Large */
-.u-icon--lg {
-  width: 6rem;
-  height: 6rem;
-  font-size: 2.25rem;
-  border-radius: 0.25rem;
 }
 
 /*------------------------------------
