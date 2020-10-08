@@ -14325,11 +14325,15 @@ button:focus {
 .u-sm-avatar {
   width: 32px;
   height: 32px;
+  border-radius: 50%;
 }
 
 .u-md-avatar {
   width: 64px;
   height: 64px;
+  border-radius: 50%;
+  display: flex;
+  margin: auto;
 }
 
 .u-lg-avatar {
@@ -17632,9 +17636,6 @@ button:focus {
     }
 }
 
-.article {
-  background-color: #FEFFFF;
-}
 
 .article-title {
   text-align: left;
@@ -17649,49 +17650,50 @@ button:focus {
 .article p {
   font-family: "Inter", Helvetica, Arial, sans-serif; 
   font-size: 1.0rem;
-  line-height: 1.9;
+  line-height: 1.8;
+  margin-top: 1rem;
 }
 
 @media (min-width: 576px) {
   .article p {
     font-size: 1rem;
-    line-height: 2;
+    line-height: 1.8;
     color: black;
-
+    margin-bottom: 1em;
   }
 }
 .article h1 {
   font-family: "AUTHENTIC Sans", Helvetica, Arial, sans-serif; 
   text-rendering: optimizeLegibility;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: clamp(2rem, 2.25vw, 2.5rem);
 }
 .article h2 {
-  font-family: "Inter", Helvetica, Arial, sans-serif; 
+  font-family: "AUTHENTIC Sans", Helvetica, Arial, sans-serif; 
   margin-top: 4rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
-  font-size: 24px;
+  margin-bottom: .75rem;
+  font-weight: 600;
+  font-size: clamp(1.5rem, 1.75vw, 2rem);
 }
 .article h3 {
-  font-family: "Inter", Helvetica, Arial, sans-serif;
-  margin-top: 2rem;
+  font-family: "AUTHENTIC Sans", Helvetica, Arial, sans-serif;
+  margin-top: 3rem;
   margin-bottom: .5rem; 
   color: #000000;
-  font-size: 20px;
-  line-height: calc(1.6rem + 6 * ((100vw - 21rem) / 680));
+  font-size: clamp(1.25rem, 1.5vw, 1.75rem);
 }
 .article h4 {
-  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-family: "AUTHENTIC Sans", Helvetica, Arial, sans-serif;
   margin-top: 2rem;
   margin-bottom: .5rem; 
-  font-size: 16px;
-  line-height: calc(1.5rem + 6 * ((100vw - 21rem) / 680));
+  font-size: clamp(1.05rem, 1.25vw, 1.55rem);
 }
 .article h5 {
-  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-family: "AUTHENTIC Sans", Helvetica, Arial, sans-serif;
   margin-top: 2rem;
   margin-bottom: .5rem; 
   font-weight: 700;
+  font-size: clamp(1rem, 1.25vw, 1.5rem);
 }
 .article li {
   font-family: "Inter", Helvetica, Arial, sans-serif; 
@@ -17708,11 +17710,56 @@ button:focus {
 .article figure img {
   width: 100%;
   margin-bottom: 1rem; 
+  border-radius: 6px;
 }
 
 .article blockquote {
-  border-left: 5px solid #4285F4;
+  border-left: 3px solid black;
   padding-left: 1rem;
 }
 
 
+.article-title-img {
+  max-width: 100%;
+  display: flex;
+  margin: auto;
+  object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  .article-title-img {
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+  }
+}
+
+
+.css-selector {
+  background: linear-gradient(231deg, #eab0f0, #dcbdf5, #b0d7f7, #f7e9b0);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 41s ease infinite;
+  -moz-animation: AnimationName 41s ease infinite;
+  -o-animation: AnimationName 41s ease infinite;
+  animation: AnimationName 41s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:10% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:10% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:10% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:10% 0%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:10% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:10% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:10% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:10% 0%}
+}
