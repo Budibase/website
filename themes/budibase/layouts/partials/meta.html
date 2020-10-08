@@ -10,8 +10,11 @@
 {{ end }}
 
     <meta name="robots" content="noodp"/>
+    {{ if .Params.canonicalUrl }}
+    <link rel="canonical" href="{{ .Params.canonicalUrl }}">
+    {{ else }}
     <link rel="canonical" href="{{ .Permalink }}" />
-
+    {{ end }}
     
 
     {{ if .IsHome -}}
