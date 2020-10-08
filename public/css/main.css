@@ -496,11 +496,9 @@ h6, .h6 {
 }
 
 .display-1 {
-  font-size: calc(3rem + (1vw - 3.75px) * 1.6901);
-  line-height: calc(3.5rem + (1vw - 3.75px) * 2.2535);
-  font-weight: 700;
+  font-size: clamp(2.5rem, 3vw, 3.5rem);
+  font-weight: 500;
   text-rendering: optimizeLegibility;
-  text-align: center !important;
 }
 
 .display-2 {
@@ -579,7 +577,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  border-radius: 12px;
+  border-radius: 6px;
   object-fit: cover;
   margin: auto;
 }
@@ -602,6 +600,24 @@ mark,
   object-fit: cover;
   margin: auto;
 }
+
+.img-fluid-sm {
+  max-width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  padding: 0 1rem;
+}
+
+@media (min-width: 1400px) {
+  .img-fluid-sm {
+    max-width: 80%;
+    border-radius: 12px;
+    object-fit: cover;
+    display: flex;
+    margin: auto;
+  }
+}
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -698,7 +714,6 @@ pre code {
   }
 }
 .card-small {
-  border: black 2px solid;
   border-radius: 6px;
   padding: 1.25rem;
   align-items: center;
@@ -841,7 +856,6 @@ display: none;
     height: 8rem;
     background-color: #4285F4;
     border-radius: 50%;
-    border: black solid 3px;
     cursor: pointer;
     display: flex;
     text-rendering: optimizeLegibility;
@@ -858,7 +872,7 @@ display: none;
 
 .circle-cta-text {
   font-family: "Inter", Helvetica, Arial, sans-serif !important;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   color: white;
   font-weight: 700;
@@ -950,8 +964,7 @@ display: none;
 
 
 .blob {
-	background-color: #91d370;
-  background-image: linear-gradient(319deg, #FFD26A 0%, #E26D69 40%, #4285F4 83%, #806FDE 100%);
+  background-image: linear-gradient(319deg, rgba(250, 238, 209, 0.5) 0%, rgb(226, 109, 105, .5) 30%, rgb(126, 110, 222, .3) 80%);
 	border-radius: 1rem;
 	margin: 10px;
 	height: 290px;
@@ -1121,10 +1134,8 @@ display: none;
 /* Product hero */
 
 .product-hero-image {
-  background-color: var(--purple);
   padding: 2.5rem;
   border-radius: .75rem;
-  border: 3px solid black;
 }
 
 @media (max-width: 768px) {
@@ -3247,7 +3258,6 @@ fieldset:disabled a.btn {
   font-weight: 700;
   background-color: #4285F4;
   border-radius: 6px !important;
-  border: black 2.5px solid;
 }
 
 .btn-primary:hover {
@@ -7246,6 +7256,10 @@ a.bg-danger:hover, a.bg-danger:focus,
 button.bg-danger:hover,
 button.bg-danger:focus {
   background-color: #c72b28 !important;
+}
+
+.bg-gradient {
+  background-image: linear-gradient(319deg, rgba(250, 238, 209, 0.1) 0%, rgb(226, 109, 105, .1) 30%, rgb(126, 110, 222, .1) 80%);
 }
 
 .bg-light {
@@ -17734,32 +17748,3 @@ button:focus {
   }
 }
 
-
-.css-selector {
-  background: linear-gradient(231deg, #eab0f0, #dcbdf5, #b0d7f7, #f7e9b0);
-  background-size: 800% 800%;
-  -webkit-animation: AnimationName 41s ease infinite;
-  -moz-animation: AnimationName 41s ease infinite;
-  -o-animation: AnimationName 41s ease infinite;
-  animation: AnimationName 41s ease infinite;
-}
-@-webkit-keyframes AnimationName {
-  0%{background-position:10% 0%}
-  50%{background-position:91% 100%}
-  100%{background-position:10% 0%}
-}
-@-moz-keyframes AnimationName {
-  0%{background-position:10% 0%}
-  50%{background-position:91% 100%}
-  100%{background-position:10% 0%}
-}
-@-o-keyframes AnimationName {
-  0%{background-position:10% 0%}
-  50%{background-position:91% 100%}
-  100%{background-position:10% 0%}
-}
-@keyframes AnimationName {
-  0%{background-position:10% 0%}
-  50%{background-position:91% 100%}
-  100%{background-position:10% 0%}
-}

@@ -5,5 +5,6 @@ images:
 - budibase-logo.png
 type: b
 layout: single
+canonicalUrl: “https://www.budibase.com"
 date: 2019-01-01
 ---
