@@ -5,4 +5,6 @@ images:
 - budibase-logo.png
 layout: single
 date: 2019-01-01
+images: ["/banner-gradient.jpg"]
+
 ---
