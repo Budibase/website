@@ -497,7 +497,7 @@ h6, .h6 {
 
 .display-1 {
   font-size: clamp(2.5rem, 3vw, 3.5rem);
-  font-weight: 500;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
 }
 
