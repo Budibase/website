@@ -841,7 +841,6 @@ display: none;
     height: 8rem;
     background-color: #4285F4;
     border-radius: 50%;
-    border: black solid 3px;
     cursor: pointer;
     display: flex;
     text-rendering: optimizeLegibility;
@@ -858,7 +857,7 @@ display: none;
 
 .circle-cta-text {
   font-family: "Inter", Helvetica, Arial, sans-serif !important;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   color: white;
   font-weight: 700;
@@ -3249,7 +3248,7 @@ fieldset:disabled a.btn {
   font-weight: 700;
   background-color: #4285F4;
   border-radius: 6px !important;
-  border: black 2.5px solid;
+  font-size: .85rem !important;
 }
 
 .btn-primary:hover {
@@ -5933,6 +5932,13 @@ input[type="button"].btn-block {
   margin-bottom: 1rem;
   border: 0 solid transparent;
   border-radius: 0.25rem;
+}
+
+.alert-text {
+ font-size: 16px;
+ font-family: Inter;
+ font-weight: 600;
+ text-align: center;
 }
 
 .alert-heading {
@@ -17123,6 +17129,7 @@ button:focus {
 .space-2-top {
   padding-top: 4.0625rem;
 }
+
 
 .space-2-bottom {
   padding-bottom: 4.0625rem;
