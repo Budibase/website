@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Budibase - No code platform for creating business apps</title>
+    <title>Tags on Budibase - No code platform | Open Source | Custom Software</title>
     <link>https://www.budibase.com/tags/</link>
-    <description>Recent content in Tags on Budibase - No code platform for creating business apps</description>
+    <description>Recent content in Tags on Budibase - No code platform | Open Source | Custom Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
-    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>custom software, bespoke software, custom software development</title>
+      <link>https://www.budibase.com/tags/custom-software-bespoke-software-custom-software-development/</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/tags/custom-software-bespoke-software-custom-software-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eurdf</title>
+      <link>https://www.budibase.com/tags/eurdf/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/tags/eurdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>investni</title>
+      <link>https://www.budibase.com/tags/investni/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/tags/investni/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>SaaS, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture</title>
       <link>https://www.budibase.com/tags/saas-backend-frontend-web-app-deployment-hosting-ideation-wireframing-database-architecture/</link>

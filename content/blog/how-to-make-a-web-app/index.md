@@ -114,7 +114,8 @@ Are you ready? Let’s do this!
 ## How to make a web app in 12 steps (4 stages)
 
 <br>
-    **Ideation stage**
+
+**Ideation stage**
 
 [1. Source an idea](#source)
 

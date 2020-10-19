@@ -6,6 +6,9 @@ enableEmoji = "true"
 
 copyright = "This work is licensed and owned by Budibase"
 
+[markup.goldmark.renderer]
+hardWraps = true
+
 [taxonomies]
   category = "categories"
   tag = "tags"
@@ -25,15 +28,10 @@ lang = "en"
 
   [params.publisher.logo]
       url = "/budibase-logo.png"
-      width = 127
-      height = 40
 
   [params.logo]
     url = "/budibase-logo.png"
-    width = 127
-    height = 40
 
   [params.image]
-    url = "/budibase-logo.png"
-    width = 800
-    height = 600
+    url = "/banner-gradient.jpg"
+

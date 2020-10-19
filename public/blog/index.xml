@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>BudiBlog - learn about building, hosting &amp; managing web apps on Budibase - No code platform for creating business apps</title>
+    <title>BudiBlog - learn about building, hosting &amp; managing web apps on Budibase - No code platform | Open Source | Custom Software</title>
     <link>https://www.budibase.com/blog/</link>
-    <description>Recent content in BudiBlog - learn about building, hosting &amp; managing web apps on Budibase - No code platform for creating business apps</description>
+    <description>Recent content in BudiBlog - learn about building, hosting &amp; managing web apps on Budibase - No code platform | Open Source | Custom Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is custom software development in 2020</title>
+      <link>https://www.budibase.com/blog/custom-software-development/</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/custom-software-development/</guid>
+      <description>The world is eating software. 🌎 🍴🌐
+The above is a tongue-in-cheek response to the famous words of Marc Andreessen, &amp;lsquo;software is eating the world.&amp;rsquo; Marc&amp;rsquo;s words hail from his wondrous post, dated 2011, and titled, Why software is eating the world.
+In 2011, software was indeed eating the world. A new wave of digital pathfinders developed and launched innovative software that would inevitably take the internet by storm. We had a surge of companies such as Amazon, Hubspot, Mailchimp, Salesforce, and Pipedrive.</description>
+    </item>
+    
+    <item>
+      <title>Budibase - made in Europe</title>
+      <link>https://www.budibase.com/blog/european-regional-development-fund/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/european-regional-development-fund/</guid>
+      <description>Budibase was founded in Belfast, Northern Ireland. We are proud to be part of such an amazing tech and business community.
+One of the many amazing benefits of operating a business from Belfast, is having access to the European Regional Development Fund, via InvestNI.
+We have been granted funds to employ local, highly skilled engineers to help build the Budibase builder and hosting platform.
+Thank you InvestNI in recognising the huge, worldwide potential of Budibase to empower busineeses to build web apps, quickly and easily.</description>
+    </item>
+    
     <item>
       <title>The 12 best no-code tools in 2020</title>
       <link>https://www.budibase.com/blog/no-code-tools/</link>

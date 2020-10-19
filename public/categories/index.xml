@@ -1,28 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Budibase - No code platform for creating business apps</title>
+    <title>Categories on Budibase - No code platform | Open Source | Custom Software</title>
     <link>https://www.budibase.com/categories/</link>
-    <description>Recent content in Categories on Budibase - No code platform for creating business apps</description>
+    <description>Recent content in Categories on Budibase - No code platform | Open Source | Custom Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
-    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>JavaScript</title>
-      <link>https://www.budibase.com/categories/javascript/</link>
-      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      <title>Automation</title>
+      <link>https://www.budibase.com/categories/automation/</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.budibase.com/categories/javascript/</guid>
+      <guid>https://www.budibase.com/categories/automation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Build</title>
       <link>https://www.budibase.com/categories/build/</link>
-      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/categories/build/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>https://www.budibase.com/categories/design/</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eurdf</title>
+      <link>https://www.budibase.com/categories/eurdf/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/eurdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>investni</title>
+      <link>https://www.budibase.com/categories/investni/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/investni/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>https://www.budibase.com/categories/javascript/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/javascript/</guid>
       <description></description>
     </item>
     
@@ -36,29 +72,11 @@
     </item>
     
     <item>
-      <title>Design</title>
-      <link>https://www.budibase.com/categories/design/</link>
-      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.budibase.com/categories/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Inspire</title>
       <link>https://www.budibase.com/categories/inspire/</link>
       <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/categories/inspire/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Automation</title>
-      <link>https://www.budibase.com/categories/automation/</link>
-      <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.budibase.com/categories/automation/</guid>
       <description></description>
     </item>
     

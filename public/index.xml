@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>No code platform | Open Source | Custom Software | Budibase on Budibase - No code platform for creating business apps</title>
+    <title>No code platform | Open Source | Custom Software | Budibase on Budibase - No code platform | Open Source | Custom Software</title>
     <link>https://www.budibase.com/</link>
-    <description>Recent content in No code platform | Open Source | Custom Software | Budibase on Budibase - No code platform for creating business apps</description>
+    <description>Recent content in No code platform | Open Source | Custom Software | Budibase on Budibase - No code platform | Open Source | Custom Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is custom software development in 2020</title>
+      <link>https://www.budibase.com/blog/custom-software-development/</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/custom-software-development/</guid>
+      <description>The world is eating software. 🌎 🍴🌐
+The above is a tongue-in-cheek response to the famous words of Marc Andreessen, &amp;lsquo;software is eating the world.&amp;rsquo; Marc&amp;rsquo;s words hail from his wondrous post, dated 2011, and titled, Why software is eating the world.
+In 2011, software was indeed eating the world. A new wave of digital pathfinders developed and launched innovative software that would inevitably take the internet by storm. We had a surge of companies such as Amazon, Hubspot, Mailchimp, Salesforce, and Pipedrive.</description>
+    </item>
+    
     <item>
       <title>Bespoke software - Build web apps with no code and for free</title>
       <link>https://www.budibase.com/design/</link>
@@ -60,6 +71,18 @@
       
       <guid>https://www.budibase.com/self-host/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Budibase - made in Europe</title>
+      <link>https://www.budibase.com/blog/european-regional-development-fund/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/european-regional-development-fund/</guid>
+      <description>Budibase was founded in Belfast, Northern Ireland. We are proud to be part of such an amazing tech and business community.
+One of the many amazing benefits of operating a business from Belfast, is having access to the European Regional Development Fund, via InvestNI.
+We have been granted funds to employ local, highly skilled engineers to help build the Budibase builder and hosting platform.
+Thank you InvestNI in recognising the huge, worldwide potential of Budibase to empower busineeses to build web apps, quickly and easily.</description>
     </item>
     
     <item>
@@ -120,7 +143,8 @@ There was a small complication with my vision - I didn&amp;rsquo;t know how to b
       
       <guid>https://www.budibase.com/privacy/</guid>
       <description>Last updated January 01, 2019
-Thank you for choosing to be part of our community at Budibase (“company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact us at joe@budibase.com. When you visit our website and use our services, you trust us with your personal information.</description>
+Thank you for choosing to be part of our community at Budibase (“company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact us at joe@budibase.com.
+When you visit our website and use our services, you trust us with your personal information.</description>
     </item>
     
     <item>
@@ -224,6 +248,15 @@ What we need from a database A key requirement of Budibase is the ability to red
       <description>I&amp;rsquo;m often thinking of Micro SaaS ideas for my next project but most of the time they are either rubbish or I don&amp;rsquo;t have the capacity to pursue them.
 Instead of throwing all the good ideas away, I&amp;rsquo;ve decided to share them with you - how thoughtful, right 😄.
 This post is not a simple static list; created, posted, and forgotten about. I will revisit and update this list on a monthly basis, delivering you super-fresh ideas to feed your entrepreneurial hunger.</description>
+    </item>
+    
+    <item>
+      <title>No code platform | Open Source | Custom Software | Budibase</title>
+      <link>https://www.budibase.com/b/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/b/</guid>
+      <description></description>
     </item>
     
     <item>
