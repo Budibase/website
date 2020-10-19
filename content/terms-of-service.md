@@ -2,7 +2,7 @@
 title: "Terms of Service"
 description: "The Budibase open source product is licenced under the GPLv3 and AGPLv3. To host your applications with Budibase, you must agree to our terms of service. To learn more, please visit our terms of service page."
 layout: single
-type: tos
+type: privacy
 date: 2020-09-10
 ---
 
@@ -27,17 +27,17 @@ You may use Budibase only if you can form a legally binding contract with us (an
 
 Subject to your compliance with these Terms, you may access and use Budibase during the Subscription Term (defined below), except as may be limited by your Organization as described above. Except as we otherwise agree in writing or to the extent a restriction is prohibited by law, you agree not to do, and not to assist, permit or enable any third party or Application (defined below) to do, any of the following:
 
-    disassemble, reverse engineer, decode, or decompile any part of Budibase;
-    use any robot, spider, scraper, data mining tool, data gathering or extraction tool, or any other automated means, to access, collect, copy or record Budibase;
-    copy, rent, lease, sell, loan, transfer, assign, sublicense, resell, distribute, modify, alter, or create derivative works of any part of Budibase or any of our Intellectual Property (defined below);
-    use Budibase in a manner that impacts: (i) the stability of our servers; (ii) the operation or performance of Budibase or any other user’s use of Budibase; or (iii) the behavior of other applications using Budibase;
-    use Budibase in any manner or for any purpose (including, without limitation, by providing Budibase with access to any Content) that: (i) violates or promotes the violation of any applicable law, regulation, legal requirement, contractual obligation, or right of any person including, but not limited to, intellectual property rights, rights of privacy, or rights of personality; (ii) is fraudulent, false, deceptive, or defamatory; (iii) promotes hatred, violence, or harm against any individual or group; (iv) otherwise may be harmful or objectionable (in our sole discretion) to us, our providers, our suppliers, or our users;
-    use or display Budibase in competition with us, to develop competing products or services, for benchmarking or competitive analysis of Budibase, or otherwise to our detriment or disadvantage;
-    attempt to interfere with, compromise the system integrity or security of, or decipher any transmissions to or from, the servers running Budibase;
-    transmit viruses, worms, or other software agents through Budibase;
-    impersonate another person or misrepresent your affiliation with a person or entity, hide or attempt to hide your identity, or otherwise use Budibase for any invasive or fraudulent purpose;
-    share passwords or authentication credentials for Budibase, or otherwise circumvent the measures we may use to prevent or restrict access to Budibase or enforce limitations on use of Budibase; or
-    identify or refer to us or Budibase in a manner that could reasonably imply an endorsement, relationship, or affiliation with or sponsorship between you or a third party and us, other than your permitted use of Budibase under these Terms, without our express written consent.
+disassemble, reverse engineer, decode, or decompile any part of Budibase;
+use any robot, spider, scraper, data mining tool, data gathering or extraction tool, or any other automated means, to access, collect, copy or record Budibase;
+copy, rent, lease, sell, loan, transfer, assign, sublicense, resell, distribute, modify, alter, or create derivative works of any part of Budibase or any of our Intellectual Property (defined below);
+use Budibase in a manner that impacts: (i) the stability of our servers; (ii) the operation or performance of Budibase or any other user’s use of Budibase; or (iii) the behavior of other applications using Budibase;
+use Budibase in any manner or for any purpose (including, without limitation, by providing Budibase with access to any Content) that: (i) violates or promotes the violation of any applicable law, regulation, legal requirement, contractual obligation, or right of any person including, but not limited to, intellectual property rights, rights of privacy, or rights of personality; (ii) is fraudulent, false, deceptive, or defamatory; (iii) promotes hatred, violence, or harm against any individual or group; (iv) otherwise may be harmful or objectionable (in our sole discretion) to us, our providers, our suppliers, or our users;
+use or display Budibase in competition with us, to develop competing products or services, for benchmarking or competitive analysis of Budibase, or otherwise to our detriment or disadvantage;
+attempt to interfere with, compromise the system integrity or security of, or decipher any transmissions to or from, the servers running Budibase;
+transmit viruses, worms, or other software agents through Budibase;
+impersonate another person or misrepresent your affiliation with a person or entity, hide or attempt to hide your identity, or otherwise use Budibase for any invasive or fraudulent purpose;
+share passwords or authentication credentials for Budibase, or otherwise circumvent the measures we may use to prevent or restrict access to Budibase or enforce limitations on use of Budibase; or
+identify or refer to us or Budibase in a manner that could reasonably imply an endorsement, relationship, or affiliation with or sponsorship between you or a third party and us, other than your permitted use of Budibase under these Terms, without our express written consent.
 
 ### 1.3 Budibase Accounts
 
