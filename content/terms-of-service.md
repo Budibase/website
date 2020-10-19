@@ -102,23 +102,23 @@ If we terminate your Subscription Plan, except in the event of your breach or fa
 
 Any late payments shall be subject to a service charge equal to 1.5% per month of the amount due or the maximum amount allowed by law, whichever is less (plus the costs of collection).
 
-## 6. Privacy
+## 5. Privacy
 
 We care about the privacy of our users. By using Budibase you acknowledge that we may collect, use, and disclose your personal information and aggregate and/or anonymized data as set forth in our Privacy Policy, available at budibase.com/privacy, and acknowledge that you may have your personal information collected, used, transferred to and processed in the United States. If your use of the Service requires us to process any personal data or personal information, as these terms are defined in and in accordance with applicable privacy laws or regulations, we will do so at all times in accordance with our Data Processing Addendum (our "DPA"), which you may access and sign here. Once executed, the DPA will be incorporated into these Terms by reference.
 
-## 7. Security
+## 6. Security
 
 We have implemented commercially reasonable technical and organizational measures designed to secure Your Content from accidental loss and from unauthorized access, use, alteration or disclosure. However, we cannot guarantee that unauthorized third parties will never be able to defeat those measures or use Your Content for improper purposes. You understand that internet technologies have the inherent potential for disclosure. You acknowledge that you provide Your Content at your own risk. You can learn more about our security practices at Budibase.com/security.
 
-## 8. Indemnity
+## 7. Indemnity
 
 You agree to defend, indemnify and hold us and our affiliates, agents, suppliers or licensors (and our and their employees, contractors, agents, officers and directors) harmless from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorney’s fees) arising from: (i) your access to or use of Budibase; (ii) your violation of any aspect of these Terms, including without limitation your breach of any of your representations and warranties; (iii) your violation of any third-party right, including without limitation any right of privacy or intellectual property rights; (iv) your violation of any applicable law, rule or regulation; (v) Your Content, including without limitation any misleading, false, or inaccurate information in Your Content; (vi) your willful misconduct; or (vii) any third party’s access to or use of Budibase with your username(s), password(s) or other security code(s).
 
-## 9. No Warranty
+## 8. No Warranty
 
 OUR SERVICE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS. USE OF OUR SERVICE IS AT YOUR OWN RISK. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, OUR SERVICE IS PROVIDED WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM US OR THROUGH OUR SERVICE WILL CREATE ANY WARRANTY NOT EXPRESSLY STATED HEREIN. WITHOUT LIMITING THE FOREGOING, WE, OUR SUBSIDIARIES, OUR AFFILIATES, AND OUR LICENSORS DO NOT WARRANT THAT ANY CONTENT ON OUR SERVICE IS ACCURATE, RELIABLE OR CORRECT; THAT OUR SERVICE WILL MEET YOUR REQUIREMENTS; THAT OUR SERVICE WILL BE AVAILABLE AT ANY PARTICULAR TIME OR LOCATION, UNINTERRUPTED OR SECURE; THAT ANY DEFECTS OR ERRORS WILL BE CORRECTED; OR THAT OUR SERVICE IS FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR MOBILE DEVICE OR LOSS OF DATA THAT RESULTS FROM YOUR USE OF OUR SERVICE OR ANY DOWNLOAD OF CONTENT THROUGH THE USE OF OUR SERVICE. FEDERAL LAW, SOME STATES OR PROVINCES AND OTHER JURISDICTIONS DO NOT ALLOW THE EXCLUSION AND LIMITATIONS OF CERTAIN IMPLIED WARRANTIES, SO THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU. THESE TERMS GIVE YOU SPECIFIC LEGAL RIGHTS, AND YOU MAY ALSO HAVE OTHER RIGHTS WHICH VARY BY JURISDICTION. THE DISCLAIMERS AND EXCLUSIONS UNDER THESE TERMS WILL NOT APPLY TO THE EXTENT PROHIBITED BY APPLICABLE LAW.
 
-## 10. Limitation of Liability
+## 9. Limitation of Liability
 
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL WE OR OUR AFFILIATES, AGENTS, SUPPLIERS OR LICENSORS (OR OUR OR THEIR EMPLOYEES, CONTRACTORS, AGENTS, OFFICERS OR DIRECTORS) BE LIABLE FOR ANY INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES, INCLUDING WITHOUT LIMITATION DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA OR OTHER INTANGIBLE LOSSES, ARISING OUT OF OR RELATING TO THE USE OF, OR INABILITY TO USE, OUR SERVICE. UNDER NO CIRCUMSTANCES WILL WE BE RESPONSIBLE FOR ANY DAMAGE, LOSS OR INJURY RESULTING FROM HACKING, TAMPERING OR OTHER UNAUTHORIZED ACCESS OR USE OF OUR SERVICE OR YOUR ACCOUNT OR THE INFORMATION CONTAINED THEREIN.
 
@@ -130,46 +130,46 @@ THIS LIMITATION OF LIABILITY SECTION APPLIES WHETHER THE ALLEGED LIABILITY IS BA
 
 SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATIONS OR EXCLUSIONS MAY NOT APPLY TO YOU. THIS AGREEMENT GIVES YOU SPECIFIC LEGAL RIGHTS, AND YOU MAY ALSO HAVE OTHER RIGHTS WHICH VARY FROM STATE TO STATE. THE DISCLAIMERS, EXCLUSIONS, AND LIMITATIONS OF LIABILITY UNDER THIS AGREEMENT WILL NOT APPLY TO THE EXTENT PROHIBITED BY APPLICABLE LAW.
 
-## 11. Confidentiality
+## 10. Confidentiality
 
-### 11.1 Confidential Information
+### 10.1 Confidential Information
 
 From time to time, either party to these Terms (the "Disclosing Party") may disclose or make available to the other (the "Receiving Party") non-public, proprietary, or confidential information of the Disclosing Party (“Confidential Information”). Confidential Information includes any information that reasonably should be understood to be confidential given the nature of the information and the circumstances of disclosure, including non-public business, product, technology and marketing information. Confidential Information does not include any information that: (i) is or becomes generally available to the public other than as a result of the Receiving Party's breach of this confidentiality section; (ii) is or becomes available to the Receiving Party on a non-confidential basis from a third-party source, provided that such third party is not and was not prohibited from disclosing such Confidential Information; (iii) was in the Receiving Party's possession prior to the Disclosing Party's disclosure thereof; or (iv) was or is independently developed by the Receiving Party without using any of the Disclosing Party’s Confidential Information.
 
-### 11.2 Protection and Use of Confidential Information
+### 10.2 Protection and Use of Confidential Information
 
 The Receiving Party shall: (i) protect and safeguard the confidentiality of the Disclosing Party's Confidential Information with at least the same degree of care as the Receiving Party would protect its own Confidential Information, but in no event with less than a commercially-reasonable degree of care; (ii) only use the Disclosing Party's Confidential Information, and only permit it to be accessed or used, for the purpose of exercising its rights or performing its obligations under these Terms, or for any other purpose consistent with the Privacy Policy; and (iii) not disclose any of the Disclosing Party’s Confidential Information to any person or entity, except to the Receiving Party's service providers or financial/legal advisors who need to know the Confidential Information and are bound to confidentiality obligations at least as restrictive as those in these Terms.
 
-### 11.3 Compelled Access or Disclosure
+### 10.3 Compelled Access or Disclosure
 
 If the Receiving Party is required by applicable law or legal process to disclose any Confidential Information, it shall, prior to making such disclosure, use commercially-reasonable efforts to notify the Disclosing Party of such requirements to afford the Disclosing Party the opportunity to seek, at the Disclosing Party's sole cost and expense, a protective order or other remedy.
 
-### 11.4 Injunctive Relief
+### 10.4 Injunctive Relief
 
 Each of the parties to these Terms acknowledges that the other party will be irreparably harmed if Confidential Information of the other is distributed in breach of this Section, and that such other party would not have an adequate remedy at law in the event of such an actual or threatened breach. Therefore, each of the parties agrees that the other party shall be entitled to seek injunctive relief against any actual or threatened breaches of this Section by the other party without the necessity of showing actual damages or showing that monetary damages would not afford an adequate remedy.
 
-## 12. Publicity Rights
+## 11. Publicity Rights
 
 We may identify you as an Budibase customer in our promotional materials. We will promptly stop doing so upon your request sent to legal@budibase.com.
 
-## 13. General
+## 12. General
 
-### 13.1 Assignment
+### 12.1 Assignment
 
 These Terms, and any rights and licenses granted hereunder, may not be transferred or assigned by you without our prior express written consent, but may be assigned by us without restriction. Any attempted transfer or assignment in violation hereof will be null and void.
 
-### 13.2 Notification Procedures and Changes to these Terms
+### 12.2 Notification Procedures and Changes to these Terms
 
 We may provide notifications, whether such notifications are required by law or are for marketing or other business-related purposes, to you via email notice, written or hard copy notice, or through posting of such notice on our website, as we determine in our sole discretion. We reserve the right to determine the form and means of providing notifications to our users, provided that you may opt out of certain notifications as required under applicable laws or as described in these Terms or our Privacy Policy. We are not responsible for any automatic filtering you or your network provider may apply to email notifications we send to the email address you provide us. We may, in our sole discretion, modify or update these Terms from time to time, and so you should review this page periodically. When we change these Terms in a material manner, we will update the ‘last modified’ date at the top of this page and notify you that material changes have been made to these Terms. These Terms apply to and govern your access to and use of our Service effective as of the start of your access to or use of our Service, even if such access or use began before publication of these Terms. Your continued use of Budibase after any such change constitutes your acceptance of the new Terms of Service. If you do not agree to any part of these Terms or any future Terms of Service, do not use or access (or continue to access) Budibase.
 
-### 13.3 Entire Agreement/Severability
+### 12.3 Entire Agreement/Severability
 
 These Terms, together with any amendments and any additional agreements you may enter into with us in connection with Budibase, will constitute the entire agreement between you and us concerning Budibase. None of our employees or representatives are authorized to make any modification or addition to these Terms. Any statements or comments made between you and any of our employees or representatives are expressly excluded from these Terms and will not apply to you or us or your use of Budibase. If any provision of these Terms is deemed invalid by a court of competent jurisdiction, the invalidity of such provision will not affect the validity of the remaining provisions of these Terms, which will remain in full force and effect, except that in the event of unenforceability of the universal Class Action/Jury Trial Waiver, the entire arbitration agreement will be unenforceable.
 
-### 13.4 No Waiver
+### 12.4 No Waiver
 
 No waiver of any term of these Terms will be deemed a further or continuing waiver of such term or any other term, and our failure to assert any right or provision under these Terms will not constitute a waiver of such right or provision.
 
-### 13.5 Contact
+### 12.5 Contact
 
 If you have any questions about these Terms, please contact us at legal@budibase.com.
