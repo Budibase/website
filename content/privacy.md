@@ -153,4 +153,4 @@ We may update this privacy policy from time to time. The updated version will be
 
 ## 13. HOW CAN YOU CONTACT US ABOUT THIS POLICY?
 
-If you have questions or comments about this policy, you may email us at legal@budibase.com or by post to:
+If you have questions or comments about this policy, you may email us at legal@budibase.com.
