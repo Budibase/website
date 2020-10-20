@@ -3,6 +3,7 @@ date = "2020-10-20"
 title = "Budibase is in Public Beta!" 
 description = "Budibase is in public beta - come and try, for free." 
 author = "Michael Shanks" 
+profilePic = "/img/img/mike-blog.png"
 draft = "false"
 
 +++

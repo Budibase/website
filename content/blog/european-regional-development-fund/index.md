@@ -5,6 +5,7 @@ categories = ["investni", "eurdf"]
 tags = ["investni", "eurdf"]
 description = "Budibase is part funded by the European Regional Development Fund"
 author = "Michael Shanks"
+profilePic = "/img/img/mike-blog.png"
 draft ="false"
 +++
 
