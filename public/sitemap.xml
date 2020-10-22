@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.budibase.com/blog/budibase-public-beta/</loc>
+    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.budibase.com/categories/automation/</loc>
     <lastmod>2020-09-21T00:00:00+00:00</lastmod>
   </url>
@@ -35,6 +40,11 @@
   <url>
     <loc>https://www.budibase.com/blog/custom-software-development/</loc>
     <lastmod>2020-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/terms-of-service/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -38,7 +38,7 @@
     "name": "Joseph Johnston"
   },
   "description": "Budibase is a modern, open source no code platform for designing, building and deploying custom software. Budibase eliminates coding and allows you to build web applications in minutes. Check it out.",
-  "image": "https:\/\/www.budibase.com\/budibase-logo.png",
+  "image": "https:\/\/www.budibase.com\/banner-gradient.jpg",
   "thumbnailUrl": "https:\/\/www.budibase.com\/budibase-logo.png",
   "license": "This work is licensed and owned by Budibase",
   "name": "Budibase - No code platform | Open Source | Custom Software"
@@ -58,6 +58,37 @@
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+    
+    var targetCookie = "_ga="
+    var cookieParts = document.cookie.split(";")
+    
+    var gidCookie
+    for (var i = 0; i < cookieParts.length; i++) {
+      if (cookieParts[i].trim().startsWith(targetCookie)) {
+        gidCookie = cookieParts[i].trim()
+      }      
+    }
+
+    if (gidCookie) {
+
+      var gid = gidCookie.substring(targetCookie.length)
+
+      var allLinks = document.getElementsByTagName("A");
+      var index = 0;
+
+      for (let index = 0; index < allLinks.length; index++) {
+        var anchor = allLinks[index];
+        if (anchor.href.indexOf("portal.budi.live") >= 0) {
+          anchor.href = anchor.href + "?id=" + gid
+        }
+      }
+
+    }
+    
+  }, false)
+</script>
   
   <base href="https://www.budibase.com/">
   <meta name="generator" content="Hugo 0.75.1" />
@@ -78,7 +109,7 @@
 
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://www.budibase.com/budibase-logo.png"/>
+<meta name="twitter:image" content="https://www.budibase.com/banner-gradient.jpg"/>
 
 <meta name="twitter:title" content="No code platform | Open Source | Custom Software | Budibase"/>
 <meta name="twitter:description" content="Budibase is a modern, open source no code platform for designing, building and deploying custom software. Budibase eliminates coding and allows you to build web applications in minutes. Check it out."/>
@@ -87,7 +118,7 @@
 <meta property="og:description" content="Budibase is a modern, open source no code platform for designing, building and deploying custom software. Budibase eliminates coding and allows you to build web applications in minutes. Check it out." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.budibase.com/" />
-<meta property="og:image" content="https://www.budibase.com/budibase-logo.png" />
+<meta property="og:image" content="https://www.budibase.com/banner-gradient.jpg" />
 <meta property="og:updated_time" content="2019-01-01T00:00:00+00:00" />
 
 
@@ -224,10 +255,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            
             
             <li class="nav-item u-header__nav-item-btn">
-              <a class="btn btn-sm btn-primary" href="#signup" role="button"
-                 data-modal-target="#signupModal"
+              <a class="btn btn-sm btn-primary" href="https://portal.budi.live/signup" target="_blank" id="goal" role="button"
                  data-overlay-color="#151b26">
-                Request Access
+                Get started →
               </a>
             </li>
             
@@ -244,8 +274,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   
 <div class="bg-img-hero">
-  <div class="container space-3-top--md space-3-top">
-    <div class="row align-items-lg-center ">
+  <div class="container space-2-top">
+    <p class="alert-text bg-light p-2 rounder m-4 w-lg-60 mx-auto">🎉 Budibase is currently in public beta. Try it out and let us know how it goes 🎉</p>
+    <div class="row align-items-lg-center">
       <div class="container text-center col-lg-12">
         
         <div class="mx-auto mb-4">
@@ -262,54 +293,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </p>
           </div>
         </div>
-        <div class="col-lg-6 mb-2 mx-auto">
-          
-          <form
-            class="js-validate"
-            form
-            action="https://budibase.us20.list-manage.com/subscribe/post"
-            form
-            name="signup"
-            method="POST"
-          >
-            <input type="hidden" name="u" value="761756dde90443a4375dead81" />
-            <input type="hidden" name="id" value="4999d7f159" />
-              <div class="mb-3">
-                
-                <div class="js-form-message">
-                  <div class="js-focus-state input-group form">
-                    <p style="display: none">
-                      <label
-                        >Don’t fill this out: <input name="bot-field"
-                      /></label>
-                    </p>
-                    <div class="input-group mb-3">
-                      <input
-                        type="email"
-                        class="form-control rounded-left form__input"
-                        name="MERGE0"
-                        id="MERGE0"
-                        required
-                        placeholder="Submit Email Address"
-                        aria-label="Email"
-                        data-msg="Please enter a valid email address."
-                      />
-                      <div class="input-group-append">
-                        <button
-                          type="submit"
-                          class="btn btn-block btn-secondary"
-                        >
-                          Request Access
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-
-                  
-                </div>
-              </div>
-          </form>
-        </div>
+        <div class="col-lg-5 mx-auto">
+          <a href="https://portal.budi.live/signup" target="_blank" id="goal"> <button type="submit" class="btn btn-block btn-secondary mt-2 mb-6 ">Get started for free →</button> </a>
+      </div>
         <div class="product-hero-image bg-yellow">
           <picture>
             <source srcset="/img/img/design-ui.webp" type="image/webp">
@@ -323,9 +309,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 </div>
 
-  <a href="#signup">
-    <div class="circle-cta">
-        <h5 class="circle-cta-text">Request Access</h5>
+  <a href="https://portal.budi.live/signup" target="_blank" id="goal">
+    <div class="circle-cta goal">
+        <h6 class="circle-cta-text">Get started →</h6>
     </div>
 </a>
   <div class="container container-benefit space-2">
@@ -575,34 +561,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </marquee>
 
-  <div id="signup" class="cta-container container bg-dark mb-8 space-2">
-    <h2 class="text-white w-md-60 text-center mx-auto mb-2">Choose the new and better way to build custom software</h2>
-    <div class="col-sm-5 mx-auto">
-        <form class="js-validate" form action="https://budibase.us20.list-manage.com/subscribe/post" form name="signup" method="POST">
-            <input type="hidden" name="u" value="761756dde90443a4375dead81">
-            <input type="hidden" name="id" value="4999d7f159">  
-            <div class="container">
-              <div class="mb-3">
-                
-                <div class="js-form-message">
-                  <div class="js-focus-state input-group form">
-                      <p style="display:none;">
-                          <label>Don’t fill this out: <input name="bot-field"></label>
-                        </p>
-                        <input type="email" class="form-control form__input rounded" name="MERGE0" id="MERGE0" required
-                           placeholder="Submit Email Address"
-                           aria-label="Email"
-                           data-msg="Please enter a valid email address.">
-                  </div>
-                </div>
-                
-                </div>
-
-                  <button type="submit" class="btn btn-block btn-light">Request Access</button>
-              </div>
-            </form>
-    </div>
-    </div>
+  <div class="cta-container bg-dark mb-8 space-2">
+  <h2 class="text-white w-lg-60 text-center mx-auto mb-1">Choose the new and better way to build custom software</h2>
+  <div class="col-sm-5 mx-auto">
+    <a href="https://portal.budi.live/signup" target="_blank" id="goal"><button type="submit" class="btn btn-block btn-light mt-2 ">Get started →</button></a>
+  </div>
 </div>
   <hr class="space-1" style="width:50%;">
   <div class="container">
@@ -816,34 +779,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </div>
 </div>
-  <div id="signup" class="cta-container container bg-dark mb-8 space-2">
-    <h2 class="text-white w-md-60 text-center mx-auto mb-2">Choose the new and better way to build custom software</h2>
-    <div class="col-sm-5 mx-auto">
-        <form class="js-validate" form action="https://budibase.us20.list-manage.com/subscribe/post" form name="signup" method="POST">
-            <input type="hidden" name="u" value="761756dde90443a4375dead81">
-            <input type="hidden" name="id" value="4999d7f159">  
-            <div class="container">
-              <div class="mb-3">
-                
-                <div class="js-form-message">
-                  <div class="js-focus-state input-group form">
-                      <p style="display:none;">
-                          <label>Don’t fill this out: <input name="bot-field"></label>
-                        </p>
-                        <input type="email" class="form-control form__input rounded" name="MERGE0" id="MERGE0" required
-                           placeholder="Submit Email Address"
-                           aria-label="Email"
-                           data-msg="Please enter a valid email address.">
-                  </div>
-                </div>
-                
-                </div>
-
-                  <button type="submit" class="btn btn-block btn-light">Request Access</button>
-              </div>
-            </form>
-    </div>
-    </div>
+  <div class="cta-container bg-dark mb-8 space-2">
+  <h2 class="text-white w-lg-60 text-center mx-auto mb-1">Choose the new and better way to build custom software</h2>
+  <div class="col-sm-5 mx-auto">
+    <a href="https://portal.budi.live/signup" target="_blank" id="goal"><button type="submit" class="btn btn-block btn-light mt-2 ">Get started →</button></a>
+  </div>
 </div>
   
 <div class="alert text-center cookiealert" role="alert">
@@ -877,6 +817,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <div class="list-group list-group-flush">
             <a class="list-group-item list-group-item-action" href="/privacy">Privacy Policy</a>
+          </div>
+          <div class="list-group list-group-flush">
+            <a class="list-group-item list-group-item-action" href="/terms-of-service">Terms of Service</a>
           </div>
           
         </div>
