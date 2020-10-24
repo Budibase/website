@@ -5,21 +5,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
  :root {
-  @font-face {
-    font-family: 'AUTHENTIC Sans';
-    src: url('../fonts/AUTHENTIC-Sans.woff2') format('woff2'),
-         url('../fonts/AUTHENTIC-Sans.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter.woff2') format('woff2'),
-       url('../fonts/Inter.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 
   --blue: #4285F4;
   --indigo: #6610f2;
@@ -48,8 +33,6 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "AUTHENTIC Sans", Helvetica, Arial, sans-serif;
-  --font-family-serif: SFMono-Regular, Menlo, Monaco, Consolas, "Inter", Courier New, monospace;
 }
 
 *,
@@ -59,7 +42,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -81,10 +64,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "AUTHENTIC Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  color: #000000;
+  color: #222222;
   text-align: left;
   background-color: #fff;
 }
@@ -97,7 +80,7 @@ body {
 h1, h2 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "AUTHENTIC Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Manrope', sans-serif;
   color: #000000;
   text-rendering: optimizeLegibility;
 }
@@ -105,7 +88,7 @@ h1, h2 {
 h3, h4 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "AUTHENTIC Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Manrope', sans-serif;
   color: #000000;
   text-rendering: optimizeLegibility;
 }
@@ -113,7 +96,7 @@ h3, h4 {
  h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "AUTHENTIC Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Manrope', sans-serif;
   color: #000000;
   text-rendering: optimizeLegibility;
 }
@@ -121,7 +104,7 @@ h3, h4 {
 p {
   margin-top: 0;
   margin-bottom: 0;
-  color: #000000;
+  color: #222222;
 }
 
 @media (max-width: 576px) {
@@ -402,8 +385,7 @@ template {
 
 h1, h2,
 .h1, .h2, {
-  line-height: 1.3;
-  font-weight: 600;
+  line-height: 1.1;
   color: #000000;
 }
 
@@ -411,7 +393,7 @@ h1, h2,
  h3, h4, h5, h6,
 .h3, .h4, .h5, .h6 {
   font-weight: 600;
-  line-height: 1.3;
+  line-height: 1.1;
   color: #000000;
 }
 
@@ -424,8 +406,8 @@ h5, h6,
 
 h1, .h1 {
   font-size: clamp(2rem, 3vw, 3rem);
-  font-weight: 600;
-  line-height: 1.3;
+  font-weight: 700;
+  line-height: 1.25;
   text-rendering: optimizeLegibility;
 }
 
@@ -439,31 +421,37 @@ h2, .h2 {
   font-size: clamp(1.75rem, 2.25vw, 2.5rem);
   font-weight: 600;
   text-rendering: optimizeLegibility;
+  line-height: 1.25;
 }
 
 h3, .h3 {
   font-size: clamp(1.5rem, 1.75vw, 1.75rem);
   text-rendering: optimizeLegibility;
+  line-height: 1.25;
 }
 
 h4, .h4 {
   font-size: clamp(1.25rem, 1.5vw, 1.5rem);
   text-rendering: optimizeLegibility;
+  line-height: 1.25;
 }
 
 h5, .h5 {
   font-size: clamp(1.15rem, 1.25vw, 1.25rem);
   text-rendering: optimizeLegibility;
+  line-height: 1.25;
 }
 
 h6, .h6 {
   font-size: clamp(1rem, 1vw, 1rem);
   text-rendering: optimizeLegibility;
+  line-height: 1.25;
 }
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 400;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #9e9e9e;
 }
 
 @media (max-width: 576px) {
@@ -816,6 +804,10 @@ pre code {
   border: 3px solid black;
 }
 
+.border-grey {
+  border: 2px solid #eee;
+}
+
 
 /* Investment */
 
@@ -895,7 +887,7 @@ display: none;
 }
 
 .process-card {
-  border: black solid 2px;
+  border: #ccc solid 1px;
   padding: 1rem 1.5rem;
   border-radius: 6px;
   background-color: white;
@@ -967,8 +959,8 @@ display: none;
   background-image: linear-gradient(319deg, rgba(250, 238, 209, 0.5) 0%, rgb(226, 109, 105, .5) 30%, rgb(126, 110, 222, .3) 80%);
 	border-radius: 1rem;
 	margin: 10px;
-	height: 290px;
-  width: 290px;
+	height: 250px;
+  width: 250px;
 	box-shadow: 0 0 0 0 rgba(0, 0, 0, 7);
 	transform: scale(1);
   animation: pulse 2s infinite;
@@ -1010,6 +1002,11 @@ display: none;
 		transform: scale(0.95);
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
+}
+
+.blob-image {
+  height: 120px;
+  width: 120px;
 }
 
 /* Pricing */
@@ -1333,7 +1330,7 @@ display: none;
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  border: white 2px solid;
+  border: #757575 2px solid;
   border-radius: 6px;
 }
 
@@ -7273,7 +7270,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f9f9f9 !important;
+  background-color: #f5f5f5 !important;
 }
 
 .bg-light-2 {
@@ -8548,15 +8545,15 @@ button.bg-blue:focus {
 }
 
 .shadow-sm {
-  box-shadow: 0 0 35px rgba(140, 152, 164, 0.125) !important;
+  box-shadow: 0 0 35px rgba(147, 147, 147, 0.125) !important;
 }
 
 .shadow {
-  box-shadow: 0 0 35px rgba(140, 152, 164, 0.25) !important;
+  box-shadow: 0 0 35px rgba(169, 169, 169, 0.25) !important;
 }
 
 .shadow-lg {
-  box-shadow: 0 10px 40px 10px rgba(140, 152, 164, 0.175) !important;
+  box-shadow: 0 10px 40px 10px rgba(160, 160, 160, 0.175) !important;
 }
 
 .shadow-none {
@@ -10974,7 +10971,7 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .text-light {
-  color: #616161 !important;
+  color: #5c5c5c !important;
 }
 
 a.text-light:hover, a.text-light:focus {
@@ -11376,7 +11373,7 @@ main {
 }
 
 p {
-  color: #000000;
+  color: #222222;
 }
 
 
@@ -17688,33 +17685,33 @@ button:focus {
   }
 }
 .article h1 {
-  font-family: "AUTHENTIC Sans", Helvetica, Arial, sans-serif; 
+  font-family: "Manrope", Helvetica, Arial, sans-serif; 
   text-rendering: optimizeLegibility;
   font-weight: 600;
   font-size: clamp(2rem, 2.25vw, 2.5rem);
 }
 .article h2 {
-  font-family: "AUTHENTIC Sans", Helvetica, Arial, sans-serif; 
+  font-family: "Manrope", Helvetica, Arial, sans-serif; 
   margin-top: 4rem;
   margin-bottom: .75rem;
   font-weight: 600;
   font-size: clamp(1.5rem, 1.75vw, 2rem);
 }
 .article h3 {
-  font-family: "AUTHENTIC Sans", Helvetica, Arial, sans-serif;
+  font-family: "Manrope", Helvetica, Arial, sans-serif;
   margin-top: 3rem;
   margin-bottom: .5rem; 
   color: #000000;
   font-size: clamp(1.25rem, 1.5vw, 1.75rem);
 }
 .article h4 {
-  font-family: "AUTHENTIC Sans", Helvetica, Arial, sans-serif;
+  font-family: "Manrope", Helvetica, Arial, sans-serif;
   margin-top: 2rem;
   margin-bottom: .5rem; 
   font-size: clamp(1.05rem, 1.25vw, 1.55rem);
 }
 .article h5 {
-  font-family: "AUTHENTIC Sans", Helvetica, Arial, sans-serif;
+  font-family: "Manrope", Helvetica, Arial, sans-serif;
   margin-top: 2rem;
   margin-bottom: .5rem; 
   font-weight: 700;
