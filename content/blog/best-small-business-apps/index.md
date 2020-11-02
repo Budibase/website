@@ -17,6 +17,8 @@ Are you looking for a list of the top, most useful small business apps? Are you 
 
 Along with team members from other departments, we have come together to finally get to the bottom of which business apps are best for small businesses. We’ve drafted in the help of Twitter and our 1200 followers to suggest and vote for their favorites.
 
+{{< figure src="/small-business-apps/twitter-poll.png" alt="Twitter poll" >}}
+
 We then tried and tested each suggestion, picked the best ones, and grouped them by category.
 
 If you’re a small business and on a tight budget, this list should serve you well. Most of the apps listed are free or at least offer a free tier/trial.
