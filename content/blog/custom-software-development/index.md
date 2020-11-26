@@ -107,7 +107,7 @@ Traditionally it takes 4 to 6 months to build custom software. With a no code pl
 
 In a previous post, we covered [how to build a web app](https://www.budibase.com/blog/how-to-make-a-web-app/) in quite a lot of detail. I would advise you to visit that post if you want a beginner's guide to software development. At Budibase, we divide the traditional custom software development process into five stages. These stages are linear and often occur consecutively. 
 
-With a no-code platform, the  process is not as fragmented. There are only three steps. Below, I will illustrate the procedures for both.
+With a low-code platform, the  process is not as fragmented. There are only three steps. Below, I will illustrate the procedures for both.
 
 ### Traditional custom software development stages
 

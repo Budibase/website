@@ -60,7 +60,7 @@ Here are the categories:
 {{< figure src="/small-business-apps/budibase.png" alt="Budibase UI" >}}
 
 
-**Description**: Budibase is a no-code platform for building custom software. When spreadsheets are too limited, and off-the-shelf software is too generic and expensive, Budibase is the answer. With Budibase, software users become software makers. For example, with Budibase you could build a customised CRM for your organization in minutes, without coding, and for free!
+**Description**: Budibase is a low-code platform for building custom software. When spreadsheets are too limited, and off-the-shelf software is too generic and expensive, Budibase is the answer. With Budibase, software users become software makers. For example, with Budibase you could build a customised CRM for your organization in minutes, without coding, and for free!
 
 **Review:** We are incredibly biased. So, instead, we will list comments from our initial Beta users.
 
