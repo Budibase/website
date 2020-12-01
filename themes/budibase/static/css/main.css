@@ -1015,24 +1015,33 @@ display: none;
 .pricing {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1rem;
-}
+  border-radius: 6px;
 
-@media (max-width: 1200px) {
-  .pricing {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-  }
 }
 
 @media (max-width: 768px) {
   .pricing {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    border-radius: 6px;
+
   }
 }
+
+@media (max-width: 1200px) {
+  .pricing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.self-host-link {
+  padding-bottom: 4px;
+  border-bottom: 2px dotted #cccccc;
+  line-height: 24px;
+}
+
+
 
 .pricing-heading {
   display: flex;
@@ -1040,10 +1049,31 @@ display: none;
   align-items: center;
 }
 
+.pricing-subheading {
+  justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .pricing-card {
-  border: #cccccc solid 1.5px;
-  padding: 1rem 1.25rem;
-  border-radius: 6px;
+  border-right: #f5f5f5 solid 1px;
+  border-bottom: #f5f5f5 solid 1px;
+  padding: 1rem 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .pricing-card {
+    border-bottom: #f5f5f5 solid 1px;
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .pricing-card {
+    border-right: #f5f5f5 solid 1px;
+    padding: 1rem 1.5rem;
+  }
 }
 
 .price {
@@ -1066,7 +1096,7 @@ display: none;
 }
 
 .pricing-in-content {
-  margin: .5rem 0 2rem 0;
+  margin: 1rem 0 2rem 0;
 }
 
 .believer-package {
@@ -3605,13 +3635,13 @@ fieldset:disabled a.btn {
   font-size: 0.85rem;
   color: #fff;
   background-color: #222222;
-  border: black 1px solid;
+  border: black 2px solid;
 }
 
 .btn-secondary:hover {
   color: black;
   background-color: white;
-  border: black 1px solid;
+  border: black 2px solid;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
@@ -11349,6 +11379,10 @@ button.bg-blue:focus {
   color: #fff !important;
 }
 
+.text-trans {
+  color: transparent !important;
+}
+
 .text-light {
   color: #eee !important;
 }
@@ -11419,7 +11453,7 @@ a.text-grey:hover, a.text-grey:focus {
 }
 
 a.text-dark:hover, a.text-dark:focus {
-  color: #030405 !important;
+  color: var(--blue) !important;
 }
 
 .text-purple {

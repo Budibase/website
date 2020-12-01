@@ -20,6 +20,7 @@ keywords = ["Low code platform", "Custom software", "Web application builder"]
 description = "Budibase is a modern, open source low-code platform for designing, building and deploying custom software. Budibase eliminates coding and allows you to build web applications in minutes. Check it out."
 dateform = "Jan 2, 2006"
 lang = "en"
+images = ["/banner-gradient.jpg"]
 
 [author]
   name = "Joseph Johnston"
