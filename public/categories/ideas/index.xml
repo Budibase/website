@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ideas on Budibase - No code platform | Open Source | Custom Software</title>
+    <title>Ideas on Budibase | Low-code platform | Build apps 50x faster</title>
     <link>https://www.budibase.com/categories/ideas/</link>
-    <description>Recent content in Ideas on Budibase - No code platform | Open Source | Custom Software</description>
+    <description>Recent content in Ideas on Budibase | Low-code platform | Build apps 50x faster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
-    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/categories/ideas/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/categories/ideas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The 20 best small business apps (tried and tested)</title>
+      <link>https://www.budibase.com/blog/best-small-business-apps/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/best-small-business-apps/</guid>
+      <description>Are you looking for a list of the top, most useful small business apps? Are you interested in automating business processes, and unearthing new ways to gain control and save your business money and time? Then look no further.
+Along with team members from other departments, we have come together to finally get to the bottom of which business apps are best for small businesses. We’ve drafted in the help of Twitter and our 1200 followers to suggest and vote for their favorites.</description>
+    </item>
+    
     <item>
       <title>The 12 best no-code tools in 2020</title>
       <link>https://www.budibase.com/blog/no-code-tools/</link>

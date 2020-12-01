@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.budibase.com/marketplace/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/categories/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/categories/ideas/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/no-code/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/blog/best-small-business-apps/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.budibase.com/blog/budibase-public-beta/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
   </url>
@@ -18,22 +48,12 @@
   </url>
   
   <url>
-    <loc>https://www.budibase.com/categories/</loc>
-    <lastmod>2020-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.budibase.com/tags/custom-software-bespoke-software-custom-software-development/</loc>
     <lastmod>2020-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.budibase.com/categories/design/</loc>
-    <lastmod>2020-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.budibase.com/tags/</loc>
     <lastmod>2020-09-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -123,17 +143,22 @@
   </url>
   
   <url>
-    <loc>https://www.budibase.com/categories/ideas/</loc>
+    <loc>https://www.budibase.com/categories/integrations/</loc>
     <lastmod>2020-03-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.budibase.com/tags/no-code/</loc>
+    <loc>https://www.budibase.com/marketplace/integromat/</loc>
     <lastmod>2020-03-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.budibase.com/blog/no-code-tools/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/marketplace/zapier/</loc>
     <lastmod>2020-03-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -258,17 +283,17 @@
   </url>
   
   <url>
+    <loc>https://www.budibase.com/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.budibase.com/blog/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.budibase.com/careers/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.budibase.com/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   

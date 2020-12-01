@@ -12,6 +12,8 @@ hardWraps = true
 [taxonomies]
   category = "categories"
   tag = "tags"
+  integrationcategory = "integrationcategories"
+  featured = "featured"
 
 [params]
 keywords = ["Low code platform", "Custom software", "Web application builder"]
@@ -22,16 +24,18 @@ lang = "en"
 [author]
   name = "Joseph Johnston"
 
-
 [params.publisher]
     name = "Budibase"
 
-  [params.publisher.logo]
+[params.publisher.logo]
       url = "/budibase-logo.png"
 
-  [params.logo]
+[params.logo]
     url = "/budibase-logo.png"
 
-  [params.image]
+[params.image]
     url = "/banner-gradient.jpg"
+
+[permalinks]
+  integrationcategories = "/integration/categories/:title"
 
