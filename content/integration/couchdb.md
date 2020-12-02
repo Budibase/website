@@ -5,7 +5,7 @@ page_title = "CouchDB"
 categories = ["Official"] 
 tags = ["api"] 
 description = "Use Apache CouchDB as your data source for your Budibase applications. "
-images = "integrations/couchdb-image.png"
+images = "integrations/coming-soon.png"
 logo = "integrations/couchdb-logo.png"
 draft= "false"
 integrations = ["database"]
@@ -15,7 +15,7 @@ published_by = "Budibase"
 site_url = "https://budibase.com"
 plan = "Free"
 docs_url = "docs.budibase.com"
-
+status = "Coming soon" 
 +++
 
 

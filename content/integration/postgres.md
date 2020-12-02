@@ -5,7 +5,7 @@ page_title = "PostgreSQL"
 categories = ["Official"] 
 tags = ["api"] 
 description = "Use PostgreSQL as your data source for your Budibase applications. "
-images = "integrations/postgresql.png"
+images = "integrations/coming-soon.png"
 logo = "integrations/postgresql.png"
 draft= "false"
 integration= "data"
@@ -14,6 +14,7 @@ published_by = "Budibase"
 site_url = "https://www.postgresql.org/"
 plan = "Free"
 docs_url = "docs.budibase.com"
+status = "Coming soon" 
 +++
 
 Use PostgreSQL as your data source for your Budibase applications. PostgreSQL, also known as Postgres, is a free and open-source relational database management.

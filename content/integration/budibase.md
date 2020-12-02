@@ -15,6 +15,7 @@ published_by = "Budibase"
 site_url = "https://budibase.com"
 plan = "Free"
 docs_url = "https://docs.budibase.com/data/introduction-to-data"
+status = "Live" 
 +++
 
 Budibase has its own database which you can use to support your application. This allows you to build applications from start to finish, all within Budibase.

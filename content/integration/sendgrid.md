@@ -14,6 +14,7 @@ published_by = "Budibase"
 site_url = "https://sendgrid.com/"
 plan = "Free"
 docs_url = "docs.budibase.com"
+status = "Live" 
 +++
 
 Use Sendgrid to automate your email delivery within Budibase apps.  Sendgrid is a cloud based email delivery service, including notifications, newsletters, automations.

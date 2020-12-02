@@ -5,7 +5,7 @@ page_title = "DynamoDB"
 categories = ["Official"] 
 tags = ["api"] 
 description = "Use DynamoDB as your data source for your Budibase applications. "
-images = "integrations/dynamodb-logo.png"
+images = "integrations/coming-soon.png"
 logo = "integrations/dynamodb-logo.png"
 draft= "false"
 integration= "data"
@@ -14,6 +14,7 @@ published_by = "Budibase"
 site_url = "https://aws.amazon.com/dynamodb/"
 plan = "Free"
 docs_url = "docs.budibase.com"
+status = "Coming soon" 
 +++
 
 Budibase integrates with DynamoDB allowing you to use DynamoDB as your data source for your applications. DynamoDB is a fully managed proprietary NoSQL database service by Amazon.

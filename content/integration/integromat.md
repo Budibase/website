@@ -14,6 +14,7 @@ published_by = "Budibase"
 site_url = "https://www.integromat.com"
 plan = "Free"
 docs_url = "docs.budibase.com"
+status = "Live" 
 +++
 
 Integrate with a number of external APIs using the Budibase Integromat integration. Integromat is a tool that helps you automate manual processes, without coding.

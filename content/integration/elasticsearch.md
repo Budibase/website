@@ -5,7 +5,7 @@ page_title = "Elasticsearch"
 categories = ["Official"] 
 tags = ["api"] 
 description = "Use Elasticsearch as your data source for your Budibase applications."
-images = "integrations/elasticsearch-logo.svg"
+images = "integrations/coming-soon.png"
 logo = "integrations/elasticsearch-logo.svg"
 draft= "false"
 integration= "data"
@@ -14,6 +14,8 @@ published_by = "Budibase"
 site_url = "https://www.elastic.co/elasticsearch/"
 plan = "Free"
 docs_url = "docs.budibase.com"
+status = "Coming soon" 
+
 +++
 
 Use Elasticsearch as your data source for your Budibase applications. Elasticsearch is a fully distributed, RESTful search and analytics engine based on the Lucene library.

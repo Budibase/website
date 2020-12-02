@@ -12,6 +12,8 @@ published_by = "Budibase"
 site_url = "https://zapier.com/"
 plan = "Free"
 docs_url = "docs.budibase.com"
+status = "Live" 
+
 +++
 
 Integrate with a number of external APIs using the Budibase Zapier integration. Zapier allows end users to integrate with the web applications they use, without coding.

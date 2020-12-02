@@ -15,6 +15,7 @@ site_url = "https://data.world/datasets/csv"
 published_by = "Budibase"
 plan = "Free"
 docs_url = "docs.budibase.com"
+status = "Live" 
 +++
 
 A Comma-separated values file is a delimited text file that uses a comma to separate values.

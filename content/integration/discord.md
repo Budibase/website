@@ -14,6 +14,7 @@ published_by = "Budibase"
 site_url = "https://discord.com/"
 plan = "Free"
 docs_url = "docs.budibase.com"
+status = "Live" 
 +++
 
 Connect Budibase to Discord, and recieve notifications when an event is triggered within your apps. Discord is an instant messaging and digital distribution platform designed for voice calls, text messaging and more.
