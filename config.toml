@@ -1,6 +1,6 @@
 baseURL = "https://www.budibase.com/"
 languageCode = "en-uk"
-title = "Budibase - No code platform | Open Source | Custom Software"
+title = "Budibase | Low-code platform | Build apps 50x faster"
 theme = "budibase"
 enableEmoji = "true"
 
@@ -12,26 +12,31 @@ hardWraps = true
 [taxonomies]
   category = "categories"
   tag = "tags"
+  integrationcategory = "integrationcategories"
+  featured = "featured"
 
 [params]
-keywords = ["No code platform", "Custom software", "Web application builder"]
-description = "Budibase is a modern, open source no code platform for designing, building and deploying custom software. Budibase eliminates coding and allows you to build web applications in minutes. Check it out."
+keywords = ["Low code platform", "Custom software", "Web application builder"]
+description = "Budibase is a modern, open source low-code platform for designing, building and shipping business apps. Build applications 50x faster, and a whole lot easier. Check it out."
 dateform = "Jan 2, 2006"
 lang = "en"
+images = ["/banner-gradient.jpg"]
 
 [author]
   name = "Joseph Johnston"
 
-
 [params.publisher]
     name = "Budibase"
 
-  [params.publisher.logo]
+[params.publisher.logo]
       url = "/budibase-logo.png"
 
-  [params.logo]
+[params.logo]
     url = "/budibase-logo.png"
 
-  [params.image]
+[params.image]
     url = "/banner-gradient.jpg"
+
+[permalinks]
+  integrationcategories = "/integration/categories/:title"
 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Budibase Marketplace - the home of business apps on Budibase | Low-code platform | Build apps 50x faster</title>
+    <link>https://www.budibase.com/marketplace/</link>
+    <description>Recent content in Budibase Marketplace - the home of business apps on Budibase | Low-code platform | Build apps 50x faster</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>This work is licensed and owned by Budibase</copyright>
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/marketplace/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integromat</title>
+      <link>https://www.budibase.com/marketplace/integromat/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/marketplace/integromat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zapier</title>
+      <link>https://www.budibase.com/marketplace/zapier/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/marketplace/zapier/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

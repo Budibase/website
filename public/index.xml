@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>No code platform | Open Source | Custom Software | Budibase on Budibase - No code platform | Open Source | Custom Software</title>
+    <title>Budibase | Low-code platform | Build apps 50x faster</title>
     <link>https://www.budibase.com/</link>
-    <description>Recent content in No code platform | Open Source | Custom Software | Budibase on Budibase - No code platform | Open Source | Custom Software</description>
+    <description>Recent content on Budibase | Low-code platform | Build apps 50x faster</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The 20 best small business apps (tried and tested)</title>
+      <link>https://www.budibase.com/blog/best-small-business-apps/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/best-small-business-apps/</guid>
+      <description>Are you looking for a list of the top, most useful small business apps? Are you interested in automating business processes, and unearthing new ways to gain control and save your business money and time? Then look no further.
+Along with team members from other departments, we have come together to finally get to the bottom of which business apps are best for small businesses. We’ve drafted in the help of Twitter and our 1200 followers to suggest and vote for their favorites.</description>
+    </item>
+    
     <item>
       <title>Budibase is in Public Beta!</title>
       <link>https://www.budibase.com/blog/budibase-public-beta/</link>
@@ -61,7 +71,7 @@ More specifically, these Terms govern how you may access and use: (i) budi.</des
     </item>
     
     <item>
-      <title>Database application builder | Free - open source - no code</title>
+      <title>Database application builder | Free - open source - low code</title>
       <link>https://www.budibase.com/data/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -79,7 +89,7 @@ More specifically, these Terms govern how you may access and use: (i) budi.</des
     </item>
     
     <item>
-      <title>No Code Platform Pricing | Budibase</title>
+      <title>Low Code Platform Pricing | Budibase</title>
       <link>https://www.budibase.com/pricing/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -127,6 +137,15 @@ Thank you InvestNI in recognising the huge, worldwide potential of Budibase to e
     </item>
     
     <item>
+      <title>Integromat</title>
+      <link>https://www.budibase.com/marketplace/integromat/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/marketplace/integromat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The 12 best no-code tools in 2020</title>
       <link>https://www.budibase.com/blog/no-code-tools/</link>
       <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
@@ -134,6 +153,15 @@ Thank you InvestNI in recognising the huge, worldwide potential of Budibase to e
       <guid>https://www.budibase.com/blog/no-code-tools/</guid>
       <description>No-code tools empower people around the world to build technology without code. Before no-code tools, building a simple web application was a challenging task, and often left to developers. Thankfully, this is not the case anymore. While no-code tools cannot solve all technical challenges, having the right no-code stack can undoubtedly help you get certain jobs done a lot faster, easier, and cheaper.
 There are hundreds of no-code tools available, some free and some expensive.</description>
+    </item>
+    
+    <item>
+      <title>Zapier</title>
+      <link>https://www.budibase.com/marketplace/zapier/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/marketplace/zapier/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -171,7 +199,7 @@ When you visit our website and use our services, you trust us with your personal
     </item>
     
     <item>
-      <title>No Code Investment - we are open to investment</title>
+      <title>Low Code Investment - we are open to investment</title>
       <link>https://www.budibase.com/investment/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
       
@@ -274,7 +302,7 @@ This post is not a simple static list; created, posted, and forgotten about. I w
     </item>
     
     <item>
-      <title>No code platform | Open Source | Custom Software | Budibase</title>
+      <title>Low code platform | Open Source | Custom Software | Budibase</title>
       <link>https://www.budibase.com/b/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -294,7 +322,7 @@ Respect can be earned, but best when it&amp;rsquo;s natural. Natural respect is 
     </item>
     
     <item>
-      <title>About Budibase | A software company specialising in no code</title>
+      <title>About Budibase | A software company specialising in low code</title>
       <link>https://www.budibase.com/about/</link>
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
       
