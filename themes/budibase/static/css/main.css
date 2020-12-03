@@ -713,7 +713,7 @@ pre code {
 }
 
 .card-small-2 {
-  border: black 2px solid;
+  border: 1px solid #ccc;
   border-radius: 6px;
   padding: 1.25rem;
   align-items: center;
