@@ -17,7 +17,7 @@ hardWraps = true
 
 [params]
 keywords = ["Low code platform", "Custom software", "Web application builder"]
-description = "Budibase is a modern, open source low-code platform for designing, building and deploying custom software. Budibase eliminates coding and allows you to build web applications in minutes. Check it out."
+description = "Budibase is a modern, open source low-code platform for designing, building and shipping business apps. Build applications 50x faster, and a whole lot easier. Check it out."
 dateform = "Jan 2, 2006"
 lang = "en"
 images = ["/banner-gradient.jpg"]
