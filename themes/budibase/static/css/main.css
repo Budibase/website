@@ -413,9 +413,9 @@ h1, .h1 {
 }
 
 @media (max-width: 576px) {
-  h1, .h1 {
-    text-align: left
-    }
+  .hero-title {
+    text-align: left;
+  }
 }
 
 h2, .h2 {
