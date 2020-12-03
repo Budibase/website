@@ -1526,12 +1526,6 @@ border: 3px solid black;
   }
 }
 
-.marketplace-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-  align-items: flex-start;
-}
 
 @media (min-width: 768px) {
   .marketplace-container {
@@ -1558,7 +1552,7 @@ border: 3px solid black;
 
 .marketplace-card-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   align-items: flex-start;
   min-height: 600px;
@@ -1586,7 +1580,7 @@ border: 3px solid black;
   .marketplace-card-container {
     display: grid;
     grid-template-columns: 1fr;
-    gap: .25rem;
+    gap: 1rem;
     align-items: flex-start;
   }
 }
