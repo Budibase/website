@@ -418,6 +418,12 @@ h1, .h1 {
   }
 }
 
+@media (max-width: 576px) {
+  .hero-title-center {
+    text-align: center;
+  }
+}
+
 h2, .h2 {
   font-size: clamp(1.75rem, 2.25vw, 2.5rem);
   font-weight: 800;
@@ -1012,26 +1018,27 @@ display: none;
 
 /* Pricing */
 
-.pricing {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  border-radius: 6px;
 
-}
 
-@media (max-width: 768px) {
   .pricing {
     display: flex;
     flex-direction: column;
     border-radius: 6px;
 
   }
-}
 
-@media (max-width: 1200px) {
+  @media (min-width: 768px) {
   .pricing {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 968px) {
+  .pricing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-radius: 6px;
   }
 }
 
@@ -11392,6 +11399,12 @@ button.bg-blue:focus {
 }
 .font-small {
   font-size: 0.65rem !important;
+}
+
+@media (max-width: 768px) {
+.font-small {
+  font-size: 0.85rem !important;
+}
 }
 
 .text-white {
