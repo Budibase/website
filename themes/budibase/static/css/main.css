@@ -1621,7 +1621,7 @@ border: 3px solid black;
     border: 1px solid #ccc;
     border-radius: .5rem;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 1rem 2rem 1rem;
     transition: all .2s ease-in-out;
     line-height: 1 !important;
   }
