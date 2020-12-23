@@ -1,6 +1,6 @@
 +++
 date = "2020-01-24"
-title = "A beginners guide to web application development (2020)"
+title = "A beginners guide to web application development (2021)"
 categories = ["Build"] 
 tags = ["web application, deployment, database, architecture, processes, frameworks, backend, frontend"]
 description = "Within Budibase's web application development guide you will learn processes, definitions, frameworks, platforms, and much more."
