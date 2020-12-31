@@ -1,9 +1,9 @@
 +++
 date = "2020-03-12"
-title = "The 12 best no-code tools in 2020"
+title = "The 12 best no-code tools in 2021"
 categories = ["Ideas", "Build"] 
 tags = ["no-code"]
-description = "Having the right no-code stack can help you get the job done a lot faster, easier and cheaper. Here are my top 12 best no-code tools to use in 2020."
+description = "Having the right no-code stack can help you get the job done a lot faster, easier and cheaper. Here are my top 12 best no-code tools to use in 2021."
 author = "Joe Johnston"
 images = ["/no-code-tools/no-code-tools.png"]
 draft ="false"
@@ -19,7 +19,7 @@ The no-code landscape is attracting a lot of interest and is growing year on yea
 
 This growth is exciting since it means that if you have a development problem, you can probably find a no-code tool to help you solve it. But it’s also overwhelming. How do you know which of the couple hundred tools are worth trying and investing in?
 
-This post will help clarify those decisions for you. We’ll outline the top 12 no-code tools in 2020. Each platform has its specific use case, so please pay attention to its purpose - this will ensure you choose the right tool for the right job.
+This post will help clarify those decisions for you. We’ll outline the top 12 no-code tools in 2021. Each platform has its specific use case, so please pay attention to its purpose - this will ensure you choose the right tool for the right job.
 
 ## What is no-code
 
@@ -49,7 +49,7 @@ No-code tools have improved immensely. Just about anyone can build a website wit
 
 We are at the beginning of a revolution. As more people gain access to the internet, and no code tools continue to remove technical barriers, an innumerable amount of makers and entrepreneurs will be born. This will bring opportunity. It will open doors to subject matter experts, and allow people to build and test PoCs quickly and cost-effectively. It will change many lives and level numerous playing fields. It will, to a degree, democratize software development.
 
-## The 12 best no-code platforms in 2020
+## The 12 best no-code platforms in 2021
 
 {{< figure src="/no-code-tools/no-code-tools.png" alt="No-code tools" >}}
 
@@ -220,7 +220,7 @@ NoCodeDevs is free to join and use.
 
 ## Final words
 
-I hope you enjoyed this post, and it has helped you identify new no-code tools. If you are looking for an idea as an excuse to use one of these tools, please check out [6 Micro SaaS ideas to steal in 2020](https://www.budibase.com/blog/micro-saas-ideas/). I wish you the best of luck on your no-code journey and if you have any problems, please feel free to drop me a message using the [contact form](https://budibase.com/contact/).
+I hope you enjoyed this post, and it has helped you identify new no-code tools. If you are looking for an idea as an excuse to use one of these tools, please check out [6 Micro SaaS ideas to steal in 2021](https://www.budibase.com/blog/micro-saas-ideas/). I wish you the best of luck on your no-code journey and if you have any problems, please feel free to drop me a message using the [contact form](https://budibase.com/contact/).
 
 Also, at Budibase, we are working hard to build a platform that will help empower the world to build web apps quickly and easily. If you are interested, please sign up below.
 

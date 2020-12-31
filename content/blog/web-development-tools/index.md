@@ -1,6 +1,6 @@
 +++
 date = "2020-02-12"
-title = "40 web development tools you must know about in 2020"
+title = "40 web development tools you must know about in 2021"
 categories = ["Build"] 
 tags = ["Web development tools, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture"]
 description = "Web development is hard. Thankfully, there are tools at our disposal to help make life easier. Within this post, you will find 40 web development tools to help improve your workflow."
@@ -369,7 +369,7 @@ Analytics is an essential component for every web application/website as they pr
 
 There are thousands of web development tools available to web developers. Many are average, but the ones I have listed above are incredible and have helped me time and time again. What's crucial is you understand entirely what these different tools do. Some tools are better for specific projects, and you must pick the right tool for the right job. Web development is an ever-evolving landscape, so you must stay on top of the tools available as some will save you hours of development, and more importantly, provide your users with a better experience.
 
- If you are super-excited to build a web app and in need of an idea, not to worry, here is a list of [web app ideas you'll want to steal in 2020](https://www.budibase.com/blog/web-app-ideas/). 
+ If you are super-excited to build a web app and in need of an idea, not to worry, here is a list of [web app ideas you'll want to steal in 2021](https://www.budibase.com/blog/web-app-ideas/). 
 
 I will try to update this list every six months. If you know any tools which should be listed here, please DM us on Twitter - @budibase. 
 
