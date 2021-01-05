@@ -1052,9 +1052,9 @@ display: none;
 @media (min-width: 768px) {
   .self-hosting-pricing {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     border-radius: 6px;
-    margin: 0 23%;
+    margin: 0 10%;
   }
 }
 
