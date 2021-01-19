@@ -15525,12 +15525,12 @@ button:focus {
 }
 
 .space-hero-top {
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 @media (min-width: 1200px) {
 .space-hero-top {
-  padding-top: 6rem;
+  padding-top: 5rem;
 }
 }
 
