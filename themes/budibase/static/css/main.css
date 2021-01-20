@@ -790,6 +790,11 @@ pre code {
   border-bottom: 3px solid black;
 }
 
+.budibase-diagram {
+  display: flex;
+  align-items: center;
+}
+
 /* Our story - Value */
 
 .value {
