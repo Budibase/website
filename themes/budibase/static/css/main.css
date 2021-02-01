@@ -9547,6 +9547,7 @@ button.bg-blue:focus {
 
 .shadow-cta {
   box-shadow: 0 0 35px rgba(169, 169, 169, 0.25) !important;
+  transition: 200ms all ease-in-out;
 }
 
 .shadow-cta:hover {
