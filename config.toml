@@ -20,7 +20,7 @@ keywords = ["Low code platform", "Custom software", "Web application builder", "
 description = "Budibase is a modern, open source low-code platform for designing, building and shipping internal tools. Build applications 50x faster, and a whole lot easier. Check it out."
 dateform = "Jan 2, 2006"
 lang = "en"
-images = ["/banner-gradient.jpg"]
+images = ["budibase-ui-gradient.png"]
 
 [author]
   name = "Joseph Johnston"
@@ -35,7 +35,7 @@ images = ["/banner-gradient.jpg"]
     url = "/budibase-logo.png"
 
 [params.image]
-    url = "/banner-gradient.jpg"
+    url = "budibase-ui-gradient.png"
 
 [permalinks]
   integrationcategories = "/integration/categories/:title"
