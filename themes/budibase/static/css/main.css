@@ -12363,6 +12363,9 @@ a.text-blue:hover, a.text-blue:focus {
   .w-xl-50 {
     width: 50% !important;
   }
+  .w-xl-55 {
+    width: 55% !important;
+  }
   .w-xl-75 {
     width: 75% !important;
   }
