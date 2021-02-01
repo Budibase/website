@@ -13,7 +13,7 @@ integrationcategories = ["All", "Workflow"]
 published_by = "Budibase"
 site_url = "https://en.wikipedia.org/wiki/Webhook"
 plan = "Free"
-docs_url = "docs.budibase.com"
+docs_url = "https://docs.budibase.com"
 status = "Live" 
 +++
 

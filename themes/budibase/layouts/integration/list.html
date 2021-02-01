@@ -2,8 +2,8 @@
 
 {{ partial "navigation-grey.html" . }}
 
-  <div class="container-fluid space-1 bg-cogs">
-      <div class="container container-blog space-1-top ">
+  <div class="container-fluid space-1-bottom bg-cogs">
+      <div class="container space-hero-top ">
         <div class="pricing-heading container mb-2 mx-auto">
           <h1 class="h2 text-centre mx-auto hero-title-center">Budibase Integrations</h1>
         </div>
@@ -26,13 +26,13 @@
       {{ end }}
     </div>
     <div class="marketplace-card-container space-2-bottom">
-      {{ range .Pages }}
+      {{ range .Data.Pages }}
       <div class="">
         <a href="{{ .Permalink }}">
           <div class="marketplace-card">
               <img class="marketplace-avatar" src="{{ .Params.logo }}" > 
              <div>
-              <h5 class="mb-2 mt-3">{{ .Title }}</h5>
+              <h5 class="mb-2 mt-3">{{ .Params.page_title }}</h5>
               <p class="marketplace-des">{{ .Description }}</p>
             </div>
           </div>

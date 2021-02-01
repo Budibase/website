@@ -14,7 +14,7 @@ integrationcategories = ["All", "Data-source"]
 published_by = "Budibase"
 site_url = "https://budibase.com"
 plan = "Free"
-docs_url = "docs.budibase.com"
+docs_url = "https://docs.budibase.com"
 status = "Coming soon" 
 +++
 

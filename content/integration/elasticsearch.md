@@ -13,7 +13,7 @@ integrationcategories = ["All", "Data-source", "Search"]
 published_by = "Budibase"
 site_url = "https://www.elastic.co/elasticsearch/"
 plan = "Free"
-docs_url = "docs.budibase.com"
+docs_url = "https://docs.budibase.com"
 status = "Coming soon" 
 
 +++

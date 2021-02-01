@@ -14,7 +14,7 @@ integrationcategories = ["All", "Data-source"]
 site_url = "https://data.world/datasets/csv"
 published_by = "Budibase"
 plan = "Free"
-docs_url = "docs.budibase.com"
+docs_url = "https://docs.budibase.com"
 status = "Live" 
 +++
 

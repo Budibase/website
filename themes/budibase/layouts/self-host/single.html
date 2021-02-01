@@ -1,22 +1,22 @@
 {{ partial "header.html" . }}
 
-{{ partial "navigation.html" . }}
-
+{{ partial "navigation-dark.html" . }}
+<div class="bg-black">
 <div class="mb-2">
-    <div class="container container-blog space-2-top ">
+    <div class="container container-blog space-hero-top">
       <div class="pricing-heading container mb-2 mx-auto">
-        <h2 class="text-center mx-auto">Host on your own infrastructure</h2>
+        <h2 class="text-center mx-auto text-white">Self-host on your own infrastructure</h2>
       </div>
     </div>
 </div>
 
 <div class="container">
-  <div class="pricing-subheading w-lg-60 mx-auto">
-    <p class="lead text-center">
-      Take maximum control, and host your apps on your own infrastructure. Budibase supports self-hosting through Docker. 
+  <div class="pricing-subheading w-lg-65 mx-auto">
+    <p class="lead text-white-70">
+      Self-hosting is supported through Docker and Digital Ocean.
     </p> 
-  <div class="mt-4">
-      <a href="/pricing" class="mt-3 mr-2 small text-dark font-weight-bold rounded p-2">
+  <div class="mt-6">
+      <a href="/pricing" class="mt-3 mr-2 small font-weight-bold rounded p-2 text-white">
         Cloud-hosting plans
     </a> 
       <a href="/pricing" class="mt-3 small text-white font-weight-bold rounded bg-dark p-2">
@@ -26,69 +26,64 @@
   </div>
 
 
-    <div class="pricing shadow mt-6 mb-9">
+    <div class="pricing shadow mt-8 mb-9">
       <div class="pricing-card">
         <div class="pricing-in-content">
-          <h5 class="mb-2">Open Source</h5>
-          <p class="mb-3 font-small font-weight-medium">For IT professionals who prefer to do things their way</p>
-          <h5 class="mb-3">$0 <span class="small">/ month</span></h5>
+          <h5 class="mb-2 text-white">Free Forever</h5>
+          <p class="text-white-70 mb-3 font-small font-weight-semi-bold">For IT professionals who prefer to do things their way</p>
+          <h5 class="mb-3 text-white">$0 </h5>
           <div class="mb-4 mx-auto">
-            <a href="https://portal.budi.live/signup"><button type="submit" class="btn btn-block btn-primary">Get Started</button></a>
+            <a href="https://portal.budi.live/signup"><button type="submit" class="btn btn-sm btn-block btn-primary">Get Started</button></a>
           </div>  
-            <p class="mb-2 small mb-3 font-weight-medium">Unlimited potential, all within your secure infrastructure: </p>
-            <p class="mb-2 small"><span class="font-weight-medium">✓</span> Unlimited records</p>  
-            <p class="mb-2 small"><span class="font-weight-medium">✓</span> Unlimited attachment storage</p>
-            <p class="mb-2 small"><span class="font-weight-medium">✓</span> Unlimited users</p>
-            <p class="mb-2 small"><span class="font-weight-medium">✓</span> Unlimited apps</p>
+          <p class="text-white-70 mb-3 small font-weight-semi-bold">Unlimited potential, all within your secure infrastructure: </p>
+            <p class="mb-2 small text-white font-weight-semi-bold"><span class="font-weight-medium text-white">✓</span> Unlimited records, apps, users</p>  
+            <p class="mb-2 small text-white font-weight-semi-bold "><span class="font-weight-medium">✓</span> Everything in the builder</p>
 
         </div>
       </div>
       <div class="pricing-card">
         <div class="pricing-in-content">
-          <h5 class="mb-2">Standard</h5>
-          <p class="mb-3 font-small font-weight-medium">For small organizations who are privacy conscious</p>
-          <h5 class="mb-3">$3 <span class="small">per end-user / month</span></h5>
+          <h5 class="mb-2 text-white">Standard</h5>
+          <p class="text-white-70 mb-3 font-small font-weight-semi-bold">For small organizations who are privacy conscious</p>
+          <h5 class="mb-3 text-white">$3 <span class="small">per end-user / month</span></h5>
           <div class="mb-4 mx-auto">
-            <button type="submit" class="btn btn-block btn-disabled">Coming soon</button>
+            <button type="submit" class="btn btn-block btn-disabled-dark btn-sm">Coming soon</button>
           </div>  
-            <p class="mb-2 small mb-3 font-weight-medium">All the benefits of the Open Source package, and:
-              <p class="mb-2 small"><span class="font-weight-medium">✓</span> Global end user management</p>  
-              <p class="mb-2 small"><span class="font-weight-medium">✓</span> Global builder management</p>
+          <p class="text-white-70 mb-3 small font-weight-semi-bold">All the benefits of the Free Forever package, and:
+              <p class="text-white mb-2 small font-weight-semi-bold"><span class="font-weight-medium">✓</span> Global end user management</p>  
+              <p class="text-white mb-2 small font-weight-semi-bold"><span class="font-weight-medium">✓</span> Global builder management</p>
         </div>
       </div>
       <div class="pricing-card">
         <div class="pricing-in-content">
-          <h5 class="mb-2">Pro</h5>
-          <p class="mb-3 font-small font-weight-medium">For medium to enterprise organizations who are privacy conscious</p>
-          <h5 class="mb-3">$6 <span class="small">per end-user / month</span></h5>
+          <h5 class="mb-2 text-white">Pro</h5>
+          <p class="text-white-70 mb-3 font-small font-weight-semi-bold">For medium to enterprise organizations who are privacy conscious</p>
+          <h5 class="mb-3 text-white">$10 <span class="small">per end-user / month</span></h5>
           <div class="mb-4 mx-auto">
-            <button type="submit" class="btn btn-block btn-disabled">Coming soon</button>
+            <button type="submit" class="btn btn-block btn-disabled-dark btn-sm">Coming soon</button>
           </div>  
-            <p class="mb-2 small mb-3 font-weight-medium">All the benefits of the Standard package, and:
-              <p class="mb-2 small"><span class="font-weight-medium">✓</span> SSO / SAML</p>  
-              <p class="mb-2 small"><span class="font-weight-medium">✓</span> Email Support</p>
+          <p class="text-white-70 mb-3 small font-weight-semi-bold">All the benefits of the Standard package, and:
+              <p class="text-white mb-2 small font-weight-semi-bold"><span class="font-weight-medium">✓</span> SSO / SAML</p>  
+              <p class="text-white mb-2 small font-weight-semi-bold"><span class="font-weight-medium">✓</span> Email Support</p>
         </div>
       </div>
       <div class="pricing-card">
         <div class="pricing-in-content">
-          <h5 class="mb-2">Enterprise </h5>
-          <p class="mb-3 font-small font-weight-medium">For medium to enterprise organizations who are privacy conscious</p>
-          <h5 class="mb-3">Flexible pricing</h5>
-          <div class="mb-4 mx-auto">
-            <button type="submit" class="btn btn-block btn-disabled">Coming soon</button>
+          <h5 class="mb-2 text-white">Enterprise</h5>
+          <p class="text-white-70 mb-3 font-small font-weight-semi-bold">For enterprise organizations who are privacy conscious</p>
+          <h5 class="text-white mb-3">Flexible</h5>
+          <div class="text-white mb-4 mx-auto">
+            <button type="submit" class="btn btn-block btn-sm btn-disabled-dark">Coming soon</button>
           </div>  
-            <p class="mb-2 small mb-3 font-weight-medium">All the benefits of the Pro package and:
-              <p class="mb-2 small"><span class="font-weight-medium">✓</span> Priority Support</p>  
-              <p class="mb-2 small"><span class="font-weight-medium">✓</span> Dedicated AE</p>
-              <p class="mb-2 small"><span class="font-weight-medium">✓</span> Dedicated onboarding</p>
+            <p class="text-white-70 mb-2 small mb-3 font-weight-medium">All the benefits of the Pro package and:
+              <p class="mb-2 small text-white font-weight-semi-bold"><span class="font-weight-medium">✓</span> Priority Support</p>  
+              <p class="mb-2 small text-white font-weight-semi-bold"><span class="font-weight-medium">✓</span> Dedicated onboarding</p>
         </div>
       </div>
       <div>
     </div>
 </div>
+</div>
 
-
-{{ partial "cta-dark.html" . }}
-
-{{ partial "footer.html" . }}
+{{ partial "footer-dark.html" . }}
 

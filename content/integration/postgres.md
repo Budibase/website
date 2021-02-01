@@ -13,7 +13,7 @@ integrationcategories = ["All", "Data-source"]
 published_by = "Budibase"
 site_url = "https://www.postgresql.org/"
 plan = "Free"
-docs_url = "docs.budibase.com"
+docs_url = "https://docs.budibase.com"
 status = "Coming soon" 
 +++
 
