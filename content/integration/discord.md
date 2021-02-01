@@ -13,7 +13,7 @@ integrationcategories = ["All", "Messsaging"]
 published_by = "Budibase"
 site_url = "https://discord.com/"
 plan = "Free"
-docs_url = "docs.budibase.com"
+docs_url = "https://docs.budibase.com"
 status = "Live" 
 +++
 
