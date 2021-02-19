@@ -41,7 +41,6 @@ Before diving into the 5 best open source form builders, let's understand what e
 
 
 > A form builder is a software-based tool that helps users build online forms with little to no code.
->
 
 
 
@@ -91,13 +90,13 @@ Budibase is a form builder and more. It's an open-source low code platform that 
 
 The compilation of functionality makes it the go-to tool for building data-centric internal tools and forms. You can also create public and private forms (authentification). This is essential if you are building apps such as CRMs, approval apps, inventory lists.
 
-What's unique about Budibase, is how you build the form using a GUI. The GUI is strikes a good balance of being opinionated and flexible, allowing you to build beautiful looking forms with ease. For example, each input comes with built-in validation, accessible styling, and theming.
+What's unique about Budibase, is how you build the form using a GUI. The GUI strikes a good balance of being opinionated and flexible, allowing you to build beautiful looking forms with ease. For example, each input comes with built-in validation, accessible styling, and theming.
 
 
 
 ### Ease of use - ⭐⭐⭐⭐
 
-Getting started with Budibase involves you downloading the builder. This provides you with a desktop application that allows you to focus on the task at hand. Some people might find downloading the platform is a slight pain, but the reward is worth it. 
+Getting started with Budibase involves you downloading the builder. This provides you with a desktop application that allows you to focus on the task at hand. Some people might find downloading the platform a slight pain, but the reward is worth it. 
 
 
 
@@ -109,7 +108,7 @@ With Budibase, you can either build forms from scratch or auto-generate them fro
 
 ### Design - ⭐⭐⭐⭐⭐
 
-The design of the builder is superior to other builders on this list. It's not even close. The outputted forms come with themes and built-in validation. The components are modern, and users can change fonts, sizes, spacing, add text/images/tables, and a lot more to the forms.
+The design of the builder is superior to other builders on this list. It's not even close. The outputted forms come with themes and built-in validation. The components are modern, and users can change fonts, sizes, spacing, add text/images/tables to the forms.
 
 
 
