@@ -54,4 +54,8 @@ HUGO_ENABLEGITINFO = "true"
   to = "/data"
   status = 301
 
+  [[redirects]]
+  from = "/investment"
+  to = "/about"
+  status = 301
 
