@@ -1,0 +1,75 @@
+{{ partial "header.html" . }} {{ partial "navigation.html" . }}
+<div class="space-3-bottom">
+  <div class="container container-blog mb-3 space-2-top">
+    <div>
+      <h1 class="mb-2 h3">Welcome to the Budibase blog</h1>
+    </div>
+    <div class="categories">
+      <a href="/categories/inspire/">
+        <h3 class="categories-title mb-0">Ideas</h3>
+      </a>
+      <a href="/categories/build/">
+        <h3 class="categories-title mb-0">Dev</h3>
+      </a>
+      <a href="/categories/design/">
+        <h3 class="categories-title mb-0">Design</h3>
+      </a>
+      <a href="/categories/automation/">
+        <h3 class="categories-title mb-0">Automation</h3>
+      </a>
+      <a href="/categories/host/">
+        <h3 class="categories-title mb-0">Infra</h3>
+      </a>
+    </div>
+  </div>
+
+  <hr class="container">
+
+  <div class="container blog-spotlight space-1-top">
+    <a href="/internal-tools">
+      <div class="spotlight bg-gradient-2">
+        <h2 class="spotlight-title">What are internal tools and how to build them in 2021</h2>
+        <button class="btn btn-opacity text-dark mt-3">
+          Read about internal tools
+        </button>
+      </div>
+    </a>
+    <div class="spotlight bg-dark-2">
+      <h2 class="spotlight-title">The ultimate low-down on low-code</h2>
+      <button class="btn btn-opacity mt-3 text-grey-light">
+        Coming soon
+      </button>
+    </div>
+    <div class="spotlight bg-dark-2">
+      <h2 class="spotlight-title">
+        The definitive guide to business process management (BPM)
+      </h2>
+      <button class="btn btn-opacity mt-3 text-grey-light">
+        Coming soon
+      </button>
+    </div>
+  </div>
+
+  <hr class="container space-1-top">
+
+
+  {{ range .Pages.ByDate.Reverse }}
+  <div class="container">
+    <div class="mx-auto mb-3">
+      <a href="{{ .Permalink }}">
+        <div class="col-sm-12 blog-item">
+          <div class="blog-item-title">
+            <h5>{{ .Title }}</h5>
+          </div>
+          <div class="blog-item-info">
+            <p class="text-grey small">{{ .Date.Format .Site.Params.dateform }}</p>
+            <p class="text-grey small">{{ .Params.author }}</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  {{ end }}
+</div>
+
+{{ partial "cta.html" . }} {{ partial "footer.html" . }}

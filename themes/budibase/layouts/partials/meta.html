@@ -1,0 +1,165 @@
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+{{ if eq $url "" }}
+<meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+{{ with .Site.Params.Keywords }}<meta name="keywords" content="{{ range $index, $tag := . }}{{ if $index }},{{ end }}{{ $tag }}{{ end }}">{{ end }}
+<title>{{ .Site.Title }}</title>
+{{ else }}
+{{ with .Params.Tags }}<meta name="keywords" content="{{ range $index, $tag := . }}{{ if $index }},{{ end }}{{ $tag }}{{ end }}">{{ end }}
+<title>{{ .Title }}</title>
+{{ with .Params.Description }}<meta name="description" content="{{ . }}">{{ end }}
+{{ end }}
+
+    <meta name="robots" content="noodp"/>
+    {{ if .Params.canonicalUrl }}
+    <link rel="canonical" href="{{ .Params.canonicalUrl }}">
+    {{ else }}
+    <link rel="canonical" href="{{ .Permalink }}" />
+    {{ end }}
+    
+
+    {{ if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "{{ .Site.BaseURL }}",
+  {{ if .Site.Author.name -}}
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Site.Author.name }}"
+  },
+  {{- end }}
+  {{ if .Site.Params.description -}}
+  "description": "{{ .Site.Params.description }}",
+  {{- end }}
+  {{ with .Site.Params.image -}}
+  "image": "{{ .url | absURL }}",
+  {{- end }}
+  {{ with .Site.Params.logo -}}
+  "thumbnailUrl": "{{ .url | absURL }}",
+  {{- end }}
+  {{ with .Site.Copyright -}}
+  "license": "{{ . }}",
+  {{- end }}
+  "name": "{{ .Site.Title }}"
+}
+</script>
+{{/*
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "http://example.com/search?&q={query}",
+    "query-input": "required"
+  } */}}
+{{- else if .IsPage -}}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ .Title }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  {{ if ge (.Param "image.width") 696 -}}
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ .Param "image.url" | absURL }}",
+    "width": {{ .Param "image.width" }},
+    "height": {{ .Param "image.height" }}
+  },
+  {{- else if ge .Site.Params.image.width 696 -}}
+   "image": {
+    "@type": "ImageObject",
+    "url": "{{ .Site.Params.image.url | absURL }}",
+    "width": {{ .Site.Params.image.width }},
+    "height": {{ .Site.Params.image.height }}
+  },
+  {{- end }}
+  "genre": "{{ .Type }}",
+  {{ with .Params.tags -}}
+  "keywords": "{{ delimit . ", " }}",
+  {{- end }}
+  "wordcount": {{ .WordCount }},
+  "url": "{{ .Permalink }}",
+  {{ if not .PublishDate.IsZero -}}
+  "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | safeHTML }}",
+  {{- else if not .Date.IsZero -}}
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}",
+  {{- end }}
+  {{ with .Lastmod -}}
+  "dateModified": "{{ .Format "2006-01-02T15:04:05-07:00" | safeHTML }}",
+  {{- end }}
+  {{ with .Site.Copyright -}}
+  "license": "{{ . }}",
+  {{- end }}
+  {{ with .Site.Params.publisher -}}
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .name }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .logo.url | absURL }}",
+      "width": {{ .logo.width }},
+      "height": {{ .logo.height }}
+    }
+  },
+  {{- end }}
+  {{ if .Params.author -}}
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Params.author }}"
+  },
+  {{- else if .Site.Author.name -}}
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Site.Author.name }}"
+  },
+  {{- end }}
+  "description": "{{ .Description }}"
+}
+</script>
+{{- end }}
+
+<!-- Hotjar Tracking Code for https://www.budibase.com/ -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:1165731,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+    
+    var targetCookie = "_ga="
+    var cookieParts = document.cookie.split(";")
+    
+    var gidCookie
+    for (var i = 0; i < cookieParts.length; i++) {
+      if (cookieParts[i].trim().startsWith(targetCookie)) {
+        gidCookie = cookieParts[i].trim()
+      }      
+    }
+
+    if (gidCookie) {
+
+      var gid = gidCookie.substring(targetCookie.length)
+
+      var allLinks = document.getElementsByTagName("A");
+      var index = 0;
+
+      for (let index = 0; index < allLinks.length; index++) {
+        var anchor = allLinks[index];
+        if (anchor.href.indexOf("portal.budi.live") >= 0) {
+          anchor.href = anchor.href + "?id=" + gid
+        }
+      }
+
+    }
+    
+  }, false)
+</script>

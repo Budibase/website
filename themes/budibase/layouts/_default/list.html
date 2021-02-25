@@ -1,0 +1,52 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+<div class="space-3-bottom">
+  <div class="container container-blog mb-4  space-3-top ">
+    <div class=" mb-3">
+      <h1 class="mb-2">Budibase</h1>
+    </div>
+    <div class="categories">
+      <a href="/blog">
+        <h3 class="h6 text-dark mb-0">All</h3>
+      </a>
+      <a href="/categories/inspire/">
+        <h3 class="h6 text-dark mb-0">Ideas</h3>
+      </a>
+      <a href="/categories/build/">
+        <h3 class="h6 text-dark mb-0">Dev</h3>
+      </a>
+      <a href="/categories/design/">
+        <h3 class="h6 text-dark mb-0">Design</h3>
+      </a>
+      <a href="/categories/automation/">
+        <h3 class="h6 text-dark mb-0">Automation</h3>
+      </a>
+      <a href="/categories/host/">
+        <h3 class="h6 text-dark mb-0">Infra</h3>
+      </a>
+    </div>
+  </div>
+
+  {{ range .Pages.ByDate.Reverse }}
+  <div class="container">
+    <div class="mx-auto mb-3">
+      <a href="{{ .Permalink }}">
+        <div class="col-sm-12 blog-item">
+          <div class="blog-item-title">
+            <h4>{{ .Title }}</h4>
+          </div>
+          <div class="blog-item-info">
+            <p class="text-grey">{{ .Date.Format .Site.Params.dateform }}</p>
+            <p class="text-grey">{{ .Params.author }} </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  {{ end }}
+</div>
+
+{{ partial "cta-dark.html" . }}
+
+{{ partial "footer.html" . }}

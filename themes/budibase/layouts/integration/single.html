@@ -1,0 +1,68 @@
+{{ partial "header2.html" . }}
+
+{{ partial "navigation-grey.html" . }}
+
+  <div class="container-fluid space-1 bg-cogs">
+      <div class="container container-blog space-1-top ">
+        <div class="pricing-heading container mb-2 mx-auto">
+          <h1 class="h2 text-centre mx-auto hero-title-center">{{ .Params.page_title }} Integration</h1>
+        </div>
+      </div>
+<div class="container">
+      <p class="lead text-center w-lg-60 mx-auto mb-4">
+        Connect {{ .Params.page_title }} to Budibase
+      </p> 
+      <div class="col-lg-3 col-md-4 flex-row mx-auto mb-8">
+        <a href="https://portal.budi.live/signup" target="_blank" id="goal"><button type="submit" class="btn btn-block btn-secondary small">Get Started</button></a>
+      </div>
+  </div>
+</div>
+
+<main id="content" role="main">
+  <div class="space-1-top space-2-bottom ">
+    <div class="container integration">
+      <a href="/integration/categories/all/" class="mb-8 small"><-- Back to Integrations</a>
+
+      <div class=" integration-header mx-md-auto">
+        <div class="integration-left-panel">
+        <img class="u-xl-avatar mb-4" src="{{ .Params.logo }}" />
+        <h5>Details</h5>        
+      <div class="integration-nav-item mt-3">
+        <p class="integration-nav-item-font ">Published By</p>
+        <p class="integration-nav-item-font text-grey">{{.Params.published_by}}</p>
+    </div>
+    <div class="integration-nav-item mt-3">
+      <p class="integration-nav-item-font ">Status</p>
+      <p class="integration-nav-item-font text-grey">{{.Params.status}}</p>
+  </div>
+  <div class="integration-nav-item mt-3">
+    <p class="integration-nav-item-font">Website</p>
+    <a href="{{.Params.site_url}}" target="_blank"> <div class="integration-nav-item-font text-grey">{{.Params.page_title}}</div></a>
+  </div>
+  <div class="integration-nav-item mt-3">
+    <p class="integration-nav-item-font">Docs</p>
+    <a href="{{.Params.docs_url}}" target="_blank"> <div class="integration-nav-item-font text-grey">Visit Docs</div></a>
+  </div>
+
+  <div class="mt-3">
+  <a href="https://portal.budi.live/signup" target="_blank" id="goal"><button type="submit" class="btn btn-block btn-outline-secondary small">Get Started</button></a>
+</div>
+
+  </div>
+      <div class="integration-title">
+        <h1 class="h2">{{ .Params.page_title }}</h2>
+        <div class="space-1-top">
+          <div class="mb-6">{{ .Content }}</div>
+          <img class="mb-8 img-fluid shadow" src="{{ .Params.images }}">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</main>
+
+<!--Article-->
+
+{{ partial "cta-dark-small.html" . }} {{ partial "footer.html" . }}

@@ -1,0 +1,43 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+
+<main id="content" role="main">
+    <!-- Article Content -->
+  
+  <div class="article space-3-top">
+    <div class="container">
+      <header class="w-md-75 w-lg-60 mx-md-auto">
+          <h1 class="text-center">{{ .Title }}</h1>
+
+          {{ if (.Params.profilePic) }}
+              <img class="u-md-avatar mt-4" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+          {{ else }}
+              <img class="u-md-avatar mt-4" src="/img/img/joe.jpg">
+          {{ end }}
+          <p class="text-center text-grey">By: {{ .Params.author }} </p>
+          <p class="text-grey mb-4 text-center">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</p>
+        </div>
+      </div>
+        <!-- End Author -->
+      </header>
+
+      <img class="article-title-img rounded" src="{{ with .Params.image }}{{ . }}{{ end }}" />      
+      <!-- Description -->
+      <div class="article">
+        <div class="container space-1-top ">
+          <div class="w-md-75 w-lg-60 mx-md-auto mb-9">
+              {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!--Article-->
+
+{{ partial "cta-dark.html" . }}
+
+{{ partial "footer.html" . }}

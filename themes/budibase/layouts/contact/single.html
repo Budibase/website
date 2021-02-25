@@ -1,0 +1,75 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+    <div class="container text-center space-1 space-4-top space-2-bottom--lg">
+        <div class="w-md-80 mx-auto mb-3">
+          <h1 class="col display-4 font-size-48--md-down">Contact Us</h1>
+          <div class="col-lg-8 mx-auto">
+            <div class="mb-5">
+                <p class="lead mb-0">To contact us, complete the form below. We will respond as soon as possible. </p>
+        </div>
+        </div>
+      </div>
+
+<form class="js-validate" form name="contact" method="POST" data-netlify="true">
+        <div class="row col-lg-6 text-center mx-auto">
+          <!-- Input -->
+          <div class="col-sm-12 mb-6">
+            <div class="js-form-message">
+              <div class="js-focus-state input-group form">
+                <input class="form-control form__input" type="text" name="name" required
+                       placeholder="Your name"
+                       aria-label="Your name"
+                       data-msg="Please enter your name."
+                       data-error-class="u-has-error"
+                       data-success-class="u-has-success">
+              </div>
+            </div>
+          </div>
+          <!-- End Input -->
+      
+          <!-- Input -->
+          <div class="col-sm-12 mb-6">
+            <div class="js-form-message">
+              <div class="js-focus-state input-group form">
+                <input class="form-control form__input" type="email" name="email" required
+                       placeholder="Your email address"
+                       aria-label="Your email address"
+                       data-msg="Please enter a valid email address."
+                       data-error-class="u-has-error"
+                       data-success-class="u-has-success">
+              </div>
+            </div>
+          </div>
+       
+      
+        <!-- Input -->
+        <div class="js-form-message col-sm-12 mb-9">
+          <div class="js-focus-state input-group form">
+            <textarea class="form-control form__input" rows="6" name="text" required
+                      placeholder="How can we help you?"
+                      aria-label="How can we help you?"
+                      data-msg="Please enter a reason."
+                      data-error-class="u-has-error"
+                      data-success-class="u-has-success"></textarea>
+          </div>
+        </div>
+      </div>
+        
+        
+
+        <!-- End Input -->
+      
+        <div class="text-center space-3-bottom--lg">
+          <button type="submit" class="btn btn-primary btn-wide mb-4">Submit</button>
+          <p class="small">We'll get back to you in 1-2 business days.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+
+      {{ partial "footer.html" . }}
