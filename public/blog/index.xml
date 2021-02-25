@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>BudiBlog - learn about building, hosting &amp; managing web apps on Budibase | Low-code platform | Build apps 50x faster</title>
+    <title>BudiBlog - learn about building, hosting &amp; managing web apps on Budibase | Build internal tools on your own infrastructure</title>
     <link>https://www.budibase.com/blog/</link>
-    <description>Recent content in BudiBlog - learn about building, hosting &amp; managing web apps on Budibase | Low-code platform | Build apps 50x faster</description>
+    <description>Recent content in BudiBlog - learn about building, hosting &amp; managing web apps on Budibase | Build internal tools on your own infrastructure</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The 5 best open source form builder apps (tried and tested)</title>
+      <link>https://www.budibase.com/blog/open-source-form-builder/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/open-source-form-builder/</guid>
+      <description>My name is Joe, and I have been building online forms for the last 10 years of my life. I have developed forms in several different ways; with html5 form builders, with Javascript form builders, to niche React form builders, and more. From my experience, I can conclude that the best open-source form builders make it quick and easy to create beautiful, functional, and accessible forms.
+Forms are a critical construct of the digital age.</description>
+    </item>
+    
+    <item>
+      <title>6 tried and tested ways to get more Github Stars</title>
+      <link>https://www.budibase.com/blog/github-stars/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/github-stars/</guid>
+      <description>Over the last year, we&amp;rsquo;ve been building an open-source, low-code platform for developers and IT professionals. We&amp;rsquo;ve been so bogged down building the product and talking to users; we completely neglected the Budibase Github repo.
+A trifling 83 stars in November presented a bleak assessment of the impact our repository had on passersby.
+So, a few weeks back, we decided to give more thought to our Github repository. I would like to stipulate, we do not treat stars as the primary currency of successful open source projects.</description>
+    </item>
+    
     <item>
       <title>The 20 best small business apps (tried and tested)</title>
       <link>https://www.budibase.com/blog/best-small-business-apps/</link>
@@ -30,7 +51,7 @@ We plan to officially launch in the next 1-2 months. Our exact launch date will 
     </item>
     
     <item>
-      <title>What is custom software development in 2020</title>
+      <title>What is custom software development in 2021</title>
       <link>https://www.budibase.com/blog/custom-software-development/</link>
       <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -53,7 +74,7 @@ Thank you InvestNI in recognising the huge, worldwide potential of Budibase to e
     </item>
     
     <item>
-      <title>The 12 best no-code tools in 2020</title>
+      <title>The 12 best no-code tools in 2021</title>
       <link>https://www.budibase.com/blog/no-code-tools/</link>
       <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
       
@@ -63,7 +84,7 @@ There are hundreds of no-code tools available, some free and some expensive.</de
     </item>
     
     <item>
-      <title>40 web development tools you must know about in 2020</title>
+      <title>40 web development tools you must know about in 2021</title>
       <link>https://www.budibase.com/blog/web-development-tools/</link>
       <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
       
@@ -75,7 +96,7 @@ In this post, we&amp;rsquo;ve rounded up some of the most helpful tools for deve
     </item>
     
     <item>
-      <title>A beginners guide to web application development (2020)</title>
+      <title>A beginners guide to web application development (2021)</title>
       <link>https://www.budibase.com/blog/web-application-development/</link>
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
       
@@ -86,7 +107,7 @@ There was a small complication with my vision - I didn&amp;rsquo;t know how to b
     </item>
     
     <item>
-      <title>5 Recent Examples Of Modern Web Application Design (2020)</title>
+      <title>5 Recent Examples Of Modern Web Application Design (2021)</title>
       <link>https://www.budibase.com/blog/5-examples-of-web-application-design/</link>
       <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
       
@@ -97,7 +118,7 @@ Huge amounts of time and thought have went into the design of these web applicat
     </item>
     
     <item>
-      <title> 8 Web App Ideas You&#39;ll Want To Steal (2020)</title>
+      <title> 8 Web App Ideas You&#39;ll Want To Steal (2021)</title>
       <link>https://www.budibase.com/blog/web-app-ideas/</link>
       <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
       
@@ -111,7 +132,7 @@ Which is why we spent 3 weeks researching viable ideas to help you build a succe
     </item>
     
     <item>
-      <title>How to build a web app: A beginner&#39;s guide (2020)</title>
+      <title>How to build a web app: A beginner&#39;s guide (2021)</title>
       <link>https://www.budibase.com/blog/how-to-make-a-web-app/</link>
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
       

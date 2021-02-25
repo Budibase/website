@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infra on Budibase | Build internal tools on your own infrastructure</title>
+    <link>https://www.budibase.com/categories/infra/</link>
+    <description>Recent content in Infra on Budibase | Build internal tools on your own infrastructure</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>This work is licensed and owned by Budibase</copyright>
+    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/categories/infra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6 tried and tested ways to get more Github Stars</title>
+      <link>https://www.budibase.com/blog/github-stars/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/github-stars/</guid>
+      <description>Over the last year, we&amp;rsquo;ve been building an open-source, low-code platform for developers and IT professionals. We&amp;rsquo;ve been so bogged down building the product and talking to users; we completely neglected the Budibase Github repo.
+A trifling 83 stars in November presented a bleak assessment of the impact our repository had on passersby.
+So, a few weeks back, we decided to give more thought to our Github repository. I would like to stipulate, we do not treat stars as the primary currency of successful open source projects.</description>
+    </item>
+    
+  </channel>
+</rss>

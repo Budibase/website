@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>messaging on Budibase | Build internal tools on your own infrastructure</title>
+    <link>https://www.budibase.com/tags/messaging/</link>
+    <description>Recent content in messaging on Budibase | Build internal tools on your own infrastructure</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>This work is licensed and owned by Budibase</copyright>
+    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/tags/messaging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Discord integration with Budibase | Connect your apps to Discord</title>
+      <link>https://www.budibase.com/integration/discord/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/discord/</guid>
+      <description>Connect Budibase to Discord, and recieve notifications when an event is triggered within your apps. Discord is an instant messaging and digital distribution platform designed for voice calls, text messaging and more.</description>
+    </item>
+    
+  </channel>
+</rss>

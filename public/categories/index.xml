@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Budibase | Low-code platform | Build apps 50x faster</title>
+    <title>Categories on Budibase | Build internal tools on your own infrastructure</title>
     <link>https://www.budibase.com/categories/</link>
-    <description>Recent content in Categories on Budibase | Low-code platform | Build apps 50x faster</description>
+    <description>Recent content in Categories on Budibase | Build internal tools on your own infrastructure</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
-    <lastBuildDate>Wed, 28 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build</title>
+      <link>https://www.budibase.com/categories/build/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/build/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infra</title>
+      <link>https://www.budibase.com/categories/infra/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/infra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Official</title>
+      <link>https://www.budibase.com/categories/official/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/categories/official/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Ideas</title>
       <link>https://www.budibase.com/categories/ideas/</link>
@@ -23,15 +50,6 @@
       <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/categories/automation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Build</title>
-      <link>https://www.budibase.com/categories/build/</link>
-      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.budibase.com/categories/build/</guid>
       <description></description>
     </item>
     
@@ -68,15 +86,6 @@
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/categories/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Integrations</title>
-      <link>https://www.budibase.com/categories/integrations/</link>
-      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.budibase.com/categories/integrations/</guid>
       <description></description>
     </item>
     

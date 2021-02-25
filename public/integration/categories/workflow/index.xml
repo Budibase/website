@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workflow on Budibase | Build internal tools on your own infrastructure</title>
+    <link>https://www.budibase.com/integration/categories/workflow/</link>
+    <description>Recent content in Workflow on Budibase | Build internal tools on your own infrastructure</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>This work is licensed and owned by Budibase</copyright>
+    <lastBuildDate>Thu, 12 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/integration/categories/workflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Budibase Webhooks | Use webhooks to enrich your Budibase applications</title>
+      <link>https://www.budibase.com/integration/webhooks/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/webhooks/</guid>
+      <description>Use webhooks to connect your application to other applications. With webhooks, you can pull data into Budibase, and push data out.</description>
+    </item>
+    
+    <item>
+      <title>Integromat integration with Budibase | Connect your app to the world</title>
+      <link>https://www.budibase.com/integration/integromat/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/integromat/</guid>
+      <description>Integrate with a number of external APIs using the Budibase Integromat integration. Integromat is a tool that helps you automate manual processes, without coding.</description>
+    </item>
+    
+    <item>
+      <title>Zapier integration with Budibase | Connect your app to the world</title>
+      <link>https://www.budibase.com/integration/zapier/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/zapier/</guid>
+      <description>Integrate with a number of external APIs using the Budibase Zapier integration. Zapier allows end users to integrate with the web applications they use, without coding.</description>
+    </item>
+    
+  </channel>
+</rss>

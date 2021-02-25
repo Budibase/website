@@ -1,13 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Budibase | Low-code platform | Build apps 50x faster</title>
+    <title>Budibase | Build internal tools on your own infrastructure</title>
     <link>https://www.budibase.com/</link>
-    <description>Recent content on Budibase | Low-code platform | Build apps 50x faster</description>
+    <description>Recent content on Budibase | Build internal tools on your own infrastructure</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The 5 best open source form builder apps (tried and tested)</title>
+      <link>https://www.budibase.com/blog/open-source-form-builder/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/open-source-form-builder/</guid>
+      <description>My name is Joe, and I have been building online forms for the last 10 years of my life. I have developed forms in several different ways; with html5 form builders, with Javascript form builders, to niche React form builders, and more. From my experience, I can conclude that the best open-source form builders make it quick and easy to create beautiful, functional, and accessible forms.
+Forms are a critical construct of the digital age.</description>
+    </item>
+    
+    <item>
+      <title>What are Internal Tools? The 2021 guide to Internal Tools</title>
+      <link>https://www.budibase.com/internal-tools/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/internal-tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>6 tried and tested ways to get more Github Stars</title>
+      <link>https://www.budibase.com/blog/github-stars/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/blog/github-stars/</guid>
+      <description>Over the last year, we&amp;rsquo;ve been building an open-source, low-code platform for developers and IT professionals. We&amp;rsquo;ve been so bogged down building the product and talking to users; we completely neglected the Budibase Github repo.
+A trifling 83 stars in November presented a bleak assessment of the impact our repository had on passersby.
+So, a few weeks back, we decided to give more thought to our Github repository. I would like to stipulate, we do not treat stars as the primary currency of successful open source projects.</description>
+    </item>
+    
+    <item>
+      <title>Budibase | The Fastest Visual Development Platform</title>
+      <link>https://www.budibase.com/product/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/product/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Budibase Webhooks | Use webhooks to enrich your Budibase applications</title>
+      <link>https://www.budibase.com/integration/webhooks/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/webhooks/</guid>
+      <description>Use webhooks to connect your application to other applications. With webhooks, you can pull data into Budibase, and push data out.</description>
+    </item>
+    
     <item>
       <title>The 20 best small business apps (tried and tested)</title>
       <link>https://www.budibase.com/blog/best-small-business-apps/</link>
@@ -30,7 +78,7 @@ We plan to officially launch in the next 1-2 months. Our exact launch date will 
     </item>
     
     <item>
-      <title>What is custom software development in 2020</title>
+      <title>What is custom software development in 2021</title>
       <link>https://www.budibase.com/blog/custom-software-development/</link>
       <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -137,16 +185,116 @@ Thank you InvestNI in recognising the huge, worldwide potential of Budibase to e
     </item>
     
     <item>
-      <title>Integromat</title>
-      <link>https://www.budibase.com/marketplace/integromat/</link>
+      <title>Build apps from start to finish with Budibase</title>
+      <link>https://www.budibase.com/integration/budibase/</link>
       <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.budibase.com/marketplace/integromat/</guid>
-      <description></description>
+      <guid>https://www.budibase.com/integration/budibase/</guid>
+      <description>Budibase has its own database which you can use to support your application. This allows you to build applications from start to finish, all within Budibase.</description>
     </item>
     
     <item>
-      <title>The 12 best no-code tools in 2020</title>
+      <title>CouchDB integration with Budibase | Data source for building business apps</title>
+      <link>https://www.budibase.com/integration/couchdb/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/couchdb/</guid>
+      <description>Budibase integrates with Apache CouchDB allowing you to use CouchDB as your data source for your applications. CouchDB is an open-source document-oriented NoSQL database, implemented in Erlang.</description>
+    </item>
+    
+    <item>
+      <title>CSV integration with Budibase | Data source for building business apps</title>
+      <link>https://www.budibase.com/integration/csv/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/csv/</guid>
+      <description>A Comma-separated values file is a delimited text file that uses a comma to separate values.
+Easily upload data to Budibase using CSVs. When you upload your CSV, Budibase will recognise the column/field names. You then have the ability to change the data type of the column, and remove if you like, before uploading to Budibase.</description>
+    </item>
+    
+    <item>
+      <title>Discord integration with Budibase | Connect your apps to Discord</title>
+      <link>https://www.budibase.com/integration/discord/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/discord/</guid>
+      <description>Connect Budibase to Discord, and recieve notifications when an event is triggered within your apps. Discord is an instant messaging and digital distribution platform designed for voice calls, text messaging and more.</description>
+    </item>
+    
+    <item>
+      <title>DynamoDB integration with Budibase | Data source for building business apps</title>
+      <link>https://www.budibase.com/integration/dynamodb/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/dynamodb/</guid>
+      <description>Budibase integrates with DynamoDB allowing you to use DynamoDB as your data source for your applications. DynamoDB is a fully managed proprietary NoSQL database service by Amazon.</description>
+    </item>
+    
+    <item>
+      <title>Elasticsearch integration with Budibase | Data source for building business apps</title>
+      <link>https://www.budibase.com/integration/elasticsearch/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/elasticsearch/</guid>
+      <description>Use Elasticsearch as your data source for your Budibase applications. Elasticsearch is a fully distributed, RESTful search and analytics engine based on the Lucene library.</description>
+    </item>
+    
+    <item>
+      <title>Integromat integration with Budibase | Connect your app to the world</title>
+      <link>https://www.budibase.com/integration/integromat/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/integromat/</guid>
+      <description>Integrate with a number of external APIs using the Budibase Integromat integration. Integromat is a tool that helps you automate manual processes, without coding.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB integration with Budibase | Use MongoDB as your data source</title>
+      <link>https://www.budibase.com/integration/mongodb/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/mongodb/</guid>
+      <description>Use MongoDB as your data source for your Budibase applications. MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program.</description>
+    </item>
+    
+    <item>
+      <title>MySQL integration with Budibase | Data source for building business apps</title>
+      <link>https://www.budibase.com/integration/mysql/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/mysql/</guid>
+      <description>Budibase integrates with MySQL allowing you to use MySQL as your data source for your applications. MySQL Database Service is a fully managed database service to deploy cloud-native applications.</description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL integration with Budibase | Use PostgreSQL as your data source</title>
+      <link>https://www.budibase.com/integration/postgres/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/postgres/</guid>
+      <description>Use PostgreSQL as your data source for your Budibase applications. PostgreSQL, also known as Postgres, is a free and open-source relational database management.</description>
+    </item>
+    
+    <item>
+      <title>S3 integration with Budibase | Use S3 as your data source</title>
+      <link>https://www.budibase.com/integration/s3/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/s3/</guid>
+      <description>Use Amazon S3 as your data and object source for your Budibase applications. Amazon S3 provides object storage through a web service interface which is accessible at any time.</description>
+    </item>
+    
+    <item>
+      <title>Sendgrid integration with Budibase | Automate email delivery</title>
+      <link>https://www.budibase.com/integration/sendgrid/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/sendgrid/</guid>
+      <description>Use Sendgrid to automate your email delivery within Budibase apps. Sendgrid is a cloud based email delivery service, including notifications, newsletters, automations.</description>
+    </item>
+    
+    <item>
+      <title>The 12 best no-code tools in 2021</title>
       <link>https://www.budibase.com/blog/no-code-tools/</link>
       <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
       
@@ -156,16 +304,16 @@ There are hundreds of no-code tools available, some free and some expensive.</de
     </item>
     
     <item>
-      <title>Zapier</title>
-      <link>https://www.budibase.com/marketplace/zapier/</link>
+      <title>Zapier integration with Budibase | Connect your app to the world</title>
+      <link>https://www.budibase.com/integration/zapier/</link>
       <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.budibase.com/marketplace/zapier/</guid>
-      <description></description>
+      <guid>https://www.budibase.com/integration/zapier/</guid>
+      <description>Integrate with a number of external APIs using the Budibase Zapier integration. Zapier allows end users to integrate with the web applications they use, without coding.</description>
     </item>
     
     <item>
-      <title>40 web development tools you must know about in 2020</title>
+      <title>40 web development tools you must know about in 2021</title>
       <link>https://www.budibase.com/blog/web-development-tools/</link>
       <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
       
@@ -177,7 +325,7 @@ In this post, we&amp;rsquo;ve rounded up some of the most helpful tools for deve
     </item>
     
     <item>
-      <title>A beginners guide to web application development (2020)</title>
+      <title>A beginners guide to web application development (2021)</title>
       <link>https://www.budibase.com/blog/web-application-development/</link>
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
       
@@ -199,16 +347,7 @@ When you visit our website and use our services, you trust us with your personal
     </item>
     
     <item>
-      <title>Low Code Investment - we are open to investment</title>
-      <link>https://www.budibase.com/investment/</link>
-      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.budibase.com/investment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>5 Recent Examples Of Modern Web Application Design (2020)</title>
+      <title>5 Recent Examples Of Modern Web Application Design (2021)</title>
       <link>https://www.budibase.com/blog/5-examples-of-web-application-design/</link>
       <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
       
@@ -219,7 +358,7 @@ Huge amounts of time and thought have went into the design of these web applicat
     </item>
     
     <item>
-      <title> 8 Web App Ideas You&#39;ll Want To Steal (2020)</title>
+      <title> 8 Web App Ideas You&#39;ll Want To Steal (2021)</title>
       <link>https://www.budibase.com/blog/web-app-ideas/</link>
       <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
       
@@ -233,7 +372,7 @@ Which is why we spent 3 weeks researching viable ideas to help you build a succe
     </item>
     
     <item>
-      <title>How to build a web app: A beginner&#39;s guide (2020)</title>
+      <title>How to build a web app: A beginner&#39;s guide (2021)</title>
       <link>https://www.budibase.com/blog/how-to-make-a-web-app/</link>
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
       
@@ -349,6 +488,24 @@ Respect can be earned, but best when it&amp;rsquo;s natural. Natural respect is 
     </item>
     
     <item>
+      <title>Airtable integration with Budibase | Data source for building web apps</title>
+      <link>https://www.budibase.com/integration/airtable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/airtable/</guid>
+      <description>Budibase integrates with Airtable allowing you to use Airtable as your data source for your applications. Airtable is a cloud collaboration service headquartered in San Francisco. It was founded in 2012 by Howie Liu, Andrew Ofstad, and Emmett Nicholas. Airtable is a spreadsheet-database hybrid, with the features of a database but applied to a spreadsheet.</description>
+    </item>
+    
+    <item>
+      <title>ArangoDB integration with Budibase | Data source for building internal tools</title>
+      <link>https://www.budibase.com/integration/arangodb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/arangodb/</guid>
+      <description>Budibase integrates with ArangoDB allowing you to use ArangoDB as your data source for your applications. ArangoDB is a free and open-source native multi-model database system developed by ArangoDB GmbH. The database system supports three data models with one database core and a unified query language AQL. The query language is declarative and allows the combination of different data access patterns in a single query.</description>
+    </item>
+    
+    <item>
       <title>Budibase - The Fastest Way To Build A Web App For Free</title>
       <link>https://www.budibase.com/build-a-web-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -373,6 +530,24 @@ Respect can be earned, but best when it&amp;rsquo;s natural. Natural respect is 
       
       <guid>https://www.budibase.com/manage-a-web-app/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>DigitalOcean integration with Budibase | Self-host your Budibase apps with Digital Ocean</title>
+      <link>https://www.budibase.com/integration/digitalocean/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/digitalocean/</guid>
+      <description>You can self-host your Budibase applications using DigitalOcean. DigitalOcean provides developers cloud services that help to deploy and scale applications that run simultaneously on multiple computers.</description>
+    </item>
+    
+    <item>
+      <title>Docker integration with Budibase | Self-host your Budibase apps with Docker</title>
+      <link>https://www.budibase.com/integration/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/docker/</guid>
+      <description>You can self-host your Budibase applications using Docker Compose. Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.</description>
     </item>
     
   </channel>

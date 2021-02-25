@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integrationcategories on Budibase | Build internal tools on your own infrastructure</title>
+    <link>https://www.budibase.com/integrationcategories/</link>
+    <description>Recent content in Integrationcategories on Budibase | Build internal tools on your own infrastructure</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>This work is licensed and owned by Budibase</copyright>
+    <lastBuildDate>Thu, 12 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/integrationcategories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All</title>
+      <link>https://www.budibase.com/integration/categories/all/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/categories/all/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workflow</title>
+      <link>https://www.budibase.com/integration/categories/workflow/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/categories/workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-source</title>
+      <link>https://www.budibase.com/integration/categories/data-source/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/categories/data-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Email</title>
+      <link>https://www.budibase.com/integration/categories/email/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/categories/email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Messsaging</title>
+      <link>https://www.budibase.com/integration/categories/messsaging/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/categories/messsaging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://www.budibase.com/integration/categories/search/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/categories/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Storage Service</title>
+      <link>https://www.budibase.com/integration/categories/storage-service/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/categories/storage-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hosting</title>
+      <link>https://www.budibase.com/integration/categories/hosting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/categories/hosting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Budibase | Low-code platform | Build apps 50x faster</title>
+    <title>Tags on Budibase | Build internal tools on your own infrastructure</title>
     <link>https://www.budibase.com/tags/</link>
-    <description>Recent content in Tags on Budibase | Low-code platform | Build apps 50x faster</description>
+    <description>Recent content in Tags on Budibase | Build internal tools on your own infrastructure</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>This work is licensed and owned by Budibase</copyright>
-    <lastBuildDate>Wed, 28 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>beginners, webdev, opensource, github</title>
+      <link>https://www.budibase.com/tags/beginners-webdev-opensource-github/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/tags/beginners-webdev-opensource-github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>api</title>
+      <link>https://www.budibase.com/tags/api/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/tags/api/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>no-code</title>
       <link>https://www.budibase.com/tags/no-code/</link>
@@ -50,6 +68,24 @@
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.budibase.com/tags/saas-backend-frontend-web-app-deployment-hosting-ideation-wireframing-database-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>email</title>
+      <link>https://www.budibase.com/tags/email/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/tags/email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>messaging</title>
+      <link>https://www.budibase.com/tags/messaging/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/tags/messaging/</guid>
       <description></description>
     </item>
     

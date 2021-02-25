@@ -3,13 +3,83 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.budibase.com/marketplace/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+    <loc>https://www.budibase.com/categories/build/</loc>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.budibase.com/categories/</loc>
-    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/blog/open-source-form-builder/</loc>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/internal-tools/</loc>
+    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/blog/github-stars/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/beginners-webdev-opensource-github/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/categories/infra/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/product/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/categories/all/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/api/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/webhooks/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integrationcategories/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/categories/official/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/categories/workflow/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -19,11 +89,6 @@
   
   <url>
     <loc>https://www.budibase.com/tags/no-code/</loc>
-    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.budibase.com/tags/</loc>
     <lastmod>2020-10-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -39,11 +104,6 @@
   
   <url>
     <loc>https://www.budibase.com/categories/automation/</loc>
-    <lastmod>2020-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.budibase.com/categories/build/</loc>
     <lastmod>2020-09-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -143,12 +203,97 @@
   </url>
   
   <url>
-    <loc>https://www.budibase.com/categories/integrations/</loc>
+    <loc>https://www.budibase.com/integration/budibase/</loc>
     <lastmod>2020-03-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.budibase.com/marketplace/integromat/</loc>
+    <loc>https://www.budibase.com/integration/couchdb/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/csv/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/categories/data-source/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/discord/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/dynamodb/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/elasticsearch/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/categories/email/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/email/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/integromat/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/tags/messaging/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/categories/messsaging/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/mongodb/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/mysql/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/postgres/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/s3/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/categories/search/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/sendgrid/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/categories/storage-service/</loc>
     <lastmod>2020-03-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -158,7 +303,7 @@
   </url>
   
   <url>
-    <loc>https://www.budibase.com/marketplace/zapier/</loc>
+    <loc>https://www.budibase.com/integration/zapier/</loc>
     <lastmod>2020-03-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -185,11 +330,6 @@
   <url>
     <loc>https://www.budibase.com/privacy/</loc>
     <lastmod>2019-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.budibase.com/investment/</loc>
-    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -328,6 +468,14 @@
   </url>
   
   <url>
+    <loc>https://www.budibase.com/integration/airtable/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/arangodb/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.budibase.com/build-a-web-app/</loc>
   </url>
   
@@ -337,6 +485,22 @@
   
   <url>
     <loc>https://www.budibase.com/manage-a-web-app/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/digitalocean/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/docker/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/featured/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.budibase.com/integration/categories/hosting/</loc>
   </url>
   
 </urlset>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>email on Budibase | Build internal tools on your own infrastructure</title>
+    <link>https://www.budibase.com/tags/email/</link>
+    <description>Recent content in email on Budibase | Build internal tools on your own infrastructure</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>This work is licensed and owned by Budibase</copyright>
+    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/tags/email/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sendgrid integration with Budibase | Automate email delivery</title>
+      <link>https://www.budibase.com/integration/sendgrid/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/sendgrid/</guid>
+      <description>Use Sendgrid to automate your email delivery within Budibase apps. Sendgrid is a cloud based email delivery service, including notifications, newsletters, automations.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hosting on Budibase | Build internal tools on your own infrastructure</title>
+    <link>https://www.budibase.com/integration/categories/hosting/</link>
+    <description>Recent content in Hosting on Budibase | Build internal tools on your own infrastructure</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>This work is licensed and owned by Budibase</copyright><atom:link href="https://www.budibase.com/integration/categories/hosting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DigitalOcean integration with Budibase | Self-host your Budibase apps with Digital Ocean</title>
+      <link>https://www.budibase.com/integration/digitalocean/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/digitalocean/</guid>
+      <description>You can self-host your Budibase applications using DigitalOcean. DigitalOcean provides developers cloud services that help to deploy and scale applications that run simultaneously on multiple computers.</description>
+    </item>
+    
+    <item>
+      <title>Docker integration with Budibase | Self-host your Budibase apps with Docker</title>
+      <link>https://www.budibase.com/integration/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/docker/</guid>
+      <description>You can self-host your Budibase applications using Docker Compose. Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.</description>
+    </item>
+    
+  </channel>
+</rss>

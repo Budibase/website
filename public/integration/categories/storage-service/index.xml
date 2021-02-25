@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Storage Service on Budibase | Build internal tools on your own infrastructure</title>
+    <link>https://www.budibase.com/integration/categories/storage-service/</link>
+    <description>Recent content in Storage Service on Budibase | Build internal tools on your own infrastructure</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>This work is licensed and owned by Budibase</copyright>
+    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/integration/categories/storage-service/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>S3 integration with Budibase | Use S3 as your data source</title>
+      <link>https://www.budibase.com/integration/s3/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/s3/</guid>
+      <description>Use Amazon S3 as your data and object source for your Budibase applications. Amazon S3 provides object storage through a web service interface which is accessible at any time.</description>
+    </item>
+    
+  </channel>
+</rss>

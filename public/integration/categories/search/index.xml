@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Search on Budibase | Build internal tools on your own infrastructure</title>
+    <link>https://www.budibase.com/integration/categories/search/</link>
+    <description>Recent content in Search on Budibase | Build internal tools on your own infrastructure</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>This work is licensed and owned by Budibase</copyright>
+    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.budibase.com/integration/categories/search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elasticsearch integration with Budibase | Data source for building business apps</title>
+      <link>https://www.budibase.com/integration/elasticsearch/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.budibase.com/integration/elasticsearch/</guid>
+      <description>Use Elasticsearch as your data source for your Budibase applications. Elasticsearch is a fully distributed, RESTful search and analytics engine based on the Lucene library.</description>
+    </item>
+    
+  </channel>
+</rss>
