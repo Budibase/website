@@ -338,11 +338,11 @@ The decision is to wireframe or prototype is down to you. If you have the time, 
 
 You can prototype/wireframe using the following tools:
 
-*   [Sketch](https://zapier.com/blog/best-wireframe-tools/#sketch) (macOS)
-*   [InVision Studio](https://zapier.com/blog/best-wireframe-tools/#invisionstudio) (macOs)
-*   [Adobe XD](https://zapier.com/blog/best-wireframe-tools/#adobexd) (macOS, Windows)
-*   [Figma](https://zapier.com/blog/best-wireframe-tools/#figma) (Web, macOS, Windows, Linux) 
-*   [Balsamiq](https://zapier.com/blog/best-wireframe-tools/#balsamiq) (macOS, Windows, Web) 
+*   [Sketch]((https://www.sketch.com/)) (macOS)
+*   [InVision Studio](https://www.invisionapp.com/studio) (macOs)
+*   [Adobe XD](https://www.adobe.com/products/xd.html) (macOS, Windows)
+*   [Figma](https://www.figma.com/) (Web, macOS, Windows, Linux) 
+*   [Balsamiq](https://balsamiq.com/) (macOS, Windows, Web) 
 
 I recommend you create a design system / style guide first. You can find inspiration at [UXPin](https://adele.uxpin.com/). Design systems improve design consistency. But it’s not required.
 
