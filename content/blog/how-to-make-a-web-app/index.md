@@ -338,7 +338,7 @@ The decision is to wireframe or prototype is down to you. If you have the time, 
 
 You can prototype/wireframe using the following tools:
 
-*   [Sketch]((https://www.sketch.com/)) (macOS)
+*   [Sketch](https://www.sketch.com/) (macOS)
 *   [InVision Studio](https://www.invisionapp.com/studio) (macOs)
 *   [Adobe XD](https://www.adobe.com/products/xd.html) (macOS, Windows)
 *   [Figma](https://www.figma.com/) (Web, macOS, Windows, Linux) 
