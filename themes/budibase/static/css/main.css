@@ -406,13 +406,6 @@ h5, h6,
   color: #222222;
 }
 
-h1, .h1 {
-  font-size: clamp(2rem, 2.5vw, 2.6rem);
-  font-weight: 800;
-  line-height: 1.25;
-  text-rendering: optimizeLegibility;
-}
-
 .hero-icon {
   width: 84px !important;
   height: 84px !important;
@@ -487,9 +480,32 @@ h1, .h1 {
     opacity: .25; 
   }
 
+.hero-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  max-width: 700px;
+  align-items: center;
+}
+
+.hero-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 700px;
+}
+
+h1, .h1 {
+  font-size: clamp(32px, 2.5vw, 36px);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -.025em;
+  text-rendering: optimizeLegibility;
+}
+
+
 h2, .h2 {
-  font-size: clamp(1.75rem, 2.25vw, 2.5rem);
-  font-weight: 800;
+  font-size: clamp(24px, 2vw, 28px);
+  font-weight: 700;
   text-rendering: optimizeLegibility;
   line-height: 1.25;
 }
@@ -2082,6 +2098,22 @@ border: 3px solid black;
   }
 }
 
+.container-7 {
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+  .container-7 {
+    max-width: 700px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
 .container-wide {
   width: 100%;
   margin-right: auto;
@@ -3430,6 +3462,7 @@ s
   border: 0;
 }
 
+
 .form-control {
   display: block;
   width: 100%;
@@ -3440,7 +3473,8 @@ s
   color: #222222;
   background-color: #fff;
   background-clip: padding-box;
-  border: 3px solid #222222;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
   transition: all 0.2s ease-in-out;
 }
 
@@ -12057,6 +12091,14 @@ a.text-blue:hover, a.text-blue:focus {
   color: #b5b5b5 !important;
   text-rendering: optimizeLegibility;
   font-size: 0.8rem;
+}
+
+.text-black-70 {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.text-black-60 {
+  color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .text-black-50 {

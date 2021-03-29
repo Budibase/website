@@ -5,7 +5,7 @@ categories = ["JavaScript"]
 tags = ["SaaS, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture"]
 description = "£45,000 - £60,000"
 author = "Martin McKeaveney"
-images = ["/web-app-ideas/dashboard-web-app.jpg"]
+images = ["/img/img/design-chart.png"]
 draft ="false"
 +++
 
@@ -18,7 +18,8 @@ To date, we've received over 20,000 signups from the likes of F1, Deloitte, KPMG
 
 We are one of the fastest growing open source projects on _the planet_ - having gained thousands of GitHub stars and a large amount of community engagement in a matter of weeks!
 
-![](/img/img/design-chart.png)
+{{< figure src="/img/img/design-chart.png" alt="Budibase" >}}
+
 
 ## The Role
 We are looking for a Full Stack JavaScript engineer who is passionate about all parts of the web app development process. The term “Full Stack” is thrown around a lot, so when we say “Full Stack”, what we mean is someone who has had exposure to frontend and backend web development. Everyone has a specialty, and we do not expect candidates to be experts in both.

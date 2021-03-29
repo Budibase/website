@@ -1,30 +1,26 @@
 {{ partial "header.html" . }} {{ partial "navigation.html" . }}
 
 <!-- Hero Section -->
-<div class="bg-img-hero bg-gray-100">
-  <div class="container text-center space-2 space-4-top space-1-bottom--lg">
-    <div class="w-md-80 mx-auto mb-3">
-      <h1 class="col display-4 font-size-48--md-down">{{ .Title }}</h1>
-    </div>
-
-    <div class="col-lg-8 mx-auto">
+  <div class="space-2-top">
+    <div class="container-7 mx-auto">
+      <h1 class="mb-4">{{ .Title }}</h1>
         <p class="lead mb-0">{{ .Description }}</p>
     </div>
   </div>
 
-  <div class="container space-2-bottom--lg">
-    <div class="col-lg-8 mx-auto">
-      <div class="mb-5">
-        <p class="lead mb-0">{{ .Content }}</p>
+  <div class="article container-7">
+    <div class="mx-auto">
+      <div class="mb-8">
+        <p class="lead">{{ .Content }}</p>
       </div>
     </div>
   </div>
 
 
-  <div class="container space-2 bg-gray-100 mb-8">
-    <div class="col-lg-6 mx-auto">
-      <h2 class="mb-5 text-center">How to apply</h2>
-      <p class="lead mb-5 text-center"> Either email us your CV at careers at budibase.com, or use the form below to submit your CV:</p>
+  <div class="container-7 p-3 bg-light rounded mb-8">
+    <div class="col-lg-8 mx-auto">
+      <h2 class="mb-4 mt-6 text-center">How to apply</h2>
+      <p class="mb-5 text-center"> Either email your CV to careers at budibase.com, or use the form below:</p>
         <form
             class="js-validate"
             form
@@ -37,7 +33,7 @@
                 <div class="js-form-message">
                 <div class="js-focus-state input-group form">
                     <input
-                    class="form-control form__input"
+                    class="form-control"
                     type="text"
                     name="name"
                     required
@@ -91,12 +87,11 @@
 
             <!-- End Input -->
 
-            <div class="text-center space-2-bottom--lg">
-            <button type="submit" class="btn btn-primary btn-wide mb-4">
+            <div class="space-2-bottom--lg col-lg-8 mx-auto">
+            <button type="submit" class="btn  btn-secondary btn-block mb-4">
                 Submit
             </button>
-            <p class="small mx-auto col-lg-6">We'll get back to you in 1-2 business days.</p>
-            <p class="mb-5 small col-lg-6 mx-auto">Budibase is an equal opportunity employer and considers qualified applicants for employment without regard to race, color, religion, creed, sex, sexual orientation, gender identity, marital status, national origin, ancestry, age, veteran status, disability, or any other protected class.</p>
+            <p class="mb-5 font-small">Budibase is an equal opportunity employer and considers qualified applicants for employment without regard to race, color, religion, creed, sex, sexual orientation, gender identity, marital status, national origin, ancestry, age, veteran status, disability, or any other protected class.</p>
           </div>
         </form>
       </div>
@@ -104,4 +99,4 @@
     </div>
 </div>
 
-{{ partial "cta.html" . }} {{ partial "footer.html" . }}
+{{ partial "footer.html" . }}

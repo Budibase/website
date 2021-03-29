@@ -1,52 +1,98 @@
-{{ partial "header.html" . }}
+{{ partial "header.html" . }} {{ partial "navigation.html" . }}
+<div class="space-3-bottom--lg">
+  <div class="container-7 space-2 space-1-bottom--lg">
+    <div class="mx-auto mb-3 hero-3">
+      <h1 class="mb-4">Join us</h1>
+      <p class="lead mt-2 text-black-60 mb-6">
+        We're looking for passionate people to join us on our mission to create
+        the world's largest ecosystem of internal tools and accelerate the
+        operations of millions of businesses, worldwide.
+      </p>
+    </div>
+    <hr class="mb-8" />
+    <div class="mb-8">
+      <h2 class="mb-4">What we're about</h2>
+      <p class="mt-2 text-black-60 mb-2">
+        Businesses across the world spend a total of $120 billion every year
+        building internal tools to improve operations. The task of building
+        internal tools is often left to developers. And, we can attest, the
+        experience is pretty unpleasent and frustratingly repetitive.
+      </p>
+      <p class="mt-2 text-black-60 mb-2">
+        At Budibase, we believe building internal tools should feel magical.
+        When building internal tools, you shouldn't have to worry about
+        boilerplate code, design accessibility, or common automations. With
+        Budibase, adding data, designing your UI, and automating workflows feels
+        seamless, joyful and ... magical.
+      </p>
+      <p class="mt-2 text-black-60 mb-2">
+        Unlike competitors, we do things a little differently at Budibase. We're
+        product led; community driven. Our goal is to provide an industry
+        leading developer experience, combined with a highly engaged and excited
+        community. Open source is a huge catalyst for achieving our goals, and
+        plays a huge part in our identity.
+      </p>
+    </div>
+    <hr class="mb-8" />
+    <div class="mb-8">
+      <h2 class="mb-4">A culture built for digital creators</h2>
+      <p class="mt-2 text-black-60 mb-4">
+        <b>Open and inclusive -</b> we're an organization building an open
+        source product - being open and inclusive is in our DNA, and we will
+        continue to make this our number one cultural priority as we continue to
+        grow and scale.
+      </p>
+      <p class="mt-2 text-black-60 mb-4">
+        <b>Product led; community driven -</b> we work hard to deliver an
+        experience that sparks joy in developers By empowering developers to create, we can power the flywheel that is community. 
+        We treat our community like colleages, and this creates a force no other company can compete with.
+      </p>
+      <p class="mt-2 text-black-60 mb-4">
+        <b>Fast and focused-</b> we move fast and we focus hard on delivering
+        the most value we can in a given period of time. Our ambition is to be
+        the best at what we do, and deliver a best in class product.
+      </p>
+      <p class="mt-2 text-black-60 mb-2">
+        <b>Experimentally curious; growth determined -</b> on a monthly basis,
+        we have an event called Lab Day. For 24 hours, employees can experiment
+        on anything they want, whether it be creating a new feature, testing a
+        new framework, or building a product with Budibase. We love to
+        experiment and learn from data. It's this curiousness that
+        helps Budibase deliver value where others don't, and drive growth.
+      </p>
+    </div>
+    <hr class="mb-8" />
+    <div class="mb-8">
+      <h2 class="mb-4">Perks</h2>
+      <p class="mt-2 text-black-60 mb-2">
+        - Flexible working - you can work fully remote, in an office, or a mixture
+        of both
+      </p>
+      <p class="mt-2 text-black-60 mb-2">- 35 days holiday</p>
+      <p class="mt-2 text-black-60 mb-2">
+        - Autonomous working culture
+      </p>
+      <p class="mt-2 text-black-60 mb-2">- Pension Scheme</p>
+      <p class="mt-2 text-black-60 mb-2">- Paid sick leave</p>
+      <p class="mt-2 text-black-60 mb-2">- Budget to spend on new laptop and home office setup</p>
+    </div>
 
-{{ partial "navigation.html" . }}
-<div class="bg-img-hero space-3-bottom--lg">
-  <div class="container text-center space-2 space-4-top space-1-bottom--lg">
-          <div class="w-md-80 mx-auto mb-3">
-            <h1 class="col display-4 font-size-48--md-down">Careers At Budibase</h1>
-        <div class="col-lg-10 mx-auto">
-            <div class="mb-5">
-              <p class="lead">Come and help us build the best low-code platform on the planet.</p>
-            </div>
-            <img class="img-fluid col-lg-12" src="/img/img/careers.png" alt="Careers with two illustrations">
+    <hr class="mb-8" />
+    <div class="mb-8">
+      <h2 class="mb-4">Open Positions</h2>
+      <p class="lead text-black-60 mb-4">
+        We're currently hiring for the following positions:
+      </p>
+      {{ range .Pages.ByDate.Reverse }}
+      <a href="{{ .Permalink }}">
+        <div class="mb-3">
+          <p class="lead text-blue">- {{ .Title }} (x 3)</p>
         </div>
+      </a>
+      {{ end }}
     </div>
-</div>
-<!-- Input -->
-<div class="w-md-80 mx-auto mb-9 text-center">
-  <h2>Open Opportunties</h2>
-</div>
-{{ range .Pages.ByDate.Reverse }}
-<div class="container ">
-  <div class="row">
-    <div class="w-md-60 mx-auto mb-3">
-      <div class="col-sm-12">
-        <article class="card mb-5">
-            <div class="card-body p-5">
-              <h3 class="strong">
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-              </h3>
-              <p class="lead mb-0">{{ .Description }}</p>
-              <div class="space-1-top">
-              </div>
-              <h4 class="cta"><a href="{{ .Permalink }}">View Job Details</a></h4>
-              </div>
-        </article>
-      </div>
-    </div>
+    <hr />
   </div>
 </div>
-{{ end }}
- 
-</div>   
-</div> 
-
-</div> 
-</div>
-
-
-
-{{ partial "cta.html" . }}
 
 {{ partial "footer.html" . }}
