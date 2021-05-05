@@ -14,9 +14,10 @@ draft ="false"
 Low-code and no-code are the latest phenomena to take over our strategy meetings and development chats. These solutions are not new, but the emergence of new technologies and a shift in how we work has accelerated their need within the workplace. 
 
 The statistics below provide an overview of the scale of the low code market:
-Forrester predicts that in 2021, 75% of application development will use low-code platforms.
-Gartner Forecasts Worldwide Low-Code Development Technologies Market to Grow 23% in 2021
-According to the market research study published by P&S Intelligence, the global low code market will witness a 31.1% CAGR during 2020–2030 to reach $187.0 billion by 2030.
+
+- Forrester predicts that in 2021, 75% of application development will use low-code platforms.
+- Gartner Forecasts Worldwide Low-Code Development Technologies Market to Grow 23% in 2021
+- According to the market research study published by P&S Intelligence, the global low code market will witness a 31.1% CAGR during 2020–2030 to reach $187.0 billion by 2030.
 
 With every emerging market comes a plethora of new tools and several open source alternatives. Adopting an open source low code platform takes time and resources. Thankfully, we have gone through this pain for you. As creators of the fastest growing open source low code platform, we have tried and test over 50 other tools. We spent days gathering this knowledge and decided to share our thoughts with the world in the spirit of openness. 
 
@@ -32,13 +33,13 @@ Open source is a term used to refer to something that can easily be accessed, in
 The opposite of open source software is proprietary software. Proprietary software is often referred to as closed source. The primary difference between open source and proprietary software is that the user cannot see the code base and must agree to a license that prohibits them from doing anything to the software that the author has not permitted.
 
 ## The pros and cons of an open source low code platform
-Deciding between open source and closed source can be a tricky decision. To help with this, we have listed the pros and cons of open source low code platforms:
+Deciding between open source and proprietary software can be a tricky decision. To help with this, we have listed the pros and cons of open source low-code platforms:
 
 ### Pros
-- **Transparency**: Often, with proprietary software, when we request a product change or support fix, we are delivered a ticket number and little other feedback. These requests often disappear into the abyss with zero to little knowledge of the progress. This lack of transparency is hard to handle when users rely on this change. With open source software, users can monitor the progress as the data, code, and software development process is open for all to see - in many cases, users can fix the problem themselves!
-- **Control**: Companies choose open source because they have greater control and can change parts of the software to meet their needs. They can also examine the software to ensure it is not doing anything they do not want.
+- **Transparency**: Often, with proprietary software, when we request a product change or support fix, we are given a ticket number and little other feedback. These requests often disappear into the abyss with zero to little knowledge of the progress. This lack of transparency is hard to handle when users rely on the requested change. With open source software, users can monitor the progress as the data, code, and software development process is open for all to see - in many cases, users can fix the problem themselves! This is critical for low-code, as the platforms must be flexible in nature, and in many cases, power mission critical functions across a company's operations.
+- **Control**: Companies choose open source because they have greater control and can change parts of the software to meet their needs. They can also examine the low-code platform to ensure it is not doing anything they do not want.
 - **Reliability**: Proprietary software relies on a company updating, patching, and enhancing the codebase. Open standards and peer review ensure that open source code is tested accordingly and often.
-- **Flexibility**: With open source software, users are not locked into using the code in any specific way.
+- **Flexibility**: With open source software, users are not locked into using the code in any specific way. This is critical for low-code as there are a multitude of use cases and all businesses are unique. Flexibility is critical for unique businesses.
 - **Peer review**: Because the source code is open and accessible by peer programmers, the code base is actively checked and enhanced, leading to a better product. 
 - **No vendor lock-in**: Freedom for the user means users can take the open source code anywhere and use it for anything, at any time.
 - **Community**: Open source software often inspires a community of users and developers to form around it.  This community often produces, tests, uses, promotes, and ultimately affects the software they love.
