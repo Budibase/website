@@ -1,48 +1,55 @@
-{{ partial "header.html" . }}
 
-{{ partial "navigation-grey.html" . }}
+{{ partial "header2.html" . }}
 
-  <div class="container-fluid space-1-bottom bg-cogs">
-      <div class="container space-hero-top ">
-        <div class="pricing-heading container mb-2 mx-auto">
-          <h1 class="h2 text-centre mx-auto hero-title-center">Budibase Integrations</h1>
+{{ partial "navigation.html" . }}
+
+<div class="container-7 space-2">
+    <div class="mb-2 hero-info-2">
+      <h1>Integrations</h1>
+      <p class="lead mt-3">
+        Budibase integrates with essential tools to help you increase the speed
+        of internal tool development and improve functionality.
+      </p>
+      <a
+      href="https://github.com/Budibase/budibase/discussions/categories/request-integration"
+      target="_blank"
+      id="goal"
+      >
+      <button type="submit" class="btn btn-secondary mt-4">
+        Request integration
+      </button></a>
+    </div>
+    
+
+    <div class="space-2 list-tabs pb-4">
+          {{ range $key, $value :=
+          .Site.Taxonomies.integrationcategories.ByCount }}
+          <a
+            href="/integration/categories/{{ $value.Name | urlize }}/"
+            class="detail mr-1 mr-sm-3"
+            >{{ replace $value.Name "-" " " | title }}</a
+          >
+          {{ end }}
+    </div>
+        <div class="mt-4 space-2-bottom">
+          {{ range .Data.Pages }}
+          <div class="">
+            <a href="{{ .Permalink }}">
+              <div class="integrations-card">
+                <img class="u-sm-avatar" src="{{ .Params.logo }}" />
+                <div>
+                  <h5 class="mb-2">{{ .Params.page_title }}</h5>
+                  <p class="integration-des">{{ .Description }}</p>
+                </div>
+                <div><p class="small">-></p></div>
+              </div>
+            </a>
+          </div>
+          {{ end }}
         </div>
       </div>
-<div class="container">
-      <p class="lead text-center w-lg-60 mx-auto mb-4">
-        Connect your favorite tools to Budibase
-      </p> 
-      <div class="col-lg-3 col-md-4 flex-row mx-auto mb-8">
-        <a href="https://github.com/Budibase/budibase/discussions/891" target="_blank" id="goal"><button type="submit" class="btn btn-block btn-outline-secondary ">Request an integration</button></a>
     </div>
+
+    {{ partial "cta.html" . }} {{ partial "footer.html" . }}
   </div>
 </div>
-  <div class="container w-lg-80 space-2">
-  <div class="marketplace-container">
-    <div class="marketplace-panel">
-      <h5 class="mb-4">Categories</h5>
-      {{ range $key, $value := .Site.Taxonomies.integrationcategories.ByCount }}
-        <a href="/integration/categories/{{ $value.Name | urlize }}/" class="marketplace-category">{{ replace $value.Name "-" " " | title }} ({{ $value.Count }})</a> 
-      {{ end }}
-    </div>
-    <div class="marketplace-card-container space-2-bottom">
-      {{ range .Data.Pages }}
-      <div class="">
-        <a href="{{ .Permalink }}">
-          <div class="marketplace-card">
-              <img class="marketplace-avatar" src="{{ .Params.logo }}" > 
-             <div>
-              <h5 class="mb-2 mt-3">{{ .Params.page_title }}</h5>
-              <p class="marketplace-des">{{ .Description }}</p>
-            </div>
-          </div>
-        </a>
-    </div>
-    {{ end }}
-  </div>
-  </div>
-  </div>
-
-  {{ partial "cta-dark-small.html" . }}
-  {{ partial "footer.html" . }}
-

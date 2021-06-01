@@ -26,6 +26,17 @@
   <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
   {{ end }}
 
+  <script>
+    function toggleDarkMode() {
+      document.documentElement.classList.toggle('dark-mode')
+      const value = localStorage.getItem("theme")
+      localStorage.setItem("theme", value === "dark" ? "light" : "dark")
+    }
+  
+      const isDarkMode = localStorage.getItem("theme") === "dark"
+      document.documentElement.classList.toggle('dark-mode',isDarkMode)
+  </script>
+
 
 {{ template "_internal/twitter_cards.html" . }}
 

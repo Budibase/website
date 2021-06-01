@@ -31,7 +31,7 @@
 	z-index: 2;
 	margin-top: 0;
 	visibility: hidden;
-	background-color: #fff;
+	background-color: transparent;
   opacity: 1 !important;
 }
 

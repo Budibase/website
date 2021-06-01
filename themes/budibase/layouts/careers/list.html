@@ -3,7 +3,7 @@
   <div class="container-7 space-2 space-1-bottom--lg">
     <div class="mx-auto mb-3 hero-3">
       <h1 class="mb-4">Join us</h1>
-      <p class="lead mt-2 text-black-60 mb-6">
+      <p class="lead mt-2 mb-6">
         We're looking for passionate people to join us on our mission to create
         the world's largest ecosystem of internal tools and accelerate the
         operations of millions of businesses, worldwide.
@@ -12,20 +12,20 @@
     <hr class="mb-8" />
     <div class="mb-8">
       <h2 class="mb-4">What we're about</h2>
-      <p class="mt-2 text-black-60 mb-2">
+      <p class="mt-2 mb-2">
         Businesses across the world spend a total of $120 billion every year
         building internal tools to improve operations. The task of building
         internal tools is often left to developers. And, we can attest, the
         experience is pretty unpleasent and frustratingly repetitive.
       </p>
-      <p class="mt-2 text-black-60 mb-2">
+      <p class="mt-2 mb-2">
         At Budibase, we believe building internal tools should feel magical.
         When building internal tools, you shouldn't have to worry about
         boilerplate code, design accessibility, or common automations. With
         Budibase, adding data, designing your UI, and automating workflows feels
         seamless, joyful and ... magical.
       </p>
-      <p class="mt-2 text-black-60 mb-2">
+      <p class="mt-2 mb-2">
         Unlike competitors, we do things a little differently at Budibase. We're
         product led; community driven. Our goal is to provide an industry
         leading developer experience, combined with a highly engaged and excited
@@ -44,7 +44,7 @@
       </p>
       <p class="mt-2 text-black-60 mb-4">
         <b>Product led; community driven -</b> we work hard to deliver an
-        experience that sparks joy in developers by empowering developers to create, we can power the flywheel that is community. 
+        experience that sparks joy in developers By empowering developers to create, we can power the flywheel that is community. 
         We treat our community like colleages, and this creates a force no other company can compete with.
       </p>
       <p class="mt-2 text-black-60 mb-4">
@@ -65,13 +65,13 @@
     <div class="mb-8">
       <h2 class="mb-4">Perks</h2>
       <p class="mt-2 text-black-60 mb-2">
-        - Work life balance
+        Work life balance
       </p>
       <p class="mt-2 text-black-60 mb-2">
-        - Competitive salary and equity
+        Competitive salary and equity
       </p>
       <p class="mt-2 text-black-60 mb-2">
-        - Work remotely, or work from an office
+        Work remotely, or work from an office
       </p>
       <p class="mt-2 text-black-60 mb-2">- 35 days holiday</p>
       <p class="mt-2 text-black-60 mb-2">
@@ -89,10 +89,7 @@
         We're currently hiring for the following positions:
       </p>
       {{ range .Pages.ByDate.Reverse }}
-      <a href="{{ .Permalink }}">
-        <div class="mb-3">
-          <p class="lead text-blue">- {{ .Title }} (x 3)</p>
-        </div>
+      <a href="{{ .Permalink }}" class="big">- {{ .Title }} (x 3)
       </a>
       {{ end }}
     </div>

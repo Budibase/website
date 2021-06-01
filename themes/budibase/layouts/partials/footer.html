@@ -1,6 +1,6 @@
 {{ $staticHash := now.Unix }}
 <footer>
-    <div class="container space-2">
+    <div class="container space-3">
       <div class="row justify-content-md-between">
         <div class="col-6 col-md-3 col-lg-2 order-lg-3 mb-7 mb-lg-0">
           <h3 class="h6 mb-3">Company</h3>
@@ -34,9 +34,6 @@
           <div class="list-group list-group-flush ">
             <a class="list-group-item list-group-item-action" href="/integration">Integrations</a>
           </div>
-          <div class="list-group list-group-flush ">
-            <a class="list-group-item list-group-item-action" href="/self-host">Pricing</a>
-          </div>
           <!-- End List Group -->
         </div>
   
@@ -60,16 +57,10 @@
           <!-- List -->
           <div class="list-group list-group-flush ">
             <a class="list-group-item list-group-item-action" href="https://github.com/Budibase/budibase/discussions" target="_blank">
-              Community
-            </a>
-            <a class="list-group-item list-group-item-action" href="https://github.com/Budibase/budibase" target="_blank">
-              Github
+              Github / Forum
             </a>
             <a class="list-group-item list-group-item-action" href="https://twitter.com/budibase" target="_blank">
               Twitter
-            </a>
-            <a class="list-group-item list-group-item-action" href="https://discord.com/invite/rCYayfe" target="_blank">
-              Discord
             </a>
           </div>
           
@@ -78,13 +69,10 @@
   
         <div class="col-lg-2 order-lg-1 d-flex align-items-start flex-column">
           <!-- Logo -->
-          <a class="d-inline-block mb-5" href="/" aria-label="Space">
-            <img src="img/logo/bb-emblem.svg" alt="Logo" style="width: 40px; max-width: 100%;">
+          <a class="d-inline-block mb-5 logo" href="/" aria-label="Space" style="width: 160px; max-width: 100%;">
+            {{ partial "logo.html" . }}
           </a>
           <!-- End Logo -->
-  
-         
-  
           <p class="small text-grey">All rights reserved. ©Budibase 2021</p>
         </div>
       </div>
@@ -110,8 +98,6 @@
 <script src="{{ "js/components/hs.header.js" | absURL }}"></script>
 <script src="{{ "js/components/hs.megamenu.js" | absURL }}"></script>
 <script src="{{ "js/components/hs.unfold.js" | absURL }}"></script>
-
-
 
 <script>
   $(document).on('ready', function () {
