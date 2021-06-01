@@ -1,55 +1,49 @@
-
 {{ partial "header2.html" . }}
 
 {{ partial "navigation.html" . }}
 
 <div class="container-7 space-2">
-    <div class="mb-2 hero-info-2">
-      <h1>Integrations</h1>
-      <p class="lead mt-3">
-        Budibase integrates with essential tools to help you increase the speed
-        of internal tool development and improve functionality.
-      </p>
-      <a
-      href="https://github.com/Budibase/budibase/discussions/categories/request-integration"
-      target="_blank"
-      id="goal"
-      >
+  <div class="mb-2 hero-info-2">
+    <h1>Integrations</h1>
+    <p class="lead mt-3">
+      Budibase integrates with essential tools to help you increase the speed
+      of internal tool development and improve functionality.
+    </p>
+    <a href="https://github.com/Budibase/budibase/discussions/categories/request-integration" target="_blank" id="goal">
       <button type="submit" class="btn btn-secondary mt-4">
         Request integration
       </button></a>
-    </div>
-    
-
-    <div class="space-2 list-tabs pb-4">
-          {{ range $key, $value :=
-          .Site.Taxonomies.integrationcategories.ByCount }}
-          <a
-            href="/integration/categories/{{ $value.Name | urlize }}/"
-            class="detail mr-1 mr-sm-3"
-            >{{ replace $value.Name "-" " " | title }}</a
-          >
-          {{ end }}
-    </div>
-        <div class="mt-4 space-2-bottom">
-          {{ range .Data.Pages }}
-          <div class="">
-            <a href="{{ .Permalink }}">
-              <div class="integrations-card">
-                <img class="u-sm-avatar" src="{{ .Params.logo }}" />
-                <div>
-                  <h5 class="mb-2">{{ .Params.page_title }}</h5>
-                  <p class="integration-des">{{ .Description }}</p>
-                </div>
-                <div><p class="small">-></p></div>
-              </div>
-            </a>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-
-    {{ partial "cta.html" . }} {{ partial "footer.html" . }}
   </div>
+
+
+  <div class="space-2 list-tabs pb-4">
+    {{ range $key, $value :=
+    .Site.Taxonomies.integrationcategories.ByCount }}
+    <a href="/integration/categories/{{ $value.Name | urlize }}/" class="detail mr-1 mr-sm-3">{{ replace $value.Name "-"
+      " " | title }}</a>
+    {{ end }}
+  </div>
+  <div class="mt-4 space-2-bottom">
+    {{ range .Data.Pages }}
+    <div class="">
+      <a href="{{ .Permalink }}">
+        <div class="integrations-card">
+          <img class="u-sm-avatar" src="{{ .Params.logo }}" />
+          <div>
+            <h5 class="mb-2">{{ .Params.page_title }}</h5>
+            <p class="integration-des">{{ .Description }}</p>
+          </div>
+          <div>
+            <p class="small">-></p>
+          </div>
+        </div>
+      </a>
+    </div>
+    {{ end }}
+  </div>
+</div>
+</div>
+
+{{ partial "cta.html" . }} {{ partial "footer.html" . }}
+</div>
 </div>
