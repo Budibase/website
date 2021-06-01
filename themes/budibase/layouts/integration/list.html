@@ -17,11 +17,9 @@
 
 
   <div class="space-2 list-tabs pb-4">
-    {{ range $key, $value :=
-    .Site.Taxonomies.integrationcategories.ByCount }}
-    <a href="/integration/categories/{{ $value.Name | urlize }}/" class="detail mr-1 mr-sm-3">{{ replace $value.Name "-"
-      " " | title }}</a>
-    {{ end }}
+    {{ range $key, $value := .Site.Taxonomies.integrationcategories.ByCount }}
+    <a href="/integration/categories/{{ $value.Name | urlize }}/" class="detail mr-1 mr-sm-3">{{ replace $value.Name "-" " " | title }} ({{ $value.Count }})</a> 
+  {{ end }}
   </div>
   <div class="mt-4 space-2-bottom">
     {{ range .Data.Pages }}
