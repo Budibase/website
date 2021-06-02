@@ -1,6 +1,6 @@
 baseURL = "https://www.budibase.com/"
 languageCode = "en-uk"
-title = "Budibase | The open source low code platform you'll enjoy using"
+title = "Budibase | Open source low code platform you'll enjoy using"
 theme = "budibase"
 enableEmoji = "true"
 

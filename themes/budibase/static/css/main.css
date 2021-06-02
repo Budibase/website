@@ -227,6 +227,10 @@ p {
     }
 }
 
+.p-dark {
+  color: var(--hiContrast);
+}
+
 .text-sm {
   font-size: var(--fontsize-4);
 }
@@ -445,15 +449,15 @@ input[type="month"] {
 
 
 
-  h1, .h1 {
-    font-size: clamp(var(--fontsize-8), 3vw, var(--fontsize-9));
-    color: var(--hiContrast);
-    font-weight: 700;
-    letter-spacing: -.055em;
-    text-indent: -.025em;
-    line-height: 1.2;
-    text-rendering: optimizeLegibility;
-  }
+h1, .h1 {
+  font-size: clamp(var(--fontsize-8), 3vw, var(--fontsize-9));
+  color: var(--hiContrast);
+  font-weight: 700;
+  letter-spacing: -.055em;
+  text-indent: -.025em;
+  line-height: 1;
+  text-rendering: optimizeLegibility;
+}
 
 h2, .h2 {
   font-size: clamp(var(--fontsize-7), 2vw, var(--fontsize-8));
@@ -461,7 +465,7 @@ h2, .h2 {
   letter-spacing: -.045em;
   text-indent: -.025em;
   text-rendering: optimizeLegibility;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 h3, .h3 {
@@ -523,10 +527,12 @@ h6, .h6 {
   font-weight: 700;
   text-rendering: optimizeLegibility;
   line-height: 40px;
+  letter-spacing: -.055em;
+  text-indent: -.025em;
   font-family:  Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 990px) {
   .display-1 {
     font-size: var(--fontsize-9);
     font-weight: 700;
@@ -9176,6 +9182,7 @@ button:focus {
   padding-top: 4.0625rem;
   padding-bottom: 4.0625rem;
 }
+
 
 .space-2-top {
   padding-top: 4.0625rem;
