@@ -100,8 +100,8 @@ With the new data provider component, you can also filter and sort the data you 
 
 ## New table component (remove and add columns)
 
-The previous table component was powerful but lacked flexibility and was not performant. The new table is lightweight, flexible to use, and themeable. Most importantly, once you pull in data from your data sources, you can now add and remove tables columns - yay! 
-Additionally, elements of the table are now exposed in the nav tree, allowing you to add components to your tables.
+The previous table component was powerful but lacked flexibility and was not performant. The new table is lightweight, flexible to use, and themeable. Most importantly, once you pull in data from your data sources, you can now add and remove table columns - yay! 
+Additionally, you can now add additional components to your tables.
 
 \---
 
