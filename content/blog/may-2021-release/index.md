@@ -37,7 +37,9 @@ From this release forward, you will run Budibase via the browser in your self-ho
 - Collaboration - this is our first major step towards multi-user collaboration.
 - Faster releases - developing on Electron brought with it additional work and effort that slowed us down. When developing in the cloud, we can ship new features quicker.
 
-Getting started with the new BudibaseTo run Budibase in the cloud, you will need Docker or Digital Ocean. You can access the docs [here](http://docs.budibase.com/).
+### Getting started with the new Budibase
+
+To run Budibase in the cloud, you will need Docker or Digital Ocean. You can access the docs [here](http://docs.budibase.com/).
 
 *We hope to add more cloud services over the upcoming months, and welcome help/contributions from the community.
 
