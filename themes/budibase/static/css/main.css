@@ -9378,6 +9378,7 @@ button:focus {
   .space-4-top--xl {
     padding-top: 12.5rem;
   }
+}
 
 .article-title {
   text-align: left;
@@ -9394,6 +9395,7 @@ button:focus {
   font-size: 1.0rem;
   line-height: 1.8;
   margin-top: 1rem;
+  color: var(--hiContrast);
 }
 
 @media (min-width: 576px) {
@@ -9404,11 +9406,13 @@ button:focus {
     margin-bottom: 1em;
   }
 }
+
 .article h1 {
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   text-rendering: optimizeLegibility;
   font-weight: 600;
   font-size: clamp(2rem, 2.25vw, 2.5rem);
+  color: var(--hiContrast);
 }
 .article h2 {
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
@@ -9416,6 +9420,8 @@ button:focus {
   margin-bottom: .75rem;
   font-weight: 600;
   font-size: clamp(1.5rem, 1.75vw, 2rem);
+  color: var(--hiContrast);
+
 }
 .article h3 {
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
@@ -9436,6 +9442,8 @@ button:focus {
   margin-bottom: .5rem; 
   font-weight: 600;
   font-size: clamp(1rem, 1.25vw, 1.5rem);
+  color: var(--hiContrast);
+
 }
 .article li {
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
@@ -9480,3 +9488,4 @@ button:focus {
   }
 }
 
+}
