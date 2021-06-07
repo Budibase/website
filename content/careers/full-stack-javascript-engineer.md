@@ -1,6 +1,7 @@
 +++
 date = "2020-06-17"
 title = "Senior JavaScript Engineer"
+vacancies = 1
 categories = ["JavaScript"] 
 tags = ["SaaS, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture"]
 description = "£45,000 - £60,000"

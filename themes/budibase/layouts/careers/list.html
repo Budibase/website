@@ -88,10 +88,13 @@
       <p class="lead text-black-60 mb-4">
         We're currently hiring for the following positions:
       </p>
+      <ul>
       {{ range .Pages.ByDate.Reverse }}
-      <a href="{{ .Permalink }}" class="big">- {{ .Title }} (x 3)
-      </a>
+        <li>
+          <a href="{{ .Permalink }}" class="big">{{ .Title }} </a>
+        </li>
       {{ end }}
+      </ul>
     </div>
     <hr />
   </div>
