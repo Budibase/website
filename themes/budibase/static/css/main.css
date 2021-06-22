@@ -106,7 +106,7 @@
   --slate600: hsl(203 6% 24.8%);
   --slate700: hsl(204 6% 31.0%);
   --slate800: hsl(206 6% 43.9%);
-  --slate900: hsl(205 5% 52.9%);
+  --slate900: hsl(205 5% 60%);
   --slate1000: hsl(210 3% 93%);
   --indigo400: hsl(240, 68%, 62%);
   --indigo500: hsl(240, 78%, 66%);
@@ -534,7 +534,7 @@ h6, .h6 {
 
 @media (min-width: 990px) {
   .display-1 {
-    font-size: var(--fontsize-9);
+    font-size: 60px;
     font-weight: 700;
     letter-spacing: -.055em;
     text-indent: -.025em;
@@ -776,7 +776,7 @@ pre code {
 @media (min-width: 992px) {
   .hero-container {
     display: grid;
-    grid-template-columns: 47% 1fr;
+    grid-template-columns: 38% 1fr;
     align-items: center;
     gap: 2rem;
   }
@@ -827,6 +827,11 @@ margin-left: 0rem;
 .hero-image-2 {
   margin-left: .5rem;
 }
+}
+
+.video-mask{
+  border-radius: var(--radius-5); 
+  overflow: hidden; 
 }
 
 /* What section */
