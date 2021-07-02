@@ -589,7 +589,6 @@ mark,
   padding-left: 1rem;
   margin: 1rem 0;
   font-style: italic;
-  color: grey;
 }
 
 .blockquote-footer {
@@ -9469,7 +9468,7 @@ button:focus {
 }
 
 .article blockquote {
-  border-left: 3px solid black;
+  border-left: 3px solid var(--hiContrast);
   padding-left: 1rem;
 }
 
