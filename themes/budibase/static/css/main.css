@@ -9468,7 +9468,7 @@ button:focus {
 }
 
 .article blockquote {
-  border-left: 3px solid var(--hiContrast);
+  border-left: 2px solid var(--hiContrast);
   padding-left: 1rem;
 }
 
