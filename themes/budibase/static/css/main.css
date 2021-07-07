@@ -9491,5 +9491,14 @@ button:focus {
     margin: auto;
   }
 }
+}
 
+table{
+  color: var(--hiContrast);
+
+}
+
+th, td {
+  border: 1px solid var(--gray500);
+  padding: var(--space-3);
 }
