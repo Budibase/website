@@ -62,7 +62,7 @@ Each letter in CRUD can also be mapped to an HTTP protocol method:
 
 
 
-Let’s dive deeper into each of the CRUD operations. We’ve used a Recipe app as an example to help with learning.
+Let’s dive deeper into each of the CRUD operations. We’ve used a library management app as an example to help with learning.
 
 
 
@@ -72,7 +72,7 @@ Create allows you to add new rows/records to a database/table. If the record doe
 
 **Recipe example** 
 
-1. Create/add a new recipe to our Recipe app
+1. Create/add a new book to our library management app
 
 {{< figure src="/crud-app/create.png"  alt="Create a record in a basic crud app" >}}
 
@@ -83,7 +83,7 @@ Read is the operation that allows us to see the recipe we just created. It does 
 
 **Recipe example**
 
-2. View the recipe on our app, or filter through categories of recipes.
+1. View the books within our library
 
 
 {{< figure src="/crud-app/read.png"  alt="Read records from a basic crud app" >}}
@@ -96,7 +96,7 @@ Update is the operation that allows us to modify existing data and records withi
 
 **Recipe example** 
 
-3. Update the carbonara recipe in our recipe app to use guanciale instead of bacon.
+1. Update a book's availability
 
 {{< figure src="/crud-app/update-2.png"  alt="Update a record in a basic crud app" >}}
 
@@ -108,7 +108,7 @@ Delete is the operation that allows us to remove records from a table.
 
 **Recipe example**
 
-4. Remove the carbonara recipe from my recipe app.
+4. Remove a book from our library management system
 
 
 {{< figure src="/crud-app/delete.png"  alt="Delete a record in a basic crud app" >}}
@@ -118,12 +118,12 @@ Delete is the operation that allows us to remove records from a table.
 
 ### Two additional basic CRUD app examples
 
-#### Library app
+#### Recipe app
 
-1. Create - Add a new book to your library management system
-2. Read - View books in my library management system
-3. Update - Update the status of Zen and the Art of Motorcycle Maintenance by Robert M. Pirsig to ‘Checked-out.’
-4. Delete - Remove Zen and the Art of Motorcycle Maintenance by Robert M. Pirsig from the library management system 
+1. Create - Add a new recipe to my recipe app
+2. Read - View recipes in my recipe app
+3. Update - Update the carbonara recipe in our recipe app to use guanciale instead of bacon
+4. Delete - Remove the carbonara recipe from my recipe app
 
 #### Project management app
 
