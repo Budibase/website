@@ -114,8 +114,6 @@ Delete is the operation that allows us to remove records from a table.
 {{< figure src="/crud-app/delete.png"  alt="Delete a record in a basic crud app" >}}
 
 
-
-
 ### Two additional basic CRUD app examples
 
 #### Recipe app
@@ -167,6 +165,9 @@ There are many, low code platforms, frameworks, or tech stacks that provide an e
 ## How to build a simple CRUD app {#how}
 
 Budibase is a low code platform that is designed for creating CRUD applications. From the frameworks, tech stacks, and platforms listed above, Budibase is the easiest and fastest way to build a CRUD application. For these reasons, we will use Budibase to build our CRUD app.
+
+ {{< youtube DsBudu6Kzls >}}
+
 
 ### Overview
 
