@@ -2187,14 +2187,14 @@ fieldset:disabled a.btn {
   font-size: 14px;
   color: var(--slate1000);
   background-color: transparent;
-  border: 2px solid var(--gray300);
+  border: 2px solid var(--gray500);
   border-radius: 999px !important;
 }
 
 .btn-secondary:hover {
   color: var(--hiContrast);
-  background-color: var(--gray300);
-  border: 2px solid var(--gray300);
+  background-color: var(--gray200);
+  border: 2px solid var(--gray600);
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
