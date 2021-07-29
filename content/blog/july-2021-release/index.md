@@ -71,7 +71,4 @@ Import tables from your SQL databases (with just 1 click), then map relationship
 ## Coming up in the August release
 
 - Dynamic forms and a Wizard component
-- Global theming
 - A better developer experience (JavaScript, transformers, and auto-complete)
-- Budibase as a backend API
-
