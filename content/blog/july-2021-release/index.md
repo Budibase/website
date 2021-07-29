@@ -33,7 +33,13 @@ OIDC is an open standard and decentralized authentication protocol. As a user, y
 - OneLogin
 - It’s also possible to add your own authentication! 
 
-I know many of you will understand the benefits of SSO, but here’s a quick recap:No more password managementAuto-provisioning for usersMinimize password security risksQuicker sign up/sign-in process for usersUse your SSO provider to control who can access Budibase
+I know many of you will understand the benefits of SSO, but here’s a quick recap:
+
+- No more password management
+- Auto-provisioning for users
+- Minimize password security risks
+- Quicker sign up/sign-in process for users
+- Use your SSO provider to control who can access Budibase
 
 The initial work for this feature was completed by community member, [Bernhard Hayden](https://github.com/burnoutberni). We’d like to publicly thank Bernhard for taking the time and effort to contribute to Budibase. The remaining work was completed by two new Budibase recruits; [Peter](https://github.com/PClmnt) and [Rory](https://github.com/Rory-Powell).
 
