@@ -6,25 +6,25 @@
  */
 
   html {
-    --gray100: hsl(0 0% 98.8%);
-    --gray200: hsl(0 0% 96.0%);
-    --gray300: hsl(0 0% 93.7%);
-    --gray400: hsl(0 0% 92.0%);
-    --gray500: hsl(0 0% 89.5%);
-    --gray600: hsl(0 0% 85.2%);
-    --gray700: hsl(0 0% 80.0%);
-    --gray800: hsl(0 0% 56.1%);
-    --gray900: hsl(0 0% 43.9%);
+    --gray100: hsl(0 0% 98%);
+    --gray200: hsl(0 0% 96%);
+    --gray300: hsl(0 0% 93%);
+    --gray400: hsl(0 0% 92%);
+    --gray500: hsl(0 0% 89%);
+    --gray600: hsl(0 0% 85%);
+    --gray700: hsl(0 0% 80%);
+    --gray800: hsl(0 0% 56%);
+    --gray900: hsl(0 0% 43%);
     --gray1000: hsl(0 0% 7%);
-    --slate100: hsl(206 20% 98.8%);
-    --slate200: hsl(206 14% 96.0%);
-    --slate300: hsl(206 13% 93.7%);
-    --slate400: hsl(206 12% 92.0%);
-    --slate500: hsl(206 12% 89.5%);
-    --slate600: hsl(206 11% 85.2%);
-    --slate700: hsl(206 10% 80.0%);
-    --slate800: hsl(206 6% 56.1%);
-    --slate900: hsl(206 6% 43.9%);
+    --slate100: hsl(206 20% 98%);
+    --slate200: hsl(206 14% 96%);
+    --slate300: hsl(206 13% 93%);
+    --slate400: hsl(206 12% 92%);
+    --slate500: hsl(206 12% 89%);
+    --slate600: hsl(206 11% 85%);
+    --slate700: hsl(206 10% 80%);
+    --slate800: hsl(206 6% 56%);
+    --slate900: hsl(206 6% 43%);
     --slate1000: hsl(206 12% 7%);
     --indigo400: hsl(240, 82%, 70%);
     --indigo500: hsl(240, 78%, 66%);
@@ -245,15 +245,19 @@ p {
 
 .detail-sm {
   text-transform: uppercase;
-  letter-spacing: 60;
-  font-size: var(--fontsize-2);
+  letter-spacing: 0.07em;
+  font-size: var(--fontsize-1);
   color: var(--slate900);
   font-weight: 600;
 }
 
+.font-dark {
+  color: var(--hiContrast);
+}
+
 .detail {
   text-transform: uppercase;
-  letter-spacing: 60;
+  letter-spacing: 0.07em;
   font-size: var(--fontsize-3);
   color: var(--slate900);
   font-weight: 600;
@@ -261,7 +265,7 @@ p {
 
 .detail-lg {
   text-transform: uppercase;
-  letter-spacing: 60;
+  letter-spacing: 0.07em;
   font-size: var(--fontsize-4);
   color: var(--slate900);
   font-weight: 600;
@@ -311,6 +315,18 @@ a {
 a:hover {
   color: var(--indigo700);
   text-decoration: none;
+}
+
+
+.a-alt {
+  text-underline-offset: 6px;
+  color: var(--white);
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.a-alt:hover {
+  text-decoration: underline var(--indigo400) 2px;
 }
 
 
@@ -492,7 +508,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: clamp(var(--fontsize-2), 2vw, var(--fontsize-3));
+  font-size: clamp(var(--fontsize-3), 2vw, var(--fontsize-4));
   font-weight: 600;
   text-rendering: optimizeLegibility;
   line-height: 1.2;
@@ -1232,63 +1248,30 @@ margin-left: 0rem;
 
 
 .border-grey {
-  border: 2px solid #eee;
+  border: 2px solid var(--gray200);
 }
 
+.border {
+  border: 1px solid var(--gray200);
+}
 
 
 /* Pricing */
 
-
-
   .pricing {
     display: flex;
     flex-direction: column;
-    border-radius: 6px;
-
+    gap: var(--space-3);
   }
 
-  @media (min-width: 768px) {
-  .pricing {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-}
 
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
   .pricing {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
+    gap: var(--space-3);
   }
 }
-
-/* Self-hosting pricing */
-.self-hosting-pricing  {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-@media (min-width: 768px) {
-  .self-hosting-pricing {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-  }
-}
-
-
-
-
-.self-host-link {
-  padding-bottom: 4px;
-  border-bottom: 2px dotted #cccccc;
-  line-height: 24px;
-}
-
-
 
 .pricing-heading {
   display: flex;
@@ -1301,29 +1284,6 @@ margin-left: 0rem;
     align-items: center;
     display: flex;
     flex-direction: column;
-}
-
-.pricing-card {
-  padding: 1rem 0;
-}
-
-@media (max-width: 768px) {
-  .pricing-card {
-    border-bottom: #ccc solid 1px;
-    padding: 1rem 2rem;
-  }
-}
-
-@media (max-width: 1200px) {
-  .pricing-card {
-    padding: 1rem 1.5rem;
-  }
-}
-
-.price {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .pricing-title {
@@ -1339,21 +1299,18 @@ margin-left: 0rem;
   }
 }
 
-.pricing-in-content {
-  margin: 1rem 0 2rem 0;
+.pricing-card-top {
+  padding: var(--space-7) var(--space-6) var(--space-3);
+  background: var(--loContrast);
 }
 
-.believer-package {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.pricing-card-button {
+    margin-top: -1rem !important;
+    padding: 0 var(--space-6);
 }
 
-@media (max-width: 768px) {
-  .believer-package{
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-  }
+.pricing-card-bottom {
+  padding: var(--space-7) var(--space-6) var(--space-6);
 }
 
 /* Image gallery */
@@ -2156,6 +2113,8 @@ border-radius: .75rem;
 
 .btn.disabled, .btn:disabled {
   opacity: 0.4;
+  cursor: not-allowed;
+
 }
 
 .btn:not(:disabled):not(.disabled) {
@@ -2165,6 +2124,22 @@ border-radius: .75rem;
 a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none;
+}
+
+.btn-cta {
+  font-size: 14px;
+  color: white;
+  background-color: var(--indigo500);
+  border-radius: 999px !important;
+}
+
+.btn-cta:hover {
+  color: white;
+  background-color: var(--indigo700);
+}
+
+.btn-cta:focus, .btn-pimary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
 }
 
 .btn-primary {
@@ -2221,6 +2196,13 @@ fieldset:disabled a.btn {
 .btn-block {
   display: block;
   width: 100%;
+}
+
+@media (max-width: 576px) {
+  .sm-btn-block {
+    display: block;
+    width: 100%;
+  }
 }
 
 .btn-block + .btn-block {
@@ -3369,12 +3351,17 @@ button.close {
 
 
 .bg-light {
-  background-color: #f5f5f5 !important;
+  background-color: var(--gray100) !important;
+}
+
+.bg-indigo {
+  background-color: var(--indigo700) !important;
 }
 
 .bg-light-2 {
   background-color: #F5F0EA !important;
 }
+
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
@@ -3434,11 +3421,11 @@ button.bg-blue:focus {
 
 
 .rounded {
-  border-radius: .375rem !important;
+  border-radius: var(--radius-3) !important;
 }
 
 .rounded-sm {
-  border-radius: .25rem !important;
+  border-radius: var(--radius-2) !important;
 }
 
 .rounded-top {
@@ -4175,7 +4162,6 @@ button:focus {
   left: 0;
   width: 100%;
   z-index: 101;
-  margin-top: .5rem;
 }
 
 .u-header__section {
