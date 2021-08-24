@@ -1,34 +1,106 @@
-{{ partial "header.html" . }}
-{{ partial "navigation.html" . }}
-    <div class="container-7 space-2-top hero-3">
-        <h1>Pricing</h1>
-    <p class="lead mt-4 space-1-bottom">
-      Budibase is open source and free to use.
-    </p> 
-    <hr class="space-1-bottom" />
-    <div class="pricing">
-      <div class="pricing-card">
-        <div class="pricing-in-content">
-          <h5 class="mb-2 text-light">Open Source</h5>
-          <h3 class="mb-3 text-white">Free</h3>
-          <div class="mb-4 mx-auto">
-            <a href="https://portal.budi.live/signup"><button type="submit" class="btn btn-block btn-primary">Get Started</button></a>
-          </div> 
-          <p class="mb-3 text-xs ">Unlimited potential, all within your secure infrastructure: </p>
-            <p class="mb-2 text-xs font-weight-medium"><span class="font-weight-medium text-white">✓</span> Unlimited records</p>  
-            <p class="mb-2 text-xs font-weight-medium"><span class="font-weight-medium text-white">✓</span> Unlimited apps</p>  
-            <p class="mb-2 text-xs font-weight-medium"><span class="font-weight-medium text-white">✓</span> Unlimited users</p>  
-            <p class="mb-2 text-xs font-weight-medium"><span class="font-weight-medium text-white">✓</span> SSO</p>  
-            <p class="mb-2 text-xs font-weight-medium"><span class="font-weight-medium text-white">✓</span> Roles and permissions</p>  
-            <p class="mb-2 text-xs font-weight-medium "><span class="font-weight-medium">✓</span> SMTP [Emails]</p>
-            <p class="mb-2 text-xs font-weight-medium "><span class="font-weight-medium">✓</span> The list goes on and on</p>
+{{ partial "header.html" . }} {{ partial "navigation.html" . }}
+<div class="container hero-3 mx-auto space-3-bottom">
+  <div class="pricing-card-title space-2">
+    <h1 class="text-center">Plans and pricing</h1>
+  </div>
+  <div class="pricing">
 
-        </div> 
-      </div>
-  
-
+<!--Cloud-->
+<div class="pricing-card bg-light border-grey rounded-sm">
+  <div class="pricing-card-top">
+    <h3 class="mb-4">Cloud Sandbox </h3>
+    <h6 class="mb-2">Hosted by Budibase</h6>
+    <h4 class="mb-6">Free <span class="detail-sm text-indigo">(Coming Oct 21)</span></h4>
+  </div>
+  <div class="pricing-card-button">
+    <a href="https://budibase.app/app_da72c53eedeb4d39b858ac11dc31b7d2" target="_blank">
+      <button type="submit" class="btn btn-cta btn-lg">
+        Request early access
+      </button>
+    </a>
+    
+  </div>
+  <div class="pricing-card-bottom">
+    <p class="mb-3 detail-sm font-dark">CLOUD SANDBOX FEATURES:</p>
+    <p class="mb-3 text-xs font-weight-medium">
+      <span class="font-weight-medium text-white">✓</span> 10,000 records
+    </p>
+    <p class="mb-3 text-xs font-weight-medium">
+      <span class="font-weight-medium text-white">✓</span> 4 applications
+    </p>
+    <p class="mb-3 text-xs font-weight-medium">
+      <span class="font-weight-medium text-white">✓</span> SSO + Role based access control
+    </p>
+    <p class="mb-3 text-xs font-weight-medium">
+      <span class="font-weight-medium text-white">✓</span> Community support
+    </p>
+  </div>
 </div>
+
+
+    <!--Open source-->
+    <div class="pricing-card bg-light border-grey rounded-sm">
+      <div class="pricing-card-top">
+        <h3 class="mb-4">Open Source</h3>
+        <h6 class="mb-2">Self-hosted</h6>
+        <h4 class="mb-6">Free forever</h4>
+      </div>
+      <div class="pricing-card-button">
+        <a href="https://portal.budi.live/signup"
+          ><button type="submit" class="btn btn-primary btn-lg">
+            Get started
+          </button></a
+        >
+      </div>
+      <div class="pricing-card-bottom">
+        <p class="mb-3 detail-sm font-dark">EVERYTHING IN CLOUD, PLUS:</p>
+        <p class="mb-3 text-xs font-weight-medium">
+          <span class="font-weight-medium text-white">✓</span> Unlimited data
+        </p>
+        <p class="mb-3 text-xs font-weight-medium">
+          <span class="font-weight-medium text-white">✓</span> Unlimited applications
+        </p>
+        <p class="mb-3 text-xs font-weight-medium">
+          <span class="font-weight-medium text-white">✓</span> Unlimited users
+        </p>
+        <p class="mb-3 text-xs font-weight-medium">
+          <span class="font-weight-medium text-white">✓</span> Community support
+        </p>
+      </div>
+    </div>
+
+    
+    <!--Enterprise-->
+    <div class="pricing-card bg-light border-grey rounded-sm">
+      <div class="pricing-card-top">
+        <h3 class="mb-4">Enterprise</h3>
+        <h6 class="mb-2">Self-hosted</h6>
+        <h4 class="mb-6">Flexible pricing</h4>
+      </div>
+      <div class="pricing-card-button">
+        <a href="https://portal.budi.live/signup"
+          ><button type="submit" class="btn btn-lg btn-primary">
+            Contact sales
+          </button></a
+        >
+      </div>
+      <div class="pricing-card-bottom">
+        <p class="mb-3 detail-sm font-dark">EVERYTHING IN OPEN SOURCE, PLUS:</p>
+        <p class="mb-3 text-xs font-weight-medium">
+          <span class="font-weight-medium text-white">✓</span> Premium support and services / SLAs
+        </p>
+        <p class="mb-3 text-xs font-weight-medium">
+          <span class="font-weight-medium text-white">✓</span> Version history (coming Q4, 2021)
+        </p>
+        <p class="mb-3 text-xs font-weight-medium">
+          <span class="font-weight-medium text-white">✓</span> Auditing (coming Q4, 2021)
+        </p>
+        <p class="mb-3 text-xs font-weight-medium">
+          <span class="font-weight-medium text-white">✓</span> Environments (coming Q4, 2021)
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 
 {{ partial "footer.html" . }}
-<div class="space-5"></div>
