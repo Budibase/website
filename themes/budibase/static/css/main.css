@@ -703,12 +703,15 @@ pre code {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: left;
+  gap: 40px;
 }
 
 @media (max-width: 992px) {
   .container-benefit {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 40px;
+
   }
 }
 
@@ -716,6 +719,8 @@ pre code {
   .container-benefit {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 32px;
+
   }
 }
 
