@@ -1,7 +1,7 @@
 ---
-title: "Budibase | The open source low code platform you'll enjoy using"
-description: "Budibase is a modern, open source low-code platform for building, automating, and shipping internal tools. Build applications 50x faster, and a whole lot easier. Check it out."
+title: "Budibase | Build internal tools, the easy way"
+description: "Budibase is an open source low-code platform and the easiest way to build, automate, and ship internal tools. Check it out."
 layout: single
 date: 2019-01-01
-images: ["/img/hero-images/features.png"]
+images: ["/budibase-ui-gradient.jpg"]
 ---

@@ -4,7 +4,7 @@ date = "2021-07-25"
 title = "July 2021 release - SSO, conditional UI, and more"
 description = "The July release delivers on a number of popular requests from our community and contains four major updates, including; SSO, conditional UI, dark mode apps, SQL relationships."
 author = "Joe Johnston"
-images = ["/releases/2021/june/layout.png"]
+images = ['/releases/2021/june/layout.png']
 draft = "false"
 
 +++

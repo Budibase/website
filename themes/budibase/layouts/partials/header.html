@@ -28,20 +28,11 @@
 {{ template "_internal/twitter_cards.html" . }}
 {{ template "_internal/opengraph.html" . }}
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
 <script async defer data-domain="budibase.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
-
-<script>
-  function toggleDarkMode() {
-    document.documentElement.classList.toggle('dark-mode')
-    const value = localStorage.getItem("theme")
-    localStorage.setItem("theme", value === "dark" ? "light" : "dark")
-  }
-
-    const isDarkMode = localStorage.getItem("theme") === "dark"
-    document.documentElement.classList.toggle('dark-mode',isDarkMode)
-</script>
 <meta name="google-site-verification" content="QgOVKYVI1aszwZ0J4F7zXYmte4scDnnIi6JswcZt_bU" />
+
 </head>
 
 <body lang="{{ .Site.LanguageCode }}">

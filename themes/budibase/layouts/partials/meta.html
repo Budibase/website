@@ -1,3 +1,11 @@
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TW89LL3');</script>
+<!-- End Google Tag Manager -->
+
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
 {{ if eq $url "" }}
 <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
@@ -9,15 +17,34 @@
 {{ with .Params.Description }}<meta name="description" content="{{ . }}">{{ end }}
 {{ end }}
 
-    <meta name="robots" content="noodp"/>
-    {{ if .Params.canonicalUrl }}
-    <link rel="canonical" href="{{ .Params.canonicalUrl }}">
-    {{ else }}
-    <link rel="canonical" href="{{ .Permalink }}" />
-    {{ end }}
+  <meta name="robots" content="noodp"/>
+  {{ if .Params.canonicalUrl }}
+  <link rel="canonical" href="{{ .Params.canonicalUrl }}">
+  {{ else }}
+  <link rel="canonical" href="{{ .Permalink }}" />
+  {{ end }}
     
 
     {{ if .IsHome -}}
+
+  {{ if .Params.thumbnail }}
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+  {{ end }}
+  <!-- Start of Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@budibase">
+  {{ if .Params.twitter_summary }}
+      {{ else if .Description }}
+  <meta property="twitter:card" content="{{ .Description }}">
+      {{ else }}
+  <meta property="twitter:card" content="{{ .Title }}">
+      {{ end }}
+  <meta property="twitter:description" content="{{ .Description }}">
+  <meta property="twitter:title" content="{{ .Title }}">
+  {{ if .Params.thumbnail }}
+  <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.images }}">
+  {{ end }}
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",

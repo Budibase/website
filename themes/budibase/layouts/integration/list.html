@@ -1,44 +1,119 @@
-{{ partial "header2.html" . }}
+{{ partial "header.html" . }}
 
 {{ partial "navigation.html" . }}
 
-<div class="container-7 space-2">
-  <div class="mb-2 hero-info-2">
-    <h1>Integrations</h1>
-    <p class="lead mt-3">
-      Budibase integrates with essential tools to help you increase the speed
-      of internal tool development and improve functionality.
-    </p>
-    <a href="https://github.com/Budibase/budibase/discussions/categories/request-integration" target="_blank" id="goal">
-      <button type="submit" class="btn btn-secondary mt-4">
-        Request integration
-      </button></a>
-  </div>
-
-
-  <div class="space-2 list-tabs pb-4">
-    {{ range $key, $value := .Site.Taxonomies.integrationcategories.ByCount }}
-    <a href="/integration/categories/{{ $value.Name | urlize }}/" class="detail mr-1 mr-sm-3">{{ replace $value.Name "-" " " | title }} ({{ $value.Count }})</a> 
-  {{ end }}
-  </div>
-  <div class="mt-4 space-2-bottom">
-    {{ range .Data.Pages }}
-    <div class="">
-      <a href="{{ .Permalink }}">
-        <div class="integrations-card">
-          <img class="u-sm-avatar" src="{{ .Params.logo }}" />
-          <div>
-            <h5 class="mb-2">{{ .Params.page_title }}</h5>
-            <p class="integration-des">{{ .Description }}</p>
-          </div>
-          <div>
-            <p class="small">-></p>
-          </div>
-        </div>
-      </a>
+<div class="bg-integrations space-2">
+  <div class="container">
+    <div class="w-lg-75">
+      <p class="detail-lg text-light mb-2">INTEGRATIONS</p>
+      <h1 class="mb-3 text-white hero-title-lg mb-4">
+        Build the tools you need with the tools you love
+      </h1>
     </div>
+    <div class="w-lg-75">
+      <p class="mx-auto display-lead-lg mb-4 text-white"> Build internal tools from databases, automate workflows, and
+        do more with Budibase by connecting your tech stack with our platform.</p>
+    </div>
+  </div>
+
+</div>
+<div class=" border-bottom position-sticky sticky-subnav">
+  <div class="inner-nav container py-3 ">
+    <a href="#data" class="mr-3 a-alt">Data</a>
+    <a href="#automate" class="mr-3 a-alt">Automate</a>
+    <a href="#admin" class="mr-3 a-alt">Admin</a>
+    <a href="#deploy" class="mr-3 a-alt">Deploy</a>
+  </div>
+</div>
+
+<div class="container space-2" id="data">
+  <h2 class="mt-4">Data</h2>
+  <div class="integration-card-container mt-4 space-2-bottom">
+    {{ range .Data.Pages.ByTitle }}
+    {{ if in .Params.categories "data" }}
+    <a href="{{ .Permalink}}" class="integrations-card">
+      {{ with .Resources.Match "*/logo*" }}
+      {{ range . }}
+      <img class="u-avatar mb-3" src="{{ .RelPermalink }}" />
+      {{ end }}
+      {{ end }}
+      <div>
+        <h5 class="mb-2">{{ .Params.page_title }}</h5>
+        <p class="integration-des">{{ .Description }}</p>
+      </div>
+    </a>
+    {{ end }}
     {{ end }}
   </div>
+</div>
+
+<div class="space-2" id="automate">
+  <div class="container">
+    <h2 class="mt-4">Automate</h2>
+    <div class="integration-card-container mt-4 space-2-bottom">
+      {{ range .Data.Pages.ByTitle }}
+      {{ if in .Params.categories "automate" }}
+      <a href="{{ .Permalink}}" class="integrations-card">
+        {{ with .Resources.Match "*/logo*" }}
+        {{ range . }}
+        <img class="u-avatar mb-3" src="{{ .RelPermalink }}" />
+        {{ end }}
+        {{ end }} <div>
+          <h5 class="mb-2">{{ .Params.page_title }}</h5>
+          <p class="integration-des">{{ .Description }}</p>
+        </div>
+      </a>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<div class="space-2" id="admin">
+  <div class="container">
+    <h2 class="mt-4">Admin</h2>
+    <div class="integration-card-container mt-4 space-2-bottom">
+      {{ range .Data.Pages.ByTitle }}
+      {{ if in .Params.categories "admin" }}
+      <a href="{{ .Permalink}}" class="integrations-card">
+        {{ with .Resources.Match "*/logo*" }}
+        {{ range . }}
+        <img class="u-avatar mb-3" src="{{ .RelPermalink }}" />
+        {{ end }}
+        {{ end }} <div>
+          <h5 class="mb-2">{{ .Params.page_title }}</h5>
+          <p class="integration-des">{{ .Description }}</p>
+        </div>
+      </a>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<div class="space-2" id="deploy">
+  <div class="container">
+    <h2 class="mt-4">Deploy</h2>
+    <div class="integration-card-container mt-4 space-2-bottom">
+      {{ range .Data.Pages.ByTitle }}
+      {{ if in .Params.categories "deploy" }}
+      <a href="{{ .Permalink}}" class="integrations-card">
+        {{ with .Resources.Match "*/logo*" }}
+        {{ range . }}
+        <img class="u-avatar mb-3" src="{{ .RelPermalink }}" />
+        {{ end }}
+        {{ end }} <div>
+          <h5 class="mb-2">{{ .Params.page_title }}</h5>
+          <p class="integration-des">{{ .Description }}</p>
+        </div>
+      </a>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+
 </div>
 </div>
 
