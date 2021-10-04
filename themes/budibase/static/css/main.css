@@ -184,7 +184,7 @@ h3, h4 {
 p {
   margin-top: 0;
   margin-bottom: 0;
-  color: var(--slate900);
+  color: var(--gray900);
 }
 
 @media (max-width: 576px) {
@@ -197,9 +197,10 @@ p {
   color: var(--hiContrast);
 }
 
-.text-sm {
-  font-size: var(--fontsize-4);
-}
+  .text-sm {
+    font-size: var(--fontsize-4);
+  }
+
 
 .text-xs {
   font-size: var(--fontsize-3);
@@ -524,7 +525,7 @@ h6, .h6 {
 
 .hero-title-lg {
   font-size: var(--fontsize-9);
-  font-weight: 600;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
   line-height: 1;
   letter-spacing: -.055em;
@@ -1302,18 +1303,11 @@ margin-left: 0rem;
 .flex-gap {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 16px;
   justify-content: left;
 }
 
-@media (min-width: 565px) {
-  .flex-gap {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-    justify-content: center;
-  }
-}
+
 
 .flex-gap-lg {
   display: flex;
