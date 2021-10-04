@@ -3331,6 +3331,7 @@ input[type="button"].btn-block {
         flex-flow: row nowrap;
     -ms-flex-pack: start;
         justify-content: flex-start;
+        align-items: center;
   }
   .navbar-expand-lg .navbar-nav {
     -ms-flex-direction: row;
@@ -4445,11 +4446,6 @@ button:focus {
   padding: 0;
 }
 
-.u-header__navbar-brand {
-  width: 160px;
-  color: var(--hiContrast) import !important;
-}
-
 .u-header__navbar-brand-mobile {
   width: 8rem;
 }
@@ -5189,8 +5185,8 @@ button:focus {
   }
   .navbar-expand-lg .u-header__navbar-brand {
     padding-top: 1rem;
-    padding-bottom: 0.9375rem;
-    padding-right: 1rem;
+    padding-bottom: 1.375rem;
+    margin-right: 1rem;
   }
   .navbar-expand-lg .u-header__navbar-nav {
     -ms-flex-align: center;
