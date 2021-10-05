@@ -2,7 +2,7 @@
 title: "Privacy Policy"
 description: "We take your privacy serious at Budibase. To learn more, please visit our privacy policy page. You will find out everything we do with data - which isn't much."
 layout: single
-type: privacy
+type: legal
 date: 2021-10-04
 ---
 

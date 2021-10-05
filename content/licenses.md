@@ -2,11 +2,15 @@
 title: "Open Source Licenses"
 description: "Budibase is open source. We also stand on the shoulders of other open-source giants."
 layout: single
-type: licenses
+type: legal
 date: 2021-10-04
 ---
 
+Budibase is open source. We also stand on the shoulders of other open-source giants. Below is a list of all open-source libraries used across our products.
+
+
 ### Budibase Platform
+
 
 @budibase/bbui - AGPL-3.0
 @budibase/client - MPL-2.0
