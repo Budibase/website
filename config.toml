@@ -1,4 +1,4 @@
-baseURL = "https://www.budibase.com/"
+baseURL = "https://budibase.com/"
 languageCode = "en-uk"
 title = "Budibase | Build internal tools, the easy way"
 theme = "budibase"
