@@ -31,7 +31,7 @@
     --indigo600: #5c5ce0;
     --indigo700: #5050d3;
     --primary: #0b0d0e;
-    --hiContrast: hsl(200 12% 5%);
+    --hiContrast: hsl(200 12% 4%);
     --loContrast: white;
     --canvas: hsl(0 0% 93%);
     --white: white;
@@ -535,7 +535,7 @@ h6, .h6 {
 
 @media (min-width: 990px) {
   .hero-title-lg {
-    font-size: 72px;
+    font-size: 78px;
     font-weight: 700;
     letter-spacing: -.035em;
     text-indent: -.02em;
@@ -962,7 +962,7 @@ margin-left: 0rem;
 
 .hero-card {
  max-width: 70%;
- padding: .5rem;
+ padding: .85rem;
  margin-bottom: 2rem;
  border: 0;
  flex-basis: 70%;
@@ -1088,11 +1088,20 @@ margin-left: 0rem;
   filter: grayscale(100%);
 }
 
+@media (max-width: 768px) {
+  .trusted-by-logo-sm {
+    display: inline-flex;
+    max-height: 30px;
+    margin: 10px;
+    text-align: center;
+    aspect-ratio: auto 240 / 100;
+  }
+}
 
 .trusted-by-logo-sm {
   display: inline-flex;
-  max-height: 32px;
-  margin: 10px;
+  max-height: 34px;
+  margin: 12px;
   text-align: center;
   aspect-ratio: auto 240 / 100;
 }
@@ -1313,7 +1322,7 @@ margin-left: 0rem;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  justify-content: left;
+  justify-content: center;
 }
 
 @media (min-width: 565px) {
@@ -1603,7 +1612,7 @@ margin-left: 0rem;
 }
 
 .sticky-subnav {
-  top: 75px;
+  top: 65px;
   z-index: 5;
   background-color: white;
 }
@@ -3639,13 +3648,13 @@ button.bg-light:focus {
 .bg-radial {
   box-sizing: border-box;
   top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    z-index: -1;
-  background: radial-gradient(circle at 15% 55%, var(--indigo400), rgba(255, 255, 255, 0) 22%), radial-gradient(circle at 85% 30%, coral, rgba(255, 255, 255, 0) 22%);
-  opacity: 0.15;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: -3;
+  background: radial-gradient(circle at 90% 20%, var(--indigo400), rgba(255, 255, 255, 0) 10%), radial-gradient(circle at 90% 20%, rgb(196, 38, 64), rgba(255, 255, 255, 0) 16%),  radial-gradient(circle at 90% 20%, coral, rgba(255, 255, 255, 0) 18%);
+  opacity: 0.06;
 }
 
 .bg-features {
