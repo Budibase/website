@@ -3,7 +3,7 @@ date = "2021-06-27"
 title = "June 2021 release - Build an SQL CRUD app in seconds"
 description = "The June release significantly improves the developer experience when; building CRUD apps with an SQL database, laying out components, and delivering responsive apps."
 author = "Joe Johnston"
-images = ["/releases/2021/june/layout.png"]
+images = ['/releases/2021/june/layout.png']
 draft = "false"
 
 +++

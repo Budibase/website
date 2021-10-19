@@ -14,7 +14,7 @@
           {{ if (.Params.profilePic) }}
               <img class="u-md-avatar mt-4" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
           {{ else }}
-              <img class="u-md-avatar mt-4" src="/img/img/joe.jpg">
+              <img class="u-md-avatar mt-4" src="/img/team/joe.webp">
           {{ end }}
           <p class="text-center text-grey">By: {{ .Params.author }} </p>
           <p class="text-grey mb-4 text-center">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</p>

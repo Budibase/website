@@ -1,0 +1,45 @@
+{{- $src := ( .Destination | safeURL ) -}}
+{{- if strings.HasPrefix $src "http" -}}
+<img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+{{- else -}}
+<picture>
+  {{ $isJPG := eq (path.Ext .Destination) ".jpg" }}
+  {{ $isPNG := eq (path.Ext .Destination) ".png" }}
+
+  {{ if ($isJPG) -}}
+  {{ $avifPath:= replace .Destination ".jpg" ".avif" }}
+  {{ $avifPathStatic:= (add (add "/content/" .Page.Dir)  $avifPath) }}
+
+  {{ if (fileExists $avifPathStatic) -}}
+  <source srcset="{{ $avifPath | safeURL }}" type="image/avif">
+  {{- end }}
+
+  {{ $webpPath:= replace .Destination ".jpg" ".webp" }}
+  {{ $webpPathStatic:= (add (add "/content/" .Page.Dir)  $webpPath )}}
+
+  {{ if (fileExists $webpPathStatic) -}}
+  <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
+  {{- end }}
+  {{- end }}
+
+  {{ if ($isPNG) -}}
+  {{ $avifPath:= replace .Destination ".png" ".avif" }}
+  {{ $avifPathStatic:= (add (add "/content/" .Page.Dir)  $avifPath )}}
+
+  {{ if (fileExists $avifPathStatic) -}}
+  <source srcset="{{ $avifPath | safeURL }}" type="image/avif">
+  {{- end }}
+
+  {{ $webpPath:= replace .Destination ".png" ".webp" }}
+  {{ $webpPathStatic:= (add (add "/content/" .Page.Dir)  $webpPath )}}
+
+  {{ if (fileExists $webpPathStatic) -}}
+  <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
+  {{- end }}
+  {{- end }}
+
+  {{ $img := imageConfig (add (add "/content/" .Page.Dir)  .Destination) }}
+
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy" decoding="async" width="{{ $img.Width }}" height="{{ $img.Height }}" />
+</picture>
+{{- end -}}

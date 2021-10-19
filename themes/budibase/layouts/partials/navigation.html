@@ -1,11 +1,4 @@
-<header id="headerDropdown" class="u-header">
-  <div class="container-fw bg-indigo">
-    <div class="container mx-auto">
-      <a href="https://bb.budibase.app/app_bb_b87c5ee1f17340d5943bc774ddbe6939" target="_blank" rel="noopener">
-        <div class="p-3 h6 a-alt text-center text-white">☁ Request early access to the new Cloud Sandbox -></div>
-      </a>
-    </div>
-  </div>
+<header id="headerDropdown" class="u-header sticky-top bg-white border-bottom">
   <div class="u-header__section u-header--left-aligned-nav mt-2 mt-sm-0 ">
     <div id="logoAndNav" class="container">
       <div class="js-scrollbar-header u-header--sticky__inner">
@@ -14,7 +7,7 @@
           <!-- Logo -->
           <div class="u-header__navbar-brand-wrapper ">
             <a class="navbar-brand u-header__navbar-brand logo" href="/" aria-label="Space">
-              {{ partial "logo.html" . }}
+              <img src="/budibase-logo.png" height="36" width="144" data-atf="1" data-frt="0" />
             </a>
           </div>
 
@@ -34,12 +27,12 @@
                 data-animation-out="fadeOut">
                 <a id="dropdownMegaMenu" class="nav-link u-header__nav-link" href="javascript:;" aria-haspopup="true"
                   aria-expanded="false" aria-labelledby="dropdownSubMenu">
-                  Product ▾
+                  Product  ▾
                 </a>
                 <ul id="dropdownSubMenu" class="list-inline hs-sub-menu u-header__sub-menu mb-0"
                   style="min-width: 220px;" aria-labelledby="dropdownMegaMenu">
                   <li class="dropdown-item u-header__sub-menu-list-item py-0">
-                    <a class="nav-link u-header__sub-menu-nav-link" href="/product">Features</a>
+                    <a class="nav-link u-header__sub-menu-nav-link" href="/product">Overview</a>
                   </li>
                   <li class="dropdown-item u-header__sub-menu-list-item py-0">
                     <a class="nav-link u-header__sub-menu-nav-link" href="/integration">Integrations</a>
@@ -51,6 +44,33 @@
                   </li>
                 </ul>
               </li>
+              <!-- Solutions section 
+              <li class="nav-item u-header__nav-item hs-has-sub-menu" data-event="hover" data-animation-in="fadeInUp"
+              data-animation-out="fadeOut">
+              <a id="dropdownMegaMenu" class="nav-link u-header__nav-link" href="javascript:;" aria-haspopup="true"
+                aria-expanded="false" aria-labelledby="dropdownSubMenu">
+                Solutions  ▾
+              </a>
+              <ul id="dropdownSubMenu" class="list-inline hs-sub-menu u-header__sub-menu mb-0"
+                style="min-width: 220px;" aria-labelledby="dropdownMegaMenu">
+                <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                  <a class="nav-link u-header__sub-menu-nav-link" target="_blank" rel="noopener"
+                    href="https://docs.budibase.com/">Internal tools</a>
+                </li>
+                <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                  <a class="nav-link u-header__sub-menu-nav-link" target="_blank" rel="noopener"
+                    href="https://github.com/Budibase/budibase/discussions/">Digital Forms</a>
+                </li>
+                <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                  <a class="nav-link u-header__sub-menu-nav-link" rel="noopener"
+                    href="https://github.com/Budibase/budibase" target="_blank">Client portals</a>
+                </li>
+                <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                  <a class="nav-link u-header__sub-menu-nav-link" href="/blog">Dashboards</a>
+                </li>
+              </ul>
+            </li>
+            -->
 
               <li class="nav-item u-header__nav-item">
                 <a class="nav-link u-header__nav-link" href="/pricing">
@@ -63,7 +83,7 @@
                 data-animation-out="fadeOut">
                 <a id="dropdownMegaMenu" class="nav-link u-header__nav-link" href="javascript:;" aria-haspopup="true"
                   aria-expanded="false" aria-labelledby="dropdownSubMenu">
-                  Community ▾
+                  Community  ▾
                 </a>
                 <ul id="dropdownSubMenu" class="list-inline hs-sub-menu u-header__sub-menu mb-0"
                   style="min-width: 220px;" aria-labelledby="dropdownMegaMenu">
@@ -128,28 +148,29 @@
               <!-- Button -->
               <!-- Place this tag where you want the button to render. -->
               <div class="navbar-nav u-header__nav-item-btn">
-                <li class="nav-item u-header__nav-item mt-2 mt-sm-0 mr-2 pt-1">
-                  <button type="button" class="dark-mode-toggle" onclick="toggleDarkMode()">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="grey"
-                      class="bi bi-brightness-high" viewBox="0 0 16 16">
-                      <path
-                        d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
-                    </svg>
-                  </button>
-                </li>
                 <li>
-                  <a href="https://github.com/Budibase/budibase/stargazers" target="_blank" id="goal" rel="noopener">
-                    <button type="submit" class="btn btn-secondary mr-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="mr-2" fill="grey"
+                  <a href="https://github.com/Budibase/budibase/stargazers" target="_blank" rel="noopener">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="mt-2 mr-3" fill="black"
                         viewBox="0 0 16 16">
                         <path
                           d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
                       </svg>
-                      Star us on Github</button>
                   </a>
                 </li>
                 <li>
-                  <a class="btn btn-primary my-2" href="https://docs.budibase.com/" target="_blank" id="goal"
+                  <a class="text-sm a-alt my-2 mr-3 ph-no-capture" href="https://account.budibase.app/auth/login" target="_blank">
+                    Sign in
+                  </a>
+                </li>
+                <li>
+                <li>
+                  <a class="btn btn-secondary my-2 mr-3 sm-btn-block" href="https://calendly.com/mjashanks/budibase" target="_blank"  
+                    role="button" data-overlay-color="#151b26">
+                    Contact sales
+                  </a>
+                </li>
+                <li>
+                  <a class="btn btn-primary my-2 sm-btn-block" href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=navigation-cta" target="_blank"  
                     role="button" data-overlay-color="#151b26">
                     Get started for free
                   </a>

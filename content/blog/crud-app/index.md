@@ -4,7 +4,7 @@ date = "2021-07-06"
 title = "What is a CRUD app and how to build one | Ultimate guide"
 description = "Within this guide you will learn what a CRUD app is, how to build a CRUD app, and why CRUD is critical for building applications."
 author = "Joe Johnston"
-images = ["/crud-app/read.png"]
+images = ['/blog/crud-app/images/read.webp']
 draft = "false"
 
 +++
@@ -74,7 +74,7 @@ Create allows you to add new rows/records to a database/table. If the record doe
 
 1. Create/add a new book to our library management app
 
-{{< figure src="/crud-app/create.png"  alt="Create a record in a basic crud app" >}}
+{{< figure src="/blog/crud-app/images/create.webp"  alt="Create a record in a basic crud app" >}}
 
 
 #### Read
@@ -86,7 +86,7 @@ Read is the operation that allows us to see the recipe we just created. It does 
 1. View the books within our library
 
 
-{{< figure src="/crud-app/read.png"  alt="Read records from a basic crud app" >}}
+{{< figure src="/blog/crud-app/images/read.webp"  alt="Read records from a basic crud app" >}}
 
 
 
@@ -98,7 +98,7 @@ Update is the operation that allows us to modify existing data and records withi
 
 1. Update a book's availability
 
-{{< figure src="/crud-app/update-2.png"  alt="Update a record in a basic crud app" >}}
+{{< figure src="/blog/crud-app/images/update-2.webp"  alt="Update a record in a basic crud app" >}}
 
 
 
@@ -111,7 +111,7 @@ Delete is the operation that allows us to remove records from a table.
 4. Remove a book from our library management system
 
 
-{{< figure src="/crud-app/delete.png"  alt="Delete a record in a basic crud app" >}}
+{{< figure src="/blog/crud-app/images/delete.webp"  alt="Delete a record in a basic crud app" >}}
 
 
 ### Two additional basic CRUD app examples
@@ -197,7 +197,7 @@ If you are new to Budibase, click the ‘Get started’ button in the navigation
 - Click the ‘Create new app’ button. 
 - Give your app a name. We are going to call our app the ‘Library management app’ - very original.
 
-{{< figure src="/crud-app/create-new-app.png"  alt="Create new crud app" >}}
+{{< figure src="/blog/crud-app/images/create-new-app.webp"  alt="Create new crud app" >}}
 
 
 #### Create your data structure
@@ -260,7 +260,7 @@ Budibase has its own database and supports several others; including MySQL, Post
     - Click 'save'
   - Click on the Design tab (in the top navigation bar)
 
-{{< figure src="/crud-app/data.png"  alt="Create a new crud app table" >}}
+{{< figure src="/blog/crud-app/images/data.webp"  alt="Create a new crud app table" >}}
 
 
 #### Designing your user interface
@@ -285,7 +285,7 @@ The design section is where we create our User Interface. You will notice on the
 
     *This should generate a new form for adding new books*
 
-{{< figure src="/crud-app/update-form-fields.png"  alt="Update form fields in Budibase app" >}}
+{{< figure src="/blog/crud-app/images/update-form-fields.webp"  alt="Update form fields in Budibase app" >}}
 
 
 *Adding search*
@@ -311,7 +311,7 @@ The design section is where we create our User Interface. You will notice on the
     - A new drawer will appear. Select the ‘New Form.Fields.Title' option under ‘Columns’, and click ‘Save’
     - Click ‘Save’ again (to save your new filter)
 
-{{< figure src="/crud-app/search.png"  alt="Create search within your CRUD app" >}}
+{{< figure src="/blog/crud-app/images/search.webp"  alt="Create search within your CRUD app" >}}
 
 
 You’ve successfully added search and we now have our final CRUD app that will:
@@ -327,7 +327,7 @@ And believe it our not, that’s us finished. Well done! Click the preview butto
 
 > Tip - if you click the Books screen, and change the route to '/' it will reroute to your homepage.
 
-{{< figure src="/crud-app/searching.png"  alt="A picture of our new CRUD app" >}}
+{{< figure src="/blog/crud-app/images/searching.webp"  alt="A picture of our new CRUD app" >}}
 
 
 

@@ -1,18 +1,46 @@
 {{ partial "header.html" . }} {{ partial "navigation.html" . }}
 
-<div class="container space-3">
-  <div class="hero-container-2 w-lg-80 mx-auto">
-  <div class="mb-2 hero-info-2">
-    <h1>Features</h1>
-    <p class="display-lead mt-3 mb-4">
-      Design, build, automate, and deliver custom business tools in minutes, and with confidence.
+<!-- Hero Section -->
+<div class="bg-features space-2-top space-1-bottom">
+  <div class="container">
+    <div class="w-lg-75">
+      <p class="detail-lg text-light mb-2">PRODUCT OVERVIEW</p>
+      <h1 class="mb-3 text-white hero-title-lg mb-4">
+        Build internal applications people love to use
+      </h1>
+    </div>
+    <div class="w-lg-75">
+      <p class="mx-auto display-lead-lg mb-4 text-white"> Design, build, automate, deploy and scale custom internal
+        applications in minutes, and with confidence.
+      </p>
+    </div>
   </div>
-  <img src="/img/hero-images/features.webp" class="img-fluid rounded" loading="lazy" />
-</div>
-</div>
 
-<hr style="width: 30%;"/>
-
+  <div class="space-1">
+    <div class="scrolling-wrapper-flexbox no-scrollbar">
+      <div class="hero-card">
+        <img src="/img/ui/data-sm.webp" class="img-fluid rounded" alt="Data" />
+      </div>
+      <div class="hero-card">
+        <img src="/img/ui/design-sm.webp" class="img-fluid rounded" alt="Design" />
+      </div>
+      <div class="hero-card">
+        <img src="/img/ui/automate-sm.webp" class="img-fluid shadow rounded" alt="Automate" />
+      </div>
+      <div class="hero-card">
+        <img src="/img/ui/admin-sm.webp" class="img-fluid rounded" alt="Admin" />
+      </div>
+    </div>
+  </div>
+</div>
+<div class=" border-bottom position-sticky sticky-subnav">
+  <div class="inner-nav container py-3 ">
+    <a href="#data" class="mr-3 a-alt">Data</a>
+    <a href="#design" class="mr-3 a-alt">Design</a>
+    <a href="#automate" class="mr-3 a-alt">Automate</a>
+    <a href="#admin" class="mr-3 a-alt">Scale</a>
+  </div>
+</div>
 
 <!--
 
@@ -39,193 +67,213 @@ class="detail mr-1 mr-sm-3"
 </div>
 -->
 
-  <div class="space-2 container-7">
-    <h2 class="mb-4 text-centre">Data, how you like it</h2>
-    <picture>
-      <source srcset="/img/img/external-data-sources.webp" type="image/webp" />
-      <source srcset="/img/img/external-data-sources.png" type="image/png" />
-      <img
-        src="/img/img/external-data-sources.png"
-        class="img-fluid shadow mb-4 rounded"
-        alt="Data"
-    />
-    </picture>
-      <div class="product-card">
-        <h5 class="mb-1">External data sources
-        </h5>
-        <p class="small ">
-          Connect, fetch and query data from
-          <a href="/integration">external data sources </a> (Postgresql, MongoDB, MySQL, S3, CouchDB, Airtable, and more). You can also 
-          pull data into Budibase using a Rest API.
-        </p>
-      </div>
-      <div class="product-card">
-        <h5 class="mb-1">Built-in database</h5>
-        <p class="small">You do not need existing data to create apps with Budibase. Use Budibase's built-in database and tables to build apps from scratch (or upload a CSV). Select from a number of data types and functionality, including relationships, attachments, formulas, and more.</p>
-      </div>
-      <div class="product-card">
-        <h5 class="mb-1">Auto-screens</h5>
-        <p class="small">
-          When you create an internal table, you can tell Budibase to generate auto-screens. This feature will then create 3 screens within your UI; a read, create, and update screen. This feature is optional.
-      </div>
-      <div class="product-card">
-        <h5 class="mb-1">CSV upload</h5>
-        <p class="small ">Upload a CSV to Budibase and generate tables within Budibase's internal database.</p>
-      </div>
-      <div class="product-card">
-        <h5 class="mb-1">Views</h5>
-        <p class="small  ">
-          A simple and performant way to run calculations over your data within Budibase's built-in database. 
-        </p>
-      </div>
-      <div class="product-card">
-        <h5 class="mb-1">Access controls</h5>
-        <p class="small  ">
-          Assign access controls to your data.
-        </p>
-      </div>
+<div class="space-3" id="data">
+  <div class="container-9" >
+    <h2 class="h1 mb-4 text-centre">Add Data with ease</h2>
+    <img src="/img/ui/data-wide.webp" class="img-fluid shadow mb-4 rounded" alt="Data wide screenshot and features" />
+  </div>
+  <div class="container-9">
+    <div class="product-card">
+      <h5 class="mb-1">External data sources
+      </h5>
+      <p class="small ">
+        Connect, fetch and query data from
+        <a href="/integration/categories/data-source/">external data sources </a> (Postgresql, MongoDB, MySQL, S3,
+        CouchDB, Airtable, and more). You can also
+        pull data into Budibase using a Rest API.
+      </p>
+    </div>
+    <div class="product-card">
+      <h5 class="mb-1">Built-in database</h5>
+      <p class="small">You do not need existing data to create apps with Budibase. Use Budibase's built-in database and
+        tables to build apps from scratch (or upload a CSV). Select from a number of data types and functionality,
+        including relationships, attachments, formulas, and more.</p>
+    </div>
+    <div class="product-card">
+      <h5 class="mb-1">Auto-screens</h5>
+      <p class="small">
+        When you create an internal table, you can tell Budibase to generate auto-screens. This feature will then create 3
+        screens within your UI; a read, create, and update screen. This feature is optional.
+    </div>
+    <div class="product-card">
+      <h5 class="mb-1">CSV upload</h5>
+      <p class="small ">Upload a CSV to Budibase and generate tables within Budibase's internal database.</p>
+    </div>
+    <div class="product-card">
+      <h5 class="mb-1">Views</h5>
+      <p class="small  ">
+        A simple and performant way to run calculations over your data within Budibase's built-in database.
+      </p>
+    </div>
+    <div class="product-card">
+      <h5 class="mb-1">Access controls</h5>
+      <p class="small ">
+        Assign access controls to your data.
+      </p>
     </div>
   </div>
+  </div>
+</div> 
 
-
-  <div class="container-7 space-2">
-    <h2 class="mb-4 text-centre">Design with confidence</h2>
-    <picture>
-      <source srcset="/img/img/design.webp" type="image/webp" />
-      <source srcset="/img/img/design.png" type="image/png" />
-      <img
-        src="/img/img/design.png"
-        class="img-fluid shadow mb-4 rounded"
-        alt="Design"
-      />
-    </picture>
-      <div class="product-card">
+<div class="bg-alt space-3" id="design">
+  <div class="container-9">
+    <h2 class="h1 mb-4 text-centre">Design like a pro</h2>
+    <img src="/img/ui/design-wide.webp" class="img-fluid shadow mb-4 rounded" alt="Design wide screenshot and features" />
+    <div class="product-card">
+      <h5 class="mb-1">Ship real, performant apps</h5>
+      <p class="small">
+        Budibase outputs real single page applications.
+      </p>
+    </div>
+    <div class="product-card">
+      <h5 class="mb-1">Auto-generated CRUD screens</h5>
+      <p class="small">
+        Auto-generate fully-functional, complete wired-up, and perfectly designed CRUD screens from your data with just a click.
+      </p>
+    </div>
+    <div class="product-card">
         <h5 class="mb-1">Private and Public apps</h5>
         <p class="small">
-          Build private and public applications, or a combimation of both.
+          Build private and public applications, or both.
         </p>
       </div>
       <div class="product-card">
-        <h5 class="mb-1">Ship real, performant apps</h5>
+        <h5 class="mb-1">Responsive design</h5>
         <p class="small">
-          Budibase outputs real single page applications.
+          Design applications that work across all devices.
         </p>
       </div>
       <div class="product-card">
-        <h5 class="mb-1">Accessible, beautiful components</h5>
+        <h5 class="mb-1">Themes</h5>
         <p class="small">
-          At Budibase, we obsess over design. It's goal to make designing beautiful internal tools, effortless. This begins by providing users with a catalogue of powerful, best-in-class components.
+          Customize the theme of your app with just a few clicks.
         </p>
       </div>
       <div class="product-card">
-        <h5 class="mb-1">Data provider component</h5>
+        <h5 class="mb-1">Dark mode</h5>
         <p class="small">
-          The data provider component consolidates the fetching of data to one component, improving performance and usability. It also makes filtering, sorting, and paginating your data effortless.</p>
+          Choose between four base themes: lightest, light, dark, darkest.
+        </p>
       </div>
       <div class="product-card">
-        <h5 class="mb-1">Highly-functional table</h5>
+        <h5 class="mb-1 text-dark">Form builder</h5>
         <p class="small">
-          The Budibase table component is simple, yet powerful. You can sort, theme, and resize the table. It's also possible to add buttons/actions to the table, which makes it powerful when creating actionable lists.
+          Build forms and multi-step forms with validation and custom logic.
         </p>
       </div>
       <div class="product-card">
-        <h5 class="mb-1">Beautiful charts</h5>
+        <h5 class="mb-1 text-dark">Tables and Cards</h5>
         <p class="small">
-          Using data from your tables/external data sources, add beautiful charts, including bar, line, area, and more, to your apps. It's never been easier to build custom dashboards!
+          Present your data in a flexible, sortable, themable table or cards.
         </p>
       </div>
       <div class="product-card">
-        <h5 class="mb-1">Accessible form builder</h5>
+        <h5 class="mb-1 text-dark">Charts</h5>
         <p class="small">
-          Create forms automatically from your schema; or from scratch. Out of the box, forms come with theming, validation, accessibility, and responsive sizing. More importantly, they're super flexible and beautiful.
+          Display your data in charts, including bar, pie, line, area, and more.
         </p>
       </div>
       <div class="product-card">
-        <h5 class="mb-1">Powerful actions</h5>
-        <p class="small  ">
-          Add actions to components, including, saving data and triggering automations.
+        <h5 class="mb-1 text-dark">Data manipulation</h5>
+        <p class="small">
+          Filter, sort, search and paginate your data with a couple of clicks.
         </p>
       </div>
       <div class="product-card">
-        <h5 class="mb-1">Easy to implement search</h5>
-        <p class="small  ">
-          Add search functionality to your apps with just a few clicks.
+        <h5 class="mb-1 text-dark">Conditional UI</h5>
+        <p class="small">
+          Change a number of component settings depending on a condition.
+        </p>
+      </div>
+      <div class="product-card">
+        <h5 class="mb-1 text-dark">Actions</h5>
+        <p class="small">
+          Add on-click actions to a button and trigger automations.
         </p>
       </div>
     </div>
   </div>
+</div>
 
-  <div class="container-7 space-2">
-    <h2 class="mb-4 text-centre">Automate workflows in seconds</h2>
-    <picture>
-      <source srcset="/img/img/automate.webp" type="image/webp" />
-      <source srcset="/img/img/automate.png" type="image/png" />
-      <img src="/img/img/automate.png" class="img-fluid shadow rounded mb-4" alt="Automate apps with Budibase" />
-    </picture>
-      <div class="product-card">
-        <h5 class="mb-1">Webhooks</h5>
-        <p class="small  ">
-          Pull data into your apps and push data out using webhooks.
-        </p>
-      </div>
-      <div class="product-card">
-        <h5 class="mb-1">Integrations</h5>
-        <p class="small  ">
-          Integrate with external platforms, including Integromat, Zapier, and more, using
-          <a href="/integration">integrations</a>.
-        </p>
-      </div>
-      <div class="product-card">
-        <h5 class="mb-1">Triggers</h5>
-        <p class="small  ">
-          Choose from a number of triggers to start your automation.
-        </p>
-      </div>
-      <div class="product-card">
-        <h5 class="mb-1">Chaining</h5>
-        <p class="small  ">
-          Use data from previous automation steps.
-        </p>
-      </div>
-      <div class="product-card">
-        <h5 class="mb-1">Actions</h5>
-        <p class="small  ">
-          Choose from a library of actions, including email, messaging, hooking up to external automation platforms, and tell your app what to do.
-        </p>
-      </div>
-      <div class="product-card">
-        <h5 class="mb-1">Delay</h5>
-        <p class="small  ">Add a time delay to your automations.</p>
-      </div>
-      <div class="product-card">
-        <h5 class="mb-1">CRON</h5>
-        <p class="small  ">
-          With Budibase, you can schedule your automations. For example - Run automation every 5 minutes. </p>
-      </div>
-      <div class="product-card">
-        <h5 class="mb-1">Add scripts</h5>
-        <p class="small  ">
-          Add JavaScript to your automations to increase utility.
-        </div>
-    </div>
+<div class="space-3" id="automate">
+  <div class="container-9" >
+  <h2 class="h1 mb-4 text-centre">Automate workflows in seconds</h2>
+  <img src="/img/ui/automate-wide.webp" class="img-fluid shadow mb-4 rounded" alt="Automate wide screenshot and features" />
+</div>
+
+  <div class="container-9">
+  <div class="product-card">
+    <h5 class="mb-1">Webhooks</h5>
+    <p class="small  ">
+      Pull data into your apps and push data out using webhooks.
+    </p>
   </div>
+  <div class="product-card">
+    <h5 class="mb-1">Integrations</h5>
+    <p class="small  ">
+      Integrate with external platforms, including Integromat, Zapier, and more, using
+      <a href="/integration">integrations</a>.
+    </p>
+  </div>
+  <div class="product-card">
+    <h5 class="mb-1">Triggers</h5>
+    <p class="small  ">
+      Choose from a number of triggers to start your automation.
+    </p>
+  </div>
+  <div class="product-card">
+    <h5 class="mb-1">Chaining</h5>
+    <p class="small  ">
+      Use data from previous automation steps.
+    </p>
+  </div>
+  <div class="product-card">
+    <h5 class="mb-1">Actions</h5>
+    <p class="small  ">
+      Choose from a library of actions, including email, messaging, hooking up to external automation platforms, and
+      tell your app what to do.
+    </p>
+  </div>
+  <div class="product-card">
+    <h5 class="mb-1">Delay</h5>
+    <p class="small  ">Add a time delay to your automations.</p>
+  </div>
+  <div class="product-card">
+    <h5 class="mb-1">CRON</h5>
+    <p class="small  ">
+      With Budibase, you can schedule your automations. For example - Run automation every 5 minutes. </p>
+  </div>
+  <div class="product-card">
+    <h5 class="mb-1">Add scripts</h5>
+    <p class="small  ">
+      Add JavaScript to your automations to increase utility.
+  </div>
+</div>
+</div>
+</div>
 
-
-  <div class="space-2 container-7">
-    <h2 class="mb-4 text-centre">Spark joy in Admins and DevOps</h2>
-    <picture>
-      <source srcset="/img/img/apps-list.webp" type="image/webp" />
-      <source srcset="/img/img/apps-list.png" type="image/png" />
-      <img
-        src="/img/img/apps-list.png"
-        class="img-fluid shadow mb-4 rounded"
-        alt="Data"
-    />
-    </picture>
+<div class="bg-alt space-3" id="admin">
+  <div class="container-9">
+    <h2 class="h1 mb-4 text-centre">Scale with confidence</h2>
+    <img src="/img/ui/admin-wide.webp" class="img-fluid shadow mb-4 rounded" alt="Admin wide screenshot and features" />
+  </div>
+  <div class="container-9">
     <div class="product-card">
-      <h5 class="mb-1">Self-host Budibase</h5>
+      <h5 class="mb-1">Self-host</h5>
       <p class="small ">
-        Self hosting Budibase is simple and allows you to build internal tools that meet data compliance and company requirements with ease
+        Self host Budibase on your own infrastructure using Kubernetes, Docker, Digital Ocean, and more.
+      </p>
+    </div>
+    <div class="product-card">
+      <h5 class="mb-1">Host with Budibase</h5>
+      <p class="small ">
+        Host with Budibase and let us manage your infrastructure for you.
+      </p>
+    </div>
+    <div class="product-card">
+      <h5 class="mb-1">FREE SSO</h5>
+      <p class="small ">
+        You read that right. Unlike other companies, SSO is free.
       </p>
     </div>
     <div class="product-card">
@@ -234,62 +282,41 @@ class="detail mr-1 mr-sm-3"
         Quickly manage updates and infrastructure with the Budibase CLI
       </p>
     </div>
-      <div class="product-card">
-        <h5 class="mb-1">Global user management</h5>
-        <p class="small ">
-          Add a user to the platform once, then assign them to different apps. This greatly improves the end-user experience, as they only have to log-in once to access multiple apps.
-        </p>
-      </div>
-      <div class="product-card">
-        <h5 class="mb-1">Streamlined user onboarding</h5>
-        <p class="small ">Add your SMTP settings and Budibase will take care of the user onboarding process for you. 
-        </p>
-      </div>
-      <div class="product-card">
-        <h5 class="mb-1">Email templates</h5>
-        <p class="small">Budibase comes with beautiful emails templates that you can customize to match your brand and styling preferences.
-        </p>
-      </div>
-      <div class="product-card">
-        <h5 class="mb-1">OAuth</h5>
-        <p class="small ">
-          Allow users to log in to their apps using Google. We are actively adding more OAuth options.
-        </p>
-      </div>
+    <div class="product-card">
+      <h5 class="mb-1">Global user management</h5>
+      <p class="small ">
+        Add a user to the platform once, then assign them to different apps. This greatly improves the end-user
+        experience, as they only have to log-in once to access multiple apps.
+      </p>
     </div>
-  </div>
-  
-
-  <div class="space-2 container-7">
-    <h2 class="mb-4 text-centre">Create tools that people enjoy using</h2>
-    <picture>
-      <source srcset="/img/img/portal.webp" type="image/webp" />
-      <source srcset="img/img/portal.png" type="image/png" />
-      <img
-        src="/img/img/portal.png"
-        class="img-fluid shadow mb-4 rounded"
-        alt="Data"
-    />
-    </picture>
+    <div class="product-card">
+      <h5 class="mb-1">SMTP and streamlined user onboarding</h5>
+      <p class="small ">Add your SMTP settings and Budibase will take care of the user onboarding process for you. If your users don't have an email, not to worry, you can generate credentials for them.
+      </p>
+    </div>
+    <div class="product-card">
+      <h5 class="mb-1">Email templates</h5>
+      <p class="small">Budibase comes with beautiful emails templates that you can customize to match your brand and
+        styling preferences.
+      </p>
+    </div>
+    <div class="product-card">
+      <h5 class="mb-1">OAuth</h5>
+      <p class="small ">
+        Allow users to log in to their apps using Google. We are actively adding more OAuth options.
+      </p>
+    </div>
     <div class="product-card">
       <h5 class="mb-1">Portal</h5>
-      <p class="small">When you create more than one app, Budibase will generate a portal to help with navigation and access.</p>
-    </div>
-    <div class="product-card">
-      <h5 class="mb-1">1 log-in</h5>
-      <p class="small">Users only need one login to access all their Budibase apps</p>
-    </div>
-      <div class="product-card">
-        <h5 class="mb-1">Groups <span class="lead small">(coming soon)</span></h5>
-        <p class="small">Assign users and apps to groups. Users within groups can only see and use the apps assigned to their group. </p>
-      </div>
-      <div class="product-card">
-        <h5 class="mb-1">Group managers <span class="lead small">(coming soon)</span></h5>
-        <p class="small">Elect a group manager and allow them to manage updating and removing users, taking the tasks away from busy admins.</p>
-      </div>
+      <p class="small">When you create more than one app, Budibase will generate a portal to help with navigation and
+        access. With the portal, users only have to log-in once to access all their apps.</p>
     </div>
   </div>
-  {{ partial "cta.html" . }}
-  <hr style="width: 30%" />
-  {{ partial "footer.html" . }}
+</div>
+</div>
+
+</div>
+{{ partial "cta.html" . }}
+<hr style="width: 30%" />
+{{ partial "footer.html" . }}
 </div>
