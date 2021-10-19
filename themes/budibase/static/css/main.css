@@ -1617,6 +1617,15 @@ margin-left: 0rem;
   background-color: white;
 }
 
+@media (min-width: 768px) {
+  .sticky-subnav {
+    top: 75px;
+    z-index: 5;
+    background-color: white;
+  }
+}
+
+
   /* Product content container */
 
 .product-content-container {
