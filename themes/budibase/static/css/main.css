@@ -30,6 +30,10 @@
     --indigo500: #6565ec;
     --indigo600: #5c5ce0;
     --indigo700: #5050d3;
+    --blue400: hsl(240, 82%, 70%);
+    --blue500: #6565ec;
+    --blue600: #5c5ce0;
+    --blue700: #5050d3;
     --primary: #0b0d0e;
     --hiContrast: hsl(200 12% 4%);
     --loContrast: white;
@@ -39,7 +43,6 @@
     --green: #2d9d78;
     --yellow: #b79900;
     --teal: #0f797d;
-    --blue: #2680eb;
     --transparentPanel: hsl(0 0% 0% / 97%);
     --shadowLight: hsl(206 22% 7% / 35%);
     --shadowDark: hsl(206 22% 7% / 20%);
@@ -300,6 +303,19 @@ a:hover {
 
 .a-alt:hover {
   text-decoration: underline var(--indigo400) 2px;
+}
+
+.a-light {
+  text-underline-offset: 6px;
+  color: var(--loContrast);
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  text-decoration: underline var(--loContrast) 2px;
+}
+
+.a-light:hover {
+  text-decoration: underline var(--gray200) 2px;
+  color: var(--gray200);
 }
 
 
@@ -1635,6 +1651,24 @@ margin-left: 0rem;
     padding: 0;
     border-radius: 0;
     border:none;
+  }
+}
+
+.promo-banner {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (min-width: 600px) {
+  .promo-banner {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
   }
 }
 
@@ -3616,15 +3650,15 @@ button.close {
 
 
 .bg-light {
-background-color: rgb(255, 254, 252);
+background-color: #fffefc;
 }
 
 .bg-light-1 {
-  background-color: rgb(249, 245, 241);
+  background-color: #f9f5f1;
 }
 
 .bg-light-2 {
-  background-color: rgb(246, 239, 232);
+  background-color: #f6efe8;
 }
 
 .bg-green {
