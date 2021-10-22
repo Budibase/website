@@ -6,7 +6,7 @@ categories = ["JavaScript"]
 tags = ["SaaS, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture"]
 description = "£45,000 - £60,000"
 author = "Martin McKeaveney"
-images = ["/img/img/design-chart.png"]
+images = ["/img/img/design-chart.webp"]
 draft ="false"
 +++
 
@@ -19,7 +19,7 @@ To date, we've received over 20,000 signups from the likes of F1, Deloitte, KPMG
 
 We are one of the fastest growing open source projects on _the planet_ - having gained thousands of GitHub stars and a large amount of community engagement in a matter of weeks!
 
-{{< figure src="/img/img/design-chart.png" alt="Budibase" >}}
+{{< figure src="/img/img/design-chart.webp" alt="Budibase" >}}
 
 
 ## The Role

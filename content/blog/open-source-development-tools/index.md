@@ -83,7 +83,7 @@ Release/Updates: 10/10
 
 ### 2. Budibase
 
-{{< figure src="/img/img/apps-list.webp" alt="BudibaseUI" >}}
+{{< figure src="/img/ui/design-wide.webp" alt="BudibaseUI" >}}
 
 [Budibase](https://github.com/budibase/budibase) is an open source low-code platform, bringing together everything required to build internal tools and custom business apps, such as; dashboards, admin panels, approval apps, customer portals, and everything in between. Within minutes, transform data and processes into powerful internal tools.
 
