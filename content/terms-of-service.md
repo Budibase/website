@@ -3,7 +3,7 @@ title: "Terms of Service"
 description: "Terms of service for Budibase Cloud"
 layout: single
 type: legal
-date: 2021-10-06
+date: 2021-10-22
 ---
 
 <!-----
@@ -245,7 +245,7 @@ Customer shall: (a) at its cost, provide BB with all necessary co-operation in r
 
 # 7. THIRD PARTY SERVICES AND SOFTWARE (INCLUDING OPEN-SOURCE SOFTWARE) 
 
-7.1 BB’s Services may from time to time include or feature third party and open-source software components which are subject to certain third party and open source licence terms. Accordingly, any terms and conditions set out at https://budibase.com/licenses, as updated from time to time (without further notice) shall apply to Customer’s and the Authorised Users’ use of the Services in addition to the provisions set out elsewhere in the Agreement, as well as any other relevant third party or open-source licence terms which may apply from time to time. BB warrants that it has procured permission for the use by Customer of such third party or open-source software without any additional cost to Customer, and that Customer will continue to be entitled to use such software during the Term (through and as part of its use of the Subscription Services and subject to any applicable limitations on the use of same) provided that it complies with the terms of the Agreement, including the terms linked above.
+7.1 BB’s Services may from time to time include or feature third party and open-source software components which are subject to certain third party and open source licence terms. Accordingly, any terms and conditions set out at https://budibase.com/licenses as updated from time to time (without further notice) shall apply to Customer’s and the Authorised Users’ use of the Services in addition to the provisions set out elsewhere in the Agreement, as well as any other relevant third party or open-source licence terms which may apply from time to time. BB warrants that it has procured permission for the use by Customer of such third party or open-source software without any additional cost to Customer, and that Customer will continue to be entitled to use such software during the Term (through and as part of its use of the Subscription Services and subject to any applicable limitations on the use of same) provided that it complies with the terms of the Agreement, including the terms linked above.
 
 7.2 Additionally, Customer may use Third-party Services when accessing the Subscription Services, for example where it downloads an application that integrates with or incorporates the Subscription Services, links from the Subscription Services to another service, or uses a Third Party Service to authenticate its access to the Subscription Services. While the Agreement represents the agreement between BB and Customer, other parties’ terms govern their relationships. Whilst BB takes no responsibility for any Authorised User’s or Customer’s adherence to such terms or the actions taken by such third-parties, Customer warrants and represents that it will honour and adhere to such terms when using the Subscription Services and that Customer will not hold BB responsible for any interactions with such third parties or their terms, including for wrongful or negligent acts or omissions, or breaches of contract. Customer acknowledges that BB cannot be held responsible for any errors or issues with the Subscription Services to the extent attributable to such Third-party Services. 
 
