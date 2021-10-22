@@ -6,7 +6,7 @@ categories = ["JavaScript", "QA"]
 tags = ["SaaS, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture"]
 description = "Budibase is looking for a Senior QA Automation Engineer. The salary is £40,000 - £55,000"
 author = "Martin McKeaveney"
-images = ["/img/img/design-chart.webp]
+images = ["/img/img/design-chart.webp"]
 draft ="false"
 +++
 
