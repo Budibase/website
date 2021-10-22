@@ -51,7 +51,7 @@ The old Budibase will remain as it is today. We will no longer develop and enhan
 
 ## New Admin UI
 
-{{< figure src="/img/img/apps-list.webp" alt="Top 5 open source low-code platforms" >}}
+{{< figure src="/img/ui/admin-wide.webp" alt="New admin UI" >}}
 
 Previous to this release, there was very little administrative functionality. This was not scalable, so we’ve created a new UI dedicated to administrative tasks such as end-user management, developer management, email/SMTP, and authentication. This UI is only available to the admin of your Budibase account.
 More importantly, this admin interface defines our direction - a platform where companies build multiple apps that empower their workforce, automate processes, and accelerate digital transformation. 
