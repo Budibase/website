@@ -24,20 +24,6 @@
   {{ if .Params.thumbnail }}
   <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
   {{ end }}
-  <!-- Start of Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@budibase">
-  {{ if .Params.twitter_summary }}
-      {{ else if .Description }}
-  <meta property="twitter:card" content="{{ .Description }}">
-      {{ else }}
-  <meta property="twitter:card" content="{{ .Title }}">
-      {{ end }}
-  <meta property="twitter:description" content="{{ .Description }}">
-  <meta property="twitter:title" content="{{ .Title }}">
-  {{ if .Params.thumbnail }}
-  <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.images }}">
-  {{ end }}
 
 <script type="application/ld+json">
 {
