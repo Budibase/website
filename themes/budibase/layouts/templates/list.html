@@ -1,0 +1,41 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+<div class="space-1 container">
+    <div class="breadcrumbs mb-8">
+      <a class="a-alt" href="/">Home </a>
+      /
+      <a class="a-alt" href="{{ .Section }}">{{ .Section | humanize }}</a>
+      /
+      <span class="text-light">{{.Section | humanize | singularize }} templates</span> 
+    </div>
+    <div class="container space-1">
+      <h1 class="mb-3 mb-4 text-center">
+        {{ .Section | humanize | singularize }} templates
+      </h1>
+    <div class="w-lg-60 mx-auto">
+      <p class="mx-auto display-lead-sm text-center"> Improve productivity and empower your coworkers with these modern internal tool templates that are fully customizable. 
+      </p>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="container space-2-bottom">
+  <div class="templates-cards">
+  {{ range .Data.Pages.ByTitle }}
+  <a href="{{ .Permalink }}">
+    <div class="templates-card rounded-sm">
+        <img class="template-card-img img-fluid mb-4" src="{{ .Params.thumbnail }}" />
+            <h2 class="h4 mb-3">{{ .Params.label }}</h2>
+            <p class="mb-3">{{ .Params.card_summary }} </p>
+            <p class="text-indigo text-sm templates-card-link">Get this template</p>
+    </div>
+  </a>
+  {{ end }}
+  </div> 
+</div>
+
+{{ partial "cta.html" . }} {{ partial "footer.html" . }}
+</div>
+</div>

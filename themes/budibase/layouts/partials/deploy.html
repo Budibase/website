@@ -4,35 +4,6 @@
     <p class="w-md-80 w-lg-60 mt-2">
         With our open source platform, application data never has to leave your infrastructure. Deploy via Kubernetes, Docker, Digital Ocean. Or choose the Budibase Cloud and let Budibase manage everything for you.
     </p>
-    <div class="container-benefit mt-6">
-      <div class="card-small">
-        <img class="u-avatar mb-2" alt="Budibase icon" src="img/logo/budibase-icon.svg" >
-        <h4 class="mb-1">Budibase Cloud</h4>
-        <p class="text-sm">
-          Host with Budibase and let us manage everything for you - easiest and quickest way.
-        </p>
-      </div>
-      <div class="card-small">
-        <img class="u-avatar mb-2" alt="Budibase icon" src="integration/docker/images/logo.svg" >
-        <h4 class="mb-1">Docker</h4>
-        <p class="text-sm">
-          Deploy Budibase to your own infrastructure using Docker and Docker Compose.
-        </p>
-      </div>
-      <div class="card-small">
-        <img class="u-avatar mb-2" alt="Budibase icon" src="integration/kubernetes/images/logo.png" >
-        <h4 class="mb-1">Kubernetes</h4>
-        <p class="text-sm">
-            Use the Budibase helm chart to deploy Budibase directly into your Kubernetes cluster.
-        </p>
-      </div>
-      <div class="card-small">
-        <img class="u-avatar mb-2" alt="Budibase icon" src="integration/digitalocean/images/logo.svg" >
-        <h4 class="mb-1">Digital Ocean</h4>
-        <p class="text-sm">
-            The simplest and quickest way to self-host Budibase on your own infrastructure - 1 click install.
-        </p>
-      </div>
-    </div>
-  </div>
+    {{ partial "deploy-options.html" . }}  
+   </div>
   
