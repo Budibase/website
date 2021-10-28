@@ -20,8 +20,7 @@ copyright = "This work is licensed and owned by Budibase"
   description = "Budibase is a modern, open source low-code platform for building modern internal applications in minutes."
   dateform = "Jan 2, 2006"
   lang = "en"
-  images = ["budibase-ui-gradient.jpg"]
-  thumbnail = ["thumbnail.jpg"]
+  images = ['budibase-ui-gradient.png']
 
 [author]
   name = "Joseph Johnston"
@@ -35,6 +34,4 @@ copyright = "This work is licensed and owned by Budibase"
 [params.logo]
   url = "/budibase-logo.png"
 
-[params.image]
-  url = "/budibase-ui-gradient.jpg"
 
