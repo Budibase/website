@@ -2,21 +2,21 @@
 date: 2021-10-20
 title: "Hashicorp Scorecard Application - Templates by Budibase"
 description: "The Hashicorp alternative to OKRs - a great application for managing goals. Browse through our selection of free application templates and build an internal application in minutes."
-featured_image: "/internal-tools/templates/hashicorp-scorecard/images/featured_image.png"
+cover: "/business-apps/templates/hashicorp-scorecard/images/cover.png"
 draft: "false"
 type: templates
 layout: single
 label: "Hashicorp Scorecard App"
-card_summary: "The Hashicorp alternative to OKRs - a great application for managing goals."
-thumbnail: "/internal-tools/templates/hashicorp-scorecard/images/thumbnail.jpg"
-preview: "/internal-tools/templates/hashicorp-scorecard/images/preview.gif"
+summary: "The Hashicorp alternative to OKRs - a great application for managing goals."
+thumbnail: "/business-apps/templates/hashicorp-scorecard/images/thumbnail.jpg"
+preview: "/business-apps/templates/hashicorp-scorecard/images/preview.gif"
 datasource: "Built-in database"
 destination: "/"
 tags:
-- Internal tool
-- IT managers
-- IT
-- business application
+- internal-tool
+- it-manager
+- it
+- business-app
 - strategy
 ---
 

@@ -8,7 +8,7 @@
       /
       <a class="a-alt" href="{{ .Section }}">{{ .Section | humanize }}</a>
       /
-      <span class="text-light">{{.Section | humanize | singularize }} templates</span> 
+      <span class="text-light">{{.Section | humanize | singularize  }} templates</span> 
     </div>
     <div class="container space-1">
       <h1 class="mb-3 mb-4 text-center">
@@ -28,8 +28,8 @@
     <div class="templates-card rounded-sm">
         <img class="template-card-img img-fluid mb-4" src="{{ .Params.thumbnail }}" />
             <h2 class="h4 mb-3">{{ .Params.label }}</h2>
-            <p class="mb-3">{{ .Params.card_summary }} </p>
-            <p class="text-indigo text-sm templates-card-link">Get this template</p>
+            <p class="mb-3">{{ .Summary }} </p>
+            <p class="text-blue text-sm templates-card-link">Get this template</p>
     </div>
   </a>
   {{ end }}

@@ -2,20 +2,20 @@
 date: 2021-10-20
 title: "Simple applicant tracking system - free ATS template"
 description: "Free applicant tracking system template - advertise jobs, receive applications, and track candidates. Browse through our selection of free application templates and build an internal application in minutes."
-featured_image: "/internal-tools/templates/hashicorp-scorecard/images/featured_image.png"
+cover: "/business-apps/templates/hashicorp-scorecard/images/cover.png"
 draft: "false"
 type: templates
 layout: single
 label: "Applicant Tracking System"
-card_summary: "Advertise jobs, receive applications, and track candidates."
-thumbnail: "/internal-tools/templates/applicant-tracking-system/images/thumbnail.webp"
-preview: "/internal-tools/templates/applicant-tracking-system/images/preview.gif"
+summary: "Advertise jobs, receive applications, and track candidates."
+thumbnail: "/business-apps/templates/applicant-tracking-system/images/thumbnail.webp"
+preview: "/business-apps/templates/applicant-tracking-system/images/preview.gif"
 datasource: "Built-in database"
 destination: "/"
 tags:
-- Business application
-- HR
-- Public
+- business-app
+- hr
+- public
 ---
 
 

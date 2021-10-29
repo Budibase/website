@@ -2,9 +2,10 @@
 {{ partial "navigation.html" . }}
 
 <main id="content" role="main">
-  <div class="space-1-top space-2-bottom">
-    <div class="container integration">
-      <a href="{{ .Section }}/templates" class="mb-8 a-alt small ">← {{.Section | humanize }} templates</a>
+  <div class="space-1-top space-2-bottom container">
+    <div class="breadcrumbs mb-8">
+      <a href="/templates" class="mb-8 a-alt small ">All templates</a> /
+      <a href="{{ .Section }}/templates" class="mb-8 a-alt small ">{{.Section | humanize }} templates</a>
     </div>
     <div class="container">
       <article>
@@ -14,7 +15,7 @@
         </header>
         <div class="template-meta">
           <div>
-            <p class="mb-4 w-lg-75">{{ .Description }}</p>
+            <p class="mb-4 w-lg-75">{{ .Summary }}</p>
           </div>
         </div>
         <div class="flex-row mb-4">
@@ -51,11 +52,9 @@
             <p class="text-sm text-light">Works on all devices</p>
           </div>
         </div>
-        {{ with .Params.preview }}<img class="img-fluid w-100 mb-6" src="{{ . }}">{{ end }}
-        <div>
-        </div>
+        {{ with .Params.preview }}<img class="img-fluid w-100 mb-6 rounded-sm" src="{{ . }}">{{ end }}
         <div class="template-content">
-          <aside class="template-toc mx-auto rounded-sm position-sticky-lg sticky-subnav mt-4 top">
+          <aside class="template-toc rounded-sm position-sticky-lg sticky-subnav mt-4 top">
             <h4 class="mb-2">Table of contents</h4>
             {{ .TableOfContents }}
             <a href="{{ .Params.destination }}" class="btn btn-lg btn-cta btn-block">Use this template</a>
@@ -65,6 +64,11 @@
           </div>
         </div>
       </article>
+      <section class="space-2">
+        <h2>Deployment options</h2>
+        {{ partial "deploy-options.html" . }}
+        </section>
     </div>
 </main>
+{{ partial "cta.html" . }}
 {{ partial "footer.html" . }}
