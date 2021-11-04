@@ -15,7 +15,7 @@
       <h1 class="hero-title-lg mb-3 mb-4">
         Custom {{ .Section }} <br>for every process
       </h1>
-      <p class="mx-auto display-lead-lg mb-8"> Build custom {{ .Section }} that look great, integrate seamlessly, and
+      <p class="mx-auto display-lead-lg text-center mb-8"> Build custom {{ .Section }} that look great, integrate seamlessly, and
         you can self-host.
       </p>
     </div>
@@ -97,7 +97,7 @@
         </div>
         <div class="benefit-content">
           <h4 class="mb-2 mt-4">Prepare your data</h4>
-          <p class="text-sm">
+          <p class="text-sm ">
             Connect to a SQL database, use a Rest API, or use Budibase's built-in database to create the data layer for
             your {{ .Section }}.
           </p>
@@ -153,7 +153,7 @@
 <div class="space-2" id="features">
   <div class="container text-center">
     <h2 class="mb-3">{{ .Section | singularize | humanize }} features</h2>
-    <p class="mb-6 w-lg-40 mx-auto">With Budibase, it's easy to build fully powerful forms that perfectly fit your
+    <p class="mb-6 w-lg-40 mx-auto text-center">With Budibase, it's easy to build fully powerful forms that perfectly fit your
       operations.
     </p>
     <div class="solutions-features">
@@ -196,7 +196,7 @@
 <div class="space-2-top space-3-bottom" id="deploy">
   <div class="container text-center">
     <h2 class="mb-3">Deploy your {{ .Section }}</h2>
-    <p class="mx-auto w-lg-50">Deploy your {{ .Section }} via Kubernetes, Docker, Digital Ocean. Or choose the Budibase
+    <p class="mx-auto w-lg-50 text-center">Deploy your {{ .Section }} via Kubernetes, Docker, Digital Ocean. Or choose the Budibase
       Cloud and let Budibase manage everything for you.
     </p>
     {{ partial "deploy-options.html" . }}
