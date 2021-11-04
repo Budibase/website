@@ -11,7 +11,7 @@ summary: "The Hashicorp alternative to OKRs - a great application for managing g
 thumbnail: "/business-apps/templates/hashicorp-scorecard/images/thumbnail.jpg"
 preview: "/business-apps/templates/hashicorp-scorecard/images/preview.gif"
 datasource: "Built-in database"
-destination: "/"
+destination: "https://budibase.app/builder?template=app/hashicorp-scorecard"
 tags:
 - internal-tool
 - it-manager

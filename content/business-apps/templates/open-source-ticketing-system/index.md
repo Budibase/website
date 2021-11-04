@@ -11,7 +11,7 @@ summary: "Keep on top of support tickets and preventing them from falling throug
 thumbnail: "/business-apps/templates/open-source-ticketing-system/images/thumbnail.webp"
 preview: "/business-apps/templates/open-source-ticketing-system/images/preview.gif"
 datasource: "Built-in database"
-destination: "/"
+destination: "https://budibase.app/builder?template=app/it-help-desk"
 tags:
 - internal-tool
 - it-manager

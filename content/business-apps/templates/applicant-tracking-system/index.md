@@ -11,7 +11,7 @@ summary: "Advertise jobs, receive applications, and track candidates."
 thumbnail: "/business-apps/templates/applicant-tracking-system/images/thumbnail.webp"
 preview: "/business-apps/templates/applicant-tracking-system/images/preview.gif"
 datasource: "Built-in database"
-destination: "/"
+destination: "https://budibase.app/builder?template=app/applicant-tracking"
 tags:
 - business-app
 - hr

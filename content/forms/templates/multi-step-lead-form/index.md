@@ -11,7 +11,7 @@ summary: "Capture leads with this multi-step lead form template, and analyse res
 thumbnail: "/forms/templates/multi-step-lead-form/images/thumbnail.webp"
 preview: "/forms/templates/multi-step-lead-form/images/preview.gif"
 datasource: "Built-in database"
-destination: "/"
+destination: "https://budibase.app/builder?template=app/lead-generation"
 tags:
 - Multi-step form
 - Sales
