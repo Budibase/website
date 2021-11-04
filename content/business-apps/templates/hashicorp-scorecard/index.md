@@ -26,7 +26,7 @@ HashiCorp builds tools to ease these decisions by presenting solutions that span
 
 The following template is not an endorsement from Hashicorp.
 
-{{< figure src="/internal-tools/templates/hashicorp-scorecard/images/homescreen.webp" alt="Hashicorp Scorecard App homescreen">}} 
+{{< figure src="/business-apps/templates/hashicorp-scorecard/images/homescreen.webp" alt="Hashicorp Scorecard App homescreen">}} 
 
 ## What’s included in the Scorecard template?
 
@@ -38,13 +38,13 @@ This template digitizes the operating cadence process and is known as the Scorec
 
 Share highlights from the previous year and key learnings to take into the upcoming year. 
 
-{{< figure src="/internal-tools/templates/hashicorp-scorecard/images/background.webp" alt="Hashicorp Scorecard App background section">}} 
+{{< figure src="/business-apps/templates/hashicorp-scorecard/images/background.webp" alt="Hashicorp Scorecard App background section">}} 
 
 ## Strategy
 
 The best strategy sections share context on the strategy and then clearly define 3-5 focus areas. These focus areas become the objectives in the scorecard itself.
 
-{{< figure src="/internal-tools/templates/hashicorp-scorecard/images/strategy.webp" alt="Hashicorp Scorecard App strategy section">}} 
+{{< figure src="/business-apps/templates/hashicorp-scorecard/images/strategy.webp" alt="Hashicorp Scorecard App strategy section">}} 
 
 ## Scorecard - Annual planning
 
@@ -52,7 +52,7 @@ Scorecards confirm the objectives and key results for each group within an organ
 
 The best scorecard sections focus on quantifying the focus areas defined in the strategy section. These quantitative measures should include both leading and lagging indicators. 
 
-{{< figure src="/internal-tools/templates/hashicorp-scorecard/images/scorecard.webp" alt="Hashicorp Scorecard App scorecard section">}} 
+{{< figure src="/business-apps/templates/hashicorp-scorecard/images/scorecard.webp" alt="Hashicorp Scorecard App scorecard section">}} 
 
 ## Quarterly updates - (WAR tables)
 
@@ -62,5 +62,5 @@ The most important part of the review process is narrowing in on the highest imp
 
 We’ve not included the ‘weekly speed’ in the template as this is too low-level. If there is an appetite for such a template, please let us know. In the meantime, please enjoy this strategic template that follows the Scorecard process from HashiCorp. 
 
-{{< figure src="/internal-tools/templates/hashicorp-scorecard/images/updates.webp" alt="Hashicorp Scorecard App update section">}} 
+{{< figure src="/business-apps/templates/hashicorp-scorecard/images/updates.webp" alt="Hashicorp Scorecard App update section">}} 
 
