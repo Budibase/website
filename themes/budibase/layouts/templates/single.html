@@ -4,10 +4,9 @@
 <main id="content" role="main">
   <div class="space-1-top space-2-bottom container">
     <div class="breadcrumbs mb-8">
-      <a href="/templates" class="mb-8 a-alt small ">All templates</a> /
-      <a href="{{ .Section }}/templates" class="mb-8 a-alt small">{{.Section | humanize }} templates</a>
+      <a href="/templates" class="mb-8 a-alt text-xs ">All templates</a> /
+      <a href="{{ .Section }}/templates" class="mb-8 a-alt text-xs">{{.Section | humanize }} templates</a>
     </div>
-    <div class="container">
       <article>
         <header class="template-header mb-4">
           <h1 class="">{{ .Params.label }}</h1>
