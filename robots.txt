@@ -1,0 +1,3 @@
+Sitemap: https://budibase.com/sitemap.xml
+User-agent: *
+Disallow:
