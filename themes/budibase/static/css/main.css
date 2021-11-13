@@ -2638,15 +2638,14 @@ fieldset:disabled a.btn {
 .btn-secondary {
   font-size: 14px;
   color: var(--gray1000);
-  background-color: transparent;
+  background-color: white;
   border: 2px solid var(--gray500);
   border-radius: var(--sizes-1) !important;
 }
 
 .btn-secondary:hover {
   color: var(--hiContrast);
-  background-color: var(--gray200);
-  border: 2px solid var(--gray600);
+  border: 2px solid var(--blue600);
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
