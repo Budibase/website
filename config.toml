@@ -1,6 +1,6 @@
 baseURL = "https://budibase.com/"
 languageCode = "en-uk"
-title = "Budibase | Create business apps in minutes"
+title = "Budibase | Create modern business apps in minutes"
 theme = "budibase"
 enableEmoji = "true"
 
