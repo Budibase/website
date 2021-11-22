@@ -49,7 +49,7 @@ collections:
         default: ["business-app"]
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "forms" # Used in routes, e.g., /admin/collections/blog
-    label: "Form app templates" # Used in the UI
+    label: "Form templates" # Used in the UI
     folder: "content/forms/templates" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
