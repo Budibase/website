@@ -14,38 +14,18 @@
 
 <div class="container space-2-bottom">
     <div class="templates-cards">
-        <a href="/business-apps/templates/applicant-tracking-system">
-            <div class="templates-card rounded-sm">
-                <img class="template-card-img img-fluid mb-4" src="/img/hero-gallery/portal.webp" />
-                    <h2 class="h4 mb-3">Applicant tracking system</h2>
-                    <p class="mb-3">Advertise jobs, receive applications, and track candidates. </p>
-                    <p class="text-blue text-sm templates-card-link">Get this template</p>
-            </div>
+        {{ range where (where .Site.Pages "Params.type" "templates") "Params.layout" "==" "single" }}
+        <a href="{{ .Permalink }}">
+          <div class="templates-card rounded-sm">
+              <img class="template-card-img img-fluid mb-4" src="{{ .Params.thumbnail }}" />
+                  <h2 class="h4 mb-3">{{ .Params.label }}</h2>
+                  <p class="mb-3">{{ .Params.summary }} </p>
+                  <p class="text-blue text-sm templates-card-link">Get this template</p>
+          </div>
         </a>
-        <a href="/forms/templates/multi-step-lead-form">
-            <div class="templates-card rounded-sm">
-                <img class="template-card-img img-fluid mb-4" src="/img/hero-gallery/form.webp" />
-                    <h2 class="h4 mb-3">Lead generation app</h2>
-                    <p class="mb-3">Capture leads with a public multi-step form, and analyse results with a private dashboard. </p>
-                    <p class="text-blue text-sm templates-card-link">Get this template</p>
-            </div>
-        </a>
-        <a href="/business-apps/templates/open-source-ticketing-system">
-            <div class="templates-card rounded-sm">
-                <img class="template-card-img img-fluid mb-4" src="/img/hero-gallery/admin-panel.webp" />
-                    <h2 class="h4 mb-3">Internal ticketing system</h2>
-                    <p class="mb-3">Receive and manage internal support tickets from coworkers.</p>
-                    <p class="text-blue text-sm templates-card-link">Get this template</p>
-            </div>
-        </a>
-        <a href="/business-apps/templates/hashicorp-scorecard">
-            <div class="templates-card rounded-sm">
-                <img class="template-card-img img-fluid mb-4" src="/business-apps/templates/hashicorp-scorecard/images/thumbnail.jpg" />
-                    <h2 class="h4 mb-3">Hashicorp scorecard app</h2>
-                    <p class="mb-3">The Hashicorp alternative to OKRs - a great application for managing goals. </p>
-                    <p class="text-blue text-sm templates-card-link">Get this template</p>
-            </div>
-        </a>
+        {{ end }}
+        </div> 
+    
     </div>
 </div>
 

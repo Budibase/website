@@ -215,7 +215,7 @@
     </div>
     <div class="templates-cards">
       {{ range where .Pages "Section" "!=" "templates" }}
-      {{ range .Pages }}
+      {{ range first 3 .Pages }}
       <a href="{{.Permalink}}">
         <div class="templates-card rounded-sm">
             <img class="template-card-img img-fluid mb-4" src="{{ .Params.thumbnail }}" />

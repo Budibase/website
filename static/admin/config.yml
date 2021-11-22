@@ -6,6 +6,9 @@ backend:
 # These lines should *not* be indented
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+site_url: https://budibase.com
+logo_url: https://res.cloudinary.com/daog6scxm/image/upload/v1632818914/logo/budibase-icon-sm_wb9zwb.png
+
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
@@ -19,4 +22,29 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "images", widget: "image"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Author Avatar", name: "avatar", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "business-apps" # Used in routes, e.g., /admin/collections/blog
+    label: "Business app templates" # Used in the UI
+    folder: "content/business-apps/templates" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: single }
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "cover", widget: "image"}
+      - {label: "Template thumbnail", name: "thumbnail", widget: "image"}
+      - {label: "Template Preview", name: "preview", widget: "image"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Template card label", name: "label", widget: "string"}
+      - {label: "Template card summary", name: "summary", widget: "string"}
+      - {label: "Template link url", name: "destination", widget: "string"}
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        options: ["business-app", "internal-tool", "admin-panel", "dashboard", "approval-app", "form", "portal", "intranet","hr", "marketing", "IT", "sales", "customer-support", "admin","accounting-and-finance", "design", "operations", "production", "R&D", "purchasing","quality-assurance", "healthcare", "education", "transportation-and-logistics", "real-estate", "telecommunication","automobile", "oil-and-gas", "retail", "e-commerce", "construction", "financial-services", "defense", "justice", "smb", "mid-market", "enterprise" ]
+        default: ["business-app"]
       - {label: "Body", name: "body", widget: "markdown"}
