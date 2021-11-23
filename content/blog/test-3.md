@@ -13,4 +13,4 @@ test 3
 
 This is my first post.
 
-![](https://budibase/images/uploads/20200113-propel-team-shots-123.jpg)
+![](https://budibase.com/images/uploads/20200113-propel-team-shots-123.jpg)
