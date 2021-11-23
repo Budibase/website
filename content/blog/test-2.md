@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 layout: blog
 datePublished: 2021 11 23
 title: test 2
