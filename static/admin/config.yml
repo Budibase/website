@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: main
+  repo: budibase/website
   publish_mode: editorial_workflow
 
 # These lines should *not* be indented
