@@ -17,6 +17,8 @@ collections:
     folder: "content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Publish Date", name: "datePublished", widget: "date"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
@@ -29,6 +31,8 @@ collections:
     folder: "content/business-apps/templates" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Layout", name: "layout", widget: "hidden", default: single }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -50,6 +54,7 @@ collections:
     folder: "content/forms/templates" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Layout", name: "layout", widget: "hidden", default: single }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
