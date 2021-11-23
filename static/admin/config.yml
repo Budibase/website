@@ -16,13 +16,12 @@ collections:
     label: "Blog" # Used in the UI
     folder: "content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    preview_path: blog/{{title}}
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Publish Date", name: "datePublished", widget: "date"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "images", widget: "image"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Author Avatar", name: "avatar", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -30,15 +29,14 @@ collections:
     label: "Business app templates" # Used in the UI
     folder: "content/business-apps/templates" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    preview_path: business-apps/templates/{{title}}
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: single }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "cover", widget: "image"}
       - {label: "Template thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Template Preview", name: "preview", widget: "image"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Template card label", name: "label", widget: "string"}
       - {label: "Template card summary", name: "summary", widget: "string"}
       - {label: "Template link url", name: "destination", widget: "string"}
@@ -53,6 +51,7 @@ collections:
     label: "Form templates" # Used in the UI
     folder: "content/forms/templates" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    preview_path: forms/templates/{{title}}
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: single }
       - {label: "Title", name: "title", widget: "string"}
