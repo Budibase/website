@@ -16,7 +16,6 @@ collections:
     label: "Blog" # Used in the UI
     folder: "content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    preview_path: blog/{{title}}
     fields: # The fields for each document, usually in front matter
       - {label: "Publish Date", name: "datePublished", widget: "date"}
       - {label: "Title", name: "title", widget: "string"}
@@ -29,7 +28,6 @@ collections:
     label: "Business app templates" # Used in the UI
     folder: "content/business-apps/templates" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    preview_path: business-apps/templates/{{title}}
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
@@ -51,7 +49,6 @@ collections:
     label: "Form templates" # Used in the UI
     folder: "content/forms/templates" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    preview_path: forms/templates/{{title}}
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: single }
       - {label: "Title", name: "title", widget: "string"}
