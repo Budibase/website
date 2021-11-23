@@ -17,7 +17,7 @@
               <img class="u-md-avatar mt-4" src="/img/team/joe.webp">
           {{ end }}
           <p class="text-center text-grey">By: {{ .Params.author }} </p>
-          <p class="text-grey mb-4 text-center">{{ .Date }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</p>
+          <p class="text-grey mb-4 text-center">{{ .PublishedDate.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</p>
         </div>
       </div>
         <!-- End Author -->
