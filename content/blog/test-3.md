@@ -10,3 +10,7 @@ author: test 3
 avatar: /images/uploads/20200113-propel-team-shots-123.jpg
 ---
 test 3
+
+This is my first post.
+
+![](/images/uploads/20200113-propel-team-shots-123.jpg)
