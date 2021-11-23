@@ -62,7 +62,6 @@ collections:
       - {label: "Featured Image", name: "cover", widget: "image"}
       - {label: "Template thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Template Preview", name: "preview", widget: "image"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Template card label", name: "label", widget: "string"}
       - {label: "Template card summary", name: "summary", widget: "string"}
       - {label: "Template link url", name: "destination", widget: "string"}
