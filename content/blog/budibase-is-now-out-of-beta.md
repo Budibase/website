@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: blog
-datePublished: 2021-11-23T14:53:56.583Z
+datePublished: 2021 11 22
 title: Budibase is now out of beta
 description: Budibase is now out of beta
 images:
