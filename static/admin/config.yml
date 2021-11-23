@@ -19,7 +19,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Publish Date", name: "datePublished", widget: "date",   format: 'YYYY/MM/DD'}
+      - {label: "Publish Date", name: "datePublished", widget: "datetime", date_format: "DD.MM.YYYY", time_format: false}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - label: "Schema Images"
@@ -38,7 +38,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: single }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "datePublished", widget: "datetime", date_format: "DD.MM.YYYY", time_format: false}
       - {label: "Featured Image", name: "cover", widget: "image"}
       - {label: "Template thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Template Preview", name: "preview", widget: "image"}
@@ -61,7 +61,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: single }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "datePublished", widget: "datetime", date_format: "DD.MM.YYYY", time_format: false}
       - {label: "Featured Image", name: "cover", widget: "image"}
       - {label: "Template thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Template Preview", name: "preview", widget: "image"}
