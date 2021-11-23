@@ -25,8 +25,7 @@ collections:
       - name: "images"
         label: "Schema Images"
         widget: "list"
-        field:
-          - {label: "Upload image", widget: "image"}
+        field: { widget: "image"}
       - {label: "Featured Image", name: "images", widget: "image"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Author Avatar", name: "avatar", widget: "image"}
