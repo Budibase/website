@@ -13,4 +13,4 @@ test 3
 
 This is my first post.
 
-![](/images/uploads/20200113-propel-team-shots-123.jpg)
+![](.../images/uploads/20200113-propel-team-shots-123.jpg)
