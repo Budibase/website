@@ -1,3 +1,4 @@
 Sitemap: https://budibase.com/sitemap.xml
 User-agent: *
-Disallow:
+Disallow: /admin$
+Disallow: /admin/

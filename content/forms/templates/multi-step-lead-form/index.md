@@ -7,7 +7,7 @@ draft: "false"
 type: templates
 layout: single
 label: "Multi-step lead form"
-summary: "Capture leads with this multi-step lead form template, and analyse results with a private admin panel."
+summary: "Capture leads with this multi-step lead form, and analyse results with a private admin panel."
 thumbnail: "/forms/templates/multi-step-lead-form/images/thumbnail.webp"
 preview: "/forms/templates/multi-step-lead-form/images/preview.gif"
 datasource: "Built-in database"

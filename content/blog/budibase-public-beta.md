@@ -5,7 +5,6 @@ description = "Budibase is in public beta - come and try, for free."
 author = "Michael Shanks" 
 profilePic = "/img/img/mike-blog.png"
 draft = "false"
-
 +++
 
 Budibase is in public beta. We want you to come and try our groundbreaking new platform, so that we can understand what you love and what we need to improve on.
