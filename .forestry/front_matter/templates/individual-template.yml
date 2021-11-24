@@ -1,0 +1,43 @@
+---
+label: Individual template
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: file
+  name: cover
+  label: cover
+- type: text
+  name: type
+  label: type
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: label
+  label: label
+- type: text
+  name: summary
+  label: summary
+- type: file
+  name: thumbnail
+  label: thumbnail
+- type: file
+  name: preview
+  label: preview
+- type: text
+  name: datasource
+  label: datasource
+- type: text
+  name: destination
+  label: destination
+- type: list
+  name: tags
+  label: tags
