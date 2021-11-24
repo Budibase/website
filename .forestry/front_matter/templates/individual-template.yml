@@ -11,21 +11,26 @@ fields:
 - type: textarea
   name: description
   label: description
-- type: file
-  name: cover
-  label: cover
 - type: text
   name: type
   label: type
+  hidden: true
+  default: templates
 - type: text
   name: layout
   label: layout
+  default: single
+  hidden: true
 - type: text
   name: label
   label: label
 - type: text
   name: summary
   label: summary
+- type: file
+  name: images
+  label: OG image
+  description: This image will appear when share a link across social platforms
 - type: file
   name: thumbnail
   label: thumbnail
