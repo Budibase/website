@@ -44,8 +44,8 @@ sections:
   label: Blog
   create: all
   match: "**/*"
-upload_dir: ''
-public_path: ''
+upload_dir: static/uploads
+public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
