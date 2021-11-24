@@ -41,17 +41,17 @@ HUGO_ENABLEGITINFO = "true"
 
   [[redirects]]
   from = "/build-a-web-app"
-  to = "/design"
+  to = "/product"
   status = 301
 
   [[redirects]]
   from = "/host-a-web-app"
-  to = "/deploy"
+  to = "/product"
   status = 301
 
   [[redirects]]
   from = "/manage-a-web-app"
-  to = "/data"
+  to = "/product"
   status = 301
 
   [[redirects]]
