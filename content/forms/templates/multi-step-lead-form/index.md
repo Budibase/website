@@ -43,7 +43,7 @@ The admin panel is a simple interface for viewing and updating incoming leads. I
 
 {{< figure src="/forms/templates/multi-step-lead-form/images/admin-panel.webp" alt="Multi-step form admin panel">}}
 
-### Why is this lead capture form template special
+## Why is this lead capture form template special
 
 ### Free
 
