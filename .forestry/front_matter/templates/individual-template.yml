@@ -28,8 +28,8 @@ fields:
   name: summary
   label: summary
 - type: file
-  name: images
-  label: OG image
+  name: cover
+  label: cover
   description: This image will appear when share a link across social platforms
 - type: file
   name: thumbnail
