@@ -1,25 +1,22 @@
 +++
-date = "2020-02-12"
-title = "40 web development tools you must know about in 2021"
-categories = ["Build"] 
-tags = ["Web development tools, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture"]
-description = "Web development is hard. Thankfully, there are tools at our disposal to help make life easier. Within this post, you will find 40 web development tools to help improve your workflow."
 author = "Joe Johnston"
+categories = ["Build"]
+date = 2020-02-12T00:00:00Z
+description = "Web development is hard. Thankfully, there are tools at our disposal to help make life easier. Within this post, you will find 40 web development tools to help improve your workflow."
 images = ["/web-development-tools/budibase.png"]
-draft ="false"
-+++
+tags = ["Web development tools, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture"]
+title = "40 web development tools you must know about in 2021"
 
++++
 What does a doctor, builder, and developer have in common?
 
-They are all highly skilled individuals who use tools to improve their workflow and do their jobs. 
+They are all highly skilled individuals who use tools to improve their workflow and do their jobs.
 
-By now, developers recognize that web development tools play an integral role in the development process. It's impossible to build a web application without them! (I'm happy to be proven wrong here.) 
+By now, developers recognize that web development tools play an integral role in the development process. It's impossible to build a web application without them! (I'm happy to be proven wrong here.)
 
-In this post, we've rounded up some of the most helpful tools for developing a successful web application. 
+In this post, we've rounded up some of the most helpful tools for developing a successful web application.
 
-Check them out below:
-
-
+Check out the web development tools below:
 
 ## 40 web development tools
 
@@ -55,19 +52,19 @@ Web application development involves many moving parts, and a project management
 
 [Jira](https://www.atlassian.com/software/jira) is widely used across many web development teams and is often the tool of choice if you are practicing scrum. With Jira, you can run your software development sprint from end-to-end with scrum and kanban workflows. It also has reports to help you gain insights into how your team is performing.
 
-   {{< figure src="/web-development-tools/jira.png" alt="Jira UI" >}}
+{{< figure src="/web-development-tools/jira.png" alt="Jira UI" >}}
 
 ##### Basecamp
 
 [Basecamp](https://basecamp.com/) is on its 3rd iteration and sells itself as a replacement for a host of different tools, including Slack, Dropboard, and Asana. It offers users' chat, file sharing, documentation creation, to-do lists, and a simple calendar all in one platform. Their pricing is simple at a flat fee of $99. They also have an excellent free tier where up to 20 users can work on a total of 3 projects (1gb space).
 
-   {{< figure src="/web-development-tools/basecamp.jpg" alt="Basecamp UI" >}}
+{{< figure src="/web-development-tools/basecamp.jpg" alt="Basecamp UI" >}}
 
 ##### Asana
 
 The first thing you'll notice about [Asana](https://asana.com/) is how beautiful it looks. I've used Asana for 5+ years, and it's always delivered an intuitive UI and joyful experience. Asana is great for all types of projects and particularly good with web development projects, especially when using their Github integration.
 
-   {{< figure src="/web-development-tools/asana.png" alt="Asana UI" >}}
+{{< figure src="/web-development-tools/asana.png" alt="Asana UI" >}}
 
 ##### Trello
 
@@ -149,8 +146,6 @@ At Budibase, we use [Miro](https://miro.com/) to sketch and discuss designs quic
 
 {{< figure src="/web-development-tools/miro.png" alt="Miro UI" >}}
 
-
-
 ### Low code platform {#low}
 
 A low code platform removes a lot of the heavy leg work associated with developing web applications and replaces it with a graphical user interface. With a low-code platform, it is easier and faster to build web applications. There is a lot of hype around no/low code web development tools at the moment, and rightly so. They are a great way to build an interactive MVP and web application in a short amount of time and with relative ease.
@@ -160,8 +155,6 @@ A low code platform removes a lot of the heavy leg work associated with developi
 [Budibase](https://www.budibase.com/) is a rapid development tool combining the functionality of many of the tools listed below, and delivering them to the user in one simple platform. Budibases helps developers, product managers, and technical entrepreneurs build, launch, and grow web applications. It covers backend and frontend development and is a lot easier and faster than traditional programming. Very soon, users will be able to build, host, and analyse there web app within Budibase. If you are interested, signup using the form in the footer.
 
 {{< figure src="/web-development-tools/budibase.png" alt="Budibase UI" >}}
-
-
 
 ### Text editors {#text}
 
@@ -173,15 +166,11 @@ A text editor is a computer program that allows you to create and edit text/code
 
 {{< figure src="/web-development-tools/visual-studio.gif" alt="Visual Studio UI" >}}
 
-
-
 ##### Atom
 
 Rollback the years, a common argument amongst developer channels was [Atom](https://atom.io/) vs. Sublime. Recently, due to the popularity of VS Code, the case is now Atom v VS Code. I'm not sure if this argument will continue as Microsoft (VS Code) now owns Github (Atom). I'm not saying Atom will disappear because it won't. It's open-source and has a great community. What I am saying is Microsoft will invest more into VS Code. One area I think Atom beats VS Code, is it's UI. I feel Atom's UI is less busy, which is an essential factor when coding. Atom has excellent extensions and unsurprisingly plays well with Github.
 
 {{< figure src="/web-development-tools/atom.png" alt="Atom Material UI" >}}
-
-
 
 ##### Sublime
 
@@ -189,13 +178,9 @@ Rollback the years, a common argument amongst developer channels was [Atom](http
 
 {{< figure src="/web-development-tools/sublime.png" alt="Sublime UI" >}}
 
-
-
 ### Repository management services {#repository}
 
 Repository management systems are a crucial component of the development lifecycle because they help you manage changes to source code over time. They are the ultimate source of truth when things go wrong and can be a lifesaver when we make mistakes (simply revert to an earlier version). Below are two leaders in the repository management arena, and both use Git - an open-source version control system.
-
-
 
 ##### Github
 
@@ -203,17 +188,13 @@ Repository management systems are a crucial component of the development lifecyc
 
 {{< figure src="/web-development-tools/github.png" alt="Github UI" >}}
 
-
-
 ##### Gitlab
 
 [Gitlab](https://about.gitlab.com/) is very similar to Github in many ways. It is a web-based DevOps lifecycle tool providing users with a repository manager, wiki, issue-tracking, and many other features. Gitlab is open source and known for its built-in Continuous Integration/Delivery - which is free! Gitlab is very open with its communications, and you can openly read their [strategy](https://about.gitlab.com/direction/).
 
-To summarise, both tools are incredible and offer similar functionality. If you are focused on open source or CI/D, then go with Gitlabs. If you are collaborating with several developers, maybe choose Github. 
+To summarise, both tools are incredible and offer similar functionality. If you are focused on open source or CI/D, then go with Gitlabs. If you are collaborating with several developers, maybe choose Github.
 
 {{< figure src="/web-development-tools/gitlab.png" alt="Gitlab UI" >}}
-
-
 
 ### Package Managers {#package}
 
@@ -230,7 +211,6 @@ NPM stands for Node Package Manager. NPM hosts over 1,000,000 packages making it
 Yarn is a package manager, developed by Facebook to overcome some of NPM's shortcomings. Yarn is considerably faster than NPM and supports NPM and Bower workflows, allowing for mixing registries. Yarn's new maintainer released Yarn 2 in January 2020. It has attracted a lot of attention, and it is fair to say it's not been the smoothest of releases with some people calling for its [name to be changed](https://github.com/yarnpkg/berry/issues/766).
 
 {{< figure src="/web-development-tools/yarn.png" alt="Yarn UI" >}}
-
 
 ### Backend development tools {#backend}
 
@@ -250,7 +230,7 @@ Node.js is a JavaScript runtime, which is simply another way to process code on 
 
 ##### MySQL
 
-[MySQL](https://www.mysql.com/) is an open-source relational database management system (RDBMS). It is the world's most used RDBMS and runs as a server providing multi-user access to several databases. MySQL is excellent if you are just starting, and your database is not going to scale much. It's relatively easy to set up and requires little maintenance. 
+[MySQL](https://www.mysql.com/) is an open-source relational database management system (RDBMS). It is the world's most used RDBMS and runs as a server providing multi-user access to several databases. MySQL is excellent if you are just starting, and your database is not going to scale much. It's relatively easy to set up and requires little maintenance.
 
 {{< figure src="/web-development-tools/mysql.png" alt="MySQL UI" >}}
 
@@ -266,8 +246,6 @@ Node.js is a JavaScript runtime, which is simply another way to process code on 
 
 {{< figure src="/web-development-tools/postman.png" alt="Postman UI" >}}
 
-
-
 ### Frontend tools for web development {#frontend}
 
 Frontend development is an ever-changing environment, with new tools appearing daily, making it hard to identify the beauty amongst the chaos. Thankfully, I have included five tools that I can vouch for and will help you kickstart your frontend development.
@@ -277,7 +255,6 @@ Frontend development is an ever-changing environment, with new tools appearing d
 [Svelte](https://svelte.dev/) is a frontend framework and the new kid on the block. Whereas traditional frameworks like React and Vue work on the Virtual Dom, Svelte shifts that work into a compile step that happens when you build your app. Svelte is super performant, and the bundle size is small vs. other frameworks. With Svelte, you can adapt components within a store and subscribe to store values easily. It is still early days for Svelte, but as the community grows and they add TypeScript functionality, I feel it will become the JavaScript framework of choice for developers.
 
 {{< figure src="/web-development-tools/svelte.png" alt="Svelte website UI" >}}
-
 
 ##### React
 
@@ -293,7 +270,7 @@ Frontend development is an ever-changing environment, with new tools appearing d
 
 ##### Material Design
 
-[Material Design](https://material.io/design/) is a design language created by Google in 2014. Material design consists of beautifully designed components that mirror real-world objects. The foundational belief being, by imitating the physical world, we reduce users' cognitive loads. Material design's components work consistently across platforms and are tried and tested before release. The design language has been adopted by JavaScript communities across multiple frameworks, including; React, Svelte, Angular, and Vue. With the Budibase builder, users can use material design components to build their web apps. 
+[Material Design](https://material.io/design/) is a design language created by Google in 2014. Material design consists of beautifully designed components that mirror real-world objects. The foundational belief being, by imitating the physical world, we reduce users' cognitive loads. Material design's components work consistently across platforms and are tried and tested before release. The design language has been adopted by JavaScript communities across multiple frameworks, including; React, Svelte, Angular, and Vue. With the Budibase builder, users can use material design components to build their web apps.
 
 {{< figure src="/web-development-tools/material.jpg" alt="Material website UI" >}}
 
@@ -302,8 +279,6 @@ Frontend development is an ever-changing environment, with new tools appearing d
 [Tailwind](https://tailwindcss.com/) is a CSS framework that takes a utility first approach for building custom designs. Tailwind is a newcomer to the CSS framework arena and is proving a hit with developers. Instead of relying on opinionated components, it gives the user the freedom to customize their components with utility classes within HTML. I have used Tailwind on two projects, and it's pretty simple to get the hang of and provides greater scope to be creative. Tailwind is planning to release [Tailwind UI](https://www.tailwindui.com/), which will contain templates and components to help developers gain a headstart in building out their UI.
 
 {{< figure src="/web-development-tools/tailwind.png" alt="Tailwind website UI" >}}
-
-
 
 ### Testing tools {#testing}
 
@@ -327,14 +302,13 @@ Chrome [DevTools](https://developers.google.com/web/tools/chrome-devtools) are b
 
 {{< figure src="/web-development-tools/devtools.png" alt="Chrome DevTools UI" >}}
 
-
 ### Hosting tools {#hosting}
 
 Hosting is a necessary component of web development. The adoption of cloud computing has taken the internet world by storm, as applications are move from on-premise storage to cloud storage. This shift has brought with it many advantages, including better scaling, better user experience, and improved pricing. What you are building will determine what type of hosting you require; for large web applications, I would choose AWS; for small static websites, I'd go for Netlify. There are lots of hosting platforms out there, including GCP, Azure, Zeit, which I would advise you to research before making any hosting platform decisions.
 
 ##### AWS
 
-Where do I start with [Amazon AWS](https://aws.amazon.com/application-hosting/)?! It is enormous and delivers users scalable and cost-effective computing resources on which to host your applications. There are multiple components within AWS, including EC2, S3, RDS, Cloudfront, SQS, DevPay. If you have not worked with AWS before, the interface can be quite daunting. But stick with it, and you'll benefit in the long run. AWS is reliable and offers unmatched functionality compared to GCP and Azure. 
+Where do I start with [Amazon AWS](https://aws.amazon.com/application-hosting/)?! It is enormous and delivers users scalable and cost-effective computing resources on which to host your applications. There are multiple components within AWS, including EC2, S3, RDS, Cloudfront, SQS, DevPay. If you have not worked with AWS before, the interface can be quite daunting. But stick with it, and you'll benefit in the long run. AWS is reliable and offers unmatched functionality compared to GCP and Azure.
 
 {{< figure src="/web-development-tools/aws.png" alt="AWS website UI" >}}
 
@@ -343,8 +317,6 @@ Where do I start with [Amazon AWS](https://aws.amazon.com/application-hosting/)?
 I am a fan of [Netlify](https://www.netlify.com/) and have hosted many static websites with the platform. It has a generous free tier, which is great for simple websites. If you are hosting a web application with data, stick with AWS, but for static websites, Netlify is my go-to choice. Their interface is intuitive and straightforward, and it pairs seamlessly with Github making deploying your website incredibly easy. Netlify recently added analytics to its platform. The benefit of this is how they acquire the data. Netlify pulls the data from their servers, providing more accurate analytics with zero impact on the privacy of your users.
 
 {{< figure src="/web-app-design/netlify.PNG" alt="Netlify UI" >}}
-
-
 
 ### Analytics tool {#analytics}
 
@@ -356,23 +328,20 @@ Analytics is an essential component for every web application/website as they pr
 
 {{< figure src="/web-development-tools/analytics.png" alt="Google Analytics UI" >}}
 
-
 ##### Segment
 
 [Segment](https://segment.com/) classifies itself as a customer data platform. It is an excellent tool for collecting user events across multiple apps. It is a lot different from Google Analytics. Where Google Analytics is an analytics tool with dashboards and reports, Segment is a tool for collecting and storing user data and distributing it via 200 different tools such as Google Analytics and Mixpanel. This means you can distribute the same data to multiple tools at the same time.
 
 {{< figure src="/web-development-tools/segment.gif" alt="Segment UI" >}}
 
-
-
 ### Summary
 
 There are thousands of web development tools available to web developers. Many are average, but the ones I have listed above are incredible and have helped me time and time again. What's crucial is you understand entirely what these different tools do. Some tools are better for specific projects, and you must pick the right tool for the right job. Web development is an ever-evolving landscape, so you must stay on top of the tools available as some will save you hours of development, and more importantly, provide your users with a better experience.
 
- If you are super-excited to build a web app and in need of an idea, not to worry, here is a list of [web app ideas you'll want to steal in 2021](https://www.budibase.com/blog/web-app-ideas/). 
+If you are super-excited to build a web app and in need of an idea, not to worry, here is a list of [web app ideas you'll want to steal in 2021](https://www.budibase.com/blog/web-app-ideas/).
 
-I will try to update this list every six months. If you know any tools which should be listed here, please DM us on Twitter - @budibase. 
+I will try to update this list every six months. If you know any tools which should be listed here, please DM us on Twitter - @budibase.
 
-Also, If you are new to web development, here is an excellent post on [how to build a web app](https://www.budibase.com/blog/how-to-make-a-web-app/). 
+Also, If you are new to web development, here is an excellent post on [how to build a web app](https://www.budibase.com/blog/how-to-make-a-web-app/).
 
 Thank you for reading this post, and I wish you well on your web development journey. If you are interested in Budibase, please request access below (it's free). Good luck!
