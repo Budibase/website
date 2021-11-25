@@ -17,5 +17,3 @@ fields:
 - type: image_gallery
   name: images
   label: images
-pages:
-- content/blog/test.md
