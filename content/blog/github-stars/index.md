@@ -34,7 +34,7 @@ You can [access the Readme here](https://github.com/Budibase/budibase/blob/maste
 
 When a user signs up for Budibase, we send an automated email. We previously sent a general 'Welcome to Budibase' email including a number of CTAs signposting the user to different Budibase channels.
 
-We immediately changed the blurb to focus on community/building an ecosystem. And we now signpost sign-ups to Github, informing them this is where our roadmap, community, and code recide. We are also very direct in our ask.
+We immediately changed the blurb to focus on community/building an ecosystem. And we now signpost sign-ups to Github, informing them this is where our roadmap, community, and code reside. We are also very direct in our ask.
 
 {{< figure src="https://dev-to-uploads.s3.amazonaws.com/i/zg3w29qr0bkggxgpwpje.png" alt="Welcome to Budibase email" >}}
 
