@@ -44,7 +44,7 @@ sections:
   label: Blog
   create: all
   match: "**/*"
-upload_dir: ''
+upload_dir: cms
 public_path: https://res.cloudinary.com/daog6scxm/image/upload
 front_matter_path: ''
 use_front_matter_path: 
