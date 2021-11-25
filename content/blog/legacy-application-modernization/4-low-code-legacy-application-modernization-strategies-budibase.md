@@ -7,8 +7,6 @@ images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1637860242/cms/ily
 title = "4 Low-Code Legacy Application Modernization Strategies | Budibase"
 
 +++
-# Legacy Application Modernization: 4 Low-Code Strategies
-
 Most organizations will eventually encounter the need for legacy application modernization. Over time, older systems might not deliver the value they once did. This can be because of changing needs, new technologies, or emerging risks.
 
 In any case, it’s critical that your software stack stays up to date with your current needs.
@@ -37,7 +35,11 @@ Often, legacy apps aren’t even supported by their original manufacturers anymo
 
 Nowadays, the typical software lifecycle is only a few years, according to [Flexera](https://resources.flexera.com/web/pdf/Research-DP-Manufacturer-Product-EOL-EOS-Report-2018.pdf?elqTrackId=39ea27808bfa4bf0b3fc810d2b34492b&elqaid=3991&elqat=2&_ga=2.12461172.1384321781.1542126736-1286143296.1542126736):
 
-### ![](https://res.cloudinary.com/daog6scxm/image/upload/v1637859801/cms/legacy-software-modernization-graph-1-1024x648_cux2nj.jpg)What is legacy application modernization?
+### ![](https://res.cloudinary.com/daog6scxm/image/upload/v1637859801/cms/legacy-software-modernization-graph-1-1024x648_cux2nj.jpg)
+
+***
+
+### What is legacy application modernization?
 
 Modernization means updating, improving, or replacing legacy applications with modern tools. The most obvious example of this is retiring a system entirely, and replacing it with a newer alternative.
 
@@ -280,7 +282,9 @@ Unlike other low-code builders, Budibase is totally free and unlimited. We don�
 
 Check out our range of [Budibase templates](https://budibase.com/templates), to help get you started.
 
-### ![](https://res.cloudinary.com/daog6scxm/image/upload/v1637860395/cms/5f7e0a00-c2ef-11eb-9b22-c26c59286fc7_vkbx35.png)Deploy anywhere
+### ![](https://res.cloudinary.com/daog6scxm/image/upload/v1637860395/cms/5f7e0a00-c2ef-11eb-9b22-c26c59286fc7_vkbx35.png)
+
+### Deploy anywhere
 
 With Budibase, you have complete control over how and where you deploy your modernized applications. Choose from self-hosting, managed infrastructure, or our Budibase Cloud environment.
 
