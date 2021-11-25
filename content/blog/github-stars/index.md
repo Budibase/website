@@ -66,6 +66,8 @@ Budibase is open source, so it's important our roadmap is public so users unders
 
 {{< figure src="https://dev-to-uploads.s3.amazonaws.com/i/w9ey4tqu32ia9r46lu8u.png" alt="Budibase roadmap" >}}
 
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1637837664/cms/cover_dbqdmu.png)
+
 ***
 
 And that's our secret sauce. I hope this post helps you find additional Github stars for your project. There are many, many great projects out there that don't get the attention they deserve due to a lack of stars.
