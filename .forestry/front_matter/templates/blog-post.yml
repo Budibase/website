@@ -17,3 +17,5 @@ fields:
 - type: image_gallery
   name: images
   label: images
+pages:
+- content/blog/legacy-application-modernization/4-low-code-legacy-application-modernization-strategies-budibase.md
