@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = ""
+date = 2021-11-26T12:00:00Z
 description = "Low-code development has completely changed the way businesses carry out legacy application modernization. Here’s everything you need to know."
 draft = true
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1637860242/cms/ilya-pavlov-OqtafYT5kTw-unsplash_ujqdb6.jpg"]
@@ -37,8 +37,7 @@ Often, legacy apps aren’t even supported by their original manufacturers anymo
 
 Nowadays, the typical software lifecycle is only a few years, according to [Flexera](https://resources.flexera.com/web/pdf/Research-DP-Manufacturer-Product-EOL-EOS-Report-2018.pdf?elqTrackId=39ea27808bfa4bf0b3fc810d2b34492b&elqaid=3991&elqat=2&_ga=2.12461172.1384321781.1542126736-1286143296.1542126736):
 
-![Legacy application modernization - typical software lifecycle stats](https://res.cloudinary.com/daog6scxm/image/upload/v1637859801/cms/legacy-software-modernization-graph-1-1024x648_cux2nj.jpg "Legacy software lifecycle statistics")  
-What is legacy application modernization?
+### ![](https://res.cloudinary.com/daog6scxm/image/upload/v1637859801/cms/legacy-software-modernization-graph-1-1024x648_cux2nj.jpg)What is legacy application modernization?
 
 Modernization means updating, improving, or replacing legacy applications with modern tools. The most obvious example of this is retiring a system entirely, and replacing it with a newer alternative.
 
@@ -118,7 +117,9 @@ Poor compatibility is a common trigger for legacy application modernization. The
 
 This can lock you in to using outdated hardware or limit how you can use other applications. Naturally, this can have a massive knock-on effect in terms of costs, security, and operations.
 
-![Modernization - user at modern desktop](https://res.cloudinary.com/daog6scxm/image/upload/v1637860032/cms/sigmund-TlFw-WoI8_w-unsplash_hz1mos.jpg)_Image credit: @Sigmund via Unsplash_
+![Worker using modern desktop](https://res.cloudinary.com/daog6scxm/image/upload/v1637860032/cms/sigmund-TlFw-WoI8_w-unsplash_hz1mos.jpg)
+
+_Image credit: @Sigmund via Unsplash_
 
 ### Compliance
 
