@@ -66,7 +66,7 @@ Budibase is open source, so it's important our roadmap is public so users unders
 
 {{< figure src="https://dev-to-uploads.s3.amazonaws.com/i/w9ey4tqu32ia9r46lu8u.png" alt="Budibase roadmap" >}}
 
-[https://res.cloudinary.com/daog6scxm/image/upload/w_600,c_fill/v1637837664/cms/cover_dbqdmu.webp](https://res.cloudinary.com/daog6scxm/image/upload/w_600,c_fill/v1637837664/cms/cover_dbqdmu.webp "https://res.cloudinary.com/daog6scxm/image/upload/w_600,c_fill/v1637837664/cms/cover_dbqdmu.webp")
+![](/uploads/template-applicant-tracking-system.png)
 
 ***
 
