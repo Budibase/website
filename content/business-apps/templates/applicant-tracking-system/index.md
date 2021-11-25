@@ -1,17 +1,18 @@
 ---
-date: 2021-10-20
-title: "Simple applicant tracking system - free ATS template"
-description: "Free applicant tracking system template - advertise jobs, receive applications, and track candidates. Browse through our selection of free application templates and build an internal application in minutes."
-cover: "/business-apps/templates/hashicorp-scorecard/images/cover.png"
-draft: "false"
+date: "2021-10-20"
+title: Simple applicant tracking system - free ATS template"
+description: Free applicant tracking system template - advertise jobs, receive applications, and track candidates. Browse through our selection of free application templates and build an internal application in minutes.
+images: 
+- https://res.cloudinary.com/daog6scxm/image/upload/v1637832989/Templates/applicant-tracking-system.png
+draft: false
 type: templates
 layout: single
-label: "Applicant Tracking System"
-summary: "Advertise jobs, receive applications, and track candidates."
-thumbnail: "/business-apps/templates/applicant-tracking-system/images/thumbnail.webp"
-preview: "/business-apps/templates/applicant-tracking-system/images/preview.gif"
-datasource: "Built-in database"
-destination: "https://budibase.app/builder?template=app/applicant-tracking"
+label: Applicant Tracking System
+summary: Advertise jobs, receive applications, and track candidates.
+thumbnail: /business-apps/templates/applicant-tracking-system/images/thumbnail.webp
+preview: /business-apps/templates/applicant-tracking-system/images/preview.gif
+datasource: Built-in database
+destination: https://budibase.app/builder?template=app/applicant-tracking
 tags:
 - business-app
 - hr
