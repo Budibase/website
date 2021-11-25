@@ -62,7 +62,7 @@ We previously managed our community on Discourse. We decided to make the move to
 
 ## 6. Public roadmap (on Github)
 
-Budibase is open source, so it's important our roadmap is public so users understand what's coming down the line, and provide feedback. We use Github Projects to manage [our roadmap](https://github.com/Budibase/budibase/projects/10), and like Discussions, it's great having our users on Github where they can star us and contribute.
+Budibase is open source, so it's important our roadmap is public so users understand what's coming down the line, and provide feedback. We use Github Projects to manage [our roadmap](https://github.com/Budibase/budibase/projects/10), and like Discussions, it's great having our users on Github where they can star us, contribute, and collaborate with others.
 
 {{< figure src="https://dev-to-uploads.s3.amazonaws.com/i/w9ey4tqu32ia9r46lu8u.png" alt="Budibase roadmap" >}}
 
