@@ -66,8 +66,7 @@ Budibase is open source, so it's important our roadmap is public so users unders
 
 {{< figure src="https://dev-to-uploads.s3.amazonaws.com/i/w9ey4tqu32ia9r46lu8u.png" alt="Budibase roadmap" >}}
 
-{{% figure
-src="$![](https://budibase.com/uploads/template-applicant-tracking-system.png)" alt="$test" caption="$test" %}}
+{{% figure src="![](https://budibase.com/uploads/template-applicant-tracking-system.png)" alt="$test" caption="$test" %}}
 
 ***
 
