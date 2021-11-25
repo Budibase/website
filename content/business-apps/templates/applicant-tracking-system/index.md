@@ -1,26 +1,25 @@
 ---
-date: "2021-10-20"
+date: 2021-10-20
 title: Simple applicant tracking system - free ATS template"
-description: Free applicant tracking system template - advertise jobs, receive applications, and track candidates. Browse through our selection of free application templates and build an internal application in minutes.
-images: 
-- https://res.cloudinary.com/daog6scxm/image/upload/v1637832989/Templates/applicant-tracking-system.png
-draft: false
+description: Free applicant tracking system template - advertise jobs, receive applications,
+  and track candidates. Browse through our selection of free application templates
+  and build an internal application in minutes.
+images:
+- "/uploads/template-applicant-tracking-system.png"
 type: templates
 layout: single
 label: Applicant Tracking System
 summary: Advertise jobs, receive applications, and track candidates.
-thumbnail: /business-apps/templates/applicant-tracking-system/images/thumbnail.webp
-preview: /business-apps/templates/applicant-tracking-system/images/preview.gif
+thumbnail: "/business-apps/templates/applicant-tracking-system/images/thumbnail.webp"
+preview: "/business-apps/templates/applicant-tracking-system/images/preview.gif"
 datasource: Built-in database
 destination: https://budibase.app/builder?template=app/applicant-tracking
 tags:
 - business-app
 - hr
 - public
+
 ---
-
-
-
 Recruitment is a critical and common process for every organization - recruiting the right people, for the right roles, at the right time. It ensures that the workforce has the relevant skills for the organization's current and future needs.
 
 But, recruitment is hard. Especially for some roles, such as software developers where in some locations there are 5 jobs for 1 software developer. It’s important you present your organization in its best light, to attract the best talent. The recruitment process is often a potential recruit’s first experience dealing with your organization, so first impressions matter. A well-designed applicant tracking system can help encourage interested applicants to apply for a role.
