@@ -21,16 +21,18 @@ fields:
   label: layout
   default: single
   hidden: true
+- name: images
+  type: image_gallery
+  config: {}
+  label: images
+  description: og images - when you share a link to this template this image will
+    appear
 - type: text
   name: label
   label: label
 - type: text
   name: summary
   label: summary
-- type: file
-  name: cover
-  label: cover
-  description: This image will appear when share a link across social platforms
 - type: file
   name: thumbnail
   label: thumbnail
