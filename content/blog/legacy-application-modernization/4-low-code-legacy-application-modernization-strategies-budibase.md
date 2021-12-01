@@ -3,7 +3,7 @@ author = "Ronan McQuillan"
 date = 2021-11-26T12:00:00Z
 description = "Low-code development has completely changed the way businesses carry out legacy application modernization. Here’s everything you need to know."
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1637860242/cms/ilya-pavlov-OqtafYT5kTw-unsplash_ujqdb6.jpg"]
-title = "4 Low-Code Legacy Application Modernization Strategies | Budibase"
+title = "4 Low-Code Legacy Application Modernization Strategies"
 
 +++
 Most organizations will eventually encounter the need for legacy application modernization. Over time, older systems might not deliver the value they once did. This can be because of changing needs, new technologies, or emerging risks.
