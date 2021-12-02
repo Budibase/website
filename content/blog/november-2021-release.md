@@ -17,7 +17,7 @@ Blocks are predefined sets of components that streamline the design process with
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1636970243/Out%20of%20beta%20launch/design-like-a-pro_qhlfeu.gif)
 
-[Budibase promotional demo](https://youtu.be/xoljVpty_Kw)
+[Watch Budibase promotional demo](https://youtu.be/xoljVpty_Kw)
 
 ## Oracle DB Integration
 
