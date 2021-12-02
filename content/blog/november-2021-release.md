@@ -7,9 +7,9 @@ images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1638459724/cms/Nov
 title = "November 2021 Release"
 
 +++
-![](https://res.cloudinary.com/daog6scxm/image/upload/c_scale,r_8,w_800/v1638459664/November%20release/November_21_release_b0fhbd.png)
-
 In November, Budibase launched out of beta! The response from our community was amazing, and over 5000 new accounts signed up to Budibase. If this wasn’t enough, we’ve found time to release a number of new features:
+
+***
 
 ## Budibase Blocks
 
