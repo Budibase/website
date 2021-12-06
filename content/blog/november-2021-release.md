@@ -71,3 +71,9 @@ Type directly onto your design screen instead of using the settings panel. For s
 * JSON data field
 * New Budibase home screen UI
 * New templates
+
+***
+
+## Release video
+
+You can [watch this month's release video here](https://youtu.be/nq4K69QDfC0 "November release video").
