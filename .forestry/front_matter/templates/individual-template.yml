@@ -49,4 +49,5 @@ fields:
   name: tags
   label: tags
 pages:
+- content/forms/templates/IT-incident-report-template/it-incident-report-template-budibase-low-code-platform.md
 - content/forms/templates/call-back-form-template/call-back-form-template-budibase-low-code-platform.md
