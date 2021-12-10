@@ -4,13 +4,13 @@ date = ""
 description = "Our call-back template form template is the easy way to manage customer communications. Build and deploy a call-back form app in minutes."
 destination = ""
 draft = true
-images = []
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639150935/cms/Call_back_form_template_thumbnail_tnuz9f.png"]
 label = "Call-back Form Template"
 layout = "single"
-preview = ""
+preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639150508/cms/CleanShot_2021-12-10_at_15.33.46_baxrgz.gif"
 summary = "Our call-back template form template is the easy way to manage customer communications."
 tags = []
-thumbnail = ""
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1639150935/cms/Call_back_form_template_thumbnail_tnuz9f.png"
 title = "Call-Back Form Template | Budibase | Low-Code Platform"
 type = "templates"
 
@@ -44,6 +44,8 @@ Call-back forms allow your customers to get in touch, without waiting on the pho
 
 Many companies use basic HTML forms on their websites to book calls. This can be sufficient for small businesses, but functionality is very limited. As businesses grow, they quickly need more sophisticated solutions.
 
+![Call back form template](https://res.cloudinary.com/daog6scxm/image/upload/v1639151210/cms/Call_back_form_template_1_nrrmvj.png "Call back form template form screen")
+
 ## Our call-back form template
 
 Our call-back form template is built for functionality.
@@ -60,27 +62,6 @@ Straight out of the box, it offers:
 * Flexible hosting.
 * Design customization.
 * Improved workflows.
-
-    <div class="row">
-      <div class="column">
-      <ul>
-    <li>Support for existing databases.</li>
-    <li>Infinite customization.</li>
-    <li>Email automation.</li>
-    <li>Intuitive UI.</li>
-    <li>Access control.</li>
-    </ul>
-      </div>
-      <div class="column">
-      <ul>
-    <li>Third-party integrations.</li>
-    <li>Intuitive design.</li>
-    <li>Flexible hosting.</li>
-    <li>Design customization.</li>
-    <li>Improved workflows.</li>
-      </ul>
-      </div>
-    </div>
 
 Build a call-back form app that perfectly matches your internal processes. Use our template as a standalone web app, or as a contact feature within an existing platform.
 
@@ -99,6 +80,8 @@ Our template empowers you to fully manage customer communications. We’ve inclu
 Use this information to categorize queries, and assign agents with the right skill set to handle them.
 
 Use our range of integrations to connect your contact form directly to your CRM or softphone, for seamless relationship management workflows.
+
+![Call back request listings](https://res.cloudinary.com/daog6scxm/image/upload/v1639151381/cms/Call_back_form_template_2_m91okw.png "Call back form view records")
 
 ### Customize data fields
 
@@ -189,6 +172,8 @@ Deploy contact forms internally, or on your existing web host. Self-host our cal
 At Budibase, security is at the heart of everything we do. When it comes to customer interactions, security and privacy are key. Our low-code form builder offers a range of features aimed at protecting user data.
 
 From custom permission tiers to self-hosting options, you have complete control over who accesses your customer data. We also offer OpenID and OAuth as standard.
+
+![Edit callback screen.](https://res.cloudinary.com/daog6scxm/image/upload/v1639151381/cms/Call_back_form_template_3_x6jtih.png "Call back form template screenshot 3")
 
 ### Third-party integrations
 
