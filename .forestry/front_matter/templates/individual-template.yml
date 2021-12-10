@@ -48,3 +48,5 @@ fields:
 - type: list
   name: tags
   label: tags
+pages:
+- content/forms/templates/call-back-form-template/call-back-form-template-budibase-low-code-platform.md
