@@ -10,7 +10,7 @@ layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639405159/cms/Recurring_credit_card_authorization_form_gif_giwkgc.gif"
 summary = "Gather customer payment details with our recurring credit card authorization form."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1639404462/cms/Recurring_credit_card_authorization_form_template_thumbnail_d5t8oh.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1639412292/cms/Recurring_credit_card_authorization_form_template_thumbnail_d5t8oh_p4kzrs.png"
 title = "Recurring Credit Card Authorization Form Template | Budibase"
 type = "templates"
 
