@@ -49,6 +49,7 @@ fields:
   name: tags
   label: tags
 pages:
+- content/business-apps/templates/employee-directory-template-budibase-low-code-platform.md
 - content/forms/templates/IT-incident-report-template/it-incident-report-template-budibase-low-code-platform.md
 - content/forms/templates/call-back-form-template/call-back-form-template-budibase-low-code-platform.md
 - content/forms/templates/employee-equipment-checkout-form/employee-equipment-checkout-form-template-budibase.md
