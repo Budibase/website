@@ -4,13 +4,13 @@ date = ""
 description = "Our IT incident report template gives businesses a simple form to record incidents in seconds. Start using Budibase today."
 destination = ""
 draft = true
-images = []
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639153307/cms/IT_Incident_Report_Form_Featured_tpdmwv.png"]
 label = "IT Incident Report Template"
 layout = "single"
-preview = ""
+preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639395708/cms/IT_Incident_report_form_template_gif_ydajjq.gif"
 summary = "Our IT incident report template gives businesses a simple form to record incidents in seconds."
 tags = []
-thumbnail = ""
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1639155257/cms/IT_Incident_Report_Thumbnail_xpajyl.png"
 title = "IT Incident Report Template | Budibase | Low-Code Platform"
 type = "templates"
 
@@ -66,6 +66,8 @@ Our IT incident report template provides a platform to quickly create effective 
 
 We’ve also added an additional form, for IT workers to qualify and respond to incidents. On a separate record, your IT team can assign actions, incident severity, or escalate each case.
 
+![IT incident report template](https://res.cloudinary.com/daog6scxm/image/upload/v1639155409/cms/IT_Incident_Report_Template_1_yjvo3j.png "IT Incident Report Template form Interface")
+
 ### Customize report fields
 
 Every organization is different. Your IT incident report form must match the information you actually need. With a Budibase form, you have complete control over which data fields to include.
@@ -90,6 +92,8 @@ Optimize internal processes by classifying incidents based on required actions. 
 
 With Budibase, you have complete control to organize and classify incidents as you see fit.
 
+![Search and filter IT Incidents](https://res.cloudinary.com/daog6scxm/image/upload/v1639155626/cms/IT_Incident_Report_Template_2_qsz8pu.png "Search IT Incident reports")
+
 ### Streamline processes
 
 Clear delegation is crucial when responding to IT incidents. The right team members must be assigned to respond to different incidents. This improves response times and internal learning.
@@ -105,6 +109,8 @@ Different teams use incident records differently. Most employees only need the a
 Our template features four permission tiers. _Basic_ users can access the initial form, and report incidents. _Power_ and _admin_ users can then view all reports, and access an additional form for responding to initial reports.
 
 With Budibase, you have complete control to add and remove permission tiers as you see fit.
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1639155626/cms/IT_Incident_Report_Template_2_qsz8pu.png)
 
 ### Design and usability
 
@@ -155,6 +161,8 @@ Open-source means secure. Budibase works seamlessly with a wide range of data so
 Budibase apps also give you complete control over who accesses your platform. With fully customizable user permissions, you can give your users access to the exact information they need.
 
 As a Budibase user, you’ll also enjoy free SSO across all of your apps.
+
+![IT Incident Report Detail screen](https://res.cloudinary.com/daog6scxm/image/upload/v1639155783/cms/IT_Incident_Report_Template_3_bfecae.png "IT Incident Report Template 3")
 
 ### Flexible hosting
 
