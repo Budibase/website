@@ -10,7 +10,7 @@ layout = "single"
 preview = ""
 summary = "Our employee directory template gives businesses quick and easy access to staff information."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1639411028/cms/Employee_Directory_Template_Thumbnail_kjcg0e.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1639411136/cms/Employee_Directory_Template_Thumbnail_e8u8wp.png"
 title = "Employee Directory Template | Budibase | Low-Code Platform"
 type = "templates"
 
