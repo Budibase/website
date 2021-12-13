@@ -7,10 +7,10 @@ draft = true
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639392302/cms/Maintenance_request_form_template_1_wg8jgl.png"]
 label = "Maintenance Request Form Template"
 layout = "single"
-preview = ""
+preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639393680/cms/Maintenance_request_form_template_preview_tjf3g9.gif"
 summary = "Our maintenance request form template is a quick and easy way to manage equipment repairs, maintenance, and servicing."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1639393415/cms/Maintenance_request_form_tempalte_thumbnail_dad9qc.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1639393919/cms/Maintenance_request_form_tempalte_thumbnail_f4tthy.png"
 title = "Maintenance Request Form Template | Budibase | Digital Forms"
 type = "templates"
 
@@ -155,7 +155,7 @@ At Budibase, we’re changing the way businesses build internal tools. Our low-c
 
 ### Free, open-source form builder
 
-Our open-source, low-code app builder is free, forever. In a matter of minutes, you can build deployable, custom forms. Check out our p[ricing page](https://budibase.com/pricing) for more information.
+Our open-source, low-code app builder is free, forever. In a matter of minutes, you can build deployable, custom forms. Check out our [pricing page](https://budibase.com/pricing) for more information.
 
 We believe in open-source software. Budibase users have complete control over the tools they build, and how they’re deployed. Even better, when you use Budibase, you’ll actually own the finished product.
 
