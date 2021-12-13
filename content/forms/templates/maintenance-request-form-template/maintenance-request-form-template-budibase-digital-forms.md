@@ -1,16 +1,16 @@
 +++
-datasource = ""
+datasource = "Built-in database"
 date = ""
 description = "Our maintenance request form template is a quick and easy way to manage equipment repairs, maintenance, and servicing. Start using Budibase today."
 destination = ""
 draft = true
-images = []
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639392302/cms/Maintenance_request_form_template_1_wg8jgl.png"]
 label = "Maintenance Request Form Template"
 layout = "single"
 preview = ""
 summary = "Our maintenance request form template is a quick and easy way to manage equipment repairs, maintenance, and servicing."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1639391450/cms/Maintenance_request_form_tempalte_thumbnail_ryzawt.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1639393306/cms/Maintenance_request_form_tempalte_thumbnail_gdr6hj.png"
 title = "Maintenance Request Form Template | Budibase | Digital Forms"
 type = "templates"
 
@@ -20,6 +20,8 @@ Almost every business manages equipment, either internally, or on behalf of clie
 In either case, the key is to have smooth and efficient workflows in place. When repairs and maintenance are delayed, it can disrupt your employees’ work, or negatively impact clients.
 
 Digital maintenance request forms are a simple and effective way to avoid this.
+
+![Maintenance request form template screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1639392302/cms/Maintenance_request_form_template_1_wg8jgl.png "Maintenance request form template screenshot")
 
 ## What is a maintenance request form?
 
@@ -81,6 +83,8 @@ Automatically assign different kinds of maintenance requests to different users,
 
 Our template offers data fields for your team to alter the status of requests and provide additional notes. With our low-code builder, you can quickly and easily build additional app screens to match your maintenance workflows.
 
+![Maintenance request approval screen](https://res.cloudinary.com/daog6scxm/image/upload/v1639392720/cms/Maintenance_request_form_template_2_oblqpj.png "Maintenance request approval")
+
 ### Improved reporting
 
 Digital maintenance requests also help to build oversight within your organization. Building a digital record of your servicing and repairs allows you to analyze trends. That way, you can carry out preventive maintenance, before issues occur.
@@ -112,6 +116,8 @@ Different kinds of users interact with maintenance request forms differently. Yo
 Naturally, each of these kinds of users needs to access different features on your form.
 
 With Budibase, you have complete control over how different users access your tools. Our template offers four permission tiers, with complete scope for customization.
+
+![Management screen screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1639392999/cms/Maintenance_request_form_template_3_doirjh.png "Maintenance request form management screen")
 
 ### Intuitive UI
 
