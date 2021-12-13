@@ -15,7 +15,7 @@ title = "Maintenance Request Form Template | Budibase | Digital Forms"
 type = "templates"
 
 +++
-Almost every business manages equipment, either internally, or on behalf of clients and tenants. Inevitably, this also means organizing repairs and maintenance for equipment users. This can be part of regular serving, or in response to an emergency.
+Almost every business manages equipment, either internally, or on behalf of clients and tenants. Inevitably, this also means organizing repairs and maintenance for equipment users. This can be part of regular serving, or in response to an emergency. 
 
 In either case, the key is to have smooth and efficient workflows in place. When repairs and maintenance are delayed, it can disrupt your employees’ work, or negatively impact clients.
 
