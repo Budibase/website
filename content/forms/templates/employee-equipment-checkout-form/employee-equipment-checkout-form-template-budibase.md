@@ -7,10 +7,10 @@ draft = true
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639388152/cms/Employee_Equipment_Checkout_Form_Template_1_lyhmin.png"]
 label = "Employee Equipment Checkout Form Template"
 layout = "single"
-preview = ""
+preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639389652/cms/Employee_equipment_checkout_form_template_preview_jfsesx.gif"
 summary = "Our employee equipment checkout form template provides a simple, effective way to manage device rental."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1639388143/cms/Employee_Equipment_Checkout_Form_Thumbnail_cfsxea.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1639388264/cms/Employee_equipment_checkout_thumbnail_mzntv5.png"
 title = "Employee Equipment Checkout Form Template | Budibase"
 type = "templates"
 
@@ -45,6 +45,8 @@ For modern businesses, efficiency is everything. Sharing equipment across teams 
 For example, multiple employees might need to use the same piece of equipment, at the same time. Staff members who can’t access the right tools straight away will have to wait, disrupting their workflows.
 
 If this only happens occasionally, checkout forms help you to make a decision on who gets priority. If it happens more frequently, checkout form data helps your team to make decisions about procuring additional devices, to improve operations.
+
+![Employee equipment checkout form template 1](https://res.cloudinary.com/daog6scxm/image/upload/v1639388152/cms/Employee_Equipment_Checkout_Form_Template_1_lyhmin.png "Employee equipment checkout form template")
 
 ## Our employee equipment checkout form template
 
@@ -88,6 +90,8 @@ Digital forms provide seamless communications. When an employee makes an equipme
 Add SMTP credentials to automate emails within your digital form app.
 
 Budibase also offers integration with a number of softphones and instant messaging apps, including Slack. Our employee equipment checkout form is a simple way to massively improve internal communications.
+
+![Employee equipment checkout system template](https://res.cloudinary.com/daog6scxm/image/upload/v1639388460/cms/Employee_equipment_checkout_form_template_2_iaatib.png "Manage employee equipment checkouts")
 
 ### Automate workflows
 
@@ -174,6 +178,8 @@ Empower your team to use our employee equipment checkout form anywhere, from any
 The tools your employees use are constantly changing. As technology advances, and your organization changes, your checkout forms need to evolve too. Budibase offers unrivaled scalability and customization.
 
 With our low-code platform, you can add new data fields or users in seconds. The flexibility to quickly alter forms is crucial for future-proofing your equipment checkout process.
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1639388603/cms/Employee_equipment_checkout_form_template_3_qr4qko.png)
 
 ### Integrations
 
