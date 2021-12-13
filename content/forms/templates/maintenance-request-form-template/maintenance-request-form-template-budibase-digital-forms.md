@@ -10,7 +10,7 @@ layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639394621/cms/Maintenance_request_form_template_m9vuyh.gif"
 summary = "Our maintenance request form template is a quick and easy way to manage equipment repairs, maintenance, and servicing."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1639412109/cms/Recurring_credit_card_authorization_form_template_thumbnail_d5t8oh_rw49id.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1639412163/cms/Recurring_credit_card_authorization_form_template_thumbnail_d5t8oh_q7vnzn.png"
 title = "Maintenance Request Form Template | Budibase | Digital Forms"
 type = "templates"
 
