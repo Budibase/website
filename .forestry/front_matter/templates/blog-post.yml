@@ -22,7 +22,7 @@ fields:
   config:
     maxSize: 64
   label: author headshot
-  description: Add your avatar
+  description: Add your avatar (48px x 48px)
 pages:
 - content/blog/legacy-application-modernization/4-low-code-legacy-application-modernization-strategies-budibase.md
 - content/blog/november-2021-release.md
