@@ -1,7 +1,7 @@
 +++
 author = "Ronan McQuillan"
 date = 2021-11-26T12:00:00Z
-description = "Low-code development has completely changed the way businesses carry out legacy application modernization. Here’s everything you need to know."
+description = "Low-code development is revolutionizing legacy application modernization. Here’s everything you need to know."
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1637860242/cms/ilya-pavlov-OqtafYT5kTw-unsplash_ujqdb6.jpg"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "4 Low-Code Legacy Application Modernization Strategies"
@@ -51,7 +51,7 @@ Organizations might also stick with legacy systems because they host business-cr
 
 In cases where wholesale replacement isn’t a viable option, legacy application modernization seeks to replace, update or amend individual components within the system. This involves stripping out critical components and modernizing everything else.
 
-A basic example would be adding a more functional and user-friendly front-end onto a legacy dataset.
+A basic example of legacy modernization would be adding a more functional and user-friendly front-end onto a legacy dataset.
 
 ### Legacy app modernization strategies
 
@@ -69,11 +69,11 @@ Common issues which trigger modernization projects include:
 * Poor scalability,
 * And more.
 
-Based on these different key issues, there are seven common strategies for modernizing legacy applications. These are:
+Based on these different key issues, there are seven core legacy application modernization strategies. These are:
 
 1. **Encapsulation -** Where a legacy app is left in its original state, and connected to a new interface via an API.
 2. **Rehosting -** Where the entire app is moved to a new host, to improve security. This is usually a cloud-based platform.
-3. **Refactoring -** Where the underlying structure and code of a legacy app are modernized, but external behaviors are left unaltered.
+3. **Refactoring -** Where the underlying structure and code of a legacy app are modernized, but external behaviors are left unaltered. This is also known as _code modernization_.
 4. **Rearchitecting -** This means materially changing the underlying architecture of a legacy app, to move it to different software architecture, with enhanced capabilities.
 5. **Replatforming -** Where a legacy app is moved to a more modern platform. This may require some changes to the app’s code, but not its features, functionality, or overall structure.
 6. **Rebuild -** Where some or all of a legacy app is rebuilt from scratch, with similar specifications.
@@ -147,15 +147,15 @@ In other words, businesses that use unsupported legacy software must either live
 
 Of course, if modernization was as simple as retiring one tool and implementing another, legacy applications wouldn’t be so common.
 
-Unfortunately, modernization brings along its own risks, costs, and challenges.
+Unfortunately, modernization brings along its own risks, costs, and challenges. As such, it's crucial to choose the right application modernization strategy.
 
-Traditionally, modernization has been a costly, complex, and risky process. As such, many organizations don’t take action. However, with the rise of new technologies, including low-code platforms like Budibase, this is changing.
+Traditionally, modernization has been a costly, complex, and risky process. As such, many organizations don’t take action. However, with the rise of new legacy modernization tools, including low-code platforms like Budibase, this is changing.
 
 Here are the key factors which have historically prevented legacy application modernization, and how the rise of low-code is helping to overcome these challenges.
 
 ### Disruption
 
-There’s no getting around the fact that modernization can be disruptive. If your business relies on a particular tool, then moving away from this tool will naturally disrupt your operations. This can come in the form of downtime, interruptions, new processes, or the need to upskill users.
+There’s no getting around the fact that legacy app modernization can be disruptive. If your business relies on a particular tool, then moving away from this tool will naturally disrupt your operations. This can come in the form of downtime, interruptions, new processes, or the need to upskill users.
 
 The question is whether the benefits of modernization outweigh this.
 
@@ -178,7 +178,7 @@ You’re generally limited to custom development if you want to retain some elem
 
 Again, the rise of low-code changes everything here.
 
-Low-code development massively reduces the cost of creating and maintaining business tools. In fact, with our open-source, low-code platform, you can create custom apps, for free.
+Low-code development massively reduces the cost of creating and maintaining business tools. With low code legacy modernization, you can create custom apps, in minutes.
 
 ![Legacy application modernization - custom development example](https://res.cloudinary.com/daog6scxm/image/upload/v1637860242/cms/ilya-pavlov-OqtafYT5kTw-unsplash_ujqdb6.jpg)_Image credit: @ilyapavlol via Unsplash_
 
@@ -260,13 +260,13 @@ With an encapsulation strategy, there is no need to alter the legacy code or dep
 
 A hybrid approach is when you use two or more of the seven core modernization strategies, in conjunction. Most often, this means rehosting some elements of your legacy apps to improve security.
 
-You can then use one of the other strategies to improve functionality.
+You can then use one of the other strategies, like legacy application replatforming, to improve functionality.
 
 The classic example of this would be migrating legacy datasets to a modern, secure host. You can then rebuild or replace other elements of your legacy application, to manipulate, use, and manage this data.
 
 Modern low-code builders offer extensive support for different kinds of existing databases. Quickly build a new and improved interface, and connect it to your existing data, wherever or however you choose to host it.
 
-## Budibase for legacy application modernization
+## Budibase & low-code legacy application modernization
 
 At [Budibase](https://budibase.com/product), we’re revolutionizing the way businesses build software. Our mission is to create the world’s largest suite of business tools.
 
@@ -312,7 +312,9 @@ Our users have complete control over how and when they roll out new features. Wi
 
 Budibase also offers unrivaled scalability. Build additional apps, or add new users, at no extra cost. We empower users to build the perfect tools for their needs, so they can evolve as their business grows.
 
-We don’t charge for Budibase, but we do offer premium support and SLAs for enterprise customers. Check out our [pricing page](https://budibase.com/pricing) for more details.
+Budibase is the smart way to modernize tools and add SSO to legacy applications.
+
+We also offer premium support and SLAs for enterprise customers. Check out our [pricing page](https://budibase.com/pricing) for more details.
 
 ## Start modernizing legacy applications today
 
