@@ -143,7 +143,7 @@ This also means the users are responsible for implementing any new features whic
 
 In other words, businesses that use unsupported legacy software must either live with a suboptimal system, or manage changes, updates, and patches themselves. This inevitably leads to the need for modernization.
 
-## Modernization challenges
+## Legacy modernization issues & challenges
 
 Of course, if modernization was as simple as retiring one tool and implementing another, legacy applications wouldn’t be so common.
 
