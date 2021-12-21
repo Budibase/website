@@ -157,6 +157,8 @@ Here are the key factors which have historically prevented legacy application mo
 
 There’s no getting around the fact that legacy app modernization can be disruptive. If your business relies on a particular tool, then moving away from this tool will naturally disrupt your operations. This can come in the form of downtime, interruptions, new processes, or the need to upskill users.
 
+Replacing legacy systems entirely is incredibly disruptive.
+
 The question is whether the benefits of modernization outweigh this.
 
 The key to effective app modernization is minimizing disruptions while maximizing the benefits of adopting new tools. With low-code development tools, it’s easier than ever to shift this balance in your favor.
@@ -200,11 +202,11 @@ Where migration is unavoidable, modern low-code development allows you to reprod
 
 ### Scope creep
 
-Scope creep is a common issue in modernization projects. Essentially, this means trying to solve one problem, and realizing that there are other issues at play that need to be resolved.
+Scope creep is a common legacy modernization issue. Essentially, this means trying to solve one problem, and realizing that there are other issues at play that need to be resolved.
 
 For example, you might try to upgrade or replace one element of a legacy system, only to find that this requires changes to other components. The trouble is, scope creep almost always comes along with rising costs.
 
-However, with low-code development tools, scope creep is less of an issue.
+With low code legacy modernization, scope creep is a non-issue.
 
 Since building apps with low-code tools takes a fraction of the time, implementing unforeseen fixes and features has a much less disruptive impact on your overall project. Even better, if you don’t have to pay to develop your new apps, there’s no chance of going over budget.
 
@@ -228,11 +230,11 @@ Here are our four essential strategies for low-code legacy app modernization.
 
 ### 1. Replacement and rebuilding
 
-Replacement and rebuilding are generally the most effective modernization strategies. However, they’ve also historically been seen as the most involved and costly. That is, building new apps or components takes time and money.
+Rebuilding and replacing legacy systems are generally the most effective modernization strategies. However, they’ve also historically been seen as the most involved and costly. That is, building new apps or components takes time and money.
 
 At least, it used to.
 
-With open-source, low-code development tools like Budibase, rebuilding and replacing business apps has never been cheaper or faster. We’re reducing the barriers to modernization, by empowering businesses to rebuild and replace tools in minutes.
+With low-code legacy modernization tools like Budibase, rebuilding and replacing business apps has never been cheaper or faster. We’re reducing the barriers to modernization, by empowering businesses to rebuild and replace tools in minutes.
 
 ### 2. Extension
 
