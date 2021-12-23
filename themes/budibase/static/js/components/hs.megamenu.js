@@ -97,12 +97,12 @@
 	MegaMenu.defaults = {
 		event: 'hover',
 		direction: 'horizontal',
-		breakpoint: 991,
+		breakpoint: 1200,
 		animationIn: false,
 		animationOut: false,
 
 		rtl: false,
-		hideTimeOut: 300,
+		hideTimeOut: 200,
 
 		// For 'vertical' direction only
 		sideBarRatio: 1/4,
@@ -121,7 +121,7 @@
 			hasMegaMenuActive: '.hs-mega-menu-opened'
 		},
 
-		mobileSpeed: 400,
+		mobileSpeed: 200,
 		mobileEasing: 'linear',
 
 		beforeOpen: function(){},
