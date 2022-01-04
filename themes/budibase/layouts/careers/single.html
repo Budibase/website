@@ -1,101 +1,98 @@
 {{ partial "header.html" . }} {{ partial "navigation.html" . }}
-
-<!-- Hero Section -->
-  <div class="space-2-top">
-    <div class="container-7 mx-auto">
-      <h1 class="mb-4">{{ .Title }}</h1>
-        <p class="lead mb-0">{{ .Description }}</p>
+<div class="space-3-bottom--lg">
+  <div class="container-7 space-2 space-1-bottom--lg">
+    <div class="mx-auto mb-3 hero-3">
+      <h1 class="mb-4">Join us</h1>
+      <p class="lead mt-2 mb-4">
+        We're looking for passionate people to join us on our mission to create
+        the world's largest ecosystem of internal tools and accelerate the
+        operations of millions of businesses, worldwide.
+      </p>
+      <a href="https://bb.budibase.app/app_bb_afdf15d335df499da0932ed736edf7e3#/" target="_blank" rel="noopener"><button class="btn btn-cta btn-lg mb-6">View open positions</button></a>
     </div>
+    <hr class="mb-8" />
+    <div class="mb-8">
+      <h2 class="mb-4">What we're about</h2>
+      <p class="mt-2 mb-2">
+        Businesses across the world spend a total of $120 billion every year
+        building internal tools to improve operations. The task of building
+        internal tools is often left to developers. And, we can attest, the
+        experience is pretty unpleasent and frustratingly repetitive.
+      </p>
+      <p class="mt-2 mb-2">
+        At Budibase, we believe building internal tools should feel magical.
+        When building internal tools, you shouldn't have to worry about
+        boilerplate code, design accessibility, or common automations. With
+        Budibase, adding data, designing your UI, and automating workflows feels
+        seamless, joyful and ... magical.
+      </p>
+      <p class="mt-2 mb-2">
+        Unlike competitors, we do things a little differently at Budibase. We're
+        product led; community driven. Our goal is to provide an industry
+        leading developer experience, combined with a highly engaged and excited
+        community. Open source is a huge catalyst for achieving our goals, and
+        plays a huge part in our identity.
+      </p>
+    </div>
+    <hr class="mb-8" />
+    <div class="mb-8">
+      <h2 class="mb-4">A culture built for digital creators</h2>
+      <p class="mt-2 text-black-60 mb-4">
+        <b>Open and inclusive -</b> we're an organization building an open
+        source product - being open and inclusive is in our DNA, and we will
+        continue to make this our number one cultural priority as we continue to
+        grow and scale.
+      </p>
+      <p class="mt-2 text-black-60 mb-4">
+        <b>Product led; community driven -</b> we work hard to deliver an
+        experience that sparks joy in developers By empowering developers to create, we can power the flywheel that is community. 
+        We treat our community like colleages, and this creates a force no other company can compete with.
+      </p>
+      <p class="mt-2 text-black-60 mb-4">
+        <b>Fast and focused-</b> we move fast and we focus hard on delivering
+        the most value we can in a given period of time. Our ambition is to be
+        the best at what we do, and deliver a best in class product.
+      </p>
+      <p class="mt-2 text-black-60 mb-2">
+        <b>Experimentally curious; growth determined -</b> on a monthly basis,
+        we have an event called Lab Day. For 24 hours, employees can experiment
+        on anything they want, whether it be creating a new feature, testing a
+        new framework, or building a product with Budibase. We love to
+        experiment and learn from data. It's this curiousness that
+        helps Budibase deliver value where others don't, and drive growth.
+      </p>
+    </div>
+    <hr class="mb-8" />
+    <div class="mb-8">
+      <h2 class="mb-4">Perks</h2>
+      <p class="mt-2 text-black-60 mb-2">
+        - Work life balance
+      </p>
+      <p class="mt-2 text-black-60 mb-2">
+        - Competitive salary and equity
+      </p>
+      <p class="mt-2 text-black-60 mb-2">
+        - Work remotely, or work from an office
+      </p>
+      <p class="mt-2 text-black-60 mb-2">- 35 days holiday</p>
+      <p class="mt-2 text-black-60 mb-2">
+        - Autonomous working culture
+      </p>
+      <p class="mt-2 text-black-60 mb-2">- Pension Scheme</p>
+      <p class="mt-2 text-black-60 mb-2">- Paid sick leave</p>
+      <p class="mt-2 text-black-60 mb-2">- Budget to spend on new laptop and home office setup</p>
+    </div>
+
+    <hr class="mb-8" />
+    <div class="mb-8">
+      <h2 class="mb-4">Open Positions</h2>
+      <p class="lead text-black-60 mb-4">
+        Visit our recruitment app (built with Budibase) to check out the positions we're hiring for.
+      </p>
+      <a href="https://bb.budibase.app/app_bb_afdf15d335df499da0932ed736edf7e3#/" target="_blank" rel="noopener"><button class="btn btn-cta btn-lg">View open positions</button></a>
+    </div>
+    <hr />
   </div>
-
-  <div class="article container-7">
-    <div class="mx-auto">
-      <div class="mb-8">
-        <p class="lead">{{ .Content }}</p>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="container-7 p-3 rounded mb-8">
-    <div class="col-lg-8 mx-auto">
-      <h2 class="mb-4 mt-6 text-center">How to apply</h2>
-      <p class="mb-5 text-center"> Either email your CV to careers at budibase.com, or use the form below:</p>
-        <form
-            class="js-validate"
-            form
-            name="job-apply"
-            method="POST"
-            data-netlify="true"
-        >
-            <!-- Input -->
-            <div class="mb-3">
-                <div class="js-form-message">
-                <div class="js-focus-state input-group form">
-                    <input
-                    class="form-control"
-                    type="text"
-                    name="name"
-                    required
-                    placeholder="Your name"
-                    aria-label="Your name"
-                    data-msg="Please enter your name."
-                    data-error-class="u-has-error"
-                    data-success-class="u-has-success"
-                    />
-                </div>
-                </div>
-            </div>
-            <!-- End Input -->
-            
-            <!-- Input -->
-            <div class="mb-3">
-                <div class="js-form-message">
-                <div class="js-focus-state input-group form">
-                    <input
-                    class="form-control form__input"
-                    type="email"
-                    name="email"
-                    required
-                    placeholder="Your email address"
-                    aria-label="Your email address"
-                    data-msg="Please enter a valid email address."
-                    data-error-class="u-has-error"
-                    data-success-class="u-has-success"
-                    />
-                </div>
-                </div>
-            </div>
-
-            <!-- Input -->
-            <div class="js-form-message mb-3">
-                <div class="js-focus-state input-group form">
-                <input
-                    class="form__input"
-                    type="file"
-                    name="cv"
-                    required
-                    placeholder="Please attach your CV."
-                    aria-label="Please attach your CV."
-                    data-msg="Please attach your CV."
-                    data-error-class="u-has-error"
-                    data-success-class="u-has-success"
-                ></input>
-                </div>
-            </div>
-            </div>
-
-            <!-- End Input -->
-
-            <div class="space-2-bottom--lg col-lg-8 mx-auto">
-            <button type="submit" class="btn btn-primary btn-lg btn-block mb-4">
-                Submit
-            </button>
-          </div>
-        </form>
-      </div>
-
-    </div>
 </div>
 
 {{ partial "footer.html" . }}
