@@ -1,76 +1,183 @@
 {{ partial "header.html" . }} {{ partial "navigation.html" . }}
-<div class="container hero-3 mx-auto space-3-bottom">
-  <div class="pricing-card-title space-2">
-    <h1 class="text-center">Plans and pricing</h1>
+<div class="container mx-auto">
+  <div class="pricing-card-title space-2-top text-center">
+    <h1 class="h4 mb-2 text-light">Pricing</h1>
+    <p class="h2 text-dark mb-4">Faster development for everyone. <br> Get started for free.</p>
   </div>
-  <div class="pricing">
-
+  <div class="pricing-tabs-container flex-row gap-md mb-4">
+    <div class="pricing-tabs px-2 py-1">
+    <div class="">
+      <a href="/self-host">
+        <button class="btn btn-quiet">Self-host (You host)</button> </a>
+    </div>
+    <div class="">
+      <a href="/pricing">
+        <button class="btn btn-cta">Cloud (We host)</button> </a>
+    </div>
+  </div>
+</div>
+<!--
+<div class="container space-1">
+<ul class="nav nav-tabs" role="tablist">
+	<li class="nav-item">
+		<a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">First Panel</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Second Panel</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">Third Panel</a>
+	</li>
+</ul>
+<div class="tab-content">
+	<div class="tab-pane active" id="tabs-1" role="tabpanel">
+		<p>First Panel</p>
+	</div>
+	<div class="tab-pane" id="tabs-2" role="tabpanel">
+		<p>Second Panel</p>
+	</div>
+	<div class="tab-pane" id="tabs-3" role="tabpanel">
+		<p>Third Panel</p>
+	</div>
+</div>
+</div>
+-->
+<div class="pricing">
 <!--Cloud-->
 <div class="pricing-card bg-alt border-grey rounded-sm">
   <div class="pricing-card-top">
-    <h3 class="mb-4">Cloud (Beta) </h3>
-    <h6 class="mb-2">Hosted by Budibase</h6>
-    <h4 class="mb-6">Free forever</h4>
+    <div class="u-xs-avatar mb-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+      </svg>
   </div>
-  <div class="pricing-card-button">
-    <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=Cloud-free-tier-pricing" target="_blank">
-      <button type="submit" class="btn btn-cta btn-lg">
-        Get started for free
-      </button>
-    </a>
-    
+    <h3 class="mb-2 text-blue">Free</h3>
+    <p class="mb-3 small">The quickest and easiest way to try Budibase for free
+    </p>
   </div>
   <div class="pricing-card-bottom">
-    <p class="mb-3 detail-sm font-dark">CLOUD FEATURES:</p>
-    <p class="mb-3 text-sm">
-      <span class="text-dark">✓</span> 4 applications
+    <div class="flex-row align-center">
+      <div class="">
+      <h2 class="mb-3 h1">Free</h2>
+    </div>
+    </div>
+    <p class="text-xs mb-3">Setup takes seconds</p>
+    <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=open-source-pricing" target="_blank"
+    ><button type="submit" class="btn btn-block btn-cta mb-3">
+      Get started for free
+    </button></a
+  >
+    <p class="mb-3 detail-sm font-dark">FREE FEATURES:</p>
+    <p class="mb-2 text-sm">
+      <span class="text-dark">✓</span> Build and deploy up to 4 apps
     </p>
-    <p class="mb-3 text-sm">
-      <span class="text-dark">✓</span> 1000 internal records per app
+    <p class="mb-2 text-sm">
+      <span class="text-dark">✓</span> 100 automation operations
     </p>
-    <p class="mb-3 text-sm">
-      <span class="text-dark">✓</span> Unlimited users
+    <p class="mb-2 text-sm">
+      <span class="text-dark">✓</span> 1,000 internal records per app
     </p>
-    <p class="mb-3 text-sm">
-      <span class="text-dark">✓</span> 1000 automation operations
+    <p class="mb-2 text-sm">
+      <span class="text-dark">✓</span> Control access with roles and permissions
     </p>
-    <p class="mb-3 text-sm">
-      <span class="text-dark">✓</span> SSO + Role based access control
+    <p class="mb-2 text-sm">
+      <span class="text-dark">✓</span> Allow users to sign-up/sign-in with Google and other SSO providers
     </p>
   </div>
 </div>
 
+<div class="pricing-card bg-alt border-grey rounded-sm">
+  <div class="pricing-card-top">
+    <div class="u-xs-avatar mb-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+      </svg>
+    </div>
+    <h3 class="mb-2 text-red">Team</h3>
+    <p class="mb-3 small">Speed up development, increase productivity and scale your business
+    </p>      
+  </div>
+
+  <div class="pricing-card-bottom">
+    <div class="flex-row align-center">
+      <div class="">
+      <h2 class="mb-3 h1">$8</h2>
+    </div>
+    <div class="ml-2">
+      <p class="mb-2 text-xs">per user / month <br> billed annually</p>
+    </div>
+    </div>
+    <p class="text-xs mb-3">$10 billed monthly</p>
+    <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=open-source-pricing" target="_blank"
+    ><button type="submit" class="btn btn-block btn-primary mb-3">
+      Get started
+    </button></a
+  >
+    <p class="mb-3 detail-sm font-dark">EVERYTHING IN FREE, PLUS:</p>
+    <p class="mb-2 text-sm">
+      <span class="text-dark">✓</span> Unlimited apps
+    </p>
+    <p class="mb-2 text-sm">
+      <span class="text-dark">✓</span> 1,000 automation operations per app
+    </p>
+    <p class="mb-2 text-sm">
+      <span class="text-dark">✓</span> 5,000 internal records per app
+    </p>
+    <p class="mb-2 text-sm">
+      <span class="text-dark">✓</span> Staging environment
+    </p>
+    <p class="mb-2 text-sm">
+    <span class="text-dark">✓</span> Remove Budibase branding 
+  </p>
+  </p>
+  </div>
+</div>
 
     <!--Open source-->
     <div class="pricing-card bg-alt border-grey rounded-sm">
       <div class="pricing-card-top">
-        <h3 class="mb-4">Open Source</h3>
-        <h6 class="mb-2">Self-hosted</h6>
-        <h4 class="mb-6">Free forever</h4>
-      </div>
-      <div class="pricing-card-button">
-        <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=open-source-pricing" target="_blank"
-          ><button type="submit" class="btn btn-primary btn-lg">
-            Get started for free
-          </button></a
-        >
-      </div>
+        <div class="u-xs-avatar mb-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+          </svg>
+        </div>
+        <h3 class="mb-2 text-green">Business</h3>
+        <p class="mb-3 small">Speed up development, increase productivity and scale your business
+        </p>      </div>
+
       <div class="pricing-card-bottom">
-        <p class="mb-3 detail-sm font-dark">EVERYTHING IN CLOUD, PLUS:</p>
-        <p class="mb-3 text-sm  ">
-          <span class="text-dark">✓</span> Unlimited records
+        <div class="flex-row align-center">
+          <div class="">
+          <h2 class="mb-3 h1">$16</h2>
+        </div>
+        <div class="ml-2">
+          <p class="mb-2 text-xs">per user / month <br> billed annually</p>
+        </div>
+        </div>
+        <p class="text-xs mb-3">$20 billed monthly</p>        
+        <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=open-source-pricing" target="_blank"
+        ><button type="submit" class="btn btn-block btn-primary mb-3">
+          Get started
+        </button></a
+      >
+        <p class="mb-3 detail-sm font-dark">EVERYTHING IN TEAM, PLUS:</p>
+        <p class="mb-2 text-sm">
+          <span class="text-dark">✓</span> Global data sources
         </p>
-        <p class="mb-3 text-sm  ">
-          <span class="text-dark">✓</span> Unlimited applications
+        <p class="mb-2 text-sm">
+          <span class="text-dark">✓</span> Global design system
         </p>
-        <p class="mb-3 text-sm">
-          <span class="text-dark">✓</span> Unlimited users
+        <p class="mb-2 text-sm">
+          <span class="text-dark">✓</span> View audit logs
         </p>
-        <p class="mb-3 text-sm  ">
-          <span class="text-dark">✓</span> Unlimited automation operations
+        <p class="mb-2 text-sm">
+          <span class="text-dark">✓</span> Version control
         </p>
-        <p class="mb-3 text-sm">
-          <span class="text-dark">✓</span> Deploy via Kubernetes, Docker, and more
+        <p class="mb-2 text-sm">
+          <span class="text-dark">✓</span> 10,000 automation operations per app
+        </p>
+        <p class="mb-2 text-sm">
+          <span class="text-dark">✓</span> 50,000 internal records per app
         </p>
       </div>
     </div>
@@ -79,33 +186,38 @@
     <!--Enterprise-->
     <div class="pricing-card bg-alt border-grey rounded-sm">
       <div class="pricing-card-top">
-        <h3 class="mb-4">Enterprise</h3>
-        <h6 class="mb-2">Self-hosted</h6>
-        <h4 class="mb-6">Flexible pricing</h4>
-      </div>
-      <div class="pricing-card-button">
-        <a href="https://calendly.com/mjashanks/budibase-demo" target="_blank"
-          ><button type="submit" class="btn btn-lg btn-primary">
-            Contact sales
-          </button></a
-        >
+        <div class="u-xs-avatar mb-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+          </svg>
+        </div>
+        <h3 class="mb-2 text-indigo">Enterprise</h3>
+        <p class="mb-3 small">All the flexibility and support to match your growth
+        </p>
       </div>
       <div class="pricing-card-bottom">
+        <div class="u-lg-avatar mb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+          </svg>
+        </div>
+        <a href="https://calendly.com/mjashanks/budibase-demo" target="_blank"
+        ><button type="submit" class="btn btn-block btn-primary mb-3">
+          Contact sales
+        </button></a
+      >
         <p class="mb-3 detail-sm font-dark">EVERYTHING IN OPEN SOURCE, PLUS:</p>
-        <p class="mb-3 text-sm  ">
-          <span class="text-dark">✓</span> Premium support and services / SLAs
+        <p class="mb-2 text-sm">
+          <span class="text-dark">✓</span> Build and deploy up to 4 apps
         </p>
-        <p class="mb-3 text-sm  ">
-          <span class="text-dark">✓</span> Dedicated account manager
+        <p class="mb-2 text-sm">
+          <span class="text-dark">✓</span> 5 users
         </p>
-        <p class="mb-3 text-sm  ">
-          <span class="text-dark">✓</span> Dedicated onboarding
+        <p class="mb-2 text-sm">
+          <span class="text-dark">✓</span> 100 automation operations
         </p>
-        <p class="mb-3 text-sm  ">
-          <span class="text-dark">✓</span> Version history (coming 2022)
-        </p>
-        <p class="mb-3 text-sm  ">
-          <span class="text-dark">✓</span> Auditing (coming 2022)
+        <p class="mb-2 text-sm">
+          <span class="text-dark">✓</span> 1,000 records per app
         </p>
       </div>
     </div>
