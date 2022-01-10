@@ -223,6 +223,10 @@ p {
   color: var(--blue500);
 }
 
+.text-red {
+  color: rgb(235, 87, 87);
+}
+
 .text-indigo-light {
   color: var(--indigo400);
 }
@@ -504,7 +508,7 @@ input[type="month"] {
 }
 .hero-title {
   text-size-adjust: 100%;
-  font-size: 56px;
+  font-size: 53px;
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 0;
@@ -1709,11 +1713,23 @@ margin-left: 0rem;
   align-items: end;
 }
 
+.align-center {
+  align-items: center;
+}
+
 .flex-gap {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
   justify-content: left;
+}
+
+.gap-md {
+  gap: 20px;
+}
+
+.gap-lg {
+  gap: 32px;
 }
 
 
@@ -1838,11 +1854,19 @@ margin-left: 0rem;
     gap: var(--space-3);
   }
 
+  @media (min-width: 768px) {
+    .pricing {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-3);
+    }
+  }
 
-@media (min-width: 992px) {
+
+@media (min-width: 1200px) {
   .pricing {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: var(--space-3);
   }
 }
@@ -1873,8 +1897,36 @@ margin-left: 0rem;
   }
 }
 
+.pricing-tabs-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-tabs {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  border-radius: 16px;
+  justify-content: center;
+  gap: 12px;
+  -webkit-box-align: center;
+  align-items: center;
+  border: 1px solid var(--gray200);
+}
+
+.pricing-tab-option {
+padding: 10px 20px;
+border-radius: 16px;
+
+}
+
+.pricing-tab-option:hover {
+  background-color: var(--gray100);
+  cursor: pointer;
+  }
+
 .pricing-card-top {
-  padding: var(--space-7) var(--space-6) var(--space-3);
+  padding: var(--space-6) var(--space-5) var(--space-3);
   background: var(--loContrast);
 }
 
@@ -1884,7 +1936,7 @@ margin-left: 0rem;
 }
 
 .pricing-card-bottom {
-  padding: var(--space-7) var(--space-6) var(--space-6);
+  padding: var(--space-6) var(--space-5) var(--space-6);
 }
 
 /* Image gallery */
@@ -3060,6 +3112,25 @@ fieldset:disabled a.btn {
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
+}
+
+.btn-quiet {
+  color: var(--gray900);
+  background-color: white;
+  border: 2px solid var(--white);
+  border-radius: var(--sizes-1) !important;
+
+}
+
+.btn-quiet:hover {
+  color: var(--hiContrast);
+  background-color: var(--gray200);
+  border: 2px solid var(--gray200);
+  border-radius: var(--sizes-1) !important;
+}
+
+.btn-quiet:focus, .btn-secondary.focus {
   box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
 }
 
@@ -8015,8 +8086,8 @@ button:focus {
 }
 
 .u-lg-avatar {
-  width: 96px;
-  height: 96px;
+  width: 94px;
+  height: 94px;
 }
 
 .u-xl-avatar {
