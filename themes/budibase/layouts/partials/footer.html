@@ -44,6 +44,9 @@
           <div class="list-group list-group-flush ">
             <a class="list-group-item list-group-item-action" href="/business-apps">Business apps</a>
             <a class="list-group-item list-group-item-action" href="/forms">Forms</a>
+            <a class="list-group-item list-group-item-action" href="/approval-apps">Approval apps</a>
+            <a class="list-group-item list-group-item-action" href="/admin-panels">Admin panels</a>
+            <a class="list-group-item list-group-item-action" href="/portals">Portals</a>
             <a class="list-group-item list-group-item-action" href="/internal-tools">Internal tools</a>
           </div>
           <!-- End List Group -->
@@ -76,7 +79,7 @@
             {{ partial "logo.html" . }}
           </a>
           <!-- End Logo -->
-          <p class="small text-grey">All rights reserved. ©Budibase 2021</p>
+          <p class="text-grey mb-4">All rights reserved. ©Budibase 2021</p>
         </div>
       </div>
     </div>
@@ -120,8 +123,8 @@
     $('.js-mega-menu').HSMegaMenu({
       event: 'hover',
       pageContainer: $('.container'),
-      breakpoint: 767.98,
-      hideTimeOut: 0
+      breakpoint: 1200,
+      hideTimeOut: 200
     });
   });
 </script>
