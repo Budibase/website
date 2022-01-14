@@ -1951,7 +1951,7 @@ margin-left: 0rem;
 @media (min-width: 1200px) {
   .pricing {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: var(--space-3);
   }
 }
