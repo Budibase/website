@@ -1,6 +1,6 @@
 +++
 date = "2021-30-01"
-title = "Airtable integration with Budibase | Data source for building web apps"
+title = "Airtable integration with Budibase"
 page_title = "Airtable"
 categories = ["data"] 
 description = "Use Airtable as your data source for your Budibase applications. "

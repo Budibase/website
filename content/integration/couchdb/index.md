@@ -1,6 +1,6 @@
 +++
 date = "2020-03-12"
-title = "CouchDB integration with Budibase | Data source for building business apps"
+title = "CouchDB integration with Budibase"
 page_title = "CouchDB"
 categories = ["data"] 
 description = "Use Apache CouchDB as your data source for your Budibase applications. "
