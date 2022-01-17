@@ -15,8 +15,6 @@ title = "Employee Portal App Template | Budibase | Custom Portals"
 type = "templates"
 
 +++
-# Employee Portal App Template
-
 As your business grows, it becomes more costly and difficult to manage basic human resources tasks. This includes sharing information, managing communications, and staying on top of HR admin.
 
 With the rise of remote working, this problem has become magnified.
