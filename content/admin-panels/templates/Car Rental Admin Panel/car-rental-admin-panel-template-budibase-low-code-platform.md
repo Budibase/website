@@ -10,7 +10,7 @@ layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642426950/cms/Car_Rental_Admin_Panel_Gif_lt6sww.gif"
 summary = "Our car rental admin panel is built to improve oversight, cut operating costs, and streamline admin workflows."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642433119/cms/Car_Rental_Admin_Panel_Thumbail_bze6uj.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642438909/cms/Car_Rental_Admin_Panel_Thumbnail_myyth4.png"
 title = "Car Rental Admin Panel Template | Budibase | Low-Code Platform"
 type = "templates"
 
