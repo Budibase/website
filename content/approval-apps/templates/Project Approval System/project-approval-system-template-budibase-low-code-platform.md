@@ -10,7 +10,7 @@ layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642420679/cms/Project_Approval_System_GIF_i4d0j0.gif"
 summary = "Our project approval system template is designed to digitize the initiation and authorization process."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642420670/cms/Project_Approval_System_Thumbnail_kpuf9c.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642433165/cms/Project_Approval_System_Thumbnail_kzntwr.png"
 title = "Project Approval System Template | Budibase | Low-Code Platform"
 type = "templates"
 
