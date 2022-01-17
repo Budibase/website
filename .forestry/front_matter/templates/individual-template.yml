@@ -49,6 +49,7 @@ fields:
   name: tags
   label: tags
 pages:
+- content/admin-panels/Car Rental Admin Panel/car-rental-admin-panel-template-budibase-low-code-platform.md
 - content/approval-apps/templates/Content Approval Software/content-approval-software-template-budibase-low-code-platform.md
 - content/approval-apps/templates/Invoice Approval Software/invoice-approval-software-budibase-low-code-platform.md
 - content/approval-apps/templates/Project Approval System/project-approval-system-template-budibase-low-code-platform.md
