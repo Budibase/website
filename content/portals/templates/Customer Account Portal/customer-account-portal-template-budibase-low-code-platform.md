@@ -10,7 +10,7 @@ layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642414534/cms/Customer_Account_Portal_GIF_s52nel.gif"
 summary = "Our customer account portal template gives you a deployable self-service admin tool, in minutes."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642431994/cms/Customer_Account_Portal_Thumbnail_haisnj.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642432105/cms/Customer_Account_Portal_Thumbnail_y1rr4u.png"
 title = "Customer Account Portal Template | Budibase | Low-Code Platform"
 type = "templates"
 
