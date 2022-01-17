@@ -10,7 +10,7 @@ layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642427805/cms/School_Admin_Panel_Template_GIF_rbz7ti.gif"
 summary = "Our school admin panel template is designed to give maximum oversight over student behavior and school finances."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642427791/cms/School_Admin_Panel_Template_Thumbnail_szj9ln.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642433094/cms/School_Admin_Panel_Thumbnail_tsqj9m.png"
 title = "School Admin Panel Template | Budibase | Low-Code Platform"
 type = "templates"
 
