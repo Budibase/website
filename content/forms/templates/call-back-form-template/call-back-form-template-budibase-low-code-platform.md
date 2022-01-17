@@ -10,7 +10,7 @@ layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639395151/cms/Call_Back_Form_Tempalte_Preview_yfk9fg.gif"
 summary = "Our call-back template form template is the easy way to manage customer communications."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642430309/cms/Call_Back_Request_Form_Template_vs17tc.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642436645/cms/Call_Back_form_Thumbnail_nidpmp.png"
 title = "Call-Back Form Template | Budibase | Low-Code Platform"
 type = "templates"
 
