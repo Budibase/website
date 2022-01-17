@@ -8,7 +8,7 @@ images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642412177/cms/Age
 label = "Agency Client Portal Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642412335/cms/Agency_Client_Portal_Template_gif_c82zy4.gif"
-summary = "Our agency client portal provides an effective platform for managing clients, sharing project files, and streamlining communications. Start using Budibase today."
+summary = "Our agency client portal provides an effective platform for managing clients, sharing project files, and streamlining communications."
 tags = []
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642412321/cms/Agency_Client_Portal_Thumbnail_dqkzwg.png"
 title = "Agency Client Portal Template | Budibase | Low-Code Platform"
@@ -16,8 +16,6 @@ type = "templates"
 
 +++
 # Agency Client Portal Template
-
-Our agency client portal provides an effective platform for managing clients, sharing project files, and streamlining communications.
 
 Agency operations are often messy. Delivering creative services requires a high level of client communication. This includes project briefs, updates, billing, and file management. As such, agencies need clear communications channels.
 
@@ -34,6 +32,8 @@ Our agency client portal template is built for efficient operations.
 Anyone who’s worked in an agency can tell you about the impact that poor communication has on revenue. In fact, ineffective project management will quickly undermine your agency’s profitability.
 
 Agencies use client portals to automate key project management tasks. This saves costs, by removing the need for manual communications, file sharing, and project updates.
+
+![Agency Client Portal Template Home Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1642412632/cms/Agency_Client_Portal_Screenshot_1_jebf32.png "Agency Client Portal Screenshot 1")
 
 ### What does a client portal contain?
 
@@ -74,6 +74,8 @@ Our template is built to simplify workflows for scoping and delivering new proje
 Once a quote is agreed, your team can add any relevant project files, to complete the task. Maintain complete oversight of all projects, as their status automatically changes based on user actions.
 
 Clients can also view the status of all of their active or previous projects. Our agency client portal guides clients and employees through internal processes, ensuring that project delivery perfectly matches your internal procedures.
+
+![Manage Agency Clients Portal Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1642412767/cms/Agency_Client_Portal_Screenshot_2_w4uqxr.png "Agency Client Portal Screenshot 2")
 
 ### Streamline communications
 
@@ -129,6 +131,8 @@ Internal and external users can take different actions, based on how their proje
 
 For example, when a new project request is created, your internal team is able to add a quote to the record. When a quote is accepted, they’re then able to add project files or completion notes. This ensures that proper internal processes are thoroughly followed.
 
+![Agency Client Portal Condional UI for Project QUotes](https://res.cloudinary.com/daog6scxm/image/upload/v1642413047/cms/Agency_Client_Portal_Screenshot_3_bulete.png "Agency Client Portal Screenshot 3")
+
 ### Tiered access
 
 Different kinds of users interact with your client portal differently. For example, your clients don’t need access to the same features as your internal team. It’s also crucial to ensure that client data is not shared with unauthorized parties.
@@ -166,6 +170,8 @@ Unlike other low-code platforms, Budibase is free, forever. We even offer free S
 Budibase offers unrivaled security for agencies sharing files with clients. Our template offers several attachment data fields, which allow users to add files to different forms. These can then be automatically shared with clients and employees.
 
 Adding attachments directly to your client portal database gives you total control over security standards. Enjoy maximum security, without the need to pay for additional file transfer tools.
+
+![File sharing UI in agency client portal](https://res.cloudinary.com/daog6scxm/image/upload/v1642412961/cms/Agency_Client_Portal_Screenshot_4_blcdwc.png "Agency Client Portal Screenshot 4")
 
 ### Self-hosting or cloud deployment
 
