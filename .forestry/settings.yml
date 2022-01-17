@@ -5,6 +5,11 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/approval-apps
+  label: Approval apps
+  create: all
+  match: "**/*"
+- type: directory
   path: content/portals
   label: Portals
   create: all
