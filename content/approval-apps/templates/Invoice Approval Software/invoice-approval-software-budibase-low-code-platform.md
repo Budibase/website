@@ -10,7 +10,7 @@ layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642419884/cms/Invoice_Approval_Software_GIF_elphj4.gif"
 summary = "Our invoice approval software template offers a simple and secure platform to receive, manage, and approve business payments."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642419875/cms/Invoice_Approval_Software_Thumbnail_u4ugp2.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642433189/cms/Invoice_Approval_Software_Thumbnail_r2xmpk.png"
 title = "Invoice Approval Software | Budibase | Low-Code Platform"
 type = "templates"
 
