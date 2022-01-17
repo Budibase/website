@@ -50,6 +50,7 @@ fields:
   label: tags
 pages:
 - content/admin-panels/templates/Car Rental Admin Panel/car-rental-admin-panel-template-budibase-low-code-platform.md
+- content/admin-panels/templates/School Admin Panel/school-admin-panel-template-budibase-low-code-platform.md
 - content/approval-apps/templates/Content Approval Software/content-approval-software-template-budibase-low-code-platform.md
 - content/approval-apps/templates/Invoice Approval Software/invoice-approval-software-budibase-low-code-platform.md
 - content/approval-apps/templates/Project Approval System/project-approval-system-template-budibase-low-code-platform.md
