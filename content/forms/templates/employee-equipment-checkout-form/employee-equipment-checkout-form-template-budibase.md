@@ -10,7 +10,7 @@ layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639396182/cms/Employee_equipment_checkout_form_gif_w3mbd0.gif"
 summary = "Our employee equipment checkout form template provides a simple, effective way to manage device rental."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642430289/cms/Employee_Equipment_Checkout_Form_Template_Thumbnail_qzyzgw.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642439487/cms/Employee_Equipment_Checkout_form_thumbnail_iebz0l.png"
 title = "Employee Equipment Checkout Form Template | Budibase"
 type = "templates"
 
