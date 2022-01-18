@@ -14,6 +14,7 @@ thumbnail: "/business-apps/templates/applicant-tracking-system/images/thumbnail.
 preview: "/business-apps/templates/applicant-tracking-system/images/preview.gif"
 datasource: Built-in database
 destination: https://budibase.app/builder?template=app/applicant-tracking
+thumbnailColor: indigo
 tags:
 - business-app
 - hr

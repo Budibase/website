@@ -12,6 +12,7 @@ thumbnail: "/business-apps/templates/hashicorp-scorecard/images/thumbnail.jpg"
 preview: "/business-apps/templates/hashicorp-scorecard/images/preview.gif"
 datasource: "Built-in database"
 destination: "https://budibase.app/builder?template=app/hashicorp-scorecard"
+thumbnailColor: blue
 tags:
 - internal-tool
 - it-manager

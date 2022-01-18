@@ -26,7 +26,7 @@
   {{ range .Data.Pages.ByTitle }}
   <a href="{{ .Permalink }}">
     <div class="templates-card rounded-sm">
-        <img class="template-card-img img-fluid mb-4" src="{{ .Params.thumbnail }}" />
+          <img class="template-card-img img-fluid mb-4" src="{{ .Params.thumbnail }}" />
             <h2 class="h4 mb-3">{{ .Params.label }}</h2>
             <p class="mb-3">{{ .Summary }} </p>
             <p class="text-blue text-sm templates-card-link">Get this template</p>

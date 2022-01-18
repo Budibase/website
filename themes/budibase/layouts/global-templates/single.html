@@ -4,20 +4,21 @@
 
 <div class="space-2-top space-1-bottom container">
       <h1 class="mb-3 mb-4 text-center">
-        Free Budibase templates
+        Select a free Budibase template
       </h1>
     <div class=" w-lg-60 mx-auto">
       <p class="mx-auto display-lead-sm mb-6 text-center"> Explore a growing list of beautiful free Budibase templates. With Budibase's intuitive low-code platform, you can customize your design in just a few clicks.
     </p>
     </div>
 </div>
-
-<div class="container space-2-bottom">
+<div class="bg-light-1 py-6">
+<div class="container-narrow space-2-bottom">
     <div class="templates-cards">
         {{ range where (where .Site.Pages "Params.type" "templates") "Params.layout" "==" "single" }}
         <a href="{{ .Permalink }}">
           <div class="templates-card rounded-sm">
-              <img class="template-card-img img-fluid mb-4" src="{{ .Params.thumbnail }}" />
+              <div class="template-thumbnail pt-4 pl-4  mb-4 img-fluid bg-{{ .Params.thumbnailColor }}">
+                <img class="img-fluid thumbnail-image"  src="{{ .Params.thumbnail }}"/> </div> 
                   <h2 class="h4 mb-3">{{ .Params.label }}</h2>
                   <p class="mb-3">{{ .Params.summary }} </p>
                   <p class="text-blue text-sm templates-card-link">Get this template</p>
