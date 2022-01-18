@@ -10,7 +10,8 @@ layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639395708/cms/IT_Incident_report_form_template_gif_ydajjq.gif"
 summary = "Our IT incident report template gives businesses a simple form to record incidents in seconds."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642436773/cms/IT_Incident_Report_Template_Thumbnail_f0yhx0.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/IT_Incident_Report_Form_Thumbnail_New_cm856n.png"
+thumbnailColor = "celery"
 title = "IT Incident Report Template | Budibase | Low-Code Platform"
 type = "templates"
 

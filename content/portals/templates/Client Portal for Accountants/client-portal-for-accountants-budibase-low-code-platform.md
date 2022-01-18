@@ -10,7 +10,8 @@ layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642413542/cms/ezgif.com-gif-maker_mmnlhh.gif"
 summary = "Our client portal for accountants is a simple and convenient tool for managing documents and client information."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642439205/cms/Client_Portal_For_Accountants_Thumbnial_trr7xa.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502299/cms/Client_Portal_For_Accountants_Thumbnail_New_kujhwm.png"
+thumbnailColor = "orange"
 title = "Client Portal for Accountants | Budibase | Low-Code Platform"
 type = "templates"
 
