@@ -1,16 +1,15 @@
 +++
 datasource = "Built-in database"
-date = ""
+date = 2022-01-18T00:00:00Z
 description = "Our maintenance request form template is a quick and easy way to manage equipment repairs, maintenance, and servicing. Start using Budibase today."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/maintenance-request-form"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639392302/cms/Maintenance_request_form_template_1_wg8jgl.png"]
 label = "Maintenance Request Form Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639394621/cms/Maintenance_request_form_template_m9vuyh.gif"
 summary = "Our maintenance request form template is a quick and easy way to manage equipment repairs, maintenance, and servicing."
-tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/Maintenance_Request_Form_Template_Thumbnail_New_lk5y2w.png"
+tags = ["Operations", "Maintenance", "Forms"]
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642525391/cms/Maintenance_Request_Form_Thumbnail_New_hrdudd.png"
 thumbnailColor = "fuchsia"
 title = "Maintenance Request Form Template | Budibase | Digital Forms"
 type = "templates"
