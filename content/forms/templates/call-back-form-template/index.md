@@ -1,15 +1,14 @@
 +++
 datasource = "Built-in database"
-date = ""
+date = 2022-01-18T00:00:00Z
 description = "Our call-back template form template is the easy way to manage customer communications. Build and deploy a call-back form app in minutes."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/call-back-form"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639150935/cms/Call_back_form_template_thumbnail_tnuz9f.png"]
 label = "Call-Back Form Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639395151/cms/Call_Back_Form_Tempalte_Preview_yfk9fg.gif"
 summary = "Our call-back template form template is the easy way to manage customer communications."
-tags = []
+tags = ["Call-back form", "Forms"]
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/Call_Back_Request_Form_Thumbnail_New_ybyr6p.png"
 thumbnailColor = "blue"
 title = "Call-Back Form Template | Budibase | Low-Code Platform"
@@ -90,7 +89,7 @@ Our call-back form template is fully customizable. You have complete flexibility
 
 For example, you might choose to gather additional data on user queries relating to sales inquiries, or tech support tickets.
 
-The data fields you provide naturally depend on the type of customer interaction. For example, a sales inquiry form should be as concise as possible to maximize conversion rates. Call-back forms for existing customers can be more in-depth, providing more information for agents.
+The data fields you provide naturally depend on the type of customer interaction. For example, a sales inquiry form should be as concise as possible to maximize conversion rates. Call-back forms for existing customers can be more in-depth, providing more information for agents. 
 
 ### Assign agents
 
@@ -200,4 +199,4 @@ Enjoy free SSO, and no hidden charges. Budibase is the ideal way to build a comp
 
 At Budibase, we’re changing the way businesses build software. With our simple, open-source, low-code platform, expensive and lengthy custom builds are a thing of the past. With Budibase, you can build deployment-ready apps, in minutes.
 
-To start using our call-back form template today, simply click below.
+[Start using our template](https://budibase.app/builder?template=app/call-back-form) today.
