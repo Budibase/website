@@ -1,15 +1,14 @@
 +++
 datasource = "Built-in Database"
-date = ""
+date = 2022-01-18T00:00:00Z
 description = "Our open-source university portal template offers a quickly deployable and powerful app for managing resources, services, and information."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/university-portal"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642418562/cms/University_Portal_1_cau0yr.png"]
 label = "University Portal Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642418579/cms/University_Portal_App_GIF_snihoc.gif"
 summary = "Our open-source university portal template offers a quickly deployable and powerful app for managing resources, services, and information."
-tags = []
+tags = ["Admin", "Education", "Portals"]
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/University_Portal_App_Thumbnail_New_k0t9fk.png"
 thumbnailColor = "seafoam"
 title = "Open-Source University Portal | Budibase | Low-Code Platform "
@@ -47,7 +46,7 @@ University portals can offer a wide range of different features and functionalit
 * Resource bookings.
 * Student-life.
 * Pastoral resources.
-* Academic and enrollment requirements.
+* Academic and enrolment requirements.
 
 Where possible, a higher education portal should also allow students and staff to manipulate this data. This can mean registering for courses, contacting teaching staff, booking resources, or any other admin task.
 
