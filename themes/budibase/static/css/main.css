@@ -371,7 +371,7 @@ a:hover {
 }
 
 a:focus {
-  background-color: transparent !important;
+  background-color: var(--blue500) !important;
 }
 
 
