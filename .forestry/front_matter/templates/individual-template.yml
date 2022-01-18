@@ -36,6 +36,35 @@ fields:
 - type: file
   name: thumbnail
   label: thumbnail
+- name: thumbnailColor
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - green
+    - blue
+    - yellow
+    - orange
+    - purple
+    - indigo
+    - teal
+    - red
+    - celery
+    - magenta
+    - fuchsia
+    - seafoam
+    - chartreuse
+    - 'green-pastel '
+    - red-pastel
+    - orange-pastel
+    - purple-pastel
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: ThumbnailColor
 - type: file
   name: preview
   label: preview
