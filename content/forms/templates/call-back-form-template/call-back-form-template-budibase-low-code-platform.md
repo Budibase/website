@@ -199,4 +199,4 @@ Enjoy free SSO, and no hidden charges. Budibase is the ideal way to build a comp
 
 At Budibase, we’re changing the way businesses build software. With our simple, open-source, low-code platform, expensive and lengthy custom builds are a thing of the past. With Budibase, you can build deployment-ready apps, in minutes.
 
-To start using our call-back form template today, simply click below.
+[Start using our template](https://budibase.app/builder?template=app/call-back-form) today.
