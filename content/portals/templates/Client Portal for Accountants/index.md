@@ -1,15 +1,14 @@
 +++
 datasource = "Built-in Database"
-date = ""
+date = 2022-01-18T00:00:00Z
 description = "Our client portal for accountants is a simple and convenient tool for managing documents and client information. Get started today for free, with Budibase."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/client-portal-for-accountants"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642413485/cms/Client_Portal_for_Accountants_Screenshot_1_ptxxqp.png"]
 label = "Client Portal for Accountants"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642413542/cms/ezgif.com-gif-maker_mmnlhh.gif"
 summary = "Our client portal for accountants is a simple and convenient tool for managing documents and client information."
-tags = []
+tags = ["Client Services", "Accounting", "Portals"]
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502299/cms/Client_Portal_For_Accountants_Thumbnail_New_kujhwm.png"
 thumbnailColor = "orange"
 title = "Client Portal for Accountants | Budibase | Low-Code Platform"
