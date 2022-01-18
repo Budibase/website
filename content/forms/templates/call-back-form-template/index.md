@@ -44,8 +44,6 @@ Call-back forms allow your customers to get in touch, without waiting on the pho
 
 Many companies use basic HTML forms on their websites to book calls. This can be sufficient for small businesses, but functionality is very limited. As businesses grow, they quickly need more sophisticated solutions.
 
-![Call back form template](https://res.cloudinary.com/daog6scxm/image/upload/v1639151210/cms/Call_back_form_template_1_nrrmvj.png "Call back form template form screen")
-
 ## Our call-back form template
 
 Our call-back form template is built for functionality.
@@ -81,7 +79,7 @@ Use this information to categorize queries, and assign agents with the right ski
 
 Use our range of integrations to connect your contact form directly to your CRM or softphone, for seamless relationship management workflows.
 
-![Call back request listings](https://res.cloudinary.com/daog6scxm/image/upload/v1639151381/cms/Call_back_form_template_2_m91okw.png "Call back form view records")
+![Call Back Request App Management Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1642524970/cms/CleanShot_2022-01-18_at_16.55.18_biuyev.png "Call Back Request Form Template Management Screen")
 
 ### Customize data fields
 
@@ -89,7 +87,7 @@ Our call-back form template is fully customizable. You have complete flexibility
 
 For example, you might choose to gather additional data on user queries relating to sales inquiries, or tech support tickets.
 
-The data fields you provide naturally depend on the type of customer interaction. For example, a sales inquiry form should be as concise as possible to maximize conversion rates. Call-back forms for existing customers can be more in-depth, providing more information for agents. 
+The data fields you provide naturally depend on the type of customer interaction. For example, a sales inquiry form should be as concise as possible to maximize conversion rates. Call-back forms for existing customers can be more in-depth, providing more information for agents.
 
 ### Assign agents
 
