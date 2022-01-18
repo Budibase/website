@@ -1,16 +1,15 @@
 +++
 datasource = "Built-in Database"
-date = ""
+date = 2022-01-18T00:00:00Z
 description = "With our employee portal app template, you can quickly deploy a fully functioning self-service portal for your team. Start using Budibase today for free."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/employee-portal"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642416028/cms/Employee_Portal_App_Screenshot_2_hl2vgj.png"]
 label = "Employee Portal App Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642415817/cms/Employee_Portal_App_Gif_tny1iz.gif"
 summary = "With our employee portal app template, you can quickly deploy a fully functioning self-service portal for your team, in minutes."
-tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502299/cms/Employee_Portal_App._Thumbnail_New_svlzc6.png"
+tags = ["Portals", "HR"]
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642521174/cms/Employee_Portal_App_Thumbnail_New_crert5.png"
 thumbnailColor = "teal"
 title = "Employee Portal App Template | Budibase | Custom Portals"
 type = "templates"
