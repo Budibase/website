@@ -1,15 +1,14 @@
 +++
 datasource = "Built-in Databse"
-date = ""
+date = 2022-01-18T00:00:00Z
 description = "Our job portal app development template offers a secure and effective way to post jobs and hire the perfect candidates, with a fully responsive UI."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/job-portal"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642417842/cms/Resposnive_Job_Portal_App_1_cv8lfj.png"]
 label = "Job Portal App Development Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642418053/cms/Responsive_Job_Portal_GIF_hq4dso.gif"
 summary = "Our job portal app development template offers a secure and effective way to list jobs and hire talent."
-tags = []
+tags = ["Portals", "Recruitment", "HR"]
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502299/cms/Responsive_Job_Portal_App_Development_Template_Thumbnail_New_h61xiw.png"
 thumbnailColor = "magenta"
 title = "Job Portal App Development Template | Budibase | Low-Code Platform"
