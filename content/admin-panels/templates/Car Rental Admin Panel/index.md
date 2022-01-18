@@ -1,15 +1,14 @@
 +++
 datasource = "Built-in Database"
-date = ""
+date = 2022-01-18T00:00:00Z
 description = "Our car rental admin panel is built to improve oversight and streamline admin workflows. Start using Budibase today."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/car-rental-admin-panel"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642422387/cms/Car_Rental_Admin_Panel_1_iblm5t.png"]
 label = "Car Rental Admin Panel Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642426950/cms/Car_Rental_Admin_Panel_Gif_lt6sww.gif"
 summary = "Our car rental admin panel is built to improve oversight, cut operating costs, and streamline admin workflows."
-tags = []
+tags = ["Operations", "Car Rental", "Fleet Management", "Admin Panels"]
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/Car_Rental_Admin_Panel_Thumbnail_New_kixjrr.png"
 thumbnailColor = "yellow"
 title = "Car Rental Admin Panel Template | Budibase | Low-Code Platform"
