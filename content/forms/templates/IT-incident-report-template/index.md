@@ -1,16 +1,15 @@
 +++
 datasource = "Built-in database"
-date = ""
+date = 2022-01-18T00:00:00Z
 description = "Our IT incident report template gives businesses a simple form to record incidents in seconds. Start using Budibase today."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/it-incident-report-form"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639153307/cms/IT_Incident_Report_Form_Featured_tpdmwv.png"]
 label = "IT Incident Report Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639395708/cms/IT_Incident_report_form_template_gif_ydajjq.gif"
 summary = "Our IT incident report template gives businesses a simple form to record incidents in seconds."
-tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/IT_Incident_Report_Form_Thumbnail_New_cm856n.png"
+tags = ["Forms", "IT"]
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642523404/cms/IT_Incident_Report_Form_THumbnail_New_vodckc.png"
 thumbnailColor = "celery"
 title = "IT Incident Report Template | Budibase | Low-Code Platform"
 type = "templates"
