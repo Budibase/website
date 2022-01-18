@@ -10,7 +10,8 @@ layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642419170/cms/Content_Approval_Software_GIF_s8hbkq.gif"
 summary = "Our content approval software template is built to simplify and automate editorial processes."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642433208/cms/Content_Approval_Software_Thumbail_rmosrw.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502299/cms/Content_Approval_App_Thumbnail_New_rum3fa.png"
+thumbnailColor = "purple"
 title = "Content Approval Software Template | Budibase | Low-Code Platform"
 type = "templates"
 
