@@ -11,7 +11,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642414534/cms/Cus
 summary = "Our customer account portal template gives you a deployable self-service admin tool, in minutes."
 tags = []
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/Customer_Account_Portal_Thumbnail_New_ttwvws.png"
-thumbnailColor = "purple"
+thumbnailColor = "celery"
 title = "Customer Account Portal Template | Budibase | Low-Code Platform"
 type = "templates"
 
