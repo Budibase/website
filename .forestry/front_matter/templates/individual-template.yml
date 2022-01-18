@@ -36,6 +36,7 @@ fields:
 - type: file
   name: thumbnail
   label: thumbnail
+  description: 600px X 400px thumbnail picture (webp if possible)
 - name: thumbnailColor
   type: select
   default: []
