@@ -10,7 +10,8 @@ layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642412335/cms/Agency_Client_Portal_Template_gif_c82zy4.gif"
 summary = "Our agency client portal provides an effective platform for managing clients, sharing project files, and streamlining communications."
 tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642432127/cms/Agency_Client_Portal_Thumbnail_h64e3n.png"
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/Agency_Client_Portal_Thumbnail_New_ztj5ck.png"
+thumbnailColor = "green"
 title = "Agency Client Portal Template | Budibase | Low-Code Platform"
 type = "templates"
 
