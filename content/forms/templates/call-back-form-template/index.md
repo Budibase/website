@@ -89,7 +89,7 @@ Our call-back form template is fully customizable. You have complete flexibility
 
 For example, you might choose to gather additional data on user queries relating to sales inquiries, or tech support tickets.
 
-The data fields you provide naturally depend on the type of customer interaction. For example, a sales inquiry form should be as concise as possible to maximize conversion rates. Call-back forms for existing customers can be more in-depth, providing more information for agents.
+The data fields you provide naturally depend on the type of customer interaction. For example, a sales inquiry form should be as concise as possible to maximize conversion rates. Call-back forms for existing customers can be more in-depth, providing more information for agents. 
 
 ### Assign agents
 
