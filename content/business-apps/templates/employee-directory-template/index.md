@@ -2,18 +2,18 @@
 datasource = "Built-in database"
 date = ""
 description = "Our employee directory template gives businesses quick and easy access to staff information. Use Budibase to build the perfect directory app in minutes."
-destination = ""
-draft = false
+destination = "https://budibase.app/builder?template=app/employee-directory"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639410530/cms/Employee_Directory_Template_1_yjobma.png"]
 label = "Employee Directory Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639411576/cms/Employee_Directory_Template_Preview_njnl27.gif"
 summary = "Our employee directory template gives businesses quick and easy access to staff information."
-tags = []
+tags = ["HR"]
 thumbnail = "/business-apps/templates/employee-directory-template/images/thumbnail.webp"
-title = "Employee Directory Template | Budibase | Low-Code Platform"
 thumbnailColor = "green-pastel"
+title = "Employee Directory Template | Budibase | Low-Code Platform"
 type = "templates"
+
 +++
 In the age of remote working, collaboration is difficult. Let your employees find and collaborate with colleagues, no matter where they are.
 
