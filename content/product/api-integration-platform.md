@@ -16,6 +16,6 @@ secondBenefitTitle: Connect to your REST APIs and build apps in minutes
 secondBenefitDescription: Budibase's API integration platform helps you integrate with your APIs and build internal apps in minutes. Simply create a REST API datasource within Budibase, enter the URL of the API endpoint, run your query. When Budibase pulls back your data, you can quickly build a beautiful CRUD application in seconds within the design section. 
 secondBenefitImage: /business-apps/templates/open-source-ticketing-system/images/preview.gif
 thirdBenefitTitle: Import Swagger collections and cURL requests
-thirdBenefitDescription: The REST query import feature allows you to import one or more Swaffer collections or cURL requests at a time. The supported formats for import are Swagger 2.0 / OpenAPI 2.0 (yaml or json) and CURL. You can create new data sources with imports, or import queries into existing data sources.
+thirdBenefitDescription: The REST query import feature allows you to import one or more Swagger collections or cURL requests at a time. The supported formats for import are Swagger 2.0 / OpenAPI 2.0 (yaml or json) and CURL. You can create new data sources with imports, or import queries into existing data sources.
 thirdBenefitImage: /img/rest-api/import.png 
 ---
