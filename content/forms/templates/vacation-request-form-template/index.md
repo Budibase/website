@@ -78,6 +78,8 @@ Budibase offers advanced automation and flexibility. Use a range of rules and co
 
 The more closely your vacation request tool matches your HR processes, the better. Our template offers complete flexibility and customization. Tailor your form to fully meet your internal operations.
 
+HR teams will also love our free [travel approval request template](https://budibase.com/approval-apps/templates/travel-approval-request-template/).
+
 ### Customize data fields
 
 Out of the box, our template uses a range of common data fields. These include personal details, and information relating to leave requests. With Budibase, you have complete control over your vacation request requirements.
