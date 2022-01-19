@@ -15,7 +15,7 @@ title = "Maintenance Request Form Template | Budibase | Digital Forms"
 type = "templates"
 
 +++
-Almost every business manages equipment, either internally, or on behalf of clients and tenants. Inevitably, this also means organizing repairs and maintenance for equipment users. This can be part of regular serving, or in response to an emergency. 
+Almost every business manages equipment, either internally, or on behalf of clients and tenants. Inevitably, this also means organizing repairs and maintenance for equipment users. This can be part of regular serving, or in response to an emergency.
 
 In either case, the key is to have smooth and efficient workflows in place. When repairs and maintenance are delayed, it can disrupt your employees’ work, or negatively impact clients.
 
@@ -126,6 +126,8 @@ Many of your equipment users will lack technical expertise. As such, it’s cruc
 Our maintenance request form template is designed to offer maximum usability, even for users with poor technical knowledge or digital literacy.
 
 Data fields are presented in clear, simple language, guiding users to provide the exact details your team needs.
+
+Check out our free [IT incident report template](https://budibase.com/forms/templates/it-incident-report-template/).
 
 ### Add conditionality
 
