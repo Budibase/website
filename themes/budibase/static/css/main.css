@@ -292,18 +292,39 @@ p {
   color: var(--hiContrast);
 }
 
+
 .detail {
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-size: var(--fontsize-2);
+  font-weight: 700;
+}
+
+@media (min-width: 576px) {
+  .detail {
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    font-size: var(--fontsize-3);
+    font-weight: 700;
+  }
+  }
+
+
+
+.detail-lg {
   text-transform: uppercase;
   letter-spacing: 0.07em;
   font-size: var(--fontsize-3);
   font-weight: 700;
 }
 
-.detail-lg {
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  font-size: var(--fontsize-4);
-  font-weight: 700;
+@media (min-width: 576px) {
+  .detail-lg {
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    font-size: var(--fontsize-4);
+    font-weight: 700;
+  }
 }
 
 .detail-xl {
@@ -704,7 +725,7 @@ h6, .h6 {
 }
 
 .display-lead-lg {
-  font-size: var(--fontsize-6);
+  font-size: var(--fontsize-5);
   line-height: 1.4;
   letter-spacing: -0.01em;
   color: var(--gray900);
@@ -1273,8 +1294,8 @@ margin-left: 0rem;
 /* Feature container */
 
 .feature-container {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 2rem;
 }
@@ -1282,12 +1303,32 @@ margin-left: 0rem;
 
 @media (min-width: 992px) {
 .feature-container {
-  display: grid;
-  grid-template-columns: 1fr 55%;
+  display: flex;
   align-items: center;
-  flex-direction: row-reverse ;
+  flex-direction: row;
   gap: 4rem;
+  }
 }
+
+.feature-container-reverse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+@media (min-width: 992px) {
+.feature-container-reverse {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 4rem;
+  }
+}
+
+.feature-content {
+  min-width: 360px;
 }
 
 .external-datasources {
@@ -1330,6 +1371,18 @@ margin-left: 0rem;
 
 .feature-image-lg {
   object-fit: cover;
+}
+
+.max-w-400 {
+  max-width: 400px;
+}
+
+.max-w-600 {
+  max-width: 600px;
+}
+
+.max-w-800 {
+  max-width: 800px;
 }
 
 .internal-db {
@@ -1783,7 +1836,9 @@ margin-left: 0rem;
       align-items: flex-start !important;
 }
 
-.justice-
+.flex-1 {
+  flex: 1;
+}
 
 .flex-column {
   -ms-flex-direction: column !important;
@@ -2157,6 +2212,8 @@ border-radius: 16px;
     border:none;
   }
 }
+
+/* Promo banner */
 
 .promo-banner {
   display: none;
@@ -2795,6 +2852,7 @@ border-radius: .75rem;
   grid-template-rows: 36px 1fr;
   justify-content: left;
   text-align: left;
+  background-color: white;
 }
 
 
