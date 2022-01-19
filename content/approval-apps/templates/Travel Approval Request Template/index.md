@@ -93,6 +93,8 @@ Use our range of third-party app integrations to trigger automations in external
 
 With Budibase’s automation tools, it’s easy and cost-effective to build powerful approval workflow software.
 
+Check out our free [vacation request form template](https://budibase.com/forms/templates/vacation-request-form-template/).
+
 ### Intuitive request and approval UIs
 
 We’ve designed our template for maximum usability. With separate screens for request submission, listings, and management, our template is entirely intuitive.
