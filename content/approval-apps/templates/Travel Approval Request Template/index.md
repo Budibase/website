@@ -2,15 +2,14 @@
 datasource = "Built-in Database"
 date = 2022-01-18T00:00:00Z
 description = "Our travel approval request template is designed to streamline and simplify the way your employees book and manage business trips. Start using Budibase today."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/travel-approval-request-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642421791/cms/Travel_Approval_Request_Template_1_jsn6ya.png"]
 label = "Travel Approval Request Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642421826/cms/Travel_Approval_Request_App_GIF_v8boae.gif"
 summary = "Our travel approval request template is designed to streamline and simplify the way your employees book and manage business trips."
-tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502299/cms/Travel_Approval_Request_Template_Thumbnail_New_frupe5.png"
+tags = ["Operations", "Business Travel", "Approval Apps"]
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642588436/cms/Travel_Approval_Request_Template_Thumbnail_new_y17mmf.png"
 thumbnailColor = "orange-pastel"
 title = "Travel Approval Request Template | Budibase | Low-Code Builder"
 type = "templates"
