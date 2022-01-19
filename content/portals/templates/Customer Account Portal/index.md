@@ -102,6 +102,8 @@ With Budibase, you can build relationships between datasets, to tailor offers to
 
 ![Exclusive Customer Offers Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1642414736/cms/Customer_Account_Portal_Screenshot_3_oofmvj.png "Customer Account Portal Screenshot 3")
 
+Check out our free [content approval software](You might also like our client portal for accountants.) template.
+
 ### Contact form
 
 Of course, not every admin query can be handled with a self-service portal. For more complex issues, customers will need to contact your team. For these situations, we’ve created a simple contact form interface.
