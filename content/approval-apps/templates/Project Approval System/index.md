@@ -121,6 +121,8 @@ For additional information is needed to approve a request, Budibase supports a r
 
 Add your SMTP credentials to send automated emails to users when the status of their request changes. You can also use the _mailto_ command to manually contact other users within our platform.
 
+Check out our [agency client portal](https://budibase.com/portals/templates/agency-client-portal-template/) to streamline communications during project delivery.
+
 ### Responsive design
 
 Our approval request system is fully mobile-friendly. All Budibase tools are mobile-responsive and compliant with key accessibility standards.
