@@ -107,6 +107,8 @@ With our template, you have complete control over how information is exchanged w
 
 Our agency client portal also supports attachments. These are included at the initial request, and project completion stages of the template. Share secure files with clients within your portal, creating a secure, intuitive, and effective file transfer system.
 
+Check out our standalone [project approval system](https://budibase.com/approval-apps/templates/project-approval-system/).
+
 ### Process automation
 
 With Budibase, it’s easy to automate key processes within your agency client portal. We offer a wide range of built-in automations, which can be triggered from any in-app action. Trigger emails from different user actions, or export data to external project management tools.
