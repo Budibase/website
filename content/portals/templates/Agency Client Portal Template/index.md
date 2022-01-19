@@ -163,9 +163,11 @@ At Budibase, we believe in open-source tools. Our goal is to empower businesses 
 
 Unlike other low-code platforms, Budibase is free, forever. We even offer free SSO across all of your Budibase tools. Check out our [pricing page](https://budibase.com/pricing) for more details.
 
+You might also like our [client portal for accountants](https://budibase.com/portals/templates/client-portal-for-accountants/).
+
 ### Secure file transfer
 
-Budibase offers unrivaled security for agencies sharing files with clients. Our template offers several attachment data fields, which allow users to add files to different forms. These can then be automatically shared with clients and employees.
+Budibase offers unrivalled security for agencies sharing files with clients. Our template offers several attachment data fields, which allow users to add files to different forms. These can then be automatically shared with clients and employees.
 
 Adding attachments directly to your client portal database gives you total control over security standards. Enjoy maximum security, without the need to pay for additional file transfer tools.
 
