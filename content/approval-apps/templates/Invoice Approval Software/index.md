@@ -100,6 +100,8 @@ Budibase makes it easy to automate processes across your entire software stack. 
 
 Use our template to create highly automated approval workflows, by connecting to CRMs, payment processing tools, communications software, and more.
 
+You might also like our [client portal for accountants](https://budibase.com/portals/templates/client-portal-for-accountants/).
+
 ### Access control
 
 When it comes to invoice processing, data protection is crucial. Our template makes it easy to control how different users access your invoice approval software. _Basic_ users can submit invoices, and view their own previous submissions.
