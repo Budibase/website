@@ -90,7 +90,7 @@ pages:
 - content/forms/templates/call-back-form-template/index.md
 - content/forms/templates/employee-equipment-checkout-form/index.md
 - content/forms/templates/maintenance-request-form-template/index.md
-- content/forms/templates/recurring-credit-card-authorization-form/recurring-credit-card-authorization-form-template-budibase.md
+- content/forms/templates/recurring-credit-card-authorization-form/index.md
 - content/forms/templates/vacation-request-form-template/vacation-request-form-temple-budibase-open-source-tools.md
 - content/portals/templates/Agency Client Portal Template/index.md
 - content/portals/templates/Client Portal for Accountants/index.md
