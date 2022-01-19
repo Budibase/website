@@ -104,6 +104,8 @@ Give your staff admin tools that will save them time. Our school admin panel is 
 
 ![School Admin Panel Template Student Search Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1642428171/cms/School_Admin_Panel_Template_3_xwtugt.png "Student Search")
 
+Check out our free [university portal template](https://budibase.com/portals/templates/university-portal-app/).
+
 ### Add conditionality
 
 Budibase features powerful conditional UIs. Our template uses conditional formatting to make it easy to call and review different data sets. Use simple dropdown components to quickly access a number of filtered data views
@@ -217,6 +219,6 @@ With minimal technical knowledge, you can create fully customized tools, that pe
 
 Budibase is the fast and cost-effective way to build school admin panels. In minutes, you’ll have the perfect tool for storing, visualizing, and managing behavioral and financial data.
 
-Click get started to begin using our template today. 
+Click get started to begin using our template today.
 
 We also offer tailored support packages and SLAs for large organizations. Check out our [pricing page](https://budibase.com/pricing) for more information.
