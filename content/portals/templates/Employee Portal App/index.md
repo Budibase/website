@@ -87,6 +87,8 @@ Our template offers functionality for distributing company announcements to all 
 
 Budibase also offers full support for email automations. Add your SMTP credentials to trigger email notifications from any in-app action. Employees can also send emails to colleagues directly from the built-in directory, using the _mailto:_ command.
 
+Check out our [agency client portal](https://budibase.com/portals/templates/agency-client-portal-template/) to streamline customer communications.
+
 ### Reduce admin time
 
 Admin tasks are a massive drain on companies’ resources. HR is one of the most admin-intensive verticals in any organization. Our portal empowers employees to complete simple admin tasks quickly and easily.
