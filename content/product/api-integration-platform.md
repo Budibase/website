@@ -7,7 +7,7 @@ type: product
 layout: single
 theme: light-2
 images:
-- /img/rest-api/queries.png
+- /img/meta-images/api-integration-platform.png
 featuredImage: /img/feature-section/rest-api-2.webp
 firstBenefitTitle: Communicate information between multiple APIs
 firstBenefitDescription: Bring together all your business services in one central location by building apps that are integrated with all your enterprise REST APIs. This makes it easier and more flexible to build apps that cross multiple departments and services.
