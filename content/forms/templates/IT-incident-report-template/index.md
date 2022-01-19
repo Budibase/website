@@ -84,6 +84,8 @@ With Budibase, any in-app action can trigger our vast library of automations.
 
 Notify your IT team when a new incident is reported. With Budibase’s range of integrations, you can even trigger specific responses for different classes of incidents.
 
+Check out our free [maintenance request form template](https://budibase.com/forms/templates/maintenance-request-form-template/).
+
 ### Organize and classify incidents
 
 There is a wide range of different kinds of IT incidents. As such, it’s critical to accurately classify incidents, as they’re reported. Out of the box, our template offers data fields for incident categories and severity rates.
