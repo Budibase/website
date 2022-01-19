@@ -195,6 +195,8 @@ Connect our approval system to your existing software stack. We support [externa
 
 Use any in-app action to trigger external app automations, for maximum functionality.
 
+You might also like our free [customer account portal template](https://budibase.com/portals/templates/customer-account-portal/).
+
 ### Security
 
 Security is critical for modern organizations. With Budibase you have complete flexibility to implement your desired security protocols. With custom access control and optional self-hosting, Budibase is the secure way to build low-code apps.
