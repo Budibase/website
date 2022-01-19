@@ -1,5 +1,5 @@
 ---
-date: "2021-10-20"
+date: "2022-01-10"
 title: API integration platform | Budibase
 description: Budibase's API integration platform helps you integrate with your APIs and build internal apps, forms, admin panels, and more in minutes.
 draft: "false"
@@ -7,7 +7,7 @@ type: product
 layout: single
 theme: light-2
 images:
-- /img/feature-section/rest-api-2.webp
+- /img/rest-api/queries.png
 featuredImage: /img/feature-section/rest-api-2.webp
 firstBenefitTitle: Communicate information between multiple APIs
 firstBenefitDescription: Bring together all your business services in one central location by building apps that are integrated with all your enterprise REST APIs. This makes it easier and more flexible to build apps that cross multiple departments and services.

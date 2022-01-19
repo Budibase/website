@@ -597,7 +597,7 @@ input[type="month"] {
 @media (max-width: 576px) {
   .hero-title {
     text-size-adjust: 100%;
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 600;
     margin-top: 0;
     margin-bottom: 0;
@@ -1378,11 +1378,20 @@ margin-left: 0rem;
 }
 
 .max-w-600 {
-  max-width: 600px;
+  max-width: 400px;
 }
-
+@media (min-width: 765px) {
+  .max-w-600 {
+    max-width: 600px;
+  }
+}
 .max-w-800 {
-  max-width: 800px;
+  max-width: 400px;
+}
+@media (min-width: 765px) {
+  .max-w-800 {
+    max-width: 800px;
+  }
 }
 
 .internal-db {
@@ -1593,9 +1602,19 @@ margin-left: 0rem;
 .trusted-by-logos-sm {
   display: flex;
   flex-direction: row;
-  grid-gap: 1.5rem;
+  grid-gap: 3rem;
   align-items: center;
   flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+    .trusted-by-logos-sm {
+      display: flex;
+      flex-direction: row;
+      grid-gap: 1.5rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
 }
 
 .trusted-by-logos-white {
