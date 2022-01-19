@@ -93,6 +93,8 @@ Budibase also offers integration with a number of softphones and instant messagi
 
 ![Employee equipment checkout system template](https://res.cloudinary.com/daog6scxm/image/upload/v1639388460/cms/Employee_equipment_checkout_form_template_2_iaatib.png "Manage employee equipment checkouts")
 
+Check out our free [employee portal app template](https://budibase.com/portals/templates/employee-portal-app/).
+
 ### Automate workflows
 
 Our template is built to automate equipment checkout workflows. Automations can be triggered from any in-app action. Configure your form to trigger any of our built-in automations, to query, manipulate, and use datasets.
