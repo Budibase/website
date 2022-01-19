@@ -105,6 +105,8 @@ All data fields and workflows within these built-in functions are fully customiz
 
 Budibase also offers full scope for adding additional functions. In minutes, you can add new screens, data sources, and automations. Easily create additional screens and interfaces to provide new functions to users.
 
+For new hires, check out our free [job portal app template](https://budibase.com/portals/templates/responsive-job-portal-template/).
+
 ### Process automation
 
 Employee portals are the perfect platforms for automating internal processes. The goal of any internal portal is to empower employees to carry out their own admin tasks. Automation makes this a reality.
