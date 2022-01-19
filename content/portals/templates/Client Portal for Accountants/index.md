@@ -135,6 +135,8 @@ We also offer simple and intuitive customization of our template’s design. Cho
 
 Budibase makes it easy to build fully customized client portals for accountants, in minutes.
 
+You might also like our free [customer account portal template](https://budibase.com/portals/templates/customer-account-portal/).
+
 ## Why build a client portal with Budibase?
 
 At Budibase, we’re building the world’s largest suite of business tools. Say goodbye to expensive custom developments, or subscription fees for off-the-shelf solutions.
