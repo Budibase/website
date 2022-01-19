@@ -110,6 +110,8 @@ Customers can simply add the details of their query, along with their preferred 
 
 Under the admin panel, your team can then manage and respond to queries. We’ve provided contact buttons under each query page, allowing your team to contact customers in seconds, using the _mailto_ command.
 
+Check out our [call-back form template](https://budibase.com/forms/templates/call-back-form-template/), for a standalone contact form app.
+
 ### Custom functionality
 
 Our template is built to expand and scale. With our open-source, low-code platform, you have complete control over your portal’s features and functionality. Even better, you can add new screens and functions in minutes.
