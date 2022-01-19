@@ -121,6 +121,8 @@ Budibase also offers a wide range of integration options. Use Zapier, Webhooks, 
 
 Connect our university portal template to communications tools, CRMs, scheduling apps, or any other education management systems.
 
+Check out our free [school admin panel template](https://budibase.com/admin-panels/templates/school-admin-panel/).
+
 ### Responsive UI
 
 Like all Budibase tools, our template is fully mobile responsive. Empower staff and students to take your portal with them, wherever they go. All design elements automatically scale and resize to fit perfectly on different devices.
