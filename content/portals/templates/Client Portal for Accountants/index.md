@@ -202,6 +202,8 @@ Budibase tools are built for scalability. As your business grows and changes, ou
 
 With our intuitive, low-code builder, you can quickly add new functionality to your client portal, without the need for excessive downtime, or additional development costs.
 
+You might also like our free [invoice approval software template](https://budibase.com/approval-apps/templates/invoice-approval-software/).
+
 ## Start using our client portal template today
 
 At Budibase, we’re changing the way businesses develop custom software tools. With our open-source, low-code platform, you can build effective [business apps](https://budibase.com/business-apps), at a fraction of the cost.
