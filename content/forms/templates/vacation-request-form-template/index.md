@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639409013/cms/Vac
 summary = "Our vacation request form template gives businesses a quick and easy way to manage employee leave."
 tags = ["HR", "Approval Apps", "Forms"]
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642589024/cms/Vacation_Request._Form_Thuumbnail_New_iddehn.png"
-thumbnailColor = "purple-pastel"
+thumbnailColor = "purple"
 title = "Vacation Request Form Temple | Budibase | Open-Source Tools"
 type = "templates"
 
