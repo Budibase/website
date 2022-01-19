@@ -169,6 +169,8 @@ Our open-source platform provides leading security standards. Self-hosting gives
 
 Our low-code platform also offers a range of security features to protect business data. With fully customizable access control, free SSO, OAuth, and OpenID, security is at the heart of Budibase.
 
+For secure fleet management, take a look at our free [car rental admin panel](https://budibase.com/admin-panels/templates/car-rental-admin-panel/) template.
+
 ### Mobile-responsive forms
 
 Budibase forms are fully mobile responsive. Design elements automatically scale and resize to fit perfectly on different devices. You can even use conditional UIs to display simplified forms to mobile users, for optimized user experiences.
