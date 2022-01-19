@@ -1,16 +1,15 @@
 +++
 datasource = "Built-in Database"
-date = ""
+date = 2022-01-19T00:00:00Z
 description = "Our school admin panel template is designed to give maximum oversight over student behavior and school finances. Start using Budibase today for free."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/school-admin-panel"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642427781/cms/School_Admin_Panel_Template_1_a5fefk.png"]
 label = "School Admin Panel Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642427805/cms/School_Admin_Panel_Template_GIF_rbz7ti.gif"
 summary = "Our school admin panel template is designed to give maximum oversight over student behavior and school finances."
-tags = []
-thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502299/cms/School_Portal_Template_Thumbnail_New_lssnkw.png"
+tags = ["Schools", "Education", "Admin Panels"]
+thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642587505/cms/School_admin_panel_thumbnail_new_vju5nx.png"
 thumbnailColor = "red-pastel"
 title = "School Admin Panel Template | Budibase | Low-Code Platform"
 type = "templates"
