@@ -80,7 +80,7 @@ fields:
   label: tags
 pages:
 - content/admin-panels/templates/Car Rental Admin Panel/index.md
-- content/admin-panels/templates/School Admin Panel/school-admin-panel-template-budibase-low-code-platform.md
+- content/admin-panels/templates/School Admin Panel/index.md
 - content/approval-apps/templates/Content Approval Software/index.md
 - content/approval-apps/templates/Invoice Approval Software/index.md
 - content/approval-apps/templates/Project Approval System/index.md
