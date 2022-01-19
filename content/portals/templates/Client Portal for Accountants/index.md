@@ -99,6 +99,8 @@ Add your SMTP credentials to send email notifications to your clients when their
 
 Our template also offers a convenient platform for your internal team to find and contact clients. Under the admin panel, each client’s contact information is detailed. We’ve even provided functionality to quickly email clients, using the _mailto_ command.
 
+Check out our [call-back form template](https://budibase.com/forms/templates/call-back-form-template/), for a standalone contact form app.
+
 ### Access control
 
 Of course, it’s vital to control the data and features that different portal users can access. Your clients and your internal team have very different needs within your client portal. For instance, it’s crucial that clients’ information can only be accessed by authorized users.
