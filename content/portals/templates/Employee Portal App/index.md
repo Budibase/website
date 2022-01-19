@@ -115,6 +115,8 @@ Budibase also supports a variety of third-party [integrations,](https://budibase
 
 ![Employee Portal App Edit Details Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1642416054/cms/Employee_Portal_App_Screenshot_4_ge6x2z.png "Employee Portal App Screenshot 3")
 
+Check out our free [employee equipment checkout form template](https://budibase.com/forms/templates/employee-equipment-checkout-form/).
+
 ### Access control
 
 Of course, it’s crucial to control how users access your employee portal app. Budibase offers customizable user permissions. For instance, some of your team need higher levels of access to carry out admin functions.
