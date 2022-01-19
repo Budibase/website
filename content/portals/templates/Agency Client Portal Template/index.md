@@ -83,6 +83,8 @@ For many projects, a client can request, review, and receive work, without ever 
 
 Our template also supports a full suite of automated communications. Simply add SMTP credentials, and trigger automated emails from any in-app action. Notify team members and clients alike when a project’s status changes.
 
+Check out our free [content approval software](You might also like our client portal for accountants.) template.
+
 ### Customize workflows
 
 Our template is based on a basic creative agency project workflow. Each entry in your _projects_ database is assigned a status, based on how it is progressing. Out of the box, our template offers five statuses, which change throughout the delivery process:
