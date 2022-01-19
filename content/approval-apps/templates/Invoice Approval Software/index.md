@@ -180,6 +180,8 @@ Our template sits perfectly alongside your existing software stack. Budibase sup
 
 Connect our invoice approval software to CRMs, payment processing apps, communications tools, and more for maximum functionality.
 
+Take a look at our [recurring credit card authorization form template](https://budibase.com/forms/templates/recurring-credit-card-authorization-form/).
+
 ### Security
 
 Budibase offers unrivaled security. With custom access control and optional self-hosting, you have complete control over your own security standards.
