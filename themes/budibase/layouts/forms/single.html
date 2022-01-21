@@ -197,21 +197,23 @@
 </div>
 </div>
 
-<div class="container space-2 mx-auto" id="templates">
-  <h2 class="mb-3 mb-4 text-center">
-    Free {{ .Section | singularize}} templates
+<div class="bg-light-2">
+  <div class="container space-2 mx-auto">
+    <h2 class="mb-3 mb-4 text-center">
+      Free {{ .Section | singularize | humanize | lower }} templates
     </h1>
-    <div class=" w-lg-60 mx-auto">
-      <p class="mx-auto display-lead-sm mb-6 text-center"> Explore our favourite free {{ .Section | singularize}}
-        templates. With Budibase's intuitive low-code platform, you can customize your design in just a few clicks.
-      </p>
-    </div>
+  <div class=" w-lg-60 mx-auto">
+    <p class="mx-auto display-lead-sm mb-6 text-center"> Explore our favourite free {{ .Section | singularize | humanize | lower  }} templates. With Budibase's intuitive low-code platform, you can customize your design in just a few clicks.
+  </p>
+  </div>
+  <div class="container-narrow space-2-bottom">
     <div class="templates-cards">
       {{ range where .Pages "Section" "!=" "templates" }}
       {{ range first 3 .Pages }}
       <a href="{{.Permalink}}">
         <div class="templates-card rounded-sm">
-            <img class="template-card-img img-fluid mb-4" src="{{ .Params.thumbnail }}" />
+          <div class="template-thumbnail pt-4 pl-4  mb-4 img-fluid bg-{{ .Params.thumbnailColor }}">
+            <img class="template-card-img img-fluid" src="{{ .Params.thumbnail }}" /></div>
                 <h2 class="h4 mb-3">{{ .Params.label }}</h2>
                 <p class="mb-3">{{ .Summary }} </p>
                 <p class="text-blue text-sm templates-card-link">Get this template</p>
@@ -219,11 +221,7 @@
     </a>
     {{ end }}
     {{ end }}
-    </div>
-    <div class="my-6 text-center">
-      <a href="/forms/templates" class="btn btn-cta btn-lg"> Browse all {{ .Section | singularize | humanize }} templates</a>
-    </div>
-</div>
+    </div></div></div></div>
 
 {{ partial "integrations-templates.html" . }}
 
