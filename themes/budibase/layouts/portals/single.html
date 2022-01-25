@@ -264,6 +264,8 @@ For example, client portals are used to provide exclusive product pages, deals, 
       </a>
       {{ end }}
       {{ end }}
+      </div></div>    <div class="my-3 text-center">
+        <a href="/{{ .Section }}/templates" class="btn btn-cta btn-lg"> Browse all {{ .Section | singularize | humanize | lower  }} templates</a>
       </div></div></div>
   
   {{ partial "integrations-templates.html" . }}
