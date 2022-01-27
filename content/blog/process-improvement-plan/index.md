@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-01-27T00:00:00Z
 description = "Efficient operations are the difference between success and closing your doors. Creating and implementing an effective process improvement plan is critical."
-draft = true
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1643303002/cms/kaleidico-3V8xo5Gbusk-unsplash_a9w5a1.jpg"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Building a Process Improvement Plan with Low-Code Tools"
