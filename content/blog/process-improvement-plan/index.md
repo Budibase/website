@@ -179,7 +179,7 @@ Discrete tools are used to solve a specific pain point within your business proc
 
 For example, many businesses waste large amounts of time tracking employee expenses. Here, you might use [invoice approval software](https://budibase.com/approval-apps/templates/invoice-approval-software/), to eliminate the need for manual reviews, meetings, and document sharing.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1642419951/cms/Invoice_Approval_Software_Screenshot_2_tfgjnl.png)
+![Invoice process discrete tool](https://res.cloudinary.com/daog6scxm/image/upload/v1642419951/cms/Invoice_Approval_Software_Screenshot_2_tfgjnl.png "Invoice approval software")
 
 However, a suitable off-the-shelf tool might not exist, and the specific functionality you need might not justify the cost of a traditional custom build.
 
@@ -195,7 +195,7 @@ This could include requirements gathering, project sign-off, communications, del
 
 Again, low-code platforms offer greater adherence to your internal processes than off-the-shelf tools, at a fraction of the cost of traditional custom developments.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1642413047/cms/Agency_Client_Portal_Screenshot_3_bulete.png)
+![Agency Client Portal Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1642413047/cms/Agency_Client_Portal_Screenshot_3_bulete.png "End to end process improvement")
 
 ### Process automation
 
@@ -221,7 +221,7 @@ Our [digital forms](https://budibase.com/forms) are a simple and easy way to gat
 
 Once you’ve gathered feedback on your current processes, you can use our range of charts and formula variables to analyze, visualize, and collate results.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1642502299/cms/Recurring_Credit_Card_Authorization_Form_Template_Thumbnail_New_g3jhs1.png)
+![Budibase Charts](https://res.cloudinary.com/daog6scxm/image/upload/v1642428297/cms/School_Admin_Panel_Template_5_kvixgj.png "Budibase Charts")
 
 ### Redesigning processes
 
