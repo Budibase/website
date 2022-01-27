@@ -1,15 +1,13 @@
 +++
-author = ""
+author = "Ronan McQuillan"
 date = 2022-01-27T00:00:00Z
 description = "Efficient operations are the difference between success and closing your doors. Creating and implementing an effective process improvement plan is critical."
 draft = true
-images = []
-profilePic = ""
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1643303002/cms/kaleidico-3V8xo5Gbusk-unsplash_a9w5a1.jpg"]
+profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Build a Process Improvement Plan with Low-Code Tools"
 
 +++
-# Building a Process Improvement Plan with Low-Code Tools
-
 Businesses face a more competitive environment than ever before. Often, efficient operations are the difference between success and closing your doors. Knowing how to create and implement an effective process improvement plan is critical.
 
 It doesn’t matter if you run a massive enterprise or a skeleton-staffed startup. Streamlined, effective business processes are essential for maintaining profitability.
@@ -62,6 +60,10 @@ Of course, in the real world, changing processes can be tricky. Many businesses 
 These costs might include new risks, staff training, procurement, or other disruptions. You might even encounter internal resistance to change, from team members who simply like the way things work now.
 
 If your process improvement plan simply deals with how you’d like to do things better, it’s unlikely to stick. You’ll also need a concrete plan for overcoming these obstacles.
+
+![Process improvement plan whiteboard](https://res.cloudinary.com/daog6scxm/image/upload/v1643303054/cms/kaleidico-3V8xo5Gbusk-unsplash_puezdq.jpg "Process improvement plan 1")
+
+> _Image Credit: Kaleidico via Unsplash_
 
 ## Improvement planning in 6 steps
 
@@ -139,6 +141,10 @@ To successfully implement improved processes, you need buy-in at all levels of y
 
 Adoption is directly tied to training. The better your team understands the ins and outs of your process, the more likely they are to follow it. When digitizing business processes, this means ensuring that each team member is fully able to use any new tools and systems.
 
+![Process Improvement plan - stakeholder feedback](https://res.cloudinary.com/daog6scxm/image/upload/v1643303216/cms/jason-goodman-vbxyFxlgpjM-unsplash_svwbg2.jpg "Feedback on process improvement plan")
+
+> _Image credit: Jason Goodman via Unsplash_
+
 ### 6. Monitoring, review, and continuous improvement
 
 Finally, it’s time to measure the impact of your improvement plan. First of all, you’ll want to review what’s working and what isn’t. Have you managed to overcome the pinch points you identified earlier?
@@ -173,6 +179,8 @@ Discrete tools are used to solve a specific pain point within your business proc
 
 For example, many businesses waste large amounts of time tracking employee expenses. Here, you might use [invoice approval software](https://budibase.com/approval-apps/templates/invoice-approval-software/), to eliminate the need for manual reviews, meetings, and document sharing.
 
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1642419951/cms/Invoice_Approval_Software_Screenshot_2_tfgjnl.png)
+
 However, a suitable off-the-shelf tool might not exist, and the specific functionality you need might not justify the cost of a traditional custom build.
 
 Low-code development eliminates these barriers. Instead of settling for an off-the-shelf tool, or paying excessive custom development fees, simply create discrete apps, as and when you need them.
@@ -186,6 +194,8 @@ An example of this might be an [agency client portal](https://budibase.com/porta
 This could include requirements gathering, project sign-off, communications, delivery, and billing.
 
 Again, low-code platforms offer greater adherence to your internal processes than off-the-shelf tools, at a fraction of the cost of traditional custom developments.
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1642413047/cms/Agency_Client_Portal_Screenshot_3_bulete.png)
 
 ### Process automation
 
@@ -210,6 +220,8 @@ As we mentioned earlier, stakeholder engagement is crucial at all stages of your
 Our [digital forms](https://budibase.com/forms) are a simple and easy way to gather information and feedback from team members, across your organization. Check out our [project approval system template](https://budibase.com/approval-apps/templates/project-approval-system/), for inspiration on how to kick off your process improvement efforts.
 
 Once you’ve gathered feedback on your current processes, you can use our range of charts and formula variables to analyze, visualize, and collate results.
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1642502299/cms/Recurring_Credit_Card_Authorization_Form_Template_Thumbnail_New_g3jhs1.png)
 
 ### Redesigning processes
 
