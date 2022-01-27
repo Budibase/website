@@ -1,6 +1,6 @@
 +++
 author = ""
-date = ""
+date = 2022-01-27T00:00:00Z
 description = "Efficient operations are the difference between success and closing your doors. Creating and implementing an effective process improvement plan is critical."
 draft = true
 images = []
