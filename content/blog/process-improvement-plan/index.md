@@ -5,7 +5,7 @@ description = "Efficient operations are the difference between success and closi
 draft = true
 images = []
 profilePic = ""
-title = "Build a Process Improvement Plan with Low-Code Tools | Budibase"
+title = "Build a Process Improvement Plan with Low-Code Tools"
 
 +++
 # Building a Process Improvement Plan with Low-Code Tools
