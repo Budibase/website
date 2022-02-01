@@ -21,7 +21,7 @@
   </div>
   </div>
 </div>
-<div class="bg-light-2 space-2">
+<div class="bg-light-2 space-2-top space-3-bottom">
 <div class="container-narrow ">
   <div class="templates-cards">
   {{ range .Data.Pages.ByTitle }}
@@ -36,7 +36,17 @@
 </a>
   {{ end }}
   </div> 
-</div></div>
+</div>
+</div>
+<div class="article space-2 ">
+  <div class="container-9">
+    <h2>FAQs</h2>
+    <p>Here’s everything you need to know about using our {{ .Section | humanize | singularize | lower}} templates.</p>
+    <div class="faq space-1-top space-3-bottom ">
+    {{ .Content }}
+    </div>
+  </div>
+</div>
 
 {{ partial "cta.html" . }} {{ partial "footer.html" . }}
 </div>
