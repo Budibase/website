@@ -1,0 +1,72 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+<div class="space-2-top container">
+      <h1 class="mb-3 mb-4 text-center">
+        Happy customers
+      </h1>
+    <div class="w-80 w-lg-50 mx-auto">
+      <p class="mx-auto display-lead-lg mb-6 text-center "> {{ .Description }}
+    </p>
+    </div>
+</div>
+<div class="py-4">
+    <div class="container-9 space-2-bottom">
+        <div class="customers-grid">
+            {{ range .Data.Pages }}
+            <a href="{{ .Permalink}}" class="customer-card image-hover-overlay" title="Why {{ .Title }} uses Budibase">
+                <div class="customer-inner">
+                    {{ with .Resources.Match "*/logo*" }}
+                    {{ range . }}
+                        <img src="{{ .RelPermalink }}" />
+                    {{ end }}
+                    {{ end }}
+                        <div class="overlay-2">
+                            <span class="a">Read more ➝</span>
+                        </div>
+                </div>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</div>
+<div class="space-2-top container">
+    <h2 class="mb-3 mb-4 text-center">
+      Happy developers
+    </h2>
+</div>
+<div class="py-4">
+    <div class="container-9 space-2-bottom">
+        <div class="customers-grid">
+            <a href="/customers/covanta" class="customer-card image-hover-overlay" title="Why {{ .Title }} uses Budibase">
+                <div class="customer-inner">
+                        <img src="/img/customers/covanta.png" />
+                        <div class="overlay-2">
+                            <span class="a">Read more ➝</span>
+                        </div>
+                </div>
+            </a>
+            <a href="" class="customer-card image-hover-overlay" title="Why {{ .Title }} uses Budibase">
+                <div class="customer-inner">
+                        <img src="/img/customers/schnellecke-logistics.png" />
+                        <div class="overlay-2">
+                            <span class="a">Read more ➝</span>
+                        </div>
+                </div>
+            </a>
+            <a href="" class="customer-card image-hover-overlay" title="Why {{ .Title }} uses Budibase">
+                <div class="customer-inner">
+                        <img src="/img/customers/covanta.png" />
+                        <div class="overlay-2">
+                            <span class="a">Read more ➝</span>
+                        </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+{{ partial "cta.html" . }} {{ partial "footer.html" . }}
+</div>
+</div>
