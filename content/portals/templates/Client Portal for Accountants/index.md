@@ -162,9 +162,9 @@ Budibase is the smart way to build client portals for accountants, with features
 
 Our open-source, low-code platform is the fast and cost-effective way to build feature-packed client portals. With Budibase, you can create incredible client-facing apps, in a matter of minutes.
 
-Budibase is free, forever. We don’t charge hidden fees to deploy new features. Self-host as many tools as you need. We do offer premium support and SLAs for enterprise customers. Check out our [pricing page](https://budibase.com/pricing) for more information.
+Budibase is free, forever. Self-host as many tools as you need. We do offer premium support and SLAs for enterprise customers. Check out our [pricing page](https://budibase.com/pricing) for more information.
 
-### Self-hosting, managed infrastructure, or cloud deployment
+### Self-hosting & cloud deployment
 
 With Budibase, you’re in control of how you deploy your business apps. Choose from self-hosting or our new Budibase Cloud platform. Budibase offers the flexibility to deploy tools internally as web apps.
 
