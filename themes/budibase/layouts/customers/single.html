@@ -9,9 +9,16 @@
     <div class="container-12 customer-grid">
         <section class="mt-2"><a href="/customers" class=" text-blue text-xs">← Back</a></section>      
         <section class="customer-content article">
+                      {{ with .Resources.Match "*/cover*" }}
+            {{ range . }}
+              <img src="{{ .RelPermalink }}" class="w-100 rounded mb-4" />
+            {{ end }}
+          {{ end }}
             <h1 class="h2 mb-4">{{ .Params.Customer }}</h1>
             <p class="display-lead linear-wipe">{{ .Description }}</p>
+
             <div class="mb-6">{{ .Content }}</div>
+            <p> {{.Params.Author }}<br><span class="opacity-50">{{.Params.Position }}</span></p>
         </section>
         <section class="customer-meta-data bg-gray rounded p-4">
             {{ with .Resources.Match "*/logo*" }}

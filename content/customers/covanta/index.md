@@ -13,6 +13,8 @@ founded: "1986"
 Revenue: 1.868 billion USD
 Industry: Renewable Energy / Waste Management
 Website: https://www.covanta.com/
+author: Charles Link
+position: Senior Director, Data and Analytics
 ---
 
 
