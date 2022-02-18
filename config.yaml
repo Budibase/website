@@ -3,7 +3,6 @@ languageCode: "en-uk"
 title: "Budibase"
 theme: "budibase"
 enableEmoji: "true"
-
 copyright: "This work is licensed and owned by Budibase"
 
 markup:
