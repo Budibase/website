@@ -5,6 +5,6 @@ type: customers
 layout: list
 date: "2021-02-02"
 images:
-- /img/meta-images/templates.png
+- /img/meta-images/customers.png
 - budibase-logo.jpg
 ---
