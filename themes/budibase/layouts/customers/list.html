@@ -1,0 +1,194 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+<div class="space-2-top container-fw bg-light-2">
+    <div class="container">
+      <h1 class="mb-3 mb-4 text-center ">
+        Happy customers
+      </h1>
+    <div class="w-80 w-lg-50 mx-auto">
+      <p class="mx-auto display-lead mb-2 text-center"> {{ .Description }}
+    </p>
+    </div></div>
+
+
+<div class="py-4">
+    <div class="container-9 space-2-bottom">
+        <div class="customers-grid">
+            {{ range .Data.Pages }}
+            <a href="{{ .Permalink}}" class="customer-card image-hover-overlay" title="Why {{ .Title }} uses Budibase">
+                <div class="customer-inner">
+                    {{ with .Resources.Match "*/logo*" }}
+                    {{ range . }}
+                        <img src="{{ .RelPermalink }}" />
+                    {{ end }}
+                    {{ end }}
+                        <div class="overlay-2">
+                            <span class="a text-sm">Read more ➝</span>
+                        </div>
+                </div>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="space-2-top container">
+    <h2 class="mb-3 mb-4 text-center">
+      Happy developers
+    </h2>
+</div>
+<div class="py-4">
+    <div class="container-narrow space-2-bottom">
+        <div class="comments-grid">
+            <a href="https://twitter.com/n0c0de1/status/1488779933107499008" class="comments-card" target="_blank">
+                <div class="comment-card-inner">
+                    <img src="/img/customers/noco.png" class="u-sm-avatar rounded-circle mr-3" />
+                    <div class="comment-card-content">
+                        <h6>n0c0de</h6>
+                        <p class="text-xs text-thin">Kid you not .... @budibase is the best #opensource #nocode platform with a focus on aesthetics out there! Period!
+
+                            Built this while taking a break in a hectic job! It's 1000x</p>
+                    </div> 
+                </div>
+            </a>
+            
+            <a href="https://twitter.com/tonyennis/status/1460706508593840132" class="comments-card" target="_blank">
+                <div class="comment-card-inner">
+                    <img src="/img/customers/tony.jpeg" class="u-sm-avatar rounded-circle mr-3" />
+                    <div class="comment-card-content">
+                        <h6>Tony Ennis</h6>
+                        <p class="text-xs text-thin">Prediction: @budibase will become one of those products you start to hear more and more companies using as low-code tools continue to gain steam. World class team and product in growing space, nailing execution 👏</p>
+                    </div> 
+                </div>
+            </a>
+            <a href="https://twitter.com/HainingMax/status/1460611805403824129" class="comments-card" target="_blank">
+                <div class="comment-card-inner">
+                    <img src="/img/customers/max.png" class="u-sm-avatar rounded-circle mr-3" />
+                    <div class="comment-card-content">
+                        <h6>Max Haining</h6>
+                        <p class="text-xs text-thin">Admittledly, I kinda get scared of "low-code" platforms. 
+
+                            They're meant for more "techie" folks...right?
+                            
+                            That's until I played with @budibase for the first time and built a lead gen tool in under 30 mins 🤯
+                            
+                            Seriously, go have a play and support.</p>
+                    </div> 
+                </div>
+            </a>
+            <a href="https://twitter.com/bossnayamoss/status/1460548823030321161" class="comments-card" target="_blank">
+                <div class="comment-card-inner">
+                    <img src="/img/customers/naya.jpeg" class="u-sm-avatar rounded-circle mr-3" />
+                    <div class="comment-card-content">
+                        <h6>Naya</h6>
+                        <p class="text-xs text-thin">I came across Budibase & tried it out last week when I was looking for a laravel CRUD starter
+
+                            this is a game changer for folks like myself that like low code projects
+                            
+                            rbac & sso are huge considering most no code co's consider these enterprises features that require contract etc</p>
+                    </div> 
+                </div>
+            </a>
+            <a href="https://twitter.com/tonyennis/status/1460706508593840132" class="comments-card" target="_blank">
+                <div class="comment-card-inner">
+                    <img src="/img/customers/Vikrant.jpeg" class="u-sm-avatar rounded-circle mr-3" />
+                    <div class="comment-card-content">
+                        <h6>Vikrant Sharma</h6>
+                        <p class="text-xs text-thin">Thanks for letting us try out the Budibase Cloud. Open-source low-code will be a disruptive force in the enterprise custom app development space, and will change the game for everyone. Well done team Budibase.</p>
+                    </div> 
+                </div>
+            </a>
+            <a href="https://twitter.com/opensas/status/1460561333422854145" class="comments-card" target="_blank">
+                <div class="comment-card-inner">
+                    <img src="/img/customers/opensas.jpeg" class="u-sm-avatar rounded-circle mr-3" />
+                    <div class="comment-card-content">
+                        <h6>opensas</h6>
+                        <p class="text-xs text-thin">Hey, another great reason to give @budibase a try is that's is open source and made with @sveltejs, with really lot's of great ideas to inspire you. Definetely one of the most interesting and complex pieces of svelte code available to study and learn from.</p>
+                    </div> 
+                </div>
+            </a>
+            <a href="https://twitter.com/drury297/status/1460564638647693315" class="comments-card" target="_blank" target="_blank">
+                <div class="comment-card-inner">
+                    <img src="/img/customers/angela.jpeg" class="u-sm-avatar rounded-circle mr-3" />
+                    <div class="comment-card-content">
+                        <h6>Angela Reed RGN</h6>
+                        <p class="text-xs text-thin">Imagine a tool kit that allows people who aren't programmers to build web apps - @budibase have got just that - quickly produce secure maintainable solutions functional across mobile & desktop.</p>
+                    </div> 
+                </div>
+            </a>
+            <a href="https://twitter.com/chrismcclelland/status/1460668357397684230" class="comments-card" target="_blank" target="_blank">
+                <div class="comment-card-inner">
+                    <img src="/img/customers/chris.jpeg" class="u-sm-avatar rounded-circle mr-3" />
+                    <div class="comment-card-content">
+                        <h6>Chris McClelland</h6>
+                        <p class="text-xs text-thin">100%. It’s been so great to see the pace and quality set by the brilliant team at @budibase. 
+
+                            Another top class product being built in N. Ireland. </p>
+                    </div> 
+                </div>
+            </a>
+            <a href="https://twitter.com/MarkOSullivan94/status/1460599453153476610" class="comments-card" target="_blank" target="_blank">
+                <div class="comment-card-inner">
+                    <img src="/img/customers/mark.jpeg" class="u-sm-avatar rounded-circle mr-3" />
+                    <div class="comment-card-content">
+                        <h6>Mark O'Sullivan</h6>
+                        <p class="text-xs text-thin">I was completely blown away by @budibase when I tried it out, exciting to see them launch on @ProductHunt today! 🚀</p>
+                    </div> 
+                </div>
+            </a>
+            <a href="https://github.com/Budibase/budibase/discussions/4527#discussioncomment-2189810" class="comments-card" target="_blank" target="_blank">
+                <div class="comment-card-inner">
+                    <img src="https://avatars.githubusercontent.com/u/29649651?s=64&v=4" class="u-sm-avatar mr-3" />
+                    <div class="comment-card-content">
+                        <h5>ggs331</h5>
+                        <p class="text-xs text-thin">Great team, great works!</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/Budibase/budibase/discussions/4412" class="comments-card" target="_blank">
+                <div class="comment-card-inner">
+                    <img src="https://avatars.githubusercontent.com/u/91694057?s=64&v=4" class="u-sm-avatar rounded-circle mr-3" />
+                    <div class="comment-card-content">
+                        <h5>Onkelschlag</h5>
+                        <p class="text-xs text-thin">Love budibase so much so far</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/Budibase/budibase/discussions/1041" class="comments-card" target="_blank" target="_blank">
+                <div class="comment-card-inner">
+                    <img src="https://avatars.githubusercontent.com/u/4890548?s=64&v=4" class="u-sm-avatar rounded-circle mr-3" />
+                    <div class="comment-card-content">
+                        <h5>inputsh                        </h5>
+                        <p class="text-xs text-thin">Thank you for the awesome app!</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/Budibase/budibase/discussions/4465" class="comments-card" target="_blank" target="_blank">
+                <div class="comment-card-inner">
+                    <img src="https://avatars.githubusercontent.com/u/40722408?s=64&v=4" class="u-sm-avatar rounded-circle mr-3" />
+                    <div class="comment-card-content">
+                        <h5>gerhardmpl</h5>
+                        <p class="text-xs text-thin">Only 24h into Budibase and already really impressed.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/Budibase/budibase/discussions/4410" class="comments-card" target="_blank" target="_blank">
+                <div class="comment-card-inner">
+                    <img src="https://avatars.githubusercontent.com/u/14031077?s=64&v=4" class="u-sm-avatar rounded-circle mr-3" />
+                    <div class="comment-card-content">
+                        <h5>oekeur
+                        </h5>
+                        <p class="text-xs text-thin">First of all: loving the product!</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+{{ partial "cta.html" . }} {{ partial "footer.html" . }}
+</div>
+</div>
