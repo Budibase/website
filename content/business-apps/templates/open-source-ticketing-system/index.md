@@ -13,12 +13,6 @@ preview: "/business-apps/templates/open-source-ticketing-system/images/preview.g
 datasource: "Built-in database"
 destination: "https://budibase.app/builder?template=app/it-help-desk"
 thumbnailColor: yellow
-tags:
-- internal-tool
-- it-manager
-- it
-- business-app
-- strategy
 ---
 
 

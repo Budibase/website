@@ -8,7 +8,6 @@ label = "Employee Portal App Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642415817/cms/Employee_Portal_App_Gif_tny1iz.gif"
 summary = "With our employee portal app template, you can quickly deploy a fully functioning self-service portal for your team, in minutes."
-tags = ["Portals", "HR"]
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642521580/cms/CleanShot_2022-01-18_at_15.58.39_kbby9j.png"
 thumbnailColor = "teal"
 title = "Employee Portal App Template | Budibase | Custom Portals"
