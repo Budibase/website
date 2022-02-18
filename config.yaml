@@ -3,7 +3,8 @@ languageCode: "en-uk"
 title: "Budibase"
 theme: "budibase"
 enableEmoji: "true"
-
+disableKinds: ["taxonomy"]
+ignoreErrors: ["error-disable-taxonomy"]
 copyright: "This work is licensed and owned by Budibase"
 
 markup:
