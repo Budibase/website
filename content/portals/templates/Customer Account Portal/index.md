@@ -8,7 +8,6 @@ label = "Customer Account Portal Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642414534/cms/Customer_Account_Portal_GIF_s52nel.gif"
 summary = "Our customer account portal template gives you a deployable self-service admin tool, in minutes."
-tags = ["Customer Service", "B2C", "Portals"]
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/Customer_Account_Portal_Thumbnail_New_ttwvws.png"
 thumbnailColor = "yellow"
 title = "Customer Account Portal Template | Budibase | Low-Code Platform"

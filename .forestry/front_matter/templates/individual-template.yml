@@ -75,9 +75,6 @@ fields:
 - type: text
   name: destination
   label: destination
-- type: list
-  name: tags
-  label: tags
 pages:
 - content/admin-panels/templates/Car Rental Admin Panel/index.md
 - content/admin-panels/templates/School Admin Panel/index.md

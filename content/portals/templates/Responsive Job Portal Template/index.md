@@ -8,7 +8,6 @@ label = "Job Portal App Development Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642418053/cms/Responsive_Job_Portal_GIF_hq4dso.gif"
 summary = "Our job portal app development template offers a secure and effective way to list jobs and hire talent."
-tags = ["Portals", "Recruitment", "HR"]
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502299/cms/Responsive_Job_Portal_App_Development_Template_Thumbnail_New_h61xiw.png"
 thumbnailColor = "magenta"
 title = "Job Portal App Development Template | Budibase | Low-Code Platform"

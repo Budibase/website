@@ -8,7 +8,6 @@ label = "Client Portal for Accountants"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642413542/cms/ezgif.com-gif-maker_mmnlhh.gif"
 summary = "Our client portal for accountants is a simple and convenient tool for managing documents and client information."
-tags = ["Client Services", "Accounting", "Portals"]
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642517667/cms/Client_Portal_for_Accountants_Thumbnail_New_owujox.png"
 thumbnailColor = "orange"
 title = "Client Portal for Accountants | Budibase | Low-Code Platform"
