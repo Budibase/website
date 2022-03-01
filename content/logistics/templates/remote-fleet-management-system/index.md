@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-01T00:00:00Z
 description = "Our remote fleet management system is built to simplify operations, provide oversight, and maximize profitability. Use Budibase today for free."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/remote-fleet-management-system"
 images = []
 label = "Remote Fleet Management System Template"
 layout = "single"
