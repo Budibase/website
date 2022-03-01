@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-01T00:00:00Z
 description = "Our logistics request form template simplifies client onboarding, cost estimation, and project initiation. Start using Budibase today for free."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/logistics-request-form"
 images = []
 label = "Logistics Request Form Template"
 layout = "single"
