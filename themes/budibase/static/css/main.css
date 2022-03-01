@@ -252,6 +252,13 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.07em;
   font-size: var(--fontsize-1);
+  font-weight: 600;
+}
+
+.detail-xs {
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -854,6 +861,10 @@ mark,
 .list-unstyled {
   padding-left: 0;
   list-style: none;
+}
+
+.min-width-180 {
+  min-width: 180px !important;
 }
 
 .list-inline {
@@ -1832,7 +1843,6 @@ margin-left: 0rem;
 .row {
   display: -ms-flexbox;
   display: flex;
-  gap: 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -2941,7 +2951,7 @@ border-radius: .75rem;
 
  .template-header {
    display: flex;
-   align-items: baseline;
+   align-items: center;
    justify-content: space-between;
    flex-wrap: wrap;
    gap: 1.5rem;
@@ -6021,8 +6031,8 @@ button:focus {
 }
 
 .navbar-expand .u-header__mega-menu-wrapper-v1 {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
 }
 
 .navbar-expand .u-header__nav-item-btn {
@@ -6440,8 +6450,7 @@ button:focus {
     margin-left: auto;
   }
   .navbar-expand-lg .u-header__navbar-nav .u-header__nav-link {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+
     padding-right: 0rem;
     padding-left: 0rem;
   }
@@ -6474,8 +6483,8 @@ button:focus {
     padding: 0;
   }
   .navbar-expand-lg .u-header__navbar-nav .u-header__sub-menu-nav-link {
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
     transition: all 200ms ease;
   }
 
@@ -6490,23 +6499,21 @@ button:focus {
     padding: 0;
   }
   .navbar-expand-lg .u-header__mega-menu-list {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+
     padding-left: 0;
     list-style: none;
   }
   .navbar-expand-lg .u-header__mega-menu-col {
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
   .navbar-expand-lg .u-header__mega-menu-col:first-child {
-    padding-left: 1.5rem;
+    padding-left: .5rem;
   }
   .navbar-expand-lg .u-header__mega-menu-col:not(:last-child) {
-    border-right: 1px solid #e3e6f0;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
   }
   .navbar-expand-lg .u-header__mega-menu-wrapper-v1 {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+
   }
 
   .navbar-expand-lg .u-header__nav-item-user {
@@ -6575,7 +6582,6 @@ button:focus {
     border-radius: var(--radius-2);
     margin-top: -10px;
     background-color: var(--white);
-    padding: var(--space-2);
     box-shadow:  0 6px 20px rgb(84 70 35 / 30%), 0 0 1px rgb(84 70 35 / 50%)
   }
   .navbar-expand-lg .u-header__navbar-nav .u-header__nav-link {
