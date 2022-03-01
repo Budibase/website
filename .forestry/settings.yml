@@ -5,6 +5,11 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/logistics
+  label: Logistics
+  create: all
+  match: "**/*"
+- type: directory
   path: content/admin-panels
   label: Admin panels
   create: all
