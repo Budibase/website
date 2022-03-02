@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-03-02T00:00:00Z
 description = "In large organizations, vendor lock-in is one of the key barriers to adopting newer, better technologies. Here’s everything you need to know."
-draft = true
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646213382/cms/scott-graham-OQMZwNd3ThU-unsplash_dak8ee.jpg"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "What is Vendor Lock-in & How Do You Avoid It?"
