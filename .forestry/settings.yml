@@ -6,6 +6,11 @@ webhook_url:
 sections:
 - type: directory
   path: content/logistics
+  label: Legal
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/logistics
   label: Logistics
   create: all
   match: "**/*"
