@@ -199,7 +199,7 @@ With platforms like Budibase, organizations can build tools that fully meet thei
 
 One common way to use open-source technology to avoid vendor lock-in is _containerization_.
 
-By using deployment tools like Kubernetes and Docker, open-source platforms can be deployed to a range of cloud-based and on-premises platforms, depending on your specific needs.
+By using deployment tools like [Kubernetes](https://budibase.com/integration/kubernetes/) and [Docker](https://budibase.com/integration/docker/), open-source platforms can be deployed to a range of cloud-based and on-premises platforms, depending on your specific needs.
 
 ## Mitigating the impact of lock-in with low-code tools
 
