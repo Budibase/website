@@ -5,6 +5,11 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/manufacturing
+  label: Manufacturing
+  create: all
+  match: "**/*"
+- type: directory
   path: content/healthcare
   label: Healthcare
   create: all
