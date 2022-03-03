@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-03T00:00:00Z
 description = "Use our free project cost estimation template to itemize tasks and calculate estimates, in seconds. "
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/project-cost-estimation-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646327546/cms/Project_Cost_Estimation_Template_1_zsej5t.png"]
 label = "Project Cost Estimation Template"
 layout = "single"
