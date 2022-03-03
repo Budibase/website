@@ -4,7 +4,7 @@ date = 2022-03-03T00:00:00Z
 description = "Our case management template is built to maximize efficiency, oversight, and profitability within legal firms. Start using Budibase today for free."
 destination = ""
 draft = true
-images = []
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646301391/cms/Legal_Case_Management_Template_6_vn8uka.png"]
 label = "Legal Case Management Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646301082/cms/Legal_Case_Management_Template_Gif_wyprv0.gif"
@@ -43,6 +43,8 @@ Even simple legal tasks include extensive analysis, approval processes, informat
 Case management software is the first step towards overcoming this.
 
 Digitizing your workflows allows you to identify pain points, inefficiencies, and opportunities for improvement. This means simplifying admin processes and leveraging automations to reduce operational costs.
+
+![Case Management Template Home Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1646301293/cms/Legal_Case_Managment_Template_sg4dd5.png "Case Management Template Home Screen")
 
 ### What should case management tools contain?
 
@@ -84,6 +86,8 @@ Quickly update project budgets, spending, requirements, documentation, statuses,
 
 Use our template to categorize and organize cases and resources. We’ve also provided functionality for calculating, analyzing, and managing spending across cases.
 
+![Case management spend calculations](https://res.cloudinary.com/daog6scxm/image/upload/v1646301329/cms/Legal_Case_Management_Template_7_w5lfmb.png "Manage Spending across cases")
+
 ### Track spending and project budgets
 
 Our template offers exceptional cost management for legal cases. Set project budgets rates for each individual case. Employees can quickly log time against projects, automatically updating the total spend in real-time.
@@ -108,6 +112,8 @@ With Budibase, it’s easy to automate everything from project approval, to invo
 
 Add your SMTP credentials to trigger automated emails with our case management template, or connect directly to external communications tools.
 
+![Add a new case](https://res.cloudinary.com/daog6scxm/image/upload/v1646301366/cms/Legal_Case_Management_Template_2_yex2vm.png "New Case")
+
 ### Filtering and searchability
 
 Filter, search, and locate key case information, in seconds. We’ve provided _dynamic filter_ components throughout our case management solution. Filter listings pages, based on any combination of variables.
@@ -123,6 +129,8 @@ Our case management template offers advanced analytics and data visualization. W
 Use dynamic filtering to group and analyze cases, based on their project lead, client, budget, and more.
 
 We’ve also added budget snapshots to each individual case’s detail screen, providing quick and easy insights into expenditure.
+
+![Case Management Template Analytics Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1646301391/cms/Legal_Case_Management_Template_6_vn8uka.png "Case Management Template Analytics Screen")
 
 ### Responsive design
 
@@ -162,6 +170,8 @@ Build deployment-ready, feature-packed tools in minutes, or use one of our [app 
 
 We also offer enterprise support packages and SLAs. Check out our [pricing page](https://budibase.com/pricing) for more information.
 
+![Case management template timesheets](https://res.cloudinary.com/daog6scxm/image/upload/v1646301445/cms/Legal_Case_Management_Template_4_rlbto1.png "Case management template time sheets")
+
 ### External database support
 
 Budibase offers extensive support for external data sources. Connect your tools to existing data, using MySQL, MSSQL, Postgresql, Oracle, Airtable, RestAPI, CouchDB, MongoDB, S3, and more.
@@ -185,6 +195,8 @@ Connect to [approval apps](https://budibase.com/approval-apps), invoicing softwa
 Organizations around the world choose Budibase to secure even the most sensitive data. Cyber security is a top risk factor for modern legal departments. Budibase is the smart choice for data protection.
 
 We also offer free SSO across all of your tools, as well as support for OAuth and OpenID.
+
+![Manage case leads](https://res.cloudinary.com/daog6scxm/image/upload/v1646301473/cms/Legal_Case_Management_Template_5_i0jkzm.png "Case Leads Screen")
 
 ### Scalability
 
