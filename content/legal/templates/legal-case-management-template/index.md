@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-03T00:00:00Z
 description = "Our case management template is built to maximize efficiency, oversight, and profitability within legal firms. Start using Budibase today for free."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/legal-case-management-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646301391/cms/Legal_Case_Management_Template_6_vn8uka.png"]
 label = "Legal Case Management Template"
 layout = "single"
