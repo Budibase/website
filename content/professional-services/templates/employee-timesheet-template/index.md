@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-03T00:00:00Z
 description = "Our employee timesheet template simplifies project management, job costing, and payroll processes. Log time, track projects and supercharge profitability."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/employee-timesheet-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646326310/cms/Employee_Timesheet_Template_1_rqrkqz.png"]
 label = "Employee Timesheet Template"
 layout = "single"
