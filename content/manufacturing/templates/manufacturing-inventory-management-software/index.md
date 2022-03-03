@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-03T00:00:00Z
 description = "Our manufacturing inventory management software is built for maximum oversight, efficiency, and automation. Start using Budibase today."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/manufacturing-inventory-management-software"
 images = []
 label = "Manufacturing inventory management software"
 layout = "single"
@@ -38,6 +37,8 @@ The way your raw materials inventory influences your production processes will d
 As such, off-the-shelf solutions are unlikely to be effective.
 
 Building a custom solution is the most effective way to achieve an inventory management tool that drives ROI.
+
+![manufacturing inventory management software home screen](https://res.cloudinary.com/daog6scxm/image/upload/v1646323748/cms/Manufacturing_Inventory_Management_Template_4_ikqwk1.png "Manufacturing inventory management software")
 
 ### What should inventory management for the manufacturing industry include?
 
@@ -87,6 +88,8 @@ Our template features dedicated analytics screens for both _product_ and _raw ma
 
 Our analytics screens feature dynamic filter components. Quickly search, segment, and isolate data, based on any combination of variables and expressions.
 
+![product analytics screen](https://res.cloudinary.com/daog6scxm/image/upload/v1646323825/cms/Manufacturing_Inventory_Management_Template_3_estgtw.png "Product analytics screen")
+
 ### Process automation
 
 Our template is built for automation in supply chains and product workflows. Trigger our library of built-in automations, using any in-app action. Eliminate manual admin tasks, by triggering powerful automations at the click of a button.
@@ -110,6 +113,8 @@ Use our intuitive, [multi-step forms](https://budibase.com/forms) to collect eff
 We’ve provided multi-step forms, to provide simple, streamlined user experiences. Register stock arrivals, movement, distribution, and dispatches, in seconds.
 
 Our forms are fully customizable. Add, edit, or remove any data field, and update your forms at the press of a button. Use conditional formatting to hide, display, or update any component, based on form inputs.
+
+![New Product Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1646323855/cms/Manufacturing_Inventory_Management_Template_2_t4ssx8.png "New Product Screen")
 
 ### Role-based access control
 
@@ -160,6 +165,8 @@ Our open-source, low-code platform offers best-in-class flexibility, customizati
 Budibase supports a huge variety of external data sources. Connect our template to existing databases, using MySQL, MSSQL, Postgresql, Airtable, MongoDB, CouchDB, S3, RestAPI, and more.
 
 We also offer our own built-in BudibaseDB, with support for direct CSV uploads.
+
+![Materials Analytics](https://res.cloudinary.com/daog6scxm/image/upload/v1646323893/cms/Manufacturing_Inventory_Management_Template_5_nq7kn3.png "Materials Analytics")
 
 ### Self-hosting & cloud deployment
 
