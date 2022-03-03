@@ -2,9 +2,9 @@
 datasource = "Built-in Database"
 date = 2022-03-03T00:00:00Z
 description = "Our quality control checklist template empowers manufacturing businesses to simplify inspections, spot-checks, and other QA tasks. Start using Budibase for free."
-destination = ""
+destination = "https://budibase.app/builder?template=app/manufacturing-quality-control-checklist"
 draft = true
-images = []
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646325248/cms/Manufacturing_Quality_Control_Checklist_1_ryzkre.png"]
 label = "Manufacturing Quality Control Checklist Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646324771/cms/Manufacturing_Quality_Control_Checklist_Gif_ivrkru.gif"
