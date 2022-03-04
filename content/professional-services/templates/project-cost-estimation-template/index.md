@@ -171,7 +171,7 @@ Budibase is the smart way to centralize data. Call, query, and manipulate inform
 
 Host and deploy your Budibase tools however you like. Choose self-hosting or Budibase Cloud. Deploy to your own infrastructure using Kubernetes, Docker, Docker Compose, Digital Ocean, and more.
 
-Budibase tools can be deployed in minutes. Use our template as an internal tool, web application, or mobile app.
+Budibase tools can be deployed in minutes.
 
 ### Third-party integrations
 
