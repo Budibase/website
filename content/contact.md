@@ -1,6 +1,6 @@
 ---
-title: "Contact Budibase - We try to respond within 2 hours"
-description: "Contact Budibase. Complete the contact form and we promise to respond as soon as possible."
+title: "Contact Sales - Budibase"
+description: "Contact the Budibase sales team to learn more about our low-code platform and offerings."
 type: contact
 layout: single
 date: 2018-07-31
