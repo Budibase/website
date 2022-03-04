@@ -109,7 +109,7 @@ Our hospital admission form template works perfectly on all devices. Design elem
 
 Use our template on your internal devices, or allow patients to complete forms on their own phones and tablets.
 
-Budibase is the perfect way to build web applications, mobile apps, internal tools, and more.
+Budibase is the perfect way to build web applications and internal tools.
 
 ![Hospital Admission Form](https://res.cloudinary.com/daog6scxm/image/upload/v1646390217/cms/Hospital_Admission_Form_3_qjxwoq.png "Hospital Admission Form")
 
