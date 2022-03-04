@@ -3120,6 +3120,29 @@ border-radius: .75rem;
 }
 }
 
+.product-card-dark {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: baseline;
+  padding: var(--space-6) var(--space-4);
+  transition: all .5s ease-in-out;
+  border-bottom: 1px solid var(--gray900);
+  gap: var(--space-3);
+  background-color: black;
+}
+
+@media (min-width: 768px) {
+.product-card-dark {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  align-items: baseline;
+  padding: var(--space-6) var(--space-4);
+  border-bottom: 1px solid var(--gray1000);
+  gap: var(--space-3);
+  background-color: black;
+}
+}
+
 @media (max-width: 768px) {
   .blog-item {
     display: flex;
