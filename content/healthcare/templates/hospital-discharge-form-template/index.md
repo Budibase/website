@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-04T00:00:00Z
 description = "Our hospital discharge form template is built to improve oversight and streamline patient release workflows. Manage communications and admin tasks with Budibase."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/hospital-discharge-form"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646391876/cms/Hospital_Discharge_Form_1_zrjihp.png"]
 label = "Hospital Discharge Form Template"
 layout = "single"
