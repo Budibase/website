@@ -4,7 +4,7 @@ date = 2022-03-04T00:00:00Z
 description = "Our open-source IT knowledge base is the perfect solution for storing, managing, sorting, and utilizing technical information. Start using Budibase for free."
 destination = "https://budibase.app/builder?template=app/it-knowledge-base"
 images = []
-label = "Open-Source IT Knowledge Base"
+label = "IT Knowledge Base"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646388223/cms/IT_Knowledge_Base_Gif_ou1v8m.gif"
 summary = "Our open-source IT knowledge base is the perfect solution for storing, managing, sorting, and utilizing technical information."
