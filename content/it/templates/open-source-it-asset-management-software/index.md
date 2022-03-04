@@ -14,7 +14,7 @@ title = "Open-Source IT Asset Management Software | Budibase | Low-Code Platform
 type = "templates"
 
 +++
-An effective IT team is the heart of any successful organization. Asset maintenance and inventory management are key here. Ensuring that the right devices are available and working correctly is critical to all other business processes.
+An effective IT team is the heart of any successful organization. Asset maintenance and inventory management are key here. Ensuring that the right devices are available and working correctly is critical to all other business processes. 
 
 When done properly, asset management helps to ensure profitability, by reducing admin costs. When assets are managed poorly, businesses are exposed to risks, inefficiencies, and poor outcomes.
 
