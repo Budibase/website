@@ -178,7 +178,7 @@ Eliminate manual admin tasks, automate communications, and build powerful calcul
 
 Choose self-hosting or Budibase cloud for your fleet management software. Deploy our template to your own infrastructure, using Kubernetes, Docker, Docker Compose, Digital Ocean, and more.
 
-Budibase is perfect for building mobile apps, web tools, internal software, and more, in seconds.
+Budibase is perfect for building web apps and internal software, in seconds.
 
 ### Third-party integrations
 
