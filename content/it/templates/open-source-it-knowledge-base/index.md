@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-04T00:00:00Z
 description = "Our open-source IT knowledge base is the perfect solution for storing, managing, sorting, and utilizing technical information. Start using Budibase for free."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/it-knowledge-base"
 images = []
 label = "Open-Source IT Knowledge Base"
 layout = "single"
