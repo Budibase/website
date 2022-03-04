@@ -89,6 +89,7 @@ pages:
 - content/forms/templates/maintenance-request-form-template/index.md
 - content/forms/templates/recurring-credit-card-authorization-form/index.md
 - content/forms/templates/vacation-request-form-template/index.md
+- content/healthcare/templates/hospital-admission-form-template/index.md
 - content/it/templates/open-source-it-asset-management-software/index.md
 - content/it/templates/open-source-it-knowledge-base/index.md
 - content/legal/templates/legal-case-management-template/index.md
