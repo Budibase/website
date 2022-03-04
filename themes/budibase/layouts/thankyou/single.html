@@ -1,29 +1,18 @@
 {{ partial "header.html" . }}
-
-{{ partial "navigation.html" . }}
-<div class="container space-2">
-<div class="d-lg-flex align-items-lg-center height-100vh--lg">
-    <div class="container space-2 space-2-bottom space-0--lg">
-      <div class="row justify-content-lg-between align-items-lg-center">
-
-          <div class="col-lg-5  space-1-bottom">
-              <!-- Title -->
-              <div class="mb-4">
-                <h1 class="h2">Full steam ahead!</h1>
-                <p class="lead">Thank you for signing up. We really appreciate it. We'll be in touch soon Budi, hold tight!</p>
-              </div>
-              <!-- End Title -->
-              <a href="/">Back to the homepage</a>
-            </div>
-
-
-        <div class="col-lg-6 mb-9 mb-lg-6">
-          <img class="w-md-60" src="img/svg/components/thankyou.svg" alt="Image Description">
-        </div>
-
-
-      </div>
-    </div>
+<div class="bg-black h-100 container-fw space-2">
+  <div class="container-7 space-hero">
+    <a href="/" title="Return to Budibase homepage"><img src="/img/logo/budibase-icon-white.svg" class="u-avatar mb-4"/></a>
+    <h1 class="mb-2 h2 text-white">Thank you for getting in touch</h1>
+    <p class="text-white">We appreciate you contacting us. Somebody from our team will get back to you shortly.</p>
   </div>
 </div>
-  {{ partial "footer.html" . }}
+
+
+  <div class="container-7 space-2">
+    <h2 class="mb-4">Additional Resources</h2>
+    <p><a href="/customers/covanta/">- Why Covanta uses Budibase</a></p>
+    <p><a href="https://github.com/Budibase/budibase/projects/10">- Roadmap</a></p>
+    <p><a href="https://github.com/Budibase/budibase">- Codebase</a></p>
+    <p><a href="https://github.com/Budibase/budibase">- Docs</a></p>
+  </div>
+</div>

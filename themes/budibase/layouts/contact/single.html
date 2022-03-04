@@ -1,25 +1,20 @@
 {{ partial "header.html" . }}
+<div class="container-7 space-hero">
+  <a href="/" title="Return to Budibase homepage"><img src="/img/logo/budibase-icon.svg" class="u-avatar mb-4"/></a>
+  <h1 class="mb-2 h2">Contact Sales</h1>
+  <p class="mb-4">Please complete the form below and we will respond as soon as possible. </p>
 
-{{ partial "navigation.html" . }}
-
-    <div class="container text-center space-1 space-4-top space-2-bottom--lg">
-        <div class="w-md-80 mx-auto mb-3">
-          <h1 class="col display-4 font-size-48--md-down">Contact Us</h1>
-          <div class="col-lg-8 mx-auto">
-            <div class="mb-5">
-                <p class="lead mb-0">To contact us, complete the form below. We will respond as soon as possible. </p>
-        </div>
-        </div>
-      </div>
-
-<form class="js-validate" form name="contact" method="POST" data-netlify="true">
-        <div class="row col-lg-6 text-center mx-auto">
+<form class="js-validate" form name="contact sales" method="POST" data-netlify="true" action="/thank-you">
+        <div class="col-lg-6 mx-auto">
           <!-- Input -->
-          <div class="col-sm-12 mb-6">
-            <div class="js-form-message">
+          <p class="mb-2 detail text-gray font-weight-medium">Name</p>
+          <div class="col-sm-12 mb-4">
+            <div class="js-form-message ">
               <div class="js-focus-state input-group form">
-                <input class="form-control form__input" type="text" name="name" required
-                       placeholder="Your name"
+                <input class="form-control form__input" 
+                       type="text" 
+                       name="name" 
+                       required
                        aria-label="Your name"
                        data-msg="Please enter your name."
                        data-error-class="u-has-error"
@@ -30,11 +25,11 @@
           <!-- End Input -->
       
           <!-- Input -->
-          <div class="col-sm-12 mb-6">
+          <p class="mb-2 detail text-gray font-weight-medium">Business email</p>
+          <div class="col-sm-12 mb-4">
             <div class="js-form-message">
               <div class="js-focus-state input-group form">
                 <input class="form-control form__input" type="email" name="email" required
-                       placeholder="Your email address"
                        aria-label="Your email address"
                        data-msg="Please enter a valid email address."
                        data-error-class="u-has-error"
@@ -42,34 +37,51 @@
               </div>
             </div>
           </div>
-       
+          <!-- End Input -->
       
         <!-- Input -->
-        <div class="js-form-message col-sm-12 mb-9">
-          <div class="js-focus-state input-group form">
-            <textarea class="form-control form__input" rows="6" name="text" required
-                      placeholder="How can we help you?"
-                      aria-label="How can we help you?"
-                      data-msg="Please enter a reason."
-                      data-error-class="u-has-error"
-                      data-success-class="u-has-success"></textarea>
+        <p class="mb-2 detail text-gray font-weight-medium">COMPANY</p>
+        <div class="col-sm-12 mb-4">
+          <div class="js-form-message ">
+            <div class="js-focus-state input-group form">
+              <input class="form-control form__input" 
+                     type="text" 
+                     name="name" 
+                     required
+                     aria-label="Your company name"
+                     data-msg="Please enter your company name."
+                     data-error-class="u-has-error"
+                     data-success-class="u-has-success">
+            </div>
           </div>
         </div>
-      </div>
-        
-        
-
         <!-- End Input -->
+
+            <!-- Input -->
+            <p class="mb-2 detail text-gray font-weight-medium">COMPANY SIZE</p>
+            <div class="col-sm-12 mb-6">
+              <div class="js-form-message ">
+                <div class="js-focus-state input-group form">
+                  <select class="form-control custom-select" 
+                          type="text" 
+                          name="name" 
+                          required
+                          aria-label="Your company name"
+                          data-msg="Please enter your company name."
+                          data-error-class="u-has-error"
+                          data-success-class="u-has-success">
+                          <option value="1 - 100">1 - 100 employees</option>
+                          <option value="101 - 1000">101 - 1000 employees</option>
+                          <option value="1001 - 10000">1001 - 10000 employees</option>
+                          <option value="10000+">10000+ employees</option>
+
+                    </select>
+                </div>
+              </div>
+            </div>
+          <!-- End Input -->
       
-        <div class="text-center space-3-bottom--lg">
-          <button type="submit" class="btn btn-primary btn-wide mb-4">Submit</button>
-          <p class="small">We'll get back to you in 1-2 business days.</p>
-        </div>
+          <button type="submit" class="btn btn-cta btn-lg btn-wide mb-4">Submit</button>
       </form>
     </div>
   </div>
-
-
-
-
-      {{ partial "footer.html" . }}
