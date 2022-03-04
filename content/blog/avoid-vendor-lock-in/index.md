@@ -184,10 +184,6 @@ Hybrid solutions offer the additional benefits of storing a proportion of your d
 
 ![Vendor Lock-in statistics 2](https://res.cloudinary.com/daog6scxm/image/upload/v1646213613/cms/Vendor_Lock-in_Stats_1-2_qytlwm.png "Vendor Lock-in statistics 2")
 
-At Budibase, we offer a range of deployment options, including self-hosting, and our own cloud-based platform.
-
-You can deploy our tools, however, and wherever you like, so you’ll never get locked into a particular cloud vendor.
-
 ### 6. Consider open-source tools
 
 Increasingly, businesses are turning to open-source solutions to avoid vendor lock-in. With open-source development platforms, like Budibase, organizations have greater control over the apps they use.
@@ -195,8 +191,6 @@ Increasingly, businesses are turning to open-source solutions to avoid vendor lo
 Because of the nature of open-source tools, vendor lock-in is highly unlikely.
 
 With platforms like Budibase, organizations can build tools that fully meet their needs, and maintain and upgrade them as the need arises.
-
-One common way to use open-source technology to avoid vendor lock-in is _containerization_.
 
 By using deployment tools like [Kubernetes](https://budibase.com/integration/kubernetes/) and [Docker](https://budibase.com/integration/docker/), open-source platforms can be deployed to a range of cloud-based and on-premises platforms, depending on your specific needs.
 
