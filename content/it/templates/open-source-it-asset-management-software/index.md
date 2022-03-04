@@ -4,7 +4,7 @@ date = 2022-03-04T00:00:00Z
 description = "Our open-source IT asset management software template is built to simplify device management workflows. Start using Budibase today for free."
 destination = "https://budibase.app/builder?template=app/it-asset-management-software"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646385879/cms/IT_Asset_Management_Template_1_nbxtnj.png"]
-label = "Open-Source IT Asset Management Software Template"
+label = "IT Asset Management Software Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646385728/cms/IT_Asset_Management_Template_GIF_uxehtv.gif"
 summary = "Our open-source IT asset management software is built to simplify device management workflows."
