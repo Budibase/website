@@ -2,9 +2,8 @@
 datasource = "Built-in Database"
 date = 2022-03-04T00:00:00Z
 description = "Our open-source IT asset management software template is built to simplify device management workflows. Start using Budibase today for free."
-destination = ""
-draft = true
-images = []
+destination = "https://budibase.app/builder?template=app/it-asset-management-software"
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646385879/cms/IT_Asset_Management_Template_1_nbxtnj.png"]
 label = "Open-Source IT Asset Management Software Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646385728/cms/IT_Asset_Management_Template_GIF_uxehtv.gif"
@@ -53,6 +52,8 @@ For example, businesses might store and use data on how devices are used, their 
 
 Asset management systems empower you to use this information, without the need for advanced database skills. This saves time and money, by creating intuitive and streamlined workflows for IT teams.
 
+![Open-source IT asset Management software](https://res.cloudinary.com/daog6scxm/image/upload/v1646385879/cms/IT_Asset_Management_Template_1_nbxtnj.png "Open-source IT asset Management software")
+
 ## Our open-source asset management template
 
 Our IT asset management software is built for functionality and fast deployment.
@@ -96,6 +97,8 @@ Simply set an annual depreciation rate for each asset, and our platform takes ca
 
 Budibase offers a built-in JavaScript editor, for creating custom depreciation rules. Set additional variables, or alter the depreciation interval, to suit your specific needs.
 
+![Device cost management](https://res.cloudinary.com/daog6scxm/image/upload/v1646385971/cms/IT_Asset_Management_Template_2_dzrsb7.png "Device cost management")
+
 ### Maintenance scheduling
 
 Scheduling preventive maintenance can be a challenge for many businesses. Our asset management template automatically schedules device maintenance work, based on customizable intervals and service histories.
@@ -111,6 +114,8 @@ Budibase offers customizable role-based access control. Set your own access rule
 Our template is built around two permissions tiers. _Basic_ users can browse your organization’s asset inventory, and submit rental requests.
 
 _Power_ users can add or update devices, view and approve asset requests, or access maintenance data.
+
+![Open-source IT asset management software request workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1646386094/cms/IT_Asset_Management_Template_6_fxqlts.png "Asset Request Workflow")
 
 ### Process automation
 
@@ -153,6 +158,8 @@ With Budibase, you can build fully custom IT asset management software, in minut
 Budibase offers unparalleled functionality, ease of use, and development times. With auto-generated app screens, an intuitive UI, and complete customization, our platform is the smart way to build business tools.
 
 Organizations around the world choose Budibase for our leading development experiences. We also offer premium support packages and SLAs for enterprise customers. Check out our [pricing page](https://budibase.com/pricing) for more information.
+
+![Maintenance workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1646386046/cms/IT_Asset_Management_Template_3_q4w061.png "Maintenance workflow")
 
 ### Self-hosting or Budibase Cloud
 
