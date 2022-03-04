@@ -170,7 +170,7 @@ We also provide our proprietary BudibaseDB, with CSV upload support, to get star
 
 Budibase gives you the power to deploy your tools however you like, wherever you like. Choose self-hosting or our Budibase Cloud platform. Deploy our employee timesheet template to your own infrastructure, using Kubernetes, Docker, Digital Ocean, and more.
 
-Deploy your Budibase tools as internal tools, web-based solutions, or mobile apps.
+Use Budibase to build web applications, in minutes
 
 ### Third-party integrations
 
