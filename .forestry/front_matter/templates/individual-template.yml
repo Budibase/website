@@ -89,7 +89,7 @@ pages:
 - content/forms/templates/maintenance-request-form-template/index.md
 - content/forms/templates/recurring-credit-card-authorization-form/index.md
 - content/forms/templates/vacation-request-form-template/index.md
-- content/it/templates/open-source-it-asset-management-software/open-source-it-asset-management-software-budibase-low-code-platform.md
+- content/it/templates/open-source-it-asset-management-software/index.md
 - content/legal/templates/legal-case-management-template/index.md
 - content/legal/templates/legal-document-management-template/index.md
 - content/logistics/templates/logistics-request-form-template/index.md
