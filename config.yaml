@@ -1,6 +1,6 @@
 baseURL: "https://budibase.com/"
 languageCode: "en-uk"
-title: "Budibase"
+title: "Budibase | Build internal apps in mins | Open-source low-code platform"
 theme: "budibase"
 enableEmoji: "true"
 disableKinds: ["taxonomy"]
