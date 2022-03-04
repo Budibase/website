@@ -160,7 +160,7 @@ We also offer SLAs and support packages for large organizations. Check out our p
 
 Choose self-hosting or Budibase cloud for your hospital discharge forms. Deploy Budibase tools to your own infrastructure, using Kubernetes, Docker, Docker Compose, Digital Ocean, and more.
 
-We give our users complete control over how they deploy and host their tools. Use Budibase tools as web applications, [internal tools](https://budibase.com/internal-tools), mobile apps, and more.
+We give our users complete control over how they deploy and host their tools. Use Budibase to build web applications, [internal tools](https://budibase.com/internal-tools), mobile-friendly apps, and more.
 
 ### External data support
 
