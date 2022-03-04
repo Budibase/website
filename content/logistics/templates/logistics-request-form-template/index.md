@@ -161,7 +161,7 @@ We also offer SLAs and premium support packages for enterprise users. Check out 
 
 Budibase offers complete flexibility for app deployment. Choose self-hosting or Budibase Cloud. Deploy to your own infrastructure, using Kubernetes, Docker, Docker Compose, Digital Ocean, and more.
 
-At Budibase, we empower our users to choose the perfect hosting and configuration options for their needs. Use our logistics form template as a web application, internal tool, or mobile app.
+At Budibase, we empower our users to choose the perfect hosting and configuration options for their needs. Use our logistics form template as a deployable web application.
 
 ![Logistics Request Form Template Estimate Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1646150293/cms/Logistics_Request_Form_4_yq82zs.png "Logistics Request Form Template Estimate Screen")
 
