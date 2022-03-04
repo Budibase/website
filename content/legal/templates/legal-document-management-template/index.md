@@ -167,7 +167,7 @@ We also offer our own built-in BudibaseDB. With support for CSV uploads, this is
 
 We empower our users to host their Budibase apps, however they like, wherever they like. Choose self-hosting or our Budibase Cloud platform. Deploy to your own infrastructure, using Kubernetes, Docker, Docker Compose, Digital Ocean, and more.
 
-Budibase tools are equally suited to deployment as web applications, [internal tools](https://budibase.com/internal-tools), or mobile apps.
+Budibase makes it easy to build web applications and [internal tools](https://budibase.com/internal-tools).
 
 ![Manage Document Requests](https://res.cloudinary.com/daog6scxm/image/upload/v1646299187/cms/Legal_Document_Management_Software_5_aqr6ro.png "Legal Document Management Template Requests Screen")
 
