@@ -137,7 +137,7 @@ Like all Budibase tools, our case management template is entirely mobile-friendl
 
 Ensure maximum adoption and ROI, by giving your team a case management tool that works perfectly, wherever they go.
 
-Budibase is the smart way to build web applications, [internal tools](https://budibase.com/internal-tools), mobile apps, and more.
+Budibase is the smart way to build mobile-friendly web applications.
 
 ## Manage cases with Budibase
 
