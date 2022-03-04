@@ -5,6 +5,51 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/it
+  label: IT
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/professional-services
+  label: Professional-services
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/manufacturing
+  label: Manufacturing
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/healthcare
+  label: Healthcare
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/legal
+  label: Legal
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/logistics
+  label: Logistics
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/admin-panels
+  label: Admin panels
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/approval-apps
+  label: Approval apps
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/portals
+  label: Portals
+  create: all
+  match: "**/*"
+- type: directory
   path: content
   label: Pages
   create: all

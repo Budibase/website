@@ -6,18 +6,13 @@ cover: "/business-apps/templates/open-source-ticketing-system/images/cover.png"
 draft: "false"
 type: templates
 layout: single
-label: "Open source ticketing system template"
+label: "Ticketing system"
 summary: "Keep on top of support tickets and preventing them from falling through the cracks."
 thumbnail: "/business-apps/templates/open-source-ticketing-system/images/thumbnail.webp"
 preview: "/business-apps/templates/open-source-ticketing-system/images/preview.gif"
 datasource: "Built-in database"
 destination: "https://budibase.app/builder?template=app/it-help-desk"
-tags:
-- internal-tool
-- it-manager
-- it
-- business-app
-- strategy
+thumbnailColor: yellow
 ---
 
 

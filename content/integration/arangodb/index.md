@@ -1,6 +1,6 @@
 +++
 date = "2021-30-01"
-title = "ArangoDB integration with Budibase | Data source for building internal tools"
+title = "ArangoDB integration with Budibase"
 page_title = "ArangoDB"
 categories = ["data"] 
 description = "Use ArangoDB as your data source for your Budibase applications. "

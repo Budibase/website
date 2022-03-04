@@ -1,6 +1,6 @@
 +++
 date = "2021-09-22"
-title = "Slack integration with Budibase | Connect your apps to Discord"
+title = "Slack integration with Budibase | Connect your apps to Slack"
 page_title = "Slack"
 categories = ["automate"] 
 description = "Budibase integrates with Slack so users of your apps can recieve Slack notifications."

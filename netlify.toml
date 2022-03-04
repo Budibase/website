@@ -55,6 +55,56 @@ HUGO_ENABLEGITINFO = "true"
   status = 301
 
   [[redirects]]
+  from = "/design/"
+  to = "/product"
+  status = 301
+
+  [[redirects]]
+  from = "/automate/"
+  to = "/product"
+  status = 301
+
+  [[redirects]]
+  from = "/data/"
+  to = "/product"
+  status = 301
+
+  [[redirects]]
+  from = "/deploy/"
+  to = "/product"
+  status = 301
+
+  [[redirects]]
+  from = "/self-host/"
+  to = "/product"
+  status = 301
+
+  [[redirects]]
+  from = "/design"
+  to = "/product"
+  status = 301
+
+  [[redirects]]
+  from = "/automate"
+  to = "/product"
+  status = 301
+
+  [[redirects]]
+  from = "/data"
+  to = "/product"
+  status = 301
+
+  [[redirects]]
+  from = "/deploy"
+  to = "/product"
+  status = 301
+
+  [[redirects]]
+  from = "/self-host"
+  to = "/product"
+  status = 301
+
+  [[redirects]]
   from = "/investment"
   to = "/about"
   status = 301

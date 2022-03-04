@@ -4,6 +4,6 @@ description: "Budibase is a modern, open source low code platform for designing,
 cover: ["/banner-gradient.jpg"]
 type: b
 layout: single
-canonicalUrl: “https://www.budibase.com"
+canonicalUrl: “https://budibase.com"
 date: 2019-01-01
 ---

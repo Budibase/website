@@ -12,12 +12,7 @@ thumbnail: "/business-apps/templates/hashicorp-scorecard/images/thumbnail.jpg"
 preview: "/business-apps/templates/hashicorp-scorecard/images/preview.gif"
 datasource: "Built-in database"
 destination: "https://budibase.app/builder?template=app/hashicorp-scorecard"
-tags:
-- internal-tool
-- it-manager
-- it
-- business-app
-- strategy
+thumbnailColor: blue
 ---
 
 HashiCorp was founded by Mitchell Hashimoto and Armon Dadgar in 2012 with the goal of revolutionizing datacenter management: application development, delivery, and maintenance. They’re one of the leading open source organizations in the world, and were recently ranked No. 4 on the Forbes #Cloud100! 

@@ -2,7 +2,7 @@
 <footer>
     <div class="container space-3">
       <div class="row justify-content-md-between">
-        <div class="col-6 col-md-3 col-lg-2 order-lg-3 mb-7 mb-lg-0">
+        <div class="col-6 col-md-3 col-lg-2 order-lg-3 mb-7 mb-lg-0 mr-2">
           <h3 class="h6 mb-3">Company</h3>
           <!-- List Group -->
           <div class="list-group list-group-flush ">
@@ -23,7 +23,7 @@
           <!-- End List Group -->
         </div>
 
-        <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0">
+        <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0 mr-2">
           <h3 class="h6 mb-3">Product</h3>
   
           <!-- List Group -->
@@ -37,20 +37,38 @@
           <!-- End List Group -->
         </div>
   
-        <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0">
-          <h3 class="h6 mb-3">Solutions</h3>
+        <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0 mr-2">
+          <h3 class="h6 mb-3">Use cases</h3>
   
           <!-- List Group -->
           <div class="list-group list-group-flush ">
             <a class="list-group-item list-group-item-action" href="/business-apps">Business apps</a>
             <a class="list-group-item list-group-item-action" href="/forms">Forms</a>
+            <a class="list-group-item list-group-item-action" href="/approval-apps">Approval apps</a>
+            <a class="list-group-item list-group-item-action" href="/admin-panels">Admin panels</a>
+            <a class="list-group-item list-group-item-action" href="/portals">Portals</a>
             <a class="list-group-item list-group-item-action" href="/internal-tools">Internal tools</a>
+          </div>
+          <!-- End List Group -->
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0 mr-2">
+          <h3 class="h6 mb-3">Solutions</h3>
+  
+          <!-- List Group -->
+          <div class="list-group list-group-flush ">
+            <a class="list-group-item list-group-item-action" href="/logistics">Logistics</a>
+            <a class="list-group-item list-group-item-action" href="/manufacturing">Manufacturing</a>
+            <a class="list-group-item list-group-item-action" href="/healthcare">Healthcare</a>
+            <a class="list-group-item list-group-item-action" href="/professional-services">Professional services</a>
+            <a class="list-group-item list-group-item-action" href="/legal">Legal</a>
+            <a class="list-group-item list-group-item-action" href="/it">Custom IT tools</a>
           </div>
           <!-- End List Group -->
         </div>
   
   
-        <div class="col-6 col-md-3 col-lg-2 order-lg-6 mb-7 mb-lg-0">
+        <div class="col-6 col-md-3 col-lg-2 order-lg-6 mb-7 mb-lg-0 mr-2">
           <h3 class="h6 mb-3">Resources</h3>
   
           <!-- List -->
@@ -70,13 +88,13 @@
           <!-- End List -->
         </div>
   
-        <div class="col-lg-2 order-lg-1 d-flex align-items-start flex-column">
+        <div class="col-6 col-md-3 col-lg-2 order-lg-6 mb-7 mb-lg-0">
           <!-- Logo -->
           <a class="d-inline-block mb-5 logo" href="/" aria-label="Space" style="width: 160px; max-width: 100%;">
             {{ partial "logo.html" . }}
           </a>
           <!-- End Logo -->
-          <p class="small text-grey">All rights reserved. ©Budibase 2021</p>
+          <p class="text-grey mb-4">All rights reserved. ©Budibase 2022</p>
         </div>
       </div>
     </div>
@@ -120,8 +138,8 @@
     $('.js-mega-menu').HSMegaMenu({
       event: 'hover',
       pageContainer: $('.container'),
-      breakpoint: 767.98,
-      hideTimeOut: 0
+      breakpoint: 1200,
+      hideTimeOut: 200
     });
   });
 </script>

@@ -36,6 +36,36 @@ fields:
 - type: file
   name: thumbnail
   label: thumbnail
+  description: 600px X 400px thumbnail picture (webp if possible)
+- name: thumbnailColor
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - green
+    - blue
+    - yellow
+    - orange
+    - purple
+    - indigo
+    - teal
+    - red
+    - celery
+    - magenta
+    - fuchsia
+    - seafoam
+    - chartreuse
+    - 'green-pastel '
+    - red-pastel
+    - orange-pastel
+    - purple-pastel
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: ThumbnailColor
 - type: file
   name: preview
   label: preview
@@ -45,14 +75,35 @@ fields:
 - type: text
   name: destination
   label: destination
-- type: list
-  name: tags
-  label: tags
 pages:
+- content/admin-panels/templates/Car Rental Admin Panel/index.md
+- content/admin-panels/templates/School Admin Panel/index.md
+- content/approval-apps/templates/Content Approval Software/index.md
+- content/approval-apps/templates/Invoice Approval Software/index.md
+- content/approval-apps/templates/Project Approval System/index.md
+- content/approval-apps/templates/Travel Approval Request Template/index.md
 - content/business-apps/templates/employee-directory-template-budibase-low-code-platform.md
-- content/forms/templates/IT-incident-report-template/it-incident-report-template-budibase-low-code-platform.md
-- content/forms/templates/call-back-form-template/call-back-form-template-budibase-low-code-platform.md
-- content/forms/templates/employee-equipment-checkout-form/employee-equipment-checkout-form-template-budibase.md
-- content/forms/templates/maintenance-request-form-template/maintenance-request-form-template-budibase-digital-forms.md
-- content/forms/templates/recurring-credit-card-authorization-form/recurring-credit-card-authorization-form-template-budibase.md
-- content/forms/templates/vacation-request-form-template/vacation-request-form-temple-budibase-open-source-tools.md
+- content/forms/templates/IT-incident-report-template/index.md
+- content/forms/templates/call-back-form-template/index.md
+- content/forms/templates/employee-equipment-checkout-form/index.md
+- content/forms/templates/maintenance-request-form-template/index.md
+- content/forms/templates/recurring-credit-card-authorization-form/index.md
+- content/forms/templates/vacation-request-form-template/index.md
+- content/healthcare/templates/hospital-admission-form-template/index.md
+- content/healthcare/templates/hospital-discharge-form-template/index.md
+- content/it/templates/open-source-it-asset-management-software/index.md
+- content/it/templates/open-source-it-knowledge-base/index.md
+- content/legal/templates/legal-case-management-template/index.md
+- content/legal/templates/legal-document-management-template/index.md
+- content/logistics/templates/logistics-request-form-template/index.md
+- content/logistics/templates/remote-fleet-management-system/index.md
+- content/manufacturing/templates/manufacturing-inventory-management-software/index.md
+- content/manufacturing/templates/manufacturing-quality-control-checklist/index.md
+- content/portals/templates/Agency Client Portal Template/index.md
+- content/portals/templates/Client Portal for Accountants/index.md
+- content/portals/templates/Customer Account Portal/index.md
+- content/portals/templates/Employee Portal App/index.md
+- content/portals/templates/Responsive Job Portal Template/index.md
+- content/portals/templates/University Portal App/index.md
+- content/professional-services/templates/employee-timesheet-template/index.md
+- content/professional-services/templates/project-cost-estimation-template/index.md

@@ -14,10 +14,7 @@ thumbnail: "/business-apps/templates/applicant-tracking-system/images/thumbnail.
 preview: "/business-apps/templates/applicant-tracking-system/images/preview.gif"
 datasource: Built-in database
 destination: https://budibase.app/builder?template=app/applicant-tracking
-tags:
-- business-app
-- hr
-- public
+thumbnailColor: indigo
 
 ---
 Recruitment is a critical and common process for every organization - recruiting the right people, for the right roles, at the right time. It ensures that the workforce has the relevant skills for the organization's current and future needs.
