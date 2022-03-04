@@ -2,9 +2,8 @@
 datasource = "Built-in Database"
 date = 2022-03-04T00:00:00Z
 description = "Our hospital admission form template is built to streamline patient intake and data collection. Start using our free open-source template, today."
-destination = ""
-draft = true
-images = []
+destination = "https://budibase.app/builder?template=app/hospital-admission-form"
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646390188/cms/Hospital_Admission_Form_2_uisv56.png"]
 label = "Hospital Admission Form Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646389959/cms/Hospital_Admission_Form_Gif_rjwj3l.gif"
