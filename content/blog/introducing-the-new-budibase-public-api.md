@@ -10,13 +10,13 @@ title = "Introducing the new Budibase public API"
 +++
 # **Budibase’s public API is now out of beta - making Budibase the hub for all your internal tools**
 
-Today, we are launching one of our most requested features - our new public API!   
-  
-When you sign up for Budibase, you get a low-code platform with an internal database, external data connectors (MySQL, PostgreSQL, MSSQL, Oracle DB, Airtable, MongoDB…), user management, free SSO, drag and drop GUI for building UIs, powerful prebuilt components, dark mode, an automation interface (like Zapier) and now a flexible public API to interact with.   
-  
+Today, we are launching one of our most requested features - our new public API!
+
+When you sign up for Budibase, you get a low-code platform with an internal database, external data connectors (MySQL, PostgreSQL, MSSQL, Oracle DB, Airtable, MongoDB…), user management, free SSO, drag and drop GUI for building UIs, powerful prebuilt components, dark mode, an automation interface (like Zapier) and now a flexible public API to interact with.
+
 These services integrate very well with each other making the experience of building CRUD apps easier, faster, and a lot more flexible.
 
-As with anything that we build in Budibase, our new public API is simple to use, flexible, and introduces new extensibility. To summarize, the Budibase API enables:
+As with anything that we build in Budibase, our new public API is simple to use, flexible and introduces new extensibility. To summarize, the Budibase API enables:
 
 1. Budibase as a backend  
    The Budibase backend is very powerful, and our Public API allows you to specifically use the backend API to build apps, without using, for example, our design GUI. A common use case would be to pair the Budibase backend with Grafana to build powerful dashboards. The number of potential use cases are vast.
@@ -25,8 +25,9 @@ As with anything that we build in Budibase, our new public API is simple to use,
 3. Inter-operability  
    Again right now for inter-op within an organization, you're limited to what Budibase can connect to. Opening up the API allows connecting data in and out of Budibase in ways that are business-specific use cases (e.g. IoT, internal business APIs, etc).
 
-## **  
-Design**
+## 
+
+## Design
 
 This post outlines our design decisions while building the Budibase API, and we'll show you how to use it in your own applications.
 
@@ -44,5 +45,5 @@ To help you adopt the Budibase API, we’ve created the following example:
 
 You can learn more about the Budibase API at the following places:
 
-1. General documentation: You’ll learn how to get your API key, how to use spec, and how to use with Postmas
+1. General documentation: You’ll learn how to get your API key, how to use spec, and how to use it with Postman.
 2. [Interactive API documentation](https://docs.budibase.com/reference/post_applications): Interact with the API
