@@ -21,8 +21,7 @@ For this walkthrough, you will need to install
 * [Node](https://nodejs.org/en/)
 * [Budibase (self-hosted install)](https://docs.budibase.com/docs/hosting-methods)
 
-  
-Getting started
+## Getting started
 
 The first step is getting the example from [Github](https://github.com/Budibase/budibase/tree/examples/nextjs/examples/nextjs-api-sales). We will need this to set up our database and our Next.js app. You can download the example by either; downloading the Budibase repository as a zip, or checking it out using Git. For the rest of this example, we will be working from the “[_examples/nextjs-api-sales_'](https://github.com/Budibase/budibase/tree/examples/nextjs/examples/nextjs-api-sales)' directory.
 
@@ -36,7 +35,7 @@ Once the app has been created we will set up a new Postgres datasource - the con
 
 All of the settings for our database should be the defaults assumed by Budibase, using the default :
 
-database: 
+database:
 
     Postgres 
 
@@ -54,13 +53,12 @@ Windows/Mac:
 
     host.docker.internal 
 
- Linux:
+Linux:
 
     172.17.0.1
 
 f your Budibase installation is running remotely, or you are using the Budibase Cloud, you will need to make the database publicly available.
 
-  
 Once the database has been successfully imported to Budibase you’ll find that the two tables “_sales_” and “_sales_people_” have been imported to the app, as below.
 
 The last thing that we need to do is set up a relationship between the two tables, there is a reference in each sale to the salesperson that made the sale and we want Budibase to be aware of this. To do this click the “_Define relationship_” button on the postgres datasource screen, and fill out the form as follows.
@@ -73,7 +71,6 @@ Once this is setup we now have a backend for our Postgres database, the Postgres
 
 The next step is to insert all of the relevant information about your Budibase system into the Next.js sales app. You will need to retrieve your API key from Budibase, which can be found on the portal, amongst your user settings.
 
-  
 From here you can click “_View API key_” and copy the API key from within the menu that opens.
 
 Once you have this, we can go back to the Next.js app codebase, you’ll find a file “_next.config.js_” at the top level of the directory. In here you can edit the “_serverRuntimeConfig_” to provide your API key, where your Budibase install is hosted and the name of the app which provides the sales backend. The config should look something like the config before initially, if running your Budibase install locally you should only need to insert your API key.
@@ -87,8 +84,7 @@ You can now visit “_localhost:3001_” which will have the app running, you sh
 
 You can switch between viewing the list of sales, or creating a new sale by using the navbar in the top left.
 
-##   
-How it all works
+## How it all works
 
 To see how this all works we can look in the “_utilities/index.ts_”, “_pages/api/sales.ts_”, and “_pages/api/salespeople.ts_” you can see how we’ve connected the app up to Budibase. We’ve utilized two Next.js API endpoints to perform the connection to Budibase, this hides the Budibase integration away from the UI, keeping the API key secret.
 
