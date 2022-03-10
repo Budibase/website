@@ -25,8 +25,6 @@ As with anything that we build in Budibase, our new public API is simple to use,
 
 ## Design
 
-This post outlines our design decisions while building the Budibase API, and we'll show you how to use it in your own applications.
-
 The API follows RESTful patterns of design and is fully defined using the OpenAPI specification. For schemas and API definitions this enables the spec to be pulled into tools like Postman and you can start making requests straight away once you've inputted your API key and App ID.
 
 The first version of the API covers the tables, rows, users, queries, and applications resources. You have full CRUD operations on those resources as well as the ability to search any of them. This also respects the RBAC system fully. Every user can generate an API key for Budibase and it will only allow users with access to resources to utilize the API.
