@@ -16,11 +16,11 @@ These services integrate very well with each other making the experience of buil
 
 As with anything that we build in Budibase, our new public API is simple to use, flexible and introduces new extensibility. To summarize, the Budibase API enables:
 
-1. Budibase as a backend  
+1. **Budibase as a backend**  
    The Budibase backend is very powerful, and our Public API allows you to specifically use the backend API to build apps, without using, for example, our design GUI. A common use case would be to pair the Budibase backend with Grafana to build powerful dashboards. The number of potential use cases are vast.
-2. Extending apps  
+2. **Extending apps**  
    Right now users are limited to what you can do within Budibase. This can make it difficult to extend functionality in a lot of places, especially around data. The new Budibase API allows users to build to a point within Budibase and then extend using the API. This is only the beginning, as Budibase continues to grow we will improve and expand the capabilities of our API.
-3. Inter-operability  
+3. **Inter-operability**  
    Again right now for inter-op within an organization, you're limited to what Budibase can connect to. Opening up the API allows connecting data in and out of Budibase in ways that are business-specific use cases (e.g. IoT, internal business APIs, etc).
 
 ## Design
@@ -33,7 +33,7 @@ The first version of the API covers the tables, rows, users, queries, and applic
 
 To help you adopt the Budibase API, we’ve created the following example:
 
-1. **Build an app with Budibase and Next.js**
+1. Build an app with Budibase and Next.js
 
 ## Docs
 
