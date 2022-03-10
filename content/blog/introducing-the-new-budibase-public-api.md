@@ -23,8 +23,6 @@ As with anything that we build in Budibase, our new public API is simple to use,
 3. Inter-operability  
    Again right now for inter-op within an organization, you're limited to what Budibase can connect to. Opening up the API allows connecting data in and out of Budibase in ways that are business-specific use cases (e.g. IoT, internal business APIs, etc).
 
-## 
-
 ## Design
 
 This post outlines our design decisions while building the Budibase API, and we'll show you how to use it in your own applications.
