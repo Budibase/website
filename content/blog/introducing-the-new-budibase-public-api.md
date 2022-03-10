@@ -29,13 +29,13 @@ The API follows RESTful patterns of design and is fully defined using the OpenAP
 
 The first version of the API covers the tables, rows, users, queries, and applications resources. You have full CRUD operations on those resources as well as the ability to search any of them. This also respects the RBAC system fully. Every user can generate an API key for Budibase and it will only allow users with access to resources to utilize the API.
 
-## **Use case**
+## Use case
 
 To help you adopt the Budibase API, we’ve created the following example:
 
 1. **Build an app with Budibase and Next.js**
 
-## **Docs**
+## Docs
 
 You can learn more about the Budibase API at the following places:
 
