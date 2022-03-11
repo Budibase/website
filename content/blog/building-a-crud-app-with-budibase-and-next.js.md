@@ -24,7 +24,7 @@ For this walkthrough, you will need to install
 
 ## Getting started
 
-The first step is getting the example from [Github](https://github.com/Budibase/budibase/tree/examples/nextjs/examples/nextjs-api-sales). We will need this to set up our database and our Next.js app. You can download the example by either; downloading the Budibase repository as a zip, or checking it out using Git. For the rest of this example, we will be working from the “[examples/nextjs-api-sales'](https://github.com/Budibase/budibase/tree/examples/nextjs/examples/nextjs-api-sales)' directory.
+The first step is getting the example from [Github](https://github.com/Budibase/budibase/tree/examples/nextjs/examples/nextjs-api-sales). We will need this to set up our database and our Next.js app. You can download the example by either; downloading the Budibase repository as a zip, or checking it out using Git. For the rest of this example, we will be working from the [examples/nextjs-api-sales](https://github.com/Budibase/budibase/tree/examples/nextjs/examples/nextjs-api-sales) directory.
 
 For this example, we have provided an example database. This is run using Docker Compose and can be found in the “_db/_” directory - start the database using the command “_docker-compose up_”. Now that we have a Postgres database to work from we can jump into Budibase!
 
