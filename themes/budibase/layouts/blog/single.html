@@ -8,7 +8,7 @@
 <article>
   <div class="article space-3-top">
     <div class="container">
-      <header class="w-md-75 w-lg-60 mx-md-auto">
+      <header class="w-md-75 w-lg-60 w-xl-50 mx-md-auto">
           <h1 class="text-center">{{ .Title }}</h1>
           {{ if (.Params.profilePic) }}
               <img class="u-md-avatar mt-4" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
@@ -26,7 +26,7 @@
       <!-- Description -->
       <div class="article">
         <div class="container space-1-top ">
-          <div class="w-md-75 w-lg-60 mx-md-auto mb-9">
+          <div class="w-md-75 w-lg-60 w-xl-40 mx-md-auto mb-9">
               {{ .Content }}
           </div>
         </div>
