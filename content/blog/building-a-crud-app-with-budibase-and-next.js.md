@@ -2,7 +2,6 @@
 author = "Michael Drury"
 date = 2022-03-10T00:00:00Z
 description = "In this example we will build a small CRUD app, using Budibase and Next js, that allows users to view sales records and create new ones."
-draft = true
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646932041/cms/Untitled_design_7_cjgfqu.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1646932017/cms/mikedrury_evnd4n.jpg"
 title = "Building a CRUD app with Budibase and Next.js"
