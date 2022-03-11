@@ -8,6 +8,8 @@ profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1646932017/cms/
 title = "Building a CRUD app with Budibase and Next.js"
 
 +++
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1647003389/cms/Untitled_design_7_yawthm.png)
+
 In this example, we will build a small CRUD app that allows users to view sales records and create new ones.
 
 We will use the power of the Budibase backend and its public API to connect to a Postgres database, display sales records, and create a form to create a new sales record. Rather than defining your database connection, table queries, security, REST API in Next.js, we can instead utilize Budibase to simplify our backend. Using Budibase as our backend, we only need to build a few endpoints to make API calls.
