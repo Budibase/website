@@ -33,7 +33,7 @@ For this example, we have provided an example database. This is run using Docker
 
 ## Budibase setup
 
-Open up your Budibase builder - if running Budibase locally this will be accessible at http://localhost:10000. You then need to create a new app, call the app “_sales_” - this is the app that we are going to use to configure a backend for our sales database.
+Open up your Budibase builder - if running Budibase locally this will be accessible at: http://localhost:10000. You then need to create a new app, call the app “_sales_” - this is the app that we are going to use to configure a backend for our sales database.
 
 Once the app has been created we will set up a new Postgres datasource - the configuration should look something like below.
 
