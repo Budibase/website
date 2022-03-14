@@ -8,6 +8,8 @@ profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1647258452/cms/
 title = "Budibase’s public API is now available"
 
 +++
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1647258572/cms/Start_building_with_Budibase_s_API_jdmdtt.png)
+
 Today, we are launching one of our most requested features - our new public API!
 
 When you sign up for Budibase, you get a low-code platform with an internal database, external data connectors (MySQL, PostgreSQL, MSSQL, Oracle DB, Airtable, MongoDB…), user management, free SSO, drag and drop GUI for building UIs, powerful prebuilt components, free SSO, an automation interface (like Zapier) and now a flexible public API to interact with.
