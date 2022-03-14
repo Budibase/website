@@ -8,12 +8,10 @@ profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1647258452/cms/
 title = "Budibase’s public API is now publicly available"
 
 +++
-# **Budibase’s public API is now publicly available - making Budibase the hub for all your internal apps**
+Today, we are launching one of our most requested features - our new public API!
 
-Today, we are launching one of our most requested features - our new public API!   
-  
-When you sign up for Budibase, you get a low-code platform with an internal database, external data connectors (MySQL, PostgreSQL, MSSQL, Oracle DB, Airtable, MongoDB…), user management, free SSO, drag and drop GUI for building UIs, powerful prebuilt components, free SSO, an automation interface (like Zapier) and now a flexible public API to interact with.   
-  
+When you sign up for Budibase, you get a low-code platform with an internal database, external data connectors (MySQL, PostgreSQL, MSSQL, Oracle DB, Airtable, MongoDB…), user management, free SSO, drag and drop GUI for building UIs, powerful prebuilt components, free SSO, an automation interface (like Zapier) and now a flexible public API to interact with.
+
 These services integrate very well with each other making the experience of building CRUD apps easier, faster, and a lot more flexible.
 
 As with anything that we build in Budibase, our new public API is simple to use, flexible, and introduces new extensibility. To summarize, the Budibase API enables:
@@ -25,7 +23,8 @@ As with anything that we build in Budibase, our new public API is simple to use,
 3. Inter-operability  
    Again right now for inter-op within an organization, you're limited to what Budibase can connect to. Opening up the API allows connecting data in and out of Budibase in ways that are business-specific use cases (e.g. IoT, internal business APIs, etc).
 
-## **  
+## **
+
 Design**
 
 This post outlines our design decisions while building the Budibase API, and we'll show you how to use it in your own applications.
