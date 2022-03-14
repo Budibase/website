@@ -2,7 +2,6 @@
 author = "Joe Johnston"
 date = 2022-03-14T00:00:00Z
 description = "Budibase’s public API is now publicly available - making Budibase the hub for all your internal apps"
-draft = true
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647258318/cms/Start_building_with_Budibase_s_API_bum2mr.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1647258452/cms/20200113_Propel_Team_Shots_123_omblqt.jpg"
 title = "Budibase’s public API is now available"
@@ -19,7 +18,7 @@ These services integrate very well with each other making the experience of buil
 As with anything that we build in Budibase, our new public API is simple to use, flexible, and introduces new extensibility. To summarize, the Budibase API enables:
 
 1. Budibase as a backend  
-   The Budibase backend is very powerful, and our Public API allows you to specifically use the backend API to build apps, without using, for example, our design GUI. A common use case would be to pair the Budibase backend with Grafana to build powerful dashboards. The number of potential use cases are vast.
+   The Budibase backend is very powerful, and our Public API allows you to specifically use the backend API to build apps, without using, for example, our design GUI. A common use case would be to pair the Budibase backend with Grafana to build powerful dashboards, or to [use Budibase with a frontend framework](https://budibase.com/blog/building-a-crud-app-with-budibase-and-next.js/ "use budibase with a frontend framework"). The number of potential use cases are vast.
 2. Extending apps  
    Right now users are limited to what you can do within Budibase. This can make it difficult to extend functionality in a lot of places, especially around data. The new Budibase API allows users to build to a point within Budibase and then extend using the API. This is only the beginning, as Budibase continues to grow we will improve and expand the capabilities of our API.
 3. Inter-operability  
