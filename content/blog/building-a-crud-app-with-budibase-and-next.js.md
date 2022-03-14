@@ -62,7 +62,7 @@ Linux:
 
     172.17.0.1
 
-f your Budibase installation is running remotely, or you are using the Budibase Cloud, you will need to make the database publicly available.
+If your Budibase installation is running remotely, or you are using the Budibase Cloud, you will need to make the database publicly available.
 
 Once the database has been successfully imported to Budibase you’ll find that the two tables “_sales_” and “_sales_people_” have been imported to the app, as below.
 
