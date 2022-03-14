@@ -5,7 +5,7 @@ description = "Budibase’s public API is now publicly available - making Budiba
 draft = true
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647258318/cms/Start_building_with_Budibase_s_API_bum2mr.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1647258452/cms/20200113_Propel_Team_Shots_123_omblqt.jpg"
-title = "Budibase’s public API is now publicly available"
+title = "Budibase’s public API is now available"
 
 +++
 Today, we are launching one of our most requested features - our new public API!
