@@ -41,5 +41,5 @@ To help you adopt the Budibase API, we’ve created the following example:
 
 You can learn more about the Budibase API at the following places:
 
-1. [General documentation](https://docs.budibase.com/docs/public-api): You’ll learn how to get your API key, how to use spec, and how to use with Postman
-2. [Interactive API documentation](https://docs.budibase.com/reference/post_applications): Interact with the API
+1. [General documentation](https://docs.budibase.com/docs/public-api): Learn how to get your API key, how to use spec, and how to use with Postman
+2. [Interactive API documentation](https://docs.budibase.com/reference/post_applications): Learn how to interact with the API
