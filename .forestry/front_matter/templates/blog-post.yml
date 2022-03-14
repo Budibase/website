@@ -25,6 +25,7 @@ fields:
   description: Add your avatar (48px x 48px)
 pages:
 - content/blog/avoid-vendor-lock-in/index.md
+- content/blog/budibase-s-public-api-is-now-publicly-available.md
 - content/blog/building-a-crud-app-with-budibase-and-next.js.md
 - content/blog/building-a-dashboard-with-budibase-and-grafana.md
 - content/blog/introducing-the-new-budibase-public-api.md
