@@ -3,7 +3,7 @@ date: "2021-01-12"
 title: Build a Directory App | Budibase | Low-Code Platform
 description: Budibase is the fast, cost-effective way to build a directory app. Use our free low-code platform to build custom tools in as little as five minutes.
 images: 
-- /business-apps/templates/open-source-ticketing-system/images/cover.png
+- /directories/prop-directory.png
 draft: false
 type: directories
 layout: single
