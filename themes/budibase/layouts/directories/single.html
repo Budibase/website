@@ -6,10 +6,9 @@
   <div class="container">
     <div class="w-lg-50 mx-auto text-center">
       <h1 class="hero-title mb-3 mb-4">
-        Custom {{ .Section }} <br>for every process
+        Create a custom directory app in minutes
       </h1>
-      <p class="mx-auto display-lead-lg text-center mb-8"> Build custom {{ .Section }} that look great, integrate seamlessly, and
-        you can self-host.
+      <p class="mx-auto display-lead-lg text-center mb-8"> Budibase is the fast, cost-effective way to build directory apps. Use our low-code platform to create deployable, feature-rich apps, with custom RBAC, external data support, and a range of automation tools.
       </p>
     </div>
     <div class="template-hero-images no-scrollbar mb-6 ">
@@ -146,8 +145,8 @@
 <div class="space-2" id="features">
   <div class="container text-center">
     <h2 class="mb-3">{{ .Section | singularize | humanize }} features</h2>
-    <p class="mb-6 w-lg-40 mx-auto text-center">With Budibase, it's easy to build fully powerful forms that perfectly fit your
-      operations.
+    <p class="mb-6 w-lg-40 mx-auto text-center">With Budibase, it's easy to build fully powerful directories that perfectly fit your
+      brand.
     </p>
     <div class="solutions-features">
       <div class="solutions-features-card rounded-xs">
@@ -230,5 +229,19 @@
 
 {{ partial "cta.html" . }}
 <hr style="width: 30%" />
+
+<div class="article space-2 ">
+  <div class="container-9">
+    <h2>FAQs</h2>
+    <p>Budibase is the fast and effective way to build custom IT tools. Here’s everything you need to know about our innovative low-code platform.
+    </p>
+    <div class="faq space-1-top space-3-bottom ">
+    {{ .Content }}
+    </div>
+  </div>
+</div>
+{{ partial "cta.html" . }}
+<hr style="width: 30%" />
+
 {{ partial "footer.html" . }}
 </div>
