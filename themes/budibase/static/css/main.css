@@ -316,7 +316,39 @@ p {
 }
 
 
+.tag {
+  border-radius: 4px;
+  display: inline-flex;
+  padding: 0 9px;
+  min-height: 26px;
+  font-size: 14px;
+  color: white;
+  background-color: var(--blue600);
+  align-items: center;
 
+}
+
+.tag-green {
+  border-radius: 4px;
+  display: inline-flex;
+  padding: 0 9px;
+  min-height: 26px;
+  font-size: 14px;
+  color: white;
+  background-color: var(--green);
+  align-items: center;
+}
+
+.tag-gray {
+  border-radius: 4px;
+  display: inline-flex;
+  padding: 0 9px;
+  min-height: 26px;
+  font-size: 14px;
+  color: white;
+  background-color: var(--gray800);
+  align-items: center;
+}
 
 .font-dark {
   color: var(--hiContrast);
@@ -2905,6 +2937,34 @@ border-radius: .75rem;
   background-color: white;
 }
 
+
+.components-cards {
+  font-size: var(--fontsize-4);
+  display: grid;
+  margin: 16px auto 0px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 36px 24px;
+  -webkit-box-pack: center;
+  justify-content: center;
+ }
+
+@media (max-width: 1200px) {
+.components-cards {
+  grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .components-cards {
+    grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+@media (max-width: 576px) {
+  .components-cards {
+    grid-template-columns: repeat(1, 1fr);
+    }
+  }
 
 
 
