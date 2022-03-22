@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-22T00:00:00Z
 description = "Use our free business directory template to manage data and share information with customers, website users, internal teams, and more."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/business-directory"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647946800/cms/Business_Directory_Template_1_wkmu3i.png"]
 label = "Business Directory Template"
 layout = "single"
