@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-22T00:00:00Z
 description = "Our free complaints record template is built to streamline information gathering, customer interactions, and incident response workflows."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/complaints-record-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647957448/cms/Complaint_record_template_1_i2gusv.png"]
 label = "Complaints Record Template"
 layout = "single"
