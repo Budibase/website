@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-22T00:00:00Z
 description = "Our OKR goal template is a fast and effective way to track objectives and key results. We’ve created a dedicated app for creating, tracking, and managing OKRs."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/okr-goal-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647965931/cms/OKR_Goal_Template_Screenshot_1_fclsyw.png"]
 label = "OKR Goal Template"
 layout = "single"
