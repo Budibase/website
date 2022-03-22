@@ -82,7 +82,7 @@ pages:
 - content/approval-apps/templates/Invoice Approval Software/index.md
 - content/approval-apps/templates/Project Approval System/index.md
 - content/approval-apps/templates/Travel Approval Request Template/index.md
-- content/business-apps/templates/client-contact-list-template/client-contact-list-template-budibase-low-code-platform.md
+- content/business-apps/templates/client-contact-list-template/index.md
 - content/business-apps/templates/commission-calculation-template/index.md
 - content/business-apps/templates/employee-check-in-check-out-template/index.md
 - content/business-apps/templates/employee-directory-template-budibase-low-code-platform.md
