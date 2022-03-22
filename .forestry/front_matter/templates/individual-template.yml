@@ -76,6 +76,7 @@ fields:
   name: destination
   label: destination
 pages:
+- content/Operations/templates/facility-management-app/index.md
 - content/admin-panels/templates/Car Rental Admin Panel/index.md
 - content/admin-panels/templates/School Admin Panel/index.md
 - content/approval-apps/templates/Content Approval Software/index.md
