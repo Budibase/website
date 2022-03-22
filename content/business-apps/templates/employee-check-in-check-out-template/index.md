@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-22T00:00:00Z
 description = "Our employee check-in/check-out template is built to simplify time management and facility booking. Start using Budibase for free today."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/employee-check-in-out"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647950284/cms/Employee_Check-in_check-out_template_1_izgikq.png"]
 label = "Employee Check-In/Check-Out Template"
 layout = "single"
