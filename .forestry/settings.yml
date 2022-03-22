@@ -10,7 +10,7 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/operations
+  path: content/Operations
   label: Operations
   create: all
   match: "**/*"
