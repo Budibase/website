@@ -2,13 +2,12 @@
 datasource = "Built-in Database"
 date = 2022-03-22T00:00:00Z
 description = "Our peer feedback template is designed to maximize efficiency, consistency, and oversight when assessing your employees’ performance. Use Budibase for free."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/peer-feedback-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647959748/cms/Peer_feedback_template_1_iyzf4e.png"]
 label = "Peer Feedback Template"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1647959786/cms/Peer_Feedback_Templaet_GIF_brcpxg.gif"
-summary = "Our peer feedback template is designed to maximize efficiency, consistency, and oversight ."
+summary = "Our peer feedback template is designed to maximize efficiency, consistency, and oversight."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1647959776/cms/Peer_Feedback_Templaet_Thumbnail_hbguvr.png"
 thumbnailColor = "red"
 title = "Peer Feedback Template | Budibase | Low-Code Platform"
