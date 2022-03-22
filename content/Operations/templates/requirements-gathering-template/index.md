@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-22T00:00:00Z
 description = "Our requirements gathering template simplifies the process of creating specifications for new projects. Cut costs and improve outcomes with Budibase."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/requirements-gathering-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647968725/cms/Facility_Management_App_2_zizhqi.png"]
 label = "Requirements Gathering Template"
 layout = "single"
