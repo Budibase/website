@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-22T00:00:00Z
 description = "Our free membership directory template is the perfect way to gather, store, and manage members’ information, contact details, and more."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/membership-directory"
 images = []
 label = "Membership Directory Template"
 layout = "single"
