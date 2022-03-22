@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-22T00:00:00Z
 description = "Our near-miss register template is a fast and effective way to record workplace incidents that may lead to injury or loss of life."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/near-miss-register"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647961590/cms/Near_Miss_Register_Template_1_or3dg1.png"]
 label = "Near-Miss Register Template"
 layout = "single"
