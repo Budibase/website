@@ -18,7 +18,7 @@ We’ve created a dedicated app for creating, managing, and achieving OKRs.
 
 Setting goals and analyzing performance are crucial in any business. However, some goals are more effective than others. These days, OKRs are one of the most popular options, across all kinds of industries.
 
-How you set goals has a concrete impact on your business’ performance. Choosing the right methodology for tracking goals is crucial. The goal is to set goals that can effectively be analyzed, tracked, and achieved.
+How you set goals has a concrete impact on your business’ performance. Choosing the right methodology for tracking goals is crucial. The goal is to set goals that can effectively be analyzed, tracked, and achieved. 
 
 ## What are OKRs?
 
