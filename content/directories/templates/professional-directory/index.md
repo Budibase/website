@@ -1,7 +1,7 @@
 +++
 datasource = "Built-in Database"
 date = 2022-03-22T00:00:00Z
-description = "Our professional directory template is a secure, efficient way to gather, manage, and access companies’ information."
+description = "Our professional directory template is a secure, efficient way to gather and manage data."
 destination = ""
 draft = true
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647944933/cms/Professional_Directory_1_echca9.png"]
