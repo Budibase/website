@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-22T00:00:00Z
 description = "Our commission calculation template is the fast, easy way to manage employee benefits and compensation. Start using Budibase for free today."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/commission-calculation-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647948582/cms/Commission_Calculation_Template_1_ydn4dn.png"]
 label = "Commission Calculation Template"
 layout = "single"
