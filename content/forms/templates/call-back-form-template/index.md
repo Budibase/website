@@ -1,7 +1,7 @@
 +++
 datasource = "Built-in database"
 date = 2022-01-18T00:00:00Z
-description = "Our call-back template form template is the easy way to manage customer communications. Build and deploy a call-back form app in minutes."
+description = "Our free call-back template form template is the easy way to manage customer communications. Build and deploy a call-back form app in seconds."
 destination = "https://budibase.app/builder?template=app/call-back-form"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639150935/cms/Call_back_form_template_thumbnail_tnuz9f.png"]
 label = "Call-Back Form Template"
@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639395151/cms/Cal
 summary = "Our call-back template form template is the easy way to manage customer communications."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/Call_Back_Request_Form_Thumbnail_New_ybyr6p.png"
 thumbnailColor = "blue"
-title = "Call-Back Form Template | Budibase | Low-Code Platform"
+title = "Call-Back Form Template | Budibase"
 type = "templates"
 
 +++
