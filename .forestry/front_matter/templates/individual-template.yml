@@ -78,6 +78,7 @@ fields:
 pages:
 - content/Operations/templates/distributor-management-system/index.md
 - content/Operations/templates/facility-management-app/index.md
+- content/Operations/templates/maintenance-schedule-template/index.md
 - content/Operations/templates/okr-goal-template/index.md
 - content/Operations/templates/requirements-gathering-template/index.md
 - content/Operations/templates/work-order-app/index.md
