@@ -1,7 +1,7 @@
 +++
 datasource = "Built-in Database"
 date = 2022-03-03T00:00:00Z
-description = "Our case management template is built to maximize efficiency, oversight, and profitability within legal firms. Start using Budibase today for free."
+description = "Our free case management template is built to maximize efficiency, oversight, and profitability within legal firms."
 destination = "https://budibase.app/builder?template=app/legal-case-management-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646301391/cms/Legal_Case_Management_Template_6_vn8uka.png"]
 label = "Legal Case Management Template"
@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646301082/cms/Leg
 summary = "Our case management template is built to maximize efficiency, oversight, and profitability within legal firms."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1646301072/cms/Legal_Case_Management_Template_Thumbnail_oiuaay.png"
 thumbnailColor = "orange"
-title = " Case Management Template | Budibase | Low-Code Platform"
+title = " Legal Case Management Template | Budibase"
 type = "templates"
 
 +++
