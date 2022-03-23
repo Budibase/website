@@ -13,7 +13,7 @@ integrationcategories = ["All", "Hosting"]
 published_by = "Budibase"
 site_url = "https://www.digitalocean.com/"
 plan = "Free"
-docs_url = "https://docs.budibase.com/self-hosting/hosting-methods/digitalocean"
+docs_url = "https://docs.budibase.com/docs/digitalocean"
 status = "Live" 
 +++
 

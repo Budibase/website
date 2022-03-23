@@ -13,7 +13,7 @@ integrationcategories = ["All", "Hosting"]
 published_by = "Budibase"
 site_url = "https://www.docker.com/"
 plan = "Free"
-docs_url = "https://docs.budibase.com/self-hosting/hosting-methods/docker-compose"
+docs_url = "https://docs.budibase.com/docs/docker-compose"
 status = "Live" 
 +++
 
