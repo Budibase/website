@@ -2,7 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-23T00:00:00Z
 description = "Our free work order app template is the perfect way to manage and monitor maintenance, servicing, and repairs. Start using Budibase today."
-destination = ""
+destination = "https://budibase.app/builder?template=app/work-order-app"
 draft = true
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1648026951/cms/Work_Order_App_Screenshot_1_lzquvh.png"]
 label = "Work Order App Template"
