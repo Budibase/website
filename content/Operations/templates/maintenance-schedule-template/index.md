@@ -2,8 +2,7 @@
 datasource = "Built-in Database"
 date = 2022-03-23T00:00:00Z
 description = "Our maintenance schedule template offers a convenient platform for planning and managing regular equipment servicing. Cut admin costs with Budibase."
-destination = ""
-draft = true
+destination = "https://budibase.app/builder?template=app/maintenance-schedule-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1648028522/cms/Maintenanec_Schedule_App_Screenshot_1_tqorpf.png"]
 label = "Maintenance Schedule Template"
 layout = "single"
