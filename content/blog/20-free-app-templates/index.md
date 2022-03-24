@@ -1,13 +1,15 @@
 +++
-author = ""
+author = "Ronan McQuillan"
 date = 2022-03-24T00:00:00Z
 description = ""
 draft = true
-images = []
-profilePic = ""
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1648131824/cms/20_Free_App_Templates_lthryn.png"]
+profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "20 Free Web App Templates from Budibase"
 
 +++
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1648131824/cms/20_Free_App_Templates_lthryn.png)
+
 Over the past months, we’ve been quietly building a suite of free, ready-to-use app templates. Of course, we’re biased, but we think Budibase is the best way to build custom internal tools and web apps.
 
 What better way to prove it than building them ourselves?
@@ -56,6 +58,8 @@ Our template is designed to help colleagues share, update, and access clients’
 
 Use simple _mailto_ commands, or integrate with softphones, VOIP tools, and more, so your team can directly contact clients at the press of a button.
 
+![Free client contact list template gif](https://res.cloudinary.com/daog6scxm/image/upload/v1647955889/cms/Client_Contact_List_Gif_uqankd.gif "client contact list gif")
+
 #### 2. Manage documents with ease
 
 Budibase is the ideal solution for sharing, managing, and processing documents. Our [legal document management template](https://budibase.com/legal/templates/legal-document-management-template/) is the proof.
@@ -65,6 +69,8 @@ Law firms deal with more complex documentation than just about anyone. The key i
 We’ve built our template to simplify all kinds of document request, submission, approval, and sharing workflows. Clients and colleagues alike can submit, download, or request new documents, at the press of a button.
 
 With custom RBAC, advanced searchability, and secure file storage, our template is the ideal solution for managing even the most sensitive documents.
+
+![Document management gif](https://res.cloudinary.com/daog6scxm/image/upload/v1646298841/cms/Legal_Document_Management_Software_GIF_v1jjjc.gif "Document management gif")
 
 #### 3. Connect with employees and colleagues
 
@@ -76,6 +82,8 @@ Colleagues can quickly search and access information on their coworkers, includi
 
 Simply populate our template with your staff’s data, and our directory is ready to go. We’re pretty sure our template is the fastest way you can [build a directory app](https://budibase.com/directories).
 
+![Free employee directory template gif](https://res.cloudinary.com/daog6scxm/image/upload/v1639411576/cms/Employee_Directory_Template_Preview_njnl27.gif "Employee directory gif")
+
 #### 4. Request, submit and approve content
 
 For marketers, they say content is king. However, implementing a successful content marketing plan is trickier than you might think. One of the big challenges is delivering high-quality, on-brand content, to tight deadlines.
@@ -85,6 +93,8 @@ Our [content approval software template](https://budibase.com/approval-apps/temp
 Use our template to manage remote teams, client projects, freelancers, or blog contributors.
 
 We’ve used conditional formatting to tailor UIs to each project’s stage in your editorial pipeline. Our template offers maximum efficiency, without compromising the quality of your content.
+
+![Content approval free app template](https://res.cloudinary.com/daog6scxm/image/upload/v1642419170/cms/Content_Approval_Software_GIF_s8hbkq.gif "Content approval Gif")
 
 ### Dazzle customers and clients
 
@@ -102,6 +112,8 @@ With Budibase, what you do with your form data is up to you. We offer a huge ran
 
 It’s the perfect way to automate client communication workflows, in just a few clicks.
 
+![Call request gif](https://res.cloudinary.com/daog6scxm/image/upload/v1639395151/cms/Call_Back_Form_Tempalte_Preview_yfk9fg.gif "Free app template for callbacks gif")
+
 #### 6. Manage customer complaints
 
 In a similar vein, we’ve built our [complaints record template](https://budibase.com/business-apps/templates/complaints-record-template/) to turn negative customer experiences into positives. Every customer complaint is a learning opportunity, but only if you have a robust system in place to log interactions.
@@ -111,6 +123,8 @@ Our template is the answer.
 Members of the public or internal users can submit detailed, consistently formatted complaints, in just a few seconds. With this lightweight, single-screen app, your team can manage all aspects of customer complaint processes.
 
 We’ve used our Markdown Viewer component to automatically create attractive, shareable complaint reports. Add your own category options to our submission form, or use formula variables to create advanced automated taxonomies.
+
+![Free app template for managing complaints](https://res.cloudinary.com/daog6scxm/image/upload/v1647957811/cms/Complaint_Record_Template_GIF_cuxy7b.gif "Complaint register app template")
 
 #### 7. Estimate project costs
 
@@ -122,6 +136,8 @@ Manage costs and compare spending against estimates, at a client, PM, project, o
 
 This template is built for speed. Create as many project items as you need, with our simple, looping form interface.
 
+![Cost estimation tool](https://res.cloudinary.com/daog6scxm/image/upload/v1646327431/cms/Project_Cost_Estimation_Template_Gif_ui4eao.gif "Project cost estimate calculator")
+
 #### 8. Build a client portal
 
 Client services are a huge resource sink. Anyone who’s ever worked in an agency environment can tell you how much time is wasted on repetitive questions, project updates, document requests, and other avoidable tasks.
@@ -131,6 +147,8 @@ Use our [client portal template](https://budibase.com/portals/templates/agency-c
 We’ve created conditional UIs, based on each project’s current status. Users are seamlessly guided through the required actions to bring each project from initiation to completion.
 
 With intuitive user experiences and streamlined access to information, your clients will love using our portal template.
+
+![Free client portal app gif](https://res.cloudinary.com/daog6scxm/image/upload/v1642412335/cms/Agency_Client_Portal_Template_gif_c82zy4.gif "Client portal")
 
 ### Streamline operations
 
@@ -148,6 +166,8 @@ We’ve created a simple, automated platform to figure out how much commission e
 
 Quickly adjust our formulae to match your commission rules, and add your sales team’s information, to create a fully functioning calculator tool, in seconds.
 
+![Commission calculator](https://res.cloudinary.com/daog6scxm/image/upload/v1647948704/cms/Commission_Calculation_Template_gif_zzc8ka.gif "Commission calculator")
+
 #### 10. Manage assets
 
 Keep track of device deployment, rental, maintenance, and retirement, with our [IT asset management template](https://budibase.com/it/templates/open-source-it-asset-management-software/). We’ve created a single advanced web app template, where users can request devices, and service teams can manage maintenance.
@@ -155,6 +175,8 @@ Keep track of device deployment, rental, maintenance, and retirement, with our [
 Our template even handles maintenance scheduling, as well as using depreciation formulas to calculate the current value of each of your assets. With complete customization, our template is the perfect solution for cost-effectively managing assets.
 
 This free app template is also the perfect example of Budibase’s data visualization capabilities. Our platform offers a wide range of beautiful chart components, that can display all kinds of bindable data.
+
+![Asset manager](https://res.cloudinary.com/daog6scxm/image/upload/v1646385728/cms/IT_Asset_Management_Template_GIF_uxehtv.gif "Asset manager")
 
 #### 11. Respond to incidents
 
@@ -166,6 +188,8 @@ We’ve provided a simple, intuitive form, where even non-technical users can su
 
 Customize our template’s forms and data, to build the perfect incident report tool for your unique needs.
 
+![Report IT incident](https://res.cloudinary.com/daog6scxm/image/upload/v1639395708/cms/IT_Incident_report_form_template_gif_ydajjq.gif "Report IT incident")
+
 #### 12. Track goals
 
 We’ve created a few apps for tracking goals across your business, but our favorite is our OKR goal tracker. We love the OKR framework in general, for breaking high-level objectives, into more manageable, trackable key results.
@@ -175,6 +199,8 @@ At Budibase, we actually use a similar app ourselves, since we’ve found the OK
 Use our template to visualize your progress across all of your objectives and key results. Quickly create detailed goals, and log your progress along each element.
 
 You can use our access control tools to configure this template to your own requirements. Ensure that only relevant users can access each goal, or make changes to your data.
+
+![OKR app template free](https://res.cloudinary.com/daog6scxm/image/upload/v1647965971/cms/OKR_Goal_Template_Gif_mpyofh.gif "OKR Goal Tracker")
 
 ### Process and monitor data
 
@@ -281,5 +307,4 @@ Developers around the world love Budibase, for fast, cost-effective builds. We o
 
 This is just a selection of what Budibase can do. Take a look at our [full range of templates](https://budibase.com/templates) for more inspiration.
 
-  
 Or, to find out more about our leading open-source, low-code platform, head over to our [product page](https://budibase.com/product).
