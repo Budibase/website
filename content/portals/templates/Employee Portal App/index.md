@@ -1,7 +1,7 @@
 +++
 datasource = "Built-in Database"
 date = 2022-01-18T00:00:00Z
-description = "With our employee portal app template, you can quickly deploy a fully functioning self-service portal for your team. Start using Budibase today for free."
+description = "Use our employee portal template as a fully functioning self-service portal for your team. Start using Budibase today for free."
 destination = "https://budibase.app/builder?template=app/employee-portal"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642416028/cms/Employee_Portal_App_Screenshot_2_hl2vgj.png"]
 label = "Employee Portal App Template"
@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642415817/cms/Emp
 summary = "With our employee portal app template, you can quickly deploy a fully functioning self-service portal for your team, in minutes."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642521580/cms/CleanShot_2022-01-18_at_15.58.39_kbby9j.png"
 thumbnailColor = "teal"
-title = "Employee Portal App Template | Budibase | Custom Portals"
+title = "Employee Portal App Template | Budibase | Low-Code Portals"
 type = "templates"
 
 +++
@@ -49,7 +49,7 @@ Employee portals usually include the following kinds of resources:
 
 Of course, each of these categories can include a range of different resources. Because of this, employee portals are a powerful tool for streamlining operations. The key thing is that the contents of your portal match your internal processes and workflows.
 
-## Our employee portal app template
+## Our employee portal template
 
 Our employee portal app template offers essential functionality, in a quickly deployable package.
 
@@ -80,7 +80,7 @@ Even better, our employee portal allows your team to update their own details. A
 
 ### Streamline communications
 
-Employee portal apps are an effective way to streamline internal communications and cut operational costs. An employee portal can be used to automate just about any internal admin or HR task.
+Our employee portal template is the effective way to streamline internal communications and cut operational costs. An employee portal can be used to automate just about any internal admin or HR task.
 
 Our template offers functionality for distributing company announcements to all colleagues. Users can view embedded previews on the app’s home screen, or search for content on the announcements page.
 
@@ -108,7 +108,7 @@ For new hires, check out our free [job portal app template](https://budibase.com
 
 ### Process automation
 
-Employee portals are the perfect platforms for automating internal processes. The goal of any internal portal is to empower employees to carry out their own admin tasks. Automation makes this a reality.
+Our employee portal template is the perfect solution for automating internal processes. The goal of any internal portal is to empower employees to carry out their own admin tasks. Automation makes this a reality.
 
 With Budibase, you can trigger a wide range of automations, from any in-app action. For instance, you could notify finance teams when an employee submits new payment details. Use our built-in JavaScript editor to add additional functionality to your app.
 
