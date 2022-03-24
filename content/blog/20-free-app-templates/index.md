@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-03-24T00:00:00Z
 description = "Check out a selection of our favorite free app templates, ready to deploy and use, or customize in Budibase."
-draft = true
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1648131824/cms/20_Free_App_Templates_lthryn.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "20 Free App Templates from Budibase"
@@ -10,7 +9,7 @@ title = "20 Free App Templates from Budibase"
 +++
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1648131824/cms/20_Free_App_Templates_lthryn.png)
 
-Over the past months, we’ve been quietly building a suite of free, ready-to-use app templates. Of course, we’re biased, but we think Budibase is the best way to build custom internal tools and web apps.
+Recently, we’ve been quietly building a suite of free, ready-to-use app templates. Of course, we’re biased, but we think Budibase is the best way to build custom internal tools and web apps.
 
 What better way to prove it than building them ourselves?
 
