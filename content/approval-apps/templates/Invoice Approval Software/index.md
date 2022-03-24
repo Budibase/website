@@ -1,7 +1,7 @@
 +++
 datasource = "Built-in Database"
 date = 2022-01-18T00:00:00Z
-description = "Our invoice approval software template offers a simple and secure platform to receive, manage, and approve business payments. Start using Budibase today."
+description = "Our invoice approval software template is a simple and secure platform to receive, manage, and approve payments. Start using Budibase today for free."
 destination = "https://budibase.app/builder?template=app/invoice-approval-software"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642419863/cms/Invoice_Approval_Software_Screenshot_1_bhlhne.png"]
 label = "Invoice Approval Software Template"
@@ -36,7 +36,7 @@ Rather than manually sending invoices to your account owners, vendors can simply
 
 ![Invoice Approval Software Home Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1642419913/cms/Invoice_Approval_Software_Screenshot_1_dwoxqp.png "Invoice Approval Software Home Screen")
 
-### What should an invoice approval app include?
+### What should invoice approval software include?
 
 A basic invoice approval tool has three components:
 
@@ -73,7 +73,7 @@ Vendors can upload a wide range of attachments. Key data fields, including the v
 
 When a user completes the submission form, a new row is created in the _invoices_ database. Vendors can then view or edit key details of their own invoices, while internal users can access invoices from all suppliers.
 
-### Custom approval workflows
+### Custom invoive approval workflows
 
 Of course, every business has different approval workflows. Customize your invoice approval software to fully match your internal processes. We’ve provided a _status_ data field for entries in our _invoices_ database.
 
@@ -181,7 +181,7 @@ Connect our invoice approval software to CRMs, payment processing apps, communic
 
 Take a look at our [recurring credit card authorization form template](https://budibase.com/forms/templates/recurring-credit-card-authorization-form/).
 
-### Security
+### Secure invoice approval software
 
 Budibase offers unrivaled security. With custom access control and optional self-hosting, you have complete control over your own security standards.
 
@@ -193,7 +193,7 @@ As your business grows and evolves, it’s crucial that your software tools evol
 
 With our [low-code platform](https://budibase.com/product), you can quickly and easily deploy new functionality, with minimal interruption or downtime.
 
-## Start using our invoice approval template today
+## Start using our invoice approval software template today
 
 Budibase is the fast, cost-effective way to build custom approval workflow software. In minutes, you can create fully deployable business apps that streamline processes and cut admin costs.
 
