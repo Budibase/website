@@ -1,7 +1,7 @@
 +++
 datasource = "Built-in Database"
 date = 2022-03-01T00:00:00Z
-description = "Our logistics request form template simplifies client onboarding, cost estimation, and project initiation. Start using Budibase today for free."
+description = "Our free logistics request form template simplifies client onboarding and project initiation."
 destination = "https://budibase.app/builder?template=app/logistics-request-form"
 images = []
 label = "Logistics Request Form Template"
@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646149574/cms/Log
 summary = "Our logistics request form template simplifies client onboarding, cost estimation, and project initiation. "
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1646149561/cms/Logistics_Request_Form_Thumbnail_ikvkcd.png"
 thumbnailColor = "green"
-title = "Logistics Request Form Template | Budibase | Low-Code Platform"
+title = "Logistics Request Form Template | Budibase"
 type = "templates"
 
 +++
