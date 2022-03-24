@@ -1,7 +1,7 @@
 +++
 datasource = "Built-in Databse"
 date = 2022-01-18T00:00:00Z
-description = "Our job portal app development template offers a secure and effective way to post jobs and hire the perfect candidates, with a fully responsive UI."
+description = "Our free job portal app development template is a secure and effective way to post jobs and hire talent."
 destination = "https://budibase.app/builder?template=app/job-portal"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642417842/cms/Resposnive_Job_Portal_App_1_cv8lfj.png"]
 label = "Job Portal App Development Template"

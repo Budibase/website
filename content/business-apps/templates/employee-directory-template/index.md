@@ -1,7 +1,7 @@
 +++
 datasource = "Built-in database"
 date = ""
-description = "Our free employee directory template gives quick and easy access to staff information. Use Budibase to build the perfect directory app in minutes."
+description = "Use our free employee directory template for easy access to staff information. Build custom tools in minutes with Budibase."
 destination = "https://budibase.app/builder?template=app/employee-directory"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639410530/cms/Employee_Directory_Template_1_yjobma.png"]
 label = "Employee Directory Template"
@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639411576/cms/Emp
 summary = "Our employee directory template gives businesses quick and easy access to staff information."
 thumbnail = "/business-apps/templates/employee-directory-template/images/thumbnail.webp"
 thumbnailColor = "green-pastel"
-title = "Employee Directory Template | Budibase"
+title = "Employee Directory Template | Budibase | Low-Code Directories"
 type = "templates"
 
 +++
