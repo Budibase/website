@@ -53,7 +53,7 @@ The most effective project estimate tools maximize profitability by cutting unne
 
 ## Our project cost estimation template
 
-We’ve built our project cost estimation template for maximum efficiency. Users can create complex project budgets, in seconds.
+We’ve built our project cost estimate template for maximum efficiency. Users can create complex project budgets, in seconds.
 
 Our template offers:
 
@@ -72,7 +72,7 @@ Our template is the smart way to create, manage, and share estimates.
 
 ### Itemized estimates, in seconds
 
-Use our template to create detailed project cost estimates, in just a few clicks. We’ve built our estimator tool around four linked databases for _projects, project items, rates,_ and _clients_. Quickly estimate the costs of entire projects or individual tasks.
+Use our cost estimate template to create detailed project cost estimates, in just a few clicks. We’ve built our estimator tool around four linked databases for _projects, project items, rates,_ and _clients_. Quickly estimate the costs of entire projects or individual tasks.
 
 Store your fixed rates for each service vertical, and use our simple form interfaces to create project estimates. Our template minimizes admin time, with instant cost calculations and intuitive UIs.
 
@@ -175,7 +175,7 @@ Budibase tools can be deployed in minutes.
 
 ### Third-party integrations
 
-Build tools that sit perfectly alongside your existing software. Budibase offers a wide range of [third-party integrations](https://budibase.com/integration), using Zapier, RestAPI, and more. Connect to invoicing tools, [approval apps,](https://budibase.com/approval-apps) communications software, and more.
+Build tools that sit perfectly alongside your existing software. Budibase offers a wide range of [third-party integrations](https://budibase.com/integration), using Zapier, RestAPI, and more. Connect our cost estimate template to invoicing tools, [approval apps,](https://budibase.com/approval-apps) communications software, and more.
 
 With Budibase, it’s easy to create fully streamlined professional services workflows. Use any in-app action to trigger automations in a huge variety of external tools.
 
