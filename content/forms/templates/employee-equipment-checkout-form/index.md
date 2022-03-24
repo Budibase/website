@@ -1,7 +1,7 @@
 +++
 datasource = "Built-in database"
 date = 2022-01-18T00:00:00Z
-description = "Our free employee equipment check-out form template is the simple, effective way to manage device rental."
+description = "Our free employee equipment checkout form template is the simple, effective way to manage device rental."
 destination = "https://budibase.app/builder?template=app/employee-equipment-checkout-form"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639388152/cms/Employee_Equipment_Checkout_Form_Template_1_lyhmin.png"]
 label = "Employee Equipment Checkout Form Template"
@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639396182/cms/Emp
 summary = "Our employee equipment checkout form template provides a simple, effective way to manage device rental."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/Employee_Equipment_Checkout_Form_Thumbnail_New_to8dqi.png"
 thumbnailColor = "indigo"
-title = "Employee Equipment Check-Out Form Template | Budibase"
+title = "Employee Equipment Checkout Form Template | Budibase"
 type = "templates"
 
 +++
