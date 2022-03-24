@@ -24,6 +24,7 @@ fields:
   label: author headshot
   description: Add your avatar (48px x 48px)
 pages:
+- content/blog/20-free-app-templates/index.md
 - content/blog/avoid-vendor-lock-in/index.md
 - content/blog/budibase-s-public-api-is-now-publicly-available.md
 - content/blog/building-a-crud-app-with-budibase-and-next.js.md
