@@ -5,7 +5,7 @@ description = ""
 draft = true
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1648131824/cms/20_Free_App_Templates_lthryn.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "20 Free Web App Templates from Budibase"
+title = "20 Free App Templates from Budibase"
 
 +++
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1648131824/cms/20_Free_App_Templates_lthryn.png)
@@ -218,6 +218,8 @@ Drill down into individual students, or monitor entire cohorts, by their class, 
 
 Our template is built to help educational leaders make better decisions, and empower each student to reach their full potential.
 
+![Free admin panel app template for schools](https://res.cloudinary.com/daog6scxm/image/upload/v1642427805/cms/School_Admin_Panel_Template_GIF_rbz7ti.gif "Free admin panel app template for schools")
+
 #### 14. Control fleet costs
 
 Budibase offers incredible, automatic data transformation. Check out our [remote fleet management system](https://budibase.com/logistics/templates/remote-fleet-management-system/) to see this in action.
@@ -227,6 +229,8 @@ Again, the idea here is to gather usable data from your normal daily operations.
 We’ve then created a number of formula variables, to calculate fuel consumption, running costs, and more, at a driver or vehicle level.
 
 We’ve even built-in tools for registering and monitoring vehicle maintenance. Use our free app template to ensure you’re getting the maximum value out of every single vehicle in your fleet.
+
+![Fleet manager app template](https://res.cloudinary.com/daog6scxm/image/upload/v1646150765/cms/Remote_Fleet_Management_Template_GIF_adapu6.gif "Fleet manager app template")
 
 #### 15. Maximize product quality
 
@@ -238,6 +242,8 @@ Create custom automation rules to supercharge our template, based on your intern
 
 Our template isn’t just an effective way to complete checklists. It’s also the perfect way to gather product quality data, to supercharge your operations.
 
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1646324771/cms/Manufacturing_Quality_Control_Checklist_Gif_ivrkru.gif)
+
 #### 16. Manage inventories
 
 In the age of global, just-in-time supply chains, manufacturing businesses must handle large volumes of data to remain cost-effective. Our manufacturing [inventory management template](https://budibase.com/manufacturing/templates/manufacturing-inventory-management-software/) is built to track and oversee raw materials, works-in-progress, and finished goods.
@@ -247,6 +253,8 @@ Of course, there are countless inventory management tools available on the marke
 Use our template to get started. We’ve provided simple CRUD functionality, to create, read, update, or delete stock entries. You’ll also find a dedicated analytics screen, to quickly view stock volumes and values, across multiple locations.
 
 You can even connect your existing data to Budibase, with full support for MySQL, Postgres, REST API, Airtable, and more.
+
+![Product Analytics](https://res.cloudinary.com/daog6scxm/image/upload/v1646323825/cms/Manufacturing_Inventory_Management_Template_3_estgtw.png "Product Analytics")
 
 ### Supercharge profits
 
@@ -262,6 +270,8 @@ Our [employee equipment checkout form](https://budibase.com/forms/templates/empl
 
 Our template isn’t just a better way to request equipment. It’s also the perfect way to gather data on demand for different kinds of devices, helping your team to make better decisions about procurement and deployment.
 
+![Device rental app template free](https://res.cloudinary.com/daog6scxm/image/upload/v1639396182/cms/Employee_equipment_checkout_form_gif_w3mbd0.gif "Device rental app template free")
+
 #### 18. Authorize recurring payments
 
 Budibase tools are a powerful way to improve your CRO. Our professional, intuitive web app templates are the ideal way to guide users to complete sales. Take our [recurring credit card authorization form](https://budibase.com/forms/templates/recurring-credit-card-authorization-form/) as an example.
@@ -270,6 +280,8 @@ Many online businesses suffer huge drop-off rates, because of poor checkout expe
 
 With self-hosting, external data support, and a range of third-party integrations, Budibase gives you complete control over how you process and store customers’ payment data. Use our template as an attractive front-end interface, for your existing payment processes.
 
+![Authorization form gif](https://res.cloudinary.com/daog6scxm/image/upload/v1639405159/cms/Recurring_credit_card_authorization_form_gif_giwkgc.gif "Authorization form gif")
+
 #### 19. Gather leads
 
 Attract and qualify sales opportunities with our incredible [multi-step lead form](https://budibase.com/forms/templates/multi-step-lead-form/). Any marketer will tell you that lead generation forms are a tricky balancing act. You need to gather enough information to assess leads’ potential, while also offering a quick, slick UX, to secure completions.
@@ -277,6 +289,8 @@ Attract and qualify sales opportunities with our incredible [multi-step lead for
 Many businesses never find the perfect compromise. Our template is the answer to your prayers. We’ve created an attractive digital form, with a single text field on each step. Maximize completions, by ensuring users never feel overwhelmed or confused.
 
 Send form data directly to sales professionals, calendar apps, CRMs, and more. With Budibase you have complete flexibility to embed our templates into your existing sales and marketing funnels.
+
+![Lead generation app template free](https://res.cloudinary.com/daog6scxm/image/upload/v1648134964/cms/multi-step_lead_form_vtppju.gif "Lead generation form")
 
 #### 20. Slash hiring costs
 
@@ -287,6 +301,8 @@ We’ve used role-based access control to provide incredible user experiences fo
 Add job descriptions, publish new roles, and receive applications from our free web app template. Candidates can fill in customizable application forms, attach resumes, and track their progress.
 
 Best of all, [our portal apps](https://budibase.com/approval-apps) work perfectly on all kinds of devices. Empower users to apply for open roles, anywhere, any time, on any device.
+
+![Recruitment portal](https://res.cloudinary.com/daog6scxm/image/upload/v1642418053/cms/Responsive_Job_Portal_GIF_hq4dso.gif "Recruitment portal ")
 
 ## Customize, deploy, and use our free app templates
 
