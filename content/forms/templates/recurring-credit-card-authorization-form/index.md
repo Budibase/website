@@ -1,7 +1,7 @@
 +++
 datasource = "Built-in database"
 date = 2022-01-19T00:00:00Z
-description = "Gather customer payment details with our recurring credit card authorization form. Create effective digital forms in minutes with our low-code builder."
+description = "Gather customer payment details with our free recurring credit card authorization form template."
 destination = "https://budibase.app/builder?template=app/recurring-credit-card-authorization-form"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639403775/cms/Recurring_credit_card_authorization_form_1_qouvms.png"]
 label = "Recurring Credit Card Authorization Form Template"
@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639405159/cms/Rec
 summary = "Gather customer payment details with our recurring credit card authorization form."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502299/cms/Recurring_Credit_Card_Authorization_Form_Template_Thumbnail_New_g3jhs1.png"
 thumbnailColor = "green-pastel "
-title = "Recurring Credit Card Authorization Form Template | Budibase"
+title = "Recurring Credit Card Authorization Form Template"
 type = "templates"
 
 +++
