@@ -1,7 +1,7 @@
 +++
 datasource = "Built-in Database"
 date = 2022-03-03T00:00:00Z
-description = "Our free case management template is built to maximize efficiency, oversight, and profitability within legal firms."
+description = "Our free legal case management template is built to maximize efficiency, oversight, and profitability.."
 destination = "https://budibase.app/builder?template=app/legal-case-management-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646301391/cms/Legal_Case_Management_Template_6_vn8uka.png"]
 label = "Legal Case Management Template"
@@ -33,7 +33,7 @@ Case management software achieves this in two ways:
 1. Providing oversight of project spending.
 2. Reducing and eliminating unnecessary operational costs.
 
-### Why do you need case management software?
+### Why do you need a legal case management tool?
 
 Legal workflows are some of the most admin-intensive of any business function.
 
@@ -58,9 +58,9 @@ The most effective case management tools offer additional functionality, includi
 
 Every legal department has unique processes. As such, case management tools must offer high levels of customization. To deliver ROI, case management software should fully match your existing workflows.
 
-## Our case management template
+## Our legal case management template
 
-Our case management template is a fully deployable solution, with total scope for customization. Use our leading open-source, low-code platform to tailor our template to your specific needs.
+Our legal case management template is a fully deployable solution, with total scope for customization. Use our leading open-source, low-code platform to tailor our template to your specific needs.
 
 Out of the box, our template offers:
 
@@ -85,7 +85,7 @@ Quickly update project budgets, spending, requirements, documentation, statuses,
 
 Use our template to categorize and organize cases and resources. We’ve also provided functionality for calculating, analyzing, and managing spending across cases.
 
-![Case management spend calculations](https://res.cloudinary.com/daog6scxm/image/upload/v1646301329/cms/Legal_Case_Management_Template_7_w5lfmb.png "Manage Spending across cases")
+![Legal Case management template spend calculations](https://res.cloudinary.com/daog6scxm/image/upload/v1646301329/cms/Legal_Case_Management_Template_7_w5lfmb.png "Manage Spending across cases")
 
 ### Track spending and project budgets
 
@@ -105,7 +105,7 @@ Customize our permission tiers to match your departmental structure. We’ve als
 
 ### Workflow automation
 
-Our template is built to automate legal workflows. Trigger our library of automations using any in-app action. Use handlebars expressions, formula variables, conditional UIs, third-party integrations, or our built-in JavaScript editor to create powerful custom functions.
+Our template is built to automate legal case management workflows. Trigger our library of automations using any in-app action. Use handlebars expressions, formula variables, conditional UIs, third-party integrations, or our built-in JavaScript editor to create powerful custom functions.
 
 With Budibase, it’s easy to automate everything from project approval, to invoicing, document sharing, status reports, and more.
 
@@ -169,7 +169,7 @@ Build deployment-ready, feature-packed tools in minutes, or use one of our [app 
 
 We also offer enterprise support packages and SLAs. Check out our [pricing page](https://budibase.com/pricing) for more information.
 
-![Case management template timesheets](https://res.cloudinary.com/daog6scxm/image/upload/v1646301445/cms/Legal_Case_Management_Template_4_rlbto1.png "Case management template time sheets")
+![Legal Case management template timesheets](https://res.cloudinary.com/daog6scxm/image/upload/v1646301445/cms/Legal_Case_Management_Template_4_rlbto1.png "Case management template time sheets")
 
 ### External database support
 
