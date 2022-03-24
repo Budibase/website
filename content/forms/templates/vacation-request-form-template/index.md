@@ -1,7 +1,7 @@
 +++
 datasource = "Built-in database"
 date = 2022-01-19T00:00:00Z
-description = "Managing time off can be a challenge. Our vacation request form template gives businesses a quick and easy way to manage employee leave."
+description = "Our free vacation request form template gives businesses a quick and easy way to manage employee leave."
 destination = "https://budibase.app/builder?template=app/vacation-request-form"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639407327/cms/Vacation_Request_Form_1_lfjkvl.png"]
 label = "Vacation Request Form Template"
@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639409013/cms/Vac
 summary = "Our vacation request form template gives businesses a quick and easy way to manage employee leave."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642589024/cms/Vacation_Request._Form_Thuumbnail_New_iddehn.png"
 thumbnailColor = "purple"
-title = "Vacation Request Form Temple | Budibase | Open-Source Tools"
+title = "Vacation Request Form Temple | Budibase"
 type = "templates"
 
 +++
