@@ -1,7 +1,7 @@
 +++
 datasource = "Built-in Database"
 date = 2022-03-22T00:00:00Z
-description = "Our client contact list template is built to simplify data collection, storage, and management. Start using Budibase for free today."
+description = "Use our free client contact list template to simplify data collection, storage, and management."
 destination = "https://budibase.app/builder?template=app/client-contact-list"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647955839/cms/Client_Contact_List_Template_1_hlo1z9.png"]
 label = "Client Contact List Template"
