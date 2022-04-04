@@ -6,6 +6,7 @@ description = "Within this guide you will learn what a CRUD app is, how to build
 author = "Joe Johnston"
 images = ['/blog/crud-app/images/read.webp']
 draft = "false"
+dateModified = "2022-04-04"
 
 +++
 
@@ -22,7 +23,7 @@ We use CRUD apps every day. Most of the time, without noticing. They keep us org
 
 > A CRUD app is a specific type of software application that consists of four basic operations; Create, Read, Update, Delete. 
 
-At a high level, a CRUD apps consist of three parts; the database, user interface, and APIs. 
+At a high level, CRUD apps consist of three parts; the database, user interface, and APIs. 
 
 #### Database
 
@@ -157,8 +158,6 @@ There are many, low code platforms, frameworks, or tech stacks that provide an e
 - LAMP - Linux, Apache, MySQL, PHP
 - Supabase and Next.js
 - MEAN - Mongo, Express, Angular, Node.js
-
-
 
 ---
 
@@ -352,6 +351,17 @@ CRUD offers many other benefits including:
 - It’s tried and tested
 - It’s a recognized pattern and recognizable by most devs
 - It simplifies the process and provides an easy framework for new developers to learn
+
+---
+
+## CRUD app templates
+
+You can find over 50 CRUD app templates on the Budibase template page. These templates are free, 100% customizable, and simple to install. 
+
+[View Budibase templates](https://budibase.com/templates)
+
+
+{{< figure src="/img/meta-images/templates.png"  alt="CRUD app templates" >}}
 
 ---
 
