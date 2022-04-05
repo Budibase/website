@@ -350,7 +350,7 @@ table td{
 .detail {
   text-transform: uppercase;
   letter-spacing: 0.07em;
-  font-size: var(--fontsize-2);
+  font-size: 12px;
   font-weight: 700;
 }
 
