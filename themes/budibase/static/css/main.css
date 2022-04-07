@@ -634,14 +634,14 @@ input[type="month"] {
 }
 .hero-title {
   text-size-adjust: 100%;
-  font-size: 56px;
+  font-size: 62px;
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 0;
   font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;  
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
-  letter-spacing: -.01em;
+  letter-spacing: -.05em;
   text-indent: -.025em;
   line-height: 1;
   text-rendering: optimizeLegibility;
