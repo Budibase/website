@@ -5,7 +5,7 @@ description = "Public forms are popular mechanisms to collect data on the intern
 draft = true
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/Maintenance_Request_Form_Template_Thumbnail_New_lk5y2w.png", "https://res.cloudinary.com/daog6scxm/image/upload/v1642525391/cms/Maintenance_Request_Form_Thumbnail_New_hrdudd.png", "https://res.cloudinary.com/daog6scxm/image/upload/v1646391876/cms/Hospital_Discharge_Form_1_zrjihp.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1647258452/cms/20200113_Propel_Team_Shots_123_omblqt.jpg"
-title = "Public forms - how to build them in minutes"
+title = "Public forms - how to build a public form in minutes"
 
 +++
 # What is a public form
