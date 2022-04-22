@@ -85,6 +85,11 @@ Now that we've set up our database, we need to build it's structure by adding fi
   * 101 - 1000
   * 1001+.  
     Then click 'Save column'.
+* **The final step within our data section, and a very important one, is to change the access of our database. To do this, click the 'Manage access' button. Then set both the Write and Read levels to 'Public'. Click 'Done'.**
+
+#### Step 5. Building your form
+
+Navigate to the Design section of the Budibase builder. There are two ways to build a public form from using our database; autogenerate screens, build our screen from scratch. In this demonstration, we will build our form from scratch.
 
 ## Multi-step forms
 
