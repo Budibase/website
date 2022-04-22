@@ -30,7 +30,7 @@ There are many examples where a user may want to create a public form. I've list
 
 7\. A COVID test response form
 
-\---
+\-----
 
 # Form types
 
