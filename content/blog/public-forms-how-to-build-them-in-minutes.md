@@ -95,6 +95,16 @@ Now click the '+ Add screen' button. Select 'Blank' and click 'Add screens'. Nam
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650618476/cms/CleanShot_2022-04-22_at_10.07.38_2x_ntc6w3.png)
 
+#### Step 6. Build your public form
+
+First, we will add a Form component. You will find this under the Form dropdown. In the settings panel (to the right of your screen), under the Schema label, select the dropdown and select Public Form.
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650621320/cms/CleanShot_2022-04-22_at_10.54.00_bebnuq.gif)
+
+Now, add a Field Group component (under the Form dropdown). In the settings panel, click the 'Update form fields' button, then click 'Update'.
+
+#### Step 7. Add and configure submit button
+
 ## Multi-step forms
 
 Multi-step forms are forms that span across multiple screens. They are also known as stepper forms and generally consist of 1 or 2 questions per screen. Multi-step forms are great when you've got a lot of inputs within your form or when you need to add media/explanations to questions.
