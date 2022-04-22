@@ -10,7 +10,7 @@ title = "Public forms - how to build a public form in minutes"
 +++
 # What is a public form
 
-A public form is a digital form that is accessible to anyone on the internet.
+A public form is a digital form that is accessible to anyone on the internet. The difference between a public and private form is the access level. Private forms are only accessible to predefined users behind a log-in.
 
 ## Public form examples
 
@@ -29,10 +29,6 @@ There are many examples where a user may want to create a public form. I've list
 6\. Information request form
 
 7\. A COVID test response form
-
-## Public vs. Private form
-
-The only difference between a public and private form is the access level. Public forms are accessible to anyone across the internet. Private forms are accessible to predefined users behind a log-in.
 
 \---
 
