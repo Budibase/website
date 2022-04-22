@@ -101,9 +101,13 @@ First, we will add a Form component. You will find this under the Form dropdown.
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650621320/cms/CleanShot_2022-04-22_at_10.54.00_bebnuq.gif)
 
-Now, add a Field Group component (under the Form dropdown). In the settings panel, click the 'Update form fields' button, then click 'Update'.
+Now, add a Field Group component (under the Form dropdown). In the settings panel, click the 'Update form fields' button, then click 'Update'. Your screen should now look like this:
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650628329/cms/CleanShot_2022-04-22_at_12.51.55_2x_qfpx38.png)
 
 #### Step 7. Add and configure submit button
+
+To complete the creation of our public form, we will add a submit button. To add a button, click the Elements dropdown, and select Button. In the settings panel, under the Text label, update the button's text to Submit.
 
 ## Multi-step forms
 
