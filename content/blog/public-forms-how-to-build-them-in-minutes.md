@@ -18,7 +18,7 @@ There are many examples where a user may want to create a public form. I've list
 
 1\. A public survey
 
-2\. Log in form
+2\. Login form
 
 3\. Sign up form
 
@@ -52,9 +52,39 @@ If you think of a form, this is probably what you picture. A simple, vertical fl
 
 \- [MOT booking form](https://dva-bookings.nidirect.gov.uk/)
 
-### How to build a public form (single-step)
+### How to build a single-step public form
 
-Both Budibase and Google Forms are great options for building a public form (single-step). Google Forms is free, proprietary software. The data submitted within your form is hosted with Google. On the other hand, Budibase is free and open-source; therefore, it's possible to self-host Budibase and keeps the data in the safety of your infrastructure.
+Both Budibase and Google Forms are great options for building a public form (single-step). Google Forms is free, proprietary software. The data submitted within your form is hosted with Google. On the other hand, Budibase is free and open-source; therefore, it's possible to self-host Budibase and keeps the data in the safety of your infrastructure. For this guide, we will use Budibase.
+
+#### Step 1. Sign up to Budibase
+
+If you've not signed up to Budibase, you can [register here.](https://account.budibase.app/register "budibase registration") Simply follow complete process - it only takes a few seconds - and you'll be ready to take the next step.
+
+#### Step 2. Create a new app
+
+Click the 'Create new app' button, then click the 'Start from scratch' button. Name your app (only use letters, no spaces or special characters). Budibase will generate a URL for you. If you are happy with the URL, click 'Create app'.
+
+#### Step 3. Set up your database
+
+For demonstration purposes, we will use the Budibase DB as our data source. This is the easiest fastest way to build a public form with Budibase.   
+  
+_You can also build forms using MySQL, Postgres, Airtable, MongoDB, Rest, and more. We'll cover each of these data sources in a different tutorial._
+
+Click Budibase DB, then click 'Continue'. Name your table: 'Public Form'. And finally, click the 'Create' button.
+
+#### Step 4. Create your data structure
+
+Now that we've set up our database, we need to build it's structure by adding fields/columns.
+
+* Click the 'Create column' button, and name it 'Name'. Then click 'Save column'.
+* Click the 'Create column' button, and name it 'Email'. Then click 'Save column'.
+* Click the 'Create column' button, and name it 'Company'. Then click 'Save column'.
+* Click the 'Create column' button, and name it 'Company size'. Click the Type dropdown and select 'Options'. In the options text box (bottom) add the following (one per line):
+  * 1 - 10
+  * 11 - 100
+  * 101 - 1000
+  * 1001+.  
+    Then click 'Save column'.
 
 ## Multi-step forms
 
@@ -62,6 +92,6 @@ Multi-step forms are forms that span across multiple screens. They are also know
 
 ### Examples of multi-step forms
 
-### How to build a public form (multi-step)
+### How to build a multi-step public form
 
 \---
