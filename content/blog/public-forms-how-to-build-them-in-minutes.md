@@ -30,8 +30,6 @@ There are many examples where a user may want to create a public form. I've list
 
 7\. A COVID test response form
 
-\-----
-
 # Form types
 
 There are many styles of forms, but broadly speaking, they can be pigeonholed into the following two categories:
@@ -83,9 +81,17 @@ Now that we've set up our database, we need to build it's structure by adding fi
     Then click 'Save column'.
 * **The final step within our data section, and a very important one, is to change the access of our database. To do this, click the 'Manage access' button. Then set both the Write and Read levels to 'Public'. Click 'Done'.**
 
-#### Step 5. Building your form
+#### Step 5. Create your public screen
 
-Navigate to the Design section of the Budibase builder. There are two ways to build a public form from using our database; autogenerate screens, build our screen from scratch. In this demonstration, we will build our form from scratch.
+Navigate to the Design section of the Budibase builder. There are two ways to build a public form from using our database; autogenerate screens, build our screen from scratch. In this demonstration, we will build our form from scratch. 
+
+Your first step, is to change the access from basic to public (Filter by access dropdown under the Screens tab).
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650618251/cms/CleanShot_2022-04-22_at_10.03.47_2x_kdyyzr.png)
+
+Now click the '+ Add screen' button. Select 'Blank' and click 'Add screens'. Name your screen 'Form' and use '/' as the URL. Your screen will now look like this:
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650618476/cms/CleanShot_2022-04-22_at_10.07.38_2x_ntc6w3.png)
 
 ## Multi-step forms
 
