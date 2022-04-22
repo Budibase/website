@@ -30,6 +30,8 @@ There are many examples where a user may want to create a public form. I've list
 
 7\. A COVID test response form
 
+\-
+
 # Form types
 
 There are many styles of forms, but broadly speaking, they can be pigeonholed into the following two categories:
