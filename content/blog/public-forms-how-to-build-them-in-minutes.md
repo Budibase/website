@@ -10,7 +10,7 @@ title = "Public forms - how to build a public form in minutes"
 +++
 # What is a public form
 
-A public form is a digital form that is accessible to anyone on the internet.
+A public form is a digital form that is accessible to anyone on the internet. The difference between a public and private form is the access level. Private forms are only accessible to predefined users behind a log-in.
 
 ## Public form examples
 
@@ -30,11 +30,7 @@ There are many examples where a user may want to create a public form. I've list
 
 7\. A COVID test response form
 
-## Public vs. Private form
-
-The only difference between a public and private form is the access level. Public forms are accessible to anyone across the internet. Private forms are accessible to predefined users behind a log-in.
-
-\---
+\-
 
 # Form types
 
@@ -85,6 +81,33 @@ Now that we've set up our database, we need to build it's structure by adding fi
   * 101 - 1000
   * 1001+.  
     Then click 'Save column'.
+* The final step within our data section, and a very important one, is to change the access of our database. To do this, click the 'Manage access' button. **Then set both the Write and Read levels to 'Public'. Click 'Done'.**
+
+#### Step 5. Create your public screen
+
+Navigate to the Design section of the Budibase builder. There are two ways to build a public form from using our database; autogenerate screens, build our screen from scratch. In this demonstration, we will build our form from scratch. 
+
+Your first step, is to change the access from basic to public (Filter by access dropdown under the Screens tab).
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650618251/cms/CleanShot_2022-04-22_at_10.03.47_2x_kdyyzr.png)
+
+Now click the '+ Add screen' button. Select 'Blank' and click 'Add screens'. Name your screen 'Form' and use '/' as the URL. Your screen will now look like this:
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650618476/cms/CleanShot_2022-04-22_at_10.07.38_2x_ntc6w3.png)
+
+#### Step 6. Build your public form
+
+First, we will add a Form component. You will find this under the Form dropdown. In the settings panel (to the right of your screen), under the Schema label, select the dropdown and select Public Form.
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650621320/cms/CleanShot_2022-04-22_at_10.54.00_bebnuq.gif)
+
+Now, add a Field Group component (under the Form dropdown). In the settings panel, click the 'Update form fields' button, then click 'Update'. Your screen should now look like this:
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650628329/cms/CleanShot_2022-04-22_at_12.51.55_2x_qfpx38.png)
+
+#### Step 7. Add and configure submit button
+
+To complete the creation of our public form, we will add a submit button. To add a button, click the Elements dropdown, and select Button. In the settings panel, under the Text label, update the button's text to Submit.
 
 ## Multi-step forms
 
