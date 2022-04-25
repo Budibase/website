@@ -10,7 +10,7 @@ title = "Public forms - how to build a public form in minutes"
 +++
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650887145/cms/CleanShot_2022-04-25_at_12.45.07_l9mvmd.png)
 
-# What is a public form
+\## What is a public form
 
 A public form is a digital form that is accessible to anyone on the internet. The difference between a public and private form is the access level. Private forms are only accessible to predefined users behind a log-in.
 
