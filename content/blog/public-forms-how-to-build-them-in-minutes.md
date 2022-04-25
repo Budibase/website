@@ -143,7 +143,7 @@ After removing the Navigation, go back to the 'Screens' tab, and follow the inst
 * Click on the 'Home' option in the component navigation tree. In the settings panel, under 'Horiz Align', choose 'Center'.
 * Click on our New Form component, and in the settings panel, change the Size to 'Large'.
 * Add a new container and drag it above your form component (in the component tree). Then nest your Form component under the new Container component. ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650879355/cms/CleanShot_2022-04-25_at_10.34.58_j0wxaj.gif)  
-  Click the New Container component, and in its settings panel:
+  Click the 'New Container' component, and in its settings panel:
 * Under Horiz. Align, select 'Left'.
 * Under PADDING, change: 
   * Top to `64px`
