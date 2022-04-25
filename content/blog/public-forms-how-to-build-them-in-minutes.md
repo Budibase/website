@@ -108,7 +108,7 @@ Your first step, is to change the access from basic to public (Filter by access 
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650618251/cms/CleanShot_2022-04-22_at_10.03.47_2x_kdyyzr.png)
 
-Now click the '+ Add screen' button. Select 'Blank' and click 'Add screens'. Name your screen 'Form' and use '/' as the URL. Your screen will now look like this:
+Now click the '+ Add screen' button. Select 'Blank' and click 'Add screens'. Name your screen `Form` and use `/` as the URL. Your screen will now look like this:
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650618476/cms/CleanShot_2022-04-22_at_10.07.38_2x_ntc6w3.png)
 
@@ -126,7 +126,7 @@ Now, add a Field Group component (under the Form dropdown). In the settings pane
 
 To complete the creation of our public form, we will add a submit button. To add a button, click the Elements dropdown, and select Button. In the settings panel, under the Text label, update the button's text to `Submit`
 
-We now need to tell our button what to do when clicked. To do this, under the label On Click, click the Define actions button. Now click the \`Add Action' button, and select 'Save Row'. Change the Data source to 'New Form' (name of your form component in the tree) and Table to 'Public Form' (name of your table). Click 'Save'. Our form is now fully operational.  
+We now need to tell our button what to do when clicked. To do this, under the label On Click, click the Define actions button. Now click the \`Add Action' button, and select 'Save Row'. Change the Data source to 'New Form' (the name of your form component in the tree) and Table to 'Public Form' (the name of your table). Click 'Save'. Our form is now fully operational.  
   
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650877529/cms/CleanShot_2022-04-25_at_10.05.09_2x_dzgloj.png)
 
@@ -141,7 +141,7 @@ After removing the Navigation, go back to the 'Screens' tab, and follow the inst
 ##### Resize our form and update spacing
 
 * Click on the 'Home' option in the component navigation tree. In the settings panel, under 'Horiz Align', choose 'Center'.
-* Click on our New Form component, and in the settings panel, change the Size to Large.
+* Click on our New Form component, and in the settings panel, change the Size to 'Large'.
 * Add a new container and drag it above your form component (in the component tree). Then nest your Form component under the new Container component. ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650879355/cms/CleanShot_2022-04-25_at_10.34.58_j0wxaj.gif)  
   Click the New Container component, and in its settings panel:
 * Under Horiz. Align, select 'Left'.
