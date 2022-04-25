@@ -2,7 +2,6 @@
 author = "Joe Johnston"
 date = 2022-04-20T23:00:00Z
 description = "Public forms are popular mechanisms to collect data on the internet, and building them  is pretty straightforward process if you have the right tools."
-draft = true
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1650881099/cms/CleanShot_2022-04-25_at_11.04.33_2x_g9ntls.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1647258452/cms/20200113_Propel_Team_Shots_123_omblqt.jpg"
 title = "Public forms - how to build a public form in minutes"
@@ -289,3 +288,7 @@ You can explore over 50 templates, including [form templates](https://budibase.c
 ## What to do after setting up your Public Form
 
 Personally, I would autogenerate CRUD screens (with basic access level). This way, I would have a UI to view, update, delete form submissions and create new ones too.
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650896538/cms/CleanShot_2022-04-25_at_15.22.00_pm2pqy.png)
+
+I hope you found this guide helpful. If you have a need or desire to build web apps and internal tools quickly, [sign up to Budibase today](). It's free and open-source, has over 13,000 Github stars, and is loved by employees at Google, Microsoft, SpaceX, and more.
