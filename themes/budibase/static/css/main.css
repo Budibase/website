@@ -982,9 +982,12 @@ mark,
 }
 
 code {
-  font-size: 87.5%;
-  color: #e83e8c;
-  word-break: break-word;
+  background: var(--gray100);
+  color: var(--hiContrast);
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.75rem;
+  font-weight: 400;
+  padding: 0.15em 0.5em;
 }
 
 a > code {
@@ -1009,8 +1012,7 @@ pre {
   background: var(--gray100);
   color: var(--hiContrast);
   font-family: "Roboto Mono", monospace;
-  font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 400;
   padding: 0.15em 0.5em;
 }
 
@@ -1031,7 +1033,7 @@ td > code {
   color: var(--hiContrast);
   font-family: "Roboto Mono", monospace;
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 400;
   padding: 0.15em 0.5em;
 }
 
