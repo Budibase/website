@@ -163,7 +163,7 @@ After removing the Navigation, go back to the 'Screens' tab, and follow the inst
 * Add an Image from the Elements dropdown
   * In the settings panel, under URL, link to your image. We will use:
 
-    [Link to image]()
+    [Link to image](https://res.cloudinary.com/daog6scxm/image/upload/v1647010468/logo/white-budibase-icon_yfgiy7.svg)
   * Under Size, change the width to `48px`.
 * Add a Header from the Elements dropdown
   * In the settings panel, change the Text to `Contact sales`
