@@ -283,7 +283,7 @@ _Currently, to view your app, you have to navigate back to the app section (clic
 
 You can explore over 50 templates, including [form templates](https://budibase.com/forms/templates/ "form templates"). If you would like to explore the app we created above, you can do, by downloading it from the link below, then uploading it to Budibase (from the Create app screen in Budibase).
 
-[Example public form app](https://res.cloudinary.com/daog6scxm/raw/upload/v1650896343/Form-export-1650896247864_yrd7y0.txt "Example public form app")
+[Example public form app](https://drive.google.com/file/d/1s1Sm13IXJFG0W-tZrghj4K6NaDE8G2a0/view?usp=sharing "Example public form app")
 
 ## What to do after setting up your Public Form
 
