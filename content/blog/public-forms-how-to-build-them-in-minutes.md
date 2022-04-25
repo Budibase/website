@@ -165,7 +165,7 @@ After removing the Navigation, go back to the 'Screens' tab, and follow the inst
   * In the settings panel, under URL, link to your image. We will use:
 
     [Link to image]()
-  * Under size, change the width to `48px`.
+  * Under Size, change the width to `48px`.
 * Add a Header from the Elements dropdown
   * In the settings panel, change the Text to `Contact sales`
   * Update the Size to 'Large'.
