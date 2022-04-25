@@ -126,8 +126,8 @@ Now, add a Field Group component (under the Form dropdown). In the settings pane
 
 To complete the creation of our public form, we will add a submit button. To add a button, click the Elements dropdown, and select Button. In the settings panel, under the Text label, update the button's text to `Submit`
 
-We now need to tell our button what to do when clicked. To do this, under the label On Click, click the Define actions button. Now click the \`Add Action' button, and select 'Save Row'. Change the Data source to 'New Form' (the name of your form component in the tree) and Table to 'Public Form' (the name of your table). Click 'Save'. Our form is now fully operational.  
-  
+We now need to tell our button what to do when clicked. To do this, under the label On Click, click the Define actions button. Now click the \`Add Action' button, and select 'Save Row'. Change the Data source to 'New Form' (the name of your form component in the tree) and Table to 'Public Form' (the name of your table). Click 'Save'. Our form is now fully operational.
+
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650877529/cms/CleanShot_2022-04-25_at_10.05.09_2x_dzgloj.png)
 
 #### Step 8. Style our new form
@@ -145,7 +145,7 @@ After removing the Navigation, go back to the 'Screens' tab, and follow the inst
 * Add a new container and drag it above your form component (in the component tree). Then nest your Form component under the new Container component. ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650879355/cms/CleanShot_2022-04-25_at_10.34.58_j0wxaj.gif)  
   Click the 'New Container' component, and in its settings panel:
 * Under Horiz. Align, select 'Left'.
-* Under PADDING, change: 
+* Under PADDING, change:
   * Top to `64px`
   * Right to `16px`
   * Bottom to `128px`
@@ -156,13 +156,13 @@ After removing the Navigation, go back to the 'Screens' tab, and follow the inst
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650879129/cms/CleanShot_2022-04-25_at_10.31.53_2x_ebsuwa.png)
 
-* Click the Theme button 
+* Click the Theme button
 * Beside the 'Theme' label, select Darkest
 
 ##### Add a logo, title and description
 
 * Add an Image from the Elements dropdown
-  * In the settings panel, under URL, link to your your image. We will use:
+  * In the settings panel, under URL, link to your image. We will use:
 
     [Link to image]()
   * Under size, change the width to `48px`.
@@ -183,7 +183,7 @@ Now structure your component navigation tree like the image below:
 
 #### Step 9. Preview and test your app
 
-Click the Preview icon (play icon, highlighted in blue below) to preview your app. 
+Click the Preview icon (play icon, highlighted in blue below) to preview your app.
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650881029/cms/CleanShot_2022-04-25_at_11.03.17_2x_mdwvcq.png)
 
@@ -206,7 +206,7 @@ If you are happy with your form, you can now publish it.
 
 #### Step 10. Publish your app
 
-To publish your app, simply click the Publish button, beside the preview button. 
+To publish your app, simply click the Publish button, beside the preview button.
 
 _Currently, to view your app, you have to navigate back to the app section (click bb icon, top left), and click the more icon beside your app, then click 'View published app'. This will change in the near future, and when you click publish Budibase will provide you with the URL._
 
@@ -274,7 +274,7 @@ After submitting the form, if you navigate back to Budibase, and look at your Pu
 
 #### Step 14. Publish your app
 
-To publish your app, simply click the Publish button, beside the preview button. 
+To publish your app, simply click the Publish button, beside the preview button.
 
 _Currently, to view your app, you have to navigate back to the app section (click bb icon, top left), and click the more icon beside your app, then click 'View published app'. This will change in the near future, and when you click publish Budibase will provide you with the URL._
 
