@@ -195,7 +195,7 @@ If you are happy with your form, you can now publish it.
 
 To publish your app, simply click the Publish button, beside the preview button. 
 
-Currently, to view your app, you have to navigate back to the app section (click bb icon, top left), and click the more icon beside your app, then click 'View published app'.
+_Currently, to view your app, you have to navigate back to the app section (click bb icon, top left), and click the more icon beside your app, then click 'View published app'. This will change in the near future, and when you click publish Budibase will provide you with the URL._
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650881274/cms/CleanShot_2022-04-25_at_11.07.24_2x_p2kt7k.png)
 
@@ -211,7 +211,7 @@ Multi-step forms are forms that span across multiple screens. They are also know
 
 ### How to build a multi-step public form
 
-Building a multi-step form follows the exact same process as building a single-step form, but involves a few additional steps. If you would like to build a multi-step form, complete the guide for building a single-step form (above) then continue with the following steps.
+Building a multi-step form follows the exact same process as building a single-step form, but involves a few additional steps. If you would like to build a multi-step form, complete the guide for building a single-step form (above) then continue with the following steps. For our multi-step form, we will use two steps.
 
 #### Step 11. Add Form Step components
 
@@ -219,4 +219,54 @@ To turn our single-step form into a multi-step form, we must use the Form Step c
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650882506/cms/CleanShot_2022-04-25_at_11.26.26_2x_sx1da2.png)
 
-#### Step 11. Add logic to our button
+#### Step 11. Change our button text depending on step
+
+For our first step, we don't want our button to say `Submit`, we want it to say `Next`. To do this, click the button, then click Configure conditions (at the bottom of settings).
+
+What we want to do next, is tell Budibase to update our button text to say next if the current step is 1. To do this, we add the following values to our Conditions settings:
+
+* Update setting
+* Text
+* Next
+* Click the lightning bolt, and on the left hand side, select 'New Form.Current Step', and select Save.
+* Equals
+* Number
+* 1
+
+See the image below for guidance.
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650883255/cms/CleanShot_2022-04-25_at_11.40.40_2x_uzuvh4.png)
+
+Click Save, and the Button should be updated.
+
+#### Step 12. Tell our button to move from step to the next
+
+Our button currently has an action to Save a row, but we don't want to save a row for the first step. So, we will tell Budibase, when the user is on step 1, don't save, and instead, move them to the next step when the button is clicked. To do this, we must go back into our button Conditions, and enter the following:
+
+* Update setting
+* On Click
+* Click Define actions button, then click Add Action, select 'Change form step'. Then change Form to 'New Form' (should be selected), and Step to 'Next Step'. Click 'Save'.
+* Click the lightning bolt, and on the left hand side, select 'New Form.Current Step', and select Save.
+* Equals
+* Number
+* 1
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650883850/cms/CleanShot_2022-04-25_at_11.50.36_2x_zl189i.png)
+
+#### Step 13. Preview and test our new public multi-step form
+
+Click the preview button. In our form, enter `Test` for the name, and `Test` for the email. Click Next.Then enter `Test` for the Company and 1 - 10 for Company size, and press Submit.
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650884025/cms/CleanShot_2022-04-25_at_11.51.48_2x_vfqiyj.png)
+
+After submitting the form, if you navigate back to Budibase, and look at your Public Form table in the data section, you will see our test entry.
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650884054/cms/CleanShot_2022-04-25_at_11.53.59_2x_erulr7.png)
+
+#### Step 14. Publish your app
+
+To publish your app, simply click the Publish button, beside the preview button. 
+
+_Currently, to view your app, you have to navigate back to the app section (click bb icon, top left), and click the more icon beside your app, then click 'View published app'. This will change in the near future, and when you click publish Budibase will provide you with the URL._
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650884503/cms/CleanShot_2022-04-25_at_12.00.47_qsqupu.gif)
