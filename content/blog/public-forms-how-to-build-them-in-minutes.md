@@ -227,7 +227,7 @@ To turn our single-step form into a multi-step form, we must use the Form Step c
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650882506/cms/CleanShot_2022-04-25_at_11.26.26_2x_sx1da2.png)
 
-#### Step 11. Change our button text depending on the step
+#### Step 12. Change our button text depending on the step
 
 For our first step, we don't want our button to say `Submit`, we want it to say `Next`. To do this, click the button, then click Configure conditions (at the bottom of settings).
 
@@ -247,7 +247,7 @@ See the image below for guidance.
 
 Click Save, and the Button should be updated.
 
-#### Step 12. Tell our button to move from one step to the next
+#### Step 13. Tell our button to move from one step to the next
 
 Our button currently has an action to Save a row, but we don't want to save a row for the first step. So, we will tell Budibase, when the user is on step 1, don't save, and instead, move them to the next step when the button is clicked. To do this, we must go back into our button Conditions, and enter the following:
 
@@ -261,7 +261,7 @@ Our button currently has an action to Save a row, but we don't want to save a ro
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650883850/cms/CleanShot_2022-04-25_at_11.50.36_2x_zl189i.png)
 
-#### Step 13. Preview and test our new public multi-step form
+#### Step 14. Preview and test our new public multi-step form
 
 Click the preview button. In our form, enter `Test` for the name, and `Test` for the email. Click Next.Then enter `Test` for the Company and 1 - 10 for Company size, and press Submit.
 
@@ -271,7 +271,7 @@ After submitting the form, if you navigate back to Budibase, and look at your Pu
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650884054/cms/CleanShot_2022-04-25_at_11.53.59_2x_erulr7.png)
 
-#### Step 14. Publish your app
+#### Step 15. Publish your app
 
 To publish your app, simply click the Publish button, beside the preview button.
 
