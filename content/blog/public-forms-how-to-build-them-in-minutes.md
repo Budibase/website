@@ -8,7 +8,7 @@ profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1647258452/cms/
 title = "Public forms - how to build a public form in minutes"
 
 +++
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650881099/cms/CleanShot_2022-04-25_at_11.04.33_2x_g9ntls.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650887145/cms/CleanShot_2022-04-25_at_12.45.07_l9mvmd.png)
 
 # What is a public form
 
