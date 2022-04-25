@@ -40,7 +40,7 @@ Broadly speaking forms can be pigeonholed into the following two categories; sin
 
 ### Single-step forms
 
-If you think of a form, this is probably what you picture. A simple, vertical flowing form that spans one screen, usually with a submit button. These types of forms are perfect, when your form consists of a few simple inputs - as a rule of thumb, if you have more than 6 inputs, you should consider a multi-step form.
+If you think of a form, this is probably what you picture. A simple, vertical flowing form that spans one screen usually with a submit button. These types of forms are perfect when your form consists of a few simple inputs - as a rule of thumb, if you have more than 6 inputs, you should consider a multi-step form.
 
 #### Examples of single-step forms
 
@@ -63,7 +63,7 @@ Multi-step forms are forms that span across multiple screens. They are also know
 
 ### How to build a single-step public form
 
-Both Budibase and Google Forms are great options for building a public form (single-step). Google Forms is free, proprietary software. The data submitted within your form is hosted with Google. On the other hand, Budibase is free and open-source; therefore, it's possible to self-host Budibase and keeps the data in the safety of your infrastructure. For this guide, we will use Budibase.
+Both Budibase and Google Forms are great options for building a public form (single-step). Google Forms is free, proprietary software. The data submitted within your form is hosted with Google. On the other hand, Budibase is free and open-source; therefore, it's possible to self-host Budibase and store your data in the safety of your infrastructure. For this guide, we will use Budibase.
 
 #### Step 1. Sign up to Budibase
 
@@ -77,9 +77,9 @@ Click the 'Create new app' button, then click the 'Start from scratch' button. N
 
 #### Step 3. Set up your database
 
-For demonstration purposes, we will use the Budibase DB as our data source. This is the easiest fastest way to build a public form with Budibase.
+For demonstration purposes, we will use the Budibase DB as our data source. This is the easiest and fastest way to build a public form with Budibase.
 
-_You can also build forms using MySQL, Postgres, Airtable, MongoDB, Rest, and more. We'll cover each of these data sources in a different tutorial._
+_You can also build forms using MySQL, Postgres, Airtable, MongoDB, Rest APIs, and more. We'll cover each of these data sources in a different tutorial._
 
 Click Budibase DB, then click 'Continue'. Name your table: 'Public Form'. And finally, click the 'Create' button.
 
