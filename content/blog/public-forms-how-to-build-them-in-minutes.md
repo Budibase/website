@@ -85,16 +85,16 @@ Click Budibase DB, then click 'Continue'. Name your table: 'Public Form'. And fi
 
 #### Step 4. Create your data structure
 
-Now that we've set up our database, we need to build it's structure by adding fields/columns.
+Now that we've set up our database, we need to build its structure by adding fields/columns.
 
 * Click the 'Create column' button, and name it `Name`. Then click 'Save column'.
 * Click the 'Create column' button, and name it `Email`. Then click 'Save column'.
 * Click the 'Create column' button, and name it `Company`. Then click 'Save column'.
 * Click the 'Create column' button, and name it `Company size`. Click the Type dropdown and select 'Options'. In the options text box (bottom) add the following (one per line):
-  * 1 - 10
-  * 11 - 100
-  * 101 - 1000
-  * 1001+.  
+  * `1 - 10`
+  * `11 - 100`
+  * `101 - 1000`
+  * `1001+`  
     Then click 'Save column'.
 * The final step within our data section, and a very important one, is to change the access of our database. To do this, click the 'Manage access' button. **Then set both the Write and Read levels to 'Public'. Click 'Done'.**
 
@@ -102,7 +102,7 @@ Now that we've set up our database, we need to build it's structure by adding fi
 
 #### Step 5. Create your public screen
 
-Navigate to the Design section of the Budibase builder. There are two ways to build a public form from using our database; autogenerate screens, build our screen from scratch. In this demonstration, we will build our form from scratch.
+Navigate to the Design section of the Budibase builder. There are two ways to build a public form within Budibase; autogenerate screens (including a form), or build our form from scratch. In this demonstration, we will build our form from scratch.
 
 Your first step, is to change the access from basic to public (Filter by access dropdown under the Screens tab).
 
