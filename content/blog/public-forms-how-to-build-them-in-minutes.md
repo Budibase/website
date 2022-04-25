@@ -32,7 +32,7 @@ There are many examples where a user may want to create a public form. I've list
 
 7\. A COVID test response form
 
-\-
+The internet, in fact, is largely made up of forms. It's how we retrieve and update data. 
 
 # Form types
 
@@ -210,6 +210,9 @@ Your new public form should look beautiful like the one below:
 Multi-step forms are forms that span across multiple screens. They are also known as stepper forms and generally consist of 1 or 2 questions per screen. Multi-step forms are great when you've got a lot of inputs within your form or when you need to add media/explanations to questions.
 
 ### Examples of multi-step forms
+
+* [UK Gov passport application](https://www.gov.uk/apply-renew-passport)
+* [Which office character are you](https://brainfall.com/quizzes/which-office-character-are-you/)
 
 ### How to build a multi-step public form
 
