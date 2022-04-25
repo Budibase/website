@@ -2,7 +2,6 @@
 author = "Joe Johnston"
 date = 2022-04-20T23:00:00Z
 description = "Public forms are popular mechanisms to collect data on the internet, and building them  is pretty straightforward process if you have the right tools."
-draft = true
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1650881099/cms/CleanShot_2022-04-25_at_11.04.33_2x_g9ntls.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1647258452/cms/20200113_Propel_Team_Shots_123_omblqt.jpg"
 title = "Public forms - how to build a public form in minutes"
@@ -32,7 +31,7 @@ There are many examples where a user may want to create a public form. I've list
 
 7\. A COVID test response form
 
-The internet, in fact, is largely made up of forms. It's how we retrieve and update data, which is why there are different types of forms.
+The internet is increasingly made up of forms. It's how we retrieve and update data, which is why there are different types of forms.
 
 ## Form types
 
@@ -40,7 +39,7 @@ Broadly speaking forms can be pigeonholed into the following two categories; sin
 
 ### Single-step forms
 
-If you think of a form, this is probably what you picture. A simple, vertical flowing form that spans one screen usually with a submit button. These types of forms are perfect when your form consists of a few simple inputs - as a rule of thumb, if you have more than 6 inputs, you should consider a multi-step form.
+If you think of a form, this is probably what you picture. A simple, vertical flowing form that spans one screen, usually with a submit button. These types of forms are perfect when your form consists of a few simple inputs - as a rule of thumb, if you have more than 6 inputs, you should consider a multi-step form.
 
 #### Examples of single-step forms
 
@@ -63,11 +62,11 @@ Multi-step forms are forms that span across multiple screens. They are also know
 
 ### How to build a single-step public form
 
-Both Budibase and Google Forms are great options for building a public form (single-step). Google Forms is free, proprietary software. The data submitted within your form is hosted with Google. On the other hand, Budibase is free and open-source; therefore, it's possible to self-host Budibase and store your data in the safety of your infrastructure. For this guide, we will use Budibase.
+Both Budibase and Google Forms are great options for building a public form (single-step). Google Forms is free, proprietary software. The data submitted within your form is hosted with Google. On the other hand, Budibase is free, open-source, and perfect for [building forms](); therefore, it's possible to quickly build forms and store your data in the safety of your infrastructure. For this guide, we will use Budibase.
 
-#### Step 1. Sign up to Budibase
+#### Step 1. Sign up for Budibase
 
-If you've not signed up to Budibase, you can [register here.](https://account.budibase.app/register "budibase registration") Simply follow complete process - it only takes a few seconds - and you'll be ready to take the next step.
+If you've not signed up for Budibase, you can [register here.](https://account.budibase.app/register "budibase registration") Simply complete the sign-up process - it only takes a few seconds - and you'll be ready to take the next step.
 
 #### Step 2. Create a new app
 
@@ -104,7 +103,7 @@ Now that we've set up our database, we need to build its structure by adding fie
 
 Navigate to the Design section of the Budibase builder. There are two ways to build a public form within Budibase; autogenerate screens (including a form), or build our form from scratch. In this demonstration, we will build our form from scratch.
 
-Your first step, is to change the access from basic to public (Filter by access dropdown under the Screens tab).
+Your first step is to change the access from Basic to Public (Filter by access dropdown under the Screens tab).
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650618251/cms/CleanShot_2022-04-22_at_10.03.47_2x_kdyyzr.png)
 
@@ -126,8 +125,8 @@ Now, add a Field Group component (under the Form dropdown). In the settings pane
 
 To complete the creation of our public form, we will add a submit button. To add a button, click the Elements dropdown, and select Button. In the settings panel, under the Text label, update the button's text to `Submit`
 
-We now need to tell our button what to do when clicked. To do this, under the label On Click, click the Define actions button. Now click the \`Add Action' button, and select 'Save Row'. Change the Data source to 'New Form' (the name of your form component in the tree) and Table to 'Public Form' (the name of your table). Click 'Save'. Our form is now fully operational.  
-  
+We now need to tell our button what to do when clicked. To do this, under the label On Click, click the Define actions button. Now click the \`Add Action' button, and select 'Save Row'. Change the Data source to 'New Form' (the name of your form component in the tree) and Table to 'Public Form' (the name of your table). Click 'Save'. Our form is now fully operational.
+
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650877529/cms/CleanShot_2022-04-25_at_10.05.09_2x_dzgloj.png)
 
 #### Step 8. Style our new form
@@ -145,7 +144,7 @@ After removing the Navigation, go back to the 'Screens' tab, and follow the inst
 * Add a new container and drag it above your form component (in the component tree). Then nest your Form component under the new Container component. ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650879355/cms/CleanShot_2022-04-25_at_10.34.58_j0wxaj.gif)  
   Click the 'New Container' component, and in its settings panel:
 * Under Horiz. Align, select 'Left'.
-* Under PADDING, change: 
+* Under PADDING, change:
   * Top to `64px`
   * Right to `16px`
   * Bottom to `128px`
@@ -156,16 +155,16 @@ After removing the Navigation, go back to the 'Screens' tab, and follow the inst
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650879129/cms/CleanShot_2022-04-25_at_10.31.53_2x_ebsuwa.png)
 
-* Click the Theme button 
+* Click the Theme button
 * Beside the 'Theme' label, select Darkest
 
 ##### Add a logo, title and description
 
 * Add an Image from the Elements dropdown
-  * In the settings panel, under URL, link to your your image. We will use:
+  * In the settings panel, under URL, link to your image. We will use:
 
     [Link to image]()
-  * Under size, change the width to `48px`.
+  * Under Size, change the width to `48px`.
 * Add a Header from the Elements dropdown
   * In the settings panel, change the Text to `Contact sales`
   * Update the Size to 'Large'.
@@ -183,7 +182,7 @@ Now structure your component navigation tree like the image below:
 
 #### Step 9. Preview and test your app
 
-Click the Preview icon (play icon, highlighted in blue below) to preview your app. 
+Click the Preview icon (play icon, highlighted in blue below) to preview your app.
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650881029/cms/CleanShot_2022-04-25_at_11.03.17_2x_mdwvcq.png)
 
@@ -206,7 +205,7 @@ If you are happy with your form, you can now publish it.
 
 #### Step 10. Publish your app
 
-To publish your app, simply click the Publish button, beside the preview button. 
+To publish your app, simply click the Publish button, beside the preview button.
 
 _Currently, to view your app, you have to navigate back to the app section (click bb icon, top left), and click the more icon beside your app, then click 'View published app'. This will change in the near future, and when you click publish Budibase will provide you with the URL._
 
@@ -220,15 +219,15 @@ Your new public form should look beautiful like the one below:
 
 ### How to build a multi-step public form
 
-Building a multi-step form follows the exact same process as building a single-step form, but involves a few additional steps. If you would like to build a multi-step form, complete the guide for building a single-step form (above) then continue with the following steps. For our multi-step form, we will use two steps.
+Building a multi-step form follows the same process as building a single-step form, but involves a few additional steps which I've detailed below:
 
 #### Step 11. Add Form Step components
 
-To turn our single-step form into a multi-step form, we must use the Form Step component. Click on the `New Field Group` component in your navigation tree, then add 2 Form Step components (add one, then click on New field group component, then add another). After doing this, nest the Name and Email component under Step 1, and Company and Company size under step 2. See image below for direction:
+To turn our single-step form into a multi-step form, we must use the Form Step component. Click on the `New Field Group` component in your navigation tree, then add 2 Form Step components (add one, then click on New field group component, then add another). After doing this, nest the Name and Email component under Step 1, and Company and Company size under step 2. See the image below for further direction:
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650882506/cms/CleanShot_2022-04-25_at_11.26.26_2x_sx1da2.png)
 
-#### Step 11. Change our button text depending on step
+#### Step 11. Change our button text depending on the step
 
 For our first step, we don't want our button to say `Submit`, we want it to say `Next`. To do this, click the button, then click Configure conditions (at the bottom of settings).
 
@@ -248,7 +247,7 @@ See the image below for guidance.
 
 Click Save, and the Button should be updated.
 
-#### Step 12. Tell our button to move from step to the next
+#### Step 12. Tell our button to move from one step to the next
 
 Our button currently has an action to Save a row, but we don't want to save a row for the first step. So, we will tell Budibase, when the user is on step 1, don't save, and instead, move them to the next step when the button is clicked. To do this, we must go back into our button Conditions, and enter the following:
 
@@ -274,8 +273,22 @@ After submitting the form, if you navigate back to Budibase, and look at your Pu
 
 #### Step 14. Publish your app
 
-To publish your app, simply click the Publish button, beside the preview button. 
+To publish your app, simply click the Publish button, beside the preview button.
 
 _Currently, to view your app, you have to navigate back to the app section (click bb icon, top left), and click the more icon beside your app, then click 'View published app'. This will change in the near future, and when you click publish Budibase will provide you with the URL._
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650884503/cms/CleanShot_2022-04-25_at_12.00.47_qsqupu.gif)
+
+## Public form template
+
+You can explore over 50 templates, including [form templates](https://budibase.com/forms/templates/ "form templates"). If you would like to explore the app we created above, you can do, by downloading it from the link below, then uploading it to Budibase (from the Create app screen in Budibase).
+
+[Example public form app](https://res.cloudinary.com/daog6scxm/raw/upload/v1650896343/Form-export-1650896247864_yrd7y0.txt "Example public form app")
+
+## What to do after setting up your Public Form
+
+Personally, I would autogenerate CRUD screens (with basic access level). This way, I would have a UI to view, update, delete form submissions and create new ones too.
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650896538/cms/CleanShot_2022-04-25_at_15.22.00_pm2pqy.png)
+
+I hope you found this guide helpful. If you have a need or desire to build web apps and internal tools quickly, [sign up to Budibase today](). It's free and open-source, has over 13,000 Github stars, and is loved by employees at Google, Microsoft, SpaceX, and more.
