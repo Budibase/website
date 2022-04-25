@@ -10,9 +10,9 @@ title = "Public forms - how to build a public form in minutes"
 +++
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650887145/cms/CleanShot_2022-04-25_at_12.45.07_l9mvmd.png)
 
-\## What is a public form
+## What is a public form
 
-A public form is a digital form that is accessible to anyone on the internet. The difference between a public and private form is the access level. Private forms are only accessible to predefined users behind a log-in.
+A public form is a digital form that is accessible to anyone on the internet. The difference between a public and private form is the access level. Private forms are only accessible to predefined users behind a secure log-in.
 
 ## Public form examples
 
@@ -34,21 +34,30 @@ There are many examples where a user may want to create a public form. I've list
 
 The internet, in fact, is largely made up of forms. It's how we retrieve and update data. 
 
-# Form types
+## Form types
 
 There are many styles of forms, but broadly speaking, they can be pigeonholed into the following two categories:
 
-## Single-step forms
+### Single-step forms
 
 If you think of a form, this is probably what you picture. A simple, vertical flowing form that spans one screen, usually with a submit button. These types of forms are perfect, when your form consists of a few simple inputs - as a rule of thumb, if you have more than 6 inputs, you should consider a multi-step form.
 
-### Examples of single-step forms
+#### Examples of single-step forms
 
-\- [Contact form](https://budibase.com/contact/)
+* [Contact form](https://budibase.com/contact/)
+* [Job application form](https://bb.budibase.app/app_bb_afdf15d335df499da0932ed736edf7e3#/application/new/row/ro_ta_d0eaf94963834567ba4fc083d7072118_09f124bc805b4a2580898805aa42ba9a)
+* [MOT booking form](https://dva-bookings.nidirect.gov.uk/)
 
-\- [Job application form](https://bb.budibase.app/app_bb_afdf15d335df499da0932ed736edf7e3#/application/new/row/ro_ta_d0eaf94963834567ba4fc083d7072118_09f124bc805b4a2580898805aa42ba9a)
+### Multi-step forms
 
-\- [MOT booking form](https://dva-bookings.nidirect.gov.uk/)
+Multi-step forms are forms that span across multiple screens. They are also known as stepper forms and generally consist of 1 or 2 questions per screen. Multi-step forms are great when you've got a lot of inputs within your form or when you need to add media/explanations to questions.
+
+#### Examples of multi-step forms
+
+* [UK Gov passport application](https://www.gov.uk/apply-renew-passport)
+* [Which office character are you](https://brainfall.com/quizzes/which-office-character-are-you/)
+
+## Building a public form
 
 ### How to build a single-step public form
 
@@ -205,14 +214,7 @@ Your new public form should look beautiful like the one below:
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650881706/cms/CleanShot_2022-04-25_at_11.14.55_2x_rs3j7e.png)
 
-## Multi-step forms
-
-Multi-step forms are forms that span across multiple screens. They are also known as stepper forms and generally consist of 1 or 2 questions per screen. Multi-step forms are great when you've got a lot of inputs within your form or when you need to add media/explanations to questions.
-
-### Examples of multi-step forms
-
-* [UK Gov passport application](https://www.gov.uk/apply-renew-passport)
-* [Which office character are you](https://brainfall.com/quizzes/which-office-character-are-you/)
+***
 
 ### How to build a multi-step public form
 
