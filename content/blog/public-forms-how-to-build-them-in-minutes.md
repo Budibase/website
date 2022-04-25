@@ -58,12 +58,12 @@ If you've not signed up to Budibase, you can [register here.](https://account.bu
 
 #### Step 2. Create a new app
 
-Click the 'Create new app' button, then click the 'Start from scratch' button. Name your app (only use letters, no spaces or special characters). Budibase will generate a URL for you. If you are happy with the URL, click 'Create app'.
+Click the 'Create new app' button, then click the 'Start from scratch' button. Name your app (only use letters, no spaces or special characters) - we'll name our app `Form`. Budibase will generate a URL for you. If you are happy with the URL, click 'Create app'.
 
 #### Step 3. Set up your database
 
-For demonstration purposes, we will use the Budibase DB as our data source. This is the easiest fastest way to build a public form with Budibase.   
-  
+For demonstration purposes, we will use the Budibase DB as our data source. This is the easiest fastest way to build a public form with Budibase.
+
 _You can also build forms using MySQL, Postgres, Airtable, MongoDB, Rest, and more. We'll cover each of these data sources in a different tutorial._
 
 Click Budibase DB, then click 'Continue'. Name your table: 'Public Form'. And finally, click the 'Create' button.
@@ -72,10 +72,10 @@ Click Budibase DB, then click 'Continue'. Name your table: 'Public Form'. And fi
 
 Now that we've set up our database, we need to build it's structure by adding fields/columns.
 
-* Click the 'Create column' button, and name it 'Name'. Then click 'Save column'.
-* Click the 'Create column' button, and name it 'Email'. Then click 'Save column'.
-* Click the 'Create column' button, and name it 'Company'. Then click 'Save column'.
-* Click the 'Create column' button, and name it 'Company size'. Click the Type dropdown and select 'Options'. In the options text box (bottom) add the following (one per line):
+* Click the 'Create column' button, and name it `Name`. Then click 'Save column'.
+* Click the 'Create column' button, and name it `Email`. Then click 'Save column'.
+* Click the 'Create column' button, and name it `Company`. Then click 'Save column'.
+* Click the 'Create column' button, and name it `Company size`. Click the Type dropdown and select 'Options'. In the options text box (bottom) add the following (one per line):
   * 1 - 10
   * 11 - 100
   * 101 - 1000
@@ -85,7 +85,7 @@ Now that we've set up our database, we need to build it's structure by adding fi
 
 #### Step 5. Create your public screen
 
-Navigate to the Design section of the Budibase builder. There are two ways to build a public form from using our database; autogenerate screens, build our screen from scratch. In this demonstration, we will build our form from scratch. 
+Navigate to the Design section of the Budibase builder. There are two ways to build a public form from using our database; autogenerate screens, build our screen from scratch. In this demonstration, we will build our form from scratch.
 
 Your first step, is to change the access from basic to public (Filter by access dropdown under the Screens tab).
 
@@ -107,7 +107,50 @@ Now, add a Field Group component (under the Form dropdown). In the settings pane
 
 #### Step 7. Add and configure submit button
 
-To complete the creation of our public form, we will add a submit button. To add a button, click the Elements dropdown, and select Button. In the settings panel, under the Text label, update the button's text to Submit.
+To complete the creation of our public form, we will add a submit button. To add a button, click the Elements dropdown, and select Button. In the settings panel, under the Text label, update the button's text to `Submit`
+
+We now need to tell our button what to do when clicked. To do this, under the label On Click, click the Define actions button. Now click the \`Add Action' button, and select 'Save Row'. Change the Data source to 'New Form' (name of your form component in the tree) and Table to 'Public Form' (name of your table). Click 'Save'. Our form is now fully operational.  
+  
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650877529/cms/CleanShot_2022-04-25_at_10.05.09_2x_dzgloj.png)
+
+#### Step 8. Style our new form
+
+Our form is looking a little lustreless. Let's bring it to live with some style updates. First, we'll remove our navigation by clicking Layouts, then in the settings panel, selecting 'None' under Navigation.
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650878126/cms/CleanShot_2022-04-25_at_10.10.11_hgahtt.gif)
+
+After removing the Navigation, go back to the 'Screens' tab, and follow the instructions below:
+
+##### Resize our form and update spacing
+
+* Click on the 'Home' option in the component navigation tree. In the settings panel, under 'Horiz Align', choose 'Center'.
+* Click on our New Form component, and in the settings panel, change the Size to Large.
+* Add a new container and drag it above your form component (in the component tree). Then nest your Form component under the new Container component. ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650879355/cms/CleanShot_2022-04-25_at_10.34.58_j0wxaj.gif)  
+  Click the New Container component, and in its settings panel:
+* Under Horiz. Align, select 'Left'.
+* Under PADDING, change: 
+  * Top to `64px`
+  * Right to `16px`
+  * Bottom to `128px`
+  * Left to `16px`
+* Under SIZE, change the width to `520px`
+
+##### Update the theme
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650879129/cms/CleanShot_2022-04-25_at_10.31.53_2x_ebsuwa.png)
+
+* Click the Theme button 
+* Beside the 'Theme' label, select Darkest
+
+##### Add a logo, title and description
+
+* Add an Image from the Elements dropdown
+  * In the settings panel, under URL, link to your your image. We will use:  
+    [`https://res.cloudinary.com/daog6scxm/image/upload/v1647010468/logo/white-budibase-icon_yfgiy7.svg`](https://res.cloudinary.com/daog6scxm/image/upload/v1647010468/logo/white-budibase-icon_yfgiy7.svg "https://res.cloudinary.com/daog6scxm/image/upload/v1647010468/logo/white-budibase-icon_yfgiy7.svg")
+  * Under size, change the width to `64px`.
+* Add a Header from the Elements dropdown
+  * In the settings panel, change the Text to `Contact sales`
+  * Update the Size to 'Large'.
 
 ## Multi-step forms
 
