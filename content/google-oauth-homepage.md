@@ -1,7 +1,6 @@
 +++
 date = 2022-04-24T23:00:00Z
 description = "We take your privacy serious at Budibase. To learn more, please visit our privacy policy page. You will find out everything we do with data - which isn't much."
-draft = true
 layout = "single"
 title = "Google OAuth Homepage"
 type = "legal"
