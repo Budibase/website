@@ -220,7 +220,7 @@ Your new public form should look beautiful like the one below:
 
 ### How to build a multi-step public form
 
-Building a multi-step form follows the exact same process as building a single-step form, but involves a few additional steps. If you would like to build a multi-step form, complete the guide for building a single-step form (above) then continue with the following steps. For our multi-step form, we will use two steps.
+Building a multi-step form follows the same process as building a single-step form, but involves a few additional steps which I've detailed below:
 
 #### Step 11. Add Form Step components
 
