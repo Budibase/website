@@ -3,7 +3,7 @@ author = "Joe Johnston"
 date = 2022-04-20T23:00:00Z
 description = "Public forms are popular mechanisms to collect data on the internet, and building them  is pretty straightforward process if you have the right tools."
 draft = true
-images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/Maintenance_Request_Form_Template_Thumbnail_New_lk5y2w.png", "https://res.cloudinary.com/daog6scxm/image/upload/v1642525391/cms/Maintenance_Request_Form_Thumbnail_New_hrdudd.png", "https://res.cloudinary.com/daog6scxm/image/upload/v1646391876/cms/Hospital_Discharge_Form_1_zrjihp.png"]
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1650881099/cms/CleanShot_2022-04-25_at_11.04.33_2x_g9ntls.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1647258452/cms/20200113_Propel_Team_Shots_123_omblqt.jpg"
 title = "Public forms - how to build a public form in minutes"
 
@@ -60,6 +60,8 @@ If you've not signed up to Budibase, you can [register here.](https://account.bu
 
 Click the 'Create new app' button, then click the 'Start from scratch' button. Name your app (only use letters, no spaces or special characters) - we'll name our app `Form`. Budibase will generate a URL for you. If you are happy with the URL, click 'Create app'.
 
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650880675/cms/CleanShot_2022-04-25_at_10.57.34_2x_ezlsea.png)
+
 #### Step 3. Set up your database
 
 For demonstration purposes, we will use the Budibase DB as our data source. This is the easiest fastest way to build a public form with Budibase.
@@ -82,6 +84,8 @@ Now that we've set up our database, we need to build it's structure by adding fi
   * 1001+.  
     Then click 'Save column'.
 * The final step within our data section, and a very important one, is to change the access of our database. To do this, click the 'Manage access' button. **Then set both the Write and Read levels to 'Public'. Click 'Done'.**
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650880617/cms/CleanShot_2022-04-25_at_10.56.04_2x_hcb0v4.png)
 
 #### Step 5. Create your public screen
 
@@ -145,12 +149,59 @@ After removing the Navigation, go back to the 'Screens' tab, and follow the inst
 ##### Add a logo, title and description
 
 * Add an Image from the Elements dropdown
-  * In the settings panel, under URL, link to your your image. We will use:  
-    [`https://res.cloudinary.com/daog6scxm/image/upload/v1647010468/logo/white-budibase-icon_yfgiy7.svg`](https://res.cloudinary.com/daog6scxm/image/upload/v1647010468/logo/white-budibase-icon_yfgiy7.svg "https://res.cloudinary.com/daog6scxm/image/upload/v1647010468/logo/white-budibase-icon_yfgiy7.svg")
-  * Under size, change the width to `64px`.
+  * In the settings panel, under URL, link to your your image. We will use:
+
+    [Link to image]()
+  * Under size, change the width to `48px`.
 * Add a Header from the Elements dropdown
   * In the settings panel, change the Text to `Contact sales`
   * Update the Size to 'Large'.
+* Add a Paragraph component from the Elements dropdown
+  * In the settings panel, under Text, add description text. We will add:
+
+    `Please complete the form below and we will respond as soon as possible.`
+  * Change the Color to a lighter grey (see screenshot below)
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650880901/cms/CleanShot_2022-04-25_at_11.01.21_2x_d7l7jv.png)
+
+Now structure your component navigation tree like the image below:
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650882004/cms/CleanShot_2022-04-25_at_11.19.52_2x_ppqozz.png)
+
+#### Step 9. Preview and test your app
+
+Click the Preview icon (play icon, highlighted in blue below) to preview your app. 
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650881029/cms/CleanShot_2022-04-25_at_11.03.17_2x_mdwvcq.png)
+
+Your new public form should look something like this:
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650881575/cms/CleanShot_2022-04-25_at_11.12.38_2x_qtmh4q.png)
+
+You can now test your form. Fill out your form with the following information and click the submit button.
+
+* Name - `Joe Bloggs`
+* Email - `joe@bloggs.com`
+* Company - `Budibase`
+* Company size - `1001+`
+
+After submitting the form, if you navigate back to Budibase, and look at your Public Form table in the data section, you will see our test entry.
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650881529/cms/CleanShot_2022-04-25_at_11.11.52_2x_kyywtn.png)
+
+If you are happy with your form, you can now publish it.
+
+#### Step 10. Publish your app
+
+To publish your app, simply click the Publish button, beside the preview button. 
+
+Currently, to view your app, you have to navigate back to the app section (click bb icon, top left), and click the more icon beside your app, then click 'View published app'.
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650881274/cms/CleanShot_2022-04-25_at_11.07.24_2x_p2kt7k.png)
+
+Your new public form should look beautiful like the one below:
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650881706/cms/CleanShot_2022-04-25_at_11.14.55_2x_rs3j7e.png)
 
 ## Multi-step forms
 
@@ -160,4 +211,12 @@ Multi-step forms are forms that span across multiple screens. They are also know
 
 ### How to build a multi-step public form
 
-\---
+Building a multi-step form follows the exact same process as building a single-step form, but involves a few additional steps. If you would like to build a multi-step form, complete the guide for building a single-step form (above) then continue with the following steps.
+
+#### Step 11. Add Form Step components
+
+To turn our single-step form into a multi-step form, we must use the Form Step component. Click on the `New Field Group` component in your navigation tree, then add 2 Form Step components (add one, then click on New field group component, then add another). After doing this, nest the Name and Email component under Step 1, and Company and Company size under step 2. See image below for direction:
+
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1650882506/cms/CleanShot_2022-04-25_at_11.26.26_2x_sx1da2.png)
+
+#### Step 11. Add logic to our button
