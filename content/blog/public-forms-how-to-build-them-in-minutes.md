@@ -32,11 +32,11 @@ There are many examples where a user may want to create a public form. I've list
 
 7\. A COVID test response form
 
-The internet, in fact, is largely made up of forms. It's how we retrieve and update data. 
+The internet, in fact, is largely made up of forms. It's how we retrieve and update data, which is why there are different types of forms.
 
 ## Form types
 
-There are many styles of forms, but broadly speaking, they can be pigeonholed into the following two categories:
+Broadly speaking forms can be pigeonholed into the following two categories; single-step and multi-step.
 
 ### Single-step forms
 
