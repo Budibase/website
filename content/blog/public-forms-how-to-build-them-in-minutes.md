@@ -66,7 +66,7 @@ Both Budibase and Google Forms are great options for building a public form (sin
 
 #### Step 1. Sign up for Budibase
 
-If you've not signed up for Budibase, you can [register here.](https://account.budibase.app/register "budibase registration") Simply complete the sign-up process - it only takes a few seconds - and you'll be ready to take the next step.
+If you've not signed up for Budibase, you can [register here](https://account.budibase.app/register "budibase registration"). Simply complete the sign-up process - it only takes a few seconds - and you'll be ready to take the next step.
 
 #### Step 2. Create a new app
 
