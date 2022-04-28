@@ -13,7 +13,7 @@ integrationcategories = ["All", "Hosting"]
 published_by = "Budibase"
 site_url = "https://kubernetes.io/"
 plan = "Free"
-docs_url = "https://docs.budibase.com/self-hosting/hosting-methods/kubernetes"
+docs_url = "https://docs.budibase.com/docs/kubernetes-k8s"
 status = "Live" 
 +++
 
