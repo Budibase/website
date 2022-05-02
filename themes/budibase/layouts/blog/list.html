@@ -1,42 +1,29 @@
-{{ partial "header.html" . }} {{ partial "navigation.html" . }}
-<div class="container-7 space-2">
-  <div class="mb-2 hero-info-2">
-      <h1>Blog</h1>
-      <p class="display-lead mt-3">Below you will find articles with a focus on application development and workplace operations</p>‍
+{{ partial "header.html" . }} {{ partial "navigation-blog.html" . }}
+<div class="container-narrow space-2">
+  <div class="hero-info-2 text-center">
+      <h1 class="font-weight-bold hero-title">Budibase Blog</h1>
+      <p class="display-lead mt-3 text-center">Learn about application development and workplace operations</p>‍
     </div>
   </div>
-
-  <hr class="container-7">
-  <div class="container-7 space-2">
-  <h4 class="m-3 text-light">Editor's pick</h4>
-    <a href="/internal-tools">
-      <div class="blog-card pb-6">
-        <div>
-          <h3 class="mb-2">What are internal tools and how to build them in 2021</h3>
-        </div>
-        <div><p class="small">⭢</p></div>
-      </div>
-    </a>
-  </div>
-</div>
-<div class="space-1-top"></div>
-    {{ range .Data.Pages }}
-    <div class="container-7">
+  <div class="container-narrow">
+    <h2 class="font-weight-bold mb-4">Featured</h2>
+    <div class="blog-feature-cards">
+      {{ range first 4 .RegularPagesRecursive }}
       <a href="{{ .Permalink }}">
-        <div class=" blog-card">
-          <div>
-            <h5 class="mb-2">{{ .Title }}</h5>
-            <p class="integration-des">{{ .Description }}</p>
-          </div>
-          <div><p class="small">⭢</p></div>
-        </div>
-      </a>
-    </div>
+              <div class="blog-feature-card rounded-sm">
+                    <img class="thumbnail-image" src="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.image }}"/>
+                        <p class="mt-4 text-grey text-xs">{{ .Params.author }} | {{ .Date.Format .Site.Params.dateform }} </p>
+                      <h2 class="h4 mb-3 mt-2">{{ .Title }}</h2>
+                      <p class="mb-3 two-line-clamp">{{ .Description }} </p>
+              </div>
+            </a>
     {{ end }}
   </div>
+</div>
+</div>
+
 
 
     {{ partial "cta.html" . }} {{ partial "footer.html" . }}
-  </div>
-</div>
+
 

@@ -1,6 +1,6 @@
 baseURL: "https://budibase.com/"
 languageCode: "en-uk"
-title: "Budibase | Create business apps in mins | Open-source low-code platform"
+title: "Budibase | Build internal apps in mins | Open-source low-code platform"
 theme: "budibase"
 enableEmoji: "true"
 disableKinds: ["taxonomy"]
@@ -36,5 +36,8 @@ params.publisher.logo:
 
 params.logo:
   url: "/budibase-logo.png"
+
+cloudinary_base_url: https://res.cloudinary.com/daog6scxm
+
 
 
