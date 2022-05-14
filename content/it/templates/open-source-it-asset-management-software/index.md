@@ -14,7 +14,7 @@ title = "Open-Source IT Asset Management Software | Budibase | Low-Code Platform
 type = "templates"
 
 +++
-An effective IT team is the heart of any successful organization. Asset maintenance and inventory management are key here. Ensuring that the right devices are available and working correctly is critical to all other business processes. 
+An effective IT team is the heart of any successful organization. Asset maintenance and inventory management are key here. Ensuring that the right devices are available and working correctly is critical to all other business processes.
 
 When done properly, asset management helps to ensure profitability, by reducing admin costs. When assets are managed poorly, businesses are exposed to risks, inefficiencies, and poor outcomes.
 
@@ -133,7 +133,7 @@ Budibase also supports conditional UIs. Hide or display any design element, base
 
 Maximize app adoption, by giving your IT team an asset management tool they can take anywhere.
 
-## Open-source IT asset management software from Budibase
+## Open-source asset management software from Budibase
 
 We’re on a mission to change the way businesses build custom software tools. Our open-source, low-code platform is the fast and cost-effective way to build deployable asset management software.
 
@@ -195,4 +195,4 @@ Add capacity, functionality, users, and screens, without the need for excessive 
 
 At Budibase, we’re building the world’s largest ecosystem of free, open-source [business apps](https://budibase.com/business-apps).
 
-To start using our IT asset management software template, simply click below.
+To start using our open-source asset management software, simply click below.

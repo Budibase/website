@@ -1,6 +1,6 @@
 ---
 date: 2021-10-20
-title: Simple applicant tracking system - free ATS template"
+title: Simple applicant tracking system - free ATS template
 description: Free applicant tracking system template - advertise jobs, receive applications,
   and track candidates. Browse through our selection of free application templates
   and build an internal application in minutes.

@@ -1,7 +1,7 @@
 +++
 datasource = "Built-in Database"
 date = 2022-03-03T00:00:00Z
-description = "Our quality control checklist template empowers manufacturing businesses to simplify inspections, spot-checks, and other QA tasks. Start using Budibase for free."
+description = "Our free quality control checklist template empowers manufacturing businesses to simplify inspections, spot-checks, and other QA tasks."
 destination = "https://budibase.app/builder?template=app/manufacturing-quality-control-checklist"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646325248/cms/Manufacturing_Quality_Control_Checklist_1_ryzkre.png"]
 label = "Manufacturing Quality Control Checklist Template"
@@ -18,7 +18,7 @@ As a business, your reputation is based on the quality of your products. Even mi
 
 Even a single defect could potentially cost you several customers. Effective quality control is critical. Ensuring that each of your products is manufactured to the highest possible standards helps to guarantee long-term success.
 
-## What is a quality control checklist?
+## What is a quality control checklist for manufacturing businesses?
 
 Businesses of all kinds use checklists to ensure that processes are closely and accurately followed. In quality control, this means using repeatable and detailed checklists to maximize compliance with assurance standards.
 
@@ -90,7 +90,7 @@ Simply provide the inspection requirements for each of your products. Our templa
 
 ### Manage products and work submissions
 
-Our checklist app is built for total oversight over quality control tasks. We’ve provided dedicated screens to search, filter, view, manage, and edit both product and inspection entries.
+Our quality control checklist for manufacturing template is built for total oversight over quality control tasks. We’ve provided dedicated screens to search, filter, view, manage, and edit both product and inspection entries.
 
 Use our _dynamic filter_ components to sort and isolate entries, by any database variable. Quickly find the exact right products and inspection reports, with minimal effort. Use any combination of filtering expressions to sort data.
 
@@ -116,7 +116,7 @@ Budibase offers powerful conditional formatting. Use form variables, user behavi
 
 ### Mobile-responsive design
 
-Like all Budibase tools, our manufacturing quality control checklist is fully mobile-friendly. All design elements automatically scale and adjust, to fit perfectly on any screen. Our template works seamlessly across mobile, desktop, and tablet devices.
+Like all Budibase tools, our quality control checklist for manufacturing template is fully mobile-friendly. All design elements automatically scale and adjust, to fit perfectly on any screen. Our template works seamlessly across mobile, desktop, and tablet devices.
 
 All of our design components are thoroughly tested for common accessibility standards.
 

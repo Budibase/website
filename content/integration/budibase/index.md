@@ -13,7 +13,7 @@ integrationcategories = ["All", "Data-source"]
 published_by = "Budibase"
 site_url = "https://budibase.com"
 plan = "Free"
-docs_url = "https://docs.budibase.com/data/introduction-to-data"
+docs_url = "https://docs.budibase.com/docs/data"
 status = "Live" 
 +++
 

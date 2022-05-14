@@ -1,7 +1,7 @@
 +++
 datasource = "Built-in database"
 date = 2022-01-18T00:00:00Z
-description = "Our maintenance request form template is a quick and easy way to manage equipment repairs, maintenance, and servicing. Start using Budibase today."
+description = "Manage equipment repairs and regular servicing with our free maintenance request form template."
 destination = "https://budibase.app/builder?template=app/maintenance-request-form"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639392302/cms/Maintenance_request_form_template_1_wg8jgl.png"]
 label = "Maintenance Request Form Template"
@@ -76,13 +76,13 @@ Use automated workflows to instantly notify service team members of new requests
 
 ### Assign, approve & action
 
-A maintenance request form is the first step towards building the perfect servicing workflows. Our template provides you with a central repository of your maintenance requests. This allows you to more effectively manage work orders.
+Our maintenance request form template is the first step towards building the perfect servicing workflows. Our template provides you with a central repository of your maintenance requests. This allows you to more effectively manage work orders.
 
 Automatically assign different kinds of maintenance requests to different users, or delegate work based on availability.
 
 Our template offers data fields for your team to alter the status of requests and provide additional notes. With our low-code builder, you can quickly and easily build additional app screens to match your maintenance workflows.
 
-![Maintenance request approval screen](https://res.cloudinary.com/daog6scxm/image/upload/v1639392720/cms/Maintenance_request_form_template_2_oblqpj.png "Maintenance request approval")
+![Maintenance request form template approval screen](https://res.cloudinary.com/daog6scxm/image/upload/v1639392720/cms/Maintenance_request_form_template_2_oblqpj.png "Maintenance request approval")
 
 ### Improved reporting
 

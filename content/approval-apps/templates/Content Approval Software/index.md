@@ -1,7 +1,7 @@
 +++
 datasource = "Built-in Database"
 date = 2022-01-18T00:00:00Z
-description = "Our content approval software template is built to simplify editorial processes. Automate your content submission, review, and approval with Budibase."
+description = "Our content approval software template is built to simplify editorial processes. Build your perfect tool in minutes for free with Budibase."
 destination = "https://budibase.app/builder?template=app/content-approval-system"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642419152/cms/Content_Approval_Software_Screenshot_1_t1yblc.png"]
 label = "Content Approval Software Template"
@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642419170/cms/Con
 summary = "Our content approval software template is built to simplify and automate editorial processes."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642518274/cms/Content_Approval_System_Thumbnail_New_lzxll2.png"
 thumbnailColor = "celery"
-title = "Content Approval Software Template | Budibase | Low-Code Platform"
+title = "Content Approval Software | Budibase | Low-Code Platform"
 type = "templates"
 
 +++
