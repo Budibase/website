@@ -2,7 +2,7 @@
 author = "Joe Johnston"
 date = 2021-12-03T00:00:00Z
 description = "In November, Budibase launched out of beta! The response from our community was amazing, and over 5000 new accounts signed up to Budibase. If this wasn’t enough, we’ve found time to release a number of game-changing features:"
-images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1638459724/cms/November_21_release_xn0skp.png"]
+image = "https://res.cloudinary.com/daog6scxm/image/upload/v1638459724/cms/November_21_release_xn0skp.png"
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/joe_illustration_gray_bg_e97wdl.jpg"
 title = "November 2021 Release"
 

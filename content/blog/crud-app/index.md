@@ -1,5 +1,4 @@
 +++
-
 date = "2021-07-06"
 title = "What is a CRUD app and how to build one | Ultimate guide"
 description = "Within this guide you will learn what a CRUD app is, how to build a CRUD app, and why CRUD is critical for building applications."
@@ -7,7 +6,6 @@ author = "Joe Johnston"
 images = ['/blog/crud-app/images/read.webp']
 draft = "false"
 dateModified = "2022-04-04"
-
 +++
 
 
