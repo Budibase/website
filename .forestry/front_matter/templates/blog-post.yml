@@ -31,6 +31,7 @@ pages:
 - content/blog/building-a-dashboard-with-budibase-and-grafana.md
 - content/blog/data/data-sources.md
 - content/blog/data/how-to-create-a-data-model.md
+- content/blog/data/how-to-integrate-multiple-databases.md
 - content/blog/data/what-is-a-database-schema.md
 - content/blog/legacy-application-modernization/4-low-code-legacy-application-modernization-strategies-budibase.md
 - content/blog/process-improvement-plan/index.md
