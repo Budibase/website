@@ -40,7 +40,7 @@ Besides this, there are some situations where integrating multiple databases is 
 
 With that in mind, let’s look at some of the different ways you can go about integrating databases in practice.
 
-![](https://lh3.googleusercontent.com/5m6wsGSoaFCdt7YBh64U4yFgEWK8NPcv354tXdXxFr6B6Gjflk09qgqtPz7BNKmyaAf52UhBbzOOxVb6YNdkybW7LQaYaM6okMUbE97e_MnruR8CxCOQymuWx3x5PAsfb0ZFzt8fexlznnB9yA =624x351)
+![Query multiple databases with a single web app](https://res.cloudinary.com/daog6scxm/image/upload/v1653322880/cms/Integrate_Multiple_Databases_with_a_Web_App_l1fl1l.png "Query Multiple databases with a single web app")
 
 ## Consolidating data vs connecting to multiple databases
 
@@ -98,7 +98,7 @@ We can add each Postgres database as a separate data source in Budibase, automat
 
 This moves all existing values to our master list. We can then create a simple automation, so that any time a new lead is added by an individual sales colleague, it’s also added to the master list.
 
-![](https://lh4.googleusercontent.com/nL9LM2KEJHhZBEMgWdhAo7CUQQCueQlDT0dK_S2Q3eo_W-gO2afiy_QmtJDWAVGtuRZ5bF9Rvup1O1uXXOeOwV-nAj54om4Ow4ZX-hP28PIAur_kqmAyx5_Y7gEko02DDpRCaUjeDT5QxvPV8Q =624x351)
+![How to integrate multiple databases with similar entities](https://res.cloudinary.com/daog6scxm/image/upload/v1653322847/cms/Integrate_Multiple_Databases_with_a_Web_App_2_oh9j9x.png "How to integrate multiple databases with similar entities")
 
 ### Integrating data from distinct database schemas
 
@@ -209,25 +209,25 @@ We want to build a tool where internal users and customers themselves can update
 
 Budibase offers a range of intuitive connectors for external data. In the builder, head over to the _Data_ tab, and select the plus icon to add a new source:
 
-![](https://lh6.googleusercontent.com/ostH2XN-fkAwFacTPm1UvDEC2w4qwD0Ulr81Z03ZKU3n3Qcc_mV37KM7DshQKpNDOD00grVm0hc0jLbKBuPmSAjSxIeYrxwlyrvMUB7oofGjUYeaQpVFPZhtCgN29hRf46NsczfE8hCfkKl6VA =624x391)
+![How to integrate multiple databases](https://res.cloudinary.com/daog6scxm/image/upload/v1653322808/cms/Screenshot_2022-05-06_at_10.40.01_2_ry23m1.png "How to integrate multiple databases")
 
 First, we’ll connect to our invoice platform’s database, by selecting Postgres, and inputting our credentials:
 
-![](https://lh5.googleusercontent.com/Qv1NXg1N0cT0fQ65Tfec_cm3ewulYTyokSI-Y4ldZGjXFZl6apHggchynKB1oX67Vz2o-UaT7umg_34HVQfSSo-LlftEJgElDiEDZDexuXqeqlar0qkurFORj4MnWhpaxe2wisFlzEstwYc0xA =624x531)
+![Connect Postgres](https://res.cloudinary.com/daog6scxm/image/upload/v1653322779/cms/Screenshot_2022-05-06_at_10.42.19_yqs0bx.png "Connect Postgres")
 
 Then, we can do the same for our CRM’s MySQL database:
 
-![](https://lh5.googleusercontent.com/jor9zIDGch9pA4swqB0hqu3U0rtP0KezjfZRfvPqJfmYnbA9LMevexobATN0w8wx_6ntakrgflSldqGEyGrPBjGWM3jKLtWKRcKjAPCY-5nkIucxJ2_p3KpbaA6xHETNYREsdh3Zh4AefrMDhA =624x509)
+![Connect MySQL](https://res.cloudinary.com/daog6scxm/image/upload/v1653322748/cms/Screenshot_2022-05-06_at_10.43.30_kdzaeh.png "Connect MySQL")
 
 When we save each of these and fetch the tables, we’ll have full connectivity to perform CRUD queries on both databases.
 
 Each database has two tables. Our CRM stores entities for customers and users:
 
-![](https://lh3.googleusercontent.com/stAFNQeOi0zRBdSRED3EZ7i8gc4QQ0vU3cg3ECH4I-iJ3IpqOFxL_-esVmmJ5j6pUOJsykovFPNkHVzutDRHFuWvraw29JtzTp6uvj8XZ2ajkvyK7vlZYRjbmxm_vX-kj809aXo0qRlTAYmxlA =624x288)
+![Fetch tables to integrate multiple databases](https://res.cloudinary.com/daog6scxm/image/upload/v1653322722/cms/Screenshot_2022-05-06_at_10.54.10_ahibdi.png "Fetch Tables")
 
 The invoicing tool has separate tables for customers and invoices:
 
-![](https://lh3.googleusercontent.com/FIRYY-mK3q-dubRA5Awr7SYucDGUjyCOzvlk6YFNDmzPoBFHMmEZZWJJRhBLwVTz_WXKS-uq3sX9cmI6MkQHp6-A3_jtLX-m9yZUqwvIbBy2nW7KfRsm_eQORBxwl63xNKKQ1U2vDtgdl_XJ9g =624x276)
+![Fetch Tables](https://res.cloudinary.com/daog6scxm/image/upload/v1653322678/cms/Screenshot_2022-05-06_at_10.54.49_rxdlzh.png "Fetch Tables")
 
 For the purposes of our example, we’re only concerned with the _customers_ table in each database. We can leave the relationships between these and the other internal tables alone.
 
@@ -243,7 +243,7 @@ For our purposes, we’ll create a new physical table. We could do this within o
 
 We’ll start by writing a query to duplicate our CRM’s customer table:
 
-![](https://lh3.googleusercontent.com/SVxW1ydL6lIs0mprZV9HaqxTUKEhnwuXFHVylW3C1sp7tdh8O7UUJm_lStRaHzHAn7n-CWv6X8Py3gOgDYUvGqJCozK_T0BZa5CkLKm1fkfoGjscNvIHQlVmlNOhlqlfXIHVY8cMVvt2OPWeYA =624x287)
+![Duplicate table query](https://res.cloudinary.com/daog6scxm/image/upload/v1653322645/cms/Screenshot_2022-05-06_at_16.29.50_flxefq.png "How to integrate multiple databases duplicate table query")
 
 You can do this in your DMBS, or as a custom query in Budibase, as shown above.
 
@@ -257,11 +257,11 @@ We’ll cover more automations later. For now, all we need to do is get our init
 
 Next, we need to query our _invoice_customers_table_, and use filters to find the row with the same business name as our trigger.
 
-![](https://lh5.googleusercontent.com/b8JEPN9OwA3-gYuvmTDFqo-jOBnkH09pD704KgofNUlYlIWXpBdeDY5iGqlmEX27Dh6DV8On3c2askyFsyrUG7_38DDdyotdMWGxFfgHfiiECOcGWdw_CIPpTKTolpy0Rd_eyHE53g19Z1lBlQ =624x299)
+![Bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1653322618/cms/Screenshot_2022-05-06_at_17.01.27_hm2d4c.png "Bindings")
 
 Finally, we’ll update the relevant row in our _combined_customers_table_, using a combination of values from our trigger row and our _invoice_customers_ table.
 
-![](https://lh3.googleusercontent.com/OfDvShEPJAUN6VdoHgI3MEwEBwU1lbrdW8sTLpJ9mBwqlB09kQK_uKqtroi6jOJO_E2oyu_j5HRDR0qoSyOti6Vm9e2odczKgysbrSxiNbZrFo-XB-hJIw6R7crdZbfR8u8F-P1YIhJhS3MR0w =624x401)
+![Configure attributes](https://res.cloudinary.com/daog6scxm/image/upload/v1653322501/cms/Screenshot_2022-05-06_at_17.03.46_agsoa8.png "Configure Attribuets")
 
 With this in place, we can manually update any row in our _crm_business_infromation_ table, to carry across the billing cycle value from our invoices database.
 
@@ -279,17 +279,17 @@ We want this to update customers’ contact details while leaving any unique att
 
 We’ll start by automatically generating CRUD screens for our _combined_customers___table_.
 
-![](https://lh3.googleusercontent.com/xLnknLTP4h3qrEj_qx7CqeuDtipAIlD7FFv0-VzDqRtVjPmS1r4g6HhP5rRH4RACOcf1Mbd9-cY_4BTQJA3BFyp7Z17NctKJqMSWB2nfAbXKcVaQL6XZWs3x31V7I8Stv6qDxsnvT05tG7ehTg =624x391)
+![Generate CRUD screens](https://res.cloudinary.com/daog6scxm/image/upload/v1653322468/cms/Screenshot_2022-05-09_at_09.13.37_2_xnew2o.png "Generate CRUD Screens")
 
 For simplicity’s sake, we’ll make this a single screen app, by setting our edit form UIs to open as modals. When you autogenerate CRUD screens in Budibase, you’ll also get _create row_ forms, but we don’t need these for our purposes.
 
 For now, we’ll begin working on our _edit form_.
 
-![](https://lh5.googleusercontent.com/bQD8Q1n6INR6oz-Gh-k83ltnodwrGvPxRKKzce3oRHNEF6dAf3UQZtBnG3SDQgHKIn1JCAii_pet8_JffAqeHyZJCo7AOcPLOSQOL0G2MaMds2rjPwmg_JtsGDAhR69bfoxmUF22zqJt_v5AYw =624x391)
+![How to integrate multiple databses](https://res.cloudinary.com/daog6scxm/image/upload/v1653322429/cms/Screenshot_2022-05-09_at_09.26.51_2_uxz9cn.png "How to integrate multiple databases")
 
 The first thing we need to do is remove any fields for attributes that we don’t want users to edit through our form. So in this example, the non-contact details are _ID, category, description,_ and _billing_cycle._
 
-![](https://lh3.googleusercontent.com/iYq6Jl0GqoXdCVBVrsuPqLaGEU03xRMSTFaHy5hwsz7dgTZJgFTO_92Rt8Ce7spV7F9HfSlQLHEaZP2F0O_7pYFmsRDVZ4aAVFuTYL3ZEusdS4zPZ36iADekQY4WyqyPnvTGtb9tnI_3OW8qaQ =624x391)
+![Form](https://res.cloudinary.com/daog6scxm/image/upload/v1653322405/cms/Screenshot_2022-05-09_at_09.29.03_2_zjbmjf.png "Form")
 
 We now have a working form. However, if a user completes this, it will only alter an entry’s details in the combined table, not the two source tables.
 
@@ -315,31 +315,31 @@ First, we’ll deal with updating the source databases when a user completes our
 1. Add a _query rows_ block, with a filter set to isolate the row with the same business name as our trigger.
 2. Add an _update row_ block, to update the contact details, using our form data.
 
-![](https://lh4.googleusercontent.com/JPDxUrNqh9AJnrcfe3umQcKL8XmV1tzwuTIOagpbBNqNZqNqrXTwk8uznM-CTe3jcacsG4hjPHckRcIUW7H596t0Tzyo6wkpUl0Ruq-FPF0mD-fUWPMyhncdvAnjvFJ2SAY4zvs0D0PbMnUIWA =624x403)
+![Build an automation](https://res.cloudinary.com/daog6scxm/image/upload/v1653322344/cms/Screenshot_2022-05-09_at_10.44.39_rloynb.png "Build an automation")
 
 We use the ID from the output of the _query rows_ block, and the information provided from our original form trigger to update the relevant row:
 
-![](https://lh4.googleusercontent.com/N32yMrYnkRKE0zr3YHRmgTdkUHg_KL3mzRR08tIZ5Xpkr-pAzOpyUEFqBxlEdRJkpZqislwly1whrtR-sTkj71p7vy0W_i14dv3qvIyMy18Ca2t_pafXarIzS8v1c6E0Y3wZ8rda1Sm4UJw6lA =624x405)
+![Configure Fields](https://res.cloudinary.com/daog6scxm/image/upload/v1653322317/cms/Screenshot_2022-05-09_at_10.46.02_lpzbtq.png "Configure Fields")
 
 We’ve used JavaScript bindings to pass each individual attribute to our automation:
 
-![](https://lh3.googleusercontent.com/lqNz8Lxc6I_aGNf_51IF6yVS1MuFSrg_4bILDg2RF3nUVt3jUxNInHnjkqUs82zAvw-G6OxDk8Z_FbsYbzX38kZbxGFFuZu83t2Fq0GshrQR5dlO9GXqMEdUoTaDbPKGjelpgRyMYH1VDGcsOQ =624x195)
+![Integrate multiple databses javascript binding](https://res.cloudinary.com/daog6scxm/image/upload/v1653322287/cms/Screenshot_2022-05-09_at_10.47.01_y51jaf.png "Integrate multiple databses javascript binding")
 
 Now, we can repeat the process by adding the same blocks for our _invoice_customers_ table.
 
-![](https://lh5.googleusercontent.com/bbojjq13u6fgpS1230j_55qWEn4hHZwg9m1n9vHfkuWQI1e_vHJtHGBFXjdEzjbsSackid6US2mM14LmK0BpPCh9eujGy47oybJSzjpo-v4H3FNYLli3gaS1IBUTU8qDl1fy2_AVqJyaJuULRw =624x512)
+![Update two DBs from form](https://res.cloudinary.com/daog6scxm/image/upload/v1653322258/cms/Screenshot_2022-05-09_at_10.57.04_txesvr.png "Update both lists from form")
 
 We can test our automation to make sure that it works in real life. We’ll use our form to update one of our customers’ phone numbers, to _000-000-000_:
 
-![](https://lh5.googleusercontent.com/WkCUo62fAN8FZYUTYHdSZRWhZ_abq0HJEJfG7LO1IHuB2yrJ1kMkbdh05MoThN0EGvgSSF8hoh0ufpILb50uaPNG5aOqhG70_tp82TP5XX9QwbhIotvRm9w913CxKdJ5KzaxzH_jx73coVZbdA =624x605)
+![Integrate Multiple Databases form](https://res.cloudinary.com/daog6scxm/image/upload/v1653322025/cms/Screenshot_2022-05-09_at_11.09.16_czkklq.png "Integrate multiple databases form")
 
 Then, we’ll run queries in our source DMBSs to make sure it’s worked. First in our MySQL database
 
-![](https://lh5.googleusercontent.com/1o3xCNLDxfKkX7wmDmWUyKSrj6gEVpbCxFMm6vRF2U2qKM5ef3K3GCZlA7qFxfBoW3L7Sgoo_D94cx5UX-jobRVwFGv6BsheQh3yDct7FHE6gxADLjTtyEpaOHQCGMrVjSKAv2Uov7xG8NXF7Q =624x201)
+![MYSQL Query](https://res.cloudinary.com/daog6scxm/image/upload/v1653321754/cms/Screenshot_2022-05-09_at_11.14.13_rsovqa.png "MYSQL Query")
 
 And then in our Postgres table too:
 
-![](https://lh6.googleusercontent.com/uUR2XLeRf2TTG2P4T01o0ePIAe3b893lQjmSQmdBZMFZCFOxK5Uteyb6oIZcx4SJl7LznNyKtdcfKR9311HnHcTIDJqHNpEUctbaHmrkvUq2bMXxCBVmHTiQlmUC9Q9qSrEuXMAhQQJSklR0eg =624x233)
+![Postgres SQL Query](https://res.cloudinary.com/daog6scxm/image/upload/v1653321659/cms/Screenshot_2022-05-09_at_11.17.53_hnpmq4.png "Postgres SQL table")
 
 Now we can update our customers’ contact details in multiple databases, with a single form UI.
 
