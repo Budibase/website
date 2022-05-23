@@ -2,11 +2,10 @@
 
 {{ partial "navigation.html" . }}
 
-
 <main id="content" role="main">
     <!-- Article Content -->
 <article>
-  <div class="article space-3-top">
+  <div class="article space-2-top">
     <div class="container">
       <header class="w-md-75 w-lg-60 w-xl-50 mx-md-auto">
           <h1 class="text-center">{{ .Title }}</h1>
@@ -15,8 +14,8 @@
           {{ else }}
               <img class="u-md-avatar mt-4" src="/img/team/joe.webp">
           {{ end }}
-          <p class="text-center text-grey">By: {{ .Params.author }} </p>
-          <p class="text-grey mb-4 text-center">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</p>
+          <p class="text-center">By: {{ .Params.author }} </p>
+          <p class="mb-6 text-center">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }} </p>
         </div>
       </div>
         <!-- End Author -->

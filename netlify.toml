@@ -109,3 +109,28 @@ HUGO_ENABLEGITINFO = "true"
   to = "/about"
   status = 301
 
+
+  [[redirects]]
+  from = "/blog/november-2021-release"
+  to = "/blog/updates/november-2021-release"
+  status = 301
+
+  [[redirects]]
+  from = "/blog/budibase-public-beta"
+  to = "/blog/updates/budibase-public-beta"
+  status = 301
+
+  [[redirects]]
+  from = "/blog/budibase-s-public-api-is-now-publicly-available"
+  to = "/blog/updates/budibase-s-public-api-is-now-publicly-available"
+  status = 301
+
+  [[redirects]]
+  from = "/blog/building-a-crud-app-with-budibase-and-next.js"
+  to = "/blog/data/building-a-crud-app-with-budibase-and-next.js"
+  status = 301
+
+  [[redirects]]
+  from = "/blog/public-forms-how-to-build-them-in-minutes"
+  to = "/blog/app-building/public-forms-how-to-build-them-in-minutes/"
+  status = 301

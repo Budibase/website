@@ -2645,6 +2645,15 @@ border-radius: .75rem;
   overflow: hidden;
 }
 
+.one-line-clamp {
+  white-space: normal !important;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
 
 
 .spotlight {
