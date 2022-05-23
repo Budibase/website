@@ -22,7 +22,6 @@
     --mauve10: hsl(253, 3.5%, 53.5%);
     --mauve11: hsl(252, 4.0%, 44.8%);
     --mauve12: hsl(260, 25.0%, 11.0%);
-
     --indigo400: hsl(240, 82%, 70%);
     --indigo500: #6565ec;
     --indigo600: #5c5ce0;
@@ -251,6 +250,7 @@ table td{
 .text-xs {
   font-size: var(--fontsize-3);
 }
+
 
 .text-indigo {
   color: var(--indigo600);
@@ -516,6 +516,10 @@ img {
   overflow: hidden;
   vertical-align: middle;
   fill: var(--hiContrast);
+}
+
+.opacity-100 {
+  opacity: 0.75;
 }
 
 .opacity-75 {
@@ -2120,8 +2124,8 @@ margin-left: 0rem;
 @media (min-width: 1200px) {
   .pricing {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: var(--space-3);
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--space-5);
   }
 }
 
@@ -2180,7 +2184,7 @@ border-radius: 16px;
   }
 
 .pricing-card-top {
-  padding: var(--space-6) var(--space-5) 0;
+  padding: var(--space-6) var(--space-5) .5rem;
   background: var(--loContrast);
 }
 
@@ -3666,7 +3670,7 @@ fieldset:disabled a.btn {
   color: var(--gray900);
   background-color: white;
   border: 2px solid var(--white);
-  border-radius: var(--sizes-1) !important;
+  border-radius: var(--sizes-9) !important;
 
 }
 
@@ -3674,7 +3678,7 @@ fieldset:disabled a.btn {
   color: var(--hiContrast);
   background-color: var(--gray200);
   border: 2px solid var(--gray200);
-  border-radius: var(--sizes-1) !important;
+  border-radius: var(--sizes-9) !important;
 }
 
 .btn-quiet:focus, .btn-secondary.focus {
@@ -3701,6 +3705,12 @@ fieldset:disabled a.btn {
 .btn-block {
   display: block;
   width: 100%;
+}
+
+.btn-outline {
+  background-color: white;
+  color: var(--blue500);
+  border: 2px solid var(--blue500);
 }
 
 @media (max-width: 576px) {
