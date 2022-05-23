@@ -629,7 +629,7 @@ Our query will include the columns we want to record data for, and instructions 
 
 In other words, we’d bind the form field to the corresponding column name in our query, to save the data. The same idea applies to both creating and updating records. Notice that so far we’ve only touched on how to populate our query with data.
 
-![](https://lh6.googleusercontent.com/pzYxYFhBtmBaSgka7fojQTo08DdPPBX7_qlft_ZVjku8i0nngoooW4TwlyqVoCN6bhTnnGqEUw0vB7iZF4FTDoSg7FaCs8LLiUE6a_Y_THeWkv1nd6ix6MY-Xw2Op6ghesSiBkmOD5WYpVLqsQ =624x351.33365019011404)
+!\[\](https://lh6.googleusercontent.com/pzYxYFhBtmBaSgka7fojQTo08DdPPBX7_qlft_ZVjku8i0nngoooW4TwlyqVoCN6bhTnnGqEUw0vB7iZF4FTDoSg7FaCs8LLiUE6a_Y_THeWkv1nd6ix6MY-Xw2Op6ghesSiBkmOD5WYpVLqsQ =624x351.33365019011404)
 
 We still need to trigger the query. We’ll delve further into this shortly.
 
@@ -1051,7 +1051,7 @@ Note that a specific API might only allow you to make some of these requests. Fo
 
 This helps to ensure accuracy and validity.
 
-![](https://lh3.googleusercontent.com/Gg7KMq-iDbp7qGFw5AcfqJXfCDIwlA62Y1tyKxWpbrklvc4Un4BSM6wEQoQB12MDHbXrj04zhNbk353M9088iSAYbBoCfGevjS26canmicu-Csnp7TyD6TkNaDVgtoP5-iYWtjEcbHnctyyLrw =624x391)
+![Configure REST API](https://res.cloudinary.com/daog6scxm/image/upload/v1653315580/cms/Rest_API_adtcux.png "REST API as a data source")
 
 #### Sending REST requests to your app from external tools
 
@@ -1090,7 +1090,7 @@ If you use an app-building tool that supports these, connecting to data is incre
 
 For example, Budibase supports Google Sheets as an app data source. Just authenticate your Google account, provide your spreadsheet ID or URL, and select the tables you need to query.
 
-![](https://lh4.googleusercontent.com/p9tClIapZzY3_0MMTQTNx0azfF7Qv5iABmvpzTrGlqhTUSllvD3cdRFrM3aJN9KdyFngznGsuQssgde73llnyX4N7WtkpBoLOUslM4eDkH7BBsBnNZax8tJkVug4iRElbtcmTTBQp6l6PDfqPA =624x377)
+![Google Sheets as a Data Source](https://res.cloudinary.com/daog6scxm/image/upload/v1653315517/cms/Google_Sheets_fqplry.png "Google Sheets as a Data Source")
 
 ##### Use cases for spreadsheets and flat files
 
@@ -1112,13 +1112,13 @@ Each of these tools offers its own unique advantages and use cases.
 
 One thing they have in common is that they are typically built with a view to high levels of connectivity. This means that setting up a connection is relatively straightforward.
 
-For example, when working with Airtable, you only need to provide an API key, and the ID of the database you want to connect to. You can then build out your queries by defining JSON objects, and binding them to different UI elements in your app.
+For example, when working with Airtable, you only need to provide an API key, and the ID of the database you want to connect to. You can then build out your queries by defining JSON objects and binding them to different UI elements in your app.
 
-![](https://lh4.googleusercontent.com/XCQbtIFON_IeOiXB0n4n8rb1HY8DSo9GsdnDkhE0PlhlXyWymowZefG2yeIc40r8ABPKYWnQUyN_qi1EaE_70HwT4UXDxbxCyHix_tva8nc9LbOAYRgSf-ELZw_OXaCb8y5MP-I8WGZzHMBnZw =624x391)
+![Connect to Airtable as a data source](https://res.cloudinary.com/daog6scxm/image/upload/v1653315457/cms/Connect_to_airtable_jn3zfh.png "Connect to AirTable")
 
 ##### Use cases
 
-Use cases here are varied, and largely relate to the use cases for the database tools themselves. You might want to connect to one of these platforms, simply because it’s where the data you need is stored.
+Use cases here are varied and largely relate to the use cases for the database tools themselves. You might want to connect to one of these platforms, simply because it’s where the data you need is stored.
 
 Alternatively, you might opt to build your data source from scratch using one of these tools, because its specific functionality suits your needs.
 
@@ -1148,21 +1148,17 @@ You could also use transformation to parse a number from a string, or set rules 
 
 In some cases, this can be as simple as applying a built-in JavaScript method, like _value.toString(),_ or declaring and returning a variable with a function, such as:
 
-_var newValue = Number(value)_;
-
-_return newValue;_
+    var newValue = Number(value);
+    return newValue;
 
 Other times, the transformation might be more complex. Say you had a set of B2B leads, including each company’s employee count. For the purpose of your app though, you simply need a boolean value, for whether or not they’re an enterprise.
 
 If we define an enterprise as any company with 1,000 or more employees, we could use a transformation like:
 
-_if (employeeCount >= 1000){_
-
-_return true;_
-
-_}_
-
-_else return false;_
+    if (employeeCount >= 1000){
+    	return true;
+    	}
+    else return false;
 
 For certain sources, you can build this into your queries. For example, by using a _CASE_ statement in SQL.
 
@@ -1176,12 +1172,12 @@ Dates are a helpful example here, as there are a large number of different forma
 
 These vary in how easily understood they are by both users and systems. Common date formats include:
 
-* **Date strings - such as 01/01/2000 or January 1 2000.**
-* **ISO8601 dates** - ie 20000101T000000Z.
-* **Numerical dates - the number of milliseconds since January 1st 1970.**
-* **Proprietary formats - some variation of the above, used by a specific system.**
+* **Date strings -** such as 01/01/2000 or January 1 2000.
+* ISO8601 dates - ie 20000101T000000Z.
+* **Numerical dates -** the number of milliseconds since January 1st 1970**.**
+* **Proprietary formats -** some variation of the above, used by a specific system**.**
 
-Within each of these formats, there can also be variation. For example, inclusion or deletion of times-of-day, stipulation of timezones, or local conventions for ordering the day, month, and year.
+Within each of these formats, there can also be variations. For example, inclusion or deletion of times-of-day, the stipulation of timezones, or local conventions for ordering the day, month, and year.
 
 It’s important to pay careful attention to the format of dates returned by external data sources. If necessary, you can use transformations to change the format of dates, to better match the needs of your app project.
 
@@ -1197,7 +1193,7 @@ If we discovered that the majority of enterprise leads were on the east coast, w
 
 This is just one example of the kind of insights we can gain from external data sources using transformers.
 
-Note, you may be able to achieve the same result without using a transformer. For instance, by building the same rules into a SQL query. This is what’s known as an aggregate property.
+Note that you may be able to achieve the same result without using a transformer. For instance, by building the same rules into a SQL query. This is what’s known as an aggregate property.
 
 ## Working with multiple databases
 
@@ -1296,25 +1292,25 @@ Inconsistency occurs when there is a discrepancy between duplicated data. This m
 
 There’s also the obvious problem of determining which entry holds the correct values.
 
-This can have serious real-world consequences. For example, if you have inconsistencies in a HR dataset, with different emergency contacts listed for certain employees. If something goes wrong, this could mean your team don’t know the right number to call.
+This can have serious real-world consequences. For example, if you have inconsistencies in a HR dataset, with different emergency contacts listed for certain employees. If something goes wrong, this could mean your team doesn’t know the right number to call.
 
-We can also use many of the same techniques to prevent inconsistency as we would to prevent reduandancy. That is, if redundancy doesn’t occur, then inconsistency will also be prevented.
+We can also use many of the same techniques to prevent inconsistency as we would to prevent redundancy. That is, if redundancy doesn’t occur, then inconsistency will also be prevented.
 
 We’ll still need to prevent inconsistency in cases where redundancy is desirable.
 
 Once again, a large part of this is defining clear processes for which data source takes precedence in the case of inconsistencies. This could be based on the inputs tied to a particular source, or you might simply prioritize newer values.
 
-We can also prevent inconsistency with automated queries. So, if we have two data sources which have some attributes in common, we can configure processes to ensure that each is kept up to date with the other.
+We can also prevent inconsistency with automated queries. So, if we have two data sources that have some attributes in common, we can configure processes to ensure that each is kept up to date with the other.
 
 ### Stale inputs
 
-Stale or outdated data can cause innumerable problems. In fact, it’s a problem in itself, since _storage limitation_ is a key principle of modern data protection. This includes GDPR. In layterms, this means you’re not supposed to hold on to data for any longer than you need to.
+Stale or outdated data can cause innumerable problems. In fact, it’s a problem in itself, since _storage limitation_ is a key principle of modern data protection. This includes GDPR. In lay terms, this means you’re not supposed to hold on to data for any longer than you need to.
 
 Beyond this, stale data can cause problems including skewing your analytics, wasting storage space, or inhibiting performance.
 
 Alternatively, stale data could be information that you need, but you just don’t have up-to-date values. Again, the problem here is obvious, as your team will be relying on incorrect data.
 
-The key here is implementing rules and process to ensure that data does not become stale or out of date.
+The key here is implementing rules and processes to ensure that data does not become stale or out of date.
 
 ### Human error
 
@@ -1407,7 +1403,7 @@ Each of these has its own unique advantages and disadvantages. Key decision fact
 
 ### 4. Connecting to external data
 
-When working with external data sources, the next step is actually connecting these to your application. How you go about this will naturally depend on the source itself. This can be configured manually, or using dedicated data connectors within app builder tools.
+When working with external data sources, the next step is actually connecting these to your application. How you go about this will naturally depend on the source itself. This can be configured manually or using dedicated data connectors within app builder tools.
 
 This means defining key information about your data source in the app itself.
 
@@ -1454,11 +1450,11 @@ Transformations are particularly useful when working across multiple data source
 
 ### 6. Binding data to application processes and UI elements
 
-Binding data means creating links between different attributes, in different locations. In other words, a binding is a way of referencing a value, for the purposes of using it elsewhere in your app, either in a seperate attribute, process, or UI element.
+Binding data means creating links between different attributes, in different locations. In other words, a binding is a way of referencing a value, for the purposes of using it elsewhere in your app, either in a separate attribute, process, or UI element.
 
 The most basic examples of this include:
 
-* Displayimg values in UI elements.
+* Displaying values in UI elements.
 * Passing values user inputs to the data source.
 * Updating or altering one attribute as a function of another.
 * Referencing stored values, user inputs, or system data in automations.
@@ -1475,7 +1471,7 @@ Let’s take a look at what low-code can offer when working with different data 
 
 Low-code is all about simplifying common development tasks. For example, writing queries, or creating CRUD screens. Instead of manually writing code for each of these tasks, low-code platforms offer simple interfaces, to expedite and simplify the process of building an app.
 
-On the one hand, this saves massive amounts of time and effort for even the most experienced of developers. On the other, it democratizes app development, by giving non-technical users to power to build amazing tools.
+On the one hand, this saves massive amounts of time and effort for even the most experienced developers. On the other, it democratizes app development, by giving non-technical users to power to build amazing tools.
 
 ### Why manage data with low-code apps?
 
@@ -1499,21 +1495,21 @@ The best low-code platforms offer better, faster experiences for developers of a
 
 Connect to your data in seconds, and begin building incredible tools, with minimal coding skills.
 
-![](https://lh4.googleusercontent.com/zZtoZOKfI1xYXpkrjUIg4yWM53YwszAKKnC0A7ojNEB6HdY19oyi0L8jBljvc2TID_5b4zLLUSY37HfM9JbBGmzoqPkoA9xvO-XhwJmxKMuQ9sHOx_SQmIeqiD_6LXYgDMbGjCt0J8s7nCx6jA =624x391)
+![Add a member screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1653314881/cms/Budibase_add_a_member_jnlqe3.png "Add a member screenshot")
 
 ### How do low-code apps access data sources?
 
 Earlier, we talked about how certain development tools offer dedicated connectors, to make it easier to work with external data sources. Low-code platforms are probably the most common example of this.
 
-To refresh your memory, data connectors are simple UIs that eliminates the need to manually set up your data source. Rather than configuring a data source in your app’s source code, you can simply provide the required details, in an intuitive interface.
+To refresh your memory, data connectors are simple UIs that eliminate the need to manually set up your data source. Rather than configuring a data source in your app’s source code, you can simply provide the required details, in an intuitive interface.
 
 As we’ve said already, this saves massive amounts of time. Compared to traditional development, this also offers several other advantages:
 
 * **Improved troubleshooting** - As key aspects of the data source connection are preconfigured, it’s easier to locate problems.
-* **Better organization when working with multiple data sources - Data connectors provide a simple and delineated overview of each of the sources you’re working with.**
-* **Query importing - Certain data sources will allow you to import all available queries, at the press of a button.**
-* **Intuitive transformations - Apply transformations in the same UI as you configure connections.**
-* **Easy upskilling for new data sources - Since data connectors only require you to input key details, there’s less need to know the required attributes and syntax for setting up a connection manually.**
+* **Better organization when working with multiple data sources -** Data connectors provide a simple and delineated overview of each of the sources you’re working with.
+* **Query importing -** Certain data sources will allow you to import all available queries, at the press of a button.
+* **Intuitive transformations -** Apply transformations in the same UI as you configure connections.
+* **Easy upskilling for new data sources -** Since data connectors only require you to input key details, there’s less need to know the required attributes and syntax for setting up a connection manually.
 
 Low-code tools might also offer other ways of connecting to data.
 
@@ -1548,9 +1544,9 @@ Use our intuitive backend UI to connect to:
 
 We’ve provided dedicated workflows for connecting to each type of data source. Once you’ve provided the required details, you can quickly start creating queries and applying transformations.
 
-![](https://lh5.googleusercontent.com/6kmGAC5Jd7oQtyuyO9pVuNGmgEzGa5jSwCndGiLfADncAnVJouIsvTAyTfXdCOJDd3Jlr4cVNfmM_f-FjqqeWJ-MnFV_REqQN4PR1nr2aeVoCUUAwFpwEaaj3QXmOkGF4djIP1ug9MhvVmHvuQ =624x391)
+![Select external data sources screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1653314767/cms/External_data_sources_screenshot_zgithu.png "Choose and external data source screenshot")
 
-Check out our documentation to find out more about connecting to external data from different sources.
+Check out [our documentation](https://docs.budibase.com/) to find out more about connecting to external data from different sources.
 
 ### Use our built-in database
 
@@ -1562,9 +1558,9 @@ BudibaseDB offers an extensive range of data types, with simple, user-friendly l
 
 Use relationships, formula variables, and more to quickly create a complex data model, with multiple tables for distinct entities.
 
-![](https://lh3.googleusercontent.com/XE2vlOEcVupp9cdgS6je0P9a-LhCLj7gvI_3-JHciuv5uLqUARJVR-Fi71SSsL5PuVjWwt7sCMzzJDWT5_R1R0QxnE7g1d7RdY2BOpSx-byFDndVfFGzFa5ri1Mukuw7ApZ3ZVJFTudOZuoAaw =624x391)
+![Manage data sources in Budibase screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1653314661/cms/Manage_data_with_Budibase_Screenshot_nqoz14.png "Manage data sources with Budibase Screenshot")
 
-### Manage data with Budibase
+## Manage data with Budibase
 
 Quickly create seamless apps for users to manage and access data. With a range of bindable components, Budibase is the easy way to query, manipulate and view all kinds of data.
 
@@ -1596,7 +1592,7 @@ All of our form components can be configured to simplify complex workflows. Appl
 
 #### Table and card UIs
 
-Data tables are at the heart of many Budibase apps. Display values to users in a readable, customizable table. With Budibase, you have complete control over which values to presented, as well as how they’re formatted.
+Data tables are at the heart of many Budibase apps. Display values to users in a readable, customizable table. With Budibase, you have complete control over which values to present, as well as how they’re formatted.
 
 Other components, including buttons, can also be nested within tables.
 
