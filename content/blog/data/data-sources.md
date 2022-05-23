@@ -41,23 +41,23 @@ This might include dedicated sources, like databases or flat files, and connecti
 
 ### Why does your app’s data source matter?
 
-These days, business rely more heavily on data than ever before. While the benefits of this are too obvious to count, the data revolution also presents many challenges. The reality is that many businesses have more data than they know what to do with.
+These days, businesses rely more heavily on data than ever before. While the benefits of this are too obvious to count, the data revolution also presents many challenges. The reality is that many businesses have more data than they know what to do with.
 
 Even worse, most of this probably lives in a variety of spreadsheets, legacy tools, or SaaS platforms.
 
 A strong understanding of web app data sources is the first step towards overcoming this.
 
-That is, a working knowledge of how data is accessed by web apps allows you to make more effective decisions when it comes to procuring tools and managing processes.
+That is, working knowledge of how data is accessed by web apps allows you to make more effective decisions when it comes to procuring tools and managing processes.
 
 Let’s take a look at the basics of how web apps use data.
 
 ## Where is web app data stored?
 
-Probably the biggest difference between web apps and local software, is where the required data is stored. In a local tool, data is generally stored on the same machine as the application itself.
+Probably the biggest difference between web apps and local software is where the required data is stored. In a local tool, data is generally stored on the same machine as the application itself.
 
 With web apps, things are a little bit more complex.
 
-Web apps are stored on servers that are completely separate from the end-user’s device. Users then access them through their browsers. Depending on the app, the data source may be hosted on the same server, or in a completely different location.
+Web apps are stored on servers that are completely separate from the end user's device. Users then access them through their browsers. Depending on the app, the data source may be hosted on the same server, or in a completely different location.
 
 For example, your web app might pull data from a dedicated internal table. It might equally rely on existing data from external tools, legacy systems, or some other repository.
 
@@ -65,15 +65,15 @@ Let’s take a deeper dive into how web apps work, and some of the more specific
 
 ### The basics of web app architecture
 
-Of course web app architecture is a vast topic in and of itself. In fact, there are many ways to structure an app. What’s important for our purposes is understanding the principle of thinking about app architecture in terms of layers.
+Of course, web app architecture is a vast topic in and of itself. In fact, there are many ways to structure an app. What’s important for our purposes is understanding the principle of thinking about app architecture in terms of layers.
 
 It’s useful to think of any web app as having three layers:
 
 1. **A UI/Presentation Layer** - Where users can interact with stored data.
-2. **An Automation/Business Logic Layer** - Which processes data, based on defined rules.
+2. **An Automation/Business Logic Layer** - This processes data, based on defined rules.
 3. **A Data Layer** - Where data is stored, accessed, and organized.
 
-![](https://lh5.googleusercontent.com/AFW28OS3OojioqXqfdlatDp7p_3sPFTAD8MnzjXjaLTwLSL4_ztdHMAWAcYttZY0aKjjz6JCtSEi1aqNvu59YBWFs04bn4JXaVlEBZir3heJX0fm4LfmDWUcrk1py6MdyjixtatJ_PC8g5mJ_w =624x351)
+![Web app layers](https://res.cloudinary.com/daog6scxm/image/upload/v1653316688/cms/Choosing_a_Data_Source_for_App_Projects_Header_lp4dhs.png "Web app layers")
 
 Of course, we’re mostly concerned with the data layer today. Essentially, this includes any internal data sources, as well as different ways of connecting to external ones.
 
@@ -91,7 +91,7 @@ SQL has been the dominant database language for decades, thanks to its intuitive
 
 Databases might be stored alongside the rest of the application, or queried from an external location.
 
-![](https://lh4.googleusercontent.com/gywyNJErYgt1ylNuriX4GLrASVTn0LXTlS5svfbV1rOiwr1JgTFy5Ht5NLUwyxQTJOzJtezWfXiOI7I30GcEWMXipK4HIRzM9mZTbvkmDPGUu4USaUWBbgSQ5yFD-5PsdEg5iQJOI_Oo1M398w =624x351)
+![Database example](https://res.cloudinary.com/daog6scxm/image/upload/v1653316637/cms/Choosing_a_Data_Source_for_App_Projects_Header-2_ysm8vp.png "Database example")
 
 #### Database views
 
@@ -109,8 +109,8 @@ Flat files are a popular data source for simple applications. This means using a
 
 For traditional developments, there are two common ways of doing this:
 
-1. **Adding flat files to your app’s directory.**
-2. **Loading a flat file into a SQL database.**
+1. Adding flat files to your app’s directory.
+2. Loading a flat file into a SQL database.
 
 There’s a degree of tradeoff here between functionality and development work, at least for traditional app builds.
 
@@ -142,7 +142,7 @@ With APIs, different platforms can send data back and forth using HTTP, normally
 
 In other words, this makes it possible to privately query only your own data, from a third-party tool.
 
-![](https://lh4.googleusercontent.com/ho0TP_cmHvPMxJDNX9Dke1uJW4FINXgJhv2fOup3iQgSDbIjmJxYX3Jda_6se9ufIb2EjkCAWdxCTpCGRgZo2PvXMTRQIey3eAD4aspqbDAD4AoOA7ASEFMmX9aFH_5fkbQpucx_VLhguc0R2g =624x351)
+![What is an API?](https://res.cloudinary.com/daog6scxm/image/upload/v1653316563/cms/Choosing_a_Data_Source_for_App_Projects_Header-3_xznwho.png "What is an API?")
 
 APIs are also designed to offer more extensive functionality. Whereas web services are intended to offer specific, limited information, APIs provide more flexibility.
 
@@ -171,7 +171,7 @@ The DSN is set by whoever created the data source you’re using. So, if you’r
 
 ## Data access layers
 
-When talking about data sources, it’s also important to have a grasp of how web apps connect to data. We touched on this a little bit earlier. Recall that the data layer is where your app stores, accesses and manages data.
+When talking about data sources, it’s also important to have a grasp of how web apps connect to data. We touched on this a little bit earlier. Recall that the data layer is where your app stores, accesses, and manages data.
 
 The data source is the part of this that handles storage.
 
@@ -191,7 +191,7 @@ That means you have two data sources - your list of leads, and your website anal
 
 You need a data access layer to connect these sources to where they’re processed and ultimately presented.
 
-![](https://lh5.googleusercontent.com/31toluwCl3FIVLbzBeODWx7FWkQicSQMpJpe0z5ABZ4BwAUMcr_p0c0iFYyPMN5uKMO1BCpCvSe-RsVvORQieYK7AkhSkNeYQ-9g3DZokNSutZn4jlnhSc16PoXv09SoAqqJi6JKHTupn-_KIw =624x351)
+![Data Access Layer](https://res.cloudinary.com/daog6scxm/image/upload/v1653316524/cms/Choosing_a_Data_Source_for_App_Projects_Header-4_sflrcq.png "Data Access Layer")
 
 In our example, the data access layer needs to do two things:
 
@@ -232,7 +232,7 @@ To create, use, and manage different data sources, it’s vital to have a firm g
 
 This becomes all the more important when it comes to working with multiple data sources, that might use different formatting standards.
 
-Let’s start by looking at the different types of data you’re going to encounter building apps.
+Let’s start by looking at the different types of data you’re going to encounter while building apps.
 
 ### Types
 
@@ -240,19 +240,19 @@ There are a number of different kinds of variables that data sources can store. 
 
 To frame our discussion of how data sources handle these differently, here’s a quick summary:
 
-* **Strings - Textual data, using different combinations of letters, numbers, and special characters.**
-* **Integers - Numerical data, storing whole numbers.**
-* **Floats - Numerical data, storing decimal numbers.**
-* **Boolean data - True/False data.**
-* **Enumerated types (options) - Set textual or numerical options.**
-* **Arrays - A list of variables, in a specified order.**
-* **Date/Time - Variables that store dates, times, or both.**
-* **Attachments - For storing or sharing files from within a database.**
-* **Relationships - Variables that set relationships between rows on different data tables within a database.**
+* **Strings -** Textual data, using different combinations of letters, numbers, and special characters.
+* **Integers -** Numerical data, storing whole numbers.
+* **Floats -** Numerical data, storing decimal numbers.
+* **Boolean data -** True/False data.
+* **Enumerated types (options) -** Set textual or numerical options.
+* **Arrays -** A list of variables, in a specified order.
+* **Date/Time -** Variables that store dates, times, or both.
+* **Attachments -** For storing or sharing files from within a database.
+* **Relationships -** Variables that set relationships between rows on different data tables within a database.
 
 Different conventions also exist for each of these types of data. For example, some data sources may treat all numerical data the same, with no distinction between floats and integers.
 
-Others may provide subcategories of any type of data. For example, Budibase’s built-in database offers a distinction between normal strings long-form text variables.
+Others may provide subcategories of any type of data. For example, Budibase’s built-in database offers a distinction between normal strings and long-form text variables.
 
 As such, it’s important to have a clear picture of how each of your data sources names and categorizes different types of data.
 
@@ -281,7 +281,7 @@ While strings are less likely to lead to major issues in terms of formatting, it
 
 #### Numerical data
 
-Similarly, different data sources have their own ways of subcategorizing numerical data. We’ve touched on this already, with the distinction between integers and decimals. Some data sources will make this distinction. Others won’t.
+Similarly, different data sources have their own ways of sub categorizing numerical data. We’ve touched on this already, with the distinction between integers and decimals. Some data sources will make this distinction. Others won’t.
 
 This can create problems when you try to send a decimal to a variable that’s expecting an integer.
 
@@ -323,12 +323,12 @@ Defining a data model means deciding what information you’ll actually need to 
 
 These would be:
 
-1. **Employees - To store employee details, including names, job roles, biographies, photos, locations, and any other relevant information.**
-2. **Users - To store and authenticate log-in information for each individual user.**
+1. **Employees -** To store employee details, including names, job roles, biographies, photos, locations, and any other relevant information.
+2. **Users -** To store and authenticate log-in information for each individual user.
 
 You’d then need to relate each user to the relevant row in the _employees_ table, to allow them to edit their own details.
 
-![](https://lh4.googleusercontent.com/qON_ymeMFzK--LdO6jyFq5N4yh93DGKAkztmWQTa_8YEcaEzXlQMGgqSJkTDzAy4dqW-9ymD4WFVmYsGwP8cZurXKmrT2FsL1PfPOv1RDJdlpLBfUDapsbO7FiIHLwlDBlOBuDY14c48hw6vMw =624x351)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1653316402/cms/Choosing_a_Data_Source_for_App_Projects_Header-5_nkmdd7.png)
 
 Within each table, you’d need to define the exact variables you want to include, as well as their formatting standards, to achieve your desired functionality and UX.
 
@@ -361,7 +361,7 @@ We don’t need to figure out every detail at this stage. We just need a vision 
 Let’s return to our employee directory example. A quick brainstorm might lead to the following requirements:
 
 * The directory should store information about employees, their contact details, their role in the organization, and their background.
-* Employees should be able to quickly lookup and view information about their colleagues.
+* Employees should be able to quickly look up and view information about their colleagues.
 * Employees should be able to quickly contact their colleagues.
 * Employees should be able to update their own information.
 * Administrators should be able to add and remove employees or edit any employee’s details.
@@ -402,7 +402,7 @@ But wait!
 
 If you have a large organization, chances are you have more than one employee with the same name. To avoid mistakes, we’ll also need to give each row in both tables a unique ID. This is crucial for building relationships between tables.
 
-![](https://lh6.googleusercontent.com/sdx6x9U57eRZfqBD53HCX6dE_QFYu_4wSdx4_6bs34PFdQ0H8SXwoKIHAu8jBo1YIvXBNkA6-qRSBQnXMvw_q0Qw-AVx3DioTz5jObvI6QVogLf5_fTOua2gyLvCsTyGtskmUbQ2OlyjF-VmRA =624x351)
+![User table](https://res.cloudinary.com/daog6scxm/image/upload/v1653316354/cms/Choosing_a_Data_Source_for_App_Projects_Header-6_icnfzw.png "User table")
 
 #### 4. Build relationships
 
@@ -424,10 +424,10 @@ Once you’ve created a data model, it’s time to start turning this into a con
 
 ### What is a schema?
 
-A schema is the blueprint that a database is built around. This includes:
+A schema is a blueprint that a database is built around. This includes:
 
 * The fields the database contains.
-* Tha names you’ll use for each attribute.
+* The names you’ll use for each attribute.
 * How these fields are formatted.
 * Any rules governing each field.
 * How each of the fields fits together.
@@ -466,15 +466,13 @@ Relational data is a collection of entities that are structured in a way that fa
 
 Each row on one table can then be associated with rows on other tables, using this unique identifier.
 
-![](https://lh5.googleusercontent.com/cZQSLTiyEkGAtohyhFMVewvXN_4ofGfl_T2ubUeJiqwoJbxdxyJNi02piLV-CmKyUplIkpA9K42hlgQGcvoJdpgfc9MOZF1oVmchDlE5lIad6AtrWjTIaLoh40BoqR7iOO_uBBu7syMWrxKINA =624x351)
+![One to one relationship](https://res.cloudinary.com/daog6scxm/image/upload/v1653316251/cms/7_poof4m.png "One to one relationship")
 
-When one row in an entity is related to a single row in another, this is called a _one to one_ relationship. If a single row in one entity is related to several rows in another, it’s a _many to one_ relationship.
+When one row in an entity is related to a single row in another, this is called a _one-to-one_ relationship. If a single row in one entity is related to several rows in another, it’s a _many to one_ relationship.
 
-Relational data is most often associated with SQL, but there are other database standards which support relationships between entities.
+Relational data is most often associated with SQL, but there are other database standards that support relationships between entities.
 
-This is useful for all but the simplest of apps. For instance, you’ll need relationships for almost any tool which allows users to take different actions, based on their own attributes.
-
-![](https://lh4.googleusercontent.com/ONS4ouxws5p9lSGLI7H7lOmC6vWs8pYDq0f9mWqIKKAU3KslZQSB3AjfNi4kOSnE2DhUQEfyXQHNIoS6vjr6nC3hTlVYPQnhUuGEVVFBNjOYjtzxRFCKehvkaNkVYeHO8Xg41QguY7LLH-dBVw =624x351)
+![Many to one relationship](https://res.cloudinary.com/daog6scxm/image/upload/v1653316219/cms/Choosing_a_Data_Source_for_App_Projects_Header-7_cfphb2.png "Many to one relationship")
 
 Other types of data sources do not support relationships between data. These days, many of the most popular options fall under the NoSQL umbrella.
 
@@ -513,7 +511,7 @@ These are often summarized with the CRUD acronym:
 * Update.
 * Delete.
 
-Each of these can be built on, for example by adding filtering rules, join statements, or other conditions to your query.
+Each of these can be built on, for example by adding filtering rules, join statements or other conditions to your query.
 
 However, not all data sources use the CRUD framework to define queries. REST and SQL each have their own terminology to refer to these basic queries. With that in mind, let’s take a look at the four basic actions you can perform on app data.
 
@@ -523,7 +521,7 @@ Accessing data is the most basic kind of query. This is an instruction for the d
 
 In SQL, this means using the _SELECT_ command.
 
-You can access individual rows, columns, values, or entire tables. Depending on your app, you might display this information in tables, embedded in text, in cards, or any other UI component.
+You can access individual rows, columns, values, or entire tables. Depending on your app, you might display this information in tables, embedded in text, cards, or any other UI component.
 
 Alternatively, you might use a similar query to call a piece of data, so that you can apply a set process to it, without necessarily displaying it to users.
 
@@ -545,10 +543,10 @@ Let’s say your data source is still a list of customers’ email addresses. If
 
 There are a number of ways to furnish queries with data. The most common involve using:
 
-* **User provided data - Including form responses.**
-* **Secondary data sources - Passing data from one source to another.**
-* **System-created data - For example, logging timestamps, user information, and different app actions.**
-* **Formula data - Applying a set formula to values in existing entries, and creating a new row based on this.**
+* **User-provided data -** Including form responses.
+* **Secondary data sources -** Passing data from one source to another.
+* **System-created data -** For example, logging timestamps, user information, and different app actions.
+* **Formula data -** Applying a set formula to values in existing entries, and creating a new row based on this.
 
 In reality, you’ll often rely on a combination of the above for creating new database entries.
 
@@ -596,7 +594,7 @@ Building on these four basic actions, you can also create more complex queries. 
 
 You can also use queries to access information about the wider dataset. Say for example you had an order management system, that stores the value of each sale on your online store.
 
-User will likely need to quickly access a total for all these sales, broken down by day, week, month, or year. This is another kind of query.
+Users will likely need to quickly access a total for all these sales, broken down by day, week, month, or year. This is another kind of query.
 
 In SQL, you’d use the SUM command to achieve this. Similarly, you could use the COUNT function to return the number of rows that meet a certain condition, or AVG, to return the mean value.
 
@@ -629,13 +627,13 @@ Our query will include the columns we want to record data for, and instructions 
 
 In other words, we’d bind the form field to the corresponding column name in our query, to save the data. The same idea applies to both creating and updating records. Notice that so far we’ve only touched on how to populate our query with data.
 
-!\[\](https://lh6.googleusercontent.com/pzYxYFhBtmBaSgka7fojQTo08DdPPBX7_qlft_ZVjku8i0nngoooW4TwlyqVoCN6bhTnnGqEUw0vB7iZF4FTDoSg7FaCs8LLiUE6a_Y_THeWkv1nd6ix6MY-Xw2Op6ghesSiBkmOD5WYpVLqsQ =624x351.33365019011404)
+![Create forms for data sources](https://res.cloudinary.com/daog6scxm/image/upload/v1653315937/cms/Choosing_a_Data_Source_for_App_Projects_Header-8_yd0x59.png "Create forms for data sources")
 
 We still need to trigger the query. We’ll delve further into this shortly.
 
-We can also use forms as part of create and delete actions. Specifically, forms allow users to filter, search, and isolate specific entries in a data source.
+We can also use forms as part of _create_ and _delete_ actions. Specifically, forms allow users to filter, search, and isolate specific entries in a data source.
 
-Say you have a SQL table, with 10,000 entries, of all of your customers’ contact details. Only, most customer service agents don’t know SQL. Even if they did, they wouldn’t want to write a new query every time they need to lookup a phone number.
+Say you have a SQL table, with 10,000 entries, of all of your customers’ contact details. Only, most customer service agents don’t know SQL. Even if they did, they wouldn’t want to write a new query every time they need to look up a phone number.
 
 So, you’d build a search form UI, and bind the name column in your query to whatever the agent types into your form field. Then, we could simply trigger the query when the user hits the enter key.
 
@@ -701,11 +699,11 @@ We could also bind the customer’s existing information to any new order rows, 
 
 #### Why do you need bindings?
 
-You can think of bindings as a way of referring to values in different data sources, so that you can use them throughout your app. As you can probably tell from the examples above, this is useful in all kinds of situations.
+You can think of bindings as a way of referring to values in different data sources so that you can use them throughout your app. As you can probably tell from the examples above, this is useful in all kinds of situations.
 
-Most of the time, bindings use a short-hand, to make it easier to refer to a value in a particular location.
+Most of the time, bindings use a short hand, to make it easier to refer to a value in a particular location.
 
-In technical terms, there are countless benefits of doing this. These include making your code faster and more readable. Bindings also speed up to process of building apps, by eliminating the need to manually find and set values.
+In technical terms, there are countless benefits of doing this. These include making your code faster and more readable. Bindings also speed up the process of building apps, by eliminating the need to manually find and set values.
 
 Critically, binding values allows your UI to display real-time updates, based on the information users provide. Naturally, doing this in one form or another is crucial for almost any modern web application.
 
@@ -713,7 +711,7 @@ With bindings, you can also easily alter and manipulate data before passing it o
 
 #### How do you bind data?
 
-Unfortunately, as with many things, it depends. Different programming languages, app building tools, and frameworks have their own rules and syntax for binding variables to one another.
+Unfortunately, as with many things, it depends. Different programming languages, app-building tools, and frameworks have their own rules and syntax for binding variables to one another.
 
 When working with values stored in a database, you’ll need three pieces of information about a variable. These are its:
 
@@ -733,21 +731,16 @@ Noted that, in JavaScript, the index of the first item in an array is always 0, 
 
 To do the same with the order number of their most recent purchase, we’d need to know the number of orders they’ve made, to get the index of the last one. We could use the following code:
 
-_let i = $(“orders”).length - 1;_
-
-_return $(“orders.i.orderNumber”);_
+    let i = $(“orders”).length - 1;
+    return $(“orders.i.orderNumber”);
 
 Or we could calculate each customer’s lifetime value in a new column, with the following bindings:
 
-_let totalValue = 0_
-
-_for (i = 0, i < $(“orders”).length, i++){_
-
-_totalValue += $(“orders.i.price);_
-
-_}_
-
-_return totalValue;_
+    let totalValue = 0
+    for (i = 0, i < $(“orders”).length, i++){
+    totalValue += $(“orders.i.price);
+    }
+    return totalValue;
 
 We could use any of these binding expressions in our _customers_ table itself, or elsewhere in the UI. These are just a couple of examples to highlight the flexibility and ease of working with data bindings.
 
@@ -775,7 +768,7 @@ Data visualization isn’t so much concerned with viewing single values. Rather,
 
 You might want to group different rows by one attribute and compare the total values of another. For example, if you wanted to compare the performance of sales teams in different locations.
 
-![](https://lh3.googleusercontent.com/o2cABtQr_xRXGQ3kRvb4S4JZhUyEK0Fq9xXIWsxWXZnWiEIS0Qc-cpLzABWTxX28Dj7zj7Um_iUII4s7eyFDsC75pSym7DAjuQJr_LRt7ap8te16Btt8UXmlSkD-ELqm9muucPrjkuc3oNJDcg =624x351)
+![Data Visualization](https://res.cloudinary.com/daog6scxm/image/upload/v1653315787/cms/Choosing_a_Data_Source_for_App_Projects_Header-10_ckbzqj.png "Data Visualization")
 
 #### Why use bindings for visualization?
 
@@ -829,7 +822,7 @@ On the other hand, many tools would be pretty useless without existing data. Say
 
 Before the app can be used for its core purpose, you’ll either need to source this information from somewhere, or gather it yourself and populate your database.
 
-In reality, neither of these examples is likely to exclusively gather or process data..
+In reality, neither of these examples is likely to exclusively gather or process data.
 
 For our survey app, you’d obviously want to be able to process and analyze responses. For a fleet management tool, you’ll want your team to add new vehicles without getting under the hood of your database.
 
@@ -837,15 +830,15 @@ Rather, the distinction we want to highlight is whether or not the app can perfo
 
 ### Where to find data for your web app
 
-For many projects, it’s going to be preferable to ues an existing dataset, instead of gathering values from scratch.
+For many projects, it’s going to be preferable to use an existing dataset, instead of gathering values from scratch.
 
 Assuming that this is possible anyway.
 
 There are a number of reasons for this. For example:
 
-* **Building a dataset takes time. This adds excessive avoidable costs to your project.**
-* **Existing datasets help to ensure consistency across tools. When multiple platforms can manipulate a single dataset, there is less scope for redundancy and inconsistency.**
-* **Existing datasets facilitate integration. Building tools around existing data makes it easier to integrate different platforms, for fully streamlined workflows.**
+* **Building a dataset takes time.** This adds excessive avoidable costs to your project.
+* **Existing datasets help to ensure consistency across tools.** When multiple platforms can manipulate a single dataset, there is less scope for redundancy and inconsistency.
+* **Existing datasets facilitate integration.** Building tools around existing data makes it easier to integrate different platforms, for fully streamlined workflows.
 
 But where does this data come from?
 
@@ -862,7 +855,7 @@ Some of the most common sources of existing data include:
 
 Often, you’ll rely on some combination of these. For example, you might need to build an inventory management tool, after moving to a new SaaS ecommerce platform.
 
-In this case, you’d want to migrate your legacy data from your old IMS, to bring it forward to your new system. You’d then use your ecommerce platorm’s API or webhooks to populate your IMS with new data, to fulfil orders.
+In this case, you’d want to migrate your legacy data from your old IMS, to bring it forward to your new system. You’d then use your ecommerce platform's API or webhooks to populate your IMS with new data, to fulfill orders.
 
 ### Data storage
 
@@ -923,7 +916,7 @@ Local storage is also helpful for certain development tasks, including prototypi
 
 #### Hybrid options
 
-Then we have hybrid approaches. That is, a combination of some or all of the above. So you might store some data in the cloud, some on your own infrastructure, and some on users’ machines.
+Then we have hybrid approaches. That is a combination of some or all of the above. So you might store some data in the cloud, some on your own infrastructure, and some on users’ machines.
 
 This could be backups of the same data, or it could mean storing entirely different data sources in different locations.
 
@@ -949,7 +942,7 @@ In other words, you can think of this as your own business data.
 
 This includes anything that you don’t have to rely on a third party, like an external platform, or a public database to acquire data.
 
-As such, internal data sources are primarily used for apps that gather, process, or display your internal business data.
+As such, internal data sources are primarily used for apps that gather, process or display your internal business data.
 
 In the context of web apps, you’ll also encounter the term _internal database_. This is a database that’s literally internal to the app itself. This might mean one of two things:
 
@@ -964,7 +957,7 @@ As the name suggests, external data sources are generated outside of your organi
 
 Often, this is data that you need for your app, that you simply can’t source internally. For example, you might need to draw on wholesale price data for a manufacturing resource planning tool. You might access this from suppliers via an API or web service.
 
-Or, you might want to build an app to add a specific functionality to an external tool. For instance, adding an escalation workflow to your lead generation platform. We’d need to connect to data that’s external to our app for this to work.
+Or, you might want to build an app to add specific functionality to an external tool. For instance, adding an escalation workflow to your lead generation platform. We’d need to connect to data that’s external to our app for this to work.
 
 External data sources can present challenges that you won’t encounter when working solely with internal data. These include reliability, consistency, and flexibility issues.
 
@@ -982,13 +975,13 @@ With that in mind, let’s look in more detail at some of the most common types 
 
 The first task is actually connecting your app to the external data source. There are a number of ways to do this. You could manually configure this in your source code, by pointing to the location of your data source, along with its URI, type, and any credentials you need.
 
-That is of course, assuming that you know how to do this.
+That is, of course, assuming that you know how to do this.
 
 To simplify this process, you can also use a dedicated data connector.
 
 #### What is a data connector?
 
-A data connector is a feature of many app building tools, that makes it easier to connect to a specific type of data source. The idea is that you can simply input key information in the app builder’s UI, rather than manually configuring the connection.
+A data connector is a feature of many app-building tools, that makes it easier to connect to a specific type of data source. The idea is that you can simply input key information in the app builder’s UI, rather than manually configuring the connection.
 
 This includes the data source:
 
@@ -1022,7 +1015,7 @@ For Postgres, you’ll also need to provide information about the database schem
 
 It’s important to note that if your SQL database is hosted in the cloud, you’ll need to whitelist your IP address or the IP address of whichever app builder tool you’re using.
 
-![](https://lh4.googleusercontent.com/zrlZAFwfZzFygMVcDXEr6ZFEWAbRl-KO3e2rB_Pw_sMQVn3-xgoCG3-VVGHL_u5ykPNgQ8JCkz7vnuLgmtgw3AtCy8CySZtsuAS6o2n3bKHHJZ0eylmV5lKQo0zfsH90HLaOfM4JKORcO1DLCQ =624x391)
+![Conenct to Postgres](https://res.cloudinary.com/daog6scxm/image/upload/v1653315696/cms/Connect_to_Postgres_heaoo5.png "Connect to Postgres")
 
 ##### SQL data source use cases
 
@@ -1042,10 +1035,10 @@ It’s worth noting that REST sources use their own terminology for different qu
 
 The types of REST requests you can send to and from your app are:
 
-* **Get - To request data.**
-* **Post - To send new data to the data source.**
-* **Put and Post - To update existing values.**
-* **Delete - To remove existing values.**
+* **Get -** To request data.
+* **Post -** To send new data to the data source.
+* **Put and Post -** To update existing values.
+* **Delete -** To remove existing values.
 
 Note that a specific API might only allow you to make some of these requests. For example, if you’re working with a publicly available data source, you might only be able to send _GET_ requests, while the others may be reserved for the controller themself.
 
