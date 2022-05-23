@@ -14,7 +14,7 @@ However, accomplishing this can be a challenge, especially for inexperienced dev
 
 Today we’re going to look at two methods key methods for integrating databases, as well as how Budibase can make life easier along the way.
 
-First though, we’ll start with the basics.
+First, though, we’ll start with the basics.
 
 ## What is database integration?
 
