@@ -24,7 +24,7 @@ fields:
   type: file
   config:
     maxSize: 64
-  label: image
+  label: blog post title image
 - name: images
   type: image_gallery
   config: {}
