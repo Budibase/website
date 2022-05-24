@@ -232,7 +232,7 @@ Now that we have a firmer understanding of what each framework is, we can start 
 
 As we noted earlier, both systems are effective ways to protect data and create efficient, user-friendly applications.
 
-We've also created an in-depth guide on [data access control](budibase.com/blog/app-building/data-access-control).
+We've also created an in-depth guide on [data access control](https://budibase.com/blog/app-building/data-access-control/).
 
 The differences largely relate to how each system is maintained, implemented, and administered, as well as the business-level impact of this.
 
@@ -246,7 +246,7 @@ Beyond this, creating a rule-based system is a much more involved and time-consu
 
 Then, there’s the time spent creating and testing any rules based on these.
 
-While role-based systems still require a certain amount of up-front work, this is a much less laborious process. Check out our ultimate guide to [role-based access control](budibase..com/blog/app-building/role-based-access-control) to find out more about how this works.
+While role-based systems still require a certain amount of up-front work, this is a much less laborious process. Check out our ultimate guide to [role-based access control](https://budibase.com/blog/app-building/role-based-access-control/) to find out more about how this works.
 
 Of course, in either case, the amount of time you’ll spend on the initial configuration is directly related to the complexity of the system itself.
 
@@ -328,6 +328,6 @@ Budibase offers streamlined, efficient role-based access control, with four pre-
 
 Apply conditionality rules to any UI element to introduce other contextual factors to how users interact with your app. Limit users to data they’ve created themselves, or restrict access to different resources depending on the device they’re using.
 
-Check out our free guide to find out more about [how to implement RBAC](budibase.com/blog/app-building/how-to-implement-rbac) in Budibase.
+Check out our free guide to find out more about [how to implement RBAC](https://budibase.com/blog/app-building/how-to-implement-rbac/) in Budibase.
 
 Sign up today for free to start building intuitive low-code tools, with an intuitive, flexible RBAC system.
