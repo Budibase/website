@@ -3,6 +3,7 @@ author = "Ronan McQuillan"
 date = 2022-05-22T23:00:00Z
 description = "A database schema is a blueprint for how data is organized and structured. Our guide explains everything you need to know."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1653318045/cms/What_is_database_schema_header_xhuznt.png"
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1653318045/cms/What_is_database_schema_header_xhuznt.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "What is a Database Schema?"
 
