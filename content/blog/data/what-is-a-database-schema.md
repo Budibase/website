@@ -54,7 +54,7 @@ Note that this works a bit differently in NoSQL databases. We’ll dive into thi
 
 The first thing to do when creating a schema is to outline your database tables.
 
-Each table should represent a single _entity_. The columns represent the different _attributes_ that this entity can have, while the rows represent individual instances. So for example, say you have a table for all of your employees as part of a company directory app.
+Each table should represent a single _entity_. The columns represent the different _attributes_ that this entity can have, while the rows represent individual instances. So for example, say you have a table for all of your employees as part of a [company directory app](https://budibase.com/business-apps/templates/employee-directory-template/).
 
 The columns will be made up of all the information you want to store about each individual employee, like their name, job, address, and phone number. The rows in the table are then used to populate this information, for specific members of your team.
 
@@ -368,6 +368,8 @@ Here are some examples of how schemas operate in different DBMSs.
 
 In a SQL database, the schema is made up of an unlimited number of _objects_. Objects here refer to tables, views, functions, and indexes. We can create a single schema that’s used across multiple databases.
 
+Take a look at our article on [how to integrate multiple databases](budibase.com/blog/data/how-to-integrate-multiple-databases).
+
 Objects can also be transferred between different schemas.
 
 We can define a schema in SQL using the _CREATE SCHEMA_ command, to give it a name, and define any database objects within it. Alternatively, SQL treats _DATABASE_ and _SCHEMA_ synonymously, so we can also use _CREATE DATABASE._
@@ -451,6 +453,8 @@ Or, use our platform to query and manage existing datasets.
 
 We also offer dedicated data connectors for REST API and Google Sheets.
 
+Take a look at our ultimate guide to [data sources](budibase.com/blog/data/data-sources) for web app projects.
+
 ![External database connectors](https://res.cloudinary.com/daog6scxm/image/upload/v1653318127/cms/External_Data_Connectors_kszh1s.png "External database connectors")
 
 ## Start using Budibase
@@ -458,5 +462,7 @@ We also offer dedicated data connectors for REST API and Google Sheets.
 Our users choose Budibase for fast, cost-effective builds, and unrivaled flexibility. Build your data layer, create professional UIs, and deploy finished apps, in minutes.
 
 Use BudibaseDB to quickly build an adaptable database schema or query eternal databases with our range of connectors.
+
+You might also enjoy our guide on [how to create a data model](budibase.com/blog/data/how-to-create-a-data-model).
 
 Start using Budibase today, for free.
