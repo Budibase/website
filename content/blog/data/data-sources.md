@@ -299,7 +299,7 @@ This becomes a problem when manipulating temporal data across multiple data sour
 
 ## Creating a data model for your web application
 
-For even the simplest of web apps, defining an effective data model is critical. The choices you make in terms of your data models and data sources are highly related, and often intersubjective. That is each one influences the other.
+For even the simplest of web apps, [creating a data model]( blog/data/how-to-create-a-data-model) is critical. The choices you make in terms of your data models and data sources are highly related, and often intersubjective. That is each one influences the other.
 
 If you build a data source from scratch, you’ll also need to define a data model that suits your business needs. If you rely on existing data sources, you’ll need to ensure that they fit your wider data model.
 
@@ -452,7 +452,7 @@ Let’s look in more detail at what this should include.
 
 As we touched on previously, the schema contains the names, types, and rules associated with all objects and their fields. For example, certain fields may be required to be unique, not empty, or have some other constraints placed on them, like default values.
 
-Additionally, your schema should map out the relationships between different entities. There are several different models which can be used to do this. Check out our article on database schemas for more information.
+Additionally, your schema should map out the relationships between different entities. There are several different models which can be used to do this. Check out our article on [database schemas](blog/data/what-is-a-database-schema) for more information.
 
 ## Data sources and relationships
 
@@ -621,7 +621,7 @@ We can display data by binding the output of a particular query to tables, chart
 
 ##### Forms
 
-Remember that to create or update rows, we need to furnish our query with the values we want to store. Forms are the perfect way to do this using user-provided data. In the most basic terms, this means creating a query and tying each value to a form field.
+Remember that to create or update rows, we need to furnish our query with the values we want to store. [Forms](https://budibase.com/forms) are the perfect way to do this using user-provided data. In the most basic terms, this means creating a query and tying each value to a form field.
 
 Our query will include the columns we want to record data for, and instructions for which form field to use for each of the values.
 
@@ -1167,8 +1167,8 @@ These vary in how easily understood they are by both users and systems. Common d
 
 * **Date strings -** such as 01/01/2000 or January 1 2000.
 * ISO8601 dates - ie 20000101T000000Z.
-* **Numerical dates -** the number of milliseconds since January 1st 1970**.**
-* **Proprietary formats -** some variation of the above, used by a specific system**.**
+* **Numerical dates -__ the number of milliseconds since January 1st 1970**.**
+* **Proprietary formats -__ some variation of the above, used by a specific system**.**
 
 Within each of these formats, there can also be variations. For example, inclusion or deletion of times-of-day, the stipulation of timezones, or local conventions for ordering the day, month, and year.
 
@@ -1238,7 +1238,7 @@ Arguably, the best thing you can do is to thoroughly vet data sources before inv
 
 Obviously, if multiple sources exist, you want to opt for the one with the best record on both. Of course, this isn’t always possible.
 
-There are a number of other steps you can take to mitigate these issues. Once again, you can check out our in-depth guide to working with multiple data sources to find out more.
+There are a number of other steps you can take to mitigate these issues. Once again, you can check out our in-depth guide on [how to integrate multiple data sources](blog/data/how-to-integrate-multiple-databases) to find out more.
 
 ## Data management challenges
 
@@ -1421,7 +1421,7 @@ Budibase offers built-in connections for a range of external data sources, inclu
 * Airtable.
 * And more.
 
-Each of these has its own unique connection process. You can check out our docs to find out more.
+Each of these has its own unique connection process. You can [check out our docs ](https://docs.budibase.com/)to find out more.
 
 ### 5. Defining queries and transformations
 
