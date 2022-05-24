@@ -282,7 +282,7 @@ Nowadays, RBAC and ABAC are the two dominant access control systems. Remember, A
 
 Obviously, this means that ABAC can offer a higher degree of granularity.
 
-Take a look at our dedicated guide to the [differences between rule-based and role-based access control](budibase.com/blog/app-building/difference-between-rule-based-role-based-access-control) to learn more.
+Take a look at our dedicated guide to the [differences between rule-based and role-based access control](https://budibase.com/blog/app-building/difference-between-rule-based-role-based-access-control/) to learn more.
 
 So, if we return to our previous example, where we had an RBAC system with distinct roles for _administrators_ and _managers_, how would this look in ABAC?
 
@@ -378,7 +378,7 @@ Now that we have a firm grasp of what RBAC is, when it’s used, and the benefit
 
 Luckily, we can follow reproducible steps here to ensure the best outcome.
 
-We've also created a dedicated guide on [how to implement RBAC](budibase.com/blog/app-building/how-to-implement-rbac).
+We've also created a dedicated guide on [how to implement RBAC](https://budibase.com/blog/app-building/how-to-implement-rbac/).
 
 Designing an effective role-based access control system is equal parts operational and technical. That is, the goal is to create a system that maximizes efficiency within your workflows, but there are also technical considerations to achieving this.
 
@@ -507,7 +507,7 @@ At the data level, we can build dedicated queries for each role’s permissions.
 
 We’d then give managers and finance team users access to a similar query, without the where clause at the end.
 
-Check out our guide to [data access control](budibase.com/blog/app-building/data-access-control) to find out more.
+Check out our guide to [data access control](https://budibase.com/blog/app-building/data-access-control/) to find out more.
 
 Alternatively, we could create a single read query, and implement our RBAC system at a UI level. One way to do this would be to create dedicated listings screens for the different sets of submissions that each role can access.
 
