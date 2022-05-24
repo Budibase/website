@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-05-22T23:00:00Z
 description = "Check out our in-depth guide to learn how to integrate multiple databases, for all kinds of app projects."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1653320833/cms/How_to_Integrate_Multiple_Databases_header_d3qyyj.png"
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "How to Integrate Multiple Databases in a Web App"
