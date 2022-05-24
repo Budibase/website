@@ -76,7 +76,7 @@ Data access control is also an important tool for maximizing efficiency across d
 
 At the level of applications, this helps to ensure that user interfaces are as streamlined and effective as possible. At the database level, it helps to minimize labor costs stemming from unnecessary errors, security breaches, and administration tasks.
 
-Additionally, different access control methods offer extra efficiency savings, particularly in terms of assigning and administering permissions. Check out our ultimate guide to role-based access control to find out more.
+Additionally, different access control methods offer extra efficiency savings, particularly in terms of assigning and administering permissions. Check out our ultimate guide to [role-based access control](budibase.com/blog/app-building/role-based-access-control) to find out more.
 
 ![Data access control vailidity](https://res.cloudinary.com/daog6scxm/image/upload/v1653387372/cms/Validity_fbz48q.png "Data access control validity")
 
@@ -109,7 +109,7 @@ Generally speaking, there are two ways to go about this:
 * Assigning entities a defined role, with set permissions.
 * Creating conditions to assign permissions to entities, based on their existing attributes.
 
-These are the two most common ways of assigning user permissions within applications. To find out more about these frameworks, check out our guide on the differences between rule-based and role-based access control.
+These are the two most common ways of assigning user permissions within applications. To find out more about these frameworks, check out our guide on [the differences between rule-based and role-based access control](budibase.com/blog/app-building/difference-between-rule-based-role-based-access-control).
 
 These models use existing organizational structures as the basis for determining permissions to different entities. For example, you might grant access to different employees based on their job title, department, or seniority.
 
@@ -125,7 +125,7 @@ Of course, one side effect of this is that any user who can access the applicati
 
 We can work around this problem in a couple of ways. One would be to strictly control who can access the application, through authentication and identity management tools.
 
-Alternatively, we could implement role-based access control within the application itself, to more tightly control which users can carry out different queries on the affected dataset.
+Alternatively, we could [implement RBAC](budibase.com/blog/app-building/how-to-implement-rbac) within the application itself, to more tightly control which users can carry out different queries on the affected dataset.
 
 ### Context-centric methods
 
@@ -133,7 +133,7 @@ Finally, context-centric methods are based on the context of how data is accesse
 
 For example, you might restrict the ability to export large volumes of data to certain times of day, to prevent large-scale breaches.
 
-We could also restrict the ability to perform different actions on specific database objects, based on their current stage in a given workflow. For instance, we could create an approval request system for accessing different pieces of data.
+We could also restrict the ability to perform different actions on specific database objects, based on their current stage in a given workflow. For instance, we could create an [approval app](https://budibase.com/approval-apps) for accessing different pieces of data.
 
 Rather than acting as the basis for your complete data access control system, context-centric methods are typically used to combat specific risks.
 
