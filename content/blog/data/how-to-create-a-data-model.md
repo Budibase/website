@@ -57,7 +57,7 @@ Essentially, gathering requirements means figuring out what your app will actual
 
 This means engaging with different business stakeholders, including end-users, decision-makers, clients, and technical colleagues, to establish an overview of the app’s required functionality.
 
-For example, if we were building an employee timesheet app, our high-level requirements would look something like this:
+For example, if we were building an [employee timesheet app,](https://budibase.com/professional-services/templates/employee-timesheet-template/) our high-level requirements would look something like this:
 
 * Employees should be able to log hours against different projects.
 * Project owners should be able to monitor time usage.
@@ -129,9 +129,8 @@ Each column will represent a specific _attribute_ we want to store for each of o
 
 If you decide that you need to create a new database for your application, this will form part of your schema. If you’re going to rely on existing data, you’ll need to take this into account when choosing your sources.
 
-Check out our in-depth guide, _what is a database schema_, to find out more.
+Check out our in-depth guide, [_what is a database schema_](blog/data/what-is-a-database-schema), to find out more.
 
-  
 ![table in a data model](https://res.cloudinary.com/daog6scxm/image/upload/v1653319835/cms/Attributes_demgxx.png "Data model table")
 
 ### 5. Identify data sources
@@ -148,7 +147,6 @@ This can include:
 
 Note that these are the main sources of existing data that we can use. We can also add or update values within them by sending queries from our finished app.
 
-  
 ![External data connectors](https://res.cloudinary.com/daog6scxm/image/upload/v1653319798/cms/External_Data_Connectors_objpgk.png "External data connectors")
 
 One of the key tasks here is deciding whether to create entirely new data sources or to rely on existing ones. Of course, we can build our data model around a combination of both.
@@ -168,6 +166,8 @@ That is, assuming that a suitable database exists. Naturally, this saves us goin
 The downside is that the schemas of existing databases might not match our needs. In this case, we’d need to transform query outputs to format the data in a way that meets our requirements.
 
 Often, we’ll need to do a combination of the two. So, in our timesheet app, we might pull employee details and project information from external sources, but create an internal database to store user inputs for timesheet submissions.
+
+We've also created a guide on [how to integrate multiple databases](budibase.com/blog/data/how-to-integrate-multiple-databases).
 
 ### 6. Establish relationships between entities
 
@@ -269,5 +269,7 @@ We offer dedicated connectors for most common external data sources, including:
 Our built-in database offers a simple, intuitive way to create a bespoke structure for your data. BudibaseDB features relational data, extensive support for multiple data types, direct CSV imports, and more.
 
 Build entities, create attributes, assign values, and link tables, all at the click of a button. With BudibaseDB, it’s easy to create and maintain the perfect data model for your app, with minimal coding skills.
+
+Check out our ultimate guide to web app [data sources](budibase.com/blog/data/data-sources).
 
 Sign up now to get started with Budibase, for free.
