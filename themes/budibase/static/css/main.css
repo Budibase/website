@@ -1845,6 +1845,13 @@ margin-left: 0rem;
   border-bottom: 3px solid white;
 }
 
+
+.components-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
 /* Footer */
 .list-group {
   list-style: none;
