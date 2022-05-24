@@ -298,7 +298,7 @@ This becomes a problem when manipulating temporal data across multiple data sour
 
 ## Creating a data model for your web application
 
-For even the simplest of web apps, [creating a data model]( blog/data/how-to-create-a-data-model) is critical. The choices you make in terms of your data models and data sources are highly related, and often intersubjective. That is each one influences the other.
+For even the simplest of web apps, [creating a data model](blog/data/how-to-create-a-data-model) is critical. The choices you make in terms of your data models and data sources are highly related, and often intersubjective. That is each one influences the other.
 
 If you build a data source from scratch, you’ll also need to define a data model that suits your business needs. If you rely on existing data sources, you’ll need to ensure that they fit your wider data model.
 
@@ -1165,9 +1165,9 @@ Dates are a helpful example here, as there are a large number of different forma
 These vary in how easily understood they are by both users and systems. Common date formats include:
 
 * **Date strings -** such as 01/01/2000 or January 1 2000.
-* ISO8601 dates - ie 20000101T000000Z.
-* **Numerical dates -__ the number of milliseconds since January 1st 1970**.**
-* **Proprietary formats -__ some variation of the above, used by a specific system**.**
+* **ISO8601 dates -** ie 20000101T000000Z.
+* **Numerical dates -** the number of milliseconds since January 1st 1970.
+* **Proprietary formats -** some variation of the above, used by a specific system.
 
 Within each of these formats, there can also be variations. For example, inclusion or deletion of times-of-day, the stipulation of timezones, or local conventions for ordering the day, month, and year.
 
