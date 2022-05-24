@@ -27,6 +27,7 @@ fields:
   label: image
 pages:
 - content/blog/20-free-app-templates/index.md
+- content/blog/app-building/role-based-access-control-ultimate-guide.md
 - content/blog/avoid-vendor-lock-in/index.md
 - content/blog/building-a-dashboard-with-budibase-and-grafana.md
 - content/blog/data/data-sources.md
