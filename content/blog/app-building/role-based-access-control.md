@@ -52,7 +52,7 @@ Let’s look at a few of the standards that are most widely used today.
 
 Role-based access control involves assigning permissions to users, based on their role within your organization. In practice, this means grouping your users into different categories, based on the data and functionality they require.
 
-So, if you had an online complaints tool, you might need three distinct roles, so that:
+So, if you had an online [complaints record](https://budibase.com/business-apps/templates/complaints-record-template/) tool, you might need three distinct roles, so that:
 
 * Customers can submit complaints or view and manage their own previous submissions.
 * Service agents can view and respond to all complaints.
@@ -283,6 +283,8 @@ Nowadays, RBAC and ABAC are the two dominant access control systems. Remember, A
 
 Obviously, this means that ABAC can offer a higher degree of granularity.
 
+Take a look at our dedicated guide to the [differences between rule-based and role-based access control](budibase.com/blog/app-building/difference-between-rule-based-role-based-access-control) to learn more.
+
 So, if we return to our previous example, where we had an RBAC system with distinct roles for _administrators_ and _managers_, how would this look in ABAC?
 
 The first thing to note is that we could use individual users’ _job role_ attributes to achieve a similar result to our RBAC system. The difference is that we could also add additional attributes to the mix, to create a more detailed system.
@@ -311,7 +313,7 @@ As such, one rule of thumb is that role-based access control is generally prefer
 
 So far, we’ve mainly covered the theory behind role-based access control. Before we move on to how you can implement an RBAC system, let’s take a look at a few real-world examples.
 
-One classic example would be a simple internal tool, like an employee directory.
+One classic example would be a simple internal tool, like an [employee directory](https://budibase.com/business-apps/templates/employee-directory-template/).
 
 Say this is built around a database with two tables, for employees and users, joined by a one-to-one relationship.
 
@@ -376,6 +378,8 @@ On the one hand, this is crucial for maintaining a secure and efficient applicat
 Now that we have a firm grasp of what RBAC is, when it’s used, and the benefits it offers, we can start to think about the practical side of creating a role-based system.
 
 Luckily, we can follow reproducible steps here to ensure the best outcome.
+
+We've also created a dedicated guide on [how to implement RBAC](budibase.com/blog/app-building/how-to-implement-rbac).
 
 Designing an effective role-based access control system is equal parts operational and technical. That is, the goal is to create a system that maximizes efficiency within your workflows, but there are also technical considerations to achieving this.
 
@@ -504,9 +508,11 @@ At the data level, we can build dedicated queries for each role’s permissions.
 
 We’d then give managers and finance team users access to a similar query, without the where clause at the end.
 
+Check out our guide to [data access control](budibase.com/blog/app-building/data-access-control) to find out more.
+
 Alternatively, we could create a single read query, and implement our RBAC system at a UI level. One way to do this would be to create dedicated listings screens for the different sets of submissions that each role can access.
 
-Or, we could use conditionality rules on specific UI elements, to enforce our RBAC rules on a single screen. So, our invoice submission tool’s home screen might be based around a table for existing entries.
+Or, we could use conditionality rules on specific UI elements, to enforce our RBAC rules on a single screen. So, our [invoice submission tool’s](https://budibase.com/approval-apps/templates/invoice-approval-software/) home screen might be based around a table for existing entries.
 
 We could apply a condition to this table so that the data is filtered to only show entries created by the current user if they have a **basic** role. The downside with this approach is of course that we’d have to apply similar conditions to any other relevant UI component.
 
