@@ -11,7 +11,7 @@ Knowing how to implement RBAC is a crucial skill for building modern web applica
 
 In short, RBAC, or _role-based access control_, is a framework built around defined roles, each with associate permissions. Users are then assigned to one of these roles, to determine which actions they can take within your app.
 
-For a more in-depth explanation, check out our [ultimate guide to role-based access control](budibase.com/blog/app-building/role-based-access-control).
+For a more in-depth explanation, check out our [ultimate guide to role-based access control](budibase.com/blog/app-building/role-based-access-control). 
 
 Today though, we’re looking at the specifics of how you can put this into practice in your next app project.
 
