@@ -9,13 +9,13 @@ title = "Data Sources for App Projects | Ultimate Guide"
 +++
 When building a web app, your choice of data source is critical. Deciding how and where to store, access, and manipulate data is fundamental to every successful app project. Today, we’ll be looking at everything you need to know to get this decision right.
 
-We’ll start with the basics, including what a data source is, the different ways web apps access data, and how this fits into your wider app architecture. 
+We’ll start with the basics, including what a data source is, the different ways web apps access data, and how this fits into your wider app architecture.
 
 Then, we’ll move on to some of the theory, including key terminology, before covering more specific technical considerations for common app data sources.
 
 Finally, we’ll look at the key use cases and business challenges you can solve using different data standards, and how Budibase is leading the charge in simplifying the app-building process.
 
-Let’s start with the basics.
+Let’s start with the basics. 
 
 ## What is a data source?
 
