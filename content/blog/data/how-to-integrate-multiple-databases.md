@@ -84,6 +84,8 @@ Let’s look at a couple of different scenarios, and how they differ.
 
 If you have several databases in different locations, but which share a single schema, consolidation is relatively straightforward. For instance, if different users all have local versions of the same data set.
 
+Check out our article on [databases schemas](budibase.com/blog/data/what-is-a-database-schema) to find out more.
+
 Essentially, all we need to do in this case is create a master database that matches the existing schema, and import all of the values from the local versions.
 
 Depending on the DBMS you use for your new database, this can be done with direct file uploads, automated queries, or even manual data entry. Which of these methods you choose will depend largely on the scale and complexity of the datasets you’re working with.
@@ -132,7 +134,7 @@ This could stem from decisions made by the original database owner, or from the 
 
 For example, different databases might handle strings or numerical data differently. This will cause difficulty when trying to manipulate values.
 
-The key here is effectively transforming existing data to meet your new database schema. The specifics here will vary largely from project to project. Check out our ultimate guide to application data sources to find out more about transformations.
+The key here is effectively transforming existing data to meet your new database schema. The specifics here will vary largely from project to project. Check out our ultimate guide to application [data sources](budibase.com/blog/data/data-sources) to find out more about transformations.
 
 #### Dealing with duplication and discrepancies
 
@@ -154,7 +156,7 @@ In other cases, things can be a little bit more straightforward. Some integratio
 
 This would be relatively simple, as you might not need to substantially change the relationships for the majority of your entities.
 
-In other cases, defining relationships between entities will be more complex. We’ve created a dedicated guide to how to create a data model, which you can check out to find out more.
+In other cases, defining relationships between entities will be more complex. We’ve created a dedicated guide to [how to create a data model](budibase.com/blog/data/how-to-create-a-data-model), which you can check out to find out more.
 
 #### Storage, hosting, and access
 
@@ -367,4 +369,4 @@ We don’t necessarily want to alter the schema of our existing databases. After
 
 In Budibase, you can create custom queries to perform transformations, or you can use custom JavaScript when binding any value while creating your automations.
 
-Check out our ultimate guide to web app data sources for more information on transformations, and how they can be used when working with multiple databases.
+Check out our ultimate guide to [web app data sources](budibase.com/blog/data/data-sources) for more information on transformations, and how they can be used when working with multiple databases.
