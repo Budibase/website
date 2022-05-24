@@ -129,7 +129,7 @@ Each column will represent a specific _attribute_ we want to store for each of o
 
 If you decide that you need to create a new database for your application, this will form part of your schema. If you’re going to rely on existing data, you’ll need to take this into account when choosing your sources.
 
-Check out our in-depth guide, [_what is a database schema_](blog/data/what-is-a-database-schema), to find out more.
+Check out our in-depth guide, [what is a database schema](blog/data/what-is-a-database-schema), to find out more.
 
 ![table in a data model](https://res.cloudinary.com/daog6scxm/image/upload/v1653319835/cms/Attributes_demgxx.png "Data model table")
 
