@@ -12,7 +12,7 @@ Knowing how to implement RBAC is a crucial skill for building modern web applica
 
 In short, RBAC, or _role-based access control_, is a framework built around defined roles, each with associate permissions. Users are then assigned to one of these roles, to determine which actions they can take within your app.
 
-For a more in-depth explanation, check out our ultimate guide to role-based access control.
+For a more in-depth explanation, check out our [ultimate guide to role-based access control](budibase.com/blog/app-building/role-based-access-control).
 
 Today though, we’re looking at the specifics of how you can put this into practice in your next app project.
 
@@ -44,6 +44,8 @@ So for example, you might be replacing a legacy system with a more modern soluti
 Despite this, you might determine that your admin team can access data that they don’t need. For example, they only need certain elements of your customers’ information, but not their full personal details.
 
 The overall goal here is to take each of the resources you identified and relate these to the kinds of users who interact with them so that you can achieve the ideal balance of security and accessibility.
+
+Check out our guide to the [differences between rule-based and role-based access control](budibase.com/blog/app-building/difference-between-rule-based-role-based-access-control).
 
 ![Defining Roles](https://res.cloudinary.com/daog6scxm/image/upload/v1653386624/cms/How_to_Implement_RBAC-2_vaecmv.gif "Defining Roles")
 
@@ -95,7 +97,7 @@ There are two ways to go about this:
 1. Restricting all _read_ or _write_ permissions to specific roles for individual data sources.
 2. Creating custom queries, and assigning them to a specific role.
 
-We’ve created a dedicated guide to data access control, which you can check out to learn more.
+We’ve created a dedicated guide to [data access control](budibase.com/blog/app-building/data-access-control), which you can check out to learn more.
 
 This is a useful way to provide blanket permissions to resources, as restrictions will apply across your entire application. An obvious use case would be if you know that certain groups will _never_ need to access particular data sets or tables.
 
@@ -127,7 +129,7 @@ This is an effective, easy way to provide a streamlined UX for each role. Users 
 
 However, this type of RBAC implementation also poses its own challenges, especially if you have multiple roles with different permissions on the same datasets.
 
-Let’s return to our device rental app example to illustrate this.
+Let’s return to our [equipment checkout form](https://budibase.com/forms/templates/employee-equipment-checkout-form/) example to illustrate this.
 
 Remember our basic users can _read_ or _update_ rental requests that they’ve made themselves. They can also read certain attributes from the device management data, say item descriptions, but not others, like service or demand information.
 
