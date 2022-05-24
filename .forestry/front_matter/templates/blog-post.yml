@@ -28,6 +28,7 @@ fields:
 pages:
 - content/blog/20-free-app-templates/index.md
 - content/blog/app-building/difference-between-rule-based-role-based-access-control.md
+- content/blog/app-building/how-to-implement-rbac.md
 - content/blog/app-building/role-based-access-control.md
 - content/blog/avoid-vendor-lock-in/index.md
 - content/blog/building-a-dashboard-with-budibase-and-grafana.md
