@@ -2143,6 +2143,10 @@ margin-left: 0rem;
     flex-direction: column;
 }
 
+.pricing-definition {
+  max-width: 700px;
+}
+
 .pricing-title {
   display: flex;
   align-items: baseline;
