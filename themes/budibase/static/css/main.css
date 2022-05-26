@@ -2229,33 +2229,41 @@ border-radius: 16px;
   border-bottom: 1px solid var(--gray300);
   padding-bottom: 7px;
   padding-right: 15px;
+  padding-left: 0 !important;
   vertical-align: bottom;
+  margin-top: 20px;
 }
 
 .pricing-grid-row {
   border-bottom: 1px solid var(--border-color-regular);
   padding: 0.5em 20px 0.5em 0;
   vertical-align: top;
-  color: #00000099;
+  color: #00000090;
 }
 
-.pricing-row-laebl {
+.pricing-row-label {
   border-bottom: 1px solid var(--border-color-regular);
   padding: 0.5em 20px 0.5em 0;
   vertical-align: top;
-  color: #00000099;
+  color: #000000;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
 }
 
 .pricing-section-label {
-  width: 320px;
+  width: 400px;
   font-weight: 600;
   letter-spacing: 0.001em;
-  min-width: 200px;
+  padding-left: 0 !important;
 }
 
 .plan-label {
-  width: 280px;
-  font-weight: 400;
+  width: auto;
+  min-width: 300px;
+  font-weight: 600;
   letter-spacing: 0.001em;
   color: black;
 }
@@ -11333,7 +11341,8 @@ table{
 
 th, td {
   border: 1px solid var(--gray500);
-  padding: var(--space-2);
+  padding-bottom: 12px;
+  margin: 0 1rem;
 }
 
 .integrations-row {
