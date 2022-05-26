@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-<div class="container-7 space-hero">
+<div class="container-7 space-1">
   <a href="/" title="Return to Budibase homepage"><img src="/img/logo/budibase-icon.svg" class="u-avatar mb-4"/></a>
   <h1 class="mb-2 h2">Contact Sales</h1>
   <p class="mb-4">Please complete the form below and we will respond as soon as possible. </p>
@@ -59,7 +59,7 @@
 
             <!-- Input -->
             <p class="mb-2 detail text-gray font-weight-medium">Company size</p>
-            <div class="col-sm-12 mb-6">
+            <div class="col-sm-12 mb-4">
               <div class="js-form-message ">
                 <div class="js-focus-state input-group form">
                   <select class="form-control custom-select" 
@@ -80,8 +80,32 @@
               </div>
             </div>
           <!-- End Input -->
+
+          <!-- Input -->
+          <p class="mb-2 detail text-gray font-weight-medium">Topic of enquiry</p>
+          <div class="col-sm-12 mb-5">
+            <div class="js-form-message ">
+              <div class="js-focus-state input-group form">
+                <select class="form-control custom-select" 
+                        type="select" 
+                        name="company size" 
+                        required
+                        aria-label="Your company size"
+                        data-msg="Please enter your company size."
+                        data-error-class="u-has-error"
+                        data-success-class="u-has-success">
+                        <option value="Enterprise enquiry">Pricing </option>
+                        <option value="Enterprise enquiry">Support </option>
+                        <option value="Enterprise enquiry">Enterprise plan</option>
+                        <option value="Add-ons enquiry">Add-ons </option>
+                        <option value="Partnership opportunity<">Partnership </option>
+                  </select>
+              </div>
+            </div>
+          </div>
+        <!-- End Input -->
       
-          <button type="submit" class="btn btn-cta btn-lg btn-wide mb-4">Submit</button>
+          <button type="submit" class="btn btn-cta btn-lg mb-4">Submit form</button>
       </form>
     </div>
   </div>

@@ -251,6 +251,10 @@ table td{
   font-size: var(--fontsize-3);
 }
 
+.text-xxs {
+  font-size: var(--fontsize-2);
+}
+
 
 .text-indigo {
   color: var(--indigo600);
