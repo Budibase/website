@@ -2114,13 +2114,14 @@ margin-left: 0rem;
     display: flex;
     flex-direction: column;
     gap: var(--space-3);
+    margin: auto;
   }
 
   @media (min-width: 768px) {
     .pricing {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: var(--space-3);
+      gap: var(--space-4);
     }
   }
 
@@ -2128,8 +2129,8 @@ margin-left: 0rem;
 @media (min-width: 1200px) {
   .pricing {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: var(--space-3);
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--space-6);
   }
 }
 

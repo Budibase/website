@@ -1,63 +1,24 @@
 {{ partial "header.html" . }} {{ partial "navigation.html" . }}
-<div class="container hero-3 mx-auto space-3-bottom">
+<div class="container-12 hero-3 mx-auto space-3-bottom">
   <div class="pricing-card-title space-2">
     <h1 class="text-center">Plans and pricing</h1>
   </div>
-  <div class="pricing">
 
-<!--Cloud-->
-<div class="pricing-card bg-alt border-grey rounded-sm">
-  <div class="pricing-card-top">
-    <h3 class="mb-4">Cloud </h3>
-    <h6 class="mb-2">Hosted by Budibase</h6>
-    <h4 class="mb-6">Free forever</h4>
-  </div>
-  <div class="pricing-card-button">
-    <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=Cloud-free-tier-pricing" target="_blank">
-      <button type="submit" class="btn btn-cta btn-lg">
-        Get started for free
-      </button>
-    </a>
-    
-  </div>
-  <div class="pricing-card-bottom">
-    <p class="mb-3 detail-sm font-dark">CLOUD FEATURES:</p>
-    <p class="mb-3 text-sm">
-      <span class="text-dark">✓</span> 4 applications
-    </p>
-    <p class="mb-3 text-sm">
-      <span class="text-dark">✓</span> 1000 internal records per app
-    </p>
-    <p class="mb-3 text-sm">
-      <span class="text-dark">✓</span> Unlimited users
-    </p>
-    <p class="mb-3 text-sm">
-      <span class="text-dark">✓</span> 1000 automation operations
-    </p>
-    <p class="mb-3 text-sm">
-      <span class="text-dark">✓</span> SSO + Role based access control
-    </p>
-  </div>
-</div>
+<div class="pricing mx-auto">
 
-
-    <!--Open source-->
     <div class="pricing-card bg-alt border-grey rounded-sm">
-      <div class="pricing-card-top">
-        <h3 class="mb-4">Open Source</h3>
-        <h6 class="mb-2">Self-hosted</h6>
-        <h4 class="mb-6">Free forever</h4>
-      </div>
-      <div class="pricing-card-button">
-        <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=open-source-pricing" target="_blank"
-          ><button type="submit" class="btn btn-primary btn-lg">
-            Get started for free
-          </button></a
-        >
-      </div>
+      <div class="pricing-card-top pb-3">
+        <h3 class="mb-4">Open Source Tier</h3>
+        <h6 class="mb-2">Self-managed</h6>
+        <h3 class="mb-3">$0</h3>
+        <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=Cloud-free-tier-pricing" target="_blank">
+          <button type="submit" class="btn btn-primary btn-outline btn-lg btn-block mb-3">
+            Get started
+          </button>
+        </a>
+      </div> 
       <div class="pricing-card-bottom">
-        <p class="mb-3 detail-sm font-dark">EVERYTHING IN CLOUD, PLUS:</p>
-        <p class="mb-3 text-sm  ">
+        <p class="my-3 text-sm ">
           <span class="text-dark">✓</span> Unlimited records
         </p>
         <p class="mb-3 text-sm  ">
@@ -70,29 +31,56 @@
           <span class="text-dark">✓</span> Unlimited automation operations
         </p>
         <p class="mb-3 text-sm">
-          <span class="text-dark">✓</span> Deploy via Kubernetes, Docker, and more
+          <span class="text-dark">✓</span> Deploy via Kubernetes and Docker
         </p>
       </div>
     </div>
 
+
+    <div class="pricing-card bg-alt border-grey rounded-sm">
+      <div class="pricing-card-top pb-3">
+        <h3 class="mb-4">Cloud Free Tier</h3>
+        <h6 class="mb-2">Hosted by Budibase</h6>
+        <h3 class="mb-3">$0</h3>
+        <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=Cloud-free-tier-pricing" target="_blank">
+          <button type="submit" class="btn btn-cta btn-lg btn-block mb-3">
+            Try Budibase free
+          </button>
+        </a>
+      </div>    
+      <div class="pricing-card-bottom">
+        <p class="my-3 text-sm ">
+          <span class="text-dark">✓</span> 4 applications
+        </p>
+        <p class="mb-3 text-sm">
+          <span class="text-dark">✓</span> 1000 internal records per app
+        </p>
+        <p class="mb-3 text-sm">
+          <span class="text-dark">✓</span> Unlimited users
+        </p>
+        <p class="mb-3 text-sm">
+          <span class="text-dark">✓</span> 1000 automation operations
+        </p>
+        <p class="mb-3 text-sm">
+          <span class="text-dark">✓</span> SSO + Role based access control
+        </p>
+      </div>
+    </div>
     
     <!--Enterprise-->
     <div class="pricing-card bg-alt border-grey rounded-sm">
-      <div class="pricing-card-top">
+      <div class="pricing-card-top pb-3">
         <h3 class="mb-4">Enterprise</h3>
-        <h6 class="mb-2">Self-hosted</h6>
-        <h4 class="mb-6">Flexible pricing</h4>
-      </div>
-      <div class="pricing-card-button">
-        <a href="/contact" target="_blank"
-          ><button type="submit" class="btn btn-lg btn-primary">
+        <h6 class="mb-2">Self-managed</h6>
+        <h3 class="mb-3">Flexible</h3>
+        <a href="/contact" target="_blank">
+          <button type="submit" class="btn btn-primary btn-lg btn-block mb-3">
             Contact sales
-          </button></a
-        >
-      </div>
+          </button>
+        </a>
+      </div> 
       <div class="pricing-card-bottom">
-        <p class="mb-3 detail-sm font-dark">EVERYTHING IN OPEN SOURCE, PLUS:</p>
-        <p class="mb-3 text-sm  ">
+        <p class="my-3 text-sm ">
           <span class="text-dark">✓</span> Premium support and services / SLAs
         </p>
         <p class="mb-3 text-sm  ">
