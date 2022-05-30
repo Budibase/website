@@ -84,7 +84,7 @@ Let’s look at a couple of different scenarios, and how they differ.
 
 If you have several databases in different locations, but which share a single schema, consolidation is relatively straightforward. For instance, if different users all have local versions of the same data set.
 
-Check out our article on [databases schemas](/blog/data/what-is-a-database-schema) to find out more.
+Check out our article on [database schemas](/blog/data/what-is-a-database-schema) to find out more.
 
 Essentially, all we need to do in this case is create a master database that matches the existing schema, and import all of the values from the local versions.
 
