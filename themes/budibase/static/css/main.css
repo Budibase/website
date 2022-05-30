@@ -124,6 +124,17 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+details:hover {
+  cursor: pointer;
+}
+
+
+
+summary::marker {
+  color: var(--gray800);
+  font-size: 1rem;
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
