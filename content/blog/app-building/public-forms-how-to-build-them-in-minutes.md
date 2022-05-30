@@ -3,6 +3,7 @@ author = "Joe Johnston"
 date = 2022-04-20T23:00:00Z
 description = "Public forms are popular mechanisms to collect data on the internet, and building them  is pretty straightforward process if you have the right tools."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1651240249/cms/Start_building_with_Budibase_s_API_12_xepcey.png"
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1651240249/cms/Start_building_with_Budibase_s_API_12_xepcey.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1647258452/cms/20200113_Propel_Team_Shots_123_omblqt.png"
 title = "Public forms - how to build a public form in minutes"
 
