@@ -3,10 +3,10 @@ author = "Joe Johnston"
 date = 2022-04-20T23:00:00Z
 description = "Public forms are popular mechanisms to collect data on the internet, and building them  is pretty straightforward process if you have the right tools."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1651240249/cms/Start_building_with_Budibase_s_API_12_xepcey.png"
-profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1647258452/cms/20200113_Propel_Team_Shots_123_omblqt.jpg"
+profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1647258452/cms/20200113_Propel_Team_Shots_123_omblqt.png"
 title = "Public forms - how to build a public form in minutes"
-+++
 
++++
 ## What is a public form
 
 A public form is a digital form that is accessible to anyone on the internet. The difference between a public and private form is the access level. Private forms are only accessible to predefined users behind a secure log-in.
