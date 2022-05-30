@@ -368,7 +368,7 @@ Here are some examples of how schemas operate in different DBMSs.
 
 In a SQL database, the schema is made up of an unlimited number of _objects_. Objects here refer to tables, views, functions, and indexes. We can create a single schema that’s used across multiple databases.
 
-Take a look at our article on [how to integrate multiple databases](budibase.com/blog/data/how-to-integrate-multiple-databases).
+Take a look at our article on [how to integrate multiple databases](/blog/data/how-to-integrate-multiple-databases).
 
 Objects can also be transferred between different schemas.
 
@@ -453,7 +453,7 @@ Or, use our platform to query and manage existing datasets.
 
 We also offer dedicated data connectors for REST API and Google Sheets.
 
-Take a look at our ultimate guide to [data sources](budibase.com/blog/data/data-sources) for web app projects.
+Take a look at our ultimate guide to [data sources](/blog/data/data-sources) for web app projects.
 
 ![External database connectors](https://res.cloudinary.com/daog6scxm/image/upload/v1653318127/cms/External_Data_Connectors_kszh1s.png "External database connectors")
 
@@ -463,6 +463,6 @@ Our users choose Budibase for fast, cost-effective builds, and unrivaled flexibi
 
 Use BudibaseDB to quickly build an adaptable database schema or query eternal databases with our range of connectors.
 
-You might also enjoy our guide on [how to create a data model](budibase.com/blog/data/how-to-create-a-data-model).
+You might also enjoy our guide on [how to create a data model](/blog/data/how-to-create-a-data-model).
 
 Start using Budibase today, for free.
