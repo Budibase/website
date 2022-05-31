@@ -2218,7 +2218,7 @@ border-radius: 16px;
 }
 
 .pricing-grid-display {
-  display: none;
+  display: block;
 }
 
 @media (min-width: 768px) {
@@ -2254,6 +2254,7 @@ border-radius: 16px;
   padding: 0.5em 20px 0.5em 0;
   vertical-align: top;
   color: #00000090;
+  min-width: 200px;
 }
 
 .pricing-row-label {
