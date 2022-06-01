@@ -34,7 +34,7 @@ Additionally, quality assurance processes are only as effective as their results
 
 Management teams must have access to analytics and data on trends in quality assurance workflows. This includes both resourcing and outcomes. Of course, a key element of this is identifying individual products with high failure rates.
 
-![manufacturing quality control checklist homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1646325248/cms/Manufacturing_Quality_Control_Checklist_1_ryzkre.png "Manufacturing quality control checklist homescreen")
+![Manufacturing quality control checklist](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646325248/cms/Manufacturing_Quality_Control_Checklist_1_ryzkre.png "Manufacturing quality control checklist")
 
 ### What should a quality control checklist tool contain?
 
@@ -78,7 +78,7 @@ We’ve built our template around two linked databases for _products_ and _inspe
 
 When a new checklist is completed, the details are stored in the _inspections_ database. This is also attached to the relevant _products_ entry, using simple relationship variables.
 
-![multi-step checklist interface](https://res.cloudinary.com/daog6scxm/image/upload/v1646325342/cms/Manufacturing_Quality_Control_Checklist_5_cbehrx.png "Multi-step checklist interface")
+![Quality checklist](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646325342/cms/Manufacturing_Quality_Control_Checklist_5_cbehrx.png "Quality Checklist")
 
 ### Intuitive checklist interfaces
 
@@ -104,7 +104,7 @@ Straight out of the box, _basic_ users can search and view all products, and com
 
 We’ve also provided two additional permission tiers, offering total scope for customization.
 
-![Edit Product Details Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1646325534/cms/Manufacturing_Quality_Control_Checklist_3_zbwiux.png "Edit product Details Screen")
+![Edit Product Details Screen](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646325534/cms/Manufacturing_Quality_Control_Checklist_3_zbwiux.png "Edit Product Details Screen")
 
 ### Multi-step forms & conditionality
 
@@ -165,7 +165,7 @@ We offer extensive support for existing datasets. Connect our quality control ch
 
 Use our built-in BudibaseDB to upload existing data from CSV files, or create your own data layer from scratch.
 
-![Manufacturing quality control checklist template filtering screen](https://res.cloudinary.com/daog6scxm/image/upload/v1646325578/cms/Manufacturing_Quality_Control_Checklist_4_mwstwi.png "Manufacturing quality control checklist template filtering screen")
+![Manufacturing Quality Control Checklist](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646325578/cms/Manufacturing_Quality_Control_Checklist_4_mwstwi.png "Manufacturing quality control checklist")
 
 ### Optional self-hosting
 
