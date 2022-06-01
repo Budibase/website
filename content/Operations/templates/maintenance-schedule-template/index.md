@@ -36,7 +36,7 @@ It also brings the potential for human error.
 
 This can mean missing essential maintenance, or overspending on unnecessary services. Digitizing your maintenance scheduling workflows simultaneously improves outcomes and cuts administrative costs.
 
-![Maintenance schedule template homescreen](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1648028813/cms/Maintenanec_Schedule_App_Screenshot_1_qjjguf.webp "Maintenance schedule template homescreen")
+![Maintenance schedule template homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1648028813/cms/Maintenanec_Schedule_App_Screenshot_1_qjjguf.webp "Maintenance schedule template homescreen")
 
 ### What does a maintenance schedule app include?
 
@@ -77,7 +77,7 @@ On the app’s home screen, you’ll find a real-time notification center, listi
 
 We’ve also provided intuitive multi-step form interfaces for editing devices, viewing service notes, and registering task completion. In seconds, your team can locate, action, and record maintenance tasks.
 
-![Track and manage equipment maintenance](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1648028853/cms/Maintenanec_Schedule_App_Screenshot_2_xengaw.webp "Track and manage equipment maintenance")
+![Track and manage equipment maintenance](https://res.cloudinary.com/daog6scxm/image/upload/v1648028853/cms/Maintenanec_Schedule_App_Screenshot_2_xengaw.webp "Track and manage equipment maintenance")
 
 ### Set custom maintenance intervals and rules
 
@@ -95,7 +95,7 @@ Create, edit, or remove database entries in seconds. All forms in our template a
 
 Our template is fully mobile responsive. All design elements automatically scale and resize to fit perfectly on any device. Improve efficiency by giving your maintenance team a tool that they can take anywhere.
 
-![Register Maintenance](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1648028902/cms/Maintenanec_Schedule_App_Screenshot_3_dn5xlr.webp "Register Maintenance")
+![Register Maintenance](https://res.cloudinary.com/daog6scxm/image/upload/v1648028902/cms/Maintenanec_Schedule_App_Screenshot_3_dn5xlr.webp "Register Maintenance")
 
 ### Automate workflows
 
@@ -121,7 +121,7 @@ Quickly call, add, manipulate, or remove database entries from our intuitive fro
 
 Use our range of data connectors and third-party app integrations to manipulate existing data sets using our maintenance schedule template.
 
-![Add assets](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1648028934/cms/Maintenanec_Schedule_App_Screenshot_5_rqfvoh.webp "Add assets")
+![Add assets](https://res.cloudinary.com/daog6scxm/image/upload/v1648028934/cms/Maintenanec_Schedule_App_Screenshot_5_rqfvoh.webp "Add assets")
 
 ### Mobile-friendly design
 
