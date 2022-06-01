@@ -26,7 +26,7 @@ In other words, facilities management apps are used to replace manual admin proc
 
 This means empowering your team to use a more systematic approach to facilities management. Ultimately, the goal is to improve processes and outcomes, while reducing costs.
 
-![Facility Management App Homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1647963720/cms/Facility_Management_App_1_ruhmdf.png "Facility Management App Homescreen")
+![Facility Management App Homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1647963720/cms/Facility_Management_App_1_ruhmdf.webp "Facility Management App Homescreen")
 
 ### Why digitize facility management?
 
@@ -79,7 +79,7 @@ We’ve added custom rules to calculate the next maintenance date for each entry
 
 Reduce admin burdens by using a tool that automatically calculates and schedules preventative maintenance. Our template is the fast and flexible way to digitize your facility management workflows.
 
-![Track and manage facilities](https://res.cloudinary.com/daog6scxm/image/upload/v1647963762/cms/Facility_Management_App_Screenshot_2_gxqs0l.png "Track and manage facilities")
+![Track and manage facilities](https://res.cloudinary.com/daog6scxm/image/upload/v1647963762/cms/Facility_Management_App_Screenshot_2_gxqs0l.webp "Track and manage facilities")
 
 ### Digital maintenance checklists
 
@@ -89,7 +89,7 @@ We’ve used a slick, multi-step form interface for all maintenance checklists. 
 
 Our maintenance checklists are fully customizable. Add, remove, or alter any field. You can also create bespoke checklists for each room category, or individual facility.
 
-![Facility Management checklist](https://res.cloudinary.com/daog6scxm/image/upload/v1647963815/cms/Facility_Management_App_Screenshot_4_fkhwxo.png "Facility management checklist")
+![Facility Management checklist](https://res.cloudinary.com/daog6scxm/image/upload/v1647963815/cms/Facility_Management_App_Screenshot_4_fkhwxo.webp "Facility management checklist")
 
 ### Real-time facility management calendar
 
@@ -131,7 +131,7 @@ Both of our built-in datasets have dedicated listing screens.
 
 Use our _dynamic filter_ components to quickly search for any _facilities_ or _checklists_ entry, based on any data field. With Budibase, you can also quickly add search fields for any field, using simple form interfaces.
 
-![Search by location](https://res.cloudinary.com/daog6scxm/image/upload/v1647963862/cms/Facility_Management_App_5_mcjnyw.png "Search by location")
+![Search by location](https://res.cloudinary.com/daog6scxm/image/upload/v1647963862/cms/Facility_Management_App_5_mcjnyw.webp "Search by location")
 
 ## Manage facility maintenance in Budibase
 
