@@ -41,7 +41,7 @@ Digitization empowers you to automate and streamline workflows. Rather than manu
 
 The goal is to save time and money, while also making it easier for you to achieve your goals.
 
-![OKR Goal Template Home Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647966196/cms/OKR_Goal_Template_Screenshot_1_x1ihep.png "OKR Goal Template Home Screen")
+![OKR Goal Template Home Screen](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647966196/cms/OKR_Goal_Template_Screenshot_1_x1ihep.webp "OKR Goal Template Home Screen")
 
 ### What should an OKR tracking app include?
 
@@ -81,7 +81,7 @@ When you complete either form, a new row is created in the respective database. 
 
 With Budibase, you can customize your form fields to match your unique workflows. Add, edit, or remove any data field, with no need for special technical skills.
 
-![OKR Goal Details](https://res.cloudinary.com/daog6scxm/image/upload/v1647966309/cms/OKR_Goal_Template_Screenshot_2_iusc6v.png "OKR Goal Details")
+![OKR Goal Details](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647966309/cms/OKR_Goal_Template_Screenshot_2_iusc6v.webp "OKR Goal Details")
 
 ### Track, manage, and meet your goals
 
@@ -91,7 +91,7 @@ Each objective and key result has a unique detail screen. We’ve used an intuit
 
 Use our dynamic filter components to easily sort, find, and filter entries. Use simple _equals_ expressions, or mathematical formulae to set conditions to filter different entries on your OKR app’s front-end.
 
-![Track Results](https://res.cloudinary.com/daog6scxm/image/upload/v1647966352/cms/OKR_Goal_Template_Screenshot_5_yffcff.png "Track Results")
+![Track Results](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647966352/cms/OKR_Goal_Template_Screenshot_5_yffcff.webp "Track Results")
 
 ### Process automation
 
@@ -109,7 +109,7 @@ Like all Budibase tools, our template features four permission tiers as standard
 
 Add, alter, or remove each of these tiers, to perfectly suit your needs. With Budibase, you have complete control over how your app is accessed and used.
 
-![Add a Key Result](https://res.cloudinary.com/daog6scxm/image/upload/v1647966392/cms/OKR_Goal_Screenshot_3_kq9sqj.png "Add a Key Result")
+![Add a Key Result](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647966392/cms/OKR_Goal_Screenshot_3_kq9sqj.webp "Add a Key Result")
 
 ### Responsive design
 
