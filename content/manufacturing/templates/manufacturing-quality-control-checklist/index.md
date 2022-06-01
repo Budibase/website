@@ -34,7 +34,7 @@ Additionally, quality assurance processes are only as effective as their results
 
 Management teams must have access to analytics and data on trends in quality assurance workflows. This includes both resourcing and outcomes. Of course, a key element of this is identifying individual products with high failure rates.
 
-![Manufacturing quality control checklist](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646325248/cms/Manufacturing_Quality_Control_Checklist_1_ryzkre.png "Manufacturing quality control checklist" =678x1038)
+![Manufacturing quality control checklist](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646325248/cms/Manufacturing_Quality_Control_Checklist_1_ryzkre.png "Manufacturing quality control checklist")
 
 ### What should a quality control checklist tool contain?
 
