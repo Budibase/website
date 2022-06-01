@@ -26,7 +26,7 @@ The idea is to give users a fast and easy way to discover and access information
 
 Directories can be used in both B2B and B2C contexts. In both cases, giving your users an intuitive, efficient way to access information is crucial. Directories are the ideal solution.
 
-![Business Directory Template homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1647947001/cms/Business_Directory_Template_1_g6rnnv.png "Business Directory Template HomeScreen")
+![Business Directory Template homescreen](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647947001/cms/Business_Directory_Template_1_g6rnnv.webp "Business Directory Template HomeScreen")
 
 ### Why create a dedicated tool?
 
@@ -74,7 +74,7 @@ We’ve used clear CTAs, modal screens, [multi-step forms](https://budibase.com/
 
 With our template, users can perform any CRUD task in seconds, using simple app actions.
 
-![Business entry screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647947169/cms/Business_Directory_Template_2_j2lrno.png "Directory entry screen")
+![Business entry screen](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647947169/cms/Business_Directory_Template_2_j2lrno.webp "Directory entry screen")
 
 ### Responsive design
 
@@ -92,7 +92,7 @@ We’ve built our template around two permission tiers. Public users can search 
 
 Your internal team can edit entries, or review and approve submissions. We’ve also provided an extra two permission tiers, making it easy to create a custom access hierarchy that perfectly suits your existing workflows.
 
-![Private Edit Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647947211/cms/Business_Directory_Template_4_raybrb.png "Private edit screen")
+![Private Edit Screen](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647947211/cms/Business_Directory_Template_4_raybrb.webp "Private edit screen")
 
 ### Self-service sign-ups
 
@@ -110,7 +110,7 @@ Budibase offers a wide variety of advanced data types, including strings, number
 
 Say goodbye to settling for imperfect off-the-shelf tools. With Budibase, you can create a directory that perfectly matches your users’ expectations, in just a few clicks.
 
-![Directory Signup form](https://res.cloudinary.com/daog6scxm/image/upload/v1647947242/cms/Business_Directory_Template_3_cgertt.png "Sign up form")
+![Directory Signup form](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647947242/cms/Business_Directory_Template_3_cgertt.webp "Sign up form")
 
 ### Filtering and searchability
 
