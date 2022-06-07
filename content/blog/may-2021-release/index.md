@@ -1,7 +1,6 @@
 +++
 date = "2021-05-27"
 title = "May 2021 release - Run Budibase in your browser"
-categories = ["Pruduct"] 
 description = "The May release transforms the development experience for every single Budibase user. It is also the beginning of a new and exciting journey that involves Budibase moving to the browser."
 author = "Joe Johnston"
 images = ["/img/img/portal.webp"]

@@ -1,8 +1,6 @@
 +++ 
 date = "2019-02-01" 
 title = "Progressive Web Apps Can Now Be Shipped Via The Play Store" 
-categories = ["build","host"] 
-tags = ["SaaS, apps, host"] 
 description = "With Chrome 72, you can now publish your progressive web app in the Play Store and from the browser." 
 author = "Joe Johnston" 
 draft = "false"

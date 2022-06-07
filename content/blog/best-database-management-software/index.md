@@ -2,7 +2,6 @@
 
 date = "2021-03-22"
 title = "14 Best Database Management Software to use in 2021"
-categories = ["build"] 
 description = "Selecting the right Database Management Software is a critical decision that must be made when architecting a new application. Thankfully, this post makes that decision easier."
 author = "Joe Johnston"
 images = ["/best-database-management-software/best-dbms.png"]

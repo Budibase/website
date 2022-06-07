@@ -1,8 +1,6 @@
 +++
 date = "2019-05-25"
 title = " 8 Web App Ideas You'll Want To Steal (2021)"
-categories = ["Ideas"] 
-tags = ["Ideas, web app"]
 description = "Within this post you will find my top 8 exciting web app ideas you will want to steal in 2020. Grab some inspiration, choose your idea, and build your next awesome web app."
 author = "Joe Johnston"
 images = ["/web-app-ideas/web-app-ideas.png"]

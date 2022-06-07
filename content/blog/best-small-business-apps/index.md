@@ -1,14 +1,10 @@
-
 +++
 date = "2020-10-28"
 title = "The 20 best small business apps (tried and tested)"
-categories = ["Ideas"] 
-tags = ["no-code"]
 description = "Within this post, we examine the top 20 best small business apps, across 10 categories, in 2020. We've researched, tested, scored, and shared our insights on all tools."
 author = "Joe Johnston"
 images = ["/small-business-apps/budibase.png"]
 draft ="false"
-
 +++
 
 {{< figure src="/small-business-apps/small-business-apps.jpg" alt="Small business apps" >}}

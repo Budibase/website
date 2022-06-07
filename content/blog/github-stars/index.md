@@ -1,11 +1,9 @@
 +++
 author = "Joe Johnston"
-categories = ["Infra", "Build"]
 date = 2020-12-14T00:00:00Z
 description = "We are a young open-source company, and we wanted to attract more attention to our Github repo. So we tried and tested different ways to attract more people to our repo and get more stars."
 image = "https://dev-to-uploads.s3.amazonaws.com/i/3fhnkr0qj06013x4m6s3.png"
 images = ["https://dev-to-uploads.s3.amazonaws.com/i/3fhnkr0qj06013x4m6s3.png"]
-tags = ["beginners, webdev, opensource, github"]
 title = "6 tried and tested ways to get more Github Stars"
 
 +++

@@ -1,8 +1,6 @@
 +++
 date = "2020-09-21"
 title = "What is custom software development in 2021"
-categories = ["Design", "Build", "Automation"] 
-tags = ["custom software, bespoke software, custom software development"]
 description = "Custom software development is the method of building specific software instead of purchasing COTS, commercial off the shelf, software. Within this guide, we will explore custom software development in depth."
 author = "Joe Johnston"
 draft = "false"

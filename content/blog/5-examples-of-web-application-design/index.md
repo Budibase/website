@@ -1,13 +1,10 @@
 +++
 date = "2019-07-28"
 title = "5 Recent Examples Of Modern Web Application Design (2021)"
-categories = ["Inspire", "Design"] 
-tags = ["SaaS, backend, frontend, web app, deployment, hosting, ideation, wireframing, database architecture"]
 description = "We have debated for many hours to present you with 5 recent examples of modern web application design. Please use these designs as inspiration for your next web app."
 author = "Joe Johnston"
 images = ["/web-app-ideas/dashboard-web-app.jpg"]
 draft ="false"
-
 +++
 
 

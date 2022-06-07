@@ -1,8 +1,6 @@
 +++
 date = "2019-01-24"
 title = "Budibase Core. A Serverless Database Engine, for fast SaaS development."
-categories = ["SaaS"] 
-tags = ["SaaS, Serverless"]
 description = "An introduction to Budibase Core - a Javascript library used to build Budibase, a Micros SaaS Builder"
 author = "Michael Shanks"
 draft ="false"
