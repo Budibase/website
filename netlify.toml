@@ -43,6 +43,7 @@ HUGO_ENABLEGITINFO = "true"
   from = "/build-a-web-app"
   to = "/product"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/host-a-web-app"
