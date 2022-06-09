@@ -3190,7 +3190,7 @@ border-radius: .75rem;
 #TableOfContents > ul > li > a {
   display: flex; 
   cursor: pointer;
-  padding: 8px 0; 
+  padding: 20px 0 12px 0; 
   align-items: center;
   text-decoration: none;
   color: var(--gray900);
