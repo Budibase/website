@@ -33,6 +33,7 @@ HUGO_ENABLEGITINFO = "true"
   from = "/blog/posts/cofoundervalidation/"
   to = "/blog/cofoundervalidation/" 
   status = 301
+  force = true
 
 [[redirects]]
   from = "/css/annimate.css"
@@ -49,36 +50,43 @@ HUGO_ENABLEGITINFO = "true"
   from = "/host-a-web-app"
   to = "/product"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/manage-a-web-app"
   to = "/product"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/design/"
   to = "/product"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/automate/"
   to = "/product"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/data/"
   to = "/product"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/deploy/"
   to = "/product"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/self-host/"
   to = "/product"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/investment"
@@ -89,23 +97,28 @@ HUGO_ENABLEGITINFO = "true"
   from = "/blog/november-2021-release"
   to = "/blog/updates/november-2021-release"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/blog/budibase-public-beta"
   to = "/blog/updates/budibase-public-beta"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/blog/budibase-s-public-api-is-now-publicly-available"
   to = "/blog/updates/budibase-s-public-api-is-now-publicly-available"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/blog/building-a-crud-app-with-budibase-and-next.js"
   to = "/blog/data/building-a-crud-app-with-budibase-and-next.js"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/blog/public-forms-how-to-build-them-in-minutes"
   to = "/blog/app-building/public-forms-how-to-build-them-in-minutes/"
   status = 301
+  force = true
