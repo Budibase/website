@@ -8,9 +8,10 @@
       <a href="{{ .Section }}/templates" class="mb-8 a-alt text-xs">{{.Section | humanize }} templates</a>
     </div>
       <article>
-        <header class="template-header mb-4">
+        <div class="hero-container mb-6">
+          <div>
+        <header class="template-header mb-3">
           <h1 class="">{{ .Params.label }}</h1>
-          <a href="{{ .Params.destination }}" class="btn btn-cta btn-lg sm-btn-block">Use this template</a>
         </header>
         <div class="template-meta">
           <div>
@@ -25,14 +26,6 @@
                 d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             <p class="text-sm text-light">Free</p>
-          </div>
-          <div class="template-meta-info mr-4">
-            <svg xmlns="http://www.w3.org/2000/svg" class="u-xs-avatar mr-1" fill="none" viewBox="0 0 24 24"
-              stroke="gray">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
-            </svg>
-            <p class="text-sm text-light">{{ .Params.datasource }}</p>
           </div>
           <div class="template-meta-info mr-3">
             <svg xmlns="http://www.w3.org/2000/svg" class="u-xs-avatar mr-1" fill="none" viewBox="0 0 24 24"
@@ -51,7 +44,13 @@
             <p class="text-sm text-light">Works on all devices</p>
           </div>
         </div>
-        {{ with .Params.preview }}<img class="img-fluid w-100 mb-6 rounded-sm" width="1600" height="900" fetchpriority="high" src="{{ . }}">{{ end }}
+        <a href="{{ .Params.destination }}" class="btn btn-cta btn-lg sm-btn-block">Use this template</a>
+
+      </div>
+        <div>
+        {{ with .Params.preview }}<img class="img-fluid mb-6 rounded-sm" fetchpriority="high" src="{{ . }}">{{ end }}
+      </div>
+      </div>
         <div class="template-content">
           <aside class="template-toc rounded-sm position-sticky-lg sticky-subnav mt-4 top">
             <h4 class="mb-2">Table of contents</h4>
