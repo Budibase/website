@@ -51,7 +51,7 @@
             <p class="text-sm text-light">Works on all devices</p>
           </div>
         </div>
-        {{ with .Params.preview }}<img class="img-fluid w-100 mb-6 rounded-sm" src="{{ . }}">{{ end }}
+        {{ with .Params.preview }}<img class="img-fluid w-100 mb-6 rounded-sm" width="1600" height="900" fetchpriority="high" src="{{ . }}">{{ end }}
         <div class="template-content">
           <aside class="template-toc rounded-sm position-sticky-lg sticky-subnav mt-4 top">
             <h4 class="mb-2">Table of contents</h4>
