@@ -2,6 +2,7 @@
 author = "Ronan McQuillan"
 date = 2022-06-09T23:00:00Z
 description = "Enterprise workflow automation is the key to balancing efficiency with security, compliance, and process adherence. Here’s everything you need to know."
+draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1654868123/cms/Enterprise_Workflow_Automation_Header_xdyura.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1654868123/cms/Enterprise_Workflow_Automation_Header_xdyura.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
