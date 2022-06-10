@@ -2,8 +2,8 @@
 author = "Ronan McQuillan"
 date = 2022-06-09T23:00:00Z
 description = "IT process automation is the cornerstone of any effective technical team. Read our in-depth guide to find out everything you need to know."
-image = "https://res.cloudinary.com/daog6scxm/image/upload/v1654868889/cms/What_is_IT_Process_Automation_Header_kqgemx.png"
-images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1654868929/cms/What_is_IT_Process_Automation_Header_lnyyyr.png"]
+image = "https://res.cloudinary.com/daog6scxm/image/upload/v1654874594/cms/What_is_IT_Process_Automation_fmdouq.png"
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1654874604/cms/What_is_IT_Process_Automation_ljo3y6.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "What is IT Process Automation?"
 
