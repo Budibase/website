@@ -396,7 +396,7 @@ Finally, cost is a huge decision factor.
 
 In fact, the costs of using different tools can vary greatly. Different platforms might charge on a per-user, per-query, or fixed cost basis, so it’s vital to do your homework and make sure platform fees don’t undercut your efficiency savings.
 
-Check out our guide to [enterprise workflow automation]() to find out more about the tools available to larger organizations.
+Check out our guide to [enterprise workflow automation](/blog/automation/enterprise-workflow-automation/) to find out more about the tools available to larger organizations.
 
 ### No-code & low-code workflow automation
 
