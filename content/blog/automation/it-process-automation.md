@@ -69,6 +69,8 @@ To be a candidate for automation, a process should be:
 
 Additionally, the larger the scale and scope of your processes, the more impact automation will have. This includes how often the process occurs, as well as the number of steps and actors involved.
 
+Check out our guide to [workflow analysis](/blog/automation/workflow-analysis/) to find out more.
+
 Within IT departments, the most common automated processes include:
 
 * Device rentals.
@@ -116,7 +118,7 @@ In other words, workflow automation uses a variety of techniques to optimize eac
 
 There are various tools available for this. These include dedicated workflow management apps, low-code tools, SaaS platforms, and custom applications.
 
-To find out more, check out our ultimate guide to workflow automation.
+To find out more, check out our ultimate guide to [workflow automation](/blog/automation/workflow-automation/).
 
 ![Robotic Process Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1654869533/cms/Robotic_Process_Automation_l6716m.webp "Robotic Process Automation")
 
@@ -174,7 +176,7 @@ Say for example one of your non-technical employees wants to report a service ou
 
 Implementing a robust automated process not only saves your users time in this case, it also speeds up your IT team’s response, reducing the impact of the incident.
 
-This can have a huge impact within larger organizations. Check out our guide to enterprise workflow automation to find out more.
+This can have a huge impact within larger organizations. Check out our guide to [enterprise workflow automation](/blog/automation/enterprise-workflow-automation/) to find out more.
 
 ### Increased productivity
 
@@ -340,4 +342,4 @@ Budibase is the ideal solution for building custom applications to automate all 
 
 Enterprises around the world choose Budibase to manage all kinds of workflows. With low-code automations, auto-generated CRUD screens, and a range of deployable templates, our platform is the fast, cost-effective way to build custom applications.
 
-Check out our ultimate guide to workflow automation to find out more about how Budibase makes your organization smarter and more efficient.
+Check out our ultimate guide to [workflow automation](/blog/automation/workflow-automation/) to find out more about how Budibase makes your organization smarter and more efficient.
