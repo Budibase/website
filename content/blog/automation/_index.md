@@ -5,5 +5,6 @@ description: Budibase's Process Automation Blog – attracting thousands of mont
   ops professionals and developers – covers everything you need to know to automate
   processes and workflows.
 cover: "/budibase-ui-gradient.png"
+draft: true
 
 ---
