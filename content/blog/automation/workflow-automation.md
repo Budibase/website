@@ -29,7 +29,7 @@ Automation can touch on just about anything that your employees do in their dail
 
 Let’s take a step back and consider workflows more generally to see how.
 
-![What is a Workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1654871082/cms/What_is_a_workflow__maktw4.png "What is a Workflow")
+![What is a Workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1654871082/cms/What_is_a_workflow__maktw4.webp "What is a Workflow")
 
 ### What is a workflow?
 
@@ -223,6 +223,8 @@ Besides this, there are countless IT workflows that are ideally suited for autom
 
 This includes internal and external activities alike, for both hardware and software. For example, device rental, infrastructure monitoring, incident reporting, feature requests, code reviews, and more.
 
+Check out our guide to [IT process automation](/blog/automation/it-process-automation/) to find out more.
+
 ## What kind of business processes can be automated?
 
 So what makes a workflow suitable for automation?
@@ -231,7 +233,7 @@ There are several characteristics of any task that will help you decide whether 
 
 With that in mind, here are some of the most commonly automated types of workflows across all departments.
 
-![Approval Workflows](https://res.cloudinary.com/daog6scxm/image/upload/v1654870900/cms/Approval_workflows_ewefs7.png "Approval Workflows")
+![Approval Workflows](https://res.cloudinary.com/daog6scxm/image/upload/v1654870900/cms/Approval_workflows_ewefs7.webp "Approval Workflows")
 
 ### Approval workflows
 
@@ -246,7 +248,7 @@ Normally, there will also be some kind of action, depending on the outcome of th
 
 It’s also worth noting that requests and approvals can be built in as discrete stages of any other kind of workflow if required.
 
-![Communications Workflows](https://res.cloudinary.com/daog6scxm/image/upload/v1654870857/cms/Communications_workflows_kdqy0s.png "Communications Workflows")
+![Communications Workflows](https://res.cloudinary.com/daog6scxm/image/upload/v1654870857/cms/Communications_workflows_kdqy0s.webp "Communications Workflows")
 
 ### Customer communications
 
@@ -265,7 +267,7 @@ However, we could add additional layers to make a more complex workflow automati
 
 For instance, we could add conditions to decide which specific agent should pick up different queries. Or, we could use details within the customers’ original query to automate responses, if it meets certain defined criteria.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1654870835/cms/Scheduling_workflows_qasq7p.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1654870835/cms/Scheduling_workflows_qasq7p.webp)
 
 ### Scheduling and booking workflows
 
@@ -278,7 +280,7 @@ An example of the first case might be if you have a system for booking meeting r
 
 Alternatively, scheduling might happen automatically, based on other triggers and system factors. For example, a fleet management system could automatically schedule maintenance based on time or usage-related variables.
 
-### ![Sales Workflows](https://res.cloudinary.com/daog6scxm/image/upload/v1654870809/cms/Sales_workflows_rllo6d.png "Sales Workflows")
+![Sales Workflows](https://res.cloudinary.com/daog6scxm/image/upload/v1654870809/cms/Sales_workflows_rllo6d.webp "Sales Workflows")
 
 ### Sales and purchases
 
@@ -347,7 +349,7 @@ As such, you aren’t as reliant on a small number of platforms for implementati
 
 With that in mind, let’s take a look at the specific tools you can use to implement workflow automation.
 
-![Workflow Automation Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1654870747/cms/Workflow_Automation_tools_and_software_tocap0.png "Workflow Automation Tools")
+![Workflow Automation Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1654870747/cms/Workflow_Automation_tools_and_software_tocap0.webp "Workflow Automation Tools")
 
 ## Workflow automation tools and software
 
@@ -394,6 +396,8 @@ Finally, cost is a huge decision factor.
 
 In fact, the costs of using different tools can vary greatly. Different platforms might charge on a per-user, per-query, or fixed cost basis, so it’s vital to do your homework and make sure platform fees don’t undercut your efficiency savings.
 
+Check out our guide to [enterprise workflow automation]() to find out more about the tools available to larger organizations.
+
 ### No-code & low-code workflow automation
 
 Another popular option is using no/low-code platforms for workflow automation. These are platforms that are designed to make it easy and cost-effective to build applications, including for managing specific workflows.
@@ -438,7 +442,7 @@ The first step here is outlining each stage of your workflow, in purely descript
 
 One way to do this is using a flowchart diagram. For example:
 
-![Workflow Automation Diagram](https://res.cloudinary.com/daog6scxm/image/upload/v1654870665/cms/Flowchart_Diagram_cwtmin.png "Flowchart Diagram")
+![Workflow Automation Diagram](https://res.cloudinary.com/daog6scxm/image/upload/v1654870665/cms/Flowchart_Diagram_cwtmin.webp "Flowchart Diagram")
 
 When you’ve created this, you can then begin to analyze your workflow’s efficiency. More specifically, the idea here is to identify inefficiencies, pain points, and opportunities for improvement.
 
@@ -455,6 +459,8 @@ In other words, the goal of our analysis is to determine how we can make our wor
 Note, that at this stage, we’re only considering these things with regard to how your workflows operate in theory.
 
 We’ll move on to how it works in practice in the next step.
+
+We've also created an in-depth guide to [workflow analysis](/blog/automation/workflow-analysis/).
 
 ### 3. Engage stakeholders
 
@@ -543,7 +549,7 @@ Let’s take a look at what would happen under the hood when a client submits a 
 3. An email template is populated with the information provided by the client in their request.
 4. The email is sent to the relevant project manager, using the _email_address_ attribute stored in their database entry.
 
-![Estimate Request Workflow Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1654870563/cms/Workflow_Automation_Ultimate_Guide-2_pivuza.png "Estimate Request Workflow Automation")
+![Estimate Request Workflow Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1654870563/cms/Workflow_Automation_Ultimate_Guide-2_pivuza.webp "Estimate Request Workflow Automation")
 
 ### 6. Test your automation
 
@@ -613,7 +619,7 @@ Use access control in Budibase to create fully secure and highly intuitive autom
 
 For example, you might create different roles for your customer service agents, management team, and IT admins. Each of these can then be permitted to take different actions within your automated workflows.
 
-![Manage Access](https://res.cloudinary.com/daog6scxm/image/upload/v1654870490/cms/RBAC_izhqqj.png "Manage Access")
+![Manage Access](https://res.cloudinary.com/daog6scxm/image/upload/v1654870490/cms/RBAC_izhqqj.webp "Manage Access")
 
 ### Custom automations
 
@@ -641,7 +647,7 @@ Budibase offers the following action blocks:
 
 Each of these can also be looped, or combined in any configuration. Each block receives data from the one preceding it and passes data on to the next.
 
-![Workflow Automations in Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1654870444/cms/Custom_Automations_tlw1vr.png "Workflow Automations in Budibase")
+![Workflow Automations in Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1654870444/cms/Custom_Automations_tlw1vr.webp "Workflow Automations in Budibase")
 
 ### Internal and external data
 
@@ -662,7 +668,7 @@ We offer dedicated connectors for a range of external data sources, including:
 
 We’ve provided streamlined UIs for connecting to data, fetching tables, and building queries, with minimal coding skills. Quickly build workflow automation tools for external data sets or to replace legacy systems.
 
-![BudibaseDB](https://res.cloudinary.com/daog6scxm/image/upload/v1654870402/cms/Budibase_DB_ugbo15.png "BudibaseDB")
+![BudibaseDB](https://res.cloudinary.com/daog6scxm/image/upload/v1654870402/cms/Budibase_DB_ugbo15.webp "BudibaseDB")
 
 ### Auto-generated CRUD screens
 
@@ -674,7 +680,7 @@ Connect your data and build fully functional CRUD apps, in seconds.
 
 Of course, our autogenerated interfaces are also fully customizable. Apply your own design, add or remove components, restrict screens to different roles, and create conditionality rules in our intuitive low-code platform.
 
-![Autogenerate CRUD Screens](https://res.cloudinary.com/daog6scxm/image/upload/v1654870368/cms/Create_CRUD_Screens_hyhykf.png "Autogenerate CRUD Screen")
+![Autogenerate CRUD Screens](https://res.cloudinary.com/daog6scxm/image/upload/v1654870368/cms/Create_CRUD_Screens_hyhykf.webp "Autogenerate CRUD Screen")
 
 ### Third-party integrations
 
