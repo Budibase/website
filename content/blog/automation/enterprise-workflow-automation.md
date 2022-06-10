@@ -114,6 +114,8 @@ On the other hand, you might have workflows where employees need to exercise mor
 
 In these cases, you’ll still be able to automate certain discrete tasks, but wholesale automation across the entire workflow might be more difficult, as human decision-making isn't easily reproduced programmatically.
 
+For more information, check out our ultimate guide to [workflow automation](/blog/automation/workflow-automation/).
+
 ## Enterprise workflow management solutions
 
 Next, we can begin to think about the specific tools that are available for enterprise automation. These days, countless different kinds of platforms offer some degree of automation functionality, so the options are fairly varied.
@@ -162,6 +164,8 @@ Even when a tool makes it through the vetting and approval process, SaaS platfor
 
 Combine this with per-user, monthly licensing, and costs can quickly snowball.
 
+Check out our in-depth guide to [IT process automation](/blog/automation/it-process-automation/).
+
 ### Low-code development
 
 These days, more and more enterprises are turning to low-code tools to automate workflows. Low-code development offers a more cost-effective alternative to traditional custom-built tools for managing workflows.
@@ -202,6 +206,8 @@ Remember that earlier we said that any automation can essentially be broken down
 
 We need to do this for each constituent task within your workflows.
 
+We've also created an in-depth guide to [workflow analysis](/blog/automation/workflow-analysis/).
+
 Let’s take an example to see what this means in practice.
 
 Say you want to automate your employee onboarding process. This involves a variety of tasks, to bring your new hires from when they accept your job offer, all the way up to passing their probation.
@@ -224,7 +230,7 @@ As such, you’d need to create two distinct _user roles_.
 
 These are defined groups that you place users into, depending on their competencies within a given workflow. Roles can then be used to determine the exact screens, functions, data, and components that assigned users can access.
 
-Check out our ultimate guide to role-based access control to find out more.
+Check out our ultimate guide to [role-based access control](/blog/app-building/role-based-access-control/) to find out more.
 
 ### 4. Create automations
 
@@ -234,7 +240,7 @@ In any case, the core task here is translating your business rules into actual s
 
 The first step is to operationalize your triggers. That is, to relate them to computable values, that automation rules and conditions can be built around.
 
-With these in place, you can define the exact flow of events that should be initiated when a trigger condition is met. Check out our docs to find out more about how this works within Budibase.
+With these in place, you can define the exact flow of events that should be initiated when a trigger condition is met. Check out our [docs](https://docs.budibase.com/docs) to find out more about how this works within Budibase.
 
 ### 5. Monitoring and testing
 
