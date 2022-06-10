@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-06-09T23:00:00Z
 description = "Check out our ultimate guide to workflow automation to learn everything you need to know about eliminating manual tasks."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1654870278/cms/Workflow_Automation_Header_lgx23h.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1654870287/cms/Workflow_Automation_Header_wdavxo.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
