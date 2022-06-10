@@ -6,7 +6,7 @@ draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1654870278/cms/Workflow_Automation_Header_lgx23h.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1654870287/cms/Workflow_Automation_Header_wdavxo.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Workflow Automation | Ultimate Guide | Budibase"
+title = "Workflow Automation | Ultimate Guide"
 
 +++
 Workflow automation is a critical part of any modern business. With ever-increasing competition, your automation strategy is crucial, no matter your industry. Despite this, many organizations fail to fully reap the benefits.
