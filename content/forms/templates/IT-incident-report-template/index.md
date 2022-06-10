@@ -65,7 +65,7 @@ Our IT incident report template provides a platform to quickly create effective 
 
 We’ve also added an additional form, for IT workers to qualify and respond to incidents. On a separate record, your IT team can assign actions, incident severity, or escalate each case.
 
-![IT incident report template](https://res.cloudinary.com/daog6scxm/image/upload/v1639155409/cms/IT_Incident_Report_Template_1_yjvo3j.png "IT Incident Report Template form Interface")
+![IT incident report template](https://res.cloudinary.com/daog6scxm/image/upload/v1639155409/cms/IT_Incident_Report_Template_1_yjvo3j.webp "IT Incident Report Template form Interface")
 
 ### Customize report fields
 
@@ -93,7 +93,7 @@ Optimize internal processes by classifying incidents based on required actions. 
 
 With Budibase, you have complete control to organize and classify incidents as you see fit.
 
-![Search and filter IT Incidents](https://res.cloudinary.com/daog6scxm/image/upload/v1639155626/cms/IT_Incident_Report_Template_2_qsz8pu.png "Search IT Incident reports")
+![Search and filter IT Incidents](https://res.cloudinary.com/daog6scxm/image/upload/v1639155626/cms/IT_Incident_Report_Template_2_qsz8pu.webp "Search IT Incident reports")
 
 ### Streamline processes
 
@@ -111,7 +111,7 @@ Our template features four permission tiers. _Basic_ users can access the initia
 
 With Budibase, you have complete control to add and remove permission tiers as you see fit.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1639155626/cms/IT_Incident_Report_Template_2_qsz8pu.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1639155626/cms/IT_Incident_Report_Template_2_qsz8pu.webp)
 
 ### Design and usability
 
@@ -163,7 +163,7 @@ Budibase apps also give you complete control over who accesses your platform. Wi
 
 As a Budibase user, you’ll also enjoy free SSO across all of your apps.
 
-![IT Incident Report Detail screen](https://res.cloudinary.com/daog6scxm/image/upload/v1639155783/cms/IT_Incident_Report_Template_3_bfecae.png "IT Incident Report Template 3")
+![IT Incident Report Detail screen](https://res.cloudinary.com/daog6scxm/image/upload/v1639155783/cms/IT_Incident_Report_Template_3_bfecae.webp "IT Incident Report Template 3")
 
 ### Flexible hosting
 
