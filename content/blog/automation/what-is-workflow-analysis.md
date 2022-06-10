@@ -198,6 +198,8 @@ For example, you might determine that an outsized amount of resources are being 
 
 These are the kinds of situations where action can be taken to improve workflows.
 
+We've also created an in-depth guide to [IT process automation](/blog/automation/it-process-automation/).
+
 ## How to optimize workflows
 
 Thankfully, there are a wide range of strategies that you can use to act on the findings of your workflow analysis. These include operational changes, human resources actions, and a range of digital tools.
@@ -222,7 +224,7 @@ This is anathema to efficiency.
 
 Digitalizing workflows can mean a range of different things in practice though. This can range from simple improvements and integrations within your existing software stack, to building completely new solutions.
 
-Check out our guide to enterprise workflow automation to find out more about the different tools you can use to digitalize workflows in large organizations.
+Check out our guide to [enterprise workflow automation](/blog/automation/enterprise-workflow-automation/) to find out more about the different tools you can use to digitalize workflows in large organizations.
 
 ### Process automation
 
@@ -234,7 +236,7 @@ The idea is to replicate the kinds of decisions that users need to make in order
 
 So, for example, you might want to automate tasks within a performance review workflow. When a review meeting form is completed, the employee could be automatically notified of the outcome and have their overall record updated to reflect this.
 
-To find out more about how this works in practice, check out our ultimate guide to workflow automation.
+To find out more about how this works in practice, check out our ultimate guide to [workflow automation.](/blog/automation/workflow-automation/)
 
 ### Training
 
