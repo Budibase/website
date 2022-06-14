@@ -332,7 +332,7 @@ And for the JS method, it’ll look like this:
 
 For the next elements in this tutorial, we’ll assume that you're using repeaters. But you can always refer back to this section in case you don’t want to use them.
 
-The downloads card just uses the get_release_downloads API call. Just make sure you add the repo as a variable in it like you did for the latest version.
+The downloads card just uses the get_release_downloads API call. Just make sure you add the repo as a variable in it as you did for the latest version.
 
 You can use the get_repo query to get the number of stars in your repository. But if you have a lot of stars, your count might look weird. You can make it better using the addCommas handlebar helper:
 
