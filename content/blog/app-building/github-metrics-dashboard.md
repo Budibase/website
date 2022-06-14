@@ -189,7 +189,7 @@ Here is a list of our queries, URLs, and what bindings we are using in each of t
 
 In addition to the simple queries, we have some special cases. First, there’s the query to get the number of downloads for the latest release. In it, we use the same API call as the get_release
 
-* Get_release_downloads - _https://api.GitHub.com/repos/{{repo}}/releases/latest_
+* Get_release_downloads - https://api.GitHub.com/repos/{{repo}}/releases/latest
 
 But this API call won’t give us the download count. We need to sum up the downloads in each of the assets. The general structure is:
 
