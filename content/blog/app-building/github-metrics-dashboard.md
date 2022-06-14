@@ -13,17 +13,13 @@ Managing a GitHub repository is hard.
 
 You need to know what your team is working on. What are the next steps? What are the roadblocks?
 
-And a quick way to achieve this is with a GitHub metrics dashboard.
+A quick way to overcome this is with a GitHub metrics dashboard.
 
-With a dashboard, you can instantly see everything you need to know.
-
-You can use a dashboard to find out what is working well to praise your team. It also helps you discover and fix issues.
+With a dashboard, you can instantly see everything you need to know. You can use a dedicated app to find out what is working well to praise your team. It also helps you discover and fix issues.
 
 However, due to the unique nature of each project, it is hard to find a pre-made GitHub metrics dashboard that suits your needs.
 
-The truth is, that a lot of metrics depend on your workflow and how your team tracks them.
-
-Therefore, it’s often faster and more effective to build your own dashboard.
+The truth is, that a lot of metrics depend on your workflow and how your team tracks them. Therefore, it’s often faster and more effective to build your own dashboard.
 
 This seems counterintuitive until you realize how simple the process is. It’s just as easy as getting the hang of premade tools and trying to connect them to your repository.
 
@@ -33,17 +29,17 @@ Today you’ll learn how to do it with Budibase.
 
 With our leading low-code platform, you can use premade components, connect to external APIs, query databases, save data, create automations, and much more.
 
-Let’s see how you can use Budibase to build your perfect GitHub metrics dashboard.
+Let’s see how you can use Budibase to build your perfect GitHub dashboard.
 
 ## Your GitHub Metrics Dashboard
 
 First, let’s look at what you'll create today:
 
-![GitHub Metrics Dashboard Homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1655209897/cms/3_ehsbzl.png "GitHub Metrics Dashboard Home Screen")
+![GitHub Metrics Dashboard Homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1655209897/cms/3_ehsbzl.webp "GitHub Metrics Dashboard Home Screen")
 
-![Pull Requests](https://res.cloudinary.com/daog6scxm/image/upload/v1655209947/cms/1_jelxv2.png "Pull Requests")
+![Pull Requests](https://res.cloudinary.com/daog6scxm/image/upload/v1655209947/cms/1_jelxv2.webp "Pull Requests")
 
-![GitHub Metrics Dashboard Admin Page](https://res.cloudinary.com/daog6scxm/image/upload/v1655209996/cms/2_egziyd.png "GitHub Metrics Dashboard Admin Page")
+![GitHub Metrics Dashboard Admin Page](https://res.cloudinary.com/daog6scxm/image/upload/v1655209996/cms/2_egziyd.webp "GitHub Metrics Dashboard Admin Page")
 
 And you can see the [finished app here](https://roch.budibase.app/app/GitHub-metrics-dashboard#/).
 
@@ -53,31 +49,31 @@ Here is a bit of information on how you can use each of these components in your
 
 ### Stats Cards / KPIs
 
-![Stat Cards](https://res.cloudinary.com/daog6scxm/image/upload/v1655210182/cms/StatCard_pdjrfb.png "Stat Cards")
+![Stat Cards](https://res.cloudinary.com/daog6scxm/image/upload/v1655210182/cms/StatCard_pdjrfb.webp "Stat Cards")
 
 This component allows you to load metrics and KPIs for a quick overview. They can come from a direct API call or from other [data sources](https://budibase.com/blog/data/data-sources/), including internal and external database tables. With them, you can highlight the main metrics of your project, and track progress.
 
 ### Charts
 
-![Bug Chart](https://res.cloudinary.com/daog6scxm/image/upload/v1655210222/cms/6_jjgeag.png "Bugs Chart")
+![Bug Chart](https://res.cloudinary.com/daog6scxm/image/upload/v1655210222/cms/6_jjgeag.webp "Bugs Chart")
 
 Charts allow team members to understand what is going on in more detail. In our GitHub dashboard, you'll see a way to create charts [combining multiple data sources](https://budibase.com/blog/data/how-to-integrate-multiple-databases/). This is particularly useful when you can’t change the API response, and you need to merge data from different queries.
 
 ### Tables
 
-![Pull Requests Table](https://res.cloudinary.com/daog6scxm/image/upload/v1655210252/cms/5_sjvxjy.png "Pull Requests Table")
+![Pull Requests Table](https://res.cloudinary.com/daog6scxm/image/upload/v1655210252/cms/5_sjvxjy.webp "Pull Requests Table")
 
 You can use tables to see the details. They are a powerful tool for your GitHub metrics dashboard. You can use charts to understand the big picture, and tables to drill down on specific points that need your attention.
 
 ### Filters
 
-![GitHub Metrics Dashboard filter by pull request](https://res.cloudinary.com/daog6scxm/image/upload/v1655210278/cms/4_itydoe.png "GitHub Metrics Dashboard filter by pull request")
+![GitHub Metrics Dashboard filter by pull request](https://res.cloudinary.com/daog6scxm/image/upload/v1655210278/cms/4_itydoe.webp "GitHub Metrics Dashboard filter by pull request")
 
 You can use form components to change how your dashboard loads data. With them, you can apply different restrictions such as time scales, data types, filters, and users. Then, you can use these restrictions in your API and database queries to load filtered data.
 
 ### Admin
 
-![Admin Page Select Repo](https://res.cloudinary.com/daog6scxm/image/upload/v1655210319/cms/8_y4cb8q.png "Admin Page Select Repo")
+![Admin Page Select Repo](https://res.cloudinary.com/daog6scxm/image/upload/v1655210319/cms/8_y4cb8q.webp "Admin Page Select Repo")
 
 In addition to the front-end page, you might want an admin page. In our example, we have the repository as a form option. You can have more options though, such as visibility toggles, styling, user profile restrictions, global filters, and more.
 
@@ -99,7 +95,7 @@ Our GitHub metrics dashboard will be made up of two screens.
 
 We’ll start by creating a blank screen for our main dashboard, and set this to the app’s home screen. Set your desired access role and you can add the elements you want to your dashboard. Use the toolbar at the top to create blocks and elements:
 
-![Component select](https://res.cloudinary.com/daog6scxm/image/upload/v1655210363/cms/7_mdp5rn.png "Budibase builder select components")
+![Component select](https://res.cloudinary.com/daog6scxm/image/upload/v1655210363/cms/7_mdp5rn.webp "Budibase builder select components")
 
 This is what we have on our page:
 
@@ -120,7 +116,7 @@ This is what we have on our page:
     * Title - Pull Requests Currently open
     * Table
 
-![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1655210388/cms/Component_Tree_svttjg.png "Component Tree")
+![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1655210388/cms/Component_Tree_svttjg.webp "Component Tree")
 
 And this is the structure of components for our settings page:
 
@@ -167,7 +163,7 @@ To get data from a table, we can use views. In our metrics dashboard, we have 2 
 
 Next, we’ll actually configure our API connection. In the main screen for the REST setup, you can add authentication:
 
-![Connect to GitHub API Auth Page](https://res.cloudinary.com/daog6scxm/image/upload/v1655210433/cms/9_n59jad.png "Connect to GitHub API Auth Page")
+![Connect to GitHub API Auth Page](https://res.cloudinary.com/daog6scxm/image/upload/v1655210433/cms/9_n59jad.webp "Connect to GitHub API Auth Page")
 
 This is where you add your personal access token from GitHub.
 
@@ -177,17 +173,17 @@ We need to load data for your GitHub metrics dashboard. Thus, it’s time to cre
 
 Don’t forget to select the Auth method created above, like this:
 
-![Get Release](https://res.cloudinary.com/daog6scxm/image/upload/v1655210476/cms/10_d7dwi9.png "Get Release")
+![Get Release](https://res.cloudinary.com/daog6scxm/image/upload/v1655210476/cms/10_d7dwi9.webp "Get Release")
 
 All of your API queries get data using variables. In our metrics dashboard, we have the repo and the start date as variables. But you can add as many variables as you want. These are then accessible in your data providers.
 
 These variables are called bindings. You initialize them like this:
 
-![Configure GitHub API](https://res.cloudinary.com/daog6scxm/image/upload/v1655210501/cms/11_fabrpd.png "Configure GitHub API")
+![Configure GitHub API](https://res.cloudinary.com/daog6scxm/image/upload/v1655210501/cms/11_fabrpd.webp "Configure GitHub API")
 
 This is what you’d use to create a binding called “repo” with the default value of “Budibase/budibase”. Then, you use this variable in the URL or in the params tab, depending on how your API call is created. Like so:
 
-![Bind Repo Name](https://res.cloudinary.com/daog6scxm/image/upload/v1655210573/cms/13_cl4gfn.png "Bind Repo Name")
+![Bind Repo Name](https://res.cloudinary.com/daog6scxm/image/upload/v1655210573/cms/13_cl4gfn.webp "Bind Repo Name")
 
 Here is a list of our queries, URLs, and what bindings we are using in each of them.
 
@@ -237,7 +233,7 @@ If you want to use Budibase, you can copy what we did for the settings table. Th
    4. Charts: bugchart
    5. Row ID: {{ steps.2.rows.\[0\].\[_id\] }}
 
-![GitHub Metrics Dashboard Automation Flow](https://res.cloudinary.com/daog6scxm/image/upload/v1655210688/cms/Automation_Flow_hawma2.png "GitHub Metrics Dashboard Automation Flow")
+![GitHub Metrics Dashboard Automation Flow](https://res.cloudinary.com/daog6scxm/image/upload/v1655210688/cms/Automation_Flow_hawma2.webp "GitHub Metrics Dashboard Automation Flow")
 
 This is a base structure to update the open bugs count. You can repeat steps 2-4 for the other values (new bugs, bugs resolved).
 
@@ -252,7 +248,7 @@ In general, what we do is to:
 
 Let’s head back to our admin page. For demo purposes, it is a public page. But you can change which users can read it, with Budibase’s simple [role-based access control ](https://budibase.com/blog/app-building/role-based-access-control/)system.
 
-![GitHub Metrics Dashboard access roles](https://res.cloudinary.com/daog6scxm/image/upload/v1655210742/cms/14_yldalk.png "GitHub Metrics Dashboard access control")
+![GitHub Metrics Dashboard access roles](https://res.cloudinary.com/daog6scxm/image/upload/v1655210742/cms/14_yldalk.webp "GitHub Metrics Dashboard access control")
 
 This page contains two visible elements, an input field, and a button to save the options. To make it interactive, we need to know:
 
@@ -261,7 +257,7 @@ This page contains two visible elements, an input field, and a button to save th
 
 The current values are stored in our BudibaseDB. This means that we need to make this information available to our page. You can load data from any of your data sources using the data provider component.
 
-![Add a data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1655210802/cms/12_tvizrv.png "Data Provider")
+![Add a data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1655210802/cms/12_tvizrv.webp "Data Provider")
 
 You can add a new data provider, then rearrange elements using drag and drop to move the entire form beneath the data provider. This allows you to access the data from this provider in any of its child elements.
 
@@ -273,7 +269,7 @@ This happens because the Repo view is actually an array. And not just that view,
 
 You just need to extract your data from this provider. And you can do it with a data repeater:
 
-![Add a repeater](https://res.cloudinary.com/daog6scxm/image/upload/v1655210836/cms/15_rmbrbn.png "Add a repeater")
+![Add a repeater](https://res.cloudinary.com/daog6scxm/image/upload/v1655210836/cms/15_rmbrbn.webp "Add a repeater")
 
 You can add a new repeater as a child of the Repo data provider. Then add the form as a child of this repeater.
 
@@ -285,7 +281,7 @@ Now you can set up the default value for the input field using this value as the
 
 Next, you need to save the repo value when the “Save” button is clicked. You can do it by using the “OnClick” actions:
 
-![Set Button Action](https://res.cloudinary.com/daog6scxm/image/upload/v1655210877/cms/16_zfylyo.png "Set button Action")
+![Set Button Action](https://res.cloudinary.com/daog6scxm/image/upload/v1655210877/cms/16_zfylyo.webp "Set button Action")
 
 You can set up just one action or multiple actions. In our case, we just need to perform the “Save Row” action. Then use it to update the table settings, The value for the column is this one:
 
@@ -315,8 +311,6 @@ You’ll notice that it is just a JS array, like this:
     [...]
     }
     ]
-    
-    
 
 Since this is just an array, you can access its value with a code snippet like this one:
 
@@ -330,7 +324,7 @@ Your KPIs are already in place. But you need data providers for each of them.
 
 The first card uses the get_release query. Add a new data provider for it, but this time in its options you can pass the repo saved in your settings:
 
-![Bind Values](https://res.cloudinary.com/daog6scxm/image/upload/v1655210952/cms/17_hva5sw.png "Bind Values")
+![Bind Values](https://res.cloudinary.com/daog6scxm/image/upload/v1655210952/cms/17_hva5sw.webp "Bind Values")
 
 In order to get the actual release version, you can use a repeater or get the property from the data provider using JS code.
 
