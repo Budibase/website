@@ -366,7 +366,7 @@ For example, the number of closed new PRs comes from the combination of the numb
 
 The data table just requires a data provider as its parent. In the example, you should add the get_list_opne_prs provider and the table inside of it.
 
-If you want, you can hide some columns using the data transformers, similar to what you did to get the downloads count. Here is an example to remove most columns in the get_list_open_prs:
+If you want, you can hide some columns using the data transformers, similar to what you did to get the download count. Here is an example to remove most columns in the get_list_open_prs:
 
     return data.items.map(
     ( {title, html_url, user, labels} ) =>
