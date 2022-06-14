@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-06-13T23:00:00Z
 description = "Follow our tutorial to build a custom GitHub metrics dashboard with our incredible low-code platform."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1655209784/cms/How_to_Build_a_GitHub_Metrics_Dashboard_jt2mkg.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1655209790/cms/How_to_Build_a_GitHub_Metrics_Dashboard_ppba56.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
