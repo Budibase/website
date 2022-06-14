@@ -15,17 +15,17 @@ A quick way to overcome this is with a GitHub metrics dashboard.
 
 With a dashboard, you can instantly see everything you need to know. You can use a dedicated app to find out what is working well or to discover and fix issues.
 
-However, due to the unique nature of each project, it is hard to find a pre-made GitHub metrics dashboard that suits your needs.
+However, due to the unique nature of GitHub projects, it's hard to find a pre-made dashboard that suits your needs.
 
-The truth is, that a lot of metrics depend on your workflow and how your team tracks them. Therefore, it’s often faster and more effective to build your own dashboard.
+The truth is that a lot of metrics depend on your workflow and how your team tracks them. Therefore, it’s often faster and more effective to build your own dashboard.
 
 This seems counterintuitive until you realize how simple the process is. It’s just as easy as getting the hang of premade tools and trying to connect them to your repository.
 
-Today you’ll learn how to build a custom tool with Budibase.
+Today we’ll learn how to build a custom tool with Budibase.
 
-With our leading low-code platform, you can use premade components, connect to external APIs, query databases, save data, create automations, and much more.
+With our leading low-code platform, you can use premade components, connect to external APIs, query databases, visualize data, create automations, and much more.
 
-Even better, you can build deployable apps in as little as five minutes. Let's dive right in.
+Let's dive right in.
 
 ## Your GitHub Metrics Dashboard
 
