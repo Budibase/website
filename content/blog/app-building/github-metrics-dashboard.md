@@ -9,13 +9,11 @@ profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/
 title = "How to Build a GitHub Metrics Dashboard"
 
 +++
-Managing a GitHub repository is hard.
-
-You need to know what your team is working on. What are the next steps? What are the roadblocks?
+Managing a GitHub repository is hard. Your developers are too valuable to waste their time on simple admin tasks, like pulling stats.
 
 A quick way to overcome this is with a GitHub metrics dashboard.
 
-With a dashboard, you can instantly see everything you need to know. You can use a dedicated app to find out what is working well to praise your team. It also helps you discover and fix issues.
+With a dashboard, you can instantly see everything you need to know. You can use a dedicated app to find out what is working well or to discover and fix issues.
 
 However, due to the unique nature of each project, it is hard to find a pre-made GitHub metrics dashboard that suits your needs.
 
@@ -23,13 +21,11 @@ The truth is, that a lot of metrics depend on your workflow and how your team tr
 
 This seems counterintuitive until you realize how simple the process is. It’s just as easy as getting the hang of premade tools and trying to connect them to your repository.
 
-The result is a GitHub metrics dashboard tailored to your needs. It's faster, your data is safe, it's customizable, and you don't need to pay a monthly subscription.
-
-Today you’ll learn how to do it with Budibase.
+Today you’ll learn how to build a custom tool with Budibase.
 
 With our leading low-code platform, you can use premade components, connect to external APIs, query databases, save data, create automations, and much more.
 
-Let’s see how you can use Budibase to build your perfect GitHub dashboard.
+Even better, you can build deployable apps in as little as five minutes. Let's dive right in.
 
 ## Your GitHub Metrics Dashboard
 
