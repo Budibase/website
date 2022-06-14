@@ -33,6 +33,7 @@ pages:
 - content/blog/20-free-app-templates/index.md
 - content/blog/app-building/data-access-control.md
 - content/blog/app-building/difference-between-rule-based-role-based-access-control.md
+- content/blog/app-building/github-metrics-dashboard.md
 - content/blog/app-building/how-to-implement-rbac.md
 - content/blog/app-building/public-forms-how-to-build-them-in-minutes.md
 - content/blog/app-building/role-based-access-control.md
