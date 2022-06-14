@@ -112,8 +112,6 @@ This is what we have on our page:
     * Title - Pull Requests Currently open
     * Table
 
-![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1655210388/cms/Component_Tree_svttjg.webp "Component Tree")
-
 And this is the structure of components for our settings page:
 
 * Form
@@ -183,12 +181,12 @@ This is what you’d use to create a binding called “repo” with the default 
 
 Here is a list of our queries, URLs, and what bindings we are using in each of them.
 
-* **Get_list_open_prs** - _https://api.GitHub.com/search/issues?q=+type:pr+repo:{{repo}}+is:open_
-* **Get_monthly_prs** - _https://api.GitHub.com/search/issues?q=+type:pr+repo:{{repo}}+created:%3E={{datecreated}}+sort:created-asc_
-* **Get_monthly_prs_open** - _https://api.GitHub.com/search/issues?q=+type:pr+repo:{{repo}}+created:%3E={{datecreated}}+sort:created-asc+is:open_
-* **Get_open_prs** - _https://api.GitHub.com/search/issues?q=+type:pr+repo:{{repo}}+is:open_
-* **Get_release** - _https://api.GitHub.com/repos/{{repo}}/releases/latest_
-* **Get_repo** - _https://api.GitHub.com/repos/{{repo}}_
+* **Get_list_open_prs** - https://api.GitHub.com/search/issues?q=+type:pr+repo:{{repo}}+is:open
+* **Get_monthly_prs** - https://api.GitHub.com/search/issues?q=+type:pr+repo:{{repo}}+created:%3E={{datecreated}}+sort:created-asc
+* **Get_monthly_prs_open** - https://api.GitHub.com/search/issues?q=+type:pr+repo:{{repo}}+created:%3E={{datecreated}}+sort:created-asc+is:open
+* **Get_open_prs** - https://api.GitHub.com/search/issues?q=+type:pr+repo:{{repo}}+is:open
+* **Get_release** - https://api.GitHub.com/repos/{{repo}}/releases/latest
+* **Get_repo** - https://api.GitHub.com/repos/{{repo}}
 
 In addition to the simple queries, we have some special cases. First, there’s the query to get the number of downloads for the latest release. In it, we use the same API call as the get_release
 
