@@ -178,18 +178,18 @@ This is what you’d use to create a binding called “repo” with the default 
 
 ![Bind Repo Name](https://res.cloudinary.com/daog6scxm/image/upload/v1655210573/cms/13_cl4gfn.webp "Bind Repo Name")
 
-Here is a list of our queries, URLs, and what bindings we are using in each of them.
+Here is a list of our queries, URL extensions, and what bindings we are using in each of them.
 
-* **Get_list_open_prs** - https://api.GitHub.com/search/issues?q=+type:pr+repo:{{repo}}+is:open
-* **Get_monthly_prs** - https://api.GitHub.com/search/issues?q=+type:pr+repo:{{repo}}+created:%3E={{datecreated}}+sort:created-asc
-* **Get_monthly_prs_open** - https://api.GitHub.com/search/issues?q=+type:pr+repo:{{repo}}+created:%3E={{datecreated}}+sort:created-asc+is:open
-* **Get_open_prs** - https://api.GitHub.com/search/issues?q=+type:pr+repo:{{repo}}+is:open
-* **Get_release** - https://api.GitHub.com/repos/{{repo}}/releases/latest
-* **Get_repo** - https://api.GitHub.com/repos/{{repo}}
+* **Get_list_open_prs** - /search/issues?q=+type:pr+repo:{{repo}}+is:open
+* **Get_monthly_prs** - /search/issues?q=+type:pr+repo:{{repo}}+created:%3E={{datecreated}}+sort:created-asc
+* **Get_monthly_prs_open** - /search/issues?q=+type:pr+repo:{{repo}}+created:%3E={{datecreated}}+sort:created-asc+is:open
+* **Get_open_prs** - /search/issues?q=+type:pr+repo:{{repo}}+is:open
+* **Get_release** - /repos/{{repo}}/releases/latest
+* **Get_repo** - /repos/{{repo}}
 
 In addition to the simple queries, we have some special cases. First, there’s the query to get the number of downloads for the latest release. In it, we use the same API call as the get_release
 
-* Get_release_downloads - https://api.GitHub.com/repos/{{repo}}/releases/latest
+* **Get_release_downloads** - /repos/{{repo}}/releases/latest
 
 But this API call won’t give us the download count. We need to sum up the downloads in each of the assets. The general structure is:
 
@@ -358,7 +358,7 @@ In this case, the date field has our desired formatting. But you could use JS fu
 For example, the number of closed new PRs comes from the combination of the number of new PRs open and the number of new PRs in general. After you add these data providers nested to each other, you can use this JS code:
 
     var closed = parseInt( $("newprs.Rows")[0]['total_count'] ) - parseInt( $("newOpenPrs.Rows")[0]['total_count'] )
-    var percent = parseInt ( 100 * ( 1 - ( parseInt( $("newOpenPrs.Rows")[0]['total_count'] ) / parseInt( $("newprs.Rows")[0]['total_count'] ) ) ) )
+    var percent = parseInt(100*(1-(parseInt($("newOpenPrs.Rows")[0]['total_count'])/parseInt($("newprs.Rows")[0]['total_count']))))
     return closed + " (" + percent + "% ) "
 
 ## How to load a data table
@@ -394,6 +394,8 @@ Here is a simple example of a styling embed:
 
 Today you’ve learned how to build a GitHub metrics dashboard. In addition, you’ve learned how you can load and process data using Budibase. By the end of the day, you should be able to create your own dashboards, loading custom elements with filtering options, styling, charts, and more.
 
+To find out more about the kinds of tools you can create with Budibase, have a look at our [product page](https://budibase.com/product).
+
 We hope you’ve enjoyed it, and see you again next time!
 
-To find out more about the kinds of tools you can create with Budibase, have a look at our [product page](https://budibase.com/product). Or, for more inspiration, check out our range of pre-built [app templates.](https://budibase.com/templates)
+For more inspiration, check out our range of pre-built [app templates.](https://budibase.com/templates)
