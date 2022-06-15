@@ -357,9 +357,11 @@ In this case, the date field has our desired formatting. But you could use JS fu
 
 For example, the number of closed new PRs comes from the combination of the number of new PRs open and the number of new PRs in general. After you add these data providers nested to each other, you can use this JS code:
 
-    var closed = parseInt( $("newprs.Rows")[0]['total_count'] ) - parseInt( $("newOpenPrs.Rows")[0]['total_count'] )
+    var closed = parseInt( $("newprs.Rows")[0]['total_count'] ) 
+    - parseInt( $("newOpenPrs.Rows")[0]['total_count'] )
     var percent = 
-    parseInt(100*(1-(parseInt($("newOpenPrs.Rows")[0]['total_count'])/parseInt($("newprs.Rows")[0]['total_count']))))
+    parseInt(100*(1-(parseInt($("newOpenPrs.Rows")[0]['total_count'])
+    /parseInt($("newprs.Rows")[0]['total_count']))))
     return closed + " (" + percent + "% ) "
 
 ## How to load a data table
