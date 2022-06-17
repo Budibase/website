@@ -206,7 +206,7 @@ Essentially, these are pre-built blocks that normally display values for one or 
 
 In dashboards and admin panels, statistics cards are normally used to display aggregate values. This could be the total number of requests that have been made to a particular platform or the average rating given by users to a specific product.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1655458925/cms/Cards_qhiemr.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1639410530/cms/Employee_Directory_Template_1_yjobma.png)
 
 ### Data providers and repeaters
 
@@ -283,7 +283,7 @@ Accessibility also covers the steps you take to provide effective experiences fo
 
 For example, we still want to provide top-quality experiences to users with poor internet connections or older devices. Performant, fast-loading UIs are critical here.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1655458877/cms/Mobile_Friendly_UI_m7cd5r.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1655462323/cms/Frame_456_5_qmzuxw.png)
 
 ### What is a mobile-friendly UI?
 
@@ -331,7 +331,7 @@ This helps to ensure that users intuitively understand how your tools work and t
 
 Let’s take a look at some of the most important app UI design patterns you can draw on.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1655458833/cms/CRUD_Apps_uvy3qb.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1655462780/cms/Cards_Page_bq1ung.png)
 
 ### 1. CRUD apps
 
@@ -355,7 +355,7 @@ So, you might decide you need an additional details screen for each entry. That 
 
 You could also tailor your CRUD UIs to your more specific needs using techniques like multi-step forms, modal screens, or [implementing RBAC](https://budibase.com/blog/app-building/how-to-implement-rbac/) to restrict different functions.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1655458808/cms/Sign-up_Forms_si74zi.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1655463019/cms/Frame_456_6_wvaksi.png)
 
 ### 2. Sign-up forms
 
@@ -377,7 +377,7 @@ For example, in a lead generation form, you’ll often want to minimize the amou
 
 In any case, there are several techniques we can leverage to optimize our form UIs. For example, providing progress bars, or breaking information into sections and smaller form steps, so we don’t overwhelm users.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1655458774/cms/Admin_Panels_2_qfrwjb.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1655463807/cms/Frame_457_1_smkhfv.png)
 
 ### 3. Dashboards and admin panels
 
@@ -393,7 +393,7 @@ For example, for a relatively simple dataset, you could easily balance these iss
 
 For more complex data sets, you might need to think about how you can categorize different metrics across multiple screens or tabs.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1655458750/cms/Portals_qcynoq.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1655464290/cms/Frame_458_wezuh2.png)
 
 ### 4. Portals
 
@@ -409,7 +409,7 @@ One of the most important is creating effective top-level navigation menus, with
 
 Besides this, other navigational elements, like breadcrumbs, can provide additional ways to quickly return to important screens within your portal UI.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1655458731/cms/Information_Apps_giihzy.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1655464840/cms/directories_l4lajr.png)
 
 ### 5. Information apps
 
@@ -423,7 +423,7 @@ Budibase offers searchability in a couple of different ways. As we saw earlier, 
 
 Alternatively, we have a pre-build dynamic filter component. This can be configured so that users can use complex combinations of filtering conditions, based on any stored attributes you want to make available.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1655458711/cms/Information_Apps_2_cxx5lt.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1655465173/cms/approval_srjnet.png)
 
 ### 6. Approval apps
 
@@ -439,7 +439,7 @@ Approvals can work in a few different ways.
 
 For basic requests, you might opt for a simple details screen, with buttons to mark an entry as approved or declined. In more complex workflows, you might choose an edit form UI, so users can approve specific elements of the request or provide the rationale for their decision
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1655458670/cms/Information_Apps_3_ie7arg.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1655464825/cms/directories_1_hrqrrb.png)
 
 ### 7. Directories
 
