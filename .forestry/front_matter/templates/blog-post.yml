@@ -31,6 +31,7 @@ fields:
   label: meta image
 pages:
 - content/blog/20-free-app-templates/index.md
+- content/blog/app-building/app-ui-design-ultimate-guide.md
 - content/blog/app-building/data-access-control.md
 - content/blog/app-building/difference-between-rule-based-role-based-access-control.md
 - content/blog/app-building/github-metrics-dashboard.md
