@@ -26,7 +26,6 @@
 .hs-mega-menu {
 	display: none;
 	position: absolute;
-	left: 0;
 	top: 100%;
 	z-index: 2;
 	margin-top: 0;
@@ -164,7 +163,7 @@
 ------------------------------------*/
 
 	.hs-menu-initialized.hs-menu-horizontal .hs-mega-menu.hs-position-left {
-		left: 0;
+
 		right: auto;
 	}
 

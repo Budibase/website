@@ -1,29 +1,23 @@
-  <div class="container">
+  <div class="bg-light1">
+  <div class="container space-hero">
     <div class="hero-container">
       <div class="">
-        <h1 class=" mb-5 font-weight-semi-bold hero-title text-dark ">
-          Build internal apps in minutes, <span class="linear-wipe pr-1">the easy way </span> 
+        <h1 class="mb-3 hero-title text-dark ">
+          Build internal tools the easy way
         </h1>
-        {{ partial "button-block.html" . }}
-        <div class="mt-5">
-          {{ partial "logo-reel-sm.html" . }}
-          </div>
+        <p class="mb-4 mr-2 w-lg-70">Budibase is <span class="text-black font-weight-medium">open-source</span> and the easy way to build apps, forms, workflows - so you can move forward, faster.</p>
+        <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=homepage-hero-section" target="_blank"  rel="noopener">
+          <button type="submit" class="btn btn-cta btn-lg sm-btn-block">Try Budibase free</button>
+        </a>        
+        <div class="mt-4">{{ partial "logo-reel-sm.html" . }}</div> 
       </div>
-  
-      <div class="hero-image video-mask rounded">
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/696052886?h=a0babe9d15&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Budibase intro.mov"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>    </div>
+      <div class="hero-image video-mask rounded-lg">
+        <video src="https://res.cloudinary.com/daog6scxm/video/upload/v1628151026/2.%20Animation/1._1200px-10s_kp1nyz.mp4" class="img-fluid" preload="auto" autoplay="true" loop="loop" />
+        <!--<div style="padding:56.25% 0 0 0;position:relative;"><iframe
+            src="https://player.vimeo.com/video/696052886?h=a0babe9d15&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+            style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Budibase intro.mov"></iframe></div>
+        <script src="https://player.vimeo.com/api/player.js"></script>-->
       </div>
+    </div>
   </div>
-  
-  
-  <div class="mt-6 space-2-bottom">
-    {{ partial "solutions-banner.html" . }}
-    </div>
-
-    <div class=" my-md-9 my-2">
-    {{ partial "features-intro.html" . }}
-    </div>
-
-  
-  
-  
