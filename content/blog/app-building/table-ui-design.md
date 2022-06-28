@@ -72,7 +72,7 @@ Typically, you’ll want to include your unique display columns, along with any 
 
 Any more in-depth information could then be accessible through a separate details screen.
 
-In other cases, you might opt to include more fields and allow users to scroll horizontally across your table, as well as vertically. For example, in information-heavy enterprise UIs we might want to prioritize fast data access over aesthetics.
+In other cases, you might opt to include more fields and allow users to scroll horizontally across your table, as well as vertically. For example, in information-heavy [enterprise app UIs](blog/app-building/enterprise-app-ui-design) we might want to prioritize fast data access over aesthetics.
 
 ## 2. Understand your users
 
@@ -147,7 +147,7 @@ We have a couple of different options for how we can implement these. For exampl
 
 Each of these decisions can subtly alter the usability of your apps.
 
-For example, modal screens are a good way to display more detailed information or update forms UIs, without removing the user from the main table UI. This offers excellent backward navigation, which is helpful when users need to take repetitive actions on multiple entries.
+For example, modal screens are a good way to display more detailed information or update [forms UIs](blog/app-building/form-ui-design), without removing the user from the main table UI. This offers excellent backward navigation, which is helpful when users need to take repetitive actions on multiple entries.
 
 Deciding between embedded links and clickable rows is another important decision point. Clickable rows allow you to dedicate more space in your table UIs to displaying information.
 
@@ -269,7 +269,7 @@ As such, you should treat embedded components as you would any other column, and
 
 ## 14. Designing screens around table components
 
-Finally, let’s think about how we can design our wider app screens to get the best effect out of our table UIs. That is, how we can make tables fit most effectively into our overall app designs.
+Finally, let’s think about how we can build our wider app [UI design](blog/app-building/app-ui-design) to get the best effect out of our tables. That is, how we can make tables fit most effectively into our overall app designs.
 
 For a start, there’s the issue of how prominent tables should be within a given screen. As we hinted at earlier, we can distinguish between screens where tables are the primary focus and those where they’re a secondary concern.
 
@@ -321,7 +321,7 @@ Add filtering components, alter our default designs, or configure your own displ
 
 ### Configurable data sources
 
-Budibase supports a leading range of internal and external data sources. We’ve created dedicated data connectors for a huge number of common data sources, including MSSQL, MySQL, Postgres, REST API, Airtable, Mongo, CouchDB, Oracle, S3, and more.
+Budibase supports a leading range of internal and external [data sources](https://budibase.com/blog/data/data-sources/). We’ve created dedicated data connectors for a huge number of common data sources, including MSSQL, MySQL, Postgres, REST API, Airtable, Mongo, CouchDB, Oracle, S3, and more.
 
 We’ve built intuitive UIs for configuring each data source, with minimal technical skills required.
 
@@ -329,7 +329,7 @@ Use Budibase to build usable, low-code interfaces for all kinds of external data
 
 We also offer our dedicated built-in database.
 
-Quickly create a data model from scratch, using a wide range of different data types and simple relationships between tables. We even offer direct CSV uploads to build apps around spreadsheet data.
+Quickly [create a data model](https://budibase.com/blog/data/how-to-create-a-data-model/) from scratch, using a wide range of different data types and simple relationships between tables. We even offer direct CSV uploads to build apps around spreadsheet data.
 
 Budibase is the flexible, easy way to build data-centric apps for a huge range of existing and new data sets.
 
@@ -387,10 +387,10 @@ For example, something like:
 
 Building professional table UIs doesn’t need to be time-consuming. With Budibase, it’s never been faster or easier to build incredible app interfaces, with minimal custom code. Businesses around the world choose Budibase for smooth, cost-effective developer experiences.
 
-Connect a vast range of data sources and build CRUD apps in seconds.
+Connect a vast range of data sources and build [CRUD apps](https://budibase.com/blog/crud-app/) in seconds.
 
 We offer optional self-hosting, configurable RBAC, free SSO, custom automations, cloud deployments, an intuitive design system, and more.
 
 Build everything from simple data entry tools and approval platforms to complex portal apps, in a matter of minutes.
 
-We’ve also created more than 50 free app templates to help you get started. Sign up to Budibase for free to start building stunning, professional applications.
+We’ve also created more than 50 free [app templates](https://budibase.com/templates/) to help you get started. Sign up to Budibase for free to start building stunning, professional applications.
