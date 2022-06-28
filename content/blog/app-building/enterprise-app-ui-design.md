@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-06-27T23:00:00Z
 description = "Today, we’re diving deep into enterprise app UI design. Read our in-depth guide for everything you need to know about building efficient interfaces."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1656427013/cms/Enterprise_App_UI_Design_Header_jeprgx.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1656427021/cms/Enterprise_App_UI_Design_Header_ro1mhj.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
