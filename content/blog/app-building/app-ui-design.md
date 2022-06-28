@@ -113,6 +113,8 @@ On one level, this contributes to some of the other points we touched on above, 
 
 Besides this, limiting the actions different users can take helps to prevent a number of security and compliance issues, including unauthorized access, data loss, breaches, corruption, and more, as well as the costs associated with each of these.
 
+Check out our in-depth guide to [enterprise app UI design](blog/app-building/enterprise-app-ui-design).
+
 ## 6 essential UI design principles
 
 So far, we’ve covered why app UI design is important, along with how it can have a material impact on your business. Next, we’ll turn our attention to the core principles of effective design, so you can begin to build incredible in-app experiences.
@@ -156,7 +158,7 @@ Similarly, we want to minimize the number of actions and user inputs required to
 
 Obviously, many user actions are a lot more complex than simple in-app navigation.
 
-Luckily, you have a range of different options available to you for different tasks. For example, in a data entry UI, you can use multi-step forms to help guide users through different categories of information, and default values to reduce the amount of manual work needed.
+Luckily, you have a range of different options available to you for different tasks. For example, in a data entry tool, you can use multi-step [form UIs ](blog/app-building/form-ui-design)to help guide users through different categories of information, and default values to reduce the amount of manual work needed.
 
 ### 5. Prioritize recognition over recall
 
@@ -192,7 +194,7 @@ Besides simply giving users a way to input information, form components can be u
 
 ### Tables
 
-At a basic level, tables are fairly self-explanatory. That is, tables are a familiar way of detailing information on different database entries and entities. However, the more specific design of your tables can have a huge impact on your overall app’s UI.
+At a basic level, [table UIs ](blog/app-building/table-ui-design)are fairly self-explanatory. That is, tables are a familiar way of detailing information on different database entries and entities. However, the more specific design of your tables can have a huge impact on your overall app’s UI.
 
 For example, there’s a balance to be struck between providing sufficient information for your users at a glance and preventing cognitive overload.
 
@@ -239,7 +241,7 @@ For instance, Budibase offers pre-built map components, that offer extensive int
 
 ### Charts, graphs, and visualization tools
 
-Data visualization is crucial for all sorts of internal tools, dashboards, admin panels, and more. Data-driven apps require advanced charts, graphs, and other visualization tools that can draw on a range of stored attributes and aggregate values.
+Data visualization is crucial for all sorts of internal tools, dashboards, [admin panels](https://budibase.com/admin-panels), and more. Data-driven apps require advanced charts, graphs, and other visualization tools that can draw on a range of stored attributes and aggregate values.
 
 The idea is to provide interfaces that update with new data in real-time, without the need for manual action.
 
@@ -335,7 +337,7 @@ Let’s take a look at some of the most important app UI design patterns you can
 
 ### 1. CRUD apps
 
-CRUD apps are some of the most basic tools around, allowing users to create, read, update, or delete database entries. However, their ubiquity means that even small variations in your user experience can have outsize impacts on your bottom line.
+[CRUD apps](https://budibase.com/blog/crud-app/) are some of the most basic tools around, allowing users to create, read, update, or delete database entries. However, their ubiquity means that even small variations in your user experience can have outsize impacts on your bottom line.
 
 For example, if you had 1000s of employees working on a simple data entry tool, even a small improvement in efficiency or accuracy could lead to huge boosts in productivity.
 
@@ -381,7 +383,7 @@ In any case, there are several techniques we can leverage to optimize our form U
 
 ### 3. Dashboards and admin panels
 
-For dashboards and [admin panels](https://budibase.com/admin-panels/), the priority is efficient access to information. That is, these kinds of tools are designed to allow users to instantly check key metrics. For example, you might use a simple admin panel to track online orders.
+For dashboards and admin panels, the priority is efficient access to information. That is, these kinds of tools are designed to allow users to instantly check key metrics. For example, you might use a simple admin panel to track online orders.
 
 Naturally, these types of tools rely heavily on a combination of charts, graphs, cards, and other visualization components.
 
