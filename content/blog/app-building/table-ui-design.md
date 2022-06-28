@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-06-27T23:00:00Z
 description = "Table UI design is central to how your users find, view, and interact with all kinds of data. Check out our 14 tips for building more efficient apps."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1656428330/cms/Table_UI_Design_Header_yqtrzd.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1656428363/cms/Table_UI_Design_Header_st4oix.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"

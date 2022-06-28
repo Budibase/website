@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-06-27T23:00:00Z
 description = "Form UI design is one of the essential skills in any designer’s arsenal. Check out our 21 tips for building incredible forms."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1656427647/cms/Form_UI_Design_Header_isqpxm.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1656427656/cms/Form_UI_Design_Header_lleswh.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
