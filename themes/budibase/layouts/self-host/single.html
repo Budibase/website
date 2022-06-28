@@ -1,56 +1,240 @@
-{{ partial "header.html" . }}
-{{ partial "navigation.html" . }}
-    <div class="container-7 space-2 hero-3">
-        <h1>Pricing</h1>
-    <p class="lead mt-4 space-1-bottom">
-      The Budibase builder is open source and free to use. There are some additonal features, outside the Budibase builder, that are paid.
-    </p> 
-    <hr class="space-1-bottom" />
-    <div class="pricing mb-9">
-      <div class="pricing-card">
-        <div class="pricing-in-content">
-          <h5 class="mb-2 text-light">Free Forever</h5>
-          <h3 class="mb-3 text-white">$0</h3>
-          <div class="mb-4 mx-auto">
-            <a href=" https://account.budibase.app/register"><button type="submit" class="btn btn-sm btn-block btn-primary">Get Started</button></a>
-          </div> 
-          <p class="mb-3 text-xs ">Unlimited potential, all within your secure infrastructure: </p>
-            <p class="mb-2 text-xs font-weight-medium"><span class="font-weight-medium text-white">✓</span> Unlimited records</p>  
-            <p class="mb-2 text-xs font-weight-medium"><span class="font-weight-medium text-white">✓</span> Unlimited apps</p>  
-            <p class="mb-2 text-xs font-weight-medium"><span class="font-weight-medium text-white">✓</span> Unlimited users</p>  
-            <p class="mb-2 text-xs font-weight-medium "><span class="font-weight-medium">✓</span> Everything in the builder</p>
-        </div> 
-      </div>
-      <div class="pricing-card">
-        <div class="pricing-in-content">
-          <h5 class="mb-2 text-light">Pro</h5>
-          <h3 class="mb-3">$20 <span class="h6">per end-user / month</span></h3>
-          <div class="mb-4 mx-auto">
-            <button type="submit" class="btn btn-block disabled">Coming soon</button>
-          </div>  
-          <p class="mb-3 text-xs ">All the benefits of the Standard package, and:
-            <p class="mb-2 text-xs font-weight-medium"><span class="font-weight-medium">✓</span> Global user management</p>  
-            <p class="mb-2 text-xs font-weight-medium"><span class="font-weight-medium">✓</span> Global app management</p>
-              <p class="mb-2 text-xs font-weight-medium"><span class="font-weight-medium">✓</span> SSO / SAML</p>  
-              <p class="mb-2 text-xs font-weight-medium"><span class="font-weight-medium">✓</span> Email Support</p>
-        </div>
-      </div>
-      <div class="pricing-card">
-        <div class="pricing-in-content">
-          <h5 class="mb-2 text-light">Enterprise</h5>
-          <h3 class="text-white mb-3">Contact Us</h3>
-          <div class="text-white mb-4 mx-auto">
-            <button type="submit" class="btn btn-block disabled">Coming soon</button>
-          </div>  
-            <p class="mb-3 text-xs">All the benefits of the Pro package, and:
-              <p class="mb-2 text-xs font-weight-medium"><span class="font-weight-medium">✓</span> Priority Support</p>  
-              <p class="mb-2 text-xs font-weight-medium"><span class="font-weight-medium">✓</span> Dedicated onboarding</p>
-        </div>
-      </div>
-      <div>
+{{ partial "header.html" . }} {{ partial "navigation.html" . }}
+<div class="container mx-auto">
+  <div class="pricing-card-title space-2-top text-center">
+    <h1 class="mb-3">Budibase Pricing</h1>
+    <p class="display-lead-sm text-dark mb-4 mx-auto opacity-75">Use Budibase for free with your whole team. <br> Let's put an end to end-user pricing.  </p>
+  </div>
+
+  <div class="pricing-tabs-container flex-row gap-md mb-4">
+    <div class="pricing-tabs px-2 py-1">
+    <div class="">
+      <a href="/self-host">
+        <button class="btn btn-primary">Self-Managed (You host)</button> </a>
     </div>
+    <div class="">
+      <a href="/pricing">
+        <button class="btn btn-quiet">Cloud (We host)</button> </a>
+    </div>
+  </div>
+</div>
+  
+  <div class="pricing container-12">
+
+<!--
+<div class="pricing-card bg-alt-light border-grey rounded-sm">
+  <div class="pricing-card-top">
+    <div class="u-xs-avatar mb-2 flex-row">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+      </svg>
+  </div>
+    <h3 class="mb-2 text-red">Open source</h3>
+    <p class="mb-3 small">Self-host Budibase on your own infrastructure, without premium features.
+    </p>
+  </div>
+  <div class="pricing-card-bottom">
+    <div class="flex-row align-center">
+      <div class="">
+      <h2 class="mb-3">Free</h2>
+    </div>
+    </div>
+    <p class="text-xs mb-3">Run on your own infrastructure</p>
+    <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=open-source-pricing" target="_blank"
+    ><button type="submit" class="btn btn-block btn-primary mb-3">
+      Self-host
+    </button></a
+  >
+    <p class="mb-3 detail-sm font-dark">FREE FEATURES:</p>
+    <p class="mb-2 text-xs">
+      <span class="text-dark">✓</span> Connect to 20+ data sources
+    </p>
+    <p class="mb-2 text-xs">
+      <span class="text-dark">✓</span> Build apps with 40+ components
+    </p>
+    <p class="mb-2 text-xs">
+      <span class="text-dark">✓</span> Run automations
+    </p>
+    <p class="mb-2 text-xs">
+      <span class="text-dark">✓</span> SSO + RBAC + Email automations
+    </p>
+    <p class="mb-2 text-xs">
+      <span class="text-dark">✓</span> Community support
+    </p>
+  </div>
+</div>
+ --->
+    <div class="pricing-card bg-light-2 border-grey rounded-sm">
+      <div class="pricing-card-top">
+        <h3 class="mb-2 text-green">Open source</h3>
+        <p class="mb-3 small">Great for individuals getting started with Budibase.
+        </p>
+       
+      </div>
+      <div class="pricing-card-bottom">
+          <div class="flex-row align-center">
+            <div class="mt-3">
+              <p class="text-xs detail-sm">Free forever</p>
+              <h2 class="mb-1">$0</h2>
+            </div>
+          </div>
+          <p class="text-xs mb-3">No credit card required.</p>
+          <!--
+          <select name="cloudusage" id="cloudusage" class="w-100 mb-4 p-2">
+            <option value="5000">1K queries /mo</option>
+          </select>
+          --->
+        <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=open-source-pricing"
+          target="_blank"><button type="submit" class="btn btn-block btn-cta mb-3">
+            Get started for free
+          </button></a>
+        <p class="mb-3 detail-sm font-dark">FREE FEATURES:</p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> Deploy via Docker, Kubernetes, and more.
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> Connect to 20+ data sources
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> Build apps with 40+ components
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> Run automations
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> SSO + RBAC + Email automations
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> Community support
+        </p>
+      </div>
+    </div>
+    <div class="pricing-card bg-light-2 border-grey rounded-sm">
+      <div class="pricing-card-top">
+        <h3 class="mb-2 text-blue">Pro</h3>
+        <p class="mb-3 small">For growing teams building production apps.
+        </p>
+      </div>
+
+      <div class="pricing-card-bottom">
+        <div class="flex-row align-center">
+          <div class="mt-3">
+            <p class="text-xs detail-sm">As low as:</p>
+            <h2 class="mb-1">$50 <span class="detail-sm">/ month per developer</span></h2>
+          </div>
+        </div>
+        <p class="text-xs mb-3">Billed annually, or $60 month-to-month.</p>
+        <!--
+        <select name="cloudusage" id="cloudusage" class="w-100 mb-4 p-2">
+          <option value="5000">5K queries /mo</option>
+          <option value="10000">10K queries /mo</option>
+          <option value="20000">20K queries /mo</option>
+          <option value="50000">50K queries /mo</option>
+          <option value="100000">100K queries /mo</option>
+          <option value="500000">500K queries /mo</option>
+          <option value="1000000">1M queries /mo</option>
+        </select>
+        --->
+        <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=open-source-pricing"
+          target="_blank"><button type="submit" class="btn btn-block btn-cta mb-3">
+            Start 14-day free trial
+          </button></a>
+        <p class="mb-3 detail-sm font-dark">EVERYTHING IN OPEN SOURCE, PLUS:</p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> Cloud hosting & management
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> Up to 10,000 queries per month
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> Multi-user collaboration
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> 2 Environments
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> 5 Workspaces
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> 6-month revision history
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> 7-day automation logs
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> Saved components
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> Advanced RBAC
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> Email support
+        </p>
+      </div>
+    </div>
+
+
+    <!--Enterprise-->
+    <div class="pricing-card bg-alt border-grey rounded-sm">
+      <div class="pricing-card-top">
+        <h3 class="mb-2 text-dark">Enterprise</h3>
+        <p class="mb-3 small">Benefit from premium features, priority support, and self-hosting.
+        </p>
+      </div>
+      <div class="pricing-card-bottom">
+        <div class="flex-row align-center">
+          <div class="mt-3">
+            <p class="text-xs detail-sm">Custom pricing</p>
+
+            <h2 class="mb-1">Flexible</h2>
+          </div>
+        </div>
+        <p class="text-xs mb-3">If you are interested, please join the waiting list.</p>
+        <a href="https://calendly.com/mjashanks/budibase-demo" target="_blank"><button type="submit"
+            class="btn btn-block btn-primary mb-3">
+            Join waiting list
+          </button></a>
+        <p class="mb-3 detail-sm font-dark">EVERYTHING IN PRO, PLUS:</p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> Self-hosting
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> Multi-tenancy
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> SLAs
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> Priority support
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> 3 year revision history
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> Dedicated account manager
+        </p>
+        <p class="mb-2 text-xs">
+          <span class="text-dark">✓</span> Dedicated onboarding
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container-12 my-4 bg-dark p-6 rounded border">
+    <div class="u-xs-avatar mb-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="gray"
+        stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+      </svg>
+    </div>
+    <h3 class="mb-2 text-white">Open Source Edition</h3>
+    <p class="mb-3 small text-gray w-lg-60">Run Budibase on your own infrastructure using Docker, Kubernetes, Linode, Digital Ocean, and more.
+    </p>
+    <a href="https://calendly.com/mjashanks/budibase-demo" target="_blank"><button type="submit"
+      class="btn btn-outline mb-3">
+      Self-host Budibase
+    </button></a>
+  </div>
 </div>
 </div>
 
 {{ partial "footer.html" . }}
-<div class="space-5"></div>
