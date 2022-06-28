@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-06-16T23:00:00Z
 description = "Building apps is all about making users’ lives easier and more efficient. Your app UI design is critical. Here’s everything you need to know."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1655458513/cms/What_is_IT_Process_Automation_Header_q8ewx6.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1655458520/cms/What_is_IT_Process_Automation_Header_tkntva.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
