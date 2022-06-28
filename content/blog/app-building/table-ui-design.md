@@ -269,7 +269,7 @@ As such, you should treat embedded components as you would any other column, and
 
 ## 14. Designing screens around table components
 
-Finally, let’s think about how we can build our wider app [UI design](blog/app-building/app-ui-design) to get the best effect out of our tables. That is, how we can make tables fit most effectively into our overall app designs.
+Finally, let’s think about how we can build our wider [app UI design](blog/app-building/app-ui-design) to get the best effect out of our tables. That is, how we can make tables fit most effectively into our overall app designs.
 
 For a start, there’s the issue of how prominent tables should be within a given screen. As we hinted at earlier, we can distinguish between screens where tables are the primary focus and those where they’re a secondary concern.
 
