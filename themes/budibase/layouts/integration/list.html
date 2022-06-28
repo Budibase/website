@@ -5,18 +5,17 @@
 <div class="space-2">
   <div class="container">
     <div class="w-lg-50 mx-auto">
-      <h1 class="mb-3 text-center hero-title mb-4">
+      <h1 class="mb-3 text-center mb-4">
         Explore integrations
       </h1>
     </div>
     <div class="w-lg-60 mx-auto">
-      <p class="mx-auto display-lead-lg mb-4 text-center"> Connect to almost anything with a REST API, or use one of our native integrations to extend and automate your workflows.
+      <p class="w-lg-80 mx-auto mb-4 text-center"> Connect to almost anything with a REST API, or use one of our native integrations to extend and automate your workflows.
       </p>
     </div>
   </div>
 </div>
-<div class="bg-alt pt-6">
-<div class="container-narrow mt-6">
+<div class="container-narrow">
   <h2 class="mt-4 h3">Database integrations</h2>
   <div class="integration-card-container mt-4 space-2-bottom">
     {{ range .Data.Pages.ByTitle }}
@@ -42,7 +41,7 @@
     <h2 class="mt-4 h3">API integrations</h2>
     <div class="integration-card-container mt-4 space-2-bottom">
       {{ range .Data.Pages.ByTitle }}
-      {{ if in .Params.categories "automate" }}
+      {{ if in .Params.categories "api" }}
       <a href="{{ .Permalink}}" class="integrations-card">
         {{ with .Resources.Match "*/logo*" }}
         {{ range . }}
@@ -102,9 +101,5 @@
     </div>
   </div>
 </div>
-
-
-</div>
-
 
 {{ partial "cta.html" . }} {{ partial "footer.html" . }}
