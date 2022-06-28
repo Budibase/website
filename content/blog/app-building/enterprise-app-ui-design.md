@@ -55,6 +55,8 @@ It’s also worth noting that the UX priorities in enterprise design are a littl
 
 Rather, design is purely functional. The goal is efficiency and effectiveness over anything else.
 
+Check out our ultimate guide to [app UI design](blog/app-building/app-ui-design) to learn more about UX priorities in different kinds of tools.
+
 ## Enterprise app design challenges
 
 From a design perspective, enterprise tools pose several unique challenges. Design teams must grapple with additional constraints, concerns, and pain points that are less common in smaller organizations.
@@ -101,7 +103,7 @@ The key is maintaining the same basic experiences for users, as well as minimizi
 
 Say for example that you have a custom tool for your marketing team to manage direct mail, and then you switch to a different vendor for your fulfillment. The new vendor has a slightly different pricing structure, so your team will need to provide different order information.
 
-Our task as designers would be to reflect this while retaining as much of the original user experience as we can. So, we’d want to update our form fields, without altering the substance of the steps users need to take to make an order.
+Our task as designers would be to reflect this while retaining as much of the original user experience as we can. So, we’d want to update our [form UI design,](blog/app-building/form-ui-design) without altering the substance of the steps users need to take to make an order.
 
 ![Enterprise Custom Application Statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1656427325/cms/Enterprise_App_UI_Design_cy9zy6.webp "Enterprise Custom Application Statisitcs")
 
@@ -132,6 +134,8 @@ In a large organization, the design of this type of tool would quickly become cl
 Clustering allows you to provide a smooth UX despite this, by enabling users to quickly locate related metrics.
 
 We’ll look at a few more strategies you can employ to manage information-heavy UIs when we come to our enterprise interface design tips.
+
+Check out our in-depth guide to [table UI design](blog/app-building/table-ui-design).
 
 ## Other challenges for design teams
 
@@ -183,7 +187,7 @@ With that in mind, here are the key considerations you’ll need to make for int
 
 ### Internal tools
 
-As we’ve hinted at already, internal tools are primarily aimed at empowering large numbers of employees to carry out high-volume work. This means that the focus is on accuracy, oversight, and efficiency, above aesthetics.
+As we’ve hinted at already, [internal tools](https://budibase.com/internal-tools/) are primarily aimed at empowering large numbers of employees to carry out high-volume work. This means that the focus is on accuracy, oversight, and efficiency, above aesthetics.
 
 Additionally, there’s often a need to deploy new tools at speed. That is, it’s not uncommon for internal design and development teams to be tasked with turning around working platforms in short periods.
 
@@ -257,7 +261,7 @@ You have many tools available to achieve this. One of the most important is util
 
 You can also leverage established layouts for different common UIs.
 
-Users have set expectations about how certain classes of apps will work. So, they’ll have preconceived ideas about what to expect from a CRUD app, data entry UI, or admin panel.
+Users have set expectations about how certain classes of apps will work. So, they’ll have preconceived ideas about what to expect from a [CRUD app](https://budibase.com/blog/crud-app/), data entry UI, or admin panel.
 
 As a designer, the better you can conform to these expectations, the more effective and intuitive your interfaces will be.
 
@@ -360,10 +364,10 @@ Additionally, low-code platforms generally offer advanced features and configura
 
 We’re biased, but we think Budibase is the smart choice for enterprise app UI design.
 
-Our open-source, low-code platform is built to empower designers to create custom tools, in minutes. Enjoy custom RBAC, optional self-hosting, advanced automated, auto-generated CRUD screens, and a range of other incredible features while you build enterprise tools.
+Our [open-source, low-code platform](https://budibase.com/blog/open-source-low-code-platforms/) is built to empower designers to create custom tools, in minutes. Enjoy custom RBAC, optional self-hosting, advanced automated, auto-generated CRUD screens, and a range of other incredible features while you build enterprise tools.
 
-We’ve even created 50+ app templates to showcase what our platform can do.
+We’ve even created 50+ [app templates](https://budibase.com/templates) to showcase what our platform can do.
 
 Budibase is trusted by massive organizations around the world for unrivaled functionality, security, expediency, and developer experiences.
 
-Check out our product page for more information.
+Check out our [product page](https://budibase.com/product) for more information.
