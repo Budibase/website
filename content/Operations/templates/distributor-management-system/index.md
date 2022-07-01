@@ -49,7 +49,7 @@ The best platforms allow you to automate your interactions with distributors. De
 
 Effective tools allow you to analyze trends in your distribution network. This includes the volume and value of the stock at different nodes in your distribution network. You can also analyze the profitability of different distributors.
 
-![Distributor Management System main screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647967805/cms/Distributor_Management_System_Screenshot_4_s0jg0w.png "Distributor Management System")
+![Distributor Management System main screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647967805/cms/Distributor_Management_System_Screenshot_4_s0jg0w.webp "Distributor Management System")
 
 ## Our distributor management template
 
@@ -98,7 +98,7 @@ Our template is built around helping you to quantify individual distributor rela
 
 By managing your inventory and distribution in a single platform, it’s easy to measure the lifetime value of individual partners. Our tool automatically updates the value of each relationship, based on real-time data.
 
-![Distributor Management Data Visualization](https://res.cloudinary.com/daog6scxm/image/upload/v1647968015/cms/Distributor_Management_System_Screenshot_7_vgunkp.png "Data visualization")
+![Distributor Management Data Visualization](https://res.cloudinary.com/daog6scxm/image/upload/v1647968015/cms/Distributor_Management_System_Screenshot_7_vgunkp.webp "Data visualization")
 
 ### Automate workflows
 
@@ -127,7 +127,7 @@ Individual distributors can access your system to view, make, and manage orders.
 
 Tiered permissions allow you to create a fully secure management system, with a fully intuitive UI.
 
-![Orders Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647968057/cms/Distributor_Management_System_Screenshot_5_qnuovf.png "Orders Screen")
+![Orders Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647968057/cms/Distributor_Management_System_Screenshot_5_qnuovf.webp "Orders Screen")
 
 ### Responsive design
 

@@ -129,7 +129,7 @@ Each column will represent a specific _attribute_ we want to store for each of o
 
 If you decide that you need to create a new database for your application, this will form part of your schema. If you’re going to rely on existing data, you’ll need to take this into account when choosing your sources.
 
-Check out our in-depth guide, [what is a database schema](blog/data/what-is-a-database-schema), to find out more.
+Check out our in-depth guide, [what is a database schema](/blog/data/what-is-a-database-schema), to find out more.
 
 ![table in a data model](https://res.cloudinary.com/daog6scxm/image/upload/v1653319835/cms/Attributes_demgxx.png "Data model table")
 
@@ -167,7 +167,7 @@ The downside is that the schemas of existing databases might not match our needs
 
 Often, we’ll need to do a combination of the two. So, in our timesheet app, we might pull employee details and project information from external sources, but create an internal database to store user inputs for timesheet submissions.
 
-We've also created a guide on [how to integrate multiple databases](budibase.com/blog/data/how-to-integrate-multiple-databases).
+We've also created a guide on [how to integrate multiple databases](/blog/data/how-to-integrate-multiple-databases).
 
 ### 6. Establish relationships between entities
 
@@ -270,6 +270,6 @@ Our built-in database offers a simple, intuitive way to create a bespoke structu
 
 Build entities, create attributes, assign values, and link tables, all at the click of a button. With BudibaseDB, it’s easy to create and maintain the perfect data model for your app, with minimal coding skills.
 
-Check out our ultimate guide to web app [data sources](budibase.com/blog/data/data-sources).
+Check out our ultimate guide to web app [data sources](/blog/data/data-sources).
 
 Sign up now to get started with Budibase, for free.

@@ -34,7 +34,7 @@ Many businesses manage knowledge using spreadsheets or shared documents. Others 
 
 Efficient IT teams are crucial for successful modern businesses. An effective knowledge base ensures that businesses can remain competitive, through streamlined processes.
 
-![open-source IT knowledge base](https://res.cloudinary.com/daog6scxm/image/upload/v1646388393/cms/IT_Knowledge_Base_Template_1_mcrhpa.png "Open-source IT knowledge base")
+![open source IT knowledge base](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646388393/cms/IT_Knowledge_Base_Template_1_mcrhpa.png "open source IT knowledge base")
 
 ### What should an IT knowledge base contain?
 
@@ -74,7 +74,7 @@ We’ve provided simple [form interfaces](https://budibase.com/forms) for creati
 
 Our template offers clear and efficient listings pages. Use our searchability and dynamic filtering to quickly find, access, or edit any entry, in seconds.
 
-![Knowledge Base Entry](https://res.cloudinary.com/daog6scxm/image/upload/v1646388431/cms/IT_Knowledge_Base_Template_2_ayffxp.png "Knowledge Base Entry")
+![Knowledge base entry](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646388431/cms/IT_Knowledge_Base_Template_2_ayffxp.png "Knowledge base entry")
 
 ### Streamlined customer support
 
@@ -100,7 +100,7 @@ Like all effective content management systems, our template is perfect for secur
 
 Centralize all of your documentation, product specifications, playbooks, and more, with a simple file upload interface.
 
-![Dynamic Filtering](https://res.cloudinary.com/daog6scxm/image/upload/v1646388461/cms/IT_Knowledge_Base_Template_3_tvv3rl.png "Dynamic Filtering")
+![Dynamic filtering](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646388461/cms/IT_Knowledge_Base_Template_3_tvv3rl.png "Dynamic filtering")
 
 ### Custom access permissions
 
@@ -110,7 +110,7 @@ Our template is built around two permission tiers. _Basic_ users can search, acc
 
 We’ve also provided two additional permission tiers, which can be used to quickly create more complex access control structures.
 
-![Admin View](https://res.cloudinary.com/daog6scxm/image/upload/v1646388489/cms/IT_Knowledge_Base_Template_4_jknrmh.png "Admin View")
+![Admin view](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646388489/cms/IT_Knowledge_Base_Template_4_jknrmh.png "Admin view")
 
 ### Responsive design
 
@@ -156,7 +156,7 @@ Our open-source, low-code platform offers complete customization, flexibility, a
 
 We also offer free SSO, as well as enterprise support packages and SLAs. Check out our [pricing page](https://budibase.com/pricing) for more information.
 
-![Open-source IT knowledge base new entry](https://res.cloudinary.com/daog6scxm/image/upload/v1646388528/cms/IT_Knowledge_Base_Template_6_v88kft.png "Open-source IT knowledge base new entry")
+![open source IT knowledge base template](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646388528/cms/IT_Knowledge_Base_Template_6_v88kft.png "open source IT knowledge base template")
 
 ### External data support
 

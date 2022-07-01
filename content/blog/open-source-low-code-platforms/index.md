@@ -1,7 +1,6 @@
 +++
 date = "2021-05-05"
 title = "The 5 best open source low-code platforms (tried and tested)"
-categories = ["build"] 
 description = "Open source low-code platforms come in all shapes and sizes but are critically different. This guide covers what's unique about the best open source low-code platforms in 2021."
 author = "Joe Johnston"
 images = ["/open-source-low-code-platforms/open-source-low-code-platforms.jpg"]

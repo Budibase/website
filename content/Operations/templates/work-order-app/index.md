@@ -34,7 +34,7 @@ Naturally, this isn’t ideal. Manually managing work orders involves excessive 
 
 This enables maintenance teams to provide a higher quality of service, at a fraction of the cost.
 
-![Work order app request form](https://res.cloudinary.com/daog6scxm/image/upload/v1648027609/cms/Work_Order_App_Screenshot_1_zkshfd.png "Work order app form screen")
+![Work order app request form](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1648027609/cms/Work_Order_App_Screenshot_1_zkshfd.webp "Work order app form screen")
 
 ### What should a work order tool include?
 
@@ -77,7 +77,7 @@ Once a task is assigned, the service agent completes a second form, detailing th
 
 We’ve created a single platform for managing servicing workflows, from initial request to completion. Use our template to centralize work order functionality, data, and processes.
 
-![Manage work orders](https://res.cloudinary.com/daog6scxm/image/upload/v1648027647/cms/Work_Order_App_Screenshot_5_sl27xl.png "Manage work orders")
+![Manage work orders](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1648027647/cms/Work_Order_App_Screenshot_5_sl27xl.webp "Manage work orders")
 
 ### Custom work order forms
 
@@ -87,7 +87,7 @@ In Budibase, forms are completely customizable. Every business is different. We 
 
 Add, remove, edit, or alter data fields to suit your maintenance requirements. When you change your app’s databases, you can quickly update forms with a single click.
 
-![Custom work request form](https://res.cloudinary.com/daog6scxm/image/upload/v1648027688/cms/Work_Order_App_Screenshot_4_tcvdbg.png "Custom work request form")
+![Custom work request form](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1648027688/cms/Work_Order_App_Screenshot_4_tcvdbg.webp "Custom work request form")
 
 ### Categorization and taxonomies
 
@@ -105,7 +105,7 @@ Our template uses a set formula to calculate labor costs, based on the hours use
 
 Use our analytics dashboard to review completion times and labor, materials, and overall costs for all service agents. We’ve also added a carousel on the analytics screen, displaying all assigned tasks for each agent.
 
-![Analysis and visualization](https://res.cloudinary.com/daog6scxm/image/upload/v1648027722/cms/Work_Order_App_Screenshot_8_kicoer.png "Analysis and visualization")
+![Analysis and visualization](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1648027722/cms/Work_Order_App_Screenshot_8_kicoer.webp "Analysis and visualization")
 
 ### Responsive design
 
@@ -131,7 +131,7 @@ Power users are then able to assess, assign, and action all work orders, as well
 
 Ensure maximum security and usability in your app, by providing users with access to the exact features and data they need.
 
-![Free work order app with RBAC](https://res.cloudinary.com/daog6scxm/image/upload/v1648027761/cms/Work_Order_App_Screenshot_3_l75vst.png "Free work order app with RBAC")
+![Free work order app with RBAC](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1648027761/cms/Work_Order_App_Screenshot_3_l75vst.webp "Free work order app with RBAC")
 
 ## Manage work orders with Budibase
 

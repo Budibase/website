@@ -52,7 +52,7 @@ For example, businesses might store and use data on how devices are used, their 
 
 Asset management systems empower you to use this information, without the need for advanced database skills. This saves time and money, by creating intuitive and streamlined workflows for IT teams.
 
-![Open-source IT asset Management software](https://res.cloudinary.com/daog6scxm/image/upload/v1646385879/cms/IT_Asset_Management_Template_1_nbxtnj.png "Open-source IT asset Management software")
+![Open source IT asset Management software](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646385879/cms/IT_Asset_Management_Template_1_nbxtnj.webp "open source IT asset management software")
 
 ## Our open-source asset management template
 
@@ -97,7 +97,7 @@ Simply set an annual depreciation rate for each asset, and our platform takes ca
 
 Budibase offers a built-in JavaScript editor, for creating custom depreciation rules. Set additional variables, or alter the depreciation interval, to suit your specific needs.
 
-![Device cost management](https://res.cloudinary.com/daog6scxm/image/upload/v1646385971/cms/IT_Asset_Management_Template_2_dzrsb7.png "Device cost management")
+![cost control screen](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646385971/cms/IT_Asset_Management_Template_2_dzrsb7.webp "Cost control screen")
 
 ### Maintenance scheduling
 
@@ -115,7 +115,7 @@ Our template is built around two permissions tiers. _Basic_ users can browse you
 
 _Power_ users can add or update devices, view and approve asset requests, or access maintenance data.
 
-![Open-source IT asset management software request workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1646386094/cms/IT_Asset_Management_Template_6_fxqlts.png "Asset Request Workflow")
+![Open-source IT asset management software request workflow](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646386094/cms/IT_Asset_Management_Template_6_fxqlts.webp "Asset Request Workflow")
 
 ### Process automation
 
@@ -159,7 +159,7 @@ Budibase offers unparalleled functionality, ease of use, and development times. 
 
 Organizations around the world choose Budibase for our leading development experiences. We also offer premium support packages and SLAs for enterprise customers. Check out our [pricing page](https://budibase.com/pricing) for more information.
 
-![Maintenance workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1646386046/cms/IT_Asset_Management_Template_3_q4w061.png "Maintenance workflow")
+![Maintenance workflow](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646386046/cms/IT_Asset_Management_Template_3_q4w061.webp "Maintenance workflow")
 
 ### Self-hosting or Budibase Cloud
 

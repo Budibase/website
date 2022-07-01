@@ -2213,13 +2213,14 @@ grid-gap: 50px;
     display: flex;
     flex-direction: column;
     gap: var(--space-3);
+    margin: auto;
   }
 
   @media (min-width: 768px) {
     .pricing {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: var(--space-3);
+      gap: var(--space-4);
     }
   }
 
@@ -2227,8 +2228,8 @@ grid-gap: 50px;
 @media (min-width: 1200px) {
   .pricing {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: var(--space-3);
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--space-6);
   }
 }
 
@@ -3331,7 +3332,7 @@ border-radius: .75rem;
 #TableOfContents > ul > li > a {
   display: flex; 
   cursor: pointer;
-  padding: 8px 0; 
+  padding: 20px 0 12px 0; 
   align-items: center;
   text-decoration: none;
   color: var(--gray900);

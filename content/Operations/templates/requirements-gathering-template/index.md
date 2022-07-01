@@ -26,7 +26,7 @@ The goal is to cut operating costs and improve project delivery workflows. Requi
 
 Say goodbye to managing requirements with spreadsheets. Our template offers a streamlined and intuitive gathering workflow.
 
-![Requirements Gathering Template Home Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647969180/cms/Requirements_Gathering_App_Screenshot_2_cizjgn.png "Requirements Gathering Template Homescreen")
+![Requirements Gathering Template Home Screen](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647969180/cms/Requirements_Gathering_App_Screenshot_2_cizjgn.webp "Requirements Gathering Template Homescreen")
 
 ### Why gather requirements digitally?
 
@@ -71,7 +71,7 @@ Our requirements gathering template uses intuitive form interfaces. To simplify 
 
 Add requirement information, including descriptions, KPIs, categories, acceptance criteria, documentation, and more, at the press of a button. Our requirements gathering form loops, allowing you to quickly add as many entries as you need for each project.
 
-![Requirements Gathering Form](https://res.cloudinary.com/daog6scxm/image/upload/v1647969244/cms/Requirements_Gathering_App_Screenshot_5_gspbwr.png "Requirements Gathering Form")
+![Requirements Gathering Form](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647969244/cms/Requirements_Gathering_App_Screenshot_5_gspbwr.webp "Requirements Gathering Form")
 
 ### Streamlined processes
 
@@ -89,7 +89,7 @@ Our template features essential requirements gathering information fields. Using
 
 With Budibase, it’s easy to create custom requirements gathering [form interfaces](https://budibase.com/forms), with no coding skills. Simply add new fields to your data set, and update your form interfaces, at the press of a button.
 
-![New Project Form](https://res.cloudinary.com/daog6scxm/image/upload/v1647969298/cms/Requirements_Gathering_App_Screenshot_6_cyrlk5.png "New Project Form")
+![New Project Form](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647969298/cms/Requirements_Gathering_App_Screenshot_6_cyrlk5.webp "New Project Form")
 
 ### Automated workflows
 
@@ -115,7 +115,7 @@ As standard, all Budibase tools come with four levels of access. These are fully
 
 Restrict different screens to certain user classes, or display different interfaces based on a user’s permission level. With Budibase, you can ensure that team members have access to the exact data and features they need.
 
-![Detail Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647969370/cms/Requirements_Gathering_App_Screenshot_3_llwd5v.png "Detail Screen")
+![Detail Screen](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647969370/cms/Requirements_Gathering_App_Screenshot_3_llwd5v.webp "Detail Screen")
 
 ### Responsive design
 

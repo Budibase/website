@@ -26,7 +26,7 @@ The goal is to ensure that users have fast access to up-to-date, accurate inform
 
 Typically, directories store basic business information, including contact details, locations, and descriptions of products or services.
 
-![Professional Directory Tempalte Homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1647945503/cms/Professional_Directory_1_a9jplt.png "Professional Directory Template Homescreen")
+![Professional Directory Tempalte Homescreen](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647945503/cms/Professional_Directory_1_a9jplt.webp "Professional Directory Template Homescreen")
 
 ### Why manage directory listings with a custom tool?
 
@@ -74,7 +74,7 @@ Our app is built around two screens. All users can search and view directory ent
 
 All app actions can be performed using simple modal pop-out screens.
 
-![Directory Entry View](https://res.cloudinary.com/daog6scxm/image/upload/v1647945557/cms/Professional_Directory_2_qzuzoo.png "Professional Directory Entry Screen")
+![Directory Entry View](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647945557/cms/Professional_Directory_2_qzuzoo.webp "Professional Directory Entry Screen")
 
 ### Instant CRUD actions
 
@@ -100,7 +100,7 @@ Create complex formula variables, using JavaScript, Handlebars expressions, and 
 
 Use bindable data throughout our app, including in tables, Markdown viewer UIs, and card components to create truly stunning user interfaces.
 
-![Directory Form Interface](https://res.cloudinary.com/daog6scxm/image/upload/v1647945583/cms/Professional_Directory_3_pbegrb.png "Form Interface")
+![Directory Form Interface](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647945583/cms/Professional_Directory_3_pbegrb.webp "Form Interface")
 
 ### Multi-step forms
 
@@ -110,7 +110,7 @@ With multiple form steps, modal screens, and conditional UIs, users can add new 
 
 Maximize accuracy in your professional directory with our simple, easy-to-use interfaces.
 
-![Add a member screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647945639/cms/Professional_Directory_4_ywxrmi.png "Add a member professional Directory")
+![Add a member screen](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647945639/cms/Professional_Directory_4_ywxrmi.webp "Add a member professional Directory")
 
 ### Mobile-friendly design
 

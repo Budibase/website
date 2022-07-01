@@ -16,7 +16,7 @@ Then, we’ll move on to some of the theory, including key terminology, before c
 
 Finally, we’ll look at the key use cases and business challenges you can solve using different data standards, and how Budibase is leading the charge in simplifying the app-building process.
 
-Let’s start with the basics. 
+Let’s start with the basics.
 
 ## What is a data source?
 
