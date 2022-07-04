@@ -1589,6 +1589,69 @@ grid-gap: 50px;
   align-items: center
 }
 
+.tag-green {
+  background-color: var(--green);
+  color: white;
+  border-radius: 4px;
+  font-size: 13px;
+  height: 28px;
+  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.tag-gradient {
+  background-color: gradi;
+  color: white;
+  border-radius: 4px;
+  font-size: 13px;
+  height: 28px;
+  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.tag-blue {
+  background-color: var(--blue400);
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  height: 24px;
+  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+  font-weight: 500;
+}
+
+.tag-light {
+  background-color: var(--light4);
+  color: var(--hiContrast);
+  border-radius: 4px;
+  font-size: 12px;
+  height: 24px;
+  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+  font-weight: 500;
+}
+
+.tag-gray {
+  background-color: var(--gray800);
+  color: var(--loContrast);
+  border-radius: 4px;
+  font-size: 12px;
+  height: 24px;
+  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+  font-weight: 500;
+}
+
 .chart {
   display: flex;
   flex-direction: column;
@@ -2207,6 +2270,7 @@ grid-gap: 50px;
   border-bottom: 1px solid var(--gray200);
 }
 
+
 /* Pricing */
 
   .pricing {
@@ -2228,8 +2292,8 @@ grid-gap: 50px;
 @media (min-width: 1200px) {
   .pricing {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: var(--space-6);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: var(--space-4);
   }
 }
 
