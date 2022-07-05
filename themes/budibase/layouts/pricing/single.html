@@ -14,7 +14,7 @@
     </div>
   </div>
 
-  <div class="pricing">
+  <div class="pricing space-1-bottom">
     <div class="pricing-card border-grey bg-light2 rounded">
       <div class="pricing-card-top">
         <h2 class="mb-2 h3 text-dark">Free</h2>
@@ -590,41 +590,19 @@
 </div>
 </div>
 -->
-
-  <div class="space-3">
-  <div class="container text-center mx-auto">
+</div>
+<div class="container-fw my-9 bg-light3">
+  <div class="w-xl-30 w-lg-50 mx-auto space-2 text-center">
     <div class="u-xs-avatar mb-2 mx-auto">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
       </svg>
     </div>
-    <h2>FAQs</h2>
-    <p class="mt-2 text-xs w-lg-40 mx-auto">Can't find the answer to your question, ask someone in the community on our <a href="https://github.com/Budibase/budibase/discussions">Github Discussions Forum</a>.    </p>
+    <h2 class="mb-3 text-blue">Fair billing policy</h2>
+    <p>Most enterprise software pricing is designed to charge you per user regardless of how many people on your team are actively using the software. At Budibase, you only get billed for what you use, so you don’t pay for the users who aren’t using Budiabse. Fair’s fair. </p>
   </div>
-
-<div class="container-7">
-  <details class="mt-6 border-bottom py-3">
-    <summary class="mb-2">Do you charge for users?</summary>
-    <p class="mb-2 text-xs">At Budibase, you only get billed for what you use, so you don’t pay for the members who aren’t using Budibase. Fair’s fair.</p>
-  </details>
-  <details class="border-bottom py-3">
-    <summary class="mb-2">What classifies a developer?</summary>
-    <p class="mb-2 text-xs">Anyone who has the ability to create a new app with Budibase.</p>
-  </details>
-  <details class="border-bottom py-3">
-    <summary class="mb-2">We need to add new users to our team. How will that be billed?</summary>
-    <p class="mb-2 text-xs">Any new user who logs in to an app or portal during a billing period will be billed for that period. So, if you a new member on the 20th of the month, and they use Budibase apps for the remainder of the month, we will bill you for that user for the entire month as they as a MAU.</p>
-  </details>
-  <details class="border-bottom py-3">
-    <summary class="mb-2">Can I buy additional queries, automation runs, storage?</summary>
-    <p class="mb-2 text-xs">Yes! Please <a href="https://budibase.com/contact">reach out</a> and the sales team will be happy to assist.</p>
-  </details>
-  <details class="border-bottom py-3">
-    <summary class="mb-2">Can I deploy Budibase on-premise?</summary>
-    <p class="mb-2 text-xs">Yes! You can self-host the community version of Budibase and the enterprise version.</p>
-  </details>
-</div>
 </div>
 
+{{ partial "pricing-faqs.html" . }}
 {{ partial "cta.html" . }}
 {{ partial "footer.html" . }}

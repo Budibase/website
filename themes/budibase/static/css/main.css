@@ -1652,6 +1652,23 @@ grid-gap: 50px;
   font-weight: 500;
 }
 
+details > summary {
+  list-style-type: '＋ ';
+}
+
+details[open] > summary {
+  list-style-type: '－ ';
+}
+
+details {
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+
+details[open] > summary {
+  margin-bottom: 0.5rem;
+}
+
 .chart {
   display: flex;
   flex-direction: column;
