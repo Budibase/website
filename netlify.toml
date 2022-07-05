@@ -83,12 +83,6 @@ HUGO_ENABLEGITINFO = "true"
   force = true
 
 [[redirects]]
-  from = "/self-host/"
-  to = "/product"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/investment"
   to = "/about"
   status = 301
