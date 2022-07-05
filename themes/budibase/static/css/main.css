@@ -137,7 +137,7 @@ details:hover {
 
 
 summary::marker {
-  color: var(--gray800);
+  color: var(--gray900);
   font-size: 1rem;
 }
 
@@ -2284,7 +2284,7 @@ details[open] > summary {
 }
 
 .border-bottom {
-  border-bottom: 1px solid var(--gray200);
+  border-bottom: 1px solid var(--gray500);
 }
 
 
