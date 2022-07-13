@@ -48,7 +48,7 @@ Our app has six screens:
 
 As you can see, these screens are used to create, read, delete and update data for two tables.
 
-These are our SQL tables:
+These are the [database schemas](https://budibase.com/blog/data/what-is-a-database-schema/) for our SQL tables:
 
 * Posts
   * ID
@@ -59,6 +59,8 @@ These are our SQL tables:
   * ID
   * Settings_key
   * Value
+
+Check out our article on [how to create a data model](https://budibase.com/blog/data/how-to-create-a-data-model/) if you want to build your tables from scratch.
 
 Our screens can interact with these tables in any way you want to.
 
