@@ -102,7 +102,7 @@ Now let’s see how you can create an app like this one.
 
 ## Step 1 - Connect to your database
 
-If you don’t have a free Budibase account, you can [sign up for one here](https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=navigation-cta).
+The first thing you need to do is create a free Budibase account.
 
 Next, create a new app, and start from scratch. Select your [data source](https://budibase.com/blog/data/data-sources/). In our case, it’s a MySQL database.
 
