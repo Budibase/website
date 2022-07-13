@@ -11,7 +11,7 @@ title = "How to Create Forms for SQL Databases in 3 Steps"
 +++
 Databases are vital for every business. But as soon as you create your database, a question arises. How can you add data to it? Of course, you could write out queries manually, but you’ll also want a way for less technical staff to enter data.
 
-This means building forms. Today we’re going to look at how to create forms for SQL databases.
+This means building forms. Today we'll look at how to create forms for SQL databases.
 
 You can also use forms to limit access to your database.
 
