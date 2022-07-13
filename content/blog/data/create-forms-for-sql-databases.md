@@ -230,7 +230,7 @@ The benefit of using a button instead of a link is that you can nest other actio
 
 You can make the entire row a link to view/edit the entry. Select the table, check the “link table rows” option, and as the screen URL, use this value:
 
-/posts/:id
+    /posts/:id
 
 This passes the current row’s ID to the URL, which is used on the view/edit form.
 
