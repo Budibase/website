@@ -255,5 +255,3 @@ Another idea is to use calculated fields if you want to. Instead of a field with
 Today we looked into how to create forms for SQL databases. You saw a simple way to do it, with a couple of clicks. In addition, we’ve dived into many ways to customize the forms, so they can do exactly what you need them to.
 
 For more inspiration, check out our guide to building a [GitHub metrics dashboard](https://budibase.com/blog/app-building/github-metrics-dashboard/).
-
-Sign up to Budibase to start building incredible browser-compatible web [form UIs](https://budibase.com/blog/app-building/form-ui-design/) today.
