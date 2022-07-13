@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-07-12T23:00:00Z
 description = "Learn how to create forms for SQL databases in less than 5 minutes with Budibase"
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1657707152/cms/Forms_for_SQL_Database_ds2jru.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1657707158/cms/Forms_for_SQL_Database_dy3fis.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
@@ -19,7 +18,7 @@ This makes it easy for users to add and edit data using a friendly interface. In
 
 Building forms is one of the best use cases for no/low-code tools.
 
-With traditional, slow-code development, you’d need a lot of work to create a secure and reliable app to interact with your database. But nowadays, you can create forms for SQL databases in 3 steps.
+With traditional, slow-code development, you’d need a lot of work to create a secure and reliable app to interact with your database. But nowadays, you can create forms to perform CRUD operations in SQL in just 3 steps.
 
 This is all you need to do:
 
