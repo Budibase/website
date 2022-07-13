@@ -50,15 +50,15 @@ As you can see, these screens are used to create, read, delete and update data f
 
 These are the [database schemas](https://budibase.com/blog/data/what-is-a-database-schema/) for our SQL tables:
 
-* Posts
-  * ID
-  * Title
-  * Content
-  * Date
-* Settings
-  * ID
-  * Settings_key
-  * Value
+* Posts:
+  * ID,
+  * Title,
+  * Content,
+  * Date.
+* Settings:
+  * ID,
+  * Settings_key,
+  * Value.
 
 Check out our article on [how to create a data model](https://budibase.com/blog/data/how-to-create-a-data-model/) if you want to build your tables from scratch.
 
