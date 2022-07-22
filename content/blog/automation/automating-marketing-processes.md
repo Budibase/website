@@ -562,7 +562,7 @@ Note that our template doesn’t ask leads to give us an exact figure for their 
 
 Finally, we can use Zapier to send the values from our new row to whichever external platform or database our enterprise sales team uses:
 
-![Connect to Zapier](https://res.cloudinary.com/daog6scxm/image/upload/v1658503024/cms/Screenshot_2022-07-13_at_15.53.49_wclpzk.webp"Connect to Zapier")
+![Connect to Zapier](https://res.cloudinary.com/daog6scxm/image/upload/v1658503024/cms/Screenshot_2022-07-13_at_15.53.49_wclpzk.webp "Connect to Zapier")
 
 All we need to do is designate the relevant Webhook URL, and bind the trigger row as our payload value. We’d then extract the specific values we need in the target platform.
 
