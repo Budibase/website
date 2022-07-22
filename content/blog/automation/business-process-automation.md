@@ -67,17 +67,17 @@ As we’ll see a little later BPA can be rolled out across every department and 
 
 For now, though, we simply want to outline the criteria that you can use to determine whether a process is automatable.
 
-![](https://lh6.googleusercontent.com/xkcUpwHU3XkUB3qp6_RtVsri-o8p6qrYa5YLXCKwNPpwaPfUyYXIZqTZnf4YJ32rhuc_H_5ynuaVoO8_Xc72_yhTFDgIDqYU7klxT2cw3La-GyrCAaHVTg_JQEOGcY6a2cBUoNnUu4_WOXJyK5T8c94 =624x351)
+![Business Process Automation Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1658501221/cms/Business_process_automation_stats_iehfy3.png "Business Process Automation Stats")
 
 Here are the key indicators that process can and should be automated:
 
-* **Repetition - The more often an action occurs within a process, the more benefit automation will offer.**
-* **Fixed decision-making - Processes are easier to automate when employees’ decisions are always based on the same criteria and require little discretion.**
-* **Fixed outcomes - Similarly, if the same sets of actions are triggered by different decisions, automation is easier.**
-* **Number of inputs - The more employees who participate in a process, the more important automation is.**
-* **Integration - When a process or constituent task cuts across multiple different departments and platforms, there’s a greater impetus towards automation.**
-* **Skilled vs unskilled tasks - Less specialized, more menial tasks are generally easier to automate.**
-* **Labor costs - Obviously, the more time your employees spend on a given task, the greater the automation dividend will be.**
+* **Repetition -** The more often an action occurs within a process, the more benefit automation will offer.
+* **Fixed decision-making -** Processes are easier to automate when employees’ decisions are always based on the same criteria and require little discretion.
+* **Fixed outcomes -** Similarly, if the same sets of actions are triggered by different decisions, automation is easier.
+* **Number of inputs -** The more employees who participate in a process, the more important automation is.
+* **Integration -** When a process or constituent task cuts across multiple different departments and platforms, there’s a greater impetus towards automation.
+* **Skilled vs unskilled tasks -** Less specialized, more menial tasks are generally easier to automate.
+* **Labor costs -** Obviously, the more time your employees spend on a given task, the greater the automation dividend will be.
 
 Of course, a process doesn’t necessarily need to meet all of these criteria to be a strong candidate for automation.
 
@@ -121,7 +121,7 @@ Of course, faster resolutions also have a huge impact in time-sensitive processe
 
 For example, incident responses, urgent purchases, hiring decisions, press inquiries, and a range of other processes rely on quick turnarounds for optimal outcomes.
 
-![](https://lh3.googleusercontent.com/ymzcMLupttNd7PZoGTUBqgwtVKB9HLC2MsnKdmDZp2vJXI5hTI3RWU2uZLVD2M480be4jeFKIsknPaSrK4Y4rJpiTeXuP8N0rbCVWHfboTXVRNNg8SxwDyCWrcUXXWBmqv1qcHmQPPi9XzV2rKucxrY =624x351)
+![BPA for Digital Transformation](https://res.cloudinary.com/daog6scxm/image/upload/v1658501296/cms/Business_process_automation_stats_97_ae0yoo.png "BPA for Digital Transformation")
 
 ### Increased productivity
 
@@ -225,7 +225,7 @@ Similarly, automation improves accuracy within discrete tasks.
 
 So, if we stick with the approval request example, we might use BPA to automate communications around this. That way, we can prevent a range of errors, including miscommunications, mix-ups, and unnecessary delays.
 
-![](https://lh3.googleusercontent.com/-I5-Jo5eO5VL_etRmDyS6lJQMFYc277ehxRBVlZiGds2FcjhLc6LbQJN700QnhQBWZVqPB1i0T1xPnwTN2msWtboVJIp61U-M1C4GoOMYnmGjci8uTDEo12DJOZCVf3Iy2iD9VEaLNGAxJYINmDggEo =624x351)
+![Business Process Automation Error Reduction](https://res.cloudinary.com/daog6scxm/image/upload/v1658501330/cms/Business_Process_Automation_copy_ei578j.png "Business Process Automation Error Reduction")
 
 ## Where does BPA fit into your automation strategy?
 
@@ -251,7 +251,7 @@ It’s also worth noting that RPA requires specific, dedicated tools to implemen
 
 ### BPA and workflow automation
 
-We’ve already touched on this, so we won’t repeat ourselves too much. The key thing to note is that BPA and workflow automation are two distinct but overlapping frameworks, often utilizing the same tools and techniques.
+We’ve already touched on this, so we won’t repeat ourselves too much. The key thing to note is that BPA and [workflow automation](https://budibase.com/blog/automation/workflow-automation/) are two distinct but overlapping frameworks, often utilizing the same tools and techniques.
 
 The distinction is that one focuses on optimizing the flow of resources from end to end within discrete tasks. BPA focuses on automating specific actions involved in several tasks, to improve efficiency across your business processes more generally.
 
@@ -275,7 +275,7 @@ Therefore, the more you can reduce the time required for employees to carry out 
 
 Specific examples of BPA use cases here include scheduling tasks, booking management, data entry and updates, internal communications, and more.
 
-![](https://lh5.googleusercontent.com/K5oQ2hs2UjW34F770eqi1hLd1V45SKVyUYXU7-xkgER2FkNGz-7PFxxxXVKQzfVvX2Q9jLWEYtkOM6Vah119dXobBi2SGklg7lmI5mQ_TMOvIWBDzoHFjau6pe6CfbP8r-MRoTk03FxPPMYPNrQ9qCA =624x280)
+![New TImelog screengrab](https://res.cloudinary.com/daog6scxm/image/upload/v1658501414/cms/Screenshot_2022-07-22_at_15.17.26_ylhudu.png "New Timelog Screengrab")
 
 ### Resource planning, allocation, and deployment
 
@@ -292,7 +292,7 @@ No matter what the specific resource is, there are a few key steps involved:
 
 Naturally, the specific actions required for each of these depend on the type of resource in question. For example, server monitoring is a very different set of tasks from [IT asset management](https://budibase.com/it/templates/open-source-it-asset-management-software/).
 
-![](https://lh5.googleusercontent.com/6TfR64AyWY75d8ndfDp1g27u2YP-PoWsqRE--VsJOqoJMEiuS25Cgc4174jQeEh5jc6Z1NMQ1ct_DzulvCweAfhteIo8qDzeH0P2-QSncdMC2IWjGh2EI3HEbGwjxt3IsdQNAVjt6rrmRpgD4mz8IVc =624x273)
+![Asset Management Screengrab](https://res.cloudinary.com/daog6scxm/image/upload/v1658501537/cms/Screenshot_2022-07-22_at_15.18.37_h4dhhm.png "Asset Management Screengrab")
 
 In any case, though, we have the same goal and core approach for automating resourcing processes. That is, we want to build out robust systems to get the right resources to employees, as quickly as possible.
 
@@ -324,7 +324,7 @@ For example, it’s much easier to determine if a value is under a given thresho
 
 This opens up finance teams to a huge range of automation, including applying formulae to input data, or simply approving or escalating different invoice submissions based on their value.
 
-![](https://lh4.googleusercontent.com/s6N-zgo6eE6ATEHUWVUuMkdUw1FSeLLvx9ij2UBLgnkSZjOdd_Jz75b2m38S8arQlozVG4SZC9Jh4hJa9ndjqZ-Ye9kabEaXE3CYIITOS-TYITI0n1VDRhu4J3ZtZaojlCHa4Goz1ILWEakafT0jdZc =624x316)
+![Business Process Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1658501564/cms/Screenshot_2022-07-22_at_15.20.06_yq6h0v.png "Business Process Automation")
 
 ### Document management
 
@@ -346,7 +346,7 @@ You might use these actions to trigger many automated processes.
 
 For example, you could simply trigger automated queries to update related [data sources](https://budibase.com/blog/data/data-sources/) when users change their details. So, an employee might want to update their contact number, and it would be helpful if they only needed to do this in a single form UI.
 
-![](https://lh5.googleusercontent.com/Dl0m-8IQMLNXcLxnHv_Nso-h4VjBbALNO4fA8BVH2Q7xE21jXkcjUyU1QtTcTMtQLmJdw1tAwfkcKNIB9OgYWWLwLCuSyadubKgIPPaeKw9LJjXVWmJ-DOJBU9ncqCAd36PhYHMA7b4djYuZX5nKS4Y =624x471)
+![Self-service form](https://res.cloudinary.com/daog6scxm/image/upload/v1658501639/cms/Screenshot_2022-07-22_at_15.21.37_msho8z.png "Self-service form")
 
 Besides using user submissions as automation triggers, we can also use BPA to reduce the number of inputs required from users to carry out self-service tasks.
 
@@ -460,7 +460,7 @@ The thing is, people are essentially lazy. Therefore, they’ll pretty much alwa
 
 If employees don’t understand the rationale behind your processes, they’re more likely to cut corners, and you’ll see poor adherence and unnecessary mistakes.
 
-![](https://lh4.googleusercontent.com/5qEtuc-r9QQe-A3LiIlH3rv62r8OtoowbKpx8OUROPS3CTbvfOtzl92e1_2KwFBHnNP8OWYMC12lVeJiQ6u8mHEtAHCEO0AQtpEDuZ-boM56loloxXgMiMt7Yi5HfPwwhuQG95R3ik-kYAPfFJnwpa0 =624x351)
+![BPA training](https://res.cloudinary.com/daog6scxm/image/upload/v1658501668/cms/Business_process_automation_stats_Training_fcumdm.png "BPA training")
 
 ### 7. Constant evolution
 
@@ -605,7 +605,7 @@ One option would be to ask users to categorize requests themselves at the point 
 
 Alternatively, we could create a more sophisticated system. For example, by using code to parse long-form text data.
 
-![](https://lh5.googleusercontent.com/yVfhCt8ueHE1w-dt72779CYNrPDaziU1TE627fJEtiKsY_5k61-3biaYSCaN_uj0iOYub5X4OH-hVo5l4XonvDFDMuTMNfpkkyspF4t12UKZ6_ikMzkzFRjNmiam7eZjka0wi19l-DmaaCCv3tTDoO4 =624x275)
+![Budibase Automation Triggers](https://res.cloudinary.com/daog6scxm/image/upload/v1658501698/cms/Screenshot_2022-07-22_at_15.23.53_chg60d.png "Budibase Automation Triggers")
 
 With our triggers in place, we can start to implement follow-on actions.
 
@@ -793,7 +793,7 @@ More often, your costs will rise over time, either because of your needs expandi
 
 Finally, we need to factor in the cost of maintaining, supporting, and continuously improving your BPA solutions. This includes labor costs as well as any additional tools or platforms you might need to procure.
 
-![](https://lh6.googleusercontent.com/YPqY7Ao0QtIGtfUweYV9kPV_XTzTwrdB96qfEIU79KeRyMzf1lCIcvukNm1BplY3IEXPuuB4QEbpCjd4ts0649I6oIKG3IvI09MYaAcQxmOhmjQXXvsG0f8NzHHPfeMfi3qKmJnxlZjRkhcP2eoVhwE =624x351)
+![BPA cost effectiveness](https://res.cloudinary.com/daog6scxm/image/upload/v1658501734/cms/Business_process_automation_stats_Labor_Costs_rgjs9f.png "BPA cost effectiveness")
 
 ## Budibase for business process automation
 
