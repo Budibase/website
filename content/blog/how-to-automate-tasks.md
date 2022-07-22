@@ -21,7 +21,7 @@ Automation is, therefore, the key to running a successful, efficient business.
 
 Today, we’re going to cover everything you need to know about automating tasks. More specifically, we’ll look at the theory behind task automation, including the benefits it brings and the tools at your disposal.
 
-Then, we’ll take a deep dive into how Budibase is making it easier than ever before to automate a huge range of tasks.
+Then, we’ll take a deep dive into how Budibase is making it easier than ever before to automate a huge range of tasks. 
 
 Let’s start with the basics.
 
