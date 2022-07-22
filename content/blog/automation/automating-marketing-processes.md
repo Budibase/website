@@ -57,7 +57,7 @@ So, we can essentially think about a process in terms of the number of actions t
 
 Check out our ultimate guide to business process automation for a more detailed explanation.
 
-![Automating Marketing Processes Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1658502557/cms/Marketing_automation_stats_dffgl6.png "Automating Marketing Processes Stats")
+![Automating Marketing Processes Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1658502557/cms/Marketing_automation_stats_dffgl6.webp "Automating Marketing Processes Stats")
 
 ### Why automate marketing processes?
 
@@ -222,7 +222,7 @@ An example of the first would be using user-provided data to determine the speci
 
 Or, we might simply use automation to move our leads’ data from the sign-up tool to other platforms.
 
-![Lead Generation Form](https://res.cloudinary.com/daog6scxm/image/upload/v1658502644/cms/Lead_Generation_Form_i4tmup.png "Lead Generation Form")
+![Lead Generation Form](https://res.cloudinary.com/daog6scxm/image/upload/v1658502644/cms/Lead_Generation_Form_i4tmup.webp "Lead Generation Form")
 
 ### 3. Lead qualification
 
@@ -259,7 +259,7 @@ Similarly, we can automate marketing processes around sharing insights.
 
 This could be as simple as creating and scheduling internal communications around your progress towards different goals.
 
-![Lead Analysis](https://res.cloudinary.com/daog6scxm/image/upload/v1658502667/cms/Lead_Analysis_qupjxz.png "Lead Analysis")
+![Lead Analysis](https://res.cloudinary.com/daog6scxm/image/upload/v1658502667/cms/Lead_Analysis_qupjxz.webp "Lead Analysis")
 
 ### 5. Relationship management
 
@@ -311,7 +311,7 @@ An excellent use case would be creating automation rules to identify where your 
 
 We could automatically designate these keywords as optimization opportunities, so our team knows to take action to push relevant content up the SERPs.
 
-![Automate Content Marketing](https://res.cloudinary.com/daog6scxm/image/upload/v1658502860/cms/Content_Approvals_qy7mxi.png "Automate Content Marketing")
+![Automate Content Marketing](https://res.cloudinary.com/daog6scxm/image/upload/v1658502860/cms/Content_Approvals_qy7mxi.webp "Automate Content Marketing")
 
 ### 8. Approvals and internal processes
 
@@ -411,7 +411,7 @@ When this gets out of hand, things can get expensive.
 
 As such, it’s vital that you thoroughly analyze your present and future needs to figure out what the most cost-effective strategy is going to be.
 
-![Marketing Automation Software Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1658502894/cms/Marketing_automation_tools_stats_mwlwfb.png "Marketing Automation Software Stats")
+![Marketing Automation Software Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1658502894/cms/Marketing_automation_tools_stats_mwlwfb.webp "Marketing Automation Software Stats")
 
 ### Low-code for marketing automation
 
@@ -475,7 +475,7 @@ In Budibase, this could mean using our internal database, or dedicated connector
 
 Check out our in-depth guide on [how to create a data model](https://budibase.com/blog/data/how-to-create-a-data-model/) to find out more.
 
-![Data Management](https://res.cloudinary.com/daog6scxm/image/upload/v1658502927/cms/Marketing_automation_data_stats_hskdm5.png "Data Management")
+![Data Management](https://res.cloudinary.com/daog6scxm/image/upload/v1658502927/cms/Marketing_automation_data_stats_hskdm5.webp "Data Management")
 
 ### 3. Create business processes
 
@@ -548,11 +548,11 @@ First, we want to make sure our enterprise leads are sent to our top sales profe
 
 We’ll trigger this any time a row is created:
 
-![Create Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1658502965/cms/Screenshot_2022-07-13_at_15.47.18_ksdpyw.png "Create Automation")
+![Create Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1658502965/cms/Screenshot_2022-07-13_at_15.47.18_ksdpyw.webp "Create Automation")
 
 Next, we’ll add a condition, to check whether the company size is over 10,000:
 
-![Identify Enterprises](https://res.cloudinary.com/daog6scxm/image/upload/v1658502990/cms/Screenshot_2022-07-13_at_15.51.25_eevxt2.png "Identify Enterprises")
+![Identify Enterprises](https://res.cloudinary.com/daog6scxm/image/upload/v1658502990/cms/Screenshot_2022-07-13_at_15.51.25_eevxt2.webp "Identify Enterprises")
 
 To do this, we’ve used JavaScript to bind the reference value to the company size attribute of the row that’s just been created, using the following expression:
 
@@ -562,7 +562,7 @@ Note that our template doesn’t ask leads to give us an exact figure for their 
 
 Finally, we can use Zapier to send the values from our new row to whichever external platform or database our enterprise sales team uses:
 
-![Connect to Zapier](https://res.cloudinary.com/daog6scxm/image/upload/v1658503024/cms/Screenshot_2022-07-13_at_15.53.49_wclpzk.png "Connect to Zapier")
+![Connect to Zapier](https://res.cloudinary.com/daog6scxm/image/upload/v1658503024/cms/Screenshot_2022-07-13_at_15.53.49_wclpzk.webp"Connect to Zapier")
 
 All we need to do is designate the relevant Webhook URL, and bind the trigger row as our payload value. We’d then extract the specific values we need in the target platform.
 
@@ -572,15 +572,15 @@ Our non-enterprises aren’t going to get a personal response. Instead, we’ll 
 
 We’ll start by repeating the first two steps we used before, except this time we’ll set our condition to only carry on the automation for companies with less than 10,000 employees. Since it’s an enumerator, the condition is _Company Size_ _doesn’t equal ‘10000 +’_.
 
-![Row Created Trigger](https://res.cloudinary.com/daog6scxm/image/upload/v1658503055/cms/Screenshot_2022-07-13_at_15.58.44_psuarl.png "Row Created Trigger")
+![Row Created Trigger](https://res.cloudinary.com/daog6scxm/image/upload/v1658503055/cms/Screenshot_2022-07-13_at_15.58.44_psuarl.webp "Row Created Trigger")
 
 Next, we’re going to head over to the Budibase Account Portal and set up our SMTP credentials, so we can send email automation:
 
-![Add SMPT](https://res.cloudinary.com/daog6scxm/image/upload/v1658503083/cms/Screenshot_2022-07-13_at_16.01.19_n9pcx6.png "Add SMTP")
+![Add SMPT](https://res.cloudinary.com/daog6scxm/image/upload/v1658503083/cms/Screenshot_2022-07-13_at_16.01.19_n9pcx6.webp "Add SMTP")
 
 Then we can create simple HTML-based email templates, which can be populated with bindable user attributes:
 
-![Email Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1658503173/cms/Screenshot_2022-07-13_at_16.06.39_mwgjt6.png "Email Template")
+![Email Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1658503173/cms/Screenshot_2022-07-13_at_16.06.39_mwgjt6.webp "Email Template")
 
 These can then be called as the final step of our automation. Check out our [documentation on sending emails from Budibase](https://docs.budibase.com/docs/email) for more information.
 
@@ -590,21 +590,21 @@ Finally, let’s try using an external trigger to update the status of our leads
 
 Then, we’ll create a new automation called _Change Status_, that’s triggered by an external Webhook:
 
-![External Webhook Trigger](https://res.cloudinary.com/daog6scxm/image/upload/v1658503242/cms/Screenshot_2022-07-13_at_16.18.27_tviqdk.png "External Webhook Trigger")
+![External Webhook Trigger](https://res.cloudinary.com/daog6scxm/image/upload/v1658503242/cms/Screenshot_2022-07-13_at_16.18.27_tviqdk.webp "External Webhook Trigger")
 
 This gives you a URL that you can paste into your external platform, as the target destination:
 
-![Webhook Setup](https://res.cloudinary.com/daog6scxm/image/upload/v1658503282/cms/Screenshot_2022-07-13_at_16.19.02_bq79ra.png "Webhook Setup")
+![Webhook Setup](https://res.cloudinary.com/daog6scxm/image/upload/v1658503282/cms/Screenshot_2022-07-13_at_16.19.02_bq79ra.webp "Webhook Setup")
 
 What needs to happen in the external platform to send this Webhook is up to you.
 
 Then, we’ll add a query rows block, and create a filtering rule to isolate the row in our internal table which matches the primary display of the object sent through the Webhook:
 
-![Filtering](https://res.cloudinary.com/daog6scxm/image/upload/v1658503310/cms/Screenshot_2022-07-13_at_16.21.14_mn1lwu.png "Filtering")
+![Filtering](https://res.cloudinary.com/daog6scxm/image/upload/v1658503310/cms/Screenshot_2022-07-13_at_16.21.14_mn1lwu.webp "Filtering")
 
 Let’s assume that the Webhook only gets sent my the external platform when someone opens one of our marketing emails. Next, we need to add an update row block, to change the status to Hot for the output row of the previous step:
 
-![Automating Marketing Processes](https://res.cloudinary.com/daog6scxm/image/upload/v1658503334/cms/Screenshot_2022-07-13_at_16.22.57_vjuniz.png "Automating Marketing Processes")
+![Automating Marketing Processes](https://res.cloudinary.com/daog6scxm/image/upload/v1658503334/cms/Screenshot_2022-07-13_at_16.22.57_vjuniz.webp "Automating Marketing Processes")
 
 If we want, we could also create an almost identical automation rule with a new Webhook that’s triggered by an external action that tells us a lead has gone cold. For example, if they’ve failed to open ten emails in a row.
 
