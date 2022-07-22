@@ -51,7 +51,7 @@ This decision then leads to a follow-on action. This can come in a couple of dif
 
 We’ll look at some specific examples of each of these shortly.
 
-![Operations Automation Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1658504344/cms/Operations_Automation-2_lnnbyo.png "Operations Automation Stats")
+![Operations Automation Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1658504344/cms/Operations_Automation-2_lnnbyo.wepb "Operations Automation Stats")
 
 ### How is this different from other kinds of automation?
 
@@ -92,7 +92,7 @@ This is all about cutting operating costs.
 
 Obviously, when you remove the need for employees to manually carry out different tasks, you’ll incur lower labor costs. In the current age of lay-offs and hiring freezes, this is critical.
 
-![Operations Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1658504452/cms/Operations_automation_stats_2_cz62jy.png "Operations Automation")
+![Operations Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1658504452/cms/Operations_automation_stats_2_cz62jy.webp "Operations Automation")
 
 There’s more to efficiency than simply saving money though.
 
@@ -134,7 +134,7 @@ That way, you can negate some of the negative impact of turnover by lowering the
 
 Finally, we can look to automation to reduce the cost of training new employees. Simply put, when a large proportion of tasks across your business are automated, there’s just less to teach new employees how to do.
 
-![Onboarding Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1658504477/cms/Onboarding_Stats_bzxq1e.png "Onboarding Stats")
+![Onboarding Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1658504477/cms/Onboarding_Stats_bzxq1e.webp "Onboarding Stats")
 
 ### Security, compliance, & process adherence
 
@@ -205,7 +205,7 @@ Because of this, we could easily build automation rules to direct tasks to the n
 
 Or, we could add more complex conditions to our rule. For example, if we had attributes for individual team members’ skills or expertise, we could use this to route tasks to the next available _qualified_ agent.
 
-![Automate call-backs](https://res.cloudinary.com/daog6scxm/image/upload/v1658504507/cms/Call-Back_Request_noumgz.png "Request a call-back")
+![Automate call-backs](https://res.cloudinary.com/daog6scxm/image/upload/v1658504507/cms/Call-Back_Request_noumgz.webp "Request a call-back")
 
 ### Scheduling, booking, and time management
 
@@ -297,7 +297,7 @@ More than likely, you’re already storing data for project budgets, and employe
 
 We might also need to create an additional attribute, to store a value for labor costs against each employee, team, or type of task.
 
-![Initiation Form](https://res.cloudinary.com/daog6scxm/image/upload/v1658504594/cms/Project_Initiation_cydssv.png "Initiation Form")
+![Initiation Form](https://res.cloudinary.com/daog6scxm/image/upload/v1658504594/cms/Project_Initiation_cydssv.webp "Initiation Form")
 
 Our goal with automation would be to consolidate this data and process it to show how we’ve used our budget so far and compare this against our original plan. We could also set up notifications to warn stakeholders that a project risks going over budget.
 
