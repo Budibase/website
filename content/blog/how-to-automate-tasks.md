@@ -419,5 +419,4 @@ Low-code development is changing the way that businesses automate tasks and Budi
 
 Automating your business doesn’t have to mean expensive custom developments or SaaS licenses. With Budibase, you can start building custom automation for all kinds of business tasks, for free.
 
-  
 Check out our extensive range of free, deployment-ready [app templates](https://budibase.com/templates/) to see more of what Budibase can do.
