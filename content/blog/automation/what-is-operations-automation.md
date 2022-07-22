@@ -51,7 +51,7 @@ This decision then leads to a follow-on action. This can come in a couple of dif
 
 We’ll look at some specific examples of each of these shortly.
 
-![](https://lh5.googleusercontent.com/pDGopbEmB7U_ujZBf-XRLoWHIAJm4VtMILAnSb-M4griL125K4o7TN4Ae-SZahmh76OBDGDDaHy3F2GB-dyvgi2tbMTBtJ09L-QsCj2ssHb8-hU0lAOD84c671xtnxMwmvNttisR-wj7V5xM3UkMDbQ =624x351)
+![Operations Automation Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1658504344/cms/Operations_Automation-2_lnnbyo.png "Operations Automation Stats")
 
 ### How is this different from other kinds of automation?
 
@@ -92,7 +92,7 @@ This is all about cutting operating costs.
 
 Obviously, when you remove the need for employees to manually carry out different tasks, you’ll incur lower labor costs. In the current age of lay-offs and hiring freezes, this is critical.
 
-![](https://lh6.googleusercontent.com/V7tasH90jvcYcrJx_y2YKFtzcZpOOvrjBpripK-UatZyZw5iS14KmHxiaHRXdp4osNklzo6-vpUsoCbJNwBA82LNkE4POGuPZwlxKh3l-uUB7hIp-s085Qtg3Yv1xUKF6KPYEQ18DEW_YLlcLRQOeTo =624x351)
+![Operations Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1658504452/cms/Operations_automation_stats_2_cz62jy.png "Operations Automation")
 
 There’s more to efficiency than simply saving money though.
 
@@ -134,7 +134,7 @@ That way, you can negate some of the negative impact of turnover by lowering the
 
 Finally, we can look to automation to reduce the cost of training new employees. Simply put, when a large proportion of tasks across your business are automated, there’s just less to teach new employees how to do.
 
-![](https://lh4.googleusercontent.com/9eUrcUG5vj6KchkogxwN5TH6gyZY_b4H_r5DPcu0Fu4_8OnuDIJGrGaODpMEALIYZ7p9-k4RC0SKByBTed2Ppv797DBGsPB1fbUKd-YH_P5VhNhw88fizYV9e7SWNd3gGj4aH1Cs3BD9q8DI4VmejG4 =624x351)
+![Onboarding Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1658504477/cms/Onboarding_Stats_bzxq1e.png "Onboarding Stats")
 
 ### Security, compliance, & process adherence
 
@@ -205,7 +205,7 @@ Because of this, we could easily build automation rules to direct tasks to the n
 
 Or, we could add more complex conditions to our rule. For example, if we had attributes for individual team members’ skills or expertise, we could use this to route tasks to the next available _qualified_ agent.
 
-![](https://lh5.googleusercontent.com/k_HB0xvDTp-Y0_8QkZ4d94HYrHWhP0Trop0hcjEab8N3JvAXmiY8zjsb9B_-iCOhAN48oVtKMcPI81szap-jlHTnu_RG9KKTZDAd8AdnN_IlrKnTwRwwnlIpyhdKimRfqnTj5XmO9eYyaOnnxpFDuS0 =624x351)
+![Automate call-backs](https://res.cloudinary.com/daog6scxm/image/upload/v1658504507/cms/Call-Back_Request_noumgz.png "Request a call-back")
 
 ### Scheduling, booking, and time management
 
@@ -230,25 +230,19 @@ The _event_interval_ needs to be set manually. For usability, let’s say we wan
 
 We can calculate _next_event_ using this information, in a formula variable with the following JavaScript block:
 
-const nextEvent = $(‘last_event);
-
-nextEvent.setDate(nextEvent.getDate() + $(‘eventInterval’));
-
-return nextEvent;
+    const nextEvent = $(‘last_event);
+    nextEvent.setDate(
+    nextEvent.getDate() + $(‘eventInterval’));
+    return nextEvent;
 
 The _event_due_ attribute will also be a formula variable. In JavaScript, this would be:
 
-const lastEvent = $(‘last_event’);
-
-const dateToday = new Date();
-
-if (Date.parse(dateToday) >= Date.parse(lastEvent)){
-
-return true;
-
-}
-
-else return false;
+    const lastEvent = $(‘last_event’);
+    const dateToday = new Date();
+    if (Date.parse(dateToday) >= Date.parse(lastEvent)){
+    return true;
+    }
+    else return false;
 
 If we need to, we can then send this to our calendar app, or whatever other booking tool we’re using to trigger automated processes.
 
@@ -268,13 +262,10 @@ In a very simple example, this could be:
 
 Here, the boolean value is even easier to set:
 
-if ($(‘current_stock’) < $(‘replenishment_threshold’)){
-
-return true;
-
-}
-
-else return false;
+    if ($(‘current_stock’) < $(‘replenishment_threshold’)){
+    return true;
+    }
+    else return false;
 
 Whenever this evaluates to true, we can simply send the appropriate row, including the _replenishment_quantity_ to our order management system to create the order.
 
@@ -306,7 +297,7 @@ More than likely, you’re already storing data for project budgets, and employe
 
 We might also need to create an additional attribute, to store a value for labor costs against each employee, team, or type of task.
 
-![](https://lh4.googleusercontent.com/a_RThNohappVVNDjdxHKX9C73o4hJtp96YvuYBwliF3dx1MrSp1U6XnjFwLW4KBulprgotfS-Sp3obfLxoFwk8k-26yu93xjP-ZHvZyVpzvUnW9CX5tQ6VzaBvhYFRFJjqTn92tbrvuem4YhudBF8PE =624x351)
+![Initiation Form](https://res.cloudinary.com/daog6scxm/image/upload/v1658504594/cms/Project_Initiation_cydssv.png "Initiation Form")
 
 Our goal with automation would be to consolidate this data and process it to show how we’ve used our budget so far and compare this against our original plan. We could also set up notifications to warn stakeholders that a project risks going over budget.
 
