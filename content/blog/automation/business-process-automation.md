@@ -67,7 +67,7 @@ As we’ll see a little later BPA can be rolled out across every department and 
 
 For now, though, we simply want to outline the criteria that you can use to determine whether a process is automatable.
 
-![Business Process Automation Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1658501221/cms/Business_process_automation_stats_iehfy3.png "Business Process Automation Stats")
+![Business Process Automation Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1658501221/cms/Business_process_automation_stats_iehfy3.webp "Business Process Automation Stats")
 
 Here are the key indicators that process can and should be automated:
 
@@ -121,7 +121,7 @@ Of course, faster resolutions also have a huge impact in time-sensitive processe
 
 For example, incident responses, urgent purchases, hiring decisions, press inquiries, and a range of other processes rely on quick turnarounds for optimal outcomes.
 
-![BPA for Digital Transformation](https://res.cloudinary.com/daog6scxm/image/upload/v1658501296/cms/Business_process_automation_stats_97_ae0yoo.png "BPA for Digital Transformation")
+![BPA for Digital Transformation](https://res.cloudinary.com/daog6scxm/image/upload/v1658501296/cms/Business_process_automation_stats_97_ae0yoo.webp "BPA for Digital Transformation")
 
 ### Increased productivity
 
@@ -225,7 +225,7 @@ Similarly, automation improves accuracy within discrete tasks.
 
 So, if we stick with the approval request example, we might use BPA to automate communications around this. That way, we can prevent a range of errors, including miscommunications, mix-ups, and unnecessary delays.
 
-![Business Process Automation Error Reduction](https://res.cloudinary.com/daog6scxm/image/upload/v1658501330/cms/Business_Process_Automation_copy_ei578j.png "Business Process Automation Error Reduction")
+![Business Process Automation Error Reduction](https://res.cloudinary.com/daog6scxm/image/upload/v1658501330/cms/Business_Process_Automation_copy_ei578j.webp "Business Process Automation Error Reduction")
 
 ## Where does BPA fit into your automation strategy?
 
@@ -275,7 +275,7 @@ Therefore, the more you can reduce the time required for employees to carry out 
 
 Specific examples of BPA use cases here include scheduling tasks, booking management, data entry and updates, internal communications, and more.
 
-![New TImelog screengrab](https://res.cloudinary.com/daog6scxm/image/upload/v1658501414/cms/Screenshot_2022-07-22_at_15.17.26_ylhudu.png "New Timelog Screengrab")
+![New TImelog screengrab](https://res.cloudinary.com/daog6scxm/image/upload/v1658501414/cms/Screenshot_2022-07-22_at_15.17.26_ylhudu.webp "New Timelog Screengrab")
 
 ### Resource planning, allocation, and deployment
 
@@ -292,7 +292,7 @@ No matter what the specific resource is, there are a few key steps involved:
 
 Naturally, the specific actions required for each of these depend on the type of resource in question. For example, server monitoring is a very different set of tasks from [IT asset management](https://budibase.com/it/templates/open-source-it-asset-management-software/).
 
-![Asset Management Screengrab](https://res.cloudinary.com/daog6scxm/image/upload/v1658501537/cms/Screenshot_2022-07-22_at_15.18.37_h4dhhm.png "Asset Management Screengrab")
+![Asset Management Screengrab](https://res.cloudinary.com/daog6scxm/image/upload/v1658501537/cms/Screenshot_2022-07-22_at_15.18.37_h4dhhm.webp "Asset Management Screengrab")
 
 In any case, though, we have the same goal and core approach for automating resourcing processes. That is, we want to build out robust systems to get the right resources to employees, as quickly as possible.
 
@@ -324,7 +324,7 @@ For example, it’s much easier to determine if a value is under a given thresho
 
 This opens up finance teams to a huge range of automation, including applying formulae to input data, or simply approving or escalating different invoice submissions based on their value.
 
-![Business Process Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1658501564/cms/Screenshot_2022-07-22_at_15.20.06_yq6h0v.png "Business Process Automation")
+![Business Process Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1658501564/cms/Screenshot_2022-07-22_at_15.20.06_yq6h0v.webp "Business Process Automation")
 
 ### Document management
 
@@ -346,7 +346,7 @@ You might use these actions to trigger many automated processes.
 
 For example, you could simply trigger automated queries to update related [data sources](https://budibase.com/blog/data/data-sources/) when users change their details. So, an employee might want to update their contact number, and it would be helpful if they only needed to do this in a single form UI.
 
-![Self-service form](https://res.cloudinary.com/daog6scxm/image/upload/v1658501639/cms/Screenshot_2022-07-22_at_15.21.37_msho8z.png "Self-service form")
+![Self-service form](https://res.cloudinary.com/daog6scxm/image/upload/v1658501639/cms/Screenshot_2022-07-22_at_15.21.37_msho8z.webp "Self-service form")
 
 Besides using user submissions as automation triggers, we can also use BPA to reduce the number of inputs required from users to carry out self-service tasks.
 
@@ -460,7 +460,7 @@ The thing is, people are essentially lazy. Therefore, they’ll pretty much alwa
 
 If employees don’t understand the rationale behind your processes, they’re more likely to cut corners, and you’ll see poor adherence and unnecessary mistakes.
 
-![BPA training](https://res.cloudinary.com/daog6scxm/image/upload/v1658501668/cms/Business_process_automation_stats_Training_fcumdm.png "BPA training")
+![BPA training](https://res.cloudinary.com/daog6scxm/image/upload/v1658501668/cms/Business_process_automation_stats_Training_fcumdm.webp "BPA training")
 
 ### 7. Constant evolution
 
@@ -605,7 +605,7 @@ One option would be to ask users to categorize requests themselves at the point 
 
 Alternatively, we could create a more sophisticated system. For example, by using code to parse long-form text data.
 
-![Budibase Automation Triggers](https://res.cloudinary.com/daog6scxm/image/upload/v1658501698/cms/Screenshot_2022-07-22_at_15.23.53_chg60d.png "Budibase Automation Triggers")
+![Budibase Automation Triggers](https://res.cloudinary.com/daog6scxm/image/upload/v1658501698/cms/Screenshot_2022-07-22_at_15.23.53_chg60d.webp "Budibase Automation Triggers")
 
 With our triggers in place, we can start to implement follow-on actions.
 
@@ -793,7 +793,7 @@ More often, your costs will rise over time, either because of your needs expandi
 
 Finally, we need to factor in the cost of maintaining, supporting, and continuously improving your BPA solutions. This includes labor costs as well as any additional tools or platforms you might need to procure.
 
-![BPA cost effectiveness](https://res.cloudinary.com/daog6scxm/image/upload/v1658501734/cms/Business_process_automation_stats_Labor_Costs_rgjs9f.png "BPA cost effectiveness")
+![BPA cost effectiveness](https://res.cloudinary.com/daog6scxm/image/upload/v1658501734/cms/Business_process_automation_stats_Labor_Costs_rgjs9f.webp "BPA cost effectiveness")
 
 ## Budibase for business process automation
 
