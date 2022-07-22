@@ -51,7 +51,7 @@ This decision then leads to a follow-on action. This can come in a couple of dif
 
 We’ll look at some specific examples of each of these shortly.
 
-![Operations Automation Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1658504344/cms/Operations_Automation-2_lnnbyo.wepb "Operations Automation Stats")
+![Operations Automation Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1658504344/cms/Operations_Automation-2_lnnbyo.webp "Operations Automation Stats")
 
 ### How is this different from other kinds of automation?
 
