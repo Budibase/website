@@ -389,7 +389,7 @@ That is, full-stack tools aren’t cheap. You also run the risk of getting locke
 
 Again, this won’t be great value for money if you only need specific features.
 
-Check out our guide to [operations automation.](blog/automation/operations-automation/)
+Check out our guide to [operations automation.](blog/automation/what-is-operations-automation/)
 
 Besides this, there’s the fact that individual features might offer less specific functionality than a similar dedicated platform.
 
