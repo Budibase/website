@@ -321,7 +321,7 @@ One big decision is how and where to host custom solutions.
 
 This has a massive impact on the effectiveness and ROI of your automation project. This cuts across accessibility, usability, and security. We’ll see how when we look at what Budibase offers as an automation tool.
 
-Check out our guide to [operations automation](blog/automation/operations-automation/).
+Check out our guide to [operations automation](blog/automation/what-is-operations-automation/).
 
 ### 6. Monitoring and ongoing optimization
 
