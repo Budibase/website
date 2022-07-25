@@ -35,6 +35,8 @@ Specifically, modern BPA means using a range of software tools to eliminate manu
 
 The goal is to maximize efficiency within business processes so that resources can be redirected towards higher priority activities. Besides this, BPA seeks to provide improved oversight, transparency, and accountability.
 
+Check out our guide to [how to automate tasks](blog/automation/how-to-automate-tasks/).
+
 We’ll talk in more detail about how this works in practice a little later.
 
 For now, though, let’s take a bit of a step back and think about what we actually mean by business processes.
@@ -54,6 +56,8 @@ In other words, this means identifying and eliminating inefficiencies that hampe
 For example, you might have a variety of distinct internal workflows that require employees to update a particular dataset. For instance, your customer account information might be updated by service, sales, marketing, support, and finance teams for different purposes.
 
 Rather than treating each of these tasks as siloed workflows, business process automation seeks to put in place reusable strategies for maximizing efficiency across all of them.
+
+Take a look at our guide to [automating marketing processes](blog/automation/automating-marketing-processes/).
 
 ### What kind of processes can be automated?
 
@@ -209,6 +213,8 @@ On top of this, business process automation is a core part of your operations im
 This goes hand in hand with scalability.
 
 For example, your focus could be using automation to remove data entry tasks from processes across your entire organization. This makes it easier to scale processes in terms of resourcing and the quality of your outcomes.
+
+Check out our guide to [operations automation](blog/automation/what-is-operations-automation/).
 
 ### Minimizing errors
 
