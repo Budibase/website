@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-07-24T23:00:00Z
 description = "Knowing how to automate tasks is a key element of your efficiency strategy. Here’s everything you need to know."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1658736191/cms/How_to_automate_tasks_header_bfqtjt.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1658736198/cms/How_to_automate_tasks_header_kugatm.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"

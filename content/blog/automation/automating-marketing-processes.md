@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-07-21T23:00:00Z
 description = "Automating marketing processes is a top priority for modern businesses. Check out our in-depth guide to find out how Budibase is changing the game."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1658502096/cms/Enterprise_App_UI_Design_Header_jko0ao.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1658502103/cms/Enterprise_App_UI_Design_Header_qtytrg.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"

@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-07-21T23:00:00Z
 description = "Operations automation is a top priority for any modern business. Here’s everything you need to know."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1658504158/cms/Enterprise_App_UI_Design_Header_rta8ib.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1658504164/cms/Enterprise_App_UI_Design_Header_nyxosi.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
