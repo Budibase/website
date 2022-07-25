@@ -47,7 +47,7 @@ Efficiency also means speed.
 
 Automation helps your team to complete tasks faster. This feeds profitability, with better outcomes, improved customer satisfaction, and reduced delays within processes.
 
-![](https://lh3.googleusercontent.com/LRhliromG4bueVkDIBEUwcnidz-S0u0DvsZmMoSt9V2BUsRBGfvmNB-PEbcyexd5GbckhfDhOGhUiQehPuL_iPnTpZRTZDNtX1xeJweEGaaRQaAJ4MdSbuAAHJNBMEr9oacYNEWy6C-WGLZqI7A48Ww =624x351)
+![How to automate tasks statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1658736520/cms/Marketing_automation_stats_otblpt.png "How to automate tasks statistics")
 
 ### Optimized resource allocation
 
@@ -99,7 +99,7 @@ This is where automating menial tasks comes in. When you free your team up to wo
 
 For example, your development team probably enjoys solving problems. They didn’t get into their current role because they like doing paperwork. It only makes sense to help them to focus on developing solutions.
 
-![](https://lh3.googleusercontent.com/7numYF8-dHCIuEHbWH3mc9ztAPTery7pRwg9CBPFsvcGb5dkXj_0zrnNu2MxsYljT2C0UTxQLLRfZiIFXf-Z2NzhftdNr4Y472knRVJ-zCUT1hW4lCsgp8_xg260vM1ZPe6TN0RrUoDdjKMnz2aS8VM =624x351)
+![Automation job satisfaction](https://res.cloudinary.com/daog6scxm/image/upload/v1658736494/cms/Marketing_automation_stats_2_legmd6.png "Automating Job Satisfaction")
 
 ### Security, accuracy, and consistency
 
@@ -169,7 +169,7 @@ So in other words, a user can request permission to do something or to access a 
 
 If it’s approved, then whatever follow-on action is needed can go ahead. There might even be a defined action for cases where the request is declined.
 
-![](https://lh6.googleusercontent.com/FNVMROKy3Uym1rejX54QAYo6DdGxa3giFX7fpba99gn5AdGOgbTitu8vWfcn20T8RLYjhpqC7VhpkyDdFZI4yYGOaGrnqAGeJgHPVhOmphEc0BSADp6Ive12XPZSJ8kRhcWChV_zRX-CsZ8rVfX6lAA =624x260)
+J![Project Management Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1658736461/cms/Screenshot_2022-07-22_at_14.45.10_fhptum.png "Project management automation")
 
 Any step here can be automated.
 
@@ -270,7 +270,7 @@ For example, to automate vacation requests, we’d need to know the following:
 
 Later, we’ll be able to create computable rules based on these. Check out our in-depth guide on [how to create a data model](https://budibase.com/blog/data/how-to-create-a-data-model/) for more information.
 
-![](https://lh5.googleusercontent.com/JewV5JzdD53Mh90inpBKQR2XIA5q2zwQO_xA2DPq3KQjb63tOhHeRKAA8tWSY28PrWWOFQoFpQFgf6EyX37nHYNgEzpXg-FKvYWUZf9q0BKUm1AoM4nOpyFs7v55FzFhvgvFhWJg8S_kSiF8l7tb_IQ =624x268)
+![BudibaseDB](https://res.cloudinary.com/daog6scxm/image/upload/v1658736401/cms/Screenshot_2022-07-22_at_14.31.10_yptv5o.png "Internal Database")
 
 ### 4. Define triggers and actions
 
@@ -285,7 +285,7 @@ So, a trigger is a defined condition. If this evaluates to _true_, the action is
 
 A trigger can be a user action, system event, external factor, or even just a time series.
 
-![](https://lh6.googleusercontent.com/mwVkLNXVos9Ckv18IgIPb4kbHWO7IECRU1c8McGobx0JQkyzjWFY2rjzijlbkyBHu36mFCWTxeUa9x1frXSIQ87V8IyynZzym4QYvUT3spCMdyVRTY8SwNTaDt7S4v07sicNFQA1dbe0sXvuBJVQXoE =624x276)
+![How to automate tasks](https://res.cloudinary.com/daog6scxm/image/upload/v1658736373/cms/Screenshot_2022-07-22_at_14.32.30_zfaxhz.png "How to automate tasks")
 
 Actions are a little bit harder to generalize about. The possibilities here are only really limited by what your chosen platform is capable of.
 
@@ -351,7 +351,7 @@ Budibase offers the perfect way to build interfaces to trigger automations for a
 
 We also offer our own built-in database with CSV uploads, which is the perfect vehicle for quickly and easily creating apps on the fly.
 
-![](https://lh3.googleusercontent.com/SP_2RG4_7XVGNzm4G8HHmvcuiUgKAG38bHKRy9dhlj8_9nNi3DNKzwndoYdtoCGpVSjQKL6DHEwpyyOQ7om6Aw6nVYWW0Pi4sWm0Ul30n28PrbrkeWCtuQEFShYXiK-a3dXHho-N9WfeNCFctYpRWFo =624x327)
+![Data sources for automating tasks](https://res.cloudinary.com/daog6scxm/image/upload/v1658736337/cms/Screenshot_2022-07-22_at_14.33.16_xro8ix.png "Select data source to automate tasks")
 
 ### Low-code automation builder
 
@@ -411,7 +411,7 @@ RBAC works by placing each user into a defined group, based on their needs and r
 
 That way, each employee has the lowest amount of data exposure that will allow them to do their jobs effectively. RBAC is the fastest, easiest way to administer access for large and small teams alike.
 
-![](https://lh5.googleusercontent.com/CL0JZYKetLkQSk0Ii6dM497nNbUEwzcOVSQd9XAE-2cl-XQ2kZzHhUwHx_BQiPIosqpsj3YVjh_lNHmDoXfXiLzeNQRzRS_XJomlfG52JaCjahaJOcc-kQuSPzfQwIEKmahvb3jGZVWzBIyxBMz1rQw =624x323)
+![RBAC Editor](https://res.cloudinary.com/daog6scxm/image/upload/v1658736302/cms/Screenshot_2022-07-22_at_14.34.20_ovxhpy.png "How to Automate Tasks RBAC")
 
 ### 50+ deployable app templates
 
@@ -419,5 +419,4 @@ Low-code development is changing the way that businesses automate tasks and Budi
 
 Automating your business doesn’t have to mean expensive custom developments or SaaS licenses. With Budibase, you can start building custom automation for all kinds of business tasks, for free.
 
-  
 Check out our extensive range of free, deployment-ready [app templates](https://budibase.com/templates/) to see more of what Budibase can do.
