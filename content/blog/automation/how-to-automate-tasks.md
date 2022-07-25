@@ -47,7 +47,7 @@ Efficiency also means speed.
 
 Automation helps your team to complete tasks faster. This feeds profitability, with better outcomes, improved customer satisfaction, and reduced delays within processes.
 
-![How to automate tasks statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1658736520/cms/Marketing_automation_stats_otblpt.png "How to automate tasks statistics")
+![How to automate tasks statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1658736520/cms/Marketing_automation_stats_otblpt.webp "How to automate tasks statistics")
 
 ### Optimized resource allocation
 
@@ -99,7 +99,7 @@ This is where automating menial tasks comes in. When you free your team up to wo
 
 For example, your development team probably enjoys solving problems. They didn’t get into their current role because they like doing paperwork. It only makes sense to help them to focus on developing solutions.
 
-![Automation job satisfaction](https://res.cloudinary.com/daog6scxm/image/upload/v1658736494/cms/Marketing_automation_stats_2_legmd6.png "Automating Job Satisfaction")
+![Automation job satisfaction](https://res.cloudinary.com/daog6scxm/image/upload/v1658736494/cms/Marketing_automation_stats_2_legmd6.webp "Automating Job Satisfaction")
 
 ### Security, accuracy, and consistency
 
@@ -169,7 +169,7 @@ So in other words, a user can request permission to do something or to access a 
 
 If it’s approved, then whatever follow-on action is needed can go ahead. There might even be a defined action for cases where the request is declined.
 
-J![Project Management Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1658736461/cms/Screenshot_2022-07-22_at_14.45.10_fhptum.png "Project management automation")
+J![Project Management Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1658736461/cms/Screenshot_2022-07-22_at_14.45.10_fhptum.webp "Project management automation")
 
 Any step here can be automated.
 
@@ -204,6 +204,8 @@ In either case, using automations in your internal and customer-facing comms off
 We can implement this within just about any business process.
 
 For example, we could eliminate weekly review meetings by creating a simple automation to notify relevant stakeholders of project updates.
+
+Check out our guide on [automating marketing processes](blog/automation/automating-marketing-processes/).
 
 ### Service, support, and relationship management
 
@@ -241,7 +243,7 @@ It also means that we can set realistic, quantifiable goals. That is, we need to
 
 Next, we need to choose the right tool for the job. The trouble is that there are several different types of automation software and countless individual vendors and platforms within each category.
 
-Check out our ultimate guide to business process automation for a more detailed overview.
+Check out our ultimate guide to [business process automation ](blog/automation/business-process-automation/)for a more detailed overview.
 
 The key here is deciding on the platform that’s going to offer you the best ROI.
 
@@ -270,7 +272,7 @@ For example, to automate vacation requests, we’d need to know the following:
 
 Later, we’ll be able to create computable rules based on these. Check out our in-depth guide on [how to create a data model](https://budibase.com/blog/data/how-to-create-a-data-model/) for more information.
 
-![BudibaseDB](https://res.cloudinary.com/daog6scxm/image/upload/v1658736401/cms/Screenshot_2022-07-22_at_14.31.10_yptv5o.png "Internal Database")
+![BudibaseDB](https://res.cloudinary.com/daog6scxm/image/upload/v1658736401/cms/Screenshot_2022-07-22_at_14.31.10_yptv5o.webp "Internal Database")
 
 ### 4. Define triggers and actions
 
@@ -285,7 +287,7 @@ So, a trigger is a defined condition. If this evaluates to _true_, the action is
 
 A trigger can be a user action, system event, external factor, or even just a time series.
 
-![How to automate tasks](https://res.cloudinary.com/daog6scxm/image/upload/v1658736373/cms/Screenshot_2022-07-22_at_14.32.30_zfaxhz.png "How to automate tasks")
+![How to automate tasks](https://res.cloudinary.com/daog6scxm/image/upload/v1658736373/cms/Screenshot_2022-07-22_at_14.32.30_zfaxhz.webp "How to automate tasks")
 
 Actions are a little bit harder to generalize about. The possibilities here are only really limited by what your chosen platform is capable of.
 
@@ -319,6 +321,8 @@ One big decision is how and where to host custom solutions.
 
 This has a massive impact on the effectiveness and ROI of your automation project. This cuts across accessibility, usability, and security. We’ll see how when we look at what Budibase offers as an automation tool.
 
+Check out our guide to [operations automation](blog/automation/operations-automation/).
+
 ### 6. Monitoring and ongoing optimization
 
 Unfortunately, automation is almost never a set-and-forget kind of deal.
@@ -351,7 +355,7 @@ Budibase offers the perfect way to build interfaces to trigger automations for a
 
 We also offer our own built-in database with CSV uploads, which is the perfect vehicle for quickly and easily creating apps on the fly.
 
-![Data sources for automating tasks](https://res.cloudinary.com/daog6scxm/image/upload/v1658736337/cms/Screenshot_2022-07-22_at_14.33.16_xro8ix.png "Select data source to automate tasks")
+![Data sources for automating tasks](https://res.cloudinary.com/daog6scxm/image/upload/v1658736337/cms/Screenshot_2022-07-22_at_14.33.16_xro8ix.webp "Select data source to automate tasks")
 
 ### Low-code automation builder
 
@@ -411,7 +415,7 @@ RBAC works by placing each user into a defined group, based on their needs and r
 
 That way, each employee has the lowest amount of data exposure that will allow them to do their jobs effectively. RBAC is the fastest, easiest way to administer access for large and small teams alike.
 
-![RBAC Editor](https://res.cloudinary.com/daog6scxm/image/upload/v1658736302/cms/Screenshot_2022-07-22_at_14.34.20_ovxhpy.png "How to Automate Tasks RBAC")
+![RBAC Editor](https://res.cloudinary.com/daog6scxm/image/upload/v1658736302/cms/Screenshot_2022-07-22_at_14.34.20_ovxhpy.webp "How to Automate Tasks RBAC")
 
 ### 50+ deployable app templates
 
