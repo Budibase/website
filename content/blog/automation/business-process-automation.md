@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2022-07-21T23:00:00Z
+date = 2022-07-24T23:01:00Z
 description = "Business process automation (BPA) is the cornerstone of any efficient organization. Here’s everything you need to know."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1658501119/cms/Business_Process_Automation_jpqcue.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1658501125/cms/Business_Process_Automation_g8sgkz.png"]
