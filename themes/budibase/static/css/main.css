@@ -22,9 +22,9 @@
     --mauve10: hsl(253, 3.5%, 53.5%);
     --mauve11: hsl(252, 4.0%, 44.8%);
     --mauve12: hsl(260, 25.0%, 11.0%);
-    --light1: #FDFDFB;
-    --light2: #FAF8F4;
-    --light3: #F7F3EC;
+    --light1: rgb(253,252,251);
+    --light2: rgba(249, 245, 241, 0.6);
+    --light3: rgb(249, 245, 241);
     --light4: #F3EEE4;
     --light5: #D8D2C7;
     --indigo400: hsl(240, 82%, 70%);
@@ -502,7 +502,7 @@ a:focus {
 }
 
 .a-light:hover {
-  text-decoration: underline var(--gray200) 2px;
+  text-decoration: underline var(--light3) 2px;
   color: var(--gray200);
 }
 
@@ -1448,6 +1448,33 @@ margin-left: 0rem;
   min-width: 360px;
 }
 
+.marquee-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.marquee {
+  font-size: 100px;
+  line-height: 1.3;
+  padding: 24px 0;
+  white-space: nowrap;
+  animation: marquee 43.5s infinite linear; 
+}
+
+.marquee:after{
+  content: "LONDON - PARIS - SYDNEY - TOKYO - NEW YORK - BERLIN - ROME";
+}
+
+@keyframes marquee{
+  0% {
+      transform: translateX(0)
+  }
+  100% {
+      transform: translateX(-50%)
+  }
+}
+
 .homepage-features {
   grid-template-columns: 100%;
   display: grid;
@@ -1466,7 +1493,7 @@ margin-left: 0rem;
 
 @media (min-width: 1200px) {
 .homepage-features {
-grid-template-columns: 400px auto;
+grid-template-columns: 380px auto;
 grid-gap: 50px;
 }
 }
@@ -1509,9 +1536,6 @@ grid-gap: 50px;
   }
 }
 
-.feature-image-lg {
-  object-fit: cover;
-}
 
 .max-w-400 {
   max-width: 400px;
@@ -1824,7 +1848,7 @@ details[open] > summary {
 .trusted-by-logos-sm {
   display: flex;
   flex-direction: row;
-  grid-gap: 2rem;
+  grid-gap: 1.75rem;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -1833,7 +1857,7 @@ details[open] > summary {
     .trusted-by-logos-sm {
       display: flex;
       flex-direction: row;
-      grid-gap: 1.5rem;
+      grid-gap: 1.3rem;
       align-items: center;
       flex-wrap: wrap;
     }
@@ -2024,7 +2048,7 @@ details[open] > summary {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 2rem 4.25rem;
 }
 /* Footer */
 .list-group {
@@ -2414,13 +2438,13 @@ border-radius: 16px;
 .pricing-card-bottom {
   padding: var(--space-3) var(--space-5) var(--space-6);
   display: grid;
-  grid-template-rows: 270px 280px 100px;
+  grid-template-rows: 250px 220px 100px;
 }
 
 .self-host-card-bottom {
   padding: var(--space-3) var(--space-5) var(--space-6);
   display: grid;
-  grid-template-rows: 270px 100px;
+  grid-template-rows: 250px 100px;
 }
 
 .pricing-grid-display {
@@ -2701,7 +2725,7 @@ ul {
 }
 
 .community-link-item:hover {
-  background-color: var(--gray200);
+  background-color: var(--light3);
 }
 
 .community-link-content {
@@ -3950,16 +3974,15 @@ fieldset:disabled a.btn {
 
 .btn-quiet {
   color: var(--gray900);
-  background-color: white;
-  border: 2px solid var(--white);
+  background-color: transparent;
+  border: 2px solid transparent;
   border-radius: var(--sizes-9) !important;
-
 }
 
 .btn-quiet:hover {
   color: var(--hiContrast);
-  background-color: var(--gray200);
-  border: 2px solid var(--gray200);
+  background-color: var(--light3);
+  border: 2px solid var(--light3);
   border-radius: var(--sizes-9) !important;
 }
 
@@ -5724,7 +5747,7 @@ button.bg-blue:focus {
 .shadow-xl {
   display: block;
   transform: translateZ(0);
-  box-shadow: 0px 36px 89px rgb(0 0 0 / 4%), 0px 23.3333px 52.1227px rgb(0 0 0 / 3%), 0px 13.8667px 28.3481px rgb(0 0 0 / 2%), 0px 7.2px 14.4625px rgb(0 0 0 / 2%), 0px 2.93333px 7.25185px rgb(0 0 0 / 2%), 0px 0.666667px 3.50231px rgb(0 0 0 / 1%);
+  box-shadow: 12px 36px 89px rgb(0 0 0 / 4%), 0px 23.3333px 52.1227px rgb(0 0 0 / 3%), 0px 13.8667px 28.3481px rgb(0 0 0 / 2%), 0px 7.2px 14.4625px rgb(0 0 0 / 2%), 0px 2.93333px 7.25185px rgb(0 0 0 / 2%), 0px 0.666667px 3.50231px rgb(0 0 0 / 1%);
 }
 
 .shadow-none {
@@ -8968,14 +8991,14 @@ button:focus {
 
 
 .u-avatar {
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
 }
 
 @media (min-width: 576px) {
   .u-avatar {
-    width: 44px;
-    height: 44px;
+    width: 36px;
+    height: 36px;
   }
 }
 
