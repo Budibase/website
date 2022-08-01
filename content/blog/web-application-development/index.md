@@ -1,15 +1,11 @@
 +++
-date = "2020-01-24"
-title = "A beginners guide to web application development (2021)"
-description = "Within Budibase's web application development guide you will learn processes, definitions, frameworks, platforms, and much more."
 author = "Joe Johnston"
+date = 2020-01-24T00:00:00Z
+description = "Within Budibase's web application development guide you will learn processes, definitions, frameworks, platforms, and much more."
 images = ["/web-application-development/guide-to-web-application-development.jpg"]
-draft ="false"
+title = "A beginners guide to web application development (2022)"
 
 +++
-
-
-
 {{< figure src="/web-application-development/guide-to-web-application-development.jpg" alt="Guide to web application development" >}}
 
 It was the year 2010, I had an idea for a web application which would allow my family and I to share images, organise shopping, populate a shared calendar, and store bills. My family was terribly disorganised. We needed this!
@@ -267,10 +263,3 @@ And If you need any support, reach out to me at:
 joe at budibase dot com 
 
 ✌️
-
-
-
-
-
-
-

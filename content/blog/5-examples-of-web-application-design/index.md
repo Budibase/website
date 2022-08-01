@@ -1,14 +1,11 @@
 +++
-date = "2019-07-28"
-title = "5 Recent Examples Of Modern Web Application Design (2021)"
-description = "We have debated for many hours to present you with 5 recent examples of modern web application design. Please use these designs as inspiration for your next web app."
 author = "Joe Johnston"
+date = 2019-07-28T00:00:00Z
+description = "We have debated for many hours to present you with 5 recent examples of modern web application design. Please use these designs as inspiration for your next web app."
 images = ["/web-app-ideas/dashboard-web-app.jpg"]
-draft ="false"
+title = "5 Recent Examples Of Modern Web Application Design (2022)"
+
 +++
-
-
-
 {{< figure src="/web-app-ideas/dashboard-web-app.jpg" alt="The CEO Dashboard Web App" >}}
 
 Every once in a while, I'll come across examples of web application design that really draw me in. I've listed these web applications below and ranked them from 5 - 1.
