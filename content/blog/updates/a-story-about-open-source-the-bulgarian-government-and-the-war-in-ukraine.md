@@ -11,6 +11,10 @@ title = "A story about open-source, the Bulgarian Government, and the war in Ukr
 +++
 It was a Sunday morning, and Budibase's Bulgarian QA engineer, Mihail, receives multiple LinkedIn messages from multiple employees of the Bulgarian Ministry Of Foreign Affairs (MoFA). He brushed it off, thinking it was a scam. But, suddenly, he gets a call from his cousin who works with the MoFA.
 
+It turns out, that the Bulgarian Government had been using Budibase to build an app that would help them rehome 120,000 Ukrainian refugees. The app was a \[multi-step, logic-based questionnaire app\]([https://survey.ukraine.gov.bg/builder/auth/login](https://survey.ukraine.gov.bg/builder/auth/login "https://survey.ukraine.gov.bg/builder/auth/login")). Ukrainian refugees would log in and provide their information, and the Bulgarian Government would help them find a place to stay. 
+
+***
+
 How did they get his number?
 
 The government of Bulgaria is a nation actively responding to the ongoing Russo-Ukraine conflict and the ensuing refugee crisis.
