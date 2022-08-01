@@ -1,6 +1,6 @@
 ---
 title: Why the Bulgarian Goverment chose Budibase
-description: Learn how the Bulgarian Government used Budibase to rehome 120,000 Ukranian refugees.
+description: Learn how the Bulgarian Government used Budibase to rehome 120,000 Ukrainian refugees.
 type: customers
 layout: single
 date: "2022-08-01"
