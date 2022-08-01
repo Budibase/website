@@ -23,7 +23,7 @@
         <section class="customer-meta-data bg-gray rounded p-4">
             {{ with .Resources.Match "*/logo*" }}
             {{ range . }}
-            <img class="w-75 pt-3 customer-logo rounded mb-2" src="{{ .RelPermalink }}" />
+            <img class="pt-3 customer-logo rounded mb-2" src="{{ .RelPermalink }}" />
             {{ end }}          
           {{ end }}
             <p class="text-dark detail-sm text-opacity mt-4">Founded:</p>

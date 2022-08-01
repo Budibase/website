@@ -3497,6 +3497,11 @@ border-radius: .75rem;
    height: fit-content;
 }
 
+.customer-logo {
+  max-height: 100px;
+  max-width: 150px;
+}
+
 .container-narrow {
   width: 100%;
   margin-right: auto;
