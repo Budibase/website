@@ -1,11 +1,10 @@
 +++
-date = "2019-04-23"
-title = "How to build a web app: A beginner's guide (2021)"
-description = "Learn the best way to create a web application and deploy it. This tutorial will provide you with a simple and informative stepped approach on how to build a web app."
 author = "Joe Johnston"
-draft ="false"
-+++
+date = 2019-04-23T00:00:00Z
+description = "Learn the best way to create a web application and deploy it. This tutorial will provide you with a simple and informative stepped approach on how to build a web app."
+title = "How to build a web app: A beginner's guide (2022)"
 
++++
 {{< figure src="/how-to-make-a-web-app/how-to-make-a-web-app.jpg" attr="Picture by [Med Badr](https://unsplash.com/@medbadrc)" alt="How to make a web app" >}}
 
 In this post, I’m going to show you EXACTLY how to make a web app.
