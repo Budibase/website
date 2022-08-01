@@ -1,12 +1,11 @@
 +++
-date = "2020-03-12"
-title = "The 12 best no-code tools in 2021"
-description = "Having the right no-code stack can help you get the job done a lot faster, easier and cheaper. Here are my top 12 best no-code tools to use in 2021."
 author = "Joe Johnston"
+date = 2020-03-12T00:00:00Z
+description = "Having the right no-code stack can help you get the job done a lot faster, easier and cheaper. Here are my top 12 best no-code tools to use in 2022."
 images = ["/no-code-tools/no-code-tools.png"]
-draft ="false"
-+++
+title = "The 12 best no-code tools in 2022"
 
++++
 No-code tools empower people around the world to build technology without code. Before no-code tools, building a simple web application was a challenging task, and often left to developers. Thankfully, this is not the case anymore. While no-code tools cannot solve all technical challenges, having the right no-code stack can undoubtedly help you get certain jobs done a lot faster, easier, and cheaper.
 
 There are hundreds of no-code tools available, some free and some expensive. They also serve tons of different purposes, from 3rd party integrations to building web applications and more. 
@@ -221,6 +220,3 @@ NoCodeDevs is free to join and use.
 I hope you enjoyed this post, and it has helped you identify new no-code tools. If you are looking for an idea as an excuse to use one of these tools, please check out [6 Micro SaaS ideas to steal in 2021](https://www.budibase.com/blog/micro-saas-ideas/). I wish you the best of luck on your no-code journey and if you have any problems, please feel free to drop me a message using the [contact form](https://budibase.com/contact/).
 
 Also, at Budibase, we are working hard to build a platform that will help empower the world to build web apps quickly and easily. If you are interested, please sign up below.
-
-
-
