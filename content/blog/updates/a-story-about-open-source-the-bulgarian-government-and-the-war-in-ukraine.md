@@ -2,7 +2,7 @@
 author = "Martin McKeaveney"
 date = 2022-07-31T23:00:00Z
 description = "The Bulgarian Government are using Budibase to re-home 120,000 Ukrainian refugees. At the heart of the story, is open-source."
-image = "https://res.cloudinary.com/daog6scxm/image/upload/v1659442815/cms/Customer_stories_4_qqf7j5.png"
+image = ""
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1659446099/cms/Customer_stories_5_cp8ktg.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1659450296/cms/martin_sjr9hh.jpg"
 title = "A story about open-source, the Bulgarian Government, and the war in Ukraine"
