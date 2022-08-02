@@ -11,26 +11,19 @@ title = "A story about open-source, the Bulgarian Government, and the war in Ukr
 +++
 It was a Sunday morning, and Budibase's Bulgarian QA engineer, Mihail, receives multiple LinkedIn messages from multiple employees of the Bulgarian Ministry Of Foreign Affairs (MoFA). He brushed it off, thinking it was a scam. But, suddenly, he gets a call from his cousin who works with the MoFA.
 
-It turns out, that the Bulgarian Government had been using Budibase to build an app that would help them rehome 120,000 Ukrainian refugees. The app was a \[multi-step, logic-based questionnaire app\]([https://survey.ukraine.gov.bg/builder/auth/login](https://survey.ukraine.gov.bg/builder/auth/login "https://survey.ukraine.gov.bg/builder/auth/login")). Ukrainian refugees would log in and provide their information, and the Bulgarian Government would help them find a place to stay. 
+It turns out that the Bulgarian Government had been using Budibase to build an app that would help them rehome thousands of Ukrainian refugees. Ukrainian refugees would log in and provide their information, and the Bulgarian Government would help them find a place to stay.  The app was a \[multi-step, logic-based questionnaire app\]([https://survey.ukraine.gov.bg/builder/auth/login](https://survey.ukraine.gov.bg/builder/auth/login "https://survey.ukraine.gov.bg/builder/auth/login")) that stored in a SQL database. The app was self-hosted using Docker Compose. 
 
-***
+They were attempting to contact us because they had built the Budibase app in advance, and it was working perfectly until they uploaded the 100,000+ users, and released it out into the wild. In hindsight, this load testing should probably have been performed in advance, but there was no time in this case. 
 
-How did they get his number?
+At this point, the app started to choke under the load. This was mainly due to the large amount of users and queries causing the server to crash. It is important to note, that they were using our new [Public API](https://docs.budibase.com/docs/public-api "public api"), which was a couple of weeks old at this point. We ran into some more performance issues and made some updates to make Budibase perform better:
 
-The government of Bulgaria is a nation actively responding to the ongoing Russo-Ukraine conflict and the ensuing refugee crisis.
+* Cached calls to /checklist, and reduced the amount of rows being queried to make that call faster
+* Added PM2 so that we could run worker/server on all cores on a single machine using node clustering
 
-To manage the influx of refugees and provide them with the due care, accommodation, and help, the Bulgarian government needed to collect information from Ukrainian citizens entering Bulgaria.
+This improved performance significantly, and the app was performing like a dream. 
 
-A software project initiated by our prime minister and the cabinet would be the answer to this problem, allowing us to collect personal information from over 120,000 refugees in the form of a multi-step, logic-based questionnaire application. We were deeply constrained by time, so we decided to look for a low-code platform to help us deliver the solution faster.
+Here’s a video from the Bulgarian deputy prime minister announcing the app's release and telling Ukrainian refugees to fill out the form. See 0:08 for the budibase app:
 
-When selecting a solution, it had to be open source - this helps us adopt the tool quicker and reduces procurement efforts. The solution also had to be simple to use, performant, scalable, and self-hostable. We have access to large data centers and infrastructure, so security and privacy are always top-of-mind when choosing a solution. We also wanted to use an internal MySQL database to store our data.
+[https://www.facebook.com/groups/ukraine.bg/posts/398022855670258/?comment_id=398863655586178](https://www.facebook.com/groups/ukraine.bg/posts/398022855670258/?comment_id=398863655586178 "https://www.facebook.com/groups/ukraine.bg/posts/398022855670258/?comment_id=398863655586178")
 
-We researched the market, and Budibase was a clear winner and the perfect solution for our requirements. So, we set to work, deploying the platform via docker-compose and building a full-stack web application in a matter of hours.
-
-We could then load 120,000 users (refugees) into Budibase via their built-in REST API and collect thousands of entries over the following days. Television broadcasts and media telling the refugees to fill out the form caused large spikes in submissions, but Budibase handled the usage with ease.
-
-Budibase was mission-critical for us and went a long way in preventing what could have become a humanitarian crisis here in Bulgaria.
-
-We have plans to use Budibase in the future for other governmental use cases here in Bulgaria, including data collection applications, forms, questionnaires, and workflow-based applications internally.
-
-I’d like to thank the Budibase team for creating such a wonderful platform.
+People who don't understand open source always question why we chose to build an open-source product. Well, this is exactly why Budibase had to be open source. There's no better feeling than knowing the product you spend every minute of every day working on, is having a positive effect on the world. 
