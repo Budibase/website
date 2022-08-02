@@ -11,16 +11,16 @@ title = "A story about open-source, the Bulgarian Government, and the war in Ukr
 +++
 It was a Sunday morning, and Budibase's Bulgarian QA engineer, Mihail, receives multiple LinkedIn messages from multiple employees of the Bulgarian Ministry Of Foreign Affairs (MoFA). He brushed it off, thinking it was a scam. But, suddenly, he gets a call from his cousin who works with the MoFA.
 
-It turns out that the Bulgarian Government had been using Budibase to build an app that would help them rehome thousands of Ukrainian refugees. Ukrainian refugees would log in and provide their information, and the Bulgarian Government would help them find a place to stay.  The app was a \[multi-step, logic-based questionnaire app\]([https://survey.ukraine.gov.bg/builder/auth/login](https://survey.ukraine.gov.bg/builder/auth/login "https://survey.ukraine.gov.bg/builder/auth/login")) that stored in a SQL database. The app was self-hosted using Docker Compose.
+It turns out that the Bulgarian Government had been using Budibase to build an app that would help them rehome thousands of Ukrainian refugees. Ukrainian refugees would log in and provide their information, and the Bulgarian Government would help them find a place to stay.  The app was a [multi-step, logic-based questionnaire app](https://survey.ukraine.gov.bg/builder/auth/login)) that stored its data in a SQL database. The app was self-hosted using Docker Compose.
 
 They were attempting to contact us because they had built the Budibase app in advance, and it was working perfectly until they uploaded the 100,000+ users, and released it out into the wild. In hindsight, this load testing should probably have been performed in advance, but there was no time in this case.
 
-At this point, the app started to choke under the load. This was mainly due to the large amount of users and queries causing the server to crash. It is important to note, that they were using our new [Public API](https://docs.budibase.com/docs/public-api "public api"), which was a couple of weeks old at this point. We ran into some more performance issues and made some updates to make Budibase perform better:
+At this point, the app started to choke under the load causing the server to crash. It is important to note that they were using our new [Public API](https://docs.budibase.com/docs/public-api "public api"), which was a couple of weeks old. We ran into some more performance issues and made some updates to make Budibase perform better:
 
 * Cached calls to /checklist, and reduced the amount of rows being queried to make that call faster
 * Added PM2 so that we could run worker/server on all cores on a single machine using node clustering
 
-This improved performance significantly, and the app was performing like a dream.
+This improved performance significantly, and the app was performing like a dream. Ukranian refugees could log in, submit information, and the Bulgarian Government could get to work rehoming them. 
 
 Here’s a video from the Bulgarian deputy prime minister announcing the app's release and telling Ukrainian refugees to fill out the form. See 0:08 for the budibase app:
 
