@@ -85,8 +85,6 @@ There is a lot of confusion around what exactly is a web app. For the purpose of
 
 </table><br>
 
-Ok, now we’re on the same page, let’s jump into prerequisites.
-
 ## How to build a web app: slow-code vs low-code
 
 Like any other kind of development, there’s no one single approach when it comes to how to build a web app. In reality, there is a vast range of different tools, methodologies, techniques, and standards out there.
@@ -126,6 +124,8 @@ And that’s just for people who _already_ know how to create a web application.
 Low-code offers just as much, if not more, for less technical types. For example, Budibase empowers users to build fully functional, professional web apps, without writing a single line of code.
 
 We’ll take a look at exactly how this works towards the end of this guide.
+
+Ok, now we’re on the same page, let’s jump into prerequisites.
 
 ## **Prerequisites to create a web app**
 
