@@ -210,7 +210,7 @@ Quickly deploy new features or data fields, in minutes. Say goodbye to lengthy d
 
 ### Customization
 
-Our open-source, [low-code platform](https://budibase.com/product) is the smart way to build fully custom [internal tools](https://budibase.com/business-apps). In minutes, you can customize any element of your admin panel’s design, hosting, functionality, or UX.
+Our [open-source, low-code platform](https://budibase.com/blog/open-source-low-code-platforms/) is the smart way to build fully custom [internal tools](https://budibase.com/internal-tools). In minutes, you can customize any element of your admin panel’s design, hosting, functionality, or UX.
 
 With minimal technical knowledge, you can create fully customized tools, that perfectly match your organizational needs.
 
