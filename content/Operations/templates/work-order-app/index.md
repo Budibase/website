@@ -159,7 +159,7 @@ We’re building the world’s largest ecosystem of open-source business softwar
 
 Budibase is the fast and cost-effective way to build custom software. With minimal technical skills, you can build a fully deploy and feature-rich work order app. Say goodbye to time-consuming and expensive custom developments.
 
-With our open-source, [low-code platform](https://budibase.com/product), you can quickly and easily build the perfect tools for your needs. Even better, you’ll own the finished product.
+With our [open-source, low-code platform](https://budibase.com/blog/open-source-low-code-platforms/), you can quickly and easily build the perfect tools for your needs. Even better, you’ll own the finished product.
 
 ### Self-hosting or Budibase Cloud
 
