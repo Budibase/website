@@ -2437,7 +2437,7 @@ border-radius: 16px;
 .pricing-card-bottom {
   padding: var(--space-3) var(--space-5) var(--space-6);
   display: grid;
-  grid-template-rows: 250px 240px 100px;
+  grid-template-rows: 250px 280px 100px;
 }
 
 .self-host-card-bottom {
