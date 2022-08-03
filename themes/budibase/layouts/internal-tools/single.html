@@ -39,7 +39,7 @@
   </div>
 </div>
 
-<div class="container w-xl-50 w-lg-60 space-2">
+<div class="container-9 space-2">
   <h2 class="text-center mb-6">Contents</h2>
   <div class="internal-tools-chapters ">
     <a href="#what">
@@ -63,7 +63,7 @@
 
     <a href="#how">
       <div class="internal-tools-chapter">
-        <div class="chapter-icon bg-blue rounded-circle"></div>
+        <div class="chapter-icon bg-red rounded-circle"></div>
         <div class="internal-tool-contain-container">
           <h6 class="text-grey mb-1">Chapter 3</h6>
           <h2 class="chapter-title">How to build internal tools</h2>
@@ -81,11 +81,21 @@
       </div>
     </a>
 
+    <a href="#budibase">
+      <div class="internal-tools-chapter">
+        <div class="chapter-icon bg-blue rounded-circle"></div>
+        <div class="internal-tool-contain-container">
+          <h6 class="text-grey mb-1">Chapter 5</h6>
+          <h2 class="chapter-title">Introducing Budibase</h2>
+        </div>
+      </div>
+    </a>
+
     <a href="#templates">
       <div class="internal-tools-chapter">
         <div class="chapter-icon bg-purple rounded-circle"></div>
         <div class="internal-tool-contain-container">
-          <h6 class="text-grey mb-1">Chapter 5</h6>
+          <h6 class="text-grey mb-1">Chapter 6</h6>
           <h2 class="chapter-title">Free templates</h2>
         </div>
       </div>
@@ -751,10 +761,10 @@
     </div>
   </div>
 
-  <div id="templates" class="container-fluid space-3-bottom">
+  <div id="budibase" class="container-fluid space-3-bottom">
     <div class="mx-auto">
       <div class="p-4 p-sm-8">
-        <h5 class="text-center text-blue">Free templates</h5>
+        <h5 class="text-center text-blue">Introducing Budibase</h5>
         <h2 class="text-center p-2">
           Ship internal tools in minutes
         </h2>
@@ -774,6 +784,7 @@
             <img src="/img/img/design-chart.webp" class="img-fluid mt-4 " alt="Why build internal tools" />
           </div>
         </div>
+      </div>
         <div class="container space-3-bottom">
           <div class="w-md-75 w-lg-50 mx-auto mt-8">
             <h3 class="space-1-top mb-2">Building internal tools with Budibase in 6 steps</h3>
@@ -924,8 +935,39 @@
             <p class="mb-4">Or, if you need extra customization, security, configuration, and control, self-hosted
               Budibase tools are the perfect solution. Deploy to your own infrastructure with Kubernetes, Docker, Docker
               Compose, Digital Ocean, and more.</p>
-            <hr />
-            <h3 class="space-2-top mb-2">Free, deployable internal tool templates</h3>
+            </div>
+          </div>
+
+
+
+            <div id="budibase" class="container-fluid space-3-bottom">
+              <div class="mx-auto">
+                <div class="p-4 p-sm-8">
+                  <h5 class="text-center text-blue">Free templates</h5>
+                  <h2 class="text-center p-2">
+                    Free, deployable internal tool templates
+                  </h2>
+                  <hr class="p-2" style="width: 50%" />
+                  <div class="internal-tools-title-container w-lg-75 w-xxl-50 mx-auto mb-8">
+                    <div>
+                      <p class="display-lead">
+                        Supporting the internal development methodology is an
+                        all-in-one platform for building,
+                        automating, and shipping internal tools. By combing the internal development methodology with
+                        <a href="/">Budibase</a>, you'll accelerate digital
+                        transformation, speed up development,
+                        and equip employees with the tools to grow.
+                      </p>
+                    </div>
+                    <div>
+                      <img src="/img/meta-images/templates.png" class="img-fluid mt-4 border" alt="Why build internal tools" />
+                    </div>
+                  </div>
+                </div>
+              
+
+                <div class="container space-3-bottom">
+                  <div class="w-md-75 w-lg-50 mx-auto mt-8">
             <p class="mb-4">Why should you take our word for it that Budibase is the best way to build modern internal
               tools?</p>
             <p class="mb-4">After all, we obviously have a vested interest, don’t we?</p>
@@ -1017,8 +1059,10 @@
             <p class="mb-4">It’s also got a separate dedicated interface for maintenance operatives to respond to
               requests and provide follow-ups, helping to ensure maximum internal trust and transparency.
             </p>
-            <img class="img-fluid"
+            <img class="img-fluid mb-6"
               src="https://res.cloudinary.com/daog6scxm/image/upload/v1639394621/cms/Maintenance_request_form_template_m9vuyh.gif" />
+
+            <hr />
               <p class="my-4">Thank you for reading our definitive guide on internal tools. If you liked this post, please share with your colleagues. If you've not tried Budibase before, give it a whirl and let us know what you think on the Budibase <a href="https://github.com/Budibase/budibase/discussions">forum</a>.
             {{ partial "cta.html" . }}
           </div>
