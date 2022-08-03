@@ -741,7 +741,6 @@ input[type="month"] {
 h1, .h1 {
   font-size: clamp(var(--fontsize-8), 3.5vw, var(--fontsize-9));
   color: var(--hiContrast);
-  font-weight: 600;
   font-variation-settings: "wght" 650;
   letter-spacing: -.01em;
   text-indent: -.025em;
@@ -2438,7 +2437,7 @@ border-radius: 16px;
 .pricing-card-bottom {
   padding: var(--space-3) var(--space-5) var(--space-6);
   display: grid;
-  grid-template-rows: 250px 220px 100px;
+  grid-template-rows: 250px 240px 100px;
 }
 
 .self-host-card-bottom {
@@ -4010,6 +4009,7 @@ fieldset:disabled a.btn {
 .btn-block {
   display: block;
   width: 100%;
+  border: 2px solid transparent;
 }
 
 .btn-outline {
