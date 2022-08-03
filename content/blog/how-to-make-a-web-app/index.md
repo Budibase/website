@@ -1,7 +1,7 @@
 +++
 author = "Joe Johnston"
 date = 2019-04-23T00:00:00Z
-description = "Learn the best way to create a web application and deploy it. This tutorial will provide you with a simple and informative stepped approach on how to build a web app."
+description = "Learn the best way to build a web app and deploy it. This tutorial will provide you with two different methods."
 title = "How to build a web app: A beginner's guide (2022)"
 
 +++
