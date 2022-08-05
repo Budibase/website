@@ -1223,7 +1223,7 @@ pre > code {
   }
 
 
-@media (min-width: 1280px) {
+@media (min-width: 1080px) {
   .hero-container {
     display: grid;
     grid-template-columns: 46% 1fr;
@@ -1232,6 +1232,27 @@ pre > code {
     z-index: 2;
 
   }
+}
+
+.homepage-hero-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  justify-content: center;
+  gap: 2rem;
+  z-index: 2;
+}
+
+
+@media (min-width: 1080px) {
+.homepage-hero-container {
+  display: grid;
+  grid-template-columns: 46% 1fr;
+  align-items: center;
+  gap: 2.5rem;
+  z-index: 2;
+
+}
 }
 
 /* Hero */
@@ -1852,14 +1873,26 @@ details[open] > summary {
   flex-wrap: wrap;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1080px) {
     .trusted-by-logos-sm {
       display: flex;
       flex-direction: row;
       grid-gap: 1.3rem;
       align-items: center;
+      justify-content: center;
       flex-wrap: wrap;
     }
+}
+
+@media (max-width: 576px) {
+  .trusted-by-logos-sm {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 1.3rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 
 .trusted-by-logos-white {
@@ -3786,19 +3819,18 @@ border-radius: .75rem;
   padding-left: 15px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 600px) {
   .container {
-    max-width: 960px;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    width: 88vw;
+    max-width: 1400px;
+    padding: 0;
+    margin: 0 auto;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1380px;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    width: 87vw;
   }
 }
 
@@ -5809,7 +5841,7 @@ button.bg-blue:focus {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1080px) {
   .text-lg-left {
     text-align: left !important;
   }
@@ -6005,7 +6037,7 @@ button.bg-blue:focus {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1080px) {
   .w-lg-25 {
     width: 25% !important;
   }
@@ -6055,6 +6087,8 @@ button.bg-blue:focus {
     width: 90% !important;
   }
 }
+
+
 
 @media (min-width: 1200px) {
   .w-xl-25 {
