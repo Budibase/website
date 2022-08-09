@@ -106,65 +106,56 @@ You’ll need four queries:
 
 The get_sales query uses these settings:
 
-![Get sales query](https://res.cloudinary.com/daog6scxm/image/upload/v1660058504/cms/06-get-sales-query_h1dau3.png "Get sales query")
+![Get sales query](https://res.cloudinary.com/daog6scxm/image/upload/v1660058504/cms/06-get-sales-query_h1dau3.webp "Get sales query")
 
 Our sample data includes some properties that we won’t use. It’s likely that in your real application you might need to hide some data as well. Remember NoSQL data is unstructured, so there might be a whole raft of different variables in your [data model.](https://budibase.com/blog/data/how-to-create-a-data-model/)
 
 You can remove these from your query using this transformer:
 
-return data.map( ({ _id, saleDate, storeLocation, customer }) => ({ "ID": _id, "Date": saleDate, "Location": storeLocation, "Customer": customer.email }) )
+    return data.map( (
+    { _id, saleDate, storeLocation, customer }
+    ) 
+    => ({ "ID": _id, 
+    "Date": saleDate, 
+    "Location": storeLocation, 
+    "Customer": customer.email }) )
 
 This removes all properties except the id, date, location, and customer email.
 
 You can run your query to make sure it works as you wanted. Then save it.
 
-The insert_sale query looks like this:![Insert sale query](https://res.cloudinary.com/daog6scxm/image/upload/v1660058580/cms/07-insert-sale_nev4q3.png "Insert sale query")
+The insert_sale query looks like this:![Insert sale query](https://res.cloudinary.com/daog6scxm/image/upload/v1660058580/cms/07-insert-sale_nev4q3.webp "Insert sale query")
 
 We are using some bindings there. They allow you to fill in forms and send this data to your DB. In the fields option, use this:
 
-{
-
-"saleDate": "{{Date}}",
-
-"customer": {
-
-"email": "{{Customer}}"
-
-},
-
-"storeLocation": "{{Location}}"
-
-}
+    {
+    "saleDate": "{{Date}}",
+    "customer": {
+    "email": "{{Customer}}"
+    },
+    "storeLocation": "{{Location}}"
+    }
 
 These are the settings we need to tell MongoDB how to store the form data.
 
 Add a new query, and use these settings for the update_sale operation:
 
-![Update Sale Query](https://res.cloudinary.com/daog6scxm/image/upload/v1660058711/cms/08-update-sale_anzwke.png "Update Sale Query")
+![Update Sale Query](https://res.cloudinary.com/daog6scxm/image/upload/v1660058711/cms/08-update-sale_anzwke.webp "Update Sale Query")
 
 Notice how this one is similar to the insert query.
 
 The only difference is that we need to get the id, so we know which item to update. And these are the fields to do it:
 
-{
-
-"_id": "ObjectID('{{ID}}')"
-
-},
-
-{
-
-"$set": {
-
-"saleDate": "{{Date}}",
-
-"customer.email": "{{Customer}}",
-
-"storeLocation": "{{Location}}"
-
-}
-
-}
+    {
+    "_id": "ObjectID('{{ID}}')"
+    },
+    {
+    "$set": {
+    "saleDate": "{{Date}}",
+    "customer.email": "{{Customer}}",
+    "storeLocation": "{{Location}}"
+    }
+    }
 
 The first portion is the “search” part. The second part is the _update_ instruction.
 
@@ -180,15 +171,13 @@ Be **very** careful with this operation. If possible, it’s better to move reco
 
 You can set up your query like this:
 
-![MongoDB CRUD App delete query](https://res.cloudinary.com/daog6scxm/image/upload/v1660058878/cms/09-delete-sale_ss0zst.png "MongoDB CRUD App Delete")
+![MongoDB CRUD App delete query](https://res.cloudinary.com/daog6scxm/image/upload/v1660058878/cms/09-delete-sale_ss0zst.webp "MongoDB CRUD App Delete")
 
 Make sure to include your fields to define which items you want to delete:
 
-{
-
-"_id": "ObjectID('{{ID}}')"
-
-}
+    {
+    "_id": "ObjectID('{{ID}}')"
+    }
 
 Now run it, and save the query.
 
@@ -206,11 +195,11 @@ Before creating your screen, like any good app, we need a dark theme. Only jokin
 
 You can style your Budibase app under the themes menu:
 
-![Set app theme in Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1660058908/cms/10-app-theme_cpwqgg.png "Set app theme in Budibase")
+![Set app theme in Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1660058908/cms/10-app-theme_cpwqgg.webp "Set app theme in Budibase")
 
 Pick a theme and your preferred accent color. Then head over to the “screens” section. If you haven’t already, create a new screen, and select it as your app’s home page:
 
-![Set screen as home](https://res.cloudinary.com/daog6scxm/image/upload/v1660058980/cms/11-set-as-home_ducaad.png "Set Screen as Home")
+![Set screen as home](https://res.cloudinary.com/daog6scxm/image/upload/v1660058980/cms/11-set-as-home_ducaad.webp "Set Screen as Home")
 
 Go to the “components” section and let’s start building your page. Add a button for the “_Add new_” option, and set the “_onclick_” action to navigate to /home/0.
 
@@ -218,17 +207,17 @@ This may seem weird, but we are going to use the /home/:id path to edit entries.
 
 In Budibase, whenever you want to load data, you can add a data provider as the source and an iterator to display it. You can create a data provider and set it with the get_sales provider:
 
-![Data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1660059031/cms/12-data-provider_vk3g1w.png "Data provider")
+![Data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1660059031/cms/12-data-provider_vk3g1w.webp "Data provider")
 
 Then, add a dynamic filter and a table inside of it, like this:
 
-![Dynamic filter](https://res.cloudinary.com/daog6scxm/image/upload/v1660059052/cms/13-dynamic-filter-table_lqfcbq.png "Dynamic filter")
+![Dynamic filter](https://res.cloudinary.com/daog6scxm/image/upload/v1660059052/cms/13-dynamic-filter-table_lqfcbq.webp "Dynamic filter")
 
 Lastly, add the “edit” button to each of your rows. You can do this by clicking on the table, then on _add new component,_ and selecting the button component. This will add a button inside your table.
 
 Set the “_onclick_” action to _navigate to URL_. The path is this binding:
 
-/home/{{ Sales.get_sales.ID }}
+    /home/{{ Sales.get_sales.ID }}
 
 Here you are saying to Budibase “use the ‘Sales’ table and the ‘get_sales.ID’ value”. This means that, if the row id is “abc100”, the target URL is “/home/abc100”.
 
@@ -262,19 +251,19 @@ The form setup itself is almost the same, so let’s see how you can create the 
 
 Add a Data Provider. You’ll need this to pre-populate the form fields. Use the get_sales query, and under the filter options, use ID is equal to binding {{ URL.id }}.
 
-![MongoDB CRUD App](https://res.cloudinary.com/daog6scxm/image/upload/v1660059891/cms/14-filter-url-id_kx0d5t.png "MongoDB CRUD App")
+![MongoDB CRUD App](https://res.cloudinary.com/daog6scxm/image/upload/v1660059891/cms/14-filter-url-id_kx0d5t.webp "MongoDB CRUD App")
 
 Then you need an iterator. In the previous screen, you used a table, which is just a way to load all data at once. This time, we are loading items individually, so it makes sense to use the repeater.
 
 Inside the repeater, we have a title to show users what is happening. In it, you can load the sale ID with this binding:
 
-Edit Sale {{ Repeater.get_sales.ID }}
+    Edit Sale {{ Repeater.get_sales.ID }}
 
 Next, there is a form, which is required to manipulate the form fields. You can use the “Update’ type and update_sale as the schema.
 
 In the form, you can add a field group. They are very useful since you can add fields for your entire schema by clicking the “_Update Form Fields_” button:
 
-![MongoDB CRUD App](https://res.cloudinary.com/daog6scxm/image/upload/v1660059996/cms/15-field-group_fhquec.png "MongoDB CRUD APP")
+![MongoDB CRUD App](https://res.cloudinary.com/daog6scxm/image/upload/v1660059996/cms/15-field-group_fhquec.webp "MongoDB CRUD APP")
 
 This will create 4 fields automatically, _ID_, _Date_, _Customer,_ and _Location_.
 
@@ -282,19 +271,19 @@ If you want the date to be a date picker you can delete the default element and 
 
 And while you are at it, use the bindings to load the current value for the date:
 
-{{ Repeater.get_sales.Date }}
+    {{ Repeater.get_sales.Date }}
 
 You can repeat this process to load default values for the other fields, using these bindings:
 
-{{ Repeater.get_sales.Customer }}
+    {{ Repeater.get_sales.Customer }}
 
-{{ Repeater.get_sales.Location }}
+    {{ Repeater.get_sales.Location }}
 
 Feel free to delete the ID field. We are loading the ID from the URL directly, so you don’t need it there.
 
 Now you need a button to save the form edits. Add a new button, and for the “_Onclick_” actions, select “_execute query_”, using the field values to populate the query bindings:
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1660060062/cms/16-form-action_elkxiv.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1660060062/cms/16-form-action_elkxiv.webp)
 
 This ensures that the data is saved, you can add another action to navigate to the /home/ page, so you are ready to edit other entries.
 
@@ -310,11 +299,11 @@ For the “_add new_” form, you can simply copy the entire update form compone
 
 If you want, you can add the breadcrumbs as a finishing touch. In it, you can use a container and switch from horizontal stacking to vertical stacking:
 
-![Breadcrumbs](https://res.cloudinary.com/daog6scxm/image/upload/v1660060120/cms/17-breadcrumbs_icp097.png "Breadcrumbs")
+![Breadcrumbs](https://res.cloudinary.com/daog6scxm/image/upload/v1660060120/cms/17-breadcrumbs_icp097.webp "Breadcrumbs")
 
 Then, in it add a link to home, which is fixed, and a paragraph for the > divisor, which is fixed as well. The last paragraph is going to change between “Add new” and “Edit sale”. You can do so by using this JS function:
 
-![Breadcrumb binding](https://res.cloudinary.com/daog6scxm/image/upload/v1660060141/cms/18-breadcrumb-text_tx6lza.png "Breadcrumb binding")
+![Breadcrumb binding](https://res.cloudinary.com/daog6scxm/image/upload/v1660060141/cms/18-breadcrumb-text_tx6lza.webp "Breadcrumb binding")
 
 ## Building a MongoDB CRUD app in 4 steps
 
