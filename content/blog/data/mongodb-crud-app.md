@@ -52,15 +52,15 @@ Let’s see how you can perform operations in MongoDB with a simple [CRUD app](h
 
 On the main page you’ll see the first operation, read. You can read data from a collection, and filter it in case you are looking for a specific document.
 
-![MongoDB CRUD App Homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1660057831/cms/01-read-and-filter-crud_tnlns4.png "MongoDB CRUD App Home Screen")
+![MongoDB CRUD App Homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1660057831/cms/01-read-and-filter-crud_tnlns4.webp "MongoDB CRUD App Home Screen")
 
 Then, if you click on the “edit” button, you’ll see the next two CRUD operations: update and delete. On this page, you can edit your documents. If you want, you can delete them too.
 
-![Edit and delete queries](https://res.cloudinary.com/daog6scxm/image/upload/v1660058070/cms/02-edit-delete-mongo-db-documents_tnecfl.png "Edit and delete queries")
+![Edit and delete queries](https://res.cloudinary.com/daog6scxm/image/upload/v1660058070/cms/02-edit-delete-mongo-db-documents_tnecfl.webp "Edit and delete queries")
 
 And lastly, the “Create” operation. You can do it from the home screen if you click on “Add new”. This screen is just like the edit screen. The only difference is that you won’t have any pre-populated data.
 
-![CREATE query in MongoDB](https://res.cloudinary.com/daog6scxm/image/upload/v1660058136/cms/03-create-new-sale_u9laav.png "Create new query")
+![CREATE query in MongoDB](https://res.cloudinary.com/daog6scxm/image/upload/v1660058136/cms/03-create-new-sale_u9laav.webp "Create new query")
 
 You can create this app in 4 simple steps:
 
@@ -85,7 +85,7 @@ Simply add your connection name, connection string, and DB name.
 
 If you don’t have a connection string, you can find it by clicking on the “Connect” button, next to your cluster name:
 
-![Get connection string for MongoDB database](https://res.cloudinary.com/daog6scxm/image/upload/v1660058337/cms/04-mongodb-get-connection-string_gczjgn.png "Get connection string for MongoDB database")
+![Get connection string for MongoDB database](https://res.cloudinary.com/daog6scxm/image/upload/v1660058337/cms/04-mongodb-get-connection-string_gczjgn.webp "Get connection string for MongoDB database")
 
 Any of these methods will give you a connection string. For this example, I just picked the connection string from the MongoDB Compass option.
 
@@ -95,7 +95,7 @@ That’s it! Now Budibase is connected to your MongoDB instance. Connecting Budi
 
 In this step, you’ll create the CRUD operations to manipulate your database. Still in the “_Data_” Panel of Budibase with your MongoDB connection selected, click “_Add query_”.
 
-![Create queries in Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1660058418/cms/05-data-panel-add-query_r9l7bc.png "Create a query in Budibase")
+![Create queries in Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1660058418/cms/05-data-panel-add-query_r9l7bc.webp "Create a query in Budibase")
 
 You’ll need four queries:
 
