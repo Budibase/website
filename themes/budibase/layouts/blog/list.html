@@ -1,40 +1,40 @@
 {{ partial "header.html" . }} {{ partial "navigation-blog.html" . }}
-<div class="container-narrow space-2">
-  <div class="hero-info-2 text-center">
-      <h1 class="font-weight-bold hero-title">{{ .Title | replaceRE "The Budibase" "$1" }}
-      </h1>
-      <p class="display-lead mt-3 text-center">Learn about application development and workplace operations</p>‍
+<div class="bg-light1">
+  <div class="container-narrow space-2">
+    <div class="hero-info-2 text-center">
+        <h1 class="hero-title">{{ .Title | replaceRE "The Budibase" "$1" }}</h1>
+        <p class="display-lead mt-3 text-center">Learn about application development and workplace operations</p>‍
     </div>
   </div>
-  <div class="container-narrow">
-    <h2 class="font-weight-bold mb-4">Featured</h2>
-    <div class="blog-feature-cards space-2-bottom">
-      {{ range first 4 .RegularPagesRecursive }}
+    <div class="container-narrow">
+      <h2 class="mb-4">Featured</h2>
+      <div class="blog-feature-cards space-2-bottom">
+        {{ range first 4 .RegularPagesRecursive }}
+        <a href="{{ .Permalink }}">
+                <div class="blog-feature-card">
+                      <img class="thumbnail-image rounded" src=" {{ if $.Site.Params.cloudinary_base_url }}{{ .Params.image }}{{else}}{{ .Params.image }}{{end}}"/>
+                          <p class="mt-4 text-grey text-xs">{{ .Params.author }} | {{ .Date.Format .Site.Params.dateform }} </p>
+                        <h2 class="h4 mb-2 mt-2">{{ .Title }}</h2>
+                        <p class="mb-3 two-line-clamp">{{ .Description }} </p>
+                </div>
+              </a>
+      {{ end }}
+    </div>
+    <hr />
+    <h2 class="mb-4 space-2-top">Posts</h2>
+    <div class="blog-feature-cards">
+      {{ range (after 4 .RegularPagesRecursive) }}
       <a href="{{ .Permalink }}">
               <div class="blog-feature-card">
-                    <img class="thumbnail-image rounded" src=" {{ if $.Site.Params.cloudinary_base_url }}{{ .Params.image }}{{else}}{{ .Params.image }}{{end}}"/>
-                        <p class="mt-4 text-grey text-xs">{{ .Params.author }} | {{ .Date.Format .Site.Params.dateform }} </p>
-                      <h2 class="h4 mb-2 mt-2">{{ .Title }}</h2>
+                      <h2 class="h4 my-2 one-line-clamp">{{ .Title }}</h2>
                       <p class="mb-3 two-line-clamp">{{ .Description }} </p>
+                      <p class="text-grey text-xs">{{ .Params.author }} | {{ .Date.Format .Site.Params.dateform }} </p>
               </div>
             </a>
-    {{ end }}
+      {{ end }}
+    </div>
   </div>
-  <hr />
-  <h2 class="font-weight-bold mb-4 space-2-top">Posts</h2>
-  <div class="blog-feature-cards ">
-    {{ range (after 4 .RegularPagesRecursive) }}
-    <a href="{{ .Permalink }}">
-            <div class="blog-feature-card">
-                    <h2 class="h4 my-2 one-line-clamp">{{ .Title }}</h2>
-                    <p class="mb-3 two-line-clamp">{{ .Description }} </p>
-                    <p class="text-grey text-xs">{{ .Params.author }} | {{ .Date.Format .Site.Params.dateform }} </p>
-            </div>
-          </a>
-  {{ end }}
 </div>
-</div>
-
 
 
     {{ partial "cta.html" . }} {{ partial "footer.html" . }}
