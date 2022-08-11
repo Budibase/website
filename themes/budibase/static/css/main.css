@@ -2106,6 +2106,50 @@ details[open] > summary {
 
 /* Trust by logos */
 
+
+.trusted-by-logos-grid {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1080px) {
+  .trusted-by-logos-grid {
+    display: grid;
+    height: 100px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+#pg {
+  grid-column: 4;
+}
+
+#netflix {
+  grid-column: 5;
+}
+
+#lv {
+  grid-column: 6;
+}
+
+#google {
+  grid-column: 7;
+}
+
+#tesla {
+  grid-column: 8;
+}
+
+#nfl {
+  grid-column: 9;
+}
+
+
 .trusted-by-logos {
   display: flex;
   flex-direction: row;
@@ -2116,34 +2160,13 @@ details[open] > summary {
 }
 
 .trusted-by-logos-sm {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
   grid-gap: 1.75rem;
   align-items: center;
-  flex-wrap: wrap;
 }
 
-@media (max-width: 1080px) {
-    .trusted-by-logos-sm {
-      display: flex;
-      flex-direction: row;
-      grid-gap: 1.3rem;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-}
 
-@media (max-width: 576px) {
-  .trusted-by-logos-sm {
-    display: flex;
-    flex-direction: row;
-    grid-gap: 1.3rem;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-}
 
 .trusted-by-logos-white {
   display: flex;
@@ -2155,7 +2178,7 @@ details[open] > summary {
 }
 
 .trusted-by-logo {
-  max-width: 120px;
+  width: 120px;
   margin: 10px;
   text-align: center;
 }
