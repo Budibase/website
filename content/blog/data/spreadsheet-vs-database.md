@@ -85,6 +85,8 @@ The difference, however, is that databases are really just a way of storing info
 
 Spreadsheets empower users to do all of this, effectively on one level. As we’ll see later though, this can come at the expense of functionality, integrability, and customization.
 
+Check out our in-depth guide to [using a form to enter Google Sheets data.](/blog/data/using-a-form-to-enter-google-sheets-data/)
+
 ### Hybrid solutions and other data storage tools
 
 Nowadays, some tools fall somewhere between spreadsheets and traditional databases. For the most part, these retain the core functionality of normal databases but have an extra UI layer over the top, to make them more user-friendly.
@@ -136,6 +138,8 @@ Cells get overwritten, deleted, or moved, often without being noticed until it�
 As nice as collaboration features are, having multiple colleagues working on a single spreadsheet can be a real mess.
 
 Even for simple processes, it quickly becomes preferable to use dedicated tools to avoid these issues. Most often, this involves moving to databases, although, as we’ll see, this isn’t the only option.
+
+Check out our guide to building a [Google Sheets dashboard](/blog/data/google-sheets-dashboard/).
 
 ### Databases: pros and cons
 
@@ -192,6 +196,8 @@ However, even amongst developers, only a [small majority](https://insights.stack
 There’s also the fact that these kinds of data sets are typically drawn on by a range of tools and processes. For instance, your IT teams might manage a huge data pool for all kinds of different customer interactions.
 
 This could then be leveraged by different processes and tools across your business, from customer support to the C-suite. So, we clearly need the flexibility and integrability of established database tools.
+
+Check out our guide to building a [MongoDB CRUD app](/blog/data/mongodb-crud-app/).
 
 ### Other professionals
 
@@ -287,6 +293,8 @@ With databases, things are a bit different. There are countless different types 
 So, except for fringe cases, like legacy tools or strange proprietary standards, you can expect a high degree of portability.
 
 Additionally, nowadays most businesses host their data in the cloud. This makes it much easier to connect databases to multiple different platforms, tools, and interfaces, with a high degree of centralization, on top of technical interoperability.
+
+Check out our guide on how to [make an app from Excel spreadsheets](/blog/data/make-an-app-from-excel-spreadsheets/).
 
 ### Processing
 
