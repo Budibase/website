@@ -143,7 +143,7 @@ First of all, you’ll be asked to choose a name for your app. This will also be
 
 Next, you’ll be prompted to select your data source. As you might have guessed, we’re going to choose Google Sheets.
 
-![Google Sheets as a data source](https://res.cloudinary.com/daog6scxm/image/upload/v1661175587/cms/Screenshot_2022-08-17_at_13.09.33_qi4zib.png "Google Sheets as a data source")
+![Google Sheets as a data source](https://res.cloudinary.com/daog6scxm/image/upload/v1661175587/cms/Screenshot_2022-08-17_at_13.09.33_qi4zib.webp "Google Sheets as a data source")
 
 ### 2. Connect to your spreadsheet
 
@@ -151,11 +151,11 @@ With our app project created, we need to establish a connection to our Google Sh
 
 Instead, you need to do two things. First, sign in with your Google account:
 
-![Google Account Sign-in](https://res.cloudinary.com/daog6scxm/image/upload/v1661175554/cms/Screenshot_2022-08-17_at_13.10.07_rhwmug.png "Google Account Sign-in")
+![Google Account Sign-in](https://res.cloudinary.com/daog6scxm/image/upload/v1661175554/cms/Screenshot_2022-08-17_at_13.10.07_rhwmug.webp "Google Account Sign-in")
 
 And paste your spreadsheet URL into Budibase. You can also name your data source at this point:
 
-![Google Sheets Dashboard configuration](https://res.cloudinary.com/daog6scxm/image/upload/v1661175509/cms/Screenshot_2022-08-17_at_13.10.50_asq18u.png "Google Sheets Dashboard configuration")
+![Google Sheets Dashboard configuration](https://res.cloudinary.com/daog6scxm/image/upload/v1661175509/cms/Screenshot_2022-08-17_at_13.10.50_asq18u.webp "Google Sheets Dashboard configuration")
 
 It’s really that easy.
 
@@ -167,29 +167,29 @@ Now that we’ve connected to our data source, it’s time to pull in specific d
 
 With Budibase, we can pull each individual sheet in, and treat it like we would a table within our internal database. Any changes in either platform are then reflected in the other, in real-time.
 
-![Fetch tables](https://res.cloudinary.com/daog6scxm/image/upload/v1661175432/cms/Screenshot_2022-08-17_at_13.11.22_o0innc.png "Fetch tables")
+![Fetch tables](https://res.cloudinary.com/daog6scxm/image/upload/v1661175432/cms/Screenshot_2022-08-17_at_13.11.22_o0innc.webp "Fetch tables")
 
 It’s helpful to remember here that you probably won’t need every attribute and value in your data set for your dashboard. So, we might only fetch specific tables, or we might need all of them to get the information we need.
 
 Let’s take a look at our Google Sheets file for context. We have two sheets - one for _orders_:
 
-![Orders](https://res.cloudinary.com/daog6scxm/image/upload/v1661175410/cms/Screenshot_2022-08-17_at_13.28.55_djh0sj.png "Orders")
+![Orders](https://res.cloudinary.com/daog6scxm/image/upload/v1661175410/cms/Screenshot_2022-08-17_at_13.28.55_djh0sj.webp "Orders")
 
 And another for customers:
 
-![Customer Sheet](https://res.cloudinary.com/daog6scxm/image/upload/v1661175244/cms/Screenshot_2022-08-17_at_13.28.44_m5zfew.png "Customers Sheet")
+![Customer Sheet](https://res.cloudinary.com/daog6scxm/image/upload/v1661175244/cms/Screenshot_2022-08-17_at_13.28.44_m5zfew.webp "Customers Sheet")
 
 Once we’ve fetched them, our data source will look like this.
 
-![Fetch Tables](https://res.cloudinary.com/daog6scxm/image/upload/v1661175215/cms/Screenshot_2022-08-17_at_13.12.50_towclk.png "Fetch Tables")
+![Fetch Tables](https://res.cloudinary.com/daog6scxm/image/upload/v1661175215/cms/Screenshot_2022-08-17_at_13.12.50_towclk.webp "Fetch Tables")
 
 We can also view the complete tables. So, here’s _orders_:
 
-![Google Sheets Dashboard](https://res.cloudinary.com/daog6scxm/image/upload/v1661175142/cms/Screenshot_2022-08-18_at_11.40.15_uueuwu.png "Google Sheets Dashboard")
+![Google Sheets Dashboard](https://res.cloudinary.com/daog6scxm/image/upload/v1661175142/cms/Screenshot_2022-08-18_at_11.40.15_uueuwu.webp "Google Sheets Dashboard")
 
 And _customers_:
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1661175081/cms/Screenshot_2022-08-18_at_11.40.22_hmudnv.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1661175081/cms/Screenshot_2022-08-18_at_11.40.22_hmudnv.webp)
 
 ### 4. Configure your data
 
@@ -199,7 +199,7 @@ We said earlier that there are some key areas where Google Sheets falls short, e
 
 Let’s assume we’re going to need to build some relationships between our tables to perform aggregate the information we need for our dashboard.
 
-On either table, we can create a _one-to-many_ or _many-to-one_ relationship, linking it to the other, by clicking _define existing relationships._![Define relationship](https://res.cloudinary.com/daog6scxm/image/upload/v1661174957/cms/Screenshot_2022-08-17_at_14.07.34_zdfy2j.png "Define relationship")
+On either table, we can create a _one-to-many_ or _many-to-one_ relationship, linking it to the other, by clicking _define existing relationships._![Define relationship](https://res.cloudinary.com/daog6scxm/image/upload/v1661174957/cms/Screenshot_2022-08-17_at_14.07.34_zdfy2j.webp "Define relationship")
 
 For example, this allows us to use attributes from one table as bindable elements in formula variables in the other, as well as other important functions.
 
@@ -211,13 +211,13 @@ We’re also going to build a few custom queries to get some aggregate values fo
 
 We can do this using simple JavaScript transformations under the _data_ tab. First, we’ll get the number of orders by returning the number of rows in our sheet with the _.length_ property:
 
-![Sales count query](https://res.cloudinary.com/daog6scxm/image/upload/v1661174815/cms/Screenshot_2022-08-17_at_15.13.55_hjbmgm.png "Sales count query")
+![Sales count query](https://res.cloudinary.com/daog6scxm/image/upload/v1661174815/cms/Screenshot_2022-08-17_at_15.13.55_hjbmgm.webp "Sales count query")
 
 Then, we’ll iterate through all of the rows and add up their _value_ attributes, to get our total sales volume:
 
-![Total sales query](https://res.cloudinary.com/daog6scxm/image/upload/v1661174768/cms/Screenshot_2022-08-17_at_15.14.05_tc52qw.png "Total sales query")
+![Total sales query](https://res.cloudinary.com/daog6scxm/image/upload/v1661174768/cms/Screenshot_2022-08-17_at_15.14.05_tc52qw.webp "Total sales query")
 
-And finally, we’ll use the same expression again, but this time divide it by the number of rows, to get our average value:![Average value query](https://res.cloudinary.com/daog6scxm/image/upload/v1661174740/cms/Screenshot_2022-08-17_at_15.14.16_huxovp.png "Average value query")
+And finally, we’ll use the same expression again, but this time divide it by the number of rows, to get our average value:![Average value query](https://res.cloudinary.com/daog6scxm/image/upload/v1661174740/cms/Screenshot_2022-08-17_at_15.14.16_huxovp.webp "Average value query")
 
 At this point, we can also create bindings for our custom queries. In other words, we can set dynamic variables that allow users to control aspects of our custom queries from the dashboard’s front end.
 
@@ -237,13 +237,13 @@ Normally, the strategy here is to try and make the top-level insights as promine
 
 Let’s say we want to create a single-screen dashboard for monitoring our _orders_ and _customers_. Head over to the _design_ tab in Budibase, and create a new screen:
 
-![New screen Google Sheets Dashboard](https://res.cloudinary.com/daog6scxm/image/upload/v1661174708/cms/Screenshot_2022-08-17_at_15.16.25_pdvcx1.png "Google Sheets Dashboard new screen")
+![New screen Google Sheets Dashboard](https://res.cloudinary.com/daog6scxm/image/upload/v1661174708/cms/Screenshot_2022-08-17_at_15.16.25_pdvcx1.webp "Google Sheets Dashboard new screen")
 
-First, we’ll create some stat cards using the custom queries we built earlier. We’ll start by creating a new container:![Container](https://res.cloudinary.com/daog6scxm/image/upload/v1661174677/cms/Screenshot_2022-08-17_at_15.17.16_vt5uou.png "Container")
+First, we’ll create some stat cards using the custom queries we built earlier. We’ll start by creating a new container:![Container](https://res.cloudinary.com/daog6scxm/image/upload/v1661174677/cms/Screenshot_2022-08-17_at_15.17.16_vt5uou.webp "Container")
 
 Then, we’ll add in a data provider, and set it to our first query - our order count:
 
-![Data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1661174651/cms/Screenshot_2022-08-17_at_15.18.11_pkzs5i.png "Data provider")
+![Data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1661174651/cms/Screenshot_2022-08-17_at_15.18.11_pkzs5i.webp "Data provider")
 
 We’ll add a _stat card_ component and set the title as _Orders_ and then bind the output under the _Value_ field:
 
@@ -251,21 +251,21 @@ We’ll add a _stat card_ component and set the title as _Orders_ and then bind 
 
 Here’s what it should look like so far:
 
-![Google Sheets Dashboard summary card](https://res.cloudinary.com/daog6scxm/image/upload/v1661174551/cms/Screenshot_2022-08-17_at_15.33.14_arwtud.png "Google Sheets Dashboard summary card")
+![Google Sheets Dashboard summary card](https://res.cloudinary.com/daog6scxm/image/upload/v1661174551/cms/Screenshot_2022-08-17_at_15.33.14_arwtud.webp "Google Sheets Dashboard summary card")
 
 Then, we’ll repeat the same process for our other two custom queries. This is the end result:
 
-![Google Sheets Dashboard summary cards](https://res.cloudinary.com/daog6scxm/image/upload/v1661174511/cms/Screenshot_2022-08-17_at_15.34.33_ts0osx.png "Google Sheets dashboard summary cards")
+![Google Sheets Dashboard summary cards](https://res.cloudinary.com/daog6scxm/image/upload/v1661174511/cms/Screenshot_2022-08-17_at_15.34.33_ts0osx.webp "Google Sheets dashboard summary cards")
 
 Let’s check out some cool visualizations too. Say we want to display a timeline of our orders, so we can figure out if there are any seasonal trends. Start by adding a new data provider below your cards container
 
 We’ll set this one to the entire _orders_ table, rather than a specific query, and set the sort column to the _date_ attribute:
 
-![Data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1661174482/cms/Screenshot_2022-08-17_at_15.45.23_mm3by7.png "Data provider")
+![Data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1661174482/cms/Screenshot_2022-08-17_at_15.45.23_mm3by7.webp "Data provider")
 
 Then, we’ll add a bar chart component inside this, with _date_ as our label column and _value_ as a single data column:
 
-![Timeline](https://res.cloudinary.com/daog6scxm/image/upload/v1661174362/cms/Screenshot_2022-08-17_at_16.05.12_li1dno.png "Timeline")
+![Timeline](https://res.cloudinary.com/daog6scxm/image/upload/v1661174362/cms/Screenshot_2022-08-17_at_16.05.12_li1dno.webp "Timeline")
 
 We also offer a range of other graph and chart types, including pie, scatter, and line charts.
 
