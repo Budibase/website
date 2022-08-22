@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-08-21T23:00:00Z
 description = "Today we’re looking at how to build a Google Sheets dashboard using Budibase."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1661174183/cms/Google_Sheets_Dashboard-2_k6y4c6.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1661174189/cms/Google_Sheets_Dashboard-2_dqguhj.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
