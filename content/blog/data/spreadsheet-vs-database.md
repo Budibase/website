@@ -41,7 +41,7 @@ The columns represent each _attribute_ that we can store against a specific data
 
 Note, that while we can display databases as tables, this isn’t how information is actually stored behind the scenes. This differs across different database management systems, but for our purposes today, we just need to know it’s normally a text file with a set format.
 
-![SQL file](https://res.cloudinary.com/daog6scxm/image/upload/v1661161577/cms/Screenshot_2022-08-22_at_09.24.53_jvidvh.png "SQL file")
+![SQL file](https://res.cloudinary.com/daog6scxm/image/upload/v1661161577/cms/Screenshot_2022-08-22_at_09.24.53_jvidvh.webp "SQL file")
 
 In most cases, this means using SQL, or some variation on it.
 
@@ -77,7 +77,7 @@ This is easy since spreadsheets allow us to create formula cells, based on the v
 
 Spreadsheets also allow users with relatively little technical knowledge to present, visualize, and organize data.
 
-![Spreadsheet data](https://res.cloudinary.com/daog6scxm/image/upload/v1661161554/cms/Screenshot_2022-08-18_at_16.36.19_o35wgu.png "Spreadsheet data")
+![Spreadsheet data](https://res.cloudinary.com/daog6scxm/image/upload/v1661161554/cms/Screenshot_2022-08-18_at_16.36.19_o35wgu.webp "Spreadsheet data")
 
 Of course, we can achieve all of these things with databases too.
 
@@ -117,7 +117,7 @@ Modern spreadsheets don’t live on floppy disks. Instead, they’re deployed to
 
 In fact, their ubiquity is a benefit in and of itself. You can take a new employee from just about any background, sit them in front of an existing spreadsheet, and ask them to do something, with no training.
 
-![Database vs spreadsheet statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1661161442/cms/SQL_Developer_Stats_2_fxjsmf.png "Database vs spreadsheet statistics")
+![Database vs spreadsheet statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1661161442/cms/SQL_Developer_Stats_2_fxjsmf.webp "Database vs spreadsheet statistics")
 
 Almost everyone uses a spreadsheet almost every day, according to [one survey](https://medium.com/@spreadsheet/how-spreadsheets-are-used-at-work-ff339738e0a6).
 
@@ -185,7 +185,7 @@ It’s also rare for technical teams to manage large, complex, or mission-critic
 
 Someone who knows SQL can perform complex operations with manual queries, in seconds.
 
-![SQL statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1661161416/cms/SQL_Developer_Stats_bcreav.png "SQL Knowledge Stats")
+![SQL statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1661161416/cms/SQL_Developer_Stats_bcreav.webp "SQL Knowledge Stats")
 
 However, even amongst developers, only a [small majority](https://insights.stackoverflow.com/survey/2017#technologies-and-occupations) actually know SQL.
 
@@ -262,7 +262,7 @@ Honestly, spreadsheets are never going to be sufficient for maintaining the inte
 
 We can think about high-profile blunders to illustrate this, like the UK government losing 16,000 COVID test results, when they were deleted from an Excel file.
 
-![Spreadsheet vs database error reduction](https://res.cloudinary.com/daog6scxm/image/upload/v1661161357/cms/Spreadsheet_Error_Stats_nvosjq.png "Spreadsheet vs database error reduction")
+![Spreadsheet vs database error reduction](https://res.cloudinary.com/daog6scxm/image/upload/v1661161357/cms/Spreadsheet_Error_Stats_nvosjq.webp "Spreadsheet vs database error reduction")
 
 Spreadsheet errors are one of the most common [cyber security issues](https://finsburysolutions.com/what-is-spreadsheet-risk/).
 
@@ -399,7 +399,7 @@ For anything more complex, it’s probably going to be more efficient to use ded
 
 Check out our guide to [workflow analysis](https://budibase.com/blog/automation/what-is-workflow-analysis/) to find out more about the cost/benefit calculations here.
 
-![Spreadsheet vs Database Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1661161319/cms/Automation_goz4sd.png "Spreadsheet vs Database Automation")
+![Spreadsheet vs Database Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1661161319/cms/Automation_goz4sd.webp "Spreadsheet vs Database Automation")
 
 ### Scale and scalability
 
@@ -582,7 +582,7 @@ We even offer full support for CSV uploads, so you can turn your spreadsheets in
 
 Budibase DB is the perfect solution for quickly codifying information. Use simple dropdown selectors to create rows, columns, views, and more.
 
-![BudibaseDB](https://res.cloudinary.com/daog6scxm/image/upload/v1661161288/cms/Screenshot_2022-08-22_at_09.41.12_am3vz8.png "BudibaseDB")
+![BudibaseDB](https://res.cloudinary.com/daog6scxm/image/upload/v1661161288/cms/Screenshot_2022-08-22_at_09.41.12_am3vz8.webp "BudibaseDB")
 
 ### External data connectors
 
@@ -618,7 +618,7 @@ When it comes to building beautiful interfaces, the beauty of Budibase is our si
 
 Use handlebars expressions or our built-in JavaScript editors to quickly bind back-end values to different display elements.
 
-![spreadsheet vs database visualization](https://res.cloudinary.com/daog6scxm/image/upload/v1661161251/cms/Car_Rental_Admin_Panel_3_xofdw0.png "spreadsheet vs database visualization")
+![spreadsheet vs database visualization](https://res.cloudinary.com/daog6scxm/image/upload/v1661161251/cms/Car_Rental_Admin_Panel_3_xofdw0.webp "spreadsheet vs database visualization")
 
 We’ve also provided a range of tools for filtering data from the front end, including dedicated components, custom forms, conditionality rules, and more.
 
