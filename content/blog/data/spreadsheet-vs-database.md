@@ -1,8 +1,7 @@
 +++
 author = "Ronan McQuillan"
-date = 2022-08-21T23:00:00Z
+date = 2022-08-22T12:00:00Z
 description = "How you store data has a massive impact on your efficiency, effectiveness, and success. Today we’re diving deep into spreadsheets vs databases."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1661160800/cms/Enterprise_App_UI_Design_Header_xpymjj.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1661160808/cms/Enterprise_App_UI_Design_Header_jpf6jk.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
