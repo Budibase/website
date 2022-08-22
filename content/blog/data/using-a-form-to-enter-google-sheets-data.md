@@ -33,7 +33,7 @@ Similarly, what if you had a whole army of admin staff working on a lot of data 
 
 Real-time collaboration is cool and everything, but it can also get very messy, very fast. Data entry and update forms are critical for ensuring accuracy and error prevention.
 
-Check out our ultimate guide on databases vs spreadsheets for more details.
+Check out our ultimate guide on [databases vs spreadsheets](/blog/data/spreadsheet-vs-database/) for more details.
 
 ## Why would I build forms for Google Sheets with Budibase?
 
@@ -65,7 +65,7 @@ We’ll return to some of the more specific features of Budibase that make it th
 
 For now, though, let’s jump into the practical stuff.
 
-## Building Google Sheets forms in X steps
+## Building Google Sheets forms in 7 steps
 
 We do have a couple of obvious prerequisites. We can safely assume that you have a Google account already, along with a spreadsheet you want to manage. You’ll also need to sign up to Budibase, of course.
 
@@ -80,6 +80,8 @@ Unsurprisingly, our first step is to start a new app project. So, once you’re 
 Hit _Create app_ when you’re ready. Next, you’ll see a modal with a list of all of the data sources you can choose.
 
 Pick Google Sheets. No surprises here.
+
+You might also like our tutorial on how to [make an app from an Excel spreadsheet](/blog/data/make-an-app-from-excel-spreadsheets/).
 
 ### 2. Configure your data connection
 
@@ -164,6 +166,8 @@ We can repeat the same process for our _Create_ form too. We can also reverse th
 Now, for really simple use cases, we could use what we have so far as a deployable solution. For example, you might not be too worried about access control or design for your Google Sheets form - in which case you could simply skip to step 7 and publish your app.
 
 But, part of the beauty of Budibase is that we don’t need too much more effort to transform this simple app into something really impressive.
+
+Take a look at our guide to building [MongoDB CRUD apps](/blog/data/mongodb-crud-app/).
 
 Let’s think about how we could spend a couple of extra minutes really supercharging our forms to enter data to Google Sheets.
 
@@ -304,6 +308,8 @@ Or you might simply have your own infrastructure and want to use it. As the lead
 Budibase is the fast, easy way to build all sorts of custom solutions. Our intuitive low-code tool is the perfect solution for [internal tools](https://budibase.com/internal-tools), customer-facing apps, dashboards, and more.
 
 The vast majority of apps that businesses use are simple interfaces on top of a data source.
+
+You might also like our tutorial on building a [Google Sheets dashboard](/blog/data/google-sheets-dashboard/).
 
 We’re on a mission to create the world’s largest ecosystem of open-source tools. Budibase is the smart way to create custom solutions for a whole range of business problems.
 
