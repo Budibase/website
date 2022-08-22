@@ -53,7 +53,7 @@ pages:
 - content/blog/building-a-dashboard-with-budibase-and-grafana.md
 - content/blog/data/create-forms-for-sql-databases.md
 - content/blog/data/data-sources.md
-- content/blog/data/how-to-build-a-google-sheets-dashboard.md
+- content/blog/data/google-sheets-dashboard.md
 - content/blog/data/how-to-create-a-data-model.md
 - content/blog/data/how-to-integrate-multiple-databases.md
 - content/blog/data/make-an-app-from-excel-spreadsheets.md
