@@ -37,11 +37,11 @@ With that in mind, let’s take each in turn.
 
 A database is a collection of information that’s structured in such a way that computer programs can understand it. Normally, although not always, this means displaying one or more tables, that are made up of rows and columns.
 
-The columns represent each _attribute_ that we can store against a specific database entry. The rows are the individual entries, known as _records._
+The columns represent each _attribute_ that we can store against a specific database entry. The rows are individual entries, known as _records._
 
 Note, that while we can display databases as tables, this isn’t how information is actually stored behind the scenes. This differs across different database management systems, but for our purposes today, we just need to know it’s normally a text file with a set format.
 
-![](https://lh4.googleusercontent.com/M_taI4SMrpquJYsrZ5EYFJZSMh7kCdvgNbEG374Dp9NPAwCSA11zOgq_xyRVYCp8GoRoHCXLK79gGURKlImiWrPc8fkTWTLK5tLlR0MU0Z7YACmGqU5vIJTeH95e-Qf5oCHti7l1-Yj2lqeI-xXg1q4 =624x401)
+![SQL file](https://res.cloudinary.com/daog6scxm/image/upload/v1661161577/cms/Screenshot_2022-08-22_at_09.24.53_jvidvh.png "SQL file")
 
 In most cases, this means using SQL, or some variation on it.
 
@@ -77,7 +77,7 @@ This is easy since spreadsheets allow us to create formula cells, based on the v
 
 Spreadsheets also allow users with relatively little technical knowledge to present, visualize, and organize data.
 
-![](https://lh4.googleusercontent.com/vUjL7PibZqE4dN5Sj5h6hKx7H6RDx6gBbrwypQjKjyctL9fNp7j4GcesDXHcxnnhN0VXHvGCJuJ_uBHzMgHb-iMQ8CAjGr8fxCNWGLJWoDxyqcjmW4oSaJHgiiLCfCrLCqMAGFtXw_K4PycrceZVuo8 =624x303)
+![Spreadsheet data](https://res.cloudinary.com/daog6scxm/image/upload/v1661161554/cms/Screenshot_2022-08-18_at_16.36.19_o35wgu.png "Spreadsheet data")
 
 Of course, we can achieve all of these things with databases too.
 
@@ -117,7 +117,7 @@ Modern spreadsheets don’t live on floppy disks. Instead, they’re deployed to
 
 In fact, their ubiquity is a benefit in and of itself. You can take a new employee from just about any background, sit them in front of an existing spreadsheet, and ask them to do something, with no training.
 
-![](https://lh4.googleusercontent.com/4segbaJuvXbVSvBzxnfucqGT6GwS4LBNRy0gC7k-U9Iv5kb6yaDtBV-owqJ5Ju7RDbmciRyIIvf9RuITYXxOLUHJ2tyIsQJIeBfXmF9w1a6Sq7DOeAjgU3hgL72ZQ4kEV5rNELlNkte0ajThT15Y1JI =624x351)
+![Database vs spreadsheet statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1661161442/cms/SQL_Developer_Stats_2_fxjsmf.png "Database vs spreadsheet statistics")
 
 Almost everyone uses a spreadsheet almost every day, according to [one survey](https://medium.com/@spreadsheet/how-spreadsheets-are-used-at-work-ff339738e0a6).
 
@@ -185,7 +185,7 @@ It’s also rare for technical teams to manage large, complex, or mission-critic
 
 Someone who knows SQL can perform complex operations with manual queries, in seconds.
 
-![](https://lh5.googleusercontent.com/uefaKpzWaGGABbZ3g2JhKyaTrCLbS3DJZKbxGrPIUA4cQTHVPS3zLOwwN7ztUp74o-jnBN3rnc6286A9V_FRjaHWzUOYA8C6I_Xbv2UEKeVHSSLQaBbBqgZEDTTX3sNrSj0OyeL3Cwryvz3y_zXIYL8 =624x351)
+![SQL statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1661161416/cms/SQL_Developer_Stats_bcreav.png "SQL Knowledge Stats")
 
 However, even amongst developers, only a [small majority](https://insights.stackoverflow.com/survey/2017#technologies-and-occupations) actually know SQL.
 
@@ -262,7 +262,7 @@ Honestly, spreadsheets are never going to be sufficient for maintaining the inte
 
 We can think about high-profile blunders to illustrate this, like the UK government losing 16,000 COVID test results, when they were deleted from an Excel file.
 
-![](https://lh6.googleusercontent.com/35wEcQldjjfcxP_hzjBURo9tLT2J7KJtOheeoZ5G64B1rG1XBTf2bDX36iCqcjiVTf0qquDU6CUB0cBCeV7PQewnvfsmWoKyL4RKIUASbuIw5bjjGW2WCdHrISITAcXjJw2qRYEBFO_mow32WS8Ttbc =624x351)
+![Spreadsheet vs database error reduction](https://res.cloudinary.com/daog6scxm/image/upload/v1661161357/cms/Spreadsheet_Error_Stats_nvosjq.png "Spreadsheet vs database error reduction")
 
 Spreadsheet errors are one of the most common [cyber security issues](https://finsburysolutions.com/what-is-spreadsheet-risk/).
 
@@ -399,7 +399,7 @@ For anything more complex, it’s probably going to be more efficient to use ded
 
 Check out our guide to [workflow analysis](https://budibase.com/blog/automation/what-is-workflow-analysis/) to find out more about the cost/benefit calculations here.
 
-![](https://lh6.googleusercontent.com/JLxJbwjcrwR220nO96iw1-Rro-o-dR58cT2BUgK3JOhoVkz_ok_xbq9D2J_3i73neQdFMW2uAoh7z05ITn2jMcWY7VCKZa02katmBQx7ZlkUUHrdTzCQCnjvJhaPnpFUIeTc-cKVym4p_HlHyAAqhxE =624x351)
+![Spreadsheet vs Database Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1661161319/cms/Automation_goz4sd.png "Spreadsheet vs Database Automation")
 
 ### Scale and scalability
 
@@ -582,7 +582,7 @@ We even offer full support for CSV uploads, so you can turn your spreadsheets in
 
 Budibase DB is the perfect solution for quickly codifying information. Use simple dropdown selectors to create rows, columns, views, and more.
 
-![](https://lh5.googleusercontent.com/kzDHTYucaHlZ7D5SL365se9fjQy4MwAaq_x8mw5GzKtPjECvYj6LAK4uXe1g11cMfTIjGVUDePHPeWGO_-TdIqYobIFrKyOb2ofV_mwM5rN3TrGe1QF8ZQThMB9QkLqeBY42_l58s3SeLFBcX4nxQjU =624x281)
+![BudibaseDB](https://res.cloudinary.com/daog6scxm/image/upload/v1661161288/cms/Screenshot_2022-08-22_at_09.41.12_am3vz8.png "BudibaseDB")
 
 ### External data connectors
 
@@ -618,7 +618,7 @@ When it comes to building beautiful interfaces, the beauty of Budibase is our si
 
 Use handlebars expressions or our built-in JavaScript editors to quickly bind back-end values to different display elements.
 
-![](https://lh5.googleusercontent.com/TkOCKN9Xi88R58ch_C_53jFSuKMRwNlYgsuO8lOLsXVuWhpmP0781msg6kNwUcjpv5GBadZ2ZVqQ4Qj9owDgn5zwe1AwYd5bffnUKn98L5PWoECAJtbDSAuMHotp9fwYgiTvZSQQcTXFvBMUtA4G2-c =624x408)
+![spreadsheet vs database visualization](https://res.cloudinary.com/daog6scxm/image/upload/v1661161251/cms/Car_Rental_Admin_Panel_3_xofdw0.png "spreadsheet vs database visualization")
 
 We’ve also provided a range of tools for filtering data from the front end, including dedicated components, custom forms, conditionality rules, and more.
 
