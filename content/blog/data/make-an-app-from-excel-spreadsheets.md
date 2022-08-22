@@ -50,6 +50,8 @@ These are generalizations, of course.
 
 All the same, they illustrate some serious shortcomings in Excel and other spreadsheet tools. These include poor scalability, low levels of oversight, a high scope for error, and inefficient user experiences.
 
+Check out our ultimate guide on [spreadsheets vs databases](/blog/data/spreadsheet-vs-database/) for more information.
+
 Of course, given that you’re here, you probably already know all this.
 
 So what can you do about it?
@@ -84,7 +86,7 @@ All you need to do is sign in to your Google account, and paste your spreadsheet
 
 This is critical if you want to build an app for certain functions but carry on using your spreadsheet tool for others. For example, if you wanted a dedicated tool for data entry, but you still wanted to analyze results in a spreadsheet.
 
-Check out our guide to building using a form to enter data to Google Sheets to find out more.
+Check out our guide to [using a form to enter data to Google Sheets](/blog/data/using-a-form-to-enter-google-sheets-data/) to find out more.
 
 ## Turn a spreadsheet into an app - step by step
 
@@ -135,8 +137,6 @@ We can repeat this process to add more tables from CSV files using the _Plus_ ic
 Option two means connecting directly to a Google Sheets file as a data layer for our app. We’ll start by adding a new data source, just like before. Except this time, we’ll choose Google Sheets instead of BudibaseDB.
 
 Then, we can sign in to our Google account, paste our spreadsheet URL into Budibase data connector UI, and import each individual table that we want.
-
-Check out our guide to using forms to enter data in Google Sheets for a more detailed explanation.
 
 ### 3. Configure your data layer
 
@@ -203,6 +203,8 @@ Alternatively, your app might be more tightly focused on analyzing and presentin
 We offer a full suite of visualization components, including charts, graphs, stat cards, dynamic filters, and more.
 
 Each of these can be used to display, transform, and aggregate back-end data, using bindable JavaScript and Handlebars expressions.
+
+You might also like our guide to building a [Google Sheets dashboard](/blog/data/google-sheets-dashboard/).
 
 ### 5. Create business logic
 
@@ -353,3 +355,5 @@ We’re taking the hard work out of building incredible tools. With Budibase, yo
 We’ve even built over 50 free, deployable [app templates](https://budibase.com/templates/) to show off what Budibase can do.
 
 Sign up today for free.
+
+You might also like our guide to building a [MongoDB CRUD app](/blog/data/mongodb-crud-app/).
