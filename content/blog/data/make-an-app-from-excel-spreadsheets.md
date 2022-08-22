@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-08-21T23:00:00Z
 description = "Today, we’re going to look at a better way to manage data, calculations, and workflows. That is, how to make an app from Excel spreadsheets."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1661165411/cms/Make_an_App_From_a_Spreadsheet_obmy1p.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1661165417/cms/Make_an_App_From_a_Spreadsheet_irsidi.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
