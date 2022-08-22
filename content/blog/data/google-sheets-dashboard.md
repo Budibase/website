@@ -145,6 +145,8 @@ Next, you’ll be prompted to select your data source. As you might have guessed
 
 ![Google Sheets as a data source](https://res.cloudinary.com/daog6scxm/image/upload/v1661175587/cms/Screenshot_2022-08-17_at_13.09.33_qi4zib.webp "Google Sheets as a data source")
 
+For a different project, why not check out our tutorial on building a [MongoDB CRUD app](/blog/data/mongodb-crud-app)?
+
 ### 2. Connect to your spreadsheet
 
 With our app project created, we need to establish a connection to our Google Sheets data. Budibase is designed to make connecting to external data a breeze. You’ll be happy to hear that you don’t need to write a single line of code
@@ -195,7 +197,7 @@ And _customers_:
 
 We can also add some extra configuration to our tables to make them behave a bit more like a traditional database. For example, we can add access controls, build relationships, or create extra attributes, views, and filtering options.
 
-We said earlier that there are some key areas where Google Sheets falls short, especially when managing data at scale. This is our chance to bridge the gap in terms of databases vs spreadsheets.
+We said earlier that there are some key areas where Google Sheets falls short, especially when managing data at scale. This is our chance to bridge the gap in terms of [databases vs spreadsheets](/blog/data/spreadsheet-vs-database/).
 
 Let’s assume we’re going to need to build some relationships between our tables to perform aggregate the information we need for our dashboard.
 
@@ -271,7 +273,7 @@ We also offer a range of other graph and chart types, including pie, scatter, an
 
 Since we’re just playing around with dummy data, we won’t waste your time showing off every possible chart or visualization tool you can use. Instead, the idea is to give you a flavor of just how quick and easy it is to build an attractive Google Sheets Dashboard in Budibase.
 
-For a slightly different spin on this, why not check out our guide to using a form to enter data to Google Sheets?
+For a slightly different spin on this, why not check out our guide to [using a form to enter data to Google Sheets](/blog/data/using-a-form-to-enter-google-sheets-data/)?
 
 ### 6. Add extra functionality
 
@@ -319,3 +321,5 @@ We’re biased, but we think Budibase is the smart choice for busy teams who don
 We’ve even created 50+ free, deployable [app templates](https://budibase.com/templates) to show off just what Budibase is capable of.
 
 Sign up to Budibase for free today to start building apps the fast, easy way.
+
+You might also like our tutorial on how to [make an app from Excel spreadsheets](/blog/data/make-an-app-from-excel-spreadsheets/).
