@@ -118,19 +118,19 @@ So, option number one is using BudibaseDB and uploading CSV files.
 
 As you might have guessed, that means we need to select BudibaseDB as our [data source:](https://budibase.com/blog/data/data-sources/)
 
-![Select a data source](https://res.cloudinary.com/daog6scxm/image/upload/v1661173146/cms/Screenshot_2022-08-15_at_10.07.03_rld5qe.png "Select a data source")
+![Select a data source](https://res.cloudinary.com/daog6scxm/image/upload/v1661173146/cms/Screenshot_2022-08-15_at_10.07.03_rld5qe.webp "Select a data source")
 
 We’ll then be prompted to create a table. At the bottom of this modal, we can select _Upload_ to add our CSV files:
 
-![Upload](https://res.cloudinary.com/daog6scxm/image/upload/v1661173123/cms/Screenshot_2022-08-15_at_10.08.16_otymmc.png "Upload")
+![Upload](https://res.cloudinary.com/daog6scxm/image/upload/v1661173123/cms/Screenshot_2022-08-15_at_10.08.16_otymmc.webp "Upload")
 
 Then, we can choose the data type for each heading and set which one we’d like to use as our _Display Column_:
 
-![Import CSV](https://res.cloudinary.com/daog6scxm/image/upload/v1661173101/cms/Screenshot_2022-08-15_at_10.09.10_bym9zf.png "Import CSV")
+![Import CSV](https://res.cloudinary.com/daog6scxm/image/upload/v1661173101/cms/Screenshot_2022-08-15_at_10.09.10_bym9zf.webp "Import CSV")
 
 We can repeat this process to add more tables from CSV files using the _Plus_ icon in the top left of our screen.
 
-![Add data](https://res.cloudinary.com/daog6scxm/image/upload/v1661173075/cms/Screenshot_2022-08-15_at_10.10.37_dl3xpk.png "Add data")
+![Add data](https://res.cloudinary.com/daog6scxm/image/upload/v1661173075/cms/Screenshot_2022-08-15_at_10.10.37_dl3xpk.webp "Add data")
 
 Option two means connecting directly to a Google Sheets file as a data layer for our app. We’ll start by adding a new data source, just like before. Except this time, we’ll choose Google Sheets instead of BudibaseDB.
 
@@ -152,7 +152,7 @@ This won’t be much use unless we relate each sale to a basket.
 
 On either table, hit the _Create Column_ button, and choose _Relationship_ under the _Type_ dropdown:
 
-![Create relationships](https://res.cloudinary.com/daog6scxm/image/upload/v1661173036/cms/Screenshot_2022-08-15_at_10.46.48_kc0vvl.png "Create column")
+![Create relationships](https://res.cloudinary.com/daog6scxm/image/upload/v1661173036/cms/Screenshot_2022-08-15_at_10.46.48_kc0vvl.webp "Create column")
 
 We can then name our relationship variable, and choose whether we want a many-to-many or one-to-many relationship between the tables. This allows us to do things like create formula variables in one table, based on values in relevant rows in the other.
 
@@ -186,15 +186,15 @@ Check out our ultimate guide to [form UI design](https://budibase.com/blog/app-b
 
 Start by hitting _Add screen_ under the _Design_ tab:
 
-![Create screens](https://res.cloudinary.com/daog6scxm/image/upload/v1661172974/cms/Screenshot_2022-08-15_at_15.29.05_gaokus.png "Create screens")
+![Create screens](https://res.cloudinary.com/daog6scxm/image/upload/v1661172974/cms/Screenshot_2022-08-15_at_15.29.05_gaokus.webp "Create screens")
 
 Select the data sources you want to build CRUD screens for:
 
-![CRUD screens](https://res.cloudinary.com/daog6scxm/image/upload/v1661172937/cms/Screenshot_2022-08-15_at_15.29.16_jabsfn.png "CRUD screens")
+![CRUD screens](https://res.cloudinary.com/daog6scxm/image/upload/v1661172937/cms/Screenshot_2022-08-15_at_15.29.16_jabsfn.webp "CRUD screens")
 
 And choose an access level:
 
-![Set access level](https://res.cloudinary.com/daog6scxm/image/upload/v1661172908/cms/Screenshot_2022-08-15_at_15.29.24_ndfaoy.png "Set access level")
+![Set access level](https://res.cloudinary.com/daog6scxm/image/upload/v1661172908/cms/Screenshot_2022-08-15_at_15.29.24_ndfaoy.webp "Set access level")
 
 And there you have it. In three clicks, you have a fully deployable CRUD app. Of course, you can also customize this to your heart’s content.
 
@@ -222,31 +222,31 @@ For ease, we’ll say this is $1,000. We’ll think about what we want to do wit
 
 We’ll start by creating a formula variable on the _Sales_ table:
 
-![Create column](https://res.cloudinary.com/daog6scxm/image/upload/v1661172813/cms/Screenshot_2022-08-15_at_13.46.27_pumu7l.png "Create column")
+![Create column](https://res.cloudinary.com/daog6scxm/image/upload/v1661172813/cms/Screenshot_2022-08-15_at_13.46.27_pumu7l.webp "Create column")
 
 Then, we have a choice of using Handlebars expressions or custom JavaScript. We can also call in any values we need from related rows on the _Baskets_ table:
 
-![Create an app from a spreadsheet](https://res.cloudinary.com/daog6scxm/image/upload/v1661172771/cms/Screenshot_2022-08-15_at_13.47.00_rxs3l8.png "Create an app from a spreadsheet")
+![Create an app from a spreadsheet](https://res.cloudinary.com/daog6scxm/image/upload/v1661172771/cms/Screenshot_2022-08-15_at_13.47.00_rxs3l8.webp "Create an app from a spreadsheet")
 
 For our purposes today, keep in mind that each _Sales_ entry should relate to a single _Baskets_ row.
 
 We want a bit of conditional logic, so we’re going to use JavaScript rather than handlebars. We’ll start by declaring a variable and setting it to the _Cost_ variable in the first (and only) related _Baskets_ row:
 
-![Data bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1661172746/cms/Screenshot_2022-08-15_at_13.50.12_bdk62u.png "Data bindings")
+![Data bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1661172746/cms/Screenshot_2022-08-15_at_13.50.12_bdk62u.webp "Data bindings")
 
 Note, if we had more than one related row, we’d need to specify which one we mean in our JavaScript expression. The _0_ in $(“Baskets.0.Cost”) means that we’re talking about the first related row.
 
 Next, we’ll use an _if_ statement to assess whether our _cost_ variable is greater than or equal to 1000. We’ll return _true_ as a boolean value if so:
 
-![Formula variable](https://res.cloudinary.com/daog6scxm/image/upload/v1661172713/cms/Screenshot_2022-08-15_at_13.52.53_hdqru0.png "Formula variable")
+![Formula variable](https://res.cloudinary.com/daog6scxm/image/upload/v1661172713/cms/Screenshot_2022-08-15_at_13.52.53_hdqru0.webp "Formula variable")
 
 And then we’ll add an _else_ statement to return _false_ for smaller or missing values:
 
-![Formula variable](https://res.cloudinary.com/daog6scxm/image/upload/v1661172677/cms/Screenshot_2022-08-15_at_14.00.13_ke8mof.png "Formula variable")
+![Formula variable](https://res.cloudinary.com/daog6scxm/image/upload/v1661172677/cms/Screenshot_2022-08-15_at_14.00.13_ke8mof.webp "Formula variable")
 
 Then we can take a look at our table to make sure our formula outputs the values we expect:
 
-![Sales table](https://res.cloudinary.com/daog6scxm/image/upload/v1661172614/cms/Screenshot_2022-08-15_at_14.01.21_qzid4i.png "Sales table")
+![Sales table](https://res.cloudinary.com/daog6scxm/image/upload/v1661172614/cms/Screenshot_2022-08-15_at_14.01.21_qzid4i.webp "Sales table")
 
 This is a simple piece of business logic that would be difficult to achieve in a spreadsheet since Excel doesn’t really support relationships between tables.
 
@@ -264,25 +264,25 @@ Lucky for you, Budibase makes it easy to build custom automations, without writi
 
 Let’s take a quick example of how to build an automation in Budibase. First thing’s first, head over to the _Automate_ tab at the top of your screen and choose _Create automation_:
 
-![New automation](https://res.cloudinary.com/daog6scxm/image/upload/v1661172440/cms/Screenshot_2022-08-15_at_14.33.01_g1emmt.png "New automation")
+![New automation](https://res.cloudinary.com/daog6scxm/image/upload/v1661172440/cms/Screenshot_2022-08-15_at_14.33.01_g1emmt.webp "New automation")
 
 Next, we’ll need to give our automation a name and decide on a trigger:
 
-![Make an app from excel spreadsheet](https://res.cloudinary.com/daog6scxm/image/upload/v1661172403/cms/Screenshot_2022-08-15_at_14.36.32_rwudaw.png "Make an app from excel spreadsheet")
+![Make an app from excel spreadsheet](https://res.cloudinary.com/daog6scxm/image/upload/v1661172403/cms/Screenshot_2022-08-15_at_14.36.32_rwudaw.webp "Make an app from excel spreadsheet")
 
 We’ve got a few different options that might work for our use case. We want to choose the trigger that will cover every potential scenario while still minimizing the number of times our automation needs to run.
 
 We’re going to opt for a _Row Updated_ trigger - specifically, for the _Sales_ table.
 
-![Define trigger](https://res.cloudinary.com/daog6scxm/image/upload/v1661172236/cms/Screenshot_2022-08-15_at_14.44.04_hwndhr.png "Define trigger")
+![Define trigger](https://res.cloudinary.com/daog6scxm/image/upload/v1661172236/cms/Screenshot_2022-08-15_at_14.44.04_hwndhr.webp "Define trigger")
 
 Next, we’ll add a condition block:
 
-![Condition block](https://res.cloudinary.com/daog6scxm/image/upload/v1661172066/cms/Screenshot_2022-08-15_at_14.44.42_ktmco9.png "Condition block")
+![Condition block](https://res.cloudinary.com/daog6scxm/image/upload/v1661172066/cms/Screenshot_2022-08-15_at_14.44.42_ktmco9.webp "Condition block")
 
 We’ll bind the _Flag?_ variable in the trigger row as our _Reference Value_, set the condition to _Equals_, and put _return true_ as a JavaScript function in the _Comparison Value_:
 
-![Make an app from excel spreadsheet](https://res.cloudinary.com/daog6scxm/image/upload/v1661170869/cms/Screenshot_2022-08-15_at_14.53.58_moctol.png "Make an app from an excel spreadsheet")
+![Make an app from excel spreadsheet](https://res.cloudinary.com/daog6scxm/image/upload/v1661170869/cms/Screenshot_2022-08-15_at_14.53.58_moctol.webp "Make an app from an excel spreadsheet")
 
 We have a bunch of options for what we could do next.
 
@@ -290,11 +290,11 @@ Just for the sake of keeping our example simple, let’s say you want to use Zap
 
 We’ll add a Zapier block:
 
-![Integration actions](https://res.cloudinary.com/daog6scxm/image/upload/v1661170826/cms/Screenshot_2022-08-15_at_15.06.10_nz9r7f.png "Integration actions")
+![Integration actions](https://res.cloudinary.com/daog6scxm/image/upload/v1661170826/cms/Screenshot_2022-08-15_at_15.06.10_nz9r7f.webp "Integration actions")
 
 Then, we can simply paste in the URL of our Zap, and bind each of the _Sales_ entity’s attributes as payload values:
 
-![Populate zap](https://res.cloudinary.com/daog6scxm/image/upload/v1661170658/cms/Screenshot_2022-08-15_at_15.09.27_j0tbio.png "Populate zap")
+![Populate zap](https://res.cloudinary.com/daog6scxm/image/upload/v1661170658/cms/Screenshot_2022-08-15_at_15.09.27_j0tbio.webp "Populate zap")
 
 ### 7. Set up access control
 
@@ -306,7 +306,7 @@ Budibase offers flexible [role-based access control](https://budibase.com/blog/a
 
 First up, data. As we said earlier, we can hit the _Manage access_ button on each individual table under the _Data_ tab. This opens the following modal:
 
-![Configure data access](https://res.cloudinary.com/daog6scxm/image/upload/v1661170374/cms/Screenshot_2022-08-15_at_15.26.24_gptfri.png "Configure data access")
+![Configure data access](https://res.cloudinary.com/daog6scxm/image/upload/v1661170374/cms/Screenshot_2022-08-15_at_15.26.24_gptfri.webp "Configure data access")
 
 Here, we can set the minimum role needed to perform different kinds of data queries, for a broad approach to access control.
 
@@ -314,15 +314,15 @@ If we want to get more granular, we can achieve something similar with individua
 
 So, we can also set the minimum role that users need to navigate to each screen. Under the _Design_ tab, you can use a dropdown selector to choose your desired access role:
 
-![Set screen role](https://res.cloudinary.com/daog6scxm/image/upload/v1661171717/cms/Screenshot_2022-08-15_at_15.34.17_bns4qw.png "Set screen role")
+![Set screen role](https://res.cloudinary.com/daog6scxm/image/upload/v1661171717/cms/Screenshot_2022-08-15_at_15.34.17_bns4qw.webp "Set screen role")
 
 Finally, we can also hide, display, or update individual components based on the current user’s role. Pick any component, and click on _Configure conditions_ on the right-hand side:
 
-![Make an app from an excel spreadsheet](https://res.cloudinary.com/daog6scxm/image/upload/v1661170218/cms/Screenshot_2022-08-15_at_15.43.32_anzsrr.png "Make an app from an excel spreadsheet")
+![Make an app from an excel spreadsheet](https://res.cloudinary.com/daog6scxm/image/upload/v1661170218/cms/Screenshot_2022-08-15_at_15.43.32_anzsrr.webp "Make an app from an excel spreadsheet")
 
 If we wanted to hide the _Create New_ button from _Public_ and _Basic_ users, we’d add the following two conditions:
 
-![Conditional RBAC](https://res.cloudinary.com/daog6scxm/image/upload/v1661170186/cms/Screenshot_2022-08-15_at_15.48.54_v9vznv.png "Conditional RBAC")
+![Conditional RBAC](https://res.cloudinary.com/daog6scxm/image/upload/v1661170186/cms/Screenshot_2022-08-15_at_15.48.54_v9vznv.webp "Conditional RBAC")
 
 Check out our in-depth guide on how to [implement RBAC](https://budibase.com/blog/app-building/how-to-implement-rbac/) for more information.
 
