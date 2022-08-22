@@ -55,6 +55,7 @@ pages:
 - content/blog/data/data-sources.md
 - content/blog/data/how-to-create-a-data-model.md
 - content/blog/data/how-to-integrate-multiple-databases.md
+- content/blog/data/make-an-app-from-excel-spreadsheets.md
 - content/blog/data/mongodb-crud-app.md
 - content/blog/data/spreadsheet-vs-database.md
 - content/blog/data/using-a-form-to-enter-google-sheets-data.md
