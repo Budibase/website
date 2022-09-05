@@ -113,8 +113,8 @@ Users can also access several prebuilt automations, including Sendgrid, Zapier, 
 
 [Budibase](https://www.budibase.com) is primarily for business apps, and use cases range from admin panels and dashboards to approval apps and inventory lists.
 
-[Github Repo](https://github.com/Budibase/budibase)
-Github Stars - 3.2k
+[Github Repo](https://github.com/Budibase/budibase) Github Stars - 15K 
+
 Actively maintained - Yes
 
 ***
