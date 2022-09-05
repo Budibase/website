@@ -1,7 +1,8 @@
 ---
-date: 2021-01-10
-title: "What are Internal Tools? The 2021 guide to Internal Tools"
-description: "Within this post, you will learn how to build internal tools for your company, in minutes. We will also provide you with examples and templates along the way."
+date: "2021-01-10"
+dateModified: "2022-08-02"
+title: What are Internal Tools? Definitive Guide for 2022
+description: In this post, you’ll learn how to build internal tools, in minutes. We’ll also look at some examples and templates to get you started along the way.
 images: ["/small-business-apps/budibase.png"]
 draft: "false"
 type: "internal-tools"

@@ -2755,7 +2755,7 @@ border-radius: .75rem;
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 1px var(--gray-light) solid;
+  border: 1px var(--light2) solid;
   padding: 1.5rem 2rem;
   border-radius: .5rem;
   transition: all 200ms ease-in-out;
