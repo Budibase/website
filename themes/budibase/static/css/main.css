@@ -550,8 +550,8 @@ u {
   left: 0;
   height: 7px;
   width: 100%;
-  border: solid 2px var(--test-coral);
-  border-color: var(--test-yellow) transparent transparent transparent;
+  border: solid 2px var(--test-teal);
+  border-color: var(--test-teal) transparent transparent transparent;
   border-radius: 30%;
 }
 
