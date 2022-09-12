@@ -191,7 +191,7 @@ We also offer free SSO across all of your Budibase apps and support for common a
 
 As your business grows and evolves, it’s crucial that your software tools evolve with it. Budibase tools are designed for maximum scalability.
 
-With our [low-code platform](https://budibase.com/product), you can quickly and easily deploy new functionality, with minimal interruption or downtime.
+With our [low-code platform](https://budibase.com/blog/open-source-low-code-platforms/), you can quickly and easily deploy new functionality, with minimal interruption or downtime.
 
 ## Start using our invoice approval software template today
 

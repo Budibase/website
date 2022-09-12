@@ -1,14 +1,12 @@
 +++
-date = "2020-09-21"
-title = "What is custom software development in 2021"
-description = "Custom software development is the method of building specific software instead of purchasing COTS, commercial off the shelf, software. Within this guide, we will explore custom software development in depth."
 author = "Joe Johnston"
-draft = "false"
+date = 2020-09-21T00:00:00Z
+description = "Custom software development is the method of building specific software instead of purchasing COTS, commercial off the shelf, software. Within this guide, we will explore custom software development in depth."
 image = "/custom-software-development/world-eating-software.png"
 images = ["/custom-software-development/world-eating-software.png"]
+title = "What is custom software development in 2022"
 
 +++
-
 The world is eating software. 🌎 🍴🌐
 
 The above is a tongue-in-cheek response to the famous words of Marc Andreessen, 'software is eating the world.' Marc's words hail from his wondrous post, dated 2011, and titled, [Why software is eating the world](https://a16z.com/2011/08/20/why-software-is-eating-the-world/). 
@@ -171,16 +169,3 @@ On a recent call with David Singleton (lead engineer at [Stripe](https://www.str
 I hope the examples above inspire you. Due to platforms like [Budibase](https://www,budibase.com),  the barrier for building custom software is at an all-time low. You don't need to be a developer. You don't need to know how to code. And you can build custom software in minutes, not months. A new generation of software development awaits us. 
 
 Thank you for reading and good luck. If you are interested, please sign-up to Budibase below, and get started (it's free and no CC required).
-
-
-
-
-
-
-
-
-
-
-
-
-

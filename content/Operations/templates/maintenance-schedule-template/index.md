@@ -195,7 +195,7 @@ With open-source design and optional self-hosting, Budibase is the smart choice 
 
 Budibase offers complete customization of app design, functionality, and configuration. We offer a range of simple and intuitive design tools. Create the perfect apps for your users and workflows, without the need for coding skills.
 
-With our innovative [low-code platform](https://budibase.com/product), creating fully functional custom software tools is fast, easy, and cost-effective.
+With our innovative [open-source, low-code platform](https://budibase.com/blog/open-source-low-code-platforms/), creating fully functional custom software tools is fast, easy, and cost-effective.
 
 ## Start using Budibase today
 

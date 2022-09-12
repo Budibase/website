@@ -1,14 +1,11 @@
 +++
-
-date = "2021-03-22"
-title = "14 Best Database Management Software to use in 2021"
-description = "Selecting the right Database Management Software is a critical decision that must be made when architecting a new application. Thankfully, this post makes that decision easier."
 author = "Joe Johnston"
+date = 2021-03-22T00:00:00Z
+description = "Selecting the right Database Management Software is a critical decision that must be made when architecting a new application. Thankfully, this post makes that decision easier."
 images = ["/best-database-management-software/best-dbms.png"]
-draft ="false"
+title = "14 Best Database Management Software to use in 2022"
 
 +++
-
 A good database is crucial to any company.  An organization's database stores all the pertinent details about the company, such as employee details, client records, transactional information, etc. Therefore selecting the correct database is critical. The database selection process can be complex, especially if you're inexperienced. Fortunately, we're made the process easier for you. We've compiled a list of the 14 best database management software to use in 2021. You can find the list below, and we've also covered important topics to help with comprehension of the subject.  
 
 ## What is a database?
@@ -284,10 +281,3 @@ As I previously highlighted, your database management system choice will come do
 I hope you enjoyed this post and it's helped you on your journey with selecting a database. As we explore more database management systems, we will continue to add to this list. If you currently research databases with the ambition of building a web app/internal tool, you should consider [Budibase](https://www.budibase.com). Budibase is an open-source development platform for building internal tools in minutes and on your own infrastructure. Budibase has its own internal database and supports data from several databases mentioned in the list above (PostgreSQL, Mongo, Couch, MySQL, Elasticsearch, and more). 
 
 Once again, thanks for reading and best of luck on your journey.
-
-
-
-
-
-
-

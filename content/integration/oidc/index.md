@@ -2,7 +2,7 @@
 date = "2021-09-22"
 title = "OIDC integration with Budibase | Implement SSO for free"
 page_title = "OpenID / OIDC"
-categories = ["admin"] 
+categories = ["admin"]
 description = "Budibase integrates with OIDC so you can easily add SSO functionality to your Budibase platform."
 images = ["img/ui/admin-sm.jpg"]
 logo = "integrations/openid-icon.png"
@@ -13,10 +13,10 @@ published_by = "Budibase"
 site_url = "https://openid.net/"
 plan = "Free"
 docs_url = "https://docs.budibase.com"
-status = "Live" 
+status = "Live"
 +++
 
-Connect Budibase to OIDC to implement SSO. 
+Connect Budibase to OIDC to implement SSO.
 
 OIDC is an open standard and decentralized authentication protocol. As a user, you will have infinite possibilities for SSO, including:
 
@@ -26,7 +26,7 @@ OIDC is an open standard and decentralized authentication protocol. As a user, y
 - Okta
 - OneLogin
 - It’s also possible to add your own authentication!
-- 
+
 I know many of you will understand the benefits of SSO and OIDC, but here’s a quick recap:
 No more password management
 Auto-provisioning for users

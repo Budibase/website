@@ -14,4 +14,4 @@ docs_url = "https://docs.budibase.com"
 status = "Live" 
 +++
 
-Connect Budibase to Slack, and recieve notifications when an event is triggered within your apps. Slack is an instant messaging and digital distribution platform designed for voice calls, text messaging and more.
+Connect Budibase to Slack, and receive notifications when an event is triggered within your apps. Slack is an instant messaging and digital distribution platform designed for voice calls, text messaging and more.

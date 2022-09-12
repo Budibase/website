@@ -5,7 +5,7 @@ type: customers
 layout: single
 date: "2021-10-23"
 images:
-- /img/meta-images/templates.png
+- /img/meta-images/customers-stories.png
 - budibase-logo.jpg
 customer: Covanta
 headcount: "4000"
