@@ -46,9 +46,7 @@ date: 2022-09-11T23:00:00+00:00
 
 **Community Support** means such online forum support resources for Authorised Users as BB may choose to provide on any forum notified to Customer from time to time;
 
-**Confidential Information** means in relation to either party, any or all information of a confidential nature (whether in oral, written or electronic form) including trade secrets and information (whether or not of commercial value) known and belonging to that party and concerning its business, Suppliers, customers, products or services (including without limitation, in BB’s case, the Software and the Documents, and theany confidential pricing offered by BB, and in Customer’s case Customer Data held in any private section of its Authorised User accounts) and any other information which the recipient knows or is notified or has reason to believe is confidential to the
-
-disclosing party;
+**Confidential Information** means in relation to either party, any or all information of a confidential nature (whether in oral, written or electronic form) including trade secrets and information (whether or not of commercial value) known and belonging to that party and concerning its business, Suppliers, customers, products or services (including without limitation, in BB’s case, the Software and the Documents, and theany confidential pricing offered by BB, and in Customer’s case Customer Data held in any private section of its Authorised User accounts) and any other information which the recipient knows or is notified or has reason to believe is confidential to the disclosing party;
 
 **Consultancy Charges** means the service charges for any Consultancy Services purchased via the platform.
 
