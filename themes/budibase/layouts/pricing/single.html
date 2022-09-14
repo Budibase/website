@@ -2,7 +2,7 @@
 <div class="container mx-auto">
   <div class="pricing-card-title space-2-top">
     <h1 class="mb-3 text-center">Simple, fair, scalable pricing</h1>
-    <p class="w-lg-45 mb-6 mx-auto text-center">Try for free. When you upgrade, only pay for day passes. If a user uses Budibase on Monday and Tuesday - that's 2 day passes. Never pay for users who aren’t using Budibase apps.
+    <p class="w-lg-45 mb-6 mx-auto text-center">Try for free. When you upgrade, only pay for day passes. If a user uses Budibase on Monday and Wednesday - that's 2 day passes. Never pay for users who aren’t using Budibase apps.
     </div>
 
   <div class="pricing-tabs-container flex-row gap-md mb-4">
@@ -15,6 +15,7 @@
   </div>
 
   <div class="pricing space-1-bottom">
+    <!--Free tier-->
     <div class="pricing-card border-grey bg-light2 rounded">
       <div class="pricing-card-top">
         <h2 class="mb-2 h3 text-dark plan-type">Free</h2>
@@ -23,13 +24,12 @@
         <h3 class="h2 mb-1 mr-2 ">$0</h3>
         <p class="text-xxs">Free forever</p>
         <p class="text-xxs mb-5">No credit card required</p>
-        <select name="team-packages" id="team-packages" class="mb-4 pricing-select">
+        <select name="free-packages" id="free-select" class="mb-4 pricing-select">
           <option  value="50">40 day passes /mo</option>
         </select>        
-        <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=open-source-pricing"
-          target="_blank"><button type="submit" class="btn btn-block btn-primary btn-lg mb-4">
+        <button onClick="goToAccountPortal('free');"  type="submit" class="btn btn-block btn-primary btn-lg mb-4">
             Create free account
-          </button></a>
+        </button>
       </div>
       <div class="pricing-card-bottom">
         <div class="pricing-features">
@@ -75,9 +75,6 @@
       </div>
     </div>
 
-
-
-
     <!--Pro tier-->
     <div class="pricing-card bg-light2 border-grey rounded-sm ">
       <div class="pricing-card-top">
@@ -86,20 +83,15 @@
           <div class="tag-blue ml-auto font-weight-semi-bold">Popular</div> </div>
         <p class="mb-3 text-xxs">More power and functionality for users and small teams.
         </p>
-        <h3 class="h2 mb-1 mr-2 plan-price">$30</h3>
+        <h3 class="h2 mb-1 mr-2 plan-price"></h3>
         <p class="text-xxs">per month, billed annually or</p>
-        <p class="text-xxs mb-5">$36 billed monthly</p>
-        <select name="team-packages" id="team-packages" class="mb-4 pricing-select ">
-          <option  value="50">50 day passes /mo</option>
-          <option value="75">75 day passes /mo</option>
-          <option value="100">100 day passes /mo</option>
+        <p class="text-xxs mb-5 plan-price-monthly" ></p>
+        <select name="pro-packages" id="pro-select" class="mb-4 pricing-select ">
         </select>  
-        <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=open-source-pricing"
-          target="_blank"><button type="submit" class="btn btn-block btn-cta btn-lg mb-4">
+        <button onClick="goToAccountPortal();" type="submit" class="btn btn-block btn-cta btn-lg mb-4">
             Try for free
-          </button></a>
+          </button>
       </div>
-
 
       <div class="pricing-card-bottom">
         <div class="pricing-features">
@@ -130,27 +122,20 @@
       </div>
     </div>
 
-
     <!--Team tier-->
     <div class="pricing-card bg-light2 border-grey rounded-sm ">
       <div class="pricing-card-top">
           <h2 class="mb-2 h3 text-dark plan-type">Team</h2>
         <p class="mb-3 text-xxs">For teams and small businesses who want to move faster.</p>
-        <h3 class="h2 mb-1 plan-price">$70</h3>
+        <h3 class="h2 mb-1 plan-price"></h3>
         <p class="text-xxs">per month, billed annually or</p>
-        <p class="text-xxs mb-5">$10 billed monthly</p>
-        <select name="team-packages" id="team-packages" class="mb-4 pricing-select ">
-          <option  value="100">100 day passes /mo</option>
-          <option value="200">200 day passes /mo</option>
-          <option value="300">300 day passes /mo</option>
-          <option value="400">400 day passes /mo</option>
-          <option value="500">500 day passes /mo</option>
-        </select>  
-        <button type="submit" class="btn btn-block btn-primary btn-lg mb-4">
+        <p class="text-xxs mb-5 plan-price-monthly"></p>
+        <select name="team-packages" id="team-select" class="mb-4 pricing-select ">
+        </select>
+        <button onClick="goToAccountPortal();" type="submit" class="btn btn-block btn-primary btn-lg mb-4">
           Try for free
         </button>
       </div>
-
 
       <div class="pricing-card-bottom">
         <div class="pricing-features">
@@ -195,18 +180,12 @@
       <div class="pricing-card-top">
           <h2 class="mb-2 h3 text-dark plan-type">Business</h2>
           <p class="mb-3 text-xxs">For businesses who need to securely scale development.</p>
-        <h3 class="h2 mb-1 plan-price">$400</h3>
+        <h3 class="h2 mb-1 plan-price"></h3>
         <p class="text-xxs">per month, billed annually or</p>
-        <p class="text-xxs mb-5">$10 billed monthly</p>
-        <select name="team-packages" id="team-packages" class="mb-4 pricing-select ">
-          <option value="500">500 day passes /mo</option>
-          <option value="1000">1K day passes /mo</option>
-          <option value="1500">1.5K day passes /mo</option>
-          <option value="2000">2K day passes /mo</option>
-          <option value="3000">3K day passes /mo</option>
-          <option value="5000">5K day passes /mo</option>
+        <p class="text-xxs mb-5 plan-price-monthly"></p>
+        <select name="business-packages" id="business-select" class="mb-4 pricing-select">
         </select>  
-        <button type="submit" class="btn btn-block btn-primary btn-lg mb-4">
+        <button onClick="goToAccountPortal();" type="submit" class="btn btn-block btn-primary btn-lg mb-4">
           Try for free
         </button>
       </div>
@@ -257,8 +236,8 @@
         <h3 class="h2 mb-1">Custom</h3>
         <p class="text-xxs">Starting at $20k per annum.</p>
         <p class="text-xxs mb-5">Multi-year contracts available.</p>
-        <select name="team-packages" id="team-packages" class="mb-4 pricing-select ">
-          <option  value="50" class="dropdown-item">Custom</option>
+        <select name="enterprise-packages" id="enterprise-select" class="mb-4 pricing-select ">
+          <option value="50" class="dropdown-item">Custom</option>
         </select>  
         <a href="https://budibase.com/contact/" target="_blank"><button type="submit"
             class="btn btn-block btn-primary btn-lg mb-4">
@@ -312,36 +291,9 @@
   </div>
 </div>
 
-
-
-
 {{ partial "pricing-faqs.html" . }}
 {{ partial "cta.html" . }}
 {{ partial "footer.html" . }}
 
-<script>
-  const price = document.querySelector(".plan-price")
-  const packagePickers = document.querySelectorAll(".pricing-select")
-
-  function getPrice(dayPasses, planType) {
-    // change these to update prices 
-    const MULTIPLIERS = {
-      Free: 0.7,
-      Pro: 0.6,
-      Team: 0.7,
-      Business: 0.8
-    }
-
-    return MULTIPLIERS[planType] * dayPasses
-  }
-
-  // set up event listeners for the pickers
-  for (let picker of packagePickers) {
-    picker.addEventListener("change", e => {
-      const parent = e.target.parentElement
-      const planType = parent.querySelector(".plan-type").textContent
-      parent.querySelector(".plan-price").innerHTML = `$${getPrice(e.target.value, planType)}`
-    })
-  }
-  
-</script>
+<!-- JS -->
+<script src="{{ "js/pricing.js" | absURL }}"></script>
