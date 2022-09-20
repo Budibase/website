@@ -51,8 +51,7 @@ The new pricing allows users to upgrade from free and open-source plans to new p
 
 [View pricing](https://budibase.com/pricing)
 
-###   
-🐞 Bug Fixes
+### 🐞 Bug Fixes
 
 * Formula from a relation causes API error when a relation is removed
 * And so many more; where do we start.... 🙈
