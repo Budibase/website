@@ -66,7 +66,7 @@ Obviously, you don’t want any of these situations to occur. Each of them leads
 
 But as we know, there are only so many hours in the day. Leveraging citizen developers is one way to square this circle.
 
-![](https://lh6.googleusercontent.com/6PV3kXvka7AV0y1MzXIv8_xtDGfIpci69KczfBUOGCZXXtbKqK-88B5XqhXonzdNAT2Rzy4TUUG0kYI-Z--2F50RcagY28iedFSHJO50gzXBoXlnkFHGiuMA1_YzxWQZrJmdp-zBlxPx0wSZhzlmeJbBypcn4SteVcs6VK5pMSmnWff0GpfixLI_WQ =624x351)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689223/cms/Citizen_Development_Stats_G2_yvk3as.png)
 
 _(_[_G2_](https://www.g2.com/articles/low-code-development-statistics)_)_
 
@@ -101,7 +101,7 @@ So, let’s say your after-sales team needed a new tool for managing escalations
 
 Therefore, they’ll also be better positioned to operationalize the kinds of processes, taxonomies, and follow-on actions that are required in any given situation.
 
-![](https://lh3.googleusercontent.com/p2tZibqwbT3R18JBnvYN72wXlHExeLDFpJ1KTbeIyR4hq7VMqYpdxxJ69kMjIMu6m3rsHubQGk7_Qgas4sMIMel2Ib7HvjGinEn6tMPK7O6eE72ssVQ3rTmFt0xIKli2fr5Cya_WmboHq5nQPOw6xtADWAdz7PXYVHbouBrorByq_gm6gFSKIBF5-w =624x351)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689257/cms/Citizen_Developers_Commercial_Awareness_Stats_Poszytek.eu_dxckys.png)
 
 _(_[_Poszytek.EU_](https://poszytek.eu/en/microsoft-en/now-is-the-time-for-citizen-developers/)_)_
 
@@ -134,7 +134,7 @@ The key thing for our purposes though is that empowering citizen developers help
 
 That is, the citizen developer approach recognizes that there’s huge value in empowering employees to solve problems for themselves. Instead of preventing innovation, the goal is to provide tools to enable this, without undermining your IT team’s other priorities.
 
-![](https://lh5.googleusercontent.com/S2wqyTOFCE-85xGHehQufDCUiSx66HAIpwtXUDF4Q89FxHc3CQHkDlOZEBNbHTfTDlCLH7y8YEoX1CVk1TLqc_2gMzFTDZ5m_Xf4l9u2nkR77PaDCgbql3yRohM2wedJevvyvO-Qrz5h1GrOkaVweAxxxwycXyCXSetj6ayL1wbaO1TETPQKM0pefA =624x351)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689295/cms/Shadow_IT_Stats_CISCO_ksjelm.png)
 
 _(_[_CISCO_](https://umbrella.cisco.com/blog/secure-shadow-it-to-protect-your-digital-transformation)_)_
 
@@ -235,12 +235,12 @@ The challenge here is empowering citizen developers without undermining your com
 Besides this, we have a few options, including:
 
 * **Delineating responsibilities** - For instance, allowing citizen developers to create basic designs and functionality, but leaving more advanced configuration to specialists.
-* **Templating key security features - For example, by using global settings and configuration across your custom tools, SSO, and other techniques.**
-* **Hosting & deployment-level measures - Deploying new tools locally and implementing security controls on your own infrastructure.**
+* **Templating key security features -** For example, by using global settings and configuration across your custom tools, SSO, and other techniques.
+* **Hosting & deployment-level measures -** Deploying new tools locally and implementing security controls on your own infrastructure.
 
 Naturally, if you want to opt for any of these strategies, you’ll need to choose an app-building platform that supports them. We’ll return to this shortly when we come to look at what Budibase offers for citizen developers.
 
-![](https://lh6.googleusercontent.com/P2P-KO-uvFuKUEWoyPfYYgwXGxCrSYsLRj0YZ--wrslZRJXCSRF_FuRZudVSINGkavdab0gaBwPEMczWG06-h08JAJCUECOdHKETvHALl3J3FbnOMXeaAAUoJxOwt5t4GUVetzO0owbtbjgoYP3arrpmiL_ODdzlctCO7xEP7FlZizVk7iX2ZTzHDw =624x351)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689362/cms/Citizen_Development_Security_Stats_G2_z9cp4x.png)
 
 _(_[_G2_](https://www.g2.com/articles/low-code-development-statistics)_)_
 
@@ -323,7 +323,7 @@ The first is basically a question of who your citizen developers will be and how
 
 Then, you’ll need to think about the kinds of solutions you want your citizen developers to work on. So, will they have free reign or will they be limited to a smaller subset of simple tools, like CRUD apps?
 
-![](https://lh3.googleusercontent.com/EtgB8pP8AbOajViXUkizkdm9jR6JLh_gJpSOOqqNdQDS0KJGfwn1SJocx9K_n6IhzfK9RkP_1Cly9gZy4S1ypaPuLapV-r0QNtdCG-Ort81gXeVsXJB6uDwpp3sci4rDxzB4nMTyEQAtXPmr1I6GySr_YlBIm8xj9NpesHxEXf6IqZXjEIBCl0h1Og =624x351)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689402/cms/Citizen_Developer_Tool_Use_Case_Stats_Gartner_vhvsjl.png)
 
 _(_[_Gartner_](https://www.gartner.com/en/documents/3970067)_)_
 
@@ -361,7 +361,7 @@ But, the landscape is very different today.
 
 Gone are the days of unwieldy, grey, inflexible app-builders. Instead, modern platforms offer incredible versatility, usability, and expediency. As we’ll see a little later, Budibase is leading the pack.
 
-![](https://lh3.googleusercontent.com/9hf279aPdBf9aHBbsztGhf8wBsNxcPNpk9fTdXEbJHxXiEzshOP5c1qrVpwVR4jnEjQ7kXlL5pykiCA-3QzYyItX2zkQzKX4oAkeXHrp9QN0RWdtclDLP8hBrryzjKZIi-KA6C6716hoVRHaXOdWsdcRFgALbxHsTQNf9CG7a4kZZoXRnOs2VRhUjw =624x351)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689443/cms/Citizen_Development_Department_Stats_ImpactMyBiz_llye29.png)
 
 _(_[_ImpacyMyBiz_](https://www.impactmybiz.com/blog/blog-citizen-developers-smbs-2020/)_)_
 
@@ -385,7 +385,7 @@ One thing to look out for is whether employees are already different kinds of au
 
 This helps us to figure out if we need to treat our employees as complete beginners or if they have a base-level understanding of key concepts already.
 
-![](https://lh6.googleusercontent.com/MSaxe4UmL1CbcHEwdtrzdAKLd6oDdpBPZBOOwlcG1vDbYTuQDr0z2Z2wlo78shkVvyU7oZEUfG4Yz7pgiRpuh1dM3b8MtGv0j247jBfjgvM3C9Q3F41LzOstVCNGRJ0sIyQo5aNOMxHQCD5cYf-PlcjjeGuR9WRBfw1Dkeflqu_SypUQUSRVlDmWcw =624x351)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689457/cms/Citizen_Development_Training_Stats_Maruti_Techlabs_iqfhrz.png)
 
 _(_[_Maruti TechLabs_](https://marutitech.com/citizen-developer-framework/)_)_
 
@@ -418,7 +418,7 @@ So what kind of additional resources might your citizen developers need?
 There are two big categories that we need to be aware of:
 
 1. **Technical resources** - Any additional platforms, hardware, infrastructure, or other resources needed to get your new tools rolled out.
-2. **Operational resources - Especially additional labor costs, including approvals, support, maintenance, and administrative time.**
+2. **Operational resources -** Especially additional labor costs, including approvals, support, maintenance, and administrative time.
 
 Hidden costs can ruin any transformation project. For example, there isn’t much point in trying to save your developers time and then creating processes that create a whole raft of admin work for them.
 
@@ -446,7 +446,7 @@ One is your choice of tools. Do these require specific training? Does the vendor
 
 You should also think about your team. Are they more suited to self-directed learning or do they need a specific syllabus? Will you put any measures in place to test their knowledge before they’re approved as citizen developers?
 
-![](https://lh3.googleusercontent.com/43e4aoxChRS9ebbRe6iE6tBkb4hUsVoVUfwMaWcgK_6Wcw70KYTPVq1hggfrUe_o7t6_mLh67dnsxQJcfAPsWsaz7RHWiTzxRbRH0yvuuIL-Fzvwdmmu8Hxsw4wv9va-h2iuIphmBT_85suCjwBed2g951ZRY3E5pNSoIUGEWMGcT0GWd-dmo1SGeQ =624x351)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689476/cms/Citizen_Development_Department_Stats_Regarding365_lxjuit.png)
 
 _(_[_Regarding365_](https://regarding365.com/time-for-citizen-developers-part-1-23de36e36587)_)_
 
@@ -613,9 +613,9 @@ This achieves two key things:
 
 You can approach this at a few different levels, depending on your specific requirements:
 
-1. **Data - Restricting certain queries or entire data sources.**
-2. **Screens/UIs - Granting permissions to view screens or versions of screens.**
-3. **Components - Hiding, displaying, or modifying individual components based on the current user’s role.**
+1. **Data -** Restricting certain queries or entire data sources.
+2. Screens/UIs - Granting permissions to view screens or versions of screens.
+3. **Components -** Hiding, displaying, or modifying individual components based on the current user’s role.
 
 Check out our ultimate guide to [role-based access control](https://budibase.com/blog/app-building/role-based-access-control/) for more information.
 
