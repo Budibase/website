@@ -26,7 +26,7 @@ We can break this down further into two more specific goals:
 1. Maximizing efficiency, ROI, and quality of output from citizen developers.
 2. Mitigating against threats, risks, or other security and compliance issues that you might encounter.
 
-![Citizen Development Governance Statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1663690145/cms/Citizen_Development_Stats_G2_ahxr1j.png "Citizen Development Governance Statistics")
+![Citizen Development Governance Statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1663690145/cms/Citizen_Development_Stats_G2_ahxr1j.webp "Citizen Development Governance Statistics")
 
 ([G2](https://www.g2.com/articles/low-code-development-statistics))
 
@@ -79,7 +79,7 @@ There’s no one-size-fits-all approach here. Indeed, you have a few different o
 
 The key thing is that your citizen development governance policies clearly outline who is accountable for each of these issues. You should about longer-term issues, such as what happens if the original developer leaves the organization.
 
-![Shadow IT Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1663689295/cms/Shadow_IT_Stats_CISCO_ksjelm.png "Shadow IT Stats")
+![Shadow IT Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1663689295/cms/Shadow_IT_Stats_CISCO_ksjelm.webp "Shadow IT Stats")
 
 ([CISCO](https://umbrella.cisco.com/blog/secure-shadow-it-to-protect-your-digital-transformation))
 
@@ -109,7 +109,7 @@ Again, you have a few different levers available to you here.
 
 The key is to determine the extent of oversight you need. You can then build this into your subsequent decisions. For example, by limiting your citizen developers to a single tool that gives your IT team total visibility over their creations.
 
-![Security](https://res.cloudinary.com/daog6scxm/image/upload/v1663689362/cms/Citizen_Development_Security_Stats_G2_z9cp4x.png "Security")
+![Security](https://res.cloudinary.com/daog6scxm/image/upload/v1663689362/cms/Citizen_Development_Security_Stats_G2_z9cp4x.webp "Security")
 
 ([G2](https://www.g2.com/articles/low-code-development-statistics))
 
@@ -252,7 +252,7 @@ At this stage, we can also think about who is responsible for different lifecycl
 
 Check out our guide to working with citizen developers to find out more about establishing clear responsibilities and roles within your program.
 
-![Citizen Development Governance Training](https://res.cloudinary.com/daog6scxm/image/upload/v1663690230/cms/Citizen_Development_Training_Stats_Maruti_Techlabs_ehevxo.png "Citizen Development Governance Training")
+![Citizen Development Governance Training](https://res.cloudinary.com/daog6scxm/image/upload/v1663690230/cms/Citizen_Development_Training_Stats_Maruti_Techlabs_ehevxo.webp "Citizen Development Governance Training")
 
 ([Maruti TechLabs](https://marutitech.com/citizen-developer-framework/))
 
@@ -293,7 +293,7 @@ It’s also important to think about any tools you’ll bring online to codify t
 
 As such, you’ll more than likely need to implement [approval apps](https://budibase.com/approval-apps) to manage this.
 
-![Approval Apps](https://res.cloudinary.com/daog6scxm/image/upload/v1663691256/cms/Approval_App_cormnt.png "Approval Apps")
+![Approval Apps](https://res.cloudinary.com/daog6scxm/image/upload/v1663691256/cms/Approval_App_cormnt.webp "Approval Apps")
 
 ### 5. Monitoring, auditing, and oversight processes
 
@@ -323,7 +323,7 @@ Similarly, the greater the homogeneity across your new tools, the lower the supp
 
 ![](https://lh3.googleusercontent.com/y8h-mNqXqotV2Iy6NKn2Z_sPJC3tlInPPdw9LdNYabrrnEqTQMcN_d73pxaEyy788CoQGrz4wsjN_XkZ2Ek6TKTzY9YGbPnFppMkSwBgH2wxFgLy5oaLIqo_sL0ubDEkFicviv3w9Za1iuei3JiYGwCqi5zSEg9MHkksQ9DpUX9z4vDgnuukFKsu5g =624x351)
 
-_(_[_ADT Mag_](https://adtmag.com/articles/2017/02/07/\~/media/ECG/adtmag/Images/2017/02/appian_survey.png)_)_
+([_ADT Mag_](https://adtmag.com/articles/2017/02/07/\~/media/ECG/adtmag/Images/2017/02/appian_survey.webp))
 
 ## Citizen development governance and Budibase
 
