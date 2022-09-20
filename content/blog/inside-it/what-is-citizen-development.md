@@ -60,7 +60,7 @@ A lot of times, the most important one is money. Internal developments are expen
 
 Citizen development can be a great way to get the same results for less.
 
-![Enterprise Statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1663690145/cms/Citizen_Development_Stats_G2_ahxr1j.png "Citizen Development")
+![Enterprise Statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1663690145/cms/Citizen_Development_Stats_G2_ahxr1j.webp "Citizen Development")
 
 ([G2](https://www.g2.com/articles/low-code-development-statistics))
 
@@ -96,7 +96,7 @@ For example, many non-developers will have at least a basic grasp of common lang
 
 The key thing is that this indicates an understanding of the basic principles that underline app development.
 
-![Citizen Development Coding Skills](https://res.cloudinary.com/daog6scxm/image/upload/v1663690158/cms/Citizen_Development_Department_Stats_ImpactMyBiz_kqidod.png "Citizen Development Skills")
+![Citizen Development Coding Skills](https://res.cloudinary.com/daog6scxm/image/upload/v1663690158/cms/Citizen_Development_Department_Stats_ImpactMyBiz_kqidod.webp "Citizen Development Skills")
 
 ([ImpactMyBiz](https://www.impactmybiz.com/blog/blog-citizen-developers-smbs-2020/))
 
@@ -116,7 +116,7 @@ Eagle-eyed readers will spot something interesting here. That is, this puts cert
 
 However, none of this is to say that only certain job roles square with citizen development. Rather, finding strong candidates is just going to be easier in some teams than in others. Still, there are plenty of other criteria to look out for.
 
-![Citizen Development Skills](https://res.cloudinary.com/daog6scxm/image/upload/v1663690168/cms/Citizen_Development_Department_Stats_Regarding365_z2t1zq.png "Citizen Development Coding SKills")
+![Citizen Development Skills](https://res.cloudinary.com/daog6scxm/image/upload/v1663690168/cms/Citizen_Development_Department_Stats_Regarding365_z2t1zq.webp "Citizen Development Coding SKills")
 
 ([Regarding365](https://regarding365.com/time-for-citizen-developers-part-1-23de36e36587))
 
@@ -315,7 +315,7 @@ Alternatively, you might opt for a more top-down approach.
 
 For example, allowing users to progress through defined training classes in order to meet wider organizational goals.
 
-![Citizen Development Training Statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1663690230/cms/Citizen_Development_Training_Stats_Maruti_Techlabs_ehevxo.png "Citizen Development Training Statistics")
+![Citizen Development Training Statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1663690230/cms/Citizen_Development_Training_Stats_Maruti_Techlabs_ehevxo.webp "Citizen Development Training Statistics")
 
 ([Maruti TechLabs](https://marutitech.com/citizen-developer-framework/))
 
@@ -341,9 +341,9 @@ So why not give a shoutout to the employees who are responsible?
 
 Of course, this also has concrete benefits for your bottom line, including helping to maintain motivation, increasing interest in citizen development, and even improving the adoption rates of the tools in question.
 
-![Citizen Development Statisitics Promotions](https://res.cloudinary.com/daog6scxm/image/upload/v1663690241/cms/Citizen_Development_Recognition_Stats_Business_Wire_b1ebnu.png "Citizen Development")
+![Citizen Development Statisitics Promotions](https://res.cloudinary.com/daog6scxm/image/upload/v1663690241/cms/Citizen_Development_Recognition_Stats_Business_Wire_b1ebnu.webp "Citizen Development")
 
-_(_[_Business Wire_](https://www.businesswire.com/news/home/20140417005275/en/Citizen-Developers-Reshaping-Business-Software-TrackVia-Report-Shows)_)_
+([Business Wire](https://www.businesswire.com/news/home/20140417005275/en/Citizen-Developers-Reshaping-Business-Software-TrackVia-Report-Shows))
 
 ## Get started with Budibase today
 
