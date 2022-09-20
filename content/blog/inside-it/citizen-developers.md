@@ -66,9 +66,9 @@ Obviously, you don’t want any of these situations to occur. Each of them leads
 
 But as we know, there are only so many hours in the day. Leveraging citizen developers is one way to square this circle.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689223/cms/Citizen_Development_Stats_G2_yvk3as.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689223/cms/Citizen_Development_Stats_G2_yvk3as.webp)
 
-_(_[_G2_](https://www.g2.com/articles/low-code-development-statistics)_)_
+([G2](https://www.g2.com/articles/low-code-development-statistics))
 
 ## Why do businesses need citizen developers?
 
@@ -101,9 +101,9 @@ So, let’s say your after-sales team needed a new tool for managing escalations
 
 Therefore, they’ll also be better positioned to operationalize the kinds of processes, taxonomies, and follow-on actions that are required in any given situation.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689257/cms/Citizen_Developers_Commercial_Awareness_Stats_Poszytek.eu_dxckys.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689257/cms/Citizen_Developers_Commercial_Awareness_Stats_Poszytek.eu_dxckys.webp)
 
-_(_[_Poszytek.EU_](https://poszytek.eu/en/microsoft-en/now-is-the-time-for-citizen-developers/)_)_
+([Poszytek.EU](https://poszytek.eu/en/microsoft-en/now-is-the-time-for-citizen-developers/))
 
 ### Fostering innovation
 
@@ -134,9 +134,9 @@ The key thing for our purposes though is that empowering citizen developers help
 
 That is, the citizen developer approach recognizes that there’s huge value in empowering employees to solve problems for themselves. Instead of preventing innovation, the goal is to provide tools to enable this, without undermining your IT team’s other priorities.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689295/cms/Shadow_IT_Stats_CISCO_ksjelm.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689295/cms/Shadow_IT_Stats_CISCO_ksjelm.webp)
 
-_(_[_CISCO_](https://umbrella.cisco.com/blog/secure-shadow-it-to-protect-your-digital-transformation)_)_
+([CISCO](https://umbrella.cisco.com/blog/secure-shadow-it-to-protect-your-digital-transformation))
 
 ### Eliminating silos
 
@@ -240,9 +240,9 @@ Besides this, we have a few options, including:
 
 Naturally, if you want to opt for any of these strategies, you’ll need to choose an app-building platform that supports them. We’ll return to this shortly when we come to look at what Budibase offers for citizen developers.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689362/cms/Citizen_Development_Security_Stats_G2_z9cp4x.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689362/cms/Citizen_Development_Security_Stats_G2_z9cp4x.webp)
 
-_(_[_G2_](https://www.g2.com/articles/low-code-development-statistics)_)_
+([G2](https://www.g2.com/articles/low-code-development-statistics))
 
 #### Support and maintenance
 
@@ -323,9 +323,9 @@ The first is basically a question of who your citizen developers will be and how
 
 Then, you’ll need to think about the kinds of solutions you want your citizen developers to work on. So, will they have free reign or will they be limited to a smaller subset of simple tools, like CRUD apps?
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689402/cms/Citizen_Developer_Tool_Use_Case_Stats_Gartner_vhvsjl.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689402/cms/Citizen_Developer_Tool_Use_Case_Stats_Gartner_vhvsjl.webp)
 
-_(_[_Gartner_](https://www.gartner.com/en/documents/3970067)_)_
+([Gartner](https://www.gartner.com/en/documents/3970067))
 
 Finally, how widely do you expect your developers’ output to be rolled out? Will they be exclusively for their own use, for their immediate colleagues, or for a wider user base, like customers and clients?
 
@@ -361,9 +361,9 @@ But, the landscape is very different today.
 
 Gone are the days of unwieldy, grey, inflexible app-builders. Instead, modern platforms offer incredible versatility, usability, and expediency. As we’ll see a little later, Budibase is leading the pack.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689443/cms/Citizen_Development_Department_Stats_ImpactMyBiz_llye29.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689443/cms/Citizen_Development_Department_Stats_ImpactMyBiz_llye29.webp)
 
-_(_[_ImpacyMyBiz_](https://www.impactmybiz.com/blog/blog-citizen-developers-smbs-2020/)_)_
+([ImpacyMyBiz](https://www.impactmybiz.com/blog/blog-citizen-developers-smbs-2020/))
 
 ### 5. Identify your training needs
 
@@ -385,9 +385,9 @@ One thing to look out for is whether employees are already different kinds of au
 
 This helps us to figure out if we need to treat our employees as complete beginners or if they have a base-level understanding of key concepts already.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689457/cms/Citizen_Development_Training_Stats_Maruti_Techlabs_iqfhrz.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689457/cms/Citizen_Development_Training_Stats_Maruti_Techlabs_iqfhrz.webp)
 
-_(_[_Maruti TechLabs_](https://marutitech.com/citizen-developer-framework/)_)_
+([Maruti TechLabs](https://marutitech.com/citizen-developer-framework/))
 
 ### 6. Design review, vetting & approval processes
 
@@ -446,9 +446,9 @@ One is your choice of tools. Do these require specific training? Does the vendor
 
 You should also think about your team. Are they more suited to self-directed learning or do they need a specific syllabus? Will you put any measures in place to test their knowledge before they’re approved as citizen developers?
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689476/cms/Citizen_Development_Department_Stats_Regarding365_lxjuit.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1663689476/cms/Citizen_Development_Department_Stats_Regarding365_lxjuit.webp)
 
-_(_[_Regarding365_](https://regarding365.com/time-for-citizen-developers-part-1-23de36e36587)_)_
+([Regarding365](https://regarding365.com/time-for-citizen-developers-part-1-23de36e36587))
 
 ### 9. Monitoring, auditing, and continuous improvement
 
