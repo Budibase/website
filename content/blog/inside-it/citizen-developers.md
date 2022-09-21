@@ -74,6 +74,8 @@ But as we know, there are only so many hours in the day. Leveraging citizen deve
 
 So what can you actually achieve with citizen developers? Or, more concretely, why is this an increasingly popular option for supporting busy IT teams?
 
+Check out our standalone guide to [citizen development.](/blog/inside-it/what-is-citizen-development/)
+
 Let’s take a look at some of the core reasons that a growing number of businesses are turning to citizen developers to fill their IT needs.
 
 ### Quick turnarounds
@@ -137,6 +139,8 @@ That is, the citizen developer approach recognizes that there’s huge value in 
 ![Shadow IT Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1663689295/cms/Shadow_IT_Stats_CISCO_ksjelm.webp "Shadow IT Stats")
 
 ([CISCO](https://umbrella.cisco.com/blog/secure-shadow-it-to-protect-your-digital-transformation))
+
+Check out our in-depth guide to [citizen development governance](/blog/inside-it/citizen-development-governance/).
 
 ### Eliminating silos
 
@@ -364,6 +368,8 @@ Gone are the days of unwieldy, grey, inflexible app-builders. Instead, modern pl
 ![Citizen Developers Coding Skills](https://res.cloudinary.com/daog6scxm/image/upload/v1663689443/cms/Citizen_Development_Department_Stats_ImpactMyBiz_llye29.webp "Citizen Developers Coding Skills")
 
 ([ImpacyMyBiz](https://www.impactmybiz.com/blog/blog-citizen-developers-smbs-2020/))
+
+Check out our guide to choosing [citizen developer tools](/blog/inside-it/citizen-developer-tools/).
 
 ### 5. Identify your training needs
 
