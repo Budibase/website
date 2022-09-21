@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = ""
+date = 2022-09-20T23:00:00Z
 description = "Citizen development is a kind of a buzz phrase nowadays. But does it offer a serious prospect for improving your IT operations?"
 draft = true
 image = ""
