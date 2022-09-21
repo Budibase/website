@@ -215,7 +215,7 @@ You might also focus on reusability, providing screen templates, component block
 
 Now that we have a stronger picture of the key decision points when choosing citizen developer software, we can think about the specific steps you need to follow to build an effective software stack.
 
-For our purposes today, we’re only focused on choosing software. For a fuller discussion of relevant operational issues, check out our in-depth guide to working with **citizen developers**.
+For our purposes today, we’re only focused on choosing software. For a fuller discussion of relevant operational issues, check out our in-depth guide to working with [citizen developers](/blog/inside-it/citizen-developers/).
 
 Here we go!
 
@@ -262,7 +262,7 @@ To ensure that we’re achieving this goal, we must define clear associated work
 
 This necessitates additional internal tools.
 
-Take a look at our guide to **citizen development governance** to find out more.
+Take a look at our guide to [citizen development governance](/blog/inside-it/citizen-development-governance/) to find out more.
 
 So, there’s the obvious question of where these will come from. Since these workflows are unique to your organization, the best option is to build bespoke tools to manage them.
 
