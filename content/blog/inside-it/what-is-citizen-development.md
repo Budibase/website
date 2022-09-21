@@ -86,6 +86,8 @@ The obvious question is what kinds of employees are best suited here?
 
 Here are the key skills and qualities you should prioritize when resourcing citizen development.
 
+For a more detailed guide, check out our article on empowering [citizen developers](/blog/inside-it/citizen-developers/).
+
 ### Existing digital skills
 
 Obviously, one of the first things you’ll want to look at is existing digital skills. We can fairly safely assume that most employees nowadays know how to use a computer, so what specific digital skills are we looking for here?
@@ -190,6 +192,8 @@ This leads us neatly to our next topic.
 At a more practical level, citizen development can mean a bunch of different things. The key distinction is the kinds of tools that your team use.
 
 There are a few broad categories of options here. Each brings its own pros and cons.
+
+We've also written an in-depth guide to[ citizen developer tools](/blog/inside-it/citizen-developer-tools/).
 
 So, let’s check out what your options are.
 
@@ -328,6 +332,8 @@ How this looks in practice depends greatly on your organization and your specifi
 For example, some companies give their team a lot of autonomy to build and deploy pretty much whatever kind of tools they need.
 
 Others have much more sophisticated approval, vetting, and monitoring processes.
+
+Check out our guide to [citizen development governance](/blog/inside-it/citizen-development-governance/).
 
 To see how Budibase can fit into these efforts, check out our [approval apps](https://budibase.com/approval-apps) page.
 
