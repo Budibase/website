@@ -32,6 +32,8 @@ We can break this down further into two more specific goals:
 
 Like any kind of governance, you can turn to a variety of tools, techniques, and strategies for managing your developers.
 
+For background, check out our in-depth guide to [citizen development](/blog/inside-it/what-is-citizen-development/).
+
 We’ll dive into some of these in more detail a little bit later, but for now, we can break them into the following categories of governance:
 
 * **Policy-level governance -** The rules, principles, and goals that underpin your citizen development program.
@@ -198,6 +200,8 @@ Your IT team are the ones who decide exactly what can be safely and effectively 
 
 Other teams and individual colleagues are then responsible for their adherence to these policies. We can also hold them responsible for the quality and efficiency of their own output, except to the extent that this is determined by the tools or training they’ve been provided.
 
+Take a look at our guide to empowering [citizen developers](/blog/inside-it/citizen-developers/).
+
 ### What happens when something goes wrong?
 
 This leads us back to accountability. Say you had a data breach relating to one of your citizen development projects. Our first task would be figuring out if the issue was a gap in our policies or a failure to comply with them in the first place.
@@ -278,6 +282,8 @@ Of course, this is a lot easier in theory than it is in practice. For instance, 
 Your approved technologies should also include the wider suite of tools you’ll use to support your citizen development efforts. This includes anything you use to manage workflows, visual assets, hosting, usage monitoring, and other related activities.
 
 An effective citizen development governance framework provides clear guidance to users about exactly what tools should be used for different purposes - and why.
+
+Take a look at our guide to choosing [citizen developer tools](/blog/inside-it/citizen-developer-tools/).
 
 ### 4. Vetting, approvals, and sign-off processes
 
