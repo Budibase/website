@@ -342,6 +342,19 @@ table td{
   color: var(--teal3);
 }
 
+.text-green {
+  color: var(--green4);
+}
+
+
+.text-purple {
+  color: var(--purple4);
+}
+
+.text-orange {
+  color: var(--orange4);
+}
+
 
 
 .text-indigo-light {
