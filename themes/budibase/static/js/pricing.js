@@ -258,7 +258,7 @@ const goToAccountPortal = (planType) => {
     } else {
       query = "?"
     }
-    query = query + "utm_source=website&utm_medium=cta&utm_campaign=open-source-pricing"
+    query = query + "utm_source=website&utm_medium=cta&utm_campaign=pricing"
     window.open(`https://account.budibase.app/${path}${query}`, '_blank')
   }
 }
