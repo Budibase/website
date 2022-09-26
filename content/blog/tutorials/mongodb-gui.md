@@ -37,31 +37,31 @@ A MongoDB GUI allows you to interact with your MongoDB databases, collections, a
 
 Here is what your free MongoDB GUI app will look like if you follow this tutorial:
 
-![MongoDB GUI Homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1664190108/cms/01_n8qafl.png "MongoDB GUI Homescreen")
+![MongoDB GUI Homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1664190108/cms/01_n8qafl.webp "MongoDB GUI Homescreen")
 
 This is the first screen you see when you load your app. In it, you’ll see your data and you can search using the dynamic filters. You can click on “edit” to modify a document, and you can click on “add new” to create new documents.
 
-![MongoDB GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664190090/cms/02_e4umgx.png "MongoDB GUI")
+![MongoDB GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664190090/cms/02_e4umgx.webp "MongoDB GUI")
 
 Here you can edit documents or create new ones. This screen has the same schema as the previous one, which is a faster and simpler approach to add just the data you need.
 
-![MongoDB GUI homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1664190064/cms/03_fteljg.png "MongoDB GUI homescreen")
+![MongoDB GUI homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1664190064/cms/03_fteljg.webp "MongoDB GUI homescreen")
 
 This screen has the same objective as the first one - viewing your data.
 
 But there’s a difference, in this screen you aren’t bound to a specific schema. This means that you can see all data for each of your documents, even if they have different fields. If you click on “edit” you’ll see the simpler edit screen, but the “add new entry” button brings a different page.
 
-![Card UI](https://res.cloudinary.com/daog6scxm/image/upload/v1664190046/cms/04_qh2b9j.png "Card UI")
+![Card UI](https://res.cloudinary.com/daog6scxm/image/upload/v1664190046/cms/04_qh2b9j.webp "Card UI")
 
 This is the form to add a new item. It might seem quite similar to the previous one, but notice how the customer data doesn’t have a field. That’s because this is a screen in itself.
 
 Here it is:
 
-![Form](https://res.cloudinary.com/daog6scxm/image/upload/v1664190029/cms/05_s8jy6y.png "Form")
+![Form](https://res.cloudinary.com/daog6scxm/image/upload/v1664190029/cms/05_s8jy6y.webp "Form")
 
 This is a modal screen where you can add customer details. Once you fill in this form and save the modal closes and the customer data is loaded to the new card form:
 
-![Bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1664190006/cms/06_ju5nzc.png "Bindings")
+![Bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1664190006/cms/06_ju5nzc.webp "Bindings")
 
 With this method, you can take full advantage of nested elements in your documents. Instead of a simple structure, you can add objects to them.
 
@@ -92,7 +92,7 @@ This query reads your sales data. But this query returns specific, priority fiel
 
 You can use this setup:
 
-![Connect to MongoDB](https://res.cloudinary.com/daog6scxm/image/upload/v1664189978/cms/07_pua65c.png "Connect to MongoDB")
+![Connect to MongoDB](https://res.cloudinary.com/daog6scxm/image/upload/v1664189978/cms/07_pua65c.webp "Connect to MongoDB")
 
 And in the transformers, use this JS code:
 
@@ -100,7 +100,7 @@ return data.map( ({ _id, saleDate, storeLocation, customer }) => ({ "ID": _id, "
 
 If you run it, you’ll see something like this in the preview:
 
-![MongoDB Get Query](https://res.cloudinary.com/daog6scxm/image/upload/v1664189954/cms/08_omhwiu.png "MongoDB Get Query")
+![MongoDB Get Query](https://res.cloudinary.com/daog6scxm/image/upload/v1664189954/cms/08_omhwiu.webp "MongoDB Get Query")
 
 ### Get_sales_unfiltered
 
@@ -112,7 +112,7 @@ This query creates new documents in your MongoDB database. It is also limited to
 
 This is the general setup:
 
-![Configuration](https://res.cloudinary.com/daog6scxm/image/upload/v1664189933/cms/09_v3npob.png "Configuration")
+![Configuration](https://res.cloudinary.com/daog6scxm/image/upload/v1664189933/cms/09_v3npob.webp "Configuration")
 
 Make sure to use the fields option correctly. This is what the MongoDB GUI uses to insert data coming from your form fields.
 
@@ -134,7 +134,7 @@ The _update_sale_ query works the same way as the _insert_sale_ query. The diffe
 
 Here is the base setup for it:
 
-![Update sale query](https://res.cloudinary.com/daog6scxm/image/upload/v1664189890/cms/10_lxqu3u.png "Update sale query")
+![Update sale query](https://res.cloudinary.com/daog6scxm/image/upload/v1664189890/cms/10_lxqu3u.webp "Update sale query")
 
 And these are the fields:
 
@@ -151,7 +151,7 @@ And these are the fields:
 
 ### Delete_sale
 
-The _delete_sale_ query searches for an element and then deletes it. Make sure to use the _delete_one_ action for it. Here is the setup:![Custom MongoDB Query](https://res.cloudinary.com/daog6scxm/image/upload/v1664189826/cms/11_c7iisc.png "Custom MongoDB Query")
+The _delete_sale_ query searches for an element and then deletes it. Make sure to use the _delete_one_ action for it. Here is the setup:![Custom MongoDB Query](https://res.cloudinary.com/daog6scxm/image/upload/v1664189826/cms/11_c7iisc.webp "Custom MongoDB Query")
 
 That’s all you need in terms of queries. Now, let’s turn to our [app UI design](https://budibase.com/blog/app-building/app-ui-design/).
 
@@ -161,7 +161,7 @@ Head over to the “_design_” tab. Before adding screens, you can use the “_
 
 Next, click on “_screens_” and “_add screen_”:
 
-![MongoDB GUI add screen](https://res.cloudinary.com/daog6scxm/image/upload/v1664189799/cms/12_o0uof8.png "MongoDB GUI add screen")
+![MongoDB GUI add screen](https://res.cloudinary.com/daog6scxm/image/upload/v1664189799/cms/12_o0uof8.webp "MongoDB GUI add screen")
 
 Let’s create a blank screen for now.
 
@@ -177,7 +177,7 @@ Click on “_Components_” (second icon on the left side) > “_Add Componen_t�
 
 Then add a name and label to it, such as “Add new”. Then use the “Onclick actions” to add an action to navigate to the _/home/0_ path.
 
-![On-click](https://res.cloudinary.com/daog6scxm/image/upload/v1664189763/cms/13_xskido.png "On-click action")
+![On-click](https://res.cloudinary.com/daog6scxm/image/upload/v1664189763/cms/13_xskido.webp "On-click action")
 
 This might seem strange, but we are using the path as a variable on the edit screen. It means that anything after /home/ is read as a variable.
 
@@ -193,11 +193,11 @@ It’s time to add a table component and again you’ll see that there are no ch
 
 You can add a button inside of the table component so that your components tree looks like this:
 
-![Add button](https://res.cloudinary.com/daog6scxm/image/upload/v1664189742/cms/14_otylyu.png "Add button")
+![Add button](https://res.cloudinary.com/daog6scxm/image/upload/v1664189742/cms/14_otylyu.webp "Add button")
 
 This button is quite similar to the “add new” button. But it should edit elements. Thus we need to pass the current row’s ID to the path. Set up its on-click actions like this:
 
-![On-click action](https://res.cloudinary.com/daog6scxm/image/upload/v1664189721/cms/15_b3ft6a.png "Add button")
+![On-click action](https://res.cloudinary.com/daog6scxm/image/upload/v1664189721/cms/15_b3ft6a.webp "Add button")
 
 The _{{ Sales.get_sales.ID }}_ binding is what loads the ID value for the current item in the Sales table, which loads the _get_sales_ query.
 
@@ -220,17 +220,17 @@ You can do these visual switches with display conditions. So in your “new sale
 
 The elements tree for that page looks like this:
 
-![Component tree](https://res.cloudinary.com/daog6scxm/image/upload/v1664189635/cms/16_gdjwhx.png "Component tree")
+![Component tree](https://res.cloudinary.com/daog6scxm/image/upload/v1664189635/cms/16_gdjwhx.webp "Component tree")
 
 The “_New Sale Form_” is a simple form with text fields in it. You can add the fields for the customer, location, and a date picker.
 
 Make sure to use the label and name options for these fields, like this:
 
-![Bind fields](https://res.cloudinary.com/daog6scxm/image/upload/v1664189608/cms/17_xyjw5g.png "Bind fields")
+![Bind fields](https://res.cloudinary.com/daog6scxm/image/upload/v1664189608/cms/17_xyjw5g.webp "Bind fields")
 
 Then, add a button component. In it, you can add an action to execute the _insert_sale_ query. This query gets the form fields and passes them to the query bindings, like this:
 
-![MongoDB GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664189585/cms/18_bnbzwv.png "MongoDB GUI")
+![MongoDB GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664189585/cms/18_bnbzwv.webp "MongoDB GUI")
 
 Another action you can add is to navigate to the home screen after the query succeeds.
 
@@ -238,7 +238,7 @@ The update form needs some default data for the current items. You can do this b
 
 Here is an example:
 
-![Filter data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1664189395/cms/19_zwd4bi.png "Filter data provider")
+![Filter data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1664189395/cms/19_zwd4bi.webp "Filter data provider")
 
 Then you add a repeater and the form inside of it. With this repeater the query fields are easily available. For example, in the headline component for that section you can use this text:
 
@@ -246,11 +246,11 @@ _Edit Sale {{ Repeater.get_sales.ID }}._
 
 And you can repeat this process for all fields, using the bindings as the default values, like this:
 
-![Bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1664189377/cms/20_pcwjmv.png "Bindings")
+![Bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1664189377/cms/20_pcwjmv.webp "Bindings")
 
 The update button is quite similar to the “add new” button. The difference is that you need to pass the _item ID_ in addition to the form fields:
 
-![Form fields](https://res.cloudinary.com/daog6scxm/image/upload/v1664189040/cms/21_no6cpw.png "Form fields")
+![Form fields](https://res.cloudinary.com/daog6scxm/image/upload/v1664189040/cms/21_no6cpw.webp "Form fields")
 
 And now your basic actions are ready. Let’s think about how to add a bit of spice to your MongoDB GUI.
 
@@ -264,7 +264,7 @@ But you can achieve the same results with a data provider and a repeater. So ins
 
 Create a new screen with the _/cards_ route. Its structure is just like the homepage, but instead of just using a table we use a repeater and some other components. This is the elements tree:
 
-![Add components](https://res.cloudinary.com/daog6scxm/image/upload/v1664189021/cms/22_gbvi1b.png "Add components")
+![Add components](https://res.cloudinary.com/daog6scxm/image/upload/v1664189021/cms/22_gbvi1b.webp "Add components")
 
 The add new button is the same as the previous one. But this time, set the onclick action to _/cards/new_.
 
@@ -274,7 +274,7 @@ The dynamic filter component works the same way, and it’s powerful as ever.
 
 Then you’ll use a repeater instead of the table. You can add multiple items per line by changing the direction of the repeater. Also, you can make all items to have the same height by changing the vertical alignment, like this:
 
-![MongoDB GUI design](https://res.cloudinary.com/daog6scxm/image/upload/v1664188991/cms/23_yfxvop.png "MongoDB GUI design")
+![MongoDB GUI design](https://res.cloudinary.com/daog6scxm/image/upload/v1664188991/cms/23_yfxvop.webp "MongoDB GUI design")
 
 Then the internal components can use the repeater data as bindings. For example, the sale headline is this:
 
@@ -288,7 +288,7 @@ The edit button loads the previously created edit screen for a simpler approach.
 
 Now you can output the entire sales data by using a JS function instead of a binding. Like this:
 
-![FIlter Bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1664188957/cms/24_uqueoo.png "Filter bindings")
+![FIlter Bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1664188957/cms/24_uqueoo.webp "Filter bindings")
 
 This is the JS code:
 
@@ -310,15 +310,15 @@ For this tutorial, we’re just creating new items, but you can use a similar ap
 
 Let’s start with the customer data screen. Create a new screen with the customer-data route. In it, you’ll use this components tree:
 
-![MongoDB GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664188915/cms/25_fopzzy.png "MongoDB GUI")
+![MongoDB GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664188915/cms/25_fopzzy.webp "MongoDB GUI")
 
 It’s quite similar to the previous form pages. It has some options pickers and you can use custom options in them, like this:
 
-![MongoDB GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664188752/cms/26_pyb90f.png "MongoDB GUI")
+![MongoDB GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664188752/cms/26_pyb90f.webp "MongoDB GUI")
 
 The real magic of this form is in the “_save_” button. These are the onclick action that you’ll use:
 
-![Button actions](https://res.cloudinary.com/daog6scxm/image/upload/v1664188733/cms/27_woriav.png "Button actions")
+![Button actions](https://res.cloudinary.com/daog6scxm/image/upload/v1664188733/cms/27_woriav.webp "Button actions")
 
 So, once you click this button the entire customer data is saved in an app state. These are variables in your app that you can use to store data and use it between different screens.
 
@@ -328,17 +328,17 @@ Then, there’s a close-screen modal action. This allows you to just close this 
 
 Now create a new screen with the _/cards/new_ route. This is the components tree for that screen:
 
-![Component tree](https://res.cloudinary.com/daog6scxm/image/upload/v1664188711/cms/28_medrjz.png "Componenet tree")
+![Component tree](https://res.cloudinary.com/daog6scxm/image/upload/v1664188711/cms/28_medrjz.webp "Componenet tree")
 
 The logic here is quite similar to the previous forms. So the fields should be almost the same.
 
 The main difference is that the customer data is created in that other screen. Thus, your button is going to load that screen in a modal:
 
-![On-click action](https://res.cloudinary.com/daog6scxm/image/upload/v1664188691/cms/29_qisdyi.png "On-click action")
+![On-click action](https://res.cloudinary.com/daog6scxm/image/upload/v1664188691/cms/29_qisdyi.webp "On-click action")
 
 And that’s all you need. Now use this onclick action for the “_add card_” button:
 
-![MongoDB GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664188644/cms/30_uo6tqu.png "MongoDB GUI")
+![MongoDB GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664188644/cms/30_uo6tqu.webp "MongoDB GUI")
 
 Notice how the customer data is sent as JSON data. This should be enough to correctly save all your customer data in your MongoDB GUI.
 
