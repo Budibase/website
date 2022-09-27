@@ -2,7 +2,7 @@
 date = "2020-03-12"
 title = "Rest API integration with Budibase | Use Rest API as your data source"
 page_title = "Rest API"
-categories = ["data"] 
+categories = ["api"] 
 description = "Use Rest API as your data source for your Budibase applications. "
 draft= "false"
 published_by = "Budibase"

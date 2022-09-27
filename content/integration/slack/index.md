@@ -2,8 +2,8 @@
 date = "2021-09-22"
 title = "Slack integration with Budibase | Connect your apps to Slack"
 page_title = "Slack"
-categories = ["automate"] 
-description = "Budibase integrates with Slack so users of your apps can receive Slack notifications."
+categories = ["api"] 
+description = "Budibase integrates with Slack so users of your apps can recieve Slack notifications."
 images = ["img/ui/automate-sm.jpg"]
 logo = "integrations/slack-icon.svg"
 draft= "false"

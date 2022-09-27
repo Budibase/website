@@ -2,7 +2,7 @@
 date = "2020-11-12"
 title = "Budibase Webhooks | Use webhooks to enrich your Budibase applications"
 page_title = "Webhooks"
-categories = ["automate"] 
+categories = ["api"] 
 description = "Webhooks allow you to connect to other applications "
 draft= "false"
 published_by = "Budibase"

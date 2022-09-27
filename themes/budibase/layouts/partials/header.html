@@ -17,22 +17,22 @@
   {{ partial "meta.html" . }}
   {{ with .Site.Params.Author }}<meta name="author" content="{{ . }}">{{ end }}
   <base href="{{ .Site.BaseURL }}">
-  {{ .Hugo.Generator }}
+ 
+  {{ hugo.Generator }}
 
- <!-- RSS -->
-  {{ if .RSSLink }}
-  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
-  {{ end }}
 
   <meta name="twitter:site" content="@budibase">
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
   {{ template "_internal/schema.html" . }}
 
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
-  <meta name="google-site-verification" content="QgOVKYVI1aszwZ0J4F7zXYmte4scDnnIi6JswcZt_bU" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">  
 
-  </head>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+</head>
 
 <body lang="{{ .Site.LanguageCode }}">

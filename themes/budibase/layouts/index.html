@@ -1,29 +1,20 @@
 {{ partial "header.html" . }}
 {{ partial "navigation.html" . }}
-<div class="space-2-top space-1-bottom">
-{{ partial "hero-b.html" . }}
-</div>
-<div class="space-3-bottom space-1-top">
-{{ partial "features-data.html" . }}
-</div>
-{{ partial "features-design.html" . }}
-{{ partial "features-automations.html" . }}
-{{ partial "features-scale.html" . }}
+{{ partial "hero.html" . }}
+<!--{{ partial "testimonial-block-gray.html" . }}-->
+{{ partial "features-homepage.html" . }}
 {{ partial "deploy.html" . }}
-<hr style="width: 30%;"/>
-
+{{ partial "extensible.html" . }}
+{{ partial "integration-banner.html" . }}
+<hr class="w-md-50 mt-9" />
 <div class="space-3">
     {{ partial "solutions-banner-with-title.html" . }}
-    </div>
-<hr style="width: 30%;"/>
+</div>
+<hr class="w-md-50" />
 
 <div class="space-3">
     {{ partial "templates.html" . }}  
 </div>
-<hr style="width: 30%;"/>
-
-
 {{ partial "cta.html" . }}
-<hr style="width: 30%;"/>
 {{ partial "footer.html" . }}
 

@@ -2,7 +2,7 @@
 date = "2020-03-12"
 title = "S3 integration with Budibase | Use S3 as your data source"
 page_title = "S3"
-categories = ["data"] 
+categories = ["api"] 
 description = "Use Amazon S3 as your data and object source for your Budibase applications. "
 draft= "false"
 published_by = "Budibase"

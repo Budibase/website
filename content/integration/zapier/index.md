@@ -2,7 +2,7 @@
 date = "2020-03-12"
 title = "Zapier integration with Budibase | Connect your app to the world"
 page_title = "Zapier"
-categories = ["automate"] 
+categories = ["api"] 
 description = "Integrate with a number of external APIs and platforms using the Budibase Zapier integration. "
 logo = "integrations/zapier-logo.png"
 draft= "false"

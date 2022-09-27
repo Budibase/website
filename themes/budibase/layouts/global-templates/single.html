@@ -2,16 +2,16 @@
 
 {{ partial "navigation.html" . }}
 
-<div class="space-2-top space-1-bottom container">
+<div class="space-2-top container">
       <h1 class="mb-3 mb-4 text-center">
-        Select a free Budibase template
+        Free Budibase templates
       </h1>
     <div class=" w-lg-60 mx-auto">
       <p class="mx-auto display-lead-sm mb-6 text-center"> Explore a growing list of beautiful free Budibase templates. With Budibase's intuitive low-code platform, you can customize your design in just a few clicks.
     </p>
     </div>
 </div>
-<div class="bg-light-1 py-6">
+<div class="bg-light1 py-6">
 <div class="container-narrow space-2-bottom">
     <div class="templates-cards">
         {{ range where (where .Site.Pages "Params.type" "templates") "Params.layout" "==" "single" }}
