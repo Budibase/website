@@ -4,5 +4,5 @@ description: "Budibase is a modern, open source low code platform for building i
 type: components
 layout: list
 date: 2022-03-03
-images: ["/banner-gradient.jpg"]
+images: ["/homepage-meta.png"]
 ---

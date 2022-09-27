@@ -3,6 +3,7 @@ title: Self-hosted Terms
 description: Master commercial terms, for Budibase self-host
 layout: single
 type: legal
+images: ["/homepage-meta.png"]
 date: 2022-09-11T23:00:00+00:00
 
 ---

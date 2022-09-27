@@ -4,6 +4,7 @@ description: "Product Specification for Budibase self-host / on-premise"
 layout: single
 type: legal
 date: 2021-10-22
+images: ["/homepage-meta.png"]
 ---
 
 ## Overview
