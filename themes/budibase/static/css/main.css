@@ -2064,6 +2064,32 @@ grid-gap: 50px;
   font-weight: 500;
 }
 
+.tag-teal-nav {
+  background-color: var(--teal3);
+  color: white;
+  border-radius: 2px;
+  font-size: 10px;
+  padding: 2px 8px;
+  align-items: center;
+  justify-items: center;
+  font-weight: 600;
+  position: relative;
+  bottom: 8px;
+}
+
+.tag-blue-nav {
+  background-color: var(--blue3);
+  color: white;
+  border-radius: 2px;
+  font-size: 10px;
+  padding: 2px 8px;
+  align-items: center;
+  justify-items: center;
+  font-weight: 600;
+  position: relative;
+  bottom: 8px;
+}
+
 .tag-purple {
   background-color: var(--purple4);
   color: white;
