@@ -1,6 +1,6 @@
 +++
 author = "Joe Johnston"
-date = 2022-09-26T23:00:00Z
+date = 2022-09-25T23:00:00Z
 description = "Budibase 2.0 brings it all together: extensibility, scalability, education, and community. We think you'll love it!"
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1663675553/cms/budibase-2_xtfmcp.gif"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1663675938/cms/Budibase_-_what_s_new_1_g5a7ph.png"]
