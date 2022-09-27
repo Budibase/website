@@ -2,7 +2,7 @@
 date: 2022-03-03
 title: Transforming Manufacturing Workflows | Budibase | Low-Code Platform
 description: We’re revolutionizing how businesses manage manufacturing workflows. Our low-code platform is perfect for digital transformation in the manufacturing industry.
-cover: "/budibase-ui-gradient.png"
+cover: "/homepage-meta.png"
 draft: false
 type: "industries/manufacturing"
 layout: single
