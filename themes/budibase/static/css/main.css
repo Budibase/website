@@ -2838,6 +2838,10 @@ details[open] > summary {
 
 /* Pricing */
 
+.day-pass-wrapper {
+
+}
+
   .pricing {
     display: flex;
     flex-direction: column;
@@ -2882,6 +2886,26 @@ details[open] > summary {
     display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: var(--space-8);
+}
+}
+
+/* Hero */
+.pricing-hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 2rem;
+  z-index: 2;
+}
+
+
+@media (min-width: 1080px) {
+.pricing-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 4rem;
+  z-index: 2;
 }
 }
 
@@ -5823,8 +5847,24 @@ background-color: var(--light1);
 .bg-gray {
   background-color: rgba(243, 244, 246, 1);
 }
+
+.bg-teal1 {
+  background-color: var(--teal1);
+}
+
+.bg-teal2 {
+  background-color: var(--teal2);
+}
 .bg-teal {
   background-color: var(--teal3);
+}
+
+.bg-teal4 {
+  background-color: var(--teal4);
+}
+
+.bg-teal5 {
+  background-color: var(--teal5);
 }
 
 .bg-yellow {
