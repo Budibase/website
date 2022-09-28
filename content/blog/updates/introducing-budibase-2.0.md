@@ -16,7 +16,7 @@ Today we're launching Budibase 2.0 - and yes, you can build your own custom comp
 
 By far our most requested feature - users can now add custom datasources and components, aka plugins, to Budibase. Plugins are stored at the global level allowing you to use them across your different apps.
 
-[Visit the docs for custom plugins -->](https://docs.budibase.com/docs/custom-plugin)
+[Visit the docs for custom plugins](https://docs.budibase.com/docs/custom-plugin)
 
 ### 🔌 Plugins repository
 
@@ -30,7 +30,7 @@ User groups are critical when you want to scale your Budibase deployment. User g
 
 ### 🖇️ Binding groups
 
-We’ve revamped the bindings drawer and nested all the user bindings under sections. This makes it much easier to navigate and find the values you are looking for. 
+We’ve revamped the bindings drawer and nested all the user bindings under sections. This makes it much easier to navigate and find the values you are looking for.
 
 ### 🎓 Budibase university
 
