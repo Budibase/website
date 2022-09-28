@@ -44,12 +44,6 @@ Interact with other community members in the Budibase Discord.
 
 [Join the Budibase Discord](https://discord.com/invite/ZepTmGbtfF)
 
-### 🧮 Pricing
-
-The new pricing allows users to upgrade from free and open-source plans to new paid plans that come with additional features, functionality, and limits.
-
-[View pricing](https://budibase.com/pricing)
-
 ### 🐞 Bug Fixes
 
 * Formula from a relation causes API error when a relation is removed
