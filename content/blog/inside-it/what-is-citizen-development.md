@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-09-20T23:00:00Z
 description = "Citizen development is a kind of a buzz phrase nowadays. But does it offer a serious prospect for improving your IT operations?"
-draft = true
 image = ""
 images = []
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"

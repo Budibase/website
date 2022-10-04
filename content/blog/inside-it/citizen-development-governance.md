@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-09-19T23:00:00Z
 description = "Today we’re diving deep into citizen development governance. Read our guide for everything you need to know."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1663691004/cms/Citizen_Development_Governance_Header_x7db81.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1663691004/cms/Citizen_Development_Governance_Header_x7db81.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"

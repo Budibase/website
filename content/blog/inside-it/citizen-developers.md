@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-09-19T23:00:00Z
 description = "With a global shortage of developers, and it’s no wonder that delays and backlogs occur. One solution is empowering citizen developers."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1663689116/cms/Empowering_Citizen_Developers_krjnnx.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1663689121/cms/Empowering_Citizen_Developers_tprxzk.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
