@@ -5885,6 +5885,10 @@ background-color: var(--light1);
 }
 
 
+.bg-producthunt {
+  background-color: #b63916;
+}
+
 .bg-indigo {
   background-color: #6767ec !important;
 }
