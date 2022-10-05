@@ -44,6 +44,18 @@ No-code tools have improved immensely. Just about anyone can build a website wit
 
 We are at the beginning of a revolution. As more people gain access to the internet, and no code tools continue to remove technical barriers, an innumerable amount of makers and entrepreneurs will be born. This will bring opportunity. It will open doors to subject matter experts, and allow people to build and test PoCs quickly and cost-effectively. It will change many lives and level numerous playing fields. It will, to a degree, democratize software development.
 
+## What is a no-code platform?
+
+No code platforms allow you to build apps without coding. Thus, a good no-code platform provides you the tools to build something that would otherwise require coding knowledge.
+
+Over time this term evolved into a synonym for visual builders. But they don’t always need to be a visual tool.
+
+For example, some even argue that tools like Excel are no-code platforms on their own terms. They allow you to build things visually or using their internal commands. You don’t need to code or build it from scratch.
+
+In general, you can see no-code platforms as a quick way to get started. Instead of re-building the same structure that is common to all projects, you just use these building blocks to create your own tool.
+
+Thus, your focus shifts from the technology, syntax, and infrastructure to the business roles, app logic, and user experience.
+
 ## The 12 best no-code platforms in 2021
 
 {{< figure src="/no-code-tools/no-code-tools.png" alt="No-code tools" >}}
@@ -196,6 +208,28 @@ No-code tools won't save a bad idea or lack of marketing, but they'll certainly 
 I would like to point out, no-code tools can get you far, and in some cases, the entire way. But please do not dispel the importance of code. For now, there are still a lot of areas of building web apps, websites, and databases which require coding, and possibly a developer.
 
 Thankfully, proper documentation can help empower users to learn snippets of code, which will open a technical world of possibilities. And, in most cases, coding is not the hard part. Understanding logic and how a web app or membership site is connected/works is the toughest part, and unavoidable in even no-code tools. If you can conquer this, then a little bit of code won't stop you.
+
+## What can you build with a no-code platform?
+
+No-code platforms allow you to build almost anything you can imagine. Sites, online stores, databases, forms, apps, and payment processing. You can even use no-code platforms to connect apps that don’t talk to each other.
+
+The bigger question is, what should you build with a no-code platform?
+
+With no-code, you usually sacrifice a bit of flexibility to get a much higher development speed. Thus, sometimes you won’t have premade components for your exact needs, and that’s when a bit of coding is a good idea.
+
+The amazing part is that most no-code platforms allow you to extend them. For example, you can create Budibase plugins to add new data sources and components. So instead of building the entire platform, you just create these missing pieces.
+
+## What is a no-code database?
+
+A no-code database allows you to create and manage databases even if you don’t know how to code.
+
+A key component of apps (whether coded or no-code) is how they store and process data. Usually, databases are made to be used via a command line or a programming language.
+
+If you are using a no-code tool, you might want to discover how to create a database without code as well.
+
+Usually, no-code tools provide their own pairing no code database, or integrations to other databases. So you can use them with visual interfaces.
+
+Another option is to use an external no-code database, such as Airtable, Xano, Supabase, or even Google Sheets. They allow you to create cloud-based data storage, and you can access them directly or use them in your apps with other no-code platforms.
 
 ## Bonus: No-code communities
 
