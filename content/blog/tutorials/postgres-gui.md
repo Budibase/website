@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-09-20T23:00:00Z
 description = "Learn to build a custom Postgres GUI in minutes with Budibase."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1664959926/cms/How_to_Build_a_Postgres_GUI_pmhm0j.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1664959932/cms/How_to_Build_a_Postgres_GUI_kobhio.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
