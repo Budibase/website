@@ -72,6 +72,7 @@ pages:
 - content/blog/tutorials/google-sheets-gui.md
 - content/blog/tutorials/mongodb-gui.md
 - content/blog/tutorials/mysql-gui.md
+- content/blog/tutorials/postgres-gui.md
 - content/blog/tutorials/sql-gui.md
 - content/blog/updates/a-story-about-open-source-the-bulgarian-government-and-the-war-in-ukraine.md
 - content/blog/updates/introducing-budibase-2.0.md
