@@ -12,7 +12,7 @@ Do you ever feel like the hardest part of building a web application is thinking
 
 You're not alone.
 
-Coming up with web app ideas consumes a lot of time.  
+Coming up with web app ideas consumes a lot of time.
 
 Finding an idea which solves a problem, is possible to build, and won't take millions of dollars is really difficult.
 
@@ -32,7 +32,6 @@ The ideas differ depending on their purpose and fall into one of the following 3
 
 I've included the complete list of 8 web app ideas below:
 
-
 [1. The CEO dashboard](#ceo)
 
 [2. CRM for startups / small businesses](#crm)
@@ -49,7 +48,7 @@ I've included the complete list of 8 web app ideas below:
 
 [8. IMDB for Books](#books)
 
-If you are unsure how to build a web application, not to worry. 
+If you are unsure how to build a web application, not to worry.
 
 Check out our detailed beginners guide on [how to build a web app](https://www.budibase.com/blog/how-to-make-a-web-app/).
 
@@ -83,7 +82,6 @@ The term 'Dashboards' is a popular one from a search volume perspective, and not
 
 Building a CEO dashboard would allow you room to differentiate and solve a major (personal) problem. It will be tricky, but the potential is worth it.
 
-
 Business Potential - ⭐️⭐️⭐️⭐️⭐️
 
 Difficulty - 👊👊👊👊👊
@@ -92,9 +90,7 @@ Risk - 😟😟😟
 
 Time to MVP - ⏰⏰⏰
 
-
-
----
+***
 
 ### 2. CRM for startups / small businesses 📅 {#crm}
 
@@ -102,7 +98,7 @@ Time to MVP - ⏰⏰⏰
 
 A CRM is a platform which helps you manage relationships with customers.
 
-The CRM market is super competitive with lots of big names such as Salesforce and Hubspot, competing for business. 
+The CRM market is super competitive with lots of big names such as Salesforce and Hubspot, competing for business.
 
 But don't let this deter you. These guys are after medium - enterprise businesses.
 
@@ -114,14 +110,13 @@ I'm pretty confident people are searching for startup CRMs. Just look at the amo
 
 Building a CRM for startups isn't a great deal of work, and you could have an MVP up and running in a week.
 
-The key to building a CRM for startups is to keep it super simple. This is what will differentiate your CRM from your competitors. 
+The key to building a CRM for startups is to keep it super simple. This is what will differentiate your CRM from your competitors.
 
-Startups are busy. They need quick access to their customers and a few features, and that's all. Simplicity is key, and it's what your market wants. 
+Startups are busy. They need quick access to their customers and a few features, and that's all. Simplicity is key, and it's what your market wants.
 
 Check out the search volume (United States only) for 'simple crm'.
 
 {{< figure src="/web-app-ideas/simple-crm-keyword.PNG" alt="Moz results for 'simple crm'" >}}
-
 
 Business Potential - ⭐️⭐️⭐️⭐️⭐️
 
@@ -131,9 +126,7 @@ Risk - 😟😟
 
 Time to MVP - ⏰⏰
 
-
-
----
+***
 
 ### 3. Retreat management platform 🌄 {#retreat}
 
@@ -149,18 +142,17 @@ Wellness retreats sit under a sub-sector called wellness tourism. The [Global We
 
 {{< figure src="/web-app-ideas/wellness.jpg" alt="Wellness Industry Size" >}}
 
-After speaking with three health retreats, they informed us they currently use Property Management Software (PMS) which is designed for hotels. And all three have problems with their systems, especially around mobility. Health retreats are activities first, accommodation second. Most activities are outside. Confirming resident attendance at sessions is important and currently completed on paper. 
+After speaking with three health retreats, they informed us they currently use Property Management Software (PMS) which is designed for hotels. And all three have problems with their systems, especially around mobility. Health retreats are activities first, accommodation second. Most activities are outside. Confirming resident attendance at sessions is important and currently completed on paper.
 
-Bingo! Paper is my favourite word when it comes to ideation. 
+Bingo! Paper is my favourite word when it comes to ideation.
 
-Building the web app will involve a lot of work but the business potential is attractive. The majority of the work involves managing bookings; accommodation, activities, and meals. The system will also manage staff, including rotas, payments, house keeping management. 
+Building the web app will involve a lot of work but the business potential is attractive. The majority of the work involves managing bookings; accommodation, activities, and meals. The system will also manage staff, including rotas, payments, house keeping management.
 
 Competition for retreat management software is very low, but so is the search volume:
 
 {{< figure src="/web-app-ideas/retreat-booking-software.PNG" alt="Retreat Google search stats" >}}
 
 Another keyword which attracts a low volume (20 per month) of searches is 'retreat booking software'. This tells me the market are either searching for PMS software (500 searches per month) because they know a retreat management platform doesn't exist or there isn't a need for this type of platform. From my previous conversations, I choose to the believe the former.
-
 
 Business Potential - ⭐️⭐️⭐️⭐️
 
@@ -170,15 +162,13 @@ Risk - 😟😟😟😟😟
 
 Time to MVP - ⏰⏰⏰⏰⏰
 
-
-
----
+***
 
 ### 4. Employee Orientation Software 🏢 {#orientation}
 
 {{< figure src="/web-app-ideas/orientation.jpg" alt="Employee Orientation Software" >}}
 
-Employee orientation / induction is a crucial process in any organisation. It's the new employee's first experience of the new company. But more often that not, I've seen and experienced terrible orientation programs. 
+Employee orientation / induction is a crucial process in any organisation. It's the new employee's first experience of the new company. But more often that not, I've seen and experienced terrible orientation programs.
 
 The primary cause of bad employee orientation is poor planning. Important documents are misplaced, training materials impossible to find, and management always seem to be skip the intial welcome / introduction meetings - "double-booked" is a popular excuse.
 
@@ -188,12 +178,11 @@ The HR department need your help!
 
 An MVP employee orientation platform would:
 
-- Store orientation documentation (accessibly with a username and password from anywhere with an internet connection)
-- Provide a step by step approach through the orientation process
-- Provide the new employee with training materials related to their job role
+* Store orientation documentation (accessibly with a username and password from anywhere with an internet connection)
+* Provide a step by step approach through the orientation process
+* Provide the new employee with training materials related to their job role
 
 There is potential to get the platform approved by local employment regulators. The employee orientation process deserves a dedicated web app and from researching the market, availability is low.
-
 
 Business Potential - ⭐️⭐️⭐️⭐️
 
@@ -203,9 +192,7 @@ Risk - 😟😟
 
 Time to MVP - ⏰⏰
 
-
-
----
+***
 
 ## Web app ideas for portfolio
 
@@ -215,9 +202,9 @@ Time to MVP - ⏰⏰
 
 Crime, sadly, will never go away. But, with the use of a crime alert web app, we could at least try to stop it in its tracks.
 
-In the United States, a house is burgled on average, **every 13 seconds**. 70% of these burglaries are committed by someone in the local area. And 80% of the burglars will burgle another house within 7 days. Astonishing stats which describe the extent of the problem. 
+In the United States, a house is burgled on average, **every 13 seconds**. 70% of these burglaries are committed by someone in the local area. And 80% of the burglars will burgle another house within 7 days. Astonishing stats which describe the extent of the problem.
 
-The crime alert web app would mimic a social network app. Instead of posting social updates, users, grouped by location would post about local crimes. Posting about local crimes will inform the neighbourhood to be vigilant. 
+The crime alert web app would mimic a social network app. Instead of posting social updates, users, grouped by location would post about local crimes. Posting about local crimes will inform the neighbourhood to be vigilant.
 
 Look at the amazing trend line for crime alerts:
 
@@ -239,9 +226,7 @@ Risk - 😟😟
 
 Time to MVP - ⏰⏰
 
-
-
----
+***
 
 ### 6. Family web app 👪 {#family}
 
@@ -251,7 +236,7 @@ Families comes in all shapes and sizes, but one thing is for sure, they are hard
 
 This is where a family app comes in. A family app will include a family calendar, a list taking app, a photo gallery, and a forum. Combined, these features will help organise families, saving time and a lot of arguments.
 
-The family app market is a large and moderately competitive. There are some leading players such as Cozy (20 million users), but there's still room to enter, and potential to reach the top of the market. 
+The family app market is a large and moderately competitive. There are some leading players such as Cozy (20 million users), but there's still room to enter, and potential to reach the top of the market.
 
 {{< figure src="/web-app-ideas/family-app-google-trend.PNG" alt="Family App Google Trend" >}}
 
@@ -271,25 +256,23 @@ Risk - 😟😟
 
 Time to MVP - ⏰⏰⏰⏰
 
-
-
----
+***
 
 ## Web app ideas for beginners
 
-###	7. A daily highlight web app 📋 {#highlight}
+### 7. A daily highlight web app 📋 {#highlight}
 
 {{< figure src="/web-app-ideas/highlight.jpg" alt="A daily highlight web app" >}}
 
-A to-do app focused on one daily, simple to-do/highlight. To-do apps are very popular with thousands produced every year. 
+A to-do app focused on one daily, simple to-do/highlight. To-do apps are very popular with thousands produced every year.
 
 The problem with most to-do apps is over-engineering. Simplicity is required. The purpose of a to-do app is to remind the user of what they are suppose to do.
 
 The reason most people download to-do apps but don't use them is because they lose interest and did not experience the benefit of them. It's hard to keep on top of a to-do list with 40 actions - it actually becomes more of a burden than a solution and we begin to feel negatively towards the web app.
 
-This where our simple daily highlight web app differs. 
+This where our simple daily highlight web app differs.
 
-It will have a very simple UI, and will involve the user entering 1 daily highlight everyday. At the end of the daily, the highlight disappears, or can be used as the next day's highlight. 
+It will have a very simple UI, and will involve the user entering 1 daily highlight everyday. At the end of the daily, the highlight disappears, or can be used as the next day's highlight.
 
 It sounds easy, and it is, which is why it's great. Users will gradually get more done over time and will feel the benefit of your web app over others.
 
@@ -303,11 +286,9 @@ Risk - 😟
 
 Time to MVP - ⏰
 
+***
 
-
----
-
-###	8. IMDB for Books / Book database 📚 {#books}
+### 8. IMDB for Books / Book database 📚 {#books}
 
 {{< figure src="/web-app-ideas/book.jpg" alt="IMDB for Books / Book database" >}}
 
@@ -317,17 +298,17 @@ With a nice UI, and a better review system, you could potentially have a great a
 
 {{< figure src="/web-app-ideas/imdb-books.PNG" alt="IMDB for Books Search Volume" >}}
 
-If tackling the world's book review problems is not your goal, then a simple book database might be more sufficient - it's also a lot easier to build. 
+If tackling the world's book review problems is not your goal, then a simple book database might be more sufficient - it's also a lot easier to build.
 
 With a book database, all you will need to do is:
 
-- Enter books you own
-- Write reviews on the books you own
-- Enter books you'd like to purchase
+* Enter books you own
+* Write reviews on the books you own
+* Enter books you'd like to purchase
 
 Simple! This is a great project for a book lover and a great web app idea for beginners. Building a simple version of this would be easy and an MVP could be built using [Budibase](https://www.budibase.com) in 15 minutes!
 
-*The guide below is relevant to the book database web app.*
+_The guide below is relevant to the book database web app._
 
 Business Potential - ⭐️
 
@@ -337,11 +318,67 @@ Risk - 😟
 
 Time to MVP - ⏰
 
----
+## Web App ideas - finding endless use cases
 
-And that's the wrap! 
+If the web app ideas from this list don’t suit it, don’t worry.
 
-I hope you enjoyed my 8 web app ideas. 
+The truth is, any web app ideas here or in other lists are just a starting point. Quite often you need to tweak them to make sure they are unique, that you enjoy them, and that they can solve a very specific problem.
+
+And that’s the key.
+
+Your web application needs to solve a problem.
+
+Therefore, it makes sense to look at this whole issue the other way around. What problems can I solve that could be a good web app idea?
+
+Let’s look at some places where you can find this initial spark.
+
+### Web app ideas from templates
+
+Anywhere you see someone selling templates and making good money, there’s a market for a good app. Search for spreadsheet templates, notion templates, and PowerPoint templates.
+
+Your app can be a better solution than manually replacing content on these files. Also, if you build an app with Budibase, you can automate many actions based on user inputs.
+
+From calculators to business proposals.
+
+You just need to find the web app ideas that are selling well. This guarantees that there is a market for it, and you can solve it with a better, faster, and cleaner solution.
+
+### Turn bad reviews into web app ideas
+
+It’s impossible to find a perfect web app idea. And this is true for current apps as well.
+
+Some users want flexibility, others want simpler interfaces. Some users want faster apps, others want more features. This goes on and on and on.
+
+It’s just impossible to please everyone.
+
+That’s where you can shine.
+
+You can find existing apps that are selling, but that have bad reviews. Look at the trends on the bad reviews and you’ll find the perfect web app idea. You can fix what is wrong, and sell your own solution.
+
+### Find common questions for popular tools
+
+Another way to generate infinite web app ideas is to look at confusing things about other tools.
+
+For example, you can look at the 10 most popular coding libraries in your preferred programming language. Then see what are the most common questions about it on Reddit, Google, or even Stack Overflow.
+
+You can build web applications to solve these specific questions and deploy them as SaaS solutions or other products.
+
+If you can’t code, you just need to adjust what to look for. What are the most common questions about Excel? Or about Marketing? Can you build an app that solves this problem?
+
+### Steal web app ideas from other platforms
+
+If you want a quick win, this is probably the easiest way to go for it. You can just pick ideas from one platform and implement them for another platform.
+
+For example, you can pick the top 1,000 WordPress plugins, and see if there are Shopify extensions for them. Or if there are Chrome extensions for it. Or even if you can just create your own standalone app that doesn’t depend on a specific platform.
+
+If these products are popular on one platform, it’s likely that users from other places have the same need. So you just need to find ways to implement this web app idea.
+
+And even if there are competitors already, always remember the other points. You can check their reviews to see what they are lacking and make a better option.
+
+***
+
+And that's the wrap!
+
+I hope you enjoyed my 8 web app ideas.
 
 Now it's over to you to build your next web app 👊. Whatever your web app goal is, I wish you luck and success. If the ideas above do not excite you, here's 6 more [micro saas ideas](https://www.budibase.com/blog/micro-saas-ideas/).
 
