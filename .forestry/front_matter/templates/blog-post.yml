@@ -70,8 +70,8 @@ pages:
 - content/blog/process-improvement-plan/index.md
 - content/blog/tutorials/database-gui.md
 - content/blog/tutorials/google-sheets-gui.md
-- content/blog/tutorials/how-to-create-a-mysql-gui-in-5-steps.md
 - content/blog/tutorials/mongodb-gui.md
+- content/blog/tutorials/mysql-gui.md
 - content/blog/tutorials/sql-gui.md
 - content/blog/updates/a-story-about-open-source-the-bulgarian-government-and-the-war-in-ukraine.md
 - content/blog/updates/introducing-budibase-2.0.md
