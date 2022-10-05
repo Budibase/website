@@ -326,9 +326,9 @@ For example, you can greatly reduce the admin burden placed on your IT team by s
 
 Similarly, the greater the homogeneity across your new tools, the lower the support and maintenance burden will be.
 
-![](https://lh3.googleusercontent.com/y8h-mNqXqotV2Iy6NKn2Z_sPJC3tlInPPdw9LdNYabrrnEqTQMcN_d73pxaEyy788CoQGrz4wsjN_XkZ2Ek6TKTzY9YGbPnFppMkSwBgH2wxFgLy5oaLIqo_sL0ubDEkFicviv3w9Za1iuei3JiYGwCqi5zSEg9MHkksQ9DpUX9z4vDgnuukFKsu5g =624x351)
+![Citizen Development Govenrance and security](https://res.cloudinary.com/daog6scxm/image/upload/v1664957278/cms/Citizen_Development_Training_Stats_Maruti_Techlabs_2_qjphev.webp "Citizen Development governance and security")
 
-([_ADT Mag_](https://adtmag.com/articles/2017/02/07/\~/media/ECG/adtmag/Images/2017/02/appian_survey.webp))
+([ADT Mag](https://adtmag.com/articles/2017/02/07/\~/media/ECG/adtmag/Images/2017/02/appian_survey.webp))
 
 ## Citizen development governance and Budibase
 
