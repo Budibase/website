@@ -64,7 +64,7 @@ Our demo app is a simple CRM. It has two main menu items, and each of them has a
 
 The contacts screen looks like this:
 
-# \[img 01\]
+![Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664958787/cms/01_dorll2.png "Google Sheets GUI")
 
 In it, you can quickly see some KPIs at the top of your Google Sheets GUI. Then you have filtering options and a table with your clients list.
 
@@ -77,7 +77,7 @@ These are the possible statuses for your clients:
 
 Then if you click on “view” or “create new”, you’ll see a screen like this one:
 
-# \[img 02\]
+![How to build a Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664958862/cms/02_emwvra.png "How to build a Google Sheets GUI")
 
 This page is a form to add new customers. You can add form validation rules to make sure that all data points are correct, such as the email or last contact date.
 
@@ -365,7 +365,7 @@ Now that the email setup is ready, let’s configure your “send reply” actio
 
 You can use these actions:
 
-1) Trigger Automation:
+1. Trigger Automation:
 
 * Use an existing automation
 * Automation: Send email
@@ -374,14 +374,14 @@ You can use these actions:
   * Subject: {{ Form.Fields.title }}
   * Text: {{ Form.Fields.message }}
 
-2) Execute Query:
+1. Execute Query:
 
 * Datasource: Google Sheets
 * Query: close_message
   * Bindings:
     * Id: {{ URL.id }}
 
-3) Execute Query:
+1. Execute Query:
 
 * Datasource: Google Sheets
 * Query: add_message
@@ -391,7 +391,7 @@ You can use these actions:
   * Contact_email: {{ Repeater.messages.contact_email }}
   * Date (JS code): return new Date().toLocaleDateString()
 
-4) Execute Query:
+1. Execute Query:
 
 * Datasource: Google Sheets
 * Query: update_customer
