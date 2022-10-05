@@ -64,7 +64,7 @@ Our demo app is a simple CRM. It has two main menu items, and each of them has a
 
 The contacts screen looks like this:
 
-![Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664958787/cms/01_dorll2.png "Google Sheets GUI")
+![Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664958787/cms/01_dorll2.webp "Google Sheets GUI")
 
 In it, you can quickly see some KPIs at the top of your Google Sheets GUI. Then you have filtering options and a table with your clients list.
 
@@ -77,13 +77,13 @@ These are the possible statuses for your clients:
 
 Then if you click on “view” or “create new”, you’ll see a screen like this one:
 
-![How to build a Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664958862/cms/02_emwvra.png "How to build a Google Sheets GUI")
+![How to build a Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664958862/cms/02_emwvra.webp "How to build a Google Sheets GUI")
 
 This page is a form to add new customers. You can add form validation rules to make sure that all data points are correct, such as the email or last contact date.
 
 Then, there’s the messages screen:
 
-# \[img 03\]
+![Messages Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1664959023/cms/03_dgggxk.webp "Messages Screen")
 
 The messages screen includes a list of all messages, along with a filter. Notice how some messages have a “reply” button and some don’t.
 
@@ -95,7 +95,7 @@ That’s because of the message status. The messages status in your Google Sheet
 
 Then if you click “reply” you’ll see this screen:
 
-# \[img 04\]
+![Response screen](https://res.cloudinary.com/daog6scxm/image/upload/v1664959047/cms/04_uto864.webp "Response screen")
 
 This seems like a simple form. But once you hit reply a lot of things will happen:
 
@@ -110,21 +110,19 @@ Now let’s implement these screens
 
 If you haven’t already, sign up for Budibase. Then create a new app and select Google Sheets as your data source.
 
-# \[img 05\]
+![Select a data source](https://res.cloudinary.com/daog6scxm/image/upload/v1664959069/cms/05_vwlqq4.webp "Select a data source")
 
 Next, authorize the app to access your Google Sheets data, add the sheet link and fetch the tables.
 
-Our demo app has the contacts sheet:
-
-# \[img 06\]
+Our demo app has the contacts sheet:![Google Sheets](https://res.cloudinary.com/daog6scxm/image/upload/v1664959091/cms/06_qqe1ks.webp "Google Sheets")
 
 The messages sheet:
 
-# \[img 07\]
+![Google Sheets](https://res.cloudinary.com/daog6scxm/image/upload/v1664959112/cms/07_prilj1.webp "Google Sheets")
 
 And the KPIs sheet:
 
-# \[img 08\]
+![Google Sheets](https://res.cloudinary.com/daog6scxm/image/upload/v1664959131/cms/08_lje01i.webp "Google Sheets")
 
 Keep in mind that you can use the Google Sheets functions to make your life much easier.
 
@@ -134,7 +132,7 @@ Instead of using JS code to create our KPIs, we just use the Google Sheets formu
 
 Then, we include the customer email on the messages sheet. This saves you a lot of data processing to get the email based on the client ID. We are doing it with this function:
 
-=VLOOKUP(B2,contacts!$A$2:$D$5,4,1)
+    =VLOOKUP(B2,contacts!$A$2:$D$5,4,1)
 
 In addition, since the messages and client IDs are just a list, you can use a formula to generate them (=ROW() ). This saves you a lot of trouble in getting the size of the current sheet, then adding a new row with that number + 1.
 
@@ -155,7 +153,7 @@ You can create these queries:
 * RowIndex: {{ id }}
 * Row:
 
-{ “status”: “closed” }
+  { “status”: “closed” }
 
 ### add_message
 
@@ -169,25 +167,16 @@ You can create these queries:
 * Sheet: messages
 * Row:
 
-{
-
-“id”: “=ROW()”,
-
-“contact_id”: “{{ contact_id }}”,
-
-“method”: “email”,
-
-“date”: “{{ date }}”,
-
-“title”: “{{ title }}”,
-
-“message”: “{{ message }}”,
-
-“status”: “waiting”,
-
-“contact_email”: “{{ contact_email }}”
-
-}
+  {
+  “id”: “=ROW()”,
+  “contact_id”: “{{ contact_id }}”,
+  “method”: “email”,
+  “date”: “{{ date }}”,
+  “title”: “{{ title }}”,
+  “message”: “{{ message }}”,
+  “status”: “waiting”,
+  “contact_email”: “{{ contact_email }}”
+  }
 
 ### Update_customer
 
@@ -199,7 +188,7 @@ You can create these queries:
 * Row Index: {{ id }}
 * Row:
 
-{ “last contact”: “{{ date }}” }
+  { “last contact”: “{{ date }}” }
 
 That’s all for the “Data” tab. Now head over to the “Design” section and let’s create some screens.
 
@@ -211,23 +200,23 @@ The data providers return your queries as an array, even if it’s just one item
 
 Here is the elements tree for that page:
 
-# \[img 09\]
+![Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664959199/cms/09_ijcerl.webp "Google Sheets GUI")
 
 First, use the “_add component_” button to add new components to your page. Then add the title container. In it, you can add your page’s title and then a button.
 
 Buttons don’t do anything by themselves, but you can assign actions to them. So, use this option for the button actions:
 
-# \[img 10\]
+![Button Actions](https://res.cloudinary.com/daog6scxm/image/upload/v1664959220/cms/10_qst6op.webp "Button Actions")
 
 Next, add the KPIs container, the data provider loading the KPIs sheet, and the repeater. Don’t forget to use the “direction” option to make all the stats cards appear on the same line:
 
-# \[img 11\]
+![Add a container](https://res.cloudinary.com/daog6scxm/image/upload/v1664959256/cms/11_o1j8f9.webp "Add a containeer")
 
 Then, each of the cards is showing one of your KPIs. You just need to use the name/value pairs, so the Google Sheets data is loaded:
 
-Title: {{ New Repeater.kpis.name }}
-
-Value: {{ New Repeater.kpis.value }}
+    Title: {{ New Repeater.kpis.name }}
+    
+    Value: {{ New Repeater.kpis.value }}
 
 Next, there’s the contacts table. You can use the data provider with the Google Sheets table “contacts”. Then add a dynamic filter and a table component to load and filter your data.
 
@@ -235,7 +224,7 @@ You can add a “view” link by clicking on the contacts table, then add a comp
 
 Then use this URL:
 
-/contacts/{{ contacts Table.contacts._id }}
+    /contacts/{{ contacts Table.contacts._id }}
 
 This URL makes it so that Budibase loads a different link for each row. They all follow the same pattern: /contacts/:ID.
 
@@ -245,11 +234,11 @@ Thus, you can use this pattern on your screen. You can extract the ID from the U
 
 Both forms are very similar in their structures. Here is the components tree for the _add new_ screen:
 
-# \[img 12\]
+![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1664959301/cms/12_m7apmw.webp "Component Tree")
 
 And this is the components tree for the edit screen:
 
-# \[img 13\]
+![Edit Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1664959326/cms/13_z8cs4w.webp "Edit Screen")
 
 The main difference between them is that the edit form uses a data provider to load the client information to pre-populate the form fields.
 
@@ -257,13 +246,13 @@ Let’s build the edit form and you can use the same logic for the add new scree
 
 Create a new screen and use this route:
 
-/contacts/:id
+    /contacts/:id
 
 This is what allows Budibase to understand that whatever is after contacts/ should be stored in a variable called “ID”. You can access it using {{ URL.id }}.
 
 This screen starts with a data provider. The trick here is to load the contacts table just like you did for the previous screen, but use this filter:
 
-# \[img 14\]
+![Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664959360/cms/14_hbbjwq.webp "Google Sheets GUI")
 
 This allows you to load only the current contact. And then you can use a repeater to expose the contact’s fields.
 
@@ -271,7 +260,7 @@ You can create a form component, and use an update method with the “contacts�
 
 The title container loads a title component loading the contact’s name, like this:
 
-{{ Repeater.contacts.Name }}
+    {{ Repeater.contacts.Name }}
 
 Then, create a save button, with these actions:
 
@@ -281,7 +270,7 @@ Then, create a save button, with these actions:
 
 For the fields group, you can use the “update form fields” button:
 
-# \[img 15\]
+![Field Group](https://res.cloudinary.com/daog6scxm/image/upload/v1664959398/cms/15_cvhh8j.webp "Field Group")
 
 This creates all the form fields automatically in your form.
 
@@ -291,7 +280,7 @@ That’s all you need for the edit form. The _add new_ form is quite similar, ju
 
 The messages list screen is quite similar to the contacts list page. You can follow the same logic, just use this components tree:
 
-# \[img 16\]
+![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1664959419/cms/16_wlp9ru.webp "Component Tree")
 
 You can even use the option to copy the entire contacts page instead of creating a new one. Or maybe copy the components over. Click on the 3 dots next to the main container to access this.
 
@@ -299,13 +288,13 @@ The only difference is that this page is going to load the reply link only for m
 
 You can do it using conditionality, like this:
 
-# \[img 17\]
+![Conditionality editor](https://res.cloudinary.com/daog6scxm/image/upload/v1664959453/cms/17_d3edvg.webp "Conditionality editor")
 
 So you hide the link if {{ messages Table.messages.status }} is closed.
 
 Also, don’t forget to update the messages link to be:
 
-/messages/{{ messages Table.messages._id }}
+    /messages/{{ messages Table.messages._id }}
 
 And update the add new button as well.
 
@@ -317,13 +306,13 @@ On the surface, the reply form is quite similar to the contacts edit page. You c
 
 Then use this components tree:
 
-# \[img 18\]
+![Data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1664959484/cms/18_upe8nz.webp "Data provider")
 
 The overall page setup is quite similar, just make sure you use a long text form instead of a simple text field.
 
 Also, in this case, you can use a custom schema for your form, like this:
 
-# \[img 19\]
+![Form Schema](https://res.cloudinary.com/daog6scxm/image/upload/v1664959503/cms/19_zhvapm.webp "Form Schema")
 
 But the general setup is the same. Use a data provider, use the filtering options matching the URL, and add the components.
 
@@ -335,7 +324,7 @@ But before we do this, you need to do 2 things.
 
 Go to your main Budibase screen - before the app selection - and click on “Email”.
 
-# \[img 20\]
+![SMTP setup](https://res.cloudinary.com/daog6scxm/image/upload/v1664959525/cms/20_gg4hac.webp "SMTP setup")
 
 Add your email settings there and save. If everything is ok you’ll see a green confirmation message.
 
@@ -347,15 +336,15 @@ You can use this section to run automated actions in your app. But you can use i
 
 Create a new automation called “send email” that starts using an App Action:
 
-# \[img 21\]
+![Create an automation](https://res.cloudinary.com/daog6scxm/image/upload/v1664959551/cms/21_xtyep4.webp "Create an automation")
 
 Add three fields to it, email, subject, and text. Then on the “_do this_” options, select send email, use the “_send to”_ field as the customer email, add the subject, and add the HTML contents as the text using their bindings:
 
-{{ trigger.fields.email }}
+    {{ trigger.fields.email }}
 
-{{ trigger.fields.subject }}
+    {{ trigger.fields.subject }}
 
-{{ trigger.fields.text }}
+    {{ trigger.fields.text }}
 
 Save it and test it. You can add a backup email as BCC, which is hidden from customers. This allows you to make sure that all emails are being sent correctly as you get a copy in your inbox.
 
@@ -365,7 +354,7 @@ Now that the email setup is ready, let’s configure your “send reply” actio
 
 You can use these actions:
 
-1. Trigger Automation:
+Trigger Automation:
 
 * Use an existing automation
 * Automation: Send email
@@ -374,14 +363,14 @@ You can use these actions:
   * Subject: {{ Form.Fields.title }}
   * Text: {{ Form.Fields.message }}
 
-1. Execute Query:
+Execute Query:
 
 * Datasource: Google Sheets
 * Query: close_message
   * Bindings:
     * Id: {{ URL.id }}
 
-1. Execute Query:
+Execute Query:
 
 * Datasource: Google Sheets
 * Query: add_message
@@ -391,7 +380,7 @@ You can use these actions:
   * Contact_email: {{ Repeater.messages.contact_email }}
   * Date (JS code): return new Date().toLocaleDateString()
 
-1. Execute Query:
+Execute Query:
 
 * Datasource: Google Sheets
 * Query: update_customer
