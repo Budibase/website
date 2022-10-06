@@ -205,7 +205,7 @@ Remember that earlier we said that any automation can essentially be broken down
 
 We need to do this for each constituent task within your workflows.
 
-We've also created an in-depth guide to [workflow analysis](/blog/automation/what-is-workflow-analysis/).
+We've also created an in-depth guide to [workflow analysis](https://budibase.com/blog/automation/what-is-workflow-analysis/).
 
 Let’s take an example to see what this means in practice.
 

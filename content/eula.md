@@ -401,7 +401,7 @@ whether any of the losses set out in Condition 8.4(a) to Condition 8.4 (e) are d
 
 ## 14. THIRD PARTY AND OPEN SOURCE TERMS
 
-14.1 The software underlying the Services may from time to time utilise third party and open source software components, or data streams, which are subject to third party and open source licence terms. Accordingly, any terms and conditions set out at https://budibase.com/licenses shall apply to your use of the Services (and access to the data available through them, as applicable) in addition to the provisions set out elsewhere in this EULA. 
+14.1 The software underlying the Services may from time to time utilise third party and open source software components, or data streams, which are subject to third party and open source licence terms. Accordingly, any terms and conditions set out at https://budibase.com/licenses/ shall apply to your use of the Services (and access to the data available through them, as applicable) in addition to the provisions set out elsewhere in this EULA. 
 
 14.2 You may also be required to agree and adhere to third party terms where you access any application that integrates with our Service, or where the Commercial Licensee requires you to agree terms to access the Services on their behalf.
 
