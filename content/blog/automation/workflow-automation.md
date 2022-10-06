@@ -459,7 +459,7 @@ Note, that at this stage, we’re only considering these things with regard to h
 
 We’ll move on to how it works in practice in the next step.
 
-We've also created an in-depth guide to [workflow analysis](/blog/automation/workflow-analysis/).
+We've also created an in-depth guide to [workflow analysis](https://budibase.com/blog/automation/what-is-workflow-analysis/).
 
 ### 3. Engage stakeholders
 
