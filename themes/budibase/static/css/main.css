@@ -158,6 +158,13 @@ summary::marker {
   font-size: 1rem;
 }
 
+::selection {
+  background: var(--teal1); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: var(--teal1); /* Gecko Browsers */
+}
+
 summary {
   color: var(--black);
 }
@@ -777,7 +784,7 @@ input[type="month"] {
 }
 .hero-title {
   text-size-adjust: 100%;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-variation-settings: "wght" 550;
   margin-top: 0;
   margin-bottom: 0;
@@ -876,12 +883,12 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: var(--fontsize-4);
+  font-size: var(--fontsize-5);
 }
 
 @media (max-width: 576px) {
   .lead {
-    font-size: var(--fontsize-5);
+    font-size: var(--fontsize-4);
   }
 }
 
