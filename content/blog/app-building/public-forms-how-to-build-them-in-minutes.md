@@ -61,7 +61,7 @@ Multi-step forms are forms that span across multiple screens. They are also know
 
 ### How to build a single-step public form
 
-Both Budibase and Google Forms are great options for building a public form (single-step). Google Forms is free, proprietary software. The data submitted within your form is hosted with Google. On the other hand, Budibase is free, open-source, and perfect for [building forms](); therefore, it's possible to quickly build forms and store your data in the safety of your infrastructure. For this guide, we will use Budibase.
+Both Budibase and Google Forms are great options for building a public form (single-step). Google Forms is free, proprietary software. The data submitted within your form is hosted with Google. On the other hand, Budibase is free, open-source, and perfect for [building forms](https://budibase.com/forms/); therefore, it's possible to quickly build forms and store your data in the safety of your infrastructure. For this guide, we will use Budibase.
 
 #### Step 1. Sign up for Budibase
 
@@ -290,4 +290,4 @@ Personally, I would autogenerate CRUD screens (with basic access level). This wa
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650896538/cms/CleanShot_2022-04-25_at_15.22.00_pm2pqy.png)
 
-I hope you found this guide helpful. If you have a need or desire to build web apps and internal tools quickly, [sign up to Budibase today](). It's free and open-source, has over 13,000 Github stars, and is loved by employees at Google, Microsoft, SpaceX, and more.
+I hope you found this guide helpful. If you have a need or desire to build web apps and internal tools quickly, [sign up to Budibase today](https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=navigation-cta). It's free and open-source, has over 13,000 Github stars, and is loved by employees at Google, Microsoft, SpaceX, and more.
