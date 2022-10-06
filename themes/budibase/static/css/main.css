@@ -12192,6 +12192,7 @@ button:focus {
   font-variation-settings: "wght" 650;  
   font-size: clamp(2rem, 2.25vw, 2.5rem);
   color: var(--hiContrast);
+  line-height: 1.1;
 }
 .article h1::before {
   content: "";
@@ -12207,6 +12208,7 @@ button:focus {
   font-variation-settings: "wght" 650;  
   font-size: 36px;
   color: var(--hiContrast);
+  line-height: 1.1;
 }
 .article h2::before {
   content: "";
@@ -12221,6 +12223,7 @@ button:focus {
   font-size: 28px;
   color: var(--hiContrast);
   font-weight: 600px;
+  line-height: 1.1;
 }
 .article h3::before {
   content: "";
@@ -12234,6 +12237,7 @@ button:focus {
   margin-bottom: .5rem; 
   font-weight: 600;
   font-size: 24px;
+  line-height: 1.1;
 }
 .article h4::before {
   content: "";
@@ -12248,7 +12252,7 @@ button:focus {
   font-weight: 600;
   font-size: 20px;
   color: var(--hiContrast);
-
+  line-height: 1.1;
 }
 .article li {
   font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
