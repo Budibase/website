@@ -65,7 +65,7 @@ The best options here offer enough flexibility for you to add your own custom el
 
 We’ll take a look at how Budibase is leading the pack shortly.
 
-![](https://lh6.googleusercontent.com/NdTw-N7cJG9-Efb7zqOcooL8wpHGjUpX4mnjtCmpEpYZlDv71j85bGKY74q-V0hArgo5ooeVMqHy_jWv5CV6H_siVrNU_T7SK_cIfDIeZGI_zFkQNYENFdstrYiYJFE4iy0ht4Klmv0Mp7-XrtMt3_C5w50F7B1KljleFwr26NJ0Gbs27bRy9CwuYA =624x351)
+![Rapid application development tools statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1665144147/cms/l6bbzvicofxscvdaqrju.png "Rapid application development tools statistics")
 
 ([User Guiding](https://userguiding.com/blog/no-code-low-code-statistics/))
 
@@ -142,8 +142,8 @@ Even for more basic costs, like licensing, you’ll find a huge degree of variat
 
 Scalability comes in two forms:
 
-* **Vertical - the degree to which you can add new users or data to your solutions.**
-* **Horizontal - how readily you can add new features and functions.**
+* **Vertical -** the degree to which you can add new users or data to your solutions.
+* **Horizontal -** how readily you can add new features and functions.
 
 There’s a lot that goes into how effective any given solution is here.
 
@@ -163,8 +163,8 @@ Besides this, there are the actual practicalities of deploying new features. Aga
 
 Then there’s the question of whether different rapid application development tools even offer appropriate functionality in the first place. Very broadly speaking, we can divide this into elements:
 
-1. **Functional requirements - What you outwardly need solutions to do.**
-2. **Non-functional requirements - Additional considerations for facilitating this and rolling the solution out to users, such as integration options or hosting configuration.**
+1. **Functional requirements -** What you outwardly need solutions to do.
+2. **Non-functional requirements -** Additional considerations for facilitating this and rolling the solution out to users, such as integration options or hosting configuration.
 
 Assessing RAD tools’ suitability in terms of functional requirements is relatively easy - at least, assuming that you know in advance the kinds of problems your team needs to solve.
 
@@ -178,7 +178,7 @@ The important thing here is the technical skills that different options require.
 
 For example, if your in-house developers need to work on RAD projects, they can more easily use solutions with higher technical prerequisites. By contrast, your business users will have more limited technical skills, so they can draw on a smaller pool of platforms.
 
-![](https://lh3.googleusercontent.com/TleL3Y933dWDFq86DTRgaPI3o1DmKikD3l8YDVJr0L_kgM_mtPt2E6iatlitymFlwuybsS5PcG_Fi1fkmVPYgZVPoK8T6PpiD-oCQQvF0_5wLnQ3Rsvmwps3l39IqyLkdZUuTiD5UbY1I1kid8zPHV47go1C9sbF_ZYMkpJb_40r7qhulT7aw2eXqw =624x351)
+![Skills shortage](https://res.cloudinary.com/daog6scxm/image/upload/v1665144395/cms/New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html_k8rpgs.png "SKills hortage")
 
 ([Global News Wire](https://www.globenewswire.com/en/news-release/2022/02/10/2382917/0/en/New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html))
 
@@ -221,7 +221,7 @@ We’ve recently launched Budibase 2.0, complete with full support for custom [d
 
 There’s never been a faster, better way to build custom applications. Check out our [product page](https://budibase.com/product) for more information.
 
-![](https://lh3.googleusercontent.com/bslckg55csTo6IZ2InaKyOQiAlgxfY4i7MAwh7-pHDEoY-uHAnOsG4Lhn-7-UlOcUw-ZsnyGCbTwG30SG3X4j81tIRFZN05NyoHXV6kgaMtVxFGgUB5FEZdyKXBxLytW0jupEPSCj8aChjwr684ACvo3Qghh4_7SUDRBK9_lrWavNRBru60FvIKQDQ =624x351)
+![Rapid application development tools](https://res.cloudinary.com/daog6scxm/image/upload/v1665144421/cms/Budibase_ScreenShot_qst1rc.png "Rapid application development tools")
 
 ### 2. Zapier
 
@@ -235,7 +235,7 @@ However, as we know, using integration platforms as rapid application developmen
 
 Check out our [Zapier integration](https://budibase.com/integration/zapier/) page for more information.
 
-![](https://lh6.googleusercontent.com/F1pREBQKKYmMjg9B1E9CbzflpVO-NU3lnADbnevgdD7TSg8IqSzD-LRJaiyr8XgS1hgV6NOP4yMqFT94RjObhfsnISCiaTOgCK0maenb4ikLRalRSvAFqUIF2T6JMwIAB6R-7yTKo1NtI52rN60mhaRbageqIoGkxQQdbYtyCbp876ijT99MSDeUpA =624x351)
+![Zapier](https://res.cloudinary.com/daog6scxm/image/upload/v1665144465/cms/Zapier_lvms57.png "Zapier")
 
 ### 3. Google Sheets
 
@@ -247,7 +247,7 @@ However, we also know that relying on spreadsheets to manage workflows presents 
 
 Check out our guide to building a [Google Sheets dashboard](https://budibase.com/blog/data/google-sheets-dashboard/) in Budibase to see one way to work around these limitations.
 
-![](https://lh5.googleusercontent.com/z_fXB8TJqaizmrvKjrk4JtIlvmqzP_Cl1YLcMoFP7WbpPMioKwyDzCbux_5TBG9yU1ggup756EhSJ5vyNclrujPLsBr5dE_xj96i0LiLUNIT0JINMkV2fiWriGBr9YxvHyGKxPZUIYztQD80XHKHMEpNUXBM60zFEqhHHSDfUqdbRlCD5o2B_RmKKw =624x351)
+![Google Sheets](https://res.cloudinary.com/daog6scxm/image/upload/v1665144482/cms/Google_Sheets_pvwfo0.png "Google Sheets")
 
 ### 4. AWS Lamda
 
@@ -259,7 +259,7 @@ This is a serverless platform where you can upload and runs virtually any kind o
 
 It also offers a high degree of integrability with other Amazon Web Services, making it ideal for scaling applications within busy teams.
 
-![](https://lh5.googleusercontent.com/4I_kXWFkADzN1ht1iF4JPEltU2EDNvzxktbK8kGmdHcM6kWhRyri1dtmZy171NIEXPWMpv8m0-0cu3z-WJAIhpZykNh6_BsYMJqGK_qmwWADbBA1TfpRbVUIKkplLyTRJtn7rzjuHY2GEZb_wJaugmO7aq1JLbXpBuHiyyEHeh2H7Fq9enjT43rjLA =624x351)
+![AWS Lamda](https://res.cloudinary.com/daog6scxm/image/upload/v1665144502/cms/AWS_Lambda_kpgkmh.png "AWS Lamda")
 
 ### 5. HubSpot
 
@@ -275,7 +275,7 @@ The appeal here is building out streamlined commercial processes, with minimal c
 
 Check out our guide to [automating marketing processes.](https://budibase.com/blog/automation/automating-marketing-processes/)
 
-![](https://lh6.googleusercontent.com/vcgxYFoPY1gBuikZSG39511IiwrbvZ06kkKTtkAQmmpYpqxDdX4RYKb39LlteU3z18kgKG3cels8euFg3B5xOpNJvM27QG4CovKoDUw2S6NZHg3I9ZK8zDFWytrrJ85T8vGPfo5cC_0z3K6sMMW__11OOUnDhyThyny1WIwcep3XJGXW1jYWSUaQ4w =624x351)
+![Hubspot](https://res.cloudinary.com/daog6scxm/image/upload/v1665144525/cms/HubSpot_ysxlhb.png "Hubspot")
 
 ## Build better apps, faster, with Budibase
 
