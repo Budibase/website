@@ -31,7 +31,7 @@ So, if we can’t take it as read that a rapid application development tool is w
 
 We can flip things on their head and say that it’s anything that your team uses effectively to build apps within the RAD model. This isn’t particularly satisfying either, but it’s closer to reality.
 
-Check out our ultimate guide to rapid application development to find out more about the theory.
+Check out our ultimate guide to [rapid application development ](/blog/inside-it/rapid-application-development)to find out more about the theory.
 
 This means we need to turn our attention to the characteristics that would make a tool viable here.
 
@@ -39,7 +39,7 @@ One is obviously speed. In fact, it should probably go without saying that you�
 
 We also need to factor in collaboration, since this is such a huge part of the RAD model. This includes collaboration between developers, as well as between developers and other stakeholders, like clients and end users.
 
-For instance, for throwaway prototyping.
+For instance, for [throwaway prototyping](/blog/inside-it/throwaway-prototyping).
 
 Again, this can be facilitated in a few different ways. For example, different platforms might offer real-time previews, multiple-developer access, or cloud-based collaboration tools.
 
@@ -109,6 +109,8 @@ Some languages are better positioned here than others.
 For example, JavaScript and Python offer a high degree of readability, along with extensive built-in functionality, making it relatively easy to create working solutions quickly. This is even easier with the right suite of libraries, frameworks, and other tools.
 
 Still, using the RAD model to build hard-coded solutions often means cutting corners. As such, it’s usually not the best solution, except in very specific circumstances.
+
+Check out our guide to traditional [SDLC vs RAD](/blog/inside-it/traditional-sdlc-vs-rad).
 
 ### Function-specific tools
 
