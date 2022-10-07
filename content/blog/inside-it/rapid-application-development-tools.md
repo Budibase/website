@@ -65,7 +65,7 @@ The best options here offer enough flexibility for you to add your own custom el
 
 We’ll take a look at how Budibase is leading the pack shortly.
 
-![Rapid application development tools statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1665144147/cms/l6bbzvicofxscvdaqrju.png "Rapid application development tools statistics")
+![Rapid application development tools statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1665144147/cms/l6bbzvicofxscvdaqrju.webp "Rapid application development tools statistics")
 
 ([User Guiding](https://userguiding.com/blog/no-code-low-code-statistics/))
 
@@ -178,7 +178,7 @@ The important thing here is the technical skills that different options require.
 
 For example, if your in-house developers need to work on RAD projects, they can more easily use solutions with higher technical prerequisites. By contrast, your business users will have more limited technical skills, so they can draw on a smaller pool of platforms.
 
-![Skills shortage](https://res.cloudinary.com/daog6scxm/image/upload/v1665144395/cms/New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html_k8rpgs.png "SKills hortage")
+![Skills shortage](https://res.cloudinary.com/daog6scxm/image/upload/v1665144395/cms/New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html_k8rpgs.webp "SKills hortage")
 
 ([Global News Wire](https://www.globenewswire.com/en/news-release/2022/02/10/2382917/0/en/New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html))
 
@@ -221,7 +221,7 @@ We’ve recently launched Budibase 2.0, complete with full support for custom [d
 
 There’s never been a faster, better way to build custom applications. Check out our [product page](https://budibase.com/product) for more information.
 
-![Rapid application development tools](https://res.cloudinary.com/daog6scxm/image/upload/v1665144421/cms/Budibase_ScreenShot_qst1rc.png "Rapid application development tools")
+![Rapid application development tools](https://res.cloudinary.com/daog6scxm/image/upload/v1665144421/cms/Budibase_ScreenShot_qst1rc.webp "Rapid application development tools")
 
 ### 2. Zapier
 
@@ -235,7 +235,7 @@ However, as we know, using integration platforms as rapid application developmen
 
 Check out our [Zapier integration](https://budibase.com/integration/zapier/) page for more information.
 
-![Zapier](https://res.cloudinary.com/daog6scxm/image/upload/v1665144465/cms/Zapier_lvms57.png "Zapier")
+![Zapier](https://res.cloudinary.com/daog6scxm/image/upload/v1665144465/cms/Zapier_lvms57.webp "Zapier")
 
 ### 3. Google Sheets
 
@@ -247,7 +247,7 @@ However, we also know that relying on spreadsheets to manage workflows presents 
 
 Check out our guide to building a [Google Sheets dashboard](https://budibase.com/blog/data/google-sheets-dashboard/) in Budibase to see one way to work around these limitations.
 
-![Google Sheets](https://res.cloudinary.com/daog6scxm/image/upload/v1665144482/cms/Google_Sheets_pvwfo0.png "Google Sheets")
+![Google Sheets](https://res.cloudinary.com/daog6scxm/image/upload/v1665144482/cms/Google_Sheets_pvwfo0.webp "Google Sheets")
 
 ### 4. AWS Lamda
 
@@ -259,7 +259,7 @@ This is a serverless platform where you can upload and runs virtually any kind o
 
 It also offers a high degree of integrability with other Amazon Web Services, making it ideal for scaling applications within busy teams.
 
-![AWS Lamda](https://res.cloudinary.com/daog6scxm/image/upload/v1665144502/cms/AWS_Lambda_kpgkmh.png "AWS Lamda")
+![AWS Lamda](https://res.cloudinary.com/daog6scxm/image/upload/v1665144502/cms/AWS_Lambda_kpgkmh.webp "AWS Lamda")
 
 ### 5. HubSpot
 
@@ -275,7 +275,7 @@ The appeal here is building out streamlined commercial processes, with minimal c
 
 Check out our guide to [automating marketing processes.](https://budibase.com/blog/automation/automating-marketing-processes/)
 
-![Hubspot](https://res.cloudinary.com/daog6scxm/image/upload/v1665144525/cms/HubSpot_ysxlhb.png "Hubspot")
+![Hubspot](https://res.cloudinary.com/daog6scxm/image/upload/v1665144525/cms/HubSpot_ysxlhb.webp "Hubspot")
 
 ## Build better apps, faster, with Budibase
 
