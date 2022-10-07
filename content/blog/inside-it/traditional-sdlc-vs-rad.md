@@ -43,9 +43,9 @@ RAD, or _rapid application development_, is similar in terms of substance but di
 
 Instead of treating these as a fixed sequence, there’s more emphasis on iterative builds, continuous feedback, and evolving requirements. The goal here is to build tools faster, while better meeting users’ real-life expectations.
 
-Check out our ultimate guide to rapid application development for more information.
+Check out our ultimate guide to [rapid application development](/blog/inside-it/rapid-application-development) for more information.
 
-![](https://lh6.googleusercontent.com/izpvN1zzZHuyUxCWCCUvhcLUpT7f1O2xfW0DPf5BmB1Ww8WRXshR7YxXgFfOasUWwpV7F-lAPf49ZUa9Y9rQUZWXg2svQaRr1sX9e-Kdq88M_ZZkbGugektyEPgviBLfbFb6w6MC7DExO7ENHtwpKsLB_Hrrtgj10k0OowEiImafpvm6KzOjKd10rg =624x351)
+![SDLC Vs RAD stats](https://res.cloudinary.com/daog6scxm/image/upload/v1665144902/cms/App_Build_Time_Stats_AppInventiv_gojybu.webp "SDLC vs RAD")
 
 ([App Inventiv](https://appinventiv.com/blog/how-long-does-it-take-to-build-a-mobile-app/))
 
@@ -125,6 +125,8 @@ RAD, however, introduces additional challenges. Since we’re dealing with ongoi
 
 Besides this, there’s the issue of conducting feedback sessions. This requires a few extra considerations. On the one hand, there’s the additional labor costs that these meetings bring. On the other, coaxing useful feedback out of stakeholders is a skill in itself.
 
+Check out our guide to [throwaway prototyping.](/blog/inside-it/throwaway-prototyping)
+
 ### Oversight
 
 Tying in with this is the issue of oversight. As before, the nature of RAD projects means that it can be hard to know exactly where this stands at any given moment. This idea makes a lot of ops professionals very uncomfortable.
@@ -149,7 +151,7 @@ In reality, there’s a bit of a balancing act that’s needed in either model.
 
 So, we must be conscious of the fact that excessive scope creep can lead to spiraling costs, but inflexibility can inhibit your ability to properly meet users’ real-life needs. We can think back to the kinds of projects that suit each model to help guide us here.
 
-![](https://lh3.googleusercontent.com/iCWNB4dfRY3Jn_Wfh3BRGJE6f9eJDJyIfrjwBJvAC6CQwfwtBh3kGWE320cN7QDhYpHKIJOJNbhRNVtllI04EWp4zRGQbvaqXyrp-jnhP0zCX0K6uXnveoIPA5-HZCJai9Yj4QolEHqnxRAMo1fnv7gYky9ai3qcLtbtDWnwBkaxpxD4X_d9Nt_mBw =624x351)
+![Scope Creep](https://res.cloudinary.com/daog6scxm/image/upload/v1665144934/cms/how-to-prevent-scope-creep_xuxmxu.webp "Scope Creep")
 
 ([Proposify](https://www.proposify.com/blog/how-to-prevent-scope-creep))
 
@@ -215,7 +217,7 @@ In other words, they should be at the absolute top of their game.
 
 Naturally, this creates a few problems. Of course, this costs money. That is, such a skill set doesn’t come cheap. We also need to be able to find and recruit suitable talent in the first place.
 
-![](https://lh4.googleusercontent.com/QECBj3_3hdCDuer2ndMwsIhJWk5pql6HLeXDtpIqf5qorwI11z-rPy3ajBOmFOjXS-PLE-fBv_HW0iLSaQOSDlQTHTF5tothCyTvJLDGRLyjfQDXD1tZOo3CAjHNSOJesdsgcK-mUDG2AtXrhik983BuO_q5OJNFaZm9WqEVmIUDj2h78VwabXgF9Q =624x351)
+![Skills Gap](https://res.cloudinary.com/daog6scxm/image/upload/v1665144957/cms/Global_News_Wire_ieb5oe.webp "Skills Gap")
 
 ([Global News Wire](https://www.globenewswire.com/en/news-release/2022/02/10/2382917/0/en/New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html))
 
@@ -233,7 +235,7 @@ However, there’s also plenty of overlap.
 
 For instance, the best tools for RAD projects obviously allow developers to build solutions quickly. It would be silly to assume that waterfall-based projects wouldn’t benefit from this too.
 
-This is a topic in itself. Check out our in-depth guide to rapid application development tools for a fuller discussion.
+This is a topic in itself. Check out our in-depth guide to [rapid application development tools](/blog/inside-it/rapid-application-development-tools) for a fuller discussion.
 
 For now, here are the key points.
 
@@ -253,7 +255,7 @@ Low-code is ideal for RAD because it removes much of the legwork and excessive n
 
 Of course, this is helpful in waterfall projects too. For instance, if you need to quickly output a working [CRUD app](https://budibase.com/blog/crud-app/) as part of a wider system.
 
-![](https://lh3.googleusercontent.com/a2xAR1sfjrwGp7u7DUF3EMM3cQODZ8VEJM4HNsFQF_cqfHSDVIHrTe-PgT42ND1M3fEHO3nyFgjBAWaQlOanTsGYalNLyetLeGOcD-DWbEJDpUVFZpr0La9Si32WOCDjqpbxlA9bpcu5W2FOtE6xDetLwJQcMija5VBOzzgxwiAZLStMWZ1MxMEmNA =624x351)
+![SDLC vs RAD](https://res.cloudinary.com/daog6scxm/image/upload/v1665144979/cms/CRUD_TOOL_ophryh.webp "SDLC vs RAD")
 
 ### Project management
 
@@ -267,7 +269,7 @@ We don’t have as many developers to coordinate. One person might be doing ever
 
 We’d often use bespoke workflow management tools to facilitate this. Check out our ultimate guide to [workflow automation](https://budibase.com/blog/automation/workflow-automation/) for more information on where Budibase comes into play here.
 
-![](https://lh6.googleusercontent.com/2pdXy7CrafUEwEY-YlWsLwuPQZqQaIG8HKDcdEZTP17TdGOLuOka8C-ctKs0Am0PjUqgYME2ggKTgTtr44bP6MDBUrf6C-1LjB9H4SFeW2gFb9_gvZna9KsYs_YhMqga4EfU2blE2Nt1Pt9JFlyA1AGTUNIX7TOx73vrdQPcH0OiJQ1rS2rZS692BA =624x351)
+![Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1665144998/cms/Budibase_k4kvpw.webp "Budibase")
 
 ## Budibase is a developer’s best friend
 
