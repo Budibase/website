@@ -233,6 +233,8 @@ Then there’s the issue of whether your users and clients are able to provide _
 
 So, to be blunt, you might get feedback from users who don’t actually know what they’re talking about, or even what they want. Or, you might need to deal with contradictory opinions from different stakeholders.
 
+Check out our guide to [throwaway prototyping](/blog/inside-it/throwaway-prototyping).
+
 ### Complex project management
 
 Managing RAD projects is also a little bit messy. Since items can move back and forth between phases, it’s comparatively hard to know where you stand at any given time. This is amplified if you’re working on different elements of a project, that are at different stages.
@@ -286,7 +288,7 @@ First of all, the requirement-gathering phase is relatively pared down. Secondly
 
 As we saw earlier, the entire project might go through several iterations of design, feedback, and changes. Or, this might happen with the individual elements within a larger project.
 
-Check out our guide to traditional SDLC vs RAD for more details.
+Check out our guide to traditional [SDLC vs RAD ](/blog/inside-it/traditional-sdlc-vs-rad)for more details.
 
 ### Rapid application development vs Agile
 
@@ -343,7 +345,7 @@ Finally, we can also think about the _kinds_ of tools that are normally built wi
 
 This requires a high degree of integrability, both with external tools and with external data sources. We’ll see what Budibase brings to the table a little bit later.
 
-Check out our guide to rapid application development tools to find out more.
+Check out our guide to [rapid application development tools](/blog/inside-it/rapid-application-development-tools) to find out more.
 
 ## Low-code and rapid application development
 
