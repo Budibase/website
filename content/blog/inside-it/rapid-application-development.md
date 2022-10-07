@@ -29,7 +29,7 @@ Normally, this involves what’s known as a _waterfall_ methodology. As the name
 
 For software projects, this then moves on to the testing phases and eventually to deployment. Once one of these phases is completed, there’s no going backward - at least, there shouldn’t be.
 
-![](https://lh5.googleusercontent.com/kE-PnEV9_j_wR92bSnOBguJ1XF6LkhH-5R0c2knfWqcVMcaFxbn69qAiplMtr4b7rja2wqaN2Ab2SyCth3E2hZR2OPWInaZPLKWH1u6FL15dEgE_gJrnejOLQuEXUjjjQNo0M0Bcrt5E-37KNbYQXCE_YxMGDs9lfWzefHqZy2WntMuuGOjQZmo4wA =624x351)
+![Rapid Application Development Statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1665139179/cms/App_Build_Time_Stats_AppInventiv_nletop.webp "Rapid application development statistics")
 
 ([AppInventiv](https://appinventiv.com/blog/how-long-does-it-take-to-build-a-mobile-app/))
 
@@ -115,7 +115,7 @@ Of course, in the real world bugs and issues will continue to be found after the
 
 However, once the application has gone live, these will more often be monitored and actioned by support teams, rather than developers.
 
-![](https://lh4.googleusercontent.com/4NlDNZ83j1XBZ-LPLhYPDjtNILRU554i9XGBBNdjgC9t6es89FSK9VdSENncm94fIvug8iFGBNw6kg-CLw-wStaM6nlbNcyKmGnrfdBIrIVft6fTuYaBd5Cmn4LLPT14qEXOCyse36umMrEwSp14opU4Ft4NoE5uJA2Z0EmoMrcf5zwaB494iyzSig =624x351)
+![Average Software Build Time](https://res.cloudinary.com/daog6scxm/image/upload/v1665139217/cms/index.html_psig_AOvVaw12dQX2x2tFpTiMlJcxz4-e_ust_1665218170717000_source_images_cd_vfe_ved_0CA4Q3YkBahcKEwiw7uae2836AhUAAAAAHQAAAAAQDQ_kv2h6e.webp "Average Software Build Time")
 
 ([Virginia Tech](https://courses.cs.vt.edu/csonline/SE/Lessons/LifeCycle/index.html))
 
@@ -166,7 +166,7 @@ When combined, these issues mean that RAD generally isn’t the right approach f
 
 However, it’s perfect for simple apps, like CRUD tools.
 
-![](https://lh4.googleusercontent.com/qp9BjhyduyI0IboNdYEvWsmcjtp38GcdOgtKABEpAbCcna7-uYMbc0qlz9uejmei0s0Nyh1y_XGsc4Wx9Jsoc1yLZgApN47kaFX2N8P6vSOCSuSAvKH5mH0gpYlIOxnxMgjfRlbwr1S-ZqX44ajcI6dz_bL6C5ij4zPOVxR0YZ0z1g8JC28MkdkCUQ =624x351)
+![Rapid application Development](https://res.cloudinary.com/daog6scxm/image/upload/v1665139246/cms/CRUD_APP_kq5zaw.webp "Rapid application Development")
 
 ## RAD: pros & cons
 
@@ -229,7 +229,7 @@ Here’s what you need to know.
 
 We’ve seen already that RAD projects require a lot of input from stakeholders. This creates a couple of issues. One is that they need to accept this level of involvement. So, you need to get stakeholder buy-in in order for them to engage with your team in the first place.
 
-Then there’s the issues of whether your users and clients are able to provide _useful_ input.
+Then there’s the issue of whether your users and clients are able to provide _useful_ input.
 
 So, to be blunt, you might get feedback from users who don’t actually know what they’re talking about, or even what they want. Or, you might need to deal with contradictory opinions from different stakeholders.
 
@@ -251,7 +251,7 @@ But at what point does this become a problem? If we set out to build a simple [C
 
 The key is maintaining a clear picture of the core problem we want to solve with rapid application development, so we can leverage its flexibility, without getting bogged down in unrelated use cases.
 
-![](https://lh3.googleusercontent.com/s8M7t7aY0XtQyrvUaTKsTSe4QFHAPD2IIVs3H3TOW7FXqY7sLjg2yK_-z0Vn1G1y_meiGIPh7qfoYV12jvXEEC03HelWtMly3GN6KEXFS1PsCBTF7Q0zwbFMIYHwqUq-XwlHgG74VqZZV0IytoVHWDJIEiMAqG-TnsvfiHd0_NRwSjy1Q-HfHb8MFw =624x351)
+![Scope creep](https://res.cloudinary.com/daog6scxm/image/upload/v1665139277/cms/how-to-prevent-scope-creep_jfzdoc.webp "Scope creep")
 
 ([Proposify](https://www.proposify.com/blog/how-to-prevent-scope-creep))
 
@@ -285,6 +285,8 @@ Let’s quickly reiterate.
 First of all, the requirement-gathering phase is relatively pared down. Secondly, the remaining pre-deployment stages are cyclical, or even contemporaneous, with constant client interactions and feedback.
 
 As we saw earlier, the entire project might go through several iterations of design, feedback, and changes. Or, this might happen with the individual elements within a larger project.
+
+Check out our guide to traditional SDLC vs RAD for more details.
 
 ### Rapid application development vs Agile
 
@@ -383,7 +385,7 @@ Check out our [approval apps](https://budibase.com/approval-apps) page to find o
 
 Budibase is a developer’s best friend. Our platform is the fast, secure, cost-effective way to build custom applications for all sorts of business problems. Tens of thousands of companies around the world choose Budibase for superior development experiences.
 
-![](https://lh4.googleusercontent.com/U6gHjummVt0eqY65kLSoefwKhQ1X_I5jlbKAK9rtGUuIenfjWapwDF-yAzudTEYzIbRCxWEd-yyUsoReP9H4oW2WwFHP8nuKgUkeAAJ2et77RENHKTE3mB_L_pySM34gcqR8MHA4tEZznV8D8xxT2_COHS4Uebr_40csHBx86I5IwGKP8iEJfCZkrA =624x351)
+![Rapid Application Development](https://res.cloudinary.com/daog6scxm/image/upload/v1665139330/cms/6_op1xe7.webp "Rapid Application Development")
 
 Let’s take a look at what makes Budibase the smart choice for low-code developers.
 
