@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-09-20T23:00:00Z
 description = "Rapid application development has seen a huge amount of renewed interest in recent years. Here’s everything you need to know."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1665139085/cms/Citizen_Development_Governance_Header_yclutw.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1665139092/cms/Citizen_Development_Governance_Header_bft2mh.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
