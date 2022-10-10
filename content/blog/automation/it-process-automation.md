@@ -68,7 +68,7 @@ To be a candidate for automation, a process should be:
 
 Additionally, the larger the scale and scope of your processes, the more impact automation will have. This includes how often the process occurs, as well as the number of steps and actors involved.
 
-Check out our guide to [workflow analysis](/blog/automation/what-is-workflow-analysis/) to find out more.
+Check out our guide to [workflow analysis](https://budibase.com/blog/automation/what-is-workflow-analysis/) to find out more.
 
 Within IT departments, the most common automated processes include:
 
