@@ -145,7 +145,7 @@ With it, you can use the API output directly in your components such as tables a
 
 Use the send button to test the call and save it.
 
-The default call is search apps, using the [https://budibase.app/api/public/v1/applications/search](https://budibase.app/api/public/v1/applications/search "https://budibase.app/api/public/v1/applications/search") route.
+The default call is search apps, using the https://budibase.app/api/public/v1/applications/search route.
 
 Once this call is working, copy it, and replace _POST_ with _GET_. Remove the JSON binding and the JSON body. You should get something like this:
 
@@ -153,7 +153,7 @@ Once this call is working, copy it, and replace _POST_ with _GET_. Remove the JS
 
 In this case, we are testing it with this route:
 
-[https://budibase.app/api/public/v1/applications/](https://budibase.app/api/public/v1/applications/ "https://budibase.app/api/public/v1/applications/")\[add_id\]
+https://budibase.app/api/public/v1/applications/\[add_id\]
 
 This is a GET request to load a specific app. Don’t forget to replace \[app_id\] with a valid app id so you can test it out. Save this query.
 
@@ -236,13 +236,13 @@ Then, create a new form component. All form items need a form component as their
 
 The text input for the URL is a simple text field, like this:
 
-![REST API GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1665484651/cms/13_r3rfkh.png "REST API GUI")
+![REST API GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1665484651/cms/13_r3rfkh.webp "REST API GUI")
 
 Notice how we load the default value from the {{ State.url }} data. This pre-populates this field with whatever URL you have saved in your app, coming from this page or the homepage.
 
 Moving on, there’s the JSON Body multi-line component:
 
-![JSON Body](https://res.cloudinary.com/daog6scxm/image/upload/v1665484683/cms/14_lwamdm.png "JSON Body")
+![JSON Body](https://res.cloudinary.com/daog6scxm/image/upload/v1665484683/cms/14_lwamdm.webp "JSON Body")
 
 In this component, you can steer users on how they should add their data. It is done using the { bracket on the label, and a placeholder with just the JSON properties.
 
@@ -250,7 +250,7 @@ Then add a paragraph to close the bracket “}”.
 
 The “run” and “save” buttons are inside a container with these properties so that they are in a single line:
 
-![Horizontal Container](https://res.cloudinary.com/daog6scxm/image/upload/v1665484701/cms/15_z3pypi.png "Horizontal Container")
+![Horizontal Container](https://res.cloudinary.com/daog6scxm/image/upload/v1665484701/cms/15_z3pypi.webp "Horizontal Container")
 
 The “run” button is the exact same button you have inside the rest_queries table. But it won't navigate to a page, and the bindings are based on the form components, not the table components. So:
 
@@ -269,7 +269,7 @@ Now you just need to display your data.
 
 Create the component for the query result container and a data provider. You can use these bindings in it:
 
-![REST API GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1665484772/cms/16_blz5ty.png "REST API GUI")
+![REST API GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1665484772/cms/16_blz5ty.webp "REST API GUI")
 
 Notice how the #post in the query name is useful now. Otherwise, you’d have two queries with the same name.
 
@@ -313,7 +313,7 @@ You can duplicate the POST screen, and use the /get route for the new page.
 
 It is quite similar to the previous screen, this is its elements tree:
 
-![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1665484806/cms/17_iyrjll.png "Component Tree")
+![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1665484806/cms/17_iyrjll.webp "Component Tree")
 
 You just need to update a few items on this page:
 
