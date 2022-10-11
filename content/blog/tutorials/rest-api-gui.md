@@ -60,7 +60,7 @@ The first and simplest method is to create a free account, create a new app, the
 
 Next, just import your API specs using this option:
 
-# \[img 01\]
+![REST API GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1665483891/cms/01_xapbbq.png "REST API GUI")
 
 Then you can use the data source tab itself to quickly test your API calls and see the response.
 
@@ -75,21 +75,19 @@ At the end of this process, you’ll get an app with these screens:
 
 This is how the “all queries” screen looks:
 
-# \[img 02\]
+![Queries screen](https://res.cloudinary.com/daog6scxm/image/upload/v1665484000/cms/02_dg4urj.png "Queries screen")
 
 You can see the main menu at the top. Then there’s a table with the currently saved queries, along with their method, a “run query” button, and an edit button. In addition, there’s an option to add new queries there.
 
-Both the edit and add new screens load similar forms, like this one:
-
-# \[img 03\]
+Both the edit and add new screens load similar forms, like this one:![REST API GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1665484021/cms/03_b5q4lp.png "REST API GUI")
 
 This is a form where you can edit the query, or delete it. If you click on “run query” on the previous screen, the post or get screen is loaded, depending on the query you are running.
 
-# \[img 04\]
+![POST Requests](https://res.cloudinary.com/daog6scxm/image/upload/v1665484040/cms/04_etzaoe.png "POST Requests")
 
 This is the POST screen. In it, you can pass the route, and your data and you’ll see the query results. In addition, you can save queries if you want to.
 
-# \[img 05\]
+![GET Request](https://res.cloudinary.com/daog6scxm/image/upload/v1665484100/cms/05_blgdsb.png "GET Request")
 
 This is the GET screen. It is very similar to the previous one, but it doesn’t require a request body. It allows you to run GET queries and see the results as well.
 
@@ -115,7 +113,7 @@ Two headers are used in all queries:
 * Content-Type - application/JSON.
 * X-budibase-api-key - your API Key. You can find it on the main Budibase page and click on your profile icon:
 
-# \[img 06\]
+![REST API Key](https://res.cloudinary.com/daog6scxm/image/upload/v1665484179/cms/06_l4rxyr.png "REST API Key")
 
 Since these two headers are global, you can just add them on the main Data Source page. This loads them in all of your queries.
 
@@ -127,7 +125,7 @@ To make these queries flexible, you need to rely on bindings. With bindings, the
 
 This is what the POST query looks like:
 
-# \[img 07\]
+![POST Query](https://res.cloudinary.com/daog6scxm/image/upload/v1665484201/cms/07_cjgaba.png "POST Query")
 
 Notice how you are using a URL binding and a JSON body binding. Also, the actual request URL looks like this: {{ url }}#post. Thus, if you add example.com/, the processed URL is example.com/#post
 
@@ -135,15 +133,13 @@ This is just a small quality-of-life change so that you know which query you are
 
 Don’t forget to use the JSON body binding on the “Body” tab for the post request. Set the body as raw (JSON) and use this code:
 
-{
-
-{{ Binding.JSON }}
-
-}
+    {
+    {{ Binding.JSON }}
+    }
 
 Also in this particular API, the return data is inside a “data” variable. You can make your life easier by using this transformer:
 
-return data\["data"\]
+    return data["data"]
 
 With it, you can use the API output directly in your components such as tables and repeaters.
 
@@ -153,7 +149,7 @@ The default call is search apps, using the [https://budibase.app/api/public/v1/a
 
 Once this call is working, copy it, and replace _POST_ with _GET_. Remove the JSON binding and the JSON body. You should get something like this:
 
-# \[img 08\]
+![GET request](https://res.cloudinary.com/daog6scxm/image/upload/v1665484234/cms/08_t0xhnd.png "GET Request")
 
 In this case, we are testing it with this route:
 
@@ -181,13 +177,13 @@ You will notice that the rest_queries screen is a bit different from the demo ap
 
 Now compare the element tree you have right now, with the elements tree from the demo app:
 
-# \[img 09\]
+![REST API GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1665484264/cms/09_ajxczm.png "REST API GUI")
 
 The main difference is in the rest_queries Table.
 
 First, there’s the “Run query” button. With the table selected, create a new button component. Then open up its “onclick” actions:
 
-# \[img 10\]
+![Button Actions](https://res.cloudinary.com/daog6scxm/image/upload/v1665484282/cms/10_eammu6.png "Button Actions")
 
 This button has three actions:
 
@@ -217,7 +213,7 @@ Moving on, the edit link is just the view link with a different name. Feel free 
 
 Lastly, there are the “post” and “get” tags. You can create them by adding both tag components to all rows. Then use the display conditions to show only the correct tag, like this:
 
-# \[img 11\]
+![REST API GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1665484465/cms/11_zgreuv.png "REST API GUI")
 
 You can use these conditions:
 
@@ -232,7 +228,7 @@ Create a new screen with the /post route. The overall logic for this page is to 
 
 This is the elements tree:
 
-# \[img 12\]
+![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1665484484/cms/12_shrqvp.png "Component Tree")
 
 Create the title container with a title component. There are no big surprises on these components, just use some text to show a title on your page.
 
@@ -240,13 +236,13 @@ Then, create a new form component. All form items need a form component as their
 
 The text input for the URL is a simple text field, like this:
 
-# \[img 13\]
+![REST API GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1665484651/cms/13_r3rfkh.png "REST API GUI")
 
 Notice how we load the default value from the {{ State.url }} data. This pre-populates this field with whatever URL you have saved in your app, coming from this page or the homepage.
 
 Moving on, there’s the JSON Body multi-line component:
 
-# \[img 14\]
+![JSON Body](https://res.cloudinary.com/daog6scxm/image/upload/v1665484683/cms/14_lwamdm.png "JSON Body")
 
 In this component, you can steer users on how they should add their data. It is done using the { bracket on the label, and a placeholder with just the JSON properties.
 
@@ -254,7 +250,7 @@ Then add a paragraph to close the bracket “}”.
 
 The “run” and “save” buttons are inside a container with these properties so that they are in a single line:
 
-# \[img 15\]
+![Horizontal Container](https://res.cloudinary.com/daog6scxm/image/upload/v1665484701/cms/15_z3pypi.png "Horizontal Container")
 
 The “run” button is the exact same button you have inside the rest_queries table. But it won't navigate to a page, and the bindings are based on the form components, not the table components. So:
 
@@ -273,7 +269,7 @@ Now you just need to display your data.
 
 Create the component for the query result container and a data provider. You can use these bindings in it:
 
-# \[img 16\]
+![REST API GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1665484772/cms/16_blz5ty.png "REST API GUI")
 
 Notice how the #post in the query name is useful now. Otherwise, you’d have two queries with the same name.
 
@@ -297,23 +293,15 @@ Then create the cards container to hold the output. You can set it with width: 3
 
 The paragraph component contains this JS code:
 
-var row = $("New Repeater.Row Index");
-
-row = $("Main Query.Rows")\[row\];
-
-var ret = "";
-
-Object.entries(row).forEach((\[key, val\]) => {
-
-ret += "" + key + ":\\n";
-
-ret += JSON.stringify(val, null, "\\t");
-
-ret += "\\n\\n";
-
-});
-
-return ret;
+    var row = $("New Repeater.Row Index");
+    row = $("Main Query.Rows")[row];
+    var ret = "";
+    Object.entries(row).forEach(([key, val]) => {
+    ret += "" + key + ":\n";
+    ret += JSON.stringify(val, null, "\t");
+    ret += "\n\n";
+    });
+    return ret;
 
 This function gets the current row index (a number), then loads a variable from the data provider array with the entire row. Next, for each of the row properties, you display the key and a string representation of the value (in case you have elements inside an element).
 
@@ -325,7 +313,7 @@ You can duplicate the POST screen, and use the /get route for the new page.
 
 It is quite similar to the previous screen, this is its elements tree:
 
-# \[img 17\]
+![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1665484806/cms/17_iyrjll.png "Component Tree")
 
 You just need to update a few items on this page:
 
