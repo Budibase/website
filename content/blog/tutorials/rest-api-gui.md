@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-09-23T23:00:00Z
 description = "Learn how to create a simple yet powerful REST API GUI with Budibase."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1665483680/cms/Database_GUI_Post_Headers_oteert.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1665483688/cms/Database_GUI_Post_Headers_bt86x3.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
