@@ -74,6 +74,7 @@ pages:
 - content/blog/process-improvement-plan/index.md
 - content/blog/tutorials/database-gui.md
 - content/blog/tutorials/google-sheets-gui.md
+- content/blog/tutorials/how-to-build-a-rest-api-gui-in-4-steps.md
 - content/blog/tutorials/mongodb-gui.md
 - content/blog/tutorials/mysql-gui.md
 - content/blog/tutorials/postgres-gui.md
