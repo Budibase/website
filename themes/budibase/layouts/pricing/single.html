@@ -20,12 +20,12 @@
   </div>
 </div>
 <div class="mt-2 mb-6">
-<div id="cloud" class="tabcontent">
-{{ partial "pricing/per-user.html"}}
-</div>
-<div id="selfHost" class="tabcontent">
-  {{ partial "pricing/per-user-self-host.html"}}
-</div>
+  <div id="cloud" class="tabcontent">
+  {{ partial "pricing/per-user.html"}}
+  </div>
+  <div id="selfHost" class="tabcontent">
+    {{ partial "pricing/per-user-self-host.html"}}
+  </div>
 </div>
 <div class="mt-4 mb-6">
   {{ partial "pricing/pricing-faqs.html" . }}
@@ -37,6 +37,5 @@
 <script src="{{ "js/pricing.js" | absURL }}"></script>
 <script src="{{ "js/pricing-tabs.js" | absURL }}"></script>
 <script>
-  // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
-  </script>
+</script>
