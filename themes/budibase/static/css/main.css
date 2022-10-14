@@ -76,7 +76,7 @@
     --space-9: 80px;
     --sizes-1: 5px;
     --sizes-2: 10px;
-    --sizes-3: 15px;
+    --sizes-3: 16px;
     --sizes-4: 20px;
     --sizes-5: 25px;
     --sizes-6: 35px;
@@ -121,7 +121,7 @@ body {
   margin: 0;
   font-family: var(--font);  
   color: var(--text-color-medium);
-  font-size: var(--fontsize-4);
+  font-size: var(--fontsize-3);
   font-variation-settings: "wght" 400;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
@@ -917,11 +917,6 @@ h6, .h6 {
   font-size: var(--fontsize-4);
 }
 
-@media (max-width: 576px) {
-  .lead {
-    font-size: var(--fontsize-5);
-  }
-}
 
 .display-lead {
   font-size: var(--fontsize-6) !important;
@@ -2886,7 +2881,7 @@ details[open] > summary {
   @media (min-width: 768px) {
     .pricing {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       gap: var(--space-3);
     }
   }
@@ -2895,11 +2890,34 @@ details[open] > summary {
 @media (min-width: 1200px) {
   .pricing {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: var(--space-3);
   }
 }
 
+.pricing-self-host {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .pricing-self-host {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-3);
+  }
+}
+
+
+@media (min-width: 1200px) {
+.pricing-self-host {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--space-3);
+}
+}
 
 
 .pricing-tiers {
@@ -2999,10 +3017,46 @@ details[open] > summary {
   }
 }
 
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: black;
+  gap: 12px;
+  display: flex;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 6px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: var(--light3);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: var(--hiContrast);
+  color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+}
+
+
+
 .pricing-tabs-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 .pricing-tabs {
@@ -4680,8 +4734,8 @@ fieldset:disabled a.btn {
       -ms-user-select: none;
           user-select: none;
   border: 0em solid transparent;
-  padding: 6px 18px;
-  font-size: 16px;
+  padding: 2px 18px;
+  font-size: 14px;
   line-height: none;
   border-radius: var(--sizes-9) !important;
   transition: all 0.2s ease-in-out;
@@ -4698,9 +4752,6 @@ fieldset:disabled a.btn {
   justify-content: center;
   text-align: center;
   appearance: none;
-  color: white;
-  background-color: var(--hiContrast);
-  border-radius: var(--sizes-9) !important;
 }
 
 
@@ -4716,8 +4767,8 @@ fieldset:disabled a.btn {
       -ms-user-select: none;
           user-select: none;
   border: 0em solid transparent;
-  padding: 6px 18px;
-  font-size: 16px;
+  padding: 2px 18px;
+  font-size: 14px;
   line-height: none;
   border-radius: var(--sizes-9) !important;
   transition: all 0.2s ease-in-out;
@@ -6110,6 +6161,10 @@ button.bg-blue:focus {
   border-radius: var(--radius-6) !important;
 }
 
+.rounded-xl {
+  border-radius: var(--radius-8) !important;
+}
+
 .rounded-sm {
   border-radius: var(--radius-2) !important;
 }
@@ -6138,12 +6193,13 @@ button.bg-blue:focus {
   border-radius: 50% !important;
 }
 
+
 .rounded-0 {
   border-radius: 0 !important;
 }
 
 .rounded-pill {
-  border-radius: 6.1875rem !important;
+  border-radius: var(--radius-pill) !important;
 }
 
 .clearfix::after {
@@ -6550,7 +6606,7 @@ button.bg-blue:focus {
 
 .font-weight-medium {
   font-weight: 500 !important;
-  font-variation-settings: "wght" 530;
+  font-variation-settings: "wght" 520;
 }
 
 .font-weight-semi-bold {

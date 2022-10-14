@@ -2,28 +2,41 @@
 <div class="container mx-auto">
   <div class="container-9 mx-auto space-2-top">
     <h1 class="mb-3 text-center mb-4">Fair, scalable pricing</h1>
-    <p class="w-lg-60 mb-4 lead  mx-auto text-dark text-center font-weight-medium">Per user pricing is broken and forces you to pay for inactive users. <span class="font-weight-bold">With Budibase, you only for users who are active.</span> </p>
-    <!--
+    <p class="w-lg-60 mb-4 mx-auto text-center lead">Build unlimited apps for free. No credit card required.
+    </p>
   <div class="pricing-tabs-container flex-row gap-md mb-4">
-    <div class="pricing-tabs px-2 py-1">
-        <button class="btn btn-tag">Budibase Cloud (We host)</button>
-        <a href="/self-host"> <button class="btn btn-tag-quiet">Self-Host (You host)</button></a>
+    <div class="tab px-4 py-2 border rounded-pill bg-white">
+        <button class="btn btn-tag tablinks" onclick="openPricing(event, 'cloud')" id="defaultOpen">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="24px" stroke-width="1.5" stroke="#cccccc" class="w-6 h-6 mr-2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 004.5 4.5H18a3.75 3.75 0 001.332-7.257 3 3 0 00-3.758-3.848 5.25 5.25 0 00-10.233 2.33A4.502 4.502 0 002.25 15z" />
+        </svg>
+        Cloud</button>
+          <button class="btn btn-tag-quiet tablinks" onclick="openPricing(event, 'selfHost')" >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="24px" stroke-width="1.5" stroke="#aaaaaa" class="w-6 h-6 mr-2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z" />
+          </svg>
+          Self-Host</button>
     </div>
   </div>
-  -->
 </div>
-  <div class="space-1"></div>
-  {{ partial "pricing/per-day-pass.html"}}
-
-  <div class="container-9 space-1">
-  {{ partial "pricing/day-passes.html" . }}
+<div class="mt-2 mb-6">
+<div id="cloud" class="tabcontent">
+{{ partial "pricing/per-user.html"}}
 </div>
-
+<div id="selfHost" class="tabcontent">
+  {{ partial "pricing/per-user-self-host.html"}}
 </div>
-
-{{ partial "pricing/pricing-faqs.html" . }}
+</div>
+<div class="mt-4 mb-6">
+  {{ partial "pricing/pricing-faqs.html" . }}
+</div>
 {{ partial "cta.html" . }}
 {{ partial "footer.html" . }}
 
 <!-- JS -->
 <script src="{{ "js/pricing.js" | absURL }}"></script>
+<script src="{{ "js/pricing-tabs.js" | absURL }}"></script>
+<script>
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+  </script>
