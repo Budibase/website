@@ -49,17 +49,17 @@ The easiest way to visualize data is with a Redis GUI. With it, you can display 
 
 Today you are going to be a Redis GUI with just one screen. But it has two tabs. The first tab is for premade commands, like this:
 
-# \[img 01\]
+![Redis GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1666101630/cms/01_yiwtpn.png "Redis GUI")
 
 This screen contains a form with the command to be executed and two options for how to get the key to be used, with a custom key or picking from a list:
 
-# \[img 02\]
+![Dropdown selector](https://res.cloudinary.com/daog6scxm/image/upload/v1666101670/cms/02_ivk6vz.png "Form Dropdown")
 
 You can use the form to build your command and see the results. In this app, we are using a display design that resembles a command line. But you can customize this design in any way you want to with the Budibase components.
 
 In addition to the premade commands, there’s the “Custom commands” tab. It’s a simple form that allows advanced users to run their own commands:
 
-# \[img 03\]
+![Redis command](https://res.cloudinary.com/daog6scxm/image/upload/v1666101723/cms/03_lclo3y.png "Premade Command")
 
 Check out our in-depth guide to [form UI design](https://budibase.com/blog/app-building/form-ui-design/).
 
@@ -73,7 +73,7 @@ If you haven’t already, sign up for Budibase. Then create a new app. If you ju
 
 Back to Budibase, on the next screen, pick Redis as your data source and click on continue. Then add your database credentials:
 
-# \[img 04\]
+![Configure Redis GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1666101744/cms/04_pctwd3.png "Configure Redis GUI")
 
 If you have any sort of firewall, don’t forget to whitelist the Budibase IP address.
 
@@ -81,7 +81,7 @@ Once you do this, Budibase can connect with your database.
 
 Next, you can manipulate data using queries. Click on add new query to get this screen:
 
-# \[img 05\]
+![Redis queries](https://res.cloudinary.com/daog6scxm/image/upload/v1666101847/cms/05_sfdmwy.png "Redis queries")
 
 In it, you can see a few connection types. These are quick commands in case you just want to use one of them. In the demo app, you could really have just one query. But to make this easier to follow along, let’s create two queries in your Redis GUI.
 
@@ -108,31 +108,21 @@ It’s much harder to use this kind of data in components such as options picker
 
 So we transform the default data response from this:
 
-\[
-
-\[
-
-"firstkey",
-
-"anotherkey",
-
-"newkey"
-
-\]
-
-\]
+    [
+    [
+    "firstkey",
+    "anotherkey",
+    "newkey"
+    ]
+    ]
 
 Into this:
 
-\[
-
-"firstkey",
-
-"anotherkey",
-
-"newkey"
-
-\]
+    [
+        "firstkey",
+        "anotherkey",
+        "newkey"
+    ]
 
 That’s all you need on the “Data” tab. Let’s move on to the “Design” tab now.
 
@@ -140,33 +130,35 @@ That’s all you need on the “Data” tab. Let’s move on to the “Design”
 
 Go to Design > Theme. In this section, you can set up what your Redis GUI looks like. Pick the dark theme, and set the button roundness to zero:
 
-# \[img 06\]
+![Redis GUI design](https://res.cloudinary.com/daog6scxm/image/upload/v1666101981/cms/06_nubmxq.png "App theme")
 
-You can use round buttons if you want, but with this setting it’s easier to create your tabs design.
+You can use round buttons if you want, but with this setting, it’s easier to create your tabs design.
 
-Also, you can add another styling options such as a background color in your header. Click on _Navigation_, and then add this as the background color:
+Also, you can add other styling options such as a background color in your header. Click on _Navigation_, and then add this as the background color:
 
-radial-gradient( circle farthest-corner at 10% 20%, rgba(174,14,87,1) 0%, rgba(174,116,12,1) 90% )
+    radial-gradient(circle farthest-corner at 10% 20%, 
+    rgba(174,14,87,1) 0%, 
+    rgba(174,116,12,1) 90% )
 
 You can use not only regular colors but also CSS gradients as well.
 
-On this screen, you can delete the navigation links in case you want a one-page app like we have in our demo.
+On this screen, you can delete the navigation links in case you want a one-page app as we have in our demo.
 
 Now go to screens, add new and pick a blank screen.
 
 This is the elements tree for this portion of the tutorial:
 
-# \[img 07\]
+![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1666102092/cms/07_qr5h1q.png "Component Tree")
 
 First, add a container component to hold your tabs buttons. Set this container to the horizontal direction, and align left:
 
-# \[img 08\]
+![Container Direction](https://res.cloudinary.com/daog6scxm/image/upload/v1666102110/cms/08_tiopr3.png "Container Direction")
 
 With these settings, your buttons are going to be on the same line, and they will be next to each other.
 
 Then add the two buttons to pick which is the active tab. Both have the quiet design selected and this onClick action:
 
-# \[img 09\]
+![Button Actions](https://res.cloudinary.com/daog6scxm/image/upload/v1666102166/cms/09_swn7tf.png "Button Actions")
 
 This action saves the current tab. So it’s either Premade or Custom.
 
@@ -174,11 +166,10 @@ Also, make sure that the component name is correct, as we use the name in the ta
 
 Now you can add an embed component with this code:
 
-<style type='text/css'>
-
-div\[data-name="{{ State.tab }} Commands"\] > button { background: #000 ! important }
-
-</style>
+    <style type='text/css'>
+    div[data-name="{{ State.tab }} Commands"] > 
+    button { background: #000 ! important 
+    </style>
 
 The trick here is to apply a CSS background color only to the tab with the name “\[state\] Commands”. This is what this embed code does.
 
@@ -186,7 +177,7 @@ Now you need to switch back and forth between the tabs. You can hide and show th
 
 The “premade” container has these display conditions:
 
-# \[img 10\]
+![Redis GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1666102230/cms/10_qvv2bq.png "Redis GUI")
 
 It’s “hide” if {{ State.tab }} is Custom. And the custom container is the other way around. The display condition there is the “show” if {{ State.tab }} is Custom.
 
@@ -194,9 +185,8 @@ Thus, when one container is visible, the other is hidden at all times.
 
 Both these containers are inside another container. This component is there just to hold the border that goes around the tabs. You can use this CSS code in it:
 
-border: 5px solid #000;
-
-margin-top: -34px
+    border: 5px solid #000;
+    margin-top: -34px
 
 And then use some paddings as well if you want. In our demo we have 16px top/bottom and 20px left/right.
 
@@ -208,7 +198,7 @@ If you want a more complex solution, you can get them from a database. This allo
 
 The key type is an options picker with the “radio button” style, in the horizontal mode:
 
-# \[img 11\]
+![keyType component tree](https://res.cloudinary.com/daog6scxm/image/upload/v1666102259/cms/11_kts4hc.png "KeyType")
 
 This options picker has two custom options just like the previous one.
 
@@ -224,11 +214,11 @@ This ensures that only one of them is visible at a time since they have opposing
 
 The customkey text field is a simple text field. The current keys picker uses a data provider with the get_keys query:
 
-# \[img 12\]
+![get_key component](https://res.cloudinary.com/daog6scxm/image/upload/v1666102290/cms/12_m1kvb7.png "get_keys component")
 
 Then, on the options picker, select the data provider as your options source:
 
-# \[img 13\]
+![currentKeys](https://res.cloudinary.com/daog6scxm/image/upload/v1666102311/cms/13_phj0da.png "currentKeys")
 
 You can add a text field for additional parameters, and also a text field for the custom query. They are simple text fields.
 
@@ -238,23 +228,18 @@ There are two buttons, one for each tab. Both of them do the same thing. The run
 
 Here is an example:
 
-# \[img 14\]
+![Button Actions](https://res.cloudinary.com/daog6scxm/image/upload/v1666102363/cms/14_klxqlt.png "Button Actions")
 
 In the premade tab, you can use this JS code:
 
-var field = $("Query.Fields.keytype");
-
-if ( field && "custom" == field) {
-
-field = $("Query.Fields.customkey");
-
-} else {
-
-field = $("Query.Fields.currentkeys");
-
-}
-
-return $("Query.Fields.command") + " " + field + " " + $("Query.Fields.more")
+    var field = $("Query.Fields.keytype");
+    if ( field && "custom" == field) {
+    field = $("Query.Fields.customkey");
+    } else {
+    field = $("Query.Fields.currentkeys");
+    }
+    return $("Query.Fields.command") + 
+    " " + field + " " + $("Query.Fields.more")
 
 This code snippet saves the command, field, and the additional parameters as a single text line in the “query” appState.
 
@@ -262,7 +247,7 @@ That’s what allows your Redis GUI to load commands as your users pick them.
 
 You’ll use a very similar approach to the custom query tab. The “run” button in this case simply saves the “query” appstate with this value:
 
-{{ CustomQuery.Fields.fullcommand }}
+    {{ CustomQuery.Fields.fullcommand }}
 
 Therefore, the “query” appState is just a mirror of the value in the text field for the custom query tab.
 
@@ -272,7 +257,7 @@ Now let’s process and display this data.
 
 There are just a couple of components left to build your Redis GUI. This is the components tree for that section of the page:
 
-# \[img 15\]
+![Response data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1666102413/cms/15_vug3o7.png "Response data provider")
 
 There are two markdown components.
 
@@ -286,61 +271,49 @@ font-family: Monaco, Consolas, 'Courier New', 'Courier', monospace
 
 Then on the markdown contents use this JS function:
 
-var query = $("State.query");
-
-if ( ! query ) {
-
-query = "ping";
-
-}
-
-query = query.split(' ');
-
-query\[0\] = "<div style='background: rgba(255, 255, 255, 0.1);padding: 5px 10px'><strong style='color: rgb(234 179 8)'>&gt; </strong><strong style='color: rgb(147, 45, 250)'>" + query\[0\] + " </strong> <strong> ";
-
-last = query.length - 1;
-
-query\[last\] = query\[last\] + "</strong></div>";
-
-query = query.join(" ");
-
-return query
+    var query = $("State.query");
+    if ( ! query ) {
+    query = "ping";
+    }
+    query = query.split(' ');
+    query[0] = "<div style='background: 
+    rgba(255, 255, 255, 0.1);
+    padding: 5px 10px'>
+    <strong style='color: rgb(234 179 8)'>> 
+    </strong>
+    <strong style='color: rgb(147, 45, 250)'>" 
+    + query[0] + " </strong> <strong> ";
+    last = query.length - 1;
+    query[last] = query[last] + "</strong></div>";
+    query = query.join(" ");
+    return query
 
 This function checks if the query appState is set. If it isn’t, it sets it with the default state (ping). Then, it breaks the command down into two parts, the first one gets a different color, and the second part is bold.
 
 The results data provider is calling your generic “command” query. You can pass the query appState as a binding:
 
-# \[img 16\]
+![Redis GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1666102487/cms/16_udk3ic.png "Redis GUI")
 
 To make sure that the default data is correctly used, you can use this JS function:
 
-if ( $("State.query") ) {
-
-return $("State.query");
-
-} else {
-
-return "ping"
-
-}
+    if ( $("State.query") ) {
+    return $("State.query");
+    } else {
+    return "ping"
+    }
 
 So it either returns the query appState or a ping command.
 
 The data itself is all extracted into a paragraph. You can use this JS function in it:
 
-var data = $("results.Rows");
-
-if ( data && data.length > 0 ) {
-
-data = JSON.stringify(data, null, '\\t')
-
-} else {
-
-data = "no data - check if your command is correct";
-
-}
-
-return data;
+    var data = $("results.Rows");
+    if ( data && data.length > 0 ) {
+    data = JSON.stringify(data, null, '\t')
+    } else {
+    data = 
+    "no data - check if your command is correct";
+    }
+    return data;
 
 This code checks if there are valid results. If there are, use the stringify function to display the variables nicely. If there is no data, display an error message.
 
