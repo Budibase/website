@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-10-17T23:00:00Z
 description = "Build a Redis GUI, to make the most out of your database, without memorizing any commands."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1666101435/cms/Redis_GUI_Header_xsetam.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1666101443/cms/Redis_GUI_Header_x4q75k.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
