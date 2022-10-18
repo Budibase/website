@@ -49,17 +49,17 @@ The easiest way to visualize data is with a Redis GUI. With it, you can display 
 
 Today you are going to be a Redis GUI with just one screen. But it has two tabs. The first tab is for premade commands, like this:
 
-![Redis GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1666101630/cms/01_yiwtpn.png "Redis GUI")
+![Redis GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1666101630/cms/01_yiwtpn.webp "Redis GUI")
 
 This screen contains a form with the command to be executed and two options for how to get the key to be used, with a custom key or picking from a list:
 
-![Dropdown selector](https://res.cloudinary.com/daog6scxm/image/upload/v1666101670/cms/02_ivk6vz.png "Form Dropdown")
+![Dropdown selector](https://res.cloudinary.com/daog6scxm/image/upload/v1666101670/cms/02_ivk6vz.webp "Form Dropdown")
 
 You can use the form to build your command and see the results. In this app, we are using a display design that resembles a command line. But you can customize this design in any way you want to with the Budibase components.
 
 In addition to the premade commands, there’s the “Custom commands” tab. It’s a simple form that allows advanced users to run their own commands:
 
-![Redis command](https://res.cloudinary.com/daog6scxm/image/upload/v1666101723/cms/03_lclo3y.png "Premade Command")
+![Redis command](https://res.cloudinary.com/daog6scxm/image/upload/v1666101723/cms/03_lclo3y.webp "Premade Command")
 
 Check out our in-depth guide to [form UI design](https://budibase.com/blog/app-building/form-ui-design/).
 
@@ -73,7 +73,7 @@ If you haven’t already, sign up for Budibase. Then create a new app. If you ju
 
 Back to Budibase, on the next screen, pick Redis as your data source and click on continue. Then add your database credentials:
 
-![Configure Redis GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1666101744/cms/04_pctwd3.png "Configure Redis GUI")
+![Configure Redis GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1666101744/cms/04_pctwd3.webp "Configure Redis GUI")
 
 If you have any sort of firewall, don’t forget to whitelist the Budibase IP address.
 
@@ -81,7 +81,7 @@ Once you do this, Budibase can connect with your database.
 
 Next, you can manipulate data using queries. Click on add new query to get this screen:
 
-![Redis queries](https://res.cloudinary.com/daog6scxm/image/upload/v1666101847/cms/05_sfdmwy.png "Redis queries")
+![Redis queries](https://res.cloudinary.com/daog6scxm/image/upload/v1666101847/cms/05_sfdmwy.webp "Redis queries")
 
 In it, you can see a few connection types. These are quick commands in case you just want to use one of them. In the demo app, you could really have just one query. But to make this easier to follow along, let’s create two queries in your Redis GUI.
 
@@ -130,7 +130,7 @@ That’s all you need on the “Data” tab. Let’s move on to the “Design”
 
 Go to Design > Theme. In this section, you can set up what your Redis GUI looks like. Pick the dark theme, and set the button roundness to zero:
 
-![Redis GUI design](https://res.cloudinary.com/daog6scxm/image/upload/v1666101981/cms/06_nubmxq.png "App theme")
+![Redis GUI design](https://res.cloudinary.com/daog6scxm/image/upload/v1666101981/cms/06_nubmxq.webp "App theme")
 
 You can use round buttons if you want, but with this setting, it’s easier to create your tabs design.
 
@@ -148,17 +148,17 @@ Now go to screens, add new and pick a blank screen.
 
 This is the elements tree for this portion of the tutorial:
 
-![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1666102092/cms/07_qr5h1q.png "Component Tree")
+![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1666102092/cms/07_qr5h1q.webp "Component Tree")
 
 First, add a container component to hold your tabs buttons. Set this container to the horizontal direction, and align left:
 
-![Container Direction](https://res.cloudinary.com/daog6scxm/image/upload/v1666102110/cms/08_tiopr3.png "Container Direction")
+![Container Direction](https://res.cloudinary.com/daog6scxm/image/upload/v1666102110/cms/08_tiopr3.webp "Container Direction")
 
 With these settings, your buttons are going to be on the same line, and they will be next to each other.
 
 Then add the two buttons to pick which is the active tab. Both have the quiet design selected and this onClick action:
 
-![Button Actions](https://res.cloudinary.com/daog6scxm/image/upload/v1666102166/cms/09_swn7tf.png "Button Actions")
+![Button Actions](https://res.cloudinary.com/daog6scxm/image/upload/v1666102166/cms/09_swn7tf.webp "Button Actions")
 
 This action saves the current tab. So it’s either Premade or Custom.
 
@@ -177,7 +177,7 @@ Now you need to switch back and forth between the tabs. You can hide and show th
 
 The “premade” container has these display conditions:
 
-![Redis GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1666102230/cms/10_qvv2bq.png "Redis GUI")
+![Redis GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1666102230/cms/10_qvv2bq.webp "Redis GUI")
 
 It’s “hide” if {{ State.tab }} is Custom. And the custom container is the other way around. The display condition there is the “show” if {{ State.tab }} is Custom.
 
@@ -198,7 +198,7 @@ If you want a more complex solution, you can get them from a database. This allo
 
 The key type is an options picker with the “radio button” style, in the horizontal mode:
 
-![keyType component tree](https://res.cloudinary.com/daog6scxm/image/upload/v1666102259/cms/11_kts4hc.png "KeyType")
+![keyType component tree](https://res.cloudinary.com/daog6scxm/image/upload/v1666102259/cms/11_kts4hc.webp "KeyType")
 
 This options picker has two custom options just like the previous one.
 
@@ -214,11 +214,11 @@ This ensures that only one of them is visible at a time since they have opposing
 
 The customkey text field is a simple text field. The current keys picker uses a data provider with the get_keys query:
 
-![get_key component](https://res.cloudinary.com/daog6scxm/image/upload/v1666102290/cms/12_m1kvb7.png "get_keys component")
+![get_key component](https://res.cloudinary.com/daog6scxm/image/upload/v1666102290/cms/12_m1kvb7.webp "get_keys component")
 
 Then, on the options picker, select the data provider as your options source:
 
-![currentKeys](https://res.cloudinary.com/daog6scxm/image/upload/v1666102311/cms/13_phj0da.png "currentKeys")
+![currentKeys](https://res.cloudinary.com/daog6scxm/image/upload/v1666102311/cms/13_phj0da.webp "currentKeys")
 
 You can add a text field for additional parameters, and also a text field for the custom query. They are simple text fields.
 
@@ -228,7 +228,7 @@ There are two buttons, one for each tab. Both of them do the same thing. The run
 
 Here is an example:
 
-![Button Actions](https://res.cloudinary.com/daog6scxm/image/upload/v1666102363/cms/14_klxqlt.png "Button Actions")
+![Button Actions](https://res.cloudinary.com/daog6scxm/image/upload/v1666102363/cms/14_klxqlt.webp "Button Actions")
 
 In the premade tab, you can use this JS code:
 
@@ -257,7 +257,7 @@ Now let’s process and display this data.
 
 There are just a couple of components left to build your Redis GUI. This is the components tree for that section of the page:
 
-![Response data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1666102413/cms/15_vug3o7.png "Response data provider")
+![Response data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1666102413/cms/15_vug3o7.webp "Response data provider")
 
 There are two markdown components.
 
@@ -292,7 +292,7 @@ This function checks if the query appState is set. If it isn’t, it sets it wit
 
 The results data provider is calling your generic “command” query. You can pass the query appState as a binding:
 
-![Redis GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1666102487/cms/16_udk3ic.png "Redis GUI")
+![Redis GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1666102487/cms/16_udk3ic.webp "Redis GUI")
 
 To make sure that the default data is correctly used, you can use this JS function:
 
