@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-09-09T23:00:00Z
 description = "Today we’re diving deep into everything you need to know about the most common types of enterprise software."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1666615092/cms/Types_of_Enterprise_Software_Header_chlvpg.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1666615099/cms/Types_of_Enterprise_Software_Header_uttm5g.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"

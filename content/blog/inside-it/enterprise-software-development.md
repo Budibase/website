@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-10-23T23:00:00Z
 description = "Enterprise software development is a unique challenge. Read our ultimate guide to find out more."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1666608769/cms/Enterprise_Software_Development_qjze3x.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1666608776/cms/Enterprise_Software_Development_suzlgt.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"

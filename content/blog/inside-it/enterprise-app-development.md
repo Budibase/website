@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-09-20T23:00:00Z
 description = "Read our in-depth guide to modern enterprise app development."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1666614600/cms/Types_of_Enterprise_Software_Header_trxznv.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1666614607/cms/Types_of_Enterprise_Software_Header_oenjcm.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
