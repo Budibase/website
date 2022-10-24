@@ -33,7 +33,7 @@ Secondly, this is compounded by the fact that enterprise IT teams are burdened w
 
 Squaring this circle will be the top priority for IT leaders in 2023 and beyond.
 
-![](https://lh3.googleusercontent.com/55sK7GN7wgDfPZdwPthHZENJgW8cO-PItyBxTvpMqmANbYi-1fZ-IH8-iT8LwyamIhRXhAxmYu_RjLX_0OhM3fXJsiWs2gp_1XHhpqRUZJ8Csr5AlV8OwbV3UJWLUxP-Qn_4GhXC0_X-B0O5tKQLgGfw9O8Xi0Yo-IOqvElwNXaag_Xz7DcdpxmTIg =624x351)
+![Enterprise Software Industry Trends](https://res.cloudinary.com/daog6scxm/image/upload/v1666610054/cms/New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html_rep0fv.png "Enterprise Software Industry Trends")
 
 ([Global News Wire](https://www.globenewswire.com/en/news-release/2022/02/10/2382917/0/en/New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html))
 
@@ -61,7 +61,7 @@ So, we might increasingly empower non-developers to solve problems with automati
 
 Check out our guide to [citizen development governance](https://budibase.com/blog/inside-it/citizen-development-governance/) for more information.
 
-![](https://lh4.googleusercontent.com/DwLzempZLx3MyEFQdBwrjy3d0HLy_sqVRoPMXtLTT-TMahzBW5rQm4hYN7PUI1Y7ickMY7xftxX9nlhk8kUtkVu0tWvI80GCsBbpjMibzpY8iAN_cnVD7qeP9kDWE6b0B5WBhMvG1hfUBzin2PCeNsV3GdVWCxjOwdSfX01xq47UUFnKRYeq9HnB3g =624x351)
+![AUtomation Enterprise Software Industry Trends](https://res.cloudinary.com/daog6scxm/image/upload/v1666614163/cms/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_0_ovcqnl.png "Automation Enterprise Software Industry Trends")
 
 ([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages#0))
 
@@ -113,7 +113,7 @@ Obviously, the need for security must be balanced with the need for developers t
 
 As such, DevSecOps is equal parts a cultural shift as an impetus to seek out new tools and automated processes within enterprise SDLCs.
 
-![](https://lh6.googleusercontent.com/mheQCz3uAiw6icotLkW7sdg66vJgfZwz-YQcSn7G3uEtJ9wpg4B97BCA0ZNjMWy--vzhBRkxhiEfAZiXV8JqBCzsdkwU2b5tcsV5zCLBMx96APFyau9PDBJspGki1Qv14VHBTRZtAHpZtGzEgTEuNMcN6Kpoa2NjZ5-alyKVv_l-mlfOfqbMgU6jtg =624x351)
+![DevSecOps CAGR](https://res.cloudinary.com/daog6scxm/image/upload/v1666614212/cms/devsecops-market-122458587.html_wwgngn.png "DevSecOps CAGR")
 
 ([DevSecOps](https://www.marketsandmarkets.com/Market-Reports/devsecops-market-122458587.html))
 
@@ -135,7 +135,7 @@ Containerization is another technologically-driven enterprise software industry 
 
 All of the files that an application needs to run are included in its container, much like with a virtual machine. Containerized apps are therefore highly portable and can be easily run on different kinds of infrastructure, without refactoring.
 
-![](https://lh4.googleusercontent.com/wDix5vHaQS3OCpdRWVJBx7XF-PFkKxPSGU22OMDB7TtMB76jgPOq-oEXFExULWfC367xJGQs2_VlcbmHDC8klP4N2cA4LSINnxilg_eFXeuxg1LuF4IeGG-PNChhJGHrJb0FZazS_7mm_RCVAqJn_g9an0PxsdbR2axirRTGLZ9yM9TNej8tBTouMA =624x351)
+![Containerization Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1666614294/cms/Containerization_Stats_auoveg.png "Containerization Stats")
 
 ([Capital One](https://www.capitalone.com/tech/cloud/container-adoption-statistics/))
 
@@ -155,7 +155,7 @@ Our mission is to transform the way businesses build internal tools, forever.
 
 Let’s take a look at why so many enterprises are deciding that Budibase is a developer’s best friend.
 
-![](https://lh4.googleusercontent.com/4PNdIn7Px-dObo7agCLH0aPMwulOs8N23k4c4UuJW61NCBiJ02Ayha0R-P-Smkzg-_ZwXEFJJpWMkbdpefz9mRndJKLVq8ItaoEChWxyp4Eb6NhiLzXNtsf94lgihfUGAs2b1hjayGe6LV4Tj6lEelfIFWAMfqLib_3e-q5JUHW_Ihcm9m4svnPZKw =624x351)
+![Enterprise Software Industry Trends](https://res.cloudinary.com/daog6scxm/image/upload/v1666614325/cms/Budibase_Screengrab_sflmgo.png "Enterprise Software Industry Trends")
 
 ### Our open-source, low-code platform
 
