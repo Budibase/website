@@ -45,7 +45,7 @@ Third, there’s the scale and complexity of user bases for enterprise apps. For
 
 Fourth, enterprise IT teams are under an immense amount of pressure. There’s an ever-greater demand for digitalization, across all business verticals. Even the largest organizations in the world don’t have infinite resources to meet this challenge.
 
-![](https://lh5.googleusercontent.com/k2_UEVLpM5aQ_NSsBZUyQfRz2DEh5MHElq_18MZROOE2rwVTBCkNVInksCHWAhAG-J6rJdnfvpfV8p9RJGE4LSSs7graalycC8Ox80xsVF3BfID46pZq8sZEIgH9XanLvEJyCGCzbPtQHxDsV9liWEp0zaxChYmscaTxeYTO5bWfHYowmTCWqyHsmA =624x351)
+![Enterpise App Development](https://res.cloudinary.com/daog6scxm/image/upload/v1666614684/cms/Enterprise_App_Development_anpggj.webp "Enterpise App Development")
 
 ([McAfee](https://www.mcafee.com/blogs/enterprise/cloud-security/every-company-is-a-software-company-today/))
 
@@ -75,9 +75,9 @@ Negotiating this reality puts a large strain on internal development teams.
 
 At the same time, we can attribute a number of design and development conventions to this. For example, we might see clearly defined internal policies relating to the use of different tools, frameworks, or hosting methods.
 
-Similarly, enterprise app development projects will also reflect heightened security needs at a process level. For instance, additional review and monitoring processes or more emphasis on separation of concerns within projects.
+Similarly, enterprise app development projects will also reflect heightened security needs at a process level. For instance, additional review and monitoring processes or more emphasis on the separation of concerns within projects.
 
-![](https://lh3.googleusercontent.com/OfWh5MOBxrsDVgWVSB7qvRJqqvmXx57B-2_3F61TRPv6uiklLkb6wiFfDRAay6kwibMjN-AZVeIn52BLtBOQ4Qtpk9YOlASIQ3pF7NJcBAldPC9d0W56Qd1cNMM-xAtIdnwtpdeYvr2nNTYSyXwf-R6L9DIkTwyUdm3f3f1aKj7R19ni7uwyFoeIJg =624x351)
+![Enterprise App Development Security](https://res.cloudinary.com/daog6scxm/image/upload/v1666614734/cms/the-cost-of-a-breach-10-terrifying-cybersecurity-stats-your-msp-s-customers-need-to-know_kl9qlg.webp "Enterprise app development Security")
 
 ([Comptia](https://connect.comptia.org/content/articles/the-cost-of-a-breach-10-terrifying-cybersecurity-stats-your-msp-s-customers-need-to-know))
 
@@ -105,7 +105,7 @@ The challenge here is less with newly built applications than with legacy tools 
 
 Check out our guide to [enterprise workflow automation](https://budibase.com/blog/automation/enterprise-workflow-automation/) to find out more.
 
-![](https://lh5.googleusercontent.com/alw24wBBzyrupSBXAkbzpCFBNc9ZDKYf_-znMFovJl5_wWXvSnhhWHgtCuylQb3H0q0FTNQJ_cPsFPfhjNcRqJukId6aQ4S6PFyRk3d6Q4ZOlWDHQyCtXqz9f08_NQIIrokYpnjMi7wuU48qkhvgjVf13HmDm_aMdsdonHGBrdHjIr2N1DzKKl-ljw =624x351)
+![Automation Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1666614763/cms/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_0_iz3a4g.webp "Automation Stats")
 
 ([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages#0))
 
@@ -235,8 +235,8 @@ Check out our guide to [workflow analysis](https://budibase.com/blog/automation/
 
 With our requirements in place, we can develop a more detailed technical plan for how our enterprise app development project will progress. There are two core elements to this:
 
-1. **Data modeling - Defining the specific data you’ll need to operationalize the business problems you’re seeking to solve.**
-2. **Systems design - Mapping out the structure of your application, in terms of its different modules and components, and how these will interact with each other.**
+1. **Data modeling -** Defining the specific data you’ll need to operationalize the business problems you’re seeking to solve.
+2. **Systems design -** Mapping out the structure of your application, in terms of its different modules and components, and how these will interact with each other.
 
 At the most basic level, most applications can be divided into three layers - _data, business processes_, and _interfaces_. Once we have planned our data layer, we can begin to flesh out any specific functions we’ll need to carry out our required processes.
 
@@ -270,7 +270,7 @@ In the context of ever-growing development backlogs, it’s not a good use of yo
 
 For enterprise projects, this fact is leading to an evergrowing trend towards no/low-code tools that allow developers to output simple functions quickly, and therefore devote more of their attention to fringe cases.
 
-![](https://lh4.googleusercontent.com/IQjZ-4T-vRJxLYAVcuEja0ZdZINClH24RHE_26-3QH8HP8YAPxB7xMMC2HqwdPD1ygS6MSmdTCdkaSujNVx3ScoxkJ0Av3sMtpfa_WrZFnRaiqNZEhQW4tcm4dVnbk7aRERqsUEa-VnF-G64WnJw3GQcT7A5uqbzLL8OlVz7xlKvRVw_5CTwUueGtQ =624x351)
+![Enterprise App Development Costs](https://res.cloudinary.com/daog6scxm/image/upload/v1666614796/cms/Enterprise_App_Development_hppgw5.webp "Enterpris App Development Costs")
 
 ([Velvetech](https://www.velvetech.com/blog/how-much-mobile-app-cost/))
 
@@ -312,7 +312,7 @@ Unfortunately, there’s no straightforward answer here. Different sources place
 
 This is a pretty vague range, but that’s the nature of the beast. Individual organizations invest different amounts in their IT teams, so even internal labor costs can vary wildly.
 
-![](https://lh5.googleusercontent.com/eLSnnsA045hcUl81AXMmK42sqRFLipLAUy1WAxFtZAvt1cOsh4BK-MZ_p6KjS9Ae-8JcO86T5uuJ4si2IDm2Nf-vIWgWTuRbtd-gPgYDVwVODKiSvo5s-at-T-GfMRuyZZ4WiEi6jR7Iti5sn3pzcRpfpz0jZriSzaDEbGl3tvFrliObcHqwY29I6A =624x351)
+![Enterprise App Development Costs](https://res.cloudinary.com/daog6scxm/image/upload/v1666614893/cms/progressive-web-apps-vs-native-apps-part-1-4ggg_nqu8dh.webp "Enterprise App Development Costs")
 
 ([Dev.to)](https://dev.to/codicacom/progressive-web-apps-vs-native-apps-part-1-4ggg)
 
@@ -388,7 +388,7 @@ We’re biased, but we think Budibase is the smart choice for building custom in
 
 Let’s take a look at what makes our platform a developer’s best friend.
 
-![](https://lh6.googleusercontent.com/OgV_BpahNTnUYBW5DaBrBiNxEhKYVSKhX3YifFsh3-ZE6EKUgEQU4jJJr7xWkxvKb9bTCzG5Cio7JcEFuF1j1xK2aAqO3wfYKZAug7VXWMMogNKvHzrDTc2L5uPWjf9Nc-SihzULnZcJKHO0mE5s1fkl-EU3s0K2HpVdb15z5Dlpsk04zqZLEd46XQ =624x351)
+![Budibase Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1666614920/cms/Budibase_Screengrab_wtn35l.webp "Budibase Screenshot")
 
 ### Simplicity by default
 
