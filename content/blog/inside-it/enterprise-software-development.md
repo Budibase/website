@@ -51,7 +51,7 @@ These include the nature and complexity of the tools being built, the kinds of u
 
 Let’s walk through the broad categories of enterprise development projects, with a specific focus on what each brings to the table and when you might opt for them.
 
-![](https://lh3.googleusercontent.com/EegBYuDEGoH-J7ykvKTejXgTSaLULV4daGNTu9AhTiGhYWHfWMDdMkvSdE1vsRT4vhNEJ3lYyDWSYOMtUCFs1FgSjeT615cKEKDD-ooYJKpNHoTMHVRpuOaPhBPTUJRVWfuNrCLyi8rs4lM8hxQfUFyjEijCuo953s3etaTFVkvRrvq-kPDLyuKFbQ =624x351)
+![Enterprise Software Development Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1666608902/cms/Enterprise_App_Development_xuc3t2.webp "Enterprise Software Development Stats")
 
 ([McAfee](https://www.mcafee.com/blogs/enterprise/cloud-security/every-company-is-a-software-company-today/))
 
@@ -155,7 +155,7 @@ Remember, enterprises might easily have hundreds of custom internal tools, each 
 
 Therefore, SSO is critical for making it easy to grant users easy access to the exact tools they need to perform their daily responsibilities.
 
-![](https://lh5.googleusercontent.com/nGjIe8jhl8Tawl9PPBLzALT-_yyM4fj8jbsnsl9mZQavY6D515uHpnsdp6-Pz3k1h3zsLVCEu5yGSRMR2gVxot-r3oZUcX5DjqZaPS2RbdqkiJzoYCdNphEqpY4hwlGIgHGq4gqw-V14J2T_SyB2H_mhU25GokmAm5nviKaUr-cuJDIptULbrskuNA =624x351)
+![Enterprise Software Development Security](https://res.cloudinary.com/daog6scxm/image/upload/v1666608924/cms/the-cost-of-a-breach-10-terrifying-cybersecurity-stats-your-msp-s-customers-need-to-know_kalynf.webp "Security Stats")
 
 ([Comptia](https://connect.comptia.org/content/articles/the-cost-of-a-breach-10-terrifying-cybersecurity-stats-your-msp-s-customers-need-to-know))
 
@@ -179,7 +179,7 @@ First, there’s the need for developers to build automated processes that close
 
 Check out our ultimate guide to [enterprise workflow automation](https://budibase.com/blog/automation/enterprise-workflow-automation/) for more information.
 
-![](https://lh4.googleusercontent.com/e7cbgIUFqmVBat0msArVuRGt-D57bSiId1rmmAYy_rpqeDIRSDS0avpS3Ng7DZJoAi4ok9dT-GePVifc58jZG9eIKte4kuetlvAD9osPSFOScW485kxT4QPLzAjEMd8vrzpB0o98pWzlJ1kjZGroZwJaWUSFQFIzfQLE8mjjLJ_1Qdr6UqYeywOTVg =624x351)
+![Enterprise Automation Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1666609001/cms/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_0_up33z1.webp "Enterprise Automation Stats")
 
 ([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages#0))
 
@@ -265,7 +265,7 @@ So for example, if you had an ERP platform that large swathes of your operations
 
 Of course, this is a strong argument in favor of custom builds. However, we can still encounter vendor lock-in in other ways. For instance, with an external contractor or specific tools that you use to build and maintain systems internally.
 
-![](https://lh6.googleusercontent.com/dcaoDFNPhf3dCYWzyrZo1_IzR47zqfKR8L7Vtaxr936puCeDZQ5TY7OjOoz2InxoFf4Wkn-VWMJ4Lg_1fp8TOk6JerLCJlQyJRoUdFgUkygXqFXUe0p6jAlvEeh7fn-0TOxCEkm7pc-EJUWu7SFKNItVTHLPCno17bS5vLwFA5dUCqQIOUN_c8xyqw =624x351)
+![Vendor Lock-In Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1666609077/cms/s13677-016-0054-z_b9lfwv.webp "Vendor Lock-In Stats")
 
 ([Journal of Cloud Computing](https://journalofcloudcomputing.springeropen.com/articles/10.1186/s13677-016-0054-z))
 
@@ -423,7 +423,7 @@ There’s a bit more technical complexity here than with other kinds of internal
 
 Check out our ultimate guide to [internal tools](https://budibase.com/internal-tools) for a full exploration of this.
 
-![](https://lh6.googleusercontent.com/VcCzJYa1w7v3ZOjD9AT68EhF5rljLx0GOPSsr8H8KgEi4ynUqzefbs2cEXyEcd6j0WlAErYta0VvvKpSTn0Cr7nrDf_odv_QMCHAgvSO90RG2lKsJstUwGflNo1HtHKyEpZS08rA2r5ciLdF0-4Io9YOjZzUR5adfihz02vHlp9K6pOZJq8bAyODmQ =624x351)
+![Enterprise Software Development Costs](https://res.cloudinary.com/daog6scxm/image/upload/v1666609119/cms/progressive-web-apps-vs-native-apps-part-1-4ggg_lj2pdi.webp "Enteprise Software Development Costs")
 
 ([Dev.to](https://dev.to/codicacom/progressive-web-apps-vs-native-apps-part-1-4ggg))
 
@@ -555,7 +555,7 @@ For enterprise software development, there are a couple of extra things we want 
 
 Similarly, in a large team, the risk of changes breaking other elements of the build increases. So, we need to pay particular attention to how we monitor dependencies, conflicts, and compatibility across modules in different versions.
 
-![](https://lh6.googleusercontent.com/ZM7IGAZgkOu0PvNK9Gn1hlRg6Vnbz3TSc_rFBuqTrx2ozjGD5xsREpR6LYe_5worBpIWvjn4g1dcKXAri63BxOuTfr7ytqzQc04oABpVGOcdK2mkzSHLYEQNS-D79Kxfy5wVXqnTXjuyX3XUzYBeEBhiuyLYHywqJ14Ctig60y_SSGYiI0qaTsddjA =624x351)
+![Version Control Statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1666609159/cms/trends-or-illusions-stack-overflow-survey-discovery-e2add81da3ff_vfor7o.webp "Version Control Statistics")
 
 ([Medium](https://dev.to/codicacom/progressive-web-apps-vs-native-apps-part-1-4ggg))
 
@@ -597,7 +597,7 @@ Still, we have several strategies available to us. These range from novel method
 
 Let’s look at how Budibase is leading the charge.
 
-![](https://lh4.googleusercontent.com/W-ri4Uorc4bfaeDQHCazaF4-gLFe0I1gl0PAWQPEZIPgcrUdsj86JM-RYLTqhfi76w45gWUA8ZzXMZSHhFYgY-nmViMjGbqdPK8rTocTuHLvtHTJpQz0sP9Z_DQvYm-E2M0rFL4J8oi-DeVNOgindQukdNH90iCxX44qCkEklTRY4gOk614qa5Rx5w =624x351)
+![Budibase for Enterprise Software Development](https://res.cloudinary.com/daog6scxm/image/upload/v1666609185/cms/Budibase_Screengrab_ayqybi.webp "Budibase for Enterpise Software Development")
 
 ## Building better solutions, faster with Budibase
 
