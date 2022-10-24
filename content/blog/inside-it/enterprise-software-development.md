@@ -55,6 +55,8 @@ Let’s walk through the broad categories of enterprise development projects, wi
 
 ([McAfee](https://www.mcafee.com/blogs/enterprise/cloud-security/every-company-is-a-software-company-today/))
 
+Check out our guide to [enterprise software industry trends](/blog/inside-it/enterprise-software-industry-trends).
+
 ### In-house developments
 
 In-house developers are the backbone of every modern enterprise. In fact, you can make a pretty strong case that any successful enterprise is also a software company - no matter what its core business is.
@@ -128,6 +130,8 @@ Now that we have a firmer grasp of the context surrounding enterprise software d
 In other words, what are the characteristics of effective enterprise solutions?
 
 We often hear vendors talking about ‘_enterprise features_’, but can we really generalize here? If so, what kinds of features do enterprises need, and why?
+
+Take a look at our guide to [enterprise app development](/blog/inside-it/enterprise-app-development).
 
 Here’s what you need to know.
 
@@ -352,6 +356,8 @@ RAD focuses on using functional prototypes as the basis for continuous cycles of
 We’ve referred in passing to a few ways of distinguishing between different types of enterprise solutions. However, a fuller discussion is in order.
 
 After all, how else are we going to understand how enterprise software development teams spend their time?
+
+Check out our guide to the most common [types of enterprise software](/blog/inside-it/types-of-enterprise-software).
 
 ERP systems are probably at the forefront of your mind when you think of enterprise software, but the truth is that internal developers don’t spend a huge proportion of their day building new tools with expansive features.
 
