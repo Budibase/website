@@ -199,6 +199,8 @@ That’s not to say that enterprise development teams _don’t_ work on more amb
 
 So, let’s try and flesh out a representative enterprise app development project.
 
+We discuss this further in our round-up of the [top types of enterprise software](/blog/inside-it/types-of-enterprise-software).
+
 Say your operations team had a backlog of maintenance requests that they’re struggling to resource and manage manually. We’ll say for the sake of example that they’re facing two key pain points.
 
 First, triaging requests to decide which issues to prioritize.
@@ -213,7 +215,7 @@ Check out our [maintenance request form template](https://budibase.com/forms/tem
 
 Next, we can think more specifically about the concrete steps that you can follow for enterprise app development projects. Although we know that there’s a lot of variety in the form and goals of different projects, we still need a repeatable process.
 
-Additionally, we can expect a similar degree of variation between different projects on account of the tools, actors, and methodologies involved. Check out our guide to enterprise software development for more information on SDLCs.
+Additionally, we can expect a similar degree of variation between different projects on account of the tools, actors, and methodologies involved. Check out our guide to [enterprise software development](/blog/inside-it/enterprise-software-development) for more information on SDLCs.
 
 For now, here are the broad stages that enterprise app development projects comprise.
 
@@ -274,7 +276,7 @@ For enterprise projects, this fact is leading to an evergrowing trend towards no
 
 ([Velvetech](https://www.velvetech.com/blog/how-much-mobile-app-cost/))
 
-Check out our guide to enterprise software industry trends for more information.
+Check out our guide to [enterprise software industry trends ](/blog/inside-it/enterprise-software-industry-trends)for more information.
 
 ### 5. Testing
 
