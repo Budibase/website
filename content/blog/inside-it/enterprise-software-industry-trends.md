@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-09-18T23:00:00Z
 description = "Today we’re looking at nine enterprise software industry trends for 2023."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1666609618/cms/Enterprise_Software_Industry_Trends-2_d9wqdq.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1666609626/cms/Enterprise_Software_Industry_Trends-2_odebrg.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
@@ -36,6 +35,8 @@ Squaring this circle will be the top priority for IT leaders in 2023 and beyond.
 ![Enterprise Software Industry Trends](https://res.cloudinary.com/daog6scxm/image/upload/v1666610054/cms/New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html_rep0fv.webp "Enterprise Software Industry Trends")
 
 ([Global News Wire](https://www.globenewswire.com/en/news-release/2022/02/10/2382917/0/en/New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html))
+
+Take a look at our ultimate guide to [enterprise software development](/blog/inside-it/enterprise-software-development).
 
 ## 2. Economic shocks are impacting IT budgets
 
@@ -129,6 +130,8 @@ However, successfully implementing a microapps architecture isn’t as straightf
 
 For example, with global theming and prioritizing recognition over recall to minimize training burdens. Take a look at our guide to [enterprise app UI design](https://budibase.com/blog/app-building/enterprise-app-ui-design/) for more information on how this works in practice.
 
+Check out our guide to [enterprise software industry trends](/blog/inside-it/enterprise-software-industry-trends).
+
 ## 9. Containerization
 
 Containerization is another technologically-driven enterprise software industry trend that will come to the fore in 2023. This is a seachange in the way we develop and deploy tools. Containerization means bundling apps into isolated user spaces, while still sharing an OS.
@@ -139,13 +142,15 @@ All of the files that an application needs to run are included in its container,
 
 ([Capital One](https://www.capitalone.com/tech/cloud/container-adoption-statistics/))
 
-So why is this an enterprise software development trend?
+So why is this an enterprise software industry trend?
 
 There are a couple of different factors at play here. One is that the number and quality of container solutions have improved markedly in the last few years. Tools like Docker and the open-source Kubernetes make it easy to create highly scalable, automated configurations.
 
 Then there’s the need for containerized applications in an increasingly remote working environment. As businesses need to safeguard security and service continuity across distributed workforces, containerization has come to the fore.
 
 Plus, they require lower technical overheads and are cheaper to implement than traditional VMs.
+
+Check out our guide to [enterprise app development.](/blog/inside-it/enterprise-app-development)
 
 ## Budibase is a developer’s best friend
 
