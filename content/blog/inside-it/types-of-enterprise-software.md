@@ -33,7 +33,7 @@ We need to nail down some of the key characteristics of enterprise software befo
 
 There are a few key elements that any solutions for large organizations typically have in common.
 
-Take a look at our ultimate guide to enterprise software development for a more in-depth discussion.
+Take a look at our ultimate guide to [enterprise software development](/blog/inside-it/enterprise-software-development) for a more in-depth discussion.
 
 Here are the important factors we need to keep in mind.
 
@@ -45,7 +45,7 @@ There are several reasons for this.
 
 Internal ownership affords enterprises a high degree of customization, security, and control, over the lifecycle of the system.
 
-![](https://lh5.googleusercontent.com/4o0ftX4lwp18PpsS2aK6zyg6MrFqQowXpFXaiYu9kyNop8m2C_rxA-FCH5KrleiBNpntnXBMMD9UkW13BWGdmUBFqFk_3vKYgFpQ29pdyecUv-mT4RcmRqo-6BdLc4ZTChaLH6tQmDUhgndqVYXTupVhc5rP3vI7qzcfh11hs3XMRd-slf7KzbFpNQ =624x351)
+![Types of Enterprise Software](https://res.cloudinary.com/daog6scxm/image/upload/v1666615199/cms/3955972_idclst.webp "Types of Enterprise Software")
 
 ([Gartner](https://www.gartner.com/en/documents/3955972))
 
@@ -66,6 +66,8 @@ We also know that automation is crucial for operational efficiency. So, having t
 Finally, scalability is a central plank of all types of enterprise software. We can think about this across two different levels. First, vertical scalability, or the ability to add new users and data within existing functions.
 
 Second, horizontal scalability, or the ability to add entirely new functionalities and processes within an existing platform.
+
+Check out our in-depth guide to [enterprise software industry trends](/blog/inside-it/enterprise-software-industry-trends).
 
 ## Categorizing types of enterprise software
 
@@ -113,7 +115,7 @@ The other relates to the core characteristics of enterprise solutions that we di
 
 Of course, this introduces a whole range of new challenges that you’re less likely to encounter with off-the-shelf tools.
 
-Check out our guide to enterprise app development for more information.
+Check out our guide to [enterprise app development](/blog/inside-it/enterprise-app-development) for more information.
 
 ## 7 types of enterprise software
 
@@ -131,7 +133,7 @@ Examples include SAP ERP and Microsoft Dynamics 365. These are major players, to
 
 Because of the scope of these tools, the ubiquity of existing solutions, and their centrality to everyday operations, enterprises are unlikely to build these kinds of tools from scratch.
 
-![](https://lh6.googleusercontent.com/WFG88PHLUjVpXXM1LvSQm74ZsZebFqebtiRez8thz0guwGpzX1fdFKxgy-FHck6w2cZsvVxVEQgyhKXgltqorjuMz6g6ijjmcbzORUpx2OGBxXd9sDG_RWakYIWi2dCzKQZhBfUcFUzkA8Rk7UMqoR2OT5iLfifSKk3C1GN4Cc83rJcwAFxhU73bQg =624x351)
+![ERP Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1666615229/cms/Types_of_Enterprise_Software_onrbb6.webp "ERP Stats")
 
 ([Finances Online](https://financesonline.com/erp-statistics/))
 
@@ -179,7 +181,7 @@ Specifically, we’re talking about workflow automation. This is an approach cen
 
 The idea is to build simple automations around _trigger/action_ pairs. As in, when this happens, do this. Often, we’ll turn to specific platforms to manage automations across different tools.
 
-![](https://lh4.googleusercontent.com/eOYf66ThiFjwLFMIehtdTo3y0NDbeOUKtV7682_yzPlIGGpwh8dc_-t3FBebrhA40WkwgOfGirunSUuV3JVnM34U472BIXqDLMQh-0L1dLHlHaCUiVfGF0Y5LVHq2i04R_9YtCSSY0G_E6y9fbm7QNpD0Ocz86UwFlc3NIjR9-pdnPbh-64FfixD9Q =624x351)
+![Types of Enterprise Software Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1666615252/cms/workflow_automation_stats_pow7fy.webp "Types of Enterprise Software Automation")
 
 ([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages))
 
@@ -217,7 +219,7 @@ As enterprises face squeezed development budgets alongside an ever-increasing ne
 
 Let’s take a look at why countless enterprises around the world choose Budibase.
 
-![](https://lh5.googleusercontent.com/OlAIsKXl4mRq6WIjTpq6WWefbgLh04Ts1rL0gclZSbx_-T3fmsKtPLJedpBI1GFIhhAaTJJ4UpaCEZr92W1yL-PbG1A4lMmhcBLngTgskiHDTb8JFdUp-UVpzEYD7fpBxoeXJC4j7vxDgBf7vrcaGYD5_vysYui9_MgBMiFxC_Meat0gHhRXLisfqw =624x351)
+![Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1666615278/cms/Budibase_Screengrab_ylznhk.webp "Budibase")
 
 ### Our low-code platform
 
