@@ -19,11 +19,15 @@ Today, we are launching the Budibase October release 🎉. This release introduc
 
 When designing apps, you can now drag-and-drop components and blocks from the components and blocks side panel onto your design screen.
 
+***
+
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1666791902/cms/Block-ejection_sjx8vh.png)
 
 ### Blocks ejection
 
 Blocks are an important and popular part of the design flow within Budibase. They simplify and speed up the design process. But, their opinionated approach can lead to roadblocks - until now. When using a block, if you hit a roadblock, you can now eject the block, and its inner components will become independently available to customize.
+
+***
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1666791947/cms/row-explorer_tsdci6.png)
 
@@ -31,11 +35,13 @@ Blocks are an important and popular part of the design flow within Budibase. The
 
 A personal favorite, this block, when added to your interface, will make it quick and easy for your users to cycle through records.
 
+***
+
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1666792090/cms/backups_ynlpls.png)
 
 ### App backups
 
-###### Premium feature
+###### 🔒 Premium feature
 
 Users who are on a paid tier can now backup apps and rollback to different snapshots.
 
@@ -43,31 +49,45 @@ Users who are on a paid tier can now backup apps and rollback to different snaps
 * Team tier users get 3 months of backups
 * Business tier users get 1 year of backups
 
+***
+
 ### Google Sheets integration is now available in Budibase Cloud
 
 The Google Sheets integration is now available to Budibase Cloud users, as well as self-hosted users.
+
+***
 
 ### Chart block
 
 The new chart blocks makes it easy and quick to add charts to your interfaces.
 
+***
+
 ### Row explorer block
 
 A personal favorite, this block, when added to your interface, will make it quick and easy for your users to cycle through records.
+
+***
 
 ### Form block
 
 With the new form block you can build a fully-functioning form, linked to your database, with just a couple of clicks.
 
+***
+
 ### QR/Barcode scanner
 
 A new component that allows your users to scan QR codes and barcodes. This new functionality introduces a new component and data type in Budibase DB / internal DB.
+
+***
 
 ## Experiments / Research 👩🏻‍🔬
 
 Grid component - Beta
 
 We’re testing the idea of implementing a drag-and-drop grid experience. The new grid component allows you to drag-and-drop components onto a grid. You can let customize the size by dragging the component/blocks sides.
+
+***
 
 ## Bug Fixes 🐛
 
