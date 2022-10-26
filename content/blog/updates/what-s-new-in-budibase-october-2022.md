@@ -1,6 +1,6 @@
 +++
 author = "Joe Johnston"
-date = 2022-11-02T00:00:00Z
+date = 2022-10-25T23:00:00Z
 description = "Here’s everything new in Budibase this month: from drag-and-drop updates to new Block capabilities. We’re also sharing a design feedback survey, and the winners of the recent Budibase hackathon."
 draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1666791773/cms/drag-and-drop_jg9boj.png"
@@ -9,7 +9,6 @@ profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/
 title = "What’s new in Budibase: October 2022"
 
 +++
-
 Today, we are launching the Budibase October release ![🙌](https://lh5.googleusercontent.com/gFnG1R2mHB0zne2-EV60UEIqLJfCpdHMS6K2wtlPMmj_g2rwoS0lsBowgOG3JgfuT8DAPAvwNZZbLb60mzSSOBBtf6DofQ7skmyA1y-aimVA7sUWstaXFLajyTHAKZ-gnPsIv_Bb-woFfDBqZYkFqC4DyGwNP_lM4rznLKj-Co3vzFzw3HzTIr_6gQ =17x17). This release introduces a new drag-and-drop experience, Blocks ejection, and a new QR/Barcode scanner.
 
 ## Features & Improvements ✨
@@ -79,4 +78,4 @@ We’re testing the idea of implementing a drag-and-drop grid experience. The ne
 * Cannot add more than 8 users to an app 
 * Automations - Unable to bind to the result of a JS Scripting block 
 * App name runs into updated text 
-* Clicking on an attachment inside a table component checks the "row selected" checkbox. 
+* Clicking on an attachment inside a table component checks the "row selected" checkbox.
