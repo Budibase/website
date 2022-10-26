@@ -43,9 +43,9 @@ A personal favorite, this block, when added to your interface, will make it quic
 
 ###### 🔒 Premium feature
 
-Users who are on a paid tier can now backup apps and rollback to different snapshots.
+Users who are on a paid tier can now back up apps and roll back to different snapshots.
 
-* Pro tier users get 1 week of backups
+* Pro-tier users get 1 week of backups
 * Team tier users get 3 months of backups
 * Business tier users get 1 year of backups
 
@@ -71,7 +71,7 @@ A personal favorite, this block, when added to your interface, will make it quic
 
 ### Form block
 
-With the new form block you can build a fully-functioning form, linked to your database, with just a couple of clicks.
+With the new form block, you can build a fully-functioning form linked to your database with just a couple of clicks.
 
 ***
 
