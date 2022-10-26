@@ -9,7 +9,7 @@ profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/
 title = "What’s new in Budibase: October 2022"
 
 +++
-Today, we are launching the Budibase October release ![🙌](https://lh5.googleusercontent.com/gFnG1R2mHB0zne2-EV60UEIqLJfCpdHMS6K2wtlPMmj_g2rwoS0lsBowgOG3JgfuT8DAPAvwNZZbLb60mzSSOBBtf6DofQ7skmyA1y-aimVA7sUWstaXFLajyTHAKZ-gnPsIv_Bb-woFfDBqZYkFqC4DyGwNP_lM4rznLKj-Co3vzFzw3HzTIr_6gQ =17x17). This release introduces a new drag-and-drop experience, Blocks ejection, and a new QR/Barcode scanner.
+Today, we are launching the Budibase October release 🎉. This release introduces a new drag-and-drop experience, Blocks ejection, and a new QR/Barcode scanner.
 
 ## Features & Improvements ✨
 
@@ -65,17 +65,16 @@ A new component that allows your users to scan QR codes and barcodes. This new f
 
 ## Experiments / Research 👩🏻‍🔬
 
-  
 Grid component - Beta
 
 We’re testing the idea of implementing a drag-and-drop grid experience. The new grid component allows you to drag-and-drop components onto a grid. You can let customize the size by dragging the component/blocks sides.
 
 ## Bug Fixes 🐛
 
-* OneLogin OIDC integration failing 
-* Prevent non-static formula columns from being selected for datasource sorting 
-* Plugins, search menu if I press spacebar all available plugins disappeared 
-* Cannot add more than 8 users to an app 
-* Automations - Unable to bind to the result of a JS Scripting block 
-* App name runs into updated text 
+* OneLogin OIDC integration failing
+* Prevent non-static formula columns from being selected for datasource sorting
+* Plugins, search menu if I press spacebar all available plugins disappeared
+* Cannot add more than 8 users to an app
+* Automations - Unable to bind to the result of a JS Scripting block
+* App name runs into updated text
 * Clicking on an attachment inside a table component checks the "row selected" checkbox.
