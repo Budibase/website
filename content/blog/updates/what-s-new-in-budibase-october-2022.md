@@ -59,7 +59,7 @@ The Google Sheets integration is now available to Budibase Cloud users, as well 
 
 ### Chart block
 
-The new chart blocks makes it easy and quick to add charts to your interfaces.
+The new chart block makes it easy and quick to add charts to your interfaces.
 
 ***
 
