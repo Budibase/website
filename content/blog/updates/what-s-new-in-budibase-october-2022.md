@@ -81,14 +81,6 @@ A new component that allows your users to scan QR codes and barcodes. This new f
 
 ***
 
-## Experiments / Research 👩🏻‍🔬
-
-Grid component - Beta
-
-We’re testing the idea of implementing a drag-and-drop grid experience. The new grid component allows you to drag-and-drop components onto a grid. You can let customize the size by dragging the component/blocks sides.
-
-***
-
 ## Bug Fixes 🐛
 
 * OneLogin OIDC integration failing
