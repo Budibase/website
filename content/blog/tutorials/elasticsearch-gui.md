@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-11-02T00:00:00Z
 description = "Check out our step-by-step guide to building a custom Elasticsearch GUI"
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1667397401/cms/Database_GUI_Post_Headers_oampua.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1667397407/cms/Database_GUI_Post_Headers_jfyokd.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
@@ -47,31 +46,31 @@ The demo GUI has four main screens, and a handful of additional forms.
 
 The first screen is the homepage. In it, you can see a list of the saved queries. From it you can run queries, edit them, or add entirely new ones:
 
-![Elasticsearch GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1667397736/cms/01_hceaqw.png "Elasticsearch GUI")
+![Elasticsearch GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1667397736/cms/01_hceaqw.webp "Elasticsearch GUI")
 
 If you click on edit/add new you’ll see a form like this
 
-![Elasticsearch GUI form](https://res.cloudinary.com/daog6scxm/image/upload/v1667397951/cms/02_kjigcn.png "Elasticsearch GUI form")
+![Elasticsearch GUI form](https://res.cloudinary.com/daog6scxm/image/upload/v1667397951/cms/02_kjigcn.webp "Elasticsearch GUI form")
 
 Next, there’s the POST request page. In it, you can select a base URL, and send requests to a path with a JSON body.
 
 This allows you to send any command you want with your Elasticsearch GUI. In addition, this screen shows the result of your request. You can then save the query if you want to.
 
-![POST request](https://res.cloudinary.com/daog6scxm/image/upload/v1667397975/cms/03_ytapkv.png "POST request")
+![POST request](https://res.cloudinary.com/daog6scxm/image/upload/v1667397975/cms/03_ytapkv.webp "POST request")
 
 The GET screen is quite similar. It just omits the JSON body field. Likewise, in it, you can save queries, which are accessible later from your home screen.
 
-![GET request](https://res.cloudinary.com/daog6scxm/image/upload/v1667397993/cms/04_xyzgxb.png "GET request")
+![GET request](https://res.cloudinary.com/daog6scxm/image/upload/v1667397993/cms/04_xyzgxb.webp "GET request")
 
 Finally, there’s the settings screen. It is quite similar to the first screen. In our example app, it has just one option, the baseURL.
 
 But you can use it for any app settings you want.
 
-![Settings table](https://res.cloudinary.com/daog6scxm/image/upload/v1667398027/cms/05_mwdwri.png "Setting table")
+![Settings table](https://res.cloudinary.com/daog6scxm/image/upload/v1667398027/cms/05_mwdwri.webp "Setting table")
 
 You can edit or add new settings as well. Here is how these forms look:
 
-![Settings form](https://res.cloudinary.com/daog6scxm/image/upload/v1667398045/cms/06_wyvl95.png "Settings form")
+![Settings form](https://res.cloudinary.com/daog6scxm/image/upload/v1667398045/cms/06_wyvl95.webp "Settings form")
 
 Now you know what you can do with your Elasticsearch GUI. Let’s look at how you can build it in Budibase.
 
@@ -87,7 +86,7 @@ But if you are using an external server (such as the cloud service for Elasticse
 
 The easiest is probably using the REST API data source:
 
-![Data source](https://res.cloudinary.com/daog6scxm/image/upload/v1667398066/cms/07_mgzslj.png "Data source")
+![Data source](https://res.cloudinary.com/daog6scxm/image/upload/v1667398066/cms/07_mgzslj.webp "Data source")
 
 With REST, you can create GET, POST, PUT, and DELETE operations. They work the same way a normal server connection would. In addition, most Elasticsearch commands are the same, whether you are running them from the API or if you are connecting to the database directly.
 
@@ -101,7 +100,7 @@ This is a general GET request, used in the “New GET” screen.
 
 You can also take a look at our guide to building a [REST API GUI](https://budibase.com/blog/tutorials/rest-api-gui/).
 
-![Elasticsearch GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1667398116/cms/08_szldqk.png "Elasticsearch GUI")
+![Elasticsearch GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1667398116/cms/08_szldqk.webp "Elasticsearch GUI")
 
 POST {{base}}{{path}}#post
 
@@ -109,13 +108,13 @@ This is a general POST request, used in the “New POST” screen. Use the body 
 
     {{ Binding.JSON }}
 
-![Configure query](https://res.cloudinary.com/daog6scxm/image/upload/v1667398182/cms/09_ifnqwh.png "Configure query")
+![Configure query](https://res.cloudinary.com/daog6scxm/image/upload/v1667398182/cms/09_ifnqwh.webp "Configure query")
 
 These two requests are flexible and based entirely on the frontend data. The bindings allow you to send requests with data coming from the form fields that we’ll build in a minute.
 
 You can use the global REST API settings to add headers that are used by all connections, such as a header for the content type (JSON) and another one for authentication:
 
-![Elasticsearch GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1667398205/cms/10_mebol0.png "Elasticsearch GUI")
+![Elasticsearch GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1667398205/cms/10_mebol0.webp "Elasticsearch GUI")
 
 In addition to your external [data sources,](https://budibase.com/blog/data/data-sources/) like Elasticsearch, quite often you need internal data in your app.
 
@@ -146,7 +145,7 @@ That’s it. Now you have all your data ready, let’s build some screens.
 
 Go to the “design” tab. This is where you can manage your screens. While you are at it, feel free to explore the leftmost icons - Screens, Components, Theme, and Navigation.
 
-![Budibase design section](https://res.cloudinary.com/daog6scxm/image/upload/v1667398238/cms/11_rf8ubm.png "Budibase design section")
+![Budibase design section](https://res.cloudinary.com/daog6scxm/image/upload/v1667398238/cms/11_rf8ubm.webp "Budibase design section")
 
 On these menus, you can change different aspects of your app.
 
@@ -177,7 +176,7 @@ You’ll notice that the autogenerated rest_queries screen is quite different fr
 
 This is the elements tree for the rest_queries page:
 
-![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1667398270/cms/12_rtcail.png "Component Tree")
+![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1667398270/cms/12_rtcail.webp "Component Tree")
 
 There is a new data provider on that page to display the base URL. You can add a container, then a data provider loading the “URL” view of the settings table.
 
@@ -191,7 +190,7 @@ In this case, since you know that you just need the baseURL from the settings ta
 
 You can create a view on the table edit screen (Data > Budibase DB > Settings):
 
-![Create a database view](https://res.cloudinary.com/daog6scxm/image/upload/v1667398510/cms/13_lnlskf.png "Create a database view")
+![Create a database view](https://res.cloudinary.com/daog6scxm/image/upload/v1667398510/cms/13_lnlskf.webp "Create a database view")
 
 Make sure you add the filtering options (key equals baseURL) and you are all set.
 
@@ -203,7 +202,7 @@ Next, it’s time to add the table components. You can click on the table compon
 
 Add a button component to run the query. Then, you can use the button’s onclick actions to run the query, like this:
 
-![Elasticsearch GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1667398542/cms/14_vlgtbi.png "Elasticsearch GUI")
+![Elasticsearch GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1667398542/cms/14_vlgtbi.webp "Elasticsearch GUI")
 
 In this case, you’ll use app states to store variables. App states are local variables, stored on the visitor’s browser, that can be used within your app. Here you are going to store a variable for the path corresponding to the current row:
 
@@ -226,7 +225,7 @@ The last custom element on the main table is the “get” and “post” tags. 
 
 Now you just need to use the display conditions to hide or show the component you want:
 
-![Saved queries](https://res.cloudinary.com/daog6scxm/image/upload/v1667398634/cms/15_ahjklf.png "Saved queries")
+![Saved queries](https://res.cloudinary.com/daog6scxm/image/upload/v1667398634/cms/15_ahjklf.webp "Saved queries")
 
 You can use these rules:
 
@@ -243,7 +242,7 @@ Create a new screen with the “post” route. You are going to use this screen 
 
 This is the elements tree for that page:
 
-![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1667398665/cms/16_o3vut2.png "Component Tree")
+![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1667398665/cms/16_o3vut2.webp "Component Tree")
 
 This page contains a form, action buttons, and the output container.
 
@@ -269,13 +268,13 @@ Notice how the body also removes the line breaks to make sure that your JSON bod
 
 The “save” button, has this onclick action:
 
-![Save row](https://res.cloudinary.com/daog6scxm/image/upload/v1667398736/cms/17_luemiz.png "Save row")
+![Save row](https://res.cloudinary.com/daog6scxm/image/upload/v1667398736/cms/17_luemiz.webp "Save row")
 
 In this case, you can save the JSON body as it is, and you remove line breaks only when you run it.
 
 Add a data provider with the #post data source. To make sure that the data provider uses the app state values, you can use the following bindings:
 
-![Elasticsearch GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1667398753/cms/18_qdjbwt.png "Elasticsearch GUI")
+![Elasticsearch GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1667398753/cms/18_qdjbwt.webp "Elasticsearch GUI")
 
 Since the response is a JSON, it makes sense to output its data directly. You can beautify the code output using REGEX and some styling.
 
