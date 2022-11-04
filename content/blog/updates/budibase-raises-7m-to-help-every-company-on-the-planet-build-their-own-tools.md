@@ -1,5 +1,5 @@
 +++
-author = ""
+author = "Joe Johnston"
 date = 2022-11-04T00:00:00Z
 description = "Today, we’re announcing that we’ve raised $7M in Seed II funding led by SignalFire and a bundle of new product updates that make Budibase exceedingly more extensible."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1667571880/cms/budibase-seed-2_orwapp.png"
