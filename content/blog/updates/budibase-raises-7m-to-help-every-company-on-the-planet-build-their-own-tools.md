@@ -2,7 +2,6 @@
 author = ""
 date = 2022-11-04T00:00:00Z
 description = "Today, we’re announcing that we’ve raised $7M in Seed II funding led by SignalFire and a bundle of new product updates that make Budibase exceedingly more extensible."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1667571880/cms/budibase-seed-2_orwapp.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1667571894/cms/budibase-seed-2_sndftr.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/joe_illustration_gray_bg_e97wdl.jpg"
