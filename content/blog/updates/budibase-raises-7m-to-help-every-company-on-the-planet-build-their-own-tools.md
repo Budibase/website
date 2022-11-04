@@ -8,8 +8,6 @@ profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/
 title = "Budibase raises $7M to help every company on the planet build their own tools"
 
 +++
-# **Budibase raises $7M to help every company on the planet build their own tools**
-
 At our old jobs, we got sick of reinventing the wheel every time we needed an internal tool. That's why we built Budibase to empower IT teams to build beautiful internal tools faster. In the past year, we have come a long way, and we are excited to share the latest milestones in our journey.
 
 Today, we’re announcing that we’ve raised $7M in Seed II funding led by SignalFire and a bundle of new product updates that make Budibase exceedingly more extensible.
@@ -25,17 +23,15 @@ Platforms like Budibase have become even more critical amidst layoffs and tight 
 
 “Covanta expects to realize $3.2MM in savings due to the elimination of redundant data entry. This is critical in times like these when there are more jobs than people. We simply must reduce the amount of redundant low-value activities burdening our workforce. On top of that, we expect our data quality to improve significantly and bring more credibility to the metrics and KPIs we use to manage our business.”
 
-— Charles Link, Senior Director, Data and Analytics, Covanta  
-  
+— Charles Link, Senior Director, Data and Analytics, Covanta
+
 It’s our mission to help every company on the planet build their own tools, and we’re honored to see our monthly active users surpass 20,000. This is fantastic validation of the product and community we have built and, of course, provides us with a great opportunity to build a healthy and sustainable business for Budibase.
 
-  
 **Partnering with SignalFire**  
 Following this progress, to accelerate and continue taking Budibase to the next level, we’ve partnered with SignalFire for our Seed II. Oana Olteanu will join Gil Dibner (Angular Ventures) on our board. We admire and resonate with SignalFire’s and Oana’s long-term approach to company building and respect their exceptional track record of backing ambitious, category-defining companies.
 
 Angular Ventures and Techstart will partner with Budibase again and continue to provide their insight and dedication to accelerate Budibase forward. In addition, several industry leaders are participating in this round and bringing on their insights and networks: Ben Lang (Head of community, Notion), Marcus Eagan (Staff product manager, MongoDB), Jana Iris (TQ Ventures), Kyle Parish (VP Sales Figma), Matt Robinson (CEO and founder of Nested), Ovais Tariq (CEO and founder of Tigris Data).
 
-  
 They will join our existing investors, including Guy Podjarny (Founder of Snyk), Ryan Hoover + Vedika Jain (Weekend fund), Shawn Wang (Head of DX, AirbyteHQ), Marc McCabe (Oyster Capital), Tony Ennis, and Donald Bringmann. The additional $7M in Seed II funding brings our total funding to $9.25M. The funding and the support from our new and existing investors will give us the resources to really accelerate and help define us as the leading platform for building internal tools.
 
 **Looking ahead**
