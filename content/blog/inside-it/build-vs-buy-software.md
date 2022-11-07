@@ -61,9 +61,9 @@ Let’s start with how costs are incurred.
 
 Nowadays, most off-the-shelf platforms follow an SaaS model. That is, you pay an annual or monthly subscription fee, normally on a per-user basis. So, we have a regular, relatively fixed cost - but we incur it for as long as we need the platform.
 
-![](https://lh3.googleusercontent.com/2t19YC-7U3r6OB5K_lFuJ79Q9Q_jW7Ww5u6p27ttjEcgV4vUn8jg7mo2g0ZOwLzAwhQDYJA60NIu9-hwdeDZhABj-eo6gH3xX4FqZzJ6084J4NySvVIU1FUXOUKEE1H1yn3Ewh2Vm3mJe5axYqhYobuEMCvKlB22tqyDmCFVcrbcAQ__otCXDuZyGXL5Kg =624x351)
+![Build vs buy software](https://res.cloudinary.com/daog6scxm/image/upload/v1667829162/cms/SaaS_Spend_https___www.flexera.com_blog_technology-value-optimization_it-spending-by-industry_ue54hs.webp "Build vs Buy Software")
 
-(Flexera)
+([Flexera](https://www.flexera.com/blog/technology-value-optimization/it-spending-by-industry/))
 
 By contrast, custom builds involve more front-loaded costs - primarily in the form of development hours and labor. This normally comprises in-house developers’ wages or fees from vendors.
 
@@ -101,7 +101,7 @@ First, whether or not we have the development resources to build a particular so
 
 Traditional custom builds take a long time - typically months or even years. However, we’ll see a little later how low-code development is changing the equation here.
 
-![](https://lh3.googleusercontent.com/vK7fLO5um_7V3lLUewetfme3z1Sg0OAZSL1KPHlNxtfWGAcksBKPk7VuJkBQNyqleMfNK4fMYKAqdRLx3b172x899UeKBb2iaxynQkVACLRKNnFrbdWfLUL7vjBvvygrLwplVNyERcAEpsdkTFEMfRwKM8zPdqwUjlhasrxMCZMexurZyGUVkYNDqfHGcw =624x351)
+![Software build leadtime](https://res.cloudinary.com/daog6scxm/image/upload/v1667829317/cms/Build_Time_https___www.goodfirms.co_resources_software-development-research_kwbwte.webp "Software build leadtime")
 
 ([Good Firms](https://www.goodfirms.co/resources/software-development-research))
 
@@ -165,7 +165,7 @@ Indeed, most of the tools that businesses end up building instead of buying are 
 
 Check out our ultimate guide to in-house software development for more information.
 
-![](https://lh5.googleusercontent.com/UmpfKyc5MaGp8A4ECpQ4EZqhluXzqoyRZ-xeAoRWxa6MZ2rKMAzavezO3gB4dNFj-1FPdJWnSIchCmRb3ZHb0FbVp0SPJxPAkoTCxkwmRVimmfs17qGRGOcttbNfu0FuvSjUdNtZEEfePxAgN7s5o1Z58WFwOWrjP6AIDN_g2_D1InpSTIgX4RPTVDByNA =624x351)
+![Build vs buy software scope creep](https://res.cloudinary.com/daog6scxm/image/upload/v1667829342/cms/Scope_Creep_https___www.business2community.com_strategy_what-is-scope-creep-in-project-management-definition-causes-and-solutions-02068428_utqo01.webp "Build vs buy software scope creep")
 
 ([Business2Community](https://www.business2community.com/strategy/what-is-scope-creep-in-project-management-definition-causes-and-solutions-02068428))
 
@@ -219,7 +219,7 @@ Here’s why:
 
 These are serious challenges. And that’s assuming that you even have the knowledge, skills, and capacity to build tools internally in the first place.
 
-![](https://lh5.googleusercontent.com/bB-dNPfNUdZcvZpaf_7-kEYYTpi0rWgDN4Bt7SKz7hdQMSeajOzocnnwx3kXm_89fKXtUpTZBLCegtU-c2TUPeEfDL5siXiujuQNkk9qKIONQb1Yf4TlODVj3F5zIKGnPEquAC5oC9zxQow9iLkXNAwqTQIOWqbth-j7NItiK48O10P3b3ZsoU79M9zdgA =624x351)
+![Custom Software overspend](https://res.cloudinary.com/daog6scxm/image/upload/v1667829368/cms/Overspend_https___www.mckinsey.com_capabilities_mckinsey-digital_our-insights_delivering-large-scale-it-projects-on-time-on-budget-and-on-value_am7u34.webp "Custom software overspend")
 
 ([McKinsey](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/delivering-large-scale-it-projects-on-time-on-budget-and-on-value))
 
@@ -237,11 +237,11 @@ First up, the benefits. As you might expect, they relate to convenience to a ver
 
 The most important points to note include:
 
-* **Cost - In most situations, the up-front costs of off-the-shelf solutions will be lower.**
-* **Speed - When you buy software, it can be implemented pretty much immediately.**
-* **Convenience - Undoubtedly, off-the-shelf tools are much more convenient.**
-* **Predicability - We know exactly the solution we’re getting with off-the-shelf tools.**
-* **Usage-based pricing - Most Saas platforms charge on a usage basis, so costs are proportionate to our needs.**
+* **Cost -** In most situations, the up-front costs of off-the-shelf solutions will be lower.
+* **Speed -** When you buy software, it can be implemented pretty much immediately.
+* **Convenience -** Undoubtedly, off-the-shelf tools are much more convenient.
+* **Predicability -** We know exactly the solution we’re getting with off-the-shelf tools.
+* **Usage-based pricing -** Most Saas platforms charge on a usage basis, so costs are proportionate to our needs.
 
 So in other words, buying off-the-shelf tools is typically a fast, cost-effective option, at least assuming that a suitable platform exists.
 
@@ -278,9 +278,9 @@ The natural starting point here is analyzing your requirements - both technical 
 
 We can break this down into a few more discrete levels:
 
-* **Functional requirements - What we need our solution to do, including specific functionalities, integration options, automation features, and more.**
-* **Non-functional requirements - Technical issues outside of the solution’s core functionality, including those relating to user management, performance, security, hosting, and deployment.**
-* **Business-level requirements - Issues relating to the legal, financial, and operational implications of using a particular solution, including your relationship with vendors and, importantly, your budget.**
+* **Functional requirements -** What we need our solution to do, including specific functionalities, integration options, automation features, and more.
+* **Non-functional requirements -** Technical issues outside of the solution’s core functionality, including those relating to user management, performance, security, hosting, and deployment.
+* **Business-level requirements -** Issues relating to the legal, financial, and operational implications of using a particular solution, including your relationship with vendors and, importantly, your budget.
 
 The first step is simply listing your requirements under each of these clusters. We can then think about how we rate each of them in terms of their relative importance.
 
@@ -319,7 +319,7 @@ If we’re deciding whether to build vs buy software, we also need to thoroughly
 
 In larger businesses, the question might be whether we have sufficient development resources to turn around a solution as quickly as we need it. By contrast, in an SME context, the challenge could be whether we have sufficient resources _at all_.
 
-![](https://lh5.googleusercontent.com/S7VmfKWRICZJE-j0cMe2EQ6B--7sQqWlKz7Cf3gSeZavCZ8T0lTy8jX6XiTkpEZ5IwuZ94veDVkyJ73zkXqgAmRaw4HdsGToGQAHEoJn5iJws-YOvvp12yyNhq8edgt6nl-RPE99Lw6ZuU6mQJ6GSPr5iLPb3DRpqv0f2BRh9A8tJ9Mx9HOZLBwL4WGewg =624x351)
+![Developer shortage statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1667829420/cms/Developer_Shortage_owxq4v.webp "Developer shortage statistics")
 
 ([Global News Wire](https://www.globenewswire.com/en/news-release/2022/02/10/2382917/0/en/New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html))
 
@@ -386,8 +386,8 @@ There are a couple of key methodological trends that play a role here.
 
 These are:
 
-1. **Citizen development - Empowering non-developers to build custom tools, in highly specific, regulated ways.**
-2. **Rapid application development - A development methodology that focuses on iteratively building working prototypes to continuously gain user feedback and build final solutions in less time.**
+1. **Citizen development -** Empowering non-developers to build custom tools, in highly specific, regulated ways.
+2. **Rapid application development -** A development methodology that focuses on iteratively building working prototypes to continuously gain user feedback and build final solutions in less time.
 
 It’s worth noting, that each of these is limited in terms of the kinds of tools they’re suitable for.
 
@@ -427,7 +427,7 @@ Second, we may well still encounter many of the issues we saw for _both_ buildin
 
 So, this isn’t exactly a silver bullet, so much a helpful halfway house between building and buying solutions.
 
-![](https://lh3.googleusercontent.com/IHqnnT_wJZJUIHjmZnXcqyW4TVJ9uXlsgRVR3U3d6itGlQhaT2M58SQIPxuvBgWG7uydA0W8yHDNZd3q58eLyMCJtZPVBeNJJUxVk9lw8aPGVplE9HoOqsSjehv8O6jHxg_Xq5eahJxhkw_QJhlivm1OewbdwWYsq8cjZGm7rgMQpc6Ojg3ZHNRrlGc0TA =624x351)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1667829455/cms/Budibase_Screenshot_tflbew.webp)
 
 ## Build better solutions, faster with Budibase
 
