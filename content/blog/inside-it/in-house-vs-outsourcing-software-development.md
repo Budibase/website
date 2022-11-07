@@ -54,7 +54,7 @@ First up, leveraging internal developers to build software. Of course, this is a
 
 Still, there are plenty of important trends, challenges, and upsides that we can point to, in the context of in-house vs outsourcing software development.
 
-For a fuller discussion, why not check out our ultimate guide to in-house software development?
+For a fuller discussion, why not check out our ultimate guide to [in-house software development](/blog/inside-it/in-house-software-development)?
 
 ### Benefits
 
@@ -118,6 +118,8 @@ Internal teams spend the majority of their time on the likes of CRUD apps, workf
 It’s also important to stress that a large proportion of internal dev teams’ time is spent on tasks other than building solutions. This includes configuring other platforms, maintaining existing tools, patch management, user support, and more.
 
 We’ll look at how Budibase is shifting the balance here a little bit later.
+
+Check out our roundup of [in-house development examples](/blog/inside-it/in-house-development-examples).
 
 ## Outsourcing
 
@@ -192,6 +194,8 @@ However, as a counter-example, a company with minimal internal capacity would ne
 More on this later.
 
 Clearly then, it’s a lot harder to generalize about outsourcing in this way. We, therefore, need to turn our attention to some of the more project-specific decision points that come into play here.
+
+We've also created a guide to deciding whether to [build vs buy software](/blog/inside-it/build-vs-buy-software).
 
 ## In-house vs outsourcing software development: decision points
 
