@@ -91,6 +91,8 @@ Beyond this, we can also think about more specific features and functionalities.
 
 Again, if these are must-haves, solutions that don’t support them aren’t going to be viable, so they can be eliminated from the running.
 
+Take a look at our round-up of [in-house development examples](/blog/inside-it/in-house-development-examples) for inspiration.
+
 ### Do you have time to build vs buy software?
 
 Sometimes, we need solutions live yesterday. This presents a big challenge for IT teams. On one level, you’ll need to ask yourself if you actually have the time to build a custom solution.
@@ -163,7 +165,7 @@ But in most cases, the benefits of doing so over opting for an off-the-shelf sol
 
 Indeed, most of the tools that businesses end up building instead of buying are relatively simple from a technical perspective but highly tied to specific internal tasks and workflows.
 
-Check out our ultimate guide to in-house software development for more information.
+Check out our ultimate guide to [in-house software development](/blog/inside-it/in-house-software-development) for more information.
 
 ![Build vs buy software scope creep](https://res.cloudinary.com/daog6scxm/image/upload/v1667829342/cms/Scope_Creep_https___www.business2community.com_strategy_what-is-scope-creep-in-project-management-definition-causes-and-solutions-02068428_utqo01.webp "Build vs buy software scope creep")
 
@@ -223,7 +225,7 @@ These are serious challenges. And that’s assuming that you even have the knowl
 
 ([McKinsey](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/delivering-large-scale-it-projects-on-time-on-budget-and-on-value))
 
-Check out our in-depth guide to in-house vs outsourcing software development.
+Check out our in-depth guide to [in-house vs outsourcing software development](/blog/inside-it/in-house-vs-outsourcing-software-development).
 
 ## Buying software: pros and cons
 
