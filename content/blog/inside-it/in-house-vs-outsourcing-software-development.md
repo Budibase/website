@@ -9,7 +9,6 @@ profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/
 title = "In-House vs Outsourcing Software Development | Quick Guide"
 
 +++
-  
 Weighing up whether to opt for in-house vs outsourcing software development can be a tough decision. The trouble is that the factors at play here cut across a whole range of issues, including technical, operational, and financial concerns.
 
 Our decision is also inevitably going to be influenced by more project-specific variables, like the kind of solution we’re building and the resources we can dedicate to it.
@@ -28,7 +27,7 @@ Essentially, what we want to determine is whether it’s better to build solutio
 
 Outsourcing means paying an agency, contractor, or another vendor to provide this resource for you. The global market for outsourcing software development is growing consistently
 
-![](https://lh4.googleusercontent.com/lWuhAWhMc9ML2MfQGt3a_qLHY6KEFlZP-dlMv6Idr7PD_bj5usxW7ltp0cZZuK4s1fwKdTjBxSJKwzri6d1_9OlzX5M0vWY_ZAWiGEZtetRQzRUNvPWL4mjRqGQwcrXQGGiSTVB0zSMnl3BB8AcobSc1wKLxyMeCqN2Te1wvcFVt49eZnnI8ML39rWSvPA =624x351)
+![In-houes vs outsourcing software development](https://res.cloudinary.com/daog6scxm/image/upload/v1667828198/cms/Outsourcing_Statistics_https___kruschecompany.com_it-outsourcing-statistics_qgnhat.webp "In-house vs outsourcing software development")
 
 ([Krusche](https://kruschecompany.com/it-outsourcing-statistics/))
 
@@ -40,8 +39,8 @@ We’ll cover the more granular decision points a little bit later.
 
 For now, what’s important to understand is, broadly, how we can categorize these variables. It’s helpful to place these into two groups:
 
-1. **Inputs - Anything which we need to commit to the project, including direct and indirect costs, as well as other resources and liabilities, like project management time, absorbing risk, and accounting for equipment.**
-2. **Outcomes - As in, factors relating to the finished solution, along with its delivery and how it meets your wider strategic, compliance, and financial goals.**
+1. **Inputs -** Anything which we need to commit to the project, including direct and indirect costs, as well as other resources and liabilities, like project management time, absorbing risk, and accounting for equipment.
+2. **Outcomes -** As in, factors relating to the finished solution, along with its delivery and how it meets your wider strategic, compliance, and financial goals.
 
 As we’ll see, the exact nature and importance of each of these issues vary from project to project. In the meantime, it’s simply useful to have this in our minds as a broad analytical framework.
 
@@ -67,7 +66,7 @@ Another key issue is control and oversight over projects. Naturally, we can expe
 
 As a result, we have a great influence over both the resources that projects are allocated, the processes they follow, and the specific decisions that are made along the way. This is useful for keeping projects on time and on budget.
 
-![](https://lh6.googleusercontent.com/HZwaiR_gqR4h0MyJEqxVM3Z7941u_xqvq0AZ_GADLdPVZfOEZoQIBnK9yDAPft_gE-uqtOt1Ut8VJw079uWgy3r_um-biSZ9YA6AkwCB4StIWUGFszHbIwzvZuYiFlYBk19wIvwBhvZaVl4Pxe22-OJdU7874qu1B4wJmq4HN74IV3BhARyUiz5QWFvkWA =624x351)
+![Software project costs](https://res.cloudinary.com/daog6scxm/image/upload/v1667828233/cms/Overspend_https___www.mckinsey.com_capabilities_mckinsey-digital_our-insights_delivering-large-scale-it-projects-on-time-on-budget-and-on-value_yignjn.webp "Software project costs")
 
 ([McKinsey](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/delivering-large-scale-it-projects-on-time-on-budget-and-on-value))
 
@@ -79,8 +78,8 @@ Take a look at our ultimate guide to enterprise software development to learn mo
 
 Finally, when we think about in-house vs outsourcing software development, we need to be conscious of the developers’ more specific skills and qualities. In-house teams offer two clear benefits here:
 
-1. **Increased commercial awareness - The developers themselves have a more in-depth understanding of your business, its processes, and the problems they’re trying to solve.**
-2. **Bespoke skillsets - When we hire our own development team, we have the luxury of handpicking colleagues with specific skills.**
+1. **Increased commercial awareness -** The developers themselves have a more in-depth understanding of your business, its processes, and the problems they’re trying to solve.
+2. **Bespoke skillsets -** When we hire our own development team, we have the luxury of handpicking colleagues with specific skills.
 
 ### Challenges
 
@@ -94,7 +93,7 @@ Unfortunately, this is a bit of a herculean task nowadays.
 
 The fact is, there’s a massive global development skills gap, with tens of thousands of roles going unfilled every year. Internal teams are particularly badly affected, due to available resources and the nature of in-house projects.
 
-![](https://lh3.googleusercontent.com/59OiqMz-AMpTDfcFgX_ECJLcOY-hKXWV-R944LMIhhlDI5EMDO3uKBx9AHXwrdka1rsDWHpAs0wi7_MT1b3bM5ZbVot-8LBg-AZ7Ije3dxchTzqBrcRAtgWbWjF0twxIcEAFLnTZNjKZmQwgBmFhFCXFwDWBun-FzoZkQLakTKiyXE6iH2-s61RveTGSLw =624x351)
+![Developer shortage](https://res.cloudinary.com/daog6scxm/image/upload/v1667828260/cms/Developer_Shortage_https___www.globenewswire.com_en_news-release_2022_02_10_2382917_0_en_New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html_tnfby5.webp "Developer shortage")
 
 ([Global News Wire](https://www.globenewswire.com/en/news-release/2022/02/10/2382917/0/en/New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html))
 
@@ -134,7 +133,7 @@ The first relates to how costs are incurred. Generally speaking, when outsourcin
 
 Remember, that the alternative would be having internal developers’ salaries as ongoing, fixed costs.
 
-![](https://lh4.googleusercontent.com/977SE1At1OfnXnGE66PdqcH5RlCIB4hGVKbRJbKgbcyYuu2AaKbGg2r5eX-80Qa-yAmlTd6pBpv5Rd0A32JmmzNv2wTrZ1hoLi_6L0rgpDUzPmdy4eYzQKsiphpoXbX2vcA184wor8X6JqWGeLzhG9T1A8pZEtQMjUiv065uHYGHoJKr7yj7s8CETFU2Xg =624x351)
+![In-house vs outsourcing software development costs](https://res.cloudinary.com/daog6scxm/image/upload/v1667828284/cms/Costs_https___kruschecompany.com_it-outsourcing-statistics_c4b6t3.webp "In-house vs outsourcing software development costs")
 
 ([Krusche](https://kruschecompany.com/it-outsourcing-statistics/))
 
@@ -162,7 +161,7 @@ We might not necessarily have the luxury of granular input into every design and
 
 There are some situations where this makes outsourcing a highly problematic prospect. For example, where security clearances are needed or even if a project requires a high degree of commercial awareness and familiarity with existing platforms.
 
-![](https://lh3.googleusercontent.com/-7bFKf_KYKY06wpfs9VxjaTrl-ZOxs_r075YAB27Uvyh_bEDMlYmpxNeCFpxz8ubENP1sA7kOld0vsXWDlY-zRmipqCBoa3tI5GiWVAjplqmBo0mtXazyJuKpxfEkOTCVUWiZZD6q9mefmJPVgAMO31p3EtY7hCvDhGK18KF6czVqT0R6NEfjIntj7o5Wg =624x351.33365019011404)
+![Quality issues](https://res.cloudinary.com/daog6scxm/image/upload/v1667828316/cms/Quality_https___www.intellectsoft.net_blog_software-development-outsourcing-trends_c9kmgw.webp "Quality issues")
 
 ([IntellectSoft)](https://www.intellectsoft.net/blog/software-development-outsourcing-trends/)
 
@@ -226,7 +225,7 @@ Contrast this with outsourcing arrangements, where most communications occur bet
 
 It’s easy to see how this increases the likelihood of something going wrong.
 
-![](https://lh4.googleusercontent.com/QPgomZZkfXSdnERkfVJvgLeUERDI5q7mjeac1xVZdugyZH2MOnC4dgvrtOhgBVrpThrsED0RVuAv805FM2yVkqXRyIOLckRCYn-oL-HByjczsaOu3aed7fqSQNJSWdqHz0F2naMDTx_mBQcn2g3HIoYYTfuJGqeMdU10wlk5AoKGVstQ8-TQwyKuH465zQ =624x351)
+![Scope creep](https://res.cloudinary.com/daog6scxm/image/upload/v1667828334/cms/Scope_Creep_https___www.business2community.com_strategy_what-is-scope-creep-in-project-management-definition-causes-and-solutions-02068428_rpuwq3.webp "Scope creep")
 
 ([Business2Community](https://www.business2community.com/strategy/what-is-scope-creep-in-project-management-definition-causes-and-solutions-02068428))
 
@@ -298,7 +297,7 @@ As far as specific strategies, new options are emerging all the time, across dev
 
 Let’s see how Budibase is changing the game for internal development teams.
 
-![](https://lh4.googleusercontent.com/JCmachCoT7fGucPm7waibf-Sp1ltlDTAklhVGNxg5KnK0AIcwOBjBGe8utcDSvatVR_cxTjlfm5AE-Oim_svtmDcQKRB3qDdnB0GArDkqnI-EOO3I26fzNEKEFRA4wDDFAVZ4PZQq5jvi725Mo1_kedZhGRJTpSojcMPu6IyAJLcT8WKLdlHD7TduCA8Nw =624x351)
+![Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1667828355/cms/Budibase_Screenshot_rkiazn.webp "Budibase")
 
 ## Introducing Budibase
 
