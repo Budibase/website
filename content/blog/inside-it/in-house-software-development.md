@@ -103,7 +103,7 @@ Larger organizations also choose in-house software development as part of their 
 
 Organizationally, we have issues like vendor lock-in, end-of-support, project overspending, or solutions becoming dated over time.
 
-![](https://lh4.googleusercontent.com/rmaK-J_H5R2-FHWeSbxeqNSXCh8Yjny7t_IcvM9qDlEgY6ux7GnmNohMlwbJ73t9WJMI_kSVtgWlfahVdiCvMpVa0Sv7H1wimNPHQRVvR3cIA9uWtATLs8BhgsICjmiI9EfB_mPAAPHkeOjb62K-H2nn6QLiS8jTr6EmuJLC1cbTbsOiTqNES7mgAt3hXA =624x351)
+![In-house software development cost](https://res.cloudinary.com/daog6scxm/image/upload/v1667827220/cms/Overspend_https___www.mckinsey.com_capabilities_mckinsey-digital_our-insights_delivering-large-scale-it-projects-on-time-on-budget-and-on-value_o9evyi.webp "In-house software development cost")
 
 ([McKinsey](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/delivering-large-scale-it-projects-on-time-on-budget-and-on-value))
 
@@ -137,7 +137,7 @@ Another key challenge is finding the right people. The global shortage of skille
 
 So, it can take months or even years to recruit talent - if you ever manage to do so. Plus you can incur extra costs, including working with recruiters, who are themselves high-skill professionals.
 
-![](https://lh4.googleusercontent.com/LcxYT-R2x6QK5w5WO79CRvs0dDk5IGLTio33gDG-9quisJdOo5wez5A7YLlBd0agbfxAkzh75a74gEMf--qBu_hQczd2M9CvxgjsdNlY5RwQDKm7UKH1i_cU5DvI4BNT8BS3Herv4fviG2oqYTuGQDDyA5vQ_fmHe-RtQczpcw507diaLCT7U4FsHbjMNA =624x351)
+![Developer Shortage](https://res.cloudinary.com/daog6scxm/image/upload/v1667827259/cms/Developer_Shortage_https___www.globenewswire.com_en_news-release_2022_02_10_2382917_0_en_New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html_hxinkm.webp "Developer Shortage")
 
 ([Global News Wire](https://www.globenewswire.com/en/news-release/2022/02/10/2382917/0/en/New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html))
 
@@ -173,7 +173,7 @@ A certain degree of backlog is normal. After all, the only time that your team c
 
 It’s only a problem when your development backlog starts to get out of hand. That is if we can’t deliver solutions as quickly as they’re needed. Then, you either need to scale your team, which takes time, or engage with external developers.
 
-![](https://lh4.googleusercontent.com/dIiirtnNuXs_er_8SRpKsJzgkXTPXbD06-0vQ3vpj7d-iPMVQgGZlYjVk3xiTPwz_luJR8M55qErjswxOLWYBd97Dcsrpu2MYlfHRkf4WsJQBLj3z20sP7AHHSTgecIAUMDfhd7-wMVMZSHNI5CwJBKfrdI6_heXQkSc9S1bZ-tCNVVa4_wrvbfrDK89WQ =624x351)
+![In-house software development backlog](https://res.cloudinary.com/daog6scxm/image/upload/v1667827280/cms/Build_Time_https___www.goodfirms.co_resources_software-development-research_uzxvxc.webp "In-house software development backlog")
 
 ([Good Firms](https://www.goodfirms.co/resources/software-development-research))
 
@@ -215,7 +215,7 @@ This is particularly valuable in smaller organizations. Like anything, in-house 
 
 There are downsides too, of course. For the most part, this means negating many of the benefits of in-house development that we’ve already seen.
 
-![](https://lh6.googleusercontent.com/Mya8PZVsMhdnQnYUsZ2_MMouIMnRiTkfG21TJhsizGA3N7KXx2O-3mvnLQ1fDQ2Tfafq8ZFJUfFdmSK5ffN2w4O466h8Mq7qfffZ1iy9RGn6ERPpwSpiZM0lGqWt3eD1grLD2z2apiBwEYaydXD8wpVB4gpDl2n2QlvcryCzdC6aFAReXbPFjjO6O-QEHw =624x351)
+![Quality issues](https://res.cloudinary.com/daog6scxm/image/upload/v1667827310/cms/Quality_https___www.intellectsoft.net_blog_software-development-outsourcing-trends_eeng7c.webp "Quality issues")
 
 ([IntellectSoft](https://www.intellectsoft.net/blog/software-development-outsourcing-trends/))
 
@@ -340,7 +340,7 @@ While not technically part of your development stack, managing tasks and communi
 
 We also want to eliminate delays and roadblocks here, as far as possible. In turn, this helps to prevent scope creep.
 
-![](https://lh3.googleusercontent.com/_jgedg5xRdJpgm37C0pboWBXUVzVdEVghmGZ0zwVQZcPEEs1D3du_ez2xa6MbFQS1wRqJemXBQE4dvS5FR59di6NZI2EZmlQP5LiZlT18iVG_WzT-3fYaycvYmyLHwCkaYHIfUw7HRAo3rlidfBPVjNRX_hsJ1l-8AcKr6F3Eb0pu4xQ36aTFx2zBL-OCQ =624x351)
+![Scope Creep](https://res.cloudinary.com/daog6scxm/image/upload/v1667827333/cms/Scope_Creep_https___www.business2community.com_strategy_what-is-scope-creep-in-project-management-definition-causes-and-solutions-02068428_ba4gpw.webp "Scope Creep")
 
 ([Business2Community](https://www.business2community.com/strategy/what-is-scope-creep-in-project-management-definition-causes-and-solutions-02068428))
 
@@ -398,7 +398,7 @@ These are the basic actions that we can perform on data.
 
 The thing is, most businesses nowadays are sitting on a whole swathe of different data sets, with very little consistency across how their teams can interact with them.
 
-![](https://lh5.googleusercontent.com/pCjZOQNxxfS4Q0KpoAuFkfAs6Sf8D_NVMJOapNma7-D_gdFGpCQ-V7K1nuXXLAyTZ0SnFu7SWkeb5ZNi97rqsYl2RqthFhwLv1Crmi-6KsFt5PWcEZHpA6XOswQNb5Cm7LZCx3PxrmLx1OU3YneShiwrhxi6daQO4wcPxY2vWcr_6gY-GpCBvuNJWZcWXQ =624x351)
+![CRUD Example](https://res.cloudinary.com/daog6scxm/image/upload/v1667827356/cms/CRUD_APP_lcruu6.webp "CRUD example")
 
 Check out our in-depth guide to building [CRUD apps](https://budibase.com/blog/crud-app/) for more information.
 
@@ -452,7 +452,7 @@ Approval workflows are a great example of this. These are tools that are focused
 
 The idea is to enforce existing business logic programmatically, while also removing the need for manual communications and admin tasks.
 
-![](https://lh4.googleusercontent.com/95LMHgMM5WlakMDNCnFOZ-tPZNTeqszHDQMH-CxfChbaTbUnf0_UYY3O_kcBEdPifbCLT1U7YSRiBJXyoONsdqJsQKM-gnwfHCdfsPShgTWhCGES0QkouA-GE4YtgKiDmuqXPDs2JoOOazvZ8CHg5UuVBy7ppJjLoaMv2MW8FhjV4GBrGcA_wQsfMJ6iYQ =624x351)
+![Workflow example](https://res.cloudinary.com/daog6scxm/image/upload/v1667827377/cms/Approval_App_atashg.webp "Workflow example")
 
 Check out our [approval apps](https://budibase.com/approval-apps) page to find out more.
 
@@ -466,7 +466,7 @@ For developers, this doesn’t give us much to go on. However, there are several
 
 For the most part, these are highly discrete, even single-screen tools, that are focused on digitalizing a specific task. For example, you might provide a unitary form for employees to update their contact details across various internal systems.
 
-![](https://lh5.googleusercontent.com/j658k3pfoNhM6YOPDIEcIPY_gEV5GN4oG_KDCEySCPmufjrsBHBJRsRmc1citC5oZq4f2YiIEmE0V9N3YaZVnAka39sHBuVDliTvSYKZjz1NkLkykOpu85cKE1ZK17E_3F1ayM_v73x7tGMm59Vk-6dayqjMfjYw1BQWf075FvVQsG92GyobEBiGYdVJiA =624x351)
+![Internal tool example](https://res.cloudinary.com/daog6scxm/image/upload/v1667827395/cms/Employee_Portal_xnlxbd.webp "Internal tool example")
 
 Check out our guide to [internal tools](https://budibase.com/internal-tools) to find out more.
 
@@ -478,7 +478,7 @@ In-house software development teams around the world choose Budibase to build se
 
 Let’s take a look at what makes our platform tick.
 
-![](https://lh6.googleusercontent.com/liA2MjCZvDMtG-vZA7WAbB_WF5_34pSq8xC7ioz8qg6vP4UfQGSb8Bnit-2ofYMe40b9pHOVtkVuv7otddvpG2VeVO6wX10V109jNCXCVL_kWpp8doGtaRy7Czb0U_p7d3CQCGjj1ch0He-aLh_bPIucrDV91M3ZqNpQmnq8dD2dd5v8jnvfP9uLWh_sFA =624x351)
+![Budibase for in-house software development](https://res.cloudinary.com/daog6scxm/image/upload/v1667827415/cms/Budibase_Screenshot_zttmd4.webp "Budibase for in-house software development")
 
 ### Simple by default
 
