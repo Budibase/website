@@ -62,7 +62,6 @@ pages:
 - content/blog/data/using-a-form-to-enter-google-sheets-data.md
 - content/blog/data/what-is-a-database-schema.md
 - content/blog/how-to-automate-tasks.md
-- content/blog/inside-it/6-in-house-development-examples-for-2023.md
 - content/blog/inside-it/build-vs-buy-software.md
 - content/blog/inside-it/citizen-developer-tools.md
 - content/blog/inside-it/citizen-developers.md
@@ -70,6 +69,7 @@ pages:
 - content/blog/inside-it/enterprise-app-development.md
 - content/blog/inside-it/enterprise-software-development.md
 - content/blog/inside-it/enterprise-software-industry-trends.md
+- content/blog/inside-it/in-house-development-examples.md
 - content/blog/inside-it/in-house-software-development.md
 - content/blog/inside-it/in-house-vs-outsourcing-software-development.md
 - content/blog/inside-it/rapid-application-development-tools.md
