@@ -55,11 +55,11 @@ Well, lots of reasons actually.
 
 Let’s just think about the most obvious ones for now.
 
-We could rule out using a pre-made solution straight off the bat if we had very specific needs, to the point that no suitable product exists. Take a look at our guide to deciding when to build vs buy software for a fuller discussion.
+We could rule out using a pre-made solution straight off the bat if we had very specific needs, to the point that no suitable product exists. Take a look at our guide to deciding when to [build vs buy software](/blog/inside-it/build-vs-buy-software) for a fuller discussion.
 
 Figuring out if it’s best to build something yourself or pay someone else to do it is a trickier prospect.
 
-In truth, there are a wide number of competing concerns at play here. As such, a thorough analysis is needed. Check out our guide to in-house vs outsourcing software development for more information.
+In truth, there are a wide number of competing concerns at play here. As such, a thorough analysis is needed. Check out our guide to [in-house vs outsourcing software development](/blog/inside-it/in-house-vs-outsourcing-software-development) for more information.
 
 For now, a good example of when you’d go in-house could be any project that requires a large degree of commercial awareness from developers - or even one that’s highly confidential.
 
@@ -75,7 +75,7 @@ It’s arguably more useful to consider the challenges facing internal developer
 
 The big thing here is that teams are seeing an explosion in demand for custom tools, at a time when budgets are being squeezed by harsh economic factors. When you add a global shortage of development talent into the mix, we have a big problem.
 
-![](https://lh6.googleusercontent.com/QFO34sCU_95nfL3u41CJOcbTy6Bc4Gt43Y7bh5sUZ_Adzv-HGiEwWANM0LWWnkoW7ynpkm0cnxRdjL2t8WxmYKo8I6SgkC7Ji3U-HJUC-uxcbW2CHmrdgFugpbb_ouhQux9wnAbvYQi_ehk0jsyOg1M4j6vZZD9pM9jrp76Mk-AWKoh_ZDtxIsZs9u5mqw =624x351)
+![Developer shortage](https://res.cloudinary.com/daog6scxm/image/upload/v1667829787/cms/Developer_Shortage_gqgnvv.webp "Developer shortage")
 
 ([Global News Wire](https://www.globenewswire.com/en/news-release/2022/02/10/2382917/0/en/New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html))
 
@@ -110,6 +110,8 @@ We can also point to important trends in the scope of your typical internal buil
 
 The vast majority of the time, we’re not talking about all singing, all dancing, revolutionary solutions. Rather, as we’ll see with our in-house development examples, internal devs are largely tasked with producing a large number of relatively simple tools, at speed.
 
+Take a look at our ultimate guide to [in-house software development](/blog/inside-it/in-house-software-development) to find out more.
+
 ## 6 in-house development examples
 
 With a clear picture of the peculiarities of internal builds, we can move on to our in-house development examples.
@@ -137,7 +139,7 @@ Typically, this is some combination of the following:
 
 Our example is a simple SQL GUI.
 
-![](https://lh3.googleusercontent.com/WNrTHQ8NZWBZoMww7SHswlwhqIZungoiXeuOdHkty-cqELEdn4gro1cAK33AA-hDni8NjrSBnRc9CmT1IhmYH14Ytid3SBuHg20rvC2yx0e5I1Za5ezQKDTxpUvJraFkv9WzzoDmiFK2in8fW5tzafLjkAtH0l8Aii5kmuNnkfo-kwOD6IG3U304kzi-4Q =624x216)
+![In-house development example SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1667829832/cms/02_bhnso4.webp "In-house development example SQL GUI")
 
 With it, we can perform two sets of tasks:
 
@@ -162,7 +164,7 @@ This is useful in just about any kind of business process you can imagine.
 
 For our in-house development example, we have a simple IT incident report tool:
 
-![](https://lh3.googleusercontent.com/rTFQUo4Nz-MbkoBSPapU82T3gbD6QhIPPOcq6C98Z4uLmhycGlBs7KqyOyzRKLE9fOU81H9K4Fpg0E78wyJ9NYxU6nwHJ0c8bhZrnWPvfswRpoZmtCLO10_73R75To3-JDIl_WRSWe-lyvXWUSKGh70fmrAc1JHC66E1ZhnxbJMOxl2bRFAQePAtYtf0KA =624x345)
+![In-House development example CRUD app](https://res.cloudinary.com/daog6scxm/image/upload/v1667829872/cms/Screenshot_2022-11-07_at_09.49.21_jwtpai.webp "In-House development example CRUD app")
 
 Users can:
 
@@ -195,7 +197,7 @@ The same applies to invoice submissions, project initiations, maintenance reques
 
 Our in-house development example is a simple vacation request tool:
 
-![](https://lh6.googleusercontent.com/WCjkwUOSPG3n6SFbjgNv-tZdxLG1ECayLZeMvw9PmRhVFuddjeTx2F8kueJpgcFrcd_ltrRFYCZMJs9PSVY5geXZ7jZsTt4BKBD4erdLGe3g0HP_QaclFnj6E05TnEMUbir0saDgLV3kqjsmWuVbkrRuOlX3nF0rW-awgNyRUCMUbvtURAAZexHSEFB88A =624x231)
+![In-house development examples workflow app](https://res.cloudinary.com/daog6scxm/image/upload/v1667829903/cms/Screenshot_2022-11-07_at_09.51.34_h71mfg.webp "In-House development examples workflow app")
 
 On the one hand, employees can request time off. Their line manager can then manually review, approve, or decline this request.
 
@@ -219,7 +221,7 @@ Another is that we need to ensure fast, easy access for the right people while p
 
 For our in-house development example, we’ve got a simple OKR tracker:
 
-![](https://lh6.googleusercontent.com/vxD2bx4O0yY3UAl2Xz_CEKaUwfM0mcRGVBjQA3TRR79MC8g8YqxbmRhkuWXfOI4Y6f9mPGebblUH8j3SQwz4rLRtKOnTmqvKbTWBiCD_PpSlYQ9jrKIyDCf40PltAEs_Bd7smAyuDNC_m85I5WzTgKaMJOY9PHEqaOxXfIYCcaMWSwtq0CqhsWjEXDqXCw =624x351)
+![OKR Tracker](https://res.cloudinary.com/daog6scxm/image/upload/v1667829929/cms/Screenshot_2022-11-07_at_09.53.21_zsufki.webp "OKR Tracker")
 
 The core functionality here is allowing users to track progress across defined business goals.
 
@@ -251,7 +253,7 @@ However, we also need to grapple with the fact that your employees have better t
 
 We can solve both problems with our fifth in-house development example - a single form to update employee details across multiple external platforms:
 
-![](https://lh3.googleusercontent.com/sMBAd9Xn8eDmyzyFz_DGtjDvgC7HyXlPt-2wTAR-33dfSRYzl8WSbcfmL--I_p4A1zonNnbsMM7rlelKb4JNzuv4-20r0j0u4LpQTqGp5y3KZexF1tdLmbzkXR7Yp9CnTqGttj2xH9GigMl_dMq8w8uJXcrPDT8ZhQXi-M7Mlnh50nl3COrgyXfPZLL5XA =624x400)
+![Employee Details Form](https://res.cloudinary.com/daog6scxm/image/upload/v1667829948/cms/Screenshot_2022-11-07_at_10.01.33_vv84y7.webp "Employee Details Form")
 
 This one is pretty self-explanatory. With Budibase’s market-leading form builder tools, external data support, and custom automations, it’s never been easier to create solutions for managing employee information.
 
@@ -269,7 +271,7 @@ The goal with this second category is, in part, to ensure continuity and consist
 
 For our in-house development example, we’ve chosen a simple employee directory:
 
-![](https://lh5.googleusercontent.com/Z1pOkKKKqqm9CJkLBvZydkaEkiCP73r7jerHLgJ_CTsk5UmTBJ72yvIkOdivL9CaTRm0sYfuE7jOqNNgb0adDwwChGKyIpOTVGUdFdCF03ZXqxM7cj9cb_hq1FhiRtWf8VRVdYzFfaaI27ts0FQIhge47FrxtGkowQOYSRb357AezrVy-vEQ7lN3XXTHZg =624x348)
+![Directory](https://res.cloudinary.com/daog6scxm/image/upload/v1667829970/cms/Screenshot_2022-11-07_at_10.06.06_oblwlt.webp "Directory")
 
 This is an undersung yet indispensable tool for any modern organization - especially in the context of remote, international workforces.
 
