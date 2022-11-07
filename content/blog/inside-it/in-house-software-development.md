@@ -1,8 +1,7 @@
 +++
 author = "Ronan McQuillan"
-date = 2022-11-01T00:00:00Z
+date = 2022-11-04T00:00:00Z
 description = "Nowadays, every company is a software company. We’re diving into everything you need to know about in-house software development."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1667827120/cms/In-House_Software_Development_fwkw2a.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1667827132/cms/In-House_Software_Development_u1v0ru.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
@@ -163,6 +162,8 @@ Then we have more specific development costs, including licensing tools, R&D tim
 
 And finally, we need to think about the costs associated with hosting and maintaining our solutions, both in terms of labor and equipment.
 
+We've also created a guide to deciding whether to [build vs buy software](/blog/inside-it/build-vs-buy-software).
+
 ### Development backlogs
 
 Development backlogs are a familiar idea to anyone who’s ever worked with in-house teams. This is the wait time from when a solution is requested, to when your internal developers start working on it.
@@ -219,7 +220,7 @@ There are downsides too, of course. For the most part, this means negating many 
 
 ([IntellectSoft](https://www.intellectsoft.net/blog/software-development-outsourcing-trends/))
 
-Check out our article on in-house vs outsourcing development for more information.
+Check out our article on [in-house vs outsourcing development](/blog/inside-it/in-house-vs-outsourcing-software-development) for more information.
 
 ## In-house software development vs citizen development
 
@@ -388,7 +389,9 @@ We’ll see what Budibase brings to the table here a little bit later.
 
 First, though, we haven’t drilled into the specific use cases for in-house software development so far. We’ve hinted at the fact that the majority of internal projects are pretty simple, but we need a firmer grasp of _what_ most in-house developers actually output.
 
-Let’s take a look.
+We've also created a roundup of [in-house development examples](/blog/inside-it/in-house-development-examples).
+
+Let’s take a look at the key use cases.
 
 ### CRUD apps
 

@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-10-13T23:00:00Z
 description = "Deciding whether to build vs buy software solutions is one of the central challenges for IT procurement teams."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1667829026/cms/Build_vs_Buy_Software_bocwjk.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1667829032/cms/Build_vs_Buy_Software_tazwpx.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
