@@ -2,7 +2,6 @@
 author = "Joe Johnston"
 date = 2022-10-25T23:00:00Z
 description = "Here’s everything new in Budibase this month: from drag-and-drop updates to new Block capabilities. We’re also sharing a design feedback survey, and the winners of the recent Budibase hackathon."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1666791773/cms/drag-and-drop_jg9boj.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1666791773/cms/drag-and-drop_jg9boj.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/joe_illustration_gray_bg_e97wdl.jpg"
@@ -26,14 +25,6 @@ When designing apps, you can now drag-and-drop components and blocks from the co
 ### Blocks ejection
 
 Blocks are an important and popular part of the design flow within Budibase. They simplify and speed up the design process. But, their opinionated approach can lead to roadblocks - until now. When using a block, if you hit a roadblock, you can now eject the block, and its inner components will become independently available to customize.
-
-***
-
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1666791947/cms/row-explorer_tsdci6.png)
-
-### Row explorer block
-
-A personal favorite, this block, when added to your interface, will make it quick and easy for your users to cycle through records.
 
 ***
 
@@ -90,3 +81,9 @@ A new component that allows your users to scan QR codes and barcodes. This new f
 * Automations - Unable to bind to the result of a JS Scripting block
 * App name runs into updated text
 * Clicking on an attachment inside a table component checks the "row selected" checkbox.
+
+***
+
+## Other news
+
+We recently raised new funding to help us accelerate our mission. You can [read about it here](https://budibase.com/blog/updates/budibase-raises-7m-to-help-every-company-on-the-planet-build-their-own-tools/).
