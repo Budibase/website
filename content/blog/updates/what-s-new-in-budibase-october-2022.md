@@ -1,6 +1,6 @@
 +++
 author = "Joe Johnston"
-date = 2022-10-25T23:00:00Z
+date = 2022-11-09T00:00:00Z
 description = "Here’s everything new in Budibase this month: from drag-and-drop updates to new Block capabilities. We’re also sharing a design feedback survey, and the winners of the recent Budibase hackathon."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1666791773/cms/drag-and-drop_jg9boj.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1666791773/cms/drag-and-drop_jg9boj.png"]
