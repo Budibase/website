@@ -600,6 +600,81 @@ An example of the second strategy would be providing an incident report tool so 
 
 It’s also crucial to monitor any automation logs, to identify instances where your workflows haven’t worked properly. This helps you to identify whether the cause of issues is systematic or if it’s related to user errors.
 
+### Workflow automation examples
+
+There are many automation workflow examples out there. In general, whenever you can think of a set of actions performed after a trigger, you have a workflow. From there, you can automate your workflows partially or completely.
+
+But this might be too fuzzy.
+
+So let’s see some examples of some common workflows in business that you can relate to.
+
+You might want to automate workflows for generating and converting leads. For example:
+
+* Automatically collect leads from social media.
+* Message leads automatically when they connect or perform an action.
+* Automate workflows for new proposals based on variables including project size and requirements.
+* Use software to automate calendar bookings, alerts, and meetings.
+* Automatically transcribe contents from discovery calls to generate strategies and proposals.
+* Automate SEO reports
+* Generate social media assets automatically for many platforms based on variables or a template design.
+* Automatically create coupons and discounts based on user behavior.
+* Automate email sequences, such as cart abandonment, resupply, welcome sequences, and product launches.
+
+And you can automate workflows for other business aspects. For example, delivering services and products, creating reports, and even other internal management tasks.
+
+So, you could:
+
+* Automatically send invoices when the project is complete.
+* Collect data for reports automatically from multiple sources.
+* Send notifications in sequence for everyone responsible at each step of the production chain - So when step 1 is complete, step 2 gets a notification, and so on until the project is finished.
+* Automate small tasks such as creating docs, presentations, and anything else that’s repeatable.
+
+### Workflow automation strategy
+
+There are many strategies to consider if you want to automate a workflow.
+
+An important workflow automation strategy is to use the Pareto principle. In general terms, this principle states that the biggest outcomes come from a small portion of the actions.
+
+The original version of the Pareto principle says that 20% of the actions generate 80% of the results. But there are many variations and it can be different for each context. For example, in some places, 5% of the actions generate 90% of the results. And in others, 30% generate 70%.
+
+This means that 20% of your clients account for 80% of the revenue, for example.
+
+Or that 5% of your workflows generate 90% of the costs.
+
+The general idea is that not all efforts are the same. Small improvements can breed big results.
+
+Therefore, you should focus your workflow automation strategy on actions that can generate the biggest impact, with the lowest cost.
+
+And that’s where the fun begins.
+
+To define the best workflow automation strategy, it’s better to list all workflows in the first place.
+
+So check your daily actions, list all workflows, check what kind of resources they require, and write down their outcomes.
+
+From there, you can define which workflows you can automate by checking:
+
+* What are the costs involved in that workflow?
+* What kind of results does this workflow generate?
+* How strict or how variable is this workflow?
+
+Therefore, a better strategy is to start with workflows with high costs, high results, and low variability.
+
+For example, if you have 3 workflows:
+
+1. **Strategy call with a client** - low cost (30 minutes), high return (immediate sales), variable.
+2. **Connecting with leads on social media** - medium cost (1h), low return (sales in long term), somewhat variable (message templates, but also custom messages).
+3. **Lead qualification** - High cost (5h), high return (sales at higher rates), strict.
+
+Here it makes sense to automate the lead qualification workflow first. To implement it, you could replace the human qualification with digital forms or even chatbots.
+
+Notice that although the strategy call is a high-return activity, it might be harder to automate it. Tasks that are highly variable are usually at the bottom of the automation list.
+
+But there’s another automation strategy that you can use: to outsource them.
+
+Outsourcing isn’t the same as regular workflow automation. But it’s a great strategy when you need to reduce how much time you spend on a task.
+
+Take a look at our guide to [in-house vs outsourcing software development](https://budibase.com/blog/inside-it/in-house-vs-outsourcing-software-development/), for a related discussion.
+
 ## Low-code workflow automation from Budibase
 
 Earlier, we discussed how low-code tools are playing an increasingly important role in workflow automation.
