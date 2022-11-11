@@ -347,26 +347,26 @@ Execute query:
 * Query name: execute
 * Binding (JS):
 
-  var id = $("URL.id");
-  var ret = "";
-  var table = $("URL.table");
-  var formData = $("Update Form.Value");
-  delete formData.id;
-  if ( id == 0 ) {
-  var keys = Object.getOwnPropertyNames(formData);
-  var values = Object.values(formData);
-  ret = "INSERT INTO " + table +
-  " ( " + keys.join() + ' )
-  VALUES ( "' + values.join('","') + '" )' ;
-  } else {
-  ret = "UPDATE " + table + " SET ";
-  Object.entries(formData).forEach((\[key, val\]) => {
-  ret += " `" + key + "`='" + val + "',";
-  });
-  ret = ret.slice(0, -1);
-  ret += " WHERE id=" + id;
-  }
-  return ret;
+    var id = $("URL.id");
+    var ret = "";
+    var table = $("URL.table");
+    var formData = $("Update Form.Value");
+    delete formData.id;
+    if ( id == 0 ) {
+    var keys = Object.getOwnPropertyNames(formData);
+    var values = Object.values(formData);
+    ret = "INSERT INTO " + table +
+    " ( " + keys.join() + ' )
+    VALUES ( "' + values.join('","') + '" )' ;
+    } else {
+    ret = "UPDATE " + table + " SET ";
+    Object.entries(formData).forEach(([key, val]) => {
+    ret += " " + key + "='" + val + "',";
+    });
+    ret = ret.slice(0, -1);
+    ret += " WHERE id=" + id;
+    }
+    return ret;
 
 Update State:
 
