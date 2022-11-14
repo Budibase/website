@@ -32,6 +32,22 @@ There are many examples where a user may want to create a public form. I've list
 
 The internet is increasingly made up of forms. It's how we retrieve and update data, which is why there are different types of forms.
 
+### Public forms software
+
+Public forms allow organizations to collect data from customers, prospects, partners, and stakeholders. But creating the actual public form requires software or an app.
+
+Given that this is a recurring need for businesses there are many options for public forms software. There are a few things to keep in mind when you are picking the right tool for your forms though.
+
+Firstly, there’s the pricing point. There are free forms that are quite limited, Then there are very expensive solutions, along with a wide range of options in-between. So figuring out how much you want to spend on it is crucial.
+
+Then, you need to consider your requirements. Some public forms are self-hosted, so you control the source code. Others aren’t, so you need to redirect users to a third-party website.
+
+Also, there are laws regarding what kind of authorization you need to process this data, in particular, if it is stored with an external app.
+
+And finally, there is the usability aspect of building a public form. You might find a free option, but if it’s too hard for users to interact with it, you might not be able to get the data you want.
+
+In this article, we teach you how to build your public forms using Budibase, so that you can build forms for free. You can use the cloud version, or host it yourself if you want. In addition, you can customize the forms in any way you want to, including complex components beyond just public forms.
+
 ## Form types
 
 Broadly speaking forms can be pigeonholed into the following two categories; single-step and multi-step.
@@ -71,7 +87,7 @@ If you've not signed up for Budibase, you can [register here](https://account.bu
 
 Click the 'Create new app' button, then click the 'Start from scratch' button. Name your app (only use letters, no spaces or special characters) - we'll name our app `Form`. Budibase will generate a URL for you. If you are happy with the URL, click 'Create app'.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650880675/cms/CleanShot_2022-04-25_at_10.57.34_2x_ezlsea.png)
+![Public forms and how to build them](https://res.cloudinary.com/daog6scxm/image/upload/v1650880675/cms/CleanShot_2022-04-25_at_10.57.34_2x_ezlsea.webp "Public Forms and how to build them")
 
 #### Step 3. Set up your database
 
@@ -96,7 +112,7 @@ Now that we've set up our database, we need to build its structure by adding fie
     Then click 'Save column'.
 * The final step within our data section, and a very important one, is to change the access of our database. To do this, click the 'Manage access' button. **Then set both the Write and Read levels to 'Public'. Click 'Done'.**
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650880617/cms/CleanShot_2022-04-25_at_10.56.04_2x_hcb0v4.png)
+![Build a table](https://res.cloudinary.com/daog6scxm/image/upload/v1650880617/cms/CleanShot_2022-04-25_at_10.56.04_2x_hcb0v4.webp "Build a table")
 
 #### Step 5. Create your public screen
 
@@ -104,21 +120,21 @@ Navigate to the Design section of the Budibase builder. There are two ways to bu
 
 Your first step is to change the access from Basic to Public (Filter by access dropdown under the Screens tab).
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650618251/cms/CleanShot_2022-04-22_at_10.03.47_2x_kdyyzr.png)
+![Public forms](https://res.cloudinary.com/daog6scxm/image/upload/v1650618251/cms/CleanShot_2022-04-22_at_10.03.47_2x_kdyyzr.webp "Screen for public forms")
 
 Now click the '+ Add screen' button. Select 'Blank' and click 'Add screens'. Name your screen `Form` and use `/` as the URL. Your screen will now look like this:
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650618476/cms/CleanShot_2022-04-22_at_10.07.38_2x_ntc6w3.png)
+![Blank screen](https://res.cloudinary.com/daog6scxm/image/upload/v1650618476/cms/CleanShot_2022-04-22_at_10.07.38_2x_ntc6w3.webp "Blank screen")
 
 #### Step 6. Build your public form
 
 First, we will add a Form component. You will find this under the Form dropdown. In the settings panel (to the right of your screen), under the Schema label, select the dropdown and select Public Form.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650621320/cms/CleanShot_2022-04-22_at_10.54.00_bebnuq.gif)
+![Build a public form](https://res.cloudinary.com/daog6scxm/image/upload/v1650621320/cms/CleanShot_2022-04-22_at_10.54.00_bebnuq.gif "Build a public form")
 
 Now, add a Field Group component (under the Form dropdown). In the settings panel, click the 'Update form fields' button, then click 'Update'. Your screen should now look like this:
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650628329/cms/CleanShot_2022-04-22_at_12.51.55_2x_qfpx38.png)
+![Public forms](https://res.cloudinary.com/daog6scxm/image/upload/v1650628329/cms/CleanShot_2022-04-22_at_12.51.55_2x_qfpx38.webp "Public forms")
 
 #### Step 7. Add and configure submit button
 
@@ -126,13 +142,13 @@ To complete the creation of our public form, we will add a submit button. To add
 
 We now need to tell our button what to do when clicked. To do this, under the label On Click, click the Define actions button. Now click the \`Add Action' button, and select 'Save Row'. Change the Data source to 'New Form' (the name of your form component in the tree) and Table to 'Public Form' (the name of your table). Click 'Save'. Our form is now fully operational.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650877529/cms/CleanShot_2022-04-25_at_10.05.09_2x_dzgloj.png)
+![Button action](https://res.cloudinary.com/daog6scxm/image/upload/v1650877529/cms/CleanShot_2022-04-25_at_10.05.09_2x_dzgloj.webp "Button action")
 
 #### Step 8. Style our new form
 
 Our form is looking a little lustreless. Let's bring it to live with some style updates. First, we'll remove our navigation by clicking Layouts, then in the settings panel, selecting 'None' under Navigation.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650878126/cms/CleanShot_2022-04-25_at_10.10.11_hgahtt.gif)
+![Form design](https://res.cloudinary.com/daog6scxm/image/upload/v1650878126/cms/CleanShot_2022-04-25_at_10.10.11_hgahtt.gif "Form design")
 
 After removing the Navigation, go back to the 'Screens' tab, and follow the instructions below:
 
@@ -140,7 +156,7 @@ After removing the Navigation, go back to the 'Screens' tab, and follow the inst
 
 * Click on the 'Home' option in the component navigation tree. In the settings panel, under 'Horiz Align', choose 'Center'.
 * Click on our New Form component, and in the settings panel, change the Size to 'Large'.
-* Add a new container and drag it above your form component (in the component tree). Then nest your Form component under the new Container component. ![](https://res.cloudinary.com/daog6scxm/image/upload/v1650879355/cms/CleanShot_2022-04-25_at_10.34.58_j0wxaj.gif)  
+* Add a new container and drag it above your form component (in the component tree). Then nest your Form component under the new Container component. ![Components](https://res.cloudinary.com/daog6scxm/image/upload/v1650879355/cms/CleanShot_2022-04-25_at_10.34.58_j0wxaj.gif "Components")  
   Click the 'New Container' component, and in its settings panel:
 * Under Horiz. Align, select 'Left'.
 * Under PADDING, change:
@@ -152,7 +168,7 @@ After removing the Navigation, go back to the 'Screens' tab, and follow the inst
 
 ##### Update the theme
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650879129/cms/CleanShot_2022-04-25_at_10.31.53_2x_ebsuwa.png)
+![Theme](https://res.cloudinary.com/daog6scxm/image/upload/v1650879129/cms/CleanShot_2022-04-25_at_10.31.53_2x_ebsuwa.webp "Theme")
 
 * Click the Theme button
 * Beside the 'Theme' label, select Darkest
@@ -173,21 +189,21 @@ After removing the Navigation, go back to the 'Screens' tab, and follow the inst
     `Please complete the form below and we will respond as soon as possible.`
   * Change the Color to a lighter grey (see screenshot below)
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650880901/cms/CleanShot_2022-04-25_at_11.01.21_2x_d7l7jv.png)
+![Theme](https://res.cloudinary.com/daog6scxm/image/upload/v1650880901/cms/CleanShot_2022-04-25_at_11.01.21_2x_d7l7jv.webp "Theme")
 
 Now structure your component navigation tree like the image below:
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650882004/cms/CleanShot_2022-04-25_at_11.19.52_2x_ppqozz.png)
+![Form components](https://res.cloudinary.com/daog6scxm/image/upload/v1650882004/cms/CleanShot_2022-04-25_at_11.19.52_2x_ppqozz.webp "Form components")
 
 #### Step 9. Preview and test your app
 
 Click the Preview icon (play icon, highlighted in blue below) to preview your app.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650881029/cms/CleanShot_2022-04-25_at_11.03.17_2x_mdwvcq.png)
+![Preview](https://res.cloudinary.com/daog6scxm/image/upload/v1650881029/cms/CleanShot_2022-04-25_at_11.03.17_2x_mdwvcq.webp "Preview")
 
 Your new public form should look something like this:
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650881575/cms/CleanShot_2022-04-25_at_11.12.38_2x_qtmh4q.png)
+![Public forms](https://res.cloudinary.com/daog6scxm/image/upload/v1650881575/cms/CleanShot_2022-04-25_at_11.12.38_2x_qtmh4q.webp "Public forms")
 
 You can now test your form. Fill out your form with the following information and click the submit button.
 
@@ -198,7 +214,7 @@ You can now test your form. Fill out your form with the following information an
 
 After submitting the form, if you navigate back to Budibase, and look at your Public Form table in the data section, you will see our test entry.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650881529/cms/CleanShot_2022-04-25_at_11.11.52_2x_kyywtn.png)
+![Test entry](https://res.cloudinary.com/daog6scxm/image/upload/v1650881529/cms/CleanShot_2022-04-25_at_11.11.52_2x_kyywtn.webp "Test entry")
 
 If you are happy with your form, you can now publish it.
 
@@ -208,11 +224,13 @@ To publish your app, simply click the Publish button, beside the preview button.
 
 _Currently, to view your app, you have to navigate back to the app section (click bb icon, top left), and click the more icon beside your app, then click 'View published app'. This will change in the near future, and when you click publish Budibase will provide you with the URL._
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650881274/cms/CleanShot_2022-04-25_at_11.07.24_2x_p2kt7k.png)
+![Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1650881274/cms/CleanShot_2022-04-25_at_11.07.24_2x_p2kt7k.webp "Budibase")
 
 Your new public form should look beautiful like the one below:
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650881706/cms/CleanShot_2022-04-25_at_11.14.55_2x_rs3j7e.png)
+![Public form example](https://res.cloudinary.com/daog6scxm/image/upload/v1650881706/cms/CleanShot_2022-04-25_at_11.14.55_2x_rs3j7e.webp "Public form example ")
+
+Check out our top tips for [form UI design](https://budibase.com/blog/app-building/form-ui-design/).
 
 ***
 
@@ -220,11 +238,23 @@ Your new public form should look beautiful like the one below:
 
 Building a multi-step form follows the same process as building a single-step form, but involves a few additional steps which I've detailed below:
 
+#### Budibase form steps
+
+You can use Budibase to create multi-steps forms. In general, you just need to add the form steps component. Then you use button components to navigate between steps and submit data.
+
+You can navigate between steps with the onclick action “change form step”:
+
+![Budibaes Form Steps](https://res.cloudinary.com/daog6scxm/image/upload/v1668418902/cms/Screenshot_2022-11-14_at_09.40.56_pm3dgm.webp "Budibase Forms Step")
+
+In it, you can use buttons to navigate to the next step, to the previous step, to the first step, or to a specific step.
+
+Therefore, you can have a simple sequential flow or a form with multiple iterations and a complex navigation system.
+
 #### Step 11. Add Form Step components
 
 To turn our single-step form into a multi-step form, we must use the Form Step component. Click on the `New Field Group` component in your navigation tree, then add 2 Form Step components (add one, then click on New field group component, then add another). After doing this, nest the Name and Email component under Step 1, and Company and Company size under step 2. See the image below for further direction:
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650882506/cms/CleanShot_2022-04-25_at_11.26.26_2x_sx1da2.png)
+![Steps](https://res.cloudinary.com/daog6scxm/image/upload/v1650882506/cms/CleanShot_2022-04-25_at_11.26.26_2x_sx1da2.webp "Steps")
 
 #### Step 12. Change our button text depending on the step
 
@@ -242,7 +272,7 @@ What we want to do next, is tell Budibase to update our button text to say next 
 
 See the image below for guidance.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650883255/cms/CleanShot_2022-04-25_at_11.40.40_2x_uzuvh4.png)
+![Conditionality](https://res.cloudinary.com/daog6scxm/image/upload/v1650883255/cms/CleanShot_2022-04-25_at_11.40.40_2x_uzuvh4.webp "Conditionality")
 
 Click Save, and the Button should be updated.
 
@@ -258,17 +288,17 @@ Our button currently has an action to Save a row, but we don't want to save a ro
 * Number
 * 1
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650883850/cms/CleanShot_2022-04-25_at_11.50.36_2x_zl189i.png)
+![Form step button](https://res.cloudinary.com/daog6scxm/image/upload/v1650883850/cms/CleanShot_2022-04-25_at_11.50.36_2x_zl189i.webp "Form step button")
 
 #### Step 14. Preview and test our new public multi-step form
 
 Click the preview button. In our form, enter `Test` for the name, and `Test` for the email. Click Next.Then enter `Test` for the Company and 1 - 10 for Company size, and press Submit.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650884025/cms/CleanShot_2022-04-25_at_11.51.48_2x_vfqiyj.png)
+![Form preview](https://res.cloudinary.com/daog6scxm/image/upload/v1650884025/cms/CleanShot_2022-04-25_at_11.51.48_2x_vfqiyj.webp "Form preview")
 
 After submitting the form, if you navigate back to Budibase, and look at your Public Form table in the data section, you will see our test entry.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650884054/cms/CleanShot_2022-04-25_at_11.53.59_2x_erulr7.png)
+![Test entry](https://res.cloudinary.com/daog6scxm/image/upload/v1650884054/cms/CleanShot_2022-04-25_at_11.53.59_2x_erulr7.webp "Test entry")
 
 #### Step 15. Publish your app
 
@@ -276,7 +306,7 @@ To publish your app, simply click the Publish button, beside the preview button.
 
 _Currently, to view your app, you have to navigate back to the app section (click bb icon, top left), and click the more icon beside your app, then click 'View published app'. This will change in the near future, and when you click publish Budibase will provide you with the URL._
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650884503/cms/CleanShot_2022-04-25_at_12.00.47_qsqupu.gif)
+![Form button](https://res.cloudinary.com/daog6scxm/image/upload/v1650884503/cms/CleanShot_2022-04-25_at_12.00.47_qsqupu.gif "Button")
 
 ## Public form template
 
@@ -288,6 +318,6 @@ You can explore over 50 templates, including [form templates](https://budibase.c
 
 Personally, I would autogenerate CRUD screens (with basic access level). This way, I would have a UI to view, update, delete form submissions and create new ones too.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1650896538/cms/CleanShot_2022-04-25_at_15.22.00_pm2pqy.png)
+![Data](https://res.cloudinary.com/daog6scxm/image/upload/v1650896538/cms/CleanShot_2022-04-25_at_15.22.00_pm2pqy.webp "Data")
 
 I hope you found this guide helpful. If you have a need or desire to build web apps and internal tools quickly, [sign up to Budibase today](https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=navigation-cta). It's free and open-source, has over 13,000 Github stars, and is loved by employees at Google, Microsoft, SpaceX, and more.
