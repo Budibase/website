@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-11-21T00:00:00Z
 description = "Read our step-by-step guide to building a Firebase GUI with Budibase."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1669031363/cms/Firebase_GUI_Header_sfyylk.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1669031370/cms/Firebase_GUI_Header_y4a4lo.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"

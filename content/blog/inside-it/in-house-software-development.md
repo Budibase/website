@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2022-11-04T00:00:00Z
+date = 2022-11-10T00:00:00Z
 description = "Nowadays, every company is a software company. We’re diving into everything you need to know about in-house software development."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1667827120/cms/In-House_Software_Development_fwkw2a.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1667827132/cms/In-House_Software_Development_u1v0ru.png"]
