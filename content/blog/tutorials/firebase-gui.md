@@ -53,7 +53,7 @@ For this reason, it’s a good idea to build a Firebase GUI using a low-code too
 
 This is exactly what you’ll build today.
 
-![Firebase GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1669031554/cms/01_gugbud.png "Firebase GUI")
+![Firebase GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1669031554/cms/01_gugbud.webp "Firebase GUI")
 
 This is the main screen. In it, you can see the list of collections, which are the Firestore equivalent of SQL tables. Since Firebase Firestore is a no-SQL database, you don’t have the fixed structure that you would have in SQL databases.
 
@@ -67,29 +67,29 @@ Another feature in your Firebase GUI is filtering. You can use the filters optio
 
 Once you click that button this modal opens:
 
-![Filtering Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1669031623/cms/02_jcnl3t.png "Filtering screen")
+![Filtering Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1669031623/cms/02_jcnl3t.webp "Filtering screen")
 
 You can add searches for fields using a field key, a value, and a comparison method. For example, you can search for user_emails that end with _@gmail.com._
 
 Back to the home screen, if you click on “add new” you’ll see a form like this one:
 
-![Add document form](https://res.cloudinary.com/daog6scxm/image/upload/v1669031643/cms/03_ikevqe.png "Add document form")
+![Add document form](https://res.cloudinary.com/daog6scxm/image/upload/v1669031643/cms/03_ikevqe.webp "Add document form")
 
 This form allows you to add documents to a collection. You can click on “edit” as well if there is an ID for the item:
 
-![Edit document](https://res.cloudinary.com/daog6scxm/image/upload/v1669031682/cms/04_ohlsi2.png "Edit document")
+![Edit document](https://res.cloudinary.com/daog6scxm/image/upload/v1669031682/cms/04_ohlsi2.webp "Edit document")
 
 This is the edit form. You can add or remove fields here.
 
 If there is no ID provided, it isn’t possible to edit the item, so you’ll see something like this on the panel screen:
 
-![Firebase GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1669031701/cms/05_hs6jzr.png "Firebase GUI")
+![Firebase GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1669031701/cms/05_hs6jzr.webp "Firebase GUI")
 
 This usually happens if you create a document but you don’t add an “id” key in it.
 
 The collections list is actually stored using BudibaseDB, our internal database. You can view, edit, create, and delete items using the “collections list” menu link
 
-![Collections](https://res.cloudinary.com/daog6scxm/image/upload/v1669031719/cms/06_vh8wnm.png "Collections")
+![Collections](https://res.cloudinary.com/daog6scxm/image/upload/v1669031719/cms/06_vh8wnm.webp "Collections")
 
 Now let’s see how you can create your Firebase GUI in just four steps.
 
@@ -113,7 +113,7 @@ Now navigate to “Firestore Database” and create a couple of collections to g
 
 Next, sign up for Budibase, create a new app, and select Firestore as your data source:
 
-![Firebase data source](https://res.cloudinary.com/daog6scxm/image/upload/v1669031764/cms/07_wpqzov.png "Firebase data source")
+![Firebase data source](https://res.cloudinary.com/daog6scxm/image/upload/v1669031764/cms/07_wpqzov.webp "Firebase data source")
 
 On the next screen, you are going to use the data from the JSON file you’ve downloaded from Cloud Firestore. Use the email, private key, and projectID fields.
 
@@ -166,7 +166,7 @@ updateDocument:
 
 Here’s an example of how one of the queries looks:
 
-![Configure data source](https://res.cloudinary.com/daog6scxm/image/upload/v1669031788/cms/08_v5oahd.png "Configure data source")
+![Configure data source](https://res.cloudinary.com/daog6scxm/image/upload/v1669031788/cms/08_v5oahd.webp "Configure data source")
 
 In general, you can use bindings whenever you need user inputs or variables. This allows you to send information in your query. So instead of creating a query for each of your collections, you create one “getDocuments” query and you pass the collection name as a binding.
 
@@ -188,7 +188,7 @@ Head over to the “design” tab. Then, you can use the four icons on the left 
 
 Click on the “theme” icon and there you can pick your app theme, and change the accent colors:
 
-![App theme](https://res.cloudinary.com/daog6scxm/image/upload/v1669031959/cms/09_wzc7fc.png "App theme")
+![App theme](https://res.cloudinary.com/daog6scxm/image/upload/v1669031959/cms/09_wzc7fc.webp "App theme")
 
 In the navigation section, you can define the menu items and the header background color, including CSS gradients. For example, the demo app uses this color:
 
@@ -200,7 +200,7 @@ You can interact with your app using screens.
 
 These are all the screens you need for this app:
 
-![App screens](https://res.cloudinary.com/daog6scxm/image/upload/v1669031996/cms/10_xadfzq.png "Screens")
+![App screens](https://res.cloudinary.com/daog6scxm/image/upload/v1669031996/cms/10_xadfzq.webp "Screens")
 
 But you don’t need to create them all now. Let’s create one at a time.
 
@@ -210,7 +210,7 @@ First, create the /new screen. This is the screen you see when you click on “a
 
 This is the structure of the components for it:
 
-![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1669032049/cms/11_rwydlf.png "Component Tree")
+![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1669032049/cms/11_rwydlf.webp "Component Tree")
 
 It is quite simple. There’s a form, a paragraph, a field, and a button.
 
@@ -222,11 +222,10 @@ This is just some visual feedback to your users to show the collection they are 
 
 The “add document” button has two onclick actions:
 
-1) Execute query Addnew.
+1. Execute query Addnew.
+2. Navigate to /panel.
 
-2) Navigate to /panel.
-
-![Firebase GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1669032127/cms/12_vdfssc.png "Firebase GUI")
+![Firebase GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1669032127/cms/12_vdfssc.webp "Firebase GUI")
 
 The addNew query requires two bindings - the collection and the document data. In this case, the collection comes from the app state, just like the title. So add this binding to it:
 
@@ -258,7 +257,7 @@ The paragraph shows the documentID appstate to your users, to make sure that the
 
 In the text field for your data, use these settings:
 
-![Firebase GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1669032193/cms/13_kc5sid.png "Firebase GUI")
+![Firebase GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1669032193/cms/13_kc5sid.webp "Firebase GUI")
 
 Here the really important part is the default value:
 
@@ -280,7 +279,7 @@ The last custom screen for data entry and manipulation is the filters screen. Th
 
 Here is the elements tree for it:
 
-![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1669032461/cms/14_woh3ak.png "Component Tree")
+![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1669032461/cms/14_woh3ak.webp "Component Tree")
 
 The first paragraph shows the current filter if there is one. You can use this text in it:
 
@@ -294,7 +293,7 @@ You should set the options picker with “Options Source” as “custom”. Thi
 
 Add a row for each of the possible options you are going to use:
 
-![Firebase GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1669032542/cms/15_lbzfsk.png "Firebase GUI")
+![Firebase GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1669032542/cms/15_lbzfsk.webp "Firebase GUI")
 
 To make it easier, this Firebase GUI has just one filter - _equalsto_. But you can add more filters if you want. Just make sure you create a new query for each of them like you did for the _equalsto_ in step 1.
 
@@ -302,8 +301,7 @@ You can pre-populate the dropdown value. Set it as {{ State.field }}.
 
 Lastly, there’s the _actions_ row. The save button simply saves the form fields to app states and closes the modal, like this:
 
-  
-![Firebase GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1669036453/cms/16_i3n34n.png "Firebase GUI")
+![Firebase GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1669036453/cms/16_i3n34n.webp "Firebase GUI")
 
 And the reset field just deletes these app states.
 
@@ -329,7 +327,7 @@ You can get data from collections using simple queries (such as getDocuments) or
 
 This is the components tree for the panel page:
 
-![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1669036600/cms/17_e3d4zw.png "Component Tree")
+![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1669036600/cms/17_e3d4zw.webp "Component Tree")
 
 That’s quite a lot of components, but a lot of them are just containers to create this layout or to hold onclick actions.
 
@@ -337,7 +335,7 @@ To create this three-column style you can use two columns, then two columns agai
 
 This is a representation with borders to make it easier to understand:
 
-![Firebase GUI homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1669036674/cms/18_bgjwha.png "Firebase GUI home screen")
+![Firebase GUI homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1669036674/cms/18_bgjwha.webp "Firebase GUI home screen")
 
 With this layout you can use a single query for the entire right side (documents list and details), saving additional queries and processing time.
 
@@ -345,7 +343,7 @@ One query populates both columns.
 
 You can set the panel container to horizontal. This makes your elements appear side by side:
 
-![Direction](https://res.cloudinary.com/daog6scxm/image/upload/v1669036695/cms/19_bhjxvf.png "Direction")
+![Direction](https://res.cloudinary.com/daog6scxm/image/upload/v1669036695/cms/19_bhjxvf.webp "Direction")
 
 So whenever you see elements side by side on the screen, then have a container with the horizontal direction. For example, the actions buttons have a container around them with the same option.
 
@@ -353,7 +351,7 @@ You can create a container for the collections query, and set it to 20% width. T
 
 Set the data provider to load the collections table, ordered alphabetically:
 
-![Data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1669036720/cms/20_j8r1oe.png "Data provider")
+![Data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1669036720/cms/20_j8r1oe.webp "Data provider")
 
 You can use a repeater to extract data from the data provider. This is more flexible than using a premade table or cards since you can add any components you want inside of it.
 
@@ -366,7 +364,7 @@ These actions save an app state for the collection you have just clicked. Also, 
 
 Here is how it looks:
 
-![Button actions](https://res.cloudinary.com/daog6scxm/image/upload/v1669036738/cms/21_rr51in.png "Button actions")
+![Button actions](https://res.cloudinary.com/daog6scxm/image/upload/v1669036738/cms/21_rr51in.webp "Button actions")
 
 In terms of contents, the embed component outputs the collection name with dashes to display the hierarchy. You can use this JS function:
 
@@ -398,7 +396,7 @@ In addition, there’s an opacity change to indicate the currently selected coll
 
 Moving to the next big column, the documents container in the elements tree is there just to hold the data provider. The data provider queries all documents using the getCollection query with a binding to pass the collection app state as a variable.
 
-# \[img 22\]
+![Collections](https://res.cloudinary.com/daog6scxm/image/upload/v1669037496/cms/22_ga5vbs.png "Collections")
 
 This is the JS code there:
 
@@ -473,7 +471,7 @@ You can also create a container for the action buttons for the documents.
 
 Remember how the update screen pre-populates data from an appstate? Therefore, your edit button must save this data in an appstate and navigate to the edit page.
 
-![Collections](https://res.cloudinary.com/daog6scxm/image/upload/v1669036950/cms/23_w59kxa.png "Collections")
+![Collections](https://res.cloudinary.com/daog6scxm/image/upload/v1669036950/cms/23_w59kxa.webp "Collections")
 
 This is the JS function for the doc appstate:
 
@@ -498,7 +496,7 @@ Lastly, it deletes the documentID app state to avoid issues if your visitor manu
 
 The action buttons component is visible only when there is an ID. You can do it with display conditions.
 
-![Button Container](https://res.cloudinary.com/daog6scxm/image/upload/v1669036990/cms/24_fyxqfh.png "Button Container")
+![Button Container](https://res.cloudinary.com/daog6scxm/image/upload/v1669036990/cms/24_fyxqfh.webp "Button Container")
 
 This condition hides the action buttons when this code is equal to zero:
 
@@ -608,19 +606,19 @@ The trick here is that you are going to create a container for the documents lis
 
 Therefore, this entire container is duplicated:
 
-![Containers](https://res.cloudinary.com/daog6scxm/image/upload/v1669037154/cms/25_dxtzgp.png "Containers")
+![Containers](https://res.cloudinary.com/daog6scxm/image/upload/v1669037154/cms/25_dxtzgp.webp "Containers")
 
 Now, duplicate the DocsContainer component, and rename it to DocsContainerEqualsTo.
 
 This container stays precisely like the first one, but you need to update the Documents data provider to load the equals to query. Don’t forget to use the filter bindings on it, like this:
 
-![Bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1669037171/cms/26_qss5cx.png "Bindings")
+![Bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1669037171/cms/26_qss5cx.webp "Bindings")
 
 You are creating these appstates in the /filters modal page.
 
 Now you need to hide/show the correct container, DocsContainer or DocsEqualsTo. You can do it with display conditions. Use these conditions for the DocsContainer:
 
-![Conditions](https://res.cloudinary.com/daog6scxm/image/upload/v1669037188/cms/27_sa447d.png "Conditions")
+![Conditions](https://res.cloudinary.com/daog6scxm/image/upload/v1669037188/cms/27_sa447d.webp "Conditions")
 
 And use the opposite for the equalsTo container.
 
