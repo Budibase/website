@@ -83,6 +83,7 @@ pages:
 - content/blog/tutorials/database-gui.md
 - content/blog/tutorials/elasticsearch-gui.md
 - content/blog/tutorials/google-sheets-gui.md
+- content/blog/tutorials/how-to-build-a-firebase-gui-in-4-steps.md
 - content/blog/tutorials/mongodb-gui.md
 - content/blog/tutorials/mysql-gui.md
 - content/blog/tutorials/postgres-gui.md
