@@ -2,7 +2,7 @@
 <div class="container mx-auto">
   <div class="container-9 mx-auto space-2-top">
     <h1 class="mb-3 text-center mb-4">Simple, fair pricing. <span class="underlined">Start free.</span></h1>
-    <p class="w-lg-60 mb-4 mx-auto text-center lead">Build unlimited apps for free. No credit card required.
+    <p class="w-lg-70 mb-4 mx-auto text-center display-lead">Build unlimited apps for free. No credit card required.
     </p>
   <div class="pricing-tabs-container flex-row gap-md mb-4">
     <div class="tab px-4 py-2 border rounded-pill bg-white">
@@ -26,6 +26,9 @@
   <div id="selfHost" class="tabcontent">
     {{ partial "pricing/per-user-self-host.html"}}
   </div>
+</div>
+<div class="mt-4 mb-6">
+  {{ partial "pricing/add-ons.html" . }}
 </div>
 <div class="mt-4 mb-6">
   {{ partial "pricing/pricing-faqs.html" . }}

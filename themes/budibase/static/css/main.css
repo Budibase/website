@@ -2967,6 +2967,19 @@ details[open] > summary {
 }
 }
 
+.support-add-on-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.support-add-on {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+}
+
 /* Hero */
 .pricing-hero {
   display: grid;
