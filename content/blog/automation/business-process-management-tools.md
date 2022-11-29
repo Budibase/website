@@ -70,7 +70,7 @@ The key is that software interventions are used to _implement_ and _manage_ proc
 
 ![Business Process Management Tools Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1669739427/cms/Reduce_Costs_https___www.bptrends.com_bpt_wp-content_uploads_Business_Process_Maturity_in_Polish_Organisations_2016.pdf_icjyie.webp "Business Process Management Tools Stats")
 
-([BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf))
+[BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf)
 
 Check out our ultimate guide to business process management to find out more about how this works in practice.
 
@@ -128,7 +128,7 @@ So, the culmination of the benefits we’ve seen so far is that we can carry out
 
 ![BPM Tools Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1669739500/cms/Reduce_Costs_https___www.bptrends.com_bpt_wp-content_uploads_Business_Process_Maturity_in_Polish_Organisations_2016.pdf_2_pttizb.webp "BPM Tools stats")
 
-([BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf))
+[BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf)
 
 ### Compliance, security, and process-adherence
 
@@ -156,7 +156,7 @@ Check out our guide how-to guide on [business process analysis](/blog/automation
 
 ![Process Management Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1669739549/cms/Measure_processes_https___www.process.st_bpm-statistics-increase-efficiency__w7uaxs.webp "Measuring Process Effectively")
 
-([Process Street](https://www.process.st/bpm-statistics-increase-efficiency/))
+[Process Street](https://www.process.st/bpm-statistics-increase-efficiency/)
 
 Check out our in-depth guide to deciding when to [build vs buy software](https://budibase.com/blog/inside-it/build-vs-buy-software/) for more information.
 
