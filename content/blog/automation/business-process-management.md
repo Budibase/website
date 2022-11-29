@@ -34,7 +34,7 @@ In other words, the goal is to create, implement, and continuously improve proce
 
 ![Business Process Management](https://res.cloudinary.com/daog6scxm/image/upload/v1669735280/cms/BPM_Project_Success_http___bpmbusiness.typepad.com_business_of_bpm_2007_02_basic_bpm_stats.html_qknkxc.webp "Business Process Management")
 
-([BPM Business)](http://bpmbusiness.typepad.com/business_of_bpm/2007/02/basic_bpm_stats.html)
+[BPM Business](http://bpmbusiness.typepad.com/business_of_bpm/2007/02/basic_bpm_stats.html)
 
 For instance, BPM is closely associated with automation, but it also pulls on a range of governance, operational, and software tools. We’ll return to each of these later.
 
@@ -120,7 +120,7 @@ Besides this, we can also expect to see savings on indirect costs, including tho
 
 ![Cost Reduction](https://res.cloudinary.com/daog6scxm/image/upload/v1669735375/cms/Reduce_Costs_https___www.bptrends.com_bpt_wp-content_uploads_Business_Process_Maturity_in_Polish_Organisations_2016.pdf_cs00ci.webp "Cost Reduction")
 
-([BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf))
+[BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf)
 
 ### Minimizing risks
 
@@ -161,7 +161,7 @@ Once we’ve modeled our ideal processes around these, the next step is to choos
 
 ![Business Process Management Statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1669735403/cms/Reduce_Costs_https___www.bptrends.com_bpt_wp-content_uploads_Business_Process_Maturity_in_Polish_Organisations_2016.pdf_2_wmzpph.webp "Business Process Management Statistics")
 
-([BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf))
+[BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf)
 
 ## Key challenges for BPM
 
@@ -235,7 +235,7 @@ Unsurprisingly, human-centric BPM is ideally suited to use cases where interacti
 
 ![Automatable Tasks](https://res.cloudinary.com/daog6scxm/image/upload/v1669735437/cms/workflow_automation_stats_hussb9.webp "Automatable Tasks")
 
-([McKinsey](https://www.mckinsey.com/\~/media/mckinsey/featured%20insights/Digital%20Disruption/Harnessing%20automation%20for%20a%20future%20that%20works/MGI-A-future-that-works-Executive-summary.ashx))
+[McKinsey](https://www.mckinsey.com/\~/media/mckinsey/featured%20insights/Digital%20Disruption/Harnessing%20automation%20for%20a%20future%20that%20works/MGI-A-future-that-works-Executive-summary.ashx)
 
 ### Integration-centric BPM
 
@@ -346,7 +346,7 @@ We can then document and learn from any issues or unforeseen roadblocks that pre
 
 ![BPM Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1669735552/cms/ROI_https___www.gartner.com_smarterwithgartner_bpm-is-critical-to-business-transformation-success_dcdpq6.webp "BPM Stats")
 
-([Gartner](https://www.gartner.com/smarterwithgartner/bpm-is-critical-to-business-transformation-success))
+[Gartner](https://www.gartner.com/smarterwithgartner/bpm-is-critical-to-business-transformation-success)
 
 ## Business process management vs business process automation
 
@@ -442,7 +442,7 @@ For example, in any BPM methodology, it’s vital to thoroughly analyze and docu
 
 ![Business process Management Training](https://res.cloudinary.com/daog6scxm/image/upload/v1669735654/cms/Training_https___www.bptrends.com_bpt_wp-content_uploads_2020-BPM-Survey.pdf_cpzrv2.webp "Business Process Management Training")
 
-([BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/2020-BPM-Survey.pdf))
+[BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/2020-BPM-Survey.pdf)
 
 ### 6. Review and follow-on actions
 

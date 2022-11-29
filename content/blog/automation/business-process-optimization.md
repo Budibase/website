@@ -65,7 +65,7 @@ In other words, the specific meaning of _optimization_ is highly contextual and 
 
 ![Business Process Optimization](https://res.cloudinary.com/daog6scxm/image/upload/v1669737867/cms/Menial_Tasks_https___sloanreview.mit.edu_projects_artificial-intelligence-in-business-gets-real__cje6ld.webp "Business Process Optimization")
 
-([Sloan MIT](https://sloanreview.mit.edu/projects/artificial-intelligence-in-business-gets-real/))
+[Sloan MIT](https://sloanreview.mit.edu/projects/artificial-intelligence-in-business-gets-real/)
 
 That’s if we even accept the premise that processes can ever actually reach an _optimal_ state. In reality, it’s more likely that optimization will be an ongoing, continuous effort.
 
@@ -107,7 +107,7 @@ When we reduce the need for manual inputs, we also see a corresponding reduction
 
 ![Process Optimization Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1669737917/cms/Measure_processes_https___www.process.st_bpm-statistics-increase-efficiency__a3pfq8.webp "Process Optimization stats")
 
-([Process Street](https://www.process.st/bpm-statistics-increase-efficiency/))
+[Process Street](https://www.process.st/bpm-statistics-increase-efficiency/)
 
 ### Expediency
 
@@ -145,7 +145,7 @@ We have a range of technical and policy-level levers that we can reach for to im
 
 ![Documentated Processes](https://res.cloudinary.com/daog6scxm/image/upload/v1669737941/cms/No_Documented_Processes_https___www.bptrends.com_bpt_wp-content_uploads_Business_Process_Maturity_in_Polish_Organisations_2016.pdf_lld4z5.webp "Documented Processes")
 
-([BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf))
+[BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf)
 
 ### Compliance
 
@@ -197,7 +197,7 @@ We can also apply BPO to specific human resources processes, including employee 
 
 ![Client Satisfaction](https://res.cloudinary.com/daog6scxm/image/upload/v1669737974/cms/Client_Satisfaction_https___www.superoffice.com_blog_customer-experience-statistics__eeg2nj.webp "Client Satisfaction")
 
-([Super Office](https://www.superoffice.com/blog/customer-experience-statistics/))
+[Super Office](https://www.superoffice.com/blog/customer-experience-statistics/)
 
 ## Challenges for process optimization
 
@@ -251,7 +251,7 @@ The problem here is pretty obvious. Chances are we’re going to end up with spi
 
 ![Scope Creep](https://res.cloudinary.com/daog6scxm/image/upload/v1669738070/cms/Scope_Creep_https___www.proposify.com_blog_how-to-prevent-scope-creep_zj56ve.webp "Scope Creep")
 
-([Proposify](https://www.proposify.com/blog/how-to-prevent-scope-creep))
+[Proposify](https://www.proposify.com/blog/how-to-prevent-scope-creep)
 
 ### Overreliance on technology
 
@@ -422,7 +422,7 @@ We can also break this down into more manageable objectives, based on the costs 
 
 ![Business Process Optimization Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1669738285/cms/Productivity_Gains_https___www.to-increase.com_business-productivity_blog_3-ways-your-bpm-can-ensure-productivity-gains_kdie2i.webp "Business Process Optimization Stats")
 
-([To-Increase](https://www.to-increase.com/business-productivity/blog/3-ways-your-bpm-can-ensure-productivity-gains))
+[To-Increase](https://www.to-increase.com/business-productivity/blog/3-ways-your-bpm-can-ensure-productivity-gains)
 
 ### 3. Process modeling
 
@@ -510,7 +510,7 @@ Since we can always do things faster, business process optimization is never fin
 
 ![Continuous Improvement](https://res.cloudinary.com/daog6scxm/image/upload/v1669738403/cms/Continuous_Improvement_y8pwfo.webp "Continuous Improvement")
 
-([BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf))
+[BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf)
 
 ## 5 tips for business process optimization
 
