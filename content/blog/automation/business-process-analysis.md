@@ -34,7 +34,7 @@ So, we couldn’t really describe a task as a process if it requires an entirely
 
 ![Process Analysis](https://res.cloudinary.com/daog6scxm/image/upload/v1669736942/cms/Reduce_Costs_https___www.bptrends.com_bpt_wp-content_uploads_Business_Process_Maturity_in_Polish_Organisations_2016.pdf_vgvujk.webp "Process Analysis")
 
-([BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf))
+[BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf)
 
 Another characteristic of processes is that they include tightly defined roles and responsibilities. This is especially true the larger their scale or the more actors are involved.
 
@@ -66,7 +66,7 @@ Therefore, process analysis must take the net result of all of these into accoun
 
 ![BPM stats](https://res.cloudinary.com/daog6scxm/image/upload/v1669736959/cms/Reduce_Costs_https___www.bptrends.com_bpt_wp-content_uploads_Business_Process_Maturity_in_Polish_Organisations_2016.pdf_2_lqbnhz.webp "BPM stats")
 
-([BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf))
+[BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf)
 
 ### Efficiency
 
@@ -144,7 +144,7 @@ Say, for example, you wanted to streamline the way you record and deal with cust
 
 Analysis is essential here, as it provides clarity around how our current process provides value, as well as where it produces excessive costs. That way, we’re much better positioned to come up with effective solutions for improving it.
 
-![Business Process Analysis Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1669736992/cms/Measure_processes_https___www.process.st_bpm-statistics-increase-efficiency__ve6bl3.webp "Business Process Analysis Stats")([Process Street](https://www.process.st/bpm-statistics-increase-efficiency/))
+![Business Process Analysis Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1669736992/cms/Measure_processes_https___www.process.st_bpm-statistics-increase-efficiency__ve6bl3.webp "Business Process Analysis Stats")[Process Street](https://www.process.st/bpm-statistics-increase-efficiency/)
 
 However, this isn’t the only time when process analysis is useful.
 
@@ -204,7 +204,7 @@ For the most part, this will lead you to target more complex processes, since yo
 
 ![Choosing processes for business process analysis](https://res.cloudinary.com/daog6scxm/image/upload/v1669737013/cms/Competitiveness_https___www.researchgate.net_publication_303401242_The_Value-Switch_for_Digitalization_Initiatives_Business_Process_Management_f1vej2.webp "Targeting Processes")
 
-([Kirchmer & Lotterer](https://www.researchgate.net/publication/303401242_The_Value-Switch_for_Digitalization_Initiatives_Business_Process_Management))
+[Kirchmer & Lotterer](https://www.researchgate.net/publication/303401242_The_Value-Switch_for_Digitalization_Initiatives_Business_Process_Management)
 
 Whichever option you go for, there are a couple of additional considerations that make a process a good candidate for analysis. For instance, the more frequently a task occurs, the better - as you’ll have a larger, more reliable data set to work with.
 
