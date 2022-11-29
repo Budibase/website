@@ -72,6 +72,8 @@ That’s if we even accept the premise that processes can ever actually reach an
 
 As such, we’ll need to return to this issue later to see how we can analyze the current state of our processes and set goals for how to optimize them.
 
+Check out our guide to [business process analysis.](/blog/automation/business-process-analysis)
+
 In the meantime, we can think more deeply about why this matters in the first place.
 
 ### Why do you need process optimization?
@@ -262,7 +264,7 @@ Technology plays a huge role, of course. But this can’t come at the expense of
 
 The trap that many businesses fall into is doing just that - failing to create an effective process model and hoping that technology will make up the shortfall.
 
-Check out our ultimate guide to business process management to learn more about how these different activities fit together.
+Check out our ultimate guide to [business process management tools](/blog/automation/business-process-management-tools).
 
 ### Internal blockers
 
@@ -645,3 +647,5 @@ But why just take our word for it?
 We’ve also built more than 50 free, deployable, and fully customizable [app templates](https://budibase.com/templates) to show off what Budibase is capable of.
 
 To start building better apps, faster, sign up to Budibase for free today.
+
+Why not also check out our ultimate guide to b[usiness process management](/blog/automation/business-process-management)?
