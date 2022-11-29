@@ -101,6 +101,8 @@ Efficiency is a measure of how easily you can carry out your processes, either i
 
 The important thing is that business process management tools of all stripes reduce or even eliminate the burden placed on your employees. The takeaway is that the best BPM tools empower you to streamline processes, thereby achieving maximum profitability.
 
+Take a look at our guide to [business process optimization](/blog/automation/business-process-optimization).
+
 ### Consistency
 
 Another key benefit of using process management software to replicate human actions is that we can improve the consistency of our outputs for a given set of inputs. Essentially, we’re applying business rules more stringently.
@@ -150,6 +152,8 @@ Let’s go!
 First up, we have solutions that aim to help us make sense of how our processes perform in the real world. This can range from discrete dashboards to full-on business intelligence platforms.
 
 The goal is to make it as easy as possible to determine what’s working within our processes and what can be improved. Depending on your specific situation, you might opt for an off-the-shelf solution or you might need to go custom.
+
+Check out our guide how-to guide on [business process analysis](/blog/automation/business-process-analysis).
 
 ![Process Management Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1669739549/cms/Measure_processes_https___www.process.st_bpm-statistics-increase-efficiency__w7uaxs.webp "Measuring Process Effectively")
 
@@ -313,3 +317,5 @@ But don’t just take our word for it.
 We’ve also created more than 50 fully customizable, deployment-ready, free [app templates](https://budibase.com/templates) to get you started.
 
 To start building tools the smart, easy way, sign up for Budibase today.
+
+Take a look at our ultimate guide to [business process management](blog/automation/business-process-management).
