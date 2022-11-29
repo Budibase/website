@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-11-29T00:00:00Z
 description = "Business process management is the cornerstone of any successful organization. Here’s everything you need to know."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1669734999/cms/Business_Process_Management_k9dse7.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1669735004/cms/Business_Process_Management_tycd2i.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"

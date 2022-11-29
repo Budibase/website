@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-11-28T00:00:00Z
 description = "Business process optimization is a hot topic these days. Here's everything you need to know."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1669737696/cms/Business_Process_Optimization_htz9ck.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1669737702/cms/Business_Process_Optimization_sygeli.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"

@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2022-11-28T00:00:00Z
 description = "Follow our step-by-step guide to carrying out business process analysis."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1669736643/cms/Business_Process_Management_fnvlnn.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1669736649/cms/Business_Process_Management_hbxfsg.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
@@ -76,6 +75,8 @@ Efficiency comes in a couple of different forms too. At the most basic level, th
 So, we have a few distinct ingredients here, including the quality and consistency of your results, the direct and indirect costs, the number of manual interactions required, and the amount of time it takes for tasks to reach completion.
 
 As such, there’s a great deal of overlap between efficiency and the other aspects of process analysis that we’ll cover. So, it’s important to have a clear idea of how _you_ want to operationalize efficiency.
+
+Check out our guide to [business process optimization](/blog/automation/business-process-optimization).
 
 ### Scope for errors
 
@@ -243,6 +244,8 @@ We also use our theoretical model to compare the current state of our process wi
 
 By the end of this step, you should have a clear understanding of how your target processes currently operate in practice. In many cases, you’ll even have some early ideas for how they can be changed and improved.
 
+Take a look at our round-up of [business process management tools](/blog/automation/business-process-management-tools).
+
 ### 4. Business process analysis
 
 Next, we have the actual analytical work. As we know, this means using our theoretical model to assess how each constituent step within a given process performs in terms of the variables we decided to prioritize earlier.
@@ -361,3 +364,5 @@ Budibase is the smart, easy way to build all sorts of custom solutions. But, it�
 To get you started, we’ve built more than 50 free, customizable, and fully ready-to-deploy [app templates](https://budibase.com/templates) to show off what our platform can do.
 
 To start using Budibase today, simply sign up for free.
+
+Check out our ultimate guide to [business process management](/blog/automation/business-process-management).
