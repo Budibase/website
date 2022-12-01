@@ -116,3 +116,9 @@ HUGO_ENABLEGITINFO = "true"
   to = "/blog/app-building/public-forms-how-to-build-them-in-minutes/"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/people"
+  to = "/careers"
+  status = 301
+  force = true
