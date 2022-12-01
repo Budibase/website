@@ -2097,6 +2097,33 @@ grid-gap: 50px;
   font-weight: 500;
 }
 
+.tag-teal {
+  background-color: var(--teal3);
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  height: 24px;
+  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+  font-weight: 500;
+}
+
+.tag-teal-light {
+  background-color: var(--teal1);
+  color: var(--teal5);
+  border-radius: 4px;
+  font-size: 12px;
+  height: 24px;
+  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+  font-weight: 500;
+}
+
+
 .tag-teal-nav {
   background-color: var(--teal3);
   color: white;
