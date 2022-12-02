@@ -2754,6 +2754,12 @@ details[open] > summary {
   flex-wrap: wrap;
 }
 
+.pricing-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
 .align-end {
   align-items: end;
 }
