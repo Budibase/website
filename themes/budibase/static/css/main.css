@@ -2883,6 +2883,10 @@ details[open] > summary {
   border: 2px solid var(--gray200);
 }
 
+.border-teal {
+  border: 1px solid var(--teal2) !important;
+}
+
 .border-light3 {
   border: 2px solid var(--light3);
 }
