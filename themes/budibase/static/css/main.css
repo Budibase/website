@@ -160,6 +160,7 @@ summary::marker {
 
 summary {
   color: var(--black);
+  font-size: var(--fontsize-4);
 }
 [tabindex="-1"]:focus {
   outline: 0 !important;
