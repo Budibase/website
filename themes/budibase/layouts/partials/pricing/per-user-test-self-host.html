@@ -14,7 +14,7 @@
       <h3 class="h1 mb-1 mr-2 ">$0</h3>
       <p class="text-xxs">Free forever<br>No credit card required</p>
       <p class="text-xxs mb-5 mt-2">$0 billed monthly</p>
-      <button onClick="goToAccountPortal('free');" type="submit" class="btn btn-block btn-primary btn-lg mb-4">
+      <button onClick="goToAccountPortal('free');" type="submit" class="btn btn-block btn-outline btn-lg mb-4">
         Create free account
       </button>
     </div>
@@ -124,13 +124,13 @@
           d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
       </svg>
 
-      <h2 class="mb-2 mt-1 h3 text-blue plan-type font-weight-semi-bold">Team</h2>
+      <h2 class="mb-2 mt-1 h3 text-blue plan-type font-weight-semi-bold">Premium</h2>
       <p class="mb-3 text-xxs">More power for teams and small businesses who want to self-host Budibase.
       </p>
       <h3 class="h1 mb-1 mr-2">$6</h3>
       <p class="text-xxs">per user / month <br>billed annually</p>
       <p class="text-xxs mb-5 mt-2">$7.50 billed monthly</p>
-      <button onClick="goToAccountPortal();" type="submit" class="btn btn-block btn-primary btn-lg mb-4">
+      <button onClick="goToAccountPortal();" type="submit" class="btn btn-block btn-outline btn-lg mb-4">
         Get started
       </button>
     </div>
@@ -189,7 +189,7 @@
             </svg>                                          
         </div>
           <div class="ml-2">
-          <p class="text-xs text-dark mb-1 font-weight-medium">Automation team pack</p>
+          <p class="text-xs text-dark mb-1 font-weight-medium">Automation premium pack</p>
           <p class="text-xxs opacity-85">Automation builder. Unlimited automation runs. 1-week automation logs.</p>
           </div>
         </li>
@@ -252,7 +252,7 @@
 
     <div class="pricing-card-bottom">
       <div class="pricing-features">
-        <p class="mt-3 mb-4 font-dark text-xs">Everything in Team, plus: </p>
+        <p class="mt-3 mb-4 font-dark text-xs">Everything in Premium, plus: </p>
         <ul class="ul-none">
           <li class="pricing-item my-4">
             <div>
@@ -272,7 +272,7 @@
               </svg>                                          
           </div>
             <div class="ml-2">
-            <p class="text-xs text-dark mb-1 font-weight-medium">User permission groups</p>
+            <p class="text-xs text-dark mb-1 font-weight-medium">User groups</p>
             <p class="text-xxs opacity-85">Manage users with unlimited user groups.</p>
             </div>
           </li>
@@ -361,7 +361,7 @@
       <h3 class="h1 mb-1">Custom</h3>
       <p class="text-xxs ">Starting at $20,000 <br>per annum</p>
       <p class="text-xxs mb-5 mt-2">Multi-year contracts available.</p>
-      <a href="/contact" target="_blank"><button type="submit" class="btn btn-block btn-primary btn-lg mb-4">
+      <a href="/contact" target="_blank"><button type="submit" class="btn btn-block btn-outline btn-lg mb-4">
           Contact us
         </button></a>
     </div>
@@ -461,4 +461,8 @@
       </div>
     </div>
   </div>
+</div>
+
+<div class="mt-4 mb-6">
+  {{ partial "pricing/add-ons.html" . }}
 </div>
