@@ -3232,7 +3232,7 @@ ul {
 }
 
 @media (max-width: 992px) {
-  .pricing-table {
+  .pricing-section {
     display: none;
   }
 }
