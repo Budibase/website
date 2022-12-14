@@ -4840,13 +4840,13 @@ fieldset:disabled a.btn {
 .btn-cta {
   color: white;
   background-color: var(--teal3);
-  border: 2px solid var(--teal3);
+  border: 1px solid var(--teal3);
 }
 
 .btn-cta:hover {
   color: white;
   background-color: var(--teal4);
-  border: 2px solid var(--teal4);
+  border: 1px solid var(--teal4);
 }
 
 .btn-cta:focus, .btn-pimary.focus {
@@ -4856,13 +4856,13 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: white;
   background-color: var(--hiContrast);
-  border: 2px solid var(--hiContrast);
+  border: 1px solid var(--hiContrast);
 }
 
 .btn-primary:hover {
   color: white;
   background-color: var(--teal3);
-  border: 2px solid var(--teal3);
+  border: 1px solid var(--teal3);
 }
 
 .btn-primary:focus, .btn-pimary.focus {
