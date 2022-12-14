@@ -701,6 +701,8 @@ textarea {
   margin-left: -60px;
   opacity: 0;
   transition: opacity 0.3s;
+  cursor: help;
+
 }
 
 .tooltip .tooltiptext::after {
@@ -717,7 +719,10 @@ textarea {
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+  cursor: help;
 }
+
+
 
 .pricing-select {
   height: 44px;
