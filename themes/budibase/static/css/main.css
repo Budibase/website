@@ -4892,12 +4892,12 @@ fieldset:disabled a.btn {
 .btn-secondary {
   color: var(--gray900);
   background-color: transparent;
-  border: 2px solid var(--gray500);
+  border: 1px solid var(--gray500);
 }
 
 .btn-secondary:hover {
   color: var(--hiContrast);
-  border: 2px solid var(--blue4);
+  border: 1px solid var(--blue4);
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
@@ -4925,6 +4925,7 @@ fieldset:disabled a.btn {
   padding: 10px 20px;
   font-variation-settings: 'wght' 600;  
 }
+
 .btn-sm, .btn-group-lg > .btn {
   padding: 2px 10px;
   font-size: 12px;
