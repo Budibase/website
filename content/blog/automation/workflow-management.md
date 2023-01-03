@@ -49,7 +49,7 @@ The important thing to remember is that workflows are only workflows if they fol
 
 Similarly, we need to be conscious of the fact that workflows can contain any number of steps, actors, systems, and decisions. As we’ll see in a second, these might follow a fixed, linear structure, or there might be different branching or iterative variations.
 
-![](https://lh6.googleusercontent.com/IZbxwohUgKFYlp7OplbssXw8bNSO_L4qltkE1oBu4hpzXHZOcFpaHUQ9oCzT4BB2pc7o1BNCOIfsOYmx7KdbtDU3HyN5lNphaimFgo5yirLKfYbHdqT-Z5wp1VDjc--xFmanyth-itb-_mkssMw_sV8RhOqSdigTSJ4IE7q1wRAHtCvwHZn3vsKxTswP3A =624x351)
+![Workflow Management Statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1672746281/cms/Automatable_Tasks_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_mdoprr.png "Workflow Management Statistics")
 
 ([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages))
 
@@ -79,9 +79,9 @@ Luckily, this isn’t too complex.
 
 For the purposes of workflow management, we can break any constituent step into three components:
 
-1. **Inputs - The particular resource, object, or request that’s required to carry out the workflow step. For instance, a new contract or a vacation request.**
-2. **Logic/Transformation - The business rule that must be applied to the input to decide what action to take, the action itself, or both.**
-3. **Outputs - The product of the transformation - potentially the original object in a new state, or an entirely new object, as well as the next step that this will move on to.**
+1. **Inputs -** The particular resource, object, or request that’s required to carry out the workflow step. For instance, a new contract or a vacation request.
+2. **Logic/Transformation -** The business rule that must be applied to the input to decide what action to take, the action itself, or both.
+3. **Outputs -** The product of the transformation - potentially the original object in a new state, or an entirely new object, as well as the next step that this will move on to.
 
 So, let’s take an example to flesh out our understanding here.
 
@@ -149,7 +149,7 @@ Basically, workflow management is one of many tools that your project team has a
 
 The other difference is that workflow management is only concerned with single, discrete, repeated tasks. Project management is just as much about responding to unforeseen events as it is about carrying out more regularized work.
 
-![](https://lh3.googleusercontent.com/8YrI2S9DYD6dK8NqWEx7SyQN-CMabfz9sGRGgGJ5BIlHeQ5Y2ypL4ceT3tp2UO_tP7u762wgaj1QwOf-1h7BmIVGBo__uPplz48wztJufyae9QzRgpiYzI60KJyCOKgxIblgHdBfk1wVoE1vaQFgKmS4TGoewSg5kgpcNyaOU-MHTCk0kx3VyvkfqB5Klg =624x351)
+![Automatable Tasks](https://res.cloudinary.com/daog6scxm/image/upload/v1672746325/cms/Daily_Management_Tasks_https___www.gartner.com_en_newsroom_press-releases_2021-04-28-gartner-forecasts-worldwide-hyperautomation-enabling-software-market-to-reach-nearly-600-billion-by-2022_hijyyu.png "Automatable Tasks")
 
 ([Gartner](https://www.gartner.com/en/newsroom/press-releases/2021-04-28-gartner-forecasts-worldwide-hyperautomation-enabling-software-market-to-reach-nearly-600-billion-by-2022))
 
@@ -209,7 +209,7 @@ In the first instance, this stems from standardization. So, when we have a clear
 
 Besides this, at its core, workflow management involves building oversight, monitoring, and auditing mechanisms into employees’ daily work. In turn, this gives us a systematic way to identify issues or opportunities for further improvement.
 
-![](https://lh4.googleusercontent.com/DwTVchGZn-F_BMmFl92MXXkeRXrcEl_cLVLmCzggSgs4h4ywb8FXs5UXWhkRK1ImaZgtYrjJjkzuf5_xlTDhKVmQMxQTOyWluQJScR72f5_L04uGqDM0lbpwd1lBXisfKw0uUbTstk2opZklIb-0XhD9kgtH6fAfUpAio9_M1HX5lrGgq15OPmcxUTySDg =624x351)
+![Workflow Management and Human Error](https://res.cloudinary.com/daog6scxm/image/upload/v1672746364/cms/Incidents_https___venturebeat.com_datadecisionmakers_workflow-automation-what-it-is-and-how-it-can-make-your-job-easier__fvk0ct.png "Workflow Management and Human Error")
 
 ([VentureBeat](https://venturebeat.com/datadecisionmakers/workflow-automation-what-it-is-and-how-it-can-make-your-job-easier/))
 
@@ -311,7 +311,7 @@ On the other, your workflows could be genuinely confusing, unclear, or ambiguous
 
 Workflow management plays a role in both cases. The question is simply whether we apply it to the actual tasks in question or to the workflows we use to manage how employees are trained in these tasks.
 
-![](https://lh6.googleusercontent.com/WSlIpErz4i1Odm9Zw4d9As3ky0-LAKV61lu7xmcQ9M8sCrHN26_z4lhw07f_Ra7jxQlTRvTkYPYJmJhBk5INcPbIELmjzaz5Wvt6Dk9kZ3m-vVFUHIrvu685BLlta1Dhn_AQnUwCDBKzkx1mTNkvJanzI2NVv2UR4HlG64zFnH20ldBoFtP4p-CigmMeMA =624x351)
+![Workflow Management Training](https://res.cloudinary.com/daog6scxm/image/upload/v1672746414/cms/Training_https___www.bptrends.com_bpt_wp-content_uploads_2020-BPM-Survey.pdf_njnseg.png "Workflow Management Training")
 
 ([BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/2020-BPM-Survey.pdf))
 
@@ -364,9 +364,9 @@ For others kinds of issues, your performance indicators will take a bit more tho
 
 In any case, once we’ve chosen our indicators, we need to figure out a realistic _target_ for where we’d like to get these. What’s important here is that our goals are:
 
-* **Realistic - Something we can plausibly achieve.**
-* **Specific - Tied to either a percentage change or a raw figure.**
-* **Time-bound - We should ideally have an overall deadline _and_ more granular milestones in place.**
+* **Realistic -** Something we can plausibly achieve.
+* **Specific -** Tied to either a percentage change or a raw figure.
+* **Time-bound -** We should ideally have an overall deadline _and_ more granular milestones in place.
 
 By stipulating these elements as part of our goal-setting process, we can greatly improve our chances of making the progress we want to see.
 
@@ -450,7 +450,7 @@ _How_ you build automations plays a role here too. The vast majority of internal
 
 Increasingly, new technologies, including machine learning are also leveraged to more closely replicate human decision-making with less tightly structured data. Most automations are much simpler than this though.
 
-![](https://lh4.googleusercontent.com/nEDEtedTTvjKpSS4GAXsUSn-OH66K6v6Uy6pYQH_GrjnTjkPRLj0vUQX52L6L08KsIVHzhb-TDMUa9BVFvjwgHB4oU_p8X2akwxCoxciaiFsP2NmfQ3qHBKFpr3jzTKB-ORvTIdDZ_3vpHoIMvLwxaL8rlz6FzPDigxITLj8ZVjU7PGVC3YIpyqIYB4njw =624x351)
+![Existing Technology](https://res.cloudinary.com/daog6scxm/image/upload/v1672746457/cms/Automation_with_existing_tools_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_q13qpz.png "Existing Technology")
 
 ([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages))
 
@@ -491,8 +491,8 @@ There are a few key elements that go into this, including:
 * **User experience** - Building intuitive, efficient interfaces for users to carry out different actions.
 * **Role-based access control** - Granting permissions and data exposure to groups of users based on their roles and responsibilities within a workflow.
 * **Automation** - Empowering users to trigger automated actions.
-* **Validation rules - To ensure the integrity, completeness, and accuracy of data provided by users.**
-* **Business processes - Any logic or rules that must be applied between data sources and visual elements.**
+* **Validation rules -** To ensure the integrity, completeness, and accuracy of data provided by users.
+* **Business processes -** Any logic or rules that must be applied between data sources and visual elements.
 * **Platform integration** - Integration with external platforms and data sources for streamlined workflow management.
 * **Conditional UIs** - Displaying appropriate resources and interactive elements based on the status of relevant resources and data objects.
 * **Reporting and management functions** - Aggregations and visualization features to enable easy insight into key performance indicators.
@@ -623,7 +623,7 @@ Categorization is critical. That is, when we have a large number of different re
 
 With information-focused internal tools, we’ll also want to prioritize navigability, as well as integration with external messaging, content management, and communications tools.
 
-![](https://lh5.googleusercontent.com/Z4eynxtTgJV1H9LWIVvdjVbfrlZDQjZ2zuC8sqQaiqOVsfMXSyN59pcLrb7gv0B1nSasknF2V0QSTKaoWFd4zIXB0oYKb64wKQHgB3CHUNTq-DXkNgSiZYYY9hX4LVtOCdkOUVBkPCvQgNqSHp21M0dgpaUQW_XjsEGndWOtF_8_WQ2rbxt_IpaCmTUtCg =624x351)
+![Daily Tasks](https://res.cloudinary.com/daog6scxm/image/upload/v1672746540/cms/Looking_for_files_https___www.workato.com_the-connector_8-automation-stats-cio__z6zfgs.png "Daily Tasks")
 
 ([Workato](https://www.workato.com/the-connector/8-automation-stats-cio/))
 
@@ -755,7 +755,7 @@ This means leveraging app-builder platforms to expedite builds and reduce the te
 
 Let’s see how Budibase is leading the charge.
 
-![](https://lh3.googleusercontent.com/8XQ2GMducDr6gXzxQddCchhikpNNLNKUm-erien0fqld7JTIqRDxlQhOZtkVVRmWZwtiqsrEZE-LocyA3AUdANlgfps6g0MhVqF1ZmWbR7sYgMCRQQprLVp5otk_Xi1NkrJt-hFMsYx20yvNNs0n8mR5OhpLognltr1V1O27-vrbRxlyCkqdLvXzY0YBcw =624x351)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1672746565/cms/Budibase_Screenshot_hljnay.png)
 
 ## Manage workflows with Budibase
 
