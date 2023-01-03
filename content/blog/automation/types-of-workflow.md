@@ -81,7 +81,7 @@ Let’s drill a little bit deeper into one of these. Take a basic vacation appro
 
 From steps two to four, we have. If any of the relevant criteria isn’t met, the workflow can be abandoned.
 
-![](https://lh4.googleusercontent.com/LiOP27-BD_Zz0BRCF-wxlNOiMXk8alu2y-siHEI8lzF7Nkoku7LP5GpLydy3MEUTD55CTauFDEoWsmw6iG0hBLGIyXqD7r5cs8BH6XHZdGcVysCuz_MzAYP8m9DuwhBcsB2R7Y4pcAb8_Hyqk4s3oyhyfXmNtOcZxLZ125MqvjEi0CMqLFHiizlDAF1oHg =624x408)
+![Types of workflow example 1](https://res.cloudinary.com/daog6scxm/image/upload/v1672752636/cms/Vacation_Request_Form_Template_Gif_mjwe43_zt1tw3.gif "Types of workflow example 1")
 
 ### State-machine workflows
 
@@ -109,7 +109,7 @@ Say we were dealing with an online order workflow. This could be made up of acti
 
 This is a highly simplified example. In reality, we might have many more highly granular events and triggers.
 
-![](https://lh3.googleusercontent.com/2NOrtlQqvz4_a7VQQagVb3Zl6Vkg8rTBThg0FlSVY-vvGUEZYYKf-UhoglDWozQ94D9ezg-mjISJvS-I4BY7OBiDpaOxA97x4ZQInyTnDbNCnyQ9MTJCHRofPbizKMp_lvx5rM8QYb6HOf8PcKF_1VJ9UAQf2L9XVfOjLnSHCoTVol_7BYq7rWTMlpfDtg =624x408)
+![Types of workflow example 2](https://res.cloudinary.com/daog6scxm/image/upload/v1672752661/cms/Manufacturing_Inventory_Management_Tempalet_GIF_uwaa3d_apowzt.gif "Types of Workflow example 2")
 
 ### Rules-based workflows
 
@@ -136,7 +136,7 @@ Say we were dealing with a workflow for routing a customer query to the right de
 * Their history.
 * And more.
 
-![](https://lh6.googleusercontent.com/HrPU0DZrNX8WwrPSla2zEAdJDDcXLP3gRFTv0yXu_4jLasAD5pmRfHQalYgX40rnB1IoLRi_-0670m-gF85wIc3L9SBF53WQNwJKKcl0Um1fG1qlGslGcKv-NEgVka1i0H9L-LHH-m7yxwL3cgwm7eKUzbA4yprCGeC1RfLWxr_iSZAQfBU--hr6iqpJnQ =624x408)
+![Types of workflow example 3](https://res.cloudinary.com/daog6scxm/image/upload/v1672752683/cms/Callback_qwyzqp.gif "Types of workflow example 3")
 
 ## How do you identify the right type of workflow for your needs?
 
@@ -148,9 +148,8 @@ The first is whether we’ll need actions to be completed separately or concurre
 
 The second is if every step is required every time a task is completed or if some are optional.
 
-Additionally, if we know actions need to follow a fixed order, we’re probably going to end up with a sequential workflow. If we know that they’ll follow more conditional logic or an events-driven structure, we’ll have to opt for one of the others.
-
-![](https://lh3.googleusercontent.com/Om8P60k62lpUXGOAM1uq_BtA_wFXVliPQ3c54ODanm2xEOGmFiubEfXlWfByN1408Cn8_Q_jhsvnjIFtT5r30Y7hARw3d3dkg_ZBn2U7vhunt1UkNEvXonxL1B-ySffnqE-ewUKyeFnSwwxqmciuARNgjPpnk7RdJrQHbleWA4y3qwxuwWwlPSrJvIVpjA =624x351)
+Additionally, if we know actions need to follow a fixed order, we’re probably going to end up with a sequential workflow. If we know that they’ll follow more conditional logic or an events-driven structure, we’ll have to opt for one of the others.  
+![Budibase Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1672752706/cms/Budibase_Screenshot_hysbwn.png "Budibase Screenshot")
 
 ## Budibase for workflow management
 
@@ -160,6 +159,6 @@ Our open-source, low-code platform is the fast easy way to build everything from
 
 We’ve even built 50+ free app templates to help get you started.
 
-Check out our ultimate guide to workflow management to learn more.
+Check out our ultimate guide to [workflow management](/blog/automation/workflow-management/) to learn more.
 
 To start using Budibase to build better tools, faster, sign up for free today.
