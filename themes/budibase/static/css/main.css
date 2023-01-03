@@ -589,7 +589,6 @@ u {
 
 .underlined {
   position: relative;
-  margin-right: 1rem;
 }
 .underlined:after {
   content: "";
@@ -598,8 +597,8 @@ u {
   left: 0;
   height: 7px;
   width: 100%;
-  border: solid 2px var(--teal3);
-  border-color: var(--teal3) transparent transparent transparent;
+  border: solid 2px var(--blue3);
+  border-color: var(--blue3) transparent transparent transparent;
   border-radius: 30%;
 }
 
@@ -799,7 +798,7 @@ input[type="month"] {
 @media (min-width: 576px) {
   .hero-title {
     text-size-adjust: 100%;
-    font-size: clamp(2.5rem, 3.5vw, 2.8rem);
+    font-size: clamp(2.5rem, 3.5vw, 4rem);
     font-variation-settings: "wght" 630;
     margin-top: 0;
     margin-bottom: 0;
@@ -2699,6 +2698,14 @@ details[open] > summary {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: left;
+}
+
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .align-end {
@@ -4497,14 +4504,14 @@ fieldset:disabled a.btn {
 
 .btn-cta {
   color: white;
-  background-color: var(--teal3);
-  border: 2px solid var(--teal3);
+  background-color: var(--blue3);
+  border: 2px solid var(--blue3);
 }
 
 .btn-cta:hover {
   color: white;
-  background-color: var(--teal4);
-  border: 2px solid var(--teal4);
+  background-color: var(--blue4);
+  border: 2px solid var(--blue4);
 }
 
 .btn-cta:focus, .btn-pimary.focus {
@@ -4599,8 +4606,14 @@ fieldset:disabled a.btn {
 
 .btn-outline {
   background-color: white;
-  color: var(--blue3);
-  border: 2px solid var(--blue3);
+  color: var(--black);
+  border: 1px solid var(--gray500);
+}
+
+.btn-outline:hover {
+  background-color: var(--blue1);
+  color: var(--black);
+  border: 1px solid var(--gray700);
 }
 
 @media (max-width: 576px) {
@@ -5835,6 +5848,14 @@ button.close {
 background: linear-gradient(180deg, rgba(255,252,252,1) 0%, rgba(255,254,252,1) 44%, rgba(252,252,255,1) 100%);
   }
 
+  .bg-gradient-dark {
+/* Created with https://www.css-gradient.com */
+background: #2E2E38;
+background: -webkit-radial-gradient(bottom right, #2E2E38, #1E1E1E);
+background: -moz-radial-gradient(bottom right, #2E2E38, #1E1E1E);
+background: radial-gradient(to top left, #2E2E38, #1E1E1E);
+  }
+
 .bg-light1 {
 background-color: var(--light1);
 }
@@ -5945,6 +5966,9 @@ background-color: var(--light1);
 }
 
 
+.u-header--bg-transparent {
+  background-color: #b79900;
+}
 
 
 
