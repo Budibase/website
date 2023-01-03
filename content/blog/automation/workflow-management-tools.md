@@ -70,7 +70,7 @@ The majority of workflow management tools provide some combination of the follow
 
 There’s a fair amount of variation in the actual functionality provided by individual platforms. As we’ll see in a second, some tools position themselves as full-stack workflow management tools, while others might focus on a single function.
 
-![](https://lh3.googleusercontent.com/_k4G1S88ALDdhPZ2lfeUxK4ittwXODEnSkEskF1_5oqNk_Z8LgT2E_G6cmhJUzmQLbjsnvGLKw6wEqgNqUlT0C0lWIcMezi00l-0aInaOGxC4-7hBHQZKq0wcdYvvSRrj7XIonp0pjOMXAVxtasHCT_loetDSf4dsE0NB26mEHfUfOd_XjOEs67ggNF40Q =624x351)
+![Workflow Management Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1672748247/cms/Automatable_Tasks_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_le5iy4.png "Workflow Management Tools")
 
 ([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages))
 
@@ -112,7 +112,7 @@ In more advanced or niche cases, we might need to turn to platforms that offer w
 
 However, the bulk of efficiency savings can be achieved with much simpler rules, by integrating different systems in your existing software stack. We’ll see more on this later.
 
-![](https://lh5.googleusercontent.com/e83bD83AWM9zj8r1dkD32wN-hOKyEuAhzMfFBUTXtWaWAB1NgF-5r0952_GSLNBDkbKSiX54g4vk1dFWQwMtDsGIHIy1F5OmcUJDlwUAWpmetbFogNh55fcxvwnIWbgfXuZ8AIqIoo97L5SZkAAQLuU-vnor2D0MXcjPI8WjiFEy0YVF2gbAhXc3wuGV-g =624x351)
+![Worklfow Management Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1672748345/cms/Automation_with_existing_tools_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_bybcoh.png "Workflow Management Tools Statistics")
 
 ([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages))
 
@@ -272,15 +272,15 @@ Luckily, we’ve hinted at many of these already. Let’s quickly summarize to s
 
 Our top decision points include:
 
-* **Costs - Of course, we might be operating within a predefined budget. Or, we might need to prove the potential return of investing in a particular platform.**
-* **Legal/financial constraints - In large organizations, we’ll also be constrained by highly specific legal and financial procedures and requirements.**
-* **Functional requirements - Is a particular platform actually capable of what we need it to do? Does it offer a feature set that’s appropriate for our use case?**
-* **Access control - Whether or not a particular platform can be configured to reflect our internal roles and team structure.**
-* **Security/compliance - Does a particular tool meet our security and compliance requirements? Are relevant protocols and other security measures provided for?**
-* **Hosting - Does the vendor provide suitable hosting options? Can we self-host if we need to?**
-* **Customization - Is there sufficient flexibility and scope for customization for us to thoroughly map our business rules?**
-* **Admin and user management - How much admin work will we be creating by implementing the software?**
-* **Support and maintenance - Does the vendor provide effective support and maintenance? Can this be taken in-house? What costs will you incur in either case?**
+* **Costs -** Of course, we might be operating within a predefined budget. Or, we might need to prove the potential return of investing in a particular platform.
+* **Legal/financial constraints -** In large organizations, we’ll also be constrained by highly specific legal and financial procedures and requirements.
+* **Functional requirements -** Is a particular platform actually capable of what we need it to do? Does it offer a feature set that’s appropriate for our use case?
+* **Access control -** Whether or not a particular platform can be configured to reflect our internal roles and team structure.
+* **Security/compliance -** Does a particular tool meet our security and compliance requirements? Are relevant protocols and other security measures provided for?
+* **Hosting -** Does the vendor provide suitable hosting options? Can we self-host if we need to?
+* **Customization -** Is there sufficient flexibility and scope for customization for us to thoroughly map our business rules?
+* **Admin and user management -** How much admin work will we be creating by implementing the software?
+* **Support and maintenance -** Does the vendor provide effective support and maintenance? Can this be taken in-house? What costs will you incur in either case?
 
 The important thing here is understanding that you might need to prioritize some of these issues over others. So we might end up needing to compromise on some decisions in order to meet our requirements under others.
 
@@ -296,7 +296,7 @@ Cast your mind back to the different categories of tools we saw earlier. Since t
 
 With that in mind, here are five of our top choices from across different segments of the workflow management software market.
 
-![](https://lh6.googleusercontent.com/_PbHdoyMerBESGu9p4etOgV9LDvNJ9UsLt_PzuoryquFYe0XU2TOZYFM8T93Srx1rLi0ORadNFha5uHbfdJ0Wxqk0en7VXP_Ora_4FpJwPUM0CXDKF6RXaTHwRYA3rnObD894AkWFIf831U8bOcj3QASXrntC7sKuD8eO5qeM52AQ29exsQ8bSHXEYhp2Q =624x351)
+![Zapier Logo](https://res.cloudinary.com/daog6scxm/image/upload/v1672748431/cms/Zapier_Logo_aqzwit.png "Zapier Logo")
 
 ### Zapier
 
@@ -310,7 +310,7 @@ However, for more complex use cases, Zapier isn’t always sufficient on its own
 
 Check out our [Zapier integration page](https://budibase.com/integration/zapier/) to learn more about leveraging it within Budibase.
 
-![](https://lh6.googleusercontent.com/wzbPkyGCApSPgpiDbbeXcivdZq8bcKepOCAz7ZzSrXBPLXlHAY_eFq39gz4FOLWkWBPUM_4ppiNSX0D0yp0KzeBiHIFjsz9ZBcQQmCXCDnlz9EycvHFzFOYQJoB7p3_7V5nZzN0XSeZ-cr4saN-m_Egbzbu18EQ3HvPMOmgHi6eX1yBjboIX1LJPRpGe2w =624x351)
+![LucidChart](https://res.cloudinary.com/daog6scxm/image/upload/v1672748449/cms/LucidChart_Logo_gzj73n.png "LucidChart")
 
 ### LucidChart
 
@@ -322,7 +322,7 @@ So, at its core, LucidChart is a diagramming tool. However, it also brings a lot
 
 For example, real-time edits and comments, as well as integrations with Microsoft Office and Google Workspace.
 
-![](https://lh6.googleusercontent.com/3UL17E3qpVLlT5zUoV7PLvOQ1hzBz5XWmvRzMOH1pUmpfbt8q-wKMldp8hjOkMqhkxp_dZSEKDQEnKQff6vNPHM7bOhvcx5B233gHAJe3WZbWUcaosMdHaqG8p0x6oCJotsKfabfZKJnpptebpredzZUjJg2Hq16YDNXTUolgxlMvTHZYevoHYt-MfrC7w =624x351)
+![Microsoft Workflow Management Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1672748469/cms/Microsoft_Logo_nwpans.png "Microsoft Workflow Management Tools")
 
 ### Microsoft Tools
 
@@ -334,7 +334,7 @@ Check out our guide to [spreadsheets vs databases](https://budibase.com/blog/dat
 
 Dynamics and PowerApps are aimed at building more advanced workflows, but they also require a high amount of technical skill and expertise to implement effectively. This can be problematic for businesses with a large backlog of development work.
 
-![](https://lh6.googleusercontent.com/q-6ouDMGsp2yZK36Z6lLG6q8tFloMFCABO6bHBbP_tbU2a3FZAdMyStVfscNIHriW8S3H-jj3LVwZWGlO4oUz0mMn0RdrAqD6Pl4npBNc_BpT2nA8kqJ5Z3PUQQWeBnraphXo7GW662k1DAqJcTgiSgC822fHf0lUMP9q-kfBtJ4W4_e5sVCk1pssO9HSg =624x351)
+![Oracle Workflow Management Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1672748497/cms/Oracle_Logo_gbvjvh.png "Oracle Workflow Management Tools")
 
 ### Oracle
 
@@ -358,7 +358,7 @@ Instead, our mission is to empower developers to build applications faster, whil
 
 Whether you need to build simple CRUD applications or highly specific internal tools, Budibase is trusted by tens of thousands of businesses around the world.
 
-![](https://lh3.googleusercontent.com/jlZXg86hRpKRO3Z9fM6kqxS2oEJiKN85ZTmRR3ZLX6XfeKdwABLofFnaXwVjluuCon7n3hImaKBGizrc8WQz063yqQOvYgzB79hVO_EGcj9SDJZWRcLP4i16YeBYphgQtPBgWG8siYgyD5gMIquofbqvcdapQvsYyGwiwjXBjMJ0UO3I-7y-jgmLwrQPOg =624x351)
+![Budibase Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1672748520/cms/Budibase_Screenshot_nqdquy.png "Budibase Screenshot")
 
 ## Build tools to manage workflows with Budibase
 
