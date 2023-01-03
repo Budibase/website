@@ -49,7 +49,7 @@ The important thing to remember is that workflows are only workflows if they fol
 
 Similarly, we need to be conscious of the fact that workflows can contain any number of steps, actors, systems, and decisions. As we’ll see in a second, these might follow a fixed, linear structure, or there might be different branching or iterative variations.
 
-![Workflow Management Statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1672746281/cms/Automatable_Tasks_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_mdoprr.png "Workflow Management Statistics")
+![Workflow Management Statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1672746281/cms/Automatable_Tasks_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_mdoprr.webp "Workflow Management Statistics")
 
 ([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages))
 
@@ -149,7 +149,7 @@ Basically, workflow management is one of many tools that your project team has a
 
 The other difference is that workflow management is only concerned with single, discrete, repeated tasks. Project management is just as much about responding to unforeseen events as it is about carrying out more regularized work.
 
-![Automatable Tasks](https://res.cloudinary.com/daog6scxm/image/upload/v1672746325/cms/Daily_Management_Tasks_https___www.gartner.com_en_newsroom_press-releases_2021-04-28-gartner-forecasts-worldwide-hyperautomation-enabling-software-market-to-reach-nearly-600-billion-by-2022_hijyyu.png "Automatable Tasks")
+![Automatable Tasks](https://res.cloudinary.com/daog6scxm/image/upload/v1672746325/cms/Daily_Management_Tasks_https___www.gartner.com_en_newsroom_press-releases_2021-04-28-gartner-forecasts-worldwide-hyperautomation-enabling-software-market-to-reach-nearly-600-billion-by-2022_hijyyu.webp "Automatable Tasks")
 
 ([Gartner](https://www.gartner.com/en/newsroom/press-releases/2021-04-28-gartner-forecasts-worldwide-hyperautomation-enabling-software-market-to-reach-nearly-600-billion-by-2022))
 
@@ -209,7 +209,7 @@ In the first instance, this stems from standardization. So, when we have a clear
 
 Besides this, at its core, workflow management involves building oversight, monitoring, and auditing mechanisms into employees’ daily work. In turn, this gives us a systematic way to identify issues or opportunities for further improvement.
 
-![Workflow Management and Human Error](https://res.cloudinary.com/daog6scxm/image/upload/v1672746364/cms/Incidents_https___venturebeat.com_datadecisionmakers_workflow-automation-what-it-is-and-how-it-can-make-your-job-easier__fvk0ct.png "Workflow Management and Human Error")
+![Workflow Management and Human Error](https://res.cloudinary.com/daog6scxm/image/upload/v1672746364/cms/Incidents_https___venturebeat.com_datadecisionmakers_workflow-automation-what-it-is-and-how-it-can-make-your-job-easier__fvk0ct.webp "Workflow Management and Human Error")
 
 ([VentureBeat](https://venturebeat.com/datadecisionmakers/workflow-automation-what-it-is-and-how-it-can-make-your-job-easier/))
 
@@ -311,7 +311,7 @@ On the other, your workflows could be genuinely confusing, unclear, or ambiguous
 
 Workflow management plays a role in both cases. The question is simply whether we apply it to the actual tasks in question or to the workflows we use to manage how employees are trained in these tasks.
 
-![Workflow Management Training](https://res.cloudinary.com/daog6scxm/image/upload/v1672746414/cms/Training_https___www.bptrends.com_bpt_wp-content_uploads_2020-BPM-Survey.pdf_njnseg.png "Workflow Management Training")
+![Workflow Management Training](https://res.cloudinary.com/daog6scxm/image/upload/v1672746414/cms/Training_https___www.bptrends.com_bpt_wp-content_uploads_2020-BPM-Survey.pdf_njnseg.webp "Workflow Management Training")
 
 ([BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/2020-BPM-Survey.pdf))
 
@@ -450,7 +450,7 @@ _How_ you build automations plays a role here too. The vast majority of internal
 
 Increasingly, new technologies, including machine learning are also leveraged to more closely replicate human decision-making with less tightly structured data. Most automations are much simpler than this though.
 
-![Existing Technology](https://res.cloudinary.com/daog6scxm/image/upload/v1672746457/cms/Automation_with_existing_tools_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_q13qpz.png "Existing Technology")
+![Existing Technology](https://res.cloudinary.com/daog6scxm/image/upload/v1672746457/cms/Automation_with_existing_tools_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_q13qpz.webp "Existing Technology")
 
 ([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages))
 
@@ -623,9 +623,7 @@ Categorization is critical. That is, when we have a large number of different re
 
 With information-focused internal tools, we’ll also want to prioritize navigability, as well as integration with external messaging, content management, and communications tools.
 
-![Daily Tasks](https://res.cloudinary.com/daog6scxm/image/upload/v1672746540/cms/Looking_for_files_https___www.workato.com_the-connector_8-automation-stats-cio__z6zfgs.png "Daily Tasks")
-
-([Workato](https://www.workato.com/the-connector/8-automation-stats-cio/))
+![Daily Tasks](https://res.cloudinary.com/daog6scxm/image/upload/v1672746540/cms/Looking_for_files_https___www.workato.com_the-connector_8-automation-stats-cio__z6zfgs.webp "Daily Tasks")([Workato](https://www.workato.com/the-connector/8-automation-stats-cio/))
 
 Take a look at our [IT knowledge base template](https://budibase.com/it/templates/open-source-it-knowledge-base/) to see how some of these ideas work in practice.
 
@@ -755,7 +753,7 @@ This means leveraging app-builder platforms to expedite builds and reduce the te
 
 Let’s see how Budibase is leading the charge.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1672746565/cms/Budibase_Screenshot_hljnay.png)
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1672746565/cms/Budibase_Screenshot_hljnay.webp)
 
 ## Manage workflows with Budibase
 
