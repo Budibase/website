@@ -54,9 +54,9 @@ More often though, we model workflows because we want to assess how effective th
 
 For example, if we wanted to cut the costs associated with performing a particular task, we’d start by modeling it to find out where we can make efficiency savings.
 
-![Workflow Model Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1672747502/cms/Automatable_Tasks_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_wglgvo.png "Workflow Model Stats")([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages))
+![Workflow Model Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1672747502/cms/Automatable_Tasks_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_wglgvo.webp "Workflow Model Stats")([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages))
 
-Check out our guide to workflow management to find out more.
+Check out our guide to [workflow management](/blog/automation/workflow-automation/) to find out more.
 
 ## Types of workflow model
 
@@ -222,7 +222,7 @@ Second, if we’re going to use our model for analytical purposes, we’re going
 
 Of course, the exact nature of this is going to depend on your more specific needs. For instance, you might need to express it in terms of the relevant labor hours, costs, or both.
 
-![Workflow modelling](https://res.cloudinary.com/daog6scxm/image/upload/v1672747546/cms/Incidents_https___venturebeat.com_datadecisionmakers_workflow-automation-what-it-is-and-how-it-can-make-your-job-easier__msuklp.png "Workflow modelling")
+![Workflow modelling](https://res.cloudinary.com/daog6scxm/image/upload/v1672747546/cms/Incidents_https___venturebeat.com_datadecisionmakers_workflow-automation-what-it-is-and-how-it-can-make-your-job-easier__msuklp.webp "Workflow modelling")
 
 ([VentureBeat](https://venturebeat.com/datadecisionmakers/workflow-automation-what-it-is-and-how-it-can-make-your-job-easier/))
 
@@ -246,7 +246,7 @@ For most workflow automations, we’re looking out for a handful of key issues. 
 
 It’s worth noting that we’ll often need to balance competing concerns here. For example, we may have a clear need for automation but limited resources for achieving it. We’ll return to how Budibase can help bridge the gap here a little later.
 
-![Create a workflow model](https://res.cloudinary.com/daog6scxm/image/upload/v1672747638/cms/Automation_with_existing_tools_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_rqbkag.png "Workflow model stats")
+![Create a workflow model](https://res.cloudinary.com/daog6scxm/image/upload/v1672747638/cms/Automation_with_existing_tools_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_rqbkag.webp "Workflow model stats")
 
 ([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages))
 
@@ -274,7 +274,7 @@ There are a couple of different elements to this.
 
 The first is to create a visualization of our model so that it can be easily communicated. This involves creating what’s known as a _workflow map_. Most often, this takes the form of a flowchart diagram.
 
-![Workflow Model Training](https://res.cloudinary.com/daog6scxm/image/upload/v1672747661/cms/Training_https___www.bptrends.com_bpt_wp-content_uploads_2020-BPM-Survey.pdf_uxhcit.png "Workflow Model Training")
+![Workflow Model Training](https://res.cloudinary.com/daog6scxm/image/upload/v1672747661/cms/Training_https___www.bptrends.com_bpt_wp-content_uploads_2020-BPM-Survey.pdf_uxhcit.webp "Workflow Model Training")
 
 ([BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/2020-BPM-Survey.pdf))
 
@@ -290,7 +290,7 @@ The key is to ground our implementation decisions in our overarching strategic g
 
 Check out our guide to [business process optimization](https://budibase.com/blog/automation/business-process-optimization/) to learn more.
 
-![Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1672747684/cms/Budibase_Screenshot_p2lue1.png "Budibase")
+![Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1672747684/cms/Budibase_Screenshot_p2lue1.webp "Budibase")
 
 ## Budibase for workflow management
 
