@@ -70,9 +70,7 @@ The majority of workflow management tools provide some combination of the follow
 
 There’s a fair amount of variation in the actual functionality provided by individual platforms. As we’ll see in a second, some tools position themselves as full-stack workflow management tools, while others might focus on a single function.
 
-![Workflow Management Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1672748247/cms/Automatable_Tasks_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_le5iy4.png "Workflow Management Tools")
-
-([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages))
+![Workflow Management Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1672748247/cms/Automatable_Tasks_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_le5iy4.webp "Workflow Management Tools")([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages))
 
 Similarly, some are intended to help you analyze workflows and identify improvements, while others aim to action very specific optimizations.
 
@@ -112,9 +110,7 @@ In more advanced or niche cases, we might need to turn to platforms that offer w
 
 However, the bulk of efficiency savings can be achieved with much simpler rules, by integrating different systems in your existing software stack. We’ll see more on this later.
 
-![Worklfow Management Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1672748345/cms/Automation_with_existing_tools_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_bybcoh.png "Workflow Management Tools Statistics")
-
-([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages))
+![Worklfow Management Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1672748345/cms/Automation_with_existing_tools_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_bybcoh.webp "Workflow Management Tools Statistics")([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages))
 
 ### Business intelligence tools
 
@@ -296,7 +292,7 @@ Cast your mind back to the different categories of tools we saw earlier. Since t
 
 With that in mind, here are five of our top choices from across different segments of the workflow management software market.
 
-![Zapier Logo](https://res.cloudinary.com/daog6scxm/image/upload/v1672748431/cms/Zapier_Logo_aqzwit.png "Zapier Logo")
+![Zapier Logo](https://res.cloudinary.com/daog6scxm/image/upload/v1672748431/cms/Zapier_Logo_aqzwit.webp "Zapier Logo")
 
 ### Zapier
 
@@ -310,7 +306,7 @@ However, for more complex use cases, Zapier isn’t always sufficient on its own
 
 Check out our [Zapier integration page](https://budibase.com/integration/zapier/) to learn more about leveraging it within Budibase.
 
-![LucidChart](https://res.cloudinary.com/daog6scxm/image/upload/v1672748449/cms/LucidChart_Logo_gzj73n.png "LucidChart")
+![LucidChart](https://res.cloudinary.com/daog6scxm/image/upload/v1672748449/cms/LucidChart_Logo_gzj73n.webp "LucidChart")
 
 ### LucidChart
 
@@ -322,7 +318,7 @@ So, at its core, LucidChart is a diagramming tool. However, it also brings a lot
 
 For example, real-time edits and comments, as well as integrations with Microsoft Office and Google Workspace.
 
-![Microsoft Workflow Management Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1672748469/cms/Microsoft_Logo_nwpans.png "Microsoft Workflow Management Tools")
+![Microsoft Workflow Management Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1672748469/cms/Microsoft_Logo_nwpans.webp "Microsoft Workflow Management Tools")
 
 ### Microsoft Tools
 
@@ -334,7 +330,7 @@ Check out our guide to [spreadsheets vs databases](https://budibase.com/blog/dat
 
 Dynamics and PowerApps are aimed at building more advanced workflows, but they also require a high amount of technical skill and expertise to implement effectively. This can be problematic for businesses with a large backlog of development work.
 
-![Oracle Workflow Management Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1672748497/cms/Oracle_Logo_gbvjvh.png "Oracle Workflow Management Tools")
+![Oracle Workflow Management Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1672748497/cms/Oracle_Logo_gbvjvh.webp "Oracle Workflow Management Tools")
 
 ### Oracle
 
@@ -358,7 +354,7 @@ Instead, our mission is to empower developers to build applications faster, whil
 
 Whether you need to build simple CRUD applications or highly specific internal tools, Budibase is trusted by tens of thousands of businesses around the world.
 
-![Budibase Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1672748520/cms/Budibase_Screenshot_nqdquy.png "Budibase Screenshot")
+![Budibase Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1672748520/cms/Budibase_Screenshot_nqdquy.webp "Budibase Screenshot")
 
 ## Build tools to manage workflows with Budibase
 
@@ -404,7 +400,7 @@ Check out our custom [plug-ins documentation](https://docs.budibase.com/docs/cus
 
 ### 50+ free app templates
 
-Businesses all over the world choose Budibase to build custom solutions for all kinds of workflow management applications.
+Businesses all over the world choose Budibase to build custom solutions for all kinds of [workflow management](/blog/automation/workflow-management/) applications.
 
 We have a lot of confidence in our platform, but why should you take our word for it? To prove what Budibase is capable of, we’ve created over 50 free, customizable, and ready-to-use [app templates](https://budibase.com/templates).
 
