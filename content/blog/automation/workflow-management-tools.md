@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2023-01-03T00:00:00Z
 description = "Check out our round-up of workflow management tools for 2023"
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1672748046/cms/Workflow_Management_Tools_qeb2od.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1672748052/cms/Workflow_Management_Tools_pkt9bc.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
