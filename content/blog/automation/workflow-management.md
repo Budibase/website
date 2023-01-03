@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2023-01-03T00:00:00Z
 description = "Workflow management is an essential part of building an efficient, modern business."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1672746202/cms/Workflow_Management_gsvmrl.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1672746208/cms/Workflow_Management_ymtsmd.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
