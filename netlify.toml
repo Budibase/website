@@ -122,3 +122,9 @@ HUGO_ENABLEGITINFO = "true"
   to = "/careers"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/self-host"
+  to = "/pricing"
+  status = 301
+  force = true
