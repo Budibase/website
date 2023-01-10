@@ -30,7 +30,7 @@ HUGO_VERSION = "0.101.0"
 HUGO_ENABLEGITINFO = "true"
 
 [context.andrew-marketplace-build]
-command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "ls -ll && cd build && node hugo.js generate -f && cd .. && hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [[redirects]]
   from = "/blog/posts/cofoundervalidation/"
