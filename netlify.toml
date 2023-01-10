@@ -29,6 +29,9 @@ HUGO_VERSION = "0.101.0"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
+[context.andrew-marketplace-build]
+command = "node build/hugo.js generate -f && hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
 [[redirects]]
   from = "/blog/posts/cofoundervalidation/"
   to = "/blog/cofoundervalidation/" 
