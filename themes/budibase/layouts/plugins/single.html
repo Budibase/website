@@ -1,0 +1,31 @@
+{{ partial "header.html" . }} {{ partial "navigation-test.html" . }}
+<div class="container mx-auto">
+  <div class="container-9 mx-auto space-2">
+    <h1 class="mb-3 text-center mb-4">Plugins</h1>
+  </div>
+
+  <div class="container-narrow">
+    <div class="templates-cards">
+      {{ range .Pages }}
+      <a href="{{.Permalink}}">
+        <div class="templates-card rounded-sm">
+          <div
+            class="template-thumbnail pt-4 pl-4  mb-4 img-fluid bg-{{ .Params.thumbnailColor }}"
+          >
+            <img
+              class="template-card-img img-fluid"
+              src="{{ .Params.thumbnail }}"
+            />
+          </div>
+          <h2 class="h4 mb-3">{{ index .Params "PluginName" }}</h2>
+          <p class="mb-3">{{ .Params.Description }}</p>
+          <h4 class="badge badge-info">{{ .Params.Author }}</h4>
+          <p class="text-blue text-sm templates-card-link">Get this plugin</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+{{ partial "cta.html" . }} {{ partial "footer.html" . }}
