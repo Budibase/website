@@ -3867,9 +3867,38 @@ border-radius: .75rem;
 .solutions-features {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+  grid-template-columns: 1fr;
   grid-gap: 24px;
   margin-bottom: 32px;
+}
+
+@media (min-width: 765px) {
+  .solutions-features {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+    margin-bottom: 32px;
+  }
+}
+@media (min-width: 1062px) {
+  .solutions-features {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 24px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .solutions-features {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 24px;
+    margin-bottom: 32px;
+  }
 }
 
 .solutions-features-card {
@@ -3881,6 +3910,7 @@ border-radius: .75rem;
   grid-gap: 0px 12px;
   grid-template-rows: 36px 1fr;
   justify-content: left;
+  min-width: 30px;
   text-align: left;
   background-color: white;
 }
