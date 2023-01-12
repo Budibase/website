@@ -6,20 +6,19 @@
 
   <div class="container-narrow">
     <div class="templates-cards">
-      {{ range .Pages }}
-      <a href="{{.Permalink}}">
+      {{ range (merge .Site.Data.Component .Site.Data.Integration) }}
+
+      <a href="{{.GithubUrl}}">
         <div class="templates-card rounded-sm">
           <div
-            class="template-thumbnail pt-4 pl-4  mb-4 img-fluid bg-{{ .Params.thumbnailColor }}"
+            class="template-thumbnail pt-4 pl-4  mb-4 img-fluid bg-{{ .thumbnailColor }}"
           >
-            <img
-              class="template-card-img img-fluid"
-              src="{{ .Params.thumbnail }}"
-            />
+            {{.PluginIcon | safeHTML }}
+            <h2 class="h4 mb-3">{{ .PluginName }}</h2>
           </div>
-          <h2 class="h4 mb-3">{{ index .Params "PluginName" }}</h2>
-          <p class="mb-3">{{ .Params.Description }}</p>
-          <h4 class="badge badge-info">{{ .Params.Author }}</h4>
+
+          <p class="mb-3">{{ .Description }}</p>
+          <h6 class="badge badge-info">{{ .Author }}</h6>
           <p class="text-blue text-sm templates-card-link">Get this plugin</p>
         </div>
       </a>
@@ -27,5 +26,12 @@
     </div>
   </div>
 </div>
+
+<style>
+  svg {
+    height: 48px;
+    width: 80px;
+  }
+</style>
 
 {{ partial "cta.html" . }} {{ partial "footer.html" . }}
