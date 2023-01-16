@@ -42,43 +42,49 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "/build-a-web-app"
-  to = "/product"
+  to = "/platform"
   status = 301
   force = true
 
 [[redirects]]
   from = "/host-a-web-app"
-  to = "/product"
+  to = "/platform"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/product"
+  to = "/platform"
   status = 301
   force = true
 
 [[redirects]]
   from = "/manage-a-web-app"
-  to = "/product"
+  to = "/platform"
   status = 301
   force = true
 
 [[redirects]]
   from = "/design/"
-  to = "/product"
+  to = "/platform"
   status = 301
   force = true
 
 [[redirects]]
   from = "/automate/"
-  to = "/product"
+  to = "/platform"
   status = 301
   force = true
 
 [[redirects]]
   from = "/data/"
-  to = "/product"
+  to = "/platform"
   status = 301
   force = true
 
 [[redirects]]
   from = "/deploy/"
-  to = "/product"
+  to = "/platform"
   status = 301
   force = true
 

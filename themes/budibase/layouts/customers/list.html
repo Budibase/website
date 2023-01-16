@@ -1,33 +1,26 @@
 {{ partial "header.html" . }}
 
-{{ partial "navigation.html" . }}
+{{ partial "navigation-test.html" . }}
+
 
 <div class="space-2-top container-fw">
     <div class="container">
       <h1 class="mb-3 mb-4 text-center ">
-        Happy customers
+        Meet our customers
       </h1>
     <div class="w-80 w-lg-50 mx-auto">
-      <p class="mx-auto display-lead mb-2 text-center"> {{ .Description }}
+      <p class="mx-auto display-lead mb-2 text-center"> Budibase enables companies of all sizes to transform their operations
+        and save time, effort and money.
     </p>
     </div></div>
 
 
 <div class="py-4">
     <div class="container-9 space-2-bottom">
-        <div class="customers-grid">
+        <div class="flex-row-center gap-md">
             {{ range .Data.Pages }}
-            <a href="{{ .Permalink}}" class="customer-card image-hover-overlay" title="Why {{ .Title }} uses Budibase">
-                <div class="customer-inner">
-                    {{ with .Resources.Match "*/logo*" }}
-                    {{ range . }}
-                        <img src="{{ .RelPermalink }}" />
-                    {{ end }}
-                    {{ end }}
-                        <div class="overlay-2">
-                            <span class="a text-sm">Read more ➝</span>
-                        </div>
-                </div>
+            <a href="{{ .Permalink}}" class="btn btn-outline" >
+                {{ .Params.customer }}
             </a>
             {{ end }}
         </div>

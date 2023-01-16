@@ -10,7 +10,7 @@ images:
 customer: Schnellecke
 headcount: "16,343"
 founded: "1939"
-Revenue: 1.29 billion USD
+revenue: 1.29 billion USD
 Industry: Logistics
 Website: https://www.schnellecke.com/en/schnellecke-logistics
 author: Davide Lenzarini

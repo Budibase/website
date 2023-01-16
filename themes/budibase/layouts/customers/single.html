@@ -1,44 +1,109 @@
 {{ partial "header.html" . }}
 
-{{ partial "navigation.html" . }}
+{{ partial "navigation-test.html" . }}
 
 
+
+<div class="space-2-top">
+  <div class="container">
+    <h1 class="hero-title mb-3 mb-4 text-center ">
+      Meet our customers
+    </h1>
+    <div class="w-80 w-lg-50 mx-auto">
+      <p class="mx-auto display-lead mb-2 text-center"> Budibase enables companies of all sizes to transform their
+        operations
+        and save time, effort and money.
+      </p>
+    </div>
+  </div>
+
+
+  <div class="py-4">
+    <div class="container-9 space-1-bottom">
+      <div class="flex-row-center gap-md">
+        <a href="/customers/covanta" class="btn btn-outline btn-lg">
+          Covanta
+        </a>
+        <a href="/customers/schnellecke" class="btn btn-outline btn-lg">
+          Schnellecke
+        </a>
+        <a href="/customers/bulgarian-government" class="btn btn-outline btn-lg">
+          Bulgarian Gov
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 <main id="content" role="main">
-  <div class="space-2">
-    <div class="container-12 customer-grid">
-        <section class="mt-2"><a href="/customers" class=" text-blue text-xs">← Back</a></section>      
-        <section class="customer-content article">
-                      {{ with .Resources.Match "*/cover*" }}
-            {{ range . }}
-              <img src="{{ .RelPermalink }}" class="w-100 rounded mb-4" />
-            {{ end }}
-          {{ end }}
-            <h1 class="h2 mb-4">{{ .Params.Customer }}</h1>
-            <p class="display-lead linear-wipe">{{ .Description }}</p>
-
-            <div class="mb-6">{{ .Content }}</div>
-            <p> {{.Params.Author }}<br><span class="opacity-50">{{.Params.Position }}</span></p>
-        </section>
-        <section class="customer-meta-data bg-gray rounded p-4">
-            {{ with .Resources.Match "*/logo*" }}
-            {{ range . }}
-            <img class="pt-3 customer-logo rounded mb-2" src="{{ .RelPermalink }}" />
-            {{ end }}          
-          {{ end }}
-            <p class="text-dark detail-sm text-opacity mt-4">Founded:</p>
-            <p class="text-dark text-sm">{{ .Params.Founded}}</p>
-            <p class="text-dark detail-sm text-opacity mt-4">Industry:</p>
-            <p class="text-dark text-sm mb-2">{{ .Params.Industry}}</p>
-            <p class="text-dark detail-sm text-opacity mt-4">Revenue:</p>
-            <p class="text-dark text-sm">{{ .Params.Revenue}}</p>
-            <p class="text-dark detail-sm text-opacity mt-4">Headcount:</p>
-            <p class="text-dark text-sm">{{ .Params.Headcount}} employees</p>
-            <p class="text-dark detail-sm text-opacity mt-4">Website:</p>
-            <a href="{{ .Params.Website}}" class="text-blue text-sm mb-2" target="_blank" rel="nofollow">Website ↗</p>
-        </section>
-    </main>
+  <div class="space-2-bottom container-12">
+    <hr class="mb-9">
+    <section class="customers-intro-wrapper">
+      {{ with .Resources.Match "*/logo*" }}
+      {{ range . }}
+      <img src="{{ .RelPermalink }}" class="u-avatar-lg mr-6" />
+      {{ end }}
+      {{ end }}
+      <div>
+        <h1>{{ .Params.Customer }}</h1>
+        <p class="mt-1 lead">{{ .Description }}</p>
+        <div class="flex-row mt-2 gap-lg">
+          <div class="flex-row align-center">
+            <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+              <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" />
+              <path class="fill"
+                d="M6.987,3.376a1.9735,1.9735,0,1,0-.004-2.8,2.936,2.936,0,0,1,.3655,1.4A2.94292,2.94292,0,0,1,6.987,3.376ZM8.4875,4.5h-.225a4.917,4.917,0,0,0-.676.0465,3.4805,3.4805,0,0,1,1.163,2.68v4.706a1.2835,1.2835,0,0,1-1.281,1.2815H7.283l-.409,4.3715.016.17A.281.281,0,0,0,7.169,18H9.575a.281.281,0,0,0,.279-.2445l.519-5.541h1.096a.28151.28151,0,0,0,.2815-.281V7.226C11.75,5.4065,10.2895,4.5,8.4875,4.5Z" />
+              <path class="fill"
+                d="M11.237,3.376a1.9735,1.9735,0,1,0-.004-2.8,2.936,2.936,0,0,1,.3655,1.4A2.94292,2.94292,0,0,1,11.237,3.376ZM12.7375,4.5h-.225a4.917,4.917,0,0,0-.676.0465A3.4805,3.4805,0,0,1,13,7.2265v4.706a1.2835,1.2835,0,0,1-1.281,1.2815h-.1855l-.409,4.3715.016.17a.281.281,0,0,0,.279.2445h2.406a.281.281,0,0,0,.279-.2445l.519-5.541h1.096A.2815.2815,0,0,0,16,11.933V7.226C16,5.4065,14.5395,4.5,12.7375,4.5Z" />
+              <path class="fill"
+                d="M6.35,1.974a1.9735,1.9735,0,1,1,0-.001ZM4.4875,4.5h-.225C2.4605,4.5,1,5.407,1,7.2265V11.933a.281.281,0,0,0,.2805.2815H2.374L2.89,17.755A.2815.2815,0,0,0,3.169,18H5.575a.281.281,0,0,0,.279-.2445l.519-5.541H7.469a.281.281,0,0,0,.281-.281V7.2265C7.75,5.407,6.2895,4.5,4.4875,4.5Z" />
+            </svg>
+            <p class="ml-2">{{ .Params.headcount }} employees</p>
+          </div>
+          <div class="flex-row align-center">
+            <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+              <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" />
+              <path class="fill"
+                d="M16.5,1H2.5a.5.5,0,0,0-.5.5v15a.5.5,0,0,0,.5.5H8V11h3v6h5.5a.5.5,0,0,0,.5-.5V1.5A.5.5,0,0,0,16.5,1ZM6,13H3V11H6ZM6,9H3V7H6ZM6,5H3V3H6Zm5,4H8V7h3Zm0-4H8V3h3Zm5,8H13V11h3Zm0-4H13V7h3Zm0-4H13V3h3Z" />
+            </svg>
+            <p class="ml-2">{{ .Params.industry}}</p>
+          </div>
+          <div class="flex-row align-center">
+            <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+              <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" />
+              <circle class="fill" cx="11" cy="7" r="2" />
+              <path class="fill"
+                d="M4,10.5v-7A.5.5,0,0,1,4.5,3h13a.5.5,0,0,1,.5.5v7a.5.5,0,0,1-.5.5H4.5A.5.5,0,0,1,4,10.5ZM17,5.8285A3.008,3.008,0,0,1,15.1715,4H6.8285A3.00753,3.00753,0,0,1,5,5.8285v2.343A3.008,3.008,0,0,1,6.8285,10h8.343A3.00753,3.00753,0,0,1,17,8.1715Z" />
+              <path class="fill" d="M16.5,13H2.5a.5.5,0,0,1-.5-.5v-8A.5.5,0,0,1,2.5,4H3v8H17v.5A.5.5,0,0,1,16.5,13Z" />
+              <path class="fill" d="M14.5,15H.5a.5.5,0,0,1-.5-.5v-8A.5.5,0,0,1,.5,6H1v8H15v.5A.5.5,0,0,1,14.5,15Z" />
+            </svg>
+            <p class="ml-2">{{ .Params.revenue }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="ml-auto">
+        <a href="/contact" target="_blank"><button type="submit" class="btn btn-primary btn-lg">
+            Contact us
+          </button></a>
+      </div>
+    </section>
+    <hr class="mt-9">
+    <section class="mt-9 container-7 customer-content article">
+      <h2 class="mb-6">{{ .Description }}</h2>
+      {{ with .Resources.Match "*/cover*" }}
+      {{ range . }}
+      <img src="{{ .RelPermalink }}" class="w-100 rounded mb-4" />
+      {{ end }}
+      {{ end }}
+      <div class="mb-6">{{ .Content }}</div>
+      <p> {{.Params.Author }}<br><span class="opacity-50">{{.Params.Position }}</span></p>
+    </section>
+</main>
 
 <!--Article-->
 
 {{ partial "cta.html" . }} {{ partial "footer.html" . }}
+
+
+<!-- JS -->
+
