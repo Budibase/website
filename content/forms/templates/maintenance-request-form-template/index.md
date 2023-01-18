@@ -4,7 +4,7 @@ date = 2022-01-18T00:00:00Z
 description = "Manage equipment repairs and regular servicing with our free maintenance request form template."
 destination = "https://budibase.app/builder?template=app/maintenance-request-form"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639392302/cms/Maintenance_request_form_template_1_wg8jgl.png"]
-label = "Maintenance Request Form Template"
+label = "Maintenance Request Form"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639394621/cms/Maintenance_request_form_template_m9vuyh.gif"
 summary = "Our maintenance request form template is a quick and easy way to manage equipment repairs, maintenance, and servicing."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642525391/cms/M
 thumbnailColor = "fuchsia"
 title = "Maintenance Request Form Template | Budibase | Digital Forms"
 type = "templates"
+icon = "/img/icon/form.svg"
 
 +++
 Almost every business manages equipment, either internally, or on behalf of clients and tenants. Inevitably, this also means organizing repairs and maintenance for equipment users. This can be part of regular serving, or in response to an emergency.

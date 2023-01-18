@@ -1,0 +1,135 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation-test.html" . }}
+
+<div class="space-2-top">
+  <div class="container">
+    <h1 class="hero-title mb-3 mb-4 text-center ">
+      One platform. Every process.
+    </h1>
+    <div class="w-80 w-lg-60 mx-auto">
+      <p class="mx-auto display-lead mb-2 text-center"> Budibase is an all-in-one platform that makes it easier and faster for teams to 
+        share data, build tools, automate processes and work together, securely.
+      </p>
+    </div>
+  </div>
+
+<div class="py-4">
+  <div class="container-9 space-1-bottom">
+    <div class="platform-subnav gap-md btn-tabs">
+      <a href="/platform/features/data">            
+       <button id="btn" type="button" class="btn btn-outline btn-lg">Features</button>
+      </a>
+      <a href="/platform/integrations">
+      <button id="btn" type="button" class="btn btn-active btn-lg">Integrations</button>
+      </a>
+      <a href="/templates">
+          <button id="btn" type="button" class="btn btn-outline btn-lg">Templates</button>
+      </a>
+      <a href="/platform/integrations">
+          <button id="btn" type="button" class="btn btn-outline btn-lg" >Changelog</button>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- Hero Section 
+<div class="space-2-top">
+  <div class="container">
+    <h1 class="hero-title mb-3 mb-4 text-center ">
+      Integrations
+    </h1>
+    <div class="w-80 w-lg-50 mx-auto">
+      <p class="mx-auto display-lead mb-2 text-center">Below you'll find Budiabse integrations that were either created by the core team or created by members of the community.
+      </p>
+    </div>
+  </div>
+  -->
+
+<div class="space-1 container-narrow feature-grid">
+  <section class="feature-nav">
+      <ul class="feature-nav-items">
+          <li>
+            <a href="">
+            <div class="flex-row align-center">
+              <div class="icon-container">
+                <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+                  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><ellipse class="fill" cx="9" cy="3.5" rx="8" ry="2.5" />
+                  <path class="fill" d="M9,12.1375c-2.468,0-7.106-.5845-8-2V14.5C1,15.8805,4.5815,17,9,17s8-1.1195,8-2.5V10.135C15.7765,11.6825,11.468,12.1375,9,12.1375Z" />
+                  <path class="fill" d="M9,7.1375c-2.468,0-7.106-.5845-8-2.0025V8.5C1,9.8805,4.5815,11,9,11s8-1.1195,8-2.5V5.135C15.7765,6.6825,11.468,7.1375,9,7.1375Z" />
+                </svg>
+            </div>
+              <p class="feature-nav-subitem">Database</p>
+            </div>
+            </a>
+          </li>
+          <li>
+            <a href="/platform/integrations/data">
+            <div class="flex-row align-center">
+              <div class="icon-container">
+                <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+                  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><rect class="fill" height="5.6" rx="0.5" width="4" x="1" y="6" />
+                  <rect class="fill" height="3" rx="0.5" width="3" x="14" y="2" />
+                  <rect class="fill" height="3" rx="0.5" width="3" x="14" y="7" />
+                  <rect class="fill" height="3" rx="0.5" width="3" x="14" y="12" />
+                  <path class="fill" d="M13,3.75v-.5A.25.25,0,0,0,12.75,3H9.25A.25.25,0,0,0,9,3.25V8H6.25A.25.25,0,0,0,6,8.25v.5A.25.25,0,0,0,6.25,9H9v4.75a.25.25,0,0,0,.25.25h3.5a.25.25,0,0,0,.25-.25v-.5a.25.25,0,0,0-.25-.25H10V9h2.75A.25.25,0,0,0,13,8.75v-.5A.25.25,0,0,0,12.75,8H10V4h2.75A.25.25,0,0,0,13,3.75Z" />
+                </svg>
+            </div>
+              <p class="feature-nav-subitem">Automation</p>
+            </div>
+          </a>   
+          </li> 
+          <li>
+            <a href="">
+            <div class="flex-row align-center">
+              <div class="icon-container">
+                <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+                  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><path class="fill" d="M7,12.5065a1.3685,1.3685,0,0,1,.9165-1.43,4.00559,4.00559,0,0,1,1.554-2.982A5.471,5.471,0,0,0,10.94,4.2265c0-2.6-1.378-4.05-3.4595-4.05s-3.5,1.509-3.5,4.05a5.56049,5.56049,0,0,0,1.311,3.433.72153.72153,0,0,1,.1835.465v1.037a.71551.71551,0,0,1-.625.722C.669,10.25.0155,13.1085.0155,14.237.0155,14.3625,0,15,0,15H7Z" />
+                  <path class="fill" d="M16.4935,12.0065l-.5.019v-.359A3.6025,3.6025,0,0,0,12.71,8.005a3.47,3.47,0,0,0-3.65148,3.27848q-.005.09318-.005.18652v.5555l-.547-.0195a.5.5,0,0,0-.506.494l0,.006V17.5a.5.5,0,0,0,.5.5H16.5a.5.5,0,0,0,.5-.5V12.5065a.5.5,0,0,0-.5-.5ZM10.441,11.47a2.082,2.082,0,0,1,4.164-.00187v.55737H10.441Zm2.776,4.241v.964a.347.347,0,0,1-.347.347h-.694a.347.347,0,0,1-.347-.347v-.964a1.04093,1.04093,0,1,1,1.388,0Z" />
+                </svg>            </div>
+              <p class="feature-nav-subitem">Auth 
+              </p>
+            </div>
+            </a>
+          </li>    
+          <li>
+            <a href="">
+            <div class="flex-row align-center">
+              <div class="icon-container">
+                <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+                  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><path class="fill" d="M5.5,5h11a.5.5,0,0,0,.5-.5v-3a.5.5,0,0,0-.5-.5H5.5a.5.5,0,0,0-.5.5V3H2V1.25A.25.25,0,0,0,1.75,1h-.5A.25.25,0,0,0,1,1.25v15.5a.25.25,0,0,0,.25.25h.5A.25.25,0,0,0,2,16.75V15H5v1.5a.5.5,0,0,0,.5.5h11a.5.5,0,0,0,.5-.5v-3a.5.5,0,0,0-.5-.5H5.5a.5.5,0,0,0-.5.5V14H2V10H5v.5a.5.5,0,0,0,.5.5h11a.5.5,0,0,0,.5-.5v-3a.5.5,0,0,0-.5-.5H5.5a.5.5,0,0,0-.5.5V9H2V4H5v.5A.5.5,0,0,0,5.5,5ZM6,14H8v1H6ZM6,8H8V9H6ZM6,2H8V3H6Z" />
+                </svg>            </div>
+              <p class="feature-nav-subitem">Deployment 
+              </p>
+            </div>
+            </a>
+          </li>    
+          <li class="mt-2">
+              <a href="" class="btn btn-cta btn-sm">Submit integration</a>
+          </li>                         
+        </ul>
+  </section>
+  <section class="feature-body">
+  <ul class="platform-card-grid">
+    {{ range .Pages.ByTitle}}
+
+    <li class="platform-card">
+      <a class="platform-card-inner" href="{{ .Params.docs_url }}" target="_blank">
+        <div data-area="icon"> 
+          {{ with .Resources.Match "*/logo*" }}
+          {{ range . }}
+          <img class="platform-card-icon" src="{{ .RelPermalink }}" />
+          {{ end }}
+          {{ end }}
+      </div>
+        <span data-area="name" class="platform-card-name">{{ .Params.page_title }}</span>
+        <span data-area="description"class="platform-card-description">{{ .Description }}</span>
+      </a>
+      {{ end }}
+    </li>
+  </ul>
+</div>
+
+{{ partial "cta.html" . }} {{ partial "footer.html" . }}

@@ -11,12 +11,17 @@ markup:
   goldmark:
     rendered:  
       hardWraps: "true"
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
 
 taxonomies:
   category: "categories"
   tag: "tags"
-  integrationcategory: "integrationcategories"
   featured: "featured"
+
+
 
 params:
   keywords: ["Low code platform", "Custom software", "Web application builder", "internal tools", "internal tool builder"]

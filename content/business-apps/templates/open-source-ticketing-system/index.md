@@ -14,6 +14,7 @@ preview: "/business-apps/templates/open-source-ticketing-system/images/preview.g
 datasource: Built-in database
 destination: https://budibase.app/builder?template=app/it-help-desk
 thumbnailColor: yellow
+icon: "/img/icon/app.svg"
 
 ---
 Internal IT teams are busier than ever, and with remote working becoming the new norm, triaging and solving coworker technical issues is getting harder. This leads to overworked IT support teams and unproductive employees. At Budibase, we’re all about empowering employees to do their best work, so we’ve created this modern IT ticketing system template. And, to make life easier, it’s free and you can self-host the template alongside Budibase.

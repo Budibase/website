@@ -4,7 +4,7 @@ date = 2022-03-23T00:00:00Z
 description = "Our maintenance schedule template offers a convenient platform for planning and managing regular equipment servicing. Cut admin costs with Budibase."
 destination = "https://budibase.app/builder?template=app/maintenance-schedule-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1648028522/cms/Maintenanec_Schedule_App_Screenshot_1_tqorpf.png"]
-label = "Maintenance Schedule Template"
+label = "Maintenance Schedule"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1648028545/cms/Maintenance_Schedule_App_Gif_zlprry.gif"
 summary = "Use our maintenance schedule template to plan regular servicing."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1648031915/cms/M
 thumbnailColor = "indigo"
 title = "Maintenance Schedule Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 All kinds of businesses use preventative maintenance schedules. Different kinds of equipment, including tools, vehicles, and digital devices, require regular servicing to work correctly.

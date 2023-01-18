@@ -4,7 +4,7 @@ date = 2022-03-22T00:00:00Z
 description = "Our near-miss register template is a fast and effective way to record workplace incidents that may lead to injury or loss of life."
 destination = "https://budibase.app/builder?template=app/near-miss-register"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647961590/cms/Near_Miss_Register_Template_1_or3dg1.png"]
-label = "Near-Miss Register Template"
+label = "Near-Miss Register"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1647961667/cms/Near_Miss_Register_Thumbnail_juboii.gif"
 summary = "Use our near miss register template to record workplace incidents that may lead to injury or loss of life."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1647961657/cms/N
 thumbnailColor = "magenta"
 title = "Near-Miss Register Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 Most businesses record incidents when someone gets hurt or property gets damaged. The goal here is to learn lessons and prevent similar incidents from occurring in the future. Sometimes employees come away from incidents unscathed. Your business can learn just as much here.

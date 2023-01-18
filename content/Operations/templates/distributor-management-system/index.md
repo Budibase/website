@@ -4,7 +4,7 @@ date = 2022-03-22T00:00:00Z
 description = " Our distributor management system template provides a simple and effective platform for maintaining long-lasting and profitable distributor relationships."
 destination = "https://budibase.app/builder?template=app/distributor-management-system"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647967563/cms/Distributor_Management_System_Screenshot_4_f67k7b.png"]
-label = "Distributor Management System"
+label = "Distributor Management"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1647967633/cms/Distributor_Management_System_Gif_hwmbao.gif"
 summary = "Our distributor management system template is the ideal platform for maintaining profitable relationships."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1647967618/cms/D
 thumbnailColor = "yellow"
 title = "Distributor Management System Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 In large organizations, it’s incredibly difficult to maintain oversight of distributors. On the one hand, this can lead to poor logistics outcomes. In turn, this can undermine long-term profitability and distributor relationships.

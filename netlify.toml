@@ -134,3 +134,15 @@ HUGO_ENABLEGITINFO = "true"
   to = "/pricing"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/integration"
+  to = "/integrations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/integration/*"
+  to = "/integrations"
+  status = 301
+  force = true

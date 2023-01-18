@@ -1,0 +1,212 @@
+{{ partial "header.html" . }} {{ partial "navigation-test.html" . }}
+
+
+<!-- Hero Section -->
+<div class="space-2-top">
+    <div class="container">
+      <h1 class="hero-title mb-3 mb-4 text-center ">
+        Features
+      </h1>
+      <div class="w-80 w-lg-50 mx-auto">
+        <p class="mx-auto display-lead mb-2 text-center"> Budibase is everything you need to share data, build tools, and automate processes, securely.
+        </p>
+      </div>
+    </div>
+  
+  
+    {{ partial "platform/subnav.html" }}
+
+  </div>
+
+  <div class="space-1 container-narrow feature-grid">
+    <section class="feature-nav">
+        <ul class="feature-nav-items">
+            <li>
+              <a href="/platform/features/data">
+                <p class="feature-nav-item">Data</p>
+              </a>
+            </li>
+            <li>
+                <a href="/platform/features/data/#connect">
+                  <div class="flex-row align-center">
+                    <div class="icon-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+                            <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><path class="fill" d="M15.16376,10.00235a2.49376,2.49376,0,0,0-3.03656,1.66432H5V9.46757a.25.25,0,0,0-.41459-.18813L1.215,12.2285a.25.25,0,0,0,0,.37629l3.37034,2.94906A.25.25,0,0,0,5,15.3657v-2.199h7.1272a2.4965,2.4965,0,1,0,3.03656-3.16432ZM2.83592,6.83089A2.49379,2.49379,0,0,0,5.87281,5.16667H13V7.36574a.25.25,0,0,0,.41461.18813L16.785,4.60481a.25.25,0,0,0,0-.37629L13.41461,1.27946A.25.25,0,0,0,13,1.4676V3.66667H5.87281A2.4965,2.4965,0,1,0,2.83592,6.83089Z" />
+                          </svg>
+                  </div>
+                    <p class="feature-nav-subitem">Connect</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/platform/features/data/#collaborate">
+                    <div class="flex-row align-center">
+                    <div class="icon-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+                            <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><path class="fill" d="M12.262,16.984a.293.293,0,0,0,.126-.0755L17.75,11.497a.41753.41753,0,0,0,.123-.2685.369.369,0,0,0-.1065-.2885l-1.703-1.75A.366.366,0,0,0,15.8,9.0825h-.011a.41852.41852,0,0,0-.2825.1235L10.095,14.6145a.30615.30615,0,0,0-.0765.128l-.964,2.95c-.0345.1145.14.2585.238.2585a.12289.12289,0,0,0,.018,0C9.3955,17.929,11.823,17.116,12.262,16.984ZM10.5795,14.99l1.435,1.432c-.657.1975-1.6475.6145-2.2155.784Z" />
+                            <path class="fill" d="M4.8525,9.9045C.669,10.2685.016,13.1295.016,14.2575c0,.1255.0145,1.619.024,1.7425H8.1835l.509-1.508a1.6264,1.6264,0,0,1,.412-.67l3.3065-3.306a6.8448,6.8448,0,0,0-2.283-.6075.7185.7185,0,0,1-.622-.7215V8.1455a.722.722,0,0,1,.183-.465,5.5,5.5,0,0,0,1.25-3.433c0-2.6-1.378-4.05-3.4595-4.05s-3.5,1.509-3.5,4.05a5.562,5.562,0,0,0,1.311,3.433.7205.7205,0,0,1,.184.465v1.037A.716.716,0,0,1,4.8525,9.9045Z" />
+                            <path class="fill" d="M13.2785,7.175a6.07645,6.07645,0,0,0,.934-3.2C14.2125,1.7965,12.928.2,10.987.2c-.116,0-.222.021-.334.031a5.465,5.465,0,0,1,1.4875,4.0185,6.73148,6.73148,0,0,1-1.4345,4.086v.438A7.47211,7.47211,0,0,1,13.3,9.626l.7775-.776c-.128-.023-.2545-.05-.3905-.062a.671.671,0,0,1-.58-.673V7.608A.764.764,0,0,1,13.2785,7.175Z" />
+                          </svg>
+                  </div>
+                    <p class="feature-nav-subitem">Collaborate</p>
+                  </div>
+                </a>
+              </li>  
+            <li>
+              <a href="/platform/features/design">
+                <p class="feature-nav-item">Design</p>
+              </a>
+            </li>            
+            <li>
+              <a href="/platform/features/automate">
+                <p class="feature-nav-item">Automate</p>
+              </a>
+            </li>            
+            <li>
+                <a href="/platform/features/scale">
+                    <p class="feature-nav-item">Scale</p>
+                  </a>
+            </li>            
+            <li>
+              <a href="/platform/features/deploy">
+                <p class="feature-nav-item">Deploy</p>
+              </a>
+            </li>        
+          </ul>
+    </section>
+
+    <section class="feature-body">
+      <div class="feature-heading">
+        <p class="detail-lg text-blue mb-6">
+          Data
+        </p>
+        <h2 class="mb-3">{{.Title}}</h2>
+        <p class="lead-lg">{{ .Description }}</p>
+      </div>
+      <hr class="my-9" id="connect"/>
+      <div class="feature-content-wrapper">
+        <h3 class="h2">Connect</h3>
+        <div>
+            <h4 class="h3 mb-3">Bring all your data together</h4>
+            <p class="lead-lg mb-4">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+                you covered. Securely connect to over 30 data sources (from Google Sheets to 
+                PostgreSQL) and sync your data to Budibase.</p>
+                <div class="rounded-lg mb-6">
+                    <lottie-player src="/lottie/fetch-tables.json" background="rgba(249, 245, 241, 1)"  speed="1"  loop autoplay></lottie-player>
+                  </div>            
+            
+            <h5 class="h4 mb-2">SQL Sync</h5>
+            <p class="lead mb-6">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+            you covered. Securely connect to over 30 data sources (from Google Sheets to 
+            PostgreSQL) and sync your data to Budibase.</p>
+
+            <h5 class="h4 mb-2">SQL Sync</h5>
+            <p class="lead mb-6">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+            you covered. Securely connect to over 30 data sources (from Google Sheets to 
+            PostgreSQL) and sync your data to Budibase.</p>
+
+            <h5 class="h4 mb-2">SQL Sync</h5>
+            <p class="lead mb-6">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+            you covered. Securely connect to over 30 data sources (from Google Sheets to 
+            PostgreSQL) and sync your data to Budibase.</p>
+        </div>
+      </div>
+      <hr class="my-9" id="collaborate"/>
+      <div class="feature-content-wrapper">
+        <h3 class="h2">Collaborate</h3>
+        <div>
+            <h4 class="h3 mb-3">Bring all your data together</h4>
+            <p class="lead-lg mb-4">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+                you covered. Securely connect to over 30 data sources (from Google Sheets to 
+                PostgreSQL) and sync your data to Budibase.</p>
+            <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1673877358/wallpapers/sean-sinclair-C_NJKfnTR5A-unsplash_v5apnf.jpg" class="img-fluid rounded-lg feature-image mb-6" />
+            
+            
+            <h5 class="h4 mb-2">SQL Sync</h5>
+            <p class="lead mb-6">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+            you covered. Securely connect to over 30 data sources (from Google Sheets to 
+            PostgreSQL) and sync your data to Budibase.</p>
+
+            <h5 class="h4 mb-2">SQL Sync</h5>
+            <p class="lead mb-6">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+            you covered. Securely connect to over 30 data sources (from Google Sheets to 
+            PostgreSQL) and sync your data to Budibase.</p>
+
+            <h5 class="h4 mb-2">SQL Sync</h5>
+            <p class="lead mb-6">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+            you covered. Securely connect to over 30 data sources (from Google Sheets to 
+            PostgreSQL) and sync your data to Budibase.</p>
+        </div>
+      </div>
+    </section>
+    <section class="feature-body">
+        <div class="feature-heading">
+          <p class="detail-lg text-blue mb-6">
+            Design
+          </p>
+          <h2 class="mb-3">{{.Title}}</h2>
+          <p class="lead-lg">{{ .Description }}</p>
+        </div>
+        <hr id="buildtools" class="my-9" />
+        <div class="feature-content-wrapper">
+          <h3 class="h2">Build tools</h3>
+          <div>
+              <h4 class="h3 mb-3">Bring all your data together</h4>
+              <p class="lead-lg mb-4">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+                  you covered. Securely connect to over 30 data sources (from Google Sheets to 
+                  PostgreSQL) and sync your data to Budibase.</p>
+                  <div class="rounded-lg mb-6">
+                    <lottie-player src="/lottie/screens.json" background="rgba(249, 245, 241, 1)"  speed="1"  loop autoplay></lottie-player>
+                  </div>        
+              
+              <h5 class="h4 mb-2">SQL Sync</h5>
+              <p class="lead mb-6">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+              you covered. Securely connect to over 30 data sources (from Google Sheets to 
+              PostgreSQL) and sync your data to Budibase.</p>
+  
+              <h5 class="h4 mb-2">SQL Sync</h5>
+              <p class="lead mb-6">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+              you covered. Securely connect to over 30 data sources (from Google Sheets to 
+              PostgreSQL) and sync your data to Budibase.</p>
+  
+              <h5 class="h4 mb-2">SQL Sync</h5>
+              <p class="lead mb-6">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+              you covered. Securely connect to over 30 data sources (from Google Sheets to 
+              PostgreSQL) and sync your data to Budibase.</p>
+          </div>
+        </div>
+        <hr id="collectdata" class="my-9" />
+        <div class="feature-content-wrapper">
+          <h3 class="h2">Collect data</h3>
+          <div>
+              <h4 class="h3 mb-3">Bring all your data together</h4>
+              <p class="lead-lg mb-4">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+                  you covered. Securely connect to over 30 data sources (from Google Sheets to 
+                  PostgreSQL) and sync your data to Budibase.</p>
+              <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1673877358/wallpapers/sean-sinclair-C_NJKfnTR5A-unsplash_v5apnf.jpg" class="img-fluid rounded-lg feature-image mb-6" />
+              
+              
+              <h5 class="h4 mb-2">SQL Sync</h5>
+              <p class="lead mb-6">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+              you covered. Securely connect to over 30 data sources (from Google Sheets to 
+              PostgreSQL) and sync your data to Budibase.</p>
+  
+              <h5 class="h4 mb-2">SQL Sync</h5>
+              <p class="lead mb-6">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+              you covered. Securely connect to over 30 data sources (from Google Sheets to 
+              PostgreSQL) and sync your data to Budibase.</p>
+  
+              <h5 class="h4 mb-2">SQL Sync</h5>
+              <p class="lead mb-6">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+              you covered. Securely connect to over 30 data sources (from Google Sheets to 
+              PostgreSQL) and sync your data to Budibase.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+
+{{ partial "cta.html" . }}
+{{ partial "footer.html" . }}

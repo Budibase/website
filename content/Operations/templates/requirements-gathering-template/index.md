@@ -4,7 +4,7 @@ date = 2022-03-22T00:00:00Z
 description = "Our requirements gathering template simplifies the process of creating specifications for new projects. Cut costs and improve outcomes with Budibase."
 destination = "https://budibase.app/builder?template=app/requirements-gathering-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647968725/cms/Facility_Management_App_2_zizhqi.png"]
-label = "Requirements Gathering Template"
+label = "Requirements Gathering"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1647968774/cms/Requirements_Gathering_App_Gif_htg2am.gif"
 summary = "Our requirements gathering template simplifies the process of creating specifications and documentation for new projects."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1647968754/cms/R
 thumbnailColor = "teal"
 title = "Requirements Gathering Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/form.svg"
 
 +++
 Detailed requirements are crucial for any project. Well-documented requirements ensure that projects are delivered on time, and to specification. In turn, this improves efficiency, cost-effectiveness, outcomes, and client satisfaction.

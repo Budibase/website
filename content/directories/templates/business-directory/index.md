@@ -4,7 +4,7 @@ date = 2022-03-22T00:00:00Z
 description = "Use our free business directory template to manage data and share information with customers, website users, internal teams, and more."
 destination = "https://budibase.app/builder?template=app/business-directory"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647946800/cms/Business_Directory_Template_1_wkmu3i.png"]
-label = "Business Directory Template"
+label = "Business Directory"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1647946983/cms/Business_Directory_GIF_dtnzyr.gif"
 summary = "Share information with customers, website users, internal teams, and more."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1647946971/cms/B
 thumbnailColor = "yellow"
 title = "Business Directory Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 Gathering, managing, and distributing company data can be an expensive task. On the one hand, there’s the actual cost of administration. On the other, there are hidden costs, like security risks, unnecessary communications, and avoidable mistakes.

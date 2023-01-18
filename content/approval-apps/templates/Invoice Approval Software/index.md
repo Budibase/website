@@ -4,7 +4,8 @@ date = 2022-01-18T00:00:00Z
 description = "Our invoice approval software template is a simple and secure platform to receive, manage, and approve payments. Start using Budibase today for free."
 destination = "https://budibase.app/builder?template=app/invoice-approval-software"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642419863/cms/Invoice_Approval_Software_Screenshot_1_bhlhne.png"]
-label = "Invoice Approval Software Template"
+label = "Invoice Approval"
+icon = "/img/icon/approval.svg"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642419884/cms/Invoice_Approval_Software_GIF_elphj4.gif"
 summary = "Our invoice approval software template offers a simple and secure platform to receive, manage, and approve business payments."

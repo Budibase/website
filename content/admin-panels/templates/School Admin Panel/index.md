@@ -4,8 +4,9 @@ date = 2022-01-19T00:00:00Z
 description = "Use our free school admin panel template to maximize efficiency and oversight over student behavior, finances, and more."
 destination = "https://budibase.app/builder?template=app/school-admin-panel"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642427781/cms/School_Admin_Panel_Template_1_a5fefk.png"]
-label = "School Admin Panel Template"
+label = "School Admin Panel"
 layout = "single"
+icon = "/img/icon/app.svg"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642427805/cms/School_Admin_Panel_Template_GIF_rbz7ti.gif"
 summary = "Our school admin panel template is designed to give maximum oversight over student behavior and school finances."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642587505/cms/School_admin_panel_thumbnail_new_vju5nx.png"

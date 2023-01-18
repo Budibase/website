@@ -4,7 +4,7 @@ date = 2022-01-19T00:00:00Z
 description = "Gather customer payment details with our free recurring credit card authorization form template."
 destination = "https://budibase.app/builder?template=app/recurring-credit-card-authorization-form"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639403775/cms/Recurring_credit_card_authorization_form_1_qouvms.png"]
-label = "Recurring Credit Card Authorization Form Template"
+label = "Credit Card Authorization Form"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639405159/cms/Recurring_credit_card_authorization_form_gif_giwkgc.gif"
 summary = "Gather customer payment details with our recurring credit card authorization form."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502299/cms/R
 thumbnailColor = "green-pastel "
 title = "Recurring Credit Card Authorization Form Template"
 type = "templates"
+icon = "/img/icon/form.svg"
 
 +++
 Managing recurring payments presents several challenges. On the one hand, there’s the need to store customers’ data securely. On the other, it’s critical to offer an effective customer experience, to maximize conversions.

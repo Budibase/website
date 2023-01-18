@@ -4,7 +4,7 @@ date = 2022-03-22T00:00:00Z
 description = "Our peer feedback template is designed to maximize efficiency, consistency, and oversight when assessing your employees’ performance. Use Budibase for free."
 destination = "https://budibase.app/builder?template=app/peer-feedback-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647959748/cms/Peer_feedback_template_1_iyzf4e.png"]
-label = "Peer Feedback Template"
+label = "Peer Feedback"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1647959786/cms/Peer_Feedback_Templaet_GIF_brcpxg.gif"
 summary = "Our peer feedback template is designed to maximize efficiency, consistency, and oversight."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1647959776/cms/P
 thumbnailColor = "red"
 title = "Peer Feedback Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 Employees are often the best judges of their colleagues’ performance. Peer feedback is used to gain an accurate picture of each employee’s output, as well as providing an opportunity for colleagues to comment on each other's work, outside of regular review processes.

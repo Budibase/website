@@ -4,7 +4,7 @@ date = 2022-03-01T00:00:00Z
 description = "Our remote fleet management system is built to simplify operations, provide oversight, and maximize profitability. Use Budibase today for free."
 destination = "https://budibase.app/builder?template=app/remote-fleet-management-system"
 images = []
-label = "Remote Fleet Management System Template"
+label = "Fleet Management"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646150765/cms/Remote_Fleet_Management_Template_GIF_adapu6.gif"
 summary = "Our remote fleet management system is built to simplify operations, provide oversight, and maximize profitability."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1646150559/cms/R
 thumbnailColor = "blue"
 title = "Remote Fleet Management System | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 In the logistics industry, your vehicles are your most valuable asset. Our template ensures that they deliver maximum value.
