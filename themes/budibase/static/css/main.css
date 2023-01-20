@@ -3105,11 +3105,14 @@ details[open] > summary {
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: var(--hiContrast);
-  color: white;
+  background-color: var(--gray300);
+  color: var(--hiContrast);
+  border: 1px solid var(--gray300);
 }
 
-
+.anchor {
+  margin-top: 70px;
+}
 /* Style the tab content */
 .tabcontent {
   display: none;
