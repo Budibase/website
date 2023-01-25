@@ -167,6 +167,25 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+.mobile-nav {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+.desktop-nav {
+  display: none;
+}
+
+@media (min-width: 600px){
+  .desktop-nav {
+    display: block;
+  }
+}
 
 
 .mobile-nav-wrapper {
@@ -177,12 +196,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 @media (min-width: 600px) {
   .mobile-nav-wrapper {
     display: none;
-  }
-}
-
-@media (max-width: 600px) {
-  .tablet-nav {
-  display: none;
   }
 }
 
@@ -2420,7 +2433,7 @@ details[open] > summary {
 .trusted-by-logos-grid {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 8px;
   flex-wrap: wrap;
   padding: 0 12px;
 }
@@ -2488,7 +2501,7 @@ details[open] > summary {
   filter: brightness(0) invert(1);
 }
 .trusted-by-logo {
-  width: 100px;
+  width: clamp(60px, 2.5vw, 120px);
   margin: 8px;
   text-align: center;
 }
