@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-{{ partial "navigation-test.html" . }}
+{{ partial "navigation.html" . }}
 <div class="bg-gradient-green">
   <div class="container space-2-top">
     <h1 class="hero-title mb-3 mb-4 text-center">Templates</h1>
@@ -100,7 +100,7 @@
             <img class="template-icon" src="{{ .Params.Icon }}" />
         </div>
           <span data-area="name" class="platform-card-name">{{ .Params.label }}</span>
-          <span data-area="description"class="platform-card-description">{{ .Description }}</span>
+          <span data-area="description" class="platform-card-description">{{ .Description }}</span>
         </a>
         {{ end }}
       </li>
