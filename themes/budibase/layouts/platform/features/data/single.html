@@ -1,20 +1,9 @@
-{{ partial "header.html" . }} {{ partial "navigation-test.html" . }}
+{{ partial "header.html" . }} 
+{{ partial "navigation-test.html" . }}
+<div class="bg-gradient-blue">
 
+{{ partial "platform/subnav.html" }}
 
-<!-- 
-<div class="space-2-top">
-    <div class="container">
-      <h1 class="hero-title mb-3 mb-4 text-center ">
-        Features
-      </h1>
-      <div class="w-80 w-lg-50 mx-auto">
-        <p class="mx-auto display-lead mb-2 text-center"> Budibase is everything you need to share data, build tools, and automate processes, securely.
-        </p>
-      </div>
-    </div>
-  -->
-    {{ partial "platform/subnav.html" }}
-  <div id="data">
   <div class="space-1 container-narrow feature-grid">
     <section class="feature-nav">
         <ul class="feature-nav-items">
@@ -39,11 +28,12 @@
                 <a href="/platform/features/data/#collaborate">
                     <div class="flex-row align-center">
                     <div class="icon-container">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
-                            <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><path class="fill" d="M12.262,16.984a.293.293,0,0,0,.126-.0755L17.75,11.497a.41753.41753,0,0,0,.123-.2685.369.369,0,0,0-.1065-.2885l-1.703-1.75A.366.366,0,0,0,15.8,9.0825h-.011a.41852.41852,0,0,0-.2825.1235L10.095,14.6145a.30615.30615,0,0,0-.0765.128l-.964,2.95c-.0345.1145.14.2585.238.2585a.12289.12289,0,0,0,.018,0C9.3955,17.929,11.823,17.116,12.262,16.984ZM10.5795,14.99l1.435,1.432c-.657.1975-1.6475.6145-2.2155.784Z" />
-                            <path class="fill" d="M4.8525,9.9045C.669,10.2685.016,13.1295.016,14.2575c0,.1255.0145,1.619.024,1.7425H8.1835l.509-1.508a1.6264,1.6264,0,0,1,.412-.67l3.3065-3.306a6.8448,6.8448,0,0,0-2.283-.6075.7185.7185,0,0,1-.622-.7215V8.1455a.722.722,0,0,1,.183-.465,5.5,5.5,0,0,0,1.25-3.433c0-2.6-1.378-4.05-3.4595-4.05s-3.5,1.509-3.5,4.05a5.562,5.562,0,0,0,1.311,3.433.7205.7205,0,0,1,.184.465v1.037A.716.716,0,0,1,4.8525,9.9045Z" />
-                            <path class="fill" d="M13.2785,7.175a6.07645,6.07645,0,0,0,.934-3.2C14.2125,1.7965,12.928.2,10.987.2c-.116,0-.222.021-.334.031a5.465,5.465,0,0,1,1.4875,4.0185,6.73148,6.73148,0,0,1-1.4345,4.086v.438A7.47211,7.47211,0,0,1,13.3,9.626l.7775-.776c-.128-.023-.2545-.05-.3905-.062a.671.671,0,0,1-.58-.673V7.608A.764.764,0,0,1,13.2785,7.175Z" />
-                          </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+                        <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><ellipse class="fill" cx="9" cy="3.5" rx="8" ry="2.5" />
+                        <path class="fill" d="M7.35,13.5a6.15024,6.15024,0,0,1,.171-1.42C5.01,11.904,1.7365,11.3025,1,10.135V14.5c0,1.3215,3.284,2.4,7.4395,2.491A6.11748,6.11748,0,0,1,7.35,13.5Z" />
+                        <path class="fill" d="M13.5,7.35A6.118,6.118,0,0,1,17,8.4465V5.135c-1.2235,1.5475-5.532,2-8,2s-7.106-.5845-8-2V8.5c0,1.2635,3,2.305,6.897,2.4735A6.14649,6.14649,0,0,1,13.5,7.35Z" />
+                        <path class="fill" d="M13.5,9.05a4.45,4.45,0,1,0,4.45,4.45A4.45,4.45,0,0,0,13.5,9.05Zm-1.169,7.156-2.064-2.0635a.25.25,0,0,1,0-.3535l.518-.518a.25.25,0,0,1,.3535,0l1.3655,1.3655,3.053-3.053a.25.25,0,0,1,.3535,0l.5215.5215a.25.25,0,0,1,0,.3535l-3.75,3.75A.25.25,0,0,1,12.331,16.206Z" />
+                      </svg>
                   </div>
                     <p class="feature-nav-subitem">Built-in database</p>
                   </div>
@@ -55,12 +45,12 @@
               </a>
             </li>            
             <li>
-              <a href="/platform/features/automate#automate">
+              <a href="/platform/features/automate">
                 <p class="feature-nav-item">Automate</p>
               </a>
             </li>            
             <li>
-                <a href="/platform/features/admin#admin">
+                <a href="/platform/features/admin">
                     <p class="feature-nav-item">Admin</p>
                   </a>
             </li>                   
@@ -72,7 +62,7 @@
         <p class="detail-lg text-blue mb-4">
           Data
         </p>
-        <h2 class="mb-3">{{.Title}}</h2>
+        <h2 class="mb-3 h1">{{.Title}}</h2>
         <p class="lead-lg">{{ .Description }}</p>
       </div>
       <hr class="my-9" id="connect"/>

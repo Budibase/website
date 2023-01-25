@@ -1,6 +1,7 @@
 {{ partial "header.html" . }} 
 
 {{ partial "navigation-test.html" . }}
+<div class="bg-gradient-blue">
 
 {{ partial "platform/subnav.html" }}
 
@@ -51,8 +52,8 @@
               </a>
             </li>            
             <li>
-              <a href="/platform/features/scale">
-                <p class="feature-nav-item">Scale</p>
+              <a href="/platform/features/admin">
+                <p class="feature-nav-item">Admin</p>
               </a>
             </li>                  
           </ul>
@@ -63,7 +64,7 @@
         <p class="detail-lg text-blue mb-4">
           Design
         </p>
-        <h2 class="mb-3">{{.Title}}</h2>
+        <h2 class="mb-3 h1">{{.Title}}</h2>
         <p class="lead-lg">{{ .Description }}</p>
       </div>
       <hr id="buildtools" class="my-9" />

@@ -1,10 +1,11 @@
 {{ partial "header.html" . }} 
 
 {{ partial "navigation-test.html" . }}
+<div class="bg-gradient-blue">
 
  {{ partial "platform/subnav.html" }}
 
-  <div class="space-2 container-narrow feature-grid" id="automate" >
+  <div class="space-1 container-narrow feature-grid">
     <section class="feature-nav">
         <ul class="feature-nav-items">
             <li>
@@ -49,7 +50,7 @@
               </a>
             </li>             
             <li>
-              <a href="/platform/features/admin/#admin">
+              <a href="/platform/features/admin">
                 <p class="feature-nav-item">Admin</p>
               </a>
             </li>                  
@@ -61,7 +62,7 @@
         <p class="detail-lg feature-tag text-blue mb-4" >
           Automate
         </p>
-        <h2 class="mb-3">{{.Title}}</h2>
+        <h2 class="mb-3 h1">{{.Title}}</h2>
         <p class="lead-lg">{{ .Description }}</p>
       </div>
       <hr class="my-9" id="automateprocesses" />

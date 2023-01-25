@@ -1,7 +1,7 @@
 ---
 title: Why Covanta uses Budibase
 description: Covanta expects to make $3.2MM in savings
-type: customers
+type: enterprise/customers
 layout: single
 date: "2021-10-23"
 images:

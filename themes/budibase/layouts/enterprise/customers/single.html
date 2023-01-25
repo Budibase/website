@@ -1,41 +1,75 @@
 {{ partial "header.html" . }}
 
-{{ partial "navigation-test.html" . }}
+{{ partial "navigation-enterprise.html" . }}
 
-
-
-<div class="space-2-top">
-  <div class="container">
-    <h1 class="hero-title mb-3 mb-4 text-center ">
-      Meet our customers
-    </h1>
-    <div class="w-80 w-lg-50 mx-auto">
-      <p class="mx-auto display-lead mb-2 text-center"> Budibase enables companies of all sizes to transform their
-        operations and save time, effort and money.
-      </p>
+<div class="bg-gradient-gray">
+    <div class="container-12 space-2-top">
+        <h1 class="hero-title mb-3 mb-4 text-center ">
+        Customers
+        </h1>
+        <div class="w-80 w-lg-60 mx-auto">
+            <p class="mx-auto display-lead mb-2 text-center">We’re here to help enterprises drive transformation at scale</p>
+        </div>
     </div>
-  </div>
-
-
-  <div class="py-4">
-    <div class="container-9 space-1-bottom">
-      <div class="flex-row-center gap-md">
-        <a href="/customers/covanta" class="btn btn-outline btn-lg">
-          Covanta
-        </a>
-        <a href="/customers/schnellecke" class="btn btn-outline btn-lg">
-          Schnellecke
-        </a>
-        <a href="/customers/bulgarian-government" class="btn btn-outline btn-lg">
-          Bulgarian Gov
-        </a>
-      </div>
+</div>
+<div class="container-9 space-1-bottom py-4">
+    <div class="platform-subnav gap-md btn-tabs">
+    <a href="/enterprise">            
+        <button id="btn" type="button" class="btn btn-outline btn-lg">Overview</button>
+    </a>
+    <a href="/customers/covanta">
+    <button id="btn" type="button" class="btn btn-active btn-lg">Customers</button>
+    </a>
+    <a href="/contact">
+        <button id="btn" type="button" class="btn btn-outline btn-lg">Contact us</button>
+    </a>
     </div>
-  </div>
 </div>
 
-<main id="content" role="main">
-  <div class="space-2-bottom container-12">
+<div class="space-1 container-narrow feature-grid">
+  <section class="feature-nav">
+      <ul class="feature-nav-items">
+        <p class="detail-sm font-weight-semi-bold opacity-50">Customers</p>
+          <li>
+            <a href="/customers/covanta">
+            <div class="flex-row align-center">
+              <div class="icon-container">
+                <img src="/customers/covanta/images/logo.svg">
+            </div>
+              <p class="feature-nav-subitem">Covanta</p>
+            </div>
+            </a>
+          </li>
+          <li>
+            <a href="/customers/schnellecke">
+              <div class="flex-row align-center">
+              <div class="icon-container">
+                <img src="/customers/schnellecke/images/logo.svg">
+            </div>
+              <p class="feature-nav-subitem">Schnellecke</p>
+            </div>
+          </a>   
+          </li> 
+          <li>
+            <a href="/customers/bulgarian-government">
+              <div class="flex-row align-center">
+              <div class="icon-container">
+                <img src="/customers/bulgarian-government/images/logo.svg">         
+              </div>
+              <p class="feature-nav-subitem">Bulgarian Gov 
+              </p>
+            </div>
+            </a>
+          </li> 
+          <li>
+            <a href="/contact"><button type="submit" class="mt-2 btn btn-primary btn-sm">
+              Contact sales
+            </button></a>
+          </li>                           
+        </ul>
+  </section>
+  <section class="feature-body">
+  <div class="space-2-bottom">
     <hr class="mb-9">
     <section class="customers-intro-wrapper">
       {{ with .Resources.Match "*/logo*" }}
@@ -45,7 +79,8 @@
       {{ end }}
       <div>
         <h1>{{ .Params.Customer }}</h1>
-        <p class="mt-1 lead">{{ .Description }}</p>
+        <p class="mt-1 lead">
+          {{ .Description }}</p>
         <div class="flex-row mt-2 gap-lg">
           <div class="flex-row align-center">
             <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
@@ -80,15 +115,8 @@
           </div>
         </div>
       </div>
-      <div class="ml-auto">
-        <a href="/contact" target="_blank"><button type="submit" class="btn btn-primary btn-lg">
-            Contact us
-          </button></a>
-      </div>
     </section>
-    <hr class="mt-9">
     <section class="mt-9 container-7 customer-content article">
-      <h2 class="mb-6">{{ .Description }}</h2>
       {{ with .Resources.Match "*/cover*" }}
       {{ range . }}
       <img src="{{ .RelPermalink }}" class="w-100 rounded mb-4" />
@@ -98,10 +126,13 @@
       <p> {{.Params.Author }}<br><span class="opacity-50">{{.Params.Position }}</span></p>
     </section>
 </main>
-
+</section>
+</div>
 <!--Article-->
 
-{{ partial "cta.html" . }} {{ partial "footer.html" . }}
+{{ partial "cta.html" . }} 
+
+{{ partial "footer.html" . }}
 
 
 <!-- JS -->

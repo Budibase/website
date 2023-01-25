@@ -1,6 +1,6 @@
 ---
 title: Free templates Budibase
-description: Browse through our professionally designed selection of free templates and build a custom application for your business in minutes.
+description: Grab a headstart with one of our free templates.
 type: global-templates
 date: "2021-10-23"
 images:

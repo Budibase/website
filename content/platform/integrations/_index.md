@@ -1,6 +1,6 @@
 ---
 title: "Budibase Integrations - Connect your favorite tools to Budibase"
-description: "The Budibase marketplace is a place where the Budibase community can share templates, plugins and other interesting work which other community members can avail of and benefit from."
+description: "Build the tools you need with the tools you love."
 type: platform/integrations
 layout: list
 date: 2020-11-01

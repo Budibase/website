@@ -5,8 +5,7 @@ description: Budibase's API integration platform helps you integrate with your A
 draft: "false"
 type: platform/changelog
 layout: single
-images:
-- /img/meta-images/api-integration-platform.png 
+image: "/v1655737779/ui/App_management_cswiex.png"
 ---
 
 hello 

@@ -1,10 +1,11 @@
 {{ partial "header.html" . }} 
 
 {{ partial "navigation-test.html" . }}
+<div class="bg-gradient-blue">
 
  {{ partial "platform/subnav.html" }}
 
-  <div class="space-2 container-narrow feature-grid" id="admin">
+  <div class="space-1 container-narrow feature-grid" id="admin">
     <section class="feature-nav">
         <ul class="feature-nav-items">
             <li>
@@ -18,17 +19,17 @@
               </a>
             </li>            
             <li>
-              <a href="/platform/features/automate/#automate">
+              <a href="/platform/features/automate">
                 <p class="feature-nav-item">Automate</p>
               </a>
             </li>            
             <li>
-              <a href="/platform/features/admin/#admin">
+              <a href="/platform/features/admin">
                 <p class="feature-nav-item">Admin</p>
               </a>
             </li>
             <li>
-                <a href="#scale">
+                <a href="/platform/features/admin#scale">
                   <div class="flex-row align-center">
                     <div class="icon-container">
                       <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
@@ -43,7 +44,7 @@
                 </a>
               </li>
               <li>
-                <a href="#security">
+                <a href="/platform/features/admin/#security">
                     <div class="flex-row align-center">
                     <div class="icon-container">
                       <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
@@ -73,7 +74,7 @@
             <p class="lead-lg mb-4">Managing and scaling Budibase throughout your organization is a breeze. To make your experience even better, features such as SSO, user onboarding, and RBAC are free. We want you to feel confident when you begin your journey with Budibase.</p>
                 <div class="rounded-lg mb-6">
                     <lottie-player src="/lottie/fetch-tables.json" background="rgba(249, 245, 241, 1)"  speed="1"  loop autoplay></lottie-player>
-                  </div>            
+                </div>            
             
             <h5 class="h4 mb-2">Role-based access control</h5>
             <p class="lead mb-6">Configure what users can and cannot access any given app. If a user is given access to an app, you can then assign them a role within that app. What a role and cannot do, can also be configured by you too - providing both flexibility and control.</p>

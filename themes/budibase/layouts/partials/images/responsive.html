@@ -1,0 +1,10 @@
+<img 
+    srcset="
+    {{ $.Site.Params.cloudinary_base_url }}/w_500{{ .Params.image }} 500w,
+    {{ $.Site.Params.cloudinary_base_url }}/w_710{{ .Params.image }} 710w,
+    {{ $.Site.Params.cloudinary_base_url }}/w_1000{{ .Params.image }} 1000w,
+    {{ $.Site.Params.cloudinary_base_url }}/w_1420{{ .Params.image }} 1420w"
+    src="{{ $.Site.Params.cloudinary_base_url }}/w_500{{ .Params.image }}"
+    class="rounded image-landscape"
+    alt="{{ .Title }}"
+/>

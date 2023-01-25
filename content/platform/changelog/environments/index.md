@@ -5,9 +5,10 @@ description: Budibase's API integration platform helps you integrate with your A
 draft: "false"
 type: platform/changelog
 layout: single
-images:
-- /img/meta-images/api-integration-platform.png 
+image: "/v1660060867/ui/CleanShot_2022-08-09_at_17.00.24_2x_rfvxhq.png"
+image_alt: Environments UI
 ---
+
 
 hello 
 Collapsible sidebar
@@ -23,10 +24,15 @@ The end of 2022 also marked the end of our first Polishing Season. In total, we 
 You can find a full list with all fixes and improvements on the Polishing Season website.
 
 Improvements & Fixes
+
 [API] Added scope to projects in the API
+
 Added a feature to collapse link attachments on issues. Collapsing and uncollapsing can be accomplished by clicking the toggle icon or using Ctrl Shift L
+
 Improved the behavior of nested checkboxes. Nested checkboxes can now be checked and unchecked independently from their parent. Checking a parent checkbox will no longer automatically check all of its children
+
 Improved select and filter functionality in workspace members settings page
+
 Added the ability to use Set due date and Set parent issue shortcuts in the fast issue creation modal
 When marking an issue as a duplicate of another, any related issues will now reference the canonical issue
 We now support the Intercom integration for users on the app.eu.intercom.com and app.au.intercom.com domains in addition to the default app.intercom.com domain

@@ -1,7 +1,7 @@
 ---
 title: Why the Bulgarian Goverment chose Budibase
 description: The Bulgarian Gov rehomes 100,000 refugees
-type: customers
+type: enterprise/customers
 layout: single
 date: "2022-08-01"
 images:
