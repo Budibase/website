@@ -1,5 +1,5 @@
 ---
-title: "Adopt and adapt with peace of mind"
+title: "Adopt and scale with peace of mind"
 description: "Maximize efficiency with a platform that works at scale and adapts to your needs. Backed by admin features, increased security, world-class support, and more."
 type: platform/features/admin
 layout: single

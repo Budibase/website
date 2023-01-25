@@ -13,7 +13,7 @@
     </div>
 </div>
 <div class="container-9 space-1-bottom py-4">
-    <div class="platform-subnav gap-md btn-tabs">
+    <div class="platform-subnav justify-center gap-md btn-tabs">
     <a href="/enterprise">            
         <button id="btn" type="button" class="btn btn-outline btn-lg">Overview</button>
     </a>
@@ -74,7 +74,7 @@
     <section class="customers-intro-wrapper">
       {{ with .Resources.Match "*/logo*" }}
       {{ range . }}
-      <img src="{{ .RelPermalink }}" class="u-avatar-lg mr-6" />
+      <img src="{{ .RelPermalink }}" class="u-lg-avatar mr-6" />
       {{ end }}
       {{ end }}
       <div>

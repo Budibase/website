@@ -7,54 +7,8 @@
 
   <div class="space-1 container-narrow feature-grid">
     <section class="feature-nav">
-        <ul class="feature-nav-items">
-            <li>
-              <a href="/platform/features/data">
-                <p class="feature-nav-item">Data</p>
-              </a>
-            </li>
-            <li>
-              <a href="/platform/features/design">
-                <p class="feature-nav-item">Design</p>
-              </a>
-            </li>            
-            <li>
-              <a href="/platform/features/automate">
-                <p class="feature-nav-item">Automate</p>
-              </a>
-            </li>
-            <li>
-              <a href="/platform/features/automate/#automateprocesses">
-                <div class="flex-row align-center">
-                  <div class="icon-container">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
-                      <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><path class="fill" d="M16.5,2h-2a.5.5,0,0,0-.5.5v2a.5.5,0,0,0,.5.5h2a.5.5,0,0,0,.5-.5v-2A.5.5,0,0,0,16.5,2Zm0,5h-2a.493.493,0,0,0-.475.3765A6.11,6.11,0,0,1,17,8.4465V7.5A.5.5,0,0,0,16.5,7ZM12.75,3H9.25A.25.25,0,0,0,9,3.25V8H6.25A.25.25,0,0,0,6,8.25v.5A.25.25,0,0,0,6.25,9H9v.3175A6.163,6.163,0,0,1,10.76,8H10V4h2.75A.25.25,0,0,0,13,3.75v-.5A.25.25,0,0,0,12.75,3ZM4.5,6h-3a.5.5,0,0,0-.5.5v4.6a.5.5,0,0,0,.5.5h3a.5.5,0,0,0,.5-.5V6.5A.5.5,0,0,0,4.5,6Z" />
-                      <path class="fill" d="M13.55,9.1A4.45,4.45,0,1,0,18,13.55,4.45,4.45,0,0,0,13.55,9.1Zm2.5,4.7a.25.25,0,0,1-.25.25H14.05V15.8a.25.25,0,0,1-.25.25h-.5a.25.25,0,0,1-.25-.25V14.05H11.3a.25.25,0,0,1-.25-.25v-.5a.25.25,0,0,1,.25-.25h1.75V11.3a.25.25,0,0,1,.25-.25h.5a.25.25,0,0,1,.25.25v1.75H15.8a.25.25,0,0,1,.25.25Z" />
-                    </svg>
-                </div>
-                  <p class="feature-nav-subitem">Automate processes</p>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="/platform/features/automate/#connectoutside">
-                <div class="flex-row align-center">
-                  <div class="icon-container">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
-                      <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><path class="fill" d="M14.5,14c-1.933,0-3.5-.6265-3.5-1.4v-2c0,.773,1.567,1.533,3.5,1.533S18,11.373,18,10.6v2C18,13.3735,16.433,14,14.5,14ZM18,16.5895v-2.579c0,.773-1.567,1.4-3.5,1.4s-3.5-.6265-3.5-1.4V16.59c0,.773,1.567,1.4,3.5,1.4S18,17.363,18,16.5895Zm0-7.534c0-.773-1.5975-1.313-3.5305-1.313S11,8.2825,11,9.0555s1.567,1.4,3.5,1.4S18,9.829,18,9.0555Z" />
-                      <path class="fill" d="M10,14a1,1,0,0,1-1-1V5a1,1,0,0,1,1-1h2.05a2.5,2.5,0,1,0,0-1H10A2,2,0,0,0,8,5V8H5.95a2.5,2.5,0,1,0,0,1H8v4a2,2,0,0,0,2,2ZM14.5,2A1.5,1.5,0,1,1,13,3.5,1.5,1.5,0,0,1,14.5,2Zm-11,8A1.5,1.5,0,1,1,5,8.5,1.5,1.5,0,0,1,3.5,10Z" />
-                    </svg>
-                </div>
-                  <p class="feature-nav-subitem">Connect outside</p>
-                </div>
-              </a>
-            </li>             
-            <li>
-              <a href="/platform/features/admin">
-                <p class="feature-nav-item">Admin</p>
-              </a>
-            </li>                  
-          </ul>
+      {{ partial "platform/features-subnav.html" }}
+
     </section>
 
     <section class="feature-body">
