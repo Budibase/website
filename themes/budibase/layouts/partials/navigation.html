@@ -36,10 +36,45 @@
             class="collapse navbar-collapse u-header__navbar-collapse py-0 u-header--left-aligned-nav">
             <ul class="navbar-nav u-header__navbar-nav">
               <div id="navBarBasic" class="navbar-collapse u-header__navbar-collapse">                     
-                <li class="nav-item u-header__nav-item">
-                  <a class="nav-link u-header__nav-link text-black font-weight-medium" href="/platform/features/data/">
-                    Platform
+                  <!-- Two Columns Mega Menu -->
+                  <li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover"
+                  data-animation-in="slideInUp" data-animation-out="fadeOut" data-position="left">
+                  <a id="twoColumnsMegaMenu" class="nav-link u-header__nav-link" href="javascript:;"
+                    aria-haspopup="true" aria-expanded="false">
+                    Platform +
                   </a>
+                  <!-- Mega Menu -->
+                  <div class="hs-mega-menu w-auto u-header__sub-menu" aria-labelledby="twoColumnsMegaMenu">
+                    <div class="u-header__mega-menu-wrapper-v1">
+                      <ul class="row list-unstyled u-header__mega-menu-list ">
+                        <li class="col-lg u-header__mega-menu-col mb-3 mb-lg-0">
+                          <div class="mt-2">
+                            <!-- Links -->
+                            <ul class="list-inline min-width-180 mb-3">
+                              <li class="col-sm-6 dropdown-item u-header__sub-menu-list-item py-0 flex-row">                       
+                                <a class="nav-link u-header__sub-menu-nav-link text-dark pl-3" href="/platform/features">                                
+                                Features</a>
+                              </li>
+                              <li class="col-sm-6 dropdown-item u-header__sub-menu-list-item py-0">
+                                <a class="nav-link u-header__sub-menu-nav-link text-dark pl-3" href="/platform/integrations">
+                                  Integrations</a>
+                              </li>
+                              <li class="col-sm-6 dropdown-item u-header__sub-menu-list-item py-0">
+                                <a class="nav-link u-header__sub-menu-nav-link text-dark pl-3" href="/templates">
+                                  Templates</a>
+                              </li>
+                              <li class="dropdown-item u-header__sub-menu-list-item py-0 w-100">
+                                <a class="nav-link u-header__sub-menu-nav-link text-dark pl-3" href="/platform/changelog">
+                                  Changelog
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- End Mega Menu -->
                 </li>
                 <li class="nav-item u-header__nav-item">
                   <a class="nav-link u-header__nav-link text-black" href="/enterprise">
@@ -64,25 +99,25 @@
                       <ul class="row list-unstyled u-header__mega-menu-list ">
                         <li class="col-sm-6 col-lg u-header__mega-menu-col mb-3 mb-lg-0">
                           <div class="mt-2">
-                            <span class="px-2 detail-sm opacity-75">Support</span>
+                            <span class="px-2 detail-sm opacity-75 pl-3">Support</span>
                             <!-- Links -->
                             <ul class="list-inline min-width-180 pr-2 mb-3">
                               <li class="col-sm-6 dropdown-item u-header__sub-menu-list-item py-0">
-                                <a class="nav-link u-header__sub-menu-nav-link text-dark" target="_blank" href="https://docs.budibase.com/">Docs</a>
+                                <a class="nav-link u-header__sub-menu-nav-link text-dark pl-3" target="_blank" href="https://docs.budibase.com/">Docs</a>
                               </li>
                               <li class="col-sm-6 dropdown-item u-header__sub-menu-list-item py-0">
-                                <a class="nav-link u-header__sub-menu-nav-link text-dark" href="https://docs.budibase.com/docs/examples-and-guides" target="_blank" >Tutorials</a>
+                                <a class="nav-link u-header__sub-menu-nav-link text-dark pl-3" href="https://docs.budibase.com/docs/examples-and-guides" target="_blank" >Tutorials</a>
                               </li>
                               <li class="col-sm-6 dropdown-item u-header__sub-menu-list-item py-0">
-                                <a class="nav-link u-header__sub-menu-nav-link text-dark" target="_blank" href="https://vimeo.com/showcase/budibase-university">Budibase University</a>
+                                <a class="nav-link u-header__sub-menu-nav-link text-dark pl-3" target="_blank" href="https://vimeo.com/showcase/budibase-university">Budibase University</a>
                               </li>
                               <li class="dropdown-item u-header__sub-menu-list-item py-0 w-100">
-                                <a class="nav-link u-header__sub-menu-nav-link" target="_blank" href="https://github.com/Budibase/budibase/discussions/">
+                                <a class="nav-link u-header__sub-menu-nav-link text-dark pl-3" target="_blank" href="https://github.com/Budibase/budibase/discussions/">
                                   Community support
                                 </a>
                               </li>
                               <li class="dropdown-item u-header__sub-menu-list-item py-0 w-100">
-                                <a class="nav-link u-header__sub-menu-nav-link" target="_blank" href="https://discord.com/invite/ZepTmGbtfF">
+                                <a class="nav-link u-header__sub-menu-nav-link text-dark pl-3" target="_blank" href="https://discord.com/invite/ZepTmGbtfF">
                                   Discord channel
                                 </a>
                               </li>
@@ -92,21 +127,21 @@
                         </li>
                         <li class="col-sm-6 col-lg u-header__mega-menu-col mb-3 mb-lg-0">
                           <div class="mt-2">
-                            <span class="px-2 detail-sm opacity-75">Company</span>
+                            <span class="px-2 detail-sm opacity-75 pl-3">Company</span>
                             <!-- Links -->
                             <ul class="list-inline min-width-180 pr-2 mb-3">
 
                               <li class="col-sm-6 dropdown-item u-header__sub-menu-list-item py-0">
-                                <a class="nav-link u-header__sub-menu-nav-link text-dark" href="/careers">Careers</a>
+                                <a class="nav-link u-header__sub-menu-nav-link text-dark pl-3" href="/careers">Careers</a>
                               </li>
                               <li class="dropdown-item u-header__sub-menu-list-item py-0 w-100">
-                                <a class="nav-link u-header__sub-menu-nav-link" href="/blog">Blog</a>
+                                <a class="nav-link u-header__sub-menu-nav-link pl-3" href="/blog">Blog</a>
                               </li>
                               <li class="dropdown-item u-header__sub-menu-list-item py-0">
-                                <a class="nav-link u-header__sub-menu-nav-link"  href="https://status.budibase.com/" target="_blank">Status</a>
+                                <a class="nav-link u-header__sub-menu-nav-link pl-3"  href="https://status.budibase.com/" target="_blank">Status</a>
                               </li>
                               <li class="dropdown-item u-header__sub-menu-list-item py-0">
-                                <a class="nav-link u-header__sub-menu-nav-link" href="/about">Our story</a>
+                                <a class="nav-link u-header__sub-menu-nav-link pl-3" href="/about">Our story</a>
                               </li>
                             </ul>
                           </div>

@@ -13,10 +13,8 @@
    <link rel="stylesheet" href="{{ "css/animate.min.css" | absURL }}">
    
 
-  <!-- CSS - Fonts -->
   {{ partial "meta.html" . }}
   {{ with .Site.Params.Author }}<meta name="author" content="{{ . }}">{{ end }}
-  <base href="{{ .Site.BaseURL }}">
  
   {{ hugo.Generator }}
 

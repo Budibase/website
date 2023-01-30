@@ -6,14 +6,14 @@
       Integrations
     </h1>
     <div class="w-80 w-lg-60 mx-auto">
-      <p class="mx-auto display-lead mb-2 text-center">{{ .Description }}</p>
+      <p class="mx-auto display-lead mb-2 text-center">Bring all your data together with Budibase.      </p>
     </div>
   </div>
 </div>
 <div class="py-4">
   <div class="container-9 space-1-bottom">
     <div class="platform-subnav gap-md btn-tabs">
-      <a href="/platform/features/data">            
+      <a href="/platform/features">            
        <button id="btn" type="button" class="btn btn-outline btn-lg">Features</button>
       </a>
       <a href="/platform/integrations">
@@ -48,7 +48,7 @@
   <section class="feature-nav">
       <ul class="feature-nav-items">
           <li>
-            <a href="">
+            <a href="/platform/integrations/database">
             <div class="flex-row align-center">
               <div class="icon-container">
                 <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
@@ -62,8 +62,8 @@
             </a>
           </li>
           <li>
-            <a href="/platform/integrations/data">
-            <div class="flex-row align-center">
+            <a href="/platform/integrations/api">
+              <div class="flex-row align-center">
               <div class="icon-container">
                 <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
                   <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><rect class="fill" height="5.6" rx="0.5" width="4" x="1" y="6" />
@@ -73,13 +73,13 @@
                   <path class="fill" d="M13,3.75v-.5A.25.25,0,0,0,12.75,3H9.25A.25.25,0,0,0,9,3.25V8H6.25A.25.25,0,0,0,6,8.25v.5A.25.25,0,0,0,6.25,9H9v4.75a.25.25,0,0,0,.25.25h3.5a.25.25,0,0,0,.25-.25v-.5a.25.25,0,0,0-.25-.25H10V9h2.75A.25.25,0,0,0,13,8.75v-.5A.25.25,0,0,0,12.75,8H10V4h2.75A.25.25,0,0,0,13,3.75Z" />
                 </svg>
             </div>
-              <p class="feature-nav-subitem">Automation</p>
+              <p class="feature-nav-subitem">API</p>
             </div>
           </a>   
           </li> 
           <li>
-            <a href="">
-            <div class="flex-row align-center">
+            <a href="/platform/integrations/auth">
+              <div class="flex-row align-center">
               <div class="icon-container">
                 <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
                   <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><path class="fill" d="M7,12.5065a1.3685,1.3685,0,0,1,.9165-1.43,4.00559,4.00559,0,0,1,1.554-2.982A5.471,5.471,0,0,0,10.94,4.2265c0-2.6-1.378-4.05-3.4595-4.05s-3.5,1.509-3.5,4.05a5.56049,5.56049,0,0,0,1.311,3.433.72153.72153,0,0,1,.1835.465v1.037a.71551.71551,0,0,1-.625.722C.669,10.25.0155,13.1085.0155,14.237.0155,14.3625,0,15,0,15H7Z" />
@@ -91,13 +91,13 @@
             </a>
           </li>    
           <li>
-            <a href="">
-            <div class="flex-row align-center">
+            <a href="/platform/integrations/infra">
+              <div class="flex-row align-center">
               <div class="icon-container">
                 <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
                   <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><path class="fill" d="M5.5,5h11a.5.5,0,0,0,.5-.5v-3a.5.5,0,0,0-.5-.5H5.5a.5.5,0,0,0-.5.5V3H2V1.25A.25.25,0,0,0,1.75,1h-.5A.25.25,0,0,0,1,1.25v15.5a.25.25,0,0,0,.25.25h.5A.25.25,0,0,0,2,16.75V15H5v1.5a.5.5,0,0,0,.5.5h11a.5.5,0,0,0,.5-.5v-3a.5.5,0,0,0-.5-.5H5.5a.5.5,0,0,0-.5.5V14H2V10H5v.5a.5.5,0,0,0,.5.5h11a.5.5,0,0,0,.5-.5v-3a.5.5,0,0,0-.5-.5H5.5a.5.5,0,0,0-.5.5V9H2V4H5v.5A.5.5,0,0,0,5.5,5ZM6,14H8v1H6ZM6,8H8V9H6ZM6,2H8V3H6Z" />
                 </svg>            </div>
-              <p class="feature-nav-subitem">Deployment 
+              <p class="feature-nav-subitem">Infra 
               </p>
             </div>
             </a>
@@ -109,7 +109,7 @@
   </section>
   <section class="feature-body">
   <ul class="platform-card-grid">
-    {{ range .Pages.ByTitle}}
+    {{ range .RegularPagesRecursive.ByTitle    }}
 
     <li class="platform-card">
       <a class="platform-card-inner" href="{{ .Params.docs_url }}" target="_blank">
@@ -124,6 +124,7 @@
         <span data-area="description"class="platform-card-description">{{ .Description }}</span>
       </a>
       {{ end }}
+      
     </li>
   </ul>
 </div>

@@ -16,10 +16,6 @@ markup:
     ordered: false
     startLevel: 2
 
-taxonomies:
-  category: "categories"
-  tag: "tags"
-  featured: "featured"
 
 params:
   keywords: ["Low code platform", "Custom software", "Web application builder", "internal tools", "internal tool builder"]
