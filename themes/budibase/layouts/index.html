@@ -1,20 +1,17 @@
 {{ partial "header.html" . }}
 {{ partial "navigation.html" . }}
 {{ partial "homepage/hero-test.html" . }}
-<!--{{ partial "testimonial-block-gray.html" . }}-->
 {{ partial "homepage/features.html" . }}
-{{ partial "homepage/benefits-2.html" . }}
 {{ partial "deploy.html" . }}
-{{ partial "homepage/extensible.html" . }}
 {{ partial "homepage/integration-banner.html" . }}
-<hr class="w-md-50 mt-9" />
+{{ partial "homepage/templates.html" . }}  
+<hr />
 <div class="space-3">
-    {{ partial "solutions-banner-with-title.html" . }}
-</div>
-<hr class="w-md-50" />
-
-<div class="space-3">
-    {{ partial "templates.html" . }}  
+    <div class="text-center">
+        <h2 class="h1 text-center mb-4">Drive transformation at scale</h2>
+        <a href="/customers" class="btn btn-secondary mb-8 ">View customers -></a>
+    </div>
+{{ partial "stats.html" . }}
 </div>
 {{ partial "cta.html" . }}
 {{ partial "footer.html" . }}

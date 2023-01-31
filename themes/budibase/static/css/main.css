@@ -107,6 +107,8 @@
     --zindex-5: 400;
     --zindex-max: 9999;
     --breakpoint-xs: 0;
+    --background-light-gradient: linear-gradient(to top, white 0%, hsla(0,0%,100%,0) 100%),
+                                  linear-gradient(to right, var(--light1), var(--light1) 100%);
     --background-gray-gradient: linear-gradient(to top, white 0%, hsla(0,0%,100%,0) 100%),
                                 linear-gradient(to right, var(--gray100), var(--gray100) 100%);
     --background-red-gradient: linear-gradient(to top, white 0%, hsla(0,0%,100%,0) 100%),
@@ -683,6 +685,22 @@ u {
   border-radius: 30%;
 }
 
+.underlined-green {
+  position: relative;
+  margin-right: 1rem;
+}
+.underlined-green:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  height: 7px;
+  width: 100%;
+  border: solid 2px var(--green3);
+  border-color: var(--green3) transparent transparent transparent;
+  border-radius: 30%;
+}
+
 img {
   vertical-align: middle;
   border-style: none;
@@ -1128,10 +1146,6 @@ mark,
   border-left: 3px solid var(--blue5);
   padding-left: 1rem;
   margin: 1rem 0;
-}
-
-.cta-img {
-  max-width: 300px;;
 }
 
 .blockquote-footer {
@@ -1594,7 +1608,7 @@ height: 100%;
   }
 }
 
-/* Hero big image */
+
 
 /* Hero */
 .hero-container-2 {
@@ -5487,14 +5501,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-secondary {
-  color: var(--gray900);
-  background-color: transparent;
+  color: var(--hiContrast);
+  background: transparent;
   border: 1px solid var(--gray500);
 }
 
 .btn-secondary:hover {
   color: var(--hiContrast);
-  border: 1px solid var(--blue4);
+  background: var(--gray200);
+  border: 1px solid var(--gray500);
+  transition: all 200ms ease-in-out;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
@@ -6953,6 +6969,13 @@ background-color: var(--light1);
   background-repeat: no-repeat;
 }
 
+.bg-gradient-light {
+  background: var(--background-light-gradient);
+  background-size: 100% 100%,100% 100%,1440px 1px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
 .bg-gradient-red {
   background: var(--background-red-gradient);
   background-size: 100% 100%,100% 100%,1440px 1px;
@@ -7137,12 +7160,6 @@ button.bg-light:focus {
 .bg-gradient {
   background: radial-gradient(ellipse at 100% 100%, hsl(254 100% 6% / 0.07), var(--teal1), transparent),
   linear-gradient(to bottom right, var(--orange1), var(--purple1), var(--red1), var(--blue1), var(--white), var(--white), var(--white), var(--white));  
-  background-size: cover;
-  background-position: top center;
-}
-
-.bg-gradient-light {
-  background-image: linear-gradient(140deg,#7928CA50,#FF008050);
   background-size: cover;
   background-position: top center;
 }
@@ -10800,13 +10817,13 @@ button:focus {
   }
 }
 
-.u-apple-avatar {
+.u-md-avatar {
   width: 38px;
   height: 38px;
 }
 
 @media (min-width: 576px) {
-  .u-apple-avatar {
+  .u-md-avatar {
     width: 48px;
     height: 48px;
   }
@@ -10834,19 +10851,6 @@ button:focus {
   justify-self: center;
 }
 
-.u-md-avatar {
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  display: flex;
-  margin: auto;
-}
-
-.u-medium-avatar {
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-}
 
 .u-lg-avatar {
   width: 94px;
