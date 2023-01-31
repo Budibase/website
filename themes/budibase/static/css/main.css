@@ -4278,6 +4278,23 @@ ul {
 
 /* Community */
 
+.community-wallpaper {
+  object-position: center center;
+  object-fit: cover;
+  background-color: #272F00;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+    height: 100vh;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.community-header {
+font-family: 'Unbounded', cursive !important;
+}
+
 .community-links {
   display: flex;
   flex-direction: column;
@@ -7049,7 +7066,11 @@ background-color: var(--light1);
 
 
 .bg-blue {
-  background-color: #378ef0;
+  background-color: var(--blue3);
+}
+
+.bg-blue-light {
+  background-color: #8DC4E1;
 }
 
 .bg-red {
