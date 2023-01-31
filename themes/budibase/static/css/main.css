@@ -1,8 +1,8 @@
 
   html {
-    --gray100: hsl(0 0% 98%);
-    --gray200: hsl(0 0% 96%);
-    --gray300: hsl(0 0% 93%);
+    --gray100: hsl(0, 0%, 98%);
+    --gray200: hsl(0, 0%, 96%);
+    --gray300: hsl(0, 0%, 93%);
     --gray400: hsl(0 0% 92%);
     --gray500: hsl(0 0% 89%);
     --gray600: hsl(0 0% 85%);
@@ -3272,6 +3272,11 @@ details[open] > summary {
 
 .border-light3 {
   border: 2px solid var(--light3);
+}
+
+.border-y {
+  border-top: 1px solid var(--border-color-regular);
+  border-bottom: 1px solid var(--border-color-regular);
 }
 
 .border {
@@ -6980,7 +6985,12 @@ background-color: var(--light1);
 }
 
 .bg-gray {
-  background-color: var(--gray200)
+  background-color: var(--gray100)
+}
+
+.border-top {
+  border-top: 1px solid var(--gray300);
+  z-index: 2;
 }
 
 .bg-gradient-gray {
