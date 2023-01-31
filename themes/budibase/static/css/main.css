@@ -3633,9 +3633,13 @@ ul {
   color: black;
 }
 
-@media (max-width: 992px) {
-  .pricing-section {
-    display: none;
+.pricing-table {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .pricing-table {
+    display: block;
   }
 }
 
