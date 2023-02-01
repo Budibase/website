@@ -35,7 +35,7 @@
     --green3: #41E89D;
     --green4: rgb(21, 164, 110);
     --green5: #09482c;
-    --orange1: #ffedea;
+    --orange1: #ffefea;
     --orange2: #ff9888;
     --orange3: #FF7661;
     --orange4: #ff543a;
@@ -45,7 +45,7 @@
     --yellow3: #FFF07A;
     --yellow4: #ffec53;
     --yellow5: #7a6c00;
-    --red1: #ffebe8;
+    --red1: #ffe8e8;
     --red2: #ff826e;
     --red3: #FF6047;
     --red4: #ff3e20;
@@ -7036,6 +7036,10 @@ background-color: var(--light1);
   background-color: #33ab84;
 }
 
+.bg-gray {
+  background-color: var(--gray200)
+}
+
 .bg-gray-1 {
   background-color: var(--gray100)
 }
@@ -7147,8 +7151,32 @@ background-color: var(--light1);
   background-color: var(--blue3);
 }
 
-.bg-blue-light {
-  background-color: #8DC4E1;
+.bg-blue-1 {
+  background-color: var(--blue1);
+}
+
+.bg-blue-4 {
+  background-color: var(--blue4);
+}
+
+.bg-blue-5 {
+  background-color: var(--blue5);
+}
+
+.bg-green-1 {
+  background-color: var(--green1);
+}
+
+.bg-red-1 {
+  background-color: var(--red1);
+}
+
+.bg-orange-1 {
+  background-color: var(--orange1);
+}
+
+.bg-purple-1 {
+  background-color: var(--purple1);
 }
 
 .bg-red {
