@@ -1440,11 +1440,15 @@ pre > code {
   }
 }
 
-.homepage-hero-icon-wrapper {
-  display: grid;
-
+.data-icons-wrapper {
+  display: none;
 }
 
+@media (min-width: 1200px) {
+  .data-icons-wrapper {
+    display: block;
+  }
+}
 .homepage-hero-container {
   display: flex;
   align-items: center;
@@ -5519,13 +5523,13 @@ fieldset:disabled a.btn {
 .btn-cta {
   color: white;
   background-color: var(--blue3);
-  border: 2px solid var(--blue3);
+  border: 1px solid var(--blue3);
 }
 
 .btn-cta:hover {
   color: white;
   background-color: var(--blue4);
-  border: 2px solid var(--blue4);
+  border: 1px solid var(--blue4);
 }
 
 .btn-cta:focus, .btn-pimary.focus {
