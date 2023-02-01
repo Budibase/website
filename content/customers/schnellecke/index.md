@@ -15,7 +15,6 @@ Industry: Logistics
 Website: https://www.schnellecke.com/en/schnellecke-logistics
 author: Davide Lenzarini
 position: IT manager
-
 ---
 
 

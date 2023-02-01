@@ -4,7 +4,7 @@ title: Airtable integration with Budibase
 page_title: Airtable
 categories: 
 - data
-description: 'Use Airtable as your data source for your Budibase applications. '
+description: 'Airtable is a low-code, spreadsheet-database hybrid solution.'
 draft: 'false'
 published_by: Budibase
 site_url: 'https://airtable.com'

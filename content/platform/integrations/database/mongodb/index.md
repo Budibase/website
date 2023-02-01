@@ -1,9 +1,9 @@
 +++
 date = "2020-03-12"
-title = "MongoDB integration with Budibase | Use MongoDB as your data source"
+title = "MongoDB integration "
 page_title = "MongoDB"
 categories = ["data"] 
-description = "Use MongoDB as your data source for your Budibase applications. "
+description = "MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need."
 images = ["integrations/coming-soon.png"]
 logo = "integrations/mongodb-logo.svg"
 draft= "false"
