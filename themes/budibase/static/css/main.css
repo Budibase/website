@@ -1447,6 +1447,7 @@ pre > code {
 @media (min-width: 1200px) {
   .data-icons-wrapper {
     display: block;
+    z-index: 9999999999;
   }
 }
 .homepage-hero-container {
@@ -2683,7 +2684,7 @@ details[open] > summary {
 @media (min-width: 1080px) {
   .trusted-by-logos-grid {
     display: grid;
-    height: 60px;
+    height: 80px;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 60px;
     align-items: center;
@@ -2691,7 +2692,7 @@ details[open] > summary {
   }
 }
 
-#pg {
+#wetransfer {
   grid-column: 4;
 }
 
@@ -2711,7 +2712,7 @@ details[open] > summary {
   grid-column: 8;
 }
 
-#nfl {
+#disney {
   grid-column: 9;
 }
 
@@ -6478,10 +6479,17 @@ input[type="button"].btn-block {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: saturate(180%) blur(5px);
+  backface-visibility: hidden;
+  transform: translateZ(0);  
+  background-color: hsla(0,0%,100%,.8);
+  top: 0;
+  transition: box-shadow .2s ease 0s,background-color .2s ease 0s;
 }
 
 .nav-link {
@@ -6524,7 +6532,7 @@ input[type="button"].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: var(--gray900);
-  background-color: #fff;
+  background-color: transparent;
   border-color: #e3e6f0 #e3e6f0 #fff;
 }
 
@@ -8183,9 +8191,7 @@ button:focus {
 
 /* Nav Item */
 
-.u-header__nav-item {
-  background-color: var(--loContrast);
-}
+
 
 .u-header__nav-item:hover .u-header__nav-link, .u-header__nav-item:focus .u-header__nav-link {
   color: var(--gray900);
@@ -8206,7 +8212,7 @@ button:focus {
 
 .nav-link-hover-bg {
   padding: 8px 12px;
-  background-color: white;
+  background-color: transparent;
   outline: 0;
   border-radius: 5px;
 
