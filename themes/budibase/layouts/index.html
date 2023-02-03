@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 {{ partial "navigation.html" . }}
-{{ partial "homepage/hero-test.html" . }}
+{{ partial "homepage/hero-test-2.html" . }}
 {{ partial "homepage/benefits.html" . }}
 {{ partial "homepage/features.html" . }}
 {{ partial "deploy.html" . }}
@@ -16,4 +16,9 @@
 </div>
 {{ partial "cta.html" . }}
 {{ partial "footer.html" . }}
+
+<script src="{{ "js/hero-tabs.js" | absURL }}"></script>
+<script>
+  document.getElementById("defaultOpen").click();
+</script>
 

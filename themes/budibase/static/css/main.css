@@ -400,7 +400,7 @@ table td{
 }
 
 .text-blue {
-  color: var(--blue3) !important;
+  color: var(--blue4) !important;
 }
 
 .text-black {
@@ -408,7 +408,7 @@ table td{
 }
 
 .text-red {
-  color: rgb(235, 87, 87);
+  color: var(--red3);
 }
 
 .text-teal {
@@ -760,6 +760,10 @@ img {
   opacity: 0.5;
 }
 
+.opacity-25 {
+  opacity: 0.25;
+}
+
 label {
   display: inline-block;
 }
@@ -947,11 +951,58 @@ input[type="month"] {
   }
 }
 
-@media (max-width: 576px) {
-  .hero-title-center {
-    text-align: left;
-  }
+.hero-title-lg {
+  text-size-adjust: 100%;
+  font-size: 2.3rem;
+  font-variation-settings: "wght" 610;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;  
+  color: var(--hiContrast);
+  text-rendering: optimizeLegibility;
+  letter-spacing: -.01em;
+  line-height: 1.1;
+  text-rendering: optimizeLegibility;
 }
+
+
+.hero-title-lg {
+  text-size-adjust: 100%;
+  font-size: clamp(3rem, 3.8vw, 4.5rem);
+  font-variation-settings: "wght" 650;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;  
+  color: var(--hiContrast);
+  text-rendering: optimizeLegibility;
+  letter-spacing: -.04em;
+  line-height: 1.1;
+  text-rendering: optimizeLegibility;
+}
+
+.hero-title-subtext {
+  text-size-adjust: 100%;
+  font-size: clamp(3rem, 3.7vw, 3.5rem);
+  font-variation-settings: "wght" 460;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;  
+  color: var(--hiContrast);
+  text-rendering: optimizeLegibility;
+  letter-spacing: -.04em;
+  line-height: 1.2 !important;
+  text-rendering: optimizeLegibility;
+  color: rgb(26,30,43);
+}
+
+.hero-title-wrapper span:first-child {
+  width: 100%;
+  flex-basis: 100%;
+  display: inline-block;
+  padding-bottom: 0.9rem;
+}
+
+
 
 
 
@@ -1996,19 +2047,132 @@ margin-left: 0rem;
 
 /* Homepage */
 
+.hero-grid {
+  display: grid;
+  grid-gap: 16px;
+  gap: 16px;
+  min-height: 500px;
+  grid-template-columns: .2fr .55fr .2fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+      "major-hero-0 featured major-hero-1"
+      "minor-hero-0 featured minor-hero-1";
+}
+
+
+.hero-grid-featured {
+  position: relative;
+  transition: transform .3s ease-out;
+  text-decoration: none;
+  grid-area: featured;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px #ffffff15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-grid-major-0 {
+  position: relative;
+  transition: transform .3s ease-out;
+  text-decoration: none;
+  grid-area: major-hero-0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+
+.hero-grid-major-1 {
+  position: relative;
+  transition: transform .3s ease-out;
+  text-decoration: none;
+  grid-area: major-hero-1;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.hero-grid-minor-0 {
+  position: relative;
+  transition: transform .3s ease-out;
+  text-decoration: none;
+  grid-area: minor-hero-0;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px #ffffff15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+
+.hero-grid-minor-1 {
+  position: relative;
+  transition: transform .3s ease-out;
+  text-decoration: none;
+  grid-area: minor-hero-1;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+
+
+.benefits-grid {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 16px;
+  gap: 16px;
+}
+
+@media (min-width: 765px ) {
 .benefits-grid {
   display: grid;
   grid-gap: 16px;
   gap: 16px;
   min-height: 680px;
   perspective: 1500px;
-  grid-template-columns: .4fr .3fr .3fr;
-  grid-template-rows: 1fr .15fr 1fr;
+  grid-template-columns: .5fr .5fr;
   grid-template-areas:
-      "featured major-benefit-0 minor-benefit-1"
-      "featured major-benefit-0 major-benefit-1"
-      "featured minor-benefit-0 major-benefit-1";
+      "featured minor-benefit-0"
+      "featured minor-benefit-1 "
+      "major-benefit-1 major-benefit-0 ";
+  }
 }
+
+@media (min-width: 992px ) {
+  .benefits-grid {
+    display: grid;
+    grid-gap: 16px;
+    gap: 16px;
+    min-height: 680px;
+    perspective: 1500px;
+    grid-template-columns: .4fr .3fr .3fr;
+    grid-template-rows: 1fr .15fr 1fr;
+    grid-template-areas:
+        "featured major-benefit-0 minor-benefit-1"
+        "featured major-benefit-0 major-benefit-1"
+        "featured minor-benefit-0 major-benefit-1";
+    }
+  }
 
 .benefits-grid-featured {
   position: relative;
@@ -2146,12 +2310,73 @@ margin-left: 0rem;
   padding: 0 12px;
   max-width: 20ch;
   z-index: 1;
+  padding-bottom: 180px;
+}
+
+@media (min-width: 576px ) {
+.benefits-automate-content {
+  position: relative;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 8px;
+  gap: 8px;
+  padding: 0 12px;
+  max-width: 20ch;
+  z-index: 1;
   padding-bottom: 110px;
 }
+}
+@media (min-width: 765px ) {
+  .benefits-automate-content {
+    position: relative;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 8px;
+    gap: 8px;
+    padding: 0 12px;
+    max-width: 20ch;
+    z-index: 1;
+    padding-bottom: 180px;
+  }
+  }
+@media (min-width: 1200px ) {
+  .benefits-automate-content {
+    position: relative;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 8px;
+    gap: 8px;
+    padding: 0 12px;
+    max-width: 20ch;
+    z-index: 1;
+    padding-bottom: 110px;
+  }
+  }
+
 .benefits-automate-image {
   position: absolute;
   bottom: 0;
-  transform: translateY(50px);
+  transform: translateY(20px);
+}
+
+@media (min-width: 992px) {
+  .benefits-automate-image {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50px);
+  }
 }
 
 .benefits-content {
@@ -3552,6 +3777,46 @@ details[open] > summary {
 /* Style the tab content */
 .tabcontent {
   display: none;
+}
+
+/* Style the tab */
+.herotab {
+  overflow: hidden;
+  background-color: transparent;
+  display: flex;
+}
+
+/* Style the buttons that are used to open the tab content */
+.herotab button {
+  display: inline-block;
+  font-size: 17px;
+  padding: 10px 20px;
+  font-variation-settings: 'wght' 600;  
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  outline: none;
+  user-select: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  appearance: none;
+  opacity: .25;
+}
+
+/* Change background color of buttons on hover */
+.herotab button:hover {
+  opacity: .8;
+}
+
+/* Create an active/current tablink class */
+.herotab button.active {
+  opacity: 1;
 }
 
 
@@ -6487,7 +6752,7 @@ input[type="button"].btn-block {
   backdrop-filter: saturate(180%) blur(5px);
   backface-visibility: hidden;
   transform: translateZ(0);  
-  background-color: hsla(0,0%,100%,.8);
+  background-color: hsla(0,0%,100%,.9);
   top: 0;
   transition: box-shadow .2s ease 0s,background-color .2s ease 0s;
 }
@@ -10997,6 +11262,18 @@ button:focus {
   }
 }
 
+.u-avatar-5 {
+  width: 42px;
+  height: 42px;
+}
+
+@media (min-width: 576px) {
+  .u-avatar-5 {
+    width: 56px;
+    height: 56px;
+  }
+}
+
 .u-xxs-avatar {
   width: 18px;
   height: 18px;
@@ -11102,6 +11379,18 @@ button:focus {
 
 .m-1 {
   margin: 0.25rem !important;
+}
+
+.mt--1 {
+  margin: -0.5rem !important;
+}
+
+.mt--2 {
+  margin: -1rem !important;
+}
+
+.mt--3 {
+  margin: -1.25rem !important;
 }
 
 .mt--4 {
@@ -13387,6 +13676,19 @@ button:focus {
 @media (min-width: 600px) {
 .space-2--sm {
   padding-top: 4rem;
+}
+}
+
+@media (min-width: 600px) {
+  .space-0--sm {
+    padding-top: 0rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .space-1--sm {
+    padding-top: 2rem;
+  }
 }
 
 @media (min-width: 576px) {
