@@ -51,7 +51,7 @@ The more effectively IT does this, the more efficient, productive, and profitabl
 
 The trouble is that technical teams often struggle to see the big picture - especially in larger organizations. That’s why, for example, we end up with solutions that meet the requirements that are laid out in the spec - but fail to address the business problem they set out to solve.
 
-![](https://lh6.googleusercontent.com/3to4NlrHq4fsWbrrYmAuTaE7SBh32Wrl1hBUYs0iF_nxJF5MvEBc4jPneE1nSR0Avt8HHOlIFWsrs-dHKQi9QnUc0rep0Wh4UUUTwz2t826xEmF_Mk94oS4PC5QoeoOEo5j1UclUjRHb5LmO_5Q1RBE =624x351)
+![IT Transformation Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1675958011/cms/Digital_Transformation_ROI_https___boardview.io_blog_digital-transformation-stats__b8lw4m.png "IT Transformation Stats")
 
 ([BoardView](https://boardview.io/blog/digital-transformation-stats/))
 
@@ -166,7 +166,7 @@ For example, within your IT team, you might ask how quickly can you bring a new 
 
 The right information technology is central in either case.
 
-![](https://lh3.googleusercontent.com/hhy82vJXR9dqKpXejwenTqY0_6uapwHP3N-eoMe981MP3b4lljzdJCGI-NZlVvq45zFbgKYZrHebhuYiwMcqEY8z46WF0RmAtvjOZyUkmBXqRREmS99yYhj_DnWxaP1ECfEaI7UvHMSryqtH_w3eAWI =624x351)
+![IT Priorities](https://res.cloudinary.com/daog6scxm/image/upload/v1675958073/cms/Digital_Transformation_ROI_https___boardview.io_blog_digital-transformation-stats__2_qtjbsy.png "IT Priorities")
 
 ([SlideTeam](https://www.slideteam.net/key-business-priorities-for-it-department.html))
 
@@ -246,7 +246,7 @@ This isn’t anyone’s fault. It simply speaks to how much of a priority digita
 
 IT transformation offers a framework for making the best use of your available technical resources so that they always provide optimal business value.
 
-![](https://lh5.googleusercontent.com/_iIOYjcOvREAK7lICUiLjJKxKTSQMg5n4hafYV6ARsMNwxJnr9wysv7Nz1u8SJDnecjvi3n0yip_YiKcSkMmPJUJqJS40qhCFq92c7lnSAcMJXXW0QBvZukSdq2JhIRY7BtLMSWPZHhQdEXYBI9DkOs =624x351)
+![IT Transformation Talent Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1675958099/cms/In-House_Talent_https___www.mckinsey.com_capabilities_operations_our-insights_transforming-supply-chains-do-you-have-the-skills-to-accelerate-your-capabilities_cbl2la.png "IT Transformation Talent Stats")
 
 ([McKinsey](https://www.mckinsey.com/capabilities/operations/our-insights/transforming-supply-chains-do-you-have-the-skills-to-accelerate-your-capabilities))
 
@@ -421,9 +421,9 @@ In other words, transformation can either mean cutting operating costs - like wa
 
 Any time we think about undertaking any kind of IT transformation, we’ll need to have a clear idea of how it will affect profitability in one of these two ways - even if the impetus for change isn’t _primarily_ financial.
 
-An amazing example you might not be aware of is the fact that most IT leaders are actually under pressure to _reduce_ cybersecurity spending - although they obviously need ot achieve more than ever:
+An amazing example you might not be aware of is the fact that most IT leaders are actually under pressure to _reduce_ cybersecurity spending - although they obviously need to achieve more than ever:
 
-![](https://lh6.googleusercontent.com/jRTde70gETjZYvL_UuK8wfLJUyiSK7Uc-WRcwLB9Lk3coDFVNSY_Yvf9On9-FDd7tTp_fsJqf-T2j384QSbOCMYkE_2rKPpX7ECIYidYaQ8lNpqf17L57tXRP226pmd8K-6bc8KYnyMuQC-sdjescn8 =624x351)
+![IT Transformation Cost Cutting Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1675958136/cms/Cut_Cybersecurity_Costs_https___news.microsoft.com_en-nz_2021_02_26_new-data-from-microsoft-shows-how-the-pandemic-is-accelerating-the-digital-transformation-of-cyber-security__fvmvut.png "IT Transformation Cost Cutting Stats")
 
 ([Microsoft](https://news.microsoft.com/en-nz/2021/02/26/new-data-from-microsoft-shows-how-the-pandemic-is-accelerating-the-digital-transformation-of-cyber-security/))
 
@@ -443,7 +443,7 @@ For example, we can remove a whole host of frustrations, like service interrupti
 
 How motivated would you be if you knew the tasks you were working contributed _nothing_? Well:
 
-![](https://lh5.googleusercontent.com/RM6HyRIRkHTK9pNZXOW09r_DUpbQQCUVkU22ZyKohcd_9Dcgj3vUPzxrldGr6gdIfF2Ij5ElMvoUAicMZvUxzUGYrihCZ9cTVqgmx1J4hp95j3vySJhfCP684B_WHcsJa-NhaQcSyIm-xTzPHq85FGk =624x351)
+![IT Transformation Data](https://res.cloudinary.com/daog6scxm/image/upload/v1675958189/cms/No_value_tasks_https___www.mckinsey.com_capabilities_mckinsey-digital_our-insights_designing-data-governance-that-delivers-value_.png_hlv5n6.png "IT Transformation Data")
 
 ([McKinsey](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/designing-data-governance-that-delivers-value))
 
@@ -469,7 +469,7 @@ In both cases, IT transformation plays a critical role. On the one hand, we have
 
 On top of this, implementing learnings gathered from IT incidents will generally feed into new IT improvement and transformation efforts.
 
-![](https://lh5.googleusercontent.com/Tfgv68jpcs6lepzczgT2vuuyJEk7FzOjekYG3yasLx7FMkEwmeKSMxvzD7osQLGIj1IAdVnZSGswKiInUMkT7MmPiUJViigspTwDKUYjACOKf_q_GgL4fLfIJ7CAejq44BhoZfeFa5xSAoo3zQAYTbg =624x351)
+![IT Incident](https://res.cloudinary.com/daog6scxm/image/upload/v1675958211/cms/Incident_Report_Form_jdvxvn.png "IT Incident")
 
 ### Future planning
 
@@ -519,7 +519,7 @@ The key is gaining agreement and recognition of the underlying problem. One huge
 
 So, the CFO is mostly going to be worried about the cost/benefit breakdown of any transformations, but a developer will be more easily swayed if we can convince them they won’t need to do as much boring admin work.
 
-![](https://lh6.googleusercontent.com/xJF_1-36cLZbIPbhQhArIKvD2ArHZIkm4frYQ71zsEIuuIg7PX3vWwUxdolEB_5kMn8SLFNNZBNQRkGYz_A0Wv8NjYoxO6N6blxpmcGsMEnawS-EY4MsQERKLXIA6l1kIwkmYStTwS0NtZfDtr8rFqk =624x351)
+![Internal Blockers](https://res.cloudinary.com/daog6scxm/image/upload/v1675958305/cms/Transformation_Blockers_https___financesonline.com_digital-transformation-statistics__vjcvv5.png "Internal Blockers")
 
 ([Finances Online](https://financesonline.com/digital-transformation-statistics/))
 
@@ -573,7 +573,7 @@ Usually, though, the issue isn’t so much that the data doesn’t exist. Rather
 
 As such, it may be worthwhile getting your DataOps in order before thinking about further transformation projects.
 
-![](https://lh5.googleusercontent.com/BMBABHkXm41dPPOnQ4b71fLTwy8WbLYYyaW4GJqM-oHh2CcHBoqbv5VMcFR4A9Iel-Mm4LtfL1YcravF-e2cg4jHUj52F52lx0CJoL_-hq_wJI9DgNRz6mlHqjtN_0bccFL69DNuwDWU6uyI6GDVttc =624x351)
+![Dashboards](https://res.cloudinary.com/daog6scxm/image/upload/v1675958336/cms/Dashboard_qzs2ph.png "Dashboards")
 
 ### Too many other projects
 
@@ -750,7 +750,7 @@ So how do we perform a cost/benefit analysis for IT transformation?
 
 Let’s take this one step at a time. We’ll think about costs first since that’s a bit easier to wrap our heads around. First of all, it’s important to itemize your requirements for whatever interventions you’re going to make.
 
-![](https://lh3.googleusercontent.com/itUqDwWIqCVePZ3xjZENOD0U-fvLa7uftODW-8XDndh7_NHH5gP4ny-AMmT8Y16OWlGMZ82EKJSDmeqwNpgvsHiPlwDaU1r7PMHBSecaA7yCPnfW2ipxNHE6wxBHCO-UYj_NcA5FL9GNk3TLKzT0JIc =624x351)
+![Itemize Costs](https://res.cloudinary.com/daog6scxm/image/upload/v1675958358/cms/Project_Cost_Estimation_iiujqs.png "Itemize Costs")
 
 Then we can begin to assign time estimates and any other capital investment that will be required for each. Therefore, the more granularly we can break down each intervention into its constituent tasks, the better.
 
@@ -1048,7 +1048,7 @@ We’re biased but we think that Budiabse is the smart option for busy IT profes
 
 Let’s take a look at why.
 
-![](https://lh6.googleusercontent.com/ng76K2wrJprjCOGI8gZ2pbxPZWHXlCMwwJiu2mO11mXFHQvBlPtm_1-65vjNLWQVq2QEYnBHf1reo44y1Y508NFubBV0otRWuhnD2J6dxe7NHDNmzh96ul-RprW9ggFkqz9iirYA8gSKBT4WJZaLJzw =624x351)
+![Budibase Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1675958389/cms/Budibase_Screenshot_dl1onf.png "Budibase Screenshot")
 
 ## Budibase for busy IT teams
 
