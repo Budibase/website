@@ -469,7 +469,7 @@ In both cases, IT transformation plays a critical role. On the one hand, we have
 
 On top of this, implementing learnings gathered from IT incidents will generally feed into new IT improvement and transformation efforts.
 
-![IT Incident](https://res.cloudinary.com/daog6scxm/image/upload/v1675958211/cms/Incident_Report_Form_jdvxvn. "IT Incident")
+![IT Incident](https://res.cloudinary.com/daog6scxm/image/upload/v1675958211/cms/Incident_Report_Form_jdvxvn.webp "IT Incident")
 
 ### Future planning
 
@@ -519,7 +519,7 @@ The key is gaining agreement and recognition of the underlying problem. One huge
 
 So, the CFO is mostly going to be worried about the cost/benefit breakdown of any transformations, but a developer will be more easily swayed if we can convince them they won’t need to do as much boring admin work.
 
-![Internal Blockers](https://res.cloudinary.com/daog6scxm/image/upload/v1675958305/cms/Transformation_Blockers_https___financesonline.com_digital-transformation-statistics__vjcvv5.png "Internal Blockers")
+![Internal Blockers](https://res.cloudinary.com/daog6scxm/image/upload/v1675958305/cms/Transformation_Blockers_https___financesonline.com_digital-transformation-statistics__vjcvv5.webp "Internal Blockers")
 
 ([Finances Online](https://financesonline.com/digital-transformation-statistics/))
 
@@ -573,7 +573,7 @@ Usually, though, the issue isn’t so much that the data doesn’t exist. Rather
 
 As such, it may be worthwhile getting your DataOps in order before thinking about further transformation projects.
 
-![Dashboards](https://res.cloudinary.com/daog6scxm/image/upload/v1675958336/cms/Dashboard_qzs2ph.png "Dashboards")
+![Dashboards](https://res.cloudinary.com/daog6scxm/image/upload/v1675958336/cms/Dashboard_qzs2ph.webp "Dashboards")
 
 ### Too many other projects
 
@@ -750,7 +750,7 @@ So how do we perform a cost/benefit analysis for IT transformation?
 
 Let’s take this one step at a time. We’ll think about costs first since that’s a bit easier to wrap our heads around. First of all, it’s important to itemize your requirements for whatever interventions you’re going to make.
 
-![Itemize Costs](https://res.cloudinary.com/daog6scxm/image/upload/v1675958358/cms/Project_Cost_Estimation_iiujqs.png "Itemize Costs")
+![Itemize Costs](https://res.cloudinary.com/daog6scxm/image/upload/v1675958358/cms/Project_Cost_Estimation_iiujqs.webp "Itemize Costs")
 
 Then we can begin to assign time estimates and any other capital investment that will be required for each. Therefore, the more granularly we can break down each intervention into its constituent tasks, the better.
 
