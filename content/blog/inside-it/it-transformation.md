@@ -1047,7 +1047,7 @@ We’re biased but we think that Budiabse is the smart option for busy IT profes
 
 Let’s take a look at why.
 
-![Budibase Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1675958389/cms/Budibase_Screenshot_dl1onf. "Budibase Screenshot")
+![Budibase Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1675958389/cms/Budibase_Screenshot_dl1onf.webp "Budibase Screenshot")
 
 ## Budibase for busy IT teams
 
