@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2023-02-09T00:00:00Z
 description = "Check out our exhaustive guide to IT transformation."
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1675957882/cms/IT_Transformation_m1ntil.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1675957890/cms/IT_Transformation_cgx4wt.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
