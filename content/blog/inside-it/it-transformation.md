@@ -51,7 +51,7 @@ The more effectively IT does this, the more efficient, productive, and profitabl
 
 The trouble is that technical teams often struggle to see the big picture - especially in larger organizations. That’s why, for example, we end up with solutions that meet the requirements that are laid out in the spec - but fail to address the business problem they set out to solve.
 
-![IT Transformation Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1675958011/cms/Digital_Transformation_ROI_https___boardview.io_blog_digital-transformation-stats__b8lw4m.png "IT Transformation Stats")
+![IT Transformation Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1675958011/cms/Digital_Transformation_ROI_https___boardview.io_blog_digital-transformation-stats__b8lw4m.webp "IT Transformation Stats")
 
 ([BoardView](https://boardview.io/blog/digital-transformation-stats/))
 
@@ -166,7 +166,7 @@ For example, within your IT team, you might ask how quickly can you bring a new 
 
 The right information technology is central in either case.
 
-![IT Priorities](https://res.cloudinary.com/daog6scxm/image/upload/v1675958073/cms/Digital_Transformation_ROI_https___boardview.io_blog_digital-transformation-stats__2_qtjbsy.png "IT Priorities")
+![IT Priorities](https://res.cloudinary.com/daog6scxm/image/upload/v1675958073/cms/Digital_Transformation_ROI_https___boardview.io_blog_digital-transformation-stats__2_qtjbsy.webp "IT Priorities")
 
 ([SlideTeam](https://www.slideteam.net/key-business-priorities-for-it-department.html))
 
@@ -246,7 +246,7 @@ This isn’t anyone’s fault. It simply speaks to how much of a priority digita
 
 IT transformation offers a framework for making the best use of your available technical resources so that they always provide optimal business value.
 
-![IT Transformation Talent Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1675958099/cms/In-House_Talent_https___www.mckinsey.com_capabilities_operations_our-insights_transforming-supply-chains-do-you-have-the-skills-to-accelerate-your-capabilities_cbl2la.png "IT Transformation Talent Stats")
+![IT Transformation Talent Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1675958099/cms/In-House_Talent_https___www.mckinsey.com_capabilities_operations_our-insights_transforming-supply-chains-do-you-have-the-skills-to-accelerate-your-capabilities_cbl2la.webp "IT Transformation Talent Stats")
 
 ([McKinsey](https://www.mckinsey.com/capabilities/operations/our-insights/transforming-supply-chains-do-you-have-the-skills-to-accelerate-your-capabilities))
 
@@ -423,7 +423,7 @@ Any time we think about undertaking any kind of IT transformation, we’ll need 
 
 An amazing example you might not be aware of is the fact that most IT leaders are actually under pressure to _reduce_ cybersecurity spending - although they obviously need to achieve more than ever:
 
-![IT Transformation Cost Cutting Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1675958136/cms/Cut_Cybersecurity_Costs_https___news.microsoft.com_en-nz_2021_02_26_new-data-from-microsoft-shows-how-the-pandemic-is-accelerating-the-digital-transformation-of-cyber-security__fvmvut.png "IT Transformation Cost Cutting Stats")
+![IT Transformation Cost Cutting Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1675958136/cms/Cut_Cybersecurity_Costs_https___news.microsoft.com_en-nz_2021_02_26_new-data-from-microsoft-shows-how-the-pandemic-is-accelerating-the-digital-transformation-of-cyber-security__fvmvut.webp "IT Transformation Cost Cutting Stats")
 
 ([Microsoft](https://news.microsoft.com/en-nz/2021/02/26/new-data-from-microsoft-shows-how-the-pandemic-is-accelerating-the-digital-transformation-of-cyber-security/))
 
@@ -443,7 +443,7 @@ For example, we can remove a whole host of frustrations, like service interrupti
 
 How motivated would you be if you knew the tasks you were working contributed _nothing_? Well:
 
-![IT Transformation Data](https://res.cloudinary.com/daog6scxm/image/upload/v1675958189/cms/No_value_tasks_https___www.mckinsey.com_capabilities_mckinsey-digital_our-insights_designing-data-governance-that-delivers-value_.png_hlv5n6.png "IT Transformation Data")
+![IT Transformation Data](https://res.cloudinary.com/daog6scxm/image/upload/v1675958189/cms/No_value_tasks_https___www.mckinsey.com_capabilities_mckinsey-digital_our-insights_designing-data-governance-that-delivers-value_.png_hlv5n6.webp "IT Transformation Data")
 
 ([McKinsey](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/designing-data-governance-that-delivers-value))
 
@@ -469,7 +469,7 @@ In both cases, IT transformation plays a critical role. On the one hand, we have
 
 On top of this, implementing learnings gathered from IT incidents will generally feed into new IT improvement and transformation efforts.
 
-![IT Incident](https://res.cloudinary.com/daog6scxm/image/upload/v1675958211/cms/Incident_Report_Form_jdvxvn.png "IT Incident")
+![IT Incident](https://res.cloudinary.com/daog6scxm/image/upload/v1675958211/cms/Incident_Report_Form_jdvxvn. "IT Incident")
 
 ### Future planning
 
@@ -1048,7 +1048,7 @@ We’re biased but we think that Budiabse is the smart option for busy IT profes
 
 Let’s take a look at why.
 
-![Budibase Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1675958389/cms/Budibase_Screenshot_dl1onf.png "Budibase Screenshot")
+![Budibase Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1675958389/cms/Budibase_Screenshot_dl1onf. "Budibase Screenshot")
 
 ## Budibase for busy IT teams
 
