@@ -95,7 +95,7 @@ We create a new entry when an order is made. We change its _status_ attribute as
 
 Or, in a service business we might require employees to fill out time sheets so we know how much a project is costing us:
 
-![](https://lh5.googleusercontent.com/fASQjBvJ4d-QBedTbLRoGcu-MkwZuFLWtUVquozJRuGDvn6Ck4YYMN4m6a3C7GfwmQCS1LPePbJEBrmRsF1XLuobmo7nBvBlQvtcf1pM4TWbea7zFJLg3o8JCgramLQXerJJm9O-njOnjQPaijCsSJg =624x351)
+![Employee timesheet screengrab](https://res.cloudinary.com/daog6scxm/image/upload/v1675959836/cms/Time_Sheets_Screengrab_eoslua.png "Employee timesheet screengrab")
 
 These aren’t the core of what your business does. Rather, they’re necessary for _facilitating_ your core operations. You don’t make money from managing database entries - you do it from making sales and delivering for clients.
 
@@ -163,7 +163,7 @@ Second, internal process improvement helps to develop the monitoring and oversig
 
 In sum, when our internal processes are working effectively, we are much better positioned to make the most of our resources - both in terms of _how_ we allocate them and whether we actually use them to the best effect.
 
-![](https://lh3.googleusercontent.com/6JPcmwnt7wFaSseUUI0iM209Z7cz1eKwXv4Tp6_boes6xMTOe34AA0OXbbBofYO8Ju9HQ9rQY4v5SBG5vwVGB4pZCny8jfv67H5CgOFGP5o9zRf2VCkM7lR-ijq33IuqbRxP9GsdnNA6WxLfaUpcpcM =624x351)
+![Internal Process Data](https://res.cloudinary.com/daog6scxm/image/upload/v1675959965/cms/No_value_tasks_https___www.mckinsey.com_capabilities_mckinsey-digital_our-insights_designing-data-governance-that-delivers-value_tg96et.png "Internal Processes Data")
 
 ([McKinsey](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/designing-data-governance-that-delivers-value))
 
@@ -261,7 +261,7 @@ For most internal processes, relatively simple solutions will go a long way. So,
 
 We’ll explore this a bit more granularly when we think about the tools we might leverage to improve our internal processes.
 
-![](https://lh4.googleusercontent.com/V26fx0THSrplhswl4cWH6oC6pWT9GJ33LSx1o8BnRPbWDrqMGH28AEbPTmvoYRoPKIVl5f4wWIp7ONq4EdsdMtkJLUaSg3b2Le_rGnuF-6yHQjpVOUtyIzMue6t6ciABADexBdtmpAxjB2fhZroRqK4 =624x351)
+![Internal processes and automation](https://res.cloudinary.com/daog6scxm/image/upload/v1675960004/cms/Automation_with_existing_tools_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_dewuhi.png "Internal Process automation")
 
 ([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages))
 
@@ -343,10 +343,10 @@ Documenting the constituent steps that make up a process is easy. The thing that
 
 We can point to a few basic types of logic that can govern the structure of internal processes. Broadly, we’ll be dealing with some combination of the following:
 
-* **Success/failure criteria - Whether or not a step has been completed successfully and the task can progress.**
-* **Branching logic - If/then rules that determine which step to go to next based on defined criteria.**
-* **Looping logic - Conditions that govern whether a particular step or action should be repeated.**
-* **Escalation rules - Situations where issues need to be raised with a higher authority.**
+* **Success/failure criteria -** Whether or not a step has been completed successfully and the task can progress.
+* **Branching logic -** If/then rules that determine which step to go to next based on defined criteria.
+* **Looping logic -** Conditions that govern whether a particular step or action should be repeated.
+* **Escalation rules - S**ituations where issues need to be raised with a higher authority.
 
 We can apply the same ideas to constituent steps within an internal process.
 
@@ -546,7 +546,7 @@ First, we can take a _qualitative_ approach - assuming that we’re collecting w
 
 Secondly, we could take a _quantitative_ approach. One way to do this would be to ask employees to score different aspects of the internal processes in question. Another would be to _code_ written submissions, to try and measure how widespread the issues raised are.
 
-![](https://lh3.googleusercontent.com/eis7Gvt7UOILYVrcUvmsJu-ljySLdDkqG4q3eMXf68tOpDX6wKRGecc3Buy8Ai0eYorTgzuluAAH4V1ArGK9K63YQeBZAxXVcjf58BXOyEwN83Yl6BtKgtxS0hVRVjGtsueWtK5XBVt_FQAgDmmW-Bs =624x351)
+![Feedback Form](https://res.cloudinary.com/daog6scxm/image/upload/v1675960089/cms/Employee_Feedback_Screengrab_obv9b7.png "Feedback Form")
 
 ### Confusion, inaccuracies, and inconsistencies
 
@@ -614,7 +614,7 @@ The faster and more accurately employees can do this, the more effective the pro
 
 For instance, a basic GUI can save untold labor costs if the relevant task is widespread enough.
 
-![](https://lh6.googleusercontent.com/fX03mbKfTdWEx_WeCGKB_ijQW6332sIf3igemTprI1M4DQQGieYARKT41AcXRP1s_5rPt6SNTl6mtDiIg5LeKn9HiCTaKLYo1ghQC06Ba0RECe9ZAaX4QLmlm5nhZP1EYv4CoeyEt9cz2sN37eIYIDY =624x351)
+![Internal processes for managing data](https://res.cloudinary.com/daog6scxm/image/upload/v1675960111/cms/Firebase_GUI_hboblc.png "Internal processes for managing data")
 
 ### Automation/integration platforms
 
@@ -656,7 +656,7 @@ For example, spreadsheets are an intuitive, universally understood tool for mana
 
 However, they are simply not fit for situations when dozens or even hundreds of people need to do the same thing.
 
-![](https://lh3.googleusercontent.com/CJSMy1kIfJ4-hzeaAc86K2DkYSp6r3IbTrIz5rEG3aqVuD2TX8tNQrD53AM3lGDQxBMpuhT_kk4JA6E9bt3VGHx6HScPXJN3mXVbm2wW7SGBMdt5KJyEKzpKHEwLd6o3BbwHM3IUu05zmrscnlcdNE0 =624x351)
+![Internal process stastistics](https://res.cloudinary.com/daog6scxm/image/upload/v1675960136/cms/Spreadsheets_in_Internal_Tasks_https___www.mckinsey.com_capabilities_operations_our-insights_how-good-are-your-internal-operations-really_doitek.png "Internal process stastistics")
 
 ([McKinsey](https://www.mckinsey.com/capabilities/operations/our-insights/how-good-are-your-internal-operations-really))
 
@@ -687,7 +687,7 @@ However, it’s worth noting that self-service UIs can only be deployed for cert
 
 So, for example, we might deploy a self-service tool to allow employees to update their phone numbers or addresses across different internal platforms:
 
-![](https://lh3.googleusercontent.com/LHlKuCuh1UMDqJovvrM9s64mJ2LgZLSJ90wM3JQO1OPrf7Jed6yNkHseLIk-pStjkihST3XSwhclY7O1sRHcSQZ9gLaYtM7Htq8GRiFutptNbzyr9SQNTCUQJz45ryjbcxKm9RU3hu8biTZjXB2OBvA =624x333)
+![Employee self-service UI](https://res.cloudinary.com/daog6scxm/image/upload/v1675960167/cms/Update_Details_q7tjog.png "Self-service portal")
 
 We couldn’t use one for a task that requires someone else to verify or approve the data they provide.
 
@@ -841,7 +841,7 @@ Therefore, accepting the need for continuous improvement isn’t just some rheto
 
 It’s a call to action.
 
-![](https://lh3.googleusercontent.com/h7NcCAU6qZUS4K1SW3EKnXz-vW8-kT60VJ549Q-3Gf0IVBk7CTw_MyM-Gk1h4Eau-oFYspCrglZofEqalCaNLjVW19OP-bAgh5U3YnlhFKWE5mabcz1TuJQFh0eDyx6vFPrCBg3rChngjM9o9yjv4Hg =624x351)
+![Budibase Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1675960205/cms/Budibase_Screenshot_t9ya9c.png "Budibase Screenshot")
 
 ## Manage internal processes with Budibase
 
