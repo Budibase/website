@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2023-02-09T00:00:00Z
 description = "Internal processes are the basic building blocks of pretty much everything your business does. "
-draft = true
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1675959581/cms/What_are_Internal_Processes_yfj8do.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1675959588/cms/What_are_Internal_Processes_lyiecj.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
@@ -95,7 +94,7 @@ We create a new entry when an order is made. We change its _status_ attribute as
 
 Or, in a service business we might require employees to fill out time sheets so we know how much a project is costing us:
 
-![Employee timesheet screengrab](https://res.cloudinary.com/daog6scxm/image/upload/v1675959836/cms/Time_Sheets_Screengrab_eoslua.png "Employee timesheet screengrab")
+![Employee timesheet screengrab](https://res.cloudinary.com/daog6scxm/image/upload/v1675959836/cms/Time_Sheets_Screengrab_eoslua.webp "Employee timesheet screengrab")
 
 These aren’t the core of what your business does. Rather, they’re necessary for _facilitating_ your core operations. You don’t make money from managing database entries - you do it from making sales and delivering for clients.
 
@@ -163,7 +162,7 @@ Second, internal process improvement helps to develop the monitoring and oversig
 
 In sum, when our internal processes are working effectively, we are much better positioned to make the most of our resources - both in terms of _how_ we allocate them and whether we actually use them to the best effect.
 
-![Internal Process Data](https://res.cloudinary.com/daog6scxm/image/upload/v1675959965/cms/No_value_tasks_https___www.mckinsey.com_capabilities_mckinsey-digital_our-insights_designing-data-governance-that-delivers-value_tg96et.png "Internal Processes Data")
+![Internal Process Data](https://res.cloudinary.com/daog6scxm/image/upload/v1675959965/cms/No_value_tasks_https___www.mckinsey.com_capabilities_mckinsey-digital_our-insights_designing-data-governance-that-delivers-value_tg96et.webp "Internal Processes Data")
 
 ([McKinsey](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/designing-data-governance-that-delivers-value))
 
@@ -261,7 +260,7 @@ For most internal processes, relatively simple solutions will go a long way. So,
 
 We’ll explore this a bit more granularly when we think about the tools we might leverage to improve our internal processes.
 
-![Internal processes and automation](https://res.cloudinary.com/daog6scxm/image/upload/v1675960004/cms/Automation_with_existing_tools_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_dewuhi.png "Internal Process automation")
+![Internal processes and automation](https://res.cloudinary.com/daog6scxm/image/upload/v1675960004/cms/Automation_with_existing_tools_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_dewuhi.webp "Internal Process automation")
 
 ([McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages))
 
@@ -546,7 +545,7 @@ First, we can take a _qualitative_ approach - assuming that we’re collecting w
 
 Secondly, we could take a _quantitative_ approach. One way to do this would be to ask employees to score different aspects of the internal processes in question. Another would be to _code_ written submissions, to try and measure how widespread the issues raised are.
 
-![Feedback Form](https://res.cloudinary.com/daog6scxm/image/upload/v1675960089/cms/Employee_Feedback_Screengrab_obv9b7.png "Feedback Form")
+![Feedback Form](https://res.cloudinary.com/daog6scxm/image/upload/v1675960089/cms/Employee_Feedback_Screengrab_obv9b7.webp "Feedback Form")
 
 ### Confusion, inaccuracies, and inconsistencies
 
@@ -614,7 +613,7 @@ The faster and more accurately employees can do this, the more effective the pro
 
 For instance, a basic GUI can save untold labor costs if the relevant task is widespread enough.
 
-![Internal processes for managing data](https://res.cloudinary.com/daog6scxm/image/upload/v1675960111/cms/Firebase_GUI_hboblc.png "Internal processes for managing data")
+![Internal processes for managing data](https://res.cloudinary.com/daog6scxm/image/upload/v1675960111/cms/Firebase_GUI_hboblc.webp "Internal processes for managing data")
 
 ### Automation/integration platforms
 
@@ -656,7 +655,7 @@ For example, spreadsheets are an intuitive, universally understood tool for mana
 
 However, they are simply not fit for situations when dozens or even hundreds of people need to do the same thing.
 
-![Internal process stastistics](https://res.cloudinary.com/daog6scxm/image/upload/v1675960136/cms/Spreadsheets_in_Internal_Tasks_https___www.mckinsey.com_capabilities_operations_our-insights_how-good-are-your-internal-operations-really_doitek.png "Internal process stastistics")
+![Internal process stastistics](https://res.cloudinary.com/daog6scxm/image/upload/v1675960136/cms/Spreadsheets_in_Internal_Tasks_https___www.mckinsey.com_capabilities_operations_our-insights_how-good-are-your-internal-operations-really_doitek.webp "Internal process stastistics")
 
 ([McKinsey](https://www.mckinsey.com/capabilities/operations/our-insights/how-good-are-your-internal-operations-really))
 
@@ -687,7 +686,7 @@ However, it’s worth noting that self-service UIs can only be deployed for cert
 
 So, for example, we might deploy a self-service tool to allow employees to update their phone numbers or addresses across different internal platforms:
 
-![Employee self-service UI](https://res.cloudinary.com/daog6scxm/image/upload/v1675960167/cms/Update_Details_q7tjog.png "Self-service portal")
+![Employee self-service UI](https://res.cloudinary.com/daog6scxm/image/upload/v1675960167/cms/Update_Details_q7tjog.webp "Self-service portal")
 
 We couldn’t use one for a task that requires someone else to verify or approve the data they provide.
 
@@ -841,7 +840,7 @@ Therefore, accepting the need for continuous improvement isn’t just some rheto
 
 It’s a call to action.
 
-![Budibase Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1675960205/cms/Budibase_Screenshot_t9ya9c.png "Budibase Screenshot")
+![Budibase Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1675960205/cms/Budibase_Screenshot_t9ya9c.webp "Budibase Screenshot")
 
 ## Manage internal processes with Budibase
 
