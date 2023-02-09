@@ -437,6 +437,10 @@ Finally, with training actions, the most important thing is that we adequately a
 
 So, your IT department might have very different training needs compared to your back-office admin team - even if they’re using the same new platform. This could equally relate to their technical skills, their needs from the platform, or simply their learning styles.
 
+![](https://res.cloudinary.com/daog6scxm/image/upload/v1675961009/cms/IT_Transformation_mgjgrr.png)
+
+([McKinsey](https://www.mckinsey.com/capabilities/operations/our-insights/transforming-supply-chains-do-you-have-the-skills-to-accelerate-your-capabilities))
+
 By the end of this stage, our colleagues will be using our new improved internal process in the real world.
 
 ### 8. Monitoring and continuous improvement
