@@ -245,7 +245,7 @@ This isn’t anyone’s fault. It simply speaks to how much of a priority digita
 
 IT transformation offers a framework for making the best use of your available technical resources so that they always provide optimal business value.
 
-![IT Transformation Talent Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1675958099/cms/In-House_Talent_https___www.mckinsey.com_capabilities_operations_our-insights_transforming-supply-chains-do-you-have-the-skills-to-accelerate-your-capabilities_cbl2la.webp "IT Transformation Talent Stats")
+![IT Transformation](https://res.cloudinary.com/daog6scxm/image/upload/v1675961064/cms/IT_Transformation_jy2kvt.webp "IT Transformation")
 
 ([McKinsey](https://www.mckinsey.com/capabilities/operations/our-insights/transforming-supply-chains-do-you-have-the-skills-to-accelerate-your-capabilities))
 
