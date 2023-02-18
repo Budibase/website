@@ -8,7 +8,7 @@
     --gray600: hsl(0 0% 85%);
     --gray700: hsl(0 0% 80%);
     --gray800: hsl(0 0% 56%);
-    --gray900: hsl(0 0% 40%);
+    --gray900: hsl(0 0% 30%);
     --gray1000: hsl(0 0% 10%);
     --light1: #fdfcfb;
     --light2: #f9f5f190;
@@ -20,7 +20,7 @@
     --teal3: #0f797d;
     --teal4: #144752;
     --teal5: #0c2c32;
-    --blue1: #e0ebf7;
+    --blue1: 	rgb(179, 222, 254);
     --blue2: #378ef0;
     --blue3: #2680eb;
     --blue4: #0d66d0;
@@ -130,6 +130,60 @@
     overflow-y: scroll; 
     scroll-behavior: smooth;
   }
+
+  @font-face {
+    font-family: 'PolySans SlimWide';
+    src: url('https://wearegradient.xyz/webfonts/PolySans-SlimWide.eot');
+    /* IE9 Compat Modes */
+    src: url('https://wearegradient.xyz/webfonts/PolySans-SlimWide.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('https://wearegradient.xyz/webfonts/PolySans-SlimWide.woff2') format('woff2'),
+        /* Modern Browsers */
+        url('https://wearegradient.xyz/webfonts/PolySans-SlimWide.woff') format('woff'),
+        /* Modern Browsers */
+        url('https://wearegradient.xyz/webfonts/PolySans-SlimWide.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('https://wearegradient.xyz/webfonts/PolySans-SlimWide.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PolySans MedianWide';
+    src: url('https://wearegradient.xyz/webfonts/PolySans-NeutralWide.eot');
+    /* IE9 Compat Modes */
+    src: url('https://wearegradient.xyz/webfonts/PolySans-NeutralWide.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('https://wearegradient.xyz/webfonts/PolySans-NeutralWide.woff2') format('woff2'),
+        /* Modern Browsers */
+        url('https://wearegradient.xyz/webfonts/PolySans-NeutralWide.woff') format('woff'),
+        /* Modern Browsers */
+        url('https://wearegradient.xyz/webfonts/PolySans-NeutralWide.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('https://wearegradient.xyz/webfonts/PolySans-NeutralWide.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PolySans MedianWide';
+    src: url('https://wearegradient.xyz/webfonts/PolySans-MedianWide.eot');
+    /* IE9 Compat Modes */
+    src: url('https://wearegradient.xyz/webfonts/PolySans-MedianWide.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('https://wearegradient.xyz/webfonts/PolySans-MedianWide.woff2') format('woff2'),
+        /* Modern Browsers */
+        url('https://wearegradient.xyz/webfonts/PolySans-MedianWide.woff') format('woff'),
+        /* Modern Browsers */
+        url('https://wearegradient.xyz/webfonts/PolySans-MedianWide.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('https://wearegradient.xyz/webfonts/PolySans-MedianWide.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 *,
@@ -946,7 +1000,7 @@ input[type="month"] {
 }
 
 .display-font {
-  font-family: 'Kaisei Tokumin', serif !important;
+  font-family: 'PolySans MedianWide', sans-serif;  
   font-weight: 800 !important;
   font-size: clamp(2.8rem, 3.2vw, 3.8rem) !important;
 }
@@ -983,10 +1037,10 @@ input[type="month"] {
 .hero-title-lg {
   text-size-adjust: 100%;
   font-size: 2.2rem;
-  font-variation-settings: "wght" 610;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;  
+  font-family: 'PolySans MedianWide', sans-serif;  
+  font-weight: 800;  
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
   letter-spacing: -.01em;
@@ -998,11 +1052,11 @@ input[type="month"] {
 @media (min-width: 576px) {
   .hero-title-lg {
   text-size-adjust: 100%;
-  font-size: clamp(2.8rem, 3.8vw, 4.5rem);
-  font-variation-settings: "wght" 650;
+  font-size: clamp(3rem, 4vw, 5rem) !important;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;  
+  font-family: 'PolySans MedianWide', sans-serif;  
+  font-weight: 800;  
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
   letter-spacing: -.04em;
@@ -1016,7 +1070,7 @@ input[type="month"] {
   font-size: 2.2rem;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Kaisei Tokumin', serif;  
+  font-family: 'PolySans MedianWide', sans-serif;  
   font-weight: 800;
   color: var(--loContrast);
   text-rendering: optimizeLegibility;
@@ -1029,14 +1083,13 @@ input[type="month"] {
 @media (min-width: 576px) {
   .hero-title-lg-dark {
   text-size-adjust: 100%;
-  font-size: clamp(5rem, 6vw, 7.5rem);
+  font-size: clamp(6rem, 7vw, 8rem);
   font-weight: 800;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Kaisei Tokumin', serif; 
+  font-family: 'PolySans MedianWide', sans-serif;  
   color: var(--loContrast);
   text-rendering: optimizeLegibility;
-  letter-spacing: -0.02em;
   line-height: 1;
   text-rendering: optimizeLegibility;
 }
@@ -2378,7 +2431,7 @@ margin-left: 0rem;
   position: relative;
   font-size: 1.5em;
   line-height: 1.3em;
-  font-weight: 600;
+  font-weight: 500;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2395,7 +2448,7 @@ margin-left: 0rem;
   position: relative;
   font-size: 1.5em;
   line-height: 1.3em;
-  font-weight: 600;
+  font-weight: 500;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2412,7 +2465,7 @@ margin-left: 0rem;
     position: relative;
     font-size: 1.5em;
     line-height: 1.3em;
-    font-weight: 600;
+    font-weight: 500;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2429,7 +2482,7 @@ margin-left: 0rem;
     position: relative;
     font-size: 1.5em;
     line-height: 1.3em;
-    font-weight: 600;
+    font-weight: 500;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4389,7 +4442,27 @@ ul {
 
 .platform-card-inner:hover {
   border: 1px solid var(--gray400);
+}
 
+.platform-card-inner-dark {
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  -webkit-box-align: center;
+  align-items: center;
+  grid-template-areas:
+      "icon name"
+      "description description";
+  border-radius: 16px;
+  background: var(--gray1000);
+  border: 1px solid var(--gray1000);
+  padding: 24px;
+  transition: background 70ms ease 0s, border;
+  grid-row-gap: 8px;
+}
+
+.platform-card-inner-dark:hover {
+  border: 1px solid var(--gray800);
 }
 
 .platform-card-icon {
@@ -7585,8 +7658,16 @@ background-color: var(--light1);
   background-color: var(--orange1);
 }
 
+.bg-pink {
+  background-color: 	rgb(254, 199, 248);
+}
+
 .bg-purple-1 {
   background-color: var(--purple1);
+}
+
+.bg-purple-2 {
+  background-color: #deb9ff;
 }
 
 .bg-red {
@@ -7685,8 +7766,8 @@ button.bg-light:focus {
   background-color: #161616 !important;
 }
 
-.bg-dark-2 {
-  background-color: #1a1a1a !important;
+.bg-dark-light {
+  background-color: #222222 !important;
 }
 
 .bg-black {
@@ -8692,8 +8773,8 @@ button:focus {
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: start;
-  font-size: 14px;
-  color: var(--gray1000);
+  font-size: 15px;
+  color: var(--hiContrast);
   font-variation-settings: 'wght' 520;  
   }
 }
@@ -9478,8 +9559,8 @@ button:focus {
   }
   .u-header__nav-link {
     color: var(--gray1000);
-    font-size: var(--fontsize-3);
-    font-variation-settings: 'wght' 450; 
+    font-size: 16px;
+    font-variation-settings: 'wght' 500; 
     font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   }
   .navbar-expand-lg .u-header__navbar-nav .u-header__sub-menu-nav-link:hover {
