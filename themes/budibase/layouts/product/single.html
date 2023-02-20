@@ -1,136 +1,301 @@
-{{ partial "header.html" . }} {{ partial "navigation.html" . }}
+{{ partial "header.html" . }} 
+{{ partial "navigation-dark.html" . }}
+<div class="bg-dark">
+{{ partial "platform/subnav-dark.html" }}
 
+  <div class="space-1 container-narrow feature-grid">
+    <section class="feature-nav">
+      <ul class="feature-nav-items">
+        <li>
+          <a href="#data">
+              <div class="flex-row align-center">
+              <div class="icon-container bg-dark-light">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgba(250,250,250,0.5)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>            
+              </div>
+              <p class="feature-nav-subitem text-white">Data
+              </p>
+            </div>
+          </a>
+        </li>  
+        <li>
+          <a href="#design">
+            <div class="flex-row align-center">
+              <div class="icon-container bg-dark-light">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgba(250,250,250,0.5)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9.06 11.9 8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08"></path><path d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 0 0-3-3.02z"></path></svg>
+            </div>
+              <p class="feature-nav-subitem text-white">Design</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#automate">
+            <div class="flex-row align-center">
+              <div class="icon-container bg-dark-light">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgba(250,250,250,0.5)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="6"></rect><rect x="16" y="16" width="6" height="6"></rect><rect x="2" y="16" width="6" height="6"></rect><path d="M5 16v-4h14v4"></path><path d="M12 12V8"></path></svg>
+            </div>
+              <p class="feature-nav-subitem text-white">Automate</p>
+            </div>
+          </a>
+        </li> 
+        <li>
+          <a href="#scale">
+            <div class="flex-row align-center">
+              <div class="icon-container bg-dark-light">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgba(250,250,250,0.5)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3 9 15"></path><path d="M12 3H3v18h18v-9"></path><path d="M16 3h5v5"></path><path d="M14 15H9v-5"></path></svg>
+            </div>
+              <p class="feature-nav-subitem text-white">Scale</p>
+            </div>
+          </a>
+        </li> 
+        <li class="mt-2">
+            <a href="https://account.budibase.app/register" class="btn btn-cta">Sign up free</a>
+        </li>    
+    </ul>
+    </section>    
+    <section class="feature-body" id="data">
+      <div class="feature-heading">
+        <p class="detail-lg text-blue mb-4">
+          Data
+        </p>
+        <h2 class="mb-3 h1 text-white">Bring all your data together</h2>
+        <p class="lead-lg text-white opacity-75">Budibase is a platform that allows you to take control of the multiple datasets and rogue spreadsheets. Powerful and secure. Budibase allows you to create a safe space to connect, share, and collaborate with data in an easier, faster, and secure way.</p>
+      </div>
+      <hr class="my-9 hr-dark"/>
+      <div class="feature-content-wrapper">
+        <h3 class="h2 text-white">Connect</h3>
+        <div>
+            <h4 class="h3 mb-3 text-white">Bring all your data together</h4>
+            <p class="lead-lg mb-4 text-white opacity-75">Whether your data lives in a spreadsheet, SQL database, or REST API, Budibase has got
+                you covered. Securely connect to over 30 data sources (from Google Sheets to 
+                PostgreSQL) and sync your data to Budibase.</p>
+                <div class="rounded-lg mb-6 bg-black">
+                    <lottie-player src="/lottie/fetch-tables.json"  speed="1"  loop autoplay></lottie-player>
+                  </div>            
+            
+            <h5 class="h4 mb-2 text-white">SQL Sync</h5>
+            <p class="lead mb-6 text-white opacity-75">When using a SQL database with Budibase, you can sync your tables with Budibase which will allow you to autogenerate CRUD screens, view your data in table format, paginate your data and model relationships.</p>
 
-<!-- Hero Section -->
+            <h5 class="h4 mb-2 text-white">REST API connector</h5>
+            <p class="lead mb-6 text-white opacity-75">Use the new powerful Rest API connector to connect with REST APIs, fetch data, receive form data, authenticate with external APIs, and build modern business apps in minutes.            </p>
+            <h5 class="h4 mb-2 text-white">Custom queries</h5>
+            <p class="lead mb-6 text-white opacity-75">Budibase supports the ability to write custom queries. These queries can be really useful if you want to perform advanced joins or server-side filtering.</p>
 
-<div class="space-2 bg-{{ .Params.theme }}">
-  <div class="container">
-    <div class="w-lg-40 mx-auto text-center">
-      <h1 class="mb-3 hero-title mb-4">
-        {{ trim .Title  "| Budibase" }}
-      </h1>
-    </div>
-    <div class="w-lg-60 mx-auto text-center">
-      <p class="mx-auto display-lead-lg text-center mb-4"> {{ .Description }}</p>
-    </div>
-    <div class="mx-auto text-center mb-6">
-        {{ partial "button-block.html" . }}
-    </div>
-    <img class="article-title-img rounded" src="{{ with .Params.featuredImage }}{{ . }}{{ end }}" />      
-  </div>
-</div>
-<section class="container-fw bg-alt-light">
-{{ partial "logo-reel.html" . }}
-</section>
-<section class="container-narrow space-2">
-    <div class="feature-container space-2">
-        <div class="feature-content ">
-            <h2 class="mb-4">{{ .Params.firstBenefitTitle }}</h2>
-            <p>{{ .Params.firstBenefitDescription }}</p>
+            <h5 class="h4 mb-2 text-white">Transform your data</h5>
+            <p class="lead mb-6 text-white opacity-75">When retrieving data from various sources, transformers allow you transform your incoming data to fit your app's use case - from simply extracting properties from deeper JSON objects to enriching your data with more information, transformers can be used for a wide variety of applications.</p>
         </div>
-        <img class="rounded" src="{{ with .Params.firstBenefitImage }}{{ . }}{{ end }}" />      
-    </div>
-    <div class="feature-container-reverse space-2">
-        <div class="feature-content">
-            <h2 class="mb-4">{{ .Params.secondBenefitTitle }}</h2>
-            <p>{{ .Params.secondBenefitDescription }}</p>
-        </div>
-        <img class="rounded max-w-800" src="{{ with .Params.secondBenefitImage }}{{ . }}{{ end }}" />      
-    </div>
-    <div class="feature-container space-2">
-        <div class="feature-content">
-            <h2 class="mb-4">{{ .Params.thirdBenefitTitle }}</h2>
-            <p>{{ .Params.thirdBenefitDescription }}</p>
-        </div>
-        <img class="rounded " src="{{ with .Params.thirdBenefitImage }}{{ . }}{{ end }}" />      
-    </div>
-</section>
+      </div>
+      <hr class="my-9 hr-dark" id="collaborate"/>
+      <div class="feature-content-wrapper mb-9">
+        <h3 class="h2 text-white">Start from scratch</h3>
+        <div>
+            <h4 class=" h3 mb-3 text-white">Built-in no-code database</h4>
+            <p class="lead-lg mb-4 text-white opacity-75">When you don't have a dataset, Budibase's built-in database is the perfect solution for building tools from scratch. It's easy to use, scalable, and comes with a tonne of features out of the box.</p>
+            <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1676451027/ui/Internal_database_ud8nrb.webp" class="img-fluid rounded-lg  mb-6" />
+            
+            
+            <h5 class="h4 mb-2 text-white">Upload CSVs</h5>
+            <p class="lead mb-6 text-white opacity-75">Upload CSVs straight into BudibaseDB. During the upload process, you can also configure field types.</p>
 
+            <h5 class="h4 mb-2 text-white">Table level security</h5>
+            <p class="lead mb-6 text-white opacity-75">Configure read and write access at the table level ensuring your data is always secure.</p>
 
-<section class="space-2 bg-{{ .Params.theme }}">
-    <div class="container text-center">
-      <h2 class="w-lg-40 mx-auto mb-6">The all-in-one low-code platform for your entire team</h2>
-      <div class="solutions-features">
-        <div class="solutions-features-card rounded-xs">
-            <svg xmlns="http://www.w3.org/2000/svg" class="u-xs-avatar" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          <h4 class="h5 mb-2">External data sources</h4>
-          <p class="text-xs text-thin">Securely connect to a number of datasources including Postgres, MySQL, MSSQL, Rest API, Oracle, Google Sheets, and build apps in minutes.</p>
+            <h5 class="h4 mb-2 text-white">Auto columns</h5>
+            <p class="lead mb-6 text-white opacity-75">Benefit from auto generated columns such as created by, created at, updated at, auto ID and more.</p>
         </div>
-        <div class="solutions-features-card rounded-xs">
-            <svg xmlns="http://www.w3.org/2000/svg" class="u-xs-avatar" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          <h4 class="h5">Built-in database</h4>
-          <p class="text-xs text-thin">Budibase comes with an internal database that is as simple as a spreadsheet, and as powerful as a database - it's actually a highly modified version of CouchDB.</p>
-        </div>
-        <div class="solutions-features-card rounded-xs">
-            <svg xmlns="http://www.w3.org/2000/svg" class="u-xs-avatar" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          <h4 class="h5">REST API connector</h4>
-          <p class="text-xs text-thin">Our powerful API integration platform allows your business to communicate informaton between multiple APIs, and build apps with your data in minutes. </p>
-        </div>
-        <div class="solutions-features-card rounded-xs">
-            <svg xmlns="http://www.w3.org/2000/svg" class="u-xs-avatar" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            <h4 class="h5 mb-2">Powerful design blocks</h4>
-            <p class="text-xs text-thin">Build beautiful user interfaces using powerful, accessible blocks. Edit components without code, or extend using JavaScript, Handlebars, or CSS.</p>
-          </div>
-          <div class="solutions-features-card rounded-xs">
-            <svg xmlns="http://www.w3.org/2000/svg" class="u-xs-avatar" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          <h4 class="h5">Design themes</h4>
-          <p class="text-xs text-thin">Control the look and feel of your apps with highly customizable, and accessible themes. Budibase comes with 4 themes out of the box; lightest, light, dark, darkest.</p>
-        </div>
-        <div class="solutions-features-card rounded-xs">
-            <svg xmlns="http://www.w3.org/2000/svg" class="u-xs-avatar" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          <h4 class="h5">Responsive apps</h4>
-          <p class="text-xs text-thin">Whether your users are on mobile or desktop, Budibase provides you with a design builder that makes it easy to build apps that work across all devices.</p>
-        </div>
-        <div class="solutions-features-card rounded-xs">
-            <svg xmlns="http://www.w3.org/2000/svg" class="u-xs-avatar" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            <h4 class="h5 mb-2">Automation platform</h4>
-            <p class="text-xs text-thin">Whether you want to automate a Slack notification, send a recurring email, or connect to a webhook, Budibase's automation platform is simple to use and fast!</p>
-          </div>
-        <div class="solutions-features-card rounded-xs">
-            <svg xmlns="http://www.w3.org/2000/svg" class="u-xs-avatar" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          <h4 class="h5">Email onboarding</h4>
-          <p class="text-xs text-thin">Automate user onboarding with Budibase's email onboarding. Choose what emails to send, and customise your emails with Budibase's email builder.</p>
-        </div>
-        <div class="solutions-features-card rounded-xs">
-            <svg xmlns="http://www.w3.org/2000/svg" class="u-xs-avatar" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            <h4 class="h5 mb-2">SSO</h4>
-            <p class="text-xs text-thin">Connect your SSO provider (Google, Active Director, Auth0, and more) to Budibase and streamline the sign-up/sign-in process for your users.
+      </div>
+      <div id="design"></div> 
+      <div class="feature-heading space-2">
+        <p class="detail-lg text-blue mb-4">
+          Design
+        </p>
+        <h2 class="mb-3 h1 text-white">Build apps you’re proud of</h2>
+        <p class="lead-lg text-white opacity-75">Budibase saves teams 100s of hours building internal tools. Whether you're building an admin panel, or a supplier portal, Budibase makes it super-simple to build apps you're proud of, incredibly fast.</p>
+      <hr id="buildtools" class="my-9 hr-dark" />
+      <div class="feature-content-wrapper">
+        <h3 class="h2 text-white">Build tools</h3>
+        <div>
+            <h4 class=" h3 mb-3 text-white">Drag-and-drop GUI</h4>
+            <p class="lead-lg mb-4 text-white opacity-75">Building your app is made a lot easier with Drag and Drop. Simply drag components on to your Budibase layout screen, and you're now ready to style the component as you please.</p>
+                <div class="rounded-lg mb-6 bg-black">
+                  <lottie-player src="/lottie/components.json"  speed="1"  loop autoplay></lottie-player>
+                </div>        
+            
+            <h5 class="h4 mb-2 text-white">Auto-generate screens</h5>
+            <p class="lead mb-6 text-white opacity-75">After you've set your data up, you can generate a fully working CRUD app with 3 clicks. We're pretty proud of this feature and excited for you to try this out!</p>
+
+            <h5 class="h4 mb-2 text-white">Pre-built components</h5>
+            <p class="lead mb-6 text-white opacity-75">Budbase has over 30 pre-built components to help you build production-grade apps people enjoy using, really quickly.</p>
+
+            <h5 class="h4 mb-2 text-white">Coding optional</h5>
+            <p class="lead mb-6 text-white opacity-75">With Budibase, coding is optional. For no-coders, it's simple to build an app without JS. For developers, from adding logic to your components to transforming data, Budibase allows to write JavaScript almost anywhere in the builder.
+            </p>
+
+            <h5 class="h4 mb-2 text-white">Apps that work on mobile, tablet, desktop</h5>
+            <p class="lead mb-6 text-white opacity-75">Design apps that work beautiful across multiple devices. Within the design section, you can quickly toggle between devices to ensure your app is always looking great, no matter the device.
+            </p>
+
+            <h5 class="h4 mb-2 text-white">Light and dark mode</h5>
+            <p class="lead mb-6 text-white opacity-75">Out of the box, you can switch your app's design theme from light to dark with just 1 click. You can also configure a brand color for buttons, links, highlights, etc.
             </p>
         </div>
-        <div class="solutions-features-card rounded-xs">
-            <svg xmlns="http://www.w3.org/2000/svg" class="u-xs-avatar" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          <h4 class="h5 mb-2">Granular access controls</h4>
-          <p class="text-xs text-thin">Control what users can and cannot access, including screens, components, and data. You can also assign a special developer role to your developers.</p>
+      </div>
+      <hr class="my-9 hr-dark" />
+      <div class="feature-content-wrapper">
+        <h3 class="h2 text-white">Collect data</h3>
+        <div>
+            <h4 class=" h3 mb-3 text-white">Data collection, your way</h4>
+            <p class="lead-lg mb-4 text-white opacity-75">Where you're replacing a paper survey or collecting ideas from employees, Budibase provides you with a platform that allows you to do this easily, quickly, and, most importantly, securely.</p>
+            <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1676452350/ui/Multi-step-form_eljhir.webp" class="img-fluid rounded-lg mb-6" />
+            
+            
+            <h5 class="h4 mb-2 text-white">Create forms on top of your database</h5>
+            <p class="lead mb-6 text-white opacity-75">Whilst other form builders require you collect and store data on their databases/servers, with Budibase you can generate/build forms on top of multiple databases including PostgreSQL, MYSQL, Mongo and more, allowing you to store data in your own database on your own servers (if self-hosting).</p>
+
+            <h5 class="h4 mb-2 text-white">Multi-step forms</h5>
+            <p class="lead mb-6 text-white opacity-75">Create multi-step forms and surveys with ease using Budibase. As always, Budibase's flexibility allows you to add actions, validation and logic to each step.</p>
+
+            <h5 class="h4 mb-2 text-white">Validation</h5>
+            <p class="lead mb-6 text-white opacity-75">With Budibase you can set up a whole host of form validation rules - including regex support and some built in validations common with form based apps. Provide custom validation messages for each of your conditions for total validation control and tailored user feedback. </p>
+
+            <h5 class="h4 mb-2 text-white">Highly customizable</h5>
+            <p class="lead mb-6 text-white opacity-75">Forms come in all shapes and sizes and we understand that first hand. For this reason, users can build forms of all levels of complexity with Budibase; including adding extra information for each question, multi-step forms, custom logic, validation, custom styling and mroe.</p>
         </div>
       </div>
     </div>
-</section>
 
-{{ partial "deploy.html" . }}
-<div class="space-2-bottom">
-    {{ partial "testimonial-block.html" . }}
+    <div id="automate"></div> 
+    <div class="feature-heading space-2">
+        <p class="detail-lg feature-tag text-blue mb-4" >
+          Automate
+        </p>
+        <h2 class="mb-3 h1 text-white">Streamline Workflows</h2>
+        <p class="lead-lg text-white opacity-75">Bring the power of automation to any process. Build advanced workflows that incorporate custom logic, conditions, filters, and more. No code needed.</p>
+      <hr class="my-9 hr-dark"/>
+      <div class="feature-content-wrapper">
+        <h3 class="h2 text-white">Automate processes</h3>
+        <div>
+            <h4 class=" h3 mb-3 text-white">Create multi-step automations with ease</h4>
+            <p class="lead-lg mb-4 text-white opacity-75">Build automations that automate several tasks at once without coding. We’ve obsessed
+              over making this experience as simple, yet powerful, as possible. When creating an
+              automation you can pick from over 20 triggers and actions.</p>
+                <div class="feature-image-lg rounded-lg mb-6 bg-black">
+                    <lottie-player src="/lottie/automations.json"  speed="1"  loop autoplay></lottie-player>
+                  </div>            
+            
+            <h5 class="h4 mb-2 text-white">If/then logic</h5>
+            <p class="lead mb-6 text-white opacity-75">Add conditions and logic to each step of your automation workflow.</p>
+
+            <h5 class="h4 mb-2 text-white">Schedule</h5>
+            <p class="lead mb-6 text-white opacity-75">Use the CRON trigger to schedule your automations.</p>
+
+            <h5 class="h4 mb-2 text-white">Looping</h5>
+            <p class="lead mb-6 text-white opacity-75">Run an action multiple times, and if you need to, pass that information to the next automation step. An important feature if, for example, you want to send an email to multiple recipients in a database.</p>
+
+            <h5 class="h4 mb-2 text-white">Test automations</h5>
+            <p class="lead mb-6 text-white opacity-75">Test your automations and view the results in the sidebar so that you can continue tweaking your automation until it works the way you want!
+            </p>
+
+            <div class="flex-row-space-between">
+              <h5 class="h4 mb-2 text-white">Automation logs</h5>
+              <div class="tag-teal">Premium plan</div>
+            </div>
+            <p class="lead mb-6 text-white opacity-75">Automation logs are a list of logs that display whether an automation was successful or not - including relevant information to help with debugging.</p>
+        </div>
+      </div>
+      <hr class="my-9 hr-dark"/>
+      <div class="feature-content-wrapper">
+        <h3 class="h2 text-white">Connect outside</h3>
+        <div>
+            <h4 class=" h3 mb-3 text-white">Connect to services outside Budibase</h4>
+            <p class="lead-lg mb-4 text-white opacity-75">When building tools and automating processes, sometimes its important to push data outside Budibase. With Budibase, you can achieve this in a number of sinmple ways.</p>
+            <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1676452700/ui/webhook_m0lumg.webp" class="img-fluid rounded-lg mb-6" />
+            
+            <h5 class="h4 mb-2 text-white">Send notifications</h5>
+            <p class="lead mb-6 text-white opacity-75">Send emails and Slack/Discord notifications when an automation is triggered.</p>
+
+            <h5 class="h4 mb-2 text-white">Webhooks</h5>
+            <p class="lead mb-6 text-white opacity-75">Webhooks allow Budibase to listen for an external application event, and trigger an automation.</p>
+
+            <h5 class="h4 mb-2 text-white">Extend automations with Zapier and Make</h5>
+            <p class="lead mb-6 text-white opacity-75">Extend automations by connecting to Zapier, Make and other automation platforms</p>
+        </div>
+      </div>
+    </div>
+
+      <div id="scale"></div>
+      <div class="feature-heading space-2">
+        <p class="detail-lg text-blue mb-4">
+          Scale
+        </p>
+        <h2 class="mb-3 h1 text-white">Take control</h2>
+        <p class="lead-lg text-white opacity-75">Maximize efficiency with a platform that works at scale and adapts to your needs. Backed by admin features, increased security, world-class support, and more.</p>
+
+      <hr class="my-9 hr-dark" />
+      <div class="feature-content-wrapper">
+        <h3 class="h2 text-white">Scale</h3>
+        <div>
+            <h4 class=" h3 mb-3 text-white">Scale with confidence</h4>
+            <p class="lead-lg mb-4 text-white opacity-75">Managing and scaling Budibase throughout your organization is a breeze. To make your experience even better, features such as SSO, user onboarding, and RBAC are free. We want you to feel confident when you begin your journey with Budibase.</p>
+            <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1676302438/ui/SSO_dtcxt6.png" class="img-fluid rounded-lg mb-6" />
+            
+            <h5 class="h4 mb-2 text-white">Role-based access control</h5>
+            <p class="lead mb-6 text-white opacity-75">Configure what users can and cannot access any given app. If a user is given access to an app, you can then assign them a role within that app. What a role and cannot do, can also be configured by you too - providing both flexibility and control.</p>
+
+            <h5 class="h4 mb-2 text-white">Free SSO</h5>
+            <p class="lead mb-6 text-white opacity-75">Budibase provides OIDC and Google SSO support out of the box, for free. If you are not aware of OIDC, it is an open standard and decentralized authentication protocol. As a user, you will have infinite possibilities for SSO, including:
+              Active Directory, Auth0, Okta, OneLogin. It’s also possible to add your own authentication!</p>
+
+            <h5 class="h4 mb-2 text-white">User onboarding</h5>
+            <p class="lead mb-6 text-white opacity-75">Automate the onboarding of new users with email onboarding - you can even customize the content and styles of the emails. If your users don't have emails, you can create usernames and generate passwords too. You can also bulk-upload users from a CSV.</p>
+            
+            <div class="flex-row-space-between">
+              <h5 class="h4 mb-2 text-white">Backups</h5>
+              <div class="tag-teal">Premium plan</div>
+            </div>            
+            <p class="lead mb-6 text-white opacity-75">Backup your apps, including its data and design. Once you backup your app. you can rollback to different snapshots. </p>
+
+            <div class="flex-row-space-between">
+              <h5 class="h4 mb-2 text-white">User groups</h5>
+              <div class="tag-blue">Business plan</div>
+            </div>
+            <p class="lead mb-6 text-white opacity-75">User groups enable you to create groups of users with which you can easily share apps. They are a great timesaver when it comes to user onboarding - simply drop a new user into their team group, and they'll inherit the default access too all the apps assigned with that group.</p>
+
+            <div class="flex-row-space-between">
+              <h5 class="h4 mb-2 text-white">Audit logs</h5>
+              <div class="tag-blue">Business plan</div>
+            </div>            
+            <p class="lead mb-6 text-white opacity-75">As an admin, at times you may need to perform an audit of which users have had access or have made changes to certain databases or apps. Audit logs provide you with a powerful UI to monitor activity and identify potential threats. </p>
+
+        </div>
+      </div>
+      <hr class="my-9 hr-dark" />
+      <div class="feature-content-wrapper" id="security">
+        <h3 class="h2 text-white">Security</h3>
+        <div>
+            <h4 class=" h3 mb-3 text-white">Security is at the core of all new development</h4>
+            <p class="lead-lg mb-4 text-white opacity-75">We consider privacy and security to be core functions of our platform, as well as foundational requirements for all new feature development. Earning and keeping the trust of our users is our top priority, so we hold ourselves to the highest security standards.            </p>
+            <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1676301741/ui/env-variables_cxe1kk.png" class="img-fluid rounded-lg mb-6" />
+            
+            
+            <div class="flex-row-space-between">
+              <h5 class="h4 mb-2 text-white">Environment variables</h5>
+              <div class="tag-blue">Business plan</div>
+            </div>
+            <p class="lead mb-6 text-white opacity-75">Environment variables ensure the encryption of sensitive data, secure configuration management and provide the ability to switch configuration between environments.</p>
+
+            <h5 class="h4 mb-2 text-white">Data encryption</h5>
+            <p class="lead mb-6 text-white opacity-75">Every customer and app has its own segregated database. We force HTTPS connections 
+              and data-in-transit encryption in Budibase cloud with TLS. We restrict production data 
+              access to 3 team members. We also undergo quarterly independent penetration tests.</p>
+
+            <h5 class="h4 mb-2 text-white">Terms & Conditions, Terms of Use, Privacy Policy</h5>
+            <p class="lead mb-6 text-white opacity-75">Feel free read our <a href="https://budibase.com/self-host-master-terms">terms</a> and <a href="https://budibase.com/privacy">policies</a>.
+      </div>
+    </div>
+    </section>
+  </div>
 </div>
+
+
 {{ partial "cta.html" . }}
-<hr style="width: 30%" />
 {{ partial "footer.html" . }}
-</div>

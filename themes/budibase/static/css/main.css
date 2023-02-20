@@ -20,11 +20,11 @@
     --teal3: #0f797d;
     --teal4: #144752;
     --teal5: #0c2c32;
-    --blue1: 	rgb(179, 222, 254);
-    --blue2: #378ef0;
-    --blue3: #2680eb;
-    --blue4: #0d66d0;
-    --blue5: #095aba;
+    --blue1: rgb(179, 222, 254);
+    --blue2: rgb(124, 189, 250);
+    --blue3: 	rgb(64, 150, 243);
+    --blue4: 	rgb(6, 108, 231);
+    --blue5: 	rgb(0, 78, 166);
     --purple1: #f3f1ff;
     --purple2: #8168ff;
     --purple3: #7154FF;
@@ -61,6 +61,7 @@
     --canvas: hsl(0 0% 93%);
     --white: white;
     --black: black;
+    --dark: #161616;
     --transparentPanel: hsl(0 0% 0% / 97%);
     --shadowLight: hsl(206 22% 7% / 35%);
     --shadowDark: hsl(206 22% 7% / 20%);
@@ -107,84 +108,48 @@
     --zindex-5: 400;
     --zindex-max: 9999;
     --breakpoint-xs: 0;
-    --background-light-gradient: linear-gradient(to top, white 0%, hsla(0,0%,100%,0) 100%),
-                                  linear-gradient(to right, var(--light1), var(--light1) 100%);
-    --background-gray-gradient: linear-gradient(to top, white 0%, hsla(0,0%,100%,0) 100%),
-                                linear-gradient(to right, var(--gray100), var(--gray100) 100%);
-    --background-red-gradient: linear-gradient(to top, white 0%, hsla(0,0%,100%,0) 100%),
-                                linear-gradient(to right, var(--red1) 0%, var(--purple1) 100%);
-    --background-blue-gradient: linear-gradient(to top, white 0%, hsla(0,0%,100%,0) 100%),
-                                linear-gradient(to right, var(--blue1) 0%, var(--red1) 100%);
-    --background-green-gradient: linear-gradient(to top, white 0%, hsla(0,0%,100%,0) 100%),
-                                linear-gradient(to right, var(--green1) 0%, var(--orange1) 100%);
-    --background-purple-gradient: linear-gradient(to top, white 0%, hsla(0,0%,100%,0) 100%),
-                                linear-gradient(to right, var(--purple1) 0%, var(--red1) 100%);
-    --background-red-radial: radial-gradient(ellipse at top left,
-                              var(--red1) 0%, var(--orange1) 20%, white 40%);
-    --background-blue-radial: radial-gradient(ellipse at top left,
-                              var(--blue1) 0%, var(--purple1) 20%, white 40%);    
-    --background-green-radial: radial-gradient(ellipse at top left,
-                              var(--green1) 0%, var(--yellow1) 20%, white 40%); 
+    --background-light-gradient: 
+    linear-gradient(to top, white 0%, hsla(0,0%,100%,0) 100%),
+    linear-gradient(to right, var(--light1), var(--light1) 100%);
+    --background-gray-gradient: 
+    linear-gradient(to top, white 0%, hsla(0,0%,100%,0) 100%),
+    linear-gradient(to right, var(--gray100), var(--gray100) 100%);
+    --background-red-gradient: 
+    linear-gradient(to top, white 0%, hsla(0,0%,100%,0) 100%),
+    linear-gradient(to right, var(--red1) 0%, var(--purple1) 100%);
+    --background-blue-gradient: 
+    linear-gradient(to top, white 0%, rgba(213, 57, 57, 0) 100%),
+    linear-gradient(to right, var(--blue1) 0%, var(--red1) 100%);
+    --background-green-gradient: 
+    linear-gradient(to top, white 0%, hsla(0,0%,100%,0) 100%),
+    linear-gradient(to right, var(--green1) 0%, var(--orange1) 100%);
+    --background-purple-gradient: 
+    linear-gradient(to top, white 0%, hsla(0,0%,100%,0) 100%),
+    linear-gradient(to right, var(--purple1) 0%, var(--red1) 100%);
+    --background-red-gradient-dark: 
+    linear-gradient(to top, var(--dark) 0%, hsla(0,0%,100%,0) 100%),
+    linear-gradient(to right, var(--dark) 0%, rgba(208, 68, 68, 0.2)  100%);
+    --background-red-radial: 
+    radial-gradient(ellipse at top left,
+    var(--red1) 0%, var(--orange1) 20%, white 40%);
+    --background-blue-radial: 
+    radial-gradient(ellipse at top left,
+    var(--blue1) 0%, var(--purple1) 20%, white 40%);    
+    --background-green-radial: 
+    radial-gradient(ellipse at top left,                  
+    var(--green1) 0%, var(--yellow1) 20%, white 40%); 
+    --background-red-radial-dark: 
+    radial-gradient(ellipse at top left,
+    rgba(248, 31, 31, 0.2) 0%, rgba(249, 92, 7, 0.2) 25%, var(--dark) 50%);
+    --background-blue-radial-dark: 
+    radial-gradient(ellipse at top left,
+    rgba(31, 114, 248, 0.2) 0%, rgba(7, 47, 249, 0.2) 25%, var(--dark) 50%);
+
     --backlight: 0 0 0 2px var(--purple2), -15px 0 30px -15px var(--orange3), 0 0 30px -15px var(--red3), 15px 0 30px -15px var(--purple3);                
     background-color: var(--white);
     overflow-y: scroll; 
     scroll-behavior: smooth;
   }
-
-  @font-face {
-    font-family: 'PolySans SlimWide';
-    src: url('https://wearegradient.xyz/webfonts/PolySans-SlimWide.eot');
-    /* IE9 Compat Modes */
-    src: url('https://wearegradient.xyz/webfonts/PolySans-SlimWide.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('https://wearegradient.xyz/webfonts/PolySans-SlimWide.woff2') format('woff2'),
-        /* Modern Browsers */
-        url('https://wearegradient.xyz/webfonts/PolySans-SlimWide.woff') format('woff'),
-        /* Modern Browsers */
-        url('https://wearegradient.xyz/webfonts/PolySans-SlimWide.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('https://wearegradient.xyz/webfonts/PolySans-SlimWide.svg') format('svg');
-    /* Legacy iOS */
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PolySans MedianWide';
-    src: url('https://wearegradient.xyz/webfonts/PolySans-NeutralWide.eot');
-    /* IE9 Compat Modes */
-    src: url('https://wearegradient.xyz/webfonts/PolySans-NeutralWide.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('https://wearegradient.xyz/webfonts/PolySans-NeutralWide.woff2') format('woff2'),
-        /* Modern Browsers */
-        url('https://wearegradient.xyz/webfonts/PolySans-NeutralWide.woff') format('woff'),
-        /* Modern Browsers */
-        url('https://wearegradient.xyz/webfonts/PolySans-NeutralWide.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('https://wearegradient.xyz/webfonts/PolySans-NeutralWide.svg') format('svg');
-    /* Legacy iOS */
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PolySans MedianWide';
-    src: url('https://wearegradient.xyz/webfonts/PolySans-MedianWide.eot');
-    /* IE9 Compat Modes */
-    src: url('https://wearegradient.xyz/webfonts/PolySans-MedianWide.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('https://wearegradient.xyz/webfonts/PolySans-MedianWide.woff2') format('woff2'),
-        /* Modern Browsers */
-        url('https://wearegradient.xyz/webfonts/PolySans-MedianWide.woff') format('woff'),
-        /* Modern Browsers */
-        url('https://wearegradient.xyz/webfonts/PolySans-MedianWide.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('https://wearegradient.xyz/webfonts/PolySans-MedianWide.svg') format('svg');
-    /* Legacy iOS */
-    font-weight: normal;
-    font-style: normal;
-}
-
 
 *,
 *::before,
@@ -1000,7 +965,7 @@ input[type="month"] {
 }
 
 .display-font {
-  font-family: 'PolySans MedianWide', sans-serif;  
+  font-family: 'Familjen Grotesk', sans-serif;  
   font-weight: 800 !important;
   font-size: clamp(2.8rem, 3.2vw, 3.8rem) !important;
 }
@@ -1028,7 +993,6 @@ input[type="month"] {
     font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;  
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
-    letter-spacing: -.01em;
     line-height: 1.05;
     text-rendering: optimizeLegibility;
   }
@@ -1039,11 +1003,10 @@ input[type="month"] {
   font-size: 2.2rem;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'PolySans MedianWide', sans-serif;  
+  font-family: 'Familjen Grotesk', sans-serif;  
   font-weight: 800;  
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
-  letter-spacing: -.01em;
   line-height: 1.1;
   text-rendering: optimizeLegibility;
 }
@@ -1055,11 +1018,10 @@ input[type="month"] {
   font-size: clamp(3rem, 4vw, 5rem) !important;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'PolySans MedianWide', sans-serif;  
+  font-family: 'Familjen Grotesk', sans-serif;  
   font-weight: 800;  
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
-  letter-spacing: -.04em;
   line-height: 1;
   text-rendering: optimizeLegibility;
 }
@@ -1070,7 +1032,7 @@ input[type="month"] {
   font-size: 2.2rem;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'PolySans MedianWide', sans-serif;  
+  font-family: 'Familjen Grotesk', sans-serif;  
   font-weight: 800;
   color: var(--loContrast);
   text-rendering: optimizeLegibility;
@@ -1083,14 +1045,14 @@ input[type="month"] {
 @media (min-width: 576px) {
   .hero-title-lg-dark {
   text-size-adjust: 100%;
-  font-size: clamp(6rem, 7vw, 8rem);
-  font-weight: 800;
+  font-size: clamp(5rem, 6vw, 7rem);
+  font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'PolySans MedianWide', sans-serif;  
+  font-family: 'Familjen Grotesk', sans-serif;  
   color: var(--loContrast);
   text-rendering: optimizeLegibility;
-  line-height: 1;
+  line-height: .9;
   text-rendering: optimizeLegibility;
 }
 }
@@ -1288,6 +1250,11 @@ h6, .h6 {
 hr {
   border: 0;
   border-top: 1px solid var(--gray200);
+}
+
+.hr-dark {
+  border: 0;
+  border-top: 1px solid var(--gray900);
 }
 
 
@@ -4585,7 +4552,6 @@ ul {
 .feature-nav-subitem {
   font-size: 14px;
   font-weight: 500;
-  columns: var(--hiContrast);
   font-variation-settings: "wght" 500;
 }
 
@@ -6043,6 +6009,17 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
 }
 
+.btn-navigation-cta {
+  background-color: hsla(256,5%,97%,.09);
+  color: white;
+}
+
+
+.btn-navigation-cta:hover {
+  background-color: hsla(256,5%,97%,.15);
+  color: white;
+}
+
 .btn-quiet {
   color: var(--gray1000);
   background-color: transparent;
@@ -6060,7 +6037,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-lg {
-  font-size: 18px;
+  font-size: 19px;
   padding: 12px 24px;
   font-variation-settings: 'wght' 600;  
 }
@@ -6962,10 +6939,11 @@ input[type="button"].btn-block {
   backdrop-filter: saturate(180%) blur(5px);
   backface-visibility: hidden;
   transform: translateZ(0);  
-  background-color: rgba(22, 22, 22, 0.9);
+  background-color: rgba(22, 22, 22, 1);
   top: 0;
   transition: box-shadow .2s ease 0s,background-color .2s ease 0s;
 }
+
 
 .nav-link {
   display: block;
@@ -7569,8 +7547,36 @@ background-color: var(--light1);
   background-repeat: no-repeat;
 }
 
+.bg-gradient-red-dark {
+  background: var(--background-red-gradient-dark);
+  background-size: 100% 100%,100% 100%,1440px 1px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.bg-radial-red-dark {
+  background: var(--background-red-radial-dark);
+  background-size: 100% 100%,100% 100%,1440px 1px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
 .bg-gradient-blue {
   background: var(--background-blue-gradient);
+  background-size: 100% 100%,100% 100%,1440px 1px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.bg-gradient-blue-dark {
+  background: var(--background-blue-gradient-dark);
+  background-size: 100% 100%,100% 100%,1440px 1px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.bg-radial-blue-dark {
+  background: var(--background-blue-radial-dark);
   background-size: 100% 100%,100% 100%,1440px 1px;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -14114,7 +14120,7 @@ button:focus {
   margin: -60px 0 0; /* negative fixed header height */
 }
 .article h4 {
-  font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   margin-top: 2rem;
   margin-bottom: .5rem; 
   font-weight: 600;
@@ -14128,7 +14134,7 @@ button:focus {
   margin: -60px 0 0; /* negative fixed header height */
 }
 .article h5 {
-  font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   margin-top: 2rem;
   margin-bottom: .5rem; 
   font-weight: 600;
@@ -14137,8 +14143,8 @@ button:focus {
   line-height: 1.1;
 }
 .article li {
-  font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-  font-size: 1rem;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-size: 1.1rem;
   line-height: 1.8;
   font-weight: 400;
   color: var(--hiContrast);
