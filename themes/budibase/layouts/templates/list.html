@@ -1,27 +1,27 @@
 {{ partial "header.html" . }}
 
-{{ partial "navigation.html" . }}
+{{ partial "navigation-dark.html" . }}
 
 
 
 
-<div class="bg-gradient-green">
+<div class="bg-dark">
   <div class="container space-2-top">
-    <h1 class="hero-title-lg mb-3 mb-4 text-center">Templates</h1>
+    <h1 class="hero-title-lg mb-3 mb-4 text-center text-white">Templates</h1>
     <div class="w-80 w-lg-60 mx-auto">
-      <p class="mx-auto display-lead mb-2 text-center">Grab a headstart with one of our free templates.</p>
+      <p class="mx-auto display-lead mb-2 text-center text-white opacity-75">Grab a headstart with one of our free templates.</p>
     </div>
   </div>
-</div>
+
 
 <div class="py-4">
   <div class="container-9 space-1-bottom">
     <div class="platform-subnav gap-md btn-tabs">
       <a href="/product">            
-       <button id="btn" type="button" class="btn btn-outline btn-lg">Product</button>
+       <button id="btn" type="button" class="btn btn-navigation-cta btn-lg">Product</button>
       </a>
       <a href="/integrations">
-      <button id="btn" type="button" class="btn btn-outline btn-lg">Integrations</button>
+      <button id="btn" type="button" class="btn btn-navigation-cta btn-lg">Integrations</button>
       </a>
       <a href="/templates">
           <button id="btn" type="button" class="btn btn-active btn-lg">Templates</button>
@@ -30,31 +30,31 @@
   </div>
 </div>
 
-<div class="space-1 container-narrow feature-grid">
+<div class="space-3-bottom space-1-top container-narrow feature-grid">
   <section class="feature-nav">
       <ul class="feature-nav-items">
           <li>
             <a href="/approval-apps/templates/">
             <div class="flex-row align-center">
-              <div class="icon-container">
+              <div class="icon-container bg-gray-5 ">
                 <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
                   <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><path class="fill" d="M12,6a6,6,0,0,0-6,6,5.91551,5.91551,0,0,0,5.93038,5.90059L12,17.9a5.831,5.831,0,0,0,5.9-5.76117q.00082-.06942,0-.13883a5.91549,5.91549,0,0,0-5.83038-5.99941Zm3.621,3.9535-3.612,4.717a.603.603,0,0,1-.4375.2305H11.535a.6.6,0,0,1-.4245-.1755L8.692,12.302a.6.6,0,0,1-.00147-.84853L8.692,11.452l.6635-.6625A.6.6,0,0,1,10.204,10.788l.00147.00147,1.2,1.2L13.945,8.65a.6.6,0,0,1,.8419-.10586l.0011.00086.7275.5665a.6.6,0,0,1,.10555.84194Z" />
                   <path class="fill" d="M5.7605,7H2.5A.5.5,0,0,1,2,6.5v-1A.5.5,0,0,1,2.5,5H8.13a7.95,7.95,0,0,1,3.5275-.9825A5.909,5.909,0,0,0,6,.1,5.831,5.831,0,0,0,.1,5.86117Q.09917,5.93059.1,6a5.90949,5.90949,0,0,0,3.917,5.6575A7.96053,7.96053,0,0,1,5.7605,7Z" />
                 </svg>
             </div>
-              <p class="feature-nav-subitem">Approval app</p>
+              <p class="feature-nav-subitem text-white">Approval app</p>
             </div>
           </a>   
           </li> 
           <li>
             <a href="/business-apps/templates/">
               <div class="flex-row align-center">
-              <div class="icon-container">
+              <div class="icon-container bg-gray-5 ">
                 <svg xmlns="http://www.w3.org/2000/svg" height="18" id="ImportedIcons" viewBox="0 0 18 18" width="18">
                   <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><path class="fill" d="M9.4325,7.94446q-.09531-.3045-.19257-.60907-.0954-.30461-.17651-.58777c-.05311-.18878-.10053-.36151-.14417-.518H8.90881a8.737,8.737,0,0,1-.22393.8548c-.09961.32068-.20209.648-.30457.98291q-.15508.50244-.30548.92981H9.76361c-.04266-.14233-.092-.30267-.1499-.481C9.55682,8.3382,9.497,8.14752,9.4325,7.94446Z" />
                   <path class="fill" d="M13.6,1H4.4A3.4,3.4,0,0,0,1,4.4v9.2A3.4,3.4,0,0,0,4.4,17h9.2A3.4,3.4,0,0,0,17,13.6V4.4A3.4,3.4,0,0,0,13.6,1ZM12.20007,12h-1.389a.09753.09753,0,0,1-.10627-.074l-.54559-1.58252H7.69061l-.502,1.56073A.12689.12689,0,0,1,7.05963,12H5.81012c-.07117,0-.09674-.03894-.075-.11768L7.87183,5.72675c.02179-.0636.04364-.13666.06451-.21918A2.20488,2.20488,0,0,0,7.979,5.075.06675.06675,0,0,1,8.054,5H9.75317q.07545,0,.08539.05408l2.426,6.83966C12.28546,11.9649,12.26459,12,12.20007,12Z" />
                 </svg>           </div>
-              <p class="feature-nav-subitem">CRUD app 
+              <p class="feature-nav-subitem text-white">CRUD app 
               </p>
             </div>
             </a>
@@ -62,33 +62,33 @@
           <li>
             <a href="/forms/templates/">
             <div class="flex-row align-center">
-              <div class="icon-container">
+              <div class="icon-container bg-gray-5 ">
                 <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
                   <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><rect class="fill" height="1" rx="0.177" width="16" x="1" y="3" />
                   <rect class="fill" height="1" rx="0.177" width="16" x="1" y="7" />
                   <path class="fill" d="M16,12v3H2V12Zm.75-1H1.25a.25.25,0,0,0-.25.25v4.5a.25.25,0,0,0,.25.25h15.5a.25.25,0,0,0,.25-.25v-4.5A.25.25,0,0,0,16.75,11Z" />
                 </svg>
             </div>
-              <p class="feature-nav-subitem">Form</p>
+              <p class="feature-nav-subitem text-white">Form</p>
             </div>
           </a>   
           </li> 
           <li>
             <a href="/portals/templates/">
             <div class="flex-row align-center">
-              <div class="icon-container">
+              <div class="icon-container bg-gray-5 ">
                 <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
                   <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><circle class="fill" cx="9" cy="5.5" r="1.75" />
                   <path class="fill" d="M15.5,1H2.5a.5.5,0,0,0-.5.5v15a.5.5,0,0,0,.5.5h13a.5.5,0,0,0,.5-.5V1.5A.5.5,0,0,0,15.5,1ZM15,16H12V14a1,1,0,0,0,1-1V10a2,2,0,0,0-2-2H7a2,2,0,0,0-2,2v3a1,1,0,0,0,1,1v2H3V2H15Z" />
                 </svg>         
               </div>
-              <p class="feature-nav-subitem">Portal 
+              <p class="feature-nav-subitem text-white">Portal 
               </p>
             </div>
             </a>
           </li>    
           <li class="mt-2">
-              <a href="/forms/templates/" class="btn btn-cta btn-sm">Submit template</a>
+              <a href="/forms/templates/" class="btn btn-cta">Submit template</a>
           </li>                         
         </ul>
   </section>
@@ -96,17 +96,18 @@
     <ul class="platform-card-grid">
       {{ range .Pages }}
       <li class="platform-card">
-        <a class="platform-card-inner" href="{{ .Permalink }}">
+        <a class="platform-card-inner-dark" href="{{ .Permalink }}">
           <div data-area="icon" class="template-icon-container bg-{{ .Params.thumbnailColor }}" > 
             <img class="template-icon" src="{{ .Params.Icon }}" />
         </div>
-          <span data-area="name" class="platform-card-name">{{ .Params.label }}</span>
-          <span data-area="description"class="platform-card-description">{{ .Description }}</span>
+          <span data-area="name" class="platform-card-name text-white">{{ .Params.label }}</span>
+          <span data-area="description" class="platform-card-description text-white opacity-75">{{ .Description }}</span>
         </a>
         {{ end }}
       </li>
     </ul>
   </div>
 </section>
+</div>
 
 {{ partial "cta.html" . }} {{ partial "footer.html" . }}

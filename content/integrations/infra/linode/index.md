@@ -13,7 +13,7 @@ integrationcategories = ["All", "Hosting"]
 published_by = "Budibase"
 site_url = "https://www.linode.com/"
 plan = "Free"
-docs_url = "https://docs.budibase.com/docs/docker-compose"
+docs_url = "https://docs.budibase.com/docs/linode"
 status = "Live" 
 +++
 
