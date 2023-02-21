@@ -5,15 +5,9 @@ page_title = "CSV"
 categories = ["data"] 
 description = "Easily upload data to Budibase using CSVs. A comma-separated values file is a delimited text file that uses a comma to separate values."
 images = ["integrations/csv-image.png"]
-logo = "integrations/csv-logo.png"
 draft= "false"
-integrations = ["data", "free"]
-integration= "data"
-integrationcategories = ["All", "Data-source"]
 site_url = "https://data.world/datasets/csv"
-published_by = "Budibase"
-plan = "Free"
-docs_url = "https://docs.budibase.com"
+docs_url = "https://docs.budibase.com/docs/budibasedb#csv-upload"
 status = "Live" 
 +++
 
