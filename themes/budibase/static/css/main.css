@@ -1686,9 +1686,19 @@ pre > code {
 }
 
 .hero-solutions-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1200px) {
+.hero-solutions-wrapper {
   display: grid;
   grid-template-columns: repeat(4,minmax(0,1fr));
   gap: 24px;
+  flex-wrap: wrap;
+}
 }
 
 .hero-solutions-app {
@@ -1898,7 +1908,7 @@ pre > code {
   background-color: #f7f7f814;
   border-radius: 0.75rem;
   height: 160px;
-  min-width: 420px;
+  width: 420px;
   position: absolute;
   display: block;
   line-height: 20px;
