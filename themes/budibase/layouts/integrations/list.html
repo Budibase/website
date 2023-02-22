@@ -104,6 +104,9 @@
 
     <li class="platform-card">
       <a class="platform-card-inner-dark" href="{{ .GithubUrl }}" target="_blank">
+        {{ if ne .Author "Budibase" }}
+        😎
+        {{ end }}
         <div class="platform-card-icon">
           {{ .PluginIcon | safeHTML }}
         </div>
