@@ -4,7 +4,7 @@ date = 2022-03-03T00:00:00Z
 description = "Our free quality control checklist template empowers manufacturing businesses to simplify inspections, spot-checks, and other QA tasks."
 destination = "https://budibase.app/builder?template=app/manufacturing-quality-control-checklist"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646325248/cms/Manufacturing_Quality_Control_Checklist_1_ryzkre.png"]
-label = "Manufacturing Quality Control Checklist Template"
+label = "Quality Control Checklist"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646324771/cms/Manufacturing_Quality_Control_Checklist_Gif_ivrkru.gif"
 summary = "Our quality control checklist template empowers manufacturing businesses to simplify inspections, spot-checks, and other QA tasks."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1646324760/cms/M
 thumbnailColor = "celery"
 title = "Manufacturing Quality Control Checklist | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 As a business, your reputation is based on the quality of your products. Even minor defects will undermine your revenue. Customers base their purchasing decisions on your reputation, as well as their own experience of your products.

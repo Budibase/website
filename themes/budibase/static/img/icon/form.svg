@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 18 18" width="18">
+  <defs>
+    <style>
+      .fill {
+        fill: #ffffff;
+      }
+    </style>
+  </defs>
+  <title>S Form 18 N</title>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="18" height="18" /><rect class="fill" height="1" rx="0.177" width="16" x="1" y="3" />
+  <rect class="fill" height="1" rx="0.177" width="16" x="1" y="7" />
+  <path class="fill" d="M16,12v3H2V12Zm.75-1H1.25a.25.25,0,0,0-.25.25v4.5a.25.25,0,0,0,.25.25h15.5a.25.25,0,0,0,.25-.25v-4.5A.25.25,0,0,0,16.75,11Z" />
+</svg>

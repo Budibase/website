@@ -4,7 +4,7 @@ date = 2022-03-04T00:00:00Z
 description = "Our open-source IT asset management software template is built to simplify device management workflows. Start using Budibase today for free."
 destination = "https://budibase.app/builder?template=app/it-asset-management-software"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646385879/cms/IT_Asset_Management_Template_1_nbxtnj.png"]
-label = "IT Asset Management Software Template"
+label = "IT Asset Management"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646385728/cms/IT_Asset_Management_Template_GIF_uxehtv.gif"
 summary = "Our open-source IT asset management software is built to simplify device management workflows."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1646385716/cms/I
 thumbnailColor = "indigo"
 title = "Open-Source IT Asset Management Software | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 An effective IT team is the heart of any successful organization. Asset maintenance and inventory management are key here. Ensuring that the right devices are available and working correctly is critical to all other business processes.

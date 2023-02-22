@@ -11,12 +11,11 @@ markup:
   goldmark:
     rendered:  
       hardWraps: "true"
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
 
-taxonomies:
-  category: "categories"
-  tag: "tags"
-  integrationcategory: "integrationcategories"
-  featured: "featured"
 
 params:
   keywords: ["Low code platform", "Custom software", "Web application builder", "internal tools", "internal tool builder"]
@@ -24,6 +23,7 @@ params:
   dateform: "Jan 2, 2006"
   lang: "en"
   images: ['budibase-gradient.jpg']
+  cloudinary_base_url: "https://res.cloudinary.com/daog6scxm/image/upload"
 
 author:
   name: "Joseph Johnston"
@@ -36,8 +36,6 @@ params.publisher.logo:
 
 params.logo:
   url: "/budibase-logo.png"
-
-cloudinary_base_url: https://res.cloudinary.com/daog6scxm
 
 
 

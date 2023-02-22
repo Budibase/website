@@ -4,7 +4,7 @@ date = 2022-03-01T00:00:00Z
 description = "Our free logistics request form template simplifies client onboarding and project initiation."
 destination = "https://budibase.app/builder?template=app/logistics-request-form"
 images = []
-label = "Logistics Request Form Template"
+label = "Logistics Request Form"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646149574/cms/Logistics_Request_Form_GIF_pt5cvy.gif"
 summary = "Our logistics request form template simplifies client onboarding, cost estimation, and project initiation. "
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1646149561/cms/L
 thumbnailColor = "green"
 title = "Logistics Request Form Template | Budibase"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 Give customers an intuitive, automated tool for requesting and costing shipments, transportation, and stock movement.

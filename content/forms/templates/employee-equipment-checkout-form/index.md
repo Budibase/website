@@ -4,7 +4,7 @@ date = 2022-01-18T00:00:00Z
 description = "Our free employee equipment checkout form template is the simple, effective way to manage devices."
 destination = "https://budibase.app/builder?template=app/employee-equipment-checkout-form"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639388152/cms/Employee_Equipment_Checkout_Form_Template_1_lyhmin.png"]
-label = "Employee Equipment Checkout Form Template"
+label = "Equipment Checkout Form"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639396182/cms/Employee_equipment_checkout_form_gif_w3mbd0.gif"
 summary = "Our employee equipment checkout form template provides a simple, effective way to manage device rental."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/E
 thumbnailColor = "indigo"
 title = "Employee Equipment Checkout Form Template | Budibase"
 type = "templates"
+icon = "/img/icon/form.svg"
 
 +++
 In the age of remote working, the need to manage how and when employees use devices has increased. Managing devices requires strong and efficient organization, communications, and workflows.

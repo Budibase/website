@@ -1,6 +1,7 @@
 {{ partial "header.html" . }}
 {{ partial "navigation.html" . }}
 
+
 <main id="content" role="main">
   <div class="space-1-top space-2-bottom container">
     <div class="breadcrumbs mb-8">
@@ -44,7 +45,7 @@
             <p class="text-xs text-light">Works on all devices</p>
           </div>
         </div>
-        <a href="{{ .Params.destination }}" class="btn btn-cta btn-lg sm-btn-block">Use this template</a>
+        <a href="{{ .Params.destination }}" class="btn btn-cta btn-lg sm-btn-block">Try template</a>
 
       </div>
         <div>
@@ -53,9 +54,9 @@
       </div>
         <div class="template-content">
           <aside class="template-toc rounded-sm position-sticky-lg sticky-subnav top">
-            <h4 class="mb-2">Table of contents</h4>
+            <h5 class="mb-2">Table of contents</h5>
             {{ .TableOfContents }}
-            <a href="{{ .Params.destination }}" class="btn btn-lg btn-cta btn-block">Use this template</a>
+            <a href="{{ .Params.destination }}" class="btn btn-sm btn-cta">Try template</a>
           </aside>
           <div class="article container-7">
             {{ .Content }}

@@ -4,8 +4,9 @@ date = 2022-01-18T00:00:00Z
 description = "Our free car rental admin panel is built to improve oversight and streamline admin workflows. Start using Budibase today."
 destination = "https://budibase.app/builder?template=app/car-rental-admin-panel"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642422387/cms/Car_Rental_Admin_Panel_1_iblm5t.png"]
-label = "Car Rental Admin Panel Template"
+label = "Car Rental Admin Panel"
 layout = "single"
+icon = "/img/icon/app.svg"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642426950/cms/Car_Rental_Admin_Panel_Gif_lt6sww.gif"
 summary = "Our car rental admin panel is built to improve oversight, cut operating costs, and streamline admin workflows."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642517413/cms/Car_Rental_Admin_Panel_Thumbnail_New_x2bhcv.png"

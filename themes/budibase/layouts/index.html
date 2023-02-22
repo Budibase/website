@@ -1,20 +1,16 @@
 {{ partial "header.html" . }}
-{{ partial "navigation-test.html" . }}
-{{ partial "hero-test.html" . }}
-<!--{{ partial "testimonial-block-gray.html" . }}-->
-{{ partial "features-homepage.html" . }}
-{{ partial "deploy.html" . }}
-{{ partial "extensible.html" . }}
-{{ partial "integration-banner.html" . }}
-<hr class="w-md-50 mt-9" />
-<div class="space-3">
-    {{ partial "solutions-banner-with-title.html" . }}
-</div>
-<hr class="w-md-50" />
-
-<div class="space-3">
-    {{ partial "templates.html" . }}  
-</div>
+{{ partial "navigation-dark.html" . }}
+{{ partial "homepage/hero-test-3-dark.html" . }}
+{{ partial "homepage/features-dark.html" . }}
+{{ partial "homepage/deploy-dark.html" . }}
+{{ partial "homepage/benefits.html" . }}
+{{ partial "homepage/integration-banner.html" . }}
+{{ partial "homepage/templates.html" . }}  
 {{ partial "cta.html" . }}
 {{ partial "footer.html" . }}
+
+<script src="{{ "js/hero-tabs.js" | absURL }}"></script>
+<script>
+  document.getElementById("defaultOpen").click();
+</script>
 

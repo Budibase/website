@@ -4,7 +4,7 @@ date = 2022-03-22T00:00:00Z
 description = "Use our free membership directory template is to gather, store, and manage members’ information, contact details, and more."
 destination = "https://budibase.app/builder?template=app/membership-directory"
 images = []
-label = "Membership Directory Template"
+label = "Membership Directory"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1647941479/cms/Membership_Directory_GIF_ab0si6.gif"
 summary = "Gather, store, and access members’ data, contact information, addresses, and more."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1647941469/cms/M
 thumbnailColor = "green"
 title = "Membership Directory Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 Manage data, share information, and automate repetitive tasks with our innovative low-code platform. Budibase is the smart way to cut operating costs and boost productivity for all kinds of membership organizations.

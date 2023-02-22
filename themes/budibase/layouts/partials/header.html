@@ -13,10 +13,8 @@
    <link rel="stylesheet" href="{{ "css/animate.min.css" | absURL }}">
    
 
-  <!-- CSS - Fonts -->
   {{ partial "meta.html" . }}
   {{ with .Site.Params.Author }}<meta name="author" content="{{ . }}">{{ end }}
-  <base href="{{ .Site.BaseURL }}">
  
   {{ hugo.Generator }}
 
@@ -28,9 +26,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">  
-
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600;700;800&family=Inter:wght@400;500;600;700;800&&family=Kaisei+Tokumin:wght@400;500;700;800&family=Familjen+Grotesk:wght@500;600;700&&display=swap" rel="stylesheet">  <script async defer src="https://buttons.github.io/buttons.js"></script>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 </head>

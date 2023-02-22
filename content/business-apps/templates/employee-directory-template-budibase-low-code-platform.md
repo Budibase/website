@@ -13,6 +13,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/E
 thumbnailColor = "purple"
 title = "Employee Directory Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 In the age of remote working, collaboration is difficult. Let your employees find and collaborate with colleagues, no matter where they are.

@@ -4,7 +4,8 @@ date = 2022-01-19T00:00:00Z
 description = "Our project approval system template is designed to digitize the initiation and authorization process. Start using Budibase today."
 destination = "https://budibase.app/builder?template=app/project-approval-system"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642420662/cms/Project_Approval_System_2_uenswv.png"]
-label = "Project Approval System Template"
+label = "Project Approval"
+icon = "/img/icon/approval.svg"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642420679/cms/Project_Approval_System_GIF_i4d0j0.gif"
 summary = "Our project approval system template is designed to digitize the initiation and authorization process."

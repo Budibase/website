@@ -4,7 +4,7 @@ date = 2022-03-22T00:00:00Z
 description = "Our employee check-in/check-out template is built to simplify time management and facility booking. Start using Budibase for free today."
 destination = "https://budibase.app/builder?template=app/employee-check-in-out"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647950284/cms/Employee_Check-in_check-out_template_1_izgikq.png"]
-label = "Employee Check-In/Check-Out Template"
+label = "Employee Check-In"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1647950336/cms/Employee_check-in_check-out_gif_kxmjrt.gif"
 summary = "Our employee check-in/check-out template is built to simplify time management and facility booking. "
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1647950326/cms/E
 thumbnailColor = "purple"
 title = "Employee Check-In/Check-Out Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 Create a reliable record of when each employee enters and leaves different sites, in seconds.

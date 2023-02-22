@@ -1,16 +1,16 @@
 ---
 title: Why the Bulgarian Goverment chose Budibase
-description: Learn how the Bulgarian Government used Budibase to rehome thousands of Ukrainian refugees.
-type: customers
+description: The Bulgarian Gov rehomes 100,000 refugees
+type: enterprise/customers
 layout: single
 date: "2022-08-01"
 images:
 - /img/meta-images/customers-stories.png
 - budibase-logo.jpg
-customer: Bulgarian Government
+customer: Bulgarian Gov
 headcount: "83,943"
 founded: "1942/1989"
-Revenue: $24 billion
+Revenue: 24 billion USD
 Industry: Government
 Website: https://www.gov.bg/en
 author: Bozhidar Bozhanov
@@ -22,7 +22,7 @@ The government of Bulgaria is a nation actively responding to the ongoing Russo-
 
 To manage the influx of refugees, and provide them with the due care, accommodation, and help, the Bulgarian government needed to [collect information from Ukrainian citizens entering Bulgaria](https://ukraine.gov.bg/ru/2022/05/24/how-and-why-to-fill-out-the-government-questionnaire-for-your-relocation/).
 
-A software project initiated by our prime minister and the cabinet would be the answer to this problem, allowing us to collect personal information from tens of thousands of refugees in the form of a [multi-step, logic-based questionnaire application](https://survey.ukraine.gov.bg/builder/auth/login). We were deeply constrained by time, so we decided to look for a low-code platform to help us deliver the solution faster. 
+A software project initiated by our prime minister and the cabinet would be the answer to this problem, allowing us to collect personal information from tens of thousands of refugees in the form of a [multi-step, logic-based questionnaire application](https://survey.ukraine.gov.bg/builder/auth/login). We were deeply constrained by time (4 days), so we decided to look for a low-code platform to help us deliver the solution faster. 
 
 When selecting a solution, it had to be open source  - this helps us adopt the tool quicker and reduces procurement efforts. The solution also had to be simple to use, performant, scalable, and self-hostable. We have access to large data centers and infrastructure, so security and privacy are always top-of-mind when choosing a solution. We also wanted to use an internal MySQL database to store our data. 
 

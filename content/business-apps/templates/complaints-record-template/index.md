@@ -4,7 +4,7 @@ date = 2022-03-22T00:00:00Z
 description = "Our free complaints record template is built to streamline information gathering, customer interactions, and incident response workflows."
 destination = "https://budibase.app/builder?template=app/complaints-record-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647957448/cms/Complaint_record_template_1_i2gusv.png"]
-label = "Complaints Record Template"
+label = "Complaints Record"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1647957811/cms/Complaint_Record_Template_GIF_cuxy7b.gif"
 summary = "Our complaints record template is built to streamline information gathering, customer interactions, and incident response workflows."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1647957801/cms/C
 thumbnailColor = "teal"
 title = "Complaints Record Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 With our lightweight template, employees and customers can log complaints, in seconds. Create a centralized, consistent record of all incidents, complaints, and feedback to maximize efficiency, accountability, and customer satisfaction.
@@ -66,7 +67,7 @@ Our template offers:
 * Responsive design.
 * Optional self-hosting.
 * Streamlined workflows.
-* Mult-step forms.
+* Multi-step forms.
 
 Use Budibase templates as fully deployable solutions, or customize them to match your existing workflows.
 

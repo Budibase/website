@@ -4,12 +4,13 @@ date = 2022-01-18T00:00:00Z
 description = "Our customer account portal template gives you a deployable self-service admin tool, in minutes. Start using our free low-code platform today."
 destination = "https://budibase.app/builder?template=app/customer-account-portal"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642414601/cms/Customer_Account_Portal_Screenshot_1_xx75sk.png"]
-label = "Customer Account Portal Template"
+label = "Customer Account Portal"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642414534/cms/Customer_Account_Portal_GIF_s52nel.gif"
 summary = "Our customer account portal template gives you a deployable self-service admin tool, in minutes."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/Customer_Account_Portal_Thumbnail_New_ttwvws.png"
 thumbnailColor = "yellow"
+icon = "/img/icon/portal.svg"
 title = "Customer Account Portal Template | Budibase | Low-Code Platform"
 type = "templates"
 

@@ -1,7 +1,7 @@
 ---
 title: Why Schnellecke uses Budibase
 description: Those same apps are now here in less than an hour
-type: customers
+type: enterprise/customers
 layout: single
 date: "2022-01-23"
 images:
@@ -10,12 +10,11 @@ images:
 customer: Schnellecke
 headcount: "16,343"
 founded: "1939"
-Revenue: 1.29 billion USD
+revenue: 1.29 billion USD
 Industry: Logistics
 Website: https://www.schnellecke.com/en/schnellecke-logistics
 author: Davide Lenzarini
 position: IT manager
-
 ---
 
 
@@ -25,4 +24,4 @@ Centralization of authentication, quick turnaround time for requests, integratio
 
 Those same apps, with Budibase, are now here in less than an hour. Colleagues were stunned by the data import functionality, seeing a sheet turn into a web app in minutes was the cherry on top.
 
-Budibase is a must-have platform for any IT department.
+With Budibase, we are 90% faster at building and deploying internal tools. It's a must-have platform for any IT department.
