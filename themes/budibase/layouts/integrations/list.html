@@ -100,18 +100,14 @@
   </section>
   <section class="feature-body">
   <ul class="platform-card-grid">
-    {{ range .RegularPagesRecursive.ByTitle    }}
+    {{ range .Site.Data.Integration }}
 
     <li class="platform-card">
-      <a class="platform-card-inner-dark" href="{{ .Params.docs_url }}" target="_blank">
-        <div data-area="icon"> 
-          {{ with .Resources.Match "*/logo*" }}
-          {{ range . }}
-          <img class="platform-card-icon" src="{{ .RelPermalink }}" />
-          {{ end }}
-          {{ end }}
-      </div>
-        <span data-area="name" class="platform-card-name text-white">{{ .Params.page_title }}</span>
+      <a class="platform-card-inner-dark" href="{{ .GithubUrl }}" target="_blank">
+        <div class="platform-card-icon">
+          {{ .PluginIcon | safeHTML }}
+        </div>
+        <span data-area="name" class="platform-card-name text-white">{{ .PluginName }}</span>
         <span data-area="description" class="platform-card-description text-white opacity-75">{{ .Description }}</span>
       </a>
       {{ end }}
@@ -122,3 +118,10 @@
 </div>
 
 {{ partial "cta.html" . }} {{ partial "footer.html" . }}
+
+<style>
+  .platform-card-icon > svg {
+    width: 100%;
+    height: 100%;
+  }
+</style>
