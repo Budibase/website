@@ -8,7 +8,7 @@ profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1659450296/cms/
 title = "A story about open-source, the Bulgarian Government, and the war in Ukraine"
 
 +++
-It was a Sunday morning, and Budibase's Bulgarian QA engineer, Mihail, receives multiple LinkedIn messages from multiple employees of the Bulgarian Ministry Of Foreign Affairs (MoFA). He brushed it off, thinking it was a scam. But, suddenly, he gets a call from his cousin who works with the MoFA.
+It was a Saturday morning, and Budibase's Bulgarian QA engineer, Mihail, receives multiple LinkedIn messages from multiple employees of the Bulgarian Ministry Of Foreign Affairs (MoFA). He brushed it off, thinking it was a scam. But, suddenly, he gets a call from his cousin who works with the MoFA.
 
 It turns out that the Bulgarian Government had been using Budibase [(open source repo)](https://github.com/Budibase/budibase "budibase open source repo") to build an app that would help them rehome thousands of Ukrainian refugees. Ukrainian refugees would log in and provide their information, and the Bulgarian Government would help them find a place to stay.  The app was a [multi-step, logic-based questionnaire app](https://survey.ukraine.gov.bg/builder/auth/login)) that stored its data in a SQL database. The app was self-hosted using Docker Compose.
 
