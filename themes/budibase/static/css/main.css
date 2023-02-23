@@ -1029,7 +1029,7 @@ input[type="month"] {
 
 .hero-title-lg-dark {
   text-size-adjust: 100%;
-  font-size: 2.2rem;
+  font-size: 3rem;
   margin-top: 0;
   margin-bottom: 0;
   font-family: 'Familjen Grotesk', sans-serif;  
@@ -1045,14 +1045,14 @@ input[type="month"] {
 @media (min-width: 576px) {
   .hero-title-lg-dark {
   text-size-adjust: 100%;
-  font-size: clamp(5rem, 6vw, 7rem);
+  font-size: clamp(4rem, 5vw, 6rem);
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;
   font-family: 'Familjen Grotesk', sans-serif;  
   color: var(--loContrast);
   text-rendering: optimizeLegibility;
-  line-height: .9;
+  line-height: .8;
   text-rendering: optimizeLegibility;
 }
 }
@@ -1724,15 +1724,39 @@ pre > code {
   -webkit-mask-position: top center;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-image: linear-gradient(0deg,#000 0,#000 66%,transparent);
-  width: 520px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   gap: .5rem;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  padding: 0 28px;
+  padding: 0 18px;
   background-color: #f7f7f814;
+}
+
+@media (min-width: 576px) {
+  .hero-app-inner {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-mask-position: top center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-image: linear-gradient(0deg,#000 0,#000 66%,transparent);
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 28px;
+    background-color: #f7f7f814;
+  }
 }
 
 .hero-app-inner::before {
@@ -1748,11 +1772,20 @@ pre > code {
   border: 1px solid #f7f7f814;
 }
 
-.hero-app-content {
+.hero-app-content-inner {
   max-width: 24rem;
   padding: 1.5rem;
   text-align: left;
 }
+@media (min-width: 576px) {
+.hero-app-content-inner {
+  max-width: 24rem;
+  padding: 1.5rem;
+  text-align: left;
+}
+}
+
+
 
 
 .hero-solutions-form {
@@ -1782,6 +1815,18 @@ pre > code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 576px) {
+.hero-form-inner {
+  width: 16rem;
+  margin-top: 2.7rem;
+  gap: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 }
 
 .hero-form-input {
@@ -1831,7 +1876,6 @@ pre > code {
   max-width: 20rem;
   padding: 1.5rem;
   text-align: left;
-
 }
 
 .hero-solutions-workflow {
@@ -1849,9 +1893,16 @@ pre > code {
   }
 
   .hero-workflow-inner {
+    min-width: 220px;
+    padding: 1.25rem;
+  }
+
+  @media (min-width: 576px) {
+  .hero-workflow-inner {
     min-width: 420px;
     padding: 1.25rem;
   }
+}
 
   .hero-workflow-inner::before {
     background-image: radial-gradient(73% 73% at -12.39% 4.13%,hsla(256,7%,97%,.09) 0,hsla(256,7%,97%,0) 100%);
@@ -1861,6 +1912,20 @@ pre > code {
     bottom: 0;
     left: 0;
     content: "";
+  }
+
+
+  .hero-workflow-content-inner {
+    max-width: 24rem;
+    padding: 1.5rem;
+    text-align: left;
+  }
+
+  @media (min-width: 576px) {
+    .hero-workflow-content-inner {
+      max-width: 24rem;
+      text-align: left;
+    }
   }
 
 
