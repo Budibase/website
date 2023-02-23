@@ -11,3 +11,9 @@ $RECYCLE.BIN/
 # OSX
 .DS_Store
 *.iml
+
+.env
+
+#generated on build
+data/Component
+data/Integration
