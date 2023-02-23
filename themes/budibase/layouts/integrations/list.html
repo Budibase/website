@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 {{ partial "navigation-dark.html" . }}
+{{ $category := .Params.Category | default "all" }}
 <div class="bg-dark">
   <div class="container space-2-top">
     <h1 class=" mb-3 mb-4 text-center hero-title-lg text-white">
@@ -101,7 +102,7 @@
   <section class="feature-body">
   <ul class="platform-card-grid">
     {{ range .Site.Data.Integration }}
-
+    {{ if or (eq .Category $category) (eq $category "all")  }}
     <li class="platform-card">
       <a class="platform-card-inner-dark" href="{{ .GithubUrl }}" target="_blank">
         {{ if ne .Author "Budibase" }}
@@ -114,7 +115,7 @@
         <span data-area="description" class="platform-card-description text-white opacity-75">{{ .Description }}</span>
       </a>
       {{ end }}
-      
+    {{ end }}
     </li>
   </ul>
 </div>
