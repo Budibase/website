@@ -18,7 +18,7 @@ Of course, we’ll also look at some more specific examples, use cases, challeng
 
 That’s a lot to cover, so settle in.
 
-But, before we get to all of that, it’s worth starting with the basics.
+But, before we get to all of that, it’s worth starting with the basics. 
 
 ## What is data management?
 
