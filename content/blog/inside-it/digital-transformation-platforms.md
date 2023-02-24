@@ -340,7 +340,7 @@ What conflicts might we run up against?
 
 The really challenging thing here is that incompatibilities might crop up at all levels, from our hardware and infrastructure to our existing platforms for managing specific workflows and tasks.
 
-### Other NFDs
+### Other NFRs
 
 Of course, it’s hard to give a comprehensive overview of every possible non-functional requirement that you might need to consider.
 
@@ -408,7 +408,7 @@ And the third thing that we want to concern ourselves with is *who* is doing thi
 
 The COTS option might seem at first glance a little bit more straightforward, but we have almost as many plates to spin here. Indeed, the larger your organization, the more in-depth - and therefore lengthy - your vetting process for digital transformation platforms.
 
-The first decision is relatively easy to wrap our heads around. *Is a suitable solution even available commercially?* To figure this out, we can start with our functional requirements, before moving on to our NFDs and any other considerations we identified earlier.
+The first decision is relatively easy to wrap our heads around. *Is a suitable solution even available commercially?* To figure this out, we can start with our functional requirements, before moving on to our NFRs and any other considerations we identified earlier.
 
 How you weight each of these will obviously be contingent on your own needs and goals.
 
