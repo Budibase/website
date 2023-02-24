@@ -877,6 +877,7 @@ html [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+  appearance: button;
 }
 
 button::-moz-focus-inner,
@@ -3473,9 +3474,6 @@ details[open] > summary {
   }
 }
 
-.faq:nth-child(7) {
-}
-
 .budibase-diagram {
   display: flex;
   align-items: center;
@@ -5544,9 +5542,6 @@ border-radius: .75rem;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   }
-}
-
-.template-container {
 }
 
 @media (min-width: 765px) {
@@ -9772,9 +9767,6 @@ button:focus {
     padding-left: 0rem;
   }
   .navbar-expand-lg .u-header__mega-menu-col:not(:last-child) {
-  }
-  .navbar-expand-lg .u-header__mega-menu-wrapper-v1 {
-
   }
 
   .navbar-expand-lg .u-header__nav-item-user {
@@ -14452,7 +14444,7 @@ button:focus {
 }
 
 
-table{
+table {
   color: var(--hiContrast);
 }
 
@@ -14495,4 +14487,5 @@ td {
 .container-fw {
   width: 100%;
   z-index: -1;
+}
 }
