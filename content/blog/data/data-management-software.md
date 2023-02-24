@@ -1,5 +1,5 @@
 author = "Ronan McQuillan"
-date = 2023-02-24T23:00:00Z
+date = "2023-02-24"
 description = "Check out our guide to choosing the perfect data management software solutions."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1677238457/cms/What_are_Internal_Processes_e0nga6.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1677238457/cms/What_are_Internal_Processes_e0nga6.png"]
