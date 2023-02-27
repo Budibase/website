@@ -30,7 +30,7 @@
     --purple3: #7154FF;
     --purple4: #6140ff;
     --purple5: #18008f;
-    --green1: #f0fdf7;
+    --green1: #dbf9eb;
     --green2: #64ecaf;
     --green3: #41E89D;
     --green4: rgb(21, 164, 110);
@@ -635,7 +635,7 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   opacity: 1 !important;
-  cursor: default;
+  cursor: pointer;
 }
 
 a:hover {
@@ -6157,10 +6157,31 @@ fieldset:disabled a.btn {
 
 
 .btn-navigation-cta:hover {
-  background-color: hsla(256,5%,97%,.15);
+  background-color: rgba(247, 247, 248, 0.15);
   color: white;
   cursor: pointer;
 }
+
+.btn-cta-light {
+  background-color: rgba(178, 178, 226, 0.2);
+  color: var(--loContrast);
+  background: linear-gradient(90.33deg,rgba(32, 145, 251, 0.2),
+  rgba(1, 153, 255, 0.09));
+  border: 1px solid hsla(0, 0%, 100%,0.05);
+  background-size: 200%;
+  background-position: 100% 0;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 17px;
+  transition: background-position .2s;
+}
+
+.btn-cta-light:hover {
+  background-color: rgba(32, 145, 251, 0.2);
+  color: white;
+  cursor: pointer;
+}
+
 
 .btn-quiet {
   color: var(--gray1000);
