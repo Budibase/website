@@ -1,33 +1,30 @@
-{{ partial "header.html" . }} {{ partial "navigation.html" . }}
-
-  <div class="space-2-top">
+{{ partial "header.html" . }} {{ partial "navigation-dark.html" . }}
+  <div class="bg-dark space-2-top">
     <div class="container">
-      <h1 class="hero-title-lg text-center display-font mb-4">Start with your team for free</h1>
+      <h1 class="hero-title-lg text-center display-font mb-4 text-white">Pricing</h1>
+      <p class="lead-lg mx-auto w-lg-40 text-center text-white opacity-75">Try with your team for free. Upgrade for higher usage limits and additional features.</p>
       <div class="pricing-tabs-container flex-row gap-md py-4">
-        <div class="tab px-4 bg-white">
-            <button class="btn btn-tag tablinks" onclick="openPricing(event, 'cloud')" id="defaultOpen">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="24px" stroke-width="1.5" stroke="#aaaaaa" class="w-6 h-6 mr-1">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 004.5 4.5H18a3.75 3.75 0 001.332-7.257 3 3 0 00-3.758-3.848 5.25 5.25 0 00-10.233 2.33A4.502 4.502 0 002.25 15z" />
-            </svg>
-            Cloud</button>
-              <button class="btn btn-tag-quiet tablinks" onclick="openPricing(event, 'selfHost')" >
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="24px" stroke-width="1.5" stroke="#aaaaaa" class="w-6 h-6 mr-2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z" />
-              </svg>
-              Self-host</button>
+        <div class="tab px-4">
+            <button class="btn tablinks" onclick="openPricing(event, 'cloud')" id="defaultOpen">
+            Budibase cloud</button>
+              <button class="btn tablinks" onclick="openPricing(event, 'selfHost')" >
+              Self-managed</button>
         </div>
       </div>
 <div class="mt-2 mb-6">
   <div id="cloud" class="tabcontent">
-  {{ partial "pricing/per-user.html"}}
+  {{ partial "pricing/per-user-dark.html"}}
   </div>
   <div id="selfHost" class="tabcontent">
-    {{ partial "pricing/per-user-self-host.html"}}
+    {{ partial "pricing/per-user-self-host-dark.html"}}
   </div>
 </div>
 <div class="space-2-top mb-6">
-  {{ partial "pricing/pricing-faqs.html" . }}
+  {{ partial "pricing/faqs-dark.html" . }}
 </div>
+</div>
+</div>
+
 {{ partial "cta.html" . }}
 {{ partial "footer.html" . }}
 
