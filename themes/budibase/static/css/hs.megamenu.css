@@ -27,7 +27,7 @@
 	display: none;
 	position: absolute;
 	top: 100%;
-	z-index: 2;
+	z-index: 90;
 	margin-top: 0;
 	visibility: hidden;
 	background-color: transparent;

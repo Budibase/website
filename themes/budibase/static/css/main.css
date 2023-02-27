@@ -635,6 +635,7 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   opacity: 1 !important;
+  cursor: default;
 }
 
 a:hover {
@@ -4381,6 +4382,16 @@ ul {
   grid-template-columns: 2fr repeat(4, minmax(0, 1fr));
   grid-template-rows: auto;
   padding: 0;
+}
+
+.pricing-header {
+  position: sticky;
+  top: 50px;
+  overflow: visible;
+  height: 90px;
+  background: var(--dark);
+  z-index: 2;
+  padding-bottom: 12px ;
 }
 
 .pricing-table-header-container {
@@ -9172,6 +9183,7 @@ button:focus {
 .navbar-expand .u-header__mega-menu-wrapper-v1 {
   padding-right: .5rem;
   padding-left: .5rem;
+  z-index: 4;
 }
 
 .navbar-expand .u-header__nav-item-btn {
@@ -9333,6 +9345,8 @@ button:focus {
   .navbar-expand-sm .u-header__mega-menu-wrapper-v1 {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+    z-index: 4;
+
   }
   .navbar-expand-sm .u-header__nav-item-btn {
     padding-left: 1rem;
@@ -9485,6 +9499,7 @@ button:focus {
   .navbar-expand-md .u-header__mega-menu-wrapper-v1 {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+    z-index: 4;
   }
   .navbar-expand-md .u-header__nav-item-btn {
     padding-left: 1rem;
@@ -9716,7 +9731,8 @@ button:focus {
     border-radius: var(--radius-2);
     margin-top: -10px;
     background-color: var(--white);
-    box-shadow:  0 6px 20px rgb(84 70 35 / 30%), 0 0 1px rgb(84 70 35 / 50%)
+    box-shadow:  0 6px 20px rgb(84 70 35 / 30%), 0 0 1px rgb(84 70 35 / 50%);
+    z-index: 5;
   }
   .navbar-expand-lg .u-header__navbar-nav .u-header__nav-link {
     padding-top: 1rem;
@@ -9828,6 +9844,7 @@ button:focus {
   .navbar-expand-xl .u-header__mega-menu-wrapper-v1 {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+    z-index: 4;
   }
   .navbar-expand-xl .u-header__nav-item-btn {
     padding-left: 1rem;
