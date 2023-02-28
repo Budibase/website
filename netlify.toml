@@ -44,54 +44,6 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
   status = 301
 
 [[redirects]]
-  from = "/build-a-web-app"
-  to = "/platform"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/host-a-web-app"
-  to = "/platform"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/product"
-  to = "/platform"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/manage-a-web-app"
-  to = "/platform"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/design/"
-  to = "/platform"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/automate/"
-  to = "/platform"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/data/"
-  to = "/platform"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/deploy/"
-  to = "/platform"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/investment"
   to = "/about"
   status = 301
