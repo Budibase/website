@@ -39,11 +39,6 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
   force = true
 
 [[redirects]]
-  from = "/css/annimate.css"
-  to = "/css/main.css"
-  status = 301
-
-[[redirects]]
   from = "/investment"
   to = "/about"
   status = 301
