@@ -3342,7 +3342,7 @@ details[open] > summary {
 
 .trusted-by-logo-white {
   width: 100px;
-  max-height: 80px;
+  aspect-ratio: auto 100 / 50;
   margin: 8px;
   text-align: center;
   filter: brightness(0) invert(1);
