@@ -3341,11 +3341,13 @@ details[open] > summary {
 
 
 .trusted-by-logo-white {
-  width: clamp(100px, 2vw, 120px);
+  width: 100px;
+  max-height: 80px;
   margin: 8px;
   text-align: center;
   filter: brightness(0) invert(1);
 }
+
 .trusted-by-logo {
   width: clamp(100px, 2vw, 120px);
   margin: 8px;
