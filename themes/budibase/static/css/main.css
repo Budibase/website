@@ -14269,7 +14269,7 @@ button:focus {
   margin-top: 3.5rem;
   margin-bottom: .75rem;
   font-weight: 600;
-  font-variation-settings: "wght" 650;  
+  font-variation-settings: "wght" 670;  
   font-size: 36px;
   color: var(--hiContrast);
   line-height: 1.1;
@@ -14287,6 +14287,7 @@ button:focus {
   font-size: 28px;
   color: var(--hiContrast);
   font-weight: 600px;
+  font-variation-settings: "wght" 670;  
   line-height: 1.1;
 }
 .article h3::before {

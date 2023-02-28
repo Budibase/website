@@ -8,12 +8,12 @@
 <article>
   <div class="article space-2-top">
     <div class="container">
-      <header class="w-md-75 w-lg-60 w-xl-50 mx-md-auto">
+      <header class="w-md-75 w-lg-60 w-xl-50 mx-md-auto text-center">
           <h1 class="text-center">{{ .Title }}</h1>
           {{ if (.Params.profilePic) }}
-              <img class="u-md-avatar mt-4" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+              <img class="u-md-avatar rounded-circle mt-4" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
           {{ else }}
-              <img class="u-md-avatar mt-4" src="/img/team/joe.webp">
+              <img class="u-md-avatar rounded-circle mt-4" src="/img/team/joe.webp">
           {{ end }}
           <p class="text-center">By: {{ .Params.author }} </p>
           <p class="mb-6 text-center">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }} </p>
