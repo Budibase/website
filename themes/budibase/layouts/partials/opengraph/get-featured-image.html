@@ -1,0 +1,24 @@
+{{ $images := $.Resources.ByType "image" }}
+{{ $featured := $images.GetMatch "*feature*" }}
+{{ if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end }}
+{{ if not $featured }}
+    {{ $featured = resources.Get "/opengraph/budibase-card-base-1.png" }}
+    {{ $size := 40 }}
+    {{ $title := $.LinkTitle }}
+    {{ if gt (len $title) 20 }}
+    {{ $size = 40 }}
+    {{ end }}
+
+    {{ $text := $title }}
+                {{ $textOptions := dict 
+                    "color" "#FFF"
+                    "size" $size
+                    "lineSpacing" 8
+                    "x" 60 "y" 80
+                    "font" (resources.Get "/opengraph/inter-bold.otf")
+                }}
+
+    {{ $featured = $featured | images.Filter (images.Text $text $textOptions) }}
+{{ end }}
+
+{{ return $featured }}
