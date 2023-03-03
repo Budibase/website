@@ -7830,6 +7830,206 @@ background: linear-gradient(180deg, rgba(255,252,252,1) 0%, rgba(255,254,252,1) 
   background-color: var(--blue-1300)
 }
 
+.bg-purple-100 {
+  background-color: var(--purple-100)
+}
+.bg-purple-200 {
+  background-color: var(--purple-200)
+}
+.bg-purple-300 {
+  background-color: var(--purple-300)
+}
+.bg-purple-400 {
+  background-color: var(--purple-400)
+}
+.bg-purple-500 {
+  background-color: var(--purple-500)
+}
+.bg-purple-600 {
+  background-color: var(--purple-600)
+}
+.bg-purple-700 {
+  background-color: var(--purple-700)
+}
+.bg-purple-800 {
+  background-color: var(--purple-800)
+}
+.bg-purple-900 {
+  background-color: var(--purple-900)
+}
+.bg-purple-1000 {
+  background-color: var(--purple-1000)
+}
+.bg-purple-1100 {
+  background-color: var(--purple-1100)
+}
+.bg-purple-1200 {
+  background-color: var(--purple-1200)
+}
+.bg-purple-1300 {
+  background-color: var(--purple-1300)
+}
+
+.bg-red-100 {
+  background-color: var(--red-100)
+}
+.bg-red-200 {
+  background-color: var(--red-200)
+}
+.bg-red-300 {
+  background-color: var(--red-300)
+}
+.bg-red-400 {
+  background-color: var(--red-400)
+}
+.bg-red-500 {
+  background-color: var(--red-500)
+}
+.bg-red-600 {
+  background-color: var(--red-600)
+}
+.bg-red-700 {
+  background-color: var(--red-700)
+}
+.bg-red-800 {
+  background-color: var(--red-800)
+}
+.bg-red-900 {
+  background-color: var(--red-900)
+}
+.bg-red-1000 {
+  background-color: var(--red-1000)
+}
+.bg-red-1100 {
+  background-color: var(--red-1100)
+}
+.bg-red-1200 {
+  background-color: var(--red-1200)
+}
+.bg-red-1300 {
+  background-color: var(--red-1300)
+}
+
+.bg-orange-100 {
+  background-color: var(--orange-100)
+}
+.bg-orange-200 {
+  background-color: var(--orange-200)
+}
+.bg-orange-300 {
+  background-color: var(--orange-300)
+}
+.bg-orange-400 {
+  background-color: var(--orange-400)
+}
+.bg-orange-500 {
+  background-color: var(--orange-500)
+}
+.bg-orange-600 {
+  background-color: var(--orange-600)
+}
+.bg-orange-700 {
+  background-color: var(--orange-700)
+}
+.bg-orange-800 {
+  background-color: var(--orange-800)
+}
+.bg-orange-900 {
+  background-color: var(--orange-900)
+}
+.bg-orange-1000 {
+  background-color: var(--orange-1000)
+}
+.bg-orange-1100 {
+  background-color: var(--orange-1100)
+}
+.bg-orange-1200 {
+  background-color: var(--orange-1200)
+}
+.bg-orange-1300 {
+  background-color: var(--orange-1300)
+}
+
+.bg-yellow-100 {
+  background-color: var(--yellow-100)
+}
+.bg-yellow-200 {
+  background-color: var(--yellow-200)
+}
+.bg-yellow-300 {
+  background-color: var(--yellow-300)
+}
+.bg-yellow-400 {
+  background-color: var(--yellow-400)
+}
+.bg-yellow-500 {
+  background-color: var(--yellow-500)
+}
+.bg-yellow-600 {
+  background-color: var(--yellow-600)
+}
+.bg-yellow-700 {
+  background-color: var(--yellow-700)
+}
+.bg-yellow-800 {
+  background-color: var(--yellow-800)
+}
+.bg-yellow-900 {
+  background-color: var(--yellow-900)
+}
+.bg-yellow-1000 {
+  background-color: var(--yellow-1000)
+}
+.bg-yellow-1100 {
+  background-color: var(--yellow-1100)
+}
+.bg-yellow-1200 {
+  background-color: var(--yellow-1200)
+}
+.bg-yellow-1300 {
+  background-color: var(--yellow-1300)
+}
+
+.bg-teal-100 {
+  background-color: var(--teal-100)
+}
+.bg-teal-200 {
+  background-color: var(--teal-200)
+}
+.bg-teal-300 {
+  background-color: var(--teal-300)
+}
+.bg-teal-400 {
+  background-color: var(--teal-400)
+}
+.bg-teal-500 {
+  background-color: var(--teal-500)
+}
+.bg-teal-600 {
+  background-color: var(--teal-600)
+}
+.bg-teal-700 {
+  background-color: var(--teal-700)
+}
+.bg-teal-800 {
+  background-color: var(--teal-800)
+}
+.bg-teal-900 {
+  background-color: var(--teal-900)
+}
+.bg-teal-1000 {
+  background-color: var(--teal-1000)
+}
+.bg-teal-1100 {
+  background-color: var(--teal-1100)
+}
+.bg-teal-1200 {
+  background-color: var(--teal-1200)
+}
+.bg-teal-1300 {
+  background-color: var(--teal-1300)
+}
+
 
 .border-top {
   border-top: 1px solid var(--gray-700);
@@ -7968,9 +8168,6 @@ background: linear-gradient(180deg, rgba(255,252,252,1) 0%, rgba(255,254,252,1) 
   background-color: var(--purple-1200);
 }
 
-.bg-purple-2 {
-  background-color: #deb9ff;
-}
 
 .bg-red {
   background-color: #ec5b62;
