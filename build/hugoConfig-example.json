@@ -1,0 +1,7 @@
+{
+  "root": "website",
+  "type": "plugin",
+  "pages": "plugins",
+  "contentPath": "content",
+  "hugoPath": "/opt/homebrew/bin/hugo"
+}

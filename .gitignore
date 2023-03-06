@@ -17,3 +17,13 @@ $RECYCLE.BIN/
 #generated on build
 data/Component
 data/Integration
+
+
+# Hugo default output directory
+build/example/public
+# Hugo generated resources directory
+build/example/resources
+
+build/node_modules/*
+build/.DS_Store
+build/.env
