@@ -87,6 +87,7 @@
     --orange-1000:rgb(255, 162, 59);
     --orange-1100:rgb(255, 188, 102);
     --orange-1200:rgb(255, 226, 181);
+    --orange-1300:rgb(251, 224, 183);
     --yellow-100: rgb(53, 36, 0);
     --yellow-200: rgb(68, 47, 0);
     --yellow-300: rgb(86, 62, 0);
@@ -1136,7 +1137,7 @@ input[type="month"] {
 @media (min-width: 576px) {
   .hero-title-lg-dark {
   text-size-adjust: 100%;
-  font-size: clamp(4rem, 5vw, 6rem);
+  font-size: clamp(4rem, 4.5vw, 5.1rem);
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;
