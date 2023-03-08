@@ -9,9 +9,8 @@ date: 2023-03-06
  - [Community support](#community-support)
  - [Business support](#business-support)
  - [Enterprise support](#enterprise-support)
- - [Not supported](#not-supported)
 
-Budibase provides community support by default, but extended support is available for Enterprise customers. 
+Budibase provides community support by default, but extended support is available for customers. 
 
 ---
 
@@ -29,23 +28,38 @@ The GitHub repository is a good place to look for FAQs.
 
 In addition to having all of the community resources available, users on the Business plan can contact support directly via email. This provides a private communication channel for support.
 
+###### What is supported?
+
+ - ✓ Answering questions about building Budibase apps
+ - ✓ Investigating issues relating to the Budibase platform
+ - ✓ Guidance on building custom plugins
+
+###### Not supported
+ - \- Infrastructure support for self-hosted users
+ - \- Maintaining custom plugins
+ - \- Debugging code, such as JavaScript and SQL, etc
+
 ---
 
 #### Enterprise support
 
-The Enterprise tier provides your business with priority support and the reassurance of SLAs. Furthermore, an Account Manager will be assigned to assist with onboarding.
+The Enterprise tier provides your business with prompt priority support. Furthermore, an Account Manager will be assigned to assist with onboarding.
 
 You can view the additional features included in Enterprise on the [pricing page](https://budibase.com/pricing/).
 
-##### SLA Levels
-List of the SLAs that Budibase provides here...
+###### What is supported?
+
+ - ✓ Answering questions about building Budibase apps
+ - ✓ Investigating issues relating to the Budibase platform
+ - ✓ Guidance on building custom plugins
+ - ✓ Onboarding
+ - ✓ Infrastructure support for self-hosted users
+
+###### Not supported 
+ - \- Maintaining custom plugins
+ - \- Debugging code, such as JavaScript and SQL, etc
+
+###### SLA
+ - ✓ Response within two business days
 
 ---
-
-#### Not supported
-
-The Customer Success team is here to help you build apps within the Budibase platform, but areas that fall outside this scope are not covered. These include, but are not limited to:
-
- - \- Infrastructure support for self-hosted users
- - \- Supporting custom plugins
- - \- Teaching JavaScript, CSS, SQL, etc
