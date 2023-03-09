@@ -16,6 +16,7 @@ markup:
     ordered: false
     startLevel: 2
 
+paginate: 8
 
 params:
   keywords: ["Low code platform", "Custom software", "Web application builder", "internal tools", "internal tool builder"]
