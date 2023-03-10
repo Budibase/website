@@ -34,9 +34,9 @@
         <a href="{{ .Permalink }}">
                 <div class="blog-feature-card">
                       <img class="thumbnail-image rounded" src=" {{ if $.Site.Params.cloudinary_base_url }}{{ .Params.image }}{{else}}{{ .Params.image }}{{end}}"/>
-                          <p class="mt-4 text-grey text-xs">{{ .Params.author }} | {{ .Date.Format .Site.Params.dateform }} </p>
-                        <h2 class="h4 mb-2 mt-2 line-clamp-1">{{ .Title }}</h2>
-                        <p class="mb-3 two-line-clamp">{{ .Description }} </p>
+                        <h2 class="h4 mb-2 mt-4 line-clamp-1">{{ .Title }}</h2>
+                        <p class="two-line-clamp">{{ .Description }} </p>
+                        <p class="mt-2 text-grey text-xs">{{ .Params.author }} | {{ .Date.Format .Site.Params.dateform }} </p>
                 </div>
               </a>
       {{ end }}

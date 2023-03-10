@@ -8,29 +8,42 @@
 <article>
   <div class="article space-2-top">
     <div class="container">
-      <header class="w-md-75 w-lg-60 w-xl-50 mx-md-auto text-center">
-          <h1 class="text-center">{{ .Title }}</h1>
+      <div class="article-grid">
+        <div class="flex-column space-between">
+        <a class="font-sans opacity-75 font-weight-medium text-xs a-alt" href="/blog/"><- All posts</a>
+        <p class="font-sans opacity-75 text-xs space-4-top">Posted by:</p>
+        <div class="flex-row align-center">
           {{ if (.Params.profilePic) }}
-              <img class="u-md-avatar rounded-circle mt-4" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+              <img class="u-md-avatar rounded-circle" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
           {{ else }}
-              <img class="u-md-avatar rounded-circle mt-4" src="/img/team/joe.webp">
+              <img class="u-md-avatar rounded-circle" src="/img/team/joe.webp">
           {{ end }}
-          <p class="text-center">By: {{ .Params.author }} </p>
-          <p class="mb-6 text-center">{{ .Date.Format .Site.Params.dateform }} | {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }} </p>
+          <p class="ml-3 font-sans text-xs">{{ .Params.author }} </p>
         </div>
+        <p class="space-2-top text-xs font-sans opacity-75">Related reading</p>  
+        <ul class="feature-nav-items"> 
+        <li><a href="{{if .PrevInSection}}{{.PrevInSection.Permalink}}{{end}}" class="a-alt text-xs font-sans font-weight-medium">{{if .PrevInSection}}{{.PrevInSection.Title}}{{end}}</a></li>
+        <li><a href="{{if .NextInSection}}{{.NextInSection.Permalink}}{{end}}" class="a-alt text-xs font-sans font-weight-medium">{{if .NextInSection}}{{.NextInSection.Title}}{{end}}</a></li>
+      </ul>
       </div>
+      <div class="article">
+      <header class="mx-md-auto">
+          <p class="mb-4 opacity-75 font-sans text-xs font-weight-medium">Published on {{ .Date.Format .Site.Params.dateform }} </p>
+          <h1>{{ .Title }}</h1>
+
         <!-- End Author -->
       </header>
-
-      <img class="article-title-img rounded" src="{{ with .Params.image }}{{ . }}{{ end }}" />      
       <!-- Description -->
-      <div class="article">
-        <div class="container space-1-top ">
-          <div class="w-md-75 w-lg-60 w-xl-50 mx-md-auto mb-9">
+        <div class=" space-1-top">
+          <div class="mx-md-auto mb-9">
               {{ .Content }}
           </div>
         </div>
+        </div>
+        </div>
       </div>
+    </div>
+
     </article>
 </main>
 
