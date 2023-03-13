@@ -154,7 +154,7 @@ Say we had a simple approval process for employees to request assets from the IT
 
 Digitalization provides a clear route through this. For example, we can automate simple decisions, notify competent employees when a case needs their attention, and provide easy access to information about where specific assets are deployed at any given time.
 
-**IT ASSET MANAGEMENT GIF**
+![Asset Management Gif](https://res.cloudinary.com/daog6scxm/image/upload/v1646385728/cms/IT_Asset_Management_Template_GIF_uxehtv.gif "Asset Management Gif")
 
 ### 3. Rationalizing internal roles
 
