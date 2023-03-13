@@ -5036,29 +5036,54 @@ font-family: 'Unbounded', cursive !important;
 
 /* extensibility container */
 
-.extensibility-wrapper {
+.col-3 {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(1fr);
-  grid-gap: 4rem;
+  grid-gap: 2rem;
 }
 
 @media (min-width: 768px) {
-  .extensibility-wrapper {
+  .col-3 {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 4rem;
+    grid-gap: 2rem;
   }
   }
 
   @media (min-width: 992px) {
-    .extensibility-wrapper {
+    .col-3 {
       margin: auto;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2rem;
+    }
+  }
+
+  .extensibility-wrapper {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-gap: 4rem;
+  }
+  
+  @media (min-width: 768px) {
+    .extensibility-wrapper {
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
       grid-gap: 4rem;
     }
+    }
+  
+    @media (min-width: 992px) {
+      .extensibility-wrapper {
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 4rem;
+      }
     }
 
 
