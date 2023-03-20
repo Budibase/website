@@ -122,7 +122,7 @@ If it’s ever going to be usable, we’re going to need to allow users to provi
 
 ![Type Test](https://res.cloudinary.com/daog6scxm/image/upload/v1679328599/cms/Type_Test_vz1fga.webp "Type Test")
 
-This time it’s created a *TYPE* command with the value *TEST* - since that’s what we typed into the text box. To let users set a value for this, we’ll add a *PROMPT* command to the start of our sequence and bind its output to the value of the *TYPE* step:
+This time it’s created a *TYPE* command with the value *TEST* - since that’s what we typed into the text box. To let users set a value for this, we’ll add a *PROMPT* command to the start of our sequence and bind its output to the value of the *TYPE* step, with /${appName}:
 
 ![Bind app name](https://res.cloudinary.com/daog6scxm/image/upload/v1679328599/cms/Bind_App_Name_uev1l5.webp "Bind app name")
 
@@ -136,11 +136,7 @@ The difference is that for selecting the *table*, we don’t use a *TYPE* comman
 
 Instead, we record ourselves clicking one of the items in the list and then replace the *TARGET* field for this command with:
 
-'''
-
-xpath=//*[text()[contains(.,'${table}')]]
-
-'''
+xpath=//[text()[contains(.,'${table}')]]
 
 ![Click Table](https://res.cloudinary.com/daog6scxm/image/upload/v1679328599/cms/Click_table_um7l2s.webp "Click Table")
 
