@@ -1,7 +1,7 @@
 +++
 
 author = "Ronan McQuillan"
-date = "2023-20-03"
+date = "2023-03-20"
 description = "We wanted to investigate whether we can get an RPA to ship Budibase apps - and, more importantly, should you?"
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1679328599/cms/RPA_and_LOWCODE_better_tegbsq.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1679328599/cms/RPA_and_LOWCODE_better_tegbsq.png"]
