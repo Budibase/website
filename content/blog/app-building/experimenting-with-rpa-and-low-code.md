@@ -45,9 +45,9 @@ To parse out the key points:
 - However, to do so *securely* we’d have to limit ourselves to tables that are contained in data sources that are pre-configured in Budibase as environment variables.
 - Automating developments like **this only makes sense if you need to ship a large volume of tools that only vary in terms of a handful of defined elements** - such as creating similar tools for separate data sources.
 - The kinds of development tasks we could most easily automate with RPA are the ones that are already the fastest and easiest in any given low-code platform.
-- This means that, although we can ship tools faster than we could manually with whatever low-code tool we opted to build our automation around, **there’s a very small number of situations (if any) we’d make significant time savings**.
+- This means that, although we can ship tools faster than we could manually with whatever low-code tool we opted to build our automation around, **there’s a very small number of situations (if any) where we’d make significant time savings**.
 
-So, we *can* automate low-code development tasks with RPA but it’s not obvious to us that there are any real-world situations where this would be particularly beneficial.
+So, we *can* automate low-code development tasks with RPA but it’s not obvious to us that there are many real-world situations where this would be particularly beneficial.
 
 Here’s the full run-down of our experiment.
 
