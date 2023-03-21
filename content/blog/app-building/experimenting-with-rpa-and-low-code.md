@@ -73,9 +73,11 @@ We *could* have added prompts for any of the above, but for the sake of experime
 
 It’s also worth noting that RPA isn’t the only approach that you could turn to if your point of departure was that you wanted a way to expedite low-code development tasks. 
 
-For example, you might want to automate a similar task by utilizing your chosen low-code platform’s API. This would also be a valid approach and - although you’d potentially be able to output tools even faster - it doesn’t quite invalidate RPA as a strategy.
+For example, you might want to try and automate a similar task by utilizing your chosen low-code platform’s API. In theory, this would also be a valid approach and - although you’d potentially be able to output tools even faster - it doesn’t quite invalidate RPA as a strategy.
 
 For instance, leveraging an API like this would present much bigger barriers in terms of technical skills and would inevitably be a much more lengthy process to get up and running, even for users who do have the requisite skills.
+
+Besides, since any low-code tool is primarily aimed enabling human users to ship solutions, most of the functionality that you'd want to access for this kind of automation is contained in the front-end, making RPA a much more attractive strategy.
 
 In fact, we can circle back to one of the big reasons that RPA - and especially visual ones - remain popular. Not everyone would be able to get an API to do what they want in every use case. Even if they could, it would be a much more laborious process to set up.
 
