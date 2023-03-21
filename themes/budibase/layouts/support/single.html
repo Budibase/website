@@ -1,0 +1,47 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+
+<main id="content" role="main">
+    <!-- Article Content -->
+<article>
+  <div class="article space-3-top">
+    <div class="container">
+      <header class="w-md-75 w-lg-60 mx-md-auto">
+          <h1 class="text">{{ .Title }}</h1>
+        </div>
+      </div>
+        <!-- End Author -->
+      </header>
+
+      <img class="article-title-img rounded" src="{{ with .Params.image }}{{ . }}{{ end }}" />      
+      <!-- Description -->
+      <div class="article">
+        <div class="container space-1-top ">
+          <div class="w-md-75 w-lg-60 mx-md-auto mb-9">
+              {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </article>
+</main>
+
+<!--Article-->
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}
+
+<style>
+  article * ul {
+    list-style-type: none;
+    padding-left: 8px;
+    margin-bottom: 32px;
+    margin-top: 8px;
+  }
+  article * li a {
+    font-size: 1.2rem !important;
+    line-height: 2.0 !important;
+  }
+</style>
