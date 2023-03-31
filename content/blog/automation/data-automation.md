@@ -314,7 +314,7 @@ So, we might equally leverage highly specific tools that aim to solve a very gra
 
 Alternatively, we might get pretty far by only leveraging automation features within the tools we already use for managing relevant processes.
 
-For a roundup of some of the most ubiquitous options across each of these categories, check out our ultimate guide to the top data management platforms.
+For a roundup of some of the most ubiquitous options across each of these categories, check out our ultimate guide to the top [data management software solutions](https://budibase.com/blog/data/data-management-software/).
 
 ![Budibase Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1680257284/cms/Budibase_Screenshot_jsb4xe.webp "Budibase")
 
