@@ -7,39 +7,31 @@
     <!-- Article Content -->
 <article>
   <div class="article space-2-top">
-    <div class="container">
-      <div class="article-grid">
-        <div class="flex-column space-between">
-        <a class="font-sans opacity-75 font-weight-medium text-xs a-alt" href="/blog/"><- All posts</a>
-        <p class="font-sans opacity-75 text-xs space-4-top">Posted by:</p>
-        <div class="flex-row align-center">
-          {{ if (.Params.profilePic) }}
-              <img class="u-md-avatar rounded-circle" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
-          {{ else }}
-              <img class="u-md-avatar rounded-circle" src="/img/team/joe.webp">
-          {{ end }}
-          <p class="ml-3 font-sans text-xs">{{ .Params.author }} </p>
-        </div>
-        <p class="space-2-top text-xs font-sans opacity-75">Related reading</p>  
-        <ul class="feature-nav-items"> 
-        <li><a href="{{if .PrevInSection}}{{.PrevInSection.Permalink}}{{end}}" class="a-alt text-xs font-sans font-weight-medium">{{if .PrevInSection}}{{.PrevInSection.Title}}{{end}}</a></li>
-        <li><a href="{{if .NextInSection}}{{.NextInSection.Permalink}}{{end}}" class="a-alt text-xs font-sans font-weight-medium">{{if .NextInSection}}{{.NextInSection.Title}}{{end}}</a></li>
-      </ul>
-      </div>
-      <div class="article">
-      <header class="mx-md-auto">
-          <p class="mb-4 opacity-75 font-sans text-xs font-weight-medium">Published on {{ .Date.Format .Site.Params.dateform }} </p>
-          <h1>{{ .Title }}</h1>
+    <div class="container-7 mx-auto">
+      <a class="opacity-75 font-weight-medium text-xs a-alt" href="/blog/"><- All posts</a>
+        <header class="mb-7 mt-3">
+            <h1>{{ .Title }}</h1>
+            <p class="mt-4 mb-2 opacity-75 font-sans text-xs font-weight-medium">Published on {{ .Date.Format .Site.Params.dateform }} </p>
+            <div class="flex-row align-center">
+              {{ if (.Params.profilePic) }}
+                  <img class="u-md-avatar rounded-circle" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+              {{ else }}
+                  <img class="u-md-avatar rounded-circle" src="/img/team/joe.webp">
+              {{ end }}
+              <p class="ml-3 font-sans text-xs">{{ .Params.author }} </p>
+        </header>
 
-        <!-- End Author -->
-      </header>
-      <!-- Description -->
-        <div class=" space-1-top">
           <div class="mx-md-auto mb-9">
               {{ .Content }}
-          </div>
         </div>
+          <p class="mt-6 mb-2 text-xs font-sans opacity-75">Related reading</p>  
+          <ul class="mb-6 feature-nav-items"> 
+          <li><a href="{{if .PrevInSection}}{{.PrevInSection.Permalink}}{{end}}" class="a-alt text-xs font-sans font-weight-medium">{{if .PrevInSection}}{{.PrevInSection.Title}}{{end}}</a></li>
+          <li><a href="{{if .NextInSection}}{{.NextInSection.Permalink}}{{end}}" class="a-alt text-xs font-sans font-weight-medium">{{if .NextInSection}}{{.NextInSection.Title}}{{end}}</a></li>
+        </ul>
         </div>
+      </div>
+
         </div>
       </div>
     </div>

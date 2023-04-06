@@ -5,6 +5,6 @@ title: What are Internal Tools? Definitive Guide for 2022
 description: In this post, you’ll learn how to build internal tools, in minutes. We’ll also look at some examples and templates to get you started along the way.
 images: ["/small-business-apps/budibase.png"]
 draft: "false"
-type: "internal-tools"
+type: "solutions/internal-tools"
 layout: single
 ---

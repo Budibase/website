@@ -5,7 +5,7 @@ description: Use our low-code editor to build simple admin panels, with clean de
 images: 
 - /business-apps/templates/open-source-ticketing-system/images/cover.png
 draft: false
-type: admin-panels
+type: solutions/admin-panels
 layout: single
 ---
 
