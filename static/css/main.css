@@ -6532,7 +6532,7 @@ fieldset:disabled a.btn {
 .btn-navigation-cta {
   background-color: hsla(256,5%,97%,.09);
   color: white;
-  border-radius: 25px !important;
+  border-radius: var(--radius-4) !important;
 }
 
 
@@ -9585,14 +9585,14 @@ button:focus {
   padding: 8px 12px;
   background-color: transparent;
   outline: 0;
-  border-radius: 5px;
+  border-radius: 25px;
 }
 
 .nav-link-hover-bg:hover {
   padding: 8px 12px;
-  background-color: rgba(0,0,0,0.03);
+  background-color: var(--gray-1000);
   color: var(--hiContrast);
-  border-radius: 5px;
+  border-radius: 25px;
 }
 
 .nav-link-hover-bg-dark {
