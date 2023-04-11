@@ -1,7 +1,7 @@
 ---
 title: Why Schnellecke uses Budibase
 description: Those same apps are now here in less than an hour
-type: enterprise/customers
+type: customers
 layout: single
 date: "2022-01-23"
 images:

@@ -1,176 +1,5 @@
 
-  
-  :root { 
-    font-size: 16px;
-    --gray-1000: rgb(14, 14, 14);
-    --gray-900:	rgb(29, 29, 29);
-    --gray-800:	rgb(48, 48, 48);
-    --gray-700:	rgb(75, 75, 75);
-    --gray-600:	rgb(106, 106, 106);
-    --gray-500:	rgb(141, 141, 141);
-    --gray-400: rgb(176, 176, 176);
-    --gray-300: rgb(208, 208, 208);
-    --gray-200: rgb(235, 235, 235);
-    --gray-100:rgb(245, 245, 245);
-    --teal-1300:	rgb(18, 43, 42);
-    --teal-1200: rgb(19, 57, 55);
-    --teal-1100: rgb(16, 73, 70);
-    --teal-1000: rgb(3, 91, 88);
-    --teal-900: rgb(0, 108, 104);
-    --teal-800: rgb(0, 127, 121);
-    --teal-700: rgb(0, 146, 140);
-    --teal-600: rgb(0, 165, 159);
-    --teal-500: rgb(26, 185, 178);
-    --teal-400:rgb(66, 202, 195);
-    --teal-300:rgb(102, 218, 211);
-    --teal-200:rgb(139, 232, 225);
-    --teal-100:rgb(179, 242, 237);
-    --blue-1300:	rgb(0, 38, 81);
-    --blue-1200: rgb(0, 50, 106);
-    --blue-1100: rgb(0, 64, 135);
-    --blue-1000: rgb(0, 78, 166);
-    --blue-900: rgb(0, 92, 200);
-    --blue-800: rgb(6, 108, 231);
-    --blue-700: rgb(29, 128, 245);
-    --blue-600: rgb(64, 150, 243);
-    --blue-500: rgb(94, 170, 247);
-    --blue-400:rgb(124, 189, 250);
-    --blue-300:rgb(152, 206, 253);
-    --blue-200:rgb(179, 222, 254);
-    --blue-100:rgb(206, 234, 255);
-    --purple-1300:	rgb(50, 16, 104);
-    --purple-1200: rgb(67, 13, 140);
-    --purple-1100: rgb(86, 16, 173);
-    --purple-1000: rgb(106, 29, 200);
-    --purple-900: rgb(126, 49, 222);
-    --purple-800: rgb(145, 70, 236);
-    --purple-700: rgb(162, 94, 246);
-    --purple-600: rgb(178, 119, 250);
-    --purple-500: rgb(192, 143, 252);
-    --purple-400:rgb(206, 166, 253);
-    --purple-300:rgb(219, 188, 254);
-    --purple-200:rgb(230, 207, 255);
-    --purple-100:rgb(240, 224, 255);
-    --green-1300: rgb(10, 44, 28);
-    --green-1200: rgb(7, 59, 36);
-    --green-1100: rgb(0, 76, 46);
-    --green-1000: rgb(0, 93, 57);
-    --green-900: rgb(0, 111, 69);
-    --green-800: rgb(0, 130, 82);
-    --green-700: rgb(0, 149, 98);
-    --green-600: rgb(28, 168, 114);
-    --green-500: rgb(52, 187, 132);
-    --green-400:rgb(75, 205, 149);
-    --green-300:rgb(103, 222, 168);
-    --green-200:rgb(137, 236, 188);
-    --green-100:rgb(177, 244, 209);
-    --indigo-1300: rgb(26, 29, 97);
-    --indigo-1200: rgb(35, 39, 125);
-    --indigo-1100: rgb(46, 50, 158);
-    --indigo-1000: rgb(58, 63, 189);
-    --indigo-900: rgb(73, 78, 216);
-    --indigo-800: rgb(90, 96, 235);
-    --indigo-700: rgb(110, 115, 246);
-    --indigo-600: rgb(132, 136, 253);
-    --indigo-500: rgb(153, 157, 255);
-    --indigo-400:rgb(174, 177, 255);
-    --indigo-300:rgb(194, 196, 255);
-    --indigo-200:rgb(212, 213, 255);
-    --indigo-100:rgb(227, 228, 255);
-    --orange-1300: rgb(72, 24, 1);
-    --orange-1200: rgb(92, 32, 0);
-    --orange-1100: rgb(115, 43, 0);
-    --orange-1000: rgb(138, 55, 0);
-    --orange-900: rgb(162, 68, 0);
-    --orange-800: rgb(186, 82, 0);
-    --orange-700: rgb(210, 98, 0);
-    --orange-600: rgb(232, 116, 0);
-    --orange-500: rgb(249, 137, 23);
-    --orange-400:rgb(255, 162, 59);
-    --orange-300:rgb(255, 188, 102);
-    --orange-200:rgb(255, 226, 181);
-    --orange-100:rgb(251, 224, 183);
-    --yellow-1300: rgb(53, 36, 0);
-    --yellow-1200: rgb(68, 47, 0);
-    --yellow-1100: rgb(86, 62, 0);
-    --yellow-1000: rgb(103, 77, 0);
-    --yellow-900: rgb(122, 92, 0);
-    --yellow-800: rgb(141, 108, 0);
-    --yellow-700: rgb(161, 126, 0);
-    --yellow-600: rgb(180, 144, 0);
-    --yellow-500: rgb(199, 162, 0);
-    --yellow-400:rgb(216, 181, 0);
-    --yellow-300:rgb(240, 217, 82);
-    --yellow-200:rgb(241, 221, 95);
-    --yellow-100:rgb(251, 241, 157);
-    --red-1300: rgb(87, 0, 0);
-    --red-1200: rgb(110, 0, 0);
-    --red-1100: rgb(138, 0, 0);
-    --red-1000: rgb(167, 0, 0);
-    --red-900: rgb(196, 7, 6);
-    --red-800: rgb(221, 33, 24);
-    --red-700: rgb(238, 67, 49);
-    --red-600: rgb(249, 99, 76);
-    --red-500: rgb(255, 129, 107);
-    --red-400:rgb(255, 158, 140);
-    --red-300:rgb(255, 183, 169);
-    --red-200:rgb(255, 205, 195);
-    --red-100:rgb(255, 223, 217);
-    --border-color-regular: rgba(0, 0, 0, 0.1);
-    --hiContrast: hsl(200 12% 4%);
-    --loContrast: white;
-    --white: white;
-    --black: black;
-    --dark: #151618;
-    --dark-light: #1c1e20;
-    --dark-light-border: #262b33;
-    --dark-light-border-2: #f7f7f814;
-    --dark-blur: hsla(256,5%,97%,.09);
-    --transparentPanel: hsl(0 0% 0% / 97%);
-    --font: Inter, -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-    --space-1: 5px;
-    --space-2: 10px;
-    --space-3: 15px;
-    --space-4: 20px;
-    --space-5: 25px;
-    --space-6: 35px;
-    --space-7: 45px;
-    --space-8: 65px;
-    --space-9: 80px;
-    --sizes-1: 5px;
-    --sizes-2: 10px;
-    --sizes-3: 16px;
-    --sizes-4: 20px;
-    --sizes-5: 25px;
-    --sizes-6: 35px;
-    --sizes-7: 45px;
-    --sizes-8: 65px;
-    --sizes-9: 80px;
-    --fontsize-1: 11px;
-    --fontsize-2: 13px;
-    --fontsize-3: 15px;
-    --fontsize-4: 17px;
-    --fontsize-5: 20px;
-    --fontsize-6: 22px;
-    --fontsize-7: 24px;
-    --fontsize-8: 34px;
-    --fontsize-9: 44px;
-    --radius-1: 3px;
-    --radius-2: 5px;
-    --radius-3: 7px;
-    --radius-4: 9px;
-    --radius-5: 11px;
-    --radius-6: 14px;
-    --radius-round: 55%;
-    --radius-pill: 999px;
-    --breakpoint-xs: 0;
-    --backlight: 0 0 0 2px var(--purple-900), -15px 0 30px -15px var(--orange-900), 0 0 30px -15px var(--red-900), 15px 0 30px -15px var(--purple-700);
-    --foreground: #000;
-    --background: #fff;
-  }
-
-  html[data-theme='dark'] { 
-    font-size: 16px;
+  html {
     --gray-100: rgb(14, 14, 14);
     --gray-200:	rgb(29, 29, 29);
     --gray-300:	rgb(48, 48, 48);
@@ -286,16 +115,23 @@
     --red-1200:rgb(255, 205, 195);
     --red-1300:rgb(255, 223, 217);
     --border-color-regular: rgba(0, 0, 0, 0.1);
-    --hiContrast: white;
-    --loContrast: hsl(200 12% 4%);;
-    --white: black;
-    --black: white;
+    --text-color-light: rgba(0,0,0,0.4);
+    --text-color-medium: rgba(0,0,0,0.6);
+    --text-color-dark: rgba(17, 17, 17, 1);
+    --text-color-regular: rgba(4, 4, 4, 1);
+    --hiContrast: hsl(200 12% 4%);
+    --loContrast: white;
+    --canvas: hsl(0 0% 93%);
+    --white: white;
+    --black: black;
     --dark: #151618;
     --dark-light: #1c1e20;
     --dark-light-border: #262b33;
     --dark-light-border-2: #f7f7f814;
     --dark-blur: hsla(256,5%,97%,.09);
     --transparentPanel: hsl(0 0% 0% / 97%);
+    --shadowLight: hsl(206 22% 7% / 35%);
+    --shadowDark: hsl(206 22% 7% / 20%);
     --font: Inter, -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     --space-1: 5px;
     --space-2: 10px;
@@ -332,11 +168,17 @@
     --radius-6: 14px;
     --radius-round: 55%;
     --radius-pill: 999px;
+    --zindex-1: 100;
+    --zindex-2: 200;
+    --zindex-3: 300;
+    --zindex-4: 400;
+    --zindex-5: 400;
+    --zindex-max: 9999;
     --breakpoint-xs: 0;
     --backlight: 0 0 0 2px var(--purple-900), -15px 0 30px -15px var(--orange-900), 0 0 30px -15px var(--red-900), 15px 0 30px -15px var(--purple-700);
-    --foreground: #fff;
-    --background: #000;
   }
+
+  
 
 *,
 *::before,
@@ -346,9 +188,6 @@
 
 
 body {
-  background-color: var(--background);
-  overflow-y: scroll;
-  scroll-behavior: smooth;
   margin: 0;
   font-family: var(--font);
   color: var(--hiContrast);
@@ -557,7 +396,7 @@ h3, h4 {
 p {
   margin-top: 0;
   margin-bottom: 0;
-  color: var(--gray-900);
+  color: var(--text-color-regular);
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
 }
 
@@ -579,7 +418,7 @@ table td{
 }
 
 .p-light {
-  color: var(--gray-700);
+  color: var(--text-color-light);
 }
 
 .text-sm {
@@ -1227,6 +1066,7 @@ input[type="month"] {
 
 .hero-description {
   font-weight: 500;
+  font-variation-settings: "wght" 490;
   font-size: 22px;
   line-height: 1.3;
   letter-spacing: -.02em;
@@ -1315,7 +1155,7 @@ input[type="month"] {
 @media (min-width: 576px) {
   .hero-title-xl {
   text-size-adjust: 100%;
-  font-size: clamp(4rem, 4.2vw, 4.4rem);
+  font-size: clamp(3.2rem, 3.6vw, 4rem);
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;
@@ -1349,11 +1189,11 @@ input[type="month"] {
 @media (min-width: 1600px) {
   .hero-title-xl {
   text-size-adjust: 100%;
-  font-size: 6rem;
+  font-size: 5rem;
   margin-top: 0;
   margin-bottom: 0;
   font-family: 'Inter', sans-serif;
-  font-variation-settings: "wght" 720;
+  font-variation-settings: "wght" 700;
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
   line-height: 1;
@@ -1909,9 +1749,6 @@ pre > code {
   background-color: white;
 }
 
-.hero-wrapper {
-  position: relative;
-}
 
 /* Hero */
   .hero-container {
@@ -4031,7 +3868,7 @@ details[open] > summary {
   display: block;
   padding: 0.375rem 0;
   margin-bottom: -1px;
-  color: var(--gray-700);
+  color: var(--gray-200);
   font-size: var(--fontsize-3);
 }
 
@@ -5762,16 +5599,22 @@ border-radius: .75rem;
   -webkit-text-fill-color: transparent;
 }
 
+.linear-wipe::before {
+  display: block;
+  padding-left: .2em;
+
+}
+
 .linear-wipe {
   animation: flow ease-in-out infinite;
   animation-duration: 8s;
   animation-play-state: running;
   animation-delay: 0s;
-  background-image: linear-gradient(-60deg, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: 300%;
+  background-image: linear-gradient(-60deg, var(--red-1000), var(--blue-800));
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-left: .2em;
 }
 @keyframes flow {
     0% {
@@ -5787,7 +5630,7 @@ border-radius: .75rem;
 
 
 .text-light {
-  color: var(--gray-700);
+  color: var(--text-color-light);
 }
 
 .text-light-dark {
@@ -6689,6 +6532,7 @@ fieldset:disabled a.btn {
 .btn-navigation-cta {
   background-color: hsla(256,5%,97%,.09);
   color: white;
+  border-radius: 25px !important;
 }
 
 
@@ -6752,14 +6596,16 @@ fieldset:disabled a.btn {
 @media (max-width: 565px) {
   .btn-lg {
     font-size: 18px;
-    padding: 8px 16px;
+    padding: 10px 18px;
     font-variation-settings: 'wght' 540;
+    max-height: 52px;
   }
 }
 .btn-lg {
   font-size: 19px;
   padding: 12px 24px;
-  font-variation-settings: 'wght' 550;
+  font-variation-settings: 'wght' 540;
+  max-height: 56px;
 }
 
 
@@ -6784,7 +6630,6 @@ fieldset:disabled a.btn {
   font-weight: 600;
   line-height: 28px;
   display: inline-block;
-  text-decoration-thickness: auto;
   box-sizing: border-box;
 }
 
