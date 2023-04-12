@@ -4,39 +4,34 @@
 
 
 <main id="content" role="main">
-    <!-- Article Content -->
-<article>
-  <div class="article space-2-top">
-    <div class="container-7 mx-auto">
-      <a class="opacity-75 font-weight-medium text-xs a-alt" href="/blog/"><- All posts</a>
-        <header class="mb-7 mt-3">
-            <h1>{{ .Title }}</h1>
-            <p class="mt-4 mb-2 opacity-75 font-sans text-xs font-weight-medium">Published on {{ .Date.Format .Site.Params.dateform }} </p>
-            <div class="flex-row align-center">
-              {{ if (.Params.profilePic) }}
-                  <img class="u-md-avatar rounded-circle" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
-              {{ else }}
-                  <img class="u-md-avatar rounded-circle" src="/img/team/joe.webp">
-              {{ end }}
-              <p class="ml-3 font-sans text-xs">{{ .Params.author }} </p>
-        </header>
+  <!-- Article Content -->
+  <article>
+    <div class="article space-1-top">
+      <div class="container-8 mx-auto">
+        <a class="opacity-75 font-weight-medium a-alt" href="/blog/"><- All posts</a>
+            <header class="mb-7 mt-9">
+              <h1 class="mt-6">{{ .Title }}</h1>
+              <p class="mb-2">Published on {{ .Date.Format .Site.Params.dateform }} by {{
+                if (.Params.profilePic) }}
+                <img class="u-avatar-4 rounded-circle" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+                {{ else }}
+                <img class="u-avatar-4 rounded-circle" src="/img/team/joe.webp">
+                {{ end }}{{ .Params.author }}
+              </p>
 
-          <div class="mx-md-auto mb-9">
+            </header>
+
+            <div class="mx-md-auto mb-9">
               {{ .Content }}
-        </div>
-          <p class="mt-6 mb-2 text-xs font-sans opacity-75">Related reading</p>  
-          <ul class="mb-6 feature-nav-items"> 
-          <li><a href="{{if .PrevInSection}}{{.PrevInSection.Permalink}}{{end}}" class="a-alt text-xs font-sans font-weight-medium">{{if .PrevInSection}}{{.PrevInSection.Title}}{{end}}</a></li>
-          <li><a href="{{if .NextInSection}}{{.NextInSection.Permalink}}{{end}}" class="a-alt text-xs font-sans font-weight-medium">{{if .NextInSection}}{{.NextInSection.Title}}{{end}}</a></li>
-        </ul>
-        </div>
-      </div>
-
-        </div>
+            </div>
       </div>
     </div>
 
-    </article>
+    </div>
+    </div>
+    </div>
+
+  </article>
 </main>
 
 <!--Article-->

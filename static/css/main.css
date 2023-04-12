@@ -338,6 +338,21 @@ summary {
   }
 }
 
+.container-8 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 992px) {
+  .container-8 {
+    max-width: 800px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
 .container-9 {
   padding-right: 15px;
   padding-left: 15px;
@@ -5152,7 +5167,7 @@ ul {
     list-style-type: none;
     padding-inline-start: 0;
     display: grid;
-    grid-gap: 16px;
+    grid-gap: 2px;
   }
 }
 .feature-nav-item {
@@ -12495,6 +12510,32 @@ button:focus {
   }
 }
 
+.u-avatar-4 {
+  width: 26px;
+  height: 26px;
+}
+
+@media (min-width: 576px) {
+  .u-avatar-4 {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (min-width: 992px) {
+  .u-avatar-4 {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .u-avatar-4 {
+    width: 42px;
+    height: 42px;
+  }
+}
+
 .u-avatar-5 {
   width: 32px;
   height: 32px;
@@ -15161,7 +15202,7 @@ button:focus {
   font-size: 24px;
   color: var(--hiContrast);
   font-weight: 700px;
-  font-variation-settings: "wght" 680;
+  font-variation-settings: "wght" 620;
   line-height: 1.1;
 }
 .article h3::before {
@@ -15175,7 +15216,7 @@ button:focus {
   margin-top: 2rem;
   margin-bottom: .5rem;
   font-weight: 700;
-  font-variation-settings: "wght" 680;
+  font-variation-settings: "wght" 620;
   font-size: 20px;
   line-height: 1.1;
 }
