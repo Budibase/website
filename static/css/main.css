@@ -691,7 +691,9 @@ blockquote {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: 600 !important;
+  font-variation-settings: "wght" 600;
+
 }
 
 small {
@@ -15348,4 +15350,24 @@ td:hover {
   width: 100%;
   z-index: -1;
 }
+}
+
+.article strong {
+  font-weight: 600;
+  font-variation-settings: "wght" 600 !important;
+}
+
+.article a {
+  font-weight: 600;
+  font-variation-settings: "wght" 520 !important;
+  color: var(--gray-200);
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+  text-decoration-thickness: 1px;
+  cursor: pointer;
+  display: inline;
+}
+
+.article a:hover {
+  color: var(--blue-900);
 }

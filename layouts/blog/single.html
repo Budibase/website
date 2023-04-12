@@ -9,16 +9,14 @@
     <div class="article space-1-top">
       <div class="container-8 mx-auto">
         <a class="opacity-75 font-weight-medium a-alt" href="/blog/"><- All posts</a>
-            <header class="mb-7 mt-9">
-              <h1 class="mt-6">{{ .Title }}</h1>
-              <p class="mb-2">Published on {{ .Date.Format .Site.Params.dateform }} by {{
-                if (.Params.profilePic) }}
-                <img class="u-avatar-4 rounded-circle" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+            <header class="mb-7 mt-6">
+              <span class="opacity-75"> {{ .Date.Format .Site.Params.dateform }} </span>
+              <h1 class="my-4">Introducing our new {{ lower .Title }}</h1>
+               {{ if (.Params.profilePic) }}
+                <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
                 {{ else }}
-                <img class="u-avatar-4 rounded-circle" src="/img/team/joe.webp">
+                <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
                 {{ end }}{{ .Params.author }}
-              </p>
-
             </header>
 
             <div class="mx-md-auto mb-9">
