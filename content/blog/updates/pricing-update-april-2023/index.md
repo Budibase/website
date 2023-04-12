@@ -19,6 +19,8 @@ Day passes were introduced to provide a granular approach to pricing that closel
 
 To simplify pricing, we have transitioned to a per-user model. The per-user model was preferred by the majority of the customers we collaborated with and is common across our industry. This new model is easier to understand and predict than day passes.
 
+[View the new pricing on our pricing page](https://budibase.com/pricing)
+
 ### Cloud hosting
 
 We are reducing the number of tiers for both Cloud and Self-hosting. For Budibase Cloud users, you have 4 tiers to choose from; Free, Premium, Business, Enterprise.
