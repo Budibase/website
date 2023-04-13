@@ -130,6 +130,7 @@
     --dark-light-border: #262b33;
     --dark-light-border-2: #f7f7f814;
     --dark-blur: hsla(256,5%,97%,.09);
+    --light-blur: hsla(240, 1%, 15%, 0.09);
     --transparentPanel: hsl(0 0% 0% / 97%);
     --shadowLight: hsl(206 22% 7% / 35%);
     --shadowDark: hsl(206 22% 7% / 20%);
@@ -708,7 +709,7 @@ big {
 
 
 a {
-  color: var(--blue-800);
+  color: var(--blue-900);
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -717,7 +718,7 @@ a {
 }
 
 a:hover {
-  color: var(--blue-400);
+  color: var(--blue-300);
   text-decoration: none;
 }
 
@@ -3367,20 +3368,24 @@ grid-gap: 50px;
 
 
 .tag-small {
-  background-color: var(--dark-blur);
-  color: var(--loContrast);
-  border-radius: 4px;
-  font-size: 9px;
-  font-weight: 400;
-  height: 20px;
-  padding: 4px 12px;
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
-  justify-items: center;
-  font-weight: 500;
-  border: 1px solid var(--gray-400);
-  font-variation-settings: "wght" 600;
+  padding: 6px 12px;
+  border: 1px solid hsla(0, 0%, 0%, 0.05);
+  background: linear-gradient(90.33deg,rgba(218, 123, 128, 0.22),rgba(86, 170, 219, 0.105));
+  background-position: 100% 0;
+  background-size: 200%;
+  border-radius: 16px;
+  color: var(--gray-400);
+  font-size: 12px;
+  gap: 8px;
+  line-height: 16px;
+  transition: background-position .2s;
+  font-variation-settings: "wght" 510;
 }
+
+
+
 
 .tag-blue {
   background-color: var(--blue-800);
@@ -8212,6 +8217,18 @@ button.close {
 .hero-gradient-light {
   background: rgb(255,252,252);
   background: linear-gradient(80deg, var(--red-1300) 0%, var(--indigo-1300) 40%, var(--blue-1300) 100%);
+}
+
+.hero-gradient-light::before {
+  filter: blur(36px);
+  background-clip: padding-box;
+  content: "";
+  filter: blur(36px);
+  height: 100%;
+  opacity: .8;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
 }
 
   .bg-graph {
