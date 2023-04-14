@@ -3,8 +3,8 @@
 author = "Ronan McQuillan"
 date = "2023-03-30"
 description = "Here's everything you need to know about invoice automation."
-image = "https://res.cloudinary.com/daog6scxm/image/upload/v1680258097/cms/Invoice_Automation_weqs5p.png"
-images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1680258097/cms/Invoice_Automation_weqs5p.png"]
+image = "https://res.cloudinary.com/daog6scxm/image/upload/v1681484640/cms/Invoice_Automation_nsgba5.png"
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1681484640/cms/Invoice_Automation_nsgba5.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "What is Invoice Automation? + 4 Examples"
 
