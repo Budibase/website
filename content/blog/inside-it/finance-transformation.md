@@ -16,7 +16,7 @@ Your finance team is made up of skilled professionals. However, arguably more th
 
 This - plus the need for a high degree of speed and accuracy - makes financial processes the ideal candidate for digital transformation.
 
-But of course, these things are always easier said than done. 
+But of course, these things are always easier said than done.  
 
 Today, we’re covering everything you need to know.
 
