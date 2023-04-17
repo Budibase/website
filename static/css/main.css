@@ -1173,7 +1173,7 @@ input[type="month"] {
 
 .hero-title-xl {
   text-size-adjust: 100%;
-  font-size: 3rem;
+  font-size: 2.6rem;
   margin-top: 0;
   margin-bottom: 0;
   font-family: 'Inter', sans-serif;
@@ -1190,7 +1190,24 @@ input[type="month"] {
 @media (min-width: 576px) {
   .hero-title-xl {
   text-size-adjust: 100%;
-  font-size: clamp(3.2rem, 3.6vw, 4rem);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Inter', sans-serif;
+  font-variation-settings: "wght" 660;
+  color: var(--hiContrast);
+  text-rendering: optimizeLegibility;
+  line-height: .95;
+  letter-spacing: -.03em;
+  text-rendering: optimizeLegibility;
+}
+}
+
+@media (min-width: 800px) {
+  .hero-title-xl {
+  text-size-adjust: 100%;
+  font-size: 3.4rem;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;
@@ -1207,7 +1224,7 @@ input[type="month"] {
 @media (min-width: 1080px) {
   .hero-title-xl {
   text-size-adjust: 100%;
-  font-size: clamp(4.4rem, 4.6vw, 4.8rem);
+  font-size: 4rem;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;
@@ -1221,7 +1238,7 @@ input[type="month"] {
 }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
   .hero-title-xl {
   text-size-adjust: 100%;
   font-size: 5rem;

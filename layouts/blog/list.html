@@ -33,7 +33,7 @@
         {{ range (.Paginate .RegularPagesRecursive).Pages }}
         <a href="{{ .Permalink }}">
                 <div class="blog-feature-card">
-                      <img class="thumbnail-image rounded" src=" {{ if $.Site.Params.cloudinary_base_url }}{{ .Params.image }}{{else}}{{ .Params.image }}{{end}}"/>
+                      <img class="rounded" src=" {{ if $.Site.Params.cloudinary_base_url }}{{ .Params.image }}{{else}}{{ .Params.image }}{{end}}"/>
                         <h2 class="h4 mb-2 mt-4 line-clamp-1">{{ .Title }}</h2>
                         <p class="two-line-clamp">{{ .Description }} </p>
                         <p class="mt-2 text-grey text-xs">{{ .Params.author }} | {{ .Date.Format .Site.Params.dateform }} </p>

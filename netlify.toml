@@ -96,3 +96,9 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
   to = "/integrations"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/customers"
+  to = "/customers/covanta"
+  status = 301
+  force = true
