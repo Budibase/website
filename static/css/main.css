@@ -1388,7 +1388,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: clamp(var(--fontsize-6), 2.25vw, var(--fontsize-7));
-  font-variation-settings: "wght" 550;
+  font-variation-settings: "wght" 590;
   letter-spacing: -.005em;
   text-indent: -.015em;
   text-rendering: optimizeLegibility;
@@ -1397,7 +1397,7 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: clamp(var(--fontsize-5), 2vw, var(--fontsize-6));
-  font-variation-settings: "wght" 550;
+  font-variation-settings: "wght" 590;
   text-rendering: optimizeLegibility;
   line-height: 1.2;
 }

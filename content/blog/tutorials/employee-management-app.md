@@ -3,7 +3,7 @@
 author = "Ronan McQuillan"
 date = 2023-04-06
 description = "Check out our guide to building an employee management app in just 6 steps."
-image = "https://res.cloudinary.com/daog6scxm/image/upload/v1680793615/cms/Employee_Management_App_ba02ie.png"
+image = "https://res.cloudinary.com/daog6scxm/image/upload/v1681744450/cms/employee_management_dydgpf.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1680793615/cms/Employee_Management_App_ba02ie.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Creating an Employee Management App | 6-Step Guide"
