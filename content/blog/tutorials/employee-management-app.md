@@ -65,7 +65,7 @@ The solution we’ll build today comprises two parts:
 
 So, here’s the home screen for power users:
 
-![Employee Management App](https://res.cloudinary.com/daog6scxm/image/upload/v1680793614/cms/Employee_Management_1_bjoicg.webp"Employee Management App")
+![Employee Management App](https://res.cloudinary.com/daog6scxm/image/upload/v1680793614/cms/Employee_Management_1_bjoicg.webp "Employee Management App")
 
 They can also access the equivalent screen for *Jobs*.
 
