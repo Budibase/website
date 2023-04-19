@@ -10,7 +10,7 @@ images:
 author: Joe Johnston
 ---
 
-Since the launch of our platform, we have always aimed to make our pricing model as simple as possible and perfectly tailored to your needs. On the 1st May 2023, we are taking a giant leap towards that goal by introducing our [new pricing.](https://budibase.com/pricing)
+Since the launch of our platform, we have always aimed to make our pricing model as simple as possible and perfectly tailored to your needs. On the 2nd May 2023, we are taking a giant leap towards that goal by introducing our [new pricing.](https://budibase.com/pricing)
 
 ## Goodbye day passes
 
@@ -28,7 +28,7 @@ We are reducing the number of tiers for both Cloud and Self-hosting. For Budibas
 
 {{< figure src="/blog/updates/pricing-update-april-2023/budibase-cloud-pricing.png" alt="Budibase Cloud Pricing" >}}
 
-As you can see from the image above, we’ve priced each tier very competitively, including a generous free tier that allows you to build internal tools with up to 8 users for free.
+As you can see from the image above, we’ve priced each tier very competitively, including a generous free tier that allows you to build internal tools with up to 5 users for free.
 
 1. **Free tier -** The Free tier is perfect for small teams getting started with Budibase, and allows you to build internal tools with up to **5 users for free** - an industry best. It also comes with free SSO and a powerful RBAC system.
 2. **Premium tier -** For professional deployments and in cases where you need to work with large teams, we recommend the premium tier, which you can start with 1 user and add as many users as you need.
@@ -47,11 +47,12 @@ For self-managed users, you have 3 tiers to choose from; Community, Business, En
 
 ## What does this mean for current users/customers
 
-Our customers/users have been at the forefront of every decision we’ve made during this process. We truly believe this new pricing is both simpler and more valuable to current users/customers and future users/customers.
+- Our customers/users have been at the forefront of every decision we’ve made during this process. We truly believe this new pricing is both simpler and more valuable to current users/customers and future users/customers.
 
-- **For new accounts:** We’re introducing a new pricing structure across all Budibase plans, effective May 1, 2023.
-- **For existing accounts on the free or open source plan:** We’ll move you to the new pricing structure. A vast majority of you will not be affected. For the small number of users who are affected, please feel free to[ reach out to sales](https://budibase.com/contact) to discuss your circumstances.
-- **For existing accounts on a paid plan:** Most of our customers are aware of our plans to change pricing. In fact, a lot of customers are currently on the new pricing plan already. For customers yet to move to the new pricing structure, we can help you switch over to one of the new plans. For help switching plans, please [book a slot in our account executive’s calendar](https://meetings-eu1.hubspot.com/joe-moss).
+  - **For new accounts:** We’re introducing a new pricing structure across all Budibase plans, effective May 2nd, 2023.
+  - **For existing accounts on the free or open source plan:** We’ll move you to the new pricing structure. A vast majority of you will not be affected. For the small number of users who are affected, please feel free to[ reach out to sales](https://budibase.com/contact) to discuss your circumstances. For existing accounts over the new limits, we’ve implemented a grace period until the 31st May, 2023. On the 1st June, if your Budibase account is over the new usage limits you will be asked to move to a paid plan, or update your tenant to adhere to the free/community plans.
+
+  **For existing accounts on a paid plan:** Most of our customers are aware of our plans to change pricing. In fact, a lot of customers are currently on the new pricing plan already. For customers yet to move to the new pricing structure, we can help you switch over to one of the new plans. For help switching plans, please [book a slot in our account executive’s calendar](https://meetings-eu1.hubspot.com/joe-moss). 
 
 ## Feedback
 
@@ -59,7 +60,7 @@ We’re open-source and transparency is one of our core values. Therefore, we ar
 
 ## Looking ahead
 
-We are committed to our mission of helping teams turn data into action. These changes will enable us to improve our platform faster and more effectively, so that we can serve you better. Some of the future investments we are most excited about include:
+We are committed to our mission of helping teams turn data into action. These changes will enable us to improve our platform faster and more effectively, so that we can serve you better. Some of the future investments we are most excited about, include:
 
 - Overhauling the binding experience and how data is accessed throughout the platform
 - Making it easier to create interfaces and reducing the need for data providers and repeaters
