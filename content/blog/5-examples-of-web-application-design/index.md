@@ -3,7 +3,7 @@ author = "Joe Johnston"
 date = 2019-07-28T00:00:00Z
 description = "We have debated for many hours to present you with 5 recent examples of modern web application design. Please use these designs as inspiration for your next web app."
 images = ["/web-app-ideas/dashboard-web-app.jpg"]
-title = "5 Recent Examples Of Modern Web Application Design (2022)"
+title = "5 Recent Examples Of Modern Web Application Design (2023)"
 
 +++
 {{< figure src="/web-app-ideas/dashboard-web-app.jpg" alt="The CEO Dashboard Web App" >}}

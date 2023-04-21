@@ -3,7 +3,7 @@ author = "Joe Johnston"
 date = 2020-01-24T00:00:00Z
 description = "Web application development is a cost-effective, easy way to create incredible user experiences."
 images = ["/web-application-development/guide-to-web-application-development.jpg"]
-title = "A beginners guide to web application development (2022)"
+title = "A beginners guide to web application development (2023)"
 
 +++
 {{< figure src="/web-application-development/guide-to-web-application-development.jpg" alt="Guide to web application development" >}}
