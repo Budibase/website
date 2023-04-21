@@ -4,7 +4,7 @@ date = 2020-09-21T00:00:00Z
 description = "Custom software development is the method of building specific software instead of purchasing COTS, commercial off the shelf, software. Within this guide, we will explore custom software development in depth."
 image = "/custom-software-development/world-eating-software.png"
 images = ["/custom-software-development/world-eating-software.png"]
-title = "What is custom software development in 2022"
+title = "What is custom software development in 2023"
 
 +++
 The world is eating software. 🌎 🍴🌐
@@ -59,7 +59,6 @@ No longer do SMEs, startups, or entreprise organizations have to suffer at the h
 2. **ROI** 
    Investing in COTS, is investing money into another organization. Building internal software is a great way of investing in your own organization. In addition, there's also potential to sell your new software and make money from it - depending on the general make-up of the product and if it can be packaged and distributed easily. But, you can be guaranteed, that if your product solves your solution, it will solve someone else's.
    
-
 3. **Scalability** 
    With COTS software it is hard to scale solutions to fit new requirements. There is limited access to the code in some cases and you have no say over the roadmap, so changing the software can be impossible, leading to scalability issues.
 
@@ -128,7 +127,7 @@ With a low-code platform, the  process is not as fragmented. There are only thre
 ### Modern, no code custom software development stages
 
 1. **Research**
-This is mostly the same as above. 
+   This is mostly the same as above. 
    
 2. **Build**
    As you can see from the above, the design, develop, and deploy stages are separated. This is because they require different products, skills, and sometimes people to fulfill the tasks within the different stages. With no code platforms, these stages are completed with the one tool, and in some cases, by one person. All the heavy lifting is done for you by the platform. And they're fast! Due to the speed of a no code platform, in some cases, you can build your custom solution in the same amount of time it would take to mockup a prototype using the tools in the traditional design stage (XD, Figma, Sketch). With no code tools such as Budibase, you have pre-composed templates and components, making it quick and easy to build dynamic interfaces with real forms, tables, kanban boards, interactive charts, email automations, etc. 

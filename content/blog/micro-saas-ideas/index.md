@@ -3,7 +3,7 @@ author = "Joe Johnston"
 date = 2019-01-23T00:00:00Z
 description = "This list of Micro SaaS ideas is perfect if you are considering starting a new project. Each idea on the list is original and validated by the Budibase team."
 images = ["/micro-saas-ideas/freelancercrm.jpg"]
-title = "6 Micro SaaS Ideas You'll Want To Steal in 2022"
+title = "6 Micro SaaS Ideas You'll Want To Steal in 2023"
 
 +++
 I'm often thinking of Micro SaaS ideas for my next project but most of the time they are either rubbish or I don't have the capacity to pursue them. 
