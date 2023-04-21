@@ -2,7 +2,7 @@
 
 title: Simpler pricing
 description: Since the launch of our platform, we have always aimed to make our pricing model as simple as possible and perfectly tailored to your needs. On the 1st May 2023, we are taking a giant leap towards that goal by introducing our new pricing.
-date: 2023-04-11
+date: 2023-05-01
 profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/joe_illustration_gray_bg_e97wdl.jpg"
 image: "/blog/updates/pricing-update-april-2023/cover.png"
 images:

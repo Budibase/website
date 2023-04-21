@@ -722,7 +722,6 @@ a:hover {
 }
 
 a:focus {
-  color: var(--blue-600) !important;
   background-color: transparent !important;
 }
 
@@ -9815,7 +9814,7 @@ button:focus {
 }
 
 .u-header__sub-menu .active > .u-header__sub-menu-nav-link {
-  color: var(--blue-400);
+  color: var(--gray-900);
 }
 
 /* Search */
