@@ -1,0 +1,39 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+    <div class="container-12 space-2-top text-center">
+        <h1 class="hero-title mb-3">
+            Meet our Customers
+        </h1>
+            <p class="hero-description mb-6">The platform behind 75,000 fast-moving teams.</p>
+            {{ partial "logo-reel-no-text.html" . }}
+    </div>
+
+
+    <section class="space-2 container-12">
+        <div class="customers-grid">
+            <a href="/customers/covanta" class="customers-grid-featured">
+                 <img src="/customers/covanta/images/grid.png" class="customer-image rounded-lg img-fluid" /> 
+                 <div class="customers-grid-gradient rounded-lg"></div>
+                 <div class="customer-title"><h2 class="text-white">Covanta</h2></div>
+                 <div class="customer-description"><p class="text-white lead-lg font-weight-semi-bold">Covanta expects to make $3.2MM in savings.</p></div>
+            </a>
+                <a href="/customers/herrenknecht" class="customers-grid-b">
+                <img src="/customers/herrenknecht/images/grid.png" class="customer-image rounded-lg img-fluid"/>
+                <div class="customers-grid-gradient rounded-lg"></div>
+                <div class="customer-title"><h2 class="text-white">Herrenknecht</h2></div>
+                <div class="customer-description"><p class="text-white lead-lg font-weight-semi-bold">The user friendliness of Budibase is outstanding!</p></div>
+            </a>
+            <a href="/customers/schnellecke" class="customers-grid-c">
+                <img src="/customers/schnellecke/images/grid.png" class="customer-image rounded-lg img-fluid"/>                    
+                <div class="customers-grid-gradient rounded-lg"></div>
+                <div class="customer-title"><h2 class="text-white">Schnellecke</h2></div>
+                <div class="customer-description"><p class="text-white lead-lg font-weight-semi-bold">Those same apps are now here in less than an hour.</p></div>
+
+            </a>
+        </div>
+    </section>
+
+    {{ partial "cta.html" . }}
+    {{ partial "footer.html" . }}

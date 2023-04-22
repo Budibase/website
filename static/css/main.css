@@ -370,11 +370,51 @@ summary {
   }
 }
 
+.container-10 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  .container-10 {
+    max-width: 1000px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+.container-11 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  .container-11 {
+    max-width: 1100px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
 .container-12 {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media (min-width: 600px) {
+  .container-12 {
+    width: 82vw;
+    max-width: 1000px;
+    padding: 0;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1107,6 +1147,7 @@ input[type="month"] {
   color: var(--gray-200);
   margin: 20px 0 20px;
   font-family: var(--font-space-grotesk);
+  text-align: center;
 }
 
 .hero-title-lg {
@@ -6415,6 +6456,159 @@ border-radius: .75rem;
 /*
   Customers
 */
+
+.customers-grid {
+  display: grid;
+  grid-template-areas:
+  "featured"
+  "customer-2"
+  "customer-3";
+  gap: 2rem;
+}
+
+@media (min-width: 765px) {
+  .customers-grid {
+    display: grid;
+    grid-template-areas:
+    "featured customer-2"
+    "featured customer-3";
+    gap: 1.6rem;
+    grid-template-columns: .41fr .59fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+.customers-grid-featured {
+  grid-area: featured;
+  object-fit: cover;
+  background-position: cover;
+  width: 100%;
+  position: relative;
+  transition: transform .3s ease-out;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  min-height: 300px;
+  overflow: hidden;
+}
+
+
+@media (min-width: 765px) {
+.customers-grid-featured {
+  grid-area: featured;
+  object-fit: cover;
+  background-position: cover;
+  width: 100%;
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  min-height: 300px;
+  overflow: hidden;
+}
+}
+.customers-grid-b {
+  grid-area: customer-2;
+  object-fit: cover;
+  background-position: cover;
+  width: 100% !important;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  min-height: 300px;
+  overflow: hidden;
+
+ }
+
+@media (min-width: 765px) {
+.customers-grid-b {
+  grid-area: customer-2;
+  object-fit: cover;
+  background-position: cover;
+  width: 100% !important;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  min-height: 300px;
+  overflow: hidden;
+
+ }
+}
+
+.customers-grid-c {
+  grid-area: customer-3;
+  background-position: cover;
+  width: 100% !important;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  min-height: 300px;
+  overflow: hidden;
+
+}
+
+@media (min-width: 765px) {
+.customers-grid-c {
+  grid-area: customer-3;
+  background-position: cover;
+  width: 100% !important;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  min-height: 350px;
+  overflow: hidden;
+}
+}
+
+.customer-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.customer-title {
+  z-index: 2;
+}
+
+.customer-description {
+  z-index: 2;
+  margin-top: auto;
+  align-content: flex-start;
+  text-align: left;
+  max-width: 75%;
+}
+
+.customers-grid-gradient {
+  background-image: linear-gradient(180deg,rgba(29,30,32,.3),rgba(29,30,32,.32) 15%,rgba(29,30,32,.35) 25%,rgba(29,30,32,.37) 29.12%,rgba(29,30,32,.38) 35.34%,rgba(29,30,32,.4) 40.37%,rgba(29,30,32,.42) 44.56%,rgba(29,30,32,.45) 48.24%,rgba(29,30,32,.47) 51.76%,rgba(29,30,32,.5) 55.44%,rgba(29,30,32,.549) 59.63%,rgba(29,30,32,.605) 64.66%,rgba(29,30,32,.66) 70.88%,rgba(29,30,32,.713) 78.62%,rgba(29,30,32,.764) 88.21%,rgba(29,30,32,.81));
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1;
+  transition: all .3 ease-in-out;
+}
+
+.customers-grid-gradient:hover {
+  background-image: linear-gradient(180deg,rgba(29,30,32,.6),rgba(29,30,32,.62) 15%,rgba(29,30,32,.65) 25%,rgba(29,30,32,.67) 29.12%,rgba(29,30,32,.68) 35.34%,rgba(29,30,32,.7) 40.37%,rgba(29,30,32,.72) 44.56%,rgba(29,30,32,.75) 48.24%,rgba(29,30,32,.77) 51.76%,rgba(29,30,32,.8) 55.44%,rgba(29,30,32,.85) 59.63%,rgba(29,30,32,.9) 64.66%,rgba(29,30,32,.94) 70.88%,rgba(29,30,32,.95) 78.62%,rgba(29,30,32,.96) 88.21%,rgba(29,30,32,.99));
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1;
+}
+
+
 
 .customers-intro-wrapper {
   display: flex;
