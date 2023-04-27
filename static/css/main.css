@@ -9935,11 +9935,20 @@ button:focus {
   color: var(--gray-200);
 }
 
+.u-header__nav-link svg {
+  width: 15px;
+  height: 15px;
+}
+
+
 .nav-link-hover-bg {
   padding: 8px 12px;
   background-color: transparent;
   outline: 0;
   border-radius: var(--radius-4);
+  transition-property: background-color,color;
+  transition-duration: .2s;
+  transition-timing-function: ease;
 }
 
 .nav-link-hover-bg:hover {
@@ -9954,6 +9963,9 @@ button:focus {
   background-color: transparent;
   outline: 0;
   border-radius: var(--radius-4);
+  transition-property: background-color,color;
+  transition-duration: .2s;
+  transition-timing-function: ease;
 }
 
 .nav-link-hover-bg-dark:hover {

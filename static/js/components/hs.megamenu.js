@@ -1,15 +1,4 @@
-/*
- * HS Mega Menu - jQuery Plugin
- * @version: 1.0.0 (Sun, 26 Feb 2017)
- * @requires: jQuery v1.6 or later
- * @author: HtmlStream
- * @event-namespace: .HSMegaMenu
- * @browser-support: IE9+
- * @license:
- *
- * Copyright 2017 HtmlStream
- *
- */
+
 ;(function($){
 	'use strict';
 
