@@ -4644,6 +4644,9 @@ details[open] > summary {
   display: flex;
   gap: 4px;
   flex-wrap: wrap;
+  border: 1px solid var(--dark-light-border-2);
+  padding: 8px;
+  border-radius: 32px;
 }
 
 /* Style the buttons that are used to open the tab content */
