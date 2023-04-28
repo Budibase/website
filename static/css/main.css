@@ -4642,12 +4642,14 @@ details[open] > summary {
   overflow: hidden;
   background-color: transparent;
   display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
   padding: 8px 18px;
   font-variation-settings: 'wght' 480;
   font-weight: 500;
