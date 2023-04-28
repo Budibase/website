@@ -26,23 +26,23 @@ To simplify pricing, we have transitioned to a per-user model. The per-user mode
 
 We are reducing the number of tiers for both Cloud and Self-hosting. For Budibase Cloud users, you have 4 tiers to choose from; Free, Premium, Business, Enterprise.
 
-{{< figure src="/blog/updates/pricing-update-april-2023/budibase-cloud-pricing.png" alt="Budibase Cloud Pricing" >}}
+![cloud hosting pricing](https://res.cloudinary.com/daog6scxm/image/upload/v1682684711/cms/CleanShot_2023-04-28_at_13.24.30_2x_bjkhbz.webp)
 
 As you can see from the image above, we’ve priced each tier very competitively, including a generous free tier that allows you to build internal tools with up to 5 users for free.
 
 1. **Free tier -** The Free tier is perfect for small teams getting started with Budibase, and allows you to build internal tools with up to **5 users for free** - an industry best. It also comes with free SSO and a powerful RBAC system.
 2. **Premium tier -** For professional deployments and in cases where you need to work with large teams, we recommend the premium tier, which you can start with 1 user and add as many users as you need.
-3. **Business tier -** The business tier was designed with scalability in mind and is the perfect option for businesses who require more power and security. With the Business tier, you must start with a minimum 20 users.
+3. **Business tier -** The business tier was designed with scalability in mind and is the perfect option for businesses who require more power and security. .
 4. **Enterprise tier -** The Enterprise tier is designed for larger organizations and comes with additional features, SLAs, and support.
 
 ### Self-managed tiers
 
 For self-managed users, you have 3 tiers to choose from; Community, Business, Enterprise.
 
-{{< figure src="/blog/updates/pricing-update-april-2023/self-managed-pricing.png" alt="Budibase Cloud Pricing" >}}
+![self-hosting pricing](https://res.cloudinary.com/daog6scxm/image/upload/v1682684846/cms/CleanShot_2023-04-28_at_13.26.58_2x_vvjyon.webp)
 
 1. **Community tier -** The self-managed Community tier is not limited by users allowing you to deploy Budibase apps across your entire company for free. This plan also includes free SSO and a powerful RBAC system.
-2. **Business tier -** The self-managed Business tier comes with a plethora of different features and support, on top of the community offering. As with the Business tier on Cloud, you must start with a minimum 20 users.
+2. **Business tier -** The self-managed Business tier comes with a plethora of different features and support, on top of the community offering.
 3. **Enterprise tier -** Just like the Enterprise tier in Cloud, this plan is designed for large organizations and comes with additional features, SLAs, and support.
 
 ## What does this mean for current users/customers

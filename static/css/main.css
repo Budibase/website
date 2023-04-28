@@ -6583,6 +6583,15 @@ border-radius: .75rem;
 }
 }
 
+.customers-grid-d img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .customer-image {
   position: absolute;
   top: 0;
@@ -6603,6 +6612,7 @@ border-radius: .75rem;
   align-content: flex-start;
   text-align: left;
   max-width: 68%;
+  pointer-events: none;
 }
 
 .customers-grid-gradient {
@@ -6870,6 +6880,12 @@ border-radius: .75rem;
   box-shadow: 0 0 0 0.2rem rgba(33, 200, 122, 0.25);
 }
 
+.btn:focus-visible {
+  /* Don't animate the shadow, if present */
+  transition: none;
+  box-shadow: 0 0 0 2px transparent, 0 0 0 4px var(--blue-500);
+}
+
 .btn.disabled, .btn:disabled {
   opacity: 0.4;
   cursor: not-allowed;
@@ -6931,12 +6947,13 @@ fieldset:disabled a.btn {
 
 .btn-white:focus, .btn-pimary.focus {
   box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
+  color: var(--loContrast);
 }
 
 .btn-secondary {
   color: var(--hiContrast);
   background: transparent;
-  border: 1px solid var(--gray-900);
+  border: 1px solid var(--gray-900) !important;
 }
 
 .btn-secondary:hover {
