@@ -36,7 +36,7 @@ First, let’s look at what you'll create today:
 
 ![GitHub Metrics Dashboard Admin Page](https://res.cloudinary.com/daog6scxm/image/upload/v1655209996/cms/2_egziyd.webp "GitHub Metrics Dashboard Admin Page")
 
-And you can see the [finished app here](https://roch.budibase.app/app/GitHub-metrics-dashboard#/).
+Why not also check out our tutorial on [how to build a dashboard](budibase.com/blog/tutorials/how-to-build-a-dashboard/)?
 
 This sample dashboard showcases many of the different techniques you can use to load almost any metric you want to track. You can create KPIs, tables, charts, filters, automations, and more.
 
