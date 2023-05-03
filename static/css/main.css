@@ -3770,8 +3770,6 @@ details[open] > summary {
   padding: 0 12px;
 }
 
-
-
 .trusted-by-logos {
   display: flex;
   flex-direction: row;
@@ -5430,6 +5428,34 @@ ul {
     top: 75px;
     z-index: 10;
     background-color: white;
+  }
+}
+
+
+/* shortcodes */
+
+
+.cta-shortcode {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  padding: 2.25rem;
+  margin: 4rem 0;
+  gap: 1.25rem;
+  justify-items: center;
+  text-align: center;
+}
+
+@media  (min-width: 576px) {
+  .cta-shortcode {
+    display: grid;
+    grid-template-columns: 1fr .25fr;
+    align-items: center;
+    padding: 2.25rem;
+    margin: 4rem 0;
+    gap: 1rem;
+    justify-items: start;
+    text-align: left;
   }
 }
 
@@ -9008,9 +9034,6 @@ button.bg-light:focus {
   background-color: var(--dark) !important;
 }
 
-.bg-white-dark {
-  background: linear-gradient(white 60%, var(--dark) 60%) no-repeat;
-}
 
 .bg-dark-light {
   background-color: var(--dark-light) !important;

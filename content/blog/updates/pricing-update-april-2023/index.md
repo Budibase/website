@@ -3,11 +3,12 @@
 title: Simpler pricing
 description: Since the launch of our platform, we have always aimed to make our pricing model as simple as possible and perfectly tailored to your needs. On the 1st May 2023, we are taking a giant leap towards that goal by introducing our new pricing.
 date: 2023-05-01
-profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/joe_illustration_gray_bg_e97wdl.jpg"
+profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1683132110/Photos/joe-prof-profilepic_sglwrl.webp"
 image: "/blog/updates/pricing-update-april-2023/cover.png"
 images:
 - budibase-logo.jpg
 author: Joe Johnston
+
 ---
 
 Since the launch of our platform, we have always aimed to make our pricing model as simple as possible and perfectly tailored to your needs. On the 2nd May 2023, we are taking a giant leap towards that goal by introducing our [new pricing.](https://budibase.com/pricing)
@@ -21,6 +22,8 @@ Day passes were introduced to provide a granular approach to pricing that closel
 To simplify pricing, we have transitioned to a per-user model. The per-user model was preferred by the majority of the customers we collaborated with and is common across our industry. This new model is easier to understand and predict than day passes.
 
 [View the new pricing on our pricing page](https://budibase.com/pricing)
+
+{{< cta >}}
 
 ### Cloud hosting
 
@@ -51,8 +54,7 @@ For self-managed users, you have 3 tiers to choose from; Community, Business, En
 
   - **For new accounts:** We’re introducing a new pricing structure across all Budibase plans, effective May 2nd, 2023.
   - **For existing accounts on the free or open source plan:** We’ll move you to the new pricing structure. A vast majority of you will not be affected. For the small number of users who are affected, please feel free to[ reach out to sales](https://budibase.com/contact) to discuss your circumstances. For existing accounts over the new limits, we’ve implemented a grace period until the 31st May, 2023. On the 1st June, if your Budibase account is over the new usage limits you will be asked to move to a paid plan, or update your tenant to adhere to the free/community plans.
-
-  **For existing accounts on a paid plan:** Most of our customers are aware of our plans to change pricing. In fact, a lot of customers are currently on the new pricing plan already. For customers yet to move to the new pricing structure, we can help you switch over to one of the new plans. For help switching plans, please [book a slot in our account executive’s calendar](https://meetings-eu1.hubspot.com/joe-moss). 
+  - **For existing accounts on a paid plan:** Most of our customers are aware of our plans to change pricing. In fact, a lot of customers are currently on the new pricing plan already. For customers yet to move to the new pricing structure, we can help you switch over to one of the new plans. For help switching plans, please [book a slot in our account executive’s calendar](https://meetings-eu1.hubspot.com/joe-moss). 
 
 ## Feedback
 
