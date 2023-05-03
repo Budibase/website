@@ -5319,8 +5319,8 @@ ul {
   flex-shrink: 0;
   border-radius: 25%;
   overflow: hidden;
-  background: var(--gray-800);
   margin-right: 8px;
+  border: 1px solid var(--dark-light-border);
 }
 
 .icon-container-lg {
