@@ -9,7 +9,7 @@ images:
   - https://res.cloudinary.com/daog6scxm/image/upload/v1681980338/features/grid_h4tsdd.png
   - https://res.cloudinary.com/daog6scxm/image/upload/v1678206223/features/New_user_flow_xuidkr.png
   - https://res.cloudinary.com/daog6scxm/image/upload/v1678206223/features/Undo_and_redo_lcgtfj.png
-date: "2023-05-04"
+date: "2023-05-10"
 author: Joe Johnston
 draft: false
 
@@ -27,8 +27,6 @@ draft: false
 Manage your data as easily as a spreadsheet — add new columns and rows, filter, sort, and inline-edit with just a few clicks. The power of a database and the usability of a spreadsheet are an exciting combination that will provide productivity gains for all users.
 
 The new Grid interface is currently in beta. It currently only works with the internal database and Datasource Plus connections (PostgreSQL, MySQL, Google Sheets, and others).
-
-Visit the documentation →
 
 ---
 
@@ -51,8 +49,6 @@ We’ve introduced new simpler pricing. In October we introduced day pass pricin
 > **Only available to enterprise users**
 
 Sync an existing set of users and groups from an identity provider (Okta, AD, OneLogin) and keep these users in sync with Budibase.
-
-Visit the documentation →
 
 ---
 
