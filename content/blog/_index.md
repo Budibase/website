@@ -1,8 +1,8 @@
 ---
-title: "Budibase Blog"
-description: "The Budibase blog will help you learn about application development and workplace automation."
+title: Blog - Budibase
+description: The Budibase blog will help you learn about application development and workplace automation.
 images:
-- budibase-logo.jpg
+- /homepage-meta.png
 type: blog
 layout: list
 date: 2019-01-01
