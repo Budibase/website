@@ -6962,6 +6962,7 @@ fieldset:disabled a.btn {
 
 .btn-primary:focus, .btn-pimary.focus {
   box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
+  color: #000;
 }
 
 .btn-white {
