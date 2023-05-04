@@ -4,7 +4,7 @@ date = 2022-03-23T00:00:00Z
 description = "Our free work order app template is the perfect way to manage and monitor maintenance, servicing, and repairs. Start using Budibase today."
 destination = "https://budibase.app/builder?template=app/work-order-app"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1648026951/cms/Work_Order_App_Screenshot_1_lzquvh.png"]
-label = "Work Order App Template"
+label = "Work Order App"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1648027126/cms/Work_Order_App_Gif_oissg7.gif"
 summary = "Our free work order app is the perfect way to manage and monitor maintenance."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1648027110/cms/w
 thumbnailColor = "orange"
 title = "Free Work Order App Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 Maintaining equipment, properties, and fleets is expensive. Between managing workloads, and retaining profitability, maintenance teams face massive challenges. These become more difficult, the larger your organization is.

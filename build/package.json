@@ -1,0 +1,25 @@
+{
+  "name": "hugo-data-to-pages",
+  "version": "1.1.0",
+  "description": "fork used for generating hugo data from budibase api",
+  "main": "hugo.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "api": "^5.0.5",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^8.1.0",
+    "prompts": "^2.4.1",
+    "yargs": "^13.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andz-bb",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andz-bb/hugo-data-to-pages"
+  }
+}

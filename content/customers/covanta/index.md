@@ -8,10 +8,10 @@ images:
 - /img/meta-images/customers-stories.png
 - budibase-logo.jpg
 customer: Covanta
-headcount: "4000"
+headcount: "4,000"
 founded: "1986"
-Revenue: 1.868 billion USD
-Industry: Renewable Energy / Waste Management
+Revenue: 1.8 billion USD
+Industry: Energy
 Website: https://www.covanta.com/
 author: Charles Link
 position: Senior Director, Data and Analytics

@@ -1,0 +1,57 @@
+{{ partial "header.html" . }}
+{{ partial "navigation.html" . }}
+<div class="space-2 container blog-grid">
+  <section class="feature-nav">
+    <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1628150998/3.%20Stickers/Sticker2_urwgif.avif" class="img-fluid u-lg-avatar mb-4" alt="budibase spaceman" />
+    <h2 class="mb-3">Think fast</h2>
+    <p class="mb-6">Thoughts and ideas on how to build tools, automate workflows and speed-up the workplace.</p>
+    <ul class="blog-nav-items">
+      <li>
+        <a href="/blog/" class="a-alt text-sm">All posts</a>
+      </li>
+      <li>
+        <a href="/blog/data" class="a-alt text-sm">Data</a>
+      </li>
+      <li>
+        <a href="/blog/app-building" class="a-alt text-sm">App building</a>
+      </li>
+      <li>
+        <a href="/blog/automation" class="a-alt text-sm">Automation</a>
+      </li>
+      <li>
+        <a href="/blog/tutorials" class="a-alt text-sm">Tutorials</a>
+      </li>
+      <li>
+        <a href="/blog/inside-it" class="a-alt text-sm">Inside IT</a>
+      </li>
+      <li>
+        <a href="/blog/updates" class="a-alt text-sm">Updates</a>
+      </li>
+    </ul>
+  </section>
+  <div>
+    <div class="blog-feature-cards space-2-bottom">
+      {{ range (.Paginate .RegularPagesRecursive).Pages }}
+      <a href="{{ .Permalink }}">
+        <div class="blog-feature-card">
+          <img class="rounded"
+            src=" {{ if $.Site.Params.cloudinary_base_url }}{{ .Params.image }}{{else}}{{ .Params.image }}{{end}}" />
+          <h2 class="h4 mb-2 mt-4 line-clamp-1">{{ .Title }}</h2>
+          <p class="two-line-clamp">{{ .Description }} </p>
+          <p class="mt-2 text-grey text-xs"> {{ if (.Params.profilePic) }}
+            <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+            {{ else }}
+            <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
+            {{ end }}{{ .Params.author }} | {{ .Date.Format .Site.Params.dateform }}
+          </p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    {{ template "_internal/pagination.html" . }}
+  </div>
+</div>
+</div>
+
+
+{{ partial "cta.html" . }} {{ partial "footer.html" . }}

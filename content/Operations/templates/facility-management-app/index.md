@@ -4,7 +4,7 @@ date = 2022-03-22T00:00:00Z
 description = "Our free facility management app is the perfect solution for managing regular maintenance tasks, across multiple locations. Start using Budibase today."
 destination = "https://budibase.app/builder?template=app/facility-management-app"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647963344/cms/Facility_Management_App_Screenshot_1_ujtviu.png"]
-label = "Facility Management App Template"
+label = "Facility Management"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1647963439/cms/Facility_Management_App_Gif_svxxou.gif"
 summary = "Our free facility management app is the perfect solution for managing regular maintenance, across multiple locations."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1647963421/cms/F
 thumbnailColor = "fuchsia"
 title = "Facility Management App Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 Managing properties is a challenge. Properly maintaining facilities requires high levels of organization. When done manually, this can lead to large volumes of admin work.

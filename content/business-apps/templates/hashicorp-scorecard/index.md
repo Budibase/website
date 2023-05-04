@@ -6,13 +6,15 @@ cover: "/business-apps/templates/hashicorp-scorecard/images/cover.png"
 draft: "false"
 type: templates
 layout: single
-label: "Hashicorp Scorecard App"
+label: "Hashicorp Scorecard "
 summary: "The Hashicorp alternative to OKRs - a great application for managing goals."
 thumbnail: "/business-apps/templates/hashicorp-scorecard/images/thumbnail.jpg"
 preview: "/business-apps/templates/hashicorp-scorecard/images/preview.gif"
 datasource: "Built-in database"
 destination: "https://budibase.app/builder?template=app/hashicorp-scorecard"
 thumbnailColor: blue
+icon: "/img/icon/app.svg"
+
 ---
 
 HashiCorp was founded by Mitchell Hashimoto and Armon Dadgar in 2012 with the goal of revolutionizing datacenter management: application development, delivery, and maintenance. They’re one of the leading open source organizations in the world, and were recently ranked No. 4 on the Forbes #Cloud100! 

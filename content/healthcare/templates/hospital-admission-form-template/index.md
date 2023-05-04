@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1646389939/cms/H
 thumbnailColor = "chartreuse"
 title = "Hospital Admission Form Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 Delivering patient care requires a huge amount of administrative work. This begins with the admissions process.

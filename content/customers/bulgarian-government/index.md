@@ -1,16 +1,16 @@
 ---
 title: Why the Bulgarian Goverment chose Budibase
-description: Learn how the Bulgarian Government used Budibase to rehome thousands of Ukrainian refugees.
+description: The Bulgarian Gov rehomes 100,000 refugees using Budibase
 type: customers
 layout: single
 date: "2022-08-01"
 images:
 - /img/meta-images/customers-stories.png
 - budibase-logo.jpg
-customer: Bulgarian Government
+customer: Bulgarian Gov
 headcount: "83,943"
 founded: "1942/1989"
-Revenue: $24 billion
+Revenue: 24 billion USD
 Industry: Government
 Website: https://www.gov.bg/en
 author: Bozhidar Bozhanov

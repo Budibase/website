@@ -7,8 +7,9 @@ description: Free applicant tracking system template - advertise jobs, receive a
 images:
 - "/uploads/template-applicant-tracking-system.png"
 type: templates
+icon: "/img/icon/app.svg"
 layout: single
-label: Applicant Tracking System
+label: Applicant Tracking 
 summary: Advertise jobs, receive applications, and track candidates.
 thumbnail: "/business-apps/templates/applicant-tracking-system/images/thumbnail.webp"
 preview: "/business-apps/templates/applicant-tracking-system/images/preview.gif"

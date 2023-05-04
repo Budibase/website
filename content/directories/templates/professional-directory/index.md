@@ -4,7 +4,7 @@ date = 2022-03-22T00:00:00Z
 description = "Our professional directory template is a secure, efficient way to gather and manage data."
 destination = "https://budibase.app/builder?template=app/professional-directory"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647944933/cms/Professional_Directory_1_echca9.png"]
-label = "Professional Directory Template"
+label = "Professional Directory"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1647945228/cms/Professional_Directory_GIF_a1ggpq.gif"
 summary = "Our professional directory template is a secure, efficient way to gather and manage data."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1647944957/cms/P
 thumbnailColor = "blue"
 title = "Professional Directory Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 For business groups, professional bodies, and industry associations, providing fast access to accurate information is critical. Managing this can lead to huge costs. This includes admin work, human error, miscommunications, and avoidable risk.

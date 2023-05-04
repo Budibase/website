@@ -1,0 +1,38 @@
+{{ partial "header.html" . }} {{ partial "navigation-dark.html" . }}
+  <div class="bg-dark space-2-top">
+    <div class="container">
+      <h1 class="hero-title text-center mb-4 text-white">Pricing</h1>
+      <p class="hero-description text-center text-white opacity-75">Simple, scalable pricing. Try with your team for free.</p>
+      <div class="pricing-tabs-container flex-row gap-md pt-6 pb-4">
+        <div class="tab ">
+            <button class="btn tablinks" onclick="openPricing(event, 'cloud')" id="defaultOpen">
+               Cloud <span class="opacity-50 ml-1">(We host)</span></button>
+              <button class="btn tablinks" onclick="openPricing(event, 'selfHost')" >
+              Self-host 
+              <span class="opacity-50 ml-1">(You host)</span>
+            </button>
+        </div>
+      </div>
+<div class="mt-2 mb-6">
+  <div id="cloud" class="tabcontent">
+  {{ partial "pricing/per-user-dark.html"}}
+  </div>
+  <div id="selfHost" class="tabcontent">
+    {{ partial "pricing/per-user-self-host-dark.html"}}
+  </div>
+</div>
+<div class="space-2-top">
+  {{ partial "pricing/faqs-dark.html" . }}
+</div>
+</div>
+</div>
+
+{{ partial "cta.html" . }}
+{{ partial "footer.html" . }}
+
+<!-- JS -->
+<script src="{{ "js/pricing.js" | absURL }}"></script>
+<script src="{{ "js/pricing-tabs.js" | absURL }}"></script>
+<script>
+  document.getElementById("defaultOpen").click();
+</script>

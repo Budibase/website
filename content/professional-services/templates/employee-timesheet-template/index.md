@@ -4,7 +4,7 @@ date = 2022-03-03T00:00:00Z
 description = "Our employee timesheet template simplifies project management, job costing, and payroll processes. Log time, track projects and supercharge profitability."
 destination = "https://budibase.app/builder?template=app/employee-timesheet-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646326310/cms/Employee_Timesheet_Template_1_rqrkqz.png"]
-label = "Employee Timesheet Template"
+label = "Employee Timesheet"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646326290/cms/Employee_Timesheet_Template_GIF_zcnm7v.gif"
 summary = "Our employee timesheet template simplifies project management, job costing, and payroll processes. Log time, track projects and supercharge profitability."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1646326229/cms/E
 thumbnailColor = "magenta"
 title = "Employee Timesheet Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 In any business, it’s crucial to have a clear record of how your employees use their time. This ensures that your team is productive, your payroll is accurate, and your projects stay on budget.

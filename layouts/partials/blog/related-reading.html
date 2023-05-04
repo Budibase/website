@@ -1,0 +1,7 @@
+<div class="bg-gray-900 px-4 pt-4 pb-2 rounded">
+    <p class="mb-2 h3">Related reading</p>  
+    <ul class="feature-nav-items"> 
+    <li><a href="{{if .PrevInSection}}{{.PrevInSection.Permalink}}{{end}}" class="a-alt ">{{if .PrevInSection}}{{.PrevInSection.Title}}{{end}}</a></li>
+    <li><a href="{{if .NextInSection}}{{.NextInSection.Permalink}}{{end}}" class="a-alt ">{{if .NextInSection}}{{.NextInSection.Title}}{{end}}</a></li>
+  </ul>
+</div>

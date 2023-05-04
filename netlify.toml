@@ -29,56 +29,12 @@ HUGO_VERSION = "0.101.0"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
+[context.website-refresh-23]
+command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
 [[redirects]]
   from = "/blog/posts/cofoundervalidation/"
   to = "/blog/cofoundervalidation/" 
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/css/annimate.css"
-  to = "/css/main.css"
-  status = 301
-
-[[redirects]]
-  from = "/build-a-web-app"
-  to = "/product"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/host-a-web-app"
-  to = "/product"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/manage-a-web-app"
-  to = "/product"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/design/"
-  to = "/product"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/automate/"
-  to = "/product"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/data/"
-  to = "/product"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/deploy/"
-  to = "/product"
   status = 301
   force = true
 
@@ -120,5 +76,29 @@ HUGO_ENABLEGITINFO = "true"
 [[redirects]]
   from = "/people"
   to = "/careers"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/self-host"
+  to = "/pricing"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/integration"
+  to = "/integrations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/integration/*"
+  to = "/integrations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/customers"
+  to = "/customers/covanta"
   status = 301
   force = true

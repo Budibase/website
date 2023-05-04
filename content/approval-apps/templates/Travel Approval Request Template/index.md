@@ -4,7 +4,8 @@ date = 2022-01-18T00:00:00Z
 description = "Simplify the way your employees manage business trips with our free travel approval request template."
 destination = "https://budibase.app/builder?template=app/travel-approval-request-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642421791/cms/Travel_Approval_Request_Template_1_jsn6ya.png"]
-label = "Travel Approval Request Template"
+label = "Travel Approval"
+icon = "/img/icon/approval.svg"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642421826/cms/Travel_Approval_Request_App_GIF_v8boae.gif"
 summary = "Our travel approval request template is designed to streamline and simplify the way your employees book and manage business trips."

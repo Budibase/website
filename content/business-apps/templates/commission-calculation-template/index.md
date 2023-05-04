@@ -4,7 +4,7 @@ date = 2022-03-22T00:00:00Z
 description = "Our commission calculation template is the fast, easy way to manage employee benefits and compensation. Start using Budibase for free today."
 destination = "https://budibase.app/builder?template=app/commission-calculation-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647948582/cms/Commission_Calculation_Template_1_ydn4dn.png"]
-label = "Commission Calculation Template"
+label = "Commission Calculation"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1647948704/cms/Commission_Calculation_Template_gif_zzc8ka.gif"
 summary = "Our commission calculation template is the easy way to manage performance-based benefits."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1647948694/cms/C
 thumbnailColor = "orange"
 title = "Commission Calculation Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 Commission schemes are one of the most popular ways to boost morale and motivation. However, managing this can also create a huge admin burden. Different employees perform differently and can qualify for commission based on a number of complex rules.

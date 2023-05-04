@@ -4,8 +4,9 @@ date = 2022-01-18T00:00:00Z
 description = "Our open-source university portal template offers a quickly deployable and powerful app for managing resources, services, and information."
 destination = "https://budibase.app/builder?template=app/university-portal"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642418562/cms/University_Portal_1_cau0yr.png"]
-label = "University Portal Template"
+label = "University Portal"
 layout = "single"
+icon = "/img/icon/portal.svg"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642418579/cms/University_Portal_App_GIF_snihoc.gif"
 summary = "Our open-source university portal template offers a quickly deployable and powerful app for managing resources, services, and information."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/University_Portal_App_Thumbnail_New_k0t9fk.png"

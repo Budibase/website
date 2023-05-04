@@ -5,7 +5,7 @@ description: Build custom portals which powerful integrations, intuitive design,
 images: 
 - /business-apps/templates/open-source-ticketing-system/images/cover.png
 draft: false
-type: portals
+type: solutions/portals
 layout: single
 ---
 

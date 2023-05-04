@@ -1,0 +1,145 @@
+{{ $staticHash := now.Unix }}
+<div class="container space-2">
+  <hr />
+</div>
+<footer>
+    <div class="container space-2-bottom">
+      <div class="row justify-content-md-between">
+        <div class="col-6 col-md-3 col-lg-2 order-lg-3 mb-7 mb-lg-0 mr-2">
+          <h3 class="h6 mb-3">Company</h3>
+          <!-- List Group -->
+          <div class="list-group list-group-flush ">
+            <a class="list-group-item list-group-item-action" href="/about">About</a>
+          </div>
+          <div class="list-group list-group-flush">
+            <a class="list-group-item list-group-item-action" href="/careers">Careers</a>
+          </div>
+          <div class="list-group list-group-flush">
+            <a class="list-group-item list-group-item-action" href="/privacy">Privacy Policy</a>
+          </div>
+          <div class="list-group list-group-flush">
+            <a class="list-group-item list-group-item-action" href="/support">Support Policy</a>
+          </div>
+          <div class="list-group list-group-flush">
+            <a class="list-group-item list-group-item-action" href="/terms-of-service">Terms of Service</a>
+          </div>
+          <!-- End List Group -->
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0 mr-2">
+          <h3 class="h6 mb-3">Product</h3>
+  
+          <!-- List Group -->
+          <div class="list-group list-group-flush ">
+            <a class="list-group-item list-group-item-action" href="/product">Features</a>
+            <a class="list-group-item list-group-item-action" href="/components">Components</a>
+            <a class="list-group-item list-group-item-action" href="/integration">Integrations</a>
+            <a class="list-group-item list-group-item-action" href="/templates">Templates</a>
+            <a class="list-group-item list-group-item-action" href="/pricing">Pricing</a>
+          </div>
+
+          <!-- End List Group -->
+        </div>
+  
+        <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0 mr-2">
+          <h3 class="h6 mb-3">Use cases</h3>
+  
+          <!-- List Group -->
+          <div class="list-group list-group-flush ">
+            <a class="list-group-item list-group-item-action" href="/business-apps">Business apps</a>
+            <a class="list-group-item list-group-item-action" href="/forms">Forms</a>
+            <a class="list-group-item list-group-item-action" href="/approval-apps">Approval apps</a>
+            <a class="list-group-item list-group-item-action" href="/admin-panels">Admin panels</a>
+            <a class="list-group-item list-group-item-action" href="/portals">Portals</a>
+            <a class="list-group-item list-group-item-action" href="/internal-tools">Internal tools</a>
+            <a class="list-group-item list-group-item-action" href="/directories">Directories</a>
+          </div>
+          <!-- End List Group -->
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0 mr-2">
+          <h3 class="h6 mb-3">Solutions</h3>
+  
+          <!-- List Group -->
+          <div class="list-group list-group-flush ">
+            <a class="list-group-item list-group-item-action" href="/logistics">Logistics</a>
+            <a class="list-group-item list-group-item-action" href="/manufacturing">Manufacturing</a>
+            <a class="list-group-item list-group-item-action" href="/healthcare">Healthcare</a>
+            <a class="list-group-item list-group-item-action" href="/professional-services">Professional services</a>
+            <a class="list-group-item list-group-item-action" href="/legal">Legal</a>
+            <a class="list-group-item list-group-item-action" href="/it">IT</a>
+            <a class="list-group-item list-group-item-action" href="/operations">Operations</a>
+          </div>
+          <!-- End List Group -->
+        </div>
+  
+  
+        <div class="col-6 col-md-3 col-lg-2 order-lg-6 mb-7 mb-lg-0 mr-2">
+          <h3 class="h6 mb-3">Resources</h3>
+  
+          <!-- List -->
+          <div class="list-group list-group-flush ">
+              <a class="list-group-item list-group-item-action" href="/blog">Blog</a>
+              <a class="list-group-item list-group-item-action" href="https://docs.budibase.com/docs/" target="_blank" rel="noopener">
+                Docs
+              </a>
+            <a class="list-group-item list-group-item-action" href="https://github.com/Budibase/budibase/discussions" target="_blank" rel="noopener">
+              Community
+            </a>
+            <a class="list-group-item list-group-item-action" href="https://twitter.com/budibase" target="_blank" rel="noopener">
+              Twitter
+            </a>
+          </div>
+          
+          <!-- End List -->
+        </div>
+  
+        <div class="col-6 col-md-3 col-lg-2 order-lg-6 mb-7 mb-lg-0">
+          <!-- Logo -->
+          <a class="d-inline-block mb-5 logo" href="/" aria-label="Space" style="width: 160px; max-width: 100%;">
+            {{ partial "logo.html" . }}
+          </a>
+          <!-- End Logo -->
+          <p class="text-grey mb-4">All rights reserved. ©Budibase 2023</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ========== END FOOTER ========== -->
+<!-- Footer -->
+
+<!-- JS - CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+<!-- JS -->
+<script src="{{ "js/theme.min.js" | absURL }}"></script>
+<script src="{{ "js/hs.core.js" | absURL }}"></script>
+<script src="{{ "js/mobile-menu.js" | absURL }}"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script defer src="{{ "js/components/hs.header.js" | absURL }}"></script>
+<script defer src="{{ "js/components/hs.megamenu.js" | absURL }}"></script>
+
+<script>
+  $(document).on('ready', function () {
+    // initialization of header
+    $.HSCore.components.HSHeader.init($('#header'));
+  });
+</script>
+
+<script>
+  $(window).on('load', function () {
+    // initialization of HSMegaMenu component
+    $('.js-mega-menu').HSMegaMenu({
+      event: 'hover',
+      pageContainer: $('.container'),
+      breakpoint: 1200,
+      hideTimeOut: 200
+    });
+  });
+</script>
+
+</body>
+</html>

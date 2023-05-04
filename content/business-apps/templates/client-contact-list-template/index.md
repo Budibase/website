@@ -4,7 +4,7 @@ date = 2022-03-22T00:00:00Z
 description = "Use our free client contact list template to simplify data collection, storage, and management."
 destination = "https://budibase.app/builder?template=app/client-contact-list"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647955839/cms/Client_Contact_List_Template_1_hlo1z9.png"]
-label = "Client Contact List Template"
+label = "Client Contact List"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1647955889/cms/Client_Contact_List_Gif_uqankd.gif"
 summary = "Our client contact list template is built to simplify data collection, storage, and management. "
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1647955879/cms/C
 thumbnailColor = "indigo"
 title = "Client Contact List Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 Give your team a fast, intuitive way to record, search, and leverage customer contact information.

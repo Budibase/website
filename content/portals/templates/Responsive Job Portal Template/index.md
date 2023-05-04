@@ -4,16 +4,18 @@ date = 2022-01-18T00:00:00Z
 description = "Our free job portal app development template is a secure and effective way to post jobs and hire talent."
 destination = "https://budibase.app/builder?template=app/job-portal"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642417842/cms/Resposnive_Job_Portal_App_1_cv8lfj.png"]
-label = "Job Portal App Development Template"
+label = "Job Portal"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642418053/cms/Responsive_Job_Portal_GIF_hq4dso.gif"
 summary = "Our job portal app development template offers a secure and effective way to list jobs and hire talent."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502299/cms/Responsive_Job_Portal_App_Development_Template_Thumbnail_New_h61xiw.png"
 thumbnailColor = "magenta"
+icon = "/img/icon/portal.svg"
 title = "Job Portal App Development Template | Budibase | Low-Code Platform"
 type = "templates"
 
 +++
+
 Hiring staff is expensive. Between job boards, recruiters, and internal admin time, hiring a single employee typically costs thousands. In many organizations, this can lead to disruption, delay, and resourcing issues.
 
 With our responsive job portal template, you can take back control of your hiring process. Eliminate the need for expensive recruitment apps, and minimize admin time, with our simple, deployable template.

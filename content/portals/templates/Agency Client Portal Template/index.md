@@ -4,11 +4,12 @@ date = 2022-01-18T00:00:00Z
 description = "Manage clients, share project files, and streamline communications with our free agency client portal."
 destination = "https://budibase.app/builder?template=app/agency-client-portal"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642412632/cms/Agency_Client_Portal_Screenshot_1_jebf32.png"]
-label = "Agency Client Portal Template"
+label = "Agency Client Portal"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642412335/cms/Agency_Client_Portal_Template_gif_c82zy4.gif"
 summary = "Our agency client portal provides an effective platform for managing clients, sharing project files, and streamlining communications."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642517071/cms/Agency_Client_Portal_Thumbnail_New_h5cpvh.png"
+icon = "/img/icon/portal.svg"
 thumbnailColor = "green"
 title = "Agency Client Portal Template | Budibase | Low-Code Portals"
 type = "templates"

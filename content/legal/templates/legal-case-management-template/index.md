@@ -4,14 +4,15 @@ date = 2022-03-03T00:00:00Z
 description = "Our free legal case management template is built to maximize efficiency, oversight, and profitability.."
 destination = "https://budibase.app/builder?template=app/legal-case-management-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646301391/cms/Legal_Case_Management_Template_6_vn8uka.png"]
-label = "Legal Case Management Template"
+label = "Legal Case Management"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646301082/cms/Legal_Case_Management_Template_Gif_wyprv0.gif"
 summary = "Our case management template is built to maximize efficiency, oversight, and profitability within legal firms."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1646301072/cms/Legal_Case_Management_Template_Thumbnail_oiuaay.png"
 thumbnailColor = "orange"
-title = " Legal Case Management Template | Budibase"
+title = "Legal Case Management Template | Budibase"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 Share documents, manage costs, and track performance, with our powerful, intuitive platform.

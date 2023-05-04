@@ -5,7 +5,7 @@ description: "Design and create secure, beautiful, custom forms for collecting d
 images: ["/small-business-apps/budibase.png"]
 cover: "/internal-tools/templates/hashicorp-scorecard/images/cover.png"
 draft: "false"
-type: "forms"
+type: "solutions/forms"
 layout: single
 ---
 

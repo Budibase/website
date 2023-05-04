@@ -4,7 +4,7 @@ date = 2022-01-18T00:00:00Z
 description = "Our IT incident report template gives businesses a simple form to record incidents in seconds. Start using Budibase today."
 destination = "https://budibase.app/builder?template=app/it-incident-report-form"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639153307/cms/IT_Incident_Report_Form_Featured_tpdmwv.png"]
-label = "IT Incident Report Template"
+label = "IT Incident Report"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639395708/cms/IT_Incident_report_form_template_gif_ydajjq.gif"
 summary = "Our IT incident report template gives businesses a simple form to record incidents in seconds."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642523404/cms/I
 thumbnailColor = "celery"
 title = "IT Incident Report Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/form.svg"
 
 +++
 Cyber security is critical for modern businesses. Reporting IT incidents helps you to mitigate their impact, and prevent future issues. Even so, many businesses don’t have a reporting process in place.

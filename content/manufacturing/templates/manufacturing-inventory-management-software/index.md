@@ -4,7 +4,7 @@ date = 2022-03-03T00:00:00Z
 description = "Our manufacturing inventory management software is built for maximum oversight, efficiency, and automation. Start using Budibase today."
 destination = "https://budibase.app/builder?template=app/manufacturing-inventory-management-software"
 images = []
-label = "Manufacturing inventory management software"
+label = "Manufacturing inventory app"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646323593/cms/Manufacturing_Inventory_Management_Tempalet_GIF_uwaa3d.gif"
 summary = "Our manufacturing inventory management software is built for maximum oversight, efficiency, and process automation."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1646323573/cms/M
 thumbnailColor = "indigo"
 title = "Manufacturing Inventory Management Software | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 Managing inventories is a massive challenge for manufacturing businesses. This involves maintaining, tracking, and analyzing inventories of raw materials, finished goods, and works-in-progress.

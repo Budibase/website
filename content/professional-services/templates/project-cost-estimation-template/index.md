@@ -4,7 +4,7 @@ date = 2022-03-03T00:00:00Z
 description = "Use our free project cost estimation template to itemize tasks and calculate estimates, in seconds. "
 destination = "https://budibase.app/builder?template=app/project-cost-estimation-template"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646327546/cms/Project_Cost_Estimation_Template_1_zsej5t.png"]
-label = "Project Cost Estimation Template"
+label = "Project Cost Estimation"
 layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646327431/cms/Project_Cost_Estimation_Template_Gif_ui4eao.gif"
 summary = "Our project cost estimation template is built to simplify the quotation and sign-off process. Itemize project tasks and calculate estimates, in seconds."
@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1646327418/cms/P
 thumbnailColor = "seafoam"
 title = "Project Cost Estimation Template | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 For service businesses, detailed, accurate estimates are vital. When projects are underestimated, they’ll run at a loss. If you overestimate costs, you're unlikely to secure new business.

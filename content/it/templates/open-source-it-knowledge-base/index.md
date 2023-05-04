@@ -12,6 +12,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1646388208/cms/I
 thumbnailColor = "chartreuse"
 title = "Open-Source IT Knowledge Base | Budibase | Low-Code Platform"
 type = "templates"
+icon = "/img/icon/app.svg"
 
 +++
 Modern businesses deal with huge amounts of complex information. IT teams require quick and efficient access to information on various systems, hardware, and software solutions.
