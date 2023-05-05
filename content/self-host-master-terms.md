@@ -4,7 +4,7 @@ description: Master commercial terms, for Budibase self-host
 layout: single
 type: legal
 images: ["/homepage-meta.png"]
-date: 2023-05-05T23:00:00+00:00
+date: 2023-05-05
 
 ---
 

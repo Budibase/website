@@ -3,7 +3,7 @@ title: Terms of Service
 description: Terms of service for Budibase Cloud
 layout: single
 type: legal
-date: 2023-05-05T23:00:00+00:00
+date: 2023-05-05
 
 ---
 
