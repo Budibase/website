@@ -1,6 +1,6 @@
 ---
 title: Why Herrenknecht uses Budibase
-description: The user friendliness of Budibase is outstanding! We were able to provide a web application in a very short time.
+description: The user friendliness of Budibase is outstanding! 
 type: customers
 layout: single
 date: "2023-04-20"
