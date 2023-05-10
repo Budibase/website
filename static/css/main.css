@@ -5511,7 +5511,7 @@ font-family: 'Unbounded', cursive !important;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: var(--gray-600) 1px solid;
+  border: var(--gray-1000) 1px solid;
   border-radius: var(--radius-2);
   padding: var(--space-4);
   transition: 200ms all ease;
