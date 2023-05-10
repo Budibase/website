@@ -63,4 +63,4 @@ The original form block allowed you to build forms in just a few clicks. With th
 
 ## Website refresh
 
-We hope you're enjoying the website refresh. We believe it'is cleaner, more professional, and provides a better experience than the previous website.
+We hope you're enjoying the website refresh. We believe it is cleaner, more professional, and provides a better experience than the previous website.
