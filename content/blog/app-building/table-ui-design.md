@@ -6,8 +6,8 @@ image = "https://res.cloudinary.com/daog6scxm/image/upload/v1656428330/cms/Table
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1656428363/cms/Table_UI_Design_Header_st4oix.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "14 Essential Table UI Design Tips"
-
 +++
+
 The humble table is the core of almost any data-centric app interface. Table UI design is central to how your users find, view, and interact with all kinds of information.
 
 With such a fundamental role in your tools, the design of your tables and the screens that contain them can have an outsized impact on your overall user experiences.
@@ -374,13 +374,18 @@ Instead, we could use a series of JavaScript if/else statements to return enumer
 
 For example, something like:
 
-    if (employeeCount < 100) {
-    return ‘Small’;
-    }
-    if (employeeCount >= 100 && employeeCount < 5000){
-    return ‘Medium’;
-    }
-    else return ‘Enterprise’;
+{{< highlight javascript "linenos=inline" >}}
+
+if (employeeCount < 100) {
+ return ‘Small’;
+}
+if (employeeCount >= 100 && employeeCount < 5000){
+ return ‘Medium’;
+}
+else return ‘Enterprise’;
+
+{{< /highlight >}}
+
 
 ## Start using Budibase today
 

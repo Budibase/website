@@ -14,6 +14,10 @@ markup:
     endLevel: 2
     ordered: false
     startLevel: 2
+  highlight:
+    style: dracula
+    guessSyntax: true
+    tabwidth: 12
 
 paginate: 8
 
@@ -36,7 +40,3 @@ params.publisher.logo:
 
 params.logo:
   url: "/budibase-logo.png"
-
-
-
-
