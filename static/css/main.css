@@ -1651,7 +1651,7 @@ mark,
 
 code {
   background: var(--gray-200);
-  color: var(--hiContrast);
+  color: var(--loContrast);
   font-family: "Roboto Mono", monospace;
   font-size: 0.75rem;
   font-weight: 400;
