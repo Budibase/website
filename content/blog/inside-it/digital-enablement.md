@@ -171,6 +171,8 @@ Digital enablement also means aligning IT with your wider strategic goals.
 
 This is critical for the success of any transformation project - both in the sense that we are able to dedicate resources to the most productive avenues and we can maximize buy-in from top-level decision-makers.
 
+{{< cta >}}
+
 ## Create a digital enablement strategy in 5 steps
 
 Now that we know what digital enablement means in practice, it’s time to think about how we can tie all of this together in a strategy that meets your unique organizational needs.

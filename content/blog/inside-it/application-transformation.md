@@ -88,6 +88,8 @@ Or, things could be even more deeply hidden. Say, if your employees’ productiv
 
 Finally, there’s the issue of *technical debt*. In very basic terms, this is the amount of development work you’re putting off until the future by retaining legacy systems. So, the longer you wait, the more complex it will be to replace or refactor tools.
 
+{{< cta >}}
+
 ## 4 application transformation strategies
 
 We can actually go about application transformation in a few distinct ways. Indeed, we can point to four distinct strategies that you might choose to leverage, depending on your specific applications, needs, and resources.
