@@ -1,6 +1,6 @@
 +++
 date = "2020-03-12"
-title = "Oracle integration with Budibase | Use PostgreSQL as your data source"
+title = "Oracle integration with Budibase | Use Oracle as your data source"
 page_title = "Oracle"
 categories = ["data"] 
 description = "Oracle Database is a multi-model database management system."
