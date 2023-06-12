@@ -1694,12 +1694,13 @@ pre {
 
 p > code,
 td > code {
-  background: var(--gray-200);
-  color: var(--hiContrast);
+  background: var(--gray-1000);
+  color: var(--blue-900);
   font-family: "Roboto Mono", monospace;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 400;
-  padding: 0.15em 0.5em;
+  padding: 0.2rem 0.4em;
+  border-radius: 4px;
 }
 
 pre > code {
