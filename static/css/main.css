@@ -32,8 +32,8 @@
     --blue-400: rgb(0, 78, 166);
     --blue-500: rgb(0, 92, 200);
     --blue-600: rgb(6, 108, 231);
-    --blue-700: rgb(29, 128, 245);
-    --blue-800: rgb(64, 150, 243);
+    --blue-700: oklab(0.62 -0.06 -0.22);
+    --blue-800: oklab(0.64 -0.08 -0.2);
     --blue-900: rgb(94, 170, 247);
     --blue-1000:rgb(124, 189, 250);
     --blue-1100:rgb(152, 206, 253);
@@ -6937,8 +6937,8 @@ fieldset:disabled a.btn {
 
 .btn-cta:hover {
   color: white;
-  background-color: var(--blue-600);
-  border: 1px solid var(--blue-600);
+  background-color: var(--blue-700);
+  border: 1px solid var(--blue-700);
 }
 
 .btn-cta:focus, .btn-pimary.focus {
