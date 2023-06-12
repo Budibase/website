@@ -26,8 +26,6 @@ params:
   description: "Budibase is a modern, open source low-code platform for building modern internal applications in minutes."
   dateform: "Jan 2, 2006"
   lang: "en"
-  images: ['budibase-gradient.jpg']
-  cloudinary_base_url: "https://res.cloudinary.com/daog6scxm/image/upload"
 
 author:
   name: "Joseph Johnston"
