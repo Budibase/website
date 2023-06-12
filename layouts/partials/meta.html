@@ -8,7 +8,7 @@
 {{ else }}
 <title>{{ .Title }}</title>
 {{ with .Params.Description }}<meta name="description" content="{{ . }}">{{ end }}
-<meta property="og:image" content="{{ if .Params.og_image }} {{ else }} {{.Params.image }} {{ end }}"/>
+<meta property="og:image" content="{{ if .Params.og_image }}{{ else }}{{.Params.image }}{{ end }}"/>
 {{ end }}
 
 <meta name="robots" content="noodp"/>

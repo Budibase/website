@@ -26,6 +26,7 @@ params:
   description: "Budibase is a modern, open source low-code platform for building modern internal applications in minutes."
   dateform: "Jan 2, 2006"
   lang: "en"
+  images: ['homepage-meta.png']
 
 author:
   name: "Joseph Johnston"
