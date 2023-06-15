@@ -1,27 +1,28 @@
-{{ partial "header.html" . }} {{ partial "navigation-dark.html" . }}
-  <div class="bg-dark space-2-top">
-    <div class="container">
-      <h1 class="hero-title text-center mb-4 text-white">Pricing</h1>
-      <p class="hero-description text-center text-white opacity-75">Simple, scalable pricing. Try with your team for free.</p>
-      <div class="pricing-tabs-container flex-row gap-md pt-6 pb-4">
-        <div class="tab ">
-            <button class="btn tablinks" onclick="openPricing(event, 'cloud')" id="defaultOpen">
+{{ partial "header.html" . }} {{ partial "navigation.html" . }}
+  <div class="mt-8">
+    <div class="container text-center mb-6">
+      <div class="pricing-tabs-container flex-row gap-md mb-9">
+        <div class="tab">
+            <button class="btn btn-lg tablinks" onclick="openPricing(event, 'cloud')" id="defaultOpen">
                Cloud pricing</button>
-              <button class="btn tablinks" onclick="openPricing(event, 'selfHost')" >
+              <button class="btn btn-lg tablinks" onclick="openPricing(event, 'selfHost')" >
               Self-host pricing
             </button>
         </div>
       </div>
-<div class="mt-2 mb-6">
+      <h1 class="hero-title text-center mb-4">Pricing</h1>
+      <p class="lead-lg mx-auto text-center w-lg-50 opacity-75">Try with your team for free. No CC required.</p>
+    </div>
+<div class="container mt-2 mb-6">
   <div id="cloud" class="tabcontent">
-  {{ partial "pricing/per-user-dark.html"}}
+  {{ partial "pricing/per-user.html"}}
   </div>
   <div id="selfHost" class="tabcontent">
-    {{ partial "pricing/per-user-self-host-dark.html"}}
+    {{ partial "pricing/per-user-self-host.html"}}
   </div>
 </div>
 <div class="space-2-top">
-  {{ partial "pricing/faqs-dark.html" . }}
+  {{ partial "pricing/faqs.html" . }}
 </div>
 </div>
 </div>
