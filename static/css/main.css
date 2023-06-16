@@ -32,9 +32,9 @@ html {
   --green-300: rgb(103, 222, 168);
   --green-400: rgb(75, 205, 149);
   --green-500: rgb(52, 187, 132);
-  --green-600: oklab(0.7 -0.2 0.09);
-  --green-700: oklab(0.65 -0.2 0.09);
-  --green-800: oklab(0.60 -0.2 0.09);
+  --green-600: 	rgb(47, 184, 128);
+  --green-700: 	rgb(21, 164, 110);
+  --green-800: 	rgb(0, 143, 93);
   --green-900: rgb(0, 111, 69);
   --green-1000: rgb(0, 93, 57);
   --green-1100: rgb(0, 76, 46);
@@ -1137,12 +1137,11 @@ a:focus {
 }
 
 .hero-description {
-  font-weight: 500;
-  font-variation-settings: "wght" 490;
-  font-size: 22px;
+  font-variation-settings: "wght" 440;
+  font-size: 20px;
   line-height: 1.3;
   letter-spacing: -.02em;
-  color: var(--gray-200);
+  color: var(--gray-1000);
   margin: 20px 0 20px;
   font-family: var(--font-space-grotesk);
   text-align: center;
@@ -4670,18 +4669,18 @@ details[open]>summary {
   display: flex;
   gap: 4px;
   flex-wrap: wrap;
-  background-color: var(--gray-300);
-  padding: 8px 9px;
-  border-radius: 32px;
+  background-color: var(--gray-400);
+  padding: 5px;
+  border-radius: var(--radius-4);
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
   display: inline-block;
   font-size: 15px;
-  padding: 8px 16px;
+  padding: 6px 10px;
   font-variation-settings: 'wght' 540;
-  color: var(--gray-900);
+  color: var(--gray-1100);
   border: 1px solid transparent;
   background-color: transparent;
   font-family: "Inter", Helvetica, Arial, sans-serif;
@@ -4693,7 +4692,7 @@ details[open]>summary {
   -ms-user-select: none;
   user-select: none;
   line-height: none;
-  border-radius: var(--sizes-9) !important;
+  border-radius: var(--radius-3) !important;
   transition: all 0.2s ease-in-out;
   overflow: hidden;
   outline: none;
@@ -4714,9 +4713,9 @@ details[open]>summary {
   .tab button {
     display: inline-block;
     font-size: 20px;
-    padding: 8px 16px;
-    font-variation-settings: 'wght' 620;
-    color: var(--gray-1000);
+    padding: 8px 12px;
+    font-variation-settings: 'wght' 560;
+    color: var(--gray-1100);
     border: 1px solid transparent;
     background-color: transparent;
     font-family: "Inter", Helvetica, Arial, sans-serif;
@@ -4728,7 +4727,7 @@ details[open]>summary {
     -ms-user-select: none;
     user-select: none;
     line-height: none;
-    border-radius: var(--sizes-9) !important;
+    border-radius: var(--radius-3) !important;
     transition: all 0.2s ease-in-out;
     overflow: hidden;
     outline: none;
@@ -4757,7 +4756,7 @@ details[open]>summary {
 /* Create an active/current tablink class */
 .tab button.active {
   background-color: var(--white);
-  color: black;
+  color: var(--hiContrast);
 }
 
 .anchor {
