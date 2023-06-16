@@ -176,6 +176,8 @@ CREATE table_name (
 
 column1_name DATATYPE CONSTRAINTS
 
+)
+
 {{< /highlight >}}
 
 
