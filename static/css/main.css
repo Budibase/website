@@ -739,17 +739,18 @@ big {
 
 
 a {
-  color: var(--blue-800);
+  color: rgba(0, 0, 0, 0.6);
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   opacity: 1 !important;
   cursor: pointer;
+  display: inline;
+  font-variation-settings: 'wght' 440;
 }
 
 a:hover {
-  color: var(--blue-600);
-  text-decoration: none;
+  color: var(--blue-800);
 }
 
 a:focus {
@@ -758,9 +759,16 @@ a:focus {
 
 
 .a-alt {
-  color: var(--hiContrast);
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  opacity: 1 !important;
+  cursor: pointer;
+  text-underline-offset: 0.1em;
+  text-decoration-thickness: .8px;
+  display: inline;
+  font-variation-settings: 440;
 }
 
 .a-alt:hover {
@@ -773,6 +781,24 @@ a:focus {
   -webkit-text-decoration-skip: objects;
   line-height: 0;
   padding: 0;
+}
+
+
+.a-underline {
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: underline;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  opacity: 1 !important;
+  cursor: pointer;
+  text-underline-offset: 0.1em;
+  text-decoration-thickness: .8px;
+  display: inline;
+  font-variation-settings: 440;
+}
+
+.a-underline:hover {
+  color: var(--blue-700);
 }
 
 .a-alt-2:hover {
@@ -5313,7 +5339,11 @@ ul {
   text-rendering: optimizelegibility;
 }
 
-.platform-card-grid-lg {
+
+
+/* List grid */
+
+.list-grid {
   position: relative;
   list-style-type: none;
   display: grid;
@@ -5322,15 +5352,26 @@ ul {
   will-change: height;
   transition: height 400ms ease 0s;
   padding-inline-start: 0;
+  background-color: var(--gray-300);
+  padding: var(--sizes-1) var(--sizes-4) var(--sizes-2) var(--sizes-4);
+  border-radius: var(--radius-3);
 }
-.platform-card-lg {
+
+.list-card {
   gap: 8px;
   offset: 0px !important;
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+  border-top: 1px solid var(--border-color-regular);
 }
-.platform-card-inner-lg {
+
+.list-card:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.list-card-inner {
   text-align: left;
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -5338,15 +5379,13 @@ ul {
   align-items: center;
   grid-template-areas:
     "icon name"
-    "description description";
-    border-bottom: 1px solid var(--gray-400);
-  padding: 12px 0px;
+    ". description";
+  margin: 1em 0;
   transition: background 70ms ease 0s, border;
-  grid-row-gap: 8px;
 }
 
 @media (min-width: 576px) {
-  .platform-card-inner-lg {
+  .list-card-inner {
     text-align: left;
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -5354,47 +5393,44 @@ ul {
     align-items: center;
     grid-template-areas:
       "icon name"
-      "description description";
-    border-bottom: 1px solid var(--gray-400);
-    padding: 24px 0px;
+      ". description";
+    margin: 1em 0;
     transition: background 70ms ease 0s, border;
-    grid-row-gap: 8px;
   }
 }
 
 
-.platform-card-icon-lg {
-  border-radius: 25%;
+.list-card-icon {
+  grid-area: icon;
   border: 0px solid transparent;
-  width: 42px;
-  height: 42px;
+  width: 36px;
+  height: 36px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 6px;
 }
 
-.platform-card-name-lg {
+.list-card-name {
   grid-area: name;
-  margin-left: 12px;
   color: var(--hiContrast);
   font-weight: 500 !important;
-  font-variation-settings: "wght" 500;
-  font-size: 20px;
+  font-variation-settings: "wght" 560;
+  font-size: 18px;
   display: block;
-  line-height: 1.5;
+  line-height: 1;
   letter-spacing: -0.016em;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.platform-card-description-lg {
+.list-card-description {
   grid-area: description;
   color: var(--gray-1100);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.5;
-  min-height: 48px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -7199,8 +7235,15 @@ fieldset:disabled a.btn {
   color: white;
 }
 
+  /* Hubspot form controls */
+
+.form-columns-1 {
+  margin-bottom: 20px !important;
+  margin-right: 0 !important;
+}
+
 .form-columns-2 {
-  margin-bottom: 40px !important;
+  margin-bottom: 20px !important;
   gap: 12px !important;
   display: flex;
 }
@@ -7210,8 +7253,14 @@ label {
   line-height: 20px !important;
   font-weight: 500 !important;
   font-variation-settings: 'wght' 500;
-  color: var(--gray-1000);
-  font-size: 16px !important;
+  letter-spacing: 0.0075em;
+  color: var(--hiContrast);
+  font-size: 15px !important;
+  padding: 0;
+  text-align: start;
+  display: block;
+  margin: 0 0 5px;
+  cursor: pointer;
 }
 
 .hs-error-msgs {
@@ -7227,6 +7276,10 @@ label {
 .hs-error-msg {
   color: var(--red-1000);
   font-size: 12px !important;
+}
+
+.fieldset.form-columns-1 {
+  width: 100% !important;
 }
 
 .hs-button {
@@ -7262,6 +7315,7 @@ label {
   background-color: var(--black);
   border: 1px solid var(--black);
   cursor: pointer;
+  margin-top: 12px;
 }
 
 .input {
@@ -7275,20 +7329,37 @@ label {
 }
 
 .hs-input {
-  height: 50px;
-  background-color: rgb(255, 255, 255);
- border: 1px solid var(--gray-600);
- border-radius: 4px;
+border: 1px solid var(--gray-600);
+border-radius: 4px;
+color: var(--hiContrast);
+font-size: 16px;
 border-image-outset: 0;
 border-image-repeat: stretch;
 border-image-slice: 100%;
 background-color: #FFFFFF;
-height: 50px;
+height: 48px;
 line-height: normal;
 margin: 0;
-padding: 0 0 0 16px;
+padding: 0 0 0 12px;
 transition: border 150ms;
-width: 100%;
+width: 100% !important;
+}
+
+select {
+  appearance: none;
+  background: url("data:image/svg+xml,<svg height='10px' width='10px' viewBox='0 0 16 16' fill='%23000000' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>") no-repeat;
+  background-position: calc(100% - 0.75rem) center !important;
+  -moz-appearance:none !important;
+  -webkit-appearance: none !important; 
+  appearance: none !important;
+  padding-right: 2rem !important;  
+  -webkit-background-position: right 19px top 50%;
+  background-repeat: no-repeat;
+
+}
+
+.hs-input::placeholder {
+  color: var(--gray-800);
 }
 
 .btn-navigation-cta:hover {
