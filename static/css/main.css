@@ -3527,7 +3527,7 @@ pre>code {
 }
 
 .tag-small {
-  background-color: var(--dark-blur);
+  background-color: var(--gray-1000);
   color: var(--loContrast);
   border-radius: 4px;
   font-size: 9px;
@@ -4621,6 +4621,12 @@ details[open]>summary {
   }
 }
 
+.price-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
 .pricing-add-ons {
   display: flex;
   flex-direction: column;
@@ -4987,7 +4993,7 @@ ul {
     width: calc(100% - 32px);
     max-width: 1200px;
     display: grid;
-    grid-template-columns: 2fr repeat(4, minmax(0, 1fr));
+    grid-template-columns: 2fr repeat(3, minmax(0, 1fr));
     grid-template-rows: auto;
     padding: 0;
   }
