@@ -6,7 +6,7 @@ description = "Check out our guide to building an inventory management app - for
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1687525689/cms/inventory-management-app/Inventory_Management_App_h3fmp7.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1687525689/cms/inventory-management-app/Inventory_Management_App_h3fmp7.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Build an Inventory Management App for Free"
+title = "Build an Inventory Management App for Free."
 
 +++
 

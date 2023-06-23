@@ -6,7 +6,7 @@ description = "Check out our quick tutorial on building MySQL admin tools"
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1687524825/cms/mysql-admin-tools/MySQL_Admin_Tools_mnk0xo.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1687524825/cms/mysql-admin-tools/MySQL_Admin_Tools_mnk0xo.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Build MySQL Admin Tools in 6 Steps with Budibase"
+title = "Build MySQL Admin Tools in 6 Steps with Budibase."
 
 +++
 
