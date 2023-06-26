@@ -5276,6 +5276,17 @@ ul {
   border: 1px solid var(--gray-1100);
 }
 
+.platform-card-icon {
+  grid-area: icon;
+  border: 0px solid transparent;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+}
+
 
 
 .platform-card-name {
