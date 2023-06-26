@@ -760,13 +760,9 @@ a:focus {
 
 .a-alt {
   color: rgba(0, 0, 0, 0.6);
-  text-decoration: underline;
   background-color: transparent;
-  -webkit-text-decoration-skip: objects;
   opacity: 1 !important;
   cursor: pointer;
-  text-underline-offset: 0.1em;
-  text-decoration-thickness: .8px;
   display: inline;
   font-variation-settings: 440;
 }
