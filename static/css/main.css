@@ -6240,8 +6240,24 @@ ul {
   }
 }
 
+.template-img-wrapper {
+  height: auto;
+  max-width: 100%;
+}
+  .template-img {
+    height: 100%;
+  }
+
+
+@media (min-width: 576px){
+  .template-img {
+    height: 500px;
+  }
+  }
+@media (min-width: 765px){
 .template-img {
   height: 500px;
+}
 }
 
 .template-cards {

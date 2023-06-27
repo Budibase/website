@@ -16,7 +16,7 @@
         </header>
         <div class="template-meta">
           <div>
-            <p class="mb-4 w-xl-75">{{ .Summary }}</p>
+            <p class="mb-4 lead">{{ .Summary }}</p>
           </div>
         </div>
         <div class="flex-row mb-4">
@@ -48,7 +48,7 @@
         <a href="{{ .Params.destination }}" class="btn btn-cta btn-lg sm-btn-block">Try template</a>
 
       </div>
-        <div>
+        <div class="template-img-wrapper">
           <img class="img-fluid template-img mb-6 rounded-sm" alt="{{ .Title }}" fetchpriority="high" src="{{ .Params.preview }}">
       </div>
       </div>
