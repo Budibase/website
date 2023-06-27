@@ -6086,7 +6086,7 @@ ul {
 
 
 .text-light {
-  color: var(--text-color-light);
+  color: var(--gray-900);
 }
 
 .text-light-dark {
