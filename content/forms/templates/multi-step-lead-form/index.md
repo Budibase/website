@@ -14,7 +14,7 @@ thumbnail: "/forms/templates/multi-step-lead-form/images/thumbnail.webp"
 preview: "/forms/templates/multi-step-lead-form/images/preview.gif"
 datasource: Built-in database
 destination: https://budibase.app/builder?template=app/lead-generation
-thumbnailColor: teal
+thumbnailColor: orange
 icon: "/img/icon/form.svg"
 
 ---

@@ -18,8 +18,8 @@ html {
   --blue-300: rgb(152, 206, 253);
   --blue-400: rgb(124, 189, 250);
   --blue-500: rgb(94, 170, 247);
-  --blue-600: oklab(0.64 -0.08 -0.2);
-  --blue-700: oklab(0.62 -0.06 -0.22);
+  --blue-600: 	rgb(89, 167, 246);
+  --blue-700: rgb(56, 146, 243);
   --blue-800: rgb(6, 108, 231);
   --blue-900: rgb(0, 92, 200);
   --blue-1000: rgb(0, 78, 166);
@@ -3523,7 +3523,7 @@ pre>code {
 }
 
 .tag-small {
-  background-color: var(--dark-blur);
+  background-color: var(--indigo-700);
   color: var(--loContrast);
   border-radius: 4px;
   font-size: 9px;
@@ -3534,7 +3534,7 @@ pre>code {
   align-items: center;
   justify-items: center;
   font-weight: 500;
-  border: 1px solid var(--gray-1000);
+  border: 1px solid var(--indigo-900);
   font-variation-settings: "wght" 600;
 }
 
@@ -5202,7 +5202,7 @@ ul {
     "icon name"
     "description description";
   border-radius: 8px;
-  background: white;
+  background: var(--gray-100);
   border: 1px solid var(--gray-500);
   padding: 24px;
   transition: background 70ms ease 0s, border;
@@ -5220,7 +5220,7 @@ ul {
       "icon name"
       "description description";
     border-radius: 16px;
-    background: white;
+    background: var(--gray-100);
     border: 1px solid var(--gray-500);
     padding: 24px;
     transition: background 70ms ease 0s, border;
@@ -5512,7 +5512,7 @@ ul {
   border-radius: 25%;
   overflow: hidden;
   margin-right: 8px;
-  border: 1px solid var(--dark-light-border);
+  border: 1px solid var(--gray-500);
 }
 
 .icon-container-lg {
@@ -6238,6 +6238,10 @@ ul {
     padding-left: 15px;
     width: 100%;
   }
+}
+
+.template-img {
+  height: 500px;
 }
 
 .template-cards {
@@ -7137,14 +7141,14 @@ fieldset:disabled a.btn {
 
 .btn-cta {
   color: white;
-  background-color: var(--blue-600);
-  border: 1px solid var(--blue-600);
+  background-color: var(--blue-700);
+  border: 1px solid var(--blue-700);
 }
 
 .btn-cta:hover {
   color: white;
-  background-color: var(--blue-700);
-  border: 1px solid var(--blue-700);
+  background-color: var(--blue-800);
+  border: 1px solid var(--blue-800);
 }
 
 .btn-cta:focus,
