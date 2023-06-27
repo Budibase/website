@@ -6240,25 +6240,89 @@ ul {
   }
 }
 
-.template-img-wrapper {
-  height: auto;
-  max-width: 100%;
+@media (min-width: 765px) {
+  .template-single-container {
+    display: grid;
+    grid-column-gap: 1rem;
+    grid-template-columns: repeat(12, 1fr);
+    max-width: 1288px;
+    margin: 0 auto;  
+  }
 }
-  .template-img {
+
+.template-meta-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1080px) {
+.template-meta-wrapper {
+    grid-column: span 4;
+    position: sticky;
+    top: 0;
+    -webkit-align-self: start;
+    -ms-flex-item-align: start;
+    align-self: start;
+    margin-right: 12.5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-sizing: content-box;
+    max-height: calc(100vh - 96px - 32px);
+    overflow: auto;
+    padding-bottom: 32px;
+    padding-top: 90px;
+}
+}
+.template-content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1080px) {
+  .template-content-wrapper {
+    gap: 1rem;
+    grid-column: 5/span 8;
     height: 100%;
+    position: relative;
+    padding-top: 90px;
   }
+}
 
 
-@media (min-width: 576px){
-  .template-img {
-    height: 500px;
-  }
-  }
-@media (min-width: 765px){
+.template-img-wrapper {
+  position: relative;
+  width: 100%;
+  margin: 0px auto 32px;
+  padding: 0px;
+}
+
+.template-img-container {
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+
 .template-img {
-  height: 500px;
+  margin: auto;
+  display: block;
+  width: 0;
+  height: 573px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
 }
-}
+
+
+
 
 .template-cards {
   width: 100%;
@@ -6473,21 +6537,12 @@ ul {
 .template-meta {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
-}
-
-@media (min-width: 756px) {
-  .template-meta {
-    display: grid;
-    grid-template-columns: 1fr 160px;
-    gap: 1rem;
-  }
 }
 
 .template-meta-info {
   display: flex;
   justify-content: left;
-  align-items: flex-end;
+  align-items: center;
   margin-bottom: .5rem;
 }
 
@@ -6496,26 +6551,14 @@ ul {
     display: flex;
     justify-content: left;
     margin-bottom: .1rem;
-    align-items: flex-end;
+    align-items: center;
   }
 }
 
-.template-content {
-  display: flex;
-  gap: 1rem;
-}
-
-@media (max-width: 1200px) {
-  .template-content {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-}
 
 
 .template-toc {
-  background-color: var(--light2);
+  background-color: var(--gray-300);
   padding: 2rem 1.75rem;
   height: fit-content;
   text-decoration: none;
