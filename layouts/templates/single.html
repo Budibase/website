@@ -3,71 +3,59 @@
 
 
 <main id="content" role="main">
-  <div class="space-1-top space-2-bottom container">
-    <div class="breadcrumbs mb-8">
-      <a href="/templates" class="mb-8 a-alt text-xs ">All templates</a> /
-      <a href="{{ .Section }}/templates" class="mb-8 a-alt text-xs">{{.Section | humanize }} templates</a>
-    </div>
-      <article>
-        <div class="hero-container mb-6">
-          <div>
-        <header class="template-header mb-3">
-          <h1 class="">{{ .Params.label }}</h1>
-        </header>
-        <div class="template-meta">
-          <div>
-            <p class="mb-4 w-xl-75">{{ .Summary }}</p>
+  <div class="space-2-bottom container">
+    <article>
+      <div class="template-single-container mb-6">
+        <div class="template-meta-wrapper">
+          <div class="breadcrumbs mb-4">
+            <a href="/templates" class="a-alt text-xs ">All templates</a> /
+            <a href="{{ .Section }}/templates" class="a-alt text-xs">{{.Section | humanize }} templates</a>
           </div>
-        </div>
-        <div class="flex-row mb-4">
-          <div class="template-meta-info mr-4">
-            <svg xmlns="http://www.w3.org/2000/svg" class="u-xs-avatar mr-1" fill="none" viewBox="0 0 24 24"
-              stroke="gray">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            <p class="text-xs text-light">Free</p>
+          <div class="template-header mb-3">
+            <h1 class="">{{ .Params.label }}</h1>
           </div>
-          <div class="template-meta-info mr-3">
-            <svg xmlns="http://www.w3.org/2000/svg" class="u-xs-avatar mr-1" fill="none" viewBox="0 0 24 24"
-              stroke="gray">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
-            </svg>
-            <p class="text-xs text-light">100% customizable</p>
+          <div class="template-meta">
+            <div>
+              <p class="mb-4 lead">{{ .Summary }}</p>
+            </div>
+            <a href="{{ .Params.destination }}" class="btn btn-cta btn-lg sm-btn-block mb-4">Try template</a>
           </div>
-          <div class="template-meta-info mr-3">
-            <svg xmlns="http://www.w3.org/2000/svg" class="u-xs-avatar mr-1" fill="none" viewBox="0 0 24 24"
-              stroke="gray">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-            </svg>
-            <p class="text-xs text-light">Works on all devices</p>
+          <div class="flex-row mb-4">
+            <div class="template-meta-info mr-2">
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.49991 0.877045C3.84222 0.877045 0.877075 3.84219 0.877075 7.49988C0.877075 11.1575 3.84222 14.1227 7.49991 14.1227C11.1576 14.1227 14.1227 11.1575 14.1227 7.49988C14.1227 3.84219 11.1576 0.877045 7.49991 0.877045ZM1.82708 7.49988C1.82708 4.36686 4.36689 1.82704 7.49991 1.82704C10.6329 1.82704 13.1727 4.36686 13.1727 7.49988C13.1727 10.6329 10.6329 13.1727 7.49991 13.1727C4.36689 13.1727 1.82708 10.6329 1.82708 7.49988ZM10.1589 5.53774C10.3178 5.31191 10.2636 5.00001 10.0378 4.84109C9.81194 4.68217 9.50004 4.73642 9.34112 4.96225L6.51977 8.97154L5.35681 7.78706C5.16334 7.59002 4.84677 7.58711 4.64973 7.78058C4.45268 7.97404 4.44978 8.29061 4.64325 8.48765L6.22658 10.1003C6.33054 10.2062 6.47617 10.2604 6.62407 10.2483C6.77197 10.2363 6.90686 10.1591 6.99226 10.0377L10.1589 5.53774Z" fill="black" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+              <p class="text-xs text-light ml-1">Free</p>
+            </div>
+            <div class="template-meta-info mr-2">
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.877075 7.49985C0.877075 3.84216 3.84222 0.877014 7.49991 0.877014C11.1576 0.877014 14.1227 3.84216 14.1227 7.49985C14.1227 11.1575 11.1576 14.1227 7.49991 14.1227C3.84222 14.1227 0.877075 11.1575 0.877075 7.49985ZM3.78135 3.21565C4.68298 2.43239 5.83429 1.92904 7.09998 1.84089V6.53429L3.78135 3.21565ZM3.21567 3.78134C2.43242 4.68298 1.92909 5.83428 1.84095 7.09997H6.5343L3.21567 3.78134ZM6.5343 7.89997H1.84097C1.92916 9.16562 2.43253 10.3169 3.21579 11.2185L6.5343 7.89997ZM3.78149 11.7842C4.6831 12.5673 5.83435 13.0707 7.09998 13.1588V8.46566L3.78149 11.7842ZM7.89998 8.46566V13.1588C9.16559 13.0706 10.3168 12.5673 11.2184 11.7841L7.89998 8.46566ZM11.7841 11.2184C12.5673 10.3168 13.0707 9.16558 13.1588 7.89997H8.46567L11.7841 11.2184ZM8.46567 7.09997H13.1589C13.0707 5.83432 12.5674 4.68305 11.7842 3.78143L8.46567 7.09997ZM11.2185 3.21573C10.3169 2.43246 9.16565 1.92909 7.89998 1.8409V6.53429L11.2185 3.21573Z" fill="black" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+              <p class="text-xs text-light ml-1">100% customizable</p>
+            </div>
+            <div class="template-meta-info mr-2">
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 2.5C4 2.22386 4.22386 2 4.5 2H10.5C10.7761 2 11 2.22386 11 2.5V12.5C11 12.7761 10.7761 13 10.5 13H4.5C4.22386 13 4 12.7761 4 12.5V2.5ZM4.5 1C3.67157 1 3 1.67157 3 2.5V12.5C3 13.3284 3.67157 14 4.5 14H10.5C11.3284 14 12 13.3284 12 12.5V2.5C12 1.67157 11.3284 1 10.5 1H4.5ZM6 11.65C5.8067 11.65 5.65 11.8067 5.65 12C5.65 12.1933 5.8067 12.35 6 12.35H9C9.1933 12.35 9.35 12.1933 9.35 12C9.35 11.8067 9.1933 11.65 9 11.65H6Z" fill="black" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+              <p class="text-xs text-light ml-1">Works on all devices</p>
+            </div>
           </div>
-        </div>
-        <a href="{{ .Params.destination }}" class="btn btn-cta btn-lg sm-btn-block">Try template</a>
-
-      </div>
-        <div>
-          <img class="img-fluid mb-6 rounded-sm" alt="{{ .Title }}" fetchpriority="high" src="{{ .Params.preview }}">
-      </div>
-      </div>
-        <div class="template-content">
-          <aside class="template-toc rounded-sm position-sticky-lg sticky-subnav top">
+          <div class="mt-4 template-toc rounded position-sticky-lg sticky-subnav top">
             <h5 class="mb-2">Table of contents</h5>
             {{ .TableOfContents }}
-            <a href="{{ .Params.destination }}" class="btn btn-sm btn-cta">Try template</a>
-          </aside>
-          <div class="article container-7">
-            {{ .Content }}
           </div>
+      </div>
+
+      <div class="template-content-wrapper">
+        <div class="article">
+          <div class="template-img-wrapper">
+              <img class="img-fluid template-img mb-4 rounded" decoding="async" alt="{{ .Title }}" fetchpriority="high"
+              src="{{ .Params.preview }}">
+          </div>
+          {{ .Content }}
         </div>
-      </article>
-      <section class="space-2">
-        <h2>Deployment options</h2>
-        {{ partial "deploy-options.html" . }}
-        </section>
-    </div>
+      </div>
+    </article>
+  </div>
+  <section class="space-2 container">
+    <h2>Deployment options</h2>
+    {{ partial "deploy-options.html" . }}
+  </section>
+  </div>
 </main>
 {{ partial "cta.html" . }}
 {{ partial "footer.html" . }}
