@@ -34,7 +34,7 @@
               <p class="text-xs text-light ml-1">Works on all devices</p>
             </div>
           </div>
-          <div class="mt-4 template-toc rounded-lg position-sticky-lg sticky-subnav top">
+          <div class="mt-4 template-toc rounded position-sticky-lg sticky-subnav top">
             <h5 class="mb-2">Table of contents</h5>
             {{ .TableOfContents }}
           </div>
@@ -43,7 +43,7 @@
       <div class="template-content-wrapper">
         <div class="article">
           <div class="template-img-wrapper">
-              <img class="img-fluid template-img mb-4 rounded-lg" decoding="async" alt="{{ .Title }}" fetchpriority="high"
+              <img class="img-fluid template-img mb-4 rounded" decoding="async" alt="{{ .Title }}" fetchpriority="high"
               src="{{ .Params.preview }}">
           </div>
           {{ .Content }}
