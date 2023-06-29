@@ -145,7 +145,7 @@ We have a range of technical and policy-level levers that we can reach for to im
 
 ![Documentated Processes](https://res.cloudinary.com/daog6scxm/image/upload/v1669737941/cms/No_Documented_Processes_https___www.bptrends.com_bpt_wp-content_uploads_Business_Process_Maturity_in_Polish_Organisations_2016.pdf_lld4z5.webp "Documented Processes")
 
-[BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf)
+(BP Trends)
 
 ### Compliance
 

@@ -275,7 +275,7 @@ The first is to create a visualization of our model so that it can be easily com
 
 ![Workflow Model Training](https://res.cloudinary.com/daog6scxm/image/upload/v1672747661/cms/Training_https___www.bptrends.com_bpt_wp-content_uploads_2020-BPM-Survey.pdf_uxhcit.webp "Workflow Model Training")
 
-([BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/2020-BPM-Survey.pdf))
+(BP Trends)
 
 As we said earlier, this plays a couple of important roles - including for employee onboarding, training, workflow analysis, change management, and more.
 

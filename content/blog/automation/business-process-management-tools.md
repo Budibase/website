@@ -70,7 +70,7 @@ The key is that software interventions are used to _implement_ and _manage_ proc
 
 ![Business Process Management Tools Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1669739427/cms/Reduce_Costs_https___www.bptrends.com_bpt_wp-content_uploads_Business_Process_Maturity_in_Polish_Organisations_2016.pdf_icjyie.webp "Business Process Management Tools Stats")
 
-[BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf)
+(BP Trends)
 
 Check out our ultimate guide to business process management to find out more about how this works in practice.
 

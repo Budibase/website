@@ -46,7 +46,7 @@ Of course, there are countless potential permutations of this.
 
 However, there are a few key scenarios that we need to be aware of. These include a lack of cloud support, a lack of integrability with other platforms, and sub-optimal, unintuitive user interfaces.
 
-![Legacy app transformation](https://res.cloudinary.com/daog6scxm/image/upload/v1683898874/cms/Application Transformation/Legacy_App_httpswww.ir.comguideswhat-are-legacy-systems-and-why-do-companies-still-use-them_fthkq5.webp "Legacy app transformation")
+![Legacy app transformation](https://res.cloudinary.com/daog6scxm/image/upload/v1683898874/cms/Application%20Transformation/Legacy_App_httpswww.ir.comguideswhat-are-legacy-systems-and-why-do-companies-still-use-them_fthkq5.webp "Legacy app transformation")
 
 ([IR](https://www.ir.com/guides/what-are-legacy-systems-and-why-do-companies-still-use-them))
 
