@@ -4,5 +4,5 @@ description: "Budibase is a platform that allows you to take control of the mult
 type: product
 layout: single
 date: 2023-01-01
-images: ["/banner-gradient.jpg"]
+images: ["/homepage-meta.png"]
 ---
