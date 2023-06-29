@@ -524,7 +524,7 @@ table td {
 }
 
 .text-xxs {
-  font-size: var(--fontsize-2);
+  font-size: 12px !important;
 }
 
 .text-blue {
@@ -4615,6 +4615,13 @@ details[open]>summary {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: var(--space-3);
   }
+}
+
+.price-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
 }
 
 .pricing-add-ons {
@@ -10469,7 +10476,7 @@ button.bg-blue:focus {
 
   .font-weight-semi-bold {
     font-weight: 600 !important;
-    font-variation-settings: "wght" 620;
+    font-variation-settings: "wght" 620 !important;
 
   }
 
