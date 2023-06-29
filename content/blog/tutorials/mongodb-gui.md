@@ -349,6 +349,6 @@ In addition, we explored many aspects of app creation. You learned how to create
 
 We hope you’ve enjoyed it, and see you again next time!
 
-Check out our in-depth guide to [database GUIs](blog/tutorials/database-gui).
+Check out our in-depth guide to [database GUIs](/blog/tutorials/database-gui).
 
 To get a broader view of everything that Budibase can do, why not check out our 50+ free, deployable [app templates](https://budibase.com/templates/)?
