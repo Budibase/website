@@ -9,7 +9,7 @@
         <div class="template-meta-wrapper">
           <div class="breadcrumbs mb-4">
             <a href="/templates" class="a-alt text-xs ">All templates</a> /
-            <a href="{{ .Section }}/templates" class="a-alt text-xs">{{.Section | humanize }} templates</a>
+            <a href="/{{ .Section }}/templates" class="a-alt text-xs">{{.Section | humanize }} templates</a>
           </div>
           <div class="template-header mb-3">
             <h1 class="">{{ .Params.label }}</h1>
