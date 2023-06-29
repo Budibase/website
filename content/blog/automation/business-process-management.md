@@ -120,7 +120,7 @@ Besides this, we can also expect to see savings on indirect costs, including tho
 
 ![Cost Reduction](https://res.cloudinary.com/daog6scxm/image/upload/v1669735375/cms/Reduce_Costs_https___www.bptrends.com_bpt_wp-content_uploads_Business_Process_Maturity_in_Polish_Organisations_2016.pdf_cs00ci.webp "Cost Reduction")
 
-[BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf)
+(BP Trends)
 
 ### Minimizing risks
 

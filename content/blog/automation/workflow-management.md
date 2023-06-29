@@ -312,7 +312,7 @@ Workflow management plays a role in both cases. The question is simply whether w
 
 ![Workflow Management Training](https://res.cloudinary.com/daog6scxm/image/upload/v1672746414/cms/Training_https___www.bptrends.com_bpt_wp-content_uploads_2020-BPM-Survey.pdf_njnseg.webp "Workflow Management Training")
 
-([BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/2020-BPM-Survey.pdf))
+(BP Trends)
 
 ## How to manage workflows in 10 steps
 

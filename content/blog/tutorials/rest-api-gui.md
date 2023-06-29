@@ -105,7 +105,7 @@ You can use the Budibase DB to quickly store metadata about your app. In our dem
 
 Create a new table called rest_queries. Then add columns for URL, JSON Body, and Method.
 
-Next, on the REST API settings let’s add some queries. In our demo app, we are connecting to the [Budibase API](https://docs.budibase.com/docs/public-api). It allows us to manage data about apps and users.
+Next, on the REST API settings let’s add some queries. In our demo app, we are connecting to the Budibase API. It allows us to manage data about apps and users.
 
 Two headers are used in all queries:
 
@@ -144,7 +144,7 @@ With it, you can use the API output directly in your components such as tables a
 
 Use the send button to test the call and save it.
 
-The default call is search apps, using the https://budibase.app/api/public/v1/applications/search route.
+The default call is search apps, using the /api/public/v1/applications/search route.
 
 Once this call is working, copy it, and replace _POST_ with _GET_. Remove the JSON binding and the JSON body. You should get something like this:
 
@@ -152,7 +152,7 @@ Once this call is working, copy it, and replace _POST_ with _GET_. Remove the JS
 
 In this case, we are testing it with this route:
 
-https://budibase.app/api/public/v1/applications/\[add_id\]
+budibase.app/api/public/v1/applications/\[add_id]
 
 This is a GET request to load a specific app. Don’t forget to replace \[app_id\] with a valid app id so you can test it out. Save this query.
 

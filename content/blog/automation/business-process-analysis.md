@@ -34,8 +34,6 @@ So, we couldn’t really describe a task as a process if it requires an entirely
 
 ![Process Analysis](https://res.cloudinary.com/daog6scxm/image/upload/v1669736942/cms/Reduce_Costs_https___www.bptrends.com_bpt_wp-content_uploads_Business_Process_Maturity_in_Polish_Organisations_2016.pdf_vgvujk.webp "Process Analysis")
 
-[BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf)
-
 Another characteristic of processes is that they include tightly defined roles and responsibilities. This is especially true the larger their scale or the more actors are involved.
 
 In other words, a process should clearly delineate how responsibilities are shared across its constituent tasks, as well as how these are to be carried out.
