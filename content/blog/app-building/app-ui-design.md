@@ -112,7 +112,7 @@ On one level, this contributes to some of the other points we touched on above, 
 
 Besides this, limiting the actions different users can take helps to prevent a number of security and compliance issues, including unauthorized access, data loss, breaches, corruption, and more, as well as the costs associated with each of these.
 
-Check out our in-depth guide to [enterprise app UI design](blog/app-building/enterprise-app-ui-design).
+Check out our in-depth guide to [enterprise app UI design](/blog/app-building/enterprise-app-ui-design).
 
 ## 6 essential UI design principles
 
@@ -157,7 +157,7 @@ Similarly, we want to minimize the number of actions and user inputs required to
 
 Obviously, many user actions are a lot more complex than simple in-app navigation.
 
-Luckily, you have a range of different options available to you for different tasks. For example, in a data entry tool, you can use multi-step [form UIs ](blog/app-building/form-ui-design)to help guide users through different categories of information, and default values to reduce the amount of manual work needed.
+Luckily, you have a range of different options available to you for different tasks. For example, in a data entry tool, you can use multi-step [form UIs ](/blog/app-building/form-ui-design)to help guide users through different categories of information, and default values to reduce the amount of manual work needed.
 
 ### 5. Prioritize recognition over recall
 
@@ -193,7 +193,7 @@ Besides simply giving users a way to input information, form components can be u
 
 ### Tables
 
-At a basic level, [table UIs ](blog/app-building/table-ui-design)are fairly self-explanatory. That is, tables are a familiar way of detailing information on different database entries and entities. However, the more specific design of your tables can have a huge impact on your overall app’s UI.
+At a basic level, [table UIs ](/app-building/table-ui-design)are fairly self-explanatory. That is, tables are a familiar way of detailing information on different database entries and entities. However, the more specific design of your tables can have a huge impact on your overall app’s UI.
 
 For example, there’s a balance to be struck between providing sufficient information for your users at a glance and preventing cognitive overload.
 

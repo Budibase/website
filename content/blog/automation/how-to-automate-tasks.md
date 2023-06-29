@@ -204,7 +204,7 @@ We can implement this within just about any business process.
 
 For example, we could eliminate weekly review meetings by creating a simple automation to notify relevant stakeholders of project updates.
 
-Check out our guide on [automating marketing processes](blog/automation/automating-marketing-processes/).
+Check out our guide on [automating marketing processes](/blog/automation/automating-marketing-processes/).
 
 ### Service, support, and relationship management
 
@@ -242,7 +242,7 @@ It also means that we can set realistic, quantifiable goals. That is, we need to
 
 Next, we need to choose the right tool for the job. The trouble is that there are several different types of automation software and countless individual vendors and platforms within each category.
 
-Check out our ultimate guide to [business process automation ](blog/automation/business-process-automation/)for a more detailed overview.
+Check out our ultimate guide to [business process automation ](/blog/automation/business-process-automation/)for a more detailed overview.
 
 The key here is deciding on the platform that’s going to offer you the best ROI.
 
@@ -320,7 +320,7 @@ One big decision is how and where to host custom solutions.
 
 This has a massive impact on the effectiveness and ROI of your automation project. This cuts across accessibility, usability, and security. We’ll see how when we look at what Budibase offers as an automation tool.
 
-Check out our guide to [operations automation](blog/automation/what-is-operations-automation/).
+Check out our guide to [operations automation](/blog/automation/what-is-operations-automation/).
 
 ### 6. Monitoring and ongoing optimization
 

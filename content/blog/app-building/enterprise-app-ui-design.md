@@ -54,7 +54,7 @@ It’s also worth noting that the UX priorities in enterprise design are a littl
 
 Rather, design is purely functional. The goal is efficiency and effectiveness over anything else.
 
-Check out our ultimate guide to [app UI design](blog/app-building/app-ui-design) to learn more about UX priorities in different kinds of tools.
+Check out our ultimate guide to [app UI design](/blog/app-building/app-ui-design) to learn more about UX priorities in different kinds of tools.
 
 ## Enterprise app design challenges
 
@@ -102,7 +102,7 @@ The key is maintaining the same basic experiences for users, as well as minimizi
 
 Say for example that you have a custom tool for your marketing team to manage direct mail, and then you switch to a different vendor for your fulfillment. The new vendor has a slightly different pricing structure, so your team will need to provide different order information.
 
-Our task as designers would be to reflect this while retaining as much of the original user experience as we can. So, we’d want to update our [form UI design,](blog/app-building/form-ui-design) without altering the substance of the steps users need to take to make an order.
+Our task as designers would be to reflect this while retaining as much of the original user experience as we can. So, we’d want to update our [form UI design,](/blog/app-building/form-ui-design) without altering the substance of the steps users need to take to make an order.
 
 ![Enterprise Custom Application Statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1656427325/cms/Enterprise_App_UI_Design_cy9zy6.webp "Enterprise Custom Application Statisitcs")
 
@@ -134,7 +134,7 @@ Clustering allows you to provide a smooth UX despite this, by enabling users to 
 
 We’ll look at a few more strategies you can employ to manage information-heavy UIs when we come to our enterprise interface design tips.
 
-Check out our in-depth guide to [table UI design](blog/app-building/table-ui-design).
+Check out our in-depth guide to [table UI design](/blog/app-building/table-ui-design).
 
 ## Other challenges for design teams
 
