@@ -96,3 +96,27 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
   to = "/integrations"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/integrations/database/*"
+  to = "/integrations/database"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/integrations/api/*"
+  to = "/integrations/api"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/integrations/auth/*"
+  to = "/integrations/auth"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/integrations/infra/*"
+  to = "/integrations/infra"
+  status = 301
+  force = true
