@@ -15,8 +15,6 @@ In November, Budibase launched out of beta! The response from our community was 
 
 Blocks are predefined sets of components that streamline the design process within Budibase. Before blocks, creating a list of searchable cards took 10 minutes; with blocks, this process takes under 1 minute.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1636970243/Out%20of%20beta%20launch/design-like-a-pro_qhlfeu.gif)
-
 [Watch Budibase promotional demo](https://youtu.be/xoljVpty_Kw)
 
 ## Oracle DB Integration
@@ -35,7 +33,6 @@ Building on our MSSQL integration, you can now generate tables directly from you
 
 Autogenerate CRUD screens from any datasource with just a few clicks. The new UI and UX stems from numerous conversations with the community and makes the design experience consistent between the internal database and external datasources.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1638453590/November%20release/add_screen_ui_unq9p7.png)
 
 ***
 
@@ -43,15 +40,11 @@ Autogenerate CRUD screens from any datasource with just a few clicks. The new UI
 
 You can now include a dynamic filter component inside a data provider and have complete control over all of the filters - automatically. Users can now create incredible search and filtering experiences with just a few clicks.
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/c_scale,w_800/v1638456628/November%20release/CleanShot_2021-12-02_at_14.50.13_pyvxfw.png)
-
 ***
 
 ## Add text directly to the design screen
 
 Type directly onto your design screen instead of using the settings panel. For simple text input, we feel this is a better experience.
-
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1638453795/November%20release/CleanShot_2021-12-02_at_12.46.34_qsf5li.gif)
 
 ***
 
