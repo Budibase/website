@@ -4,5 +4,5 @@ description: "Stay up-to-date on all the Budibase community platforms (Discord, 
 type: community
 layout: single
 date: 2022-03-03
-images: ["/banner-gradient.jpg"]
+images: ["/homepage-meta.png"]
 ---
