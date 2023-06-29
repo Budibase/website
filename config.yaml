@@ -3,7 +3,7 @@ enableRobotsTXT: false
 languageCode: "en-uk"
 title: "Budibase | Build internal tools in minutes, the easy way"
 enableEmoji: "true"
-disableKinds: ["taxonomy"]
+disableKinds: ["taxonomy", "categories"]
 ignoreErrors: ["error-disable-taxonomy"]
 copyright: "This work is licensed and owned by Budibase"
 
