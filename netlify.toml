@@ -33,6 +33,25 @@ HUGO_ENABLEGITINFO = "true"
 command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [[redirects]]
+  from = "/host-a-web-app"
+  to = "/product/" 
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/manage-a-web-app"
+  to = "/product/" 
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/build-a-web-app"
+  to = "/product/" 
+  status = 301
+  force = true
+
+
+[[redirects]]
   from = "/blog/posts/cofoundervalidation/"
   to = "/blog/cofoundervalidation/" 
   status = 301

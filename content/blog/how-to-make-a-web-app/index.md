@@ -628,7 +628,7 @@ Environments. You will usually need to create multiple environments. For example
 
 Hosting involves running your web app on a particular server.
 
-When using Budibase, this step can be automated with [Budibase hosting](https://www.budibase.com/host-a-web-app/). With Budibase, you are still required to buy a domain.
+When using Budibase, this step can be automated with [Budibase hosting](https://www.budibase.com/). With Budibase, you are still required to buy a domain.
 
 If you are not using Budibase to host your web application, follow these quick steps: \\
 
