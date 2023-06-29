@@ -299,7 +299,7 @@ This becomes a problem when manipulating temporal data across multiple data sour
 
 ## Creating a data model for your web application
 
-For even the simplest of web apps, [creating a data model](blog/data/how-to-create-a-data-model) is critical. The choices you make in terms of your data models and data sources are highly related, and often intersubjective. That is each one influences the other.
+For even the simplest of web apps, [creating a data model](/blog/data/how-to-create-a-data-model) is critical. The choices you make in terms of your data models and data sources are highly related, and often intersubjective. That is each one influences the other.
 
 If you build a data source from scratch, you’ll also need to define a data model that suits your business needs. If you rely on existing data sources, you’ll need to ensure that they fit your wider data model.
 
@@ -452,7 +452,7 @@ Let’s look in more detail at what this should include.
 
 As we touched on previously, the schema contains the names, types, and rules associated with all objects and their fields. For example, certain fields may be required to be unique, not empty, or have some other constraints placed on them, like default values.
 
-Additionally, your schema should map out the relationships between different entities. There are several different models which can be used to do this. Check out our article on [database schemas](blog/data/what-is-a-database-schema) for more information.
+Additionally, your schema should map out the relationships between different entities. There are several different models which can be used to do this. Check out our article on [database schemas](/blog/data/what-is-a-database-schema) for more information.
 
 ## Data sources and relationships
 
@@ -1238,7 +1238,7 @@ Arguably, the best thing you can do is to thoroughly vet data sources before inv
 
 Obviously, if multiple sources exist, you want to opt for the one with the best record on both. Of course, this isn’t always possible.
 
-There are a number of other steps you can take to mitigate these issues. Once again, you can check out our in-depth guide on [how to integrate multiple data sources](blog/data/how-to-integrate-multiple-databases) to find out more.
+There are a number of other steps you can take to mitigate these issues. Once again, you can check out our in-depth guide on [how to integrate multiple data sources](/blog/data/how-to-integrate-multiple-databases) to find out more.
 
 ## Data management challenges
 

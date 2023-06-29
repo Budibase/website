@@ -1,6 +1,6 @@
 ---
 title: "Budibase API integrations"
-description: "Bring all your data together with Budibase."
+description: "Bring all your API data together with Budibase."
 type: platform/integrations
 category: "api"
 layout: list

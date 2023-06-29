@@ -10,7 +10,7 @@ icon = "/img/icon/app.svg"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642427805/cms/School_Admin_Panel_Template_GIF_rbz7ti.gif"
 summary = "Our school admin panel template is designed to give maximum oversight over student behavior and school finances."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642587505/cms/School_admin_panel_thumbnail_new_vju5nx.png"
-thumbnailColor = "red-pastel"
+thumbnailColor = "red"
 title = "School Admin Panel Template | Budibase | Low-Code Platform"
 type = "templates"
 

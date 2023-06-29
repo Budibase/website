@@ -65,7 +65,7 @@ The two main approaches here are:
 
 [Workflow automation](https://budibase.com/blog/automation/workflow-automation/) is all about creating end-to-end systems for streamlining the flow of resources within a specific, discrete function.
 
-BPA focuses less on end-to-end automation, and more on automating similar core tasks that are repeated in multiple processes, to boost efficiency more generally. Check out our ultimate guide to [business process automation ](blog/automation/business-process-automation/)for more information.
+BPA focuses less on end-to-end automation, and more on automating similar core tasks that are repeated in multiple processes, to boost efficiency more generally. Check out our ultimate guide to [business process automation ](/blog/automation/business-process-automation/)for more information.
 
 Operations automation can draw on either of these approaches.
 
@@ -192,7 +192,7 @@ Next, we’ll look at some real-world use cases for automation in your ops team,
 
 With that in mind, here are the top operations functions that you might focus on for automation.
 
-You might also like our guide on [how to automate tasks.](blog/automation/how-to-automate-tasks/)
+You might also like our guide on [how to automate tasks.](/blog/automation/how-to-automate-tasks/)
 
 ### Delegation and task management
 
@@ -302,7 +302,7 @@ We might also need to create an additional attribute, to store a value for labor
 
 Our goal with automation would be to consolidate this data and process it to show how we’ve used our budget so far and compare this against our original plan. We could also set up notifications to warn stakeholders that a project risks going over budget.
 
-Check out our guide to [automating marketing processes](blog/automation/automating-marketing-processes/).
+Check out our guide to [automating marketing processes](/blog/automation/automating-marketing-processes/).
 
 ## How do you automate your operations?
 

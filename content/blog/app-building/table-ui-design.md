@@ -71,7 +71,7 @@ Typically, you’ll want to include your unique display columns, along with any 
 
 Any more in-depth information could then be accessible through a separate details screen.
 
-In other cases, you might opt to include more fields and allow users to scroll horizontally across your table, as well as vertically. For example, in information-heavy [enterprise app UIs](blog/app-building/enterprise-app-ui-design) we might want to prioritize fast data access over aesthetics.
+In other cases, you might opt to include more fields and allow users to scroll horizontally across your table, as well as vertically. For example, in information-heavy [enterprise app UIs](/blog/app-building/enterprise-app-ui-design) we might want to prioritize fast data access over aesthetics.
 
 ## 2. Understand your users
 
@@ -146,7 +146,7 @@ We have a couple of different options for how we can implement these. For exampl
 
 Each of these decisions can subtly alter the usability of your apps.
 
-For example, modal screens are a good way to display more detailed information or update [forms UIs](blog/app-building/form-ui-design), without removing the user from the main table UI. This offers excellent backward navigation, which is helpful when users need to take repetitive actions on multiple entries.
+For example, modal screens are a good way to display more detailed information or update [forms UIs](/blog/app-building/form-ui-design), without removing the user from the main table UI. This offers excellent backward navigation, which is helpful when users need to take repetitive actions on multiple entries.
 
 Deciding between embedded links and clickable rows is another important decision point. Clickable rows allow you to dedicate more space in your table UIs to displaying information.
 
@@ -268,7 +268,7 @@ As such, you should treat embedded components as you would any other column, and
 
 ## 14. Designing screens around table components
 
-Finally, let’s think about how we can build our wider [app UI design](blog/app-building/app-ui-design) to get the best effect out of our tables. That is, how we can make tables fit most effectively into our overall app designs.
+Finally, let’s think about how we can build our wider [app UI design](/blog/app-building/app-ui-design) to get the best effect out of our tables. That is, how we can make tables fit most effectively into our overall app designs.
 
 For a start, there’s the issue of how prominent tables should be within a given screen. As we hinted at earlier, we can distinguish between screens where tables are the primary focus and those where they’re a secondary concern.
 

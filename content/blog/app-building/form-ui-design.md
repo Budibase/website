@@ -30,7 +30,7 @@ Depending on the context, an improved form UI can mean better conversion rates, 
 
 As such, the effectiveness of your form UIs is directly tied to your application’s profitability, in almost any use case.
 
-Check out our ultimate guide to [app UI design](blog/app-building/app-ui-design).
+Check out our ultimate guide to [app UI design](/blog/app-building/app-ui-design).
 
 ### Measuring ROI for web forms
 
@@ -290,7 +290,7 @@ Similarly, you might want to provide additional attributes within a form for use
 
 We could provide a better user experience and more expedient workflow by allowing users from higher roles to add all of their available attributes when they create a new entry.
 
-You might also like our guide to [table UI design](blog/app-building/table-ui-design).
+You might also like our guide to [table UI design](/blog/app-building/table-ui-design).
 
 ## 15. Alignment
 
@@ -379,7 +379,7 @@ They also take up a lot of space.
 
 As such, drop-down selectors are often the better option when you have a relatively large number of options, even though they require more clicks from users to take action.
 
-Check out our guide to [enterprise app UI design](blog/app-building/enterprise-app-ui-design).
+Check out our guide to [enterprise app UI design](/blog/app-building/enterprise-app-ui-design).
 
 ## 21. Personalization
 

@@ -420,6 +420,6 @@ Only the sky is the limit when it comes to what you can do following the 5 steps
 
 We hope you’ve enjoyed, and see you again next time!
 
-Check out our guide to building [database GUIs](http://blog/tutorials/database-gui).
+Check out our guide to building [database GUIs](/blog/tutorials/database-gui).
 
 To see more of what Budibase can do, why not check out our 50+ free, deployable [app templates](https://budibase.com/templates).
