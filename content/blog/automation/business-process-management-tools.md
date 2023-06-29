@@ -317,4 +317,4 @@ We’ve also created more than 50 fully customizable, deployment-ready, free [ap
 
 To start building tools the smart, easy way, sign up for Budibase today.
 
-Take a look at our ultimate guide to [business process management](blog/automation/business-process-management).
+Take a look at our ultimate guide to [business process management](/blog/automation/business-process-management).

@@ -54,7 +54,7 @@ Processes vary in terms of depth and scale.
 
 So, we can essentially think about a process in terms of the number of actions that it contains and the complexity of each decision along the way. Then we have the number of customers, leads, or internal users that are involved, along with how often the process is initiated.
 
-Check out our ultimate guide to [business process automation](blog/automation/business-process-automation/) for a more detailed explanation.
+Check out our ultimate guide to [business process automation](/blog/automation/business-process-automation/) for a more detailed explanation.
 
 ![Automating Marketing Processes Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1658502557/cms/Marketing_automation_stats_dffgl6.webp "Automating Marketing Processes Stats")
 
@@ -78,7 +78,7 @@ For the most part, this is labor costs.
 
 That is, the time your team needs to spend on different tasks. This includes direct costs, like salaries, as well as the opportunity costs of more profitable work your employees could be working on instead.
 
-Check out our guide on [how to automate tasks](blog/automation/how-to-automate-tasks/) to find out more.
+Check out our guide on [how to automate tasks](/blog/automation/how-to-automate-tasks/) to find out more.
 
 Of course, other resources come into achieving your marketing goals. These obviously vary from channel to channel. For example, you could have the cost-per-click in a PPC campaign or licensing dedicated tools for your email marketing.
 
@@ -388,7 +388,7 @@ That is, full-stack tools aren’t cheap. You also run the risk of getting locke
 
 Again, this won’t be great value for money if you only need specific features.
 
-Check out our guide to [operations automation.](blog/automation/what-is-operations-automation/)
+Check out our guide to [operations automation.](/blog/automation/what-is-operations-automation/)
 
 Besides this, there’s the fact that individual features might offer less specific functionality than a similar dedicated platform.
 

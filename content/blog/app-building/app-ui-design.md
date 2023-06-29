@@ -193,7 +193,7 @@ Besides simply giving users a way to input information, form components can be u
 
 ### Tables
 
-At a basic level, [table UIs ](/app-building/table-ui-design)are fairly self-explanatory. That is, tables are a familiar way of detailing information on different database entries and entities. However, the more specific design of your tables can have a huge impact on your overall app’s UI.
+At a basic level, [table UIs ](/blog/app-building/table-ui-design)are fairly self-explanatory. That is, tables are a familiar way of detailing information on different database entries and entities. However, the more specific design of your tables can have a huge impact on your overall app’s UI.
 
 For example, there’s a balance to be struck between providing sufficient information for your users at a glance and preventing cognitive overload.
 

@@ -1,4 +1,5 @@
 baseURL: "https://budibase.com/"
+enableRobotsTXT: false
 languageCode: "en-uk"
 title: "Budibase | Build internal tools in minutes, the easy way"
 enableEmoji: "true"
