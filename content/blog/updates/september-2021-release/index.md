@@ -37,8 +37,6 @@ Try Budibase today. Setup takes seconds, and it's free. And if you do enjoy your
 
 We obsess over design at Budibase, and we understand and actively promote the importance of creating internal tools people enjoy using. Theming gives you the creative flexibility to tailor your internal tools to suit your brand. Currently, you can change the overall theme, accent color (button, links), button shape, button hover color, navigation background color, navigation font color). 
 
-{{< figure src="https://res.cloudinary.com/daog6scxm/image/upload/v1633949639/september%20release/ezgif.com-gif-maker_w3gkol.gif" alt="Theming UI" link="https://res.cloudinary.com/daog6scxm/image/upload/v1633949639/september%20release/ezgif.com-gif-maker_w3gkol.gif" target="_blank">}}
-
 ---
 
 ## Desktop, tablet, mobile view
@@ -51,12 +49,8 @@ Unlike other platforms, Budibase apps work on mobile, tablet, and desktop. The n
 
 A popular request amongst the community, you can now add components to your design screen then drag and drop them into the position of your choice.
 
-{{< figure src="https://res.cloudinary.com/daog6scxm/image/upload/v1633950238/september%20release/ezgif.com-gif-maker_3_egx5bv.gif" alt="drag and drop" link="https://res.cloudinary.com/daog6scxm/image/upload/v1633950238/september%20release/ezgif.com-gif-maker_3_egx5bv.gif" target="_blank">}}
-
 ## Automations redesign
 We redesigned the automations UI to make it easier for users to create new automations.
-
-{{< figure src="https://res.cloudinary.com/daog6scxm/image/upload/v1633950349/september%20release/automate-sm_bjgfu5.webp" alt="Automations redesign" link="hhttps://res.cloudinary.com/daog6scxm/image/upload/v1633950349/september%20release/automate-sm_bjgfu5.png" target="_blank">}}
 
 
 ## Additional updates
