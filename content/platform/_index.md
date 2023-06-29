@@ -4,5 +4,5 @@ description: "Budibase is an open source internal operations platform that saves
 type: platform
 layout: single
 date: 2023-01-01
-images: ["/banner-gradient.jpg"]
+images: ["/homepage-meta.png"]
 ---
