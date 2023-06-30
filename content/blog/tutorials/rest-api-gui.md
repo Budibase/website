@@ -132,13 +132,21 @@ This is just a small quality-of-life change so that you know which query you are
 
 Don’t forget to use the JSON body binding on the “Body” tab for the post request. Set the body as raw (JSON) and use this code:
 
-    {
-    {{ Binding.JSON }}
-    }
+{{< highlight javascript "linenos=inline" >}}
+
+{
+{{ Binding.JSON }}
+}
+
+{{< /highlight >}}
 
 Also in this particular API, the return data is inside a “data” variable. You can make your life easier by using this transformer:
 
-    return data["data"]
+{{< highlight javascript "linenos=inline" >}}
+
+return data["data"]
+
+{{< /highlight >}}
 
 With it, you can use the API output directly in your components such as tables and repeaters.
 
@@ -292,15 +300,19 @@ Then create the cards container to hold the output. You can set it with width: 3
 
 The paragraph component contains this JS code:
 
-    var row = $("New Repeater.Row Index");
-    row = $("Main Query.Rows")[row];
-    var ret = "";
-    Object.entries(row).forEach(([key, val]) => {
-    ret += "" + key + ":\n";
-    ret += JSON.stringify(val, null, "\t");
-    ret += "\n\n";
-    });
-    return ret;
+{{< highlight javascript "linenos=inline" >}}
+
+var row = $("New Repeater.Row Index");
+row = $("Main Query.Rows")[row];
+var ret = "";
+Object.entries(row).forEach(([key, val]) => {
+ret += "" + key + ":\n";
+ret += JSON.stringify(val, null, "\t");
+ret += "\n\n";
+});
+return ret;
+
+{{< /highlight >}}
 
 This function gets the current row index (a number), then loads a variable from the data provider array with the entire row. Next, for each of the row properties, you display the key and a string representation of the value (in case you have elements inside an element).
 

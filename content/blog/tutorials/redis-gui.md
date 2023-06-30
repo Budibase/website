@@ -107,21 +107,21 @@ It’s much harder to use this kind of data in components such as options picker
 
 So we transform the default data response from this:
 
-    [
-    [
-    "firstkey",
-    "anotherkey",
-    "newkey"
-    ]
-    ]
+[
+[
+"firstkey",
+"anotherkey",
+"newkey"
+]
+]
 
 Into this:
 
-    [
-        "firstkey",
-        "anotherkey",
-        "newkey"
-    ]
+[
+    "firstkey",
+    "anotherkey",
+    "newkey"
+]
 
 That’s all you need on the “Data” tab. Let’s move on to the “Design” tab now.
 
@@ -135,9 +135,13 @@ You can use round buttons if you want, but with this setting, it’s easier to c
 
 Also, you can add other styling options such as a background color in your header. Click on _Navigation_, and then add this as the background color:
 
-    radial-gradient(circle farthest-corner at 10% 20%, 
-    rgba(174,14,87,1) 0%, 
-    rgba(174,116,12,1) 90% )
+{{< highlight css "linenos=inline" >}}
+
+radial-gradient(circle farthest-corner at 10% 20%, 
+rgba(174,14,87,1) 0%, 
+rgba(174,116,12,1) 90% )
+
+{{< /highlight >}}
 
 You can use not only regular colors but also CSS gradients as well.
 
@@ -165,10 +169,14 @@ Also, make sure that the component name is correct, as we use the name in the ta
 
 Now you can add an embed component with this code:
 
-    <style type='text/css'>
-    div[data-name="{{ State.tab }} Commands"] > 
-    button { background: #000 ! important 
-    </style>
+{{< highlight javascript "linenos=inline" >}}
+
+<style type='text/css'>
+div[data-name="{{ State.tab }} Commands"] > 
+button { background: #000 ! important 
+</style>
+
+{{< /highlight >}}
 
 The trick here is to apply a CSS background color only to the tab with the name “\[state\] Commands”. This is what this embed code does.
 
@@ -184,8 +192,12 @@ Thus, when one container is visible, the other is hidden at all times.
 
 Both these containers are inside another container. This component is there just to hold the border that goes around the tabs. You can use this CSS code in it:
 
-    border: 5px solid #000;
-    margin-top: -34px
+{{< highlight css "linenos=inline" >}}
+
+border: 5px solid #000;
+margin-top: -34px
+
+{{< /highlight >}}
 
 And then use some paddings as well if you want. In our demo we have 16px top/bottom and 20px left/right.
 
@@ -231,14 +243,18 @@ Here is an example:
 
 In the premade tab, you can use this JS code:
 
-    var field = $("Query.Fields.keytype");
-    if ( field && "custom" == field) {
-    field = $("Query.Fields.customkey");
-    } else {
-    field = $("Query.Fields.currentkeys");
-    }
-    return $("Query.Fields.command") + 
-    " " + field + " " + $("Query.Fields.more")
+{{< highlight javascript "linenos=inline" >}}
+
+var field = $("Query.Fields.keytype");
+if ( field && "custom" == field) {
+field = $("Query.Fields.customkey");
+} else {
+field = $("Query.Fields.currentkeys");
+}
+return $("Query.Fields.command") + 
+" " + field + " " + $("Query.Fields.more")
+
+{{< /highlight >}}
 
 This code snippet saves the command, field, and the additional parameters as a single text line in the “query” appState.
 
@@ -246,7 +262,7 @@ That’s what allows your Redis GUI to load commands as your users pick them.
 
 You’ll use a very similar approach to the custom query tab. The “run” button in this case simply saves the “query” appstate with this value:
 
-    {{ CustomQuery.Fields.fullcommand }}
+*{{ CustomQuery.Fields.fullcommand }}*
 
 Therefore, the “query” appState is just a mirror of the value in the text field for the custom query tab.
 
@@ -270,22 +286,27 @@ font-family: Monaco, Consolas, 'Courier New', 'Courier', monospace
 
 Then on the markdown contents use this JS function:
 
-    var query = $("State.query");
-    if ( ! query ) {
-    query = "ping";
-    }
-    query = query.split(' ');
-    query[0] = "<div style='background: 
-    rgba(255, 255, 255, 0.1);
-    padding: 5px 10px'>
-    <strong style='color: rgb(234 179 8)'>> 
-    </strong>
-    <strong style='color: rgb(147, 45, 250)'>" 
-    + query[0] + " </strong> <strong> ";
-    last = query.length - 1;
-    query[last] = query[last] + "</strong></div>";
-    query = query.join(" ");
-    return query
+{{< highlight javascript "linenos=inline" >}}
+
+var query = $("State.query");
+if ( ! query ) {
+query = "ping";
+}
+query = query.split(' ');
+query[0] = "<div style='background: 
+rgba(255, 255, 255, 0.1);
+padding: 5px 10px'>
+<strong style='color: rgb(234 179 8)'>> 
+</strong>
+<strong style='color: rgb(147, 45, 250)'>" 
+
+query[0] + " </strong> <strong> ";
+last = query.length - 1;
+query[last] = query[last] + "</strong></div>";
+query = query.join(" ");
+return query
+
+{{< /highlight >}}
 
 This function checks if the query appState is set. If it isn’t, it sets it with the default state (ping). Then, it breaks the command down into two parts, the first one gets a different color, and the second part is bold.
 
@@ -295,24 +316,32 @@ The results data provider is calling your generic “command” query. You can p
 
 To make sure that the default data is correctly used, you can use this JS function:
 
-    if ( $("State.query") ) {
-    return $("State.query");
-    } else {
-    return "ping"
-    }
+{{< highlight javascript "linenos=inline" >}}
+
+if ( $("State.query") ) {
+return $("State.query");
+} else {
+return "ping"
+}
+
+{{< /highlight >}}
 
 So it either returns the query appState or a ping command.
 
 The data itself is all extracted into a paragraph. You can use this JS function in it:
 
-    var data = $("results.Rows");
-    if ( data && data.length > 0 ) {
-    data = JSON.stringify(data, null, '\t')
-    } else {
-    data = 
-    "no data - check if your command is correct";
-    }
-    return data;
+{{< highlight javascript "linenos=inline" >}}
+
+var data = $("results.Rows");
+if ( data && data.length > 0 ) {
+data = JSON.stringify(data, null, '\t')
+} else {
+data = 
+"no data - check if your command is correct";
+}
+return data;
+
+{{< /highlight >}}
 
 This code checks if there are valid results. If there are, use the stringify function to display the variables nicely. If there is no data, display an error message.
 

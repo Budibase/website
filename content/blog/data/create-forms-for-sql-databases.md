@@ -162,16 +162,20 @@ You can edit the app design using the theme menu. Feel free to play around with 
 
 If you want advanced styling, you can use CSS code. Add a new component to your screen, and select the “embed” element. You can use the embed field to add HTML code, including tags to load CSS, like this:
 
-    <style type="text/css">
-    .spectrum-Table-row:nth-child(2n) .spectrum-Table-cell {
-    background: #000;
-    }
-    body .nav-wrapper {
-    background: rgb(255,53,0) !important;
-    background: linear-gradient(90deg, rgba(255,53,0,0.5) 0%, 
-    rgba(255,246,9,0.5) 100%) !important;
-    }
-    </style>
+{{< highlight html "linenos=inline" >}}
+
+<style type="text/css">
+.spectrum-Table-row:nth-child(2n) .spectrum-Table-cell {
+background: #000;
+}
+body .nav-wrapper {
+background: rgb(255,53,0) !important;
+background: linear-gradient(90deg, rgba(255,53,0,0.5) 0%, 
+rgba(255,246,9,0.5) 100%) !important;
+}
+</style>
+
+{{< /highlight >}}
 
 This CSS code changes the header style and adds zebra stripes to the data tables.
 
@@ -231,7 +235,7 @@ The benefit of using a button instead of a link is that you can nest other actio
 
 You can make the entire row a link to view/edit the entry. Select the table, check the “link table rows” option, and as the screen URL, use this value:
 
-    /posts/:id
+*/posts/:id*
 
 This passes the current row’s ID to the URL, which is used on the view/edit form.
 

@@ -106,7 +106,7 @@ POST {{base}}{{path}}#post
 
 This is a general POST request, used in the “New POST” screen. Use the body as:
 
-    {{ Binding.JSON }}
+*{{ Binding.JSON }}*
 
 ![Configure query](https://res.cloudinary.com/daog6scxm/image/upload/v1667398182/cms/09_ifnqwh.webp "Configure query")
 
@@ -196,7 +196,7 @@ Make sure you add the filtering options (key equals baseURL) and you are all set
 
 Now you can add a paragraph inside the data provider. In it, you just need to load the value for your baseURL using this binding:
 
-    Base URL: {{ base.Rows.[0].value }}
+*Base URL: {{ base.Rows.[0].value }}*
 
 Next, it’s time to add the table components. You can click on the table component and add components inside of it. This renders a copy of that component on each of your table rows.
 
@@ -206,18 +206,22 @@ Add a button component to run the query. Then, you can use the button’s onclic
 
 In this case, you’ll use app states to store variables. App states are local variables, stored on the visitor’s browser, that can be used within your app. Here you are going to store a variable for the path corresponding to the current row:
 
-    {{ rest_queries Table.rest_queries.Path }}
+*{{ rest_queries Table.rest_queries.Path }}*
 
 Then, you can store a variable with the JSON body, called “body”, with a JS function on its value:
 
-    return $("rest_queries Table.rest_queries.Body").replace(
-    /[\r\n]/gm, '');
+{{< highlight javascript "linenos=inline" >}}
+
+return $("rest_queries Table.rest_queries.Body").replace(
+/[\r\n]/gm, '');
+
+{{< /highlight >}}
 
 This function gets the value from the table row and removes line breaks. This ensures that your JSON body works as it should.
 
 Lastly, you redirect your visitor with the “navigate to” action. You can use this binding for the path:
 
-    /{{ rest_queries Table.rest_queries.method }}
+*/{{ rest_queries Table.rest_queries.method }}*
 
 This path redirects your visitor to either the /get or /post screen.
 
@@ -282,9 +286,13 @@ Add the embed component. This component allows us to use HTML tags, which are qu
 
 For the embed contents use JS code. You could just output a plain JSON response, with something like this:
 
-    var data = $("Main Query.Rows");
-    data = JSON.stringify(data, null, "\t");
-    return "<pre>" + data + "</pre>";
+{{< highlight javascript "linenos=inline" >}}
+
+var data = $("Main Query.Rows");
+data = JSON.stringify(data, null, "\t");
+return "<pre>" + data + "</pre>";
+
+{{< /highlight >}}
 
 This JS code just gets data and turns it into an indented string. To make it prettier you are going to pass this entire string through two functions.
 
@@ -294,55 +302,59 @@ The second function is a REGEX to capture the keys. Then it just wraps the key w
 
 Putting it all together this is the final JS code for the embed:
 
-    function replaceKey( str ) {
-    
-    return "<span style='color: #a03dfc'>" 
-    + str + "</span>";
-    }
-    
-    function replaceValue( str ) {
-    str = str.slice(2);
-    var color = "#03f4fc";
-    var comma = "";
-    if ( str == "{" || str == "[") {
-    
-    //value type array, no formatting
-    str = ": " + str;
-    } else {
-    if ( str.charAt( str.length-1 ) == ",") {
-    
-    //if it ends in a comma, remove it 
-    //from styling and add it back later
-    
-    str = str.slice(0, -1);
-    comma = ",";
-    }
-    if( str.charAt(0) == '"' ) {
-    
-    //if it's a string, #3dfca0
-    color = "#3dfca0"
-    } else if( str == 'false' ) {
-    
-    //if it's a boolean false, #ff0000
-    color = "#ff0000";
-    } else if( str == 'true' ) {
-    
-    //if it's true, #03fc5e
-    color = "#03fc5e";
-    }
-    
-    //build the formatted value
-    str = ": <span style='color: " + color + "'>" 
-    + str + "</span>" + comma;
-    }
-    return str;
-    }
-    
-    var data = $("Main Query.Rows");
-    data = JSON.stringify(data, null, "\t");
-    data = data.replaceAll(/[:]\s(.*)/g, replaceValue);
-    data = data.replaceAll(/("[^"]+":)/g, replaceKey);
-    return "<pre>" + data + "</pre>";
+{{< highlight javascript "linenos=inline" >}}
+
+function replaceKey( str ) {
+
+return "<span style='color: #a03dfc'>" 
+str + "</span>";
+}
+
+function replaceValue( str ) {
+str = str.slice(2);
+var color = "#03f4fc";
+var comma = "";
+if ( str == "{" || str == "[") {
+
+//value type array, no formatting
+str = ": " + str;
+} else {
+if ( str.charAt( str.length-1 ) == ",") {
+
+//if it ends in a comma, remove it 
+//from styling and add it back later
+
+str = str.slice(0, -1);
+comma = ",";
+}
+if( str.charAt(0) == '"' ) {
+
+//if it's a string, #3dfca0
+color = "#3dfca0"
+} else if( str == 'false' ) {
+
+//if it's a boolean false, #ff0000
+color = "#ff0000";
+} else if( str == 'true' ) {
+
+//if it's true, #03fc5e
+color = "#03fc5e";
+}
+
+//build the formatted value
+str = ": <span style='color: " + color + "'>" 
+str + "</span>" + comma;
+}
+return str;
+}
+
+var data = $("Main Query.Rows");
+data = JSON.stringify(data, null, "\t");
+data = data.replaceAll(/[:]\s(.*)/g, replaceValue);
+data = data.replaceAll(/("[^"]+":)/g, replaceKey);
+return "<pre>" + data + "</pre>";
+
+{{< /highlight >}}
 
 You could use other representations if you want. You could use tables, repeaters, or even custom components. This is just an example so you can see how to extract data from the data source in general terms.
 

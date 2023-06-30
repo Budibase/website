@@ -199,19 +199,27 @@ EXECUTE IMMEDIATE ‘CONCAT ( 'SELECT * from ‘, {{ table }} ) ’
 
 But since we are using MySQL we need something else. If you look closely, the EXECUTE IMMEDIATE command is actually just a shorthand for this:
 
-    PREPARE stmt 
-    from ‘CONCAT ( 'SELECT * FROM ‘, {{ table }} ) ’;
-    EXECUTE stmt;
-    DEALLOCATE PREPARE stmt;
+{{< highlight sql "linenos=inline" >}}
+
+PREPARE stmt 
+from ‘CONCAT ( 'SELECT * FROM ‘, {{ table }} ) ’;
+EXECUTE stmt;
+DEALLOCATE PREPARE stmt;
+
+{{< /highlight >}}
 
 And this is actually possible with MySQL. You just need access to your DB (using PHPMyAdmin or similar) and you can create a procedure there with something like this:
 
-    BEGIN
-    SET @q = query;
-    PREPARE stmt FROM @q;
-    EXECUTE stmt;
-    DEALLOCATE PREPARE stmt;
-    END
+{{< highlight php "linenos=inline" >}}
+
+BEGIN
+SET @q = query;
+PREPARE stmt FROM @q;
+EXECUTE stmt;
+DEALLOCATE PREPARE stmt;
+END
+
+{{< /highlight >}}
 
 Now you are ready to perform the same actions as you could do with MariaDB, with a slightly different syntax. This is how we do it:
 
@@ -235,7 +243,11 @@ Also, notice that we are mapping the table columns to standard names, ID, Title,
 
 Make sure to use this transformer:
 
-    return data[0]
+{{< highlight javascript "linenos=inline" >}}
+
+return data[0]
+
+{{< /highlight >}}
 
 By default, when you execute a stored procedure, MySQL returns some extra data that you don’t really need. So you can just read the first value of the data array _(data\[0\])_ to get the query results.
 
@@ -285,11 +297,15 @@ When your user picks a new option, your table should change. You can do this by 
 
 In addition, we want that dropdown to automatically select the current table. But when users first load your app there will be no selection. Thus, you can select the default value of that field to be a JS function, like this:
 
-    var ret = $("State.selected_table");
-    if ( ! ret ) {
-        ret = "posts";
-    }
-    return ret;
+{{< highlight javascript "linenos=inline" >}}
+
+var ret = $("State.selected_table");
+if ( ! ret ) {
+    ret = "posts";
+}
+return ret;
+
+{{< /highlight >}}
 
 The next component to implement is the Selected Table Meta, which loads the metadata for the current user selection. It is a data provider just like the first one, loading data from the app_settings table.
 
@@ -341,12 +357,16 @@ Again, you have a main container to organize all your components.
 
 Then, inside of it there’s the _App Settings Provider_. It loads the _app_settings_ table. This time, we are filtering it by table name equal to this function:
 
-    var state=$("State.selected_table");
-    if ( state ) {
-    return state
-    } else {
-    return "posts"
-    }
+{{< highlight javascript "linenos=inline" >}}
+
+var state=$("State.selected_table");
+if ( state ) {
+return state
+} else {
+return "posts"
+}
+
+{{< /highlight >}}
 
 This function returns either the currently selected table or the default table, which in our case is _posts_.
 
@@ -379,8 +399,12 @@ Next, add a repeater to expose the data provider fields so they are easier to wo
 
 Then, add a new button. This is the button to delete items. You can use this Custom CSS:
 
-    position: absolute;
-    right: 0;
+{{< highlight css "linenos=inline" >}}
+
+position: absolute;
+right: 0;
+
+{{< /highlight >}}
 
 Now you can add three actions when that button is clicked:
 

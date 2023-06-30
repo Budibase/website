@@ -193,18 +193,22 @@ In addition to the simple queries, we have some special cases. First, there’s 
 
 But this API call won’t give us the download count. We need to sum up the downloads in each of the assets. The general structure is:
 
-    Count = Data.assets.download_count
+*Count = Data.assets.download_count*
 
 Thus, you need to manipulate the API data and return something else. You can do this in the “Transformer” tab.
 
 This is the code we use to return the aggregate download count:
 
-    const assets = data.assets;
-    var downloads = 0;
-    for ( let asset of assets ) {
-    downloads += ( parseInt(asset.download_count) || 0 )
-    };
-    return downloads;
+{{< highlight javascript "linenos=inline" >}}
+
+const assets = data.assets;
+var downloads = 0;
+for ( let asset of assets ) {
+downloads += ( parseInt(asset.download_count) || 0 )
+};
+return downloads;
+
+{{< /highlight >}}
 
 The other special case is the bug chart. There isn’t a single API call to return data from multiple calls. Thus, you could use GraphQL, an external service to aggregate multiple API calls, or you can use Budibase automations to preprocess your data.
 
@@ -270,7 +274,7 @@ If you had more than one result for the Repo view, you’d have the entire form 
 
 Now you can set up the default value for the input field using this value as the placeholder and default value:
 
-    {{ RepoRepeater.Settings.value }}
+*{{ RepoRepeater.Settings.value }}*
 
 Next, you need to save the repo value when the “Save” button is clicked. You can do it by using the “OnClick” actions:
 
@@ -278,7 +282,7 @@ Next, you need to save the repo value when the “Save” button is clicked. You
 
 You can set up just one action or multiple actions. In our case, we just need to perform the “Save Row” action. Then use it to update the table settings, The value for the column is this one:
 
-    {{ SettingsForm.Fields.value }}
+*{{ SettingsForm.Fields.value }}*
 
 That’s all you need for the template options. Let’s head over to the main dashboard page and edit its components.
 
@@ -292,22 +296,22 @@ This time we won’t use a repeater in it though. That’s because you can use a
 
 Since the data provider gives you an array, you can debug its value using something like this in any of your text components:
 
-    {{ SettingsRepo.Rows }}
+*{{ SettingsRepo.Rows }}*
 
 You’ll notice that it is just a JS array, like this:
 
-    [
-    {
-    "name":"repo",
-    "value":"budibase/budibase",
-    "tableId":"ta_d52....",
-    [...]
-    }
-    ]
+[
+{
+"name":"repo",
+"value":"budibase/budibase",
+"tableId":"ta_d52....",
+[...]
+}
+]
 
 Since this is just an array, you can access its value with a code snippet like this one:
 
-    {{ SettingsRepo.Rows.[0].[value] }}
+*{{ SettingsRepo.Rows.[0].[value] }}*
 
 In it, we are just loading the “value” property for the first (and only) result in the SettingsRepo data provider.
 
@@ -323,11 +327,11 @@ In order to get the actual release version, you can use a repeater or get the pr
 
 If you are using a repeater, the value for your stats card will look like this:
 
-    {{ releaseRep.get_release.name }}
+*{{ releaseRep.get_release.name }}*
 
 And for the JS method, it’ll look like this:
 
-    {{ release.Rows.[0].[name] }}
+*{{ release.Rows.[0].[name] }}*
 
 For the next elements in this tutorial, we’ll assume that you're using repeaters. But you can always refer back to this section in case you don’t want to use them.
 
@@ -335,7 +339,7 @@ The downloads card just uses the get_release_downloads API call. Just make sure 
 
 You can use the get_repo query to get the number of stars in your repository. But if you have a lot of stars, your count might look weird. You can make it better using the addCommas handlebar helper:
 
-    {{ addCommas starsRep.get_repo.stargazers_count }}
+*{{ addCommas starsRep.get_repo.stargazers_count }}*
 
 These helpers allow you to modify the data from a variable. They aren’t as flexible as pure JS code, but they are quite useful for simple operations. Check out the [full list of handlebars helpers in Budibase](https://docs.budibase.com/docs/bindings).
 
@@ -351,18 +355,22 @@ The technique here is very similar to what you did in the settings table. You ju
 
 The number of new PRs has two bindings, the repository, and the start date. The repo binding is just like you did for the other queries, but the start date is like this:
 
-    {{ formdatepick.Fields.date }}
+*{{ formdatepick.Fields.date }}*
 
 In this case, the date field has our desired formatting. But you could use JS functions or others to change it if you want.
 
 For example, the number of closed new PRs comes from the combination of the number of new PRs open and the number of new PRs in general. After you add these data providers nested to each other, you can use this JS code:
 
-    var closed = parseInt( $("newprs.Rows")[0]['total_count'] ) 
-    - parseInt( $("newOpenPrs.Rows")[0]['total_count'] )
-    var percent = 
-    parseInt(100*(1-(parseInt($("newOpenPrs.Rows")[0]['total_count'])
-    /parseInt($("newprs.Rows")[0]['total_count']))))
-    return closed + " (" + percent + "% ) "
+{{< highlight javascript "linenos=inline" >}}
+
+var closed = parseInt( $("newprs.Rows")[0]['total_count'] ) 
+parseInt( $("newOpenPrs.Rows")[0]['total_count'] )
+var percent = 
+parseInt(100*(1-(parseInt($("newOpenPrs.Rows")[0]['total_count'])
+/parseInt($("newprs.Rows")[0]['total_count']))))
+return closed + " (" + percent + "% ) "
+
+{{< /highlight >}}
 
 ## How to load a data table
 
@@ -370,15 +378,19 @@ The data table just requires a data provider as its parent. In the example, you 
 
 If you want, you can hide some columns using the data transformers, similar to what you did to get the download count. Here is an example to remove most columns in the get_list_open_prs:
 
-    return data.items.map(
-    ( {title, html_url, user, labels} ) =>
-    ( {
-    title,
-    url: html_url,
-    user: user.login,
-    labels: labels.map( ({name}) => (name) ).toString()
-    } )
-    )
+{{< highlight javascript "linenos=inline" >}}
+
+return data.items.map(
+( {title, html_url, user, labels} ) =>
+( {
+title,
+url: html_url,
+user: user.login,
+labels: labels.map( ({name}) => (name) ).toString()
+} )
+)
+
+{{< /highlight >}}
 
 ## Create custom styles
 
@@ -386,12 +398,14 @@ Now your GitHub metrics dashboard is ready to be used. But in case you want to p
 
 Here is a simple example of a styling embed:
 
-    <style>
-    .main h1 {
-    padding-top: 80px;
-    padding-bottom: 20px;
-    }
-    </style>
+{{< highlight css "linenos=inline" >}}
+
+.main h1 {
+padding-top: 80px;
+padding-bottom: 20px;
+}
+
+{{< /highlight >}}
 
 ## Building a GitHub metrics dashboard in Budibase
 
