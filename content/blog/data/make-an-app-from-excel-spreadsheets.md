@@ -125,6 +125,8 @@ We’ll then be prompted to create a table. At the bottom of this modal, we can 
 
 ![Upload](https://res.cloudinary.com/daog6scxm/image/upload/v1661173123/cms/Screenshot_2022-08-15_at_10.08.16_otymmc.webp "Upload")
 
+For our tutorial, we're going to upload a simple sales table, with basic information about our customers.
+
 Then, we can choose the data type for each heading and set which one we’d like to use as our _Display Column_:
 
 ![Import CSV](https://res.cloudinary.com/daog6scxm/image/upload/v1661173101/cms/Screenshot_2022-08-15_at_10.09.10_bym9zf.webp "Import CSV")
