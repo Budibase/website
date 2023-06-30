@@ -121,11 +121,11 @@ You can duplicate the insert_sale query and rename it to _insert_sale_unfiltered
 
 Thus you can use these fields instead:
 
-    {
-    "saleDate": "{{Date}}",
-    "customer": {{Customer}},
-    "storeLocation": "{{Location}}"
-    }
+{
+"saleDate": "{{Date}}",
+"customer": {{Customer}},
+"storeLocation": "{{Location}}"
+}
 
 ### Update_sale
 
@@ -137,16 +137,16 @@ Here is the base setup for it:
 
 And these are the fields:
 
-    {
-    "_id": "ObjectID('{{ID}}')"
-    },
-    {
-    "$set": {
-    "saleDate": "{{Date}}",
-    "customer.email": "{{Customer}}",
-    "storeLocation": "{{Location}}"
-    }
-    }
+{
+"_id": "ObjectID('{{ID}}')"
+},
+{
+"$set": {
+"saleDate": "{{Date}}",
+"customer.email": "{{Customer}}",
+"storeLocation": "{{Location}}"
+}
+}
 
 ### Delete_sale
 
@@ -291,15 +291,19 @@ Now you can output the entire sales data by using a JS function instead of a bin
 
 This is the JS code:
 
-    var row = $("Repeater.Row Index");
-    row = $("Data Provider.Rows")[row];
-    var ret = "";
-    Object.entries(row).forEach(([key, val]) => {
-    ret += "" + key + ":\n";
-    ret += JSON.stringify(val, null, "\t");
-    ret += "\n\n";
-    });
-    return ret;
+{{< highlight javascript "linenos=inline" >}}
+
+var row = $("Repeater.Row Index");
+row = $("Data Provider.Rows")[row];
+var ret = "";
+Object.entries(row).forEach(([key, val]) => {
+ret += "" + key + ":\n";
+ret += JSON.stringify(val, null, "\t");
+ret += "\n\n";
+});
+return ret;
+
+{{< /highlight >}}
 
 This function is running through each of the sales properties, it outputs the property name and a string version of the property value.
 

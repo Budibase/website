@@ -201,11 +201,15 @@ Set the onclick actions of this button to run “Update State”, to “set valu
 
 Use this code:
 
-    if ( $("State.search") ) {
-        return 0;
-    } else {
-        return 1;
-    }
+{{< highlight javascript "linenos=inline" >}}
+
+if ( $("State.search") ) {
+    return 0;
+} else {
+    return 1;
+}
+
+{{< /highlight >}}
 
 This code just alternates between 0 and 1. If the current app state is zero (search fields hidden), it sets this state as one (fields visible). If it is one, the app state is updated to zero (hiding the fields).
 
