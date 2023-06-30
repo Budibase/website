@@ -191,6 +191,8 @@ These are the main issue that you’re likely to encounter:
 
 Again, it’s not that any of these issues make automation unviable. Rather, we need to be realistic about the tools we choose and the resources we dedicate to automating specific tasks in order to ensure the optimal return on investment.
 
+{{< cta >}}
+
 ## How to automate project management in 5 steps
 
 Next, we need a framework for actually implementing project management automation. Automation isn’t something we do on a whim. Rather, it requires a coherent strategy in order to achieve long-term value.
