@@ -369,29 +369,34 @@ Update state:
 
 Execute query:
 
-* Query name: execute
-* Binding (JS):
+- Query name: execute
 
-    var id = $("URL.id");
-    var ret = "";
-    var table = $("URL.table");
-    var formData = $("Update Form.Value");
-    delete formData.id;
-    if ( id == 0 ) {
-    var keys = Object.getOwnPropertyNames(formData);
-    var values = Object.values(formData);
-    ret = "INSERT INTO " + table +
-    " ( " + keys.join() + ' )
-    VALUES ( "' + values.join('","') + '" )' ;
-    } else {
-    ret = "UPDATE " + table + " SET ";
-    Object.entries(formData).forEach(([key, val]) => {
-    ret += " " + key + "='" + val + "',";
-    });
-    ret = ret.slice(0, -1);
-    ret += " WHERE id=" + id;
-    }
-    return ret;
+Binding (JS):
+
+{{< highlight javascript "linenos=inline" >}}
+
+var id = $("URL.id");
+var ret = "";
+var table = $("URL.table");
+var formData = $("Update Form.Value");
+delete formData.id;
+if ( id == 0 ) {
+var keys = Object.getOwnPropertyNames(formData);
+var values = Object.values(formData);
+ret = "INSERT INTO " + table +
+" ( " + keys.join() + ' )
+VALUES ( "' + values.join('","') + '" )' ;
+} else {
+ret = "UPDATE " + table + " SET ";
+Object.entries(formData).forEach(([key, val]) => {
+ret += " " + key + "='" + val + "',";
+});
+ret = ret.slice(0, -1);
+ret += " WHERE id=" + id;
+}
+return ret;
+
+{{< /highlight >}}
 
 Update State:
 
@@ -587,21 +592,26 @@ return ret;
 
 Then, you can use something very similar on the “save” button. In it, you can use 2 actions:
 
-* Save app state:
-  * Query_builder
-  * JS code:
+- Save app state: Query_builder
 
-    var table = $("Build Query.Fields.tablename");
-    var columns = $("Build Query.Fields.columns");
-    if ( ! table ) {
-    table = "posts";
-    }
-    if ( columns.length == 0 ) {
-    columns = "*";
-    }
-    var ret = "";
-    ret = "SELECT " + columns + " FROM " + table;
-    return ret;
+- JS code:
+
+{{< highlight javascript "linenos=inline" >}}
+
+var table = $("Build Query.Fields.tablename");
+var columns = $("Build Query.Fields.columns");
+if ( ! table ) {
+table = "posts";
+}
+if ( columns.length == 0 ) {
+columns = "*";
+}
+var ret = "";
+ret = "SELECT " + columns + " FROM " + table;
+return ret;
+
+{{< /highlight >}}
+
 * Navigate to:
   * /custom-query
 

@@ -339,11 +339,11 @@ Create a new automation called “send email” that starts using an App Action:
 
 Add three fields to it, email, subject, and text. Then on the “_do this_” options, select send email, use the “_send to”_ field as the customer email, add the subject, and add the HTML contents as the text using their bindings:
 
-*{{ trigger.fields.email }}
+*{{ trigger.fields.email }}*
 
-{{ trigger.fields.subject }}
+*{{ trigger.fields.subject }}*
 
-{{ trigger.fields.text }}*
+*{{ trigger.fields.text }}*
 
 Save it and test it. You can add a backup email as BCC, which is hidden from customers. This allows you to make sure that all emails are being sent correctly as you get a copy in your inbox.
 
