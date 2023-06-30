@@ -524,7 +524,7 @@ table td {
 }
 
 .text-xxs {
-  font-size: var(--fontsize-2);
+  font-size: 12px;
 }
 
 .text-blue {
@@ -812,7 +812,10 @@ a:focus {
 
 
 u {
-  text-underline-offset: 6px;
+  text-underline-offset: 3.5px;
+  text-decoration-color: var(--gray-900);
+  text-decoration-thickness: 1px;
+  text-decoration-line: underline;
 }
 
 .underlined {
@@ -4587,7 +4590,7 @@ details[open]>summary {
 @media (min-width: 1200px) {
   .pricing-self-host {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.2fr 1fr;
     gap: var(--space-3);
   }
 }
@@ -4621,8 +4624,9 @@ details[open]>summary {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1rem;
+  gap: 2.5rem;
 }
+
 .pricing-add-ons {
   display: flex;
   flex-direction: column;
