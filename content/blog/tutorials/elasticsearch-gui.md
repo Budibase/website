@@ -1,11 +1,11 @@
 +++
 author = "Ronan McQuillan"
 date = 2022-11-02T00:00:00Z
-description = "Check out our step-by-step guide to building a custom Elasticsearch GUI"
+description = "Elasticsearch doesn't offer an off-the-shelf GUI, making custom builds the most viable option."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1667397401/cms/Database_GUI_Post_Headers_oampua.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1667397407/cms/Database_GUI_Post_Headers_jfyokd.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Build an Elasticsearch GUI in 4 Steps"
+title = "How to Build a FREE Elasticsearch GUI in 4 Steps"
 
 +++
 If you want to manage or retrieve data without coding, an Elasticsearch GUI might just be the tool for you.

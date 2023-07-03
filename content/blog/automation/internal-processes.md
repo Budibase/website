@@ -5,7 +5,7 @@ description = "Read our guide to learn everything you need to know about buildin
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1675959581/cms/What_are_Internal_Processes_yfj8do.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1675959588/cms/What_are_Internal_Processes_lyiecj.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "What are Internal Processes? + How to Improve Them"
+title = "What are Internal Processes? + 7 Improvement Strategies"
 
 +++
 Internal processes are the basic building blocks of pretty much everything your business does.

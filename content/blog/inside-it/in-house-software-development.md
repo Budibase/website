@@ -1,11 +1,11 @@
 +++
 author = "Ronan McQuillan"
 date = 2022-11-10T00:00:00Z
-description = "Nowadays, every company is a software company. We’re diving into everything you need to know about in-house software development."
+description = "In-house software development is any project that leverages your internal team, whether these are coders or low-code developers."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1667827120/cms/In-House_Software_Development_fwkw2a.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1667827132/cms/In-House_Software_Development_u1v0ru.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "In-House Software Development | Ultimate Guide"
+title = "What is In-House Software Development?"
 
 +++
 In-house software development is a huge part of every industry. They say that, nowadays, every company is a software company. Today we’re taking a deep dive into everything you need to know about building software in-house.
