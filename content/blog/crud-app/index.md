@@ -2,9 +2,9 @@
 author = "Joe Johnston"
 date = 2021-07-06T00:00:00Z
 dateModified = 2022-04-04T00:00:00Z
-description = "Within this guide you will learn what a CRUD app is, how to build a CRUD app, and why CRUD is critical for building applications."
+description = "A CRUD app is a piece of software that's used to create, read, update & delete data. Here's everything you need to know."
 images = ["/blog/crud-app/images/read.webp"]
-title = "What is a CRUD app and how to build one | Ultimate guide"
+title = "What is a CRUD App and How to Build One | Ultimate guide"
 
 +++
 We use CRUD apps every day. Most of the time, without noticing. They keep us organized, they help digitise business processes, and they're critical to application development. But many of us are oblivious to what CRUD apps are, or how to build one. Within this post, I am to provide you with a simple and straightforward guide to the world of CRUD apps. The guide is broken down into three sections:
