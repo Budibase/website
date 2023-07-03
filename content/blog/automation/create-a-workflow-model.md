@@ -5,7 +5,7 @@ description = "A worfklow model is the theoetical basis for any successful trans
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1672747416/cms/How_to_Create_a_Workflow_Model_Header_hreasw.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1672747423/cms/How_to_Create_a_Workflow_Model_Header_oeyeq1.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Create & Optimize a Workflow Model in 8 Steps"
+title = "8 Steps to Create & Optimize a Workflow Model"
 
 +++
 An effective workflow model is the foundation of all sorts of change, transformation, and optimization projects. Therefore, you’d expect this to be something that’s widely understood.
