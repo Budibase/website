@@ -1,7 +1,7 @@
 +++
 author = "Ronan McQuillan"
 date = 2023-02-09T00:00:00Z
-description = "Internal processes are the basic building blocks of pretty much everything your business does. "
+description = "Read our guide to learn everything you need to know about building sleek, efficient internal processes. "
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1675959581/cms/What_are_Internal_Processes_yfj8do.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1675959588/cms/What_are_Internal_Processes_lyiecj.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
@@ -30,7 +30,7 @@ But first, let’s get the basics down.
 
 ## What is an internal process?
 
-An internal process is any set of steps that are followed to complete a particular task within your organization. That last part is crucial. We can distinguish an _internal_ process by the fact that it doesn’t involve external stakeholders, like customers, clients, or vendors.
+An internal business process is any set of steps that are followed to complete a particular task within your organization. That last part is crucial. We can distinguish an _internal_ process by the fact that it doesn’t involve external stakeholders, like customers, clients, or vendors.
 
 Like any process, we’re also only really concerned with tasks that are carried out regularly - or at least, semi-regularly. So, we wouldn’t really consider the steps behind a task a _process_ if they were only ever followed once.
 
@@ -108,7 +108,9 @@ We can think of these as customer management processes - or _vendor/stakeholder/
 
 In terms of the actual actions involved, these can often look a lot like admin processes. For example, if all that needs to be done is for a customer to have their CRM entry updated. The difference, of course, is the goal.
 
-So, whereas admin processes are purely concerned with efficiency and cost-effectiveness, customer-facing processes also concern _experiences_. For instance, trying to ensure that each interaction with a particular customer flows seamlessly from the next.
+So, whereas admin processes are purely concerned with efficiency and cost-effectiveness, customer service processes also concern *experiences*. For instance, trying to ensure that each interaction with a particular customer flows seamlessly from the next.
+
+Customer experiences are directly tied to profitability.
 
 ### Social processes
 
@@ -186,7 +188,7 @@ The important thing isn’t being able to do this once - it’s consistently doi
 
 In most cases though, we can either think about this as _quality_ or _accuracy_.
 
-For example, _quality_ could refer to the actual construction of a physical product. _Accuracy_ might be the incidence of errors in a data entry workflow.
+For example, *quality* could refer to the actual construction of goods within production processes. *Accuracy* might be the incidence of errors in a data entry workflow.
 
 ### Training
 
@@ -204,11 +206,15 @@ Finally, the better your internal processes are, the happier your employees will
 
 Think about how stressful it is when you don’t know how to do something. As we saw a second ago, process management leads to clear, unambiguous expectations around how tasks should be performed.
 
-Besides this, many of the specific improvements we’ll explore in the next section will also have a massive impact on morale. Chief among these is the fact that removing boring, repetitive, or menial tasks from employees frees them up for more satisfying work.
+Besides this, many of the specific business process improvements we’ll explore in the next section will also have a massive impact on morale. 
+
+Chief among these is the fact that removing boring, repetitive, or menial tasks from employees frees them up for more satisfying work.
 
 For instance, by automating basic paperwork tasks, our team can spend more time on their more challenging, creative, or cognate responsibilities.
 
-## Process improvement strategies
+We can also apply the same principles to boosting customer satisfaction.
+
+## How to improve internal business processes: 7 strategies
 
 Now we have a clear picture of what internal processes are and the role that they play. It’s time to think about the different levers we can pull to optimize and improve repeated tasks.
 
