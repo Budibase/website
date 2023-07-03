@@ -6,7 +6,7 @@ description = "Finance transformation is a huge opportunity to improve outcomes 
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1681719396/cms/Finance_Transformation_rrwog0.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1681719396/cms/Finance_Transformation_rrwog0.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "What is Finance Transformation? In-Depth Guide"
+title = "What is Finance Process Transformation? In-Depth Guide"
 
 +++
 
@@ -20,7 +20,7 @@ But of course, these things are always easier said than done.
 
 Today, we’re covering everything you need to know.
 
-We’ll start with the core theory behind finance transformation - including what it is, when it’s used, how it looks, and who benefits.
+We’ll start with the core theory behind financial process transformation - including what it is, when it’s used, how it looks, and who benefits.
 
 Then, we’ll move on to the truly actionable stuff. Specifically, we’ll explore some exemplary cases, the technology we can leverage to drive financial transformation, and how you can pull all of this together into your own bespoke strategy.
 
@@ -30,13 +30,13 @@ First, though, let’s start with the absolute basics.
 
 Broadly speaking, finance transformation means using digital technology to improve your financial processes. This can take a whole bunch of forms, as we’ll see a little later - from simple optimizations to totally fundamental changes in your internal processes.
 
-The specific character of your transformations will depend on your existing processes, your technical resources, your goals and requirements, the size of your operations, and much, much more.
+The specific character of your transformations will depend on your existing business processes, your technical resources, your goals and requirements, the size of your organization, your operating model, and much, much more.
 
 For example, we might set out to *fully automate* our financial processes. Or, we might simply try and make existing user interactions more efficient.
 
 Pretty much across the board though, the impetus is the need to do more with less.
 
-In today’s business environment, any and all inefficiencies can quickly undermine your competitiveness.
+In today’s business environment, any and all inefficiencies can quickly undermine your competitiveness. This applies to finance organizations - as well as finance and accounting teams in other businesses.
 
 We can apply finance transformations to a huge range of different activities, including:
 
@@ -138,7 +138,7 @@ We’ll take a look at how Budibase makes building internal tools a breeze a lit
 
 ### 3. Financial process automation
 
-Of course, we can’t talk about finance transformation without also touching on the idea of process automation. Naturally enough, this is where some of the greatest efficiency dividends can be achieved.
+Of course, we can’t talk about financial process transformation without also touching on the idea of process automation. Naturally enough, this is where some of the greatest efficiency dividends can be achieved.
 
 As we alluded to earlier, this is where we can *eliminate* the need for certain manual interactions within our financial processes.
 
@@ -240,7 +240,7 @@ The crux of this is that your finance team has an outsized part to play in deter
 
 High-level decision-makers don’t have time to sit around pouring over data to try and find insights. One simple solution to this problem is creating real-time, dynamic dashboards for relevant metrics.
 
-So, we might want to furnish relevant stakeholders with a tool that lets them check out spending across departments within defined timeframes.
+So, we might want to furnish relevant stakeholders and business partners with a tool that lets them check out spending across departments within defined timeframes.
 
 There are a couple of key components to a solution like this.
 
@@ -260,7 +260,7 @@ So, we want our dashboard’s users to be exposed to data that matches the permi
 
 We’ll see how Budibase handles access control a little bit later.
 
-## How to create a finance transformation strategy
+## How to create a successful finance transformation strategy
 
 Before we get to that though, let’s think about how you can determine the right finance transformation solution for your specific requirements, resources, and existing processes. 
 
@@ -284,7 +284,7 @@ Only then can we think about potential solutions. For instance, by providing our
 
 With that in mind, let’s think about the different tools that we can turn to in order to ship finance transformation solutions. As we alluded to earlier, there’s a wide range of different tool classes that might come into play here, so it’s important to have a good grasp on the market.
 
-One obvious cluster is traditional financial tools - like Quickbooks or Xero. Nowadays, like basically any other business software, accounting tools are typically shipped on a SaaS model.
+One obvious cluster is traditional financial tools - like Quickbooks or Xero. Nowadays, like basically any other business software, accounting systems are typically shipped on a SaaS model.
 
 And - we can generally expect some functionality around custom automations, third-party integrations, and cloud-based data storage. So, we can often get pretty far with these kinds of tools - especially in smaller teams.
 
