@@ -2,11 +2,11 @@
 
 author = "Ronan McQuillan"
 date = "2023-02-24"
-description = "Check out our roundup of digital transformation platforms for 2023."
+description = "Digital transformation platforms are tools that faciliate digitalization of tasks, processes, and workflows."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1677240737/cms/What_are_Internal_Processes_anlpep.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1677240737/cms/What_are_Internal_Processes_anlpep.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Digital Transformation Platforms | In-Depth Guide + Top 9"
+title = "9 Must-Have Digital Transformation Platforms"
 
 +++
 

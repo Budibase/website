@@ -2,11 +2,11 @@
 
 author = "Ronan McQuillan"
 date = 2023-05-12
-description = "Check out our in-depth guide to digital enablement."
+description = "Digital enablement is a central part of how you build modern, efficient operations."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1683900004/cms/digital-enablement/blog_post_template_2_nyx1uc.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1683900004/cms/digital-enablement/blog_post_template_2_nyx1uc.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "What is Digital Enablement?"
+title = "Build a Digital Enablement Strategy in 5 Steps"
 
 +++
 
