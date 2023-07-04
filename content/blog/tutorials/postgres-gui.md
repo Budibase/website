@@ -5,7 +5,7 @@ description = "Learn to build a custom Postgres GUI in minutes with Budibase."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1664959926/cms/How_to_Build_a_Postgres_GUI_pmhm0j.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1664959932/cms/How_to_Build_a_Postgres_GUI_kobhio.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Create a Postgres GUI in 3 Steps"
+title = "How to Create a FREE Postgres GUI in 15 Minutes"
 
 +++
 A Postgres GUI helps you make the most out of your database, whether you are a coder or not.

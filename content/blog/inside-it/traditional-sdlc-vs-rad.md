@@ -1,11 +1,11 @@
 +++
 author = "Ronan McQuillan"
 date = 2022-09-20T23:00:00Z
-description = "Project requirements change on a dime. Teams must be ready to adapt. Today we’re looking at one solution, as we compare traditional SDLC vs RAD."
+description = "Traditional SDLC focuses on centralisation, while RAD prioritizes speed. So which is right for you?"
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1665144827/cms/Citizen_Development_Governance_Header_qc5k0m.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1665144833/cms/Citizen_Development_Governance_Header_ajoo74.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Traditional SDLC vs RAD | In-Depth Guide"
+title = "Traditional SDLC vs RAD"
 
 +++
 Building software isn’t like other projects. It never will be. Requirements can change on a dime, so development teams must be ready to adapt. Today we’re looking at one solution, as we compare traditional SDLC vs RAD.
