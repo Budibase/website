@@ -139,3 +139,152 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
   to = "/integrations/infra"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/integrationcategories/*"
+  to = "/integrations/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/design/"
+  to = "/product"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/deploy/"
+  to = "/product"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/automate/"
+  to = "/product"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  from = "/build/"
+  to = "/product"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/data/"
+  to = "/product"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/deploy"
+  to = "/product"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/automate/"
+  to = "/product"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  from = "/build"
+  to = "/product"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/data"
+  to = "/product"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  from = "/design"
+  to = "/product"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/*"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/categories/*"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/5-good-habits-for-success/"
+  to = "/blog/updates/5-good-habits-for-success/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/may-2021-release/"
+  to = "/blog/updates/may-2021-release/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/github-stars/"
+  to = "/blog/updates/github-stars/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/progressive-web-app-play-store/"
+  to = "/blog/updates/progressive-web-app-play-store/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/web-application-development/FAQ"
+  to = "/blog/updates/web-application-development/FAQ"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/5-good-habits-for-success"
+  to = "/blog/updates/5-good-habits-for-success"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  from = "/b"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/b/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/c"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/c/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/licensing/"
+  to = "/terms-of-service/"
+  status = 301
+  force = true
+
