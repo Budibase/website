@@ -4,7 +4,7 @@ description: New features include Collaborative grid block, Embed, OpenAI automa
 type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/joe_illustration_gray_bg_e97wdl.jpg
-image: https://res.cloudinary.com/daog6scxm/image/upload/v1686557262/features/collaboration_v2_q9coui.png
+image: https://res.cloudinary.com/daog6scxm/image/upload/v1688636514/features/grid%20block.webp
 date: "2023-07-05"
 author: Joe Johnston
 draft: false
@@ -23,7 +23,7 @@ After much anticipation, you can now add our new Grid interface directly into yo
 
 You can try the new Grid Block [below](#embed).
 
-![Grid block](https://res.cloudinary.com/daog6scxm/image/upload/v1688636514/features/grid%20block.png)
+![Grid block](https://res.cloudinary.com/daog6scxm/image/upload/v1688636514/features/grid%20block.webp)
 
 ---
 
@@ -39,7 +39,7 @@ Connect ChatGPT to Budibase automations and build AI apps in minutes with the ne
 
 [Tutorial: Create AI Flashcards with ChatGPT and Budibase](https://docs.budibase.com/docs/openai)
 
-![Open AI integration with Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1688574131/features/Frame_6_zbvh6p.png)
+![Open AI integration with Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1688574131/features/Frame_6_zbvh6p.webp)
 
 ---
 
@@ -73,7 +73,7 @@ https://github.com/ConorWebb96/bb-type-ahead
 
 [Visit the Typeahead plugin repo](https://github.com/ConorWebb96/bb-type-ahead)
 
-![typeahead plugin](https://res.cloudinary.com/daog6scxm/image/upload/v1688638207/features/typeahead2.png)
+![typeahead plugin](https://res.cloudinary.com/daog6scxm/image/upload/v1688638207/features/typeahead2.webp)
 
 
 
@@ -85,7 +85,7 @@ https://github.com/ConorWebb96/bb-type-ahead
 
 Preview your application without navigating away from the Budibase builder.
 
-![Budibase preview](https://res.cloudinary.com/daog6scxm/image/upload/v1688570633/features/preview-wide.png)
+![Budibase preview](https://res.cloudinary.com/daog6scxm/image/upload/v1688570633/features/preview-wide.webp)
 
 ---
 
@@ -99,7 +99,7 @@ We have made improvements to our data source creation flow based on user feedbac
 - Select which tables to fetch from your SQL database or Google Sheet
 - A number of UI/UX updates to improve the general data source experience
 
-![Google sheets table import selection](https://res.cloudinary.com/daog6scxm/image/upload/v1688637287/features/google-sheets-table-selection.png)
+![Google sheets table import selection](https://res.cloudinary.com/daog6scxm/image/upload/v1688637287/features/google-sheets-table-selection.webp)
 
 ---
 
@@ -109,7 +109,7 @@ We have made improvements to our data source creation flow based on user feedbac
 
 We've moved app settings from the portal to the app building experience. The experience feels natural and should make it easier and faster to access settings and information relating to your app.
 
-![in-app-settings](https://res.cloudinary.com/daog6scxm/image/upload/v1688570153/features/in-app-settings.png)
+![in-app-settings](https://res.cloudinary.com/daog6scxm/image/upload/v1688570153/features/in-app-settings.webp)
 
 
 
