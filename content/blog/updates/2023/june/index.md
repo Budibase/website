@@ -51,7 +51,7 @@ With the Budibase Embed feature, you can share your public apps outside of Budib
 
 {{< iframe "https://budimaster.budibase.app/embed/inventory" >}} 
 
-*The embed above is restricted to read-only access for demo purposes.*
+_**The embed above is restricted to read-only access for demo purposes. You'll not be able to access the embed if your browser is set to Incognito.**_
 
 [Find our more about Embeds](https://docs.budibase.com/docs/embedded-app)
 
@@ -115,7 +115,9 @@ We've moved app settings from the portal to the app building experience. The exp
 
 ---
 
+{{< cta >}}
 
+---
 
 ## Further updates
 
