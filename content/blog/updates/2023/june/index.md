@@ -19,7 +19,7 @@ To put it briefly, **this is our greatest monthly release to date**. New feature
 
 ## Add multiplayer collaboration to your published apps with the new Grid block
 
-After much anticipation, you can now add our new Grid interface directly into your applications. This powerful, new design block enables multiple users to collaborate in real-time within your apps. The Grid will reflect you data source of choice, and allow you to customize whether end users can create, edit or delete rows. 
+After much anticipation, you can now add our new Grid interface directly into your applications. This powerful, new design block enables multiple users to collaborate in real-time within your apps. The Grid will reflect your data source of choice, and allow you to customize whether end users can create, edit or delete rows. 
 
 You can try the new Grid Block [below](#embed).
 
@@ -63,7 +63,7 @@ With the Budibase Embed feature, you can share your public apps outside of Budib
 
 ## Typeahead plugin
 
-The typeahead plugin can be used for querying tables, searching through results, selecting and then saving selected items back to your datasource of choice. This improves performance by querying the datasource directly and returning results based on the search value.
+With the typeahead plugin users can search for options within a dropdown. This improves performance by querying the datasource directly and returning results based on the search value.
 
 To add the Typeahead plugin to your Budibase account, navigate to the Plugins section, click Add plugin, and add the following URL:
 
@@ -93,7 +93,7 @@ Preview your application without navigating away from the Budibase builder.
 
 ## Data section improvements
 
-We have made improvements to our data source creation flow based on user feedback. improvements include:
+We have made improvements to our data source creation flow based on user feedback. Improvements include:
 
 - Automatically pull in worksheets from Google Sheets
 - Select which tables to fetch from your SQL database or Google Sheet
