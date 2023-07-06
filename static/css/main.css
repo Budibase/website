@@ -4725,7 +4725,6 @@ details[open]>summary {
   font-family: "Inter", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
-  vertical-align: middle;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -4828,8 +4827,6 @@ details[open]>summary {
   align-items: center;
   gap: 20px;
 }
-
-.
 
 .pricing-tabs {
   display: flex;
@@ -7053,6 +7050,11 @@ ul {
 .customer-logo {
   max-height: 100px;
   max-width: 150px;
+}
+
+iframe {
+  aspect-ratio: 16/9;
+  width: 100%;
 }
 
 .container-narrow {
@@ -11901,8 +11903,6 @@ button.bg-blue:focus {
     .navbar-expand-lg .u-header__mega-menu-col:first-child {
       padding-left: 0rem;
     }
-
-    .navbar-expand-lg .u-header__mega-menu-col:not(:last-child) {}
 
     .navbar-expand-lg .u-header__nav-item-user {
       background-color: #f9fbfd;
@@ -17296,6 +17296,10 @@ button.bg-blue:focus {
     }
   }
 
+  .article em {
+    color: var(--gray-900);
+  }
+
   .article h1 {
     font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     text-rendering: optimizeLegibility;
@@ -17324,7 +17328,7 @@ button.bg-blue:focus {
     font-variation-settings: "wght" 680;
     font-size: 32px;
     color: var(--hiContrast);
-    line-height: 1.1;
+    line-height: 1.2;
   }
 
   .article h2::before {
@@ -17343,7 +17347,7 @@ button.bg-blue:focus {
     color: var(--hiContrast);
     font-weight: 700px;
     font-variation-settings: "wght" 620;
-    line-height: 1.1;
+    line-height: 1.25;
   }
 
   .article h3::before {
@@ -17394,7 +17398,7 @@ button.bg-blue:focus {
     word-break: break-word;
     overflow-wrap: break-word;
     margin-top: 2px;
-    margin-bottom: 2px;
+    margin-bottom: 12px;
     color: var(--hiContrast);
   }
 
@@ -17407,8 +17411,8 @@ button.bg-blue:focus {
       color: var(--hiContrast);
       word-break: break-word;
       overflow-wrap: break-word;
-      margin-top: 2px;
-      margin-bottom: 2px;
+      margin-top: 8px;
+      margin-bottom: 8px;
     }
   }
 
@@ -17418,7 +17422,18 @@ button.bg-blue:focus {
     padding-bottom: 1rem;
   }
 
+  .article ul li p {
+    margin-top: 0px;
+    margin-bottom: 4px;
+  }
+
   .article figure img {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+  }
+
+  .article p img {
     width: 100%;
     margin-bottom: 1rem;
     border-radius: 6px;
@@ -17514,6 +17529,9 @@ button.bg-blue:focus {
   text-decoration-thickness: 1px;
   cursor: pointer;
   display: inline;
+  -webkit-text-decoration-skip: objects;
+  opacity: 1 !important;
+  cursor: pointer;
 }
 
 .article a:hover {
