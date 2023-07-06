@@ -4,7 +4,7 @@ description: New features include Collaborative grid block, Embed, OpenAI automa
 type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/joe_illustration_gray_bg_e97wdl.jpg
-image: https://res.cloudinary.com/daog6scxm/image/upload/v1688636514/features/grid%20block.webp
+image: https://res.cloudinary.com/daog6scxm/image/upload/v1688574131/features/Frame_6_zbvh6p.png
 date: "2023-07-05"
 author: Joe Johnston
 draft: false
