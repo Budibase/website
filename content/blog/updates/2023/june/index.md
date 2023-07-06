@@ -37,7 +37,9 @@ You can try the new Grid Block [below](#embed).
 
 Connect ChatGPT to Budibase automations and build AI apps in minutes with the new OpenAI automation action. This new functionality packs a lot of power and will improve many workflows. We've created a quick tutorial to help you get started:
 
-[Tutorial: Create AI Flashcards with ChatGPT and Budibase](https://docs.budibase.com/docs/openai)
+[📄 Docs Tutorial: Create AI Flashcards with ChatGPT and Budibase](https://docs.budibase.com/docs/openai)
+
+[📹 Video Tutorial: Create AI Flashcards with ChatGPT and Budibase](https://youtu.be/64l-sBltgnw)
 
 ![Open AI integration with Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1688574131/features/Frame_6_zbvh6p.webp)
 
