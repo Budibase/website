@@ -1,5 +1,5 @@
 ---
-title: June 2023 Product Update
+title: June 2023 Product Update (v2.8.1)
 description: New features include Collaborative grid block, Embed, OpenAI automation action, Typeahead plugin, design updates, and more!
 type: blog
 layout: single
