@@ -1,6 +1,6 @@
 ---
 title: June 2023 Product Update (v2.8.1)
-description: New features include Collaborative grid block, Embed, OpenAI automation action, Typeahead plugin, design updates, and more!
+description: To put it briefly, this is our greatest monthly release to date. New features include; Collaborative Grid block, Public Embeds, OpenAI automation action, Typeahead plugin, design updates, and more! At the bottom of this post, you’ll also find a list of newly created resources that will help you on your Budibase journey.
 type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/joe_illustration_gray_bg_e97wdl.jpg
