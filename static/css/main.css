@@ -6216,7 +6216,7 @@ ul {
   align-items: stretch;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   overflow-x: hidden;
   overflow-y: hidden;
 }
