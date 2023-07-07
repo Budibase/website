@@ -17348,7 +17348,7 @@ button.bg-blue:focus {
     margin-bottom: .75rem;
     font-weight: 600;
     font-variation-settings: "wght" 680;
-    font-size: 32px;
+    font-size: 26px;
     color: var(--hiContrast);
     line-height: 1.2;
   }
@@ -17369,7 +17369,7 @@ button.bg-blue:focus {
     margin-bottom: .75rem;
     font-weight: 600;
     font-variation-settings: "wght" 680;
-    font-size: 26px;
+    font-size: 32px;
     color: var(--hiContrast);
     line-height: 1.2;
   }
