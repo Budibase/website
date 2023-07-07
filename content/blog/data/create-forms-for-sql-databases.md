@@ -154,61 +154,6 @@ You can rename the “/posts” to be the root “/” if you want. But in this 
 * Fix the path in the breadcrumbs in each of the forms, so they load / instead of /posts.
 * Fix the form redirects, so after you add new records or edit entries you are redirected to / instead of /posts.
 
-### Change the design
-
-You can edit the app design using the theme menu. Feel free to play around with different color schemes, buttons roundness, and accent colors.
-
-![Design settings](https://res.cloudinary.com/daog6scxm/image/upload/v1657708300/cms/011_hfd8jx.webp "Design settings")
-
-If you want advanced styling, you can use CSS code. Add a new component to your screen, and select the “embed” element. You can use the embed field to add HTML code, including tags to load CSS, like this:
-
-{{< highlight html "linenos=inline" >}}
-
-<style type="text/css">
-.spectrum-Table-row:nth-child(2n) .spectrum-Table-cell {
-background: #000;
-}
-body .nav-wrapper {
-background: rgb(255,53,0) !important;
-background: linear-gradient(90deg, rgba(255,53,0,0.5) 0%, 
-rgba(255,246,9,0.5) 100%) !important;
-}
-</style>
-
-{{< /highlight >}}
-
-This CSS code changes the header style and adds zebra stripes to the data tables.
-
-These changes are localized to just one page though.
-
-If you want to add CSS code to many pages, there’s a way to do it. You can store your rules in a variable, and load this variable in all your pages.
-
-Head over to Data > Budibase DB > Create new table:
-
-![Internal database](https://res.cloudinary.com/daog6scxm/image/upload/v1657708382/cms/012_xpnuow.webp "Internal database")
-
-Then create a table (for example CSS) and add a column for multi-line text. Then add your CSS code to this newly created table:
-
-![Add CSS as a variable](https://res.cloudinary.com/daog6scxm/image/upload/v1657708402/cms/013_srewnl.webp "Add CSS as a variable")
-
-Back to your design, instead of using the Embed directly, add a data provider (loading the CSS table) and a repeater.
-
-Now, instead of using plain text in your embed, use a variable to load the contents of your DB call.
-
-![Bind custom CSS](https://res.cloudinary.com/daog6scxm/image/upload/v1657708432/cms/014_afikgl.webp "Bind custom CSS")
-
-To add this CSS code to all pages, you can copy the entire data provider:
-
-![Copy data provider component](https://res.cloudinary.com/daog6scxm/image/upload/v1657708453/cms/015_s4dr6g.webp "Copy data provider component")
-
-Then paste inside each of your screens:
-
-![Paste data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1657708528/cms/016_zzxkdg.webp "Paste data provider")
-
-Repeat this to all your screens, and you can add any styling you want to your SQL forms.
-
-When it’s time to edit your CSS code, you can edit it in your Budibase DB entry and it affects all pages.
-
 ### Add filtering options to your tables
 
 If you have a lot of data in your table, it might be hard to find the right item to edit. You can add a filtering option to your table to help you with this task.
