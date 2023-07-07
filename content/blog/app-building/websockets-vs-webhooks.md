@@ -3,8 +3,8 @@
 author = "Ronan McQuillan"
 date = 2023-07-07
 description = "WebSockets and WebHooks are two distinct methods of transferring data between applications."
-image = "https://res.cloudinary.com/daog6scxm/image/upload/v1688734609/cms/itops-vs-devops/ITOps_vs_DevOps_ffthyd.png"
-images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1688734609/cms/itops-vs-devops/ITOps_vs_DevOps_ffthyd.png"]
+image = "https://res.cloudinary.com/daog6scxm/image/upload/v1688734893/cms/websockets-vs-webhooks/WebSockets_vs_WebHooks_wbsxqf.png"
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1688734893/cms/websockets-vs-webhooks/WebSockets_vs_WebHooks_wbsxqf.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "WebSockets vs WebHooks"
 
