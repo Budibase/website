@@ -7300,6 +7300,9 @@ fieldset:disabled a.btn {
   color: white;
 }
 
+.btn-400 {
+  width: 400px;
+}
   /* Hubspot form controls */
 
 .form-columns-1 {
@@ -17475,12 +17478,15 @@ button.bg-blue:focus {
     width: 100%;
     margin-bottom: 1rem;
     border-radius: 4px;
+    max-width: 100%;
   }
 
   .article p img {
     width: 100%;
     margin-bottom: 1rem;
     border-radius: 6px;
+    max-width: 100%;
+
   }
 
   .article blockquote {
