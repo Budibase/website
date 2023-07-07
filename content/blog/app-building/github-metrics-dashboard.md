@@ -392,21 +392,6 @@ labels: labels.map( ({name}) => (name) ).toString()
 
 {{< /highlight >}}
 
-## Create custom styles
-
-Now your GitHub metrics dashboard is ready to be used. But in case you want to play with some CSS code, you can do it using an embed. This component allows you to add anything you want to your app, including CSS/JS code.
-
-Here is a simple example of a styling embed:
-
-{{< highlight css "linenos=inline" >}}
-
-.main h1 {
-padding-top: 80px;
-padding-bottom: 20px;
-}
-
-{{< /highlight >}}
-
 ## Building a GitHub metrics dashboard in Budibase
 
 Today you’ve learned how to build a GitHub metrics dashboard. In addition, you’ve learned how you can load and process data using Budibase. By the end of the day, you should be able to create your own dashboards, loading custom elements with filtering options, styling, charts, and more.
