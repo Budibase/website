@@ -1,7 +1,7 @@
 +++
 
 author = "Ronan McQuillan"
-date = "2023-14-07"
+date = 2023-07-14
 description = "Integration between tools is a central part of successful digital transformation."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1689339072/cms/integration-digital-transformation/Integration_Digital_Transformation_sqjy1j.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1689339072/cms/integration-digital-transformation/Integration_Digital_Transformation_sqjy1j.png"]

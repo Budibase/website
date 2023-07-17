@@ -1,7 +1,7 @@
 +++
 
 author = "Ronan McQuillan"
-date = "2023-14-07"
+date = 2023-07-14
 description = "API headers are used to provide additional information about requests and responses."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1689339038/cms/api-headers/What_are_API_Headers_nnu7wo.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1689339038/cms/api-headers/What_are_API_Headers_nnu7wo.png"]

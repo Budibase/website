@@ -1,7 +1,7 @@
 +++
 
 author = "Ronan McQuillan"
-date = "2023-14-07"
+date = 2023-07-14
 description = "Knowing the components of an API is vital for successful intergration between platforms."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1689339019/cms/what-are-the-components-of-an-api/What_are_the_components_of_an_api_i3hh2r.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1689339019/cms/what-are-the-components-of-an-api/What_are_the_components_of_an_api_i3hh2r.png"]
