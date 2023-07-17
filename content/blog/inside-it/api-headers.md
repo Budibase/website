@@ -163,6 +163,8 @@ So, this would look something like this:
 
 “key3”: “value3”
 
+}
+
 {{< /highlight >}}
 
 
@@ -202,6 +204,8 @@ So, our headers might look like this.
 
 “cache-control”: “no-store”
 
+}
+
 {{< /highlight >}}
 
 In our response, we want to include the status, date, and content-type.
@@ -217,6 +221,8 @@ If the request was successful, our response headers would look like this:
 “content-type”: “application/json; charset=utf-8”,
 
 “date”: “Wed, 01 Oct 2023 00:00:01 GMT”
+
+}
 
 {{< /highlight >}}
 
