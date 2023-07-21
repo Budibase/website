@@ -3,8 +3,8 @@
 author = "Ronan McQuillan"
 date = "2023-07-21"
 description = "ITOM and ITSM are both fundamental to the way we furnish our colleageus with reliable, performant technology."
-image = "https://res.cloudinary.com/daog6scxm/image/upload/v1689942705/cms/itom-vs-itsm/ITOM_vs_ITSM_bxybkm.png"
-images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1689942705/cms/itom-vs-itsm/ITOM_vs_ITSM_bxybkm.png"]
+image = "https://res.cloudinary.com/daog6scxm/image/upload/v1689943267/cms/itom-vs-itsm/blog_post_template_2_zr9h2e.png"
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1689943267/cms/itom-vs-itsm/blog_post_template_2_zr9h2e.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "ITOM vs ITSM"
 
