@@ -30,6 +30,8 @@ A GUI is a visual interface to navigate through your databases, tables, and data
 
 Think of them as productivity tools. They work as a starting point with premade functions and screens to quickly access and manage mission-critical data.
 
+{{< cta >}}
+
 ## How do you create a database UI?
 
 There are many methods to build interfaces for managing data. But today, we’re only worried about the easiest one. You’re going to create your database GUI with Budibase.
@@ -452,6 +454,8 @@ This button has 3 actions:
 The JS code itself might seem intimidating, but it is just generating either the insert into query for new rows or the update query for edits.
 
 And a nice finishing touch is to display a message when fields are updated. You can do so with a new container, add your message there and then use the display condition of show component if _{{ State.updated_rows }}_ equals 1.
+
+{{< cta >}}
 
 ## How to build a database GUI with Budibase.
 

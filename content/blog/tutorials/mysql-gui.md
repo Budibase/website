@@ -103,6 +103,8 @@ Let’s see how you can create this app.
 
 If you haven’t already, sign up for Budibase. You can create free apps right away.
 
+{{< cta >}}
+
 After you’ve created your app, connect to your MySQL database as a [data source](https://budibase.com/blog/data/data-sources/). Don’t forget to [whitelist the Budibase servers](https://docs.budibase.com/docs/whitelisting) in your MySQL server.
 
 Our demo data has three tables:
@@ -642,6 +644,8 @@ return ret;
 {{< /highlight >}}
 
 That’s all you need for the query builder. Once it’s saved it generates a query and saves it. Just make sure to use the {{ State.query_builder }} as the default state for the main text field in the custom query page. Thus, where there is a custom query, the text field is pre-populated.
+
+{{< cta >}}
 
 ## Build a MySQL GUI with Budibase
 

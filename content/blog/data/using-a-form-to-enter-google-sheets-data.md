@@ -64,6 +64,8 @@ We’ll return to some of the more specific features of Budibase that make it th
 
 For now, though, let’s jump into the practical stuff.
 
+{{< cta >}}
+
 ## Building Google Sheets forms in 7 steps
 
 We do have a couple of obvious prerequisites. We can safely assume that you have a Google account already, along with a spreadsheet you want to manage. You’ll also need to sign up to Budibase, of course.
@@ -301,6 +303,8 @@ This may not seem like the top priority when using a form to enter data to Googl
 For example, you might want to introduce extra levels of security, monitoring, or other measures.
 
 Or you might simply have your own infrastructure and want to use it. As the leading [open-source, low-code platform](https://budibase.com/blog/open-source-low-code-platforms/), our goal is to give you the tools you need, whatever your specific use case.
+
+{{< cta >}}
 
 ## The smart option for using a form to enter data to Google Sheets
 

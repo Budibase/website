@@ -36,6 +36,8 @@ You can use Google Sheets as a dashboard, by using custom styles, charts, and Ap
 
 You can follow the tips from this tutorial to build a dashboard in addition to a Google Sheets GUI.
 
+{{< cta >}}
+
 ## Can Google Sheets be used as a database?
 
 Google Sheets is a great option for a free and simple database. With it, you can add data to your tables and use other apps to access it using the API.

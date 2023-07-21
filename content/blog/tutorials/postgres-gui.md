@@ -86,6 +86,8 @@ All elements are the same, but instead of the search toggle, there’s a dynamic
 
 Let's build your Postgres GUI now.
 
+{{< cta >}}
+
 ## Step 1 - How do I connect to PostgreSQL GUI?
 
 You can connect your Postgres GUI with your database with the host URL, database name, username, and password. Make sure you whitelist the Budibase IP address in case your server has a firewall.
@@ -238,6 +240,8 @@ You can make a very similar edit to the _create new_ button, just check the “o
 This is enough to make the forms open in a modal. But you need to close it.
 
 Edit the delete, and save buttons (from the edit and add new screens). Instead of “navigate to” actions, use “close modal” actions.
+
+{{< cta >}}
 
 ## How to build a Postgres GUI in Budibase
 
