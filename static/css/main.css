@@ -1445,7 +1445,7 @@ h1,
 h2,
 .h2 {
   font-size: 1.5rem;
-  font-variation-settings: "wght" 650;
+  font-variation-settings: "wght" 600;
   text-indent: -.015em;
   text-rendering: optimizeLegibility;
   line-height: 28px;
@@ -1458,7 +1458,7 @@ h2,
   .h2 {
     font-size: 32px;
     font-weight: 600;
-    font-variation-settings: "wght" 650;
+    font-variation-settings: "wght" 600;
     text-indent: -.015em;
     text-rendering: optimizeLegibility;
     line-height: 36px;
@@ -4517,7 +4517,15 @@ details[open]>summary {
 }
 
 .border-blue {
-  border: 1px solid var(--blue-700) !important;
+  border: 1px solid var(--blue-400) !important;
+}
+
+.border-green {
+  border: 1px solid var(--green-400) !important;
+}
+
+.border-indigo {
+  border: 1px solid var(--indigo-400) !important;
 }
 
 .border-light3 {
@@ -4864,12 +4872,13 @@ details[open]>summary {
   display: flex;
   flex-direction: column;
   position: relative;
-  border-radius: 12px;
+  border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   overflow: hidden;
   -webkit-box-flex: 1;
   flex-grow: 1;
   justify-content: space-between;
+  gap: 1rem;
 }
 
 .pricing-card-dark {
