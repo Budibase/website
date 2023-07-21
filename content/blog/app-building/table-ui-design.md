@@ -173,6 +173,8 @@ An alternative to traditional search boxes is Budibase’s dynamic filtering com
 
 Quickly add complex searchability and filtering functionality, without creating overly busy and distracting interfaces.
 
+{{< cta >}}
+
 ## 8. Using modal screens
 
 Modal screens are a simple but effective way to streamline user experiences around table interfaces. This means that, rather than opening linked screens in a full-size window, they’ll be displayed in a smaller pop-up.
@@ -283,6 +285,8 @@ Each of these concerns influences the interfaces you’ll build around your data
 This includes several design decisions. We can dedicate more space to tables where they’re the main focal point of the interface. Therefore, we can include more columns, more rows per page, more spacing, and larger internal elements.
 
 By contrast, when tables are a lower priority within the wider interface, we can dedicate less space to them. We’d therefore need to limit the number of elements we include, at far as we can while still allowing users to carry out their core tasks.
+
+{{< cta >}}
 
 ## Build better table UIs with Budibase
 

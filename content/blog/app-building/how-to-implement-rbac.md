@@ -215,6 +215,8 @@ The purpose of this is twofold:
 
 On the first point, the idea is to audit your users regularly to ensure that they are assigned the correct role. Again, this is relatively straightforward, as roles typically map onto defined job functions or competencies within workflows.
 
+{{< cta >}}
+
 There are only a handful of situations where issues can occur here. These include scenarios where:
 
 * A user was assigned to the wrong role in the first place.

@@ -111,6 +111,8 @@ Our mission is to build the world’s largest suite of open-source business solu
 
 Check out our [pricing page](https://budibase.com/pricing) for more information.
 
+{{< cta >}}
+
 ### 2. Connect or import your data
 
 Once you’ve created your app project, you’ll be prompted to choose a data source. Remember, we have two different options here.

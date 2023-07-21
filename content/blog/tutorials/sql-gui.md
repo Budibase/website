@@ -172,6 +172,8 @@ We picked a dark theme and a CSS gradient for the header background. You can add
 
 Now let’s see how you can spice up your SQL GUI with a single screen that loads multiple tables.
 
+{{< cta >}}
+
 ## 3. Custom database connections and queries
 
 If you have a lot of tables to manage, maybe manually creating a CRUD interface for each of them isn’t the best option. It’s possible to create your own interface that loads tables and databases automatically.
@@ -433,6 +435,8 @@ That’s it, your form is ready to edit items.
 The finishing touch is a message to let users know that the add new / update action worked. You can add a container and set its conditions to Show component if _{{ State.updated_rows }}_ Equals to 1.
 
 You can add a green border around it, and a headline component with your update message.
+
+{{< cta >}}
 
 ## How to build a SQL GUI
 

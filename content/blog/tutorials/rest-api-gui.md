@@ -57,6 +57,8 @@ You can test REST API calls using Budibase.
 
 The first and simplest method is to create a free account, create a new app, then pick a REST API data source.
 
+{{< cta >}}
+
 Next, just import your API specs using this option:
 
 ![REST API GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1665483891/cms/01_xapbbq.webp "REST API GUI")
@@ -336,6 +338,8 @@ You just need to update a few items on this page:
 That’s it!
 
 You can follow this method and create other screens if you want. You can have all the REST methods by just copying these base screens.
+
+{{< cta >}}
 
 ## How to build a REST API GUI with Budibase
 

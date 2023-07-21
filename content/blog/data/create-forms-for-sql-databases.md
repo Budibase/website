@@ -30,6 +30,8 @@ In this article, we’ll dive into how you can do this using Budibase, and creat
 
 Let’s get started!
 
+{{< youtube PZQNxwMk0es >}}
+
 ## What are we building?
 
 Our goal for today is to build an app that contains several SQL forms. Specifically, we’ll be able to query two tables for _posts_ and _settings_. Each one will have separate forms for _create_ and _update_ queries, and functionality to _read_ and _delete_ entries.
@@ -199,6 +201,8 @@ Then add a condition to “update setting” “filtering” to your desired fil
 You can use JS code and bindings to make your forms more dynamic. For example, if you have post categories in a table, you can add options to add categories to a post, but display the category name instead of the ID in your form.
 
 Another idea is to use calculated fields if you want to. Instead of a field with the “sales total” for sales tables, you can calculate the total based on the current products and quantities.
+
+{{< cta >}}
 
 ## Create forms for SQL databases with Budibase
 

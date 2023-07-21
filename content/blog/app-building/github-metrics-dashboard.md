@@ -349,6 +349,8 @@ Just like the other items, the chart needs a data provider. In this case, you sh
 
 Then, just drag the chart so it is a child of the data provider and adjust its settings. You need to use the label column as “name” and the data columns as “value”.
 
+{{< cta >}}
+
 ## Create and apply dashboard filters
 
 The technique here is very similar to what you did in the settings table. You just need to make sure that all queries that are filtered by your form are inside of it. This allows the form data to be used in them.
@@ -395,6 +397,8 @@ labels: labels.map( ({name}) => (name) ).toString()
 ## Building a GitHub metrics dashboard in Budibase
 
 Today you’ve learned how to build a GitHub metrics dashboard. In addition, you’ve learned how you can load and process data using Budibase. By the end of the day, you should be able to create your own dashboards, loading custom elements with filtering options, styling, charts, and more.
+
+{{< cta >}}
 
 To find out more about the kinds of tools you can create with Budibase, have a look at our [product page](https://budibase.com/product).
 
