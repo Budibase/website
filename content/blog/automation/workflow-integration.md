@@ -1,11 +1,11 @@
 +++
 author = "Ronan McQuillan"
 date = 2023-07-28
-description = ""
+description = "Workflow is a critical part of how we achieve sleek, performany internal ops."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1690549708/cms/workflow-integration/What_is_workflow_integration_bppplz.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1690549708/cms/workflow-integration/What_is_workflow_integration_bppplz.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "What is a Workflow Integration?"
+title = "What is Workflow Integration?"
 +++
 
 Workflow integration is at the center of how modern businesses operate. Indeed, achieving efficient, secure, and performant internal ops is all but impossible without fairly extensive integration.
