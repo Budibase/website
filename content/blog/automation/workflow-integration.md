@@ -1,7 +1,7 @@
 +++
 author = "Ronan McQuillan"
 date = 2023-07-28
-description = "Workflow is a critical part of how we achieve sleek, performany internal ops."
+description = "Workflow integration is a critical part of how we achieve sleek, performant internal ops."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1690549708/cms/workflow-integration/What_is_workflow_integration_bppplz.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1690549708/cms/workflow-integration/What_is_workflow_integration_bppplz.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
