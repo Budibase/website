@@ -1,9 +1,9 @@
 +++
 author = "Joe Johnston"
 date = 2019-07-28T00:00:00Z
-description = "Learn to create performant, intuitive interfaces with our top examples of web application design."
+description = "Web application design is an important step for building effective user experiences."
 images = ["/web-app-ideas/dashboard-web-app.jpg"]
-title = "Modern Web Application Design | 5 Examples"
+title = "5 Examples of Modern Web Application Design"
 
 +++
 {{< figure src="/web-app-ideas/dashboard-web-app.jpg" alt="The CEO Dashboard Web App" >}}

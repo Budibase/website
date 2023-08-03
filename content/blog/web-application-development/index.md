@@ -3,7 +3,7 @@ author = "Joe Johnston"
 date = 2020-01-24T00:00:00Z
 description = "Web application development is the process of building web-based UIs and tools."
 images = ["/web-application-development/guide-to-web-application-development.jpg"]
-title = "Beginners Guide to Web Application Development"
+title = "Beginners Guide to Web Application Development (2023)"
 
 +++
 {{< figure src="/web-application-development/guide-to-web-application-development.jpg" alt="Guide to web application development" >}}

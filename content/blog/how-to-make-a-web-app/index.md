@@ -1,8 +1,8 @@
 +++
 author = "Joe Johnston"
 date = 2019-04-23T00:00:00Z
-description = "Learn the best way to build a web app and deploy it. This tutorial will provide you with two different methods."
-title = "How to build a web app: A beginner's guide (2023)"
+description = "Follow our step-by-step guide for how to build a web app."
+title = "How to Build a Web App: Beginner's Guide (2023)"
 
 +++
 {{< figure src="/how-to-make-a-web-app/how-to-make-a-web-app.jpg" attr="Picture by [Med Badr](https://unsplash.com/@medbadrc)" alt="How to make a web app" >}}
