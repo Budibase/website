@@ -5,7 +5,7 @@ description = "Rapid application development tools are critical for building per
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1665140297/cms/Citizen_Development_Governance_Header_v2bckd.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1665140304/cms/Citizen_Development_Governance_Header_ujgsvz.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Top 5 Rapid Application Development Tools for 2023"
+title = "Top 5 Rapid Application Development (RAD) Tools for 2023"
 
 +++
 Choosing the right rapid application development tools for your team is a tricky prospect.
@@ -14,7 +14,7 @@ Most software procurement decisions come down to finding the most cost-effective
 
 It’s not so much concerned with what you do, as how you do it.
 
-So, yes, RAD tools enable you to build software solutions, but more importantly, they allow you to do it _quickly_. Unfortunately, it becomes hard to generalize once you accept the fact that you might want to build all sorts of different apps within the RAD model.
+So, yes, RAD tools enable your development team to build software solutions, but more importantly, they allow them to do it *quickly*. Unfortunately, it becomes hard to generalize once you accept the fact that you might want to build all sorts of different apps within the RAD model.
 
 This means things can become a little bit unpredictable.
 
@@ -24,7 +24,7 @@ First, though, let’s start with the basics.
 
 ## What are rapid application development tools?
 
-Herein lies our first challenge. You see, there are a few platforms out there that market themselves as rapid application development tools. However, this isn’t necessarily a good indicator that they’re up to scratch.
+Herein lies our first challenge. You see, there are a few types of solutions out there that market themselves as rapid application development tools. However, this isn’t necessarily a good indicator that they’re up to scratch.
 
 So, if we can’t take it as read that a rapid application development tool is whatever a vendor describes as one, then where does that leave us?
 
@@ -36,7 +36,7 @@ This means we need to turn our attention to the characteristics that would make 
 
 One is obviously speed. In fact, it should probably go without saying that you’ll need to be able to build tools quickly for RAD to work. There are a few different approaches to achieving this, which we’ll return to a little later.
 
-We also need to factor in collaboration, since this is such a huge part of the RAD model. This includes collaboration between developers, as well as between developers and other stakeholders, like clients and end users.
+We also need to factor in team collaboration, since this is such a huge part of the RAD model. This includes collaboration during software development, as well as between developers and other stakeholders, like clients and end users.
 
 For instance, for [throwaway prototyping](/blog/inside-it/throwaway-prototyping).
 
@@ -46,15 +46,15 @@ As such, we can actually look to a wide variety of platforms that fit the bill a
 
 ## What kinds of tools do rapid application developers use?
 
-So, if there’s no single definition of what a rapid application development tool is, it only makes sense to consider the types of tools that developers use in the real world for RAD projects. However, this introduces a couple of extra problems.
+So, if there’s no single definition of what a rapid application development tool is, it only makes sense to consider the types of tools that professional developers use in the real world for RAD projects. However, this introduces a couple of extra problems.
 
 The big one is that developers will be influenced here by the tools they normally use for other activities. What’s fastest and easiest can vary from person to person, depending on their background.
 
 With that in mind, here are the broad _categories_ of tools that are most suitable here. We’ll look at specific examples of each a little later.
 
-### No/low-code platforms
+### No/low-code development platforms
 
-No/low-code platforms are the most obvious candidates as rapid application development tools. These are specifically aimed at eliminating simple, repetitive development tasks, in order to speed up builds.
+No/low-code platforms are the most obvious candidates as rapid application development tools. The key benefit of low-code is eliminating simple, repetitive development tasks, in order to speed up builds.
 
 So, rather than building everything from scratch, you can rely on low-code tools to do the legwork for basic tasks. For instance, building forms, [CRUD apps](https://budibase.com/blog/crud-app/), or other very simple tools.
 
@@ -85,7 +85,7 @@ As you might have guessed, this is a fairly loose definition of application deve
 
 ### Business management tools
 
-A huge proportion of RAD projects rely on tools that fall outside of the formal app-builder umbrella. Most often, these are everyday office tools, like Google Workspaces or Microsoft Office365.
+A huge proportion of RAD projects rely on tools that fall outside of the formal app-builder umbrella. Most often, these are everyday office tools, like project management software, customer relationship management, Google Workspaces or Microsoft Office365.
 
 Both of these platforms _do_ offer tools for building your own automations, user interfaces, data management tools, and more.
 

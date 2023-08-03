@@ -20,7 +20,7 @@ First, though, let’s start with the basics.
 
 ## What is workflow analysis?
 
-Workflow analysis is the process of breaking down your workflows into their constituent task, to assess their performance and look for inefficiencies, bottlenecks, and opportunities to improve.
+Workflow analysis is the process of breaking down your business operations into their constituent task, to assess their performance and look for inefficiencies, bottlenecks, and opportunities to eliminate manual processes.
 
 Analysis is conducted at two levels:
 
@@ -34,6 +34,7 @@ More specifically, you want to assess:
 * The rules that govern your workflows.
 * How users interact with different tools.
 * Process adherence.
+* Potential problems
 * The time and labor required to complete tasks.
 * Incidence of errors, delays, miscommunications, and roadblocks.
 * Any fringe cases, or scenarios that aren’t accounted for.
@@ -54,7 +55,7 @@ To understand the importance of workflow analysis, we can take a step back and t
 These include:
 
 * Increased productivity.
-* Enhanced efficiency.
+* Improving efficiency.
 * Better employee satisfaction.
 * High levels of oversight, security, and accountability.
 * Reduced labor costs.
@@ -69,7 +70,7 @@ But what are the more specific characteristics of an effective workflow?
 There are a few key principles that it’s important to be aware of. These are:
 
 * Separation of competencies.
-* Minimizing human inputs.
+* Minimizing time for employees to spend on tasks.
 * Limiting the actions available to users at each stage of the workflow.
 * High levels of integration between platforms and teams.
 
@@ -221,7 +222,7 @@ Digital transformation is central to effective workflow management. Still, count
 
 This is anathema to efficiency.
 
-Digitalizing workflows can mean a range of different things in practice though. This can range from simple improvements and integrations within your existing software stack, to building completely new solutions.
+Digitalizing workflows can mean a range of different things in practice though. This can range from simple improvements and integrations within your existing software stack, to using dedicated workflow management software.
 
 Check out our guide to [enterprise workflow automation](/blog/automation/enterprise-workflow-automation/) to find out more about the different tools you can use to digitalize workflows in large organizations.
 
