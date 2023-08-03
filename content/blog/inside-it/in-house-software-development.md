@@ -30,13 +30,13 @@ So far, so self-explanatory.
 
 There are a couple of extra characteristics that we need to keep abreast of too though.
 
-First, there’s the fact that in-house software development projects are largely focused on building tools for in-house use.
+First, there’s the fact that in-house app development projects are largely focused on building tools for in-house use.
 
 Second, we need to think about the _kinds_ of tools that are normally built in-house. Here, we can point to another common misconception. It’s easy to assume that software projects are all about building ambitious, extensive solutions.
 
-The reality is that internal developers spend most of their time building and maintaining relatively simple, even single-function tools. We’ll look at some more specific applications a little bit later.
+The reality is that internal development team members spend most of their time building and maintaining relatively simple, even single-function tools. We’ll look at some more specific applications a little bit later.
 
-First, let’s think more generally about what in-house software development brings to the table.
+First, let’s think more generally about what in-house software development services bring to the table.
 
 ## Why do businesses build software in-house?
 
@@ -44,11 +44,11 @@ Why go to the effort and expense of hiring a team of in-house developers? After 
 
 Unsurprisingly, there are multiple factors at play here.
 
-Let’s take a look at the most important reasons that companies turn to in-house software development.
+Let’s take a look at the most important advantages of in-house development.
 
 ### Ownership
 
-The most obvious benefit of in-house software development is that you’ll enjoy complete ownership over projects - both literally and figuratively. We’ll deal with the latter point in a second.
+The most obvious benefit of in-house software development is that you’ll enjoy complete control over the development process - both literally and figuratively. We’ll deal with the latter point in a second.
 
 For now, though, let’s think about why it’s a priority for businesses to own the tools they use.
 
@@ -72,15 +72,15 @@ This ties in with the fact that in-house software development benefits from stro
 
 Let’s think about a couple of examples.
 
-First, we already saw that with in-house developments, it’s easier for technical teams and on-the-ground employees to communicate directly.
+First, we already saw that with in-house developments, it’s easier for technical teams and on-the-ground employees to communicate directly and face-to-face.
 
-Second, in-house projects are also typically owned by internal project managers. Again, we can expect this to breed accuracy and efficiency, as well as improving oversight over development projects.
+Second, in-house projects are also typically owned by internal project managers. Again, we can expect this to breed accuracy and efficiency, as well as improving oversight over development projects - along side reduced costs and improved time-to-market.
 
 ### Bespoke skill sets
 
 Another obvious benefit of in-house software development is that we have the power to build the perfect team for our needs. That is, we’re in control of the kinds of developers and skills that we want to recruit.
 
-This is a lot trickier when you’re working with external agencies or contractors.
+This is a lot trickier when you’re working with external agencies or outsourcing partners - making it one of the clear disadvantages of outsourcing software development.
 
 So, for instance, you might focus on experience with specific tools, frameworks, or specific systems. This is important as it means that you can shape your team around your actual needs.
 
@@ -88,7 +88,7 @@ Additionally, building an in-house software development team allows businesses t
 
 ### Knowledge retention
 
-Knowledge retention is a challenge and an opportunity for all development teams, but with in-house software development, we’re in a better position to succeed. There are a couple of important factors at play here.
+Knowledge retention is a long-term challenge and an opportunity for all development teams, but with in-house software development, we’re in a better position to succeed. There are a couple of important factors at play here.
 
 One is that, while in-house developers don’t necessarily stay in the same job for longer, they do typically work on individual projects for longer than their agency counterparts.
 
@@ -108,7 +108,7 @@ Organizationally, we have issues like vendor lock-in, end-of-support, project ov
 
 On the technical side, we have a constant stream of emerging cyber threats, as well as risks associated with service interruption or other kinds of downtime.
 
-In-house software development largely eliminates many organizational risks and makes it easier to manage the technical ones.
+In-house software development largely eliminates many organizational risks and makes it easier to manage the technical ones - meaning we can potentially save a lot of money.
 
 ## Challenges of in-house software development
 
@@ -126,7 +126,7 @@ It’s no secret that skilled developers get paid a lot of money. The natural in
 
 Obviously, we have to set this cost against what we’d be paying external contractors, along with the value we’ll derive from the solutions our developers build.
 
-So really, it becomes a calculation as to whether or not in-house development is the most cost-effective option.
+So really, it becomes a calculation as to whether or not hiring an in-house development team is the most cost-effective option.
 
 One of the biggest decision points here is your specific demand for solutions. That is, do you have a large enough list of solutions that need to be built to fill your developers’ time?
 
@@ -134,7 +134,7 @@ One of the biggest decision points here is your specific demand for solutions. T
 
 Another key challenge is finding the right people. The global shortage of skilled software developers is well documented. The proportion of open development roles that go unfilled is growing by the year.
 
-So, it can take months or even years to recruit talent - if you ever manage to do so. Plus you can incur extra costs, including working with recruiters, who are themselves high-skill professionals.
+So, it can take months or even years to recruit talent - if you ever manage to do so. Plus you can incur extra costs, including working with recruiters, who are themselves high-skill professionals - or managing teams across time zones.
 
 ![Developer Shortage](https://res.cloudinary.com/daog6scxm/image/upload/v1667827259/cms/Developer_Shortage_https___www.globenewswire.com_en_news-release_2022_02_10_2382917_0_en_New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html_hxinkm.webp "Developer Shortage")
 
