@@ -5,7 +5,7 @@ description = "When building a web app, your choice of data source is critical. 
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1653314263/cms/Choosing_a_Data_Source_for_App_Projects_Header_j2gses.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1653314263/cms/Choosing_a_Data_Source_for_App_Projects_Header_j2gses.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Data Sources | Developer's Guide"
+title = "Data Sources for App Projects | Ultimate Guide"
 
 +++
 When building a web app, your choice of data source is critical. Deciding how and where to store, access, and manipulate data is fundamental to every successful app project. Today, we’ll be looking at everything you need to know to get this decision right.

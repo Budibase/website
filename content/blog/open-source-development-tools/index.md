@@ -1,7 +1,7 @@
 
 +++
 date = "2021-06-15"
-title = "Top 10 open source development tools (tried and tested)"
+title = "Top 10 Open Source Development Tools (Tried and Tested)"
 description = "Open source development tools come in many shapes and sizes, and selecting the right one is a complex process. This post identifies the tools you need to try."
 author = "Joe Johnston"
 images = ["/img/img/apps-list.png"]

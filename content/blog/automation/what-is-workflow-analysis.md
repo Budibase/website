@@ -1,7 +1,7 @@
 +++
 author = "Ronan McQuillan"
 date = 2022-06-09T23:00:00Z
-description = "Workflow analysis is an essential element of any transformation, improvement, or optimization project. Here’s everything you need to know."
+description = "Workflow analysis is the process of breaking down and mapping your workflows' consituent tasks."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1654867704/cms/What_is_Workflow_Analysis_xmidw2.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1654867711/cms/What_is_Workflow_Analysis_vubu5q.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"

@@ -1,7 +1,7 @@
 +++
 author = "Ronan McQuillan"
 date = 2022-11-10T00:00:00Z
-description = "In-house software development is any project that leverages your internal team, whether these are coders or low-code developers."
+description = "In-house software development is any project that leverages your internal developers."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1667827120/cms/In-House_Software_Development_fwkw2a.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1667827132/cms/In-House_Software_Development_u1v0ru.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
