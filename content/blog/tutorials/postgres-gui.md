@@ -5,7 +5,7 @@ description = "Learn to build a custom Postgres GUI in minutes with Budibase."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1664959926/cms/How_to_Build_a_Postgres_GUI_pmhm0j.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1664959932/cms/How_to_Build_a_Postgres_GUI_kobhio.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Create a Postgres GUI in 3 Steps"
+title = "How to Create a FREE Postgres GUI in 15 Minutes"
 
 +++
 A Postgres GUI helps you make the most out of your database, whether you are a coder or not.
@@ -85,6 +85,8 @@ The settings screen is very similar, but it uses different elements:
 All elements are the same, but instead of the search toggle, there’s a dynamic filter. This is another option to filter table data, and you can see the pros and cons of each item when you are creating them.
 
 Let's build your Postgres GUI now.
+
+{{< cta >}}
 
 ## Step 1 - How do I connect to PostgreSQL GUI?
 
@@ -201,11 +203,15 @@ Set the onclick actions of this button to run “Update State”, to “set valu
 
 Use this code:
 
-    if ( $("State.search") ) {
-        return 0;
-    } else {
-        return 1;
-    }
+{{< highlight javascript "linenos=inline" >}}
+
+if ( $("State.search") ) {
+    return 0;
+} else {
+    return 1;
+}
+
+{{< /highlight >}}
 
 This code just alternates between 0 and 1. If the current app state is zero (search fields hidden), it sets this state as one (fields visible). If it is one, the app state is updated to zero (hiding the fields).
 
@@ -234,6 +240,8 @@ You can make a very similar edit to the _create new_ button, just check the “o
 This is enough to make the forms open in a modal. But you need to close it.
 
 Edit the delete, and save buttons (from the edit and add new screens). Instead of “navigate to” actions, use “close modal” actions.
+
+{{< cta >}}
 
 ## How to build a Postgres GUI in Budibase
 

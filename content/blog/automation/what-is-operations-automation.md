@@ -1,11 +1,11 @@
 +++
 author = "Ronan McQuillan"
 date = 2022-07-21T23:00:00Z
-description = "Operations automation is a top priority for any modern business. Here’s everything you need to know."
+description = "Operations automation is a all about building sleek, efficient internal ops."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1658504158/cms/Enterprise_App_UI_Design_Header_rta8ib.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1658504164/cms/Enterprise_App_UI_Design_Header_nyxosi.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "What is Operations Automation? In-Depth Guide"
+title = "What is Operations Automation? + 5 Examples"
 
 +++
 Operations automation is a top priority for any modern organization. With shrinking budgets, stiffening competition, and a need for more efficient processes, automation is a daily reality for operations teams.
@@ -183,6 +183,8 @@ Another way of looking at this how likely your employees are to do the right thi
 Therefore, improving accuracy and consistency is all about reducing the likelihood of human error.
 
 As such, operations automation offers a simple, easily implemented way to cut out hidden costs across your business, like security breaches, error correction time, and other associated processes.
+
+{{< cta >}}
 
 ## Which operations functions can be automated?
 
@@ -440,6 +442,8 @@ Build fully customized automations, without needing to write a single line of co
 We also offer a library of built-in automations that can be triggered with user actions, system events, incoming Webhooks, and more.
 
 Budibase also connects seamlessly to your existing software stack, so you can use external tools as automation triggers and actions alike.
+
+{{< cta >}}
 
 ### Design tools
 

@@ -1,11 +1,11 @@
 +++
 author = "Ronan McQuillan"
 date = 2022-06-27T23:00:00Z
-description = "Form UI design is one of the essential skills in any designer’s arsenal. Check out our 21 tips for building incredible forms."
+description = "Form UI design is one of the essential skills in any designer’s arsenal - contributing to all kinds of critical UX metrics"
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1656427647/cms/Form_UI_Design_Header_isqpxm.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1656427656/cms/Form_UI_Design_Header_lleswh.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "21 Tips for Incredible Form UI Design"
+title = "21 Tips for Professional Form UI Design"
 
 +++
 Form UI design is one of the essential skills in any designer’s arsenal. Forms are the basis of countless different kinds of apps and tools. An effective form can be the difference between a profitable app project and one with poor usability, retention, and engagement.
@@ -149,6 +149,8 @@ Default values can be populated from a range of different sources, including use
 The idea is to create rules to autofill form fields, based on the values that users are most likely to provide, while still giving them the ability to override these.
 
 For example, by using users’ stored phone numbers by default in a call-back form, but still allowing them to provide a different number by editing this.
+
+{{< cta >}}
 
 ## 5. Columns and horizontal layouts
 
@@ -390,6 +392,8 @@ You can leverage personalization to different extents.
 This could be as simple as displaying users’ names in your titles. You could also opt for a more in-depth strategy. For example, by using users’ previous responses to modify your messaging around future form fields.
 
 You could even display entirely different form fields based on user responses at each step, to create branching logic within surveys.
+
+{{< cta >}}
 
 ## Low-code form UI design from Budibase
 

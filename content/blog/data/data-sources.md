@@ -1,11 +1,11 @@
 +++
 author = "Ronan McQuillan"
 date = 2022-05-22T23:00:00Z
-description = "When building a web app, your choice of data source is critical. Here’s our free, in-depth guide to making the right decision for your app project."
+description = "When building a web app, your choice of data source is critical. Here’s our free, comprehensive guide."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1653314263/cms/Choosing_a_Data_Source_for_App_Projects_Header_j2gses.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1653314263/cms/Choosing_a_Data_Source_for_App_Projects_Header_j2gses.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Data Sources for App Projects | Ultimate Guide"
+title = "Data Sources | Developer's Guide"
 
 +++
 When building a web app, your choice of data source is critical. Deciding how and where to store, access, and manipulate data is fundamental to every successful app project. Today, we’ll be looking at everything you need to know to get this decision right.
@@ -731,16 +731,24 @@ Noted that, in JavaScript, the index of the first item in an array is always 0, 
 
 To do the same with the order number of their most recent purchase, we’d need to know the number of orders they’ve made, to get the index of the last one. We could use the following code:
 
-    let i = $(“orders”).length - 1;
-    return $(“orders.i.orderNumber”);
+{{< highlight javascript "linenos=inline" >}}
+
+let i = $(“orders”).length - 1;
+return $(“orders.i.orderNumber”);
+
+{{< /highlight >}}
 
 Or we could calculate each customer’s lifetime value in a new column, with the following bindings:
 
-    let totalValue = 0
-    for (i = 0, i < $(“orders”).length, i++){
-    totalValue += $(“orders.i.price);
-    }
-    return totalValue;
+{{< highlight javascript "linenos=inline" >}}
+
+let totalValue = 0
+for (i = 0, i < $(“orders”).length, i++){
+totalValue += $(“orders.i.price);
+}
+return totalValue;
+
+{{< /highlight >}}
 
 We could use any of these binding expressions in our _customers_ table itself, or elsewhere in the UI. These are just a couple of examples to highlight the flexibility and ease of working with data bindings.
 
@@ -1141,17 +1149,25 @@ You could also use transformation to parse a number from a string, or set rules 
 
 In some cases, this can be as simple as applying a built-in JavaScript method, like _value.toString(),_ or declaring and returning a variable with a function, such as:
 
-    var newValue = Number(value);
-    return newValue;
+{{< highlight javascript "linenos=inline" >}}
+
+var newValue = Number(value);
+return newValue;
+
+{{< /highlight >}}
 
 Other times, the transformation might be more complex. Say you had a set of B2B leads, including each company’s employee count. For the purpose of your app though, you simply need a boolean value, for whether or not they’re an enterprise.
 
 If we define an enterprise as any company with 1,000 or more employees, we could use a transformation like:
 
-    if (employeeCount >= 1000){
-    	return true;
-    	}
-    else return false;
+{{< highlight javascript "linenos=inline" >}}
+
+if (employeeCount >= 1000){
+	return true;
+	}
+else return false;
+
+{{< /highlight >}}
 
 For certain sources, you can build this into your queries. For example, by using a _CASE_ statement in SQL.
 

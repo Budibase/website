@@ -1,11 +1,11 @@
 +++
 author = "Ronan McQuillan"
 date = 2022-06-27T23:00:00Z
-description = "Table UI design is central to how your users find, view, and interact with all kinds of data. Check out our 14 tips for building more efficient apps."
+description = "Table UI design is central to how your users find, view, and interact with all kinds of data."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1656428330/cms/Table_UI_Design_Header_yqtrzd.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1656428363/cms/Table_UI_Design_Header_st4oix.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "14 Essential Table UI Design Tips"
+title = "14 Essential Table UI Design Tips + 6 Shortcuts"
 +++
 
 The humble table is the core of almost any data-centric app interface. Table UI design is central to how your users find, view, and interact with all kinds of information.
@@ -173,6 +173,8 @@ An alternative to traditional search boxes is Budibase’s dynamic filtering com
 
 Quickly add complex searchability and filtering functionality, without creating overly busy and distracting interfaces.
 
+{{< cta >}}
+
 ## 8. Using modal screens
 
 Modal screens are a simple but effective way to streamline user experiences around table interfaces. This means that, rather than opening linked screens in a full-size window, they’ll be displayed in a smaller pop-up.
@@ -283,6 +285,8 @@ Each of these concerns influences the interfaces you’ll build around your data
 This includes several design decisions. We can dedicate more space to tables where they’re the main focal point of the interface. Therefore, we can include more columns, more rows per page, more spacing, and larger internal elements.
 
 By contrast, when tables are a lower priority within the wider interface, we can dedicate less space to them. We’d therefore need to limit the number of elements we include, at far as we can while still allowing users to carry out their core tasks.
+
+{{< cta >}}
 
 ## Build better table UIs with Budibase
 

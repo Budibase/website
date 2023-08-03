@@ -1,11 +1,11 @@
 +++
 author = "Ronan McQuillan"
 date = 2023-01-03T00:00:00Z
-description = "Learn how to create a workflow model as the basis of all sorts of transformation projects."
+description = "A worfklow model is the theoetical basis for any successful transformation project."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1672747416/cms/How_to_Create_a_Workflow_Model_Header_hreasw.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1672747423/cms/How_to_Create_a_Workflow_Model_Header_oeyeq1.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Create a Workflow Model in 8 Steps"
+title = "8 Steps to Create & Optimize a Workflow Model"
 
 +++
 An effective workflow model is the foundation of all sorts of change, transformation, and optimization projects. Therefore, you’d expect this to be something that’s widely understood.
@@ -275,7 +275,7 @@ The first is to create a visualization of our model so that it can be easily com
 
 ![Workflow Model Training](https://res.cloudinary.com/daog6scxm/image/upload/v1672747661/cms/Training_https___www.bptrends.com_bpt_wp-content_uploads_2020-BPM-Survey.pdf_uxhcit.webp "Workflow Model Training")
 
-([BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/2020-BPM-Survey.pdf))
+(BP Trends)
 
 As we said earlier, this plays a couple of important roles - including for employee onboarding, training, workflow analysis, change management, and more.
 

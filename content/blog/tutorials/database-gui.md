@@ -30,6 +30,8 @@ A GUI is a visual interface to navigate through your databases, tables, and data
 
 Think of them as productivity tools. They work as a starting point with premade functions and screens to quickly access and manage mission-critical data.
 
+{{< cta >}}
+
 ## How do you create a database UI?
 
 There are many methods to build interfaces for managing data. But today, we’re only worried about the easiest one. You’re going to create your database GUI with Budibase.
@@ -100,12 +102,16 @@ Sadly, MySQL doesn’t have this function.
 
 A good way to work around this is to create a stored procedure in your database. You can use phpMyAdmin or similar and create a procedure named execute_immediate with this code:
 
-    BEGIN
-    SET @q = query;
-    PREPARE stmt FROM @q;
-    EXECUTE stmt;
-    DEALLOCATE PREPARE stmt;
-    END
+{{< highlight php "linenos=inline" >}}
+
+BEGIN
+SET @q = query;
+PREPARE stmt FROM @q;
+EXECUTE stmt;
+DEALLOCATE PREPARE stmt;
+END
+
+{{< /highlight >}}
 
 Then you can just use this syntax to call your variable query:
 
@@ -200,21 +206,25 @@ Add an options picker component. In it you’ll use the checkboxes mode, horizon
 
 Add a new paragraph to display the current SQL Query. Instead of text or bindings use this JS code in it:
 
-    var table = $("Select Table.Value.tablename");
-    var columns = $("Select Table.Value.columns");
-    if ( columns.length == 0 ) {
-    columns = "*";
-    }
-    var ret = "";
-    ret = 
-    "SQL Query: SELECT " + columns + " FROM " + table;
-    return ret;
+{{< highlight javascript "linenos=inline" >}}
+
+var table = $("Select Table.Value.tablename");
+var columns = $("Select Table.Value.columns");
+if ( columns.length == 0 ) {
+columns = "*";
+}
+var ret = "";
+ret = 
+"SQL Query: SELECT " + columns + " FROM " + table;
+return ret;
+
+{{< /highlight >}}
 
 This allows you to debug if your options are working correctly as well. In the admin screen you won’t see the correct table name, but in the app preview you should see it.
 
 You can add a new button now to add new entries. Add an onclick action to this button to navigate to the edit screen, like this:
 
-    /edit/{{ Select Table.Value.tablename }}/0
+*/edit/{{ Select Table.Value.tablename }}/0*
 
 In Budibase you can use the URL to pass variables to your app. In our case, the path for the edit screen is _/edit/:tablename/:itemid_
 
@@ -224,14 +234,18 @@ Finally, it’s time to load your data. Create a new data provider component and
 
 Then, on its bindings (the cog icon next to the query name) you’ll use the same SQL you have in your paragraph, but slightly different:
 
-    var table = $("Select Table.Value.tablename");
-    var columns = $("Select Table.Value.columns");
-    if ( !columns || columns.length === 0 ) {
-    columns = '*';
-    }
-    var ret = "";
-    ret = "SELECT " + columns + " FROM " + table;
-    return ret;
+{{< highlight javascript "linenos=inline" >}}
+
+var table = $("Select Table.Value.tablename");
+var columns = $("Select Table.Value.columns");
+if ( !columns || columns.length === 0 ) {
+columns = '*';
+}
+var ret = "";
+ret = "SELECT " + columns + " FROM " + table;
+return ret;
+
+{{< /highlight >}}
 
 The data provider has the entire query as an array of items. To expose these items and work with them you can use a repeater.
 
@@ -239,15 +253,19 @@ Make sure to select the horizontal direction for your repeater if you want items
 
 Then add a container inside the repeater, and a paragraph in it. You can use a JS function on this paragraph as well, which loops through each of your variables and displays them:
 
-    var row = $("Repeater.Row Index");
-    row = $("Table Data.Rows")[row];
-    var ret = "";
-    Object.entries(row).forEach(([key, val]) => {
-    ret += "" + key + ":\n";
-    ret += JSON.stringify(val, null, "\t");
-    ret += "\n\n";
-    });
-    return ret;
+{{< highlight javascript "linenos=inline" >}}
+
+var row = $("Repeater.Row Index");
+row = $("Table Data.Rows")[row];
+var ret = "";
+Object.entries(row).forEach(([key, val]) => {
+ret += "" + key + ":\n";
+ret += JSON.stringify(val, null, "\t");
+ret += "\n\n";
+});
+return ret;
+
+{{< /highlight >}}
 
 The finishing touch is adding an “edit” button to your cards. Just like the “add new” button, the edit button loads the _/edit_ screen with some variables.
 
@@ -291,15 +309,19 @@ You can add a button to run the saved query, and its actions are the same as the
 
 Now you just need to add a repeater to display your main query data. In it, you can use the same structure as you used for the home screen, with the paragraphs containing this JS code:
 
-    var row = $("Repeater.Row Index");
-    row = $("Table Data.Rows")[row];
-    var ret = "";
-    Object.entries(row).forEach(([key, val]) => {
-    ret += "" + key + ":\n";
-    ret += JSON.stringify(val, null, "\t");
-    ret += "\n\n";
-    });
-    return ret;
+{{< highlight javascript "linenos=inline" >}}
+
+var row = $("Repeater.Row Index");
+row = $("Table Data.Rows")[row];
+var ret = "";
+Object.entries(row).forEach(([key, val]) => {
+ret += "" + key + ":\n";
+ret += JSON.stringify(val, null, "\t");
+ret += "\n\n";
+});
+return ret;
+
+{{< /highlight >}}
 
 ## How to add, edit and delete data
 
@@ -317,20 +339,24 @@ Here’s how.
 
 Add a new data provider with the good old execute query. Then on the query bindings use this function:
 
-    var ret = ""
-    
-    if ( $("URL.table") && $("URL.id") != 0 ) {
-    
-    ret = "SELECT * FROM " + $("URL.table") + " 
-    WHERE id=" + $("URL.id");
-    
-    } else {
-    
-    ret = "SELECT 0 as 'id'";
-    
-    }
-    
-    return ret;
+{{< highlight javascript "linenos=inline" >}}
+
+var ret = ""
+
+if ( $("URL.table") && $("URL.id") != 0 ) {
+
+ret = "SELECT * FROM " + $("URL.table") + " 
+WHERE id=" + $("URL.id");
+
+} else {
+
+ret = "SELECT 0 as 'id'";
+
+}
+
+return ret;
+
+{{< /highlight >}}
 
 This function basically says “if the ID isn’t zero, use it in the query, if it’s zero, then return this dummy result of id:0”.
 
@@ -346,11 +372,15 @@ Make sure to add a confirmation message before running this action. After that, 
 
 Next, you can add a headline with this JS code as the text:
 
-    if ( $("URL.id") == 0 ) {
-    return "Add new";
-    } else {
-    return "Edit item";
-    }
+{{< highlight javascript "linenos=inline" >}}
+
+if ( $("URL.id") == 0 ) {
+return "Add new";
+} else {
+return "Edit item";
+}
+
+{{< /highlight >}}
 
 Again, if the ID is zero, it shows add new, otherwise it shows edit.
 
@@ -382,11 +412,15 @@ Use “Hide component” if _{{ Column.Row Index }}_ is zero. Meaning that it’
 
 Then you can add a button in your form to update or add a new item. You can use this JS code for its text:
 
-    if ( $("URL.id") == 0 ) {
-    return "Add new";
-    } else {
-    return "Update";
-    }
+{{< highlight javascript "linenos=inline" >}}
+
+if ( $("URL.id") == 0 ) {
+return "Add new";
+} else {
+return "Update";
+}
+
+{{< /highlight >}}
 
 This button has 3 actions:
 
@@ -420,6 +454,8 @@ This button has 3 actions:
 The JS code itself might seem intimidating, but it is just generating either the insert into query for new rows or the update query for edits.
 
 And a nice finishing touch is to display a message when fields are updated. You can do so with a new container, add your message there and then use the display condition of show component if _{{ State.updated_rows }}_ equals 1.
+
+{{< cta >}}
 
 ## How to build a database GUI with Budibase.
 

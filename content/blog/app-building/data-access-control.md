@@ -90,6 +90,8 @@ You might do this across entire datasets, or at the level of individual entries,
 
 In any case, the goal is to limit the number of entities that can make changes to your data, reserving these permissions to users and processes that strictly need to add or update values.
 
+{{< cta >}}
+
 ## Access control methods
 
 Now that we have a firmer understanding of why data access control matters, we can think more concretely about how it actually works in practice. As ever, this depends on your specific needs, as well as the particular systems you’re using.
@@ -233,6 +235,8 @@ For example, we might want to put additional measures in place to prevent large-
 Alternatively, we could limit this permission to users with a particular IP address, to restrict bulk exports to head office staff.
 
 Or, we could create a dedicated tool for users to take specific actions on our data. For example, we could add an extra layer of security by creating a framework where certain actions can only be taken using a dedicated, locally hosted application.
+
+{{< cta >}}
 
 ## How to create a data access control model
 

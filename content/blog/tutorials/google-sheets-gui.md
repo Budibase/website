@@ -36,6 +36,8 @@ You can use Google Sheets as a dashboard, by using custom styles, charts, and Ap
 
 You can follow the tips from this tutorial to build a dashboard in addition to a Google Sheets GUI.
 
+{{< cta >}}
+
 ## Can Google Sheets be used as a database?
 
 Google Sheets is a great option for a free and simple database. With it, you can add data to your tables and use other apps to access it using the API.
@@ -131,7 +133,7 @@ Instead of using JS code to create our KPIs, we just use the Google Sheets formu
 
 Then, we include the customer email on the messages sheet. This saves you a lot of data processing to get the email based on the client ID. We are doing it with this function:
 
-    =VLOOKUP(B2,contacts!$A$2:$D$5,4,1)
+*=VLOOKUP(B2,contacts!$A$2:$D$5,4,1)*
 
 In addition, since the messages and client IDs are just a list, you can use a formula to generate them (=ROW() ). This saves you a lot of trouble in getting the size of the current sheet, then adding a new row with that number + 1.
 
@@ -213,9 +215,9 @@ Next, add the KPIs container, the data provider loading the KPIs sheet, and the 
 
 Then, each of the cards is showing one of your KPIs. You just need to use the name/value pairs, so the Google Sheets data is loaded:
 
-    Title: {{ New Repeater.kpis.name }}
-    
-    Value: {{ New Repeater.kpis.value }}
+Title: {{ New Repeater.kpis.name }}
+
+Value: {{ New Repeater.kpis.value }}
 
 Next, there’s the contacts table. You can use the data provider with the Google Sheets table “contacts”. Then add a dynamic filter and a table component to load and filter your data.
 
@@ -223,7 +225,7 @@ You can add a “view” link by clicking on the contacts table, then add a comp
 
 Then use this URL:
 
-    /contacts/{{ contacts Table.contacts._id }}
+*/contacts/{{ contacts Table.contacts._id }}*
 
 This URL makes it so that Budibase loads a different link for each row. They all follow the same pattern: /contacts/:ID.
 
@@ -245,7 +247,7 @@ Let’s build the edit form and you can use the same logic for the add new scree
 
 Create a new screen and use this route:
 
-    /contacts/:id
+*/contacts/:id*
 
 This is what allows Budibase to understand that whatever is after contacts/ should be stored in a variable called “ID”. You can access it using {{ URL.id }}.
 
@@ -259,7 +261,7 @@ You can create a form component, and use an update method with the “contacts�
 
 The title container loads a title component loading the contact’s name, like this:
 
-    {{ Repeater.contacts.Name }}
+*{{ Repeater.contacts.Name }}*
 
 Then, create a save button, with these actions:
 
@@ -293,7 +295,7 @@ So you hide the link if {{ messages Table.messages.status }} is closed.
 
 Also, don’t forget to update the messages link to be:
 
-    /messages/{{ messages Table.messages._id }}
+*/messages/{{ messages Table.messages._id }}*
 
 And update the add new button as well.
 
@@ -339,11 +341,11 @@ Create a new automation called “send email” that starts using an App Action:
 
 Add three fields to it, email, subject, and text. Then on the “_do this_” options, select send email, use the “_send to”_ field as the customer email, add the subject, and add the HTML contents as the text using their bindings:
 
-    {{ trigger.fields.email }}
+*{{ trigger.fields.email }}*
 
-    {{ trigger.fields.subject }}
+*{{ trigger.fields.subject }}*
 
-    {{ trigger.fields.text }}
+*{{ trigger.fields.text }}*
 
 Save it and test it. You can add a backup email as BCC, which is hidden from customers. This allows you to make sure that all emails are being sent correctly as you get a copy in your inbox.
 

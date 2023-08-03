@@ -103,6 +103,8 @@ Let’s see how you can create this app.
 
 If you haven’t already, sign up for Budibase. You can create free apps right away.
 
+{{< cta >}}
+
 After you’ve created your app, connect to your MySQL database as a [data source](https://budibase.com/blog/data/data-sources/). Don’t forget to [whitelist the Budibase servers](https://docs.budibase.com/docs/whitelisting) in your MySQL server.
 
 Our demo data has three tables:
@@ -119,12 +121,16 @@ In our example, we are going to implement a procedure to run SQL commands progra
 
 You can create a procedure for that in your MySQL using this code:
 
-    BEGIN
-    SET @q = query;
-    PREPARE stmt FROM @q;
-    EXECUTE stmt;
-    DEALLOCATE PREPARE stmt;
-    END
+{{< highlight php "linenos=inline" >}}
+
+BEGIN
+SET @q = query;
+PREPARE stmt FROM @q;
+EXECUTE stmt;
+DEALLOCATE PREPARE stmt;
+END
+
+{{< /highlight >}}
 
 We create this procedure with the name execute_immediate.
 
@@ -217,14 +223,18 @@ You can implement this with this _onclick_ action on your button:
 
 The table data provider runs the execute query. You are going to use this binding (as JS code) in it:
 
-    var table = $("Select Table.Value.tablename");
-    var columns = $("Select Table.Value.columns");
-    if ( !columns || columns.length === 0 ) {
-    columns = '*';
-    }
-    var ret = "";
-    ret = "SELECT " + columns + " FROM " + table;
-    return ret;
+{{< highlight javascript "linenos=inline" >}}
+
+var table = $("Select Table.Value.tablename");
+var columns = $("Select Table.Value.columns");
+if ( !columns || columns.length === 0 ) {
+columns = '*';
+}
+var ret = "";
+ret = "SELECT " + columns + " FROM " + table;
+return ret;
+
+{{< /highlight >}}
 
 You could use a table to output your query results, and that’s a great way to do with when you have a fixed schema. Since our goal here is to build flexible queries, we need to create our own display for it.
 
@@ -234,15 +244,19 @@ A repeater component outputs any of its child elements once per row of the data 
 
 In the demo screen, the repeater contains a paragraph and a button. The paragraph has some JS code to display all the row contents, like this:
 
-    var row = $("Repeater.Row Index");
-    row = $("Table Data.Rows")[row];
-    var ret = "";
-    Object.entries(row).forEach(([key, val]) => {
-    ret += key + ":\n";
-    ret += JSON.stringify(val, null, "\t");
-    ret += "\n\n";
-    });
-    return ret
+{{< highlight javascript "linenos=inline" >}}
+
+var row = $("Repeater.Row Index");
+row = $("Table Data.Rows")[row];
+var ret = "";
+Object.entries(row).forEach(([key, val]) => {
+ret += key + ":\n";
+ret += JSON.stringify(val, null, "\t");
+ret += "\n\n";
+});
+return ret
+
+{{< /highlight >}}
 
 And the edit button follows the same logic as the add new button. This time you can use this path though:
 
@@ -269,14 +283,19 @@ This is the elements tree for that page:
 
 The first data provider is the _Get Item_. In it, you run the execute query with this JS binding:
 
-    var ret = ""
-    if ( $("URL.table") && $("URL.id") != 0 ) {
-    ret = "SELECT * FROM " + $("URL.table") 
-    + " WHERE id=" + $("URL.id");
-    } else {
-    ret = "SELECT 0 as 'id'";
-    }
-    return ret;
+{{< highlight javascript "linenos=inline" >}}
+
+var ret = ""
+if ( $("URL.table") && $("URL.id") != 0 ) {
+ret = "SELECT * FROM " + $("URL.table")" 
+
+WHERE id=" + $("URL.id");
+} else {
+ret = "SELECT 0 as 'id'";
+}
+return ret;
+
+{{< /highlight >}}
 
 Here you are basically either loading a valid item (if ID > 0) or loading a dummy item (Select 0 as ‘id’). This dummy item is very important. If you don’t add it like this, you will need 2 forms, since this entire component is hidden - given that the main query has no results.
 
@@ -303,11 +322,15 @@ In other words, it deletes the current item, deletes the udpated_rows state, and
 
 The headline relies on the URL.id to define what text to show. You can use this JS code in it:
 
-    if ( $("URL.id") == 0 ) {
-    return "Add new";
-    } else {
-    return "Edit item";
-    }
+{{< highlight javascript "linenos=inline" >}}
+
+if ( $("URL.id") == 0 ) {
+return "Add new";
+} else {
+return "Edit item";
+}
+
+{{< /highlight >}}
 
 Then, the update form has a data provider in it. This data provider loads the table_columns query, using the {{ URL.table }} binding.
 
@@ -328,11 +351,15 @@ If you want you can hide the ID column by using configuring conditions of the te
 
 The entire action of this form is stored on the update button. You can begin by using this JS code in the text field for it:
 
-    if ( $("URL.id") == 0 ) {
-    return "Add new";
-    } else {
-    return "Update";
-    }
+{{< highlight javascript "linenos=inline" >}}
+
+if ( $("URL.id") == 0 ) {
+return "Add new";
+} else {
+return "Update";
+}
+
+{{< /highlight >}}
 
 With this code your button is going to switch between “add new” and “update”, depending on the item ID.
 
@@ -344,29 +371,34 @@ Update state:
 
 Execute query:
 
-* Query name: execute
-* Binding (JS):
+- Query name: execute
 
-    var id = $("URL.id");
-    var ret = "";
-    var table = $("URL.table");
-    var formData = $("Update Form.Value");
-    delete formData.id;
-    if ( id == 0 ) {
-    var keys = Object.getOwnPropertyNames(formData);
-    var values = Object.values(formData);
-    ret = "INSERT INTO " + table +
-    " ( " + keys.join() + ' )
-    VALUES ( "' + values.join('","') + '" )' ;
-    } else {
-    ret = "UPDATE " + table + " SET ";
-    Object.entries(formData).forEach(([key, val]) => {
-    ret += " " + key + "='" + val + "',";
-    });
-    ret = ret.slice(0, -1);
-    ret += " WHERE id=" + id;
-    }
-    return ret;
+Binding (JS):
+
+{{< highlight javascript "linenos=inline" >}}
+
+var id = $("URL.id");
+var ret = "";
+var table = $("URL.table");
+var formData = $("Update Form.Value");
+delete formData.id;
+if ( id == 0 ) {
+var keys = Object.getOwnPropertyNames(formData);
+var values = Object.values(formData);
+ret = "INSERT INTO " + table +
+" ( " + keys.join() + ' )
+VALUES ( "' + values.join('","') + '" )' ;
+} else {
+ret = "UPDATE " + table + " SET ";
+Object.entries(formData).forEach(([key, val]) => {
+ret += " " + key + "='" + val + "',";
+});
+ret = ret.slice(0, -1);
+ret += " WHERE id=" + id;
+}
+return ret;
+
+{{< /highlight >}}
 
 Update State:
 
@@ -406,13 +438,17 @@ With it you can create tables, even if you don’t really know the data structur
 
 That’s because in markup code if you type something like this:
 
-    |First column | Second column |
-    
-    |---|---|
-    
-    |Row one|Row one, second cell|
-    
-    |Last row|Last row, last cell|
+{{< highlight md "linenos=inline" >}}
+
+|First column | Second column |
+
+|---|---|
+
+|Row one|Row one, second cell|
+
+|Last row|Last row, last cell|
+
+{{< /highlight >}}
 
 It turns into a table with a heading (first column, second column), 2 rows with 2 cells in each.
 
@@ -432,52 +468,56 @@ The save query button has an action to save a row to the saved_queries table, us
 
 The markdown viewer runs this JS code in its text:
 
-    //get the table rows
-    var rows = $("Table Data.Rows");
-    
-    //start the table markup syntax
-    var ret = "";
-    
-    //create a variable to store headers
-    var header = "|";
-    
-    //create a variable for the divisor 
-    //between the head and body
-    var div = "|";
-    
-    //loop each row
-    Object.entries(rows).forEach(([row, content]) => {
-    
-    //start a row in markup
-    ret += "|";
-    
-    //loop each row's content as a table cell
-    Object.entries(content).forEach(([key, val]) => {
-    
-    //if it's the first row,
-    //create the header and divisor
-    if ( row == "0" ) {
-    header += key + "|";
-    div += "---|";
-    }
-    
-    //add the cell contents
-    ret += val;
-    // if you might have objects as the value, 
-    //you can use stringify to return them as text
-    
-    // ret += JSON.stringify(val, null, "\t");
-    //end the current cell (or the row on the last item)
-    ret += "|";
-    });
-    
-    //line break to start a new row
-    ret += "\n";
-    });
-    
-    //bring it all together
-    ret = header + "\n" + div + "\n" + ret;
-    return ret;
+{{< highlight javascript "linenos=inline" >}}
+
+//get the table rows
+var rows = $("Table Data.Rows");
+
+//start the table markup syntax
+var ret = "";
+
+//create a variable to store headers
+var header = "|";
+
+//create a variable for the divisor 
+//between the head and body
+var div = "|";
+
+//loop each row
+Object.entries(rows).forEach(([row, content]) => {
+
+//start a row in markup
+ret += "|";
+
+//loop each row's content as a table cell
+Object.entries(content).forEach(([key, val]) => {
+
+//if it's the first row,
+//create the header and divisor
+if ( row == "0" ) {
+header += key + "|";
+div += "---|";
+}
+
+//add the cell contents
+ret += val;
+// if you might have objects as the value, 
+//you can use stringify to return them as text
+
+// ret += JSON.stringify(val, null, "\t");
+//end the current cell (or the row on the last item)
+ret += "|";
+});
+
+//line break to start a new row
+ret += "\n";
+});
+
+//bring it all together
+ret = header + "\n" + div + "\n" + ret;
+return ret;
+
+{{< /highlight >}}
 
 In short, this is what this code does:
 
@@ -493,11 +533,15 @@ If you wanted to add an “edit” column, for example, you would just need to a
 
 The only downside of this approach is that the markup table is not full width out of the box. You can fix this by adding an embed element, then use this code in it:
 
-    <style type="text/css">
-    .markdown-viewer table {
-    width: 100%;
-    }
-    </style>
+{{< highlight css "linenos=inline" >}}
+
+<style type="text/css">
+.markdown-viewer table {
+width: 100%;
+}
+</style>
+
+{{< /highlight >}}
 
 ### Create the query builder screen
 
@@ -531,36 +575,45 @@ If you are using a “select” action, then you use the columns picker, the sam
 
 There’s a paragraph on that page as well to preview the SQL query. For the select action this is the JS code for it:
 
-    var table = $("Build Query.Fields.tablename");
-    var columns = $("Build Query.Fields.columns");
-    if ( ! table ) {
-    table = "posts";
-    }
-    if ( columns.length == 0 ) {
-    columns = "*";
-    }
-    var ret = "";
-    ret = "SQL Query: SELECT " + columns + " 
-    FROM " + table;
-    return ret;
+{{< highlight javascript "linenos=inline" >}}
+
+var table = $("Build Query.Fields.tablename");
+var columns = $("Build Query.Fields.columns");
+if ( ! table ) {
+table = "posts";
+}
+if ( columns.length == 0 ) {
+columns = "*";
+}
+var ret = "";
+ret = "SQL Query: SELECT " + columns + " 
+FROM " + table;
+return ret;
+
+{{< /highlight >}}
 
 Then, you can use something very similar on the “save” button. In it, you can use 2 actions:
 
-* Save app state:
-  * Query_builder
-  * JS code:
+- Save app state: Query_builder
 
-    var table = $("Build Query.Fields.tablename");
-    var columns = $("Build Query.Fields.columns");
-    if ( ! table ) {
-    table = "posts";
-    }
-    if ( columns.length == 0 ) {
-    columns = "*";
-    }
-    var ret = "";
-    ret = "SELECT " + columns + " FROM " + table;
-    return ret;
+- JS code:
+
+{{< highlight javascript "linenos=inline" >}}
+
+var table = $("Build Query.Fields.tablename");
+var columns = $("Build Query.Fields.columns");
+if ( ! table ) {
+table = "posts";
+}
+if ( columns.length == 0 ) {
+columns = "*";
+}
+var ret = "";
+ret = "SELECT " + columns + " FROM " + table;
+return ret;
+
+{{< /highlight >}}
+
 * Navigate to:
   * /custom-query
 
@@ -572,21 +625,27 @@ About the insert form, it allows you to add the form field values. It works just
 
 The save button for the insert action has the same two actions as the button for the select action. The main difference is that the insert button has this JS code:
 
-    var ret = "";
-    var table = $("Build Query.Fields.tablename");
-    var formData = $("InsertFields.Value");
-    delete formData.id;
-    if ( ! table ) {
-    table = "posts";
-    }
-    var keys = Object.getOwnPropertyNames(formData);
-    var values = Object.values(formData);
-    ret = "INSERT INTO " + table + " 
-    ( " + keys.join() + ' ) VALUES 
-    ( "' + values.join('","') + '" )' ;
-    return ret;
+{{< highlight javascript "linenos=inline" >}}
+
+var ret = "";
+var table = $("Build Query.Fields.tablename");
+var formData = $("InsertFields.Value");
+delete formData.id;
+if ( ! table ) {
+table = "posts";
+}
+var keys = Object.getOwnPropertyNames(formData);
+var values = Object.values(formData);
+ret = "INSERT INTO " + table + " 
+( " + keys.join() + ' ) VALUES 
+( "' + values.join('","') + '" )' ;
+return ret;
+
+{{< /highlight >}}
 
 That’s all you need for the query builder. Once it’s saved it generates a query and saves it. Just make sure to use the {{ State.query_builder }} as the default state for the main text field in the custom query page. Thus, where there is a custom query, the text field is pre-populated.
+
+{{< cta >}}
 
 ## Build a MySQL GUI with Budibase
 

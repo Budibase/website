@@ -226,6 +226,8 @@ These are informal opportunities to try out new ideas, and come up with innovati
 
 The benefit of throwaway prototyping here is providing your team with the opportunity to work on their own initiative to develop ideas for how to improve your business.
 
+{{< cta >}}
+
 ## Throwaway prototyping tools
 
 Let’s think about the more practical side of things. It should probably go without saying that the less time and effort you put into your throwaway prototypes, the better ROI you can expect to see.
@@ -308,6 +310,8 @@ The idea behind low-code development is that developers are happier, more produc
 ![Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1665140060/cms/Budibase_nnynto.webp "Budibase")
 
 Budibase is leading the charge.
+
+{{< cta >}}
 
 ## Build apps in minutes, not months with Budibase
 

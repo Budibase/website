@@ -484,6 +484,8 @@ The **Managers** role will allow users to:
 
 Note that these are just the basic queries and actions that different roles can perform. We’ll also need to marry these up with their respective UIs and screens.
 
+{{< cta >}}
+
 ### 4. Technical implementation
 
 Once we have the details of our roles in place, we can start to implement them. Of course, what this looks like in practice will vary greatly depending on what tools you use to build your application and authenticate users.
@@ -722,6 +724,8 @@ We’ve also recently launched the ability to _preview by role_ in our app build
 This allows you to instantly switch between different versions of your app, as displayed to different roles.
 
 Tweak and perfect your RBAC system with role-based previewing in Budibase. Test how workflows operate in practice, optimize each UI, and build the smoothest, most efficient tools possible.
+
+{{< cta >}}
 
 ## Wrapping up on role-based access control
 

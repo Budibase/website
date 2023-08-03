@@ -57,6 +57,8 @@ You can test REST API calls using Budibase.
 
 The first and simplest method is to create a free account, create a new app, then pick a REST API data source.
 
+{{< cta >}}
+
 Next, just import your API specs using this option:
 
 ![REST API GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1665483891/cms/01_xapbbq.webp "REST API GUI")
@@ -105,7 +107,7 @@ You can use the Budibase DB to quickly store metadata about your app. In our dem
 
 Create a new table called rest_queries. Then add columns for URL, JSON Body, and Method.
 
-Next, on the REST API settings let’s add some queries. In our demo app, we are connecting to the [Budibase API](https://docs.budibase.com/docs/public-api). It allows us to manage data about apps and users.
+Next, on the REST API settings let’s add some queries. In our demo app, we are connecting to the Budibase API. It allows us to manage data about apps and users.
 
 Two headers are used in all queries:
 
@@ -132,19 +134,27 @@ This is just a small quality-of-life change so that you know which query you are
 
 Don’t forget to use the JSON body binding on the “Body” tab for the post request. Set the body as raw (JSON) and use this code:
 
-    {
-    {{ Binding.JSON }}
-    }
+{{< highlight javascript "linenos=inline" >}}
+
+{
+{{ Binding.JSON }}
+}
+
+{{< /highlight >}}
 
 Also in this particular API, the return data is inside a “data” variable. You can make your life easier by using this transformer:
 
-    return data["data"]
+{{< highlight javascript "linenos=inline" >}}
+
+return data["data"]
+
+{{< /highlight >}}
 
 With it, you can use the API output directly in your components such as tables and repeaters.
 
 Use the send button to test the call and save it.
 
-The default call is search apps, using the https://budibase.app/api/public/v1/applications/search route.
+The default call is search apps, using the /api/public/v1/applications/search route.
 
 Once this call is working, copy it, and replace _POST_ with _GET_. Remove the JSON binding and the JSON body. You should get something like this:
 
@@ -152,7 +162,7 @@ Once this call is working, copy it, and replace _POST_ with _GET_. Remove the JS
 
 In this case, we are testing it with this route:
 
-https://budibase.app/api/public/v1/applications/\[add_id\]
+budibase.app/api/public/v1/applications/\[add_id]
 
 This is a GET request to load a specific app. Don’t forget to replace \[app_id\] with a valid app id so you can test it out. Save this query.
 
@@ -292,15 +302,19 @@ Then create the cards container to hold the output. You can set it with width: 3
 
 The paragraph component contains this JS code:
 
-    var row = $("New Repeater.Row Index");
-    row = $("Main Query.Rows")[row];
-    var ret = "";
-    Object.entries(row).forEach(([key, val]) => {
-    ret += "" + key + ":\n";
-    ret += JSON.stringify(val, null, "\t");
-    ret += "\n\n";
-    });
-    return ret;
+{{< highlight javascript "linenos=inline" >}}
+
+var row = $("New Repeater.Row Index");
+row = $("Main Query.Rows")[row];
+var ret = "";
+Object.entries(row).forEach(([key, val]) => {
+ret += "" + key + ":\n";
+ret += JSON.stringify(val, null, "\t");
+ret += "\n\n";
+});
+return ret;
+
+{{< /highlight >}}
 
 This function gets the current row index (a number), then loads a variable from the data provider array with the entire row. Next, for each of the row properties, you display the key and a string representation of the value (in case you have elements inside an element).
 
@@ -324,6 +338,8 @@ You just need to update a few items on this page:
 That’s it!
 
 You can follow this method and create other screens if you want. You can have all the REST methods by just copying these base screens.
+
+{{< cta >}}
 
 ## How to build a REST API GUI with Budibase
 

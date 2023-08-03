@@ -5,7 +5,7 @@ description = "Check out our in-depth guide to learn how to integrate multiple d
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1653320833/cms/How_to_Integrate_Multiple_Databases_header_d3qyyj.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1653320833/cms/How_to_Integrate_Multiple_Databases_header_d3qyyj.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Integrate Multiple Databases in a Web App"
+title = "How to Integrate Multiple Databases"
 
 +++
 There are countless situations where you might need to integrate multiple databases. This might be necessary for a particular app project. Providing more centralized and efficient access to information could also be a goal in itself.
@@ -201,6 +201,8 @@ For example, you might have separate platforms with internal databases that stor
 
 Let’s take a look at how you could go about building this in Budibase.
 
+{{< cta >}}
+
 ### 1. Connect your data
 
 The first step is to connect your databases to the Budibase builder. Of course, you might have several data sources, but for simplicity’s sake, we’ll use two in our example. Let’s say we have one MySQL database from our CRM, and one Postgres database from our invoicing tool.
@@ -355,6 +357,8 @@ One option would be to decide which of our tables takes priority when there’s 
 
 Alternatively, we could use update row triggers to automatically update all relevant entries, when a change is made in any of our databases, in much the same way as we did using a trigger from our _combined_customers_table_.
 
+{{< cta >}}
+
 ## How can you ensure data from multiple sources is compatible?
 
 Finally, a note on keeping things consistent when you integrate multiple databases. In all of our examples so far, we’ve been using small datasets, with relatively basic schemas. This won’t always be the case, of course.
@@ -369,4 +373,4 @@ We don’t necessarily want to alter the schema of our existing databases. After
 
 In Budibase, you can create custom queries to perform transformations, or you can use custom JavaScript when binding any value while creating your automations.
 
-Check out our ultimate guide to [web app data sources](/blog/data/data-sources) for more information on transformations, and how they can be used when working with multiple databases.
+Check out our ultimate guide to [data sources](/blog/data/data-sources) for more information on transformations, and how they can be used when working with multiple databases.

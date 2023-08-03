@@ -111,6 +111,8 @@ Our mission is to build the world’s largest suite of open-source business solu
 
 Check out our [pricing page](https://budibase.com/pricing) for more information.
 
+{{< cta >}}
+
 ### 2. Connect or import your data
 
 Once you’ve created your app project, you’ll be prompted to choose a data source. Remember, we have two different options here.
@@ -124,6 +126,8 @@ As you might have guessed, that means we need to select BudibaseDB as our [data 
 We’ll then be prompted to create a table. At the bottom of this modal, we can select _Upload_ to add our CSV files:
 
 ![Upload](https://res.cloudinary.com/daog6scxm/image/upload/v1661173123/cms/Screenshot_2022-08-15_at_10.08.16_otymmc.webp "Upload")
+
+For our tutorial, we're going to upload a simple sales table, with basic information about our customers.
 
 Then, we can choose the data type for each heading and set which one we’d like to use as our _Display Column_:
 

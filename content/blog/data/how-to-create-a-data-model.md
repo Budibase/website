@@ -187,8 +187,6 @@ For example, within a single SQL database, you’ll need to define _primary keys
 
 If your data model contains multiple databases, you’ll need to take additional steps to establish relationships. For example, building an internal database, so you can query and store entities from different sources.
 
-Check out our guide to working with multiple data sources for more information.
-
 ### 7. Physical modeling
 
 Next, it’s time to create a physical data model. This includes the more specific detail of how you’ll structure any internal databases, and how you’ll connect to external data sources.
@@ -206,6 +204,8 @@ With low-code tools and other newer app-building platforms, we can also use dedi
 These are dedicated interfaces for establishing a connection to specific kinds of external data. Rather than manually creating the necessary code, you can simply input the required information in a GUI.
 
 Depending on the tool and data source, you can then manually create the queries you need, or import all available queries provided by the source.
+
+{{< cta >}}
 
 ### 8. Normalization and ensuring the integrity of data
 

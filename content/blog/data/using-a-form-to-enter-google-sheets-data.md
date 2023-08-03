@@ -5,7 +5,7 @@ description = "Budibase is the perfect solution for using a form to enter Google
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1661162349/cms/Using_a_Form_to_Enter_Google_Sheets_Data-2_c9wd4k.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1661162354/cms/Using_a_Form_to_Enter_Google_Sheets_Data-2_gw9fv9.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Using a Form to Enter Google Sheets Data"
+title = "Using a Form to Enter Google Sheets Data - For FREE"
 
 +++
 Obviously, Google Sheets is great for collaboratively managing all sorts of data. There are big downsides here too though, especially if you’re working at scale. One solution is using a form to enter data into Google Sheets.
@@ -63,6 +63,8 @@ We’re going to look at the full details in a second, but the whole process won
 We’ll return to some of the more specific features of Budibase that make it the ideal solution for using a form to enter data to Google Sheets a little later.
 
 For now, though, let’s jump into the practical stuff.
+
+{{< cta >}}
 
 ## Building Google Sheets forms in 7 steps
 
@@ -301,6 +303,8 @@ This may not seem like the top priority when using a form to enter data to Googl
 For example, you might want to introduce extra levels of security, monitoring, or other measures.
 
 Or you might simply have your own infrastructure and want to use it. As the leading [open-source, low-code platform](https://budibase.com/blog/open-source-low-code-platforms/), our goal is to give you the tools you need, whatever your specific use case.
+
+{{< cta >}}
 
 ## The smart option for using a form to enter data to Google Sheets
 

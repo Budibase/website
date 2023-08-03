@@ -1,11 +1,11 @@
 +++
 author = "Ronan McQuillan"
 date = 2023-02-09T00:00:00Z
-description = "Check out our exhaustive guide to IT transformation."
+description = "IT transformation is all about bringing your IT into line with your broader strategic goals. Here's how it works."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1675957882/cms/IT_Transformation_m1ntil.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1675957890/cms/IT_Transformation_cgx4wt.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "IT Transformation | Ultimate Guide"
+title = "What is IT Transformation? + 8 Examples"
 
 +++
 It would be easy to write IT transformation as just another buzz phrase - but it’d be a big mistake too.

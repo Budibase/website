@@ -54,7 +54,7 @@ We can apply this logic to all levels of our business - from simple admin tasks 
 
 ![Process Innovation](https://res.cloudinary.com/daog6scxm/image/upload/v1681719117/cms/Process_Documentation_wxhpli.webp "Process innovation")
 
-([BP Trends](https://www.bptrends.com/bpt/wp-content/uploads/Business_Process_Maturity_in_Polish_Organisations_2016.pdf))
+(BP Trends)
 
 Ultimately, the goal with process innovation is to seek out new ways to do more with less - either finding ways to boost productivity or to enhance efficiency. In both cases, the end result is maximizing profitability.
 
