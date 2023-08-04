@@ -2,7 +2,7 @@
 
 author = "Ronan McQuillan"
 date = "2023-04-28"
-description = "Follow our tutorial to learn how to build a dashboard with multiple data sources."
+description = "Follow our tutorial to learn how to build a dashboard with Budibase."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1682674086/cms/build-a-dashboard/Header_g03d2n.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1682674086/cms/build-a-dashboard/Header_g03d2n.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"

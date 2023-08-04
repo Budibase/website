@@ -5,7 +5,7 @@ description = "Read our step-by-step guide to building a Firebase GUI with Budib
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1669031363/cms/Firebase_GUI_Header_sfyylk.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1669031370/cms/Firebase_GUI_Header_y4a4lo.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Build a Firebase GUI in 4 Steps"
+title = "How to Build a Firebase GUI"
 
 +++
 A Firestore Firebase GUI is the easiest way to interact with your database without coding.
@@ -18,7 +18,7 @@ Firestore Firebase is widely used by developers, but interacting with it can be 
 
 Sometimes you just need to check some fields, let a teammate look up information, or create some demo data.
 
-By default, you need to code an entire app or a debug feature just to do that. It’s complete overkill.
+By default, you need to code an entire app, admin panel, or a debug feature in Firebase Console just to do that. It’s complete overkill.
 
 For this reason, a dedicated GUI is essential in Firebase projects.
 
@@ -46,7 +46,7 @@ If you want to use Firebase and you want to perform these actions, you’ll prob
 
 ## Does Firebase have a GUI?
 
-Firebase doesn’t have a GUI. They provide a web tool to explore data, but you can’t customize it in any way.
+Firebase doesn’t have a GUI. They provide a web tool to explore data in a table view, but you can’t customize it in any way.
 
 For this reason, it’s a good idea to build a Firebase GUI using a low-code tool such as Budibase. This allows you to quickly connect to your Firebase Firestore, manage your data, and can customize your GUI any way you want.
 

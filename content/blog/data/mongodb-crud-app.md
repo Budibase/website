@@ -1,11 +1,11 @@
 +++
 author = "Ronan McQuillan"
 date = 2022-08-22T12:00:00Z
-description = "Learn how to build a MongoDB CRUD app in just a few minutes with Budibase."
+description = "MongoDB CRUD operations work differently to standard SQL queries. Here's how we can use low-code to expedite development."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1660057264/cms/How_to_Build_a_MongoDB_CRUD_App_dmicyi.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1660057282/cms/How_to_Build_a_MongoDB_CRUD_App_jab5l9.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Build a MongoDB CRUD App in 4 Steps"
+title = "How to Build a MongoDB CRUD App with Budibase"
 
 +++
 NoSQL databases such as MongoDB seem intimidating at first. The MongoDB CRUD operations come from a different paradigm, which might be confusing if you are used to SQL databases.
@@ -57,7 +57,7 @@ Then, if you click on the “edit” button, you’ll see the next two CRUD oper
 
 ![Edit and delete queries](https://res.cloudinary.com/daog6scxm/image/upload/v1660058070/cms/02-edit-delete-mongo-db-documents_tnecfl.webp "Edit and delete queries")
 
-And lastly, the “Create” operation. You can do it from the home screen if you click on “Add new”. This screen is just like the edit screen. The only difference is that you won’t have any pre-populated data.
+And lastly, the “Create” operation. You can do it from the home screen if you click on “Add new” to create a folder. This screen is just like the edit screen. The only difference is that you won’t have any pre-populated data.
 
 ![CREATE query in MongoDB](https://res.cloudinary.com/daog6scxm/image/upload/v1660058136/cms/03-create-new-sale_u9laav.webp "Create new query")
 
@@ -121,7 +121,7 @@ You can remove these from your query using this transformer:
 
 This removes all properties except the id, date, location, and customer email.
 
-You can run your query to make sure it works as you wanted. Then save it.
+You can run your query to make sure your MongoDB CRUD app works as you wanted. Then save it.
 
 The insert_sale query looks like this:![Insert sale query](https://res.cloudinary.com/daog6scxm/image/upload/v1660058580/cms/07-insert-sale_nev4q3.webp "Insert sale query")
 
@@ -135,7 +135,7 @@ We are using some bindings there. They allow you to fill in forms and send this 
     "storeLocation": "{{Location}}"
     }
 
-These are the settings we need to tell MongoDB how to store the form data.
+These are the settings we need to tell our MongoDB CRUD app how to store the form data.
 
 Add a new query, and use these settings for the update_sale operation:
 
@@ -275,7 +275,7 @@ And while you are at it, use the bindings to load the current value for the date
 You can repeat this process to load default values for the other fields, using these bindings:
 
     {{ Repeater.get_sales.Customer }}
-
+    
     {{ Repeater.get_sales.Location }}
 
 Feel free to delete the ID field. We are loading the ID from the URL directly, so you don’t need it there.

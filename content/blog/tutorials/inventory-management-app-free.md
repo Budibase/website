@@ -22,7 +22,7 @@ Let’s jump right in.
 
 Our inventory management tool is going to be a one-screen app, but don’t let this fool you. It’s actually going to pack quite a punch. 
 
-In terms of requirements, we basically want to enable our end users to do five things:
+In terms of requirements, we basically want to enable our end users to do five things with our free inventory management software:
 
 1. Browse products based on their category.
 2. Edit product information.
@@ -34,7 +34,7 @@ Under the hood, we’re querying three tables from an existing MySQL database.
 
 Along with Budibase’s native *read* functionality, we’ll also need three custom queries.
 
-But don’t worry if you’re not a SQL whizz - we’ll provide all of the code you need below and show you exactly how to use it.
+But don’t worry if you’re not a SQL whizz - we’ll provide all of the code you need below and show you exactly how to use it to track inventory items in real time.
 
 Without further ado…
 
@@ -42,7 +42,7 @@ Without further ado…
 
 ## How to build a free inventory management app in 7 steps
 
-If you haven’t already, you’ll need to sign up for a Budibase account. Our pricing structure is the most generous in the low-code space, and you can do everything you need to build and deploy a fully-functioning inventory management tool with our free tier.
+If you haven’t already, you’ll need to sign up for a Budibase account. Our pricing structure is the most generous in the low-code space, and you can do everything you need to build and deploy a fully-functioning inventory management tool with our free tier alongside paid plans with annual pricing or monthly fees.
 
 ### 1. Create a new app
 
@@ -52,7 +52,7 @@ We’ll start by hitting *create new app* on the Budibase portal. Then press *st
 
 Then, we’ll be asked to select our data source. Budibase offers a market-leading range of external data connectors, as well as our own built-in database.
 
-We’re going to choose MySQL, but you can go with whatever option matches up with where your inventory data lives.
+We’re going to choose MySQL for tracking items, but you can go with whatever option matches up with where your inventory data lives.
 
 ![Choose a data source](https://res.cloudinary.com/daog6scxm/image/upload/v1687525689/cms/inventory-management-app/Inventory_Management_2_dp8nz6.webp "Choose a data source")
 
@@ -68,13 +68,13 @@ Once we’ve done this, the tables will look like this in the back end:
 
 ![Inventory Management Database](https://res.cloudinary.com/daog6scxm/image/upload/v1687525689/cms/inventory-management-app/Inventory_Management_App_4_llpjir.webp "Inventory Management Database")
 
-Already, we can edit entries without writing queries, using our spreadsheet-like interface.
+Already, we can edit entries without writing queries, using our spreadsheet-like interface behind the scenes of our inventory management system.
 
 However, we’ll need some slightly more advanced logic in our data layer to achieve our desired functionality.
 
 ### 3. Add custom queries
 
-This means adding some custom queries. If you’re not familiar with SQL, basically a query is an instruction to retrieve information from our database in a particular format - perhaps by applying some transformations or filters.
+This means adding some custom queries for order management. If you’re not familiar with SQL, basically a query is an instruction to retrieve information from our database in a particular format - perhaps by applying some transformations or filters.
 
 Remember, our three tables are *products, inventories*, and *reorders*.
 
@@ -83,6 +83,8 @@ We also need three custom queries to:
 1. Return a list of our product categories, without any duplicates.
 2. Return our product information from the *products* table, along with their respective stock levels from the *inventories* table.
 3. Return the total number of items that have been *reordered* for each product entry.
+
+You also can add any other custom queries you might need for generating inventory reports, purchase orders, sales orders, stock alerts, or any other sales and purchases data actions.
 
 From our MySQL configuration page, we’ll start by hitting *add query*:
 
@@ -304,7 +306,7 @@ You can also check out our guide to building a [SQL GUI](https://budibase.com/bl
 
 ## Turn data into action with Budibase
 
-At Budbase, we’re on a mission to help teams turn data into action. Businesses around the world choose our open-source, low-code platform to build all kinds of custom web apps, at pace.
+At Budbase, we’re on a mission to help teams turn data into action. Large and small businesses around the world choose our open-source, low-code platform to build all kinds of custom web apps, at pace.
 
 Here’s what makes Budibase tick.
 
