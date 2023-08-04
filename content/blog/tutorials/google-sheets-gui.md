@@ -22,7 +22,7 @@ That’s where creating a Google Sheets GUI can come in handy.
 
 With a Graphical User Interface (GUI) you can use Google Sheets as a flexible data source. It includes options to manipulate data, collect data from other sites, or even run custom functions with Apps Script.
 
-At the same time, end users interact with your app using your Google Sheets GUI. Thus, you can control data entry, create custom views, add charts and metrics, and create different user levels.
+At the same time, end users interact with your app using your Google Sheets UI. Thus, you can control data entry, create custom views, add charts and metrics, and create different user levels.
 
 This allows you to get the best of both worlds. A flexible [data source](https://budibase.com/blog/data/data-sources/), along with a powerful user-facing app.
 
@@ -54,7 +54,7 @@ You can use the Google Sheets tools and create better designs. You can use optio
 
 But at the end of the day, the best way to make Google Sheets look nice is not to use it for your design.
 
-At the end of the day, it’s your data source, and its design options are quite limited. Today, we are going to explore how you can make your custom design with a Google Sheets GUI.
+At the end of the day, it’s your data source, and its design options are quite limited. Today, we are going to explore how you can make your custom design with a UI for Google Sheets.
 
 Our demo app is a simple CRM. It has two main menu items, and each of them has a few options:
 
@@ -86,7 +86,7 @@ Then, there’s the messages screen:
 
 ![Messages Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1664959023/cms/03_dgggxk.webp "Messages Screen")
 
-The messages screen includes a list of all messages, along with a filter. Notice how some messages have a “reply” button and some don’t.
+The messages screen includes a list of all messages, along with a UI component for filtering. Notice how some messages have a “reply” button and some don’t.
 
 That’s because of the message status. The messages status in your Google Sheets GUI follows this pattern:
 
@@ -113,7 +113,7 @@ If you haven’t already, sign up for Budibase. Then create a new app and select
 
 ![Select a data source](https://res.cloudinary.com/daog6scxm/image/upload/v1664959069/cms/05_vwlqq4.webp "Select a data source")
 
-Next, authorize the app to access your Google Sheets data, add the sheet link and fetch the tables.
+Next, authorize the app to access your Google Cloud data, add the sheet link and fetch the tables.
 
 Our demo app has the contacts sheet:![Google Sheets](https://res.cloudinary.com/daog6scxm/image/upload/v1664959091/cms/06_qqe1ks.webp "Google Sheets")
 
