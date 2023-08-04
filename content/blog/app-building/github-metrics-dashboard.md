@@ -5,7 +5,7 @@ description = "Follow our tutorial to build a custom GitHub metrics dashboard wi
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1655209784/cms/How_to_Build_a_GitHub_Metrics_Dashboard_jt2mkg.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1655209790/cms/How_to_Build_a_GitHub_Metrics_Dashboard_ppba56.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Build a GitHub Metrics Dashboard"
+title = "How to Build a GitHub Metrics Dashboard fo Free"
 
 +++
 Managing a GitHub repository is hard. Your developers are too valuable to waste their time on simple admin tasks, like pulling stats.
@@ -22,13 +22,13 @@ This seems counterintuitive until you realize how simple the process is. It’s 
 
 Today we’ll learn how to build a custom tool with Budibase.
 
-With our leading low-code platform, you can use premade components, connect to external APIs, query databases, visualize data, create automations, and much more.
+With our leading open-source, low-code platform, you can use premade components, connect to external APIs, query databases, visualize data, create automations, and much more.
 
 Let's dive right in.
 
 ## Your GitHub Metrics Dashboard
 
-First, let’s look at what you'll create today:
+First, let’s look at the GitHub metrics tool you’ll create today:
 
 ![GitHub Metrics Dashboard Homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1655209897/cms/3_ehsbzl.webp "GitHub Metrics Dashboard Home Screen")
 
@@ -38,7 +38,7 @@ First, let’s look at what you'll create today:
 
 Why not also check out our tutorial on [how to build a dashboard](https://budibase.com/blog/tutorials/how-to-build-a-dashboard/)?
 
-This sample dashboard showcases many of the different techniques you can use to load almost any metric you want to track. You can create KPIs, tables, charts, filters, automations, and more.
+This sample dashboard showcases many of the different techniques you can use to load almost any metric you want to track - like opened issues, open pull requests, or pull request reviews. You can create KPIs, tables, charts, filters, automations, and more.
 
 Here is a bit of information on how you can use each of these components in your decision-making process.
 
@@ -46,7 +46,7 @@ Here is a bit of information on how you can use each of these components in your
 
 ![Stat Cards](https://res.cloudinary.com/daog6scxm/image/upload/v1655210182/cms/StatCard_pdjrfb.webp "Stat Cards")
 
-This component allows you to load metrics and KPIs for a quick overview. They can come from a direct API call or from other [data sources](https://budibase.com/blog/data/data-sources/), including internal and external database tables. With them, you can highlight the main metrics of your project, and track progress.
+This component allows you to load metrics and KPIs for a quick overview. They can come from a direct API call or from other [data sources](https://budibase.com/blog/data/data-sources/), including internal and external database tables. With them, you can highlight the main metrics of your project, and track progress on your default branch.
 
 ### Charts
 
@@ -396,7 +396,7 @@ labels: labels.map( ({name}) => (name) ).toString()
 
 ## Building a GitHub metrics dashboard in Budibase
 
-Today you’ve learned how to build a GitHub metrics dashboard. In addition, you’ve learned how you can load and process data using Budibase. By the end of the day, you should be able to create your own dashboards, loading custom elements with filtering options, styling, charts, and more.
+Today you’ve learned how to build a GitHub metrics dashboard. In addition, you’ve learned how development teams can load and process data using Budibase. By the end of the day, you should be able to create your own dashboards, loading custom elements with filtering options, styling, charts, and more.
 
 {{< cta >}}
 

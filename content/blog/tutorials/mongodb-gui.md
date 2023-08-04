@@ -18,7 +18,9 @@ And sometimes you just need something simple.
 
 Today we’re going to build a MongoDB GUI without coding. This might sound like a complex task, but you’ll see that you can have a very good tool for free in just 4 steps.
 
-The goal here is to create a tool that allows you to see your data in a table view, but also as cards so you’ll see all your data at once. Also, you can create a MongoDB GUI that allows you to add new data, and delete data.
+The goal here is to create a fully-featured tool that allows you to see your data in a table view, executed SQL queries, and leverage code generation - but also as cards so you’ll see all your data at once as an alternative to the default table view.
+
+Also, you can create a MongoDB GUI tool that allows you to add new data, and delete data.
 
 In the meantime, you also learn how you can use Budibase to do all these tasks. This means that you can build not just a MongoDB GUI, but other GUI or even custom apps.
 
@@ -26,13 +28,13 @@ Let’s get started!
 
 ## Is there a GUI for MongoDB?
 
-There are many GUI options for MongoDB. Options include MongoDB Compass, Robo3T, Studio3T, Moon Modeler, and NoSQL Manager. But you can build your own tool within minutes with a low-code app builder such as Budibase.
+There are many GUI options for MongoDB instances. Options include 3T Software Labs, MongoDB Compass, Robo 3T, Studio 3T, Moon Modeler, command line tools, and NoSQL Manager. But you can build your own tool within minutes with a low-code app builder such as Budibase.
 
 This allows you to create a GUI that does exactly what you want, for free. So you don’t need to install any software and you can use it on any devices you want, even mobiles.
 
 ## What is a MongoDB GUI?
 
-A MongoDB GUI allows you to interact with your MongoDB databases, collections, and documents visually. This means that you can search, add, edit and delete data even if you don’t know the commands to do so.
+A MongoDB GUI allows you to interact with your MongoDB databases, collections, and documents with a visual query builder. This means that you can search, add, edit and delete data even if you don’t know the commands to do so.
 
 Here is what your free MongoDB GUI app will look like if you follow this tutorial:
 
@@ -152,7 +154,7 @@ And these are the fields:
 
 The _delete_sale_ query searches for an element and then deletes it. Make sure to use the _delete_one_ action for it. Here is the setup:![Custom MongoDB Query](https://res.cloudinary.com/daog6scxm/image/upload/v1664189826/cms/11_c7iisc.webp "Custom MongoDB Query")
 
-That’s all you need in terms of queries. Now, let’s turn to our [app UI design](https://budibase.com/blog/app-building/app-ui-design/).
+Budibase offers syntax highlighting to make this easier. That’s all you need in terms of queries. Now, let’s turn to our [app UI design](https://budibase.com/blog/app-building/app-ui-design/) .
 
 ## 2. Home screen
 
@@ -162,7 +164,7 @@ Next, click on “_screens_” and “_add screen_”:
 
 ![MongoDB GUI add screen](https://res.cloudinary.com/daog6scxm/image/upload/v1664189799/cms/12_o0uof8.webp "MongoDB GUI add screen")
 
-Let’s create a blank screen for now.
+Let’s create a blank screen for now. We can use Budibase's drag and drop to add components.
 
 The home screen is quite simple in terms of how it loads data. These are its components and their hierarchy:
 

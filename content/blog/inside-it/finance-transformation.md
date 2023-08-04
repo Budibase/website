@@ -2,11 +2,11 @@
 
 author = "Ronan McQuillan"
 date = 2023-04-17
-description = "Finance transformation is a huge opportunity to improve outcomes and create efficiency savings."
+description = "Finance transformation means using digital technology to improve your financial processes."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1681719396/cms/Finance_Transformation_rrwog0.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1681719396/cms/Finance_Transformation_rrwog0.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "What is Finance Process Transformation? In-Depth Guide"
+title = "What is Finance Process Transformation?"
 
 +++
 

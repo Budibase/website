@@ -14,11 +14,11 @@ Databases are incredible tools for businesses. They allow you to store and proce
 
 You have two options to load data from databases. You can use code, via a command line or a programming language. So, you type in the commands in a terminal or send your code to a server and you get the results.
 
-Or you can use a Graphical User Interface (GUI) to visually interact with your database. With a GUI you interact with your database using screens, buttons, and visual elements to see what is happening.
+Or you can use a Graphical User Interface (GUI) to visually interact with your database objects. With a GUI you interact with your database using screens, buttons, and visual elements to see what is happening.
 
 Thus, a GUI allows you to access your database, even if you aren’t a coder. If you are a coder, it is still a great option to run simple tasks. You can always run your queries manually in case you need them either way.
 
-It is quite tricky to pick the right tool, though. There are many factors to consider, including licensing price, features, online access, number of users, ease of use, and many more.
+It is quite tricky to pick the right tool for managing SQL queries, though. There are many factors to consider, including licensing price, features, online access, number of users, ease of use, and many more.
 
 But there's a simple solution.
 
@@ -38,11 +38,11 @@ Let's get started!
 
 ## Is there a GUI for Postgres?
 
-Postgres is a database system. It is a tool to store and process data.
+Postgres is an open-source database system. It is a tool to store and process data.
 
 Thus, it doesn't have an official GUI.
 
-But there are many Postgres GUI options available. In addition, you can build your own GUI in just three steps.
+But there are many Postgres GUI options available. In addition, you can build your own GUI for database administration in just three steps.
 
 Let’s see what you can build in the next section.
 
@@ -58,11 +58,11 @@ Building an app with code can take a lot of time and it can be very expensive. B
 
 Let's see what we consider the best PostgreSQL client if you just want to get started.
 
-The demo app is connected to a PostgreSQL database for a blog.
+The demo app is connected to a PostgreSQL database for a blog. You could alternatively connect to multiple databases - including SQL Server, MySQL, Oracle, and more.
 
 There are two tables, one for posts and one for settings.
 
-The first screen you see when you load up the app is the posts table:
+The first screen you see when you load up the web application is the posts table:
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1664960800/cms/01_johjiy.webp "Postgres GUI")
 
@@ -76,7 +76,7 @@ Next, you can see the table data. You can click on the "view" button or the add 
 
 ![Edit Row](https://res.cloudinary.com/daog6scxm/image/upload/v1664960839/cms/03_ahdv2k.webp "Edit Row")
 
-This is just a form with fields coming from the table. But you can spice it up in any way you want to. You can include reference data, API calls, data from other tables, and even actions to send emails.
+This is just a form with fields coming from the table. But you can spice it up in any way you want to. You can include reference data, API calls, data from other tables, and even actions to send emails alongside cross-team collaboration and connection to multiple data sources.
 
 The settings screen is very similar, but it uses different elements:
 
@@ -106,7 +106,7 @@ While still with the PostgreSQL data source selected, click on add query and use
 
 ![Postgres query](https://res.cloudinary.com/daog6scxm/image/upload/v1664961049/cms/06_qhx4zb.webp "Postgres query")
 
-Just replace the username in this query with your own username. Run it and save it.
+Just replace the username in this query with your own username in the SQL editor. Our syntax highlighting makes this easy. Run it and save it.
 
 Next, let's follow the mandatory step in any app design and use a dark theme.
 

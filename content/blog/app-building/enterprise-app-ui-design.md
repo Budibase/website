@@ -5,7 +5,7 @@ description = "Today, we’re diving deep into enterprise app UI design. Read ou
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1656427013/cms/Enterprise_App_UI_Design_Header_jeprgx.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1656427021/cms/Enterprise_App_UI_Design_Header_ro1mhj.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Enterprise App UI Design | In-Depth Guide & 6 Tips"
+title = "Enterprise App UI Design | In-Depth Guide"
 
 +++
 In enterprise environments, productivity and efficiency are everything. When you have thousands of users, even the most minor process improvements can hugely impact revenues. Of course, there are countless different ways you can streamline processes.
@@ -26,7 +26,7 @@ The goal is to design interfaces that empower users to be as productive, cost-ef
 
 The more embedded a given UI is in your employees’ work, the more impact this has.
 
-But obviously, this is true for any application. Let’s think about why it’s particularly important in an enterprise environment.
+But obviously, this is true for any application. Let’s think about why it’s particularly important in the context of design for enterprise UX.
 
 ![Enterprise UX Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1656427407/cms/Enterprise_UX_Stats_uat4y7.png "Enterprise UX Stats")
 
@@ -44,13 +44,13 @@ There are a couple of additional layers to this too, including:
 
 Another key distinction is that enterprises typically have much larger, more complex software stacks. That is, a greater number of tools are by used different employees across the organization.
 
-This means that there’s a greater need to unify user experiences across different platforms.
+This means that there’s a greater need for UX designers to unify user experiences across different platforms.
 
 That is, users should have a broadly similar experience across different tools, wherever possible. The idea here is to make working across different platforms as smooth as possible for users.
 
 For instance, using global designs and app themes.
 
-It’s also worth noting that the UX priorities in enterprise design are a little bit different. Enterprise users are sometimes referred to as a _captive audience._ This means that there’s less need to focus on aesthetics, or projecting a certain image of your brand.
+It’s also worth noting that the UX priorities in enterprise UI design are a little bit different. Enterprise users are sometimes referred to as a *captive audience.* This means that there’s less need to focus on aesthetics, or projecting a certain image of your brand.
 
 Rather, design is purely functional. The goal is efficiency and effectiveness over anything else.
 
@@ -144,7 +144,7 @@ Let’s take a look.
 
 ### Vetting, sign-off, and approval
 
-We couldn’t talk about enterprise design without touching on this. Getting new tools signed off for widespread use in an enterprise environment is normally a drawn-out, difficult process, involving a range of complex vetting rules.
+We couldn’t talk about enterprise design systems without touching on this. Getting new tools signed off for widespread use in an enterprise environment is normally a drawn-out, difficult process, involving a range of complex vetting rules.
 
 This can comprise technical, privacy, support, compliance, and future-proofing concerns.
 
@@ -206,11 +206,11 @@ For example, in an internal tool, we wouldn’t need to consider how we encourag
 
 Thankfully, a large part of the battle here is creating intuitive, easy-to-use UIs in the first place. Besides this, we can rely on the core principles of effective UI design to ensure maximum CRO.
 
-Check out our ultimate guide to app UI design to find out more.
+Check out our ultimate guide to [app UI design](https://budibase.com/blog/app-building/app-ui-design/) to find out more.
 
 ### B2B UIs
 
-Finally, we have B2B applications. More specifically, we have tools that are used by existing clients, vendors, partners, or other external stakeholders. As such, our design priorities are somewhere between those of internal and B2C tools.
+Finally, we have B2B enterprise application UIs. More specifically, we have tools that are used by existing clients, vendors, partners, or other external stakeholders. As such, our design priorities are somewhere between those of internal and B2C tools.
 
 For example, if you were building a self-service portal for vendors, you’d still want to create an attractive, fluid user experience, to minimize the labor needed for partners to provide services.
 

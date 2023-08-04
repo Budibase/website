@@ -1,11 +1,11 @@
 +++
 author = "Ronan McQuillan"
 date = 2022-08-22T12:00:00Z
-description = "Learn how to build a MongoDB CRUD app in just a few minutes with Budibase."
+description = "MongoDB CRUD operations work differently to standard SQL queries. Here's how we can use low-code to expedite development."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1660057264/cms/How_to_Build_a_MongoDB_CRUD_App_dmicyi.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1660057282/cms/How_to_Build_a_MongoDB_CRUD_App_jab5l9.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Build a MongoDB CRUD App in 4 Steps"
+title = "How to Build a MongoDB CRUD App with Budibase"
 
 +++
 NoSQL databases such as MongoDB seem intimidating at first. The MongoDB CRUD operations come from a different paradigm, which might be confusing if you are used to SQL databases.
@@ -57,7 +57,7 @@ Then, if you click on the “edit” button, you’ll see the next two CRUD oper
 
 ![Edit and delete queries](https://res.cloudinary.com/daog6scxm/image/upload/v1660058070/cms/02-edit-delete-mongo-db-documents_tnecfl.webp "Edit and delete queries")
 
-And lastly, the “Create” operation. You can do it from the home screen if you click on “Add new”. This screen is just like the edit screen. The only difference is that you won’t have any pre-populated data.
+And lastly, the “Create” operation. You can do it from the home screen if you click on “Add new” to create a folder. This screen is just like the edit screen. The only difference is that you won’t have any pre-populated data.
 
 ![CREATE query in MongoDB](https://res.cloudinary.com/daog6scxm/image/upload/v1660058136/cms/03-create-new-sale_u9laav.webp "Create new query")
 
@@ -111,31 +111,39 @@ Our sample data includes some properties that we won’t use. It’s likely that
 
 You can remove these from your query using this transformer:
 
-    return data.map( (
-    { _id, saleDate, storeLocation, customer }
-    ) 
-    => ({ "ID": _id, 
-    "Date": saleDate, 
-    "Location": storeLocation, 
-    "Customer": customer.email }) )
+{{< highlight javascript "linenos=inline" >}}
+
+return data.map( (
+{ _id, saleDate, storeLocation, customer }
+) 
+=> ({ "ID": _id, 
+"Date": saleDate, 
+"Location": storeLocation, 
+"Customer": customer.email }) )
+
+{{< /highlight >}}
 
 This removes all properties except the id, date, location, and customer email.
 
-You can run your query to make sure it works as you wanted. Then save it.
+You can run your query to make sure your MongoDB CRUD app works as you wanted. Then save it.
 
 The insert_sale query looks like this:![Insert sale query](https://res.cloudinary.com/daog6scxm/image/upload/v1660058580/cms/07-insert-sale_nev4q3.webp "Insert sale query")
 
 We are using some bindings there. They allow you to fill in forms and send this data to your DB. In the fields option, use this:
 
-    {
-    "saleDate": "{{Date}}",
-    "customer": {
-    "email": "{{Customer}}"
-    },
-    "storeLocation": "{{Location}}"
-    }
+{{< highlight javascript "linenos=inline" >}}
 
-These are the settings we need to tell MongoDB how to store the form data.
+{
+"saleDate": "{{Date}}",
+"customer": {
+"email": "{{Customer}}"
+},
+"storeLocation": "{{Location}}"
+}
+
+{{< /highlight >}}
+
+These are the settings we need to tell our MongoDB CRUD app how to store the form data.
 
 Add a new query, and use these settings for the update_sale operation:
 
@@ -145,16 +153,20 @@ Notice how this one is similar to the insert query.
 
 The only difference is that we need to get the id, so we know which item to update. And these are the fields to do it:
 
-    {
-    "_id": "ObjectID('{{ID}}')"
-    },
-    {
-    "$set": {
-    "saleDate": "{{Date}}",
-    "customer.email": "{{Customer}}",
-    "storeLocation": "{{Location}}"
-    }
-    }
+{{< highlight javascript "linenos=inline" >}}
+
+{
+"_id": "ObjectID('{{ID}}')"
+},
+{
+"$set": {
+"saleDate": "{{Date}}",
+"customer.email": "{{Customer}}",
+"storeLocation": "{{Location}}"
+}
+}
+
+{{< /highlight >}}
 
 The first portion is the “search” part. The second part is the _update_ instruction.
 
@@ -174,9 +186,13 @@ You can set up your query like this:
 
 Make sure to include your fields to define which items you want to delete:
 
-    {
-    "_id": "ObjectID('{{ID}}')"
-    }
+{{< highlight javascript "linenos=inline" >}}
+
+{
+"_id": "ObjectID('{{ID}}')"
+}
+
+{{< /highlight >}}
 
 Now run it, and save the query.
 
@@ -216,7 +232,11 @@ Lastly, add the “edit” button to each of your rows. You can do this by click
 
 Set the “_onclick_” action to _navigate to URL_. The path is this binding:
 
-    /home/{{ Sales.get_sales.ID }}
+{{< highlight javascript "linenos=inline" >}}
+
+/home/{{ Sales.get_sales.ID }}
+
+{{< /highlight >}}
 
 Here you are saying to Budibase “use the ‘Sales’ table and the ‘get_sales.ID’ value”. This means that, if the row id is “abc100”, the target URL is “/home/abc100”.
 
@@ -256,7 +276,11 @@ Then you need an iterator. In the previous screen, you used a table, which is ju
 
 Inside the repeater, we have a title to show users what is happening. In it, you can load the sale ID with this binding:
 
-    Edit Sale {{ Repeater.get_sales.ID }}
+{{< highlight javascript "linenos=inline" >}}
+
+Edit Sale {{ Repeater.get_sales.ID }}
+
+{{< /highlight >}}
 
 Next, there is a form, which is required to manipulate the form fields. You can use the “Update’ type and update_sale as the schema.
 
@@ -270,13 +294,21 @@ If you want the date to be a date picker you can delete the default element and 
 
 And while you are at it, use the bindings to load the current value for the date:
 
-    {{ Repeater.get_sales.Date }}
+{{< highlight javascript "linenos=inline" >}}
+
+{{ Repeater.get_sales.Date }}
+
+{{< /highlight >}}
 
 You can repeat this process to load default values for the other fields, using these bindings:
 
-    {{ Repeater.get_sales.Customer }}
+{{< highlight javascript "linenos=inline" >}}
 
-    {{ Repeater.get_sales.Location }}
+{{ Repeater.get_sales.Customer }}
+
+{{ Repeater.get_sales.Location }}
+
+{{< /highlight >}}
 
 Feel free to delete the ID field. We are loading the ID from the URL directly, so you don’t need it there.
 
