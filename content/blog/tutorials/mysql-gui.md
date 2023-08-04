@@ -14,7 +14,7 @@ A GUI (Graphical User Interface) allows you to interact with your database with 
 
 Naturally, this is crucial if you want your non-technical team to manage data.
 
-It can be hard to pick the right MySQL GUI though.
+It can be hard to pick the right MySQL GUI tool though.
 
 There are many options to choose from - many price ranges, features, and operating systems. However, it’s not hard to build a free tool that can do anything you want, and work on any devices you want to, including mobiles.
 
@@ -22,15 +22,16 @@ You can build your own MySQL GUI in just 5 steps.
 
 The craziest part is that if you just need a simple CRUD tool, you can do it in just 2 steps, as we’ll see in a few minutes.
 
-Therefore, today we are going to explore how you can build a free MySQL GUI using Budibase. You are going to learn how to:
+Therefore, today we are going to explore how you can build a free MySQL web interface using Budibase. You are going to learn how to:
 
-* Create an app and connect to a database.
+* Create an app and connect to a database server.
 * Auto-generate CRUD screens.
-* Dynamically load all tables in your database.
-* Dynamically load all columns from a table.
-* Create flexible forms that can edit and insert data into any table.
+* Dynamically load all tables in your database to import and export data.
+* Dynamically load all columns from a database table.
+* Create flexible forms that can edit and insert data into any table or database schema.
 * Create flexible tables to display data from any query.
 * Create multi-step forms for a query builder, to generate custom queries based on user inputs.
+* Deploy a fully working management tool with custom database connections.
 
 Let’s get started!
 
@@ -50,7 +51,7 @@ The right MySQL GUI depends on your use case and requirements. You can build you
 * DataGrip
 * DBeaver
 * DBEdit
-* dbForge
+* dbForge Studio for MySQL
 * DronaHQ
 * HeidiSQL
 * LibreOffice Base
@@ -62,6 +63,8 @@ The right MySQL GUI depends on your use case and requirements. You can build you
 * SQLyog
 * Toad Edge for MySQL
 * Webmin
+
+It's important to research which features you need from specific tools - for instance, cross-platform integrations or auto completion. Often, custom builds are the most cost-effective option to meet bespoke requirements.
 
 You might also like our guide to building a [Postgres GUI](/blog/tutorials/postgres-gui).
 
@@ -119,7 +122,7 @@ For example, if you have a store, you can create a custom function that automati
 
 In our example, we are going to implement a procedure to run SQL commands programmatically. With it, we can pass table names as variables and we can run flexible queries for the custom queries page.
 
-You can create a procedure for that in your MySQL using this code:
+You can use SQL statements to create a procedure for that in your MySQL using this code:
 
 {{< highlight php "linenos=inline" >}}
 
@@ -132,7 +135,7 @@ END
 
 {{< /highlight >}}
 
-We create this procedure with the name execute_immediate.
+We create this procedure with the name execute_immediate. Budibase offers a dedicated SQL editor with syntax highlighting as a key feature of our query builder.
 
 Then in the data tab for Budibase, you can create these queries:
 

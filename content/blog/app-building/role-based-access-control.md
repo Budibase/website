@@ -144,7 +144,7 @@ Let’s take a look at some of the more specific high-level benefits of implemen
 
 #### Efficiency
 
-The most obvious benefit of RBAC is that it offers exceptional operational efficiency. All roles can be defined to match your existing organizational structure. This streamlines processes at two key levels.
+The most obvious benefit of the RBAC model is that it offers exceptional operational efficiency. All roles can be defined to match your existing organizational structure. This streamlines processes at two key levels.
 
 Firstly, since users’ permissions are based on the needs of their jobs, any systems and workflows based around this will inherently offer more efficient user experiences. That is, users will be limited to the actions they actually need to perform.
 
@@ -162,7 +162,7 @@ This means that RBAC is naturally consistent with key data protection principles
 
 #### Visibility
 
-Role-based systems also offer a high degree of visibility and easy auditing. Since there are a limited number of defined roles, it’s easy to quickly check which users can access different elements of your application.
+Role-based systems also offer a high degree of visibility and easy auditing. Since there are a limited number of defined RBAC roles, it’s easy to quickly check which users can access different elements of your application.
 
 This also allows you to audit the suitability and effectiveness of your access control, at the level of roles, rather than on an individual user basis. That way, it’s easier to identify and correct issues.
 
@@ -599,7 +599,7 @@ In an enterprise setting, things are can be much more predictable, as the organi
 
 ### Document everything
 
-Documentation is key. Having a clear paper trail of all of your decisions is helpful when it comes to maintaining and administering role-based access control. This includes your initial system, as well as any changes you make over time.
+Documentation is key. Having a clear paper trail of all of your decisions is helpful when it comes to maintaining and administering role-based access control design. This includes your initial system, as well as any changes you make over time.
 
 So what specifically do you need to document?
 
@@ -685,7 +685,7 @@ This allows you to minimize the number of components and conditional elements yo
 
 Within screens, we can also use conditionality rules to tailor our UIs for different access roles. Again, we can build conditions to create permissions for any role, and users with higher access will inherit these.
 
-More specifically, we can use conditionality rules to hide, display, or update core settings on any UI component.
+More specifically, we can use conditionality rules to hide, display, or update core settings on any UI component for front-end RBAC design.
 
 We can do this either to implement a permission, or to streamline experiences for users that don’t have an existing one. An example of the latter would be hiding navigational elements that point to a restricted screen.
 
@@ -693,7 +693,7 @@ Or, say we wanted to restrict the ability to edit certain attributes to our powe
 
 We’d then apply conditionality rules to any restricted attributes so that they’re only displayed to users with the appropriate role assigned to them.
 
-Using conditionality rules to update component settings can also help us to implement different permissions. Earlier we used the example of an invoice submission tool, where most employees can only view their own submissions, but managers can view all invoices.
+Using conditionality rules to update component settings can also help us to implement different permissions as RBAC UIs. Earlier we used the example of an invoice submission tool, where most employees can only view their own submissions, but managers can view all invoices.
 
 We could achieve this with a single table UI.
 
@@ -701,7 +701,9 @@ With Budibase, you can create a conditionality rule so that the table is filtere
 
 ### Custom queries
 
-Budibase also allows you to set permissions at the level of queries. This is particularly useful when working with external data sources, but we can also assign permissions for internal tables in BudibaseDB.
+Budibase also allows you to set permissions at the level of queries. This is particularly useful when working with external database schemas and sources, but we can also assign permissions for internal tables in BudibaseDB.
+
+That way, you can fully mimic your existing role-based access control database design.
 
 Under the data section, each table your app access has the option to _manage access_. Here, we can set the minimum role needed to _read_ or _write_ data on individual tables.
 
@@ -716,6 +718,8 @@ We could configure the first query as follows, selecting _basic_ as the access l
 ![Query RBAC](https://res.cloudinary.com/daog6scxm/image/upload/v1653383594/cms/Query_RBAC_z1kgct.png "Query RBAC")
 
 We’d then create a similar query without the WHERE clause, and assign this to the _power_ access level.
+
+Alternatively, we can rely on existing rules using an external RBAC database design.
 
 ### Role-based app previews
 

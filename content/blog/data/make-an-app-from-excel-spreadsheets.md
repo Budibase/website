@@ -18,7 +18,7 @@ At Budibase, we’re on a mission to revolutionize the way businesses build tool
 
 ## Why would I want to make an app from an Excel spreadsheet?
 
-Without getting too philosophical - lots of reasons.
+Why move from Excel to apps? Without getting too philosophical - lots of reasons.
 
 The core question here is _where do spreadsheets fall short?_
 
@@ -53,21 +53,21 @@ Check out our ultimate guide on [spreadsheets vs databases](/blog/data/spreadshe
 
 Of course, given that you’re here, you probably already know all this.
 
-So what can you do about it?
+So what can you do to turn Excel into apps?
 
 ## How to turn Excel spreadsheets into apps with Budibase
 
-With Budibase, building custom web applications couldn’t be easier. There are actually two different ways that you can go about turning your spreadsheets into applications with our low-code development platform.
+With Budibase, building custom business apps and web applications couldn’t be easier. There are actually two different ways that you can go about turning your spreadsheets into applications with our low-code development platform.
 
 At least, you can get started in a couple of different ways, depending on whether you want to replace your spreadsheets or build extra tools to help make them more effective. After this, you’ll enjoy the same fast, flexible, low-code app-building experience.
 
-Let’s take a look at your options for beginning to convert a spreadsheet to an app in Budibase.
+Let’s take a look at your options for beginning to move from Microsoft Excel to applications in Budibase.
 
 ### Option 1 - Importing CSVs
 
 First up, you can use BudibaseDB to turn your spreadsheets into a fully-fledged database. Our built-in database tool offers full support for CSV uploads. So, you can import individual Excel sheets and transform them into database tables, more or less instantaneously.
 
-This means you’ll first need to export each sheet as a CSV file. That is, assuming your spreadsheet has more than one sheet.
+This means you’ll first need to export each sheet as a comma-separated Excel file. That is, assuming your spreadsheet has more than one sheet.
 
 Once you’ve built a new app, you can simply select BudibaseDB as the data source, and upload your first file. Then, you can add more tables and upload more files, if you need to.
 
@@ -81,7 +81,7 @@ If you need to continue using your spreadsheet software as well as your new app 
 
 Budibase offers a dedicated data connector for Google Sheets. Nowadays, there’s a fair chance you’re using Google’s Excel alternative anyway.
 
-All you need to do is sign in to your Google account, and paste your spreadsheet’s URL into our connector UI. Budibase will then pull in your existing Google Sheets data, in real-time. Any update made in one platform will be reflected in the other.
+All you need to do is sign in to your Google account, and paste your spreadsheet’s URL into our connector UI. Budibase will then pull in your existing Google Sheets data, in real-time. Once you publish your app, any update made in one platform will be reflected in the other.
 
 This is critical if you want to build an app for certain functions but carry on using your spreadsheet tool for others. For example, if you wanted a dedicated tool for data entry, but you still wanted to analyze results in a spreadsheet.
 
@@ -163,7 +163,7 @@ We can also set broad access controls at this point, under the _Manage Access_ b
 
 ### 4. Build your interfaces
 
-With our data layer configured, we can start building our app interfaces. Now, of course, there’s a lot of potential for variation here. At least, the types of UIs you build will obviously depend on what you want to achieve.
+With our data layer configured, we can start to customize your app interface. Now, of course, there’s a lot of potential for variation here. At least, the types of UIs you build will obviously depend on what you want to achieve.
 
 For replacing Excel spreadsheets, though, we can think in terms of a couple of broad categories. These include:
 

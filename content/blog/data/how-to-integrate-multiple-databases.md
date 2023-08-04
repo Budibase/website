@@ -140,6 +140,8 @@ The key here is effectively transforming existing data to meet your new database
 
 Duplicate values and discrepancies between databases are another major pain point during integration. Here, duplication means the same value is stored twice. Discrepancies occur when the same attribute is stored twice for a given object, but with different values.
 
+This is particularly challenging in big data applications.
+
 Say you were integrating two databases, which each stored values for your customers’ phone numbers. Duplication would occur if you retained this attribute on different tables within your multiple databases.
 
 A discrepancy would be if you had different phone numbers stored for the same customer. This can be at the level of the value itself, or how it is formatted.
@@ -180,9 +182,9 @@ Besides this, there’s the impact that a large-scale integration project can ha
 
 For example, semantics issues can arise, when attributes’ names change, but automated queries aren’t updated to reflect this.
 
-## How to integrate data from different sources within a web app
+## How to integrate multiple databases with a single application
 
-As noted earlier, there are alternatives to wholesale consolidation. These involve querying multiple data sources from a single tool, achieving many of the benefits of integration, without the need to migrate data.
+As noted earlier, there are alternatives to wholesale consolidation. These involve querying multiple databases for one application achieving many of the benefits of integration, without the need to migrate data.
 
 This is an effective way to create a single, accessible source of truth across different datasets. We can also use simple web apps to improve efficiency and ease the admin burdens of managing multiple databases, through defined workflows.
 
@@ -205,11 +207,11 @@ Let’s take a look at how you could go about building this in Budibase.
 
 ### 1. Connect your data
 
-The first step is to connect your databases to the Budibase builder. Of course, you might have several data sources, but for simplicity’s sake, we’ll use two in our example. Let’s say we have one MySQL database from our CRM, and one Postgres database from our invoicing tool.
+The first step is loading your data in the Budibase builder. Of course, you might have several data sources, but for simplicity’s sake, we’ll use two in our example. Let’s say we have one MySQL database from our CRM, and one Postgres database from our invoicing tool.
 
 Each has multiple tables, including one for customer details. These common tables store a range of different attributes, but each database contains fields for each customer’s contact details.
 
-We want to build a tool where internal users and customers themselves can update their contact details in both databases, with a single interface.
+We want to build a tool where internal users and customers themselves can update their contact details in both databases, in real time with a single interface.
 
 Budibase offers a range of intuitive connectors for external data. In the builder, head over to the _Data_ tab, and select the plus icon to add a new source:
 
@@ -223,7 +225,7 @@ Then, we can do the same for our CRM’s MySQL database:
 
 ![Connect MySQL](https://res.cloudinary.com/daog6scxm/image/upload/v1653322748/cms/Screenshot_2022-05-06_at_10.43.30_kdzaeh.png "Connect MySQL")
 
-When we save each of these and fetch the tables, we’ll have full connectivity to perform CRUD queries on both databases.
+When we save each of these and fetch the tables, we’ll have full connectivity to perform CRUD queries on both databases from one web application.
 
 Each database has two tables. Our CRM stores entities for customers and users:
 
