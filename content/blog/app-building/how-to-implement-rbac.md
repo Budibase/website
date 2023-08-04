@@ -10,11 +10,11 @@ title = "How to Implement RBAC in 8 Steps"
 +++
 Knowing how to implement RBAC is a crucial skill for building modern web applications. With an ever-increasing need to maximize security, efficiency, and usability, RBAC is an essential tool for successful app projects.
 
-In short, RBAC, or _role-based access control_, is a framework built around defined roles, each with associate permissions. Users are then assigned to one of these roles, to determine which actions they can take within your app.
+In short, *role-based access control* (RBAC), is a framework built around defined roles, each with associate permissions. Users are then assigned to one of these roles, to determine which actions they can take within your app.
 
 For a more in-depth explanation, check out our [ultimate guide to role-based access control](https://budibase.com/blog/app-building/role-based-access-control/). 
 
-Today though, we’re looking at the specifics of how you can put this into practice in your next app project.
+Today though, we’re looking at the specifics of how you can put this into practice in your next app project to achieve the benefits of RBAC and protect your sensitive data.
 
 Here’s how to implement RBAC for web apps in 8 steps.
 
@@ -66,7 +66,7 @@ That is, an employee’s job title doesn’t really reflect the data they need t
 
 This could be as simple as defining two separate roles for device management teams and all other employees.
 
-Once you’ve outlined your roles in the abstract, you can define the exact permissions that each needs.
+Once you’ve outlined your basic user roles in the abstract, you can define the exact permissions that each needs.
 
 As a starting point, you can return to the resources you identified earlier, and decide whether each role will need _read, create, update,_ or _delete_ permissions, or none of these.
 
@@ -82,7 +82,7 @@ We’ll look at how you can achieve this a little later.
 
 ## 3. Query-level implementation
 
-Now it’s time to think about putting our roles and permissions into practice. Specifically, we’re going to look at how to implement RBAC within an application at three separate levels:
+Now it’s time to think about implementing role-based access control. Specifically, we’re going to look at how to implement RBAC within an application at three separate levels:
 
 1. Database queries.
 2. App screens and interfaces.
@@ -117,7 +117,7 @@ As such, even with query-level implementation, you’ll normally need to take ad
 
 ## 4. Interface-level implementation
 
-As we’ve touched on already, we can also implement our RBAC system at the level of screens and interfaces. In other words, users must have the appropriate role to access a given app screen.
+As we’ve touched on already, we can also conduct role-based access control implementation at the level of screens and interfaces. In other words, users must have the appropriate role to access a given app screen.
 
 In our device rental example, ordinary employees might only have access to asset listings and request forms. Your IT team could then access additional screens for device management, analyzing demand, and responding to rental requests.
 
@@ -177,7 +177,7 @@ This achieves three things:
 2. Identifying gaps or holes in how you’ve implemented your system.
 3. Confirming that your UIs are as efficient as possible.
 
-Naturally, you’ll need the ability to preview your app as each different role would see it.
+Naturally, you’ll need the ability to preview your app as each different role would see it - so you can see it as users who have been granted access in the real world would.
 
 In Budibase, you can preview unpublished apps from any role’s perspective. Quickly switch between different roles to thoroughly test your RBAC implementation.
 
@@ -211,7 +211,7 @@ Finally, it’s important to thoroughly audit and monitor your RBAC implementati
 The purpose of this is twofold:
 
 1. Ensuring that your RBAC system is implemented correctly.
-2. Identifying issues that might mean that your system is not fit for purpose.
+2. Identifying issues that might mean that your system is not fit for purpose \- helping to prevent data breaches.
 
 On the first point, the idea is to audit your users regularly to ensure that they are assigned the correct role. Again, this is relatively straightforward, as roles typically map onto defined job functions or competencies within workflows.
 
