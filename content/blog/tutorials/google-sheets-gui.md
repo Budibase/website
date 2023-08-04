@@ -5,7 +5,7 @@ description = "Read our step-by-step guide to creating a Google Sheets GUI in un
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1664958669/cms/How_to_Build_a_Google_Sheets_GUI_jmuyxw.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1664958676/cms/How_to_Build_a_Google_Sheets_GUI_ahakka.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Build a Google Sheets GUI in 5 Steps"
+title = "Build a Google Sheets GUI in 5 Steps"
 
 +++
 A Google Sheets GUI can help you turn your spreadsheets into real apps.
