@@ -20,13 +20,13 @@ But first, let’s check out a bit of background information.
 
 This is a reasonable enough question. After all, it’s perfectly easy to add or edit rows in a spreadsheet.
 
-What’s the point in adding extra complexity?
+What’s the point in adding extra complexity with a dedicated Google Sheets data entry form?
 
 There are a bunch of situations where spreadsheets alone fall short. We won’t bore you with every single one, but instead, let’s take a couple of quick examples.
 
 First, say you wanted to manage sign-ups for a meeting or event. You can’t just let each participant add their own details, because they’d then be able to see all of the other attendees.
 
-Or, they might accidentally do something they’re not meant to, like delete a row.
+Or, they might accidentally do something they’re not meant to, like delete a row. A data entry form for Google Sheets helps to prevent this.
 
 Similarly, what if you had a whole army of admin staff working on a lot of data at the same time?
 
@@ -38,9 +38,9 @@ Check out our ultimate guide on [databases vs spreadsheets](/blog/data/spreadshe
 
 Another excellent question!
 
-No doubt, you’re well aware that Google offer their own solutions here. So, you could build a form on a separate sheet and use built-in functions and Google Apps scripts to add rows to your dataset.
+No doubt, you’re well aware that Google offer their own solutions here. So, you could build a form on a separate sheet and use built-in functions and Google Apps scripts code or other script editors to add rows to your dataset.
 
-Alternatively, you could do something similar with Google Forms.
+Alternatively, you could do something similar with Google Forms - or other Google Drive integrations.
 
 There are three big problems here though:
 
@@ -60,15 +60,17 @@ Then, you can use Budibase to automatically generate a fully-functioning [CRUD a
 
 We’re going to look at the full details in a second, but the whole process won’t take you any more than a couple of minutes. You’ll also enjoy far superior functionality, customization, data validation, and flexibility than you would with an all-Google solution.
 
+Simply connect a sheet and create your custom UIs and business processes.
+
 We’ll return to some of the more specific features of Budibase that make it the ideal solution for using a form to enter data to Google Sheets a little later.
 
 For now, though, let’s jump into the practical stuff.
 
 {{< cta >}}
 
-## Building Google Sheets forms in 7 steps
+## Building Google Sheets forms: step-by-step
 
-We do have a couple of obvious prerequisites. We can safely assume that you have a Google account already, along with a spreadsheet you want to manage. You’ll also need to sign up to Budibase, of course.
+We do have a couple of obvious prerequisites. We can safely assume that you have a Google account already, along with a spreadsheet you want to manage. You’ll also need to sign up to Budibase, of course. You can use the same email address for this.
 
 With that out of the way, here are the specific steps you can follow to start using a form to enter data to Google Sheets.
 

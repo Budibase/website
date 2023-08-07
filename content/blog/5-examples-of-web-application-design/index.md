@@ -16,9 +16,9 @@ Huge amounts of time and thought have went into the design of these web applicat
 
 ## What Is Web Application Design
 
-Web application design is an important stage when building a web application. It focuses on the look and feel of the web application.
+Web application design is an important stage when building a web application. It focuses on the look and feel of the web application in the wider context of software development.
 
-The design stage encompasses several different aspects, including user interface design (UI), usability (UX), content production, and graphic design. Within this post, we focused mainly on UI and UX design.
+The web app design process encompasses several different aspects, including user interface design (UI), usability (UX), content production, and graphic design. Within this post, we focused mainly on UI and UX design.
 
 ### What is UI in Web Application?
 
@@ -34,13 +34,13 @@ If you want to be a web app designer, but you never created an app, it’s easie
 
 You can easily get into application design and create an app using low-code tools and templates.
 
-These tools can help you with the technical side of app building. They can give you the framework to design an app and make it functional in no time.
+These tools can help you with the technical side of app building, even if you aren't an experienced UI designer. They can give you the framework to design an app and make it functional in no time.
 
-But you as the web app designer need to know what your application does.
+But you as the web app designer need to know what your application does - alongside user research for your web app UI.
 
 That’s the most important part.
 
-Of course, the visuals and how you design your web app are important. But your users will remember more about how it helped them achieve their goals, and how easy it was to do it.
+Of course, the visuals, color palettes, and other design work are important. But your users will remember more about how it helped them achieve their goals, and how easy it was to do it.
 
 Here is a quick checklist to make sure you design web apps that work well:
 
@@ -59,7 +59,7 @@ The following web applications were chosen from a list of 62 entrants submitted 
 2. Usability
 3. Creativity
 
-Ok, let's do this!
+The goal is to choose the best web application design examples from across all sorts of use-cases. Ok, let’s do this!
 
 ### 5. Intercom
 
@@ -103,7 +103,7 @@ Creativity - 🌟🌟🌟
 
 {{< figure src="/web-app-design/notion.png" alt="Notion UI" >}}
 
-I am a huge fan of Notion, and I've been an avid user since 2016. It's minimalist and uncluttered feel provides the user with a blank canvas, free from distraction.
+I am a huge fan of Notion, and I’ve been an avid user since 2016. It’s minimalist and uncluttered feel provides the user with a blank canvas, free from distraction - making it a great example of modern web app design.
 
 When I first used the web app, it was slow and unresponsive in some cases. I wasn't the only person to feel this, and it ultimately led to a complete rebuild of the product.
 
