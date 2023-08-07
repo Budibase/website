@@ -32,7 +32,7 @@ The opposite of open source software is proprietary software. Proprietary softwa
 
 ## The pros and cons of an open source low code platform
 
-Deciding between open source and proprietary software can be a tricky decision. To help with this, we have listed the pros and cons of open-source low-code platforms.
+Deciding between open-source and proprietary software can be a tricky decision. To help with this, we have listed the pros and cons of low-code open-source platforms.
 
 ## Pros and cons of open source platforms
 
@@ -63,7 +63,7 @@ To get a better grasp on this, let’s think about low-code’s pros and cons.
 
 First up, let’s think of the pros of working with a low-code platform. There are as many reasons to use low-code tools as there are businesses using them. Here are some of the most common reasons that our users turn to low-code:
 
-* **Speed -** For professional developers, the big appeal of low-code platforms is being able to quickly turn out effective applications. This is especially important for repetitive development tasks. Low-code tools are perfect for rapid application development.
+* **Speed -** For professional developers, the big appeal of low-code platforms is being able to quickly turn out effective software solutions. This is especially important for repetitive development tasks. Low-code tools are perfect for rapid application development.
 * **Cost -** With reduced lead times come reduced costs. Your developers are highly skilled professionals, so their labor comes at a premium. Or, if you don’t have a development team, low-code can help you avoid having to pay to bring them on.
 * **Ease-of-use -** Low-code platforms democratize development. These days, you don’t need years of experience and training to build effective custom apps.
 * **Consistency -** Low-code platforms provide consistent experiences for developers and end-users alike.
@@ -80,7 +80,7 @@ Well, sure. At least, there are situations where it might still be preferable to
 
 Here are the key takeaways:
 
-* **Unsupported functionality -** If you need to do something very specific, you could have difficulty finding a low-code platform that supports the functionality you need. However, with increased flexibility and extensibility, this is becoming rarer and rarer.
+* **Unsupported functionality -** If you need to do something very specific, you could have difficulty finding a low-code platform that supports the functionality you need within business processes. However, with increased flexibility and extensibility, this is becoming rarer and rarer.
 * **Learning curves -** Of course, with any new tool, your team will actually need to learn how to use it. In most cases though, you’ll more than make this time back in efficiency savings. Still, no-code solutions can offer a faster initial onboarding process.
 * **Internal roll-out -** In larger organizations, there’s also the issue of getting new tools signed off for internal roll-out.
 * **Internal resistance -** You might come up against decision-makers who are skeptical of low-code development. They might think platforms are insecure, underpowered, or unreliable. All myths, of course, but you’ll need to be aware of these before you can dispel them.
@@ -91,11 +91,11 @@ When selecting my top 5 open source low-code platforms, I deliberately chose dif
 
 Below are the top open source low-code platforms:
 
-1. Budibase - best for application development
-2. Huginn - best for automation
-3. WordPress - best for building websites
-4. Node-Red - best for IoT apps
-5. PyCaret - best for machine learning
+1. Budibase - best open-source, low-code app builder.
+2. Huginn - best for process automation.
+3. WordPress - best for building drag-and-drop websites.
+4. Node-Red - best for IoT apps.
+5. PyCaret - best for machine learning and real-time applications.
 
 ### Budibase - The low-code platform for building business apps
 
@@ -103,7 +103,7 @@ Below are the top open source low-code platforms:
 
 [Budibase](https://www.budibase.com) is an all-in-one open source low-code platform for building business applications. With over 35,000 downloads in 6 months and over 3,000 stars on Github, it is quickly becoming the leading open source low code platform - and for a good reason.
 
-With Budibase, users can design, build, automate and deploy apps on their infrastructure in minutes.
+With Budibase, users can design, build, automate and deploy web apps and user interfaces on their infrastructure in minutes.
 
 Users can benefit from Budibase's internal database or connect to their own - Budibase supports multiple external data sources, including; MongoDB, PostgreSQL, MySQL, Elasticsearch, Airtable, and more.
 
@@ -184,6 +184,8 @@ Actively maintained - Yes
 So, we know that there are a range of different use cases for open-source, low-code platforms. We also know that within each of these, there’s an ever-growing number of options. So how are you supposed to choose the right one for your needs?
 
 Of course, there’s no one-size-fits-all approach here.
+
+For instance, the best solution for customer-facing mobile apps won't necessarily be best for internal tools.
 
 Instead, we need to think about the decision factors that you’ll need to consider when choosing between different tools. This cuts across technical and operational issues alike, so pay close attention.
 

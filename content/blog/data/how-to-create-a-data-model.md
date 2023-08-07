@@ -24,16 +24,18 @@ A data model is an abstract overview of how your app stores, connects to, organi
 
 This is distinct from a _database schema_, in a couple of ways:
 
-1. Your data model encompasses how data is structured across all sources, whereas the _schema_ typically only applies to a single source.
+1. Your data model design encompasses how data is structured across all sources, whereas the _schema_ typically only applies to a single source.
 2. The data model is more concerned with how data is structured in abstract terms, rather than the technical details of each individual source.
 
-The goal here is to build a framework for how your application will handle and process data. This then forms the basis of building out your app’s automation processes and user interfaces.
+Data modeling is the process of creating a model based on your real-world data requirements.
+
+The goal of data model creation is to build a framework for how your application will handle and process data. This then forms the basis of building out your app’s automation processes and user interfaces.
 
 ### Why do you need a data model?
 
 Perhaps a better question is ‘_why do you need to explicitly build a data model?_’ Every app has a data model. It’s really just a question of whether or not you’ve put the thought into creating the most effective one for your needs.
 
-This impacts your app’s security, functionality, performance, scalability, and usability, to name just a few factors.
+This impacts your information systems' security, functionality, performance, scalability, and usability, to name just a few factors.
 
 As such, it pays to get your data model right the first time around.
 
@@ -41,7 +43,7 @@ This is especially true when pulling data from sources within a single applicati
 
 A large part of developing a data model is establishing the data you’ll need, and where it will come from.
 
-Having an effective data model in place also allows you to ensure compatibility between multiple sources, optimum performance, scalability, and effective security.
+Having an effective data model in place also allows you to ensure compatibility between multiple sources, optimum performance, scalability, and effective security within your data warehouse or other information assets.
 
 ## How to create a data model for your app project in 9 steps
 
@@ -76,7 +78,7 @@ Again, we still want to do this in abstract terms, without worrying about specif
 
 This step is also known as creating a logical data model.
 
-Later, we’ll use this information to build a more concrete data structure.
+Later, we’ll use this information to build a more concrete data structure that deals more granularly with specific data elements - including relationships between data objects.
 
 For now, though, we can simply outline our desired processes using non-technical, business language.
 
@@ -94,7 +96,7 @@ Then we can start planning the data we’ll need to achieve this.
 
 ### 3. Create a conceptual data model
 
-The next step is to create a _conceptual data model_. This is a more structured plan for the data we’ll need to implement the processes we identified in the previous step. For now, we’ll carry on using non-technical, business terminology. The more specific technical details come later.
+The next step is to create a _conceptual data model_. This is a more structured plan for the data we’ll need to implement the processes we identified in the previous step. For now, we’ll carry on using non-technical, business terminology. The more specific technical details come later in other types of data models.
 
 Creating a conceptual model is all about figuring out how different kinds of data will be structured to meet our goals.
 
@@ -145,7 +147,7 @@ This can include:
 * Flat files,
 * Other existing business assets.
 
-Note that these are the main sources of existing data that we can use. We can also add or update values within them by sending queries from our finished app.
+Note that these are the main sources of existing data that we can use. We can also add or update values within them by sending queries from our finished app, depending on the data modeling techniques we want to use.
 
 ![External data connectors](https://res.cloudinary.com/daog6scxm/image/upload/v1653319798/cms/External_Data_Connectors_objpgk.png "External data connectors")
 
@@ -231,6 +233,8 @@ It would also be unnecessarily difficult to list all of the company’s departme
 
 A better solution would therefore to create a dedicated _departments table_ and link the relevant row to each employee’s entry. This provides easier querying, and maintenance, as well as reducing the load on your servers.
 
+Take a look at our guide to [CAP vs ACID](https://budibase.com/blog/data/cap-vs-acid/) to learn more.
+
 ### 9. Maintaining your data model
 
 Even once your data model is implemented, there’s still the issue of maintaining it. This poses several challenges, especially when it comes to scaling your application. For instance, when it comes to growing your data set and adding new functionality to the app itself.
@@ -249,11 +253,13 @@ It’s crucial to put steps in place to prevent this.
 
 Beyond this, there’s the challenge of ensuring you have adequate server capacity to facilitate growth, both in terms of storage space and user numbers. Adequate planning for this during the modeling stage helps to prevent the need for data migrations later.
 
+For a more practical example, check out our tutorial on [workflow management database design](https://budibase.com/blog/data/workflow-management-database-design/).
+
 ![BudibaseDB](https://res.cloudinary.com/daog6scxm/image/upload/v1653319692/cms/Budibase_DB_d4ksvg.png "Budibase DB")
 
 ## Data modeling in Budibase
 
-Budibase offers a range of features to make it faster and easier to create an effective data model for your app.
+There are countless data modeling tools on the market today. Budibase offers a range of features to make it faster and easier to create an effective data model for your app.
 
 We offer dedicated connectors for most common external data sources, including:
 

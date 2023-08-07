@@ -22,9 +22,9 @@ Thankfully, this did not deter me. Over the following 9 years I developed over 2
 
 The web application development landscape is capricious in nature and often seen as a dark art to many 'non-coders'. The lexicon surrounding the 'dark art' makes it less approachable, and in many ways deterring to hopefuls. I promise you, this guide is not like that.
 
-Within this guide, I hope to shine a light on web application development and provide the reader, you, with a level of understanding which should equip you with the skills and dialogue to stand comfortably amongst developers, and develop your own web application.
+Within this guide, I hope to shine a light on web app development and provide the reader, you, with a level of understanding which should equip you with the skills and dialogue to stand comfortably amongst developers, and develop your own simple web app.
 
-This guide is designed for developers (beginner), entrepreneurs, technical product managers, students, engineers, technical marketers.
+This guide is designed for developers (beginner), entrepreneurs, technical product managers, students, engineers, technical marketers to learn some critical web app basics.
 
 You'll learn what web application development is, how it works, and what you must do to build a web app.
 
@@ -55,6 +55,8 @@ Web application development is the process involved with building a web applicat
 For those of you who do not know what a web application is, I have included a definition below:
 
 > A web application, often referred to as a web app, is an interactive computer program built with web technologies (HTML, CSS, JS), which stores (Database, Files) and manipulates data (CRUD), and is used by a team or single user to perform tasks over the internet. CRUD is a popular acronym and is at the heart of web app development. It stands for Create, Read, Update, and Delete. Web apps are accessed via a web browser such as Google Chrome, and often involve a login/signup mechanism.
+
+In other words, you can think of a web app as essentially being a web page that behaves like a more complex application. User experiences are contained within the browser, while processes are performed on the server-side.
 
 ### Web applications vs website
 
@@ -119,7 +121,7 @@ It’s incredibly easy to get a web application up and running. Comparatively sp
 
 For instance, if you wanted to build a native mobile app, and ship it to the Apple App Store or Google Play Store, you’d be much more limited to proprietary frameworks, like Xamarin and PlayKit, for Android Apps and IOS respectively.
 
-In the case of Apple, you’d also have to put your application through a lengthy vetting process.
+In the case of Apple, you’d also have to put your application through a lengthy vetting process. It might take months to reach your target market.
 
 Similarly, if you wanted to build a similar local desktop application, you’d need to actually roll it out to your users and install it on their machines. In a large organization, this could take days or even weeks.
 
@@ -193,6 +195,8 @@ But, if yours is one of the apps they do have, it’s only natural that they’l
 
 That is, they’ll see your web applications anytime they use their device, not just when they go looking for it. It’s easy to see how this will feed higher lifetime customer values.
 
+This also helps with basic marketing tasks, like capturing leads based on your social media audience.
+
 However, the water is a bit murkier here than you might think.
 
 At least, there are plenty of other factors that determine your retention and churn. As such, it’s vital not to get complacent, no matter what type of app you opt for.
@@ -253,7 +257,7 @@ And in a nutshell, that's the web application development process. Once again, i
 
 {{< figure src="/web-application-development/framework.jpg" alt="React framework" >}}
 
-The purpose of frameworks is to make web application development easier and faster than coding a web app from scratch.
+The purpose of frameworks is to make web application development easier and faster than coding a web app from scratch. Now that we understand some web application basics, it's important to look at the concrete techniques we can use for developing our own solutions.
 
 Web application frameworks are opinionated and each has its own philosophy and benefits. They come in two types; backend and frontend. Truth be told, the frontend frameworks below are not really frameworks at all; they only represent the view layer of a web application. But for the sake of simplicity we'll refer to them as frameworks.
 
@@ -261,7 +265,7 @@ Web application frameworks are opinionated and each has its own philosophy and b
 
 #### 1. Rails
 
-Rails describes itself as 'a web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern'. Rails is a great framework for metaprogramming (where a computer program can treat other programs as their data) and database orientated web programming. In my opinion, Rails is the perfect framework for small projects.
+Rails describes itself as 'a web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern'. Rails is a great framework for metaprogramming (where a computer program can treat other programs as their data) and database orientated web programming. In my opinion, Rails is the perfect framework for small projects. Ruby on Rails is a popular derivative.
 
 #### 2. Django
 

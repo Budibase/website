@@ -12,15 +12,15 @@ SQL is a powerful database query language that can be used to unlock valuable in
 
 That’s where a SQL GUI (Graphical User Interface) comes in handy.
 
-SQL GUIs are useful for developers and non-developers alike. They provide intuitive interfaces to interact with the database without writing SQL commands. You can visually interact with tables, rows, fields, searches, and more, without any specialist knowledge.
+SQL GUIs are useful for developers and non-developers alike. They provide intuitive interfaces to interact with the database without writing SQL syntax commands. You can visually interact with tables, rows, fields, searches, and more, without any specialist knowledge.
 
 Thus, you don’t need to worry about the right code syntax to get the data you want to see. You just use the GUI components, like you would with any other app.
 
 They can cater to advanced users as well. With them, you can quickly perform simple tasks. And if you want to write SQL code anyway, it’s always possible to do it.
 
-Another benefit of a dedicated GUI is that you can have a single tool to load data from different databases with completely different architectures. Therefore, with a single tool, you can see all your MySQL, MariaDB, and even Oracle databases, wherever you are.
+Another benefit of a dedicated GUI tool is that you can have a single tool to load data from different databases with completely different architectures. Therefore, with a single tool, you can see all your MySQL, MariaDB,  Oracle, and even Microsoft SQL Server databases, wherever you are.
 
-The bad news is that buying a SQL GUI might not be an easy decision. There are many things to consider, such as licensing, access control, user volumes, app installs, and custom workflows.
+The bad news is that buying a SQL GUI to manage databases might not be an easy decision. There are many things to consider, such as licensing, access control, user volumes, app installs, and custom workflows.
 
 But you can solve this with low-code development.
 
@@ -30,7 +30,7 @@ This is the beauty of low-code development.
 
 The truth is, you don’t even need the full 5 steps. If you just want a simple CRUD interface, you can do it with just steps one and two. But today, we’re going to look at how to create something a little more sophisticated.
 
-Here is a quick overview of the steps to build your SQL GUI app:
+Here is a quick overview of how to create a GUI for SQL databases using our open-source platform.
 
 1. Create your app and connect to your database.
 2. Create your CRUD interface with one click.
@@ -46,7 +46,7 @@ SQL is a standard language that lets you store, manipulate and retrieve data in 
 
 They come in a vast range of options and prices, and you can even build your own GUI for free, by following this tutorial.
 
-In case you want to check out what options there are out there, here is a list of off-the-shelf solutions:
+In case you want to check out what options there are out there, here is a list of off-the-shelf graphical interfaces that database administrators use for writing SQL queries:
 
 * DBeaver.
 * SQLyog.
@@ -79,7 +79,7 @@ Here are some points to consider when you pick a SQL GUI (or if you build your o
 You can create your SQL GUI using Budibase. There are actually two methods to interact with your databases, and you’ll learn both:
 
 1. Using the one-click interface to generate CRUD pages for a table.
-2. Using custom connections, queries, and a little bit of custom code to make a flexible interface that loads any table from a database connection.
+2. Using drag-and-drop components, custom connections, queries, and a little bit of custom code to make a flexible SQL interface that loads any table from a database connection.
 
 The end result is something like this:
 
@@ -103,11 +103,13 @@ This may seem like a small difference in terms of end result, but they have diff
 
 It’s worth mentioning that we’re not going to dive too deep into security and user-control today. If you have a lot of users or critical data, make sure to include protections against SQL injection and proper user controls in your pages and queries.
 
+You might also like our in-depth guide to [data modeling](https://budibase.com/blog/data/how-to-create-a-data-model/).
+
 ## 1. Create your app and connect to a database
 
 To get started, you can create a free Budibase account.
 
-Once that’s done, it’s time to connect to your [data source](https://budibase.com/blog/data/data-sources/). In our demo, we are using a MySQL database.
+Once that’s done, it’s time to connect to your [data source](https://budibase.com/blog/data/data-sources/). In our demo SQL user interface, we are using a MySQL database.
 
 Add the connection details on the interface:
 

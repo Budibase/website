@@ -18,7 +18,7 @@ But non-developers can do it too.
 
 No/low-code tools allow you to visually connect to your databases and prepare the functions that you want to use, without needing any advanced coding skills.
 
-With Budibase you can create your own database GUI for free. It’s simple, easy to use and it works everywhere - no matter what operating system or device type you use. Windows, Mac, desktops, mobiles - we’ve got you covered.
+With Budibase you can create your own GUIs for databases for free. It’s simple, easy to use and it works everywhere - no matter what operating system or device type you use. Windows, Mac, desktops, mobiles - we’ve got you covered if you need a web-based interface for database management.
 
 Today, we’re going to explore the different components of building your own database GUI. You can use them as a starting point for your own app, or even use these ideas in other apps.
 
@@ -34,13 +34,17 @@ Think of them as productivity tools. They work as a starting point with premade 
 
 ## How do you create a database UI?
 
-There are many methods to build interfaces for managing data. But today, we’re only worried about the easiest one. You’re going to create your database GUI with Budibase.
+There are many methods to build UIs for database management. But today, we’re only worried about the easiest one. You’re going to create your database GUI with Budibase - the market-leading open-source, low-code platform.
+
+Budibase is the perfect solution for database UI design, whether you're a professional developer, database administrator, IT specialist, or even a non-technical colleague.
 
 Here are the main components of your database GUI:
 
 ![How to build a database GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664186537/cms/01_jx8aut.webp "How to build a database GUI")
 
 This is the home screen. It loads a dropdown with the tables for you to choose from, and the columns that you want to load. Then it shows the query that is being executed. This is handy in case you want to save it in the Custom Query screen.
+
+We're using a basic form-based interface to act as a SQL editor. We could also do something similar for non-SQL databases, or even to create a natural language interface.
 
 There’s a button to add new items and the query results cards with the items’ data and edit buttons.
 
@@ -86,7 +90,7 @@ First though, let’s connect to some real-world data.
 
 Let’s go back to the _Data_ tab and add a new [data source](https://budibase.com/blog/data/data-sources/). You can add any of your databases here, and each of them has their own capabilities.
 
-In this example, we are using a MySQL database.
+In this example, we are using a MySQL database. We could equally create database interfaces for SQL Server, Postgres, Oracle, MongoDB, or a host of other database management systems (DBMSs). We could even create user-friendly interfaces for more complex cross-platform data modeling.
 
 Add the connection details and then you can create your queries.
 
@@ -168,7 +172,7 @@ Check out our guide on how to [implement RBAC](https://budibase.com/blog/app-bui
 
 The auto-generated screens show a quick way to read data. Using tables you can list your data coming directly from a data provider.
 
-But the table component needs a fixed schema. Since we have variable calls and we have different tables, we can’t rely on a single schema to load data.
+But the table component needs a fixed schema. Since we have variable calls and we have different tables, we can’t rely on a single schema to load data. We need a more complex database user interface.
 
 There are 3 basic ways to circumvent this:
 
@@ -181,6 +185,8 @@ The third path is the one we are going for on this app.
 Go back to the design tab and add a new screen with the “home” route. You can check it as your home screen here:
 
 ![Set home screen](https://res.cloudinary.com/daog6scxm/image/upload/v1664186044/cms/09_s0hbxp.webp "Set home screen")
+
+Budibase automatically generates a menu-based interface for navigating between screens.
 
 The logic behind this page is to load items depending on what you have selected before. Here is the element tree for that screen:
 

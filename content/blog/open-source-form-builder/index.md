@@ -27,7 +27,7 @@ Before diving into the 5 best open source form builders, let's understand what e
 
 > A form builder is a software-based tool that helps users build online forms with little to no code.
 
-Most of the open-source form builders within this post accommodate both types of formats. Out of the box, an excellent open-source form builder should provide you with features such as:
+Most of the open-source form software within this post accommodates both types of formats. Out of the box, an excellent open-source form builder should provide you with features such as:
 
 * accessible components
 * built-in validation
@@ -36,6 +36,10 @@ Most of the open-source form builders within this post accommodate both types of
 * GUI
 
 When selecting an open-source form builder, I suggest you think long and hard about your use case. Some form builders will come with additional features you simply do not need. Always pick the right tool for the job.
+
+For example, our engineering team might need more complex functionality from form tools - like file uploads, conditional design, dynamic forms, or triggering automations based on form submissions.
+
+We also need to consider the relationship between our forms and data.
 
 To help you pick the right tool, we tested over 20 open-source form builders to identify those critical differences and help you choose the right one. We've reviewed and scored each of the open-source form builders using the following 3 categories; ease of use, functionality, and design.
 

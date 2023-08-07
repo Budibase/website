@@ -27,11 +27,11 @@ As previously mentioned, software developers have an endless list of tasks to co
 
 ##### Good documentation
 
-Software development is complicated, and some software development tools are complex. I can accept this, and I can take a lousy UI and, in some cases, bad UX, but if the docs are lacking, I'm not going to use the tool.
+Software development is complicated, and some software development tools are complex. I can accept this, and I can take a lousy UI and, in some cases, bad UX, but if the docs are lacking, I'm not going to use the tool. Open-source projects generally have highly detailed documentation.
 
 ##### It integrates well with other tooling
 
-Most developers rely on a particular workflow to complete their tasks. These workflows can include several tools, including Github, Slack, AWS, etc. Therefore, it's critical when deciding on a dev tool you consider its integrations and how it will fit within your workflow - and improve it!
+Most developers rely on a particular workflow to complete their tasks, with different version control systems, programming languages, continuous integration solutions, and more. These workflows can include several tools, including Github, Slack, AWS, etc. Therefore, it’s critical when deciding on a dev tool you consider its integrations and how it will fit within your workflow - and improve it!
 
 ##### Good community
 
@@ -49,6 +49,8 @@ The reason we've chosen open source tools is that they are available to everyone
 
 Below we'll cover the top open-source development tools you should be using in 2021. Without these types tools, the work we do, the deadlines we hit, the bugs we find and squash before release would be impossible. With these tools, we are better, faster, and happier.
 
+Here are our picks for the best open-source development software for professional developers, project managers, data professionals, and more.
+
 ---
 
 ## Top 10 open source development tools
@@ -61,7 +63,7 @@ Visual Studio Code is a lightweight but powerful source code editor which runs o
 
 #### Why VS Code is in our top 10
 
-Personally, it's been my go-to editor for over three years. I moved from Sublime to Atom to VS Code, and I'd never looked back. Feature-wise, UX-wise, and extensions-wise, it's the best. In addition, the team behind VS Code releases new features and functionality through [monthly updates](https://code.visualstudio.com/updates/v1_57). It's been exciting to watch the editor grow from strength to strength, and I'd like to thank the team and community behind the product for their effort. These are the reasons why VS Code is the best editor and worth a try if you've never developed with it before.
+Personally, it's been my go-to editor for over three years. I moved from Sublime to Atom to VS Code, and I'd never looked back. Feature-wise, UX-wise, and extensions-wise, it's the best. In addition, the team behind VS Code releases new features and functionality through [monthly updates](https://code.visualstudio.com/updates/v1_57). It's been exciting to watch the editor grow from strength to strength, and I'd like to thank the team and community behind the product for their effort. These are the reasons why VS Code is the best text editor and worth a try if you've never developed with it before.
 
 
 
@@ -87,16 +89,19 @@ Release/Updates: 10/10
 
 [Budibase](https://github.com/budibase/budibase) is an open source low-code platform, bringing together everything required to build internal tools and custom business apps, such as; dashboards, admin panels, approval apps, customer portals, and everything in between. Within minutes, transform data and processes into powerful internal tools.
 
+It's the ideal open-source software development solution for building user interfaces, web application development, and more - and it's totally free and open-source.
+
 #### Why Budibase is in our top 10
 
 Budibase is the leading open source low code platform. Low code platforms are trending at the moment and for sound reasoning. As previously mentioned, the demand for software development is proliferating, with no sign of stopping. Low code platforms, such as Budibase, allow IT professionals and developers to deliver internal tools and CRUD apps in a fraction of the time. They also remove a lot of the repetition and grunt work experienced when developing such tools, leading to a more satisfying dev process in some cases.
 
-Budibase outshines its competition for several reasons:
+Budibase outshines its competition in the open-source software development tools market for several reasons:
 
 - users can self-host their apps on their own infrastructure
 - users can create internal and external tools
 - Budibase has an automation layer, allowing users to automate tasks such as email notifications, triggering webhooks, sending a report
 - Budibase exports real single-page applications providing end-users with a better, more performant experience.
+- Budibase offers support for a huge range of popular open-source integrations, databases, and their COTS equivalents.
 
 If you've not tried Budibase, give it a try - it's simple to [get started](https://www.budibase.com). 
 
@@ -121,7 +126,7 @@ Release/Updates: 10/10
 ### 3. Vercel
 {{< figure src="/open-source-development-tools/vercel.png" alt="Vercel UI" >}}
 
-Vercel is a deployment and collaboration platform for frontend developers. Vercel puts the frontend developer first, giving them comprehensive tools to build high-performance websites and applications.
+Vercel is a deployment and collaboration platform for frontend developers. It's also one of the best open-source tools for development. Vercel puts the frontend developer first, giving them comprehensive tools to build high-performance websites and applications.
 
 Vercel enables developers to host websites and web services that deploy instantly and scale automatically – all without any configuration.
 
@@ -182,7 +187,7 @@ GitLab is a single application that spans the entire software development lifecy
 
 #### Why Gitlab is in our top 10
 
-I prefer Github for version control. But, as the post suggests, this list comprises of open source development tools only. Gitlab is a close second and one I have used for 5+ years. Gitlab has additional features that Github does not, including; Code analytics, Service Desk, Design Management, Secrets management, and time tracking. In addition, it focuses more on the entire DevOps lifecycle, which is helpful if you prefer to only interact with one platform for a vast number of functions.
+I prefer Github for version control. But, as the post suggests, this list comprises of open source development platforms only. Gitlab is a close second and one I have used for 5+ years. Gitlab has additional features that Github does not, including; Code analytics, Service Desk, Design Management, Secrets management, and time tracking. In addition, it focuses more on the entire DevOps lifecycle, which is helpful if you prefer to only interact with one platform for a vast number of functions.
 
 Gitlab is particularly strong when it comes to package management. GitLab enables teams to package their dependencies, manage containers, and build artifacts with relative simplicity. The private, container, and package registry are built-in and preconfigured out-of-the-box to work seamlessly with GitLab source code management and CI/CD pipelines. Once again, Gitlab shines when you use all its tooling together - but this makes it hard to switch workflow due to lock-in. Gitlab is a behemoth in the open-source developer world, and if you have not tried it, I recommend you give it a go.
 

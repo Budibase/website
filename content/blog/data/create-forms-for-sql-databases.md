@@ -99,7 +99,7 @@ And last but not least, you can create data. These screens are very similar to t
 
 ![Form for create settings query](https://res.cloudinary.com/daog6scxm/image/upload/v1657707462/cms/006_miriz3.webp "Form for create settings query")
 
-The same logic applies to these forms. You can change how the form components work, add calculated fields, and restrict data based on the current user.
+The same logic applies to these forms. You can change how the form components work, add calculated fields, and restrict data based on who's using your SQL data entry form.
 
 Now let’s see how you can create an app like this one.
 
@@ -107,13 +107,13 @@ Now let’s see how you can create an app like this one.
 
 The first thing you need to do is create a free Budibase account.
 
-Next, create a new app, and start from scratch. Select your [data source](https://budibase.com/blog/data/data-sources/). In our case, it’s a MySQL database.
+Next, create a new app, and start from scratch. Select your [data source](https://budibase.com/blog/data/data-sources/). In our case, it’s a MySQL database. We could use the exact same method to connect Postgres or MS SQL Server forms to databases.
 
 We have a simple interface to add your data connection details:
 
 ![Establish data connection](https://res.cloudinary.com/daog6scxm/image/upload/v1657707519/cms/007_lksa6e.webp "Establish data connection")
 
-Don’t forget to [whitelist the Budibase IP](https://docs.budibase.com/docs/whitelisting) in your server. It’s likely that only whitelisted IPs can log in.
+Don’t forget to [whitelist the Budibase IP](https://docs.budibase.com/docs/whitelisting) in your server, or ask your database administrator to do this. It’s likely that only whitelisted IPs can log in.
 
 You can do this in your cPanel or similar for your hosting account.
 
@@ -135,11 +135,15 @@ Lastly, head over to the Navigation option, and configure links to your screens:
 
 These are the navigation links you use in your app. You can enable/disable them on each screen though.
 
-If you want, you can just stop here. You have forms to update your SQL tables, in a basic [CRUD app](https://budibase.com/blog/crud-app/). But let’s see how you can make them better. After all, we want our data entry workflows to be as fast and efficient as they can be.
+If you want, you can just stop here. You have web forms to update your SQL tables, in a basic [CRUD app](https://budibase.com/blog/crud-app/). But let’s see how you can make them better. After all, we want our data entry workflows to be as fast and efficient as they can be.
+
+Again, we can use the same method to connect form templates to any other databases that use the SQL language. For instance, if we wanted to build data entry forms for Postgres, Oracle, or Microsoft SQL Server databases.
+
+You can also check out our tutorial on how to build a [MySQL GUI](https://budibase.com/blog/tutorials/mysql-gui/).
 
 ## Step 3 - Customize your screens
 
-You might want to change a bit how the default screens are. Here are a few tips you can use in your interface.
+You might want to change a bit how the default screens are using Budibase as a drag-and-drop form builder. Here are a few tips you can use in your interface.
 
 ### Set up a homepage
 
@@ -198,7 +202,7 @@ Then add a condition to “update setting” “filtering” to your desired fil
 
 ### Customize the forms
 
-You can use JS code and bindings to make your forms more dynamic. For example, if you have post categories in a table, you can add options to add categories to a post, but display the category name instead of the ID in your form.
+You can use JS code and bindings to make your forms more dynamic - or use custom SQL queries alongside form-based UIs. For example, if you have post categories in a table, you can add options to add categories to a post, but display the category name instead of the ID in your form.
 
 Another idea is to use calculated fields if you want to. Instead of a field with the “sales total” for sales tables, you can calculate the total based on the current products and quantities.
 

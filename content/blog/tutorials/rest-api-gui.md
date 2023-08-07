@@ -24,14 +24,15 @@ This might seem like overkill, but building your own REST API GUI is, in most ca
 
 This is what you are going to learn today:
 
-* A one-step method to import and test endpoints for any REST API.
-* How to create an app without coding.
-* How to connect this app to a REST API.
-* How to build screens to send requests and output information.
-* How to save requests for later use.
-* How to build CRUD screens with one click.
+- A one-step method to import and test endpoints for any REST API.
+- How to create an app without coding.
+- How to connect this UI for REST API data.
+- How to build screens to send requests and output information.
+- How to save requests for later use.
+- How to build CRUD screens with one click.
+- How to deploy your GUI for REST API data.
 
-Let's get started!
+Let’s get started!
 
 ## What is a REST API interface?
 
@@ -39,7 +40,7 @@ A REST API allows you to use HTTP requests to GET (read), PUT (update), POST (cr
 
 This is one of the most fundamental techniques that developers use to connect web apps to different [data sources.](https://budibase.com/blog/data/data-sources/)
 
-An interface allows you to perform all these operations visually, with a tool such as a REST API GUI. Thus, you don’t need to rely solely on command lines or programming languages to test or perform your operations.
+A REST API UI allows you to perform all these operations visually. Thus, you don’t need to rely solely on command lines or programming languages to test or perform your operations.
 
 ## Are all APIs RESTful?
 
@@ -47,13 +48,13 @@ There are strict requirements for RESTful APIs. REST refers to the set of rules 
 
 Essentially, an architecture is a defined framework for sending and requesting data.
 
-APIs can use other architectures (such as SOAP or GraphQL) or they can be using their own architecture.
+APIs can use other architectures (such as SOAP or GraphQL) or they can be using their own architecture. You might equally be dealing with WebHooks or other RESTful Web Services It's vital to understand this if you want to generate a UI from a REST API.
 
 This is important because most clients and applications that connect to any RESTful API rely on these standards. It is like manufacturing a data transfer cable. If you pick USB-c, you need to use a physical format and transfer data with specific protocols. Otherwise, you can’t connect to other devices.
 
 ## How do I test REST API calls?
 
-You can test REST API calls using Budibase.
+You can test REST API calls using Budibase, eliminating the need for dedicated testing tools for developer teams - like Swagger UI.
 
 The first and simplest method is to create a free account, create a new app, then pick a REST API data source.
 
@@ -65,11 +66,11 @@ Next, just import your API specs using this option:
 
 Then you can use the data source tab itself to quickly test your API calls and see the response.
 
-Another way to do it is using a purpose-built REST API GUI. It might sound like a lot of work, but you can do it in just 4 steps with our intuitive low-code platform.
+Another way to do it is using a purpose-built REST API GUI. It might sound like a lot of work, but you can create a REST GUI in just 4 steps with our intuitive open-source, low-code platform.
 
 At the end of this process, you’ll get an app with these screens:
 
-* All Queries - List all saved queries
+* All Queries - List all saved queries - including basic GET, POST, PUT, and DELETE calls.
   * Edit/add new
 * New POST - Run new POST calls
 * New GET - Run new GET calls
@@ -100,7 +101,7 @@ If you haven’t already, sign up for Budibase. It’s free and it takes just a 
 
 Then, create a new app, and add two data sources:
 
-* REST API
+* REST API - in our case using a HTTP localhost.
 * BudibaseDB
 
 You can use the Budibase DB to quickly store metadata about your app. In our demo, we use it to store the saved queries. You could use it to manage users, add settings, or anything you want.
@@ -117,6 +118,8 @@ Two headers are used in all queries:
 ![REST API Key](https://res.cloudinary.com/daog6scxm/image/upload/v1665484179/cms/06_l4rxyr.webp "REST API Key")
 
 Since these two headers are global, you can just add them on the main Data Source page. This loads them in all of your queries.
+
+Take a look at our in-depth guide to [https://budibase.com/blog/tutorials/rest-api-authentication/](https://budibase.com/blog/tutorials/rest-api-authentication/).
 
 Now let’s create our queries. Since the actual query data is added on the front end, by your users, we just need one query for each of the methods you use. In our demo we just use GET and POST, so we need two queries.
 
@@ -172,7 +175,7 @@ Now let’s create your app screens.
 
 ## Step 2 - Create the query management pages
 
-The core goal of your REST API GUI app is to run custom queries and save them. But creating a screen to load saved queries is incredibly simple.
+The core goal of your REST API GUI app is to run custom queries and save them. But creating a screen to load saved queries is incredibly simple. Budibase offers a drag-and-drop interface and a vast array of built-in components as the building blocks of your UIs.
 
 Just go to Design > Screens > Add Screen. Select the “Autogenerated screens” option. Pick the rest_queries table.
 
@@ -342,6 +345,8 @@ You can follow this method and create other screens if you want. You can have al
 {{< cta >}}
 
 ## How to build a REST API GUI with Budibase
+
+REST APIs and web app development are basically inseparable.
 
 Today we looked into how you can create your own REST API GUI in just 4 steps. You saw how you can use Budibase to import and test REST API calls. Then you learned how you can create an app, and connect to a REST API using flexible calls based on user inputs.
 
