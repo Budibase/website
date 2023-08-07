@@ -52,13 +52,13 @@ This is tied closely to the idea of [rapid application development](/blog/inside
 
 ## What’s the difference between throwaway prototyping and evolutionary prototyping?
 
-To some readers, this could all seem like common sense. But, in many ways, it’s a deviation from the norm. To see why, we need to understand what the alternative is.
+To some readers, this could all seem like common sense. But, in many ways, it’s a deviation from the norm. To see why, we need to understand what the alternative type of prototyping is.
 
-The opposite of throwaway prototyping is what’s known as _evolutionary prototyping_. So, as you might have figured out already, this means that prototypes are built with the explicit intention of being included in the final system.
+The opposite of throwaway prototyping is what’s known as _evolutionary software prototyping_. So, as you might have figured out already, this means that prototypes are built with the explicit intention of being included in the final system.
 
 This is also sometimes referred to as _incremental prototyping_.
 
-In other words, the prototype is a starting point, which eventually evolves into the finished product.
+In other words, the prototype is a starting point, which eventually evolves into the final product by the end of the software development project.
 
 There are pros and cons to both approaches, as we’ll see shortly.
 
@@ -68,11 +68,11 @@ The flip side of this is that each prototype requires more effort to build. This
 
 This might mean more in-depth functionality, advanced configuration, paying more attention to non-functional requirements, or generally front-loading any work that’s needed to ship your tools down the line.
 
-However, some of these prototypes still might not make the final cut
+However, some of these rapid throwaway prototypes still might not make the final cut
 
 By contrast, many of these tasks only occur at a later stage in projects using the throwaway prototyping model.
 
-## Throwaway prototyping: pros & cons
+## Throwaway prototyping: advantages and disadvantages
 
 So, now that we have a clearer idea of what throwaway prototyping is and how it compares to the alternatives, let’s think about how it offers value and what challenges it introduces.
 
@@ -86,7 +86,7 @@ With that caveat out of the way, here’s what you need to know.
 
 #### Speed
 
-The headline selling point of throwaway prototyping is the speed with which you can build out ideas. Since you can eliminate a large number of development tasks, you can create working models much faster.
+The headline selling point of throwaway prototyping is the speed with which you can build out ideas. Since software engineers can eliminate a large number of development tasks, you can create working models much faster.
 
 There are a few concrete business-level benefits that stem from this, including:
 
@@ -95,7 +95,7 @@ There are a few concrete business-level benefits that stem from this, including:
 * Faster decision-making.
 * Improved client and stakeholder experiences.
 
-Say for example you needed proof of concept that a dedicated [CRUD app](https://budibase.com/blog/crud-app/) could be built to streamline management workflows for a particular data source. Throwaway prototyping minimizes the resources needed to validate this idea.
+Say for example you needed proof of concept that a dedicated [CRUD app](https://budibase.com/blog/crud-app/) could be built to streamline management workflows for a particular data source. Throwaway prototyping minimizes the resources needed to validate this idea - prototype developers can output a working user interface at speed.
 
 So, you only need to commit to additional expenses when you’re confident that a solution is viable.
 
@@ -111,7 +111,7 @@ Even if a particular idea doesn’t go ahead, any lessons learned can still be b
 
 Throwaway prototyping can also be a powerful tool for managing stakeholders. Often, less technical stakeholders have a large say in how projects progress. These could be clients, project managers, or internal end users.
 
-As we all know, working with demos and prototypes is one of the best ways to manage this.
+As we all know, working with demos and robust prototypes is one of the best ways to manage this.
 
 Leveraging throwaway rather than evolutionary prototyping allows us to take advantage of this fact earlier in the project. For instance, during initial ideation or requirements gathering.
 
