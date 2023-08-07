@@ -39,7 +39,7 @@ Let’s get started!
 
 MySQL is a database system. It doesn’t have an official GUI, but there are many app options to connect to it. There are free and open source apps, as well as paid options.
 
-In addition, you can build your own MySQL GUI using the tips from this 5-step guide.
+In addition, you can build your own MySQL GUI using the tips from this 5-step guide, leveraging Budibase as a MySQL frontend builder.
 
 ## What is the best GUI for MySQL?
 
@@ -76,7 +76,7 @@ But a lot of these tools allow you to add your own commands as well since you’
 
 This allows you to get the better of the two worlds. You can quickly perform actions using premade functions if you want. But you can run your own commands if you need to run a specific query as well.
 
-In this tutorial, you are going to create a MySQL GUI that looks like this:
+In this tutorial, you are going to create a MySQL UI that looks like this:
 
 ![MySQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664899937/cms/01_g2wkjm.webp "MySQL GUI")
 
@@ -98,7 +98,7 @@ Next, there’s the auto-generated CRUD interface for saved queries:
 
 ![Saved Queries](https://res.cloudinary.com/daog6scxm/image/upload/v1664900004/cms/04_m3nhai.webp "Saved Queries")
 
-On this screen you can see, edit, insert and delete saved queries. These are the queries available in the custom query builder.
+On this screen you can see, edit, insert and delete saved queries \- for on-the-fly data modeling.  These are the queries available in the custom query builder.
 
 Let’s see how you can create this app.
 
@@ -108,7 +108,7 @@ If you haven’t already, sign up for Budibase. You can create free apps right a
 
 {{< cta >}}
 
-After you’ve created your app, connect to your MySQL database as a [data source](https://budibase.com/blog/data/data-sources/). Don’t forget to [whitelist the Budibase servers](https://docs.budibase.com/docs/whitelisting) in your MySQL server.
+After you’ve created your app, connect to your MySQL database as a [data source](https://budibase.com/blog/data/data-sources/). Don’t forget to [whitelist the Budibase servers](https://docs.budibase.com/docs/whitelisting) in your MySQL server \- or ask your database administrator to do so.
 
 Our demo data has three tables:
 

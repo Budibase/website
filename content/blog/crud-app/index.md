@@ -4,7 +4,7 @@ date = 2021-07-06T00:00:00Z
 dateModified = 2022-04-04T00:00:00Z
 description = "A CRUD app is a piece of software that's used to create, read, update & delete data. Here's everything you need to know."
 images = ["/blog/crud-app/images/read.webp"]
-title = "What is a CRUD App and How to Build One | Ultimate guide"
+title = "What is a CRUD App and How to Build One"
 
 +++
 We use CRUD apps every day. Most of the time, without noticing. They keep us organized, they help digitise business processes, and they're critical to application development. But many of us are oblivious to what CRUD apps are, or how to build one. Within this post, I am to provide you with a simple and straightforward guide to the world of CRUD apps. The guide is broken down into three sections:
@@ -33,7 +33,7 @@ Finally, the APIs are how your application informs your database of what functio
 
 ### CRUD operations
 
-As previously mentioned, there are four basic CRUD operations; create, read, update and delete. These four operations map to functions/statements, as seen in the following table:
+As previously mentioned, there are four basic CRUD functions; create, read, update and delete. These four operations map to functions/statements, as seen in the following table:
 
 | OPERATIONS | FUNCTIONS |
 | --- | --- |
@@ -55,7 +55,7 @@ Let’s dive deeper into each of the CRUD operations. We’ve used a library man
 
 #### Create
 
-Create allows you to add new rows/records to a database/table. If the record does not exist, the create operation adds it to the database.
+Create allows you to add new rows/records to a database/table or other persistent storage. If the record does not exist, the create operation adds it to the database.
 
 **Recipe example**
 
@@ -75,7 +75,7 @@ Read is the operation that allows us to see the recipe we just created. It does 
 
 #### Update
 
-Update is the operation that allows us to modify existing data and records within a table. We can update a single field within a record or multiple fields at once. It is also possible to update multiple records at once too.
+Update is the operation that allows us to modify existing data and records within a table. This enables users to update a single field within a record or multiple fields at once. It is also possible to update multiple records at once too.
 
 **Recipe example**
 
@@ -85,7 +85,7 @@ Update is the operation that allows us to modify existing data and records withi
 
 #### Delete
 
-Delete is the operation that allows us to remove records from a table.
+Delete is the operation that allows us to remove records from a table using a CRUD web application.
 
 **Recipe example**
 
@@ -113,7 +113,7 @@ Delete is the operation that allows us to remove records from a table.
 
 If you want to get started and work on CRUD app ideas, this section provides you with some inspiration.
 
-In general, whenever you see data storage there is potential for a CRUD app. From something as simple as a to-do list to complex software and apps.
+In general, whenever you see data storage there is potential for a CRUD web app. From something as simple as a to-do list to complex software and apps.
 
 #### CRUD use cases
 
@@ -139,7 +139,7 @@ That is, you can create, read, update and delete data from it.
 
 ### CRUD platforms / frameworks / tech stacks
 
-There are many, low code platforms, frameworks, or tech stacks that provide an effective workflow when creating CRUD apps. The following are options you might consider:
+There are many, low code platforms, frameworks, or tech stacks that provide an effective workflow when creating CRUD apps. For instance, full-stack developers might use very different methods to more specialized or less technical colleagues.
 
 * Budibase
 * Python and Django

@@ -19,6 +19,8 @@ But, before we start the  tutorial, a quick recap on what we define as a web app
 
 An interactive computer program, built with web technologies (HTML, CSS, JS), which stores (Database, Files) and manipulates data (CRUD), and is used by a team or single user to perform tasks over the internet.
 
+Users interact with these tools within their web browsers. Everything is handled server-side rather than client-side, so we're not dependent on certain operating systems or programming languages being installed on the user's device - like we would be with local software or a mobile app.
+
 There is a lot of confusion around what exactly is a web app. For the purpose of this post, we feel our definition above simplifies what a web app is. If you’re still unsure, we've included examples of what we believe are web apps, and what are not, below:
 
 <table>
@@ -87,19 +89,19 @@ There is a lot of confusion around what exactly is a web app. For the purpose of
 
 ## How to build a web app: slow-code vs low-code
 
-Like any other kind of development, there’s no one single approach when it comes to how to build a web app. In reality, there is a vast range of different tools, methodologies, techniques, and standards out there.
+Like any other kind of development process, there’s no one single approach when it comes to how to build a web app. In reality, there is a vast range of different tools, methodologies, techniques, and standards out there.
 
 On the one hand, this is good news, because it means that there’s a suitable option out there for every skill level and every project scope.
 
 On the other hand, it makes writing a comprehensive guide to creating web apps a little bit trickier.
 
-For simplicity’s sake, we’re going to divide your options into two separate strands.
+For simplicity’s sake, we’re going to divide your options into two separate types of web application development.
 
 The first is traditional development. The second is newer technologies, including low-code platforms. Let’s take a quick definition of each, and then later we’ll jump into the specific steps you’ll follow to create a web app using each.
 
 ### Traditional development
 
-Traditional development, or slow-code as we like to call it, essentially means building everything from scratch, including your interfaces, your data connections, and your business logic.
+Traditional development, or slow-code as we like to call it, essentially means building everything from scratch, including your user interfaces, your data connections, and your business logic.
 
 As you might expect, this is a pretty labor-intensive process.
 
@@ -419,7 +421,7 @@ So, we know roughly our web application’s functionality, what it looks like, a
 
 A database is simply a collection of data! Data can be stored to disk, or in memory on a server, or both.  You could create a folder on your hard drive, store a few documents, and call it a database.
 
-A Database Management System (DBMS) is a system that provides you with consistent APIs to (most commonly):
+A Database Management System (DBMS) is a system that provides you with consistent APIs (Application Programming Interfaces) to:
 
 * Create databases, update and delete databases
 * Read and write data to databases
