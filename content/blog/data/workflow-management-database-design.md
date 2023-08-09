@@ -36,6 +36,8 @@ A workflow is a repeatable set of decisions that determine what happens to a req
 
 The goal is to progress the request from start to finish based on established business rules.
 
+This could be a specific task like employee onboarding, dealing with purchase orders, approval workflows, editorial flows for video tutorials, or any other business processes. Effective workflow database design is crucial for all sorts of applications.
+
 For example, the process for submitting a bug in an internal software system could look like this:
 
 1. Any user can record a bug, with an initial status of *submitted*.
@@ -68,7 +70,7 @@ Of course, the nomenclature that we’re using here isn’t critical. You could 
 
 The goal is that we can use the same database for *multiple* similar workflows, as the basis for a variety of internal tools or other technical solutions. Therefore, we need to consider how we can create a data model that’s applicable to the widest number of internal processes.
 
-Obviously, we’ll need to know what our underlying business logic *is* before we can codify it in a formal database. 
+Obviously, we’ll need to know what our underlying business logic *is* before we can codify it in a formal database to support our approval processes.
 
 Check out our guide to [workflow analysis](https://budibase.com/blog/automation/what-is-workflow-analysis/) to learn more about this.
 
@@ -78,7 +80,7 @@ Now, it’s worth noting that we can’t provide a totally generic, one-size-fit
 
 And - one more note about our demos and examples throughout this guide. We’re using a Postgres instance hooked up to Budibase’s data section to give a clear visualization of what our database looks like in situ. 
 
-We’re also going to accompany this with formal diagrams along the way.
+We’re also going to accompany this with formal diagrams which will evolve as we progress through creating a workflow model. By the end, we'll have a fully fleshed-out workflow data model example.
 
 With that in mind, here’s the flow of decisions and considerations that we can apply to designing a workflow model database - including each of the entities we’re going to need to define.
 
@@ -99,9 +101,9 @@ The other central data entity is going to be our *processes table*. This will st
 1. A unique ID.
 2. A descriptive name.
 
-But, Postgres won’t allow us to create a direct many-to-many relationship, so we’ll also need a Junction table. This defines the relationship between our two tables by storing their respective unique IDs as foreign keys.
+But, Postgres won’t allow us to create a direct many-to-many relationship, so we’ll also need a Junction table to achieve this in our workflow engine. This defines the relationship between our two tables by storing their respective unique IDs as foreign keys.
 
-So, here’s what our data model looks like so far - in theory:
+So, here’s a visual representation of what our data model looks like so far - in theory:
 
 ![Workflow management database design](https://res.cloudinary.com/daog6scxm/image/upload/v1689941558/cms/workflow-management-database-design/1_an1x1r.webp "Workflow management database design")
 
@@ -117,13 +119,13 @@ Next, we need to be able to represent information about the individual *requests
 
 We’ll start by creating a table called *requests*, which will store the basic details, like a title, request date, which process it’s a part of, and requesting user. We’ll also need an attribute to store its current state, but we’ll come to that in the next step.
 
-So, now our workflow management database design is more like this:
+So, now our approval workflow database design is more like this:
 
 ![Processes and requests](https://res.cloudinary.com/daog6scxm/image/upload/v1689941559/cms/workflow-management-database-design/2_f12xkp.webp "processes and requests")
 
 But, this only reflects the relationship between *requests* and *users* in terms of who *created* each request. We’ll also need a separate *many-to-many* relationship between these two tables, to represent *all* of the colleagues that can be involved in a request.
 
-We’ll use another junction table to do this and call it *requestStakeholders*. Like so:
+We’ll use another junction table to do this and call it *requestStakeholders*. Now our workflow diagram looks like this:
 
 ![Requests junction table](https://res.cloudinary.com/daog6scxm/image/upload/v1689941559/cms/workflow-management-database-design/3_vpt4mo.webp "Requests junction table")
 
@@ -137,11 +139,13 @@ This is where we’re going to account for the fact that *requests* and *process
 
 For instance, the data we store about our fleet management workflows will probably be quite a bit different from a HR process. To reflect this fact, we’re going to create a new table called *requestData*.
 
+This is a key part of any database design for approval workflows.
+
 Along with a unique ID, this will store a series of name/value pairs. That way, we’ll be able to store whatever data is relevant to each individual request and process. This gets a many-to-one relationship with our *requests* table:
 
 ![Workflow management database design](https://res.cloudinary.com/daog6scxm/image/upload/v1689941559/cms/workflow-management-database-design/4_aj4jte.webp "Workflow management database design")
 
-If we wanted to, we could add some extra data entities at this point. For instance - for storing files or comments relevant to different requests and processes. 
+If we wanted to, we could add some extra data entities at this point. For instance - for storing files or comments relevant to different requests and processes in our workflow management system.
 
 But, you might just as easily store these externally, so we’ll keep things simple instead of worrying about those.
 

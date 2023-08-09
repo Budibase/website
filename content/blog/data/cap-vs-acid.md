@@ -22,29 +22,31 @@ By the end, you’ll have a solid understanding of CAP vs ACID, so you can make 
 
 Here goes!
 
-## Basic definitions
+## ACID vs CAP Theorem: basic definitions
 
 We’ll start by getting our heads around the basic definitions of CAP and ACID. These are two distinct models for how transactions occur in data storage solutions. 
 
 As we’ll see in a second, there is a degree of overlap between the two - but fundamentally, they deal with slightly different ideas and issues.
 
-We should also state up front that these aren’t exactly *competing* models - so it’s not always a case of choosing one or the other.
+We should also state up front that when we're comparing the CAP theorem vs ACID, these aren’t exactly *competing* models - so it’s not always a case of choosing one or the other.
 
 Rather, CAP is a *descriptive* theorem that’s concerned with the reality of all data storage solutions and their limitations. ACID is a *prescriptive* model that implements specific standards - but it doesn’t invalidate CAP.
 
-Let’s check out what each model means in turn.
+Let’s check out what ACID and CAP theorem each means in turn.
 
 ### What is the CAP model?
 
-CAP stands for *Consistency, Availability, Partition Tolerance.* The theory states that - within distributed systems - it’s only possible to optimally achieve *two out of three* of these characteristics.
+CAP stands for *Consistency, Availability, Partition Tolerance.* The theory states that - within distributed data stores - it’s only possible to optimally achieve *two out of three* of these characteristics.
 
-For example, we could have *consistency and partition tolerance*, but they would come at the expense of *availability*.
+The model was developed by Eric Brewer in 2000, as a theorem stating that there's an inherent compromise between these three factors in distributed database systems.
+
+For example, we could have *consistency and partition tolerance*, but they would come at the expense of *availability* in your database management system.
 
 In more granular terms, here’s what we mean by each of these characteristics:
 
-- **Consistency** - the same data is returned no matter what node in the system it is retrieved from.
+- **Consistency** - the same data is returned no matter what node in the system it is retrieved from - so on the whole we have a consistent system in distributed computing.
 - **Availability** - every request returns data, even if one or more nodes in the system are down.
-- **Partition tolerance** - the system as a whole continues to work, even if there is a breakdown in communication between individual nodes.
+- **Partition tolerance** - the system as a whole continues to work, even if there is a breakdown in communication between individual nodes due to network partitions or node failures.
 
 Consistency is achieved by instantly replicating changes to one node across all others before the *write* action is considered complete. In practice, availability means that all working nodes in a system must return a valid response.
 
@@ -72,10 +74,10 @@ First, though, let’s check out the other model that we want to wrap our heads 
 
 These rules are:
 
-- **Atomicity** - all parts of a transaction must succeed or the whole thing fails.
+- **Atomicity** - all parts of a transaction must succeed or the whole thing fails - whether these are read operations, write operations, or more complex functions.
 - **Consistency** - only transactions that follow specified internal rules can be completed.
 - **Isolation** - transactions can occur concurrently without affecting one another.
-- **Durability** - data is saved following a successful transaction, even if there is a power outage or other failure.
+- **Durability** - data is saved following a successful transaction. The system continues even if there is a power outage or other network failure.
 
 We’ve written a dedicated guide to [ACID compliance](https://budibase.com/blog/data/acid-compliance/), where you can learn more about each of these principles.
 

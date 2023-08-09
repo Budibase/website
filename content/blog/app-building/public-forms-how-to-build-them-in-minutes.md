@@ -16,25 +16,33 @@ A public form is a digital form that is accessible to anyone on the internet. Th
 
 There are many examples where a user may want to create a public form. I've listed a few of these scenarios below:
 
-1\. A public survey
+1. A public survey.
 
-2\. Login form
+2. Login form.
 
-3\. Sign up form
+3. Sign up form.
 
-4\. Contact form
+4. Contact form.
 
-5\. Application form
+5. Application form.
 
-6\. Information request form
+6. Information request form.
 
-7\. A COVID test response form
+7. A COVID test response form.
+
+8. A registration form.
+
+9. Online payments.
+
+10. Order forms.
+
+11. Social media marketing.
 
 The internet is increasingly made up of forms. It's how we retrieve and update data, which is why there are different types of forms.
 
 ### Public forms software
 
-Public forms allow organizations to collect data from customers, prospects, partners, and stakeholders. But creating the actual public form requires software or an app.
+Public forms allow organizations to collect data from customers, prospects, partners, and stakeholders. But creating the actual public form requires software or an app. This might be a dedicated online form creator, form maker, Google Workspace, or any other platform that allows you to create a form.
 
 Given that this is a recurring need for businesses there are many options for public forms software. There are a few things to keep in mind when you are picking the right tool for your forms though.
 
@@ -42,11 +50,13 @@ Firstly, there’s the pricing point. There are free forms that are quite limite
 
 Then, you need to consider your requirements. Some public forms are self-hosted, so you control the source code. Others aren’t, so you need to redirect users to a third-party website.
 
-Also, there are laws regarding what kind of authorization you need to process this data, in particular, if it is stored with an external app.
+Also, there are laws regarding what kind of authorization you need to process this data, in particular, if it is stored with an external app. There's also what kind of data you can integrate your form with. For instance, Google Sheets, a database, or some other data source.
+
+The most powerful forms can even save time by initiating automation actions based on form clicks.
 
 And finally, there is the usability aspect of building a public form. You might find a free option, but if it’s too hard for users to interact with it, you might not be able to get the data you want.
 
-In this article, we teach you how to build your public forms using Budibase, so that you can build forms for free. You can use the cloud version, or host it yourself if you want. In addition, you can customize the forms in any way you want to, including complex components beyond just public forms.
+In this article, we teach you how to build your public forms using Budibase, so that you can build forms for free with simple dra-ang-drop actions. You can use the cloud version, or host it yourself if you want. In addition, you can customize the forms in any way you want to, including complex components beyond just public forms.
 
 ## Form types
 

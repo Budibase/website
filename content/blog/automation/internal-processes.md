@@ -36,6 +36,8 @@ Like any process, we’re also only really concerned with tasks that are carried
 
 Rather, we can only call something a process if _(more or less)_ the same steps are carried out to reach _(more or less)_ the same goal every time.
 
+So, business processes approach defined tasks in a systematic way.
+
 Still - that’s not to say that our employees always _know_ that they’re following a process. This might seem a little counterintuitive but stick with us.
 
 To understand what’s going on, we need to know the difference between _formal_ and _informal_ processes.
@@ -46,7 +48,7 @@ A _formal_ internal process is one that’s codified, documented, and/or prescri
 
 There are myriad important reasons to formalize internal processes.
 
-The central benefit is simple. When everyone has a shared understanding of how things are meant to be done, we can reliably scale the relevant process - without compromising accuracy, consistency, or any other important quality metrics.
+The central benefit is simple. When everyone has a shared understanding of how things are meant to be done, we can reliably scale the relevant process - without compromising accuracy, consistency, or any other important quality metrics relating to underlying business goals.
 
 ### Informal processes
 
@@ -222,11 +224,13 @@ As you might have guessed already, this is a pretty big topic.
 
 Except for cases where there’s a single glaringly obvious problem, we can expect to have paths forward.
 
-Let’s take a look at some of the most effective strategies for getting the most out of internal processes.
+Let’s take a look at some of the most effective strategies for managing and improving internal processes.
 
 ### Formalizing and documenting internal processes
 
 The first thing we should do with any internal task is document how it’s done - even if our intention isn’t to prescribe this as the _official_ way to do it. Knowing how things currently function is the first step toward formalization.
+
+This is also known as business process mapping.
 
 Once we’ve documented the existing method, we might roll it out in its current form - ensuring that colleagues are consistently using it. Alternatively, we may use this as a basis for analysis and improvement - or simply throw it out and start again.
 
@@ -236,7 +240,7 @@ We’ll go into more depth about how to do this in practice when we come to crea
 
 ### Redesigning internal processes
 
-Next, we have changes to the process itself. So, we said earlier that an internal process is a set of steps that our team follows to complete a specific task. _Redesigning_ the process means changing these steps.
+Next, we have changes to the process itself. So, we said earlier that an internal process is a set of steps that our team follows to complete a specific task. *Redesigning* the process means changing these steps - with a view to reaching similar or enhanced process objectives.
 
 Broadly speaking, this could take a few different forms. Obviously, we could add or remove steps entirely. We could also change what’s required _within_ a given step. Or, we might change how they’re structured or who is responsible for different elements of the process.
 
@@ -260,7 +264,7 @@ Often, these replace generic tools like spreadsheets - or even email chains. Che
 
 Automation has a huge role to play when it comes to improving internal processes, of course. However, like we said a second ago, we can’t jump straight to this. There’s no sense in automating a bad process.
 
-There are also several different kinds of automation that we can turn to.
+There are also several different kinds of business process automation that we can turn to.
 
 For most internal processes, relatively simple solutions will go a long way. So, rather than sophisticated machine learning tools, we’ll often rely on business rules engines, platform integration, and basic trigger/action pairs.
 

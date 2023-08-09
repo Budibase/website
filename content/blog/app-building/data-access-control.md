@@ -24,7 +24,7 @@ Data access control is any method you use to control how users interact with you
 
 Users can be employees or third parties, like customers, partners, consultants, or members of the public.
 
-In other words, data access control means defining and enforcing a system for how different users can use your organization's data.
+In other words, data access control means defining and enforcing a system for how different users can use your organization’s data - whether this is sensitive information, databases, data warehouses, or any other internal data sources.
 
 As we’ll see later, there are various types of access control.
 
@@ -36,7 +36,7 @@ Enterprises and SMBs alike store and process greater volumes of data than ever b
 
 The key is balancing the benefits of data-driven decision-making, including increased creativity, innovation, and productivity, with the need to maintain high standards across security, privacy, and compliance.
 
-This is where data access control comes into play.
+This is where data access control policies come into play.
 
 Here are four specific issues that data access control addresses.
 
@@ -44,15 +44,15 @@ Here are four specific issues that data access control addresses.
 
 #### 1. Security
 
-The most obvious goal of access control is data security. In other words, ensuring that it is accessed only by the right people, in the right contexts. The idea is that only authorized entities can access data or carry out different actions on it.
+The most obvious goal of access control is data security and data protection. In other words, ensuring that it is accessed only by the right people, in the right contexts. The idea is that only authorized entities can access data or carry out different actions on it.
 
 An entity here can mean a user, an automated process, or a particular platform.
 
-Of course, restricting access is just one weapon in your security arsenal. This sits alongside other tools including encryption, identity management, and hardware security solutions.
+Of course, restricting access in terms of who can retrieve data is just one weapon in your security arsenal. This sits alongside other tools including encryption, identity management, and hardware security solutions.
 
-Far from replacing these other techniques, data access control complements them by ensuring that an otherwise secure system isn’t circumvented, either deliberately or unintentionally.
+Far from replacing these other techniques, data access management complements them by ensuring that an otherwise secure system isn’t circumvented, either deliberately or unintentionally.
 
-In fact, data access control is fundamental to any modern security strategy.
+In fact, data access control is fundamental to any modern security and data governance strategy.
 
 ![Compliance](https://res.cloudinary.com/daog6scxm/image/upload/v1653387510/cms/Compliance_obxxoz.png "Compliance")
 
@@ -62,17 +62,17 @@ Privacy regulations are increasingly complex, especially for enterprises, or oth
 
 These constraints stem from established best practices, as well as formal regulations like GDPR, CCPA, HIPAA, PIPEDA, and NIST.
 
-While these all differ in terms of their specific content and the requirements placed on organizations, each one places limits on how subjects’ personal data can be accessed, and by whom.
+While these all differ in terms of their specific content and the requirements placed on organizations, each one places limits on how subjects’ personal data can be accessed, and by whom. This relates to levels of access within database access control.
 
 Most formal regulations stipulate in one way or another that only entities which need to access different data should be able to do so. Additionally, subjects’ data should only normally be accessed by the entities and for the reasons they initially consented to.
 
-As such, effective access control will inevitably form a core part of your compliance efforts.
+As such, effective access control will inevitably form a core part of your compliance efforts - whether this is the responsibility of database administrators, data owners, or some other stakeholder.
 
 ![Data access control efficiency](https://res.cloudinary.com/daog6scxm/image/upload/v1653387401/cms/Efficiency_tri6jk.png "Data access control efficiency")
 
 #### 3. Efficiency
 
-Data access control is also an important tool for maximizing efficiency across different applications, workflows, and processes. A key part of this is limiting the number of actions that users can take.
+Data access governance is also an important tool for maximizing efficiency across different applications, workflows, and processes. A key part of this is limiting the number of actions that users can take.
 
 At the level of applications, this helps to ensure that user interfaces are as streamlined and effective as possible. At the database level, it helps to minimize labor costs stemming from unnecessary errors, security breaches, and administration tasks.
 
@@ -88,7 +88,7 @@ For example, if only certain users have permission to perform _UPDATE_ or _INSER
 
 You might do this across entire datasets, or at the level of individual entries, tables, or views.
 
-In any case, the goal is to limit the number of entities that can make changes to your data, reserving these permissions to users and processes that strictly need to add or update values.
+In any case, the goal is to limit the number of entities that can make changes to your data, reserving these permissions to users and processes that strictly need to add or update values. This also helps to facilitate real-time processing.
 
 {{< cta >}}
 

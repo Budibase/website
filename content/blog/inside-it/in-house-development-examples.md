@@ -16,7 +16,7 @@ As such, we need to be conscious of the underlying issues that feed this ever-gr
 
 That’s the true value of learning by example.
 
-In this article, we’re looking closely at some of the most illustrative in-house development examples, to help you make the most of your internal team’s resources.
+In this article, we’re looking closely at some of the most illustrative in-house software development examples, to help you make the most of your internal team’s resources.
 
 But first, let’s take a quick step back.
 
@@ -28,7 +28,7 @@ In either case, the ultimate goal is to use technology to alleviate or overcome 
 
 Often, this means creating bespoke applications. But in-house development also involves configuring and customizing existing solutions, as well as providing support, maintenance, and other related functions.
 
-We’ll look at some use cases that commonly crop up in a second. For the minute it’s also worth noting that in-house development is also characterized by the fact that most tools are built for internal use.
+We’ll look at some in-house software examples that commonly crop up in a second. For the minute it’s also worth noting that in-house development is also characterized by the fact that most tools are built for internal use - rather than by an outsourced development company.
 
 Additionally, in-house developments are characteristically built around relatively discrete use cases. These are often highly specific or even totally unique to the business in question.
 
@@ -60,11 +60,11 @@ Figuring out if it’s best to build something yourself or pay someone else to d
 
 In truth, there are a wide number of competing concerns at play here. As such, a thorough analysis is needed. Check out our guide to [in-house vs outsourcing software development](/blog/inside-it/in-house-vs-outsourcing-software-development) for more information.
 
-For now, a good example of when you’d go in-house could be any project that requires a large degree of commercial awareness from developers - or even one that’s highly confidential.
+For now, a good example of when you’d go in-house could be any project that requires a large degree of commercial awareness from our in-house development talent pool.
 
 ## How do in-house teams build tools?
 
-Unfortunately, there are probably as many answers to this question as there are businesses. - or businesses that build custom solutions anyway.
+Unfortunately, there are probably as many answers to this question as there are businesses - or businesses with full-time in-house teams and development services anyway.
 
 In fact, we’ll see huge variances across different businesses in terms of both the tools and methodologies employed for internal projects.
 
@@ -72,11 +72,15 @@ So where does this leave us?
 
 It’s arguably more useful to consider the challenges facing internal developers. That way, we’re in a better position to think about the kinds of tools and strategies that will help us make the most of our development capacity, rather than worrying about what other companies do.
 
-The big thing here is that teams are seeing an explosion in demand for custom tools, at a time when budgets are being squeezed by harsh economic factors. When you add a global shortage of development talent into the mix, we have a big problem.
+This feeds many of the pros and cons of in-house development vs outsourcing development processes.
+
+The big thing here is that teams are seeing an explosion in demand for custom tools, at a time when budgets are being squeezed by harsh economic factors. Then there's the high costs of both hiring processes and contracting to outsourcing partners.
 
 ![Developer shortage](https://res.cloudinary.com/daog6scxm/image/upload/v1667829787/cms/Developer_Shortage_gqgnvv.webp "Developer shortage")
 
 ([Global News Wire](https://www.globenewswire.com/en/news-release/2022/02/10/2382917/0/en/New-Reveal-Survey-Finds-Skilled-Developer-Shortage-Among-Top-Challenges-for-2022.html))
+
+Despite this, contracting to an outsourcing company might not be viable - so we need to develop software internally one way or another.
 
 To reflect this reality, IT teams can draw on a couple of key strategies.
 
@@ -86,7 +90,7 @@ Alternatively, we can go down the route of empowering our development team to do
 
 The only way to do this is if they can build solutions faster.
 
-Because of this, more and more businesses are turning to low-code development to speed up turnaround times, thereby cutting down on the labor costs of building solutions.
+Because of this, more and more businesses are turning to low-code development to speed up turnaround times, thereby cutting down on the labor costs of building solutions. For instance, we can eliminate the need for outsourcing teams when we empower non-technical colleagues like project managers or database administrators to build solutions.
 
 We’ll see how Budibase is transforming the way businesses build solutions for a wide range of business problems a little bit later.
 
@@ -98,7 +102,7 @@ We’ve hinted at a couple of the key points already.
 
 One is that they’re normally focused on building solutions for highly business-specific problems.
 
-To flesh this out a bit, we’re really referring to some combination of the following:
+To flesh this out a bit, in-house developed software normally brings along some combination of the following:
 
 * A need to draw on esoteric data sources or legacy tools.
 * Highly unique or granular workflows that need to be digitalized.
@@ -274,7 +278,7 @@ For our in-house development example, we’ve chosen a simple employee directory
 
 This is an undersung yet indispensable tool for any modern organization - especially in the context of remote, international workforces.
 
-Consider the fact that your employees might never have even met in real life. So, for many queries, they’re unlikely to know who the best person to speak to is, let alone how to reach them.
+Consider the fact that your employees might never have even met in real life. So, for many queries, they’re unlikely to know who the best person to speak to is, let alone how to reach them. Then there are issues like language barriers.
 
 This is an extreme example of where directory tools can offer huge benefits across your organization.
 

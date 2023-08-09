@@ -18,31 +18,31 @@ Enter Elasticsearch GUIs.
 
 With a GUI you can use visual elements to interact with your Elasticsearch database. For instance, running commands and saving them for future use.
 
-The best part is that you can build your Elasticsearch GUI for free, without even needing to write a single line of code.
+The best part is that you can build a custom UI for Elasticsearch for free, without even needing to write a single line of code.
 
 You can use Budibase to connect to your database and run commands from it.
 
-Our goal for today is to explore what you can do with a GUI and to outline how you can build your Elasticsearch GUI from scratch in just 4 steps.
+Our goal for today is to explore what you can do with a GUI and to outline how you can build your Elasticsearch GUI tool from scratch in just 4 steps.
 
 Let’s get started!
 
 ## Where is Elasticsearch used?
 
-As the name suggests, Elasticsearch is used as a search tool. You can use it for customer-facing apps, or you can use it for internal apps, such as Business Intelligence solutions.
+As the name suggests, Elasticsearch is used as a search tool. You can use it for customer-facing apps, or you can use it for internal apps, such as Business Intelligence solutions. There are different Elasticsearch versions that are popular for different use cases.
 
-Elasticsearch is often an auxiliary DB that mirrors the main database and focuses only on search operations. This allows you to reduce the stress on your main DB for search functions, as these are usually quite resource-heavy.
+Elasticsearch is often an auxiliary DB that mirrors the main database and focuses only on search UIs and operations. This allows you to reduce the stress on your main DB for search functions, as these are usually quite resource-heavy.
 
 ## Does Elasticsearch have a GUI?
 
-No, Elasticsearch doesn’t have a GUI. There are many off-the-shelf GUI solutions for Elasticsearch though.
+No, Elasticsearch doesn’t have a GUI. There are many off-the-shelf Elasticsearch client GUIs though.
 
-You can pick a premade tool if you want, but it is so easy to build one that you’ll normally be better off with this option. With a custom Elasticsearch GUI, you have full control over what you can do in it, with no restrictions in terms of features, functionality, or configuration.
+You can access Elasticsearch from your browser using Budibase without coding. Let’s build your custom Elasticsearch web UI, which allows you to use it with as many users as you want, and on any device with an internet connection.
 
 ## How to access Elasticsearch from the browser?
 
 You can access Elasticsearch from your browser using Budibase without coding. Let’s build your custom Elasticsearch GUI, which allows you to use it with as many users as you want, and on any device with an internet connection.
 
-The demo GUI has four main screens, and a handful of additional forms.
+Today, we're going to show you how easy it is to use our open-source low-code platform to build a fully custom Elasticsearch management UI. The demo GUI has four main screens, and a handful of additional forms.
 
 The first screen is the homepage. In it, you can see a list of the saved queries. From it you can run queries, edit them, or add entirely new ones:
 
@@ -80,7 +80,7 @@ If you haven’t already, sign up for a free Budibase account. And if you just w
 
 Then, create a new app.
 
-You can select Elasticsearch as your data source. This is particularly handy if you are running Elasticsearch and Budibase on the same server. You can simply connect to it and it’s done.
+You can select Elasticsearch as your data source. This is particularly handy if you are running an Elasticsearch cluster and Budibase on the same server. You can simply connect to it and it’s done.
 
 But if you are using an external server (such as the cloud service for Elasticsearch) you might need alternative ways to connect to it.
 

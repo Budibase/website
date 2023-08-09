@@ -20,23 +20,23 @@ Let’s jump right in.
 
 ## What are we building?
 
-Our inventory management tool is going to be a one-screen app, but don’t let this fool you. It’s actually going to pack quite a punch. 
+Our free inventory app is going to be a one-screen app, but don’t let this fool you. It’s actually going to pack quite a punch.
 
 In terms of requirements, we basically want to enable our end users to do five things with our free inventory management software:
 
-1. Browse products based on their category.
+1. Browse products and inventory levels based on their category.
 2. Edit product information.
 3. Search for items based on their name.
 4. Check which items are low on stock.
 5. Reorder stock where necessary.
 
-Under the hood, we’re querying three tables from an existing MySQL database. 
+Under the hood, we’re querying three tables from an existing MySQL database. If you wanted to, you could add third-party integrations to point-of-sale, barcode scanning, existing tools like Zoho inventory, or other data sources in multiple locations.
 
 Along with Budibase’s native *read* functionality, we’ll also need three custom queries.
 
 But don’t worry if you’re not a SQL whizz - we’ll provide all of the code you need below and show you exactly how to use it to track inventory items in real time.
 
-Without further ado…
+Without further ado, here's how to build some powerful free inventory software.
 
 {{< youtube 5p4Vwv1xQl0 >}}
 
@@ -194,6 +194,8 @@ And the whole thing should look like this:
 
 ![Cards Repeater](https://res.cloudinary.com/daog6scxm/image/upload/v1687525691/cms/inventory-management-app/Inventory_Management_11_m1soa6.webp "Cards Repeater")
 
+Our components are fully responsive on mobile devices, so you can ship PWAs in place of dedicated mobile apps.
+
 ### 5. Create a side panel
 
 Now, we want users to be able to interact with the data we’re displaying here. Specifically, they need to be able to update entries in our *products* database. We want to stick to a one-screen design though.
@@ -307,6 +309,8 @@ You can also check out our guide to building a [SQL GUI](https://budibase.com/bl
 ## Turn data into action with Budibase
 
 At Budbase, we’re on a mission to help teams turn data into action. Large and small businesses around the world choose our open-source, low-code platform to build all kinds of custom web apps, at pace.
+
+If customization is your priority, this might just be the way to build the best free inventory app for small businesses and large enterprises alike.
 
 Here’s what makes Budibase tick.
 

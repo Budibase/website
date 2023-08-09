@@ -16,13 +16,15 @@ However, both offer high levels of security and usability. As such, the key deci
 
 Today we’re going to cover all of the key differences, with a specific focus on how role-based systems have come to be the preferred option for the majority of app projects. Then, we’ll wrap up by looking at how Budibase makes it easier than ever to control user permissions.
 
+So, what's the difference between role-based and rule-based access control?
+
 Let’s dive in.
 
 ## What is rule-based access control?
 
-As the name suggests, rule-based access control is a system built around defined conditions for providing or denying access to different users.
+As the name suggests, rule-based access control is a framework built around defined conditions for providing or denying access to different users within computer systems.
 
-Most of the time, these rules are based on individual users’ attributes. This is also called _attribute-based access control_ (ABAC).
+Most of the time, these rules are based on individual users’ attributes. This is also called *attribute-based access control* (ABAC). Or, admins may be able to use their own judgment about defining access permissions, in a more discretionary access control policy.
 
 Rules can be based on other contextual values too. For example, factors relating to previous actions, or the object's current stage in a particular workflow. You could even set rules based on system factors, like the current time of day, or server loads.
 
@@ -32,7 +34,7 @@ Essentially, this type of access control means configuring different conditions 
 
 The system then uses boolean logic to determine whether each condition is true or false, and assigns permissions based on this or moves onto another nested condition.
 
-Rules can be built around different combinations of attributes, or just one. So for example, a very simple rule-based system might only take account of a user’s current location to determine permissions.
+Rules can be built around different combinations of attributes, or just one. So, a very simple rule-based access control example might only take account of a user’s current location to determine permissions.
 
 In a more complex system, you might use their location as one factor, but also take account of their department, length of service, current device, or any other attributes or environmental factors.
 
@@ -110,11 +112,11 @@ On one level, this creates an additional workload when implementing changes. On 
 
 ## What is role-based access control?
 
-Now we have a thorough understanding of rule-based systems. Next, let’s think about role-based access control.
+Now we have a thorough understanding of rule-based systems. Next, let’s think about role-based access control (RBAC).
 
-A quick note on terms. Obviously, role-based or rules-based access control could both be abbreviated to _RBAC_, although it’s more commonly used for role-based systems.
+A quick note on terms. Obviously, rule-based and role-based access control could both be abbreviated to *RBAC*, although it’s more commonly used for role-based systems.
 
-For clarity’s sake, we’re going to avoid using this abbreviation later when we compare systems. For now, when we do use the term _RBAC_, we’re referring to role-based systems.
+For clarity’s sake, we’re going to avoid using this abbreviation later when we compare systems. For now, when we do use the term *RBAC* in the context of roles-based access control vs rule-based access control, we’re referring to role-based systems.
 
 As noted earlier, this is the other predominant framework for managing user permissions.
 

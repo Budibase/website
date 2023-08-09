@@ -31,15 +31,15 @@ Ops teams are responsible for daily tasks across so much of your business, so th
 
 For instance, your operations team has a stake in deciding how different kinds of projects are delivered, but they’re also responsible for how these are resourced and delegated in the first place.
 
-So, we can distinguish between everyday workflows and the layer of operations management that sits on top of these.
+So, we can distinguish between everyday workflows and the layer of operations management that sits on top of these. This is critical to digital transformation and service management.
 
-But what specific steps does operations automation involve?
+But what specific steps does ops automation involve?
 
 As we mentioned earlier, there are a huge number of strategies and techniques that fall under this umbrella.
 
 We’ll look at some of these in more detail later.
 
-For now, automating your operations involves using a range of digital tools and platforms to replicate human decision-making with computable conditions.
+For now, automating your operations involves using a range of digital tools and platforms to replicate human decision-making in routine tasks with computable conditions.
 
 In an operations context, this can mean deciding whether or not to go ahead with a particular task, which teams or agents work should be allocated to, or what resources are required in different situations.
 
@@ -56,18 +56,18 @@ We’ll look at some specific examples of each of these shortly.
 
 You might be thinking that this all sounds pretty familiar. And rightly so. There are a few different approaches to automation in the workplace, although they largely overlap in terms of the core techniques they use, so there aren’t too many surprises with automating operations.
 
-The difference is that these frameworks focus on different kinds of work across your business.
+The difference is that automation in operations management focus on different kinds of work across your business.
 
 The two main approaches here are:
 
 * Business process automation (BPA).
 * Workflow automation.
 
-[Workflow automation](https://budibase.com/blog/automation/workflow-automation/) is all about creating end-to-end systems for streamlining the flow of resources within a specific, discrete function.
+[Workflow automation](https://budibase.com/blog/automation/workflow-automation/) is all about creating end-to-end systems for streamlining the flow of resources within a specific, discrete function - so repetitive manual tasks in other words.
 
 BPA focuses less on end-to-end automation, and more on automating similar core tasks that are repeated in multiple processes, to boost efficiency more generally. Check out our ultimate guide to [business process automation ](/blog/automation/business-process-automation/)for more information.
 
-Operations automation can draw on either of these approaches.
+Operations automation can draw on either of these approaches. It might even use artificial intelligence or other more advanced automation platforms.
 
 The key is that operations teams can effectively streamline internal functions through automation, regardless of the framework that specific scenarios call for.
 
@@ -87,7 +87,7 @@ Let’s take a look.
 
 Naturally, making your business operate more efficiently is usually the central goal of automation projects.
 
-This is all about cutting operating costs.
+This is all about cutting operating costs - as well as allowing you to save time.
 
 Obviously, when you remove the need for employees to manually carry out different tasks, you’ll incur lower labor costs. In the current age of lay-offs and hiring freezes, this is critical.
 
