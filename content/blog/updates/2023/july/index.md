@@ -117,7 +117,6 @@ Enterprise customers can now deploy Budibase within an air-gapped environment.
 ### Docs
 
 - [Helpers - inbuilt functions to prevent the need for writing code](https://docs.budibase.com/docs/helpers)
-- [Configuring form fields in a table block (**recipe**)](https://docs.budibase.com/docs/configure-form-fields-of-a-table-block)
 - [How to scroll to top of screen](https://docs.budibase.com/docs/scroll-to-form-field)
 - [Update date field on change](https://docs.budibase.com/docs/update-date-field-on-change)
 
