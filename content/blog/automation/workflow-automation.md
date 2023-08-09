@@ -158,7 +158,7 @@ In other words, workflow automation helps you to more tightly control how users 
 
 Most workflows will also have defined competencies for different users. That is, RBAC is effectively built into most automated workflows, limiting the actions that different kinds of users can take at each stage.
 
-## How does workflow automation work?
+## How do workflow automation systems work?
 
 Now that we understand why you would want to automate workflows, it’s important to understand the theory behind how you go about this.
 
@@ -166,7 +166,7 @@ The key here is defining business rules and implementing these within systematic
 
 The same principle applies no matter which tools you use to automate workflows.
 
-As we’ll see shortly, the key is analyzing your existing workflows, to determine the logic that underpins them.
+As we’ll see shortly, the key is analyzing your existing workflows, to determine the logic that underpins them for task management purposes.
 
 Once you’ve done this, the first task is to replicate these rules within your automation system and outsource decision-making based on them wherever possible. Then, you can decide which specific actions can be automated, and which will remain as manual tasks.
 
@@ -200,7 +200,7 @@ For example, when employees don’t need to manually contact a member of the HR 
 
 ### Customer service
 
-Workflow automation is critical for modern customer service. The crux of the matter is that customers are busy, so they expect fast, streamlined experiences.
+Workflow automation is critical for modern customer support and service. The crux of the matter is that customers are busy, so they expect fast, streamlined experiences.
 
 Simple workflow automations here can include onboarding or after-sales emails.
 
@@ -365,7 +365,7 @@ Here’s what you need to know about the latter.
 
 ### What is a workflow automation tool?
 
-Workflow automation tools are specifically built to help you create the smoothest, most efficient workflows possible. This means optimizing the flow of resources through different workflow steps, as well as creating user interfaces and automation rules.
+Workflow managment tools are specifically built to help you create the smoothest, most efficient workflows possible. This means optimizing the flow of resources through different workflow steps, as well as creating user interfaces and automation rules.
 
 These platforms aim to make it easy for any business user to automate processes, without necessarily needing specific technical skills.
 
@@ -410,6 +410,8 @@ No-code tools allow you to create functional applications with absolutely no tec
 By focusing less on visualizing processes, and more on creating practical solutions no/low-code tools typically offer greater functionality than traditional workflow automation software.
 
 For example, Budibase offers a range of automation tools, as well as auto-generated CRUD screens, customizable RBAC, extensive support for external data, and more. We’ll take a look at the specific ways our platform can help you to automate workflows a little later.
+
+So, how do you create a workflow automation solution?
 
 ## How to implement workflow automation in 8 steps
 

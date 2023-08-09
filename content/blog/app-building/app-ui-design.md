@@ -34,7 +34,7 @@ For now, though, the key thing to understand is that your UI design shapes how u
 
 ## How does UI design impact your app’s success?
 
-It’s worth drilling into the concrete impact that UI design can have on the success of your app project. That is, how design factors can influence the return on investment you’ll see from whatever kind of app you build.
+It’s worth drilling into the concrete impact that application UI design can have on the success of your project. That is, how design factors can influence the return on investment you’ll see from whatever kind of app you build.
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1655459056/cms/UI_Return_on_Investment_vtn4gb.png)
 
@@ -70,7 +70,7 @@ This works by eliminating any points of ambiguity or confusion around how users 
 
 More on this second point later.
 
-In any case, the idea is that usability helps to minimize costs associated with poor user experiences, including delays, mistakes, or low adoption rates.
+In any case, the idea is that usability helps to minimize costs associated with poor user experiences, including delays, mistakes, or low adoption rates. This applies equally to desktop and mobile designs.
 
 ### Retention/buy-in
 
