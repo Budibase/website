@@ -10,7 +10,7 @@ author: Joe Johnston
 draft: false
 ---
 
-Budibase is officially a collaborative platform where IT professionals can work together to build internal apps, faster. The July release introduces a number of new features, including; complete multiplayer support, run Budibase in an air-gapped environment, customize the color of options within a select field, disable notifications on blocks, and more.
+Budibase is officially a collaborative platform where IT professionals can work together to build internal apps, faster. The July release introduces a number of new features, including; multiplayer support, running Budibase in an air-gapped environment, customizing the color of options within a select field, disabling notifications on blocks, and more.
 
 ---
 
@@ -35,7 +35,7 @@ We are thrilled to announce that multiplayer mode is now available within the de
 
 ## Customize the color of options
 
-Customize the color of options within the Options and Multi-select fields.
+Customize the color of options within Options and Multi-select fields.
 
 ![Option colors](https://res.cloudinary.com/daog6scxm/image/upload/v1691501572/features/select-field_c76g47.webp)
 
@@ -75,16 +75,19 @@ Enterprise customers can now deploy Budibase within an air-gapped environment.
 ## Further updates
 
 - **Disable notifications within Block components**
-  Block components can be configured to disable notifications
-
-- **Filter relationship pickers**
-  You now now apply filtering to your relationship picker component.
-
-- **Download system logs**
-  Budibase self-host installations now support exporting system logs (up to 20MB).
-
   
-
+  Block components can be configured to disable notifications
+  
+- **Filter relationship pickers**
+  
+  You now now apply filtering to your relationship picker component.
+  
+- **Download system logs**
+  
+  Budibase self-host installations now support exporting system logs (up to 20MB).
+  
+  
+  
   
 
 ---
@@ -114,7 +117,6 @@ Enterprise customers can now deploy Budibase within an air-gapped environment.
 ### Docs
 
 - [Helpers - inbuilt functions to prevent the need for writing code](https://docs.budibase.com/docs/helpers)
-- [Configuring form fields in a table block (**recipe**)](https://docs.budibase.com/docs/configure-form-fields-of-a-table-block)
 - [How to scroll to top of screen](https://docs.budibase.com/docs/scroll-to-form-field)
 - [Update date field on change](https://docs.budibase.com/docs/update-date-field-on-change)
 
