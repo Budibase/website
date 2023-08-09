@@ -24,7 +24,9 @@ But first, we need to cover the basics.
 
 Basically, a workflow model is a theoretical plan for how a particular task is supposed to be completed in your organization. This includes the steps that must be followed, the order of these, and the rules that underpin them,
 
-On top of this, your workflow model governs who is responsible for each of these constituent actions.
+This is usually presented as a visual representation of the series of steps that are required to bring a task from start to finish. A workflow diagram is how we represent this abstract model.
+
+On top of this, your workflow model governs who is responsible for each of these constituent actions for example, the specific competences within approval processes.
 
 This is important for several reasons.
 
@@ -50,6 +52,8 @@ We can break the use cases for workflow modeling into two categories:
 So, there are some situations where we only need a model to outline how the workflow operates. For instance, for training new employees, communicating changes, or simply documenting best practices and business rules.
 
 More often though, we model workflows because we want to assess how effective they are or come up with ways to improve them. An effective model forms the basis of all kinds of workflow management.
+
+We can then implement new models using workflow management software and other user interfaces.
 
 For example, if we wanted to cut the costs associated with performing a particular task, we’d start by modeling it to find out where we can make efficiency savings.
 
@@ -88,6 +92,8 @@ Situations where sequential workflows would be unsuitable include more individua
 State-based workflows are much more complex and, therefore, useful for more complicated tasks. Rather than following a fixed order, constituent actions are tied to defined events and triggers.
 
 These types of workflows can also be described in terms of _states_ and _transitions_. Basically, resource _transitions_ from one _state_ to another based on external actions, system events, or user interactions.
+
+State-based workflows are particularly easy to implement with computational workflow management systems.
 
 Part of the appeal of this type of workflow model is that constituent steps don’t necessarily need to be carried out in any particular order. Rather, they can follow radically different paths to completion, based on how events unfold in the real world.
 

@@ -26,7 +26,7 @@ API headers are a section of your requests that’s used to transfer metadata ab
 
 In more basic terms, this is where you can provide extra information about the request.
 
-API *responses* use HTTP headers too - for exactly the same purposes - providing context to the data that’s been sent.
+API *responses* use HTTP request headers too - for exactly the same purposes - providing context to the data that’s been sent.
 
 Header attributes can relate to several different things, but for the most part, we’re dealing with four categories of metadata.
 
@@ -45,7 +45,7 @@ The body is the actual data that you’re passing on or requesting. The header g
 
 ### Why is this needed?
 
-So why do we need API headers? If the body contains the data that we want to transfer with our request and response, what’s this extra information for?
+So why do we need REST API headers? If the body contains the data that we want to transfer with our request and response, what’s this extra information for?
 
 Without getting into the technical stuff just yet, the metadata in your headers can play a few different roles.
 
@@ -69,7 +69,7 @@ Next, let’s check each of these out in turn to see the specific data we can in
 
 ### Body and response information
 
-First, there’s information about our request body and the response - particularly relating to their format.
+First, there’s additional information about our request body and the response - particularly relating to their format.
 
 For request headers, some of the most common attributes are:
 
@@ -93,7 +93,7 @@ Authorization is related to how we prove that we have permission to carry out sp
 
 For the client side, the most common request header here is **authorization**, which is used to store your unique *API key*. This serves two roles. First, it proves that we’re allowed to make requests to the server.
 
-Second, it can indicate to the server which specific resources we can access via API requests - at least within role-based access control systems.
+Second, it can indicate to the server which specific resources user agents can access via API requests - at least within role-based access control systems.
 
 The most common response header for authorization is **www-authenticate**. This indicates that some form of authentication is required before the server can respond to the original request.
 
@@ -107,7 +107,7 @@ Response caching is when the server stores response data in order to reduce the 
 
 Basically, when a response is cached, the stored body is returned to requests, rather than the information being retrieved each time.
 
-This is defined using the **cache-control** header. 
+This is defined using the **cache-control** HTTP header.
 
 We can use this to set a number of directives, such as:
 

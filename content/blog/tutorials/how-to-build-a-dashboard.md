@@ -34,11 +34,11 @@ At a technical level, dashboards are made up of three layers:
 
 1. **The data layer** - Where our data is stored and queried.
 2. **The presentation layer** - The interface that users access to check out our report.
-3. **The process layer** - Where we carry out any transformations or processing to get our data from the data layer to the presentation layer, in the format we need.
+3. **The process layer** - Where we carry out any transformations or processing to get our data from the data layer to the presentation layer, in the format we need - as well as cleaning your data.
 
-The process layer becomes more important the more complex our data layer is. For example, if we’re querying *one* database to create our report, we might not need much processing. 
+The process layer becomes one of the more important steps to building a dashboard the more complex our data layer is. For example, if we’re querying *one* database or Excel table to create our report, we might not need much processing.
 
-If we query *two* separate datasets, we’ll need to work a little bit of magic behind the scenes to unify these into a comprehensible report - and so on.
+If we query *two* or more separate datasets - say a database plus Google Analytics and an Excel workbook, we’ll need to work a little bit of magic behind the scenes to unify these into a comprehensible report - and so on.
 
 This is where traditional reporting tools, especially spreadsheets, fall down - they just don’t offer us enough capability to process and collate external data.
 
@@ -58,13 +58,13 @@ In a product team, this could be used to monitor GitHub metrics in a faster, mor
 
 Alternatively, dashboards can also be used to report on *status* updates - either internally or in a customer-facing context.
 
-For instance, your IT team needs to make sure that all of your network infrastructure is running correctly. Uptime dashboards provide a fast, easy way to do this, as well as expediting the process of diagnosing problems if they do occur.
+For instance, your IT team needs to make sure that all of your network infrastructure is running correctly. Uptime dashboards provide a fast, easy way to do this, as well as expediting the process of diagnosing problems if they do occur - which they might not be able to if they rely on a dashboard in Excel or Google Sheets.
 
 Or, in a customer-facing context, we might use a simple web-based dashboard to let users check out the status of your new feature releases, or even check out important data relating to *their own* accounts.
 
 The possibilities are basically endless.
 
-## How to create a dashboard with multiple data sources
+## How to make a dashboard with multiple data sources
 
 As we said earlier, things begin to get a bit trickier when it comes to how to build a dashboard that requires a more complex data model.
 
@@ -76,7 +76,7 @@ One is if we store data on the same entities in separate, unrelated data sources
 
 In an ideal world, we’d have a preconfigured single source of truth to help us here, but the reality for most businesses is that we won’t. So, we’ll need to query both and then use our process layer to collate data from each about individual customers and orders.
 
-The other scenario is if the required data sets differ in terms of their format.
+The other scenario is if the required data sets differ in terms of their format. We'd still want to view these as a single data tab if they relate to the same entity - rather than multiple app screens.
 
 Say we were building a sales dashboard that comprised data from our ecommerce site for online orders and our invoicing platform for enterprise sales. Even minor variations in how dates are formatted between these tools could skew our figures.
 
@@ -155,7 +155,7 @@ When we create a Budibase app, we’ll be prompted to choose a data source:
 
 ![choose a data source](https://res.cloudinary.com/daog6scxm/image/upload/v1682674089/cms/build-a-dashboard/Build_a_dashboard_3_ygujwk.webp "choose a data source")
 
-Recall, we’re going to use a Postgres database, a REST API request, and a Google Sheets table - so we’ll actually need to create three separate data sources.
+Recall, we’re going to use a Postgres database, a REST API request, and a Google Sheets table - so we’ll actually need to create three separate data sources. This will give us far superior functionality compared to creating an Excel dashboard.
 
 We’ll start with our Postgres table. When we click on Postgres, we’ll see the following form where we can enter our credentials and fetch our tables:
 
@@ -402,6 +402,8 @@ And that’s our cards most of the way there. We’ll update these to account fo
 #### Charts
 
 Next, we’ll add a *Chart Block* to the bottom of each report. For the first, we’ll set the *data* to *onlineOrders*, the *label column* to *date,* and the *data column* to value. We’ll also change the *height* setting from 400 to 600, to make it a little taller.
+
+We can also use custom CSS to perfect our chart's area.
 
 Then, we’ll do the same with our Ad Spend tab, this time using *Ad Spend* as the data, *Date* as the label, and *Spend* as the data column.
 

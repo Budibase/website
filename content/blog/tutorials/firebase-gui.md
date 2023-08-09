@@ -26,7 +26,7 @@ Let’s see how you can quickly build a Firestore GUI in just 4 steps, without c
 
 ## What is the difference between Firebase and Firestore?
 
-The difference between Firebase and Firestore is that Firebase is a suite of tools for app development, and Firestore is one of the databases in it. Firebase includes other tools to completely replace the backend for apps, such as authentication, notifications, messaging, and more.
+The difference between Firebase and Firestore is that Firebase is a suite of tools for app development, and Firestore is one of the databases in it. Firebase includes other tools to completely replace the backend for apps, such as authentication flows, sign-in UIs, notifications, messaging, and more.
 
 Firestore is a NoSQL database, with great performance optimized for saving and retrieving data at scale.
 
@@ -46,9 +46,11 @@ If you want to use Firebase and you want to perform these actions, you’ll prob
 
 ## Does Firebase have a GUI?
 
-Firebase doesn’t have a GUI. They provide a web tool to explore data in a table view, but you can’t customize it in any way.
+There isn't a native Firebase database GUI. They provide a web tool to explore data in a table view, but you can’t customize it in any way.
 
-For this reason, it’s a good idea to build a Firebase GUI using a low-code tool such as Budibase. This allows you to quickly connect to your Firebase Firestore, manage your data, and can customize your GUI any way you want.
+For this reason, it’s a good idea to build a Firebase GUI using a low-code, open-source tool such as Budibase. This allows you to quickly connect to your Firebase Firestore, manage your data, and can customize your Firebase UI any way you want.
+
+We're going to build a web-based Firebase GUI client, offering seamless cross-device experiences.
 
 This is exactly what you’ll build today.
 
@@ -110,7 +112,7 @@ He is a quick start guide for Cloud Firebase:
 
 Now navigate to “Firestore Database” and create a couple of collections to get started.
 
-Next, sign up for Budibase, create a new app, and select Firestore as your data source:
+Next, sign up for Budibasewith your preferred sign-in method, create a new app, and select Firestore as your data source:
 
 ![Firebase data source](https://res.cloudinary.com/daog6scxm/image/upload/v1669031764/cms/07_wpqzov.webp "Firebase data source")
 
@@ -315,6 +317,8 @@ Lastly, there’s the _actions_ row. The save button simply saves the form field
 And the reset field just deletes these app states.
 
 Therefore, when these buttons are pressed, they either store the entire filter selection as app states or delete them, and close the modal to see the panel screen again.
+
+We could also filter on other kinds of data. For example, if we stored different phone numbers inputs that share the same country code.
 
 ### 2.4 - The Collections List
 

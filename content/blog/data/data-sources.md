@@ -43,7 +43,7 @@ This might include dedicated sources, like databases or flat files, and connecti
 
 These days, businesses rely more heavily on data than ever before. While the benefits of this are too obvious to count, the data revolution also presents many challenges. The reality is that many businesses have more data than they know what to do with.
 
-Even worse, most of this probably lives in a variety of spreadsheets, legacy tools, or SaaS platforms.
+Even worse, most of this probably lives in a variety of spreadsheets, legacy tools, or SaaS platforms - leading to poor data integrity.
 
 A strong understanding of web app data sources is the first step towards overcoming this.
 
@@ -59,7 +59,7 @@ With web apps, things are a little bit more complex.
 
 Web apps are stored on servers that are completely separate from the end user's device. Users then access them through their browsers. Depending on the app, the data source may be hosted on the same server, or in a completely different location.
 
-For example, your web app might pull data from a dedicated internal table. It might equally rely on existing data from external tools, legacy systems, or some other repository.
+For example, your web app might pull data from a dedicated internal table. It might equally rely on existing data from external tools, legacy systems, or some other repository. When we develop data apps, we might need to use one as a primary data source - requiring data migration to get up and running.
 
 Let’s take a deeper dive into how web apps work, and some of the more specific types of data sources they can use.
 
@@ -77,15 +77,15 @@ It’s useful to think of any web app as having three layers:
 
 Of course, we’re mostly concerned with the data layer today. Essentially, this includes any internal data sources, as well as different ways of connecting to external ones.
 
-Here are the four most common methods for storing web app data.
+Here are the four key different types of data sources.
 
 ### 1. Databases
 
 Databases are undoubtedly the most common kind of data source. When talking about web apps, it’s important to note that _database_ refers to the data which is stored, as well as the technology used to create the database itself.
 
-A database is a way of organizing information into tables. Each table has a set of columns, representing the different attributes, and rows, representing individual instances.
+A database is a way of organizing information into tables. Each table has a set of columns, representing the different attributes, and rows, representing individual instances. This allows us to store large amounts of data in a consistent manner.
 
-Most modern databases are created and maintained using SQL.
+Most modern databases are created and maintained using SQL. Other tools are also used for more complex data science, data analysis, and machine learning functions.
 
 SQL has been the dominant database language for decades, thanks to its intuitive query syntax, and relational model.
 

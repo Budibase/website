@@ -12,11 +12,11 @@ Spreadsheets are great, but they also come along with a whole raft of limitation
 
 Of course, Google Sheets is incredibly useful for storing and manipulating all kinds of data.
 
-This could be financial data, personal information, KPIs, or any other kind of business intelligence. What makes spreadsheet tools like Google Sheets so popular is their flexibility.
+This could be financial data, personal information, KPIs, key metrics, or any other kind of business intelligence. What makes spreadsheet tools like Google Sheets so popular is their flexibility.
 
 But, they’re far from the perfect solution for every use case.
 
-Today, we’re going to explore some of the situations where you might decide you need additional tools to supplement your data workflows. Specifically, when it comes to presenting key insights to decision-makers.
+Today, we’re going to explore some of the situations where you might decide you need additional tools to supplement your data workflows. Specifically, when it comes to presenting key insights to decision-makers - without the need for time-consuming data visualization and manual analysis of raw data.
 
 We’ll also take a deep dive into how low-code development is changing the landscape here - and how Budibase empowers businesses to build incredible custom tools, in as little as five minutes.
 
@@ -47,7 +47,7 @@ That is, the ultimate goal here is to facilitate better decision-making by empow
 
 ## Couldn’t I just build a report in Google Sheets?
 
-Well, yes, you _could_.
+Well, yes, you *could*. Indeed, there are plenty of free Google Sheets dashboard templates out there, with a range of pivot tables, pie, charts, column charts, and more.
 
 So a better question is why would you want to build a dedicated dashboard tool instead of just using Google Sheets’ built-in reporting capabilities?
 
@@ -68,7 +68,9 @@ This impacts:
 * **Functionality -** If you need specific functionality that Google Sheets doesn’t offer, you might simply be out of luck.
 * **Scalability -** Spreadsheets might work for your present needs, but as your data set and user base grow, things will get messy.
 
-Things also get particularly messy if you need to draw on real-time data from multiple spreadsheets in a single report or build relationships between different entities.
+Things also get particularly messy if you need to draw on real-time data from multiple spreadsheets in a single report or build relationships between different entities. Say we wanted to pull in real-time Google Analytics data and values from our CRM.
+
+We'd have a very hard time doing this - even if we could get all the necessary data to create a dashboard in Google Sheets.
 
 ## What does a dedicated dashboard tool offer?
 
@@ -126,7 +128,7 @@ Choose the right hosting solution for your unique requirements.
 
 Build a Google Sheets dashboard and deploy it to the cloud, your local network, or a dedicated machine. With Budibase, the choice is yours.
 
-## Building a Google Sheets Dashboard with Budibase in 7 steps
+## Building a Google Sheets Dashboard with Budibase in 7 easy steps
 
 Enough theory. If you’re reading this, you probably already know you want to build a Google Sheets dashboard.
 
@@ -134,7 +136,7 @@ We’ve said throughout that Budibase makes building tools easier than ever. So,
 
 ### 1. Create a new app and choose Google Sheets as your data source
 
-First thing’s first, we need to create a new app project. If you don’t have one already, you’ll need a free Budibase account.
+First thing’s first, we need to create a new app project. If you don’t have one already, you’ll need a free Budibase account. You'll also want to create a Google Sheets document if you don't have one already.
 
 You can [sign up here](https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=navigation-cta&_gl=1*18xs8eq*_ga*MTIwMDg4OTE3My4xNjU3MTk2NDIx*_ga_2JVG0FWDDG*MTY2MDgxNzEzOS41OC4xLjE2NjA4MTc3MjEuMC4wLjA.).
 
@@ -210,7 +212,9 @@ We’re also going to build a few custom queries to get some aggregate values fo
 * The total sales volume.
 * The average order value.
 
-We can do this using simple JavaScript transformations under the _data_ tab. First, we’ll get the number of orders by returning the number of rows in our sheet with the _.length_ property:
+Click add a query.
+
+We can then do this using simple JavaScript transformations under the *data* tab. First, we’ll get the number of orders by returning the number of rows in our sheet with the *.length* property:
 
 ![Sales count query](https://res.cloudinary.com/daog6scxm/image/upload/v1661174815/cms/Screenshot_2022-08-17_at_15.13.55_hjbmgm.webp "Sales count query")
 

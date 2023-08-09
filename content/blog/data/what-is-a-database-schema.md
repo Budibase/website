@@ -40,6 +40,8 @@ If you know from the outset that this is a requirement, you should build this fa
 
 Finally, your schema acts as a kind of roadmap for any developer that will work on your app project. Having a clear blueprint of your app’s data is crucial when building processes, user interfaces, and automation rules.
 
+So, with existing data sources, we need a clear picture of the schema data and overall database design in order to work with it effectively.
+
 ## What should your schema include?
 
 But what specific information does a database schema contain? Remember, the idea is to outline the data you’ll store, what rules apply to different values, and how different variables will relate to each other.
@@ -282,7 +284,9 @@ The goal here is to create a technical outline of how our database should be str
 
 ### Physical schemas
 
-Finally, the physical schema is a concrete, technical design for our database. A large part of this is translating your logical schema into a more detailed model that suits the specific requirements of your chosen DBMS.
+Finally, the physical database schema is a concrete, technical design for our database. A large part of this is translating your logical schema into a more detailed model that suits the specific requirements of your chosen DBMS.
+
+This is what database administrators use to manage the database instance.
 
 This includes creating and naming all tables, attributes, and keys, as well as validation rules, triggers, stored procedures, and integrity constraints. We’ll also implement the relationships we outlined in the previous levels of our database schema.
 
@@ -320,9 +324,11 @@ As we referred to earlier, this means creating tables for distinct entities and 
 
 This introduces a large degree of complexity, as each entity can have different relationships to several other tables.
 
-However, relational databases also provide high levels of flexibility. For example, there is a massive scope to establish your own complex design for how each of your tables relates to the others.
+However, relational databases also provide high levels of flexibility. For example, there is a massive scope to establish your own complex design for how each of your tables relates to the others. For instance, by using entity relationships to build a hierarchical model.
 
 Relational schemas also make it easy to query complex, related data. Specifically, it’s possible to query attributes in a related table, without the need to go through a hierarchical or directory-based structure.
+
+Relational DBMSs include SQL-derived tools like MySQL, MSSQL, Postgres, and Oracle database.
 
 ![Relational Database Schema](https://res.cloudinary.com/daog6scxm/image/upload/v1653318326/cms/Relational_Schema_wvd2cj.png "Relational Database Schema")
 
