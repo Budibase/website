@@ -10,7 +10,7 @@ title = "Building a Business Rules Engine with Budibase"
 
 +++
 
-Business rules engines do a huge amount of heavy lifting within the field of process automation. But, despite their outsized importance, they’re something you might not have paid much attention to before.
+Business rules engines (BREs) do a huge amount of heavy lifting within the field of process automation. But, despite their outsized importance, they’re something you might not have paid much attention to before.
 
 Basically, any internal process can be expressed as a set of business rules. These make up the logic that decides what actions are taken by employees or automated systems at each point in a process or workflow.
 
@@ -20,27 +20,27 @@ The only trouble is that we need a certain amount of specialist skills, resource
 
 Today, we’re going to see how business rules engines can improve your ability to automate tasks, lightening the load on your development team and empowering less technical colleagues to automate daily tasks within their own departments.
 
-We’ll even check out how you can use Budibase to build a fully functioning business rules engine - for free - with almost no custom code required.
+We’ll even check out how you can use Budibase to build a fully functioning open-source rules engine - for free - with almost no custom code required.
 
 First, though, let’s start with the basics.
 
 ## What is a business rules engine?
 
-A business rules engine is an application that allows you to define, store, and enforce business logic.
+A business rules engine is a software application that allows you to define, store, and execute rules within business processes.
 
-You can think of this as being a bit like a central *brain* for your automated workflows.
+You can think of this as being a bit like a central *brain* for your rules-based automated workflows. This is also sometimes referred to as a business rules management system.
 
-We use a business rules engine to create a centralized location to store all of the rules that govern our processes. These can then be used to trigger or respond to actions in external platforms and data sources.
+We use a business rules engine to create a centralized location to store all of the rules that govern our processes. These can then be used to trigger or respond to actions in external platforms and data sources in real time.
 
 The idea is that we can define and manage our business rules in one location and then leverage them wherever we need them.
 
-Say for example we had logistics process that routes orders through different flows depending on their value - which is enacted in *multiple* different workflows. Rather than needing to code this into every related solution, a business rules engine enables us to do this just once.
+Say for example we had a logistics process that routes orders through different flows depending on their value - which is enacted in *multiple* different workflows. Rather than needing to code this into every related solution, a business rules engine enables us to do this just once.
 
 Then, if we need to make changes, we can do so in a single location as well.
 
 We can also use business rules engines to provide an accessible, user-friendly way to implement governing logic. 
 
-We can provide users with a library of pre-configured automation rules that can be accessed through webhooks or API requests - thereby lowering the technical barriers to creating custom automations based on these.
+We can provide users with a library of pre-configured automation rules that can be accessed through webhooks or API requests - thereby lowering the technical barriers for business users to create custom automations based on these.
 
 ### How do business rules engines work
 
@@ -57,6 +57,8 @@ How we interact with this can vary, based on how you build your solution. So, yo
 This ultimately depends on what you want to use your BRE for. We’ll see some of the different common configurations in a second.
 
 It’s also important to note that each rule will have a defined *schema*. This is the data that the rule can accept in order to be initiated. So, the specific attributes that we’ll assess, along with any stipulations we want to make about their format, type, or values.
+
+Check out our guide to [workflow management database design](https://budibase.com/blog/data/workflow-management-database-design/).
 
 Let’s take a look at some of the different ways we can put this into practice.
 
@@ -90,7 +92,7 @@ Code-based BREs are also relatively difficult to maintain, as we need to hard-co
 
 One alternative is using **low-code** tools to enforce our business rules. Normally, this will mean we can only access rules through webhooks or API requests, but it makes life a lot easier when it comes to managing, maintaining, or modifying them.
 
-Generally speaking, we’ll also make it a lot easier for less technical colleagues to take advantage of our business rules engine.
+Generally speaking, we’ll also make it a lot easier for less technical colleagues to take advantage of our business rules engine. With Budibase, we can build web-based, open-source business rules engines at pace.
 
 ### Use cases
 
@@ -99,6 +101,8 @@ Let’s think about a few more situations where business rules engines can come 
 The first is your run-of-the-mill development workflows. Business rules are centrally defined - normally either by departmental leaders or the ops team. However, they can’t predict every technical solution that will need to draw on these rules.
 
 We can save our IT team huge amounts of time and effort by eliminating the need to hard-code business logic from scratch, every time they need to build a tool that enforces one of these rules.
+
+Say an insurance company needed to enforce up-to-date business logic on a whole number of internal solutions.
 
 The other big use case is helping to empower non-developers to automate tasks. 
 

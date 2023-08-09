@@ -8,7 +8,7 @@ title = "The 12 best no-code tools in 2023"
 +++
 No-code tools empower people around the world to build technology without code. Before no-code tools, building a simple web application was a challenging task, and often left to developers. Thankfully, this is not the case anymore. While no-code tools cannot solve all technical challenges, having the right no-code stack can undoubtedly help you get certain jobs done a lot faster, easier, and cheaper.
 
-There are hundreds of no-code tools available, some free and some expensive. They also serve tons of different purposes, from 3rd party integrations to building web applications and more.
+There are hundreds of free no-code tools available - as well as paid options. They also serve tons of different purposes, from 3rd party integrations to building web applications and more.
 
 The no-code landscape is attracting a lot of interest and is growing year on year. Check out this trend line:
 
@@ -16,29 +16,37 @@ The no-code landscape is attracting a lot of interest and is growing year on yea
 
 This growth is exciting since it means that if you have a development problem, you can probably find a no-code tool to help you solve it. But it’s also overwhelming. How do you know which of the couple hundred tools are worth trying and investing in?
 
-This post will help clarify those decisions for you. We’ll outline the top 12 no-code tools in 2021. Each platform has its specific use case, so please pay attention to its purpose - this will ensure you choose the right tool for the right job.
+This post will help clarify those decisions for you. We’ll outline the top 12 no-code programming tools in 2023. Each platform has its specific use case, so please pay attention to its purpose - this will ensure you choose the right tool for the right job.
 
 ## What is no-code
 
 For those of you who are wondering 'what is no code?', let me explain. Software is built using code. This has not changed. What has changed is how that code is produced.
 
-Traditionally, code is produced by a developer/programmer writing it using an IDE (integrated development environment). Writing code is a difficult skill and takes years to master. On top of that, in most scenarios, there are more than one programming language and framework to learn.
+No-code software and automation tools work quite a bit differently.
+
+Traditionally, code is produced by a developer/programmer writing it using an IDE (integrated development environment) or other development platforms. Writing code is a difficult skill and takes years to master. On top of that, in most scenarios, there are more than one programming language and framework to learn to create effective code solutions or mobile apps.
 
 With no-code tools, you can build a web app, website, database, etc. without having to write code. No code tools replace coding with clicking or drag and drop. In most cases, the user interacts with a GUI (graphic user interface). This method of building software is often referred to as visual programming, which is not a new concept.
 
-Truth be told, I am not a fan of the phrase no-code because it is wrong. Code powers the internet, and always will. What no code stands for is more of a movement and set of tools. 'No coding' is more appropriate, and even that is not technically correct. A short description can be found below:
+App builders that allow citizen developers to create enterprise-grade solutions for handling business processes have been around for years.
+
+Truth be told, I am not a fan of the phrase no-code because it is wrong. Code powers the internet, and always will. What no code stands for is more of a movement and set of tools. ‘No coding’ is more appropriate, and even that is not technically correct - as it implies there is not a single line of code involved.
+
+A short description can be found below:
 
 > No-code is a method of programming that involves building web technologies with GUI-based tools, instead of writing code.
 
 ## History
 
-If you studied computer science or ICT in the late 90s / early 00s, you will fondly 😜 remember [Dreamweaver](https://www.adobe.com/uk/products/dreamweaver.html) and [Frontpage](https://en.wikipedia.org/wiki/Microsoft_FrontPage). These tools were groundbreaking in their time and many peoples' first experience of a no-code tool. I built my first website with Frontpage, and it looked terrible, but it was a live website on the internet, which was a success 🎉. Sadly, I don't have a picture of my website, but thankfully you can catch a glimpse of Frontpage below.
+If you studied computer science or ICT in the late 90s / early 00s, you will fondly 😜 remember [Dreamweaver](https://www.adobe.com/uk/products/dreamweaver.html) and [Frontpage](https://en.wikipedia.org/wiki/Microsoft_FrontPage) . These tools were groundbreaking in their time and many peoples’ first experience of a no-code tool. But - they're a long way away from today's no-code SaaS tools.
+
+I built my first website with Frontpage, and it looked terrible, but it was a live website on the internet, which was a success 🎉. Sadly, I don’t have a picture of my website, but thankfully you can catch a glimpse of Frontpage below.
 
 {{< figure src="/no-code-tools/frontpage.jpg" alt="Front-page UI" >}}
 
 ## No-code tool evolution
 
-No-code tools have improved immensely. Just about anyone can build a website with tools such as Carrd. There are entrepreneurs, marketers, and designers building production-ready web apps without the assistance of a developer - which is an incredible feat. Long gone are the days when only a programmer could make things for the internet.
+No-code app builders have improved immensely. Just about anyone can build a SaaS product or website, or iOS and Android app with tools such as Carrd. There are entrepreneurs, marketers, and designers building production-ready web apps without the assistance of a developer - which is an incredible feat. Long gone are the days when only a programmer could make things for the internet.
 
 ## No-code movement
 

@@ -40,7 +40,7 @@ Of course, there’s a lot more to it than that.
 
 For a start, there’s not just *one single* kind of custom build. Realistically, there’s a fairly wide spectrum of forms that this could take - from fully novel R&D projects to relatively simple solutions that still require a little bit of personalization.
 
-Besides this, we’ll encounter a few gray areas relating to *how* we develop custom applications, as we see a little later on.
+Besides this, we’ll encounter a few gray areas relating to *how* we develop custom applications, as we see a little later on. It's a little hard to find a one size fits all definition when it comes to custom business apps.
 
 For example, if your developers coded a new solution from scratch, no one would dispute that that’s a custom build. If they fiddled around the edges of an existing application template or altered some open-source solution, you’d be in murkier water.
 
@@ -52,15 +52,17 @@ Let’s take a step back and think about custom apps in a little bit more detail
 
 ### What are custom apps?
 
-Again, on the face of it, this could seem like a bit of a strange question but bear with us. So, we know that a custom app is one that’s been built for *your* business. Normally - by virtue of the fact that you’ve had to go custom - they’re built from scratch.
+Again, on the face of it, this could seem like a bit of a strange question but bear with us. So, we know that a custom software application is one that’s been built for *your* business processes. Normally - by virtue of the fact that you’ve had to go custom - they’re built from scratch.
 
 This is true irrespective of the technology we use to build the app - although this is still a massive decision, as we’ll see. This might involve common languages like JavaScript and Python or frameworks like NodeJS, Rails, or Angular.
+
+We might even use application development platforms to create an app and launch it on app stores, like iOS and Android.
 
 Again, we’ll return to this in good time.
 
 For now, we want to think about what custom apps typically *do*. That is - what kinds of use cases might we need to develop a custom solution for?
 
-One obvious problem here is that if we’re going down the route of a custom build, it’s often because we have very specific requirements that the market can’t meet.
+One obvious problem here is that if we’re going down the route of custom app building, it’s often because we have very specific requirements that the market can’t meet.
 
 Generally speaking though, custom apps are built around the goal of replicating some particular process, rule set, or logic within your business - normally with a view to implementing this more effectively than we could manually.
 
@@ -70,7 +72,7 @@ So, we might build an application that codifies the process for submitting, revi
 
 ### Custom or *customized*
 
-We already alluded to the fact that custom app developments can vary quite widely with regard to the extent of actual development work required to build a particular solution. 
+We already alluded to the fact that custom business application developments can vary quite widely with regard to the extent of actual development work required to build a particular solution.
 
 So, for a crude example, think about the difference between building a simple intake form and a script that lands a rocket on mars. Both are software - obviously - but they’re hardly in the same league.
 
@@ -142,7 +144,7 @@ Other times, opting for a custom build will be the only way - or at least the mo
 
 More often though, we’re dealing with more relatively minor-seeming requirements that rule out off-the-shelf solutions. The classic example of this is support for legacy tools or data sources.
 
-For example, you might need a solution for your team to manage and report stock loss/breakages. *But* your inventory management system is kind of outdated, so none of the solutions on the market will support it.
+For example, you might need a solution for your team to manage and report stock loss/breakages in real-time. *But* your inventory management system is kind of outdated, so none of the solutions on the market will support it.
 
 Eventually, you want to update the whole inventory management stack. In the meantime, a custom solution is probably the most cost-effective way to meet your more pressing needs at the present moment.
 
@@ -556,7 +558,7 @@ In a completely different vein, we have the platforms that your team uses to des
 
 This is one area where we’re likely to see the most variance from business to business. At one end of the spectrum, we have full hard-coded designs, relying on CSS, HTML, Rails, React, Angular, or other coding languages.
 
-At the other end of the spectrum, we have full visual design tools, like WYSIWYG editors, app builder tools, and other platforms that allow us to build interfaces without necessarily having much in the way of technical skills.
+At the other end of the spectrum, we have full visual design tools, like drag-and-drop WYSIWYG editors, app builder tools, and other platforms that allow us to build interfaces without necessarily having much in the way of technical skills.
 
 And then we have a pretty crowded space in between these two poles.
 
