@@ -72,6 +72,8 @@ You can edit or add new settings as well. Here is how these forms look:
 
 ![Settings form](https://res.cloudinary.com/daog6scxm/image/upload/v1667398045/cms/06_wyvl95.webp "Settings form")
 
+You might also like our guide to building a [Firebase GUI](https://budibase.com/blog/tutorials/firebase-gui/).
+
 Now you know what you can do with your Elasticsearch GUI. Let’s look at how you can build it in Budibase.
 
 ## Step 1 - Create your Elasticsearch GUI app and connect data
@@ -239,6 +241,8 @@ You can use these rules:
 * Show component IF {{ rest_queries Table.rest_queries.method }} equals to get
 
 You can add more tags if you have other methods (such as PUT and DELETE).
+
+Check out our guide to building a [Redis GUI.](https://budibase.com/blog/tutorials/redis-gui/)
 
 Now let’s build some custom screens.
 

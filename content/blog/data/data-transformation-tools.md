@@ -88,6 +88,8 @@ Most often, data transformation tools fall into one of four categories:
 
 So you can see, the kind of data transformation tools you’re going to need for integrating two SaaS tools is going to be very different from the solution you’ll need to centralize and warehouse *all* of your organizational data as part of an ETL process.
 
+To see this in context, take a look at our guide to [finance transformation](https://budibase.com/blog/inside-it/finance-transformation/).
+
 ## Top 10 data transformation tools
 
 With that in mind, let’s check out our top picks across each of these four distinct market segments.
@@ -144,6 +146,8 @@ Airbyte offers both a cloud-based platform and the option to self-host. There’
 
 One potential downside is that Airbye is a relatively early-stage solution - meaning that even if some capabilities are *possible* - they might not be particularly well documented - potentially creating barriers to getting up and running than some of the alternatives - at least in niche cases.
 
+Check out our round-up of [open-source development tools](https://budibase.com/blog/open-source-development-tools/).
+
 ![Apache data transformation tools](https://res.cloudinary.com/daog6scxm/image/upload/v1689942403/cms/data-transformation-tools/Kafka_yahg9m.webp "Apache data transformation tools")
 
 #### 5. Apache Kafka
@@ -188,6 +192,8 @@ Postgres is an open-source, enterprise-grade database management system that off
 
 It’s one of the most ubiquitous DBMSs on the market, acting as the basis for countless big data, analytics, web, mobile, and other applications - making it the ideal vehicle for storing information as part of custom data transformation application projects.
 
+Take a look at our guide to choosing the [best database management software](https://budibase.com/blog/best-database-management-software/).
+
 ### Transformation within integration platforms and other tools
 
 But what if we don’t want to hard-code our transformation solutions? After all, plenty of non-developers need to integrate tools - so it follows that they’re going to need to be able to implement data transformation tools.
@@ -213,6 +219,8 @@ Postman isn’t quite a traditional data transformation platform either - it’s
 In fact, using Postbot and Postman’s native *Flows Query Language*, it’s possible to perform all kinds of manipulation, restructuring, conditional selection, parsing, and other complex actions on data as it’s passed between platforms via API requests.
 
 This makes Postman the ideal solution for implementing transformations during API-based data transfer, minimizing the need for additional middleware.
+
+Check out our guide to [REST API authentication](https://budibase.com/blog/tutorials/rest-api-authentication/).
 
 ![Data transformation tools](https://res.cloudinary.com/daog6scxm/image/upload/v1689942402/cms/data-transformation-tools/Budibase_Screenshot_qticbx.webp "Data transformation tools")
 

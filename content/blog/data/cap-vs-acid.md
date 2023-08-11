@@ -93,6 +93,8 @@ For example, that all values in a column must be unique.
 
 These don’t necessarily rule each other out - as long as the same internal rules apply to all nodes in a system.
 
+For some real-life context to this, check out our guide to [data entry automation](https://budibase.com/blog/data/data-entry-automation/).
+
 ## CAP vs ACID: Where is the overlap?
 
 Consistency within CAP overlaps with ACID’s *atomicity* stipulation - in the sense that a transaction in a distributed system wouldn’t be successful unless it is written to *all* nodes.
@@ -131,6 +133,8 @@ So, we’re able to maintain consistency and deal with network issues, but we in
 
 The most common example of a CP system is MongoDB - which is a popular, ACID-compliant NoSQL database.
 
+You might also like our guide to [relational vs non-relational databases](https://budibase.com/blog/app-building/relational-vs-non-relational-databases/).
+
 ## AP systems
 
 Finally, we have systems that focus on *availability* and *partition tolerance* over *consistency*. 
@@ -142,6 +146,8 @@ Some of the most common examples of AP systems include CouchDB and Cassandra.
 ![CAP vs ACID NoSQL stats](https://res.cloudinary.com/daog6scxm/image/upload/v1683900868/cms/acid-compliance/NoSQL_https___scalegrid.io_blog_2019-database-trends-sql-vs-nosql-top-databases-single-vs-multiple-database-use__xrbdbp.webp "CAP vs ACID NoSQL stats")
 
 ([ScaleGrid](https://scalegrid.io/blog/2019-database-trends-sql-vs-nosql-top-databases-single-vs-multiple-database-use/))
+
+You might also like our in-depth guide to [data automation](https://budibase.com/blog/automation/data-automation/).
 
 ## How to choose a data solution using the CAP theorem
 

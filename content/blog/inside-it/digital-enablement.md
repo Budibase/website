@@ -137,6 +137,8 @@ Again, low-code development plays a huge role here. So do automation tools withi
 
 However, in this case, we’ll also need to consider governance issues - particularly around how we review and approve transformation solutions.
 
+You might also like our guide to [how to implement Agile in operations](https://budibase.com/blog/inside-it/how-to-implement-agile-in-operations/).
+
 ### 4. Infrastructure
 
 Next, we need to ensure that we have the infrastructure in place for increased digitalization. That is, transformation can put a strain on our network infrastructure by increasing the burden placed on services.
@@ -229,6 +231,8 @@ However, it’s also important to be conscious of *why* these kinds of digital e
 
 This is because they have an outsized impact on the effectiveness of any technical changes we’ll perform next. For example, we need high-level buy-in before we can secure investment for new tools and infrastructure investment.
 
+Take a look at our guide to [API integration](https://budibase.com/blog/app-building/what-is-api-integration/).
+
 ### 4. Technical interventions
 
 Next, we can start making any required technical changes. We’ll typically want to start with any infrastructure changes that we need to make first before we think about implementing any new development tools.
@@ -236,6 +240,8 @@ Next, we can start making any required technical changes. We’ll typically want
 Obviously, we need to know that we have sufficient network resources and capacity to handle any new tools that we’ll be shipping as part of our digital transformation efforts.
 
 It’s tricky to generalize here since there will typically be a number of valid options for achieving whatever goal you have in mind. What’s important is to figure out what’s going to be the most cost-effective way to achieve whatever hosting requirements we have.
+
+Check out our ultimate guide to [integration in digital transformation](https://budibase.com/blog/automation/integration-digital-transformation/).
 
 Then, we can start thinking about any new development or transformation tools we want to leverage across our organization - along with any training requirements that will come along with these and any other issues we’ll need to address to get them working in the field.
 

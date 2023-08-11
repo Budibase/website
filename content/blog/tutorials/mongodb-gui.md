@@ -24,6 +24,8 @@ Also, you can create a MongoDB GUI tool that allows you to add new data, and del
 
 In the meantime, you also learn how you can use Budibase to do all these tasks. This means that you can build not just a MongoDB GUI, but other GUI or even custom apps.
 
+You might also like our guide to building a [REST API GUI](https://budibase.com/blog/tutorials/rest-api-gui/).
+
 Let’s get started!
 
 ## Is there a GUI for MongoDB?
@@ -31,6 +33,8 @@ Let’s get started!
 There are many GUI options for MongoDB instances. Options include 3T Software Labs, MongoDB Compass, Robo 3T, Studio 3T, Moon Modeler, command line tools, and NoSQL Manager. But you can build your own tool within minutes with a low-code app builder such as Budibase.
 
 This allows you to create a GUI that does exactly what you want, for free. So you don’t need to install any software and you can use it on any devices you want, even mobiles.
+
+You might also like our in-depth guide to [ACID compliance](https://budibase.com/blog/data/acid-compliance/).
 
 ## What is a MongoDB GUI?
 

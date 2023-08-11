@@ -64,6 +64,8 @@ Check out our in-depth guide to [form UI design](https://budibase.com/blog/app-b
 
 Therefore, you get the best of both worlds. You get quick access to premade commands, but if you want, you can build your own queries as well.
 
+You might also like our guide to building a [Firebase GUI](https://budibase.com/blog/tutorials/firebase-gui/).
+
 Now let’s build your app.
 
 ## Step 1 - Create an app and connect it to your database

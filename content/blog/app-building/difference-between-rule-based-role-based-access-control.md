@@ -60,6 +60,8 @@ By definition, once you’ve defined rules, system administrators don’t need t
 
 This greatly reduced the labor costs associated with system administration, as well as largely eliminating the possibility of human error. Assuming that your access control system is thoroughly tested, users won’t accidentally be assigned inappropriate permissions.
 
+You might also like our guide to [in-house software development](https://budibase.com/blog/inside-it/in-house-software-development/).
+
 ### Cons
 
 Of course, there are also downsides to choosing a rule-based system. When considered in sum, these can easily outweigh the benefits. Let’s take a look in more detail.
@@ -99,6 +101,8 @@ In fact, it can often be impossible to quickly determine the specific permission
 ![Auditing rule-based access control systems](https://res.cloudinary.com/daog6scxm/image/upload/v1653385502/cms/Rule-based_visibility_and_auditing_a6bmz8.png "Auditing rule-based access control systems")
 
 This makes it challenging to audit the implementation of your access control system, either on an individual user basis or more widely. In turn, this can create difficulties when trying to identify issues or oversights in your policy.
+
+You might also like our guide to [operations automation](https://budibase.com/blog/automation/what-is-operations-automation/).
 
 #### Responding to change
 

@@ -72,6 +72,8 @@ Or, we can think about things the other way around. That is, starting from what 
 
 For instance, cloud-based tools can offer us a range of business-level advantages, including enhanced security and compliance, lower upfront costs, and improved accessibility - especially for remote teams.
 
+You might also like our guide on how to [create forms for SQL databases](https://budibase.com/blog/data/create-forms-for-sql-databases/).
+
 ## What are the signs that we need application transformation?
 
 So how can we tell when it’s time for application transformation? Of course, sometimes this could be fairly self-evident. In other cases, the impact of our legacy applications might be less obvious.
@@ -161,6 +163,8 @@ Of course, there’s a large degree of overlap between these.
 
 For instance, there’s almost inevitably a financial justification for enacting any given technical change - or at least, there ought to be.
 
+To see this in context, take a look at our guide to [finance transformation](https://budibase.com/blog/inside-it/finance-transformation/).
+
 ### 2. Define transformation requirements
 
 Once we know *what* we want to achieve, we need to think about *how* we’re going to do it. This means drawing up requirements for our application transformation project. 
@@ -193,6 +197,8 @@ Effectively, we have a cost/benefit calculation to make for each option. In othe
 
 We’ll see how Budibase is making it more feasible than ever to create custom solutions for application transformation a little bit later.
 
+Check out our round-up of the best [web development tools](https://budibase.com/blog/web-development-tools/).
+
 ### 4. Implementation
 
 Knowing which strategy we’re opting for, the next step is obviously to put it into practice. Naturally, it’s tough to generalize here since your specific transformations will be more or less unique.
@@ -204,6 +210,8 @@ For a start, there’s the ever-present prospect of service interruptions.
 We need to plan our implementation in such a way that we can ensure continuity, in order to avoid issues while we change over to our new system.
 
 Similarly, there are a number of non-technical considerations that we’ll need to make during implementation. For example, any requisite training to upskill our team on new systems - or requirements around new hosting tools, support arrangements, or other technical capabilities.
+
+Take a look at our guide to creating a [process improvement plan](https://budibase.com/blog/process-improvement-plan/).
 
 ![In-House Talent](https://res.cloudinary.com/daog6scxm/image/upload/v1683898875/cms/Application%20Transformation/In-House_Talent_https___www.mckinsey.com_capabilities_operations_our-insights_transforming-supply-chains-do-you-have-the-skills-to-accelerate-your-capabilities_z2mvzl.webp "In-House Talent")
 

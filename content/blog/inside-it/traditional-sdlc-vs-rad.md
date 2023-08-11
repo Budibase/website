@@ -66,6 +66,8 @@ Then, all parties come together again to discuss the resulting tools, provide fe
 
 This process can repeat indefinitely until the product is finished. For this reason, RAD is often referred to as an _iterative_ approach to building software. Specifically, the _systems design_, _implementation_, and _testing_ phases are continuous and cyclical.
 
+You might also like our guide to building a [SQL GUI](https://budibase.com/blog/tutorials/sql-gui/).
+
 ## When do companies turn to traditional SDLC or RAD?
 
 So in what circumstances would you use traditional SDLC vs RAD? The reality is that both approaches suit their own unique use cases and goals. This depends on the particulars of what you want to build, as well as the resources available to you.
@@ -112,7 +114,7 @@ However, the flip side of this is that development costs are a bit more unpredic
 
 By necessity, less of the planning is front-loaded under RAD, so it’s not clear how many iterations you’ll need to build before your solution can be signed-off.
 
-As we’ll see a little later, this can be mitigated to a large extent with the right software stack.
+As we’ll see a little later, this can be mitigated to a large extent with the right software stack. Take a look at our guide to [business process management](https://budibase.com/blog/automation/business-process-management/).
 
 ### Stakeholder management
 
@@ -215,6 +217,8 @@ Any one of them might need to jump between development, design, systems design, 
 In other words, they should be at the absolute top of their game.
 
 Naturally, this creates a few problems. Of course, this costs money. That is, such a skill set doesn’t come cheap. We also need to be able to find and recruit suitable talent in the first place.
+
+Take a look at our guide to empowering [citizen developers](https://budibase.com/blog/inside-it/citizen-developers/).
 
 ![Skills Gap](https://res.cloudinary.com/daog6scxm/image/upload/v1665144957/cms/Global_News_Wire_ieb5oe.webp "Skills Gap")
 

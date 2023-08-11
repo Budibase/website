@@ -112,7 +112,7 @@ However, at a certain point, we’ll need to look to more sophisticated solution
 
 The reality is that spreadsheets are also synonymous with lost data, human errors, and unnecessary delays.
 
-Finance transformation offers a more scalable, secure, and reliable approach to data management - typically through centralization, cloud-based warehousing, automated data pipelines, or other technologies.
+Finance transformation offers a more scalable, secure, and reliable approach to data management - typically through centralization, cloud-based warehousing, automated data pipelines, or other technologies. Check out our guide to [digital enablement](https://budibase.com/blog/inside-it/digital-enablement/).
 
 These techniques might equally be employed as transformation efforts in and of themselves, or as an initial step towards the other kinds of finance transformation we’ll look at in a few seconds.
 

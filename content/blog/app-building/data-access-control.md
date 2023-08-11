@@ -98,7 +98,7 @@ Now that we have a firmer understanding of why data access control matters, we c
 
 It’s worth noting as well that different methods are aimed at different outcomes. Some are aimed at preventing specific threats, while others are more concerned with managing the day-to-day access requirements of your employees.
 
-As such, you’ll more than likely need to use a variety of methods in tandem.
+As such, you’ll more than likely need to use a variety of methods in tandem. You might also like our round-up of [in-house development examples](https://budibase.com/blog/inside-it/in-house-development-examples/).
 
 With that in mind, here are the broad categories of access control methods that are available to you.
 
@@ -169,6 +169,8 @@ In more serious cases, unauthorized access can easily lead to DOS attacks, data 
 
 In addition to the direct impact of these, you could face legal penalties, reputational damage, and other indirect costs.
 
+You might also like our guide to [using forms to enter Google Sheets data](https://budibase.com/blog/data/using-a-form-to-enter-google-sheets-data/).
+
 ### Preventing unauthorized access
 
 Naturally then, preventing unauthorized access is a top priority. There are several strategies you can employ to achieve this.
@@ -216,6 +218,8 @@ The first point helps to prevent unauthorized access by ensuring that entities a
 The second and third are vital for allowing you to identify instances where users have been able to carry out actions that you didn’t intend to permit them to. You can then correct any oversights or issues that led to this.
 
 Additionally, this helps you to preempt situations where unauthorized access might occur, and put measures in place to prevent them.
+
+Check out our round-up of [free app templates](https://budibase.com/blog/20-free-app-templates/).
 
 #### 3. Configure and implement additional controls
 

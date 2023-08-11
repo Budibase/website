@@ -407,6 +407,8 @@ We can also use custom CSS to perfect our chart's area.
 
 Then, we’ll do the same with our Ad Spend tab, this time using *Ad Spend* as the data, *Date* as the label, and *Spend* as the data column.
 
+You might also like our guide on how to build a [Google Sheets GUI](https://budibase.com/blog/tutorials/google-sheets-gui/).
+
 And that’s it:
 
 ![Dashboard UI](https://res.cloudinary.com/daog6scxm/image/upload/v1682674088/cms/build-a-dashboard/Build_a_dashboard_29_ukydth.webp "Dashboard UI")
@@ -451,6 +453,8 @@ And you can create a condition similar to this for the chart block’s data and 
 
 Now, we have all of our data displayed and filterable by user inputs.
 
+For more inspiration, check out our round-up of [examples of web applcation](https://budibase.com/blog/5-examples-of-web-application-design/) design.
+
 #### Adding realtime refreshes
 
 We’re just going to add one more little trick to our dashboard, using another custom component plug-in. This one is called the *interval* component. 
@@ -466,6 +470,8 @@ Then we’ll place an *interval component* inside every data provider:
 Where we have data providers nested inside other data providers, we can nest an interval within the innermost one, and set multiple actions to refresh them all.
 
 Now our dashboard will display our desired data in real-time, with a two-minute refresh rate. So, we’ll never be dealing with out-of-date figures. All of the data providers will also refresh whenever the screen is reloaded or refreshed.
+
+You might also like our guide to building an [employee management app](https://budibase.com/blog/tutorials/employee-management-app/).
 
 ### 5. Design tweaks and UX
 

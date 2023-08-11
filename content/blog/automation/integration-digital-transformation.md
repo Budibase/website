@@ -164,7 +164,7 @@ The clear benefit of these kinds of integrations is that we need very little tec
 
 However, there are big drawbacks too. For one thing, we’re limited to the functionality that vendors support in their integration features. Things can also get quite messy if we want to integrate larger numbers of platforms in this way.
 
-So, it’s a good option for simple use cases, but it’s potentially not the way forward for more advanced integration solutions.
+So, it’s a good option for simple use cases, but it’s potentially not the way forward for more advanced integration solutions. You might also like our guide to the [best small business apps](https://budibase.com/blog/best-small-business-apps/).
 
 ### API-based solutions
 
@@ -227,6 +227,8 @@ We can also expect relatively long lead times, compared to most of the other met
 ![Lead time stats](https://res.cloudinary.com/daog6scxm/image/upload/v1685701134/cms/agile-digital-transformation/Build_Time_https___www.goodfirms.co_resources_software-development-research_uy9yax.webp "Lead time stats")
 
 ([GoodFirms](https://www.goodfirms.co/resources/software-development-research))
+
+Check out our guide to building a [business rules engine](https://budibase.com/blog/automation/business-rules-engine/).
 
 ### Low-code solutions
 

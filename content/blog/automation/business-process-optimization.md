@@ -291,6 +291,8 @@ Second, we need the right skills to design and implement changes. This is arguab
 
 The question is whether we have sufficient expertise in-house. If not, we’ll need to look to outsourcing, additional staff training, or recruitment for specific skills.
 
+You might also like our guide to [IT operations](https://budibase.com/blog/inside-it/it-operations/).
+
 ### Time pressures
 
 Finally, process optimization projects are often thwarted by time pressures. That is, when your decisions are negatively impacted by a need for urgent change. Unfortunately, this can play out in so many different ways that it’s difficult to generalize.
@@ -305,13 +307,15 @@ Most often, time pressures come from above.
 
 As such, an important mitigation strategy here is to ensure that stakeholders have realistic expectations, and understand the need for due diligence and attention to detail when optimizing processes.
 
+Take a look at our guide to [business process management tools](https://budibase.com/blog/automation/business-process-management-tools/).
+
 ## Real-world examples of process optimization
 
 We’ve covered a lot of theory so far.
 
 To solidify this knowledge, it’s useful to think about a couple of real-world examples of business process optimization. This will help us to see some of the principles we’ve discussed so far in action, as well as providing some valuable inspiration.
 
-We know that BPO can touch on just about every aspect of your business.
+We know that BPO can touch on just about every aspect of your business. 
 
 Let’s check out some common use cases for BPO to see a few areas where you stand to gain the most.
 
@@ -423,6 +427,8 @@ We can also break this down into more manageable objectives, based on the costs 
 ![Business Process Optimization Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1669738285/cms/Productivity_Gains_https___www.to-increase.com_business-productivity_blog_3-ways-your-bpm-can-ensure-productivity-gains_kdie2i.webp "Business Process Optimization Stats")
 
 [To-Increase](https://www.to-increase.com/business-productivity/blog/3-ways-your-bpm-can-ensure-productivity-gains)
+
+You might also like our guide to [enterprise software development](https://budibase.com/blog/inside-it/enterprise-software-development/).
 
 ### 3. Process modeling
 
@@ -647,4 +653,4 @@ We’ve also built more than 50 free, deployable, and fully customizable [app te
 
 To start building better apps, faster, sign up to Budibase for free today.
 
-Why not also check out our ultimate guide to b[usiness process management](/blog/automation/business-process-management)?
+Why not also check out our ultimate guide to [business process management](/blog/automation/business-process-management)?

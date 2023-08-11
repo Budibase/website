@@ -50,6 +50,8 @@ So, if there’s no single definition of what a rapid application development to
 
 The big one is that developers will be influenced here by the tools they normally use for other activities. What’s fastest and easiest can vary from person to person, depending on their background.
 
+Check out our guide to [throwaway prototyping](https://budibase.com/blog/inside-it/throwaway-prototyping/).
+
 With that in mind, here are the broad _categories_ of tools that are most suitable here. We’ll look at specific examples of each a little later.
 
 ### No/low-code development platforms

@@ -43,6 +43,8 @@ For example, if one of your sales colleagues decided they didn’t like your CRM
 
 This should perhaps go without saying, but citizen developers also need to be good-faith actors. That is, they act within the rules to try and improve internal processes, rather than subvert them, cut corners, or just make their own lives easier.
 
+Check out our ultimate guide to [traditional SDLC vs RAD](https://budibase.com/blog/inside-it/traditional-sdlc-vs-rad/).
+
 ### Where do citizen developers fit into your IT strategy?
 
 The core task of your IT department is ensuring that all other teams have the tools they need to do their jobs effectively. The trouble is that they’re limited by the resources they have available to them.
@@ -117,6 +119,8 @@ When your employees can quickly and easily create solutions to their own problem
 From an operational point of view, this also lowers the wider costs of innovation.
 
 For example, we can avoid using up more expensive internal development hours on unproven solutions. We’ll also save on hidden development costs, including communication and project management time around building internal solutions.
+
+Take a look at our guide to [integrating multiple databases](https://budibase.com/blog/data/how-to-integrate-multiple-databases/).
 
 ### Governing shadow IT
 

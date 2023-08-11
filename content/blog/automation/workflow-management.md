@@ -90,6 +90,8 @@ The input here would be one or more itemized receipts and invoices. The logic wo
 
 The output would be a change of status for the submitted invoices or receipts - either approval, rejection, or queried - and a decision for what needs to happen next to progress the workflow.
 
+Check out our round-up of the most common [web app ideas](https://budibase.com/blog/web-app-ideas/).
+
 ## Types of workflow structures
 
 We hinted earlier at the fact that workflows might involve a fixed sequence of steps or that there might be a little bit more internal variation.

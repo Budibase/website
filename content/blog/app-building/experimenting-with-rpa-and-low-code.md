@@ -216,6 +216,8 @@ As we said at the outset, this is a bit of an exploratory, experimental topic mo
 
 The idea occurred to us of using an RPA platform to build low-code apps and we wanted to explore whether or not it was a good idea. If nothing else - because we couldn’t find anyone else who’d attempted it.
 
+You might also like our round-up of [no-code tools](https://budibase.com/blog/no-code-tools/).
+
 We kicked off with two questions. Let’s answer each one in turn.
 
 ### Can we make an RPA build Budibase apps?

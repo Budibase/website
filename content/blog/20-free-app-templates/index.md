@@ -30,6 +30,8 @@ That’s the beauty of Budibase. You can change any aspect of our templates’ d
 
 You can even host and deploy Budibase tools however you like, in just a few clicks.
 
+We've also created a tutorial on how to build a [free inventory management app](https://budibase.com/blog/tutorials/inventory-management-app-free/).
+
 Sounds good, right? Now that we’re on the same page, let’s take a look at some highlights from our selection of free app templates.
 
 ## Our top 20 web app templates
@@ -45,6 +47,8 @@ With that in mind, let’s take a look at our top picks.
 Budibase tools are the perfect way to securely share information, communicate with colleagues, and collaborate across remote teams.
 
 Any of our free app templates can be integrated with a range of communications tools, or leverage Budibase’s built-in email automation.
+
+Check out our round-up of the best [web development tools](https://budibase.com/blog/web-development-tools/).
 
 Here are a few of our favorite templates to help you work better together.
 

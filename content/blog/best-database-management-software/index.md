@@ -38,6 +38,8 @@ If after reading the above you are still not sure what database management syste
 2. A data modeling exercise will guide your decision. There are several different approaches to data modeling, but primarily you should consider the entities in your data model and what values are stored for each entity. I would advise you to draw an ERD (entity-relationship diagram).
 3. You can use more than one database management system, for example, a Document Store with a Search Engine.
 
+Check out our guide to [system integration vs software development](https://budibase.com/blog/app-building/system-integration-vs-software-development/).
+
 ## 14 best database management software examples
 
 Below, I have listed my 14 best DBMS examples. Some examples support multiple types of models, but I have grouped them according to what I feel is their primary model type. For those of you who are considering building a web app / internal tool, I have also outlined whether the listed database is supported by [Budibase](https://www.budibase.com) - an open source development platform for building internal tools in minutes. If it is supported by Budibase, you can simply connect that database and build anything from dashboards, admin panels to approval applications in minutes. 

@@ -44,7 +44,7 @@ Let’s reflect a bit more on what invoice automation actually achieves - or, wh
 
 So, we can think about some of the concrete ways that automating invoice processes benefits your business.
 
-We already touched briefly on the financial side of this. When we reduce the number and complexity of human interactions required within our processes, we’ll see a corresponding decrease in both direct and indirect costs.
+We already touched briefly on the financial side of this. When we reduce the number and complexity of human interactions required within our processes, we’ll see a corresponding decrease in both direct and indirect costs in all [types of workflows](https://budibase.com/blog/automation/types-of-workflow/).
 
 For example, the labor hours required for invoice processing and the costs associated with human error.
 

@@ -139,7 +139,7 @@ This is where we’re going to account for the fact that *requests* and *process
 
 For instance, the data we store about our fleet management workflows will probably be quite a bit different from a HR process. To reflect this fact, we’re going to create a new table called *requestData*.
 
-This is a key part of any database design for approval workflows.
+This is a key part of any database design for approval workflows. Check out our guide to building a [business rules engine](https://budibase.com/blog/automation/business-rules-engine/).
 
 Along with a unique ID, this will store a series of name/value pairs. That way, we’ll be able to store whatever data is relevant to each individual request and process. This gets a many-to-one relationship with our *requests* table:
 
@@ -188,7 +188,7 @@ We’ll also store attributes for the *currentStateId* and the *nextStateId.* Th
 
 Here’s what this looks like in the context of the rest of our model:
 
-![Database schema](https://res.cloudinary.com/daog6scxm/image/upload/v1689941559/cms/workflow-management-database-design/7_h2tnte.web "Database schema")
+![Database schema](https://res.cloudinary.com/daog6scxm/image/upload/v1689941559/cms/workflow-management-database-design/7_h2tnte.webp "Database schema")
 
 ### 4. Database actions
 
@@ -216,6 +216,8 @@ That last point means we’re going to need another junction table between *acti
 Our completed workflow management database design diagram looks like this:
 
 ![Workflow management database design](https://res.cloudinary.com/daog6scxm/image/upload/v1689941559/cms/workflow-management-database-design/9_xbqnh0.webp "workflow management database design")
+
+We've also created a tutorial on how to build a [free inventory management app](https://budibase.com/blog/tutorials/inventory-management-app-free/).
 
 ### 5. Implementing logic
 

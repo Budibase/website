@@ -72,6 +72,8 @@ Things also get particularly messy if you need to draw on real-time data from mu
 
 We'd have a very hard time doing this - even if we could get all the necessary data to create a dashboard in Google Sheets.
 
+Take a look at our guide to choosing the [best database management software](https://budibase.com/blog/best-database-management-software/).
+
 ## What does a dedicated dashboard tool offer?
 
 So how exactly will a dedicated Google Sheets dashboard solve these problems?

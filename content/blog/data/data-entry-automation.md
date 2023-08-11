@@ -88,6 +88,8 @@ This can depend on a bunch of different factors - including the time, resources,
 
 Of course, to make this kind of calculation, we need to understand the benefits and challenges that come along with data entry automation.
 
+Check out our guide to [invoice automation](https://budibase.com/blog/automation/invoice-automation/) for one set of practical examples.
+
 ## Benefits of data entry automation
 
 We’ll start with the positives - since on the whole, these are going to outweigh the downsides. 
@@ -109,6 +111,8 @@ Finally, there’s the issue of employee satisfaction. When we eliminate the nee
 ![Unreliable Data](https://res.cloudinary.com/daog6scxm/image/upload/v1686561935/cms/data-entry-automation/Unreliable_https___thrivemyway.com_data-entry-stats__we7hq5.webp "Unreliable Data")
 
 ([ThriveMyWay](https://thrivemyway.com/data-entry-stats/))
+
+Check out our guide to [making public forms](https://budibase.com/blog/app-building/public-forms-how-to-build-them-in-minutes/).
 
 ## Challenges of data entry automation
 
@@ -157,6 +161,8 @@ There are a couple of key strands to this in the context of data entry automatio
 One is building out automated form UIs. This can include contextual auto-complete, validation rules, user-triggered rules, and more.
 
 Alternatively, we can use low-code to build targeted automation rules in the back end. For example, using API requests or webhooks to automate data transfer in a more discrete way than pipelines.
+
+Take a look at our round-up of [no-code tools](https://budibase.com/blog/no-code-tools/) for a different approach.
 
 We’ll check out how Budibase handles this a little bit later.
 

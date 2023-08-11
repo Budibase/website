@@ -44,6 +44,8 @@ We’ll see more on this later.
 
 As we hinted at a second ago, there is a wide range of different situations where workflow modeling is invaluable. In fact, this includes basically any scenario where you need a clear vision of what’s required to complete a task.
 
+Take a look at our guide to the most common [types of workflows](https://budibase.com/blog/automation/types-of-workflow/).
+
 We can break the use cases for workflow modeling into two categories:
 
 1. Descriptive purposes.
@@ -111,6 +113,8 @@ The downside, of course, is that we’ll also encounter extra challenges with a 
 
 As such, we’ll need to take extra measures in order to ensure that we have sufficient transparency and oversight. For example, implementing dedicated dashboards or goal trackers.
 
+Take a look at our uide to [workflow management tools](https://budibase.com/blog/automation/workflow-management-tools/).
+
 ### Rule-based workflows
 
 Rule-based workflow models are really the natural halfway point between the two other options we’ve seen already. However, in terms of structure, it’s basically a variation of the sequential model.
@@ -130,6 +134,8 @@ If it’s not available, we might simply notify them as much, or we might place 
 This allows us to achieve a higher degree of sophistication in our workflows than we could with a sequential model, while also making it easier to ensure effective oversight and transparency.
 
 As such, it’s a valuable approach to effectively managing workflows of all kinds. As we’ll see a little later, this is best leveraged in conjunction with automated decision-making.
+
+You might also like our guide to [business process optimization](https://budibase.com/blog/automation/business-process-optimization/).
 
 ## How to create a workflow model in 8 steps
 
@@ -192,6 +198,8 @@ Here are the scenarios we might turn to each of the three broad structures we sa
 * **Rule-based workflows -** Some actions aren’t always required but are still triggered by a previous step being completed.
 
 Of course, this is only a theoretical framework. In the real world, we might encounter grey areas, fringe cases, or other scenarios where different structures could be equally valid.
+
+Take a look at our guide to [business process management tools](https://budibase.com/blog/automation/business-process-management-tools/).
 
 ### 4. Outline underlying business rules
 

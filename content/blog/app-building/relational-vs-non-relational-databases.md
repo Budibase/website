@@ -89,6 +89,8 @@ So, we can still use SQL queries to interact with data, but we have some of the 
 
 Other popular relational DBMSs include **Oracle, Snowflake, Amazon Aurora,** and **IBM DB2**. 
 
+You might also like our guide to [CAP vs ACID](https://budibase.com/blog/data/cap-vs-acid/).
+
 ### What is a non-relational database?
 
 In truth, most developers and even technical non-developers are pretty comfortable with relational databases - since they’re just so ubiquitous, it’s unlikely that any IT professional could escape them.
@@ -312,6 +314,8 @@ Things aren’t so uniform in non-relational databases, since there isn’t quit
 Other tools will allow you to query data using commands that greatly resemble SQL - only with some degree of change as is required to suit the structure of the data at hand.
 
 So, the amount of upskilling that’s required to get up and running with NoSQL databases can vary greatly between different vendors. Therefore, it’s vital to do your due diligence before committing to a particular type of solution.
+
+You might also like our in-depth guide to [data automation](https://budibase.com/blog/automation/data-automation/).
 
 ![Budibase Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1682071045/cms/Budibase_Screenshot_1_evh9fx.webp "Budibase Screenshot")
 

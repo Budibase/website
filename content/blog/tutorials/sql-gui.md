@@ -38,6 +38,8 @@ Here is a quick overview of how to create a GUI for SQL databases using our open
 4. Custom screens to see and filter all your tables.
 5. Forms to edit data from any table.
 
+You might also like our guide to building a [REST API GUI](https://budibase.com/blog/tutorials/rest-api-gui/).
+
 Let’s get started!
 
 ## Does SQL have a GUI?
@@ -73,6 +75,8 @@ Here are some points to consider when you pick a SQL GUI (or if you build your o
 * **Ease of use** - how complex the interface is.
 * **Customization** - if it’s possible to add new features to it via plugins, or even editing the source code.
 * **Reliability** - if the tool works all the time or if it breaks.
+
+You might also like our round-up of [open-source form builders](https://budibase.com/blog/open-source-form-builder/).
 
 ## How do you create a GUI?
 

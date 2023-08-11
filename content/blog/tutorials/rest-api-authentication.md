@@ -80,6 +80,8 @@ With that bit of theory out of the way, let’s dive into the four most common R
 
 Just a quick note on our examples here. We’re sending a GET request that sends and instruction to an API to retrieve data bout our users. To do this, we’ve created a Budibase app, with REST API selected as its data source.
 
+Take a look at our guide to [API integration](https://budibase.com/blog/app-building/what-is-api-integration/).
+
 We’re going to look at what each authentication method looks like within Budibase, but the basic principles are the same whichever API client you’re using. 
 
 We’ll also check out what they would look like in a hard-coded solution for the sake of completion.

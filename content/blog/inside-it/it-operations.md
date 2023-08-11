@@ -150,6 +150,8 @@ Within each of these strands, we’ll encounter a range of challenges and trade-
 
 While other nodes within the IT department may have a more direct role in furnishing our teams with specific functionality and capabilities, IT ops takes a bigger-picture approach to ensuring that the *entire* organization is furnished with appropriate tech.
 
+You might also like our guide to building an [employee management app](https://budibase.com/blog/tutorials/employee-management-app/).
+
 ## IT ops vs DevOps
 
 This is probably one of the most common questions for anyone that’s getting acquainted with IT operations for the first time. 
@@ -175,6 +177,8 @@ As you may well expect, infrastructure management has a much narrower focus.
 Really, it’s only concerned with keeping our networking hardware online and accessible to the users that need it. This overlaps to a large degree with IT ops in the cases of facilities management, incident responses, and security - among others.
 
 Depending on the specific resources you have available within your team - infrastructure management might be a separate responsibility or it could be subsumed within IT ops - or this could even vary on a task-by-task basis.
+
+You might also like our guide on how to [create a workflow model](https://budibase.com/blog/automation/create-a-workflow-model/).
 
 ## 4 IT ops trends
 

@@ -42,6 +42,8 @@ Of course, this is a lot easier said than done.
 
 As we’ll see a little later, we’re constrained by the time, tools, resources, and skills that our team can draw on to innovate. We’ll also need to be smart about how we *govern* process innovation - since we can’t just allow anyone to do whatever they want.
 
+Take a look at our tutorial on [workflow management database design](https://budibase.com/blog/data/workflow-management-database-design/).
+
 Before we get to that though, let’s think more deeply about why you’d bother with any of this in the first place.
 
 ### Why does process innovation matter?
@@ -68,7 +70,7 @@ Obviously these are a bit harder to generalize about but, broadly speaking, the 
 
 It’s also worth recognizing that any of these secondary benefits can have a knock-on impact on our finances. So, we’d save money on hiring costs by improving employee retention, for example.
 
-It’s important to keep each of these in mind as they’ll help us to set informed goals around our process innovation initiatives.
+It’s important to keep each of these in mind as they’ll help us to set informed goals around our process innovation initiatives. Take a look at our guide to creating a [process improvement plan](https://budibase.com/blog/process-improvement-plan/).
 
 ## Who is responsible for innovation?
 
@@ -153,6 +155,8 @@ While we can address this to some extent with our choice of process innovation t
 Now, we can start to tie everything we’ve learned together by thinking about how we can design a process innovation policy of our own. 
 
 Remember, the likelihood is that your existing processes, your goals, and the resources you have available will be very different from even direct competitors. As such, it’s vital that we have a policy that matches our unique situation.
+
+Check out our guide on how to [streamline business processes](https://budibase.com/blog/automation/streamline-business-processes/).
 
 Here are the steps you can follow to craft a process innovation policy.
 

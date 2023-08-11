@@ -100,6 +100,8 @@ We can add each Postgres database as a separate data source in Budibase, automat
 
 This moves all existing values to our master list. We can then create a simple automation, so that any time a new lead is added by an individual sales colleague, it’s also added to the master list.
 
+Take a look at our guide to empowering [citizen developers](https://budibase.com/blog/inside-it/citizen-developers/).
+
 ![How to integrate multiple databases with similar entities](https://res.cloudinary.com/daog6scxm/image/upload/v1653322847/cms/Integrate_Multiple_Databases_with_a_Web_App_2_oh9j9x.png "How to integrate multiple databases with similar entities")
 
 ### Integrating data from distinct database schemas
@@ -125,6 +127,8 @@ In the first scenario, we’d need to do little more than querying each of the e
 As we’ll see a little later, this can be a little more complicated in practice though.
 
 The key thing, in either case, is to define a schema for your master database that meets your information needs, while retaining the content of your original sources.
+
+You might also like our guide to [making an app from Excel spreadsheets](https://budibase.com/blog/data/make-an-app-from-excel-spreadsheets/).
 
 #### Maintaining consistency and integrity
 

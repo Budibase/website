@@ -40,7 +40,7 @@ Another excellent question!
 
 No doubt, you’re well aware that Google offer their own solutions here. So, you could build a form on a separate sheet and use built-in functions and Google Apps scripts code or other script editors to add rows to your dataset.
 
-Alternatively, you could do something similar with Google Forms - or other Google Drive integrations.
+Alternatively, you could do something similar with Google Forms - or other Google Drive integrations. You might also like our guide to [data access control](https://budibase.com/blog/app-building/data-access-control/).
 
 There are three big problems here though:
 
@@ -101,6 +101,8 @@ First, we’ll give our [data source](https://budibase.com/blog/data/data-source
 We only have one data source for our example, so we’ve just gone with _Form_.
 
 Then, we simply paste the URL of our spreadsheet into the second field.
+
+You might also want to check out our guide to [throwaway prototyping](https://budibase.com/blog/inside-it/throwaway-prototyping/).
 
 ### 3. Fetch tables
 
