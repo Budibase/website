@@ -24,6 +24,8 @@ Today we’ll learn how to build a custom tool with Budibase.
 
 With our leading open-source, low-code platform, you can use premade components, connect to external APIs, query databases, visualize data, create automations, and much more.
 
+You might also like our guide to building a [Postgres GUI](https://budibase.com/blog/tutorials/postgres-gui/).
+
 Let's dive right in.
 
 ## Your GitHub Metrics Dashboard
@@ -210,6 +212,8 @@ return downloads;
 
 {{< /highlight >}}
 
+Take a look at our guide to [WebHooks vs APIs](https://budibase.com/blog/inside-it/webhook-vs-api/).
+
 The other special case is the bug chart. There isn’t a single API call to return data from multiple calls. Thus, you could use GraphQL, an external service to aggregate multiple API calls, or you can use Budibase automations to preprocess your data.
 
 If you want to use Budibase, you can copy what we did for the settings table. Then, you just need to create an automation that updates this data from time to time. For example, if you want to update it daily, you can create an Automation, run it with a cron trigger, and here are the steps:
@@ -393,6 +397,8 @@ labels: labels.map( ({name}) => (name) ).toString()
 )
 
 {{< /highlight >}}
+
+Check out our round-up of the most common [web app ideas](https://budibase.com/blog/web-app-ideas/).
 
 ## Building a GitHub metrics dashboard in Budibase
 

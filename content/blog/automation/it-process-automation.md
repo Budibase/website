@@ -55,6 +55,8 @@ We’ll cover the specific tools and techniques that can be used to achieve this
 
 For now, the key thing is that ITPA is most effective when it maps the existing logic that underpins how employees carry out their daily tasks.
 
+You might also like our round-up of [open-source form builders](https://budibase.com/blog/open-source-form-builder/).
+
 ### What kind of processes can be automated?
 
 Several key factors determine whether an IT process can be automated and whether it is even worth automating.
@@ -96,7 +98,7 @@ Device rentals are regular, repetitive, and reproducible, as the same informatio
 
 They’re also easily representable in automation rules, as deciding whether a device is free or not is fairly straightforward. That is, this is a very simple calculation for an automation rule to process.
 
-We can assess any other process against our four criteria in exactly the same way.
+We can assess any other process against our four criteria in exactly the same way. Take a look at our guide to [business process management](https://budibase.com/blog/automation/business-process-management/).
 
 ## Automation technologies, techniques, and frameworks
 

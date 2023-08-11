@@ -54,6 +54,8 @@ Specifically, you’re probably here because you want to improve some combinatio
 
 For example, we can contrast this with assigning tasks with manual communications, where details can be misinterpreted, or other redundancies and errors can easily occur.
 
+For more inspiration, check out our round-up of [examples of web applcation](https://budibase.com/blog/5-examples-of-web-application-design/) design.
+
 With that in mind, let’s take a look at what our finished employee management app will look like.
 
 ## What are we going to build?
@@ -100,6 +102,8 @@ What’s more important is the relationships we’ve configured between these ta
 
 We’ll see how this works a little later.
 
+You might also like our guide on [how to build a dashboard](https://budibase.com/blog/tutorials/how-to-build-a-dashboard/).
+
 ### UI
 
 Next, let’s take a look at the screens we have to manipulate this data. We’ve got five separate UIs:
@@ -131,6 +135,8 @@ To restrict a particular screen to an access role, we can use the drop-down edit
 Our power users can access all screens, including /employees and /jobs, as well as the app’s navigation bar. 
 
 Basic users can only access the three remaining screens.
+
+You might also like our guide on how to build a [Google Sheets GUI](https://budibase.com/blog/tutorials/google-sheets-gui/).
 
 ## How to build an employee management app in 6 steps
 

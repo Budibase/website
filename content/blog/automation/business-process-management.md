@@ -74,6 +74,8 @@ IT processes are somewhat more varied. This includes everything from software de
 
 So, you might have defined processes for different kinds of incidents. For instance, a flow of recovery, information gathering, and security actions that must be carried out in response to a data breach.
 
+Check out our ultimate guide to [traditional SDLC vs RAD](https://budibase.com/blog/inside-it/traditional-sdlc-vs-rad/).
+
 #### Human resources
 
 HR teams are particularly bound by processes in their daily work. After all, they’re the ones responsible for making sure everyone else follows the rules, and HR is notorious for paperwork and admin.
@@ -109,6 +111,8 @@ The end result is highly streamlined processes.
 There are a couple of different ways that this can be achieved, including reducing the number and complexity of manual interactions required of colleagues, as well as providing clear expectations for those that remain.
 
 We’ll see how this plays out in more detail as we discuss the remaining benefits of business process management.
+
+Check out our free guide to [IT process automation](https://budibase.com/blog/automation/it-process-automation/).
 
 ### Reducing costs
 

@@ -66,6 +66,8 @@ Once we fetch our tables, we can view and manipulate our MySQL database tables w
 
 We’ll make a couple of changes here a little bit later, but for now, that’s our data layer pretty much completed.
 
+You might also like our guide on how to [create forms for SQL databases](https://budibase.com/blog/data/create-forms-for-sql-databases/).
+
 ### 3. Autogenerate CRUD screens
 
 Next, we can start building our MySQL admin tool’s interface. Remember, the *requirements* here are that we want to give non-technical users an easy way to carry out CRUD actions on our five MySQL tables.
@@ -108,6 +110,8 @@ Budibase creates a new relationship column on each table to reflect this.
 
 And we can repeat this process for all of the other relationships that we need to create between our tables.
 
+Check out our guide to moving from [Google Sheets to Postgres](https://budibase.com/blog/tutorials/google-sheets-to-postgres/).
+
 ### 5. Customize our CRUD screens
 
 Now, if we return to our CRUD screens, they’re gotten a bit messier - since we’ve added extra columns to our tables.
@@ -127,6 +131,8 @@ This leaves us with a much neater interface, free from any clutter:
 ![Table](https://res.cloudinary.com/daog6scxm/image/upload/v1687524825/cms/mysql-admin-tools/MySQL_Admin_14_dmtlh0.webp "Table")
 
 Again, we can repeat this step for each of the tables we want to manage with our MySQL admin tools.
+
+Check out our guide to [system integration vs software development](https://budibase.com/blog/app-building/system-integration-vs-software-development/).
 
 ### 6. Navigation and design
 

@@ -75,6 +75,8 @@ We might also leverage cloud-based tools for security and performance benefits, 
 
 Plus, containerization and other cloud-based deployment technologies help us to achieve a much greater degree of agility within our digital transformation efforts.
 
+Take a look at our guide to [on-prem vs cloud hosting](https://budibase.com/blog/app-building/on-prem-vs-cloud/).
+
 ### Cloud transformation vs cloud migration
 
 *Cloud migration* is another big topic in the realm of business IT. It’s also one that overlaps significantly with *cloud transformation*, so it’s worthwhile taking a beat to understand the conceptual distinction between the two.
@@ -180,6 +182,8 @@ So, we have a pretty clear idea of what cloud transformation actually involves. 
 *Why*?
 
 Or, more specifically, what does cloud transformation offer that makes it such a priority for leaders in IT departments and across businesses more broadly?
+
+Check out our in-depth guide to [ITOM vs ITSM](https://budibase.com/blog/inside-it/itom-vs-itsm/).
 
 To get a better grip on this, let’s check out the core business benefits of cloud transformation.
 
@@ -420,6 +424,8 @@ Most importantly, we want to ensure service continuity while we roll out our new
 At the cultural and operation levels, we’ll also need to account for effective training and user onboarding. 
 
 In cases where we’ve been able to port existing applications to the cloud, this might be relatively easy, but if we’ve had to build entirely new tools, the required training could be more comprehensive - and therefore costly.
+
+Take a look at tour guide to [application transformation](https://budibase.com/blog/inside-it/application-transformation/).
 
 ## Building a tool stack for transformation
 

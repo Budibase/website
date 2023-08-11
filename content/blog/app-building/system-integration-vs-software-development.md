@@ -172,7 +172,7 @@ Systems integration is a bit less of a clear-cut case.
 
 There are specialist system integration engineers that work primarily within large software development projects to ensure compatibility between modules.
 
-However, when we’re talking about creating integration solutions between existing nodes, this is just as often carried out by non-developers in the IT team, ops professionals, or technical colleagues within other departments.
+However, when we’re talking about creating integration solutions between existing nodes, this is just as often carried out by non-developers in the IT team, ops professionals, or technical colleagues within other departments. Take a look at our guide to building a [workload management tool.](https://budibase.com/blog/tutorials/workload-management-tool/)
 
 ### Financing
 
@@ -187,6 +187,8 @@ Integration-focused solutions work a little bit differently. The labor costs of 
 What we need to watch out for are the other recurring costs that we’ll pick up along the way.
 
 If each node in a solution charges for its API on a per-request basis, this will quickly add up. It also means that our costs increase as our solution scales - which is not necessarily the case with custom builds.
+
+Take a look at our round-up of [data transformation tools](https://budibase.com/blog/data/data-transformation-tools/).
 
 ### Support
 

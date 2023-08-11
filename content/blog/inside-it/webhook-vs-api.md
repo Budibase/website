@@ -97,7 +97,7 @@ This is an important distinction, as it means we can create our own webhooks, en
 
 However, these webhooks will be similarly limited to whatever functionality they’re built around.
 
-To understand the practical implications of this more deeply, we need to move on to the benefits, challenges, and limitations of webhooks vs APIs.
+To understand the practical implications of this more deeply, we need to move on to the benefits, challenges, and limitations of webhooks vs APIs. For a practical example, check out our tutorial on buidling a [GitHub metrics dashboard](https://budibase.com/blog/app-building/github-metrics-dashboard/).
 
 ## Webhook vs API: Benefits, challenges, and limitations
 

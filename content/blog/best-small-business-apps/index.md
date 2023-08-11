@@ -211,7 +211,7 @@ Here are the categories:
 
 **Free Alternative**:  It's free! I've used Mixpanel, and it is very good too - but we prefer Posthog.
 
-
+Take a look at tour guide to [application transformation](https://budibase.com/blog/inside-it/application-transformation/).
 
 ---
 
@@ -280,7 +280,7 @@ Here are the categories:
 
 **Free Alternative**: Github projects
 
-
+Take a look at our uide to [workflow management tools](https://budibase.com/blog/automation/workflow-management-tools/).
 
 ---
 
@@ -393,4 +393,3 @@ Here are the categories:
 ## Final thoughts
 
 I hope this article demonstrates that there a lot of great small business apps out there which can help you. And don't forget, you can always build your own business apps for free with [Budibase](https://www.budibase.com/). 
- 

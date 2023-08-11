@@ -141,6 +141,8 @@ Option two means connecting directly to a Google Sheets file as a data layer for
 
 Then, we can sign in to our Google account, paste our spreadsheet URL into Budibase data connector UI, and import each individual table that we want.
 
+Take a look at our guide to [legacy app modernization](https://budibase.com/blog/legacy-application-modernization/4-low-code-legacy-application-modernization-strategies-budibase/).
+
 ### 3. Configure your data layer
 
 Once our data is successfully pulled into Budibase, we can follow a few extra steps to make it our own. One of the really cool things about Budibase is how our data tools bridge the gap between spreadsheets and databases, in terms of functionality, usability, and flexibility.
@@ -254,6 +256,8 @@ Then we can take a look at our table to make sure our formula outputs the values
 ![Sales table](https://res.cloudinary.com/daog6scxm/image/upload/v1661172614/cms/Screenshot_2022-08-15_at_14.01.21_qzid4i.webp "Sales table")
 
 This is a simple piece of business logic that would be difficult to achieve in a spreadsheet since Excel doesn’t really support relationships between tables.
+
+Take a look at our guide to [integrating multiple databases](https://budibase.com/blog/data/how-to-integrate-multiple-databases/).
 
 ### 6. Add automations
 

@@ -110,6 +110,8 @@ See, most companies don’t have enough developers to meet their internal demand
 
 Business rules engines help to take advantage of this latter fact by empowering colleagues to automate tasks while still retaining high levels of process adherence.
 
+You might also like our guide to [how to implement Agile in operations](https://budibase.com/blog/inside-it/how-to-implement-agile-in-operations/).
+
 ## Benefits of business rules engines
 
 With a better knowledge of what business rules engines are and where/when they’re used, it’s a good idea to drill a bit deeper into what they actually achieve.
@@ -257,6 +259,8 @@ Then, if we send our Postman request, the fully automation will run, and the mat
 ![Business rules engine](https://res.cloudinary.com/daog6scxm/image/upload/v1682071886/cms/business-rules-engine/BRE_17_oun9tc.webp "Business rules Engine")
 
 Of course, this is just *one* business rule. To create a fully-fledged business rules engine, we’d need to repeat this process for a whole raft of other rules, either within a single department or across the organization as a whole.
+
+Take a look at our in-depth guide to [cloud transformation](https://budibase.com/blog/inside-it/cloud-transformation/) to learn more.
 
 ## Turn data into action with Budibase
 

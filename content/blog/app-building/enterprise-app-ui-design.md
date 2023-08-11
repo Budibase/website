@@ -194,7 +194,11 @@ Sometimes this can be as little as a few hours.
 
 As such, enterprise design teams normally leverage tools that allow them to achieve their desired functionality while minimizing build times.
 
+Check out our ultimate guide to [workload management tools](https://budibase.com/blog/tutorials/workload-management-tool/).
+
 ![Enterprise App UI Design Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1656427209/cms/In-House_Dev_2_w4lw8e.webp "Enterprise App UI Design In-House Dev Stats")
+
+For example, take a look at our tutorial on how to build an [Elasticsearch GUI](https://budibase.com/blog/tutorials/elasticsearch-gui/).
 
 ### Consumer-facing UIs
 
@@ -217,6 +221,8 @@ For example, if you were building a self-service portal for vendors, you’d sti
 Of course, this also has knock-on effects. Often, the idea behind creating B2B tools in the first place is better managing your relationships with external partners.
 
 As such, it’s crucial to design B2B interfaces that project the right brand image, as well as genuinely making your partners’ lives easier.
+
+Check out our round-up of [free app templates](https://budibase.com/blog/20-free-app-templates/).
 
 ## 6 enterprise interface design tips
 

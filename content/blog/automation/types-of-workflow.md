@@ -92,7 +92,7 @@ Alternatively, it could be an external event or even a time-bound one. The diffe
 
 When an event occurs, the relevant state of the resource in question is updated to reflect this.
 
-The benefit here is that we have a lot more control over the timing of different steps in our workflow.
+The benefit here is that we have a lot more control over the timing of different steps in our workflow. Take a look at our in-depth guide to [process innovation](https://budibase.com/blog/automation/process-innovation/) to learn more.
 
 #### Examples
 

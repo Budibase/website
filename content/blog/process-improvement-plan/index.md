@@ -52,6 +52,8 @@ This means striving for:
 * Reduced wastage,
 * Better coherence.
 
+Check out our guide on how to [streamline business processes](https://budibase.com/blog/automation/streamline-business-processes/).
+
 ### What should an improvement plan include?
 
 Of course, in the real world, changing processes can be tricky. Many businesses choose to live with inefficiencies because they might think the cost of removing them outweighs the benefit.
@@ -125,6 +127,8 @@ For example, you’ll likely need sign-off from management teams to change busin
 
 Finally, you’ll need to account for the costs and disruption which might come along with implementing new tools in your processes.
 
+You might also like our guide to the [best small business apps](https://budibase.com/blog/best-small-business-apps/).
+
 ### 5. Change management
 
 This is the area where most project improvement plans fail. Change management means planning how you’re going to implement your plan. As we mentioned earlier, there are many blockers to this.
@@ -158,7 +162,7 @@ Remember that process improvement isn’t a one-time thing. Instead, your goal s
 
 Once you’ve created a large-scale process improvement plan, it’s relatively simple to implement smaller optimizations going forward.
 
-This is even easier if you’ve used flexible, scalable tools to digitize your business processes.
+This is even easier if you’ve used flexible, scalable tools to digitize your business processes. Take a look at our in-depth guide to [process innovation](https://budibase.com/blog/automation/process-innovation/) to learn more.
 
 ## Low-code for process improvement planning
 

@@ -90,6 +90,8 @@ Risk - 😟😟😟
 
 Time to MVP - ⏰⏰⏰
 
+You might also like our guide to [enterprise software development](https://budibase.com/blog/inside-it/enterprise-software-development/).
+
 ***
 
 ### 2. CRM for startups / small businesses 📅 {#crm}

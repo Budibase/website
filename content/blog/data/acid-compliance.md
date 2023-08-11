@@ -88,6 +88,8 @@ Companies today deal with bigger, more complex data sets than ever before. Plus,
 
 Therefore, even minor issues with the format or content of your data can cause big headaches - or even complete breakages and ultimately avoidable costs and disruption.
 
+You might also like our guide to building a [Postgres GUI](https://budibase.com/blog/tutorials/postgres-gui/).
+
 ### Examples
 
 Let’s take each element of ACID compliance in turn and work our way through the kinds of difficult situations that each one helps us to avoid - and the benefits that they offer.
@@ -174,6 +176,8 @@ Most other NoSQL databases use the *BASE* framework. This stands for *basically 
 
 We won’t go into complete detail, but the principle here is that we sacrifice immediate internal consistency for flexibility and availability. We’ll think about some of the scenarios where this is useful in a few minutes.
 
+Check out our guide to [making public forms](https://budibase.com/blog/app-building/public-forms-how-to-build-them-in-minutes/).
+
 ## ACID implementation
 
 Let’s get a little bit more technical and think about how DBMSs actually implement ACID compliance.
@@ -236,6 +240,8 @@ This is because accurately representing and effectively manipulating our data is
 In fact, internal consistency might not be desirable at all. In fact, there are all sorts of situations where we wouldn’t want to enforce a rigid structure or constraints on our data, so ACID compliance would naturally be less of a priority.
 
 ![Budibase Screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1683900868/cms/acid-compliance/Budibase_ScreenShot_wd52ob.webp "Budibase Screenshot")
+
+You might also like our guide to building a [MongoDB GUI](https://budibase.com/blog/tutorials/mongodb-gui/).
 
 ## Turn data into action with Budibase
 

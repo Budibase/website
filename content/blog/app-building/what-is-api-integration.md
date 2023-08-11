@@ -89,7 +89,7 @@ So, if we have separate tools handling the same data objects - if one makes a ch
 
 Similarly, API integration allows us to create cross-platform automations - ie configuring one tool to send an API request to another instructing it to perform a specified action.
 
-Finally, API integration means that we can eliminate much of the laborious admin work that would otherwise come along with syncing and transferring data between platforms.
+Finally, API integration means that we can eliminate much of the laborious admin work that would otherwise come along with syncing and transferring data between platforms. Check out our guide to [cloud transformation](https://budibase.com/blog/inside-it/cloud-transformation/). 
 
 ### Examples
 
@@ -239,7 +239,7 @@ This is almost like a plug-and-play approach.
 
 So, rather than needing to build everything from scratch, we can often leverage a pre-existing resource instead - lowering both the costs incurred and the technical skills required to create more advanced solutions.
 
-In the same vein, API integration can be invaluable in helping us to foster a culture of innovation, across all of our teams. 
+In the same vein, API integration can be invaluable in helping us to foster a culture of innovation, across all of our teams. Check out our guide to [REST API authentication](https://budibase.com/blog/tutorials/rest-api-authentication/).
 
 Essentially, we can furnish our teams with the tools they need to create new solutions, with relatively low barriers or overheads.
 

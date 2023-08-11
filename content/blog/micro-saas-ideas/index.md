@@ -33,7 +33,7 @@ The term 'Micro SaaS' was originally coined by [Tyler Tringas](https://tylertrin
 
 Ultimately, a Micro SaaS business comprises of a small team, with small costs, and a small dedicated user base. It's about keeping things minimal and controlled, as you probably guessed.
 
-
+Take a look at our round-up of [rapid application development tools](https://budibase.com/blog/inside-it/rapid-application-development-tools/).
 
 ## Benefits of owning a Micro SaaS business
 

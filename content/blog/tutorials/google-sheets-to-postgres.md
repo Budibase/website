@@ -95,6 +95,8 @@ So on the one hand, using a CSV or a plug-in might be very easy, but there’s a
 
 On the other hand, hard-coding a solution in Apps Script or whatever other programming language we want to use requires a much higher level of technical ability. Additionally, if something goes wrong, it might be difficult for us to spot.
 
+Take a look at our tutorial on [workflow management database design](https://budibase.com/blog/data/workflow-management-database-design/).
+
 ## How to migrate from Google Sheets to Postgres using Budibase
 
 With all of that in mind, let’s check out how we can migrate data from Google Sheets to Postgres using Budibase.
@@ -105,6 +107,8 @@ Obviously, there are a couple of prerequisites to this. Specifically, we’ll ne
 - A Google Sheets account.
 - A Postgres database.
 - *Optional* - if we want to migrate a large data set, it’s best to use a self-hosted Budibase installation.
+
+You might also like our tutorial on building [MySQL admin tools](https://budibase.com/blog/tutorials/mysql-admin-tools/).
 
 ### 1. Create a new app project
 

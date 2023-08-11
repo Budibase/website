@@ -76,6 +76,8 @@ These involve one set of users making a request by providing relevant informatio
 
 Data automation offers huge efficiency dividends here, by removing the need for regular decisions to be made manually.
 
+Check out our guide to [invoice automation](https://budibase.com/blog/automation/invoice-automation/) for one set of practical examples.
+
 ### Moving and transferring data
 
 Transferring data between platforms is much more complex from a technical point of view, but still offers huge benefits in terms of providing sleeker, more cost-effective internal processes. As you might expect, the thing we want to avoid is colleagues needing to do this manually.
@@ -119,6 +121,8 @@ The point is that if we need to do something to our data over and over again, th
 We can go after these kinds of efficiency savings at a few different levels - largely depending on the scale and frequency that we require the actions in question to be applied.
 
 For example, we might use user actions or back-end events to trigger automated transformations, depending on our needs in a specific use case.
+
+You might also like our guide on how to [create a workflow model](https://budibase.com/blog/automation/create-a-workflow-model/).
 
 ### Security, back-ups, and monitoring
 
@@ -228,6 +232,8 @@ Basically, a large proportion of initiatives are sunk by spiraling costs because
 
 Therefore, the more effectively you inventory your required data assets, the more accurately you’ll be able to ascertain the scope of your project. This allows us to make better-informed decisions in subsequent parts of our strategy, as well as helping to keep the project on track.
 
+You might also like our guide to [CAP vs ACID](https://budibase.com/blog/data/cap-vs-acid/).
+
 ### 3. Outline and prioritize data processes
 
 Next, we’ll outline the specific data processes we’re going to automate - first, in more abstract terms. This looks a lot like gathering functional requirements for any other kind of transformation project.
@@ -278,6 +284,8 @@ For instance, we might need to trigger automated data processing with user actio
 
 As such, we’ll naturally need to plan around this - taking into consideration both our team’s day-to-day needs and their existing level of competence.
 
+You might also like our guide to [relational vs non-relational databases](https://budibase.com/blog/app-building/relational-vs-non-relational-databases/).
+
 ### 6. Follow-up, review, and optimization
 
 Unfortunately, the work doesn’t stop once our data automation solutions are in-situ. Instead, we’ll need to account for a whole raft of follow-on activities across the lifecycle of our solution. 
@@ -305,6 +313,8 @@ This is a massively simplified account of how this would work in the real world,
 Let’s think about each piece of the puzzle in turn. Connecting to the relevant data is the easy part since we can just rely on APIs or webhooks, provided the platforms in question support this.
 
 For the other two steps, we’d likely leverage some intermediary platform to perform the required transformations and trigger our automation rule - likely either a dedicated automation tool or a low-code platform.
+
+Take a look at our guide to [WebHooks vs APIs](https://budibase.com/blog/inside-it/webhook-vs-api/).
 
 ## Data automation tools
 

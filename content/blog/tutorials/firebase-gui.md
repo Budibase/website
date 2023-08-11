@@ -52,6 +52,8 @@ For this reason, it’s a good idea to build a Firebase GUI using a low-code, op
 
 We're going to build a web-based Firebase GUI client, offering seamless cross-device experiences.
 
+Check out our guide to building a [Redis GUI.](https://budibase.com/blog/tutorials/redis-gui/)
+
 This is exactly what you’ll build today.
 
 ![Firebase GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1669031554/cms/01_gugbud.webp "Firebase GUI")
@@ -178,6 +180,8 @@ Create a new data source, and pick BudibaseDB. Create a table named “collectio
 You’ll use this table to store all your collections. You could use the Cloud Firestore REST API to get them automatically, but that would require a tutorial in itself.
 
 That’s all you need for your data connections.
+
+We've also create a tutorial on how to build an [Elasticsearch GUI](https://budibase.com/blog/tutorials/elasticsearch-gui/).
 
 Let’s create some screens.
 

@@ -51,7 +51,7 @@ Organizations might also stick with legacy systems because they host business-cr
 
 In cases where wholesale replacement isn’t a viable option, legacy application modernization seeks to replace, update or amend individual components within the system. This involves stripping out critical components and modernizing everything else.
 
-A basic example of legacy modernization would be adding a more functional and user-friendly front-end onto a legacy dataset.
+A basic example of legacy modernization would be adding a more functional and user-friendly front-end onto a legacy dataset. You might also like our guide to [making an app from Excel spreadsheets](https://budibase.com/blog/data/make-an-app-from-excel-spreadsheets/).
 
 ### Legacy app modernization strategies
 
@@ -99,7 +99,7 @@ The biggest challenge with legacy systems is the cost of keeping them running. I
 
 Often, older systems are incredibly complicated, by modern development standards. Since legacy apps often evolve over time, they can be built with a variety of older or outdated tools and languages.
 
-As such, developers with the skills to maintain legacy systems are often specialists, carrying a high price tag.
+As such, developers with the skills to maintain legacy systems are often specialists, carrying a high price tag. You might also like our round-up of [in-house development examples](https://budibase.com/blog/inside-it/in-house-development-examples/).
 
 ### Risk
 

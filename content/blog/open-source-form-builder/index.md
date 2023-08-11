@@ -65,6 +65,8 @@ The compilation of functionality makes it the go-to tool for building data-centr
 
 What's unique about Budibase, is how you build the form using a GUI. The GUI strikes a good balance of being opinionated and flexible, allowing you to build beautiful looking forms with ease. For example, each input comes with built-in validation, accessible styling, and theming.
 
+Check out our guide to [operations automation](https://budibase.com/blog/automation/what-is-operations-automation/) for practical use cases.
+
 ### Ease of use - ⭐⭐⭐⭐
 
 Getting started with Budibase involves you downloading the builder. This provides you with a desktop application that allows you to focus on the task at hand. Some people might find downloading the platform a slight pain, but the reward is worth it.
@@ -280,6 +282,8 @@ Here are some other features that you might want to consider:
 * Mobile form builder.
 * Self-hosted form builder.
 * Form builder API.
+
+Check out our free guide to [IT process automation](https://budibase.com/blog/automation/it-process-automation/).
 
 In addition to these, let’s look at some clear winners based on a few popular requests for online form builders.
 

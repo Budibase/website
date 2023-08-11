@@ -117,6 +117,8 @@ When users can only take a discrete set of actions at any given time, it’s obv
 
 Crucially for operations teams, this automation helps to improve organizational transparency, by reducing the scope for different human biases. Digital processes don’t play favorites when it comes to allocating work or resources.
 
+You might also like our guide to the [differences between rule-base and role-based access control](https://budibase.com/blog/app-building/difference-between-rule-based-role-based-access-control/).
+
 ### Employee retention, satisfaction, & turnover
 
 Staff turnover is one of the most pervasive hidden costs in large organizations. Finding and retaining talented, motivated employees is an expensive challenge. Of course, countless factors play a role here, including company culture or even individual leadership styles.

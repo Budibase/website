@@ -89,6 +89,8 @@ Vendors might also use less common or poorly defined data models, making migrati
 
 For many organizations, the prospect of data loss is simply too great a risk, preventing them from moving to more effective software tools.
 
+You might also like our guide to [IT operations](https://budibase.com/blog/inside-it/it-operations/).
+
 #### Internal resistance to change
 
 Your internal culture can also facilitate vendor lock-in. A big part of this is resistance to change. Employees at all levels get used to certain ways of doing things. This applies to front-line staff, all the way up to the C-suite.

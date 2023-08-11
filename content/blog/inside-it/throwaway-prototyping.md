@@ -72,6 +72,8 @@ However, some of these rapid throwaway prototypes still might not make the final
 
 By contrast, many of these tasks only occur at a later stage in projects using the throwaway prototyping model.
 
+Take a look at our round-up of [rapid application development tools](https://budibase.com/blog/inside-it/rapid-application-development-tools/).
+
 ## Throwaway prototyping: advantages and disadvantages
 
 So, now that we have a clearer idea of what throwaway prototyping is and how it compares to the alternatives, let’s think about how it offers value and what challenges it introduces.
@@ -178,6 +180,8 @@ Say one of your developers is assigned a research task to see if a particular fe
 So, if someone else tries to tackle a similar problem down the line, they won’t know what the problem is. They’ll then have to start again from scratch, even if the idea was completely unviable in the first place.
 
 With inter-team communications and stakeholder management, the challenge is how you record, manage and implement feedback. For example, if you spend time creating prototypes but don’t make the effort to document what works and what doesn’t, a lot of value is lost.
+
+You might also like our guide to [using forms to enter Google Sheets data](https://budibase.com/blog/data/using-a-form-to-enter-google-sheets-data/).
 
 ## When would you build a throwaway prototype?
 

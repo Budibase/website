@@ -42,6 +42,8 @@ You can follow the tips from this tutorial to build a dashboard in addition to a
 
 Google Sheets is a great option for a free and simple database. With it, you can add data to your tables and use other apps to access it using the API.
 
+Check out our guide to [data entry automation](https://budibase.com/blog/data/data-entry-automation/).
+
 ## How do I make Google Sheets more attractive?
 
 You can use the Google Sheets tools and create better designs. You can use options such as:
@@ -231,6 +233,8 @@ This URL makes it so that Budibase loads a different link for each row. They all
 
 Thus, you can use this pattern on your screen. You can extract the ID from the URL and pass it to your data providers. Let’s see how you can do it on the next screen.
 
+You might also like our guide on [how to build a dashboard](https://budibase.com/blog/tutorials/how-to-build-a-dashboard/).
+
 ## Step 3 - Add new and edit clients screens
 
 Both forms are very similar in their structures. Here is the components tree for the _add new_ screen:
@@ -298,6 +302,8 @@ Also, don’t forget to update the messages link to be:
 */messages/{{ messages Table.messages._id }}*
 
 And update the add new button as well.
+
+You might also like our guide to building a [MongoDB GUI](https://budibase.com/blog/tutorials/mongodb-gui/).
 
 Let’s build the message reply form.
 

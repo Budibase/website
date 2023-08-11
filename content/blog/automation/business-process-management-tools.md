@@ -60,6 +60,8 @@ Additionally, there’s the fact that there are competing approaches to process 
 
 We’ll return to the kinds of tools that make up your BPM software stack a little later, but for now, the important thing to recognize is the centrality of understanding your own specific requirements, given the variety of options available.
 
+You might also like our guide to [business process optimization](https://budibase.com/blog/automation/business-process-optimization/).
+
 ### How does software fit into your BPM strategy?
 
 This is an important but often undersold question. Essentially, there’s a misconception that your software stack _is_ your BPM strategy.

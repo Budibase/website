@@ -75,6 +75,8 @@ Similarly, some are intended to help you analyze workflows and identify improvem
 
 Furthermore, we know that workflow management can draw on a huge variety of different interventions. Therefore, it stands to reason that your software stack will need to provide sufficient capability and flexibility to meet this challenge.
 
+Check out our guide to [digital enablement](https://budibase.com/blog/inside-it/digital-enablement/).
+
 ### 7 types of workflow management software
 
 With that in mind, let’s think about the broad _classes_ of workflow management software on the market today.
@@ -166,6 +168,8 @@ There are a couple of important downsides to consider though.
 Firstly, when we become dependent on a single platform for all aspects of our workflow management, we begin encountering a range of new risks including vendor lock-in, vulnerability to price hikes, and more.
 
 Besides, this can often end up being a fairly expensive option, depending on individual platforms’ pricing models.
+
+Take a look at our guide to [in-house software development](https://budibase.com/blog/inside-it/in-house-software-development/) for more details on going down the custom route.
 
 ### Low-code platforms
 
@@ -282,6 +286,8 @@ The important thing here is understanding that you might need to prioritize some
 However, sometimes compromise can be difficult - for example, if you have multiple options that each only meet a subset of your firm requirements.
 
 In this case, we’ll likely need to turn to custom solutions - whether this is building the software we need from the ground up or creating capability around the edges of existing platforms.
+
+Check out our ultimate guide to [integration in digital transformation](https://budibase.com/blog/automation/integration-digital-transformation/).
 
 ## Workflow management software: 5 picks for 2023
 

@@ -95,7 +95,7 @@ You can now visit “_localhost:3001_” which will have the app running, you sh
 
 ![](https://res.cloudinary.com/daog6scxm/image/upload/v1647003320/cms/7_a09fzg.png)
 
-You can switch between viewing the list of sales, or creating a new sale by using the navbar in the top left.
+You can switch between viewing the list of sales, or creating a new sale by using the navbar in the top left. Check out our guide to [table UI design](https://budibase.com/blog/app-building/table-ui-design/) for more tips.
 
 ## How it all works
 

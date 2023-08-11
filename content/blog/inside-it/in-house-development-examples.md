@@ -94,6 +94,8 @@ Because of this, more and more businesses are turning to low-code development to
 
 We’ll see how Budibase is transforming the way businesses build solutions for a wide range of business problems a little bit later.
 
+Take a look at our guide to [legacy app modernization](https://budibase.com/blog/legacy-application-modernization/4-low-code-legacy-application-modernization-strategies-budibase/).
+
 ## What kinds of solutions do internal teams build?
 
 Before we move on to our specific in-house development examples, it’s going to be productive to reflect on some of the general characteristics that these share. In other words, what _kinds_ of solutions are normally built by internal teams?
@@ -139,6 +141,8 @@ Typically, this is some combination of the following:
 * Triggering stored queries and procedures.
 * Visualizations.
 * Data management and manipulation actions.
+
+You might also like our guide to [data access control](https://budibase.com/blog/app-building/data-access-control/).
 
 Our example is a simple SQL GUI.
 

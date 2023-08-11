@@ -34,6 +34,8 @@ Today we walk you through this process. You’ll learn how you can connect to yo
 
 All of that with no coding knowledge, using Budibase.
 
+You might also like our guide to building a [GitHub metrics dashboard](https://budibase.com/blog/app-building/github-metrics-dashboard/).
+
 Let's get started!
 
 ## Is there a GUI for Postgres?
@@ -55,6 +57,8 @@ The best Postgres GUI depends on your requirements. There are pre-made tools wit
 At the end of the day, the best PostgreSQL client is the one that does everything you need. And very rarely will you find this in a premade tool.
 
 Building an app with code can take a lot of time and it can be very expensive. But you can use a low-code builder to do it for free.
+
+You might also like our in-depth guide to [ACID compliance](https://budibase.com/blog/data/acid-compliance/).
 
 Let's see what we consider the best PostgreSQL client if you just want to get started.
 

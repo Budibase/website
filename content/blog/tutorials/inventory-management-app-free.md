@@ -265,6 +265,8 @@ Under *define filters* we’ll add a second expression. This time, we want to di
 
 Now we have fully working search functionality.
 
+Take a look at our guide to [on-prem vs cloud hosting](https://budibase.com/blog/app-building/on-prem-vs-cloud/).
+
 ### 7. Low-stock notifications
 
 The last thing we want to build is our low-stock notifications. Remember, we wrote a custom query earlier that’s going to do most of the legwork for us here. We’ll add another container to keep things tidy.
@@ -300,7 +302,7 @@ The card component also has a button, with two actions. First, it adds a new row
 
 Now, users can directly order new stock, but they can also see if someone else has already done so.
 
-And that’s our free inventory management app completed. We could tweak the design a little bit more if we wanted to, but otherwise, we’re ready to publish and send our tool to users.
+And that’s our free inventory management app completed. We could tweak the design a little bit more if we wanted to, but otherwise, we’re ready to publish and send our tool to users. 
 
 You can also check out our guide to building a [SQL GUI](https://budibase.com/blog/tutorials/sql-gui/).
 

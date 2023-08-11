@@ -110,6 +110,8 @@ On the technical side, we have a constant stream of emerging cyber threats, as w
 
 In-house software development largely eliminates many organizational risks and makes it easier to manage the technical ones - meaning we can potentially save a lot of money.
 
+You might also like our guide to [table UI design](https://budibase.com/blog/app-building/table-ui-design/).
+
 ## Challenges of in-house software development
 
 Of course, none of this is to say that internal devs are the better option across the board. Obviously, it’s not the best option for every company, or else contractors and agencies wouldn’t exist.
@@ -129,6 +131,8 @@ Obviously, we have to set this cost against what we’d be paying external contr
 So really, it becomes a calculation as to whether or not hiring an in-house development team is the most cost-effective option.
 
 One of the biggest decision points here is your specific demand for solutions. That is, do you have a large enough list of solutions that need to be built to fill your developers’ time?
+
+Check out our ultimate guide to [workflow management](https://budibase.com/blog/automation/workflow-management/).
 
 ### Finding talent
 
@@ -153,6 +157,8 @@ On the other, we have continuity issues and knowledge gaps that come along with 
 So what can we do about this? There are several levers we can pull. Of course, one important strategy is ensuring that benefits packages remain competitive. Besides this, we need to take steps to manage the impact of employee turnover.
 
 We’ll look in more depth at some of these strategies a little bit later.
+
+You might also like our guide to the [differences between rule-base and role-based access control](https://budibase.com/blog/app-building/difference-between-rule-based-role-based-access-control/).
 
 ### Other resourcing issues
 
