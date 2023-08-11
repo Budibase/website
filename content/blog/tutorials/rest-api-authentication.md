@@ -170,7 +170,7 @@ Here’s what this would look like in-situ:
 
 ![URL parameters](https://res.cloudinary.com/daog6scxm/image/upload/v1689941919/cms/rest-api-authentication/REST_API_AUTH_5_kfprwm.webp "REST API auth parameters")
 
-You might also like our guide titled [*What are the Components of an API?*](https://budibase.com/blog/inside-it/what-are-the-components-of-an-api/)
+You might also like our guide titled [What are the Components of an API?](https://budibase.com/blog/inside-it/what-are-the-components-of-an-api/)
 
 ### 3. Basic auth
 
