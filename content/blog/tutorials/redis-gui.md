@@ -5,7 +5,7 @@ description = "Build a Redis GUI, to make the most out of your database, without
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1666101435/cms/Redis_GUI_Header_xsetam.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1666101443/cms/Redis_GUI_Header_x4q75k.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Build a Redis GUI in 3 Steps"
+title = "How to Build a Redis GUI"
 
 +++
 With a Redis GUI, you can make the most out of your database, without memorizing any commands.

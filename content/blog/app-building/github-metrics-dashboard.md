@@ -5,7 +5,7 @@ description = "Follow our tutorial to build a custom GitHub metrics dashboard wi
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1655209784/cms/How_to_Build_a_GitHub_Metrics_Dashboard_jt2mkg.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1655209790/cms/How_to_Build_a_GitHub_Metrics_Dashboard_ppba56.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Build a GitHub Metrics Dashboard fo Free"
+title = "How to Build a GitHub Metrics Dashboard"
 
 +++
 Managing a GitHub repository is hard. Your developers are too valuable to waste their time on simple admin tasks, like pulling stats.

@@ -5,7 +5,7 @@ description = "Data access control is any method you use to control how users in
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1653386953/cms/What_is_data_access_control_header_d6avle.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1653386953/cms/What_is_data_access_control_header_d6avle.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "What is Data Access Control?"
+title = "What is Data Access Control | In-Depth Guide"
 
 +++
 Data access control is a crucial element of any information security strategy.

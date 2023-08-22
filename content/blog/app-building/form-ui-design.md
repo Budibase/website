@@ -5,7 +5,7 @@ description = "Form UI design is one of the essential skills in any designer’s
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1656427647/cms/Form_UI_Design_Header_isqpxm.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1656427656/cms/Form_UI_Design_Header_lleswh.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "21 Powerful Tips for Form UI Design"
+title = "21 Tips for Professional Form UI Design"
 
 +++
 Form UI design is one of the essential skills in any designer’s arsenal. Forms are the basis of countless different kinds of apps and tools. An effective form can be the difference between a profitable app project and one with poor usability, retention, and engagement.
