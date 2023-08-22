@@ -3,7 +3,7 @@ author = "Joe Johnston"
 date = 2021-02-19T00:00:00Z
 description = "Open source form builder apps come in all shapes and sizes but are critically different. This guide covers what's unique about the best open source form builder apps in 2021."
 images = ["/open-source-form-builder/open-source-form-builder.png"]
-title = "The 5 best open source form builder apps (tried and tested)"
+title = "5 best open source form builder apps (tried and tested)"
 
 +++
 {{< figure src="/open-source-form-builder/open-source-form-builder.png" alt="5 best open source form builder apps" >}}

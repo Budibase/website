@@ -5,7 +5,7 @@ description = "Today, we’re going to look at a better way to manage data, calc
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1661178401/cms/Make_an_App_From_a_Spreadsheet_if7rxn.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1661178410/cms/Make_an_App_From_a_Spreadsheet_g6tkuw.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Make an App from Excel Spreadsheets | Step-by-Step"
+title = "How to make an App from Excel Spreadsheets"
 
 +++
 We love to hate spreadsheets. They’re everywhere. We use Excel for everything from planning our vacations and weddings, to managing inventories, payroll, and just about any other business process under the sun.

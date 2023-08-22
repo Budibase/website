@@ -5,7 +5,7 @@ description = "Rapid application development tools are critical for building per
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1665140297/cms/Citizen_Development_Governance_Header_v2bckd.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1665140304/cms/Citizen_Development_Governance_Header_ujgsvz.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Top 5 Rapid Application Development (RAD) Tools for 2023"
+title = "Top 5 Rapid Application Development Tools"
 
 +++
 Choosing the right rapid application development tools for your team is a tricky prospect.

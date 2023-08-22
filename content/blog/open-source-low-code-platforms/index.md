@@ -3,7 +3,7 @@ author = "Joe Johnston"
 date = 2021-05-05T00:00:00Z
 description = "Open source low-code platforms come in all shapes and sizes. Here's everything you need to know in 2023"
 images = ["/open-source-low-code-platforms/open-source-low-code-platforms.jpg"]
-title = "Top 5 Open Source Low-Code Platforms Tried and Tested"
+title = "5 best open source low-code platforms (tried and tested)"
 
 +++
 {{< figure src="/open-source-low-code-platforms/open-source-low-code-platforms.jpg" alt="Top 5 open source low-code platforms" >}}

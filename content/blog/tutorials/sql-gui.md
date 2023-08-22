@@ -5,7 +5,7 @@ description = "With Budibase, building a custom SQL GUI has never been easier. H
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1664187039/cms/How_to_Build_a_SQL_GUI_ttdmca.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1664187046/cms/How_to_Build_a_SQL_GUI_hlukgc.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Build a SQL GUI in 5 Steps"
+title = "Build a Free SQL GUI in 5 Steps"
 
 +++
 SQL is a powerful database query language that can be used to unlock valuable insights stored in databases. But SQL can be difficult to learn and use, particularly for non-specialists.
