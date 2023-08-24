@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1648028545/cms/Mai
 summary = "Use our maintenance schedule template to plan regular servicing."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1648031915/cms/Maintenance_schedule_thumbnail_fnine1.png"
 thumbnailColor = "indigo"
-title = "Maintenance Schedule Template | Budibase | Low-Code Platform"
+title = "Free Maintenance Schedule Template"
 type = "templates"
 icon = "/img/icon/app.svg"
 
