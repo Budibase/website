@@ -1,6 +1,6 @@
 ---
 date: 2021-10-20
-title: Open source ticketing system template - Made by Budibase
+title: Open Source Ticketing System Template
 description: The open source ticketing system template is great for keeping on top
   of support tickets and preventing them from falling through the cracks.
 cover: "/business-apps/templates/open-source-ticketing-system/images/cover.png"

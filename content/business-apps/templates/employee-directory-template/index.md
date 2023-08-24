@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639411576/cms/Emp
 summary = "Our employee directory template gives businesses quick and easy access to staff information."
 thumbnail = "/business-apps/templates/employee-directory-template/images/thumbnail.webp"
 thumbnailColor = "green"
-title = "Employee Directory Template | Budibase | Low-Code Directories"
+title = "Free Employee Directory Template"
 type = "templates"
 icon = "/img/icon/app.svg"
 

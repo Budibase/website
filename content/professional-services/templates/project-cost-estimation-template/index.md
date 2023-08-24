@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646327431/cms/Pro
 summary = "Our project cost estimation template is built to simplify the quotation and sign-off process. Itemize project tasks and calculate estimates, in seconds."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1646327418/cms/Project_Cost_Estimation_Template_Thumbnail_nlvkgo.png"
 thumbnailColor = "seafoam"
-title = "Project Cost Estimation Template | Budibase | Low-Code Platform"
+title = "Free Project Cost Estimation Template"
 type = "templates"
 icon = "/img/icon/app.svg"
 
