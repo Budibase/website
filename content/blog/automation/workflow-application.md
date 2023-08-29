@@ -283,4 +283,4 @@ Follow these steps to create solutions to streamline your internal processes:
 5. **Testing and deployment** - Ensuring that our workflow application functions as intended and rolling it out to real-world users.
 6. **Performance monitoring and continuous improvement** - Monitoring the success of our new tool and seeking out new opportunities for further improvements.
 
-Check out our ultimate guide to [digital transformation platforms](https://budibase.com/blog/inside-it/digital-transformation-platforms/) to learn more.
+Check out our ultimate guide to [internal processes](https://budibase.com/blog/automation/internal-processes/) to learn more.
