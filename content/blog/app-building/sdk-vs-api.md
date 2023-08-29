@@ -2,7 +2,7 @@
 
 author = "Ronan McQuillan"
 date = 2023-08-18
-description = "Today we’re diving deep into SDKs vs APIs"
+description = "Today we’re diving deep into SDKs vs APIs."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1692366304/cms/sdk-vs-api/SDK_vs_API_bfm6i3.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1692366304/cms/sdk-vs-api/SDK_vs_API_bfm6i3.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
