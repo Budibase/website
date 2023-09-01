@@ -21,7 +21,7 @@ One way to address this is to provide your students and staff with a simple, pow
 
 ## What is a university portal?
 
-A university portal is a secure, private platform, which empowers staff and students to take control over their own administrative needs. This means providing a central resource for information relating to different student services.
+University portal software tools are secure, private platforms, that empower staff and students to take control over their own administrative needs. This means providing a central resource for information relating to different student services.
 
 Students can then view this information and take action, including booking resources, registering for courses, contacting staff, and more.
 
@@ -48,7 +48,7 @@ University portals can offer a wide range of different features and functionalit
 * Pastoral resources.
 * Academic and enrolment requirements.
 
-Where possible, a higher education portal should also allow students and staff to manipulate this data. This can mean registering for courses, contacting teaching staff, booking resources, or any other admin task.
+Where possible, higher education portal software should also allow students and staff to manipulate this data. This can mean registering for courses, contacting teaching staff, booking resources, content management, or any other admin task.
 
 ## Our open-source university portal template
 
@@ -75,7 +75,7 @@ Use our template to quickly and easily deploy a feature-packed portal for your s
 
 Portals are the most effective way to provide key information for staff and students, in a single, convenient location. This greatly simplifies the process of finding key information about taking action.
 
-Our portal template offers a clean and simple UI. Users can quickly find information relating to staff, students, courses, resource booking, and more. Empower users to take control over their own admin needs.
+Our college portal software template offers a clean and simple UI. Users can quickly find information relating to staff, students, courses, resource booking, and more. Empower users to take control over their own admin needs.
 
 We’ve also implemented searchability across key app screens. From contact details to course requirements, users can find the exact information they need in seconds.
 

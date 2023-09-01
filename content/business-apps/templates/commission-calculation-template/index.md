@@ -31,22 +31,28 @@ Define your own rules to match your existing commission structure. That way, you
 
 ### Why use a dedicated tool to calculate commissions?
 
-Businesses use a range of tools to manage commission payments. For example, it’s still common for sales managers to manually figure out what is owed to their team. Other companies rely on spreadsheets to manage commission calculations.
+Businesses use a range of tools to manage commission payments. For example, it’s still common for sales managers to manually figure out what is owed to their team in incentive compensation. Other companies rely on spreadsheets to manage commission calculations.
 
-Each of these solutions creates problems. Manual calculations lead to avoidable admin costs and scope for error. Spreadsheets are simply not efficient when managing commissions for large teams. They also create unnecessary security risks.
+Each of these solutions creates problems. Manual calculations lead to avoidable admin costs and scope for error. Spreadsheets are simply not efficient when managing commissions for large teams. 
 
-Dedicated commission calculator tools offer superior usability, customization, security, and efficiency.
+This is especially true in the case of tiered commission, or any situation where the total amount of incentive-based salary is based on tenure or seniority.
+
+Spreadsheets also create unnecessary security risks around sales reps' and customers' sensitive data.
+
+Dedicated commission calculation software offers superior usability, customization, security, and efficiency.
 
 ### What should a commission calculator include?
 
 Commission calculators are simple [CRUD apps](https://budibase.com/blog/crud-app/), comprising of two elements:
 
 1. A **data layer**, for storing sales records and automating calculations.
-2. A **front-end interface**, for gathering, displaying, and managing data.
+2. A **front-end interface**, for gathering, displaying, and managing data around sales compensation.
 
 Users can record sales through the app’s front end. The data layer is used to store this information and apply your calculation rules.
 
 The best commission calculator tools provide additional features to fully streamline processes. For example, third-party integrations, custom automations, and other advanced functionality.
+
+You might like to add additional short term incentives around selling certain volumes worth of a product. Or, you might want to create custom screens around analytics for total commissions or average commission rates.
 
 ## Our commission calculation template
 

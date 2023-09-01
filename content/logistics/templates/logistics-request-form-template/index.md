@@ -23,11 +23,11 @@ Cut operating costs and reduce admin burdens with our streamlined request manage
 
 ## What is a logistics request form?
 
-Request forms are dedicated tools for managing user queries. For logistics companies, this typically means allowing users to provide key details of their requirements. For example, item details, point of origin, destination, turnaround time, and any special considerations.
+Request forms are dedicated tools for managing user queries. For logistics companies, this typically means allowing users to provide key details of their requirements. For example, item details, point of origin, destination, turnaround time, and any special considerations within logistics processes.
 
 By collecting this data in a fixed format, you can automate admin tasks, providing smoother and more cost-effective customer experiences.
 
-The goal is to maximize your competitiveness and profitability, by ensuring that your initiation workflows are as efficient as possible.
+By collecting this data in a fixed format, you can automate admin tasks, providing smoother and more cost-effective customer experiences and enhanced supply chains.
 
 ### Why digitize logistics requests?
 
@@ -75,7 +75,7 @@ We’ve built our template around an intuitive, [multi-step form interface](http
 
 Each form stage presents users with a single category of information. Clear data labels ensure that users provide accurate information, in the correct format.
 
-Say goodbye to lengthy client calls and email chains. With our template, users can submit requests, and receive estimates, in seconds.
+Say goodbye to lengthy client calls and email chains. With our template, users can submit requests, and receive estimates, in seconds. Budibase offers a drag-and-drop online form builder, so you can make fully customized UIs in just a couple of minutes.
 
 ### Manage and action responses
 

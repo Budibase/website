@@ -27,7 +27,7 @@ Effective admin panels eliminate the need for manual data entry, processing, and
 
 ### Why do rental companies use admin panels?
 
-Car rental companies have incredibly complex operational processes. One element of this is tracking and managing the usage and maintenance of thousands of vehicles. It’s crucial that every car in your fleet is serviced effectively and on time.
+Car rental companies have incredibly complex operational processes. One element of this is tracking and managing the usage and maintenance of thousands of vehicles. It’s crucial that every car in your fleet is serviced effectively and on time for the next vehicle rental term.
 
 This is even more challenging for large fleets that are spread across multiple locations.
 
@@ -40,13 +40,13 @@ Additionally, car rental admin panels help to simplify and digitize your operati
 For rental companies, effective admin panels essentially contain two functions:
 
 1. Visualization of key operational data,
-2. Functionality for teams to add, manipulate, and edit data.
+2. Functionality for teams to add, manipulate, and edit data about vehicles and car bookings.
 
-This includes mileage, fleet age, individual vehicle information, usage, and maintenance data. It’s also vital that users can quickly visualize different data views. This might include isolating vehicles at different locations and maintenance intervals, or in different categories.
+This includes mileage, fleet age, individual vehicle information, usage, car rental agreement terms, and maintenance data. It’s also vital that users can quickly visualize different data views. This might include isolating vehicles at different locations and maintenance intervals, or in different categories.
 
 ## Our car rental admin panel template
 
-Our template offers a fully custom and deployable admin panel, with minimal development time.
+Our car rental template offers a fully custom and deployable admin panel, with minimal development time.
 
 Like all Budibase apps, our car rental admin panel offers:
 
@@ -66,7 +66,7 @@ Budibase is the easy and cost-effective way to build custom admin panels.
 
 ### Track vehicle usage and maintenance
 
-Our template is designed to provide maximum oversight over vehicle usage and maintenance schedules. We’ve provided screens for quickly viewing usage reports and charts at a fleet, brand, or individual vehicle level.
+Our car rental admin dashboard is designed to provide maximum oversight over vehicle usage and maintenance schedules. We’ve provided screens for quickly viewing usage reports and charts at a fleet, brand, or individual rented vehicle level.
 
 We’ve added dynamic filtering and searchability, ensuring that users can quickly find the exact data they need. With Budibase, you have complete control over which fields users can search and filter data by.
 

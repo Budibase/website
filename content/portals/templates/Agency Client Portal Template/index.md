@@ -23,7 +23,7 @@ Portals are also an essential part of any efficient agency. On the one hand, it�
 
 An agency client portal is a private app, where clients can log in to access services, files, content, and project information. This means that clients can access key information, without the need for manual communications.
 
-Our agency client portal template is built for efficient operations.
+Our agency portal software template is built for efficient operations.
 
 ### Why do agencies use client portals?
 
@@ -35,20 +35,20 @@ Agencies use client portals to automate key project management tasks. This saves
 
 ### What does a client portal contain?
 
-Client portals can contain a number of different screens. A basic portal allows users to:
+Customer portal software can contain a number of different screens. A basic portal allows users to:
 
-* Provide information.
-* View project statuses.
-* Access files.
-* Request work.
+- Provide information.
+- View project statuses.
+- Access files.
+- Request work.
 
-More advanced tools also offer support for payments and invoicing, or CRM integration.
+More advanced client portal solutions also offer support for payments and invoicing, or CRM integration.
 
-However, different agencies will naturally have different needs. As such, it’s important that your portal app offers the flexibility to add the exact functionality you need.
+However, different agencies will naturally have different needs. What works for a small business won't necessarily work for an enterprise As such, it’s important that your portal app offers the flexibility to add the exact functionality and client experiences you need.
 
 ## Our agency client portal template
 
-Our template is designed to provide you with a deployable, custom client portal, in minutes. Give your clients a quick and easy self-service portal.
+Our user-friendly, secure client portal for agencies is designed to provide you with a deployable, custom solution, in minutes. Give your clients a quick and easy self-service portal.
 
 Straight out of the box, our template offers:
 
@@ -67,7 +67,7 @@ Our template is built around a central work request database and two dynamic for
 
 ### Manage new and existing clients
 
-Our template is built to simplify workflows for scoping and delivering new projects. Clients can use a simple form interface to request quotes for new work. Your team can then review requests, and provide quotes.
+Our client portal software for agencies is built to simplify workflows for scoping and delivering new projects. Clients can use a simple form interface to request quotes for new work. Your team can then review requests, and provide quotes.
 
 Once a quote is agreed, your team can add any relevant project files, to complete the task. Maintain complete oversight of all projects, as their status automatically changes based on user actions.
 

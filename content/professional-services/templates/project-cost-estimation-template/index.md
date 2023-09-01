@@ -41,10 +41,12 @@ Relying on spreadsheets leads to poor process management, miscommunications, los
 
 Project estimator tools are based on two key elements:
 
-1. A **data layer**, for storing key information on projects, costs, specific tasks, and clients.
+1. A **data layer**, for storing key information on projects, labor and material costs, specific tasks, and clients.
 2. A **front-end interface** for calling, querying, and displaying this information.
 
 For service businesses, the data layer should include the daily or hourly rate for the different services you offer. That way, your team can use simple time estimates for each service vertical, to quickly calculate the total cost of each project task.
+
+For example, you could modify this to be used as a financial services, legal, or software development project cost estimation template - or some other type of service.
 
 Estimates can then be viewed, shared, and filtered by department, client, project, and more.
 
@@ -54,7 +56,7 @@ The most effective project estimate tools maximize profitability by cutting unne
 
 ## Our project cost estimation template
 
-We’ve built our project cost estimate template for maximum efficiency. Users can create complex project budgets, in seconds.
+We’ve built our project cost estimate template for maximum efficiency. Users can create complex project budgets using a variety of cost estimation techniques, in seconds.
 
 Our template offers:
 
@@ -73,7 +75,7 @@ Our template is the smart way to create, manage, and share estimates.
 
 ### Itemized estimates, in seconds
 
-Use our cost estimate template to create detailed project cost estimates, in just a few clicks. We’ve built our estimator tool around four linked databases for _projects, project items, rates,_ and _clients_. Quickly estimate the costs of entire projects or individual tasks.
+Use our cost estimate template to create detailed, real-time project cost estimates, in just a few clicks. We’ve built our estimator tool around four linked databases for *projects, project items, rates,* and *clients*. Quickly estimate the costs of entire projects or individual tasks.
 
 Store your fixed rates for each service vertical, and use our simple form interfaces to create project estimates. Our template minimizes admin time, with instant cost calculations and intuitive UIs.
 
@@ -85,7 +87,7 @@ Our template makes extensive use of formula variables. Use Handlebars statements
 
 We’ve used formula variables throughout our template to calculate total costs, across entire projects and individual items.
 
-Use our JavaScript editor to create more complex custom rules, which perfectly match your existing process and policies.
+Use our JavaScript editor to create more complex custom rules, which perfectly match your existing process and policies. Modify our app to be used as a financial, legal, consulting, or software project cost estimation template.
 
 ![Cost Estimation Form Tool](https://res.cloudinary.com/daog6scxm/image/upload/v1646327641/cms/Project_Cost_Estimation_Template_5_gvplx8.png "Cost Estimate Form Tool")
 

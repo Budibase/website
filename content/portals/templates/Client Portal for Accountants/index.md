@@ -21,21 +21,21 @@ One solution is to give clients a secure and efficient platform for managing fil
 
 ## What is a client portal?
 
-A client portal is a secure, private platform, where clients can manage key admin tasks. Users can edit their details, submit information, and view documents that have been shared with them.
+A client portal is a secure, private management system, where clients can manage key admin tasks. Users can edit their details, submit information, and view documents that have been shared with them.
 
 Beyond this basic functionality client portals often have more specific features, depending on the business’ specific requirements. Given that accountants handle sensitive information, the core requirement of a client portal is securely storing and sharing files.
 
 ### Why do accountancy businesses use client portals?
 
-Accounting firms use client portals to reduce operational costs, cut admin time, and provide better client experiences. As accountancy companies grow, it quickly becomes necessary to centralize admin and communication workflows, to remain profitable.
+Accounting firms use client portals to reduce operational costs, cut admin time, and provide better customer service and client experiences. As accountancy companies grow, it quickly becomes necessary to centralize admin and communication workflows, to remain profitable.
 
 Additionally, digital portals provide improved client experiences. Rather than needing to contact your team, clients can simply access all of their documentation in one convenient location.
 
 ### What should a client portal for accountants contain?
 
-Client portals for accountants are primarily used for secure file transfer and document management. They should also streamline key admin and communications processes.
+Our template is designed to reduce admin time, and provide incredible client experiences.
 
-This includes:
+Our client portal features:
 
 * Submission of documents,
 * Information requests,
@@ -79,7 +79,7 @@ Document management is one of the major challenges for accounting firms. One ele
 
 Beyond this, there’s the challenge of centralizing information. Any accountant will tell you that clients often request the same information, time and time again.
 
-Using a client portal for file management solves both of these problems. Our portal template allows your clients to send, receive, view, and request different kinds of documents, in a single, intuitive location.
+Using a cloud-based client portal for file management solves both of these problems. Our portal template allows your clients to send, receive, view, and request different kinds of documents, in a single, intuitive location.
 
 ![Document Request UI](https://res.cloudinary.com/daog6scxm/image/upload/v1642413696/cms/Client_Portal_for_Accountants_2_niwrso.png "Client Portal for Accountants Screenshot 2")
 

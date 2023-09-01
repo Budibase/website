@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639409013/cms/Vac
 summary = "Our vacation request form template gives businesses a quick and easy way to manage employee leave."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642589024/cms/Vacation_Request._Form_Thuumbnail_New_iddehn.png"
 thumbnailColor = "purple"
-title = "Vacation Request Form Temple | Budibase"
+title = "Vacation Request Form Template | Budibase"
 type = "templates"
 icon = "/img/icon/form.svg"
 
@@ -21,9 +21,9 @@ With our vacation request form, you can quickly build a deployable app to manage
 
 ## What is a digital vacation request form?
 
-Digital forms are used to simplify admin tasks. Essentially, they allow your employees to quickly submit their vacation requests, whenever and wherever they want. Line managers can then approve or decline requests at the press of a button.
+Digital forms are used to simplify admin tasks in the HR department. Essentially, they allow your team members to quickly submit their vacation leave requests, whenever and wherever they want. Line managers or HR management can then approve or decline requests at the press of a button.
 
-Our vacation request form template takes the grunt work out of managing time off. Don’t waste time on manual vacation requests. Our template allows you to fully automate your business’ leave management process.
+Our vacation request form template takes the grunt work out of managing and requesting time off. Don’t waste time on manual vacation requests. Our template allows you to fully automate your business’ leave management process.
 
 ### How do digital forms work?
 
@@ -33,7 +33,7 @@ In other words, digital forms are simple apps for automating common admin tasks.
 
 ### Why do you need a paperless vacation request form?
 
-There are a number of ways to manage vacation requests. Some businesses do this manually, using calendar apps or spreadsheets. This wastes time and opens the door for human error.
+There are a number of ways to manage vacation requests. Some businesses do this manually, using calendar apps or spreadsheets. Some businesses even require formal request letters. This wastes time and opens the door for human error.
 
 Others pay for expensive HR software and only use it for one function.
 
@@ -58,7 +58,7 @@ Out of the box, our template offers:
 * Design customization.
 * Improved workflows.
 
-As a bonus, we’ve even added a vacation approval functionality. Use our template as a standalone form, or as a full leave booking app.
+As a bonus, we’ve even added a vacation approval functionality, with data around the total number of days allocated to each employee. Use our template as a standalone form, or as a full leave booking app.
 
 ### Centralize vacation request data
 

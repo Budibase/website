@@ -25,7 +25,7 @@ Our employee portal template offers a central platform for employees to access, 
 
 An employee portal is a private app, which allows your team to access internal policies, information, and admin tools. This can include everything from basic internal documents, and staff directories, to more advanced functions.
 
-For example, many employee portals contain or integrate with [digital forms](https://budibase.com/forms), for vacation requests, incident reporting, or other HR functions.
+For example, many employee portals contain or integrate with [digital forms](https://budibase.com/forms), for vacation requests, incident reporting, managing employee engagement, digital workplaces, or other HR functions.
 
 The goal is to empower employees to carry out admin tasks, in the most efficient way possible.
 
@@ -39,7 +39,7 @@ The need for effective portals is particularly acute in large organizations or r
 
 ### What should an employee portal contain?
 
-What you include in your employee portal depends on your organization and your employees’ needs. For example, many companies need their employees to access specialist tools or workflows.
+What you include in your employee portal depends on your organization and your employees’ needs. For example, many companies need their employees to access specialist tools or workflows - as they might in a modern intranet portal.
 
 Employee portals usually include the following kinds of resources:
 
@@ -52,7 +52,7 @@ Of course, each of these categories can include a range of different resources. 
 
 ## Our employee portal template
 
-Our employee portal app template offers essential functionality, in a quickly deployable package.
+Our employee portal UI template offers essential functionality, in a quickly deployable package.
 
 Like all Budibase apps, our template offers:
 
@@ -91,7 +91,7 @@ Check out our [agency client portal](https://budibase.com/portals/templates/agen
 
 ### Reduce admin time
 
-Admin tasks are a massive drain on companies’ resources. HR is one of the most admin-intensive verticals in any organization. Our portal empowers employees to complete simple admin tasks quickly and easily.
+Admin tasks are a massive drain on companies’ resources. HR is one of the most admin-intensive verticals in any organization. Our lightweight employee portal design empowers colleagues to complete simple admin tasks quickly and easily.
 
 Our template allows employees to alter their contact information, personal details, or payroll data, in seconds. Using a simple form interface, your team can submit changes to their details, without the need to contact the HR department.
 

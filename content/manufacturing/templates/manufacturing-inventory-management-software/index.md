@@ -15,27 +15,27 @@ type = "templates"
 icon = "/img/icon/app.svg"
 
 +++
-Managing inventories is a massive challenge for manufacturing businesses. This involves maintaining, tracking, and analyzing inventories of raw materials, finished goods, and works-in-progress.
+Managing inventories is a massive challenge for manufacturing businesses. Inventory management is the process of maintaining, tracking, and analyzing inventories of raw materials, finished goods, and works-in-progress.
 
-Each of these different kinds of stock influences your requirements for the others. Managing this requires a high degree of customization, automation, and adherence to existing business rules.
+Each of these different types of inventory influences your requirements for the others. Managing this requires a high degree of customization, automation, and adherence to existing business rules.
 
 ## What is inventory management software?
 
-As the name suggests, inventory management tools are used to digitize your stock flows. Specifically, this means managing stock volumes, locations, movement, orders, processing, and value.
+As the name suggests, inventory management systems are used to digitize your stock flows and order management. Specifically, this means managing stock volumes, locations, movement, orders, processing, and value.
 
 Since manufacturing businesses handle different categories of stock, this often leads to complex workflows. This problem is amplified by modern, globalized supply chains.
 
-Inventory management software provides a single platform to control stock movement across your entire organization. Centralize everything from purchasing raw materials to distributing finished goods.
+Inventory management software provides a single platform to control stock movement across your entire organization. Centralize everything from purchasing raw materials to distributing finished goods to satisfy customer demand.
 
 ### Why build inventory management software?
 
 For even the smallest manufacturer, an effective inventory platform is critical. Without digital inventory management, it’s almost impossible to achieve profitability.
 
-Building custom inventory management software allows you to perfectly tailor your tools to your existing business processes. This is crucial for the manufacturing industry, where stock management workflows are unique to different businesses.
+Building a custom manufacturing inventory system allows you to perfectly tailor your tools to your existing business processes. This is crucial for the manufacturing industry, where stock management and inventory control workflows are unique to different businesses.
 
 The way your raw materials inventory influences your production processes will differ greatly from your competitors.
 
-As such, off-the-shelf solutions are unlikely to be effective.
+As such, off-the-shelf manufacturing software solutions are less likely to be effective.
 
 Building a custom solution is the most effective way to achieve an inventory management tool that drives ROI.
 
@@ -56,7 +56,7 @@ Of course, the best inventory management platforms contain additional features f
 
 ## Our inventory management software template
 
-Our template is built for maximum efficiency, fast deployment, and truly streamlined operations.
+Our manufacturing inventory software template is built for maximum efficiency, fast deployment, and truly streamlined operations.
 
 In minutes, you can build manufacturing inventory management software with:
 
@@ -79,15 +79,15 @@ Our templates are built for efficiency. When new items are requested in your man
 
 We’ve designed our template around several intuitive screens for managing, viewing, moving, editing, and analyzing different classes of stock.
 
-Use our inventory management software to simplify your operations. With Budibase, you can quickly and easily build inventory tools that perfectly match your manufacturing workflows.
+Use our inventory management software to simplify your operations. With Budibase, you can quickly and easily build inventory tools that perfectly match your manufacturing workflows, purchase order processes, and more.
 
 ### Analytics and data visualization
 
 Effective manufacturing businesses are built on real-time data. Improved oversight over your manufacturing workflows leads directly to better outcomes. We’ve provided extensive functionality for data collection, analysis, and visualization.
 
-Our template features dedicated analytics screens for both _product_ and _raw materials_ inventories. Analyze your stock across multiple locations, in terms of volume, value, and more.
+Our template features dedicated analytics screens for both *product* and *raw materials* inventory levels. Analyze your stock across multiple locations, in terms of volume, value, and more.
 
-Our analytics screens feature dynamic filter components. Quickly search, segment, and isolate data, based on any combination of variables and expressions.
+Our analytics screens feature dynamic filter components. Quickly search, segment, and isolate data, based on any combination of variables and expressions to pinpoint the amount of inventory in stock for different items.
 
 ![Product Analytics Screen](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646323825/cms/Manufacturing_Inventory_Management_Template_3_estgtw.png "Product Analytics Screen")
 

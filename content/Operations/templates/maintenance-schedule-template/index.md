@@ -23,11 +23,11 @@ Regular servicing helps to prevent disruption, risks, and unnecessary repair bil
 
 Maintenance schedules are used to track and manage different equipment’s servicing needs. Essentially, this means keeping a record of each item’s servicing history and maintenance intervals.
 
-The goal is to ensure that each piece of equipment receives the regular maintenance that it needs to operate properly. An effective maintenance schedule also creates a paper trail for all servicing actions.
+The goal is to ensure that each piece of equipment receives the regular maintenance work that it needs to operate properly in the short and long term. An effective maintenance schedule also creates a paper trail for all servicing actions.
 
 However, when this is done manually, it can create a huge administrative workload.
 
-This is where digital maintenance scheduling comes in.
+This is where digitalized maintenance planning comes in.
 
 ### Why digitize maintenance scheduling?
 
@@ -44,7 +44,7 @@ This can mean missing essential maintenance, or overspending on unnecessary serv
 Maintenance scheduling apps essentially have two components. These are:
 
 * A database for tracking your equipment’s maintenance needs.
-* A front-end interface for users to view, manage, and action maintenance tasks.
+* A front-end interface for users to view, manage, and action different types of maintenance processes.
 
 In other words, a maintenance schedule app automatically tracks when servicing is due. It then notifies your team and allows users to record when tasks are completed. This means collecting and maintaining data on equipment usage and maintenance needs.
 
@@ -52,7 +52,7 @@ For example, you might set different maintenance intervals based on usage or tim
 
 ## Our maintenance schedule template
 
-We’ve created an intuitive and powerful platform for managing maintenance schedules. With our template, you can streamline preventative maintenance workflows, without the need for costly custom development.
+We’ve created an intuitive and powerful scheduled maintenance template. With it, you can streamline routine maintenance workflows, without the need for costly custom development.
 
 Our maintenance schedule template offers:
 
@@ -90,7 +90,7 @@ Create your own custom rules based on device usage, age, or any other date field
 
 ### Register servicing
 
-Our template provides the perfect platform for recording services, on-site or in the field. We’ve provided concise, intuitive [form interfaces](https://budibase.com/forms) for recording maintenance dates and details. Our service schedule database creates a clear log of all work.
+Our maintenance calendar template provides the perfect platform for recording services, on-site or in the field. We’ve provided concise, intuitive [form interfaces](https://budibase.com/forms) for recording maintenance dates and details. Our service schedule database creates a clear log of all work.
 
 Create, edit, or remove database entries in seconds. All forms in our template are fully customizable. Tailor your servicing workflows to your specific business needs.
 
@@ -100,7 +100,7 @@ Our template is fully mobile responsive. All design elements automatically scale
 
 ### Automate workflows
 
-We’ve created our maintenance schedule template to automate workflows. Use any in-app action to trigger Budibase’s wide library of built-in automations. Automatically send email notifications, schedule calendar events, and more.
+We’ve created our service schedule template to automate workflows. Use any in-app action to trigger Budibase’s wide library of built-in automations. Automatically send email notifications, schedule calendar events, and more.
 
 Use our JavaScript editor or range of integration options to create your own powerful custom automated workflows.
 

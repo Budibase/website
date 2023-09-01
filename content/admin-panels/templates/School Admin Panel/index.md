@@ -19,13 +19,13 @@ Any education professional can tell you that administering a school is a massive
 
 Beyond this, there’s the challenge of managing school finances. With ever-shrinking budgets and rising costs, financial oversight is crucial.
 
-Our template is built to solve these challenges for educational institutions.
+Our school management system template is built to solve these challenges for educational institutions.
 
 ## What is an admin panel?
 
-Admin panels are simple tools for viewing, manipulating, and managing data. Of course, this can mean different things for different kinds of organizations. The key thing is that decision-makers should be able to quickly access key data.
+Admin panels are simple tools for enabling college and school students and teachers to view, manipulate, and manage data. Of course, this can mean different things for different kinds of organizations - across schools and universities.
 
-The most effective admin panels also allow users to manipulate relevant data fields, quickly and easily.
+The key thing is that decision-makers should be able to quickly access key data.
 
 The goal is to improve policy decision-making, while also cutting operational costs through streamlined admin processes.
 
@@ -70,7 +70,7 @@ Like all Budibase apps, our school admin panel offers:
 * External database support.
 * Responsive design.
 * Flexible hosting & deployment.
-* Third-party integrations.
+* Third-party integrations with platforms like school websites.
 * Efficient and cost-effective processes.
 * Custom data fields.
 

@@ -19,26 +19,26 @@ Almost every business manages equipment, either internally, or on behalf of clie
 
 In either case, the key is to have smooth and efficient workflows in place. When repairs and maintenance are delayed, it can disrupt your employees’ work, or negatively impact clients.
 
-Digital maintenance request forms are a simple and effective way to avoid this.
+Digital maintenance work order forms are a simple and effective way to avoid this.
 
 ![Maintenance request form template screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1639392302/cms/Maintenance_request_form_template_1_wg8jgl.png "Maintenance request form template screenshot")
 
 ## What is a maintenance request form?
 
-A maintenance request form is a simple interface that allows users to report issues with their equipment, devices, vehicles, or property. This helps you manage issues, and schedule maintenance work.
+A maintenance request form is a simple interface that allows users to report issues with their equipment, devices, vehicles, or facility management. This helps you manage issues, save time, and schedule maintenance work.
 
 The goal is to make maintenance requests more efficient, as well as optimize workflows for sending out repair staff. Maintenance request forms can greatly reduce lead times, and cut admin work, helping to lower operational costs.
 
 ### How do digital forms work?
 
-Like any digital form, a maintenance request app has two core elements:
+Like any digital form, a work request form has two core elements:
 
 1. A front-end interface where users can submit maintenance requests.
 2. A back-end database, for storing, managing, and responding to requests.
 
-When a user submits a maintenance request through the front end, an entry is created in the database. This includes the user’s personal information and phone numbers, as well as key details about their maintenance needs.
+When a user submits a maintenance request through the front end, an entry is created in the database. This includes the user’s personal and contact information, as well as key details about their maintenance needs - properly documenting the issue.
 
-Your team can then manipulate, query, and respond to requests within the template. Alternatively, you can set rules and conditions to automatically add maintenance work to your team’s schedule.
+Your team can then manipulate, query, and respond to requests within our work request template. Alternatively, you can set rules and conditions to automatically add maintenance work to your team’s schedule.
 
 ### Why do businesses need maintenance request forms?
 
@@ -50,7 +50,7 @@ Additionally, digital forms reduce the workload of your service team. From strea
 
 ## Our maintenance request form template
 
-Our maintenance request form template is built for functionality and fast deployment.
+Our maintenance work order template is built for functionality and fast deployment.
 
 Within minutes, you’ll have access to:
 
@@ -65,7 +65,7 @@ Within minutes, you’ll have access to:
 * Design customization.
 * Streamlined workflows.
 
-With the free, open-source Budibase builder, you can create deployable business tools in minutes. Customize our template however you like. We offer the flexibility to deploy as a standalone request management system, or as a form component within an existing tool.
+With the free, open-source Budibase builder, you can create deployable business tools in minutes. Customize our template however you like. We offer the flexibility to deploy as standalone work order software, or as a form component within an existing tool.
 
 ### Instant maintenance requests
 

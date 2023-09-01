@@ -22,7 +22,7 @@ Collecting data online is critical to many processes, including; customer feedba
 
 ## What is a multi-step lead form
 
-A multi-step lead form allows you to capture leads online. For example, if a potential customer visits your website, reads the content, and is interested in what they see. The next step is for them to click a call-to-action button (Contact us button), and complete a form expressing their interest and provide you with information re their current circumstances.
+A multi-step lead form allows you to capture leads online. For example, if a potential customer visits your website or landing page, reads the content, and is interested in what they see. The next step is for them to click a call-to-action button (Contact us button), and complete a form expressing their interest and provide you with information re their current circumstances.
 
 From your perspective, you now have a new lead, their contact information, and further context around why they’re interested in your offering.
 
@@ -32,11 +32,11 @@ And what’s great about this lead capture form, is it’s beautifully designed 
 
 ### Public multi-step form
 
-Anyone can access the public lead capture form. The form is a multi-step form, which means, the form is divided into multiple sections - 1 question per screen. This provides a better experience for the user. It also gives you more room to dive deeper into each question or show images, videos, etc. The form has a beautiful background that you can customize. It also has built-in conditional logic, which changes the text and button variant when the user is on certain steps.
+Anyone can access the public lead capture form. The form is a multi-step form, which means, form fields are divided into multiple pages - 1 question per screen. This provides a better user experience compared to long forms. It also gives you more room to dive deeper into each question or show images, videos, etc for higher conversion rates than a single-step form. The form has a beautiful background that you can customize. It also has built-in conditional logic, which changes the text and button variant when the user is on certain steps.
 
 ### Private admin panel
 
-The admin panel is a simple interface for viewing and updating incoming leads. It also comes with two charts which illustrate the total number of leads grouped by size and department. The admin panel is fully responsive and works across all devices.
+The admin panel is a simple interface for viewing and updating incoming leads. It also comes with two charts which illustrate the total number of leads grouped by size and department, so you can identify high converting segments The admin panel is fully responsive and works across all devices.
 
 {{< figure src="/forms/templates/multi-step-lead-form/images/admin-panel.webp" alt="Multi-step form admin panel">}}
 
@@ -44,11 +44,11 @@ The admin panel is a simple interface for viewing and updating incoming leads. I
 
 ### Free
 
-This template is free. You can use the template with the Budibase Cloud free tier (1,000 record limit). If you self-host Budibase on the open-source plan, you don’t have to pay… ever, unless you decide to upgrade to a paid plan.
+This template is free. You can use the template with the Budibase Cloud free tier as an online form builder to create a multi-step form. If you self-host Budibase on the open-source plan, you don’t have to pay… ever, unless you decide to upgrade to a paid plan.
 
 ### Self-hosting available
 
-You can self-host this template and Budibase on your own infrastructure. This gives you peace of mind that the data in this template sits comfortably and securely within your infrastructure.
+You can self-host this template and Budibase on your own infrastructure. This gives you peace of mind that the data like leads' email addresses in this template sits comfortably and securely within your infrastructure.
 
 ### Automations
 
@@ -60,7 +60,7 @@ This template was created using Budibase, an open-source low code platform, whic
 
 ### Works on mobile, tablet, and desktop
 
-All the components within this template are responsive and accessible via mobile, tablet, and desktop.
+All the components within this multiple step form template are responsive and accessible via mobile, tablet, and desktop.
 
 ## How to get started?
 

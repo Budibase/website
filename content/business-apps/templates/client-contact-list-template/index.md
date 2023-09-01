@@ -31,6 +31,8 @@ For example, an employee might leave, go off sick, or even lose their personal c
 
 Centralization improves efficiency, oversight, and reliability across all kinds of client management workflows.
 
+Our contact directory template is the ideal solution for managing business contacts.
+
 ![Client contact list template home screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647956048/cms/Client_Contact_List_Template_1_eylr0r.png "Client contact list template home screen")
 
 ### Why use a dedicated contact list app?
@@ -45,16 +47,18 @@ Give your team a dedicated tool that combines the benefits of data centralizatio
 
 Client contact list tools are simple [CRUD apps](https://budibase.com/blog/crud-app/), that are built around two elements:
 
-1. A data layer for storing contact details.
+1. A data layer for storing contact details, like mobile phone numbers.
 2. A front-end interface for searching, viewing, editing, and recording information.
 
 The idea is to ensure that all colleagues can quickly look up the information they need, or add new client details in a consistent format. This also enables you to leverage client data to automate communications and other workflows.
+
+This can be targeted at specific entries, or leveraging multiple contacts at a time.
 
 The most effective contact list apps offer additional functionality to streamline processes. For example, custom automation rules, third-party integrations, role-based access control, and more.
 
 ## Our client contact list template
 
-Our client contact list template is built for maximum usability, customization, and simplicity.
+Our customer contact list template is built for maximum usability, customization, and simplicity.
 
 Use our template for:
 

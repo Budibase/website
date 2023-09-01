@@ -25,7 +25,7 @@ Professional directories store information on companies that are signed up to a 
 
 The goal is to ensure that users have fast access to up-to-date, accurate information. Of course, this also requires certain users to be able to update existing entries or add entirely new data.
 
-Typically, directories store basic business information, including contact details, locations, and descriptions of products or services.
+Typically, online directories store basic business information, including contact details, locations, and descriptions of products or services.
 
 ![Professional Directory Tempalte Homescreen](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647945503/cms/Professional_Directory_1_a9jplt.webp "Professional Directory Template Homescreen")
 
@@ -35,7 +35,9 @@ Many organizations build directories without dedicated tools. Some rely on sprea
 
 None of these solutions are ideal. Relying on spreadsheets to build and manage directories creates massive inefficiencies, scope for error, and security risks. Other non-dedicated solutions can provide a confusing user experience, or lack specific functionalities.
 
-Dedicated tools offer superior functionality, usability, and security. Build an intuitive tool to give your users the data they need, right at their fingertips.
+It's obviously also common for users to want to look up businesses online, using search engines. But, this isn't ideal in the case of niche directory information.
+
+Dedicated business directory tools offer superior functionality, usability, and security. Build an intuitive tool to give your users the data they need, right at their fingertips.
 
 ### What should a directory app include?
 

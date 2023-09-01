@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1647967633/cms/Dis
 summary = "Our distributor management system template is the ideal platform for maintaining profitable relationships."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1647967618/cms/Distributor_Management_System_THumbnail_aoq9l1.png"
 thumbnailColor = "yellow"
-title = "Distributor Management System Template | Budibase | Low-Code Platform"
+title = "Free Distributor Management System Template"
 type = "templates"
 icon = "/img/icon/app.svg"
 
@@ -23,7 +23,7 @@ As supply chains become increasingly complex and globalized, the need for effect
 
 Distributor management systems provide real-time data on inventory, orders, and fulfillment. The goal here is to provide a clear picture of your distributor relationships, in terms of inventory, revenue, and costs.
 
-This also improves order fulfillment and stock management. Distributor management systems can be used to analyze how items move throughout your warehousing and distribution network.
+This also improves fulfillment, inventories, and order management. Distributor management system software can be used to analyze how items move throughout your warehousing and distribution network.
 
 In turn, this allows you to identify the most efficient routes to market for your products.
 
@@ -41,20 +41,20 @@ The alternative is digitization.
 
 ### What should a distributor management system contain?
 
-Basic distributor management tools have two components:
+Basic distributor management software tools have two components:
 
 * A database for managing inventory across your distribution network.
 * Front-end tools for moving, requesting, and analyzing inventory data.
 
 The best platforms allow you to automate your interactions with distributors. Depending on your business model, this might mean allowing distributors to purchase stock, or automatically fulfilling orders.
 
-Effective tools allow you to analyze trends in your distribution network. This includes the volume and value of the stock at different nodes in your distribution network. You can also analyze the profitability of different distributors.
+Effective tools allow you to analyze trends across your distribution channels with real-time data from distributors and supply chain management tools. This includes the volume and value of the stock at different nodes in your distribution network. You can also analyze the profitability of different distributors.
 
 ![Distributor Management System main screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647967805/cms/Distributor_Management_System_Screenshot_4_s0jg0w.webp "Distributor Management System")
 
 ## Our distributor management template
 
-Our template offers a fully deployable and customizable distributor management system.
+Our template offers a fully deployable and customizable cloud-based distributor management system (DMS).
 
 Like all Budibase apps, our school admin panel offers:
 
@@ -79,7 +79,7 @@ Our template is built around a suite of multi-site inventory management tools. W
 
 Your team can quickly edit stock, unit prices, inventory locations, and more using simple [form interfaces](https://budibase.com/forms). We’ve also provided a searchable inventory listing screen. Quickly and easily locate stock across locations. This is crucial for demand planning.
 
-We’ve also provided real-time visibility of stock levels, with our inventory analysis screens. Drill down into specific metrics for each individual item. Our template also features low-stock notifications, which can be customized to match your specific needs.
+We’ve also provided real-time visibility of stock levels, with our inventory analysis screens. Drill down into specific metrics for each individual item. Our distribution management software also features low-stock notifications, which can be customized to match your specific needs.
 
 ![Inventory Management Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647967889/cms/Distributor_Management_System_Screenshot_6_k980pj.png "Inventory Management Screen")
 
@@ -176,7 +176,7 @@ Connect your distributor management system to existing datasets, to call, query,
 
 ### Optional self-hosting
 
-Choose self-hosting or our Budibase Cloud platform for your distributor management system. Deploy our template to your own infrastructure, using Kubernetes, Docker, Docker Compose, Digital Ocean, and more.
+Self-host our template or use it as an online distributor management system. Deploy our template to your own infrastructure, using Kubernetes, Docker, Docker Compose, Digital Ocean, and more.
 
 With Budibase, you have complete control over how you host your business apps. Deploy tools internally, or as web apps, depending on your specific requirements.
 
