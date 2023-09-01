@@ -23,7 +23,7 @@ An effective case management tool reduces admin time, human error, and unnecessa
 
 ## What is case management software?
 
-Law firms use case management software to track and manage workloads, documents, costs, project delivery, and more. This means centralizing case data and resources, as well as automating workflows to maximize efficiency.
+Law firms use case management software to track and manage workloads, documents, costs, project delivery, calendar items, and more. This means centralizing case data and resources, as well as automating client management workflows to maximize efficiency.
 
 A key priority is managing costs. This means delivering the best possible outcomes in each case while remaining within agreed budgets.
 
@@ -40,7 +40,7 @@ Legal workflows are some of the most admin-intensive of any business function.
 
 Even simple legal tasks include extensive analysis, approval processes, information sharing, and communications. In the past, this has made workflow automation difficult within legal departments.
 
-Case management software is the first step towards overcoming this.
+Legal case management software solutions are critical for overcoming this.
 
 Digitizing your workflows allows you to identify pain points, inefficiencies, and opportunities for improvement. This means simplifying admin processes and leveraging automations to reduce operational costs.
 
@@ -61,9 +61,9 @@ Every legal department has unique processes. As such, case management tools must
 
 ## Our legal case management template
 
-Our legal case management template is a fully deployable solution, with total scope for customization. Use our leading open-source, low-code platform to tailor our template to your specific needs.
+Our free legal case management software template is a fully deployable solution, with total scope for customization. Use our leading open-source, low-code platform to tailor our template to your specific needs.
 
-Out of the box, our template offers:
+Out of the box, our free and open-source template offers:
 
 * Complete customization.
 * Tailored workflows.
@@ -73,7 +73,7 @@ Out of the box, our template offers:
 * Cost controls.
 * Responsive design.
 * Flexible hosting.
-* Document management.
+* Document storage and management.
 * Streamlined processes.
 
 With our free template, you’ll have a fully deployable custom case management system, in just a few minutes.
@@ -82,7 +82,7 @@ With our free template, you’ll have a fully deployable custom case management 
 
 Our case management template is the easy way to centralize information, data, documents, and resources. We’ve built our template around three linked databases for _cases_, _case leads_, and _timesheets_.
 
-Quickly update project budgets, spending, requirements, documentation, statuses, and more.
+Legal professionals can quickly update project budgets, spending, requirements, documentation, statuses, and more.
 
 Use our template to categorize and organize cases and resources. We’ve also provided functionality for calculating, analyzing, and managing spending across cases.
 

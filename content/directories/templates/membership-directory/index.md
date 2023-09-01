@@ -25,7 +25,7 @@ As the name suggests, a membership directory is a centralized record of all of y
 
 Depending on your particular needs, this might be used by internal users, the general public, or by members themselves.
 
-In any case, directories are used to provide efficient access to accurate information about members of an organization or company.
+In any case, directories are used to provide efficient access to accurate contact information about members of an organization or company.
 
 ### Why build a dedicated directory tool?
 
@@ -33,13 +33,13 @@ Of course, many companies manage membership information without dedicated tools.
 
 However, this approach presents numerous difficulties, including poor user experiences, lack of portability, avoidable human error, and unnecessary security risks.
 
-Dedicated tools offer superior usability, functionality, security, and reliability. With a custom membership directory, your users will enjoy a fast, efficient way to search, access, and manage critical data.
+Dedicated tools offer superior usability, functionality, security, and reliability. With a custom solution based on our free membership directory template, your users will enjoy a fast, efficient way to search, access, and manage critical data.
 
 ### What should a member directory include?
 
 Directories are simple [CRUD tools](https://budibase.com/blog/crud-app/), that are used to create, read, update, and delete data. This means that they’re built around two elements:
 
-1. A data layer, for storing members’ information.
+1. A data layer, for storing members’ information, like names addresses, and phone numbers.
 2. A front-end interface, for carrying out CRUD actions.
 
 Crucially, this means that users can access and manipulate data through the app’s front-end, without the need for specialist technical skills. For example, a member of your support team might need to create a new member, or change an existing member’s contact details.
@@ -48,7 +48,7 @@ The most effective directory tools offer extra functionality for creating smooth
 
 ## Our membership directory template
 
-Our membership directory template is built for maximum efficiency and usability. We’ve created a simple app for all aspects of membership management. Say goodbye to time-consuming manual admin tasks.
+Our member directory template is built for maximum efficiency and usability. We’ve created a simple app for all aspects of membership management. Say goodbye to time-consuming manual admin tasks users can easily create and manage entries, in seconds.
 
 Right out of the box, our template offers:
 

@@ -29,10 +29,12 @@ This provides superior customer experiences, as users can take calls at a time w
 
 [Digital forms](https://budibase.com/forms) have two key components.
 
-1. A front-end interface where users can submit information.
+1. A front-end interface where users can submit information and request a callback.
 2. A back-end database where this information is stored, managed, and used.
 
 When a user completes your call-back form, a new row is created in your database. That way, the request can be properly actioned. For example, you might configure your form to automatically assign the right service agent, based on availability and expertise.
+
+Your sales team then has their phone numbers, so it's easy to get in touch. They could even request a call at a specific time, depending on your callback form settings.
 
 Online forms are commonly used across websites, apps, and other interaction channels. The key to using contact forms effectively is creating a central dataset to streamline customer service workflows.
 
@@ -46,7 +48,7 @@ Many companies use basic HTML forms on their websites to book calls. This can be
 
 ## Our call-back form template
 
-Our call-back form template is built for functionality.
+Our call-back template is built for functionality.
 
 Straight out of the box, it offers:
 
@@ -56,7 +58,7 @@ Straight out of the box, it offers:
 * Intuitive UI.
 * Access control.
 * Third-party integrations.
-* Intuitive design.
+* Mobile-friendly design.
 * Flexible hosting.
 * Design customization.
 * Improved workflows.

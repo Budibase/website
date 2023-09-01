@@ -23,13 +23,15 @@ Our template is a fast, intuitive, and cost-effective way to record and learn fr
 
 As the name suggests, a near-miss register is used to record incidents that have the potential to cause injury or death, even when they don’t. Say a pallet in your warehouse falls from the shelf and lands a few feet from one of your stock pickers.
 
-No one got hurt, but if the situation had been a little bit different, the consequences could have been dire.
+We'd say this is a close call. No one got hurt, but if the situation had been a little bit different, the consequences could have been dire.
 
 This is a near-miss.
 
 A traditional incident register might only record this if the employee actually got hurt. This prevents you from putting measures in place to stop a similar incident from occurring, just because the employee happened to get lucky.
 
-Recording near misses helps to ensure that every possible action is taken to keep your employees safe from harm.
+This is far from the ideal solution for risk assessments, workplace safety, or incident management.
+
+Recording near misses helps to quickly and easily ensure that every possible action is taken by safety officers to keep your employees safe from harm - including preventing future incidents that might result in injury or damage.
 
 ![Near Miss Register Template Home Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647961823/cms/Near_Miss_Register_Template_1_z29ck9.png "Near Miss Register Template home screen")
 
@@ -37,11 +39,13 @@ Recording near misses helps to ensure that every possible action is taken to kee
 
 Many businesses still log incidents using pen and paper. Often, this means reporting the incident to the foreman or a HR colleague, who then logs it manually. This creates several issues.
 
-Employees might neglect to report near-misses if they’re unable to contact the responsible person straight away. Creating a single gate-keeper for your incident logs can also prevent near-misses from being recorded.
+Employees might neglect to report near-misses if they’re unable to contact the responsible person straight away. Creating a single gate-keeper for your incident logs can also prevent relevant information about near-misses from being recorded - or corrective actions carried out.
+
+Or, they might not take certain types of incidents seriously at all.
 
 Manually managing incidents also creates excessive admin work. This undermines your operational efficiency, by creating avoidable costs.
 
-Digitalization eliminates all of these problems.
+Digitalization eliminates all of these problems, with a dedicated near miss app being one of the most effective solutions.
 
 ### What should a near-miss register contain?
 
@@ -52,11 +56,11 @@ A near-miss register is built around two elements:
 
 The crucial thing here is that any employee can create an incident record, in seconds. This provides a more streamlined reporting process, by eliminating barriers and unnecessary admin tasks.
 
-The most effective near-miss tools provide further functionality for streamlining workflows. For instance, third-party integrations, custom automations, and support for external data sources.
+The most effective near-miss reporting apps provide further functionality for streamlining workflows. For instance, third-party integrations, custom automations, and support for external data sources.
 
 ## Our near-miss register template
 
-Our near-miss register template is built for maximum efficiency, usability, accuracy, and oversight. Our lightweight, intuitive platform is the smart way to manage incident records.
+Our near-miss report form template is built for maximum efficiency, usability, accuracy, and oversight. Our lightweight, intuitive platform is the smart way to manage incident records.
 
 Our template offers:
 
@@ -70,7 +74,7 @@ Our template offers:
 * Optional self-hosting.
 * Third-party app integrations.
 * Efficient and cost-effective processes.
-* Custom data fields.
+* Custom data fields and real-time updates.
 
 Use our template as a deployment-ready solution, or fully customize it in our intuitive low-code platform.
 

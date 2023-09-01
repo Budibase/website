@@ -27,6 +27,8 @@ For manufacturing businesses, the key is ensuring that your products meet the hi
 
 It doesn’t matter if you make high-end electronics or everyday consumer goods. Every successful manufacturing business is built on a track record of consistent quality, across all of its products.
 
+That's where our quality control template for manufacturing steps in.
+
 ### Why digitize quality control checks?
 
 Quality assurance is incredibly labor-intensive. This includes the time required to carry out quality inspections, as well as administrative work that facilitates this. For even the simplest of products, this can quickly become a large share of your costs.
@@ -43,18 +45,18 @@ Digital checklist tools have two key components.
 
 These are:
 
-1. A data layer for storing information on products and quality control tasks.
+1. A data layer for storing information on products and quality control tasks relating to your products or services.
 2. A front-end interface for submitting checklists and analyzing data.
 
 For a quality control checklist, the data layer includes information on the specific inspection requirements for each product. It also stores details of each completed checklist.
 
 The front-end allows users to submit checklists, view and edit products, and access all data. This means giving your users an intuitive interface for calling and manipulating your app’s back-end data.
 
-The most effective checklist apps provide additional functionality for creating more efficient workflows. For example, by automating key admin processes, and integrating with existing solutions.
+The most effective checklist apps provide additional functionality for creating more efficient workflows. For example, by automating key admin processes, streamlining project management, and integrating with inspection tools used in quality checks.
 
 ## Our manufacturing quality control checklist template
 
-Our quality control checklist for manufacturing is the fast and cost-effective way to digitize your assurance workflows.
+Our QC checklist template for manufacturing is the fast and cost-effective way to digitize your assurance workflows.
 
 We’ve built our template for:
 
@@ -83,7 +85,7 @@ When a new checklist is completed, the details are stored in the _inspections_ d
 
 ### Intuitive checklist interfaces
 
-Our template maximizes clarity and accuracy around quality control checklists. Users are guided through the requirements of each inspection item, with a simple pass/fail interface at each stage.
+Our template maximizes clarity and accuracy around quality control checklists. Users are guided through the requirements of each inspection item, with a simple pass/fail interface at each stage - offering an easy written guide to quality standards.
 
 Quality control agents can leave comments on each item in any inspection checklist. We’ve created a multi-step form interface for our checklists, for optimum usability.
 
@@ -91,7 +93,7 @@ Simply provide the inspection requirements for each of your products. Our templa
 
 ### Manage products and work submissions
 
-Our quality control checklist for manufacturing template is built for total oversight over quality control tasks. We’ve provided dedicated screens to search, filter, view, manage, and edit both product and inspection entries.
+Our quality control checklist template is built for total oversight over quality control tasks. We’ve provided dedicated screens to search, filter, view, manage, and edit both product and visual inspection entries.
 
 Use our _dynamic filter_ components to sort and isolate entries, by any database variable. Quickly find the exact right products and inspection reports, with minimal effort. Use any combination of filtering expressions to sort data.
 

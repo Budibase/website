@@ -17,11 +17,11 @@ icon = "/img/icon/form.svg"
 +++
 Detailed requirements are crucial for any project. Well-documented requirements ensure that projects are delivered on time, and to specification. In turn, this improves efficiency, cost-effectiveness, outcomes, and client satisfaction.
 
-There are countless approaches to requirements gathering, across a range of industries. Our template offers a simple and effective digital tool for managing requirements, specifications, and documentation.
+There are countless approaches to requirements gathering, across a range of industries. Our template offers a simple and effective digital tool for managing requirements project scopes, specifications, and documentation.
 
 ## What is a requirements gathering app?
 
-Requirements gathering apps are used to digitize the project mapping process. This means gathering, sorting, and managing requirements, as well as sharing key files, data, and information
+Requirements gathering apps are software systems that are used to digitize the project mapping process. This means gathering, sorting, and managing business requirements, as well as sharing files, data, project objective and information - and gathering feedback from key stakeholders.
 
 The goal is to cut operating costs and improve project delivery workflows. Requirements gathering tools also enable teams to share, manage, and act on project information.
 
@@ -31,9 +31,9 @@ Say goodbye to managing requirements with spreadsheets. Our template offers a st
 
 ### Why gather requirements digitally?
 
-Detailed requirements are the foundation of any successful project. In fact, this informs all other elements of the project delivery process. Effective requirements gathering ensures client expectations are met, and projects are delivered efficiently.
+Detailed requirements are the foundation of successful project management. In fact, this informs all other elements of the project plan and delivery process. Effective requirements gathering ensures client expectations are met, and projects are delivered efficiently.
 
-Digital tools enable this.
+Digital requirements management tools enable this.
 
 With the right platform, requirements gathering is a fast and repeatable process. Give your team a simple, intuitive platform for collecting exactly the right information, every time. This cuts costs simplifies project timelines and prevents scope creep.
 

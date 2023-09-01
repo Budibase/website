@@ -35,7 +35,7 @@ Many businesses still manage employee check-ins using pen and paper. Others have
 
 Beyond this, manually managing employee check-ins creates excessive disorganization and scope for human error.
 
-Digitalization eliminates these problems. An effective check-in/check-out app streamlines a wide range of billing, HR, project management, and operations workflows.
+Digitalization eliminates these problems. An effective check-in/check-out system streamlines a wide range of billing, HR, project management, and operations workflows.
 
 ### What should a check-in/check-out app contain?
 
@@ -46,11 +46,11 @@ Employee check-in apps are based on two elements:
 
 When an employee checks in or out, a record is created in the database. Our template uses simple relationships to link two databases for _employees_ and _check-ins_/_outs_. When a new check-in or out is created, the relevant employee details are also updated.
 
-The most effective check-in/check-out tools offer additional features for streamlining workflows, including external data support, third-party integrations, and custom process automation.
+The most effective check-in/check-out systems for employees offer additional features for streamlining workflows, including external data support, third-party integrations, and custom process automation.
 
 ## Our employee check-in/check-out template
 
-Our employee check-in/check-out template offers unrivaled usability, customization, and simplicity.
+Our employee check-in template offers unrivaled usability, customization, and simplicity.
 
 Our template offers:
 

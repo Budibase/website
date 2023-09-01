@@ -23,7 +23,7 @@ Effective organization and streamlined UIs are critical. Whether debugging inter
 
 A knowledge base is a dedicated platform for storing resources and documents. The goal is to give users a quick and easy way to find the information they need. This might include common queries, technical details, solutions to known problems, specifications, and more.
 
-Of course, the contents of knowledge bases vary from organization to organization.
+Of course, the contents of knowledge bases platforms vary from organization to organization.
 
 Technology is changing constantly. It’s crucial that your knowledge base tool can be quickly and easily updated, to match the current needs of your business.
 
@@ -33,7 +33,7 @@ Effective knowledge bases help to ensure profitability across your entire organi
 
 Many businesses manage knowledge using spreadsheets or shared documents. Others simply rely on team members knowing which colleague for knowledge sharing. This leads to inefficient processes, poor outcomes, and unnecessary operations costs.
 
-Efficient IT teams are crucial for successful modern businesses. An effective knowledge base ensures that businesses can remain competitive, through streamlined processes.
+Efficient IT teams are crucial for successful modern businesses. An effective knowledge base ensures that businesses can remain competitive, through streamlined processes - providing an easy way for customers and employees toa access information and answer frequently asked questions.
 
 ![open source IT knowledge base](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646388393/cms/IT_Knowledge_Base_Template_1_mcrhpa.png "open source IT knowledge base")
 
@@ -44,9 +44,11 @@ Most knowledge bases are built around two parts:
 * A database for storing information.
 * A front-end interface for searching, accessing, viewing, and using this information.
 
-Of course, specific database entries will vary from business to business. So will the length or format of entries. The key is ensuring that users can access, manipulate, and add information, with an intuitive user experience.
+Of course, specific database entries will vary from business to business. So will the length or format of entries. The key is ensuring that users can access, manipulate, and add information, with an intuitive employee or customer experience.
 
-The best knowledge base tools fully streamline internal IT processes. This includes automated workflows, role-based access control, and integrations with existing service management tools.
+What works for a small business might not work for an enterprise though.
+
+Some more advanced types of knowledge base systems will also have additional capabilities, like search functionality, communications, or integrations with other platforms.
 
 ## Our open-source IT knowledge base template
 
@@ -65,11 +67,13 @@ With our free template, you’ll enjoy:
 * Searchability and filtering.
 * Streamlined processes.
 
-Budibase is the smart way to build custom IT management tools. In minutes, you’ll have a fully deployable and feature-packed knowledge base solution.
+Budibase is the smart way to build custom IT management tools. In minutes, you’ll have a fully deployable and feature-packed tool.
+
+You can deploy it as a web-based or self-hosted knowledge base solution with our free and open-source low-code platform.
 
 ### Create and manage resources
 
-Our template is designed for businesses that need to centralize, organize, and manage knowledge. We’ve built our knowledge base tool around intuitive and navigable screens for creating, sorting, searching, and viewing information resources.
+Our open-source knowledge base software is designed for businesses that need to centralize, organize, and manage knowledge. We’ve built our knowledge base tool around intuitive and navigable screens for creating, sorting, searching, and viewing information resources.
 
 We’ve provided simple [form interfaces](https://budibase.com/forms) for creating and searching knowledge entries. In just a few clicks, users can create new records, without the need for extensive technical skills.
 

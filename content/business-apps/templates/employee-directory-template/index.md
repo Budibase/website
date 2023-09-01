@@ -31,27 +31,29 @@ The way we work has transformed over the last few years, with the rise of remote
 
 Organizations of all kinds need employee directories for effective internal communications.
 
-Even today, many companies fall back on spreadsheets to manage employee information. This compromises security, efficiency, and user experience.
+Even today, many human resources teams fall back on spreadsheets to keep track of employee profiles. This compromises security, efficiency, and user experience.
+
+Creating an employee directory is a quick and easy way to save time, achieve better results, and encourage a culture of collaboration between team members, while managing data in a centralized location.
 
 ### What should an employee directory include?
 
 Every business is different. What your employee directory should include depends on the information your staff needs to do their jobs. Of course, most directories still have some things in common.
 
-Most basic employee directories include three clusters of information:
+Most basic employee directory software includes three clusters of information:
 
 1. **Personal information** like names, locations, and birthdays.
-2. **Professional information** like job titles, departments and join dates.
-3. **Contact information** like email addresses and phone numbers.
+2. **Professional information** like job titles, departments, and start dates.
+3. **Employee contact information** like email addresses and phone numbers.
 
 Still, you don’t want to limit yourself to these data fields. You might choose to add more specific job-related information, like key skills. Staff bios can help build remote relationships between your employees.
 
-Our template gives you complete control to store the right data for your business.
+Our open-source employee directory template gives you complete control to store the right data for your business.
 
 ![Employee Directory Template screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1639410530/cms/Employee_Directory_Template_1_yjobma.png "Employee Directory Template home screen")
 
 ## Our employee directory template
 
-Our employee directory template gives you an effective and secure staff directory, in minutes.
+Our office directory template gives you an effective and secure staff directory, in minutes.
 
 Out of the box, our directory offers advanced functionality, to make your employees’ lives easier.
 
@@ -77,7 +79,7 @@ Simply add, edit or remove fields as you see fit.
 
 A successful directory allows your staff to find the colleagues they need to contact.
 
-Our staff directory template gives you the ability to quickly find employees with an intuitive UI. Out of the box, your employee can search for colleagues by name or department.
+Our staff directory template gives you the ability to quickly find employees with an intuitive UI. Out of the box, your employee can lookup colleagues by name or department and view relevant search results.
 
 Using the Budibase editor, you can configure your employee directory to search by any field in your database. Let your employees use the exact search fields they need to find and contact colleagues.
 

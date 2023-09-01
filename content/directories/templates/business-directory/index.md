@@ -25,15 +25,15 @@ Business directories are simple tools that allow users to look up the details of
 
 The idea is to give users a fast and easy way to discover and access information on companies that might interest them.
 
-Directories can be used in both B2B and B2C contexts. In both cases, giving your users an intuitive, efficient way to access information is crucial. Directories are the ideal solution.
+Directories can be used in both B2B and B2C contexts. In both cases, giving your users an intuitive, efficient way to access information is crucial. Our service directory template is the ideal solution.
 
 ![Business Directory Template homescreen](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1647947001/cms/Business_Directory_Template_1_g6rnnv.webp "Business Directory Template HomeScreen")
 
 ### Why create a dedicated tool?
 
-Of course, there are many ways to manage and share information, without a dedicated directory app. Spreadsheets, website plug-ins, and CRMs are all used by various businesses and organizations to manage information.
+Of course, there are many ways to manage and share business listings, without a dedicated directory app. Spreadsheets, directory listing website plug-ins, and CRMs are all used by various businesses and organizations to manage information.
 
-However, each of these solutions leads to compromises in terms of functionality, security, or user experience. Plug-ins and spreadsheets may lack the specific features your need. CRMs can make it difficult to share data with public users.
+However, each of these solutions leads to compromises in terms of functionality, security, or user experience. Plug-ins and spreadsheets may lack the specific features your need to create listing types. CRMs can make it difficult to share data with public users.
 
 Building a dedicated directory app ensures that users can access up-to-date information, in a secure, intuitive platform.
 
@@ -42,7 +42,7 @@ Building a dedicated directory app ensures that users can access up-to-date info
 DIrectories are lightweight [CRUD applications](https://budibase.com/blog/crud-app/), where users can create, read, update, and delete data. This requires two elements:
 
 1. A data layer for storing business information.
-2. An interface for performing CRUD actions.
+2. An interface for performing CRUD actions and viewing detail pages.
 
 The goal is to give non-technical users an easy way to update, access, and add business information, without the need for specific database skills. This could include, admin teams, existing customers, members of the public, or any other user group.
 
@@ -63,6 +63,7 @@ Out of the box, our template offers:
 * Optional self-hosting.
 * Third-party integrations.
 * Conditionality.
+* Drag-and-drop design.
 * Custom data fields.
 
 Empower your users with a fast, efficient way to access and manage directory data.

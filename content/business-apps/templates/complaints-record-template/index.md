@@ -25,7 +25,7 @@ As the name suggests, a complaint record app allows users to log feedback, incid
 
 The goal is to ensure that information is recorded accurately and consistently. Complaints record tools maximize efficiency when logging, searching, or viewing submitted data.
 
-This ensures a robust paper trail of all complaints. It also creates a dataset that can be leveraged to automate and optimize related workflows.
+This ensures a robust paper trail of all complaint logs. It also creates a dataset that can be leveraged to automate and optimize related workflows.
 
 ![Complaints Record Template Homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1647958078/cms/Complaint_record_template_1_lndqfh.png "Complaints Record Home screen")
 
@@ -54,7 +54,7 @@ The most effective complaints record tools offer additional functionality for st
 
 ## Our complaints record template
 
-Our complaints record template is built for maximum usability and efficiency. Customers and internal users alike can submit detailed, accurate information, in seconds.
+Our customer complaint log template is built for maximum usability and efficiency. Customers and internal users alike can submit detailed, accurate information, in seconds.
 
 Our template offers:
 
@@ -83,7 +83,7 @@ All possible actions are immediately accessible from a single, intuitive interfa
 
 Perform CRUD actions at the press of a button. Create, read, update, and delete database entries, with no need for specialist technical skills. Use simple customer complaint forms to create or edit entries.
 
-Our template automatically generates beautiful complaint reports, using Budibase’s _Markdown Viewer_ component.
+Our complaints register template automatically generates beautiful complaint reports, using Budibase’s *Markdown Viewer* component.
 
 Use our template to create and maintain a centralized, consistent, and accurate register of all customer complaints.
 

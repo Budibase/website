@@ -25,7 +25,7 @@ Support queries come at you from all angles, at all times of the day. The purpos
 
 ## What’s included in the ticketing system template?
 
-With the IT ticketing system template employees can raise tickets, self-serve and source answers to their own issues, and receive status updates. And IT professionals can update tickets to coworkers, automate notifications, view analytics, and create help desk notes/documentation.
+With the IT ticketing system template employees can raise tickets with a dedicated request form, self-serve and source answers to their own issues, and receive status updates. IT professionals can update tickets to coworkers, automate notifications, view analytics, and create help desk notes/documentation.
 
 ## For IT support teams
 
@@ -43,11 +43,11 @@ Once a ticket is assigned to an IT professional, they can update the ticket’s 
 
 ### View ticket reports and analytics
 
-View how many tickets there are at different stages, as well as which users have answered the most tickets.
+View how many tickets there are at different stages, as well as which users have answered the most support tickets and service requests.
 
 ### Knowledgebase
 
-Write answers to popular questions, and present them to coworkers in a knowledge base so they can self-serve and potentially solve their own issue without alerting IT.
+Write answers to popular questions, and present them to coworkers in a knowledge base so they can self-serve and potentially resolve tickets on their own without alerting IT.
 
 ## For coworkers
 

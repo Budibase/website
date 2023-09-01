@@ -17,15 +17,15 @@ icon = "/img/icon/app.svg"
 +++
 Upload, store, organize, and share key legal documents with clients and colleagues, in seconds.
 
-Legal firms handle huge volumes of documents and information. When this is disorganized it quickly leads to inefficiencies, miscommunications, human error, and poor client experiences.
+Legal professionals handle huge volumes of documents and information. When this is disorganized it quickly leads to inefficiencies, miscommunications, human error, and poor client experiences.
 
-It’s critical to have robust systems in place to manage legal documents. Effective document management reduces admin costs and improves outcomes. Give your employees and clients a fast and easy way to access, update, and share documents.
+It’s critical to have robust systems in place to manage legal documents. Effective document management reduces admin costs and improves outcomes. Give your employees and clients a fast and secure way to easily access, update, and share documents.
 
 ## What is document management software?
 
 As the name suggests, document management tools are used to track and organize key information within law firms. This includes contracts, invoices, client details, case notes, project specs, and any other kind of documents your team might need.
 
-In other words, users can upload, share, and update different kinds of documents.
+In other words, team members and clients can upload, share, and update different kinds of documents within a legal document management system.
 
 The goal is to centralize information and ensure that your team can find the documents they need, in seconds. For law firms and legal departments, it’s also crucial for document management tools to be fully secure.
 
@@ -33,26 +33,26 @@ The goal is to centralize information and ensure that your team can find the doc
 
 Many law firms use shared drives, email chains, and even in-person meetings to manage documents. This is a risky approach, with unnecessary scope for security breaches and human error.
 
-Centralizing documents allows you to reduce risk, eliminate admin costs, and supercharge profitability.
+Centralizing documents in a legal DMS allows you to reduce risk, eliminate admin costs, and supercharge profitability.
 
-In most cases, without document management, it’s almost impossible for legal departments to operate effectively. Control who accesses different documents, for maximum security and usability.
+In most cases, without legal document management solutions, it’s almost impossible for legal departments to operate effectively. Control who accesses different documents, for maximum security and usability.
 
 ### What should a document manager include?
 
 Document management tools essentially contain two elements:
 
-1. **A back-end data layer** for storing and organizing documents.
+1. **A back-end data layer** for storing and organizing documents about legal matters.
 2. **A front-end interface** for creating, accessing, managing, and sharing documents.
 
 The front-end is used to upload new documents, update their status, share them with colleagues, add comments, make changes, and more.
 
-The best document management tools have additional features for managing and automating legal workflows. For instance, integrations with third-party tools and communication automations.
+The best document management tools have additional features for managing and automating legal workflows. For instance, integrations with third-party tools and communication automations - alongside intuitive search capabilities.
 
 ![Legal Document Management Template Home Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1646298993/cms/Legal_Document_Management_Software_1_woennp.png "Legal Document Management Template Home Screen")
 
 ## Our legal document management template
 
-Our open-source legal document management template is built for maximum security, usability, and efficiency.
+Our open-source legal document management software template is built for maximum security, usability, and efficiency.
 
 Choose our template for:
 

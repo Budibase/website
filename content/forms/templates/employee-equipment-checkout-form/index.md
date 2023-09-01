@@ -15,9 +15,7 @@ type = "templates"
 icon = "/img/icon/form.svg"
 
 +++
-In the age of remote working, the need to manage how and when employees use devices has increased. Managing devices requires strong and efficient organization, communications, and workflows.
-
-This has become even more important, with the rise of COVID-19. Today, organizations need to sanitize shared devices between uses. Planning for this naturally requires additional time and organization.
+In the age of remote working, the need to manage how and when employees use devices has increased. Managing company equipment requires strong and efficient organization, communications, and workflows.
 
 Without the right processes in place, it’s almost impossible to manage equipment borrowing. This quickly leads to miscommunications, disruptions, and increased operating costs. Equipment checkout forms help to avoid this.
 
@@ -29,14 +27,16 @@ The goal is to improve communication, efficiency, and accountability. Users can 
 
 ### How do digital forms work?
 
-Like all [digital forms](https://budibase.com/forms), an equipment checkout tool has two components:
+Like all [digital forms](https://budibase.com/forms) , a company equipment sign out form has two components:
 
 1. A front-end interface for submitting requests,
 2. A back-end database for storing, approving, and managing requests.
 
 When a user makes an equipment rental request, a new row is created in the database. Typically, this details the employee’s name, the equipment they need, when they need it, and any other relevant information.
 
-This database is then used by IT and operations teams, to manage and approve equipment requests. Depending on your needs, this might be done automatically, or manually. The database also provides a record of how and when devices are used.
+This gives employees a streamlined equipment sign-out sheet for borrowing and returning company assets.
+
+This database is then used by IT and operations teams, to manage and approve equipment requests. Depending on your needs, this might be done automatically, or manually. The database also provides a record of how and when borrowed equipment is used.
 
 ### Why do you need an employee checkout form app?
 
@@ -50,7 +50,7 @@ If this only happens occasionally, checkout forms help you to make a decision on
 
 ## Our employee equipment checkout form template
 
-Our employee equipment checkout template is built for efficiency and functionality.
+Our free equipment checkout template is built for efficiency and functionality.
 
 With our free template, you’ll have access to:
 

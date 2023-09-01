@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646385728/cms/IT_
 summary = "Our open-source IT asset management software is built to simplify device management workflows."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1646385716/cms/IT_Asset_Management_Template_Gif_fovtua.png"
 thumbnailColor = "indigo"
-title = "Open-Source IT Asset Management Software | Budibase | Low-Code Platform"
+title = "Open-Source IT Asset Management Software"
 type = "templates"
 icon = "/img/icon/app.svg"
 
@@ -36,22 +36,22 @@ The goal is to ensure that your organization’s IT inventory is accessible, rel
 
 ### Why do you need asset management software?
 
-Digital tools take the legwork out of IT asset management. Countless organizations still manage devices using spreadsheets, emails, or even pen and paper. This is far from ideal.
+Digital tools take the legwork out of IT asset management (ITAM). Countless organizations still manage hardware and software inventories using spreadsheets, emails, or even pen and paper. This is far from ideal.
 
 Tracking and managing assets with manual tools creates avoidable admin work, risk, and scope for human error.
 
-The alternative is using dedicated IT asset management software. Digital tools allow you to automate processes, eliminate risks, and provide more streamlined workflows.
+The alternative is using a dedicated IT asset management platform. Digital tools allow you to automate processes, eliminate risks, and provide more streamlined workflows.
 
 ### What do asset management tools include?
 
-All asset management tools contain two components:
+All asset management tools contain key features:
 
 1. A database for managing device information.
 2. A front-end interface for calling, querying and manipulating device data.
 
-For example, businesses might store and use data on how devices are used, their cumulative cost over time, their maintenance needs, and more. The goal is to draw maximum value from each device while minimizing ongoing operational costs.
+For example, businesses might store and use data on how devices are used, their cumulative cost over time, their maintenance needs, and more. Or, they might need to track other resources, like software licenses, mobile devices, network hardware, and more.
 
-Asset management systems empower you to use this information, without the need for advanced database skills. This saves time and money, by creating intuitive and streamlined workflows for IT teams.
+Our web-based open-source asset management system empowers you to use this information, without the need for advanced database skills. This saves time and money, by creating intuitive and streamlined asset tracking workflows for IT teams.
 
 ![Open source IT asset Management software](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646385879/cms/IT_Asset_Management_Template_1_nbxtnj.webp "open source IT asset management software")
 
@@ -59,7 +59,7 @@ Asset management systems empower you to use this information, without the need f
 
 Our IT asset management software is built for functionality and fast deployment.
 
-With our free template, you’ll have access to:
+With our free template, you’ll have access to asset management features including:
 
 * External database support.
 * Complete customization.
@@ -78,13 +78,13 @@ Budibase is the fast and easy way to build asset management software.
 
 Our template offers unrivaled device management experiences. We’ve provided multiple user-friendly screens for managing costs deployment, asset requests, and maintenance schedules.
 
-With intuitive forms, searchable tables, and advanced data visualization, our template offers a simple yet powerful platform to manage inventories.
+With intuitive forms, searchable tables, and advanced data visualization, our template offers a simple yet powerful platform to manage inventories - it's perfect for all sorts of IT colleagues, across service desks, operations specialists, and more.
 
 We’ve also provided extensive functionality for automating admin tasks. Our template automatically calculates asset depreciation and maintenance scheduling. Simply edit our automation rules to suit your specific inventory.
 
 ### Instant deployment and rental
 
-A key part of asset management is deploying the right devices to the right users. Our template offers instantaneous asset requests. With a searchable inventory screen and intuitive rental form, employees can quickly and easily request the devices they need.
+A key part of asset management is deploying the right devices to the right users. Our template offers instantaneous asset requests. With a searchable inventory screen and intuitive rental form, employees can quickly and easily request the devices they need in real-time.
 
 Our template is built around three databases for _assets_, _requests_, and _services_. When a user completes a rental form, a new row is created on the _requests_ table. This is linked to the respective row of the _assets_ table, using simple relationships
 
@@ -140,7 +140,7 @@ We’re on a mission to change the way businesses build custom software tools. O
 
 * Open-source development.
 * Scalability.
-* Fast deployment.
+* Self-hosting or cloud-based deployments.
 * RBAC.
 * Self-hosting.
 * Responsive design.
@@ -152,7 +152,7 @@ We’re on a mission to change the way businesses build custom software tools. O
 * Total customization.
 * Built-in JavaScript editor.
 
-With Budibase, you can build fully custom IT asset management software, in minutes.
+With Budibase, you can achieve the benefits of IT asset management tools in a fully custom solution, with minimal development time.
 
 ### Our open-source, low-code platform
 

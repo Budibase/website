@@ -21,17 +21,17 @@ Effective time tracking is key. Give your employees a simple and intuitive way t
 
 ## What is a timesheet app?
 
-As the name suggests, a timesheet app allows your employees to submit timesheets digitally. The goal is to simplify the process of recording time. As you gather more data, you can identify time usage trends in terms of employees, projects, clients, or tasks.
+As the name suggests, a timesheet app allows your employees to submit timesheets digitally. The goal is to simplify the process of recording time. As you gather more data, you can identify time usage trends in terms of employees, clients, projects, and tasks.
 
-Employees can simply register time spent across different projects. This then informs work planning, payroll processing, [process improvement](https://budibase.com/blog/process-improvement-plan/), and more.
+Employees can simply register time spent across different projects. This then informs work planning, payroll processing, [process improvement](https://budibase.com/blog/process-improvement-plan/), overtime hours, normal working hours, time consuming tasks, and more.
 
-Implementing an effective timesheet app is a simple and easy way to improve a wide range of business outcomes.
+Implementing effective project timesheet software is a simple and easy way to improve a wide range of business outcomes.
 
 ### Why digitize employee timesheets?
 
 Many businesses still use spreadsheets, email chains, or pen and paper to manage time logs. Others don’t track time on projects at all. Naturally, this is far from ideal. Manually tracking employee time leads to unnecessary admin time and scope for human error.
 
-Digital timesheets eliminate these costs, as well as provide high levels of oversight over your projects and employee behavior.
+Digital timesheets eliminate these costs, as well as provide high levels of oversight over your projects and employee behavior, with the regularity of a monthly or weekly timesheet.
 
 As your level of oversight increases, you’ll quickly spot opportunities to improve workflows. Adopt a data-driven approach to resourcing to minimize operating costs and wastage, and maximize ROI.
 
@@ -48,7 +48,7 @@ Underlying this, any timesheet app is made up of two components:
 
 When an employee submits a timesheet, a record is created in the data layer. This can be configured to link to related datasets, for the respective project, department, client, task, and more.
 
-Of course, the most effective timesheet apps have additional features, for streamlining workflows. For example, by offering integration with [project approval systems](https://budibase.com/approval-apps/templates/project-approval-system/), payroll software, or invoicing apps.
+Of course, the most effective timesheet apps have additional features, for streamlining workflows. For example, by offering integration with [project approval systems](https://budibase.com/approval-apps/templates/project-approval-system/) , payroll software, or tracking apps.
 
 ## Our employee timesheet template
 

@@ -21,17 +21,19 @@ Our template is designed to streamline invoice approval workflows, reduce admin 
 
 ## What is invoice approval software?
 
-Invoice approval software allows your supplier and vendors to submit invoices. These can then be viewed, managed, and paid by your team, within one tool. In other words, this is a closed platform for submitting, managing, and processing supplier payments.
+Invoice approval software allows your supplier and vendors to submit invoices. These can then be viewed, managed, and paid by your team, within one tool. In other words, this is a closed platform for submitting, managing, and processing supplier payments and purchase orders according to defined business rules.
 
 This replaces manual invoice submission and management. For example, without a dedicated tool, suppliers generally have to send invoices to their account managers. This leads to poor oversight, miscommunications, and disorganization.
 
 In extreme cases, invoices might go unpaid, leading to poor vendor relationships.
 
+Our free invoice approval software offers a user-friendly alternative to manually processing submissions.
+
 ### Why do businesses use digital approval tools?
 
 Dedicated approval workflow tools are a much smarter way to manage invoices. Digitizing your approval workflows is a simple and effective way to reduce admin costs and streamline internal processes.
 
-Invoice approval software also leads to improved supplier experiences.
+Invoice approval workflow software also leads to improved supplier experiences.
 
 Rather than manually sending invoices to your account owners, vendors can simply upload new invoices directly to a centralized platform. They can then view, edit, and query the status of each invoice, without the need for excessive calls and emails.
 
@@ -39,7 +41,7 @@ Rather than manually sending invoices to your account owners, vendors can simply
 
 ### What should invoice approval software include?
 
-A basic invoice approval tool has three components:
+A basic invoice approval app has three components:
 
 1. A [form interface](https://budibase.com/forms) for vendors to submit invoices.
 2. Functionality for users to manage and respond to new invoices.
@@ -51,7 +53,7 @@ The best tools allow you to automate your invoice approval workflows. When an in
 
 Our invoice approval software template is built for efficiency and fast deployment.
 
-Our template offers:
+Our free invoice software offers:
 
 * Support for external databases.
 * Complete customization.
@@ -86,7 +88,7 @@ With Budibase, you can easily set up rules for automatic approval. For example, 
 
 ### Simplify communications
 
-Our invoice workflow template is built to streamline supplier management. Invoice approval software eliminates the need for most common vendor queries. Vendors can submit invoices and receive payments, without ever having to contact your team.
+Our invoice workflow template is built to streamline supplier management. Invoice approval software eliminates the need for most common vendor queries. Vendors can submit simple invoices and receive payments, without ever having to contact your team.
 
 We’ve also added functionality for when your team needs to query an invoice submission or request additional information. Simply set the invoice’s status to _queried_ and provide comments for the vendor.
 

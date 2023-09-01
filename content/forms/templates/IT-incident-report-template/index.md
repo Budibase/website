@@ -62,7 +62,7 @@ Out of the box, our template offers:
 
 Incident reporting is crucial. Having a central record of all IT incidents helps you to identify threats, and prevent future damage. However, this only works if your employees actually report incidents.
 
-Our IT incident report template provides a platform to quickly create effective reports. When an incident occurs, any employee can note the required details in seconds.
+Our IT incident report formats key information about the incident and affected systems in a clear, concise manner. When an incident occurs, any employee can note the required details in seconds.
 
 We’ve also added an additional form, for IT workers to qualify and respond to incidents. On a separate record, your IT team can assign actions, incident severity, or escalate each case.
 
@@ -70,19 +70,19 @@ We’ve also added an additional form, for IT workers to qualify and respond to 
 
 ### Customize report fields
 
-Every organization is different. Your IT incident report form must match the information you actually need. With a Budibase form, you have complete control over which data fields to include.
+Every organization is different. Your ICT incident report form must match the information you actually need. With a Budibase form, you have complete control over which data fields to include.
 
 The Budibase builder makes it a breeze to add, edit, or remove form fields.
 
-Our template is designed for quick deployment. We’ve provided the most common fields for effective incident reports. These include descriptive elements, as well as categorization fields and taxonomies. Users can even add supporting evidence and documents.
+Our template is designed for quick deployment. We’ve provided the most common fields for effective incident reports. These include descriptive elements, as well as categorization fields and taxonomies. Users can even add supporting evidence and documents to help with formulating incident responses.
 
 ### Automate workflows
 
-Our incident report template is built to simplify internal processes. When IT incidents occur, communication is key. The sooner your IT team receives your incident reports, the better.
+Our ICT incident report template is built to simplify internal processes. When IT incidents occur, communication is key. The sooner your IT team receives your incident reports, the better.
 
 With Budibase, any in-app action can trigger our vast library of automations.
 
-Notify your IT team when a new incident is reported. With Budibase’s range of integrations, you can even trigger specific responses for different classes of incidents.
+Notify your IT team when a new incident is reported. With Budibase’s range of integrations, you can even trigger specific responses for different classes of incidents, including internal messaging, tracking tools, or even social media.
 
 Check out our free [maintenance request form template](https://budibase.com/forms/templates/maintenance-request-form-template/).
 

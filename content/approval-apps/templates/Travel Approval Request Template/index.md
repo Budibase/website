@@ -25,15 +25,15 @@ Travel approval tools are used to digitize your request and booking processes. T
 
 The goal here is to create a repeatable process for all travel requests. This ensures that the right information is gathered, while also streamlining internal workflows.
 
-Additionally, travel approval tools allow you to centralize data relating to business trips. Analyze trends in travel spending, to improve resource allocation, or identify travelers who are overspending.
+Additionally, travel approval apps allow you to centralize and rationalize data models relating to company travel. Analyze trends in travel spending, to improve resource allocation, or identify travelers who are overspending.
 
 ### Why do businesses digitize travel approval requests?
 
-Approving business travel can be a complex process. Often, different stakeholders manage approval requests, with very little coordination. This can lead to very different outcomes, across different departments, as well as poor oversight.
+Travel approval workflows can be complex. Often, different stakeholders manage trip approval requests, with very little coordination. This can lead to very different outcomes, across different departments, as well as poor oversight over traveler's bookings.
 
 Beyond this, setting up a call or meeting every time an employee needs to travel is costly and time-consuming.
 
-Digitizing your approval workflows is the most effective way to overcome these challenges.
+Creating a travel approval system is the most effective way to overcome these challenges.
 
 ![Travel Approval Request Template Form Interface](https://res.cloudinary.com/daog6scxm/image/upload/v1642421889/cms/Travel_Approval_Request_Template_1_xmqgyp.png "Travel Approval Request Template Form Interface")
 
@@ -43,10 +43,12 @@ Basic travel approval software includes two key components.
 
 These are:
 
-1. A digital form interface for making travel approval requests.
+1. A travel request form interface for making approval requests.
 2. A back-end database for managing and approving requests.
 
 The most effective tools feature a simple and intuitive interface for viewing, managing, and responding to new requests. Travel request platforms should also integrate with your existing software stack, for maximum efficiency.
+
+For example, you might want to integrate with expense approval workflow tools or automation software.
 
 ## Our travel approval request template
 

@@ -1,6 +1,6 @@
 ---
 date: 2021-10-20
-title: Simple applicant tracking system - free ATS template
+title: Applicant Tracking System (ATS) Template
 description: Free applicant tracking system template - advertise jobs, receive applications,
   and track candidates. Browse through our selection of free application templates
   and build an internal application in minutes.
@@ -30,18 +30,20 @@ With the applicant tracking system free template, you can advertise jobs, receiv
 
 ### Public job board
 
-Advertise jobs on your own personal job board. The public job board within the applicant tracking system template is beautifully designed, but you still have the freedom to customize how it looks to suit your branding.
+Hiring managers can advertise job openings on their own personal job boards. The public job board within the free applicant tracking system template is beautifully designed, but you still have the freedom to customize how it looks to suit your branding.
+
+You can also use a simple form interface to input selection criteria, job descriptions, required candidate experience, and more.
 
 ### Public application form
 
-Tied to your public job board, is an application form that allows potential candidates to submit their credentials and resume. This form is smart enough to know what vacancy the recruit is applying for and makes the process feel seamless. On top of that, you can connect the form to automation, to:
+Tied to your public job board, is an application form that allows qualified candidates to submit their credentials and resume. This form is smart enough to know what vacancy the recruit is applying for and makes the process feel seamless. On top of that, you can connect the form to automation, to:
 
-- Notify you / a colleague when an application is submitted
-- Notify the recruit that their application was received and is being processed
+- Notify you / a colleague when an application is submitted using email templates.
+- Notify the recruit that their application was received and is being processed by the hiring team.
 
 ### Private admin panel
 
-Included in the template, is your own private application admin panel. Within this part of your app, you can track the progress of applicants and how they move through the application process. If you like, you could set up email notifications to notify the candidate of the status of their application - this is easily done, but not in the template.
+Included in our free ATS software template, is your own private application admin panel for managing job postings and applications. Within this part of your app, you can track the progress of applicants and how they move through the application process. If you like, you could set up email notifications to notify the candidate of the status of their application - this is easily done, but not in the template.
 
 Alongside the applicant admin panel, is a position admin panel. This part of the app allows you to manage the positions you have advertised and create new ones. The position admin panel is tightly linked to your applicant admin panel and both work together seamlessly.
 

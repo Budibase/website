@@ -22,19 +22,19 @@ With our responsive job portal template, you can take back control of your hirin
 
 ## What is job portal app development?
 
-Job portal development means creating a private, secure platform for advertising job openings, and sourcing candidates. This can be aimed at either internal or external users. A job portal also allows your team to manage and respond to applications, as they come in.
+Job portal solution development means creating a private, secure platform for advertising job openings, and sourcing candidates. This can be aimed at either internal or external users. A job portal also allows your team to manage and respond to applications, as they come in.
 
 However, custom job portal app development has historically been an expensive option. Most organizations rely on public job board websites, as custom portal development can cost tens of thousands of dollars.
 
-At Budibase, we’re changing this. With our free, low-code builder, you can build a deployable custom job portal, in minutes.
+At Budibase, we’re changing this. With our free, low-code builder, you can build a deployable custom solution at a fraction of the cost of job portal development with hard code. You can even create advanced features, intuitive user experiences, automated job alerts, and more.
 
 ![Responsive Job Portal App Homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1642418078/cms/Resposnive_Job_Portal_App_1_wlrvxy.png "Responsive Job Portal App Development Template Screenshot")
 
 ### Why do I need a job portal?
 
-Job portals are the most cost-effective way for large organizations to find and hire talent. Implementing a job portal is a simple way to eliminate the costs associated with advertising vacancies and attracting talent.
+Online job portals are the most cost-effective way for large organizations to find and hire talent. Implementing a job portal is a simple way to eliminate the costs associated with advertising vacancies and attracting talent.
 
-Job portals also greatly reduce the admin burden on your HR team. Centralizing all of your job ads, applications, and candidates is the first step towards automating internal processes. Use our responsive job portal template to streamline your hiring process.
+Job portals also greatly reduce the admin burden on your HR team. Centralizing all of your job postings, applications, and candidates is the first step towards automating recruitment processes. Use our responsive job portal template to streamline your hiring process.
 
 ### What should a job portal contain?
 

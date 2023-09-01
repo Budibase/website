@@ -15,20 +15,24 @@ title = "Customer Account Portal Template | Budibase | Low-Code Platform"
 type = "templates"
 
 +++
-Efficient customer service is crucial for modern businesses. Lengthy customer interactions cost money and create negative experiences. This impacts both your profitability and your customer retention rates.
+Efficient customer service is crucial for modern businesses. Lengthy customer interactions cost money and create negative experiences. This impacts your profitability, client experiences, and your customer retention rates.
 
 One solution to this problem is empowering customers to manage their own accounts. This eliminates the need for customer interactions regarding common requests and queries. Cut operational costs and free your service agents up to deal with more complex issues.
 
+We can achieve this with a custom client portal.
+
 ## What is a customer account portal?
 
-A customer account portal is a closed platform, which allows users to edit their personal details and payment information. The goal is to eliminate the need for customers to contact your team to carry out simple admin tasks.
+A customer account portal is a closed platform, which allows users to edit their personal details and payment information. The goal is to eliminate the need for customers to contact your team to carry out simple admin tasks and access various service options.
 
-Beyond this basic functionality, many customer account portals offer additional features, including:
-
-* Order/subscription management,
-* Contact forms,
-* Exclusive content,
-* Personalized deals and offers.
+* Beyond this basic functionality, many customer portal software solutions offer additional key features, including:
+  - Order/subscription management,
+  - Contact forms,
+  - Exclusive content,
+  - Knowledge base functionality and accessible information,
+  - Access to support teams,
+  - Integration with communication channels,
+  - Personalized deals and offers.
 
 ### Why do I need a customer account portal?
 
@@ -57,7 +61,7 @@ For example, if you sell physical goods to customers, your customer portal shoul
 
 ## Our customer account portal template
 
-Our customer account portal template is designed to offer a deployable self-service admin tool, in minutes.
+Our customer account portal template is designed to offer a deployable cloud-based self-service admin tool, in minutes.
 
 Like all Budibase apps, our template offers:
 
