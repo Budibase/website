@@ -26,6 +26,8 @@ Today, we’re looking at an alternative approach, as we explore how to build a 
 
 Let’s jump right in.
 
+{{< youtube PtUU6bk5xkI >}}
+
 ## How to build a CRM in 6 steps
 
 We’ll kick off by outlining *what* exactly we want to build. It’s worth pausing for a second and reflecting on what a CRM is. In practice, there is a huge range of different types of CRM systems - aimed at distinct use cases and market segments.
