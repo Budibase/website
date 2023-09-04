@@ -596,6 +596,14 @@ table td {
   font-size: 12px !important;
 }
 
+.text-lg {
+  font-size: 18px !important;
+}
+
+.text-xl {
+  font-size: 20px !important;
+}
+
 .text-blue {
   color: var(--blue-800) !important;
 }
@@ -1030,13 +1038,37 @@ textarea {
   line-height: inherit;
 }
 
+.pricing-select-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-top: unset;
+  margin-bottom: 1.25rem;
+  margin-left: auto;
+  width: auto;
+}
+
 
 .pricing-select {
-  height: 44px;
   padding: 8px 15px;
-  width: 100%;
-  font-size: 14px;
-  background-color: white;
+  width: 12.5rem;
+  background-color: unset;
+  border: 0.0625rem solid #bcbab8;
+  padding: 0.625rem;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  vertical-align: middle;
+}
+
+.pricing-select-label {
+  padding: 0.625rem 1.125rem;
+    border: 0.0625rem solid #bcbab8;
+    border-right: 0;
+    margin-right: 0;
+    margin: 0;
+    background: #f6f6f4;
+    align-self: center;
+    height: 44.5px;
 }
 
 .hover {
@@ -3923,6 +3955,21 @@ details[open]>summary {
   }
 }
 
+.trusted-by-logos-grid-sm {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.trusted-by-logo-dark-sm {
+  width: 60px;
+  aspect-ratio: auto 50 / 50;
+  margin: 8px;
+  text-align: center;
+  filter: brightness(0) invert(0);
+}
+
+
 .trusted-by-logo-dark:hover {
   width: 100px;
   aspect-ratio: auto 50 / 50;
@@ -4388,10 +4435,10 @@ details[open]>summary {
 }
 
 .price-text {
-  font-size: 16px;
-  font-weight: 600px;
-  font-variation-settings: 'wght' 620;
-  color: var(--hiContrast)
+  font-size: 18px;
+  font-variation-settings: 'wght' 550;
+  color: var(--hiContrast);
+  line-height: 1;
 }
 
 .align-end {
@@ -4634,7 +4681,7 @@ details[open]>summary {
   .pricing-test-package {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0;
+    gap: 20px;
   }
 }
 
@@ -4646,27 +4693,13 @@ details[open]>summary {
   -webkit-box-flex: 1;
   flex-grow: 1;
   gap: 1rem;
-  border-right: 1px solid var(--gray-500);
-  border-bottom: 1px solid var(--gray-600);
-  border-top: 1px solid var(--gray-600);
+  border: 1px solid var(--gray-600);
+  border-radius: 16px;
 
 }
 
-.pricing-card-test:first-of-type {
-  border-bottom-left-radius: 12px;
-    border-left: 1px solid var(--gray-600);
-    border-top-left-radius: 12px;
-}
 
-.pricing-card-test:last-of-type {
-  border-bottom-right-radius: 12px;
-    border-right: 1px solid var(--gray-600);
-    border-top-right-radius: 12px;
-}
 
-.pricing-accent {
-  height: 8px;
-}
 .pricing-price-container {
  height: auto;
  margin-bottom: 28px;
@@ -4958,7 +4991,7 @@ details[open]>summary {
 
 .pricing-tabs-container {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   gap: 20px;
 }
@@ -5270,6 +5303,24 @@ ul {
   }
 }
 
+
+/* nonprofit */ 
+.nonprofit-wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 20px;
+  gap: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  padding: 64px 64px !important;
+}
+.nonprofit-img {
+  grid-column: 1/span 6;
+}
+.nonprofit-text {
+  grid-column: 8/span 5;
+}
 /* Platform */
 
 .featured-feature-wrapper {
@@ -5650,6 +5701,22 @@ ul {
   overflow: hidden;
   margin-right: 8px;
   border: 1px solid var(--gray-500);
+}
+
+.icon-container-dark {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 25%;
+  overflow: hidden;
+  margin-right: 8px;
+  border: 1px solid var(--gray-1000);
 }
 
 .icon-container-lg {
@@ -7359,14 +7426,14 @@ fieldset:disabled a.btn {
 
 .btn-cta {
   color: white;
-  background-color: var(--blue-700);
-  border: 1px solid var(--blue-700);
+  background-color: var(--blue-800);
+  border: 1px solid var(--blue-800);
 }
 
 .btn-cta:hover {
   color: white;
-  background-color: var(--blue-800);
-  border: 1px solid var(--blue-800);
+  background-color: var(--blue-900);
+  border: 1px solid var(--blue-900);
 }
 
 .btn-cta:focus,
@@ -7684,13 +7751,13 @@ select {
 .btn-outline {
   background-color: white;
   color: var(--black);
-  border: 1px solid transparent
+  border: 1px solid var(--gray-700);
 }
 
 .btn-outline:hover {
   background-color: var(--gray-500);
   color: var(--black);
-  border: 1px solid transparent;
+  border: 1px solid var(--gray-700);
 }
 
 @media (max-width: 600px) {
