@@ -3,7 +3,7 @@
 author = "Ronan McQuillan"
 date = 05-09-2023
 description = "Database connections are used to enable client applications to retrieve and manage data."
-image = “https://res.cloudinary.com/daog6scxm/image/upload/v1693905197/cms/database-connections/Database_Connections_Header_dlc8xf.png”
+image = "https://res.cloudinary.com/daog6scxm/image/upload/v1693905197/cms/database-connections/Database_Connections_Header_dlc8xf.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1693905197/cms/database-connections/Database_Connections_Header_dlc8xf.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = “What are Database Connections?”

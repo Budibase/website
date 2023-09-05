@@ -3,7 +3,7 @@
 author = "Ronan McQuillan"
 date = 05-09-2023
 description = "Approval workflow are some of the basic building blocks of internal business processes."
-image = “https://res.cloudinary.com/daog6scxm/image/upload/v1693906506/cms/approval-workflows/Approval_Workflows_Header_vmjeer.png”
+image = "https://res.cloudinary.com/daog6scxm/image/upload/v1693906506/cms/approval-workflows/Approval_Workflows_Header_vmjeer.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1693906506/cms/approval-workflows/Approval_Workflows_Header_vmjeer.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "What are Approval Workflows & How do You Build Them?"
