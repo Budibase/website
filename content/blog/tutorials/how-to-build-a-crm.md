@@ -6,7 +6,7 @@ description = "Follow our video tutorial to learn how to build a CRM with Budiba
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1693840194/cms/how-to-build-a-crm/How_to_Build_a_CRM_Header_nre6ks.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1693840194/cms/how-to-build-a-crm/How_to_Build_a_CRM_Header_nre6ks.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Build a CRM"
+title = "How to Build a CRM with Budibase"
 
 +++
 
