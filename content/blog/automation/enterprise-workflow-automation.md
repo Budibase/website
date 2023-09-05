@@ -5,7 +5,7 @@ description = "Enterprise workflow automation is the key to balancing efficiency
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1654868123/cms/Enterprise_Workflow_Automation_Header_xdyura.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1654868123/cms/Enterprise_Workflow_Automation_Header_xdyura.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Enterprise Workflow Automation: In-Depth Guide"
+title = "Enterprise Workflow Automation"
 
 +++
 For large, international organizations, efficiency is everything. However, this can’t come at the expense of accuracy, compliance, and security. Enterprise workflow automation is the key to balancing these concerns.
