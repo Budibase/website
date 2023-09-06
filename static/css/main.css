@@ -4427,11 +4427,11 @@ details[open]>summary {
 .pricing-item {
   display: inline-flex;
   align-items: center;
-  margin-bottom: 14px;
+  margin-bottom: 6px;
 }
 
 .pricing-item > p {
-  font-size: 14px !important;
+  font-size: 15px !important;
 }
 
 .price-text {
@@ -4677,6 +4677,20 @@ details[open]>summary {
   }
 }
 
+  .pricing-test-package {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+@media (min-width: 800px) {
+    .pricing-test-package {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+}
+
 @media (min-width: 1200px) {
   .pricing-test-package {
     display: grid;
@@ -4685,7 +4699,7 @@ details[open]>summary {
   }
 }
 
-.pricing-card-test {
+.pricing-card {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -4695,12 +4709,10 @@ details[open]>summary {
   gap: 1rem;
   border: 1px solid var(--gray-600);
   border-radius: 16px;
-
+  padding: .75rem 1rem;
 }
 
-
-
-.pricing-price-container {
+.pricing-card-inner {
  height: auto;
  margin-bottom: 28px;
 }
