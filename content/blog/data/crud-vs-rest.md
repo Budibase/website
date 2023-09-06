@@ -225,4 +225,4 @@ The missing piece of the puzzle is how we enable users or other processes to acc
 
 This means building effective user interfaces, automation rules, and other human-facing tools that empower our team to perform data management actions in the most efficient way possible.
 
-To learn more, check out our ultimate guide to [data management software solutions](https://budibase.com/blog/data/data-management-software/).
+To learn more, check out our ultimate guide to [custom app development](https://budibase.com/blog/app-building/custom-app-development/).

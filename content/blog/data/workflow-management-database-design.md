@@ -281,4 +281,4 @@ Finally, we can’t speak about database design without touching on how we allow
 
 Or, do we want to create more accessible tools for less technical colleagues to interact with our data - like CRUD apps, dashboards, admin panels, or other common internal tools?
 
-To learn more, check out our ultimate guide to [data management software solutions](https://budibase.com/blog/data/data-management-software/).
+To learn more, check out our ultimate guide to [internal processes](https://budibase.com/blog/automation/internal-processes/).
