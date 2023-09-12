@@ -184,8 +184,6 @@ If you are a developer, short of time, working in an enterprise org, I would def
 
 _The HTML5 open source form builder_
 
-{{< youtube mK4BXiGNbvA >}}
-
 Alpaca provides the easiest way to generate interactive HTML5 forms for web and mobile applications. It uses JSON Schema and simple Handlebars templates to create great-looking, dynamic user interfaces on top of Twitter Bootstrap, jQuery UI, jQuery Mobile, and HTML5.
 
 Alpaca has been around for several years and offers a bare-bones framework for building forms. It is not as opinionated as the other platforms but has extensive functionality for those willing to put the effort in.
