@@ -37,6 +37,8 @@ By default, View access is inherited from the parent table. **View Access is con
 
 
 
+![Views RBAC](https://res.cloudinary.com/daog6scxm/image/upload/v1694605467/features/views-rbac.png)
+
 
 
 ### Views roadmap
@@ -84,14 +86,11 @@ Now, there are only 2 account level roles:
 
 
 
-## Introducing the new Creator role
+## Introducing Creator access
 
-For Business and Enterprise customers, a Member can be either a Creator or an App User.
+Business and Enterprise customers can now give users Creator access to an individual app. Creator access allow users to edit the app's data, design, and automations.
 
-- Creator - can create new apps and edit old apps they've been assigned to.
-- App user - can access published apps.
-
-With this additional granularity, Business and Enterprise customers can select whether a member is a Creator or an App user for each application. This is particularly important when you don't want Admins having full access to every app. 
+With this additional granularity, Business and Enterprise customers can select whether a member is a Creator or an App User for each application. This is particularly important when you someone who is has Creator access on one app, having Creator access on another.
 
 It's important to note, existing users with the Developer role will continue with the Developer role until updated by the account admin. Going forward, when adding new users, the Developer role will not be available.
 
