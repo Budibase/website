@@ -101,7 +101,7 @@ It's important to note, existing users with the Developer role will continue wit
 
 
 
-## Streamline design UX
+## Streamlined design UX
 
 We have combined the Screens and Component tree panels within the Design section to streamline the app building experience.
 
