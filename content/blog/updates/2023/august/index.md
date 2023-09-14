@@ -11,7 +11,7 @@ draft: false
 
 ---
 
-The August release has landed and we've excited to launch some major improvements to the current Budibase experience:
+The August release has landed and we're excited to launch some major improvements to the current Budibase experience:
 
 
 
