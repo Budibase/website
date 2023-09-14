@@ -43,7 +43,7 @@ By default, View access is inherited from the parent table. **View access is onl
 
 ### Views roadmap
 
-With this release, we've removed Groupby and Calculation functionality from Views. We apologize is this has caused any inconvenience. We are working behind the scenes on a major transformation to the Budibase data experience. This major update will include a better experience around Groupbys and Calculations and result in a large performance boost. We plan to release this new experience over the next month or two.
+With this release, we've removed Groupby and Calculation functionality from Views. We apologize if this has caused any inconvenience. We are working behind the scenes on a major transformation to the Budibase data experience. This major update will include a better experience around Groupbys and Calculations and result in a large performance boost. We plan to release this new experience over the next month or two.
 
 
 
