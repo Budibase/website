@@ -23,7 +23,7 @@ The August release has landed and we're excited to launch some major improvement
 
 Views in Budibase are a simple way to filter data. They're incredibly popular so we decided to spend August improving their performance and design. 
 
-The new Views now support the new editable Grid - significantly improve the design and overall editing experience. Additionally, there's a new way to create new Views - Simply filter your table, click Create View, give it name, and that's it -  Budibase will create a new View with your filtered data.
+The new Views now support the new editable Grid - significantly improve the design and overall editing experience. Additionally, there's a new way to create Views - Simply filter your table, click Create View, give it name, and that's it -  Budibase will create a new View with your filtered data.
 
 
 
