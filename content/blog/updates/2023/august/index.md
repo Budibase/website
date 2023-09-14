@@ -88,7 +88,7 @@ Now, there are only 2 account level roles:
 
 Business and Enterprise customers can now give users Creator access to an individual app. Creator access allow users to edit the app's data, design, and automations.
 
-With this additional granularity, Business and Enterprise customers can select whether a member is a Creator or an App User for each application. This is particularly important when you someone who is has Creator access on one app, having Creator access on another.
+With this additional granularity, Business and Enterprise customers can select whether a member is a Creator or an App User for each application. 
 
 It's important to note, existing users with the Developer role will continue with the Developer role until updated by the account admin. Going forward, when adding new users, the Developer role will not be available.
 
