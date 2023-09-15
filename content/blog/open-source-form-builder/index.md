@@ -57,8 +57,6 @@ Here are the 5 best open-source form builder apps:
 
 _Best all-in-one open source form builder_
 
-{{< youtube zI8TgTNNg04 >}}
-
 Budibase is a form builder and more. It's an open-source low code platform that gives you a database, automation workflows, authentification, and many more features out of the box. It can also connect to external data sources such as MongoDB, MySQL, PostgreSQL, Airtable, and more. You can also connect to a Rest API.
 
 The compilation of functionality makes it the go-to tool for building data-centric internal tools and forms. You can also create public and private forms (authentification). This is essential if you are building apps such as CRMs, approval apps, inventory lists.
