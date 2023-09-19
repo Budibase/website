@@ -1,3 +1,22 @@
+@font-face {
+  font-family: 'Spezia';
+  font-style: normal;
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  src: local('Spezia'),
+       url('/fonts/Spezia.woff2') format('woff2'), 
+       url('/fonts/Spezia.woff') format('woff'); 
+}
+@font-face {
+  font-family: 'SpeziaMono';
+  font-style: normal;
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  src: local('SpeziaMono'),
+       url('/fonts/SpeziaMono.woff2') format('woff2'), 
+       url('/fonts/SpeziaMono.woff') format('woff'); 
+}
+
 html {
   --gray-100: rgb(252, 252, 252);
   --gray-200: rgb(250, 250, 250);
@@ -98,10 +117,7 @@ html {
   --red-100: rgb(255, 223, 217);
 
   --border-color-regular: rgba(0, 0, 0, 0.1);
-  --text-color-light: rgba(0, 0, 0, 0.4);
-  --text-color-medium: rgba(0, 0, 0, 0.6);
-  --text-color-dark: rgba(17, 17, 17, 1);
-  --text-color-regular: rgba(4, 4, 4, 1);
+  --text-color-regular: rgb(38, 38, 39);
   --hiContrast: hsl(200 12% 4%);
   --loContrast: white;
   --text-gradient: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, .8));
@@ -116,7 +132,7 @@ html {
   --transparentPanel: hsl(0 0% 0% / 97%);
   --shadowLight: hsl(206 22% 7% / 35%);
   --shadowDark: hsl(206 22% 7% / 20%);
-  --font: Inter, -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  --font: 'Spezia', -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   --space-1: 5px;
   --space-2: 10px;
   --space-3: 15px;
@@ -175,10 +191,10 @@ html {
 
 body {
   margin: 0;
-  font-family: var(--font);
+  font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-variation-settings:"wght" 420, "wdth" 50, "mono" 50;
   color: var(--hiContrast);
   font-size: var(--fontsize-3);
-  font-variation-settings: "wght" 400;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -194,7 +210,6 @@ body {
   text-decoration-line: none;
   text-decoration-style: solid;
   cursor: default;
-  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
 }
 
 @-ms-viewport {
@@ -448,7 +463,7 @@ h1,
 h2 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
 }
@@ -457,7 +472,7 @@ h3,
 h4 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
 }
@@ -466,7 +481,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
 }
@@ -475,7 +490,14 @@ p {
   margin-top: 0;
   margin-bottom: 0;
   color: var(--text-color-regular);
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: 'Spezia', sans-serif;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-feature-settings: "kern" !important;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  letter-spacing: 0;
 }
 
 @media (max-width: 600px) {
@@ -495,10 +517,6 @@ table td {
   color: var(--hiContrast);
 }
 
-.p-light {
-  color: var(--text-color-light);
-}
-
 .text-sm {
   font-size: 14px;
 }
@@ -510,7 +528,7 @@ table td {
 }
 
 .intro-text {
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   color: var(--hiContrast);
   font-size: clamp(var(--fontsize-7), 2.5vw, var(--fontsize-8));
   font-weight: 600;
@@ -518,6 +536,9 @@ table td {
   line-height: 1.3;
 }
 
+.text-lg {
+  font-size: 17px !important;
+}
 
 .text-xs {
   font-size: 13px !important;
@@ -647,7 +668,7 @@ table td {
 }
 
 .font-sans {
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif !important;
+  font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif !important;
 }
 
 
@@ -655,7 +676,7 @@ table td {
   text-transform: uppercase;
   letter-spacing: 0.07em;
   font-size: 12px;
-  font-variation-settings: "wght" 650;
+  font-variation-settings: "wght" 650, "mono" 70;
 }
 
 @media (min-width: 600px) {
@@ -663,7 +684,7 @@ table td {
     text-transform: uppercase;
     letter-spacing: 0.07em;
     font-size: var(--fontsize-3);
-    font-variation-settings: "wght" 650;
+    font-variation-settings: "wght" 650 , "mono" 70 ;
   }
 }
 
@@ -673,7 +694,7 @@ table td {
   text-transform: uppercase;
   letter-spacing: 0.07em;
   font-size: var(--fontsize-3);
-  font-variation-settings: "wght" 650;
+  font-variation-settings: "wght" 650 , "mono" 70;
 }
 
 @media (min-width: 600px) {
@@ -681,7 +702,7 @@ table td {
     text-transform: uppercase;
     letter-spacing: 0.07em;
     font-size: var(--fontsize-4);
-    font-variation-settings: "wght" 650;
+    font-variation-settings: "wght" 650 , "mono" 70;
   }
 }
 
@@ -689,7 +710,7 @@ table td {
   text-transform: uppercase;
   letter-spacing: -0.01em;
   font-size: var(--fontsize-8);
-  font-variation-settings: "wght" 650;
+  font-variation-settings: "wght" 650 , "mono" 70;
   line-height: 1.2;
 }
 
@@ -725,7 +746,7 @@ blockquote {
 b,
 strong {
   font-weight: 600 !important;
-  font-variation-settings: "wght" 600;
+  font-variation-settings: "wght" 600, "mono" 70;
 
 }
 
@@ -746,7 +767,8 @@ a {
   opacity: 1 !important;
   cursor: pointer;
   display: inline;
-  font-variation-settings: 'wght' 440;
+  font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-variation-settings: 'wght' 440 , "wdth" 50;
 }
 
 a:hover {
@@ -759,12 +781,13 @@ a:focus {
 
 
 .a-alt {
-  color: rgba(0, 0, 0, 0.6);
+  color: #111;
   background-color: transparent;
   opacity: 1 !important;
   cursor: pointer;
   display: inline;
-  font-variation-settings: 440;
+  font-variation-settings: 440, "mono" 60;
+  font-family: 'Spezia';
 }
 
 .a-alt:hover {
@@ -777,11 +800,12 @@ a:focus {
   -webkit-text-decoration-skip: objects;
   line-height: 0;
   padding: 0;
+  font-family: 'Spezia';
 }
 
 
 .a-underline {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 1);
   text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -790,7 +814,8 @@ a:focus {
   text-underline-offset: 0.1em;
   text-decoration-thickness: .8px;
   display: inline;
-  font-variation-settings: 440;
+  font-variation-settings: 540, "mono" 90;
+  font-family: 'Spezia';
 }
 
 .a-underline:hover {
@@ -959,6 +984,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  font-variation-settings: 'wght' 400, 'wdth' 50;
 }
 
 .tooltip {
@@ -1127,38 +1153,30 @@ a:focus {
   }
 }
 
-.display-font {
-  font-family: 'Familjen Grotesk', sans-serif;
-  font-weight: 800 !important;
-  font-size: clamp(2.8rem, 3.2vw, 3.8rem) !important;
-}
-
 .hero-title {
   text-size-adjust: 100%;
   font-size: 36px;
-  font-variation-settings: "wght" 640;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: 'SpeziaMono', sans-serif;
+  font-variation-settings: "wght" 580, "wdth" 50, "mono" 100 !important;
+  font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
+  letter-spacing: -1.44211px !important;
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
-  letter-spacing: -.04em;
+  margin-top: 0;
+  margin-bottom: 0;
   line-height: 1.05;
-  text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 600px) {
   .hero-title {
     text-size-adjust: 100%;
     font-size: 48px;
-    font-variation-settings: "wght" 660;
-    margin-top: 0;
+    font-variation-settings: "wght" 640, "mono" 90;
+    font-family: 'SpeziaMono', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;    margin-top: 0;
     margin-bottom: 0;
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
     line-height: 1.05;
-    letter-spacing: -.04em;
   }
 }
 
@@ -1166,19 +1184,20 @@ a:focus {
   .hero-title {
     text-size-adjust: 100%;
     font-size: 56px;
-    font-variation-settings: "wght" 640;
+    font-variation-settings: "wght" 500, "wdth" 50, "mono" 90 !important;    
+    font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
+    font-family: 'SpeziaMono', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;    
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
     line-height: 1.05;
-    letter-spacing: -.04em;
+    font-weight: 500;
   }
 }
 
 .hero-description {
-  font-variation-settings: "wght" 440;
+  font-variation-settings: "wght" 440, "mono" 90;
   font-size: 20px;
   line-height: 1.3;
   letter-spacing: -.02em;
@@ -1193,12 +1212,10 @@ a:focus {
   font-size: 3rem;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Familjen Grotesk', sans-serif;
-  font-weight: 700;
+  font-family: 'SpeziaMono', sans-serif;
+  font-variation-settings: "wght" 580, "wdth" 50, "mono" 90 !important;
+  font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
   color: var(--hiContrast);
-  text-rendering: optimizeLegibility;
-  letter-spacing: -.03em;
-  line-height: .95;
   text-rendering: optimizeLegibility;
 }
 
@@ -1207,44 +1224,12 @@ a:focus {
   .hero-title-lg {
     text-size-adjust: 100%;
     font-size: clamp(3.8rem, 4vw, 5rem);
-    font-variation-settings: "wght" 670;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'inter', sans-serif;
+    font-family: 'SpeziaMono', sans-serif;
+    font-variation-settings: "wght" 580, "wdth" 50, "mono" 90 !important;
+    font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
     color: var(--hiContrast);
-    text-rendering: optimizeLegibility;
-    line-height: .92;
-    letter-spacing: -.02em;
-    text-rendering: optimizeLegibility;
-  }
-}
-
-.hero-title-lg-dark {
-  text-size-adjust: 100%;
-  font-size: 3rem;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Familjen Grotesk', sans-serif;
-  font-weight: 700;
-  color: var(--loContrast);
-  text-rendering: optimizeLegibility;
-  letter-spacing: -.01em;
-  line-height: 1;
-  text-rendering: optimizeLegibility;
-}
-
-
-@media (min-width: 600px) {
-  .hero-title-lg-dark {
-    text-size-adjust: 100%;
-    font-size: clamp(3.8rem, 4vw, 4.2rem);
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: 'Familjen Grotesk', sans-serif;
-    color: var(--loContrast);
-    text-rendering: optimizeLegibility;
-    line-height: 1;
     text-rendering: optimizeLegibility;
   }
 }
@@ -1254,13 +1239,10 @@ a:focus {
   font-size: 2.6rem;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-variation-settings: "wght" 660;
+  font-family: 'SpeziaMono', sans-serif;
+  font-variation-settings: "wght" 580, "wdth" 50, "mono" 90 !important;
+  font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
   color: var(--hiContrast);
-  text-rendering: optimizeLegibility;
-  line-height: .95;
-  letter-spacing: -.05em;
   text-rendering: optimizeLegibility;
 }
 
@@ -1269,15 +1251,13 @@ a:focus {
   .hero-title-xl {
     text-size-adjust: 100%;
     font-size: 3rem;
-    font-weight: 700;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'Inter', sans-serif;
-    font-variation-settings: "wght" 660;
+    font-family: 'SpeziaMono', sans-serif;
+    font-variation-settings: "wght" 580, "wdth" 50, "mono" 90 !important;
+    font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
-    line-height: .95;
-    letter-spacing: -.03em;
     text-rendering: optimizeLegibility;
   }
 }
@@ -1286,15 +1266,13 @@ a:focus {
   .hero-title-xl {
     text-size-adjust: 100%;
     font-size: 3.4rem;
-    font-weight: 700;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'Inter', sans-serif;
-    font-variation-settings: "wght" 660;
+    font-family: 'SpeziaMono', sans-serif;
+    font-variation-settings: "wght" 610, "wdth" 50, "mono" 90 !important;
+    font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
-    line-height: .95;
-    letter-spacing: -.03em;
     text-rendering: optimizeLegibility;
   }
 }
@@ -1303,139 +1281,39 @@ a:focus {
   .hero-title-xl {
     text-size-adjust: 100%;
     font-size: 4rem;
-    font-weight: 700;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'Inter', sans-serif;
-    font-variation-settings: "wght" 680;
+    font-family: 'SpeziaMono', sans-serif;
+    font-variation-settings: "wght" 580, "wdth" 50, "mono" 90 !important;
+    font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
     line-height: .95;
     letter-spacing: -.03em;
-    text-rendering: optimizeLegibility;
   }
 }
 
 @media (min-width: 1400px) {
   .hero-title-xl {
-    text-size-adjust: 100%;
     font-size: 5rem;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'Inter', sans-serif;
-    font-variation-settings: "wght" 700;
+    font-family: 'SpeziaMono', sans-serif;
+    font-variation-settings: "wght" 540, "wdth" 50, "mono" 90 !important;
+    font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
+    letter-spacing: -0.03em !important;
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
-    line-height: 1;
-    letter-spacing: -.04em;
-    text-rendering: optimizeLegibility;
+    font-variant-ligatures: none;
   }
 }
-
-
-.hero-title-xl-dark {
-  text-size-adjust: 100%;
-  font-size: 3rem;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  color: var(--loContrast);
-  text-rendering: optimizeLegibility;
-  letter-spacing: -.03em;
-  line-height: 1;
-  text-rendering: optimizeLegibility;
-}
-
-
-@media (min-width: 600px) {
-  .hero-title-xl-dark {
-    text-size-adjust: 100%;
-    font-size: clamp(4.4rem, 4.8vw, 5.2rem);
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: 'Inter', sans-serif;
-    font-variation-settings: "wght" 660;
-    color: var(--loContrast);
-    text-rendering: optimizeLegibility;
-    line-height: .95;
-    text-rendering: optimizeLegibility;
-  }
-}
-
-
-.hero-title-sm-dark {
-  text-size-adjust: 100%;
-  font-size: 2rem;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Familjen Grotesk', sans-serif;
-  font-weight: 700;
-  color: var(--loContrast);
-  text-rendering: optimizeLegibility;
-  letter-spacing: -.01em;
-  line-height: 1;
-  text-rendering: optimizeLegibility;
-  z-index: 3 !important;
-}
-
-
-@media (min-width: 600px) {
-  .hero-title-sm-dark {
-    text-size-adjust: 100%;
-    font-size: clamp(2rem, 3vw, 3.6rem);
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: 'Familjen Grotesk', sans-serif;
-    color: var(--loContrast);
-    text-rendering: optimizeLegibility;
-    line-height: 1.1;
-    text-rendering: optimizeLegibility;
-    z-index: 3 !important;
-  }
-}
-
-.hero-title-subtext {
-  text-size-adjust: 100%;
-  font-size: clamp(2rem, 3.0vw, 3rem);
-  font-variation-settings: "wght" 460;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-  color: var(--hiContrast);
-  text-rendering: optimizeLegibility;
-  letter-spacing: -.04em;
-  line-height: 1.2 !important;
-  text-rendering: optimizeLegibility;
-  color: rgb(26, 30, 43);
-}
-
-.hero-title-subtext-dark {
-  text-size-adjust: 100%;
-  font-size: clamp(2rem, 3.0vw, 3rem);
-  font-variation-settings: "wght" 460;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-  text-rendering: optimizeLegibility;
-  letter-spacing: -.04em;
-  line-height: 1.2 !important;
-  text-rendering: optimizeLegibility;
-  color: rgba(239, 239, 239, 0.9);
-
-}
-
-
-
-
 
 h1,
 .h1 {
   font-size: clamp(2rem, 3.25vw, 2.8rem);
   color: var(--hiContrast);
-  font-variation-settings: "wght" 630;
+  font-family: 'SpeziaMono', sans-serif;
+  font-variation-settings: "wght" 630, "mono" 100;
   letter-spacing: -.01em;
   text-indent: -.025em;
   line-height: 1.1;
@@ -1444,25 +1322,28 @@ h1,
 
 h2,
 .h2 {
+  font-family: 'Spezia', sans-serif;
   font-size: 1.5rem;
-  font-variation-settings: "wght" 650;
+  font-variation-settings: "wght" 510, "wdth" 50;
+  font-feature-settings: "kern";
   text-indent: -.015em;
+  letter-spacing: -0.72px;
   text-rendering: optimizeLegibility;
   line-height: 28px;
-  letter-spacing: -1px;
 }
 
 @media (min-width: 600px) {
-
   h2,
   .h2 {
+    font-family: 'Spezia', sans-serif;
     font-size: 32px;
-    font-weight: 600;
-    font-variation-settings: "wght" 650;
+    font-variation-settings: "wght" 510, "wdth" 50;
+    font-feature-settings: "kern";
+    letter-spacing: -0.72px;
     text-indent: -.015em;
+    font-weight: none;
     text-rendering: optimizeLegibility;
     line-height: 36px;
-    letter-spacing: -0.0168em;
     display: block;
     -webkit-font-smoothing: antialiased;
   }
@@ -1470,8 +1351,9 @@ h2,
 
 h3,
 .h3 {
+  font-family: 'SpeziaMono', sans-serif;
   font-size: clamp(var(--fontsize-6), 2.25vw, var(--fontsize-7));
-  font-variation-settings: "wght" 590;
+  font-variation-settings: "wght" 590, "mono" 90;
   letter-spacing: -.005em;
   text-indent: -.015em;
   text-rendering: optimizeLegibility;
@@ -1480,42 +1362,43 @@ h3,
 
 h4,
 .h4 {
+  font-family: 'SpeziaMono', sans-serif;
   font-size: clamp(var(--fontsize-5), 2vw, var(--fontsize-6));
-  font-variation-settings: "wght" 590;
+  font-variation-settings: "wght" 590, "mono" 90;
   text-rendering: optimizeLegibility;
   line-height: 1.2;
 }
 
 h5,
 .h5 {
+  font-family: 'SpeziaMono', sans-serif;
   font-size: clamp(var(--fontsize-4), 2vw, var(--fontsize-5));
-  font-variation-settings: "wght" 550;
+  font-variation-settings: "wght" 550, "mono" 90;
   text-rendering: optimizeLegibility;
   line-height: 1.2;
 }
 
 h6,
 .h6 {
+  font-family: 'SpeziaMono', sans-serif;
   font-size: clamp(var(--fontsize-3), 2vw, var(--fontsize-4));
-  font-variation-settings: "wght" 550;
+  font-variation-settings: "wght" 550, "mono" 90;
   text-rendering: optimizeLegibility;
   line-height: 1.2;
 }
 
 .lead {
-  font-size: var(--fontsize-3);
+  font-size: var(--fontsize-4);
   line-height: 1.4;
   letter-spacing: -0.3px;
   font-weight: 480;
-  font-variation-settings: "wght" 480;
 }
 
 @media (min-width: 600px) {
   .lead {
-    font-size: var(--fontsize-4);
+    font-size: var(--fontsize-5);
     line-height: 31px;
     letter-spacing: -0.3px;
-    font-weight: 500;
   }
 }
 
@@ -1543,28 +1426,6 @@ h6,
     letter-spacing: -0.01em;
     color: var(--gray-1200);
     font-weight: 600;
-  }
-}
-
-.display-1 {
-  font-size: var(--fontsize-8);
-  font-weight: 600;
-  text-rendering: optimizeLegibility;
-  line-height: 1;
-  letter-spacing: -.055em;
-  text-indent: -.025em;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-}
-
-@media (min-width: 990px) {
-  .display-1 {
-    font-size: 60px;
-    font-weight: 600;
-    letter-spacing: -.055em;
-    text-indent: -.025em;
-    text-rendering: optimizeLegibility;
-    line-height: 1;
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   }
 }
 
@@ -1717,8 +1578,7 @@ kbd kbd {
 }
 
 pre {
-  background: var(--gray-200);
-  color: var(--hiContrast);
+  background: var(--gray-1000);
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
   padding: 0.15em 0.5em;
@@ -3409,7 +3269,7 @@ pre>code {
   }
 }
 
-.internal-db {
+.Spezianal-db {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -3477,7 +3337,7 @@ pre>code {
   gap: 8px;
   line-height: 16px;
   transition: background-position .2s;
-  font-variation-settings: "wght" 510;
+  font-variation-settings: "wght" 510, "mono" 70;
 }
 
 .badge-hero {
@@ -3485,16 +3345,21 @@ pre>code {
   align-items: center;
   padding: 6px 12px;
   border: 1px solid hsla(0, 0%, 0%, 0.05);
-  background: linear-gradient(90.33deg, rgba(218, 123, 128, 0.22), rgba(86, 170, 219, 0.105));
+  background-color: #FF785A;
   background-position: 100% 0;
   background-size: 200%;
   border-radius: 16px;
-  color: var(--gray-1000);
+  color: var(--gray-100);
   font-size: 12px;
   gap: 8px;
   line-height: 16px;
   transition: background-position .2s;
-  font-variation-settings: "wght" 510;
+  font-variation-settings: "wght" 590, "mono" 70;
+  font-family: 'Spezia';
+}
+
+.badge-hero:hover {
+  color: var(--loContrast);
 }
 
 .tag-small {
@@ -4700,7 +4565,7 @@ details[open]>summary {
   color: var(--hiContrast);
   border: 1px solid var(--gray-500);
   background-color: transparent;
-  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-family: "Spezia", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   -webkit-user-select: none;
@@ -5370,7 +5235,7 @@ ul {
   grid-area: name;
   color: var(--hiContrast);
   font-weight: 500 !important;
-  font-variation-settings: "wght" 560;
+  font-variation-settings: "wght" 560, 'wdth' 50;
   font-size: 18px;
   display: block;
   letter-spacing: -0.016em;
@@ -5962,12 +5827,12 @@ ul {
   }
 }
 
-.internal-tool-contain-container {
+.Spezianal-tool-contain-container {
   display: flex;
   flex-direction: column;
 }
 
-.internal-tools-chapters {
+.Spezianal-tools-chapters {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
@@ -5980,7 +5845,7 @@ ul {
 }
 
 @media (max-width: 760px) {
-  .internal-tools-chapters {
+  .Spezianal-tools-chapters {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -5992,7 +5857,7 @@ ul {
 }
 
 
-.internal-tools-chapter {
+.Spezianal-tools-chapter {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -6002,7 +5867,7 @@ ul {
   transition: all 200ms ease-in-out;
 }
 
-.internal-tools-chapter:hover {
+.Spezianal-tools-chapter:hover {
   cursor: pointer;
   border-radius: 12px;
   border: 1px var(--gray-700) solid;
@@ -6105,7 +5970,7 @@ ul {
   color: var(--gray-600);
 }
 
-.internal-tools-title-container {
+.Spezianal-tools-title-container {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
@@ -6114,13 +5979,13 @@ ul {
 }
 
 @media (min-width: 800px) {
-  .internal-tools-title-container {
+  .Spezianal-tools-title-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
 
-.internal-tools-title-image {
+.Spezianal-tools-title-image {
   height: 400px;
 }
 
@@ -7126,8 +6991,9 @@ iframe {
 
 .btn {
   display: inline-block;
-  font-variation-settings: 'wght' 610;
-  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-family: "Spezia", Helvetica, Arial, sans-serif;
+  font-variation-settings: "wght" 550, "wdth" 50, "mono" 85 !important;
+  letter-spacing: -0.003em;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7204,14 +7070,14 @@ fieldset:disabled a.btn {
 
 .btn-cta {
   color: white;
-  background-color: var(--blue-700);
-  border: 1px solid var(--blue-700);
+  background-color: #6E56FF;
+  border: 1px solid #6e56ff;
 }
 
 .btn-cta:hover {
   color: white;
-  background-color: var(--blue-800);
-  border: 1px solid var(--blue-800);
+  background-color: var(--indigo-800);
+  border: 1px solid var(--indigo-800);
 }
 
 .btn-cta:focus,
@@ -7298,7 +7164,7 @@ label {
   margin-bottom: 8px;
   line-height: 20px !important;
   font-weight: 500 !important;
-  font-variation-settings: 'wght' 500;
+  font-variation-settings: 'wght' 500, 'wdth' 50;
   letter-spacing: 0.0075em;
   color: var(--hiContrast);
   font-size: 15px !important;
@@ -7331,7 +7197,7 @@ label {
 .hs-button {
   display: inline-block;
   font-variation-settings: 'wght' 610;
-  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-family: "Spezia", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7552,7 +7418,7 @@ select {
   background: var(--gray-500);
   color: var(--hiContrast);
   font-variation-settings: 'wght' 600;
-  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-family: "Spezia", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7597,7 +7463,7 @@ select {
   background: var(--blue-500);
   color: var(--hiContrast);
   font-variation-settings: 'wght' 600;
-  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-family: "Spezia", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7629,7 +7495,7 @@ select {
   background: var(--red-1000);
   color: var(--hiContrast);
   font-variation-settings: 'wght' 600;
-  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-family: "Spezia", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7661,8 +7527,8 @@ select {
   display: inline-block;
   font-size: 14px;
   padding: 10px 20px;
-  font-variation-settings: 'wght' 500;
-  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-variation-settings: 'wght' 500, 'wdth' 50;
+  font-family: "Spezia", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7694,8 +7560,8 @@ select {
   display: inline-block;
   font-size: 14px;
   padding: 10px 20px;
-  font-variation-settings: 'wght' 500;
-  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-variation-settings: 'wght' 500, 'wdth' 50;
+  font-family: "Spezia", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -9190,6 +9056,14 @@ button.close {
   background-color: var(--red-1300);
 }
 
+.bg-coral {
+  background-color: #F97777;
+}
+
+.bg-bb-gray {
+  background-color: #E9E3DF
+}
+
 .bg-orange-100 {
   background-color: var(--orange-100)
 }
@@ -10340,7 +10214,7 @@ button.bg-blue:focus {
 
 
   .text-monospace {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Inter", "Courier New", monospace;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Spezia", "Courier New", monospace;
   }
 
   .text-justify {
@@ -10438,32 +10312,29 @@ button.bg-blue:focus {
   }
 
   .font-weight-light {
-    font-weight: 300 !important;
+    font-variation-settings: "wght" 340, 'wdth' 50, "mono" 100 !important;
   }
 
   .font-weight-normal {
-    font-weight: 400 !important;
+    font-variation-settings: "wght" 400, 'wdth' 50, "mono" 100 !important;
   }
 
   .font-weight-medium {
-    font-weight: 500 !important;
-    font-variation-settings: "wght" 520;
+    font-variation-settings: "wght" 520, 'wdth' 50, "mono" 100 !important;
   }
 
   .font-weight-semi-bold {
-    font-weight: 600 !important;
-    font-variation-settings: "wght" 620;
+    font-variation-settings: "wght" 620, 'wdth' 50, "mono" 100 !important;
 
   }
 
   .font-weight-bold {
-    font-weight: 700 !important;
-    font-variation-settings: "wght" 700;
+    font-variation-settings: "wght" 700, 'wdth' 50, "mono" 100 !important;
+
   }
 
   .font-weight-extra-bold {
-    font-weight: 800 !important;
-    font-variation-settings: "wght" 800;
+    font-variation-settings: "wght" 820, "mono" 100 !important;
   }
 
   .w-25 {
@@ -10916,7 +10787,7 @@ button.bg-blue:focus {
     font-size: var(--fontsize-5);
     -webkit-box-align: center;
     font-variation-settings: 'wght' 450;
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     cursor: pointer;
   }
 
@@ -10985,7 +10856,7 @@ button.bg-blue:focus {
     color: #cccccc;
     font-size: 16px;
     font-weight: 600;
-    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-family: "Spezia", Arial, Helvetica, sans-serif;
   }
 
   .u-header__nav-link-icon {
@@ -11008,6 +10879,7 @@ button.bg-blue:focus {
   }
 
   .u-header__sub-menu-nav-link {
+    font-family: 'Spezia', sans-serif;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
@@ -11015,7 +10887,7 @@ button.bg-blue:focus {
     -ms-flex-pack: justify;
     font-size: var(--fontsize-3);
     color: var(--hiContrast);
-    font-variation-settings: 'wght' 520;
+    font-variation-settings: 'wght' 520, 'wdth' 50;
   }
 
 
@@ -11029,7 +10901,7 @@ button.bg-blue:focus {
       justify-content: start;
       font-size: 15px;
       color: var(--hiContrast);
-      font-variation-settings: 'wght' 520;
+      font-variation-settings: 'wght' 520, 'wdth' 50;
     }
   }
 
@@ -11041,7 +10913,7 @@ button.bg-blue:focus {
     -ms-flex-pack: justify;
     font-size: var(--fontsize-3);
     color: var(--loContrast);
-    font-variation-settings: 'wght' 520;
+    font-variation-settings: 'wght' 520, 'wdth' 50;
   }
 
 
@@ -11055,7 +10927,7 @@ button.bg-blue:focus {
       justify-content: start;
       font-size: 15px;
       color: var(--loContrast);
-      font-variation-settings: 'wght' 520;
+      font-variation-settings: 'wght' 520, 'wdth' 50;
     }
   }
 
@@ -11068,7 +10940,7 @@ button.bg-blue:focus {
     justify-content: start;
     font-size: 15px;
     color: var(--loContrast);
-    font-variation-settings: 'wght' 520;
+    font-variation-settings: 'wght' 520, 'wdth' 50;
     background-color: rgba(250, 250, 250, 0.07);
     border-radius: var(--radius-4);
   }
@@ -11949,8 +11821,8 @@ button.bg-blue:focus {
     .u-header__nav-link {
       color: var(--hiContrast);
       font-size: 16px;
-      font-variation-settings: 'wght' 500;
-      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+      font-variation-settings: 'wght' 500, 'wdth' 50;
+      font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     }
 
     .navbar-expand-lg .u-header__navbar-nav .u-header__sub-menu-nav-link:hover {
@@ -17248,7 +17120,7 @@ button.bg-blue:focus {
 
 
   .article p {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     font-size: 1rem;
     line-height: 1.6;
     font-weight: 400;
@@ -17264,7 +17136,7 @@ button.bg-blue:focus {
 
   @media (min-width: 600px) {
     .article p {
-      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+      font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
       font-size: 1.1rem;
       line-height: 1.6;
       font-weight: 400;
@@ -17280,11 +17152,18 @@ button.bg-blue:focus {
   }
 
   .article em {
-    color: var(--gray-900);
+    color: var(--indigo-900);
+    padding: 4px 10px 4px 6px;
+    background-color: var(--gray-300);
+    border-radius: 4px;
+    font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-variation-settings: 'wght' 410, 'mono' 40;
+    position: relative;
   }
 
+
   .article h1 {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     text-rendering: optimizeLegibility;
     font-weight: 700;
     font-variation-settings: "wght" 700;
@@ -17305,10 +17184,9 @@ button.bg-blue:focus {
 
   @media (min-width: 800px) {
     .article h1 {
-      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+      font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+      font-variation-settings: "wght" 620, "mono" 70;
       text-rendering: optimizeLegibility;
-      font-weight: 700;
-      font-variation-settings: "wght" 700;
       color: var(--hiContrast);
       font-size: 48px;
       letter-spacing: -.04em;
@@ -17326,11 +17204,10 @@ button.bg-blue:focus {
   }
 
   .article h2 {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-    margin-top: 3.5rem;
+    font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    text-rendering: optimizeLegibility;
+    font-variation-settings: "wght" 620, "mono" 60;    margin-top: 3.5rem;
     margin-bottom: .75rem;
-    font-weight: 600;
-    font-variation-settings: "wght" 680;
     font-size: 26px;
     color: var(--hiContrast);
     line-height: 1.2;
@@ -17347,11 +17224,11 @@ button.bg-blue:focus {
 
   @media (min-width: 800px) {
   .article h2 {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    text-rendering: optimizeLegibility;
+    font-variation-settings: "wght" 620, "mono" 70;    
     margin-top: 3.5rem;
     margin-bottom: .75rem;
-    font-weight: 600;
-    font-variation-settings: "wght" 680;
     font-size: 32px;
     color: var(--hiContrast);
     line-height: 1.2;
@@ -17368,12 +17245,12 @@ button.bg-blue:focus {
   }
 
   .article h3 {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     margin-top: 2rem;
     font-size: 24px;
     color: var(--hiContrast);
     font-weight: 700px;
-    font-variation-settings: "wght" 620;
+    font-variation-settings: 'wght' 620, 'wdth' 50;
     line-height: 1.25;
   }
 
@@ -17387,11 +17264,11 @@ button.bg-blue:focus {
   }
 
   .article h4 {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     margin-top: 2rem;
     margin-bottom: .5rem;
     font-weight: 700;
-    font-variation-settings: "wght" 620;
+    font-variation-settings: 'wght' 620, 'wdth' 50;
     font-size: 20px;
     line-height: 1.1;
   }
@@ -17406,18 +17283,18 @@ button.bg-blue:focus {
   }
 
   .article h5 {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     margin-top: 2rem;
     margin-bottom: .5rem;
     font-weight: 600;
-    font-variation-settings: "wght" 620;
+    font-variation-settings: 'wght' 620, 'wdth' 50;
     font-size: 16px;
     color: var(--hiContrast);
     line-height: 1.1;
   }
 
   .article li {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     font-size: 1rem;
     line-height: 1.6;
     font-weight: 400;
@@ -17431,7 +17308,7 @@ button.bg-blue:focus {
 
   @media (min-width: 600px) {
     .article li {
-      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+      font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
       font-size: 1.1rem;
       font-weight: 400;
       letter-spacing: -.05px;
