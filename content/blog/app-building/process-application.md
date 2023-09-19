@@ -1,11 +1,12 @@
 +++
 author = "Ronan McQuillan"
-date = 
+date = 2023-09-19
 description = "Process applications are internal tools which are purpose-built for specific tasks."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1695127471/cms/process-application/Process_Application_header_gynwxe.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1695127471/cms/process-application/Process_Application_header_gynwxe.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "What is a Process Application?"
+
 +++
 
 Process applications are kind of the unsung heroes of digital transformation. These tools are the backbone of countless efficient, streamlined internal business processes.
