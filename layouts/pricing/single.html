@@ -1,27 +1,53 @@
 {{ partial "header.html" . }} {{ partial "navigation.html" . }}
   <div class="space-2">
-    <div class="container text-center mb-6">
-      <h1 class="hero-title text-center mb-4">Speed-up workflows. Start free.</h1>
-      <p class="lead-lg mx-auto text-center w-lg-50 opacity-75">Try with your team for free. No CC required.</p>
+    <div class="container">
+      <h1 class="hero-title mx-auto text-center w-lg-60">Find a plan to power your workflows. Start free.
+      </h1>
+      <!-- <p class="text-center mt-4 hero-description w-lg-50 mx-auto">We believe the value of Budibase lies with the creator which is why the per user fee is the lowest in the business.</p> -->
+   </div>
+   <div class="container pricing-tabs-container flex-row gap-md">
+    <div class="tab rounded">
+        <button class="btn tablinks" onclick="openPricing(event, 'annual')" id="defaultOpen">
+          Pay annually 
+        </button>
+        <button class="btn tablinks" onclick="openPricing(event, 'monthly')" >
+          Pay monthly 
+        </button>
     </div>
-    <div class="pricing-tabs-container flex-row gap-md mb-9">
-      <div class="tab">
-          <button class="btn btn-lg tablinks" onclick="openPricing(event, 'cloud')" id="defaultOpen">
-            Cloud (we host)
-          </button>
-          <button class="btn btn-lg tablinks" onclick="openPricing(event, 'selfHost')" >
-            Self-host (you host)
-          </button>
-      </div>
-    </div>
-<div class="container mt-2 mb-6">
-  <div id="cloud" class="tabcontent">
-  {{ partial "pricing/per-user.html"}}
+  </div>   
+
+
+<!-- <div class="container pricing-select-wrapper">
+  <div class="flex mx-auto">
+  <label for="pet-select" class="text-center pricing-select-label">How many app users do you have:</label>
+    <select name="pets" id="pet-select" class="pricing-select">
+      <option value="dog">10</option>
+      <option value="dog">20</option>
+      <option value="dog">30</option>
+      <option value="dog">40</option>
+      <option value="cat">50</option>
+      <option value="cat">75</option>
+      <option value="hamster">100</option>
+      <option value="parrot">250</option>
+      <option value="parrot">500</option>
+      <option value="spider">1000</option>
+      <option value="spider">2500</option>
+      <option value="spider">5000</option>
+      <option value="spider">10000+</option>
+    </select>
   </div>
-  <div id="selfHost" class="tabcontent">
-    {{ partial "pricing/per-user-self-host.html"}}
+</div> -->
+
+
+<div class="container mt-3 mb-6">
+  <div id="annual" class="tabcontent">
+  {{ partial "pricing/annual.html" }}
+  </div>
+  <div id="monthly" class="tabcontent">
+    {{ partial "pricing/monthly.html"}}
   </div>
 </div>
+
 <div class="space-2-top">
   {{ partial "pricing/faqs.html" . }}
 </div>
@@ -34,6 +60,9 @@
 <!-- JS -->
 <script src="{{ "js/pricing.js" | absURL }}"></script>
 <script src="{{ "js/pricing-tabs.js" | absURL }}"></script>
+<script src="{{ "js/tooltip.js" | absURL }}"></script>
+<script src="https://unpkg.com/popper.js@1"></script>
+<script src="https://unpkg.com/tippy.js@4"></script>
 <script>
   document.getElementById("defaultOpen").click();
 </script>
