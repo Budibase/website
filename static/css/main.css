@@ -110,12 +110,11 @@ html {
   --red-800: rgb(221, 33, 24);
   --red-700: rgb(238, 67, 49);
   --red-600: rgb(249, 99, 76);
-  --red-500: rgb(255, 129, 107);
+  --red-500: #ff816b;
   --red-400: rgb(255, 158, 140);
   --red-300: rgb(255, 183, 169);
   --red-200: rgb(255, 205, 195);
   --red-100: rgb(255, 223, 217);
-
   --border-color-regular: rgba(0, 0, 0, 0.1);
   --text-color-regular: rgb(38, 38, 39);
   --hiContrast: hsl(200 12% 4%);
@@ -1295,7 +1294,7 @@ a:focus {
 
 @media (min-width: 1400px) {
   .hero-title-xl {
-    font-size: 5rem;
+    font-size: 4.2rem;
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'SpeziaMono', sans-serif;
@@ -1305,6 +1304,7 @@ a:focus {
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
     font-variant-ligatures: none;
+    line-height: 1.1;
   }
 }
 
@@ -1427,6 +1427,58 @@ h6,
     color: var(--gray-1200);
     font-weight: 600;
   }
+}
+
+.arrow-red {
+  display: inline-block;  
+  height: 72px;
+  margin-left: 0px;
+  margin-right: 28px;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: var(--red-500);
+  color: black;
+   &:after {
+    border-left: 20px solid var(--red-500);
+  }
+}
+
+.arrow-red:after {
+  content: "";
+  position: absolute;
+  border-bottom: 36px solid transparent;
+  border-top: 36px solid transparent;
+  height: 0px;
+  width: 0px;
+  margin-right: -17.5px;
+  right: 0; 
+}
+
+.arrow-indigo {
+  display: inline-block;  
+  height: 72px;
+  margin-left: 0px;
+  margin-right: 2px;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: #9F8FFF;
+  color: black;
+   &:after {
+    border-left: 20px solid #9F8FFF;
+  }
+}
+
+.arrow-indigo:after {
+  content: "";
+  position: absolute;
+  border-bottom: 36px solid transparent;
+  border-top: 36px solid transparent;
+  height: 0px;
+  width: 0px;
+  margin-right: -17.5px;
+  right: 0; 
 }
 
 hr {
