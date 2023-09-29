@@ -5,7 +5,7 @@ description = "Transactional databases store information that’s created by int
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1695991177/cms/transactional-databases/Transactional_Database_ft5wbj.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1695991177/cms/transactional-databases/Transactional_Database_ft5wbj.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "What is a transactional database?"
+title = "What is a Transactional Database?"
 +++
 
 Transactional databases are some of the most foundational and ubiquitous tools around. In fact, for countless IT teams, this is the default model for data storage. 
