@@ -12,7 +12,7 @@ draft: false
 
 ---
 
-The September release is here and it comes with a number of crowd-pleasing and community-driven changes that will improve the app building and app access experience:
+The September release is here and it comes with a number of crowd-pleasing, community-driven changes that will improve the app building and  access experience:
 
 
 
@@ -20,9 +20,9 @@ The September release is here and it comes with a number of crowd-pleasing and c
 
 
 
-## Override an existing application and retain your user and data tables
+## Retain user & table data when overriding applications
 
-We’ve been asked time and time again for the ability to update an application without impacting the user or data tables. Today we are thrilled to release the ability to import an application, while retaining these artifacts.
+We’ve been asked time and time again for the ability to update an application without impacting the user or data tables. From today, you can import applications, while retaining these artifacts.
 
 ![new app import](https://res.cloudinary.com/daog6scxm/image/upload/v1696249767/features/new-app-import.png)
 
@@ -58,9 +58,9 @@ Previously we only supported DATETIME type fields, requiring users to set a defa
 
 
 
-## View and interact with your application directly in the Budibase portal
+## View and interact with your applications directly in the Budibase portal 
 
-We have redesigned our portal experience, allowing you to use your applications directly within the portal view.  
+We have redesigned our portal experience, allowing you to use your applications directly within the portal view.
 
 ![quick app access](https://res.cloudinary.com/daog6scxm/image/upload/v1696249989/features/quick-app-access_qbaaco.webp)
 
@@ -72,7 +72,7 @@ We have redesigned our portal experience, allowing you to use your applications 
 
 ## Query UI improvements
 
-We have made improvements to the query creation process for datasources allowing you to view your query results side by side with your query string and transformer.
+We have made improvements to the query creation process for data sources allowing you to view your query results side-by-side with your query string and transformer.
 
 ![query ui improvements](https://res.cloudinary.com/daog6scxm/image/upload/v1696249989/features/query-ui-update_k69d1u.png)
 
