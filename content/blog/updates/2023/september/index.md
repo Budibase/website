@@ -93,8 +93,6 @@ We have made improvements to the query creation process for datasources allowing
 - [Unlocking insights - creating a realtime dashboard](https://youtu.be/RCeoYL9xVfc)
 - [How to set up a Sales KPI approval process](https://youtu.be/uyh8QMjG-bk)
 
-- https://youtu.be/PtUU6bk5xkI)
-
 ### Blog
 
 - [10 strategies for simplified data management](https://budibase.com/blog/data/simplified-data-management/)
