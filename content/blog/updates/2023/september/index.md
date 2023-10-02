@@ -92,6 +92,9 @@ We have made improvements to the query creation process for data sources allowin
 - [Easiest way to build a CRUD app](https://youtu.be/DESg-LMggtg)
 - [Unlocking insights - creating a realtime dashboard](https://youtu.be/RCeoYL9xVfc)
 - [How to set up a Sales KPI approval process](https://youtu.be/uyh8QMjG-bk)
+- [Create a standalone and realtime dashboard](https://youtu.be/RCeoYL9xVfc)
+
+
 
 ### Blog
 
@@ -123,3 +126,4 @@ We have made improvements to the query creation process for data sources allowin
 - Deleting account that hasn't been verified, or failed provisioning, produces 500 #6973  
 - The Number 0 cannot be displayed on input number fields, when being pulled in from a data provider. #6922 https://github.com/Budibase/budibase/issues/10412 
 - Dynamic Filtering on 0 for external sources e.g. mysql, postgres #6781 https://github.com/Budibase/budibase/issues/10118
+
