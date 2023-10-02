@@ -1,5 +1,5 @@
 ---
-title: September 2023 Product Update (v2.10)
+title: September 2023 Product Update
 description: September 2023 release - New updates and improvements to Budibase.
 type: blog
 layout: single
