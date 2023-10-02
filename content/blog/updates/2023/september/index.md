@@ -46,7 +46,7 @@ The user table as you know today will still exist, but in a read-only format. If
 
 ## Support for date-only field types
 
-Previously we only supported DATETIME type fields, require users to set a default time for their value. Now we support DATE type values as well.
+Previously we only supported DATETIME type fields, requiring users to set a default time for their value. Now we support DATE type values as well.
 
 
 
@@ -72,7 +72,7 @@ We have redesigned our portal experience, allowing you to use your applications 
 
 ## Query UI improvements
 
-We have made improvements to the query creation process for datasources, and now allow you to view your query results side by side with your query string and transformer.
+We have made improvements to the query creation process for datasources allowing you to view your query results side by side with your query string and transformer.
 
 ![query ui improvements](https://res.cloudinary.com/daog6scxm/image/upload/v1696249989/features/query-ui-update_k69d1u.png)
 
