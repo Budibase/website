@@ -46,7 +46,7 @@ With Budibase, we can build a working employee onboarding app in a fraction of t
 
 Let’s check out how!
 
-{{< youtube >}}
+{{< youtube wuuxBFgt0Fs >}}
 
 ## What are we building?
 
