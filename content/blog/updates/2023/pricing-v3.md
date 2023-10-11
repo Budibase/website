@@ -31,16 +31,14 @@ Now, we’ve streamlined our pricing plans to create a better experience for eve
 
 ## The new model
 
+![new model](https://res.cloudinary.com/daog6scxm/image/upload/v1697032289/cms/pricing/CleanShot_2023-10-11_at_14.50.48_2x_o9qx4v.png)
+
 The new model is more streamlined and better coordinated with value, consisting of just 3 plans vs the 7 plans we had previously. Each plan is available to Budibase Cloud and Self-hosted users. The Enterprise plan has absorbed the Business plan.This allows us to provide a lower per-user rate based on quotas and volume based discounts for more customers. The new pricing is more flexible and better correlated with the value Budibase provides. It’s also a lot cheaper for many customers. For example:
 
 - **Old Premium plan vs new Premium plan:**
   If a customer has 1 creator and 30 users on the old Premium plan they would be paying $2,976. With the new Premium plan, they will be paying $2,400.
 - **Old Business plan vs new Enterprise plan:**
   If a customer had 2 creators and 70 users on the old Budibase plan they would be paying $13,824. With the new enterprise plan, they would be paying $13,200.
-
-
-
-
 
 ## FAQs
 
@@ -62,9 +60,9 @@ If you created a Budibase account before today, and have updated to the latest v
 
 Your pricing has changed and limits increased. 
 
-- Customers paying monthly - You can upgrade or remain on your current plan until 31st March 2024. On the 1st April 2024, you will be moved to the new Premium plan. If you’d like to upgrade to the new pricing, please [contact our sales team](https://budibase.com/contact).
+- Customers paying monthly - You can upgrade or remain on your current plan until 31st March 2024. On the 1st April 2024, you will be moved to the new Premium plan. If you’d like to upgrade to the new pricing, please [contact our sales team](https://budibase.com/contact). The new Premium plan, paying monthly, is priced: $60 per app creator and $6 per app user.
 
-- Customers paying annually - You will remain on your contract until it finishes. Once your contract ends, you will be moved to the new Premium plan. 
+- Customers paying annually - You will remain on your contract until it finishes. Once your contract ends, you will be moved to the new Premium plan. The new Premium plan, paying monthly, is priced: $50 per app creator and $5 per app user.
 
 - We’ve increased the internal database record limit to 25,000 and automation run limit to 5,000 for Premium plan customers hosting with Budibase Cloud. We’ve also increased the duration of backups and automation logs on the Premium plan (Cloud and Self-hosted) from 1 week to 1 month.
 
@@ -84,7 +82,7 @@ Your plan is now named “Enterprise” and you can benefit from additional new 
 
 **Enterprise plan:**
 
-- No changes, but lots of new features have been introduced! Enterprise pricing will be determined by the number of creators/users within your account as well as the level of support required.
+- All current enterprise customers are on annual contracts so the pricing changes will not affect you until renewal. At renewable, we can provide a custom quote based on the number of app creators/app users within your account as well as the level of support required.
 
 
 
