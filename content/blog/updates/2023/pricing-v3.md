@@ -54,7 +54,7 @@ If you created a Budibase account before today, and have updated to the latest v
 
 - Your plan is now named “Free Plan”
 
-- You can add up to a combined total of 5 users/creators on Cloud. If you self-host you can add up to a combined total of 20 users/creators (for example, 15 app users + 4 app creators + 1 account admin = 20 users). 
+- You can add up to a combined total of 5 users (admins, app creators, app users) on Cloud. If you self-host you can add up to a combined total of 20 users (admins, app creators, app users).
 
   
 
@@ -62,9 +62,13 @@ If you created a Budibase account before today, and have updated to the latest v
 
 Your pricing has changed and limits increased. 
 
-- Customers paying monthly - If you are on a monthly contract you can upgrade or remain on your current plan until 31st March 2024. On the 1st April 2024, you will be required to move to the new Premium plan. If you’d like to upgrade to the new pricing today, please [contact our sales team](https://budibase.com/contact).
+- Customers paying monthly - You can upgrade or remain on your current plan until 31st March 2024. On the 1st April 2024, you will be moved to the new Premium plan. If you’d like to upgrade to the new pricing, please [contact our sales team](https://budibase.com/contact).
 
-- Customers paying annually - If you are on an annual contract you will remain on that contract until the end of your annual contract. Once your annual contract ends, you will be moved to the new Premium plan. 
+- Customers paying annually - You will remain on your contract until it finishes. Once your contract ends, you will be moved to the new Premium plan. 
+
+- We’ve increased the internal database record limit to 25,000 and automation run limit to 5,000 for Premium plan customers hosting with Budibase Cloud. We’ve also increased the duration of backups and automation logs on the Premium plan (Cloud and Self-hosted) from 1 week to 1 month.
+
+- The Premium plan is now available to customers who prefer to self-host.
 
   
 
@@ -72,9 +76,9 @@ Your pricing has changed and limits increased.
 
 Your plan is now named “Enterprise” and you can benefit from additional new features including enforceable SSO and SCIM. 
 
-- Customers paying monthly - If you are on a monthly contract you can upgrade or remain on your current plan until 31st March 2024. On the 1st April 2024, you will be required to move to the new enterprise plan. If you’d like to upgrade to the new pricing today or get a new quote, please [contact our sales team](https://budibase.com/contact).
+- Customers paying monthly - You can upgrade to the Enterprise plan or remain on your current plan until 31st March 2024. On the 1st April 2024, you will be required to move to the new Enterprise plan. If you’d like to upgrade to the new pricing today or get a new quote, please [contact our sales team](https://budibase.com/contact).
 
-- Customers paying annually - If you are on an annual contract you will remain on that contract until the end of your annual contract. Once your annual contract ends, you will be moved to the new enterprise plan.
+- Customers paying annually - You will remain on your contract until it finishes. Once your annual contract ends, you will be moved to the new enterprise plan.
 
   
 
