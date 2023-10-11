@@ -13,7 +13,7 @@ draft: false
 
 ---
 
-Today, the Budibase team is excited to introduce a few updates to our pricing plans. Over the past few months, we’ve chatted with our current customers and users to determine how to best correlate our pricing with the value of Budibase. Consistently, we heard from you that per-user pricing was not scalable and that the value experienced by app creators was disproportionate to the value experienced by app users. 
+Today, the Budibase team is excited to introduce a few updates to our pricing plans that will **go live on 30th November, 2023**. Over the past few months, we’ve chatted with our current customers and users to determine how to best correlate our pricing with the value of Budibase. Consistently, we heard from you that per-user pricing was not scalable and that the value experienced by app creators was disproportionate to the value experienced by app users. 
 
 Now, we’ve streamlined our pricing plans to create a better experience for everyone. Here’s a quick summary of what’s changed, and what’s staying the same:
 
@@ -43,7 +43,7 @@ In summary, here’s what you can expect:
 
 
 
-The new model is more streamlined and better coordinated with value, consisting of just 3 plans vs the 7 plans we had previously. Each plan is available to Budibase Cloud and Self-hosted users. The Enterprise plan has absorbed the Business plan.This allows us to provide a lower per-user rate based on quotas and volume based discounts for more customers. The new pricing is more flexible and better correlated with the value Budibase provides. It’s also cheaper for many customers. For example:
+The new model is more streamlined and better coordinated to value, consisting of just 3 plans vs the 7 plans we had previously. Each plan is available to Budibase Cloud and Self-hosted users. The Enterprise plan has absorbed the Business plan.This allows us to provide a lower per-user rate based on quotas and volume based discounts for more customers. The new pricing is more flexible and better correlated with the value Budibase provides. It’s also cheaper for many customers. For example:
 
 - **Old Premium plan vs new Premium plan:**
   If a customer has 1 creator and 30 users on the old Premium plan they would be paying $2,976. With the new Premium plan, they will be paying $2,400.
@@ -74,29 +74,33 @@ If you created a Budibase account before today, and have updated to the latest v
 
 Your pricing has changed and limits increased. 
 
-- Customers paying monthly - You can upgrade or remain on your current plan until 31st March 2024. On the 1st April 2024, you will be moved to the new Premium plan. If you’d like to upgrade to the new pricing, please [contact our sales team](https://budibase.com/contact). The new Premium plan, paying monthly, is priced: $60 per app creator and $6 per app user.
+- If you are paying monthly, you can upgrade or remain on your current plan. On the 1st April 2024, if you are still on the legacy Premium plan, you will be moved to the new Premium plan. 
 
-- Customers paying annually - You will remain on your contract until it finishes. Once your contract ends, you will be moved to the new Premium plan. The new Premium plan, paying monthly, is priced: $50 per app creator and $5 per app user.
+- If you are paying annually, you will be moved to the new Premium plan when your current contract ends. 
 
 - We’ve increased the internal database record limit to 25,000 and automation run limit to 5,000 for Premium plan customers hosting with Budibase Cloud. We’ve also increased the duration of backups and automation logs on the Premium plan (Cloud and Self-hosted) from 1 week to 1 month.
 
-- The Premium plan is now available to customers who prefer to self-host.
+- The Premium plan is now available to self-hosted users.
 
   
 
 **Business plan:**
 
-Your plan is now named “Enterprise” and you can benefit from additional new features including enforceable SSO and SCIM. 
+Your pricing has changed and limits increased. 
 
-- Customers paying monthly - You can upgrade to the Enterprise plan or remain on your current plan until 31st March 2024. On the 1st April 2024, you will be required to move to the new Enterprise plan. If you’d like to upgrade to the new pricing today or get a new quote, please [contact our sales team](https://budibase.com/contact).
+- If you are paying monthly you can upgrade or remain on your current plan. On the 1st April 2024, if you are still on the legacy Business plan, you will be moved to the new Enterprise plan. To get a new quote, please [contact our sales team](https://budibase.com/contact).
 
-- Customers paying annually - You will remain on your contract until it finishes. Once your annual contract ends, you will be moved to the new enterprise plan.
+- Customers paying annually will be moved to the Enterprise plan when their current contract ends. 
+
+- When moving to the new Enterprise plan, you will benefit from additional new features including enforceable SSO and SCIM. You can also choose from an additional support options to help scale your deployments.
 
   
 
 **Enterprise plan:**
 
-- All current enterprise customers are on annual contracts so the pricing changes will not affect you until renewal. At renewable, we can provide a custom quote based on the number of app creators and app users within your account as well as the level of support required.
+You will experience little change.
+
+- All current enterprise customers will experience no change until their contract ends. At renewable, we can provide a custom quote based on the number of app creators and app users within your account as well as the level of support required.
 
 
 
@@ -123,6 +127,12 @@ In your Budibase portal, click Account > Usage and your plan is listed at the to
 #### What does Enterprise plan pricing look like?
 
 Each organization is different with specific needs. If you’re interested in Budibase's Enterprise plan, our team would love to talk to you. You can [contact our sales team](https://budibase.com/contact) to learn more.
+
+
+
+#### When will the new pricing go live?
+
+30th November, 2023
 
 
 
