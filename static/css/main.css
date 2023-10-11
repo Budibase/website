@@ -1,23 +1,34 @@
+
 @font-face {
-  font-family: 'Spezia';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 125 950;
-  font-stretch: 75% 125%;
-  src: local('Spezia'),
-       url('/fonts/Spezia.woff2') format('woff2'), 
-       url('/fonts/Spezia.woff') format('woff'); 
+  src: local('InterVariable'),
+       url('/fonts/InterVariable.woff2') format('woff2'); 
 }
+
 @font-face {
-  font-family: 'SpeziaMono';
+  font-family: 'Source sans pro';
   font-style: normal;
   font-weight: 125 950;
-  font-stretch: 75% 125%;
-  src: local('SpeziaMono'),
-       url('/fonts/SpeziaMono.woff2') format('woff2'), 
-       url('/fonts/SpeziaMono.woff') format('woff'); 
+  src: local('SourceSansPro'),
+       url('/fonts/SourceSansPro.woff') format('woff'), 
+       url('/fonts/SourceSansPro.woff2') format('woff2'); 
 }
 
 html {
+  --white: white;
+  --black: black;
+  --indigo-light: #9F8FFF;
+  --indigo: #6E56FF;
+  --indigo-dark: #3316d6;
+  --coral-light: #f97777;
+  --coral: #FF4E4E;
+  --coral-dark: #b6340d;
+  --beige-light: #f9f7f5;
+  --beige: #f6efea;
+  --forestgreen: #053835;
+  --lime: #ecffb5;
   --gray-100: rgb(252, 252, 252);
   --gray-200: rgb(250, 250, 250);
   --gray-300: rgb(245, 245, 245);
@@ -117,12 +128,11 @@ html {
   --red-100: rgb(255, 223, 217);
   --border-color-regular: rgba(0, 0, 0, 0.1);
   --text-color-regular: rgb(38, 38, 39);
+  --text-color-dark: hsl(200 12% 4%);
   --hiContrast: hsl(200 12% 4%);
   --loContrast: white;
   --text-gradient: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, .8));
   --canvas: hsl(0 0% 93%);
-  --white: white;
-  --black: black;
   --dark: #151618;
   --dark-light: #1c1e20;
   --dark-light-border: #262b33;
@@ -131,7 +141,10 @@ html {
   --transparentPanel: hsl(0 0% 0% / 97%);
   --shadowLight: hsl(206 22% 7% / 35%);
   --shadowDark: hsl(206 22% 7% / 20%);
-  --font: 'Spezia', -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  --headline-font: 'Inter', -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  --body-font: 'Inter', -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  --font-features: "case", "ss03", "cv06", "cv11", "cv10", "rlig", "calt";
+  --font-variation-settings: "wght" 500 !important;
   --space-1: 5px;
   --space-2: 10px;
   --space-3: 15px;
@@ -190,8 +203,10 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-  font-variation-settings:"wght" 420, "wdth" 50, "mono" 50;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-variation-settings: "wght" 420;
+  font-feature-settings: var(-body);
+  letter-spacing: 0em;
   color: var(--hiContrast);
   font-size: var(--fontsize-3);
   line-height: 1.5;
@@ -491,10 +506,8 @@ summary {
 
 @media (min-width: 600px) {
   .container-12 {
-    width: 82vw;
-    max-width: 1000px;
-    padding: 0;
-    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
@@ -531,41 +544,45 @@ h1,
 h2 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
+  font-feature-settings: var(--font-features);
 }
 
 h3,
 h4 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
+  font-feature-settings: var(--font-features);
 }
 
 h5,
 h6 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
+  font-feature-settings: var(--font-features);
 }
 
 p {
   margin-top: 0;
   margin-bottom: 0;
   color: var(--text-color-regular);
-  font-family: 'Spezia', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400 !important;
   font-style: normal !important;
-  font-feature-settings: "kern" !important;
+  font-feature-settings: var(--font-features);
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   letter-spacing: 0;
+  font-size: 17px;
 }
 
 @media (max-width: 600px) {
@@ -596,7 +613,7 @@ table td {
 }
 
 .intro-text {
-  font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   color: var(--hiContrast);
   font-size: clamp(var(--fontsize-7), 2.5vw, var(--fontsize-8));
   font-weight: 600;
@@ -744,7 +761,7 @@ table td {
 }
 
 .font-sans {
-  font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif !important;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif !important;
 }
 
 
@@ -752,7 +769,7 @@ table td {
   text-transform: uppercase;
   letter-spacing: 0.07em;
   font-size: 12px;
-  font-variation-settings: "wght" 650, "mono" 70;
+  font-variation-settings: "wght" 650,  ;
 }
 
 @media (min-width: 600px) {
@@ -760,7 +777,7 @@ table td {
     text-transform: uppercase;
     letter-spacing: 0.07em;
     font-size: var(--fontsize-3);
-    font-variation-settings: "wght" 650 , "mono" 70 ;
+    font-variation-settings: "wght" 650 ,   ;
   }
 }
 
@@ -770,7 +787,7 @@ table td {
   text-transform: uppercase;
   letter-spacing: 0.07em;
   font-size: var(--fontsize-3);
-  font-variation-settings: "wght" 650 , "mono" 70;
+  font-variation-settings: "wght" 650 ,  ;
 }
 
 @media (min-width: 600px) {
@@ -778,7 +795,7 @@ table td {
     text-transform: uppercase;
     letter-spacing: 0.07em;
     font-size: var(--fontsize-4);
-    font-variation-settings: "wght" 650 , "mono" 70;
+    font-variation-settings: "wght" 650 ,  ;
   }
 }
 
@@ -786,7 +803,7 @@ table td {
   text-transform: uppercase;
   letter-spacing: -0.01em;
   font-size: var(--fontsize-8);
-  font-variation-settings: "wght" 650 , "mono" 70;
+  font-variation-settings: "wght" 650 ,  ;
   line-height: 1.2;
 }
 
@@ -822,7 +839,7 @@ blockquote {
 b,
 strong {
   font-weight: 600 !important;
-  font-variation-settings: "wght" 600, "mono" 70;
+  font-variation-settings: "wght" 600,  ;
 
 }
 
@@ -836,19 +853,19 @@ big {
 
 
 a {
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--coral);
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   opacity: 1 !important;
   cursor: pointer;
   display: inline;
-  font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-  font-variation-settings: 'wght' 440 , "wdth" 50;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-variation-settings: 'wght' 500;
 }
 
 a:hover {
-  color: var(--blue-800);
+  color: var(--coral-dark);
 }
 
 a:focus {
@@ -862,8 +879,8 @@ a:focus {
   opacity: 1 !important;
   cursor: pointer;
   display: inline;
-  font-variation-settings: 440, "mono" 60;
-  font-family: 'Spezia';
+  font-variation-settings: "wght" 440, "width" 50;
+  font-family: 'Inter';
 }
 
 .a-alt:hover {
@@ -876,7 +893,7 @@ a:focus {
   -webkit-text-decoration-skip: objects;
   line-height: 0;
   padding: 0;
-  font-family: 'Spezia';
+  font-family: 'Inter';
 }
 
 
@@ -890,8 +907,8 @@ a:focus {
   text-underline-offset: 0.1em;
   text-decoration-thickness: .8px;
   display: inline;
-  font-variation-settings: 540, "mono" 90;
-  font-family: 'Spezia';
+  font-variation-settings: "wght" 540  ;
+  font-family: 'Inter';
 }
 
 .a-underline:hover {
@@ -1218,10 +1235,10 @@ a:focus {
 .hero-title {
   text-size-adjust: 100%;
   font-size: 36px;
-  font-family: 'SpeziaMono', sans-serif;
-  font-variation-settings: "wght" 580, "wdth" 50, "mono" 100 !important;
-  font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
-  letter-spacing: -1.44211px !important;
+  font-family: 'Inter', sans-serif;
+  font-variation-settings: "wght" 510 !important;
+  font-feature-settings: var(--font-features) !important;
+  letter-spacing: 0.01em !important;
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
   margin-top: 0;
@@ -1233,8 +1250,9 @@ a:focus {
   .hero-title {
     text-size-adjust: 100%;
     font-size: 48px;
-    font-variation-settings: "wght" 640, "mono" 90;
-    font-family: 'SpeziaMono', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;    margin-top: 0;
+    font-family: 'Inter', sans-serif;
+    font-variation-settings: "wght" 510 !important;
+    font-feature-settings: var(--font-features) !important;
     margin-bottom: 0;
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
@@ -1246,26 +1264,25 @@ a:focus {
   .hero-title {
     text-size-adjust: 100%;
     font-size: 56px;
-    font-variation-settings: "wght" 500, "wdth" 50, "mono" 90 !important;    
-    font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
-    font-family: 'SpeziaMono', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;    
+    font-variation-settings: "wght" 540 !important;    
+    font-family: 'Inter', sans-serif;
+    font-feature-settings: var(--font-features) !important;    
     margin-top: 0;
     margin-bottom: 0;
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
     line-height: 1.05;
-    font-weight: 500;
   }
 }
 
 .hero-description {
-  font-variation-settings: "wght" 440, "mono" 90;
-  font-size: 20px;
-  line-height: 1.3;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;    
+  font-variation-settings: "wght" 440,  ;
+  font-size: 22px;
+  line-height: 1.4;
   letter-spacing: -.02em;
   color: var(--gray-1000);
-  margin: 20px 0 20px;
-  font-family: var(--font-space-grotesk);
+  margin: 10px 0 10px;
   text-align: center;
 }
 
@@ -1274,9 +1291,9 @@ a:focus {
   font-size: 3rem;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'SpeziaMono', sans-serif;
-  font-variation-settings: "wght" 580, "wdth" 50, "mono" 90 !important;
-  font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
+  font-family: 'Inter', sans-serif;
+  font-variation-settings: "wght" 580 !important;
+  font-feature-settings: var(--font-features);
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
 }
@@ -1288,9 +1305,9 @@ a:focus {
     font-size: clamp(3.8rem, 4vw, 5rem);
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'SpeziaMono', sans-serif;
-    font-variation-settings: "wght" 580, "wdth" 50, "mono" 90 !important;
-    font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
+    font-family: 'Inter', sans-serif;
+    font-variation-settings: "wght" 580 !important;
+    font-feature-settings: var(--font-features);
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
   }
@@ -1298,12 +1315,11 @@ a:focus {
 
 .hero-title-xl {
   text-size-adjust: 100%;
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'SpeziaMono', sans-serif;
-  font-variation-settings: "wght" 580, "wdth" 50, "mono" 90 !important;
-  font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
+  font-family: 'Inter', sans-serif;
+  font-variation-settings: "wght" 580 !important;
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
 }
@@ -1312,12 +1328,12 @@ a:focus {
 @media (min-width: 600px) {
   .hero-title-xl {
     text-size-adjust: 100%;
-    font-size: 3rem;
+    font-size: 2.6rem;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'SpeziaMono', sans-serif;
-    font-variation-settings: "wght" 580, "wdth" 50, "mono" 90 !important;
-    font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
+    font-family: 'Inter', sans-serif;
+    font-variation-settings: "wght" 580 !important;
+    font-feature-settings: var(--font-features);
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
     text-rendering: optimizeLegibility;
@@ -1327,12 +1343,11 @@ a:focus {
 @media (min-width: 800px) {
   .hero-title-xl {
     text-size-adjust: 100%;
-    font-size: 3.4rem;
+    font-size: 3rem;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'SpeziaMono', sans-serif;
-    font-variation-settings: "wght" 610, "wdth" 50, "mono" 90 !important;
-    font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
+    font-family: 'Inter', sans-serif;
+    font-variation-settings: "wght" 500 !important;
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
     text-rendering: optimizeLegibility;
@@ -1342,12 +1357,12 @@ a:focus {
 @media (min-width: 1200px) {
   .hero-title-xl {
     text-size-adjust: 100%;
-    font-size: 4rem;
+    font-size: 3.4rem;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'SpeziaMono', sans-serif;
-    font-variation-settings: "wght" 580, "wdth" 50, "mono" 90 !important;
-    font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
+    font-family: 'Inter', sans-serif;
+    font-variation-settings: "wght" 500 !important;
+    font-feature-settings: var(--font-features);
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
     line-height: .95;
@@ -1357,17 +1372,18 @@ a:focus {
 
 @media (min-width: 1400px) {
   .hero-title-xl {
-    font-size: 4.2rem;
+    font-size: 3.8rem;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'SpeziaMono', sans-serif;
-    font-variation-settings: "wght" 540, "wdth" 50, "mono" 90 !important;
-    font-feature-settings: "tnum", "numr", "zero", "ss01", "case";
-    letter-spacing: -0.03em !important;
+    font-family: 'Inter', sans-serif;
+    font-variation-settings: 'wght' 480 !important;
+    font-feature-settings: var(--font-features);
+    letter-spacing: 0px !important;
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
     font-variant-ligatures: none;
-    line-height: 1.1;
+    line-height: 1.15;
+    letter-spacing: 0px;
   }
 }
 
@@ -1375,9 +1391,9 @@ h1,
 .h1 {
   font-size: clamp(2rem, 3.25vw, 2.8rem);
   color: var(--hiContrast);
-  font-family: 'SpeziaMono', sans-serif;
-  font-variation-settings: "wght" 630, "mono" 100;
-  letter-spacing: -.01em;
+  font-family: 'Inter', sans-serif;
+  font-variation-settings: "wght" 630 ;
+  letter-spacing: .01em;
   text-indent: -.025em;
   line-height: 1.1;
   text-rendering: optimizeLegibility;
@@ -1385,11 +1401,11 @@ h1,
 
 h2,
 .h2 {
-  font-family: 'Spezia', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1.5rem;
-  font-variation-settings: "wght" 510, "wdth" 50;
-  font-feature-settings: "kern";
-  text-indent: -.015em;
+  font-variation-settings: "wght" 510;
+  font-feature-settings: var(--font-features);
+  text-indent: .01em;
   letter-spacing: -0.72px;
   text-rendering: optimizeLegibility;
   line-height: 28px;
@@ -1398,12 +1414,12 @@ h2,
 @media (min-width: 600px) {
   h2,
   .h2 {
-    font-family: 'Spezia', sans-serif;
-    font-size: 32px;
-    font-variation-settings: "wght" 510, "wdth" 50;
-    font-feature-settings: "kern";
-    letter-spacing: -0.72px;
-    text-indent: -.015em;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-variation-settings: var(--font-variation-settings);
+    font-feature-settings: var(--font-features);
+    letter-spacing: 0.05px;
+    text-indent: .01em;
     font-weight: none;
     text-rendering: optimizeLegibility;
     line-height: 36px;
@@ -1414,10 +1430,11 @@ h2,
 
 h3,
 .h3 {
-  font-family: 'SpeziaMono', sans-serif;
-  font-size: clamp(var(--fontsize-6), 2.25vw, var(--fontsize-7));
-  font-variation-settings: "wght" 590, "mono" 90;
-  letter-spacing: -.005em;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-variation-settings: var(--font-variation-settings);
+  letter-spacing: .005em;
+  font-feature-settings: var(--font-features);
   text-indent: -.015em;
   text-rendering: optimizeLegibility;
   line-height: 1.2;
@@ -1425,27 +1442,27 @@ h3,
 
 h4,
 .h4 {
-  font-family: 'SpeziaMono', sans-serif;
-  font-size: clamp(var(--fontsize-5), 2vw, var(--fontsize-6));
-  font-variation-settings: "wght" 590, "mono" 90;
+  font-family: 'Inter', sans-serif;
+  font-size: 26px;
+  font-variation-settings: var(--font-variation-settings);
   text-rendering: optimizeLegibility;
   line-height: 1.2;
 }
 
 h5,
 .h5 {
-  font-family: 'SpeziaMono', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: clamp(var(--fontsize-4), 2vw, var(--fontsize-5));
-  font-variation-settings: "wght" 550, "mono" 90;
+  font-variation-settings: var(--font-variation-settings);
   text-rendering: optimizeLegibility;
   line-height: 1.2;
 }
 
 h6,
 .h6 {
-  font-family: 'SpeziaMono', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: clamp(var(--fontsize-3), 2vw, var(--fontsize-4));
-  font-variation-settings: "wght" 550, "mono" 90;
+  font-variation-settings: var(--font-variation-settings);
   text-rendering: optimizeLegibility;
   line-height: 1.2;
 }
@@ -1500,10 +1517,10 @@ h6,
   position: relative;
   padding-left: 12px;
   padding-right: 12px;
-  background: var(--red-500);
+  background: var(--coral-light);
   color: black;
    &:after {
-    border-left: 20px solid var(--red-500);
+    border-left: 20px solid var(--coral-light);
   }
 }
 
@@ -1514,7 +1531,7 @@ h6,
   border-top: 36px solid transparent;
   height: 0px;
   width: 0px;
-  margin-right: -17.5px;
+  margin-right: -18px;
   right: 0; 
 }
 
@@ -2011,16 +2028,14 @@ pre>code {
 .hero-solutions-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 24px;
   flex-wrap: wrap;
 }
 
 @media (min-width: 1200px) {
   .hero-solutions-wrapper {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 24px;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(4,25%);
+    grid-auto-rows: 1fr;
   }
 }
 
@@ -3416,7 +3431,7 @@ pre>code {
   }
 }
 
-.Spezianal-db {
+.Internal-db {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -3484,7 +3499,8 @@ pre>code {
   gap: 8px;
   line-height: 16px;
   transition: background-position .2s;
-  font-variation-settings: "wght" 510, "mono" 70;
+  font-variation-settings: "wght" 600, 'wdth' 50;
+  font-family: 'Inter';
 }
 
 .badge-hero {
@@ -3501,8 +3517,8 @@ pre>code {
   gap: 8px;
   line-height: 16px;
   transition: background-position .2s;
-  font-variation-settings: "wght" 590, "mono" 70;
-  font-family: 'Spezia';
+  font-variation-settings: "wght" 600, 'wdth' 50;
+  font-family: 'Inter';
 }
 
 .badge-hero:hover {
@@ -3522,7 +3538,7 @@ pre>code {
   justify-items: center;
   font-weight: 500;
   border: 1px solid var(--indigo-900);
-  font-variation-settings: "wght" 600;
+  font-variation-settings: "wght" 600,  ;
 }
 
 
@@ -3538,20 +3554,35 @@ pre>code {
   align-items: center;
   justify-items: center;
   border: 1px solid var(--blue-700);
-  font-variation-settings: "wght" 550;
+  font-variation-settings: "wght" 550   ;
+  font-family: 'Inter', sans-serif;
 }
 
 .tag-gray {
-  background-color: var(--gray-700);
+  background-color: var(--gray-300);
   color: var(--hiContrast);
-  font-size: 14px;
-  padding: 6px 12px;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
   display: inline-flex;
   align-items: center;
   justify-items: center;
-  font-weight: 500;
-  font-variation-settings: "wght" 500;
-  border: 1px solid var(--gray-700);
+  font-variation-settings: "wght" 600, 'wdth' 50;
+  border: 1px solid var(--gray-500);
+}
+
+.tag {
+  background-color: var(--white);
+  color: var(--hiContrast);
+  font-size: 12px !important;
+  padding: 4px 8px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+  font-family: 'Inter', sans-serif;
+  font-variation-settings: "wght" 450, 'wdth' 50;
+  border: 1px solid var(--gray-500);
 }
 
 .tag-green {
@@ -3567,7 +3598,7 @@ pre>code {
   justify-items: center;
   font-weight: 500;
   border: 1px solid var(--green-500);
-  font-variation-settings: "wght" 600;
+  font-variation-settings: "wght" 600, 'wdth' 50;
 }
 
 .tag-blue {
@@ -3583,7 +3614,7 @@ pre>code {
   justify-items: center;
   font-weight: 500;
   border: 1px solid var(--blue-500);
-  font-variation-settings: "wght" 600;
+  font-variation-settings: "wght" 600, 'wdth' 50;
 }
 
 .tag-black {
@@ -3596,7 +3627,7 @@ pre>code {
   display: inline-flex;
   align-items: center;
   justify-items: center;
-  font-weight: 500;
+  font-variation-settings: "wght" 600, 'wdth' 50;
 }
 
 
@@ -3610,12 +3641,12 @@ pre>code {
   display: inline-flex;
   align-items: center;
   justify-items: center;
-  font-weight: 500;
+  font-variation-settings: "wght" 600, 'wdth' 50;
 }
 
-.tag-red {
-  background-color: var(--red-700);
-  color: white;
+.tag-indigo {
+  background-color: var(--indigo-200);
+  color: var(--indigo-1000);
   border-radius: 4px;
   font-size: 12px;
   height: 24px;
@@ -3623,7 +3654,20 @@ pre>code {
   display: inline-flex;
   align-items: center;
   justify-items: center;
-  font-weight: 500;
+  font-variation-settings: "wght" 600, 'wdth' 50;
+}
+
+.tag-red {
+  background-color: var(--red-200);
+  color: var(--red-1000);
+  border-radius: 4px;
+  font-size: 12px;
+  height: 24px;
+  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+  font-variation-settings: "wght" 600, 'wdth' 50;
 }
 
 .tag-green {
@@ -3636,7 +3680,7 @@ pre>code {
   display: inline-flex;
   align-items: center;
   justify-items: center;
-  font-weight: 500;
+  font-variation-settings: "wght" 600, 'wdth' 50;
 }
 
 details>summary {
@@ -3770,6 +3814,28 @@ details[open]>summary {
   border: 0;
 }
 
+.hero-cards {
+  display: grid;
+  grid-template-columns: 1fr 1200px 1fr;
+  gap: 33px;
+}
+
+.left-cards, .right-cards {
+  display: flex;
+  flex-direction: column;
+  max-height: 90%;
+  gap: 23px;
+  position: relative;
+  transition: 1s ease-out top;
+}
+
+.left-cards {
+  align-items: start;
+}
+
+.right-cards {
+  align-items: end;
+}
 
 
 
@@ -4353,9 +4419,11 @@ details[open]>summary {
 
 .price-text {
   font-size: 18px;
-  font-variation-settings: 'wght' 550;
   color: var(--hiContrast);
   line-height: 1;
+  font-family: 'Inter' sans-serif;
+  font-variation-settings: 'wght' 480 !important;
+  font-feature-settings: var(--font-features);
 }
 
 .align-end {
@@ -4594,6 +4662,28 @@ details[open]>summary {
   }
 }
 
+.pricing-plan-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+@media (min-width: 800px) {
+  .pricing-plan-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+.pricing-plan-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+}
+
   .pricing-test-package {
     display: grid;
     grid-template-columns: 1fr;
@@ -4626,13 +4716,13 @@ details[open]>summary {
   gap: 1rem;
   border: 1px solid var(--gray-600);
   border-radius: 16px;
+  background-color: white;
+}
+
+.pricing-inner {
   padding: .75rem 1rem;
 }
 
-.pricing-card-inner {
- height: auto;
- margin-bottom: 28px;
-}
 
 
 .pricing {
@@ -4806,19 +4896,18 @@ details[open]>summary {
   display: flex;
   gap: 4px;
   flex-wrap: wrap;
-  padding: 5px;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
   display: inline-block;
-  font-size: 15px;
-  padding: 6px 10px;
-  font-variation-settings: 'wght' 540;
-  color: var(--hiContrast);
-  border: 1px solid var(--gray-500);
+  font-size: 13px;
+  padding: 0;
+  font-variation-settings: 'wght' 540. 'wdth' 50;
+  color: var(--gray-900);
+  border: none;
   background-color: transparent;
-  font-family: "Spezia", Helvetica, Arial, sans-serif;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -4827,7 +4916,6 @@ details[open]>summary {
   -ms-user-select: none;
   user-select: none;
   line-height: none;
-  border-radius: var(--radius-3) !important;
   transition: all 0.2s ease-in-out;
   overflow: hidden;
   outline: none;
@@ -4843,9 +4931,6 @@ details[open]>summary {
   text-align: center;
   appearance: none;
   display: block;
-  -webkit-border-radius: var(--radius-3);
-  -moz-border-radius: var(--radius-3);
-  border-radius: var(--radius-3);
   text-decoration: none;
   background: none;
   text-align: inherit;
@@ -4857,14 +4942,14 @@ details[open]>summary {
 /* Change background color of buttons on hover */
 .tab button:hover {
   background-color: transparent;
-  color: var(--gray-1300);
+  color: var(--hiContrast);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: var(--gray-400);
-  color: var(--hiContrast);
-  border: 1px solid var(--gray-500);
+  background-color: white;
+  color: var(--indigo);
+  border: none;
 }
 
 .anchor {
@@ -4888,7 +4973,7 @@ details[open]>summary {
   display: inline-block;
   font-size: 17px;
   padding: 10px 20px;
-  font-variation-settings: 'wght' 600;
+  font-variation-settings: 'wght' 600,  ;
   transition: all 0.2s ease-in-out;
   overflow: hidden;
   outline: none;
@@ -4916,16 +5001,12 @@ details[open]>summary {
   opacity: 1;
 }
 
-
-
 .pricing-tabs-container {
   display: flex;
   justify-content: right;
   align-items: center;
   gap: 20px;
 }
-
-.
 
 .pricing-tabs {
   display: flex;
@@ -5079,10 +5160,9 @@ ul {
 @media (min-width: 1000px) {
   .pricing-table-wrapper {
     margin: 0 16px;
-    width: calc(100% - 32px);
     max-width: 1200px;
     display: grid;
-    grid-template-columns: 2fr repeat(4, minmax(0, 1fr));
+    grid-template-columns: 1.25fr repeat(3, minmax(0, 1fr));
     grid-template-rows: auto;
     padding: 0;
   }
@@ -5092,10 +5172,10 @@ ul {
   position: sticky;
   top: 50px;
   overflow: visible;
-  height: 90px;
   background: var(--dark);
-  z-index: 2;
-  padding-bottom: 12px;
+  z-index: 1;
+  padding-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .pricing-table-header-container {
@@ -5107,11 +5187,12 @@ ul {
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  padding: 0 20px 8px 20px;
 
 }
 
 .pricing-table-header {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 500;
   -webkit-box-flex: 1;
@@ -5130,32 +5211,17 @@ ul {
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  padding: 32px 0 20px 0;
 }
 
 .pricing-table-section-header {
-  font-size: 17px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 500;
   width: 100%;
   margin-bottom: 6px;
-}
-
-.pricing-table-footer {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  width: 100%;
-  padding-bottom: 16px;
-}
-
-.pricing-table-footer:after {
-  content: "";
-  position: absolute;
-  bottom: 32px;
-  left: 0;
-  width: 100%;
-  height: 0px;
-  background-color: rgba(250, 250, 250, 0.1);
+  text-align: center;
+  
 }
 
 .pricing-table-feature {
@@ -5168,8 +5234,10 @@ ul {
   -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
   position: relative;
-  padding: 12px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: white;
+
 }
 
 .pricing-table-feature-check {
@@ -5183,7 +5251,12 @@ ul {
   flex-flow: column nowrap;
   position: relative;
   height: 100%;
-  padding: 12px 0;
+  width: 100%;
+  padding: 20px 0;
+  background-color: white;
+  text-align: center;
+  justify-self: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
@@ -5407,7 +5480,7 @@ ul {
   margin-left: 12px;
   color: var(--hiContrast);
   font-weight: 500 !important;
-  font-variation-settings: "wght" 500;
+  font-variation-settings: "wght" 500  ;
   font-size: 16px;
   display: block;
   line-height: 1.5;
@@ -5510,7 +5583,7 @@ ul {
   grid-area: name;
   color: var(--hiContrast);
   font-weight: 500 !important;
-  font-variation-settings: "wght" 560, 'wdth' 50;
+  font-variation-settings: "wght" 560;
   font-size: 18px;
   display: block;
   letter-spacing: -0.016em;
@@ -5598,7 +5671,7 @@ ul {
   font-size: 16px;
   font-weight: 600;
   columns: var(--hiContrast);
-  font-variation-settings: "wght" 600;
+  font-variation-settings: "wght" 600,  ;
 }
 
 @media (min-width: 600px) {
@@ -5606,14 +5679,14 @@ ul {
     font-size: 16px;
     font-weight: 600;
     columns: var(--hiContrast);
-    font-variation-settings: "wght" 600;
+    font-variation-settings: "wght" 600,  ;
   }
 }
 
 .feature-nav-subitem {
   font-size: 14px;
   font-weight: 500;
-  font-variation-settings: "wght" 500;
+  font-variation-settings: "wght" 500  ;
 }
 
 .icon-container {
@@ -5739,7 +5812,7 @@ ul {
   color: white;
   background-color: var(--dark);
   font-weight: 500;
-  font-variation-settings: "wght" 480;
+  font-variation-settings: "wght" 480,  ;
   font-size: 14px;
 }
 
@@ -6118,12 +6191,12 @@ ul {
   }
 }
 
-.Spezianal-tool-contain-container {
+.Internal-tool-contain-container {
   display: flex;
   flex-direction: column;
 }
 
-.Spezianal-tools-chapters {
+.Internal-tools-chapters {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
@@ -6136,7 +6209,7 @@ ul {
 }
 
 @media (max-width: 760px) {
-  .Spezianal-tools-chapters {
+  .Internal-tools-chapters {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -6148,7 +6221,7 @@ ul {
 }
 
 
-.Spezianal-tools-chapter {
+.Internal-tools-chapter {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -6158,7 +6231,7 @@ ul {
   transition: all 200ms ease-in-out;
 }
 
-.Spezianal-tools-chapter:hover {
+.Internal-tools-chapter:hover {
   cursor: pointer;
   border-radius: 12px;
   border: 1px var(--gray-700) solid;
@@ -6261,7 +6334,7 @@ ul {
   color: var(--gray-600);
 }
 
-.Spezianal-tools-title-container {
+.Internal-tools-title-container {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
@@ -6270,13 +6343,13 @@ ul {
 }
 
 @media (min-width: 800px) {
-  .Spezianal-tools-title-container {
+  .Internal-tools-title-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
 
-.Spezianal-tools-title-image {
+.Internal-tools-title-image {
   height: 400px;
 }
 
@@ -7277,8 +7350,8 @@ ul {
 
 .btn {
   display: inline-block;
-  font-family: "Spezia", Helvetica, Arial, sans-serif;
-  font-variation-settings: "wght" 550, "wdth" 50, "mono" 85 !important;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-variation-settings: "wght" 500  , "mono" 85 !important;
   letter-spacing: -0.003em;
   text-align: center;
   white-space: nowrap;
@@ -7291,7 +7364,7 @@ ul {
   font-size: 16px;
   max-height: 44px;
   line-height: none;
-  border-radius: var(--radius-pill) !important;
+  border-radius: 12px !important;
   transition: all 0.2s ease-in-out;
   overflow: hidden;
   outline: none;
@@ -7356,14 +7429,14 @@ fieldset:disabled a.btn {
 
 .btn-cta {
   color: white;
-  background-color: #6E56FF;
-  border: 1px solid #6e56ff;
+  background-color: var(--indigo);
+  border: 1px solid var(--indigo);
 }
 
 .btn-cta:hover {
   color: white;
-  background-color: var(--indigo-800);
-  border: 1px solid var(--indigo-800);
+  background-color: var(--indigo-1000);
+  border: 1px solid var(--indigo-1000);
 }
 
 .btn-cta:focus,
@@ -7378,9 +7451,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary:hover {
-  color: white;
-  background-color: var(--blue-600);
-  border: 1px solid var(--blue-800);
+  color: var(--hiContrast);
+  background-color: var(--indigo-light);
+  border: 1px solid var(--indigo-light);
 }
 
 .btn-primary:focus,
@@ -7448,7 +7521,7 @@ label {
   margin-bottom: 8px;
   line-height: 20px !important;
   font-weight: 500 !important;
-  font-variation-settings: 'wght' 500, 'wdth' 50;
+  font-variation-settings:  'wght' 500;
   letter-spacing: 0.0075em;
   color: var(--hiContrast);
   font-size: 15px !important;
@@ -7480,8 +7553,8 @@ label {
 
 .hs-button {
   display: inline-block;
-  font-variation-settings: 'wght' 610;
-  font-family: "Spezia", Helvetica, Arial, sans-serif;
+  font-variation-settings: 'wght' 610,  ;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7528,12 +7601,12 @@ label {
 border: 1px solid var(--gray-600);
 border-radius: 4px;
 color: var(--hiContrast);
-font-size: 16px;
+font-size: 15px;
 border-image-outset: 0;
 border-image-repeat: stretch;
 border-image-slice: 100%;
 background-color: #FFFFFF;
-height: 48px;
+height: 40px;
 line-height: normal;
 margin: 0;
 padding: 0 0 0 12px;
@@ -7621,7 +7694,7 @@ select {
   .btn-lg {
     font-size: 18px;
     padding: 10px 18px;
-    font-variation-settings: 'wght' 540;
+    font-variation-settings: 'wght' 540  ;
     max-height: 52px;
   }
 }
@@ -7629,7 +7702,7 @@ select {
 .btn-lg {
   font-size: 19px;
   padding: 12px 24px;
-  font-variation-settings: 'wght' 540;
+  font-variation-settings: 'wght' 540  ;
   max-height: 56px;
 }
 
@@ -7705,8 +7778,8 @@ select {
   display: inline-block;
   background: var(--gray-500);
   color: var(--hiContrast);
-  font-variation-settings: 'wght' 600;
-  font-family: "Spezia", Helvetica, Arial, sans-serif;
+  font-variation-settings: 'wght' 600,  ;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7750,8 +7823,8 @@ select {
   display: inline-block;
   background: var(--blue-500);
   color: var(--hiContrast);
-  font-variation-settings: 'wght' 600;
-  font-family: "Spezia", Helvetica, Arial, sans-serif;
+  font-variation-settings: 'wght' 600,  ;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7782,8 +7855,8 @@ select {
   display: inline-block;
   background: var(--red-1000);
   color: var(--hiContrast);
-  font-variation-settings: 'wght' 600;
-  font-family: "Spezia", Helvetica, Arial, sans-serif;
+  font-variation-settings: 'wght' 600,  ;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7815,8 +7888,8 @@ select {
   display: inline-block;
   font-size: 14px;
   padding: 10px 20px;
-  font-variation-settings: 'wght' 500, 'wdth' 50;
-  font-family: "Spezia", Helvetica, Arial, sans-serif;
+  font-variation-settings:  'wght' 500;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7848,8 +7921,8 @@ select {
   display: inline-block;
   font-size: 14px;
   padding: 10px 20px;
-  font-variation-settings: 'wght' 500, 'wdth' 50;
-  font-family: "Spezia", Helvetica, Arial, sans-serif;
+  font-variation-settings:  'wght' 500;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -8526,6 +8599,7 @@ input[type="button"].btn-block {
   background-color: hsla(0, 0%, 100%, 0.9);
   top: 0;
   transition: box-shadow .2s ease 0s, background-color .2s ease 0s;
+  border-bottom: 1px solid var(--gray-500);
 }
 
 .nav-dark {
@@ -9097,6 +9171,10 @@ button.close {
   -webkit-appearance: none;
 }
 
+.dotted-underline {
+  border-bottom: 1px dotted var(--gray-700);
+  cursor: pointer;
+}
 .dotted-background {
   background-image: radial-gradient(var(--blue-300), var(--blue-100) 15%, transparent 15%);
   background-position: 0, 0, 8px, 8px;
@@ -9345,15 +9423,43 @@ button.close {
 }
 
 .bg-coral {
-  background-color: #F97777;
+  background-color: var(--coral);
 }
 
-.bg-bb-gray {
-  background-color: #E9E3DF
+.bg-coral-light {
+  background-color: var(--coral-light);
+}
+
+.bg-indigo-light {
+  background-color: var(--indigo-light);
+}
+
+.bg-indigo {
+  background-color: var(--indigo);
+}
+
+.bg-beige-light {
+  background-color: var(--beige-light);
+}
+
+.bg-beige {
+  background-color: var(--beige);
+}
+
+.bg-beige-dark {
+  background-color: #D7D0CA;
 }
 
 .bg-orange-100 {
   background-color: var(--orange-100)
+}
+
+.bg-forestgreen {
+  background-color: var(--forestgreen);
+}
+
+.bg-lime {
+  background-color: var(--lime);
 }
 
 .bg-orange-200 {
@@ -9766,6 +9872,10 @@ button.close {
 
 .red-1300 {
   color: var(--red-1300);
+}
+
+.coral-light {
+  color: var(--coral-light)
 }
 
 .orange-100 {
@@ -10461,7 +10571,7 @@ button.bg-blue:focus {
     position: -webkit-sticky;
     position: sticky !important;
     top: 0;
-    z-index: 10;
+    z-index: 10 !important;
   }
 
 
@@ -10502,7 +10612,7 @@ button.bg-blue:focus {
 
 
   .text-monospace {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Spezia", "Courier New", monospace;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Inter", "Courier New", monospace;
   }
 
   .text-justify {
@@ -10600,29 +10710,29 @@ button.bg-blue:focus {
   }
 
   .font-weight-light {
-    font-variation-settings: "wght" 340, 'wdth' 50, "mono" 100 !important;
+    font-variation-settings: "wght" 340 !important;
   }
 
   .font-weight-normal {
-    font-variation-settings: "wght" 400, 'wdth' 50, "mono" 100 !important;
+    font-variation-settings: "wght" 400 !important;
   }
 
   .font-weight-medium {
-    font-variation-settings: "wght" 520, 'wdth' 50, "mono" 100 !important;
+    font-variation-settings: "wght" 500 !important;
   }
 
   .font-weight-semi-bold {
-    font-variation-settings: "wght" 620, 'wdth' 50, "mono" 100 !important;
+    font-variation-settings: "wght" 620 !important;
 
   }
 
   .font-weight-bold {
-    font-variation-settings: "wght" 700, 'wdth' 50, "mono" 100 !important;
+    font-variation-settings: "wght" 700 !important;
 
   }
 
   .font-weight-extra-bold {
-    font-variation-settings: "wght" 820, "mono" 100 !important;
+    font-variation-settings: "wght" 820 !important;
   }
 
   .w-25 {
@@ -11020,7 +11130,7 @@ button.bg-blue:focus {
 
   .u-header__section {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     transition: background-color 0.3s ease-in-out;
   }
 
@@ -11074,8 +11184,8 @@ button.bg-blue:focus {
     color: var(--hiContrast);
     font-size: var(--fontsize-5);
     -webkit-box-align: center;
-    font-variation-settings: 'wght' 450;
-    font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-variation-settings: 'wght' 450,  ;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     cursor: pointer;
   }
 
@@ -11144,7 +11254,7 @@ button.bg-blue:focus {
     color: #cccccc;
     font-size: 16px;
     font-weight: 600;
-    font-family: "Spezia", Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
   }
 
   .u-header__nav-link-icon {
@@ -11167,7 +11277,7 @@ button.bg-blue:focus {
   }
 
   .u-header__sub-menu-nav-link {
-    font-family: 'Spezia', sans-serif;
+    font-family: 'Inter', sans-serif;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
@@ -11175,7 +11285,7 @@ button.bg-blue:focus {
     -ms-flex-pack: justify;
     font-size: var(--fontsize-3);
     color: var(--hiContrast);
-    font-variation-settings: 'wght' 520, 'wdth' 50;
+    font-variation-settings: 'wght' 480;
   }
 
 
@@ -11189,7 +11299,7 @@ button.bg-blue:focus {
       justify-content: start;
       font-size: 15px;
       color: var(--hiContrast);
-      font-variation-settings: 'wght' 520, 'wdth' 50;
+      font-variation-settings: 'wght' 480;
     }
   }
 
@@ -11201,7 +11311,7 @@ button.bg-blue:focus {
     -ms-flex-pack: justify;
     font-size: var(--fontsize-3);
     color: var(--loContrast);
-    font-variation-settings: 'wght' 520, 'wdth' 50;
+    font-variation-settings:  'wght' 480;
   }
 
 
@@ -11215,7 +11325,7 @@ button.bg-blue:focus {
       justify-content: start;
       font-size: 15px;
       color: var(--loContrast);
-      font-variation-settings: 'wght' 520, 'wdth' 50;
+      font-variation-settings:  'wght' 480;
     }
   }
 
@@ -11228,7 +11338,7 @@ button.bg-blue:focus {
     justify-content: start;
     font-size: 15px;
     color: var(--loContrast);
-    font-variation-settings: 'wght' 520, 'wdth' 50;
+    font-variation-settings:  "wght" 500;
     background-color: rgba(250, 250, 250, 0.07);
     border-radius: var(--radius-4);
   }
@@ -12111,8 +12221,8 @@ button.bg-blue:focus {
     .u-header__nav-link {
       color: var(--hiContrast);
       font-size: 16px;
-      font-variation-settings: 'wght' 500, 'wdth' 50;
-      font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+      font-variation-settings:  'wght' 500;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     }
 
     .navbar-expand-lg .u-header__navbar-nav .u-header__sub-menu-nav-link:hover {
@@ -17410,7 +17520,7 @@ button.bg-blue:focus {
 
 
   .article p {
-    font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     font-size: 1rem;
     line-height: 1.6;
     font-weight: 400;
@@ -17426,7 +17536,7 @@ button.bg-blue:focus {
 
   @media (min-width: 600px) {
     .article p {
-      font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
       font-size: 1.1rem;
       line-height: 1.6;
       font-weight: 400;
@@ -17446,17 +17556,17 @@ button.bg-blue:focus {
     padding: 4px 10px 4px 6px;
     background-color: var(--gray-300);
     border-radius: 4px;
-    font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     font-variation-settings: 'wght' 410, 'mono' 40;
     position: relative;
   }
 
 
   .article h1 {
-    font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     text-rendering: optimizeLegibility;
     font-weight: 700;
-    font-variation-settings: "wght" 700;
+    font-variation-settings: "wght" 700,  ;
     color: var(--hiContrast);
     font-size: 30px;
     letter-spacing: -.04em;
@@ -17474,8 +17584,8 @@ button.bg-blue:focus {
 
   @media (min-width: 800px) {
     .article h1 {
-      font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-      font-variation-settings: "wght" 620, "mono" 70;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+      font-variation-settings: "wght" 620,  ;
       text-rendering: optimizeLegibility;
       color: var(--hiContrast);
       font-size: 48px;
@@ -17494,7 +17604,7 @@ button.bg-blue:focus {
   }
 
   .article h2 {
-    font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     text-rendering: optimizeLegibility;
     font-variation-settings: "wght" 620, "mono" 60;    margin-top: 3.5rem;
     margin-bottom: .75rem;
@@ -17514,9 +17624,9 @@ button.bg-blue:focus {
 
   @media (min-width: 800px) {
   .article h2 {
-    font-family: 'Spezia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     text-rendering: optimizeLegibility;
-    font-variation-settings: "wght" 620, "mono" 70;    
+    font-variation-settings: "wght" 620,  ;    
     margin-top: 3.5rem;
     margin-bottom: .75rem;
     font-size: 32px;
@@ -17534,7 +17644,7 @@ button.bg-blue:focus {
   }
 
   .article h3 {
-    font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     margin-top: 2rem;
     font-size: 24px;
     color: var(--hiContrast);
@@ -17553,7 +17663,7 @@ button.bg-blue:focus {
   }
 
   .article h4 {
-    font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     margin-top: 2rem;
     margin-bottom: .5rem;
     font-weight: 700;
@@ -17572,7 +17682,7 @@ button.bg-blue:focus {
   }
 
   .article h5 {
-    font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     margin-top: 2rem;
     margin-bottom: .5rem;
     font-weight: 600;
@@ -17583,7 +17693,7 @@ button.bg-blue:focus {
   }
 
   .article li {
-    font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     font-size: 1rem;
     line-height: 1.6;
     font-weight: 400;
@@ -17597,7 +17707,7 @@ button.bg-blue:focus {
 
   @media (min-width: 600px) {
     .article li {
-      font-family: Spezia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
       font-size: 1.1rem;
       font-weight: 400;
       letter-spacing: -.05px;
@@ -17704,7 +17814,7 @@ button.bg-blue:focus {
 
 .article a {
   font-weight: 600;
-  font-variation-settings: "wght" 520 !important;
+  font-variation-settings: "wght" 500 !important;
   color: var(--gray-1200);
   text-decoration: underline;
   text-underline-offset: 0.1em;
