@@ -19,10 +19,11 @@ Now, we’ve streamlined our pricing plans to create a better experience for eve
 
 - Instead of charging the same per-user fee for all users, we now price differently for users who *create* apps and those who *use* apps. 
 - We now have 3 pricing plans. Each plan is available to Budibase Cloud and Self-hosted users. 
-- Our Free plan is still free for up to 5 users / creators (for example, 1 creator and 4 users) when hosting with Budibase Cloud, and free for up to 20 users / creators when self-hosting - no longer unlimited. Uniquely, we will continue to offer SSO, multiplayer collaboration, RBAC, embeds, and more for free.
-- We’re excited to announce a new, very generously priced Premium plan for both Budibase Cloud and Self-hosted users. We’ve increased the internal database record and automation run limits for Premium plan customers hosting with Budibase Cloud. We’ve also increased the duration of backups and automation logs on the Premium plan (Cloud and Self-hosted) from 1 week to 1 month.
+- Our Free plan is still free for up to 5 users (admins, app creators, app users) when hosting with Budibase Cloud, and free for up to 20 users (admins, app creators, app users) when self-hosting - no longer unlimited. Uniquely, we will continue to offer SSO, multiplayer collaboration, RBAC, embeds, and more for free.
+- We’re excited to announce a new, generously priced Premium plan for both Budibase Cloud and Self-hosted users. We’ve increased the internal database record limit to 25,000 and automation run limit to 5,000 for Premium plan customers hosting with Budibase Cloud. We’ve also increased the duration of backups and automation logs on the Premium plan (Cloud and Self-hosted) from 1 week to 1 month.
 - Self-hosted users/customers will continue to benefit from unlimited internal database records and automation runs.
-- We’ve removed the Business plan. All Business plan features will move to the Enterprise plan.
+- We’ve removed the Business plan. All Business plan features will move to the Enterprise plan. 
+- Current customers may remain on their plans until the 31st March 2024 or until their contract is up.
 - We’re introducing volume-based discounts to the Enterprise plan to help us better serve different use cases and user types.
 
 
@@ -36,7 +37,7 @@ The new model is more streamlined and better coordinated with value, consisting 
 - **Old Business plan vs new Enterprise plan:**
   If a customer had 2 creators and 70 users on the old Budibase plan they would be paying $13,824. With the new enterprise plan, they would be paying $13,200.
 
-![img](https://lh5.googleusercontent.com/eKXv1gz4tqHdt83LSuYlxg8j_B_ns2N3zh8PHXYJu7WU0pKfg4xrrYiKBPt2DtlD8KutVvOgr2Bq6nvue0ffW95CERMD4eWi8Gl6u9R_-umVLiQFJHIzD5RYsGRVMQyjVTqbQUCli09Xsr1udysIq4s)
+
 
 
 
