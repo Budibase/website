@@ -82,7 +82,7 @@ Your plan is now named “Enterprise” and you can benefit from additional new 
 
 **Enterprise plan:**
 
-- All current enterprise customers are on annual contracts so the pricing changes will not affect you until renewal. At renewable, we can provide a custom quote based on the number of app creators/app users within your account as well as the level of support required.
+- All current enterprise customers are on annual contracts so the pricing changes will not affect you until renewal. At renewable, we can provide a custom quote based on the number of app creators and app users within your account as well as the level of support required.
 
 
 
