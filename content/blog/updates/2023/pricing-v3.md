@@ -25,7 +25,6 @@ Now, we’ve streamlined our pricing plans to create a better experience for eve
 - We’ve removed the Business plan. All Business plan features will move to the Enterprise plan. 
 - Current customers may remain on their plans until the 31st March 2024 or until their contract is up.
 - We’re introducing volume-based discounts to the Enterprise plan to help us better serve different use cases and user types.
-- The new pricing will go live in 14 days.
 
 
 
@@ -33,20 +32,35 @@ Now, we’ve streamlined our pricing plans to create a better experience for eve
 
 ![new model](https://res.cloudinary.com/daog6scxm/image/upload/v1697032289/cms/pricing/CleanShot_2023-10-11_at_14.50.48_2x_o9qx4v.png)
 
-The new model is more streamlined and better coordinated with value, consisting of just 3 plans vs the 7 plans we had previously. Each plan is available to Budibase Cloud and Self-hosted users. The Enterprise plan has absorbed the Business plan.This allows us to provide a lower per-user rate based on quotas and volume based discounts for more customers. The new pricing is more flexible and better correlated with the value Budibase provides. It’s also a lot cheaper for many customers. For example:
+In summary, here’s what you can expect:
+
+- The Community and existing Free plan will both become the **Free** plan. The Free plan has a few changes to limits and feature availability. It will continue to be free of charge.
+- The Premium plan will remain and is now available to self-hosted users. 
+  - $50 per creator and $5 per app user (paying annually)
+  - $60 per creator and $6 per app user (paying monthly)
+- The Business plan will no longer exist. It's features and functionality are still available within the Enterprise plan.
+- For Enterprise pricing, [contact our sales team](https://budibase.com/contact). This plan is flexible and scalable by nature so we can cater to all Enterprise needs.
+
+
+
+The new model is more streamlined and better coordinated with value, consisting of just 3 plans vs the 7 plans we had previously. Each plan is available to Budibase Cloud and Self-hosted users. The Enterprise plan has absorbed the Business plan.This allows us to provide a lower per-user rate based on quotas and volume based discounts for more customers. The new pricing is more flexible and better correlated with the value Budibase provides. It’s also cheaper for many customers. For example:
 
 - **Old Premium plan vs new Premium plan:**
   If a customer has 1 creator and 30 users on the old Premium plan they would be paying $2,976. With the new Premium plan, they will be paying $2,400.
 - **Old Business plan vs new Enterprise plan:**
-  If a customer had 2 creators and 70 users on the old Budibase plan they would be paying $13,824. With the new enterprise plan, they would be paying $13,200.
+  If a customer had 2 creators and 70 users on the old Budibase plan they would be paying $13,824 per annum. With the new enterprise plan, they could be paying as little as $13,200 per annum.
 
 ## FAQs
+
+
+
+#### What happens to new Budibase users?
+
+If you sign up for Budibase or switch to a new plan after the release of the new pricing and limits, then you’ll have access to our newest plans.
 
 #### **I already have a Budibase account. What’s changing for me?**
 
 If you created a Budibase account before today, and have updated to the latest version of Budibase, here’s what has changed for you, broken down by plan type:
-
-
 
 **Free and Community plans:**
 
@@ -88,7 +102,7 @@ Your plan is now named “Enterprise” and you can benefit from additional new 
 
 #### **I’m currently using the Budibase community plan and my account has over 20 users. What is going to happen to my account and users?**
 
-Community plan accounts with over 20 users/creators on older versions of Budibase will continue to operate as they are today. If you upgrade to the latest version or future versions of Budibase, and you’re on the **free plan with over 20 users/creators**:
+Community plan accounts with over 20 users (admins, app creators, app users) on older versions of Budibase will continue to operate as they are today. If you upgrade to the latest version or future versions of Budibase, and you’re on the new **free plan with over 20 users/creators**:
 
 - You will benefit from new features and security updates
 - You will not be able to add new users. To continue to have the ability to add users, you will need to upgrade to a paid plan. To upgrade, please [contact our sales team](https://budibase.com/contact).
@@ -103,5 +117,13 @@ We want to continue supporting and powering your workflows, and we’re happy to
 In your Budibase portal, click Account > Usage and your plan is listed at the top of the screen. Underneath your plan name you will find your usage stats and allocations.
 
 ![img](https://lh6.googleusercontent.com/P2zPASfH3tfxJ3s2ks5GczSSTyjZi3HU6I9pPTULi4hDONDA483ee7hV4_8tFse8uiGLucfR0Q9avrMsQ1DDSD9jdec2qA3C-BoJc15xe0Bx3WtUbysjmjtNdzl3r7RgZ3xFt-rQdAG6CqzKH7NbOVQ)
+
+
+
+#### What does Enterprise plan pricing look like?
+
+Each organization is different with specific needs. If you’re interested in Budibase's Enterprise plan, our team would love to talk to you. You can [contact our sales team](https://budibase.com/contact) to learn more.
+
+
 
 ##  
