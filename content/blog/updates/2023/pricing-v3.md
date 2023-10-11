@@ -13,18 +13,19 @@ draft: false
 
 ---
 
-Today, the Budibase team is excited to introduce a few updates to our pricing plans which will be a huge win for users & customers. Over the past few months, we’ve chatted with our current customers and users to determine how to best correlate our pricing with the value of Budibase. Consistently, we heard from you that per-user pricing was not scalable and that the value experienced by app creators was disproportionate to the value experienced by app users. 
+Today, the Budibase team is excited to introduce a few updates to our pricing plans. Over the past few months, we’ve chatted with our current customers and users to determine how to best correlate our pricing with the value of Budibase. Consistently, we heard from you that per-user pricing was not scalable and that the value experienced by app creators was disproportionate to the value experienced by app users. 
 
 Now, we’ve streamlined our pricing plans to create a better experience for everyone. Here’s a quick summary of what’s changed, and what’s staying the same:
 
 - Instead of charging the same per-user fee for all users, we now price differently for users who *create* apps and those who *use* apps. 
 - We now have 3 pricing plans. Each plan is available to Budibase Cloud and Self-hosted users. 
 - Our Free plan is still free for up to 5 users (admins, app creators, app users) when hosting with Budibase Cloud, and free for up to 20 users (admins, app creators, app users) when self-hosting - no longer unlimited. Uniquely, we will continue to offer SSO, multiplayer collaboration, RBAC, embeds, and more for free.
-- We’re excited to announce a new, generously priced Premium plan for both Budibase Cloud and Self-hosted users. We’ve increased the internal database record limit to 25,000 and automation run limit to 5,000 for Premium plan customers hosting with Budibase Cloud. We’ve also increased the duration of backups and automation logs on the Premium plan (Cloud and Self-hosted) from 1 week to 1 month.
+- We’re excited to announce a new, competitively priced Premium plan for both Budibase Cloud and Self-hosted users. We’ve increased the internal database record limit to 25,000 and automation run limit to 5,000 for Premium plan customers hosting with Budibase Cloud. We’ve also increased the duration of backups and automation logs on the Premium plan (Cloud and Self-hosted) from 1 week to 1 month.
 - Self-hosted users/customers will continue to benefit from unlimited internal database records and automation runs.
 - We’ve removed the Business plan. All Business plan features will move to the Enterprise plan. 
 - Current customers may remain on their plans until the 31st March 2024 or until their contract is up.
 - We’re introducing volume-based discounts to the Enterprise plan to help us better serve different use cases and user types.
+- The new pricing will go live in 14 days.
 
 
 
