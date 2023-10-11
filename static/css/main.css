@@ -498,8 +498,8 @@ summary {
 }
 
 .container-12 {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 12px;
+  padding-left: 12px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -5308,14 +5308,25 @@ ul {
 
 /* nonprofit */ 
 .nonprofit-wrapper {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-column-gap: 20px;
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 32px;
-  padding: 64px 64px !important;
+  margin-top: 24px;
+  padding: 24px 24px !important;
+}
+@media (min-width: 800px) {
+  .nonprofit-wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 20px;
+    gap: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    padding: 64px 64px !important;
+  }
 }
 .nonprofit-img {
   grid-column: 1/span 6;
