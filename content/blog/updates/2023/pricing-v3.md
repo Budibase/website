@@ -13,11 +13,6 @@ draft: false
 
 ---
 
-<<<<<<< Updated upstream
-# Introducing our new pricing plans
-
-=======
->>>>>>> Stashed changes
 Today, the Budibase team is excited to introduce a few updates to our pricing plans which will be a huge win for users & customers. Over the past few months, we’ve chatted with our current customers and users to determine how to best correlate our pricing with the value of Budibase. Consistently, we heard from you that per-user pricing was not scalable and that the value experienced by app creators was disproportionate to the value experienced by app users. 
 
 Now, we’ve streamlined our pricing plans to create a better experience for everyone. Here’s a quick summary of what’s changed, and what’s staying the same:
@@ -32,7 +27,7 @@ Now, we’ve streamlined our pricing plans to create a better experience for eve
 
 
 
-# The new model
+## The new model
 
 The new model is more streamlined and better coordinated with value, consisting of just 3 plans vs the 7 plans we had previously. Each plan is available to Budibase Cloud and Self-hosted users. The Enterprise plan has absorbed the Business plan.This allows us to provide a lower per-user rate based on quotas and volume based discounts for more customers. The new pricing is more flexible and better correlated with the value Budibase provides. It’s also a lot cheaper for many customers. For example:
 
@@ -45,23 +40,15 @@ The new model is more streamlined and better coordinated with value, consisting 
 
 
 
-# FAQs
+## FAQs
 
-<<<<<<< Updated upstream
-## I already have a Budibase account. What’s changing for me?
-=======
 **I already have a Budibase account. What’s changing for me?**
->>>>>>> Stashed changes
 
 If you created a Budibase account before today, and have updated to the latest version of Budibase, here’s what has changed for you, broken down by plan type:
 
 
 
-<<<<<<< Updated upstream
-### Free and Community plans:
-=======
 <u>Free and Community plans:</u>
->>>>>>> Stashed changes
 
 - Your plan is now named “Free Plan”
 
@@ -69,11 +56,7 @@ If you created a Budibase account before today, and have updated to the latest v
 
   
 
-<<<<<<< Updated upstream
-### Premium plan:
-=======
 <u>Premium plan:</u>
->>>>>>> Stashed changes
 
 Your pricing has changed and limits increased. 
 
@@ -83,11 +66,7 @@ Your pricing has changed and limits increased.
 
   
 
-<<<<<<< Updated upstream
-### Business plan:
-=======
 <u>Business plan:</u>
->>>>>>> Stashed changes
 
 Your plan is now named “Enterprise” and you can benefit from additional new features including enforceable SSO and SCIM. 
 
@@ -97,21 +76,13 @@ Your plan is now named “Enterprise” and you can benefit from additional new 
 
   
 
-<<<<<<< Updated upstream
-### Enterprise plan:
-=======
 <u>Enterprise plan:</u>
->>>>>>> Stashed changes
 
 - No changes, but lots of new features have been introduced! Enterprise pricing will be determined by the number of creators/users within your account as well as the level of support required.
 
 
 
-<<<<<<< Updated upstream
-## I’m currently using the Budibase community plan and my account has over 20 users. What is going to happen to my account and users?
-=======
 **I’m currently using the Budibase community plan and my account has over 20 users. What is going to happen to my account and users?**
->>>>>>> Stashed changes
 
 Community plan accounts with over 20 users/creators on older versions of Budibase will continue to operate as they are today. If you upgrade to the latest version or future versions of Budibase, and you’re on the **free plan with over 20 users/creators**:
 
@@ -123,11 +94,7 @@ We want to continue supporting and powering your workflows, and we’re happy to
 
 
 
-<<<<<<< Updated upstream
-## How do I know what plan I am on and how many users I have?
-=======
 **How do I know what plan I am on and how many users I have?**
->>>>>>> Stashed changes
 
 In your Budibase portal, click Account > Usage and your plan is listed at the top of the screen. Underneath your plan name you will find your usage stats and allocations.
 
