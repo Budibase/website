@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2023-10-17
+date = 2023-10-13
 description = "Check out our roundup of data management trends for 2024"
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1696002680/cms/data-management-trends/Data_Management_Trends_upe0pd.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1696002680/cms/data-management-trends/Data_Management_Trends_upe0pd.png"]
