@@ -50,9 +50,13 @@ If you created a Budibase account before the release of the new pricing, and hav
 **Free and Community plans:**
 
 - Your plan is now named “Free Plan”
+
 - The Free plan will continue to be free of charge.
+
 - You can add up to a combined total of 5 users (admins, app creators, app users) when hosting with Budibase Cloud.
+
 - If you self-host the Free plan, you can add up to a combined total of 20 users (admins, app creators, app users).
+
 - Uniquely, we will continue to offer SSO, multiplayer collaboration, RBAC, embeds, and more for free.
 
   
@@ -62,10 +66,14 @@ If you created a Budibase account before the release of the new pricing, and hav
 Your pricing has changed and limits increased. 
 
 - The Premium plan will remain and is now available to self-hosted users. 
+
   - $50 per creator and $5 per app user (paying annually)
   - $60 per creator and $6 per app user (paying monthly)
+
 - If you are paying monthly, you can upgrade or remain on your current plan. On the 1st April 2024, if you are still on the legacy Premium plan, you will be moved to the new Premium plan. If you are paying annually, you will be moved to the new Premium plan when your current contract ends. 
+
 - The Premium plan is now available to self-hosted users.
+
 - For Premium plan customers hosting with Budibase Cloud, we've increased the internal database record limit to 25,000 and automation run limit to 5,000 - not applicable to Premium plan customers self-hosting. We’ve also increased the duration of backups and automation logs on the Premium plan (Cloud and Self-hosted) from 1 week to 1 month. 
 
   
@@ -74,8 +82,10 @@ Your pricing has changed and limits increased.
 
 The Business plan will be removed. Current Business customers may remain on the legacy Business plan until 31st March 2024.
 
-- If you are paying monthly you can upgrade or remain on your current plan. On the 1st April 2024, if you are still on the legacy Business plan, you will be moved to the new Enterprise plan. To get a new quote, please [contact our sales team](https://budibase.com/contact). Customers paying annually will be moved to the Enterprise plan when their current contract ends. 
+- If you are paying monthly you can upgrade or remain on your current plan. On the 1st April 2024, if you are still on the legacy Business plan, you will be moved to the new Enterprise plan. To get a new quote, please [contact our sales team](https://budibase.com/contact). If you are paying annually, you will be moved to the Enterprise plan when your current contract ends. 
+
 - When moving to the new Enterprise plan, you will benefit from additional new features including enforceable SSO and SCIM. You can also choose from an additional support options to help scale your deployments.
+
 - The Business plan will no longer exist for new customers.  It's features and functionality are still available within the Enterprise plan.
 
   
