@@ -196,7 +196,7 @@ body {
   margin: 0;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   font-variation-settings: "wght" 420;
-  font-feature-settings: var(-body);
+  font-feature-settings: var(-body-font);
   letter-spacing: 0em;
   color: var(--hiContrast);
   font-size: var(--fontsize-3);
