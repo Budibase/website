@@ -100,11 +100,11 @@ You will experience little change.
 
 #### **I’m currently using the Budibase community plan and my account has over 20 users. What is going to happen to my account and users?**
 
-Community plan accounts with over 20 users (admins, app creators, app users) on older versions of Budibase will continue to operate as they are today. If you upgrade to a version of Budibase released after the pricing release and you’re on the new free plan:
+Community plan accounts with over 20 users (admins, app creators, app users) on older versions (versions prior to the pricing update) of Budibase will continue to operate as they do today. If you upgrade to a version of Budibase released after the pricing release and you’re on the new free plan:
 
 - You will benefit from new features and security updates
-- You will not be able to add new users. To continue to have the ability to add users, you will need to upgrade to a paid plan. To upgrade, please [contact our sales team](https://budibase.com/contact).
-- You will need to reduce your user/creator levels to meet the 20 user limit, or upgrade to a paid plan.
+- You will not be able to add new users. To add new users, you will need to upgrade to a paid plan. To upgrade, please [contact our sales team](https://budibase.com/contact) or upgrade the new Premium plan within your account portal.
+- You will need to reduce your user levels to meet the 20 user limit, or upgrade to a paid plan.
 
 We want to continue supporting and powering your workflows, and we’re happy to discuss a path that works for both parties - please [contact our sales team](https://budibase.com/contact) and we’ll work with you to unlock a new, better Budibase experience.
 
