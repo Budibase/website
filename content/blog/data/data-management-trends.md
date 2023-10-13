@@ -1,11 +1,12 @@
 +++
 author = "Ronan McQuillan"
-date = 2023-10-13
+date = 2023-10-17
 description = "Check out our roundup of data management trends for 2024"
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1696002680/cms/data-management-trends/Data_Management_Trends_upe0pd.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1696002680/cms/data-management-trends/Data_Management_Trends_upe0pd.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "The Future of Databases | 8 Data Management Trends"
+
 +++
 
  Databases are not new. Having ways to be able to store data, query it, and serve it back to our users has been a key focus of web application development for decades. But, that doesn’t mean things have stood still.
@@ -277,8 +278,6 @@ So - MindsDB fits several of the trends that we've talked about over the course 
 We have multi-model, cloud-first infrastructure and we're adding in these extra AI components to make it an incredibly powerful way to build performant, AI-based applications.
 
 {{< cta >}}
-
-![Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1696002680/cms/data-management-trends/Budibase_ra0vnb.webp "Budibase data management trends")
 
 ## 8. Databases & low-code development
 
