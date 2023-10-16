@@ -76,6 +76,8 @@ Your pricing has changed and limits increased.
 
 - For Premium plan customers hosting with Budibase Cloud, we've increased the internal database record limit to 25,000 and automation run limit to 5,000 - not applicable to Premium plan customers self-hosting. We’ve also increased the duration of backups and automation logs on the Premium plan (Cloud and Self-hosted) from 1 week to 1 month. 
 
+- The Premium plan will now include email support.
+
   
 
 **Business plan:**
@@ -102,7 +104,7 @@ You will experience little change.
 
 Community plan accounts with over 20 users (admins, app creators, app users) on older versions (versions prior to the pricing update) of Budibase will continue to operate as they do today. If you upgrade to a version of Budibase released after the pricing release and you’re on the new free plan:
 
-- You will benefit from new features and security updates
+- You will benefit from new features and security updates.
 - You will not be able to add new users. To add new users, you will need to upgrade to a paid plan. To upgrade, please [contact our sales team](https://budibase.com/contact) or upgrade the new Premium plan within your account portal.
 - You will need to reduce your user levels to meet the 20 user limit, or upgrade to a paid plan.
 
