@@ -6,6 +6,14 @@
        url('/fonts/InterVariable.woff2') format('woff2'); 
 }
 
+@font-face {
+  font-family: 'SpaceGrotesk';
+  font-style: normal;
+  font-weight: 125 950;
+  src: local('SpaceGrotesk'),
+       url('/fonts/SpaceGrotesk.woff2') format('woff2'); 
+}
+
 html {
   --white: white;
   --black: black;
@@ -16,6 +24,7 @@ html {
   --coral-light: #f97777;
   --coral: #FF4E4E;
   --coral-dark: #b6340d;
+  --beige-lightest: #fdfbfa;
   --beige-light: #f9f7f5;
   --beige: #f6efea;
   --forestgreen: #053835;
@@ -1256,9 +1265,10 @@ a:focus {
   .hero-title {
     text-size-adjust: 100%;
     font-size: 56px;
-    font-variation-settings: "wght" 540 !important;    
-    font-family: 'Inter', sans-serif;
-    font-feature-settings: var(--font-features) !important;    
+    font-family: 'SpaceGrotesk', sans-serif;
+    font-variation-settings: 'wght' 480 !important;
+    font-feature-settings: "ss01", "onum", "case", "liga", "ss04", "ss03" !important;
+    letter-spacing: -0.02em !important;   
     margin-top: 0;
     margin-bottom: 0;
     color: var(--hiContrast);
@@ -1352,7 +1362,7 @@ a:focus {
     font-size: 3.4rem;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'SpaceGrotesk', sans-serif;
     font-variation-settings: "wght" 500 !important;
     font-feature-settings: var(--font-features);
     color: var(--hiContrast);
@@ -1367,10 +1377,10 @@ a:focus {
     font-size: 3.8rem;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'SpaceGrotesk', sans-serif;
     font-variation-settings: 'wght' 480 !important;
-    font-feature-settings: var(--font-features);
-    letter-spacing: 0px !important;
+    font-feature-settings: "ss01", "onum", "case", "liga", "ss04", "ss03";
+    letter-spacing: -0.02em !important;
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
     font-variant-ligatures: none;
@@ -1515,16 +1525,6 @@ h6,
    &:after {
     border-left: 20px solid var(--coral-light);
   }
-
-.arrow-red:after {
-  content: "";
-  position: absolute;
-  border-bottom: 36px solid transparent;
-  border-top: 36px solid transparent;
-  height: 0px;
-  width: 0px;
-  margin-right: -18px;
-  right: 0; 
 }
 
 .arrow-indigo {
@@ -1542,11 +1542,12 @@ h6,
   }
 }
 
+
 .arrow-coral {
   display: inline-block;  
   height: 72px;
   margin-left: 0px;
-  margin-right: 28px;
+  margin-right: 2px;
   position: relative;
   padding-left: 12px;
   padding-right: 12px;
@@ -1959,9 +1960,9 @@ pre>code {
 @media (min-width: 1200px) {
   .hero-container {
     display: grid;
-    grid-template-columns: 39% 1fr;
+    grid-template-columns: 40% 1fr;
     align-items: center;
-    gap: 2rem;
+    gap: 3.5rem;
     z-index: 2;
 
   }
@@ -7435,7 +7436,7 @@ ul {
   font-size: 16px;
   max-height: 44px;
   line-height: none;
-  border-radius: 12px !important;
+  border-radius: 2px !important;
   transition: all 0.2s ease-in-out;
   overflow: hidden;
   outline: none;
@@ -7522,9 +7523,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary:hover {
-  color: var(--hiContrast);
-  background-color: var(--indigo-light);
-  border: 1px solid var(--indigo-light);
+  color: var(--loContrast);
+  background-color: var(--forestgreen);
+  border: 1px solid var(--forestgreen);
 }
 
 .btn-primary:focus,
@@ -7561,7 +7562,7 @@ fieldset:disabled a.btn {
 
 .btn-secondary:hover {
   color: var(--hiContrast);
-  background: var(--gray-100);
+  background: var(--beige);
   border: 1px solid var(--hiContrast) !important;
 }
 
@@ -7775,6 +7776,13 @@ select {
   padding: 12px 24px;
   font-variation-settings: 'wght' 540  ;
   max-height: 56px;
+}
+
+.btn-xl {
+  font-size: 20px;
+  padding: 24px 32px;
+  font-variation-settings: 'wght' 540  ;
+  max-height: 70px;
 }
 
 
@@ -9509,6 +9517,10 @@ button.close {
   background-color: var(--indigo);
 }
 
+.bg-beige-lightest {
+  background-color: var(--beige-lightest);
+}
+
 .bg-beige-light {
   background-color: var(--beige-light);
 }
@@ -10793,12 +10805,12 @@ button.bg-blue:focus {
   }
 
   .font-weight-semi-bold {
-    font-variation-settings: "wght" 620 !important;
+    font-variation-settings: "wght" 580 !important;
 
   }
 
   .font-weight-bold {
-    font-variation-settings: "wght" 700 !important;
+    font-variation-settings: "wght" 640 !important;
 
   }
 
@@ -11255,7 +11267,7 @@ button.bg-blue:focus {
     color: var(--hiContrast);
     font-size: var(--fontsize-5);
     -webkit-box-align: center;
-    font-variation-settings: 'wght' 450,  ;
+    font-variation-settings: 'wght' 450;
     font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     cursor: pointer;
   }
@@ -12292,7 +12304,7 @@ button.bg-blue:focus {
     .u-header__nav-link {
       color: var(--hiContrast);
       font-size: 16px;
-      font-variation-settings:  'wght' 500;
+      font-variation-settings:  'wght' 440;
       font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     }
 
