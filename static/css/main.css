@@ -7,11 +7,11 @@
 }
 
 @font-face {
-  font-family: 'SpaceGrotesk';
+  font-family: 'FamiljenGrotesk';
   font-style: normal;
   font-weight: 125 950;
-  src: local('SpaceGrotesk'),
-       url('/fonts/SpaceGrotesk.woff2') format('woff2'); 
+  src: local('FamiljenGrotesk'),
+       url('/fonts/FamiljenGrotesk.woff2') format('woff2'); 
 }
 
 html {
@@ -1265,9 +1265,9 @@ a:focus {
   .hero-title {
     text-size-adjust: 100%;
     font-size: 56px;
-    font-family: 'SpaceGrotesk', sans-serif;
-    font-variation-settings: 'wght' 480 !important;
-    font-feature-settings: "ss01", "onum", "case", "liga", "ss04", "ss03" !important;
+    font-family: 'FamiljenGrotesk', sans-serif;
+    font-variation-settings: 'wght' 500 !important;
+    font-feature-settings: none;
     letter-spacing: -0.02em !important;   
     margin-top: 0;
     margin-bottom: 0;
@@ -1362,7 +1362,7 @@ a:focus {
     font-size: 3.4rem;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'SpaceGrotesk', sans-serif;
+    font-family: 'FamiljenGrotesk', sans-serif;
     font-variation-settings: "wght" 500 !important;
     font-feature-settings: var(--font-features);
     color: var(--hiContrast);
@@ -1377,9 +1377,9 @@ a:focus {
     font-size: 3.8rem;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'SpaceGrotesk', sans-serif;
+    font-family: 'FamiljenGrotesk', sans-serif;
     font-variation-settings: 'wght' 480 !important;
-    font-feature-settings: "ss01", "onum", "case", "liga", "ss04", "ss03";
+    font-feature-settings: none;
     letter-spacing: -0.02em !important;
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
@@ -1964,7 +1964,6 @@ pre>code {
     align-items: center;
     gap: 3.5rem;
     z-index: 2;
-
   }
 }
 
@@ -2085,11 +2084,29 @@ pre>code {
     z-index: 2;
   }
 }
+.hero-solution-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1200px) {
+  .hero-solution-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-auto-rows: 1fr;
+  }
+}
+
+.hero-solution-card {
+  min-height: 600px;
+}
 
 .hero-solutions-wrapper {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 @media (min-width: 1200px) {
@@ -2097,6 +2114,7 @@ pre>code {
     display: grid;
     grid-template-columns: repeat(4,25%);
     grid-auto-rows: 1fr;
+    gap: 1rem;
   }
 }
 
@@ -7436,7 +7454,7 @@ ul {
   font-size: 16px;
   max-height: 44px;
   line-height: none;
-  border-radius: 4px !important;
+  border-radius: 10px !important;
   transition: all 0.2s ease-in-out;
   overflow: hidden;
   outline: none;
