@@ -14,6 +14,22 @@
        url('/fonts/FamiljenGrotesk.woff2') format('woff2'); 
 }
 
+@font-face {
+  font-family: 'InstrumentSans';
+  font-style: normal;
+  font-weight: 125 950;
+  src: local('InstrumentSans'),
+       url('/fonts/InstrumentSans.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-family: 'Onest-Variable';
+  font-style: normal;
+  font-weight: 125 950;
+  src: local('Onest-Variable'),
+       url('/fonts/Onest-Variable.woff2') format('woff2'); 
+}
+
 html {
   --white: white;
   --black: black;
@@ -141,9 +157,10 @@ html {
   --transparentPanel: hsl(0 0% 0% / 97%);
   --shadowLight: hsl(206 22% 7% / 35%);
   --shadowDark: hsl(206 22% 7% / 20%);
-  --headline-font: 'Inter', -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  --headline-font: 'InstrumentSans', -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   --body-font: 'Inter', -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-  --font-features: "case", "ss03", "cv06", "cv11", "cv10", "rlig", "calt";
+  --headline-font-features: "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08";
+  --body-font-features: "case", "ss03", "cv06", "cv11", "cv10", "rlig", "calt";
   --font-variation-settings: "wght" 500 !important;
   --space-1: 5px;
   --space-2: 10px;
@@ -547,7 +564,7 @@ h2 {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
-  font-feature-settings: var(--font-features);
+  font-feature-settings: var(--body-font-features);
 }
 
 h3,
@@ -557,7 +574,7 @@ h4 {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
-  font-feature-settings: var(--font-features);
+  font-feature-settings: var(--body-font-features);
 }
 
 h5,
@@ -567,7 +584,7 @@ h6 {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
-  font-feature-settings: var(--font-features);
+  font-feature-settings: var(--body-font-features);
 }
 
 p {
@@ -577,7 +594,7 @@ p {
   font-family: 'Inter', sans-serif;
   font-weight: 400 !important;
   font-style: normal !important;
-  font-feature-settings: var(--font-features);
+  font-feature-settings: var(--body-font-features);
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
@@ -1233,49 +1250,6 @@ a:focus {
   }
 }
 
-.hero-title {
-  text-size-adjust: 100%;
-  font-size: 36px;
-  font-family: 'Inter', sans-serif;
-  font-variation-settings: "wght" 510 !important;
-  font-feature-settings: var(--font-features) !important;
-  letter-spacing: 0.01em !important;
-  color: var(--hiContrast);
-  text-rendering: optimizeLegibility;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 1.05;
-}
-
-@media (min-width: 600px) {
-  .hero-title {
-    text-size-adjust: 100%;
-    font-size: 48px;
-    font-family: 'Inter', sans-serif;
-    font-variation-settings: "wght" 510 !important;
-    font-feature-settings: var(--font-features) !important;
-    margin-bottom: 0;
-    color: var(--hiContrast);
-    text-rendering: optimizeLegibility;
-    line-height: 1.05;
-  }
-}
-
-@media (min-width: 1000px) {
-  .hero-title {
-    text-size-adjust: 100%;
-    font-size: 56px;
-    font-family: 'FamiljenGrotesk', sans-serif;
-    font-variation-settings: 'wght' 500 !important;
-    font-feature-settings: none;
-    letter-spacing: -0.02em !important;   
-    margin-top: 0;
-    margin-bottom: 0;
-    color: var(--hiContrast);
-    text-rendering: optimizeLegibility;
-    line-height: 1.05;
-  }
-}
 
 .hero-description {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;    
@@ -1288,104 +1262,66 @@ a:focus {
   text-align: center;
 }
 
-.hero-title-lg {
+.hero-title {
   text-size-adjust: 100%;
-  font-size: 3rem;
+  font-size: 2.6rem;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Inter', sans-serif;
-  font-variation-settings: "wght" 580 !important;
-  font-feature-settings: var(--font-features);
+  font-family: var(--headline-font), sans-serif;
+  font-variation-settings: "wght" 500 !important;
+  font-feature-settings: var(--headline-font-features);
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
+  line-height: 1.15;
 }
 
-
-@media (min-width: 600px) {
-  .hero-title-lg {
-    text-size-adjust: 100%;
-    font-size: clamp(3.8rem, 4vw, 5rem);
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: 'Inter', sans-serif;
-    font-variation-settings: "wght" 580 !important;
-    font-feature-settings: var(--font-features);
-    color: var(--hiContrast);
-    text-rendering: optimizeLegibility;
-  }
-}
-
-.hero-title-xl {
-  text-size-adjust: 100%;
-  font-size: 2.2rem;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Inter', sans-serif;
-  font-variation-settings: "wght" 580 !important;
-  color: var(--hiContrast);
-  text-rendering: optimizeLegibility;
-}
-
-
-@media (min-width: 600px) {
-  .hero-title-xl {
-    text-size-adjust: 100%;
-    font-size: 2.6rem;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: 'Inter', sans-serif;
-    font-variation-settings: "wght" 580 !important;
-    font-feature-settings: var(--font-features);
-    color: var(--hiContrast);
-    text-rendering: optimizeLegibility;
-    text-rendering: optimizeLegibility;
-  }
-}
 
 @media (min-width: 800px) {
-  .hero-title-xl {
+  .hero-title {
     text-size-adjust: 100%;
     font-size: 3rem;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--headline-font), sans-serif;
     font-variation-settings: "wght" 500 !important;
+    font-feature-settings: var(--headline-font-features);
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
-    text-rendering: optimizeLegibility;
+    line-height: 1.15;
+
   }
 }
 
 @media (min-width: 1200px) {
-  .hero-title-xl {
+  .hero-title {
     text-size-adjust: 100%;
     font-size: 3.4rem;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'FamiljenGrotesk', sans-serif;
+    font-family: var(--headline-font), sans-serif;
     font-variation-settings: "wght" 500 !important;
-    font-feature-settings: var(--font-features);
+    font-feature-settings: var(--headline-font-features);
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
-    line-height: .95;
-    letter-spacing: -.03em;
+    line-height: 1.15;
+    letter-spacing: 0;
   }
 }
 
 @media (min-width: 1400px) {
-  .hero-title-xl {
-    font-size: 3.8rem;
+  .hero-title {
+    font-size: 3.2rem;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'FamiljenGrotesk', sans-serif;
-    font-variation-settings: 'wght' 480 !important;
+    font-family: var(--headline-font), sans-serif;
+    font-feature-settings: var(--headline-font-features);
+    font-variation-settings: 'wght' 500 !important;
     font-feature-settings: none;
     letter-spacing: -0.02em !important;
     color: var(--hiContrast);
     text-rendering: optimizeLegibility;
     font-variant-ligatures: none;
     line-height: 1.15;
-    letter-spacing: 0px;
   }
 }
 
@@ -1393,8 +1329,9 @@ h1,
 .h1 {
   font-size: clamp(2rem, 3.25vw, 2.8rem);
   color: var(--hiContrast);
-  font-family: 'Inter', sans-serif;
-  font-variation-settings: "wght" 630 ;
+  font-family: var(--headline-font), sans-serif;
+  font-feature-settings: var(--headline-font-features);
+  font-variation-settings: 'wght' 500 !important;
   letter-spacing: .01em;
   text-indent: -.025em;
   line-height: 1.1;
@@ -1403,10 +1340,10 @@ h1,
 
 h2,
 .h2 {
-  font-family: 'Inter', sans-serif;
   font-size: 1.5rem;
-  font-variation-settings: "wght" 510;
-  font-feature-settings: var(--font-features);
+  font-family: var(--headline-font), sans-serif;
+  font-feature-settings: var(--headline-font-features);
+  font-variation-settings: 'wght' 500 !important;
   text-indent: .01em;
   letter-spacing: -0.72px;
   text-rendering: optimizeLegibility;
@@ -1416,10 +1353,11 @@ h2,
 @media (min-width: 600px) {
   h2,
   .h2 {
-    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-variation-settings: var(--font-variation-settings);
-    font-feature-settings: var(--font-features);
+    font-family: var(--headline-font), sans-serif;
+    font-feature-settings: var(--headline-font-features);
+    font-variation-settings: 'wght' 500 !important;
     letter-spacing: 0.05px;
     text-indent: .01em;
     font-weight: none;
@@ -1432,11 +1370,12 @@ h2,
 
 h3,
 .h3 {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--headline-font), sans-serif;
+  font-feature-settings: var(--headline-font-features);
+  font-variation-settings: 'wght' 500 !important;
   font-size: 32px;
   font-variation-settings: var(--font-variation-settings);
   letter-spacing: .005em;
-  font-feature-settings: var(--font-features);
   text-indent: -.015em;
   text-rendering: optimizeLegibility;
   line-height: 1.2;
@@ -1444,7 +1383,9 @@ h3,
 
 h4,
 .h4 {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--headline-font), sans-serif;
+  font-feature-settings: var(--headline-font-features);
+  font-variation-settings: 'wght' 500 !important;
   font-size: 26px;
   font-variation-settings: var(--font-variation-settings);
   text-rendering: optimizeLegibility;
@@ -1453,7 +1394,9 @@ h4,
 
 h5,
 .h5 {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--headline-font), sans-serif;
+  font-feature-settings: var(--headline-font-features);
+  font-variation-settings: 'wght' 500 !important;
   font-size: clamp(var(--fontsize-4), 2vw, var(--fontsize-5));
   font-variation-settings: var(--font-variation-settings);
   text-rendering: optimizeLegibility;
@@ -1462,7 +1405,9 @@ h5,
 
 h6,
 .h6 {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--headline-font), sans-serif;
+  font-feature-settings: var(--headline-font-features);
+  font-variation-settings: 'wght' 500 !important;
   font-size: clamp(var(--fontsize-3), 2vw, var(--fontsize-4));
   font-variation-settings: var(--font-variation-settings);
   text-rendering: optimizeLegibility;
@@ -1512,63 +1457,114 @@ h6,
 }
 
 
-.arrow-red {
-  display: inline-block;  
-  height: 72px;
-  margin-left: 0px;
-  margin-right: 28px;
-  position: relative;
-  padding-left: 12px;
-  padding-right: 12px;
-  background: var(--coral-light);
-  color: black;
-   &:after {
-    border-left: 20px solid var(--coral-light);
-  }
-}
-
 .arrow-indigo {
   display: inline-block;  
-  height: 72px;
+  height: 54px;
   margin-left: 0px;
   margin-right: 2px;
   position: relative;
   padding-left: 12px;
   padding-right: 12px;
-  background: #9F8FFF;
+  background: var(--indigo);
   color: black;
    &:after {
-    border-left: 20px solid #9F8FFF;
+    border-left: 20px solid var(--indigo);
   }
 }
 
-
-.arrow-coral {
-  display: inline-block;  
-  height: 72px;
-  margin-left: 0px;
-  margin-right: 2px;
-  position: relative;
-  padding-left: 12px;
-  padding-right: 12px;
-  background: var(--coral-light);
-  color: black;
-   &:after {
-    border-left: 20px solid var(--coral-light);
-  }
-}
-
-.arrow-coral:after {
+.arrow-indigo:after {
   content: "";
   position: absolute;
-  border-bottom: 36px solid transparent;
-  border-top: 36px solid transparent;
+  border-bottom: 27px solid transparent;
+  border-top: 27px solid transparent;
   height: 0px;
   width: 0px;
   margin-right: -18px;
   right: 0; 
 }
 
+@media (min-width: 600px) {
+.arrow-indigo {
+  display: inline-block;  
+  height: 64px;
+  margin-left: 0px;
+  margin-right: 2px;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: var(--indigo);
+  color: black;
+   &:after {
+    border-left: 20px solid var(--indigo);
+  }
+}
+
+.arrow-indigo:after {
+  content: "";
+  position: absolute;
+  border-bottom: 32px solid transparent;
+  border-top: 32px solid transparent;
+  height: 0px;
+  width: 0px;
+  margin-right: -18px;
+  right: 0; 
+}
+}
+
+
+.arrow-coral {
+  display: inline-block;  
+  height: 54px;
+  margin-left: 0px;
+  margin-right: 2px;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: var(--coral);
+  color: black;
+   &:after {
+    border-left: 20px solid var(--coral);
+  }
+}
+
+.arrow-coral:after {
+  content: "";
+  position: absolute;
+  border-bottom: 27px solid transparent;
+  border-top: 27px solid transparent;
+  height: 0px;
+  width: 0px;
+  margin-right: -18px;
+  right: 0; 
+}
+
+@media (min-width: 600px) {
+.arrow-coral {
+  display: inline-block;  
+  height: 64px;
+  margin-left: 0px;
+  margin-right: 2px;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: var(--coral);
+  color: black;
+   &:after {
+    border-left: 20px solid var(--coral);
+  }
+}
+
+.arrow-coral:after {
+  content: "";
+  position: absolute;
+  border-bottom: 32px solid transparent;
+  border-top: 32px solid transparent;
+  height: 0px;
+  width: 0px;
+  margin-right: -18px;
+  right: 0; 
+}
+}
 
 .arrow-lime {
   display: inline-block;  
@@ -1586,32 +1582,6 @@ h6,
 }
 
 .arrow-lime:after {
-  content: "";
-  position: absolute;
-  border-bottom: 36px solid transparent;
-  border-top: 36px solid transparent;
-  height: 0px;
-  width: 0px;
-  margin-right: -18px;
-  right: 0; 
-}
-
-.arrow-indigo {
-  display: inline-block;  
-  height: 72px;
-  margin-left: 0px;
-  margin-right: 2px;
-  position: relative;
-  padding-left: 12px;
-  padding-right: 12px;
-  background: #9F8FFF;
-  color: black;
-   &:after {
-    border-left: 20px solid #9F8FFF;
-  }
-}
-
-.arrow-indigo:after {
   content: "";
   position: absolute;
   border-bottom: 36px solid transparent;
@@ -1960,7 +1930,7 @@ pre>code {
 @media (min-width: 1200px) {
   .hero-container {
     display: grid;
-    grid-template-columns: 40% 1fr;
+    grid-template-columns: 36% 1fr;
     align-items: center;
     gap: 3.5rem;
     z-index: 2;
@@ -4502,7 +4472,7 @@ details[open]>summary {
   line-height: 1;
   font-family: 'Inter' sans-serif;
   font-variation-settings: 'wght' 480 !important;
-  font-feature-settings: var(--font-features);
+  font-feature-settings: var(--body-font-features);
 }
 
 .align-end {
@@ -4550,7 +4520,7 @@ details[open]>summary {
 
 @media (min-width: 600px) {
   .gap-md {
-    gap: 20px;
+    gap: 20px !important;
   }
 }
 
@@ -5082,7 +5052,8 @@ details[open]>summary {
 
 .pricing-tabs-container {
   display: flex;
-  justify-content: right;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   gap: 20px;
 }
@@ -5101,7 +5072,6 @@ details[open]>summary {
 .pricing-tab-option {
   padding: 10px 20px;
   border-radius: 50%;
-
 }
 
 .pricing-tab-option:hover {
@@ -7784,7 +7754,7 @@ select {
   .btn-lg {
     font-size: 18px;
     padding: 10px 18px;
-    font-variation-settings: 'wght' 540  ;
+    font-variation-settings: 'wght' 540;
     max-height: 52px;
   }
 }
@@ -7792,15 +7762,14 @@ select {
 .btn-lg {
   font-size: 19px;
   padding: 12px 24px;
-  font-variation-settings: 'wght' 540  ;
+  font-variation-settings: 'wght' 540;
   max-height: 56px;
 }
 
 .btn-xl {
   font-size: 20px;
-  padding: 24px 32px;
-  font-variation-settings: 'wght' 540  ;
-  max-height: 70px;
+  padding: 32px 32px;
+  font-variation-settings: 'wght' 540;
 }
 
 
@@ -17637,8 +17606,8 @@ button.bg-blue:focus {
 
   @media (min-width: 600px) {
     .article p {
-      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-      font-size: 1.1rem;
+      font-family: var(--body-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+      font-size: 1.2rem;
       line-height: 1.6;
       font-weight: 400;
       letter-spacing: -.05px;
@@ -17664,13 +17633,12 @@ button.bg-blue:focus {
 
 
   .article h1 {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: var(--headline-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     text-rendering: optimizeLegibility;
-    font-weight: 700;
-    font-variation-settings: "wght" 700,  ;
+    font-feature-settings: var(--headline-font-features);
+    font-variation-settings: 'wght' 500 !important;
     color: var(--hiContrast);
     font-size: 30px;
-    letter-spacing: -.04em;
     line-height: 1.25;
   }
 
@@ -17685,12 +17653,13 @@ button.bg-blue:focus {
 
   @media (min-width: 800px) {
     .article h1 {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-      font-variation-settings: "wght" 620,  ;
+      font-family: var(--headline-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+      font-feature-settings: var(--headline-font-features);
+      font-variation-settings: 'wght' 500 !important;
       text-rendering: optimizeLegibility;
       color: var(--hiContrast);
+      letter-spacing: -0.2;
       font-size: 48px;
-      letter-spacing: -.04em;
       line-height: 1.25;
     }
   
@@ -17705,9 +17674,10 @@ button.bg-blue:focus {
   }
 
   .article h2 {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-    text-rendering: optimizeLegibility;
-    font-variation-settings: "wght" 620, "mono" 60;    margin-top: 3.5rem;
+    font-family: var(--headline-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-feature-settings: var(--headline-font-features);
+    font-variation-settings: 'wght' 500 !important;    text-rendering: optimizeLegibility;
+    margin-top: 3.5rem;
     margin-bottom: .75rem;
     font-size: 26px;
     color: var(--hiContrast);
@@ -17725,9 +17695,10 @@ button.bg-blue:focus {
 
   @media (min-width: 800px) {
   .article h2 {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: var(--headline-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-feature-settings: var(--headline-font-features);
+    font-variation-settings: 'wght' 500 !important;    
     text-rendering: optimizeLegibility;
-    font-variation-settings: "wght" 620;  
     margin-top: 3.5rem;
     margin-bottom: .75rem;
     font-size: 32px;
@@ -17746,12 +17717,12 @@ button.bg-blue:focus {
   }
 
   .article h3 {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: var(--headline-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-feature-settings: var(--headline-font-features);
+    font-variation-settings: 'wght' 500 !important;    
     margin-top: 2rem;
     font-size: 24px;
     color: var(--hiContrast);
-    font-weight: 700px;
-    font-variation-settings: 'wght' 620, 'wdth' 50;
     line-height: 1.25;
   }
 
@@ -17765,11 +17736,11 @@ button.bg-blue:focus {
   }
 
   .article h4 {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: var(--headline-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-feature-settings: var(--headline-font-features);
+    font-variation-settings: 'wght' 500 !important;    
     margin-top: 2rem;
     margin-bottom: .5rem;
-    font-weight: 700;
-    font-variation-settings: 'wght' 620;
     font-size: 24px;
     line-height: 1.25;
 
@@ -17785,7 +17756,7 @@ button.bg-blue:focus {
   }
 
   .article h5 {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: var(--headline-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     margin-top: 2rem;
     margin-bottom: .5rem;
     font-variation-settings: 'wght' 550;
@@ -17795,7 +17766,7 @@ button.bg-blue:focus {
   }
 
   .article li {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: var(--body-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     font-size: 1rem;
     line-height: 1.6;
     font-weight: 400;
@@ -17810,7 +17781,7 @@ button.bg-blue:focus {
   @media (min-width: 600px) {
     .article li {
       font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       font-weight: 400;
       letter-spacing: -.05px;
       color: var(--hiContrast);
