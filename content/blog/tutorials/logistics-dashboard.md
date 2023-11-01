@@ -26,7 +26,7 @@ The key word here is *real-time*.
 
 So, unlike a typical report, we connect our dashboard UI to some external data source - and then the latest figures for our KPIs and metrics auto-populate in our data visualizations. This means that whoever needs to has a simple, easy way to find the insights they require, without having to go and run the numbers each time.
 
-{{< youtube ISD5AWOQqzw }}
+{{< youtube ISD5AWOQqzw >}}
 
 ### What should a logistics dashboard include?
 

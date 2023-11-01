@@ -26,7 +26,7 @@ Of course, this will vary greatly depending on the size and complexity of your f
 
 As with any kind of dashboard, the idea is that we can configure our reports once - and then they’ll populate with the most up-to-date information in real-time.
 
-{{< youtube lJlM5oxyick }}
+{{< youtube lJlM5oxyick >}}
 
 ## What are we building?
 
