@@ -1,11 +1,12 @@
 +++
 author = "Ronan McQuillan"
 date = 2023-11-02
-description = "Follow our tutorial to learn how to build a project cost management dashboard with Budibase"
+description = "Learn how to build a project cost management dashboard with Budibase."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1698939509/cms/project-cost-management/Project_Cost_Management_skcqam.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1698939509/cms/project-cost-management/Project_Cost_Management_skcqam.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "How to Build Project Cost Management Software"
+
 +++
 
  In the fast-paced world of project management, having real-time insights into your financial situation is not just a luxury, it's a necessity. Therefore, effective project cost management software is too.
@@ -18,7 +19,7 @@ Whether they're entering details on a construction site or looking at data back 
 
 Today, we’re going to check out how we can use Budibase to build professional, performant project cost management software - in a fraction of the time it would take with traditional development.
 
-{{< youtube PrXGnjQXM >}}
+{{< youtube r_PrXGnjQXM >}}
 
 First, though, let’s explore a bit more of the background.
 
