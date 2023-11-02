@@ -28,11 +28,11 @@ About a year ago, we looked at our brand and realized that we just weren’t con
 
 Members from across the company participated in a number of workshops to deterimine "Who we are".
 
-![brand workshop exercise](https://res.cloudinary.com/daog6scxm/image/upload/v1698235271/cms/new-branding/CleanShot_2023-10-25_at_12.59.39_2x_rxfvgk.png)
+![brand workshop exercise](https://res.cloudinary.com/daog6scxm/image/upload/v1698235271/cms/new-branding/CleanShot_2023-10-25_at_12.59.39_2x_rxfvgk.webp)
 
 The result of this work, was the following positioning statement:
 
-![Positioning statement](https://res.cloudinary.com/daog6scxm/image/upload/v1698236334/cms/new-branding/positioning_afqh4x.png)
+![Positioning statement](https://res.cloudinary.com/daog6scxm/image/upload/v1698236334/cms/new-branding/positioning_afqh4x.webp)
 
 In the process of defining these, we gathered members of the company from across product, marketing, design, and engineering to align on the qualities we want to convey. This togetherness helped us deliver a brand we can all stand by.
 
@@ -44,7 +44,7 @@ In setting out to create a new logo, we knew we wanted to capture the spirit of 
 
 Our initials 'BB' are still there, but they are arranged in a creative and relevant new way:
 
-![New Budibase symbol](https://res.cloudinary.com/daog6scxm/image/upload/v1698236085/cms/new-branding/CleanShot_2023-10-25_at_13.14.18_2x_bi86bi.png)
+![New Budibase symbol](https://res.cloudinary.com/daog6scxm/image/upload/v1698236085/cms/new-branding/CleanShot_2023-10-25_at_13.14.18_2x_bi86bi.webp)
 
 
 
@@ -52,11 +52,11 @@ Our initials 'BB' are still there, but they are arranged in a creative and relev
 
 We also worked hard on creating a wordmark that looked professional but had enough characted to exist by itself:
 
-![Budibase workmark black](https://res.cloudinary.com/daog6scxm/image/upload/v1698236675/cms/new-branding/Homepage_OG_image_pmq7bu.png)
+![Budibase workmark black](https://res.cloudinary.com/daog6scxm/image/upload/v1698236675/cms/new-branding/Homepage_OG_image_pmq7bu.webp)
 
 With our vibrant palette (we'll touch on that later) we can add additional energy to the wordmark:
 
-![White workmark on coral background](https://res.cloudinary.com/daog6scxm/image/upload/v1698236621/cms/new-branding/wordmark_zoqciv.png)
+![White workmark on coral background](https://res.cloudinary.com/daog6scxm/image/upload/v1698236621/cms/new-branding/wordmark_zoqciv.webp)
 
 
 
@@ -68,7 +68,7 @@ Combining both the wordmark and symbol, we had our new logo:
 
 The logo has different variants that helps with scaling the brand:
 
-![Budibase logo](https://res.cloudinary.com/daog6scxm/image/upload/v1698236334/cms/new-branding/budibase-logo_nlxlzs.png)
+![Budibase logo](https://res.cloudinary.com/daog6scxm/image/upload/v1698236334/cms/new-branding/budibase-logo_nlxlzs.webp)
 
 
 
@@ -76,11 +76,7 @@ The logo has different variants that helps with scaling the brand:
 
 Once we had a new logo, we worked to extend that out into a brand system—a collection of colors, shapes, fonts, and patterns that make everything Budibase *feel like* Budibase. We wanted Budibase to look and feel like a brand our employees and users would be proud of.  We want to stand our from our competitiors who tend to default to Blue hues. It was important to use that our brand stood tall, full of energy and purpose - like the workflows we power.
 
-![Color palette](https://res.cloudinary.com/daog6scxm/image/upload/v1698236333/cms/new-branding/bb-colors_a4qffk.png)
-
-
-
-
+![Color palette](https://res.cloudinary.com/daog6scxm/image/upload/v1698236333/cms/new-branding/bb-colors_a4qffk.webp)
 
 
 
