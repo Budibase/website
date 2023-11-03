@@ -7617,9 +7617,8 @@ ul {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding: 9px 16px;
+  padding: 8px 16px;
   font-size: 16px;
-  height: 44px;
   line-height: none;
   border-radius: 6px !important;
   transition: all 0.2s ease-in-out;
@@ -7813,7 +7812,7 @@ label {
 
 .hs-button {
   display: inline-block;
-  font-variation-settings: 'wght' 610,  ;
+  font-variation-settings: 'wght' 610;
   font-family: "InstrumentSans", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
@@ -7954,7 +7953,6 @@ select {
     font-size: 17px;
     padding: 10px 16px;
     font-variation-settings: 'wght' 550;
-    height: 48px;
   }
 }
 
@@ -7962,7 +7960,6 @@ select {
   font-size: 18px;
   padding: 12px 24px;
   font-variation-settings: 'wght' 550;
-  height: 50px;
 }
 
 
