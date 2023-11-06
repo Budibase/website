@@ -21,7 +21,7 @@ Here’s a quick summary of what will change:
 - The self-hosted Free plan will be limited to 20 users.
 - We will have 3 pricing plans. The Business plan will no longer exist.  Each new plan will be available to Budibase Cloud and Self-hosted users. 
 - Current customers on a monthly may remain on their current plans until the 31st March 2024. Customers on an annual contract may remain on their current plans until their contract ends.
-- We will introduce volume-based discounts to the Enterprise plan to help us serve different use cases and user types.
+- We will introduce volume-based discounts to the Enterprise plan to help us better serve different use cases and user types.
 
 
 
