@@ -16,6 +16,8 @@ It’s a makeover a long time in the making, and a lot of love went into it. We 
 
 
 
+{{< vimeo >}}
+
 ## Why a rebrand?
 
 Budibase is on a mission to help you and your team **turn data into action**. By making it easy and faster to build workflow apps, we give you more time to do the work that matters: rehoming refugees, curing patients, running election campaigns, or whatever it is your company does. That’s what gets us up in the morning.
