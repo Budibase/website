@@ -12,17 +12,18 @@
             <header class="mb-7 mt-6">
               <span class="opacity-50 text-xs"> {{ .Date.Format .Site.Params.dateform }} </span>
               <h1 class="mt-2 mb-4">{{ .Title }}</h1>
-            </header>
-
-            <div class="mx-md-auto mb-9">
-              {{ .Content }}
-            </div>
-            {{ if (.Params.profilePic) }}
+              {{ if (.Params.profilePic) }}
             <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
             {{ else }}
             <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
             {{ end }}{{ .Params.author }}
             <hr />
+            </header>
+
+            <div class="mx-md-auto mb-9">
+              {{ .Content }}
+            </div>
+            
       </div>
     </div>
 
