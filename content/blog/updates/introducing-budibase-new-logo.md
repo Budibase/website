@@ -10,11 +10,9 @@ author: Joe Johnston
 draft: false
 ---
 
-Today, we’re sharing the biggest change to the Budibase brand in our recent history. Budibase has a vibrant new look, with the aim of making Budibase as beautiful as the workflows that it enables.
+Today, we’re sharing the biggest change to the Budibase brand in our recent history. We have a vibrant new look, with the aim of making Budibase as beautiful as the workflows that it enables.
 
 It’s a makeover a long time in the making, and a lot of love went into it. We hope it shows.
-
-
 
 {{< vimeo >}}
 
@@ -28,7 +26,7 @@ About a year ago, we looked at our brand and realized that we just weren’t con
 
 ## Determining who we are and where we stand
 
-Members from across the company participated in a number of workshops to deterimine "Who we are".
+Members from across the company participated in a number of workshops to determine "Who we are".
 
 ![brand workshop exercise](https://res.cloudinary.com/daog6scxm/image/upload/v1698235271/cms/new-branding/CleanShot_2023-10-25_at_12.59.39_2x_rxfvgk.webp)
 
