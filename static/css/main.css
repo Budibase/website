@@ -5938,6 +5938,12 @@ ul {
   }
 }
 
+.feature-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .feature-nav {
   display: flex;
   flex-direction: column;
@@ -6044,6 +6050,7 @@ ul {
   grid-template-columns: 1fr;
   align-items: flex-start;
   gap: 24px;
+  padding: 0 8px;
 }
 
 @media (min-width: 565px) {
@@ -6052,6 +6059,7 @@ ul {
     grid-template-columns: 200px 1fr;
     align-items: flex-start;
     gap: 48px;
+    padding: 0 8px;
   }
 }
 
