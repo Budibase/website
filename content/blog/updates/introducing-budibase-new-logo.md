@@ -52,7 +52,7 @@ Our initials 'BB' are still there, but they are arranged in a creative and relev
 
 ## Adding flair to the wordmark
 
-We also worked hard on creating a wordmark that looked professional but had enough characted to exist by itself:
+We also worked hard on creating a wordmark that looked professional but had enough character to exist by itself:
 
 ![Budibase workmark black](https://res.cloudinary.com/daog6scxm/image/upload/v1698236675/cms/new-branding/Homepage_OG_image_pmq7bu.webp)
 
