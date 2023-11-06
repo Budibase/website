@@ -3861,7 +3861,7 @@ pre>code {
   align-items: center;
   justify-items: center;
   border: 1px solid var(--indigo);
-  font-variation-settings: "wght" 550   ;
+  font-variation-settings: "wght" 550;
   font-family: 'InstrumentSans', sans-serif;
 }
 
@@ -3874,7 +3874,7 @@ pre>code {
   display: inline-flex;
   align-items: center;
   justify-items: center;
-  font-variation-settings: "wght" 600, 'wdth' 50;
+  font-variation-settings: "wght" 600;
   border: 1px solid var(--gray-500);
 }
 
@@ -3888,7 +3888,7 @@ pre>code {
   align-items: center;
   justify-items: center;
   font-family: 'InstrumentSans', sans-serif;
-  font-variation-settings: "wght" 450, 'wdth' 50;
+  font-variation-settings: "wght" 450;
   border: 1px solid var(--gray-500);
 }
 
@@ -3905,7 +3905,7 @@ pre>code {
   justify-items: center;
   font-weight: 500;
   border: 1px solid var(--green-500);
-  font-variation-settings: "wght" 600, 'wdth' 50;
+  font-variation-settings: "wght" 600;
 }
 
 .tag-blue {
@@ -3919,9 +3919,8 @@ pre>code {
   display: inline-flex;
   align-items: center;
   justify-items: center;
-  font-weight: 500;
-  border: 1px solid var(--blue-500);
-  font-variation-settings: "wght" 600, 'wdth' 50;
+  border: 1px solid var(--indigo);
+  font-variation-settings: "wght" 600;
 }
 
 .tag-black {
@@ -3934,7 +3933,7 @@ pre>code {
   display: inline-flex;
   align-items: center;
   justify-items: center;
-  font-variation-settings: "wght" 600, 'wdth' 50;
+  font-variation-settings: "wght" 600;
 }
 
 
@@ -3948,7 +3947,7 @@ pre>code {
   display: inline-flex;
   align-items: center;
   justify-items: center;
-  font-variation-settings: "wght" 600, 'wdth' 50;
+  font-variation-settings: "wght" 600;
 }
 
 .tag-indigo {
@@ -3961,7 +3960,7 @@ pre>code {
   display: inline-flex;
   align-items: center;
   justify-items: center;
-  font-variation-settings: "wght" 600, 'wdth' 50;
+  font-variation-settings: "wght" 600;
 }
 
 .tag-red {
@@ -3974,7 +3973,7 @@ pre>code {
   display: inline-flex;
   align-items: center;
   justify-items: center;
-  font-variation-settings: "wght" 600, 'wdth' 50;
+  font-variation-settings: "wght" 600;
 }
 
 .tag-green {
@@ -3987,7 +3986,7 @@ pre>code {
   display: inline-flex;
   align-items: center;
   justify-items: center;
-  font-variation-settings: "wght" 600, 'wdth' 50;
+  font-variation-settings: "wght" 600;
 }
 
 details>summary {
