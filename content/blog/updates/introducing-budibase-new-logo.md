@@ -20,7 +20,7 @@ It’s a makeover a long time in the making, and a lot of love went into it. We 
 
 Budibase is on a mission to help you and your team **turn data into action**. By making it easy and faster to build workflow apps, we give you more time to do the work that matters: rehoming refugees, curing patients, running election campaigns, or whatever it is your company does. That’s what gets us up in the morning.
 
-About a year ago, we looked at our brand and realized that we just weren’t conveying who we are or what we stand for. We’ve also grown rapidly over the last year, so it became more important to define our brand to create a sense of consistency across our teams. Our goal was to make everything that you interact with–from our product to this blog– more representative of who we are. But who are we?
+About a year ago, we looked at our brand and realized that we just weren’t conveying who we are or what we stand for. We’ve also grown rapidly over the last year, so it became more important to define our brand to create a sense of consistency across our teams. Our goal was to make everything that you interact with – from our product to this blog – more representative of who we are. But who are we?
 
 
 
