@@ -17887,14 +17887,9 @@ button.bg-blue:focus {
   }
 
   .article em {
-    color: var(--indigo);
-    padding: 4px 10px 4px 6px;
-    background-color: var(--beige-light);
-    border-radius: 4px;
-    font-size: 1rem;
-    font-family: monospace;
-    font-variation-settings: 'wght' 410;
-    position: relative;
+    color: var(--gray-1100);
+    font-style: italic;
+    font-variation-settings: 'wght' 440;
   }
 
 
