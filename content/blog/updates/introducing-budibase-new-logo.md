@@ -50,7 +50,7 @@ Our initials 'BB' are still there, but they are arranged in a creative and relev
 
 ## Adding flair to the wordmark
 
-We also worked hard on creating a wordmark that looked professional but had enough character to exist by itself:
+We also worked hard on creating a wordmark that looks professional, but has enough character to exist by itself:
 
 ![Budibase workmark black](https://res.cloudinary.com/daog6scxm/image/upload/v1698236675/cms/new-branding/Homepage_OG_image_pmq7bu.webp)
 
@@ -74,11 +74,12 @@ The logo has different variants that helps with scaling the brand:
 
 ## Energy and purpose in a sea of Blue
 
-Once we had a new logo, we worked to extend that out into a brand system—a collection of colors, shapes, fonts, and patterns that make everything Budibase *feel like* Budibase. We wanted Budibase to look and feel like a brand our employees and users would be proud of.  We want to stand out from our competitiors who tend to default to Blue hues. It was important to use that our brand stood tall, full of energy and purpose - like the workflows we power.
+Once we had a new logo, we worked to extend that out into a brand system—a collection of colors, shapes, fonts, and patterns that make everything Budibase *feel like* Budibase. We wanted Budibase to look and feel like a brand our employees and users would be proud of.  We want to stand out from our competitors who tend to default to Blue hues. It was important to use that our brand stood tall, full of energy and purpose - like the workflows we power.
 
 ![Color palette](https://res.cloudinary.com/daog6scxm/image/upload/v1698236333/cms/new-branding/bb-colors_a4qffk.webp)
 
 
 
+We’re always open to feedback. What do you think of the new Budibase brand? [Hop over to our Discord channel](https://discord.com/invite/ZepTmGbtfF) to let us know what you think.
 
-
+If you'd like download the new Budibase logo, you can do so within the [Budibase branding app](https://budimaster.budibase.app/app/branding#/branding).
