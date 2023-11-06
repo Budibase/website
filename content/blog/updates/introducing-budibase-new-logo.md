@@ -80,6 +80,6 @@ Once we had a new logo, we worked to extend that out into a brand system—a col
 
 
 
-We’re always open to feedback. [Hop over to our Discord channel](https://discord.com/invite/ZepTmGbtfF) to let us know what you think of the new branding.
+We’re always open to feedback. [Hop over to our Discord channel](https://discord.com/invite/ZepTmGbtfF) and let us know what you think of the new branding.
 
 If you'd like to download the new Budibase logo, you can do so within the [Budibase branding app](https://budimaster.budibase.app/app/branding#/branding).
