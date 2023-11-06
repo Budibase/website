@@ -34,7 +34,7 @@ The result of this work, was the following positioning statement:
 
 ![Positioning statement](https://res.cloudinary.com/daog6scxm/image/upload/v1698236334/cms/new-branding/positioning_afqh4x.webp)
 
-In the process of defining these, we gathered members of the company from across product, marketing, design, and engineering to align on the qualities we want to convey. This togetherness helped us deliver a brand we can all stand by.
+To get to this point, we gathered members of the company from across product, marketing, design, and engineering to align on the qualities we want to convey. This togetherness helped us deliver a brand we can all stand by.
 
 
 
