@@ -76,7 +76,7 @@ The logo has different variants that helps with scaling the brand:
 
 ## Energy and purpose in a sea of Blue
 
-Once we had a new logo, we worked to extend that out into a brand system—a collection of colors, shapes, fonts, and patterns that make everything Budibase *feel like* Budibase. We wanted Budibase to look and feel like a brand our employees and users would be proud of.  We want to stand our from our competitiors who tend to default to Blue hues. It was important to use that our brand stood tall, full of energy and purpose - like the workflows we power.
+Once we had a new logo, we worked to extend that out into a brand system—a collection of colors, shapes, fonts, and patterns that make everything Budibase *feel like* Budibase. We wanted Budibase to look and feel like a brand our employees and users would be proud of.  We want to stand out from our competitiors who tend to default to Blue hues. It was important to use that our brand stood tall, full of energy and purpose - like the workflows we power.
 
 ![Color palette](https://res.cloudinary.com/daog6scxm/image/upload/v1698236333/cms/new-branding/bb-colors_a4qffk.webp)
 
