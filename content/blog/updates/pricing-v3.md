@@ -13,21 +13,21 @@ draft: false
 
 ---
 
-The Budibase team is excited to introduce a few updates to our pricing plans that will **go live on 28th November 2023**. Over the past 5 months, we’ve chatted with our current customers and users to determine how to best correlate our pricing with the value of Budibase. Consistently, we were told per-user pricing was not scalable and the value experienced by app creators was disproportionate to the value experienced by app users. 
+The Budibase team is excited to introduce a few updates to our pricing plans that will **go live on the 28th November 2023**. 
 
 Here’s a quick summary of what will change:
 
 - Instead of charging the same per-user fee for all users, we will price differently for users who *create* apps (app creators) and those who *use* apps (app users). This breakdown in pricing will allow us to offer a **reduced per-user fee**.  
 - The self-hosted Free plan will be limited to 20 users.
-- We will have 3 pricing plans. The Business plan will no longer exist.  Each new plan is available to Budibase Cloud and Self-hosted users. 
+- We will have 3 pricing plans. The Business plan will no longer exist.  Each new plan will be available to Budibase Cloud and Self-hosted users. 
 - Current customers may remain on their current plans until the 31st March 2024.
-- We’re introducing volume-based discounts to the Enterprise plan to help us serve different use cases and user types.
+- We will introduce volume-based discounts to the Enterprise plan to help us serve different use cases and user types.
 
 
 
 ## The new model
 
-We hope you agree, the new model is simpler and aligns better with the different levels of value Budibase provides. 
+Over the past 5 months, we’ve discussed with our current customers and users to determine how to best correlate our pricing with the value of Budibase. Consistently, we were told per-user pricing was not scalable and the value experienced by app creators was disproportionate to the value experienced by app users. We hope you agree, the new model is simpler, more scalable, and aligns better with the different levels of value Budibase provides. 
 
 ![new model](https://res.cloudinary.com/daog6scxm/image/upload/v1697032289/cms/pricing/CleanShot_2023-10-11_at_14.50.48_2x_o9qx4v.png)
 

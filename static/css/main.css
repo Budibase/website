@@ -17873,12 +17873,14 @@ button.bg-blue:focus {
     margin-top: 16px;
     margin-bottom: 12px;
     color: var(--hiContrast);
+    font-feature-settings: var(--body-font-features);
   }
 
   @media (min-width: 600px) {
     .article p {
       font-family: var(--body-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
       font-size: 1.2rem;
+      font-feature-settings: var(--body-font-features);
       line-height: 1.6;
       font-weight: 400;
       letter-spacing: -.05px;
