@@ -37,6 +37,12 @@ In the upcoming pricing release, we’ve streamlined our pricing plans to align 
 
 If you sign up for Budibase or switch to a new plan after the 28th November 2023, then you’ll have access to our newest plans.
 
+
+
+---
+
+
+
 #### **I already have a Budibase account. What’s changing for me?**
 
 If you created a Budibase account before the 28th November 2023, and have updated to the latest version of Budibase, here’s what has changed for you, broken down by plan type:
@@ -98,6 +104,10 @@ You will experience little change.
 
 
 
+---
+
+
+
 #### **I’m currently using the Budibase community plan and my account has over 20 users. What is going to happen to my account and users?**
 
 Community plan accounts with over 20 users (admins, app creators, app users) on older versions (versions prior to the pricing update) of Budibase will continue to operate as they do today. If you upgrade to a version of Budibase released after the 28th November 2023 and you’re on the new free plan:
@@ -110,6 +120,10 @@ We want to continue supporting and powering your workflows, and we’re happy to
 
 
 
+---
+
+
+
 #### **How do I know what plan I am on and how many users I have?**
 
 In your Budibase portal, click Account > Usage and your plan is listed at the top of the screen. Underneath your plan name you will find your usage stats and allocations.
@@ -118,9 +132,17 @@ In your Budibase portal, click Account > Usage and your plan is listed at the to
 
 
 
+---
+
+
+
 #### What does Enterprise plan pricing look like?
 
 Each organization is different with specific needs. If you’re interested in Budibase's Enterprise plan, our team would love to talk to you. You can [contact our sales team](https://budibase.com/contact) to learn more.
+
+
+
+---
 
 
 
