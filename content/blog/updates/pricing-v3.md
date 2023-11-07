@@ -150,7 +150,7 @@ Each organization is different with specific needs. If you’re interested in Bu
 
 #### Why are you limiting the Free plan for self-hosted users?
 
-Budibase will continue to be free of cost for hobbyists and teams/companies for up to 20 users. Once a team or company hits the 20-user limit, this is the point at which they should start paying us - this will allow us to invest more in the product and deliver an outstanding experience.
+Budibase will continue to be free for up to 20 users. Once a team or company hits the 20-user limit, this is the point at which they should start paying us - this will allow us to invest more in the product and deliver an outstanding experience.
 
 
 
