@@ -18,7 +18,7 @@ The Budibase team is excited to introduce a few updates to our pricing plans tha
 Here’s a quick summary of what will change:
 
 - Instead of charging the same per-user fee for all users, we will price differently for users who *create* apps (app creators) and those who *use* apps (app users). This breakdown in pricing will allow us to offer a **reduced per-user fee**.  
-- The self-hosted Free plan will be limited to 20 users.
+- The self-hosted Free plan, that will replace the community plan, will be limited to 20 users.
 - We will have 3 pricing plans. The Business plan will no longer exist.  Each new plan will be available to Budibase Cloud and Self-hosted users. 
 - Current customers on a monthly contract may remain on their current plans until the 31st March 2024. Customers on an annual contract may remain on their current plans until their contract ends.
 - We will introduce volume-based discounts to the Enterprise plan to help us better serve different use cases and user types.
@@ -27,7 +27,7 @@ Here’s a quick summary of what will change:
 
 ## The new model
 
-Over the past 5 months, we’ve discussed with our current customers and users to determine how to best correlate our pricing with the value of Budibase. Consistently, we were told per-user pricing was not scalable and the value experienced by app creators was disproportionate to the value experienced by app users. We hope you agree, the new model is simpler, more scalable, and aligns better with the different levels of value Budibase provides. 
+Over the past 5 months, we’ve talked with customers and users to determine how to best correlate our pricing with the value of Budibase. Consistently, we were told per-user pricing was not scalable and the value experienced by app creators was disproportionate to the value experienced by app users. We hope you agree, the new model is simpler, more scalable, and aligns better with the different levels of value Budibase provides. 
 
 ![new model](https://res.cloudinary.com/daog6scxm/image/upload/v1697032289/cms/pricing/CleanShot_2023-10-11_at_14.50.48_2x_o9qx4v.png)
 
@@ -138,9 +138,19 @@ In your Budibase portal, click Account > Usage and your plan is listed at the to
 
 
 
-#### What does Enterprise plan pricing look like?
+#### What does the Enterprise plan pricing look like?
 
 Each organization is different with specific needs. If you’re interested in Budibase's Enterprise plan, our team would love to talk to you. You can [contact our sales team](https://budibase.com/contact) to learn more.
+
+
+
+---
+
+
+
+#### Why are you limiting the Free plan for self-hosted users?
+
+Limiting the Free plan for self-hosted users will allow us the freedom and confidence to invest more in the Free Plan. Budibase will continue to be free of cost for hobbyists and teams/companies for up to 20 users. Once a team or company hits the 20-user limit, this is the point at which they should start paying us - this will allow us to invest more in the product and deliver an outstanding experience.
 
 
 
