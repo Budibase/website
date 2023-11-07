@@ -7,13 +7,13 @@ profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/jo
 image: https://res.cloudinary.com/daog6scxm/image/upload/v1697027553/cms/pricing/pricing-v3_ht378y.png
 images:
   - https://res.cloudinary.com/daog6scxm/image/upload/v1697027553/cms/pricing/pricing-v3_ht378y.png
-date: "2023-11-06"
+date: "2023-11-07"
 author: Joe Johnston
 draft: false
 
 ---
 
-The Budibase team is excited to introduce a few updates to our pricing plans that will **go live on the 28th November 2023**. 
+The Budibase team is excited to introduce updates to our pricing plans that will **go live on the 28th November 2023**. 
 
 Here’s a quick summary of what will change:
 

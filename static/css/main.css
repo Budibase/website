@@ -129,7 +129,7 @@ html {
   --border-color-regular: rgba(0, 0, 0, 0.1);
   --text-color-regular: rgb(38, 38, 39);
   --text-color-dark: hsl(200 12% 4%);
-  --hiContrast: hsl(200 12% 4%);
+  --hiContrast: rgb(7, 7, 8);
   --loContrast: white;
   --text-gradient: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, .8));
   --canvas: hsl(0 0% 93%);
@@ -17865,7 +17865,7 @@ button.bg-blue:focus {
     font-size: 1rem;
     line-height: 1.6;
     font-weight: 400;
-    letter-spacing: -.06px;
+    letter-spacing: .4px;
     word-break: break-word;
     overflow-wrap: break-word;
     margin-block-end: 12px;
@@ -17880,9 +17880,10 @@ button.bg-blue:focus {
     .article p {
       font-family: var(--body-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
       font-size: 1.2rem;
-      font-feature-settings: var(--body-font-features);
-      line-height: 1.6;
-      font-weight: 400;
+      font-feature-settings: "ss12" on,"liga" on;
+      line-height: 1.5;
+      letter-spacing: 0.4px !important;
+      font-variation-settings: "wdth" 100, "wght" 400;
       letter-spacing: -.05px;
       color: var(--hiContrast);
       word-break: break-word;
