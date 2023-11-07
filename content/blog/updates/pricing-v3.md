@@ -150,7 +150,7 @@ Each organization is different with specific needs. If you’re interested in Bu
 
 #### Why are you limiting the Free plan for self-hosted users?
 
-Budibase will continue to be free for up to 20 users. Once a team or company hits the 20-user limit, this is the point at which they should start paying us - this will allow us to invest more in the Free plan and the overall Budibase experience.
+Budibase will continue to be free for up to 20 users. Once a company hits the 20-user limit, they've reached a point in which they've experienced a level of value that we believe justifies upgrading. When upgrading to the Premium or Enterprise plan, the company will benefit from additional features and functionality to support its growth.
 
 
 
