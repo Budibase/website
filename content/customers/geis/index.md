@@ -1,6 +1,6 @@
 ---
 title: Why the Geis Group uses Budibase
-description: Support staff, trainees, who never had contact with coding before, could suddenly create great tools with Budibase. 
+description: Support staff, trainees - who can’t code - could suddenly create great tools. 
 type: customers
 layout: single
 date: "2023-11-08"
