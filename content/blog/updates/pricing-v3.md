@@ -4,7 +4,7 @@ description: We're updating our pricing from per-user to a combination of per-us
 type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/joe_illustration_gray_bg_e97wdl.jpg
-image: https://res.cloudinary.com/daog6scxm/image/upload/v1697027553/cms/pricing/pricing-v3_ht378y.png
+image: https://res.cloudinary.com/daog6scxm/image/upload/v1699448683/cms/pricing/pricing-v3_post_qdvqoz.png
 images:
   - https://res.cloudinary.com/daog6scxm/image/upload/v1697027553/cms/pricing/pricing-v3_ht378y.png
 date: "2023-11-07"
@@ -35,7 +35,7 @@ Over the past five months, we’ve talked with customers and users to determine 
 
 ## FAQs
 
-#### What happens to new Budibase users?
+### What happens to new Budibase users?
 
 If you sign up for Budibase or switch to a new plan after the 28th of November, 2023, you’ll have access to our latest plans.
 
@@ -45,11 +45,11 @@ If you sign up for Budibase or switch to a new plan after the 28th of November, 
 
 
 
-#### I already have a Budibase account. What’s changing for me?
+### I already have a Budibase account. What’s changing for me?
 
 If you created a Budibase account before the 28th of November, 2023, and have updated to the latest version of Budibase, here’s what has changed for you, broken down by plan type:
 
-**Free and Community plans:**
+#### Free and Community plans:
 
 Limits have changed:
 
@@ -59,7 +59,7 @@ Limits have changed:
 - If you self-host the Free plan, you can add up to 20 users (admins, app creators, app users).
 - Uniquely, we will continue to offer SSO, multiplayer collaboration, RBAC, embeds, and more for free.
 
-**Premium plan:**
+#### Premium plan:
 
 Your pricing has changed, and limits have increased. 
 
@@ -72,7 +72,7 @@ Your pricing has changed, and limits have increased.
 - The Premium plan will now include email support.
 - The new Premium plan will have Synchronous Automations.
 
-**Business plan:**
+#### Business plan:
 
 We will remove the Business plan. Current Business customers may remain on the legacy Business plan until the 31st of March 2024.
 
@@ -80,7 +80,7 @@ We will remove the Business plan. Current Business customers may remain on the l
 - When moving to the new Enterprise plan, you will benefit from additional features, including enforceable SSO and SCIM. You can also choose from different support options to help scale your deployments.
 - The Business plan will no longer exist for new customers. Its features and functionality will be available within the Enterprise plan.
 
-**Enterprise plan:**
+#### Enterprise plan:
 
 You will experience little change.
 
@@ -92,7 +92,7 @@ You will experience little change.
 
 
 
-#### I’m using the Budibase community plan, and my account has over 20 users. What is going to happen to my account and users?
+### I’m using the Budibase community plan, and my account has over 20 users. What is going to happen to my account and users?
 
 Community plan accounts with over 20 users (admins, app creators, app users) on older versions (versions before the pricing update) of Budibase will continue to operate as they do today. If you upgrade to a version of Budibase released after the 28th of November 2023 and you’re on the new free plan:
 
@@ -108,7 +108,7 @@ We want to continue supporting and powering your workflows, and we’re happy to
 
 
 
-#### How do I know what plan I am on and how many users I have?
+### How do I know what plan I am on and how many users I have?
 
 In your Budibase portal, click Account > Usage, and locate your plan at the top of the screen. Underneath your plan name, you will find your usage stats and allocations.
 
@@ -120,7 +120,7 @@ In your Budibase portal, click Account > Usage, and locate your plan at the top 
 
 
 
-#### What does the Enterprise plan pricing look like?
+### What does the Enterprise plan pricing look like?
 
 Each organization is different, with specific needs. If you’re interested in Budibase’s Enterprise plan, our team would love to talk to you. You can [contact our sales team](https://budibase.com/contact) to learn more.
 
@@ -130,7 +130,7 @@ Each organization is different, with specific needs. If you’re interested in B
 
 
 
-#### Why are you limiting the Free plan for self-hosted users?
+### Why are you limiting the Free plan for self-hosted users?
 
 Budibase will continue to be free for up to 20 users. Once a company hits the 20-user limit, we believe they’ve reached a point where they’ve experienced a level of value that justifies upgrading.
 
@@ -140,7 +140,7 @@ Budibase will continue to be free for up to 20 users. Once a company hits the 20
 
 
 
-#### When will the new pricing go live?
+### When will the new pricing go live?
 
 The new pricing will go live on the 28th of November, 2023.
 
