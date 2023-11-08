@@ -17897,8 +17897,8 @@ button.bg-blue:focus {
 
   .article em {
     color: var(--gray-1100);
-    font-style: italic;
-    font-variation-settings: 'wght' 440;
+    font-variation-settings: 'wght' 440, 'ital' 70;
+    font-family: var(--body-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   }
 
 
