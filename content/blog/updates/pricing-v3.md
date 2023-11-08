@@ -97,7 +97,7 @@ Community plan accounts with over 20 users (admins, app creators, app users) on 
 
 - You will benefit from new features and security updates.
 - You will not be able to add new users (if you're over the 20 user limit). To add new users, you will need to upgrade to a paid plan. To upgrade, please [contact our sales team](https://budibase.com/contact) or upgrade to the new Premium plan within your account portal.
-- You must reduce your user levels to meet the 20-user limit or upgrade to a paid plan.
+- You must reduce your user levels to meet the 20 user limit or upgrade to a paid plan.
 
 We want to continue supporting and powering your workflows, and we’re happy to discuss a path that works for both parties - please [contact our sales team](https://budibase.com/contact), and we’ll work with you to unlock a new, better Budibase experience.
 
@@ -131,7 +131,7 @@ Each organization is different, with specific needs. If you’re interested in B
 
 ### Why are you limiting the Free plan for self-hosted users?
 
-Budibase will continue to be free for up to 20 users. Once a company hits the 20-user limit, we believe they’ve reached a point where they’ve experienced a level of value that justifies upgrading.
+Budibase will continue to be free for up to 20 users. Once a company hits the 20 user limit, we believe they’ve reached a point where they’ve experienced a level of value that justifies upgrading.
 
 
 
