@@ -27,7 +27,7 @@ Here’s a quick summary of what will change:
 
 ## The new model
 
-Over the past five months, we’ve talked with customers and users to determine how best to correlate our pricing with the value of Budibase. Consistently, customers and users told us that per-user pricing was not scalable and the value experienced by app creators was disproportionate to the value experienced by app users. We hope you agree the new model is more straightforward, scalable and aligns better with the different levels of value Budibase provides.  
+Over the past five months, we’ve talked with customers and users to determine how best to correlate our pricing with the value of Budibase. Consistently, customers and users told us that per-user pricing was not scalable and the value experienced by app creators was disproportionate to the value experienced by app users. We hope you agree the new model (see image below) is more straightforward, scalable and aligns better with the different levels of value Budibase provides.  
 
 ![new model](https://res.cloudinary.com/daog6scxm/image/upload/v1697032289/cms/pricing/CleanShot_2023-10-11_at_14.50.48_2x_o9qx4v.png)
 
@@ -35,9 +35,9 @@ Over the past five months, we’ve talked with customers and users to determine 
 
 ## FAQs
 
-### What happens to new Budibase users?
+### What happens to new Budibase users after the pricing update?
 
-If you sign up for Budibase or switch to a new plan after the 28th of November, 2023, you’ll have access to our latest plans.
+New users who sign up for Budibase after the 28th of November, 2023, will be on the new pricing.
 
 
 
@@ -63,7 +63,7 @@ Limits have changed:
 
 Your pricing has changed, and limits have increased. 
 
-- The Premium plan will remain and is now available to self-hosted users. 
+- The Premium plan will remain and is now available to self-hosted users. It will be priced as follows:
   - $50 per creator and $5 per app user (paying annually)
   - $60 per creator and $6 per app user (paying monthly)
 - If you pay monthly, you can upgrade or remain on your current plan. On the 1st of April 2024, if you are still on the legacy Premium plan, we will move you to the new Premium Plan. If you pay annually, you will be transferred to the new Premium plan when your contract ends. 
