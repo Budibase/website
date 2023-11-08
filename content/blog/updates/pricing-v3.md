@@ -1,5 +1,5 @@
 ---
-title: Introducing our new pricing plans
+title: Upcoming pricing and limit changes
 description: We're updating our pricing from per-user to a combination of per-user and per-creator.
 type: blog
 layout: single
