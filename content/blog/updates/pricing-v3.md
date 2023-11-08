@@ -67,17 +67,16 @@ Your pricing has changed, and limits have increased.
   - $50 per creator and $5 per app user (paying annually)
   - $60 per creator and $6 per app user (paying monthly)
 - If you pay monthly, you can upgrade or remain on your current plan. On the 1st of April 2024, if you are still on the legacy Premium plan, we will move you to the new Premium Plan. If you pay annually, you will be transferred to the new Premium plan when your contract ends. 
-- The Premium plan is now available to self-hosted users.
 - For Premium plan customers hosting with Budibase Cloud, we’ve increased the internal database record limit to 25,000 and automation run limit to 5,000 - not applicable to Premium plan customers self-hosting. We’ve also increased the duration of backups and automation logs on the Premium plan (Cloud and Self-hosted) from 1 week to 1 month. 
 - The Premium plan will now include email support.
-- The new Premium plan will have Synchronous Automations.
+- The Premium plan will have Synchronous Automations.
 
 #### Business plan:
 
-We will remove the Business plan. Current Business customers may remain on the legacy Business plan until the 31st of March 2024.
+We will remove the Business plan. Current Business customers may remain on the legacy Business plan until the 31st of March 2024, or move to the Enterprise plan.
 
 - If you pay monthly, you can upgrade or remain on your current plan. On the 1st of April 2024, if you are still on the legacy Business plan, we will move you to the new Enterprise plan. To get a new quote, please [get in touch with our sales team](https://budibase.com/contact). If you pay annually, you will be moved to the Enterprise plan when your contract ends. 
-- When moving to the new Enterprise plan, you will benefit from additional features, including enforceable SSO and SCIM. You can also choose from different support options to help scale your deployments.
+- When moving to the new Enterprise plan, you will benefit from additional features, including Enforceable SSO and SCIM. You can also choose from different support options to help scale your deployments.
 - The Business plan will no longer exist for new customers. Its features and functionality will be available within the Enterprise plan.
 
 #### Enterprise plan:
@@ -97,7 +96,7 @@ You will experience little change.
 Community plan accounts with over 20 users (admins, app creators, app users) on older versions (versions before the pricing update) of Budibase will continue to operate as they do today. If you upgrade to a version of Budibase released after the 28th of November 2023 and you’re on the new free plan:
 
 - You will benefit from new features and security updates.
-- You will not be able to add new users. To add new users, you will need to upgrade to a paid plan. To upgrade, please [contact our sales team](https://budibase.com/contact) or upgrade to the new Premium plan within your account portal.
+- You will not be able to add new users (if you're over the 20 user limit). To add new users, you will need to upgrade to a paid plan. To upgrade, please [contact our sales team](https://budibase.com/contact) or upgrade to the new Premium plan within your account portal.
 - You must reduce your user levels to meet the 20-user limit or upgrade to a paid plan.
 
 We want to continue supporting and powering your workflows, and we’re happy to discuss a path that works for both parties - please [contact our sales team](https://budibase.com/contact), and we’ll work with you to unlock a new, better Budibase experience.
