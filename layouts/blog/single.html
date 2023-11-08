@@ -10,13 +10,14 @@
       <div class="container-8 mx-auto">
         <a class="opacity-75 font-weight-medium a-alt" href="/blog/"><- All posts</a>
             <header class="mb-7 mt-6">
-              <span class="opacity-50 text-xs"> {{ .Date.Format .Site.Params.dateform }} </span>
+              <span class="opacity-50 text-xs">
+                Published {{ .Date.Format .Site.Params.dateform }} </span>
               <h1 class="mt-2 mb-4">{{ .Title }}</h1>
               {{ if (.Params.profilePic) }}
             <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
             {{ else }}
             <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
-            {{ end }}{{ .Params.author }}
+            {{ end }}By {{ .Params.author }}
             <hr />
             </header>
 

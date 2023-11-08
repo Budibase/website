@@ -129,7 +129,7 @@ html {
   --border-color-regular: rgba(0, 0, 0, 0.1);
   --text-color-regular: rgb(38, 38, 39);
   --text-color-dark: hsl(200 12% 4%);
-  --hiContrast: hsl(200 12% 4%);
+  --hiContrast: rgb(7, 7, 8);
   --loContrast: white;
   --text-gradient: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, .8));
   --canvas: hsl(0 0% 93%);
@@ -17865,7 +17865,7 @@ button.bg-blue:focus {
     font-size: 1rem;
     line-height: 1.6;
     font-weight: 400;
-    letter-spacing: -.06px;
+    letter-spacing: .4px;
     word-break: break-word;
     overflow-wrap: break-word;
     margin-block-end: 12px;
@@ -17873,14 +17873,17 @@ button.bg-blue:focus {
     margin-top: 16px;
     margin-bottom: 12px;
     color: var(--hiContrast);
+    font-feature-settings: var(--body-font-features);
   }
 
   @media (min-width: 600px) {
     .article p {
       font-family: var(--body-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
       font-size: 1.2rem;
-      line-height: 1.6;
-      font-weight: 400;
+      font-feature-settings: "ss12" on,"liga" on;
+      line-height: 1.5;
+      letter-spacing: 0.4px !important;
+      font-variation-settings: "wdth" 100, "wght" 400;
       letter-spacing: -.05px;
       color: var(--hiContrast);
       word-break: break-word;
@@ -17894,15 +17897,15 @@ button.bg-blue:focus {
 
   .article em {
     color: var(--gray-1100);
-    font-style: italic;
-    font-variation-settings: 'wght' 440;
+    font-variation-settings: 'wght' 440, 'ital' 70;
+    font-family: var(--body-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   }
 
 
   .article h1 {
     font-family: var(--headline-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     text-rendering: optimizeLegibility;
-    font-feature-settings: var(--headline-font-features);
+    font-feature-settings: "ss12" off,"liga" on;
     font-variation-settings: 'wght' 550 !important;
     color: var(--hiContrast);
     font-size: 30px;
@@ -17921,11 +17924,11 @@ button.bg-blue:focus {
   @media (min-width: 800px) {
     .article h1 {
       font-family: var(--headline-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-      font-feature-settings: var(--headline-font-features);
-      font-variation-settings: 'wght' 550 !important;
+      font-feature-settings: "ss12" off,"liga" on;
+      font-variation-settings: 'wght' 620 !important;
       text-rendering: optimizeLegibility;
       color: var(--hiContrast);
-      letter-spacing: -0.2;
+      letter-spacing: -.025em;
       font-size: 48px;
       line-height: 1.25;
     }
@@ -17942,11 +17945,12 @@ button.bg-blue:focus {
 
   .article h2 {
     font-family: var(--headline-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-    font-feature-settings: var(--headline-font-features);
-    font-variation-settings: 'wght' 550 !important;    text-rendering: optimizeLegibility;
+    font-feature-settings: "ss12" off,"liga" on;
+    font-variation-settings: 'wght' 620 !important;    text-rendering: optimizeLegibility;
     margin-top: 3.5rem;
     margin-bottom: .75rem;
     font-size: 26px;
+    letter-spacing: -.025em;
     color: var(--hiContrast);
     line-height: 1.2;
   }
@@ -17963,7 +17967,7 @@ button.bg-blue:focus {
   @media (min-width: 800px) {
   .article h2 {
     font-family: var(--headline-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-    font-feature-settings: var(--headline-font-features);
+    font-feature-settings: "ss12" off,"liga" on;
     font-variation-settings: 'wght' 550 !important;    
     text-rendering: optimizeLegibility;
     margin-top: 3.5rem;
@@ -17988,8 +17992,8 @@ button.bg-blue:focus {
     font-feature-settings: var(--headline-font-features);
     font-variation-settings: 'wght' 550 !important;    
     margin-top: 2rem;
-    font-size: 24px;
-    color: var(--coral);
+    font-size: 28px;
+    color: var(--hiContrast);
     line-height: 1.25;
   }
 
@@ -18010,6 +18014,7 @@ button.bg-blue:focus {
     margin-bottom: .5rem;
     font-size: 24px;
     line-height: 1.25;
+    color: var(--coral);
   }
 
   .article h4::before {
