@@ -45,6 +45,16 @@ New users who sign up for Budibase after the 28th of November, 2023, will be on 
 
 
 
+### Do you offer discounts to non-profits
+
+We are happy to offer a 20% discount to non-profits across all paid plans.  To get a quote specific to your use case, please [get in touch with our sales team](https://budibase.com/contact).
+
+
+
+---
+
+
+
 ### I already have a Budibase account. What’s changing for me?
 
 If you created a Budibase account before the 28th of November, 2023, and have updated to the latest version of Budibase, here’s what has changed for you, broken down by plan type:
