@@ -10,7 +10,7 @@ images:
 customer: Geis
 headcount: 6,600
 Industry: Transport and logistics
-Website: https://www.herrenknecht.com/
+Website: https://www.geis-group.sk/
 author: Julian Izquierdo
 position: Head of IT Support
 ---
