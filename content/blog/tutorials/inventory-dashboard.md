@@ -656,40 +656,23 @@ So, the query is:
 {{< highlight sql "linenos=inline" >}}
 
 WITH MonthlySales AS (
-
- SELECT
-
-  item_name,
-
-  SUM(quantity) AS total_quantity,
-
-  COUNT(DISTINCT DATE_TRUNC('month', date)) AS total_months
-
- FROM
-
-  sales
-
- GROUP BY
-
-  item_name
-
+  SELECT
+    item_name,
+    SUM(quantity) AS total_quantity,
+    COUNT(DISTINCT DATE_TRUNC('month', date)) AS total_months
+  FROM
+    sales
+  GROUP BY
+    item_name
 )
-
 SELECT
-
- i.item_name,
-
- ROUND(COALESCE(SUM(total_quantity) / NULLIF(SUM(total_months), 0), 0)) AS average_monthly_sales
-
+  i.item_name,
+  ROUND(COALESCE(SUM(total_quantity) / NULLIF(SUM(total_months), 0), 0)) AS average_monthly_sales
 FROM
-
- inventory i
-
+  inventory i
 LEFT JOIN MonthlySales s ON i.item_name = s.item_name
-
 GROUP BY
-
- i.item_name;
+  i.item_name;
 
 {{< /highlight >}}
 

@@ -440,9 +440,9 @@ Next, we want to build a very similar UI for data around our *shipments* table. 
 And we’ll work our way down the screen swapping out the data - starting with our cards. So, on this screen we want four cards, to display this month’s:
 
 1. Number of shipments.
-2. Number of consignments per shipment.
-3. Number of items per shipment.
-4. Number of consignments per shipment.
+2. Average number of consignments per shipment.
+3. Average number of items per shipment.
+4. Average number of items per consignment.
 
 Start by duplicating one of our cards again:
 
