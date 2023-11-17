@@ -4,7 +4,7 @@ date = 2020-09-21T00:00:00Z
 description = "Custom software development is the method of building specific software instead of purchasing COTS, commercial off the shelf, software. Within this guide, we will explore custom software development in depth."
 image = "/custom-software-development/world-eating-software.png"
 images = ["/custom-software-development/world-eating-software.png"]
-title = "What is custom software development in 2023"
+title = "What is custom software development in 2024"
 
 +++
 The world is eating software. 🌎 🍴🌐

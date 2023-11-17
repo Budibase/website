@@ -6,7 +6,7 @@ description = "Check out our in-depth guide to ACID compliance."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1683900868/cms/acid-compliance/blog_post_template_2_pypjqy.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1683900868/cms/acid-compliance/blog_post_template_2_pypjqy.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "What is ACID Compliance? 2023 Guide"
+title = "What is ACID Compliance?"
 
 +++
 

@@ -6,7 +6,7 @@ description = "Check out our guide to choosing the perfect data management softw
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1677238457/cms/What_are_Internal_Processes_e0nga6.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1677238457/cms/What_are_Internal_Processes_e0nga6.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Data Management Software Solutions | 2023 Buyer’s Guide"
+title = "Data Management Software Solutions | 2024 Buyer’s Guide"
 
 +++
 

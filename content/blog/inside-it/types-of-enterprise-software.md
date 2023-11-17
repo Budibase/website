@@ -5,7 +5,7 @@ description = "Today we’re diving deep into everything you need to know about 
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1666615092/cms/Types_of_Enterprise_Software_Header_chlvpg.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1666615099/cms/Types_of_Enterprise_Software_Header_uttm5g.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "7 Essential Types of Enterprise Software | 2023 Guide"
+title = "7 Essential Types of Enterprise Software | 2024 Guide"
 
 +++
 In large organizations, demand for digitalization is on an exponential trajectory. However, there’s no single, unitary approach to building tools. Today we’ll explore why as we dive into the essential types of enterprise software.
