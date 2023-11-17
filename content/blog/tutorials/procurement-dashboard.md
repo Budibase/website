@@ -18,6 +18,8 @@ That’s where procurement dashboards come in.
 
 Today, we’re showing how Budibase can be leveraged to turn data into action - including building custom dashboards around all kinds of existing data sets.
 
+{{< youtube Sz8hrRErjFE >}}
+
 ## What is a procurement dashboard?
 
 A dashboard is a real-time reporting UI that connects to an external data source. In other words, it’s a preconfigured report that displays the most up-to-date values for whatever data we build it around.

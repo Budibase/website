@@ -16,6 +16,8 @@ That way, they can make informed decisions in real-time - without the need for m
 
 Today, we’re checking out why Budibase is the ideal solution for building dashboards around all kinds of existing data and complex queries, with minimal custom code.
 
+{{< youtube 5kqF5M6sxD4 >}}
+
 But first, let’s think about a little bit of background.
 
 ## What is an inventory dashboard?

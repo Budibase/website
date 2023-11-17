@@ -479,7 +479,7 @@ WITH AllStockChanges AS (
 
 ​    DATE_TRUNC('month', r.complete_date) AS month_year,
 
-​    -SUM(s.quantity) AS stock_change
+​    SUM(s.quantity) AS stock_change
 
   FROM sales s
 
