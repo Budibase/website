@@ -1,9 +1,9 @@
 +++
 author = "Joe Johnston"
 date = 2019-05-25T00:00:00Z
-description = "Within this post you will find my top 8 exciting web app ideas you will want to steal in 2022. Grab some inspiration, choose your idea, and build your next awesome web app."
+description = "Within this post you will find my top 8 exciting web app ideas you will want to steal in 2024. Grab some inspiration, choose your idea, and build your next awesome web app."
 images = ["/web-app-ideas/web-app-ideas.png"]
-title = " 8 Web App Ideas You'll Want To Steal (2023)"
+title = " 8 Web App Ideas You'll Want To Steal (2024)"
 
 +++
 {{< figure src="/web-app-ideas/web-app-ideas.png" alt="10 web app ideas" >}}

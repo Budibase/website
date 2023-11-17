@@ -1,9 +1,9 @@
 +++
 author = "Joe Johnston"
 date = 2020-03-12T00:00:00Z
-description = "No-code tools are the future. Here are the top 12 picks for 2023."
+description = "No-code tools are the future. Here are the top 12 picks for 2024."
 images = ["/no-code-tools/no-code-tools.png"]
-title = "The 12 best no-code tools in 2023"
+title = "The 12 best no-code tools in 2024"
 
 +++
 No-code tools empower people around the world to build technology without code. Before no-code tools, building a simple web application was a challenging task, and often left to developers. Thankfully, this is not the case anymore. While no-code tools cannot solve all technical challenges, having the right no-code stack can undoubtedly help you get certain jobs done a lot faster, easier, and cheaper.
