@@ -16,6 +16,8 @@ Dashboards are the perfect solution for furnishing teams with repeatable reporti
 
 Today, we’re going to see how Budibase can be used to build custom dashboards around existing data sources - saving your team hours of development work at the same time.
 
+{{< youtube pK6j8n_fqD4 >}}
+
 But first, let’s get a little bit of background.
 
 ## What is a warehouse dashboard?

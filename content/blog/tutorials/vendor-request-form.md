@@ -17,6 +17,8 @@ Today, we’re checking out how you can use Budibase to digitalize your vendor r
 
 By the end of this tutorial, you’ll have a fully customizable multi-step form - that you can even host on your website.
 
+{{< youtube qDXfm4ZUa5Y >}}
+
 But first, let’s think about a little bit of background.
 
 ## What is a vendor request form?
