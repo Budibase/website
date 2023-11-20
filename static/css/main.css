@@ -129,7 +129,7 @@ html {
   --border-color-regular: rgba(0, 0, 0, 0.1);
   --text-color-regular: rgb(38, 38, 39);
   --text-color-dark: hsl(200 12% 4%);
-  --hiContrast: rgb(7, 7, 8);
+  --hiContrast: #070708;
   --loContrast: white;
   --text-gradient: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, .8));
   --canvas: hsl(0 0% 93%);
