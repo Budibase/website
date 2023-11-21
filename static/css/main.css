@@ -17879,7 +17879,7 @@ button.bg-blue:focus {
   @media (min-width: 600px) {
     .article p {
       font-family: var(--body-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       font-feature-settings: "ss12" on,"liga" on;
       line-height: 1.5;
       letter-spacing: 0.4px !important;
