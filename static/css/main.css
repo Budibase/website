@@ -17861,9 +17861,9 @@ button.bg-blue:focus {
 
 
   .article p {
-    font-family: InstrumentSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-family: var(--body-font);
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 1.5;
     font-weight: 400;
     letter-spacing: .4px;
     word-break: break-word;
@@ -17873,18 +17873,18 @@ button.bg-blue:focus {
     margin-top: 16px;
     margin-bottom: 12px;
     color: var(--hiContrast);
-    font-feature-settings: var(--body-font-features);
+    font-variation-settings: "wdth" 100, "wght" 400;
+    font-feature-settings: "ss12" on,"liga" on;
   }
 
   @media (min-width: 600px) {
     .article p {
-      font-family: var(--body-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+      font-family: var(--body-font);
       font-size: 1.1rem;
       font-feature-settings: "ss12" on,"liga" on;
       line-height: 1.5;
       letter-spacing: 0.4px !important;
       font-variation-settings: "wdth" 100, "wght" 400;
-      letter-spacing: -.05px;
       color: var(--hiContrast);
       word-break: break-word;
       overflow-wrap: break-word;
