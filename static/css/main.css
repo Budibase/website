@@ -7660,9 +7660,9 @@ ul {
 .btn {
   display: inline-block;
   font-family: var(--body-font);
-  font-variation-settings: "wght" 550 !important;
+  font-variation-settings: "wght" 580 !important;
   font-feature-settings: var(--body-font-features);
-  letter-spacing: -0.003em;
+  letter-spacing: 0em;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7795,15 +7795,15 @@ fieldset:disabled a.btn {
 .btn-secondary {
   color: var(--hiContrast);
   background: var(--loContrast);
-  border: 1px solid var(--gray-800) !important;
+  border: 1px solid var(--gray-600) !important;
   transition: all 200ms ease-in-out;
+  cursor: pointer;
 }
 
 .btn-secondary:hover {
   color: var(--hiContrast);
-  background: var(--beige);
-  border: 1px solid var(--hiContrast) !important;
-  cursor: pointer;
+  background: var(--beige-light);
+  border: 1px solid var(--gray-600) !important;
 }
 
 .btn-secondary:focus,
