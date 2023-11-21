@@ -1791,12 +1791,15 @@ mark,
 }
 
 code {
-  color: var(--loContrast);
-  font-size: .8rem;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
   font-weight: 400;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin: 0 2px;
 }
 
-a>code {
+a > code {
   color: inherit;
 }
 
@@ -1833,18 +1836,22 @@ pre {
 }
 
 p>code,
-td>code {
+td>code,
+li>code {
   background: var(--beige-light);
-  color: var(--blue-900);
+  border: 1px solid var(--beige);
+  color: var(--forestgreen);
   font-family: "Roboto Mono", monospace;
   font-size: 1rem;
   font-weight: 400;
-  padding: 0.2rem 0.4em;
+  padding: 2px 4px;
   border-radius: 4px;
+  margin: 0 2px;
 }
 
 pre>code {
   font-family: "Roboto Mono", monospace;
+  color: white;
 }
 
 .pre-scrollable {
