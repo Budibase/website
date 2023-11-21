@@ -7802,8 +7802,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary:hover {
   color: var(--hiContrast);
-  background: var(--beige-light);
-  border: 1px solid var(--gray-600) !important;
+  background: var(--loContrast);
+  border: 1px solid var(--gray-800) !important;
 }
 
 .btn-secondary:focus,
