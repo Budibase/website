@@ -5744,6 +5744,7 @@ ul {
     "description description";
   border-radius: 8px;
   background: var(--beige-light);
+  border: 1px solid var(--beige);
   padding: 24px;
   transition: background 70ms ease 0s, border;
   grid-row-gap: 8px;
@@ -5789,7 +5790,7 @@ ul {
   margin-left: 12px;
   color: var(--hiContrast);
   font-weight: 500 !important;
-  font-variation-settings: "wght" 500  ;
+  font-variation-settings: "wght" 500;
   font-size: 16px;
   display: block;
   line-height: 1.5;
@@ -5803,6 +5804,8 @@ ul {
   grid-area: description;
   color: var(--hiContrast);
   font-weight: 400;
+  font-variation-settings: "wght" 400;
+  font-feature-settings: var(--body-font-features);
   font-size: 14px;
   line-height: 1.7;
   min-height: 48px;
@@ -17878,7 +17881,7 @@ button.bg-blue:focus {
     margin-block-start: 8px;
     margin: 16px 0px;
     display: block;
-    color: var(--hiContrast);
+    color: var(--text-color-regular);
     font-variation-settings: "wdth" 100, "wght" 420;
     font-feature-settings: "ss12" on,"liga" on;
   }
@@ -17890,7 +17893,7 @@ button.bg-blue:focus {
       font-size: 1.05rem;
       line-height: 28px;
       font-variation-settings: "wdth" 100, "wght" 420;
-      color: var(--hiContrast);
+      color: var(--text-color-regular);
       word-break: break-word;
       overflow-wrap: break-word;
       margin-block-end: 10px;
@@ -18037,7 +18040,7 @@ button.bg-blue:focus {
     margin-bottom: .5rem;
     font-variation-settings: 'wght' 550;
     font-size: 20px;
-    color: var(--hiContrast);
+    color: var(--text-color-regular);
     line-height: 1.1;
   }
 
@@ -18050,7 +18053,7 @@ button.bg-blue:focus {
     overflow-wrap: break-word;
     margin-top: 4px;
     margin-bottom: 4px;
-    color: var(--hiContrast);
+    color: var(--text-color-regular);
   }
 
   @media (min-width: 600px) {
