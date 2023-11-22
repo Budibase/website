@@ -16,6 +16,8 @@ Today, we’re exploring how Budibase empowers teams to build custom dashboards 
 
 Along the way, we’ll see how we can create and save custom queries to transform data and present the results in professional UIs, with minimal design skills.
 
+{{< youtube bEE-cy_MhOM >}}
+
 But first, a bit of background.
 
 ## What is a supply chain dashboard?
