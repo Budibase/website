@@ -17880,25 +17880,24 @@ button.bg-blue:focus {
     margin-top: 16px;
     margin-bottom: 12px;
     color: var(--hiContrast);
-    font-variation-settings: "wdth" 100, "wght" 400;
+    font-variation-settings: "wdth" 100, "wght" 420;
     font-feature-settings: "ss12" on,"liga" on;
   }
 
   @media (min-width: 600px) {
     .article p {
       font-family: var(--body-font);
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       font-feature-settings: "ss12" on,"liga" on;
       line-height: 1.5;
-      letter-spacing: 0.4px !important;
-      font-variation-settings: "wdth" 100, "wght" 400;
+      letter-spacing: .025em !important;
+      font-variation-settings: "wdth" 100, "wght" 410;
       color: var(--hiContrast);
       word-break: break-word;
       overflow-wrap: break-word;
-      margin-block-end: 12px;
-      margin-block-start: 16px;
-      margin-top: 16px;
-      margin-bottom: 12px;
+      margin-block-end: 14px;
+      margin-block-start: 14px;
+      margin: 28px 0px;
     }
   }
 
@@ -18046,27 +18045,25 @@ button.bg-blue:focus {
   .article li {
     font-family: var(--body-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 1.5;
     font-weight: 400;
-    letter-spacing: -.06px;
     word-break: break-word;
     overflow-wrap: break-word;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     color: var(--hiContrast);
   }
 
   @media (min-width: 600px) {
     .article li {
       font-family: InstrumentSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       font-weight: 400;
-      letter-spacing: -.05px;
       color: var(--hiContrast);
       word-break: break-word;
       overflow-wrap: break-word;
-      margin-top: 2px;
-      margin-bottom: 2px;
+      margin-top: 4px;
+      margin-bottom: 4px;
     }
   }
 
