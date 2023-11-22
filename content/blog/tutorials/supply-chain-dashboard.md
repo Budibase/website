@@ -2,8 +2,8 @@
 author = "Ronan McQuillan"
 date = 2023-11-10
 description = "Check out our tutorial on how to build a supply chain dashboard."
-image = "https://res.cloudinary.com/daog6scxm/image/upload/v1699624318/cms/supply-chain-dashboard/Supply_Chain_Dashboard_r5omhg.png"
-images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1699624318/cms/supply-chain-dashboard/Supply_Chain_Dashboard_r5omhg.png"]
+image = "https://res.cloudinary.com/daog6scxm/image/upload/v1700660306/cms/supply-chain-dashboard/Supply_Chain_dashboard_xhwydh.png"
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1700660306/cms/supply-chain-dashboard/Supply_Chain_dashboard_xhwydh.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "How to Build a Supply Chain Dashboard"
 +++
