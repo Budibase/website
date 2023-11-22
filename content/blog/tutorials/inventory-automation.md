@@ -22,6 +22,8 @@ Specifically, we’re going to build an application to track and collate stock l
 
 We’ll also add an admin panel UI so that users can check stock, track stock changes, and restock items by emailing the vendor.
 
+{{< youtube H0vGIY-JqGM >}}
+
 But first, let’s check out a little bit of background information. 
 
 ## What is inventory automation?
