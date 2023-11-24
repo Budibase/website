@@ -1236,7 +1236,8 @@ a:focus {
 .noise {
   /* ... */
   background-image: 
-    url(https://arc.net/noise-light.png);
+    url(https://res.cloudinary.com/daog6scxm/image/upload/v1700862837/wallpapers/gggrain_soi6nz.svg);
+    background-size: cover;
 
 }
 
