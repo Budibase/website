@@ -4752,7 +4752,7 @@ details[open]>summary {
 }
 
 .price-text {
-  font-size: 18px;
+  font-size: 19px;
   color: var(--hiContrast);
   line-height: 1;
   font-family: 'InstrumentSans' sans-serif;
@@ -7670,9 +7670,9 @@ ul {
 .btn {
   display: inline-block;
   font-family: var(--body-font);
-  font-variation-settings: "wght" 550 !important;
+  font-variation-settings: "wght" 580 !important;
   font-feature-settings: var(--body-font-features);
-  letter-spacing: -0.003em;
+  letter-spacing: 0em;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7805,15 +7805,15 @@ fieldset:disabled a.btn {
 .btn-secondary {
   color: var(--hiContrast);
   background: var(--loContrast);
-  border: 1px solid var(--gray-800) !important;
+  border: 1px solid var(--gray-600) !important;
   transition: all 200ms ease-in-out;
+  cursor: pointer;
 }
 
 .btn-secondary:hover {
   color: var(--hiContrast);
-  background: var(--beige);
-  border: 1px solid var(--hiContrast) !important;
-  cursor: pointer;
+  background: var(--loContrast);
+  border: 1px solid var(--gray-800) !important;
 }
 
 .btn-secondary:focus,
@@ -7995,21 +7995,18 @@ select {
 
 
 .btn-quiet {
-  color: var(--gray-1300);
+  color: var(--gray-1100);
   background-color: transparent;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
 }
 
 .btn-quiet:hover {
   color: var(--hiContrast);
-  background-color: var(--light3);
-  border: 2px solid var(--light3);
+  background-color: transparent;
+  border: 1px solid transparent;
 }
 
-.btn-quiet:focus,
-.btn-secondary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
-}
+
 
 @media (max-width: 600px) {
   .btn-lg {
@@ -9484,8 +9481,12 @@ button.close {
 }
 
 .dotted-underline {
-  border-bottom: 1px dotted var(--gray-700);
   cursor: pointer;
+  text-decoration: dashed var(--gray-900);
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.0650rem;
+  text-underline-offset: 0.45rem;
+
 }
 .dotted-background {
   background-image: radial-gradient(var(--indigo-light), var(--indigo-light) 15%, transparent 15%);
