@@ -10,7 +10,7 @@ icon = "/img/icon/app.svg"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642426950/cms/Car_Rental_Admin_Panel_Gif_lt6sww.gif"
 summary = "Our car rental admin panel is built to improve oversight, cut operating costs, and streamline admin workflows."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642517413/cms/Car_Rental_Admin_Panel_Thumbnail_New_x2bhcv.png"
-thumbnailColor = "yellow"
+thumbnailColor = "coral"
 title = "Car Rental Admin Panel Template | Budibase"
 type = "templates"
 

@@ -2,8 +2,8 @@
 author = "Ronan McQuillan"
 date = 2023-11-02
 description = "Follow our guide to building inventory automations with Budibase."
-image = "https://res.cloudinary.com/daog6scxm/image/upload/v1698943521/cms/inventory-automation/Inventory_Automation_efjjzq.png"
-images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1698943521/cms/inventory-automation/Inventory_Automation_efjjzq.png"]
+image = "https://res.cloudinary.com/daog6scxm/image/upload/v1700660239/cms/inventory-automation/Inventory_automations_z6vz6z.png"
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1700660239/cms/inventory-automation/Inventory_automations_z6vz6z.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "How to Build Inventory Automations with Budibase"
 +++
@@ -21,6 +21,8 @@ Today, we’re checking out how we can use Budibase to build custom automation s
 Specifically, we’re going to build an application to track and collate stock levels based on sales, returns, and procurement. 
 
 We’ll also add an admin panel UI so that users can check stock, track stock changes, and restock items by emailing the vendor.
+
+{{< youtube H0vGIY-JqGM >}}
 
 But first, let’s check out a little bit of background information. 
 
