@@ -18,6 +18,8 @@ Today, we’re going to see how Budibase can be used to create professional inte
 
 By the end, you’ll have a clear working understanding of how to use our open-source, low-code platform to output custom solutions based on your own internal workflows.
 
+{{< youtube 9-DJ4l5LCnQ >}}
+
 But first, let’s think about a bit of background.
 
 ## What is an inventory calculator

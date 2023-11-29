@@ -16,6 +16,8 @@ Any time we set out to build dashboards, the biggest challenge is getting all of
 
 Today, we’re checking out how Budibase makes it easier than ever to output professional dashboards based on existing data sources.
 
+{{< youtube 5E-_77p5kpo >}}
+
 But, before we get to that, let’s get to grips with the basics.
 
 ## What is a manufacturing dashboard
