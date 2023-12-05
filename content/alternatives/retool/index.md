@@ -58,44 +58,27 @@ But this isn’t really where Retool shines. See, in many cases, the technical b
 
 That leads us to our next question.
 
+||||||||||
+
 ## Why would you look for a Retool alternative?
 If you’re here today, one of two things is happening. Either you’re currently using Retool and looking to switch to a competitor - or you’re weighing up your options without ever adopting a low-code platform.
 
 In either case, it’s important to be familiar with the areas where Retool falls short.
 
-These include the following.
+These include the following:
 
-### Closed-source code
-Retool is entirely closed-source. This means that their source code is not publicly visible. Unfortunately, this means it’s also not easily audited by security teams.
-
-This is inherently problematic for many businesses as they will be connecting Retool to their production databases - without full transparency about what it contains.
-
-The same issue applies to hosting opaque code on your infrastructure. We’ll see a couple of open-source Retool alternatives a little later.
-
-### Prohibitive pricing
-For many businesses, Retool’s pricing also makes it unviable. Like most other vendors in this space, Retool operates on a per-user basis, with separate billing for app developers and end users.
-
-However, in Retool’s case, this is comparatively restrictive regarding user limits and functionality. For example, their business tier is limited to 25 users - while features like SSO and custom branding are limited to the enterprise tier.
-
-### No custom data sources
-Retool offers a strong range of native data connectors but no support for custom data sources. This can be especially problematic in large organizations, which need to build internal tools around legacy or esoteric data. Such businesses will need to look for solutions that offer more flexibility and extensibility.
-
-### Self-hosted functionality
-Retool is often slow in terms of rolling new functionality out to the self-hosted version. Users often experience long delays between features being released on the cloud version and them becoming available on self-hosted instances. Obviously, it can be a major cause of frustration if you need to self-host for security reasons - only to miss out on mission-critical functionality.
-
-### Security concerns
-Retool suffered major reputational damage in August 2023 after being the victim of a significant data breach, resulting from a phishing attack.Multiple user accounts were compromised, resulting in sensitive data being leaked. This allegedly cost one customer as much as $15 million.
+||||||||||
 
 ## 6 Retool Alternatives for 2024
 With that bit of context out of the way, we can start to think about some of the best platforms to bridge this gap as alternatives to Retool.
 
 We’ve chosen six tools from different points across the low-code market:
-1. Budibase
-2. Mendix
-3. OutSystems
-4. Appian
-5. Power Apps
-6. App Sheet
+1. [Budibase](#1-budibase)
+2. [Mendix](#2-mendix)
+3. [OutSystems](#3-outsystems)
+4. [Appian](#4-appian)
+5. [PowerApps](#5-power-apps)
+6. [AppSheet](#6-appsheet)
 
 Let’s jump right in.
 
@@ -107,6 +90,8 @@ Budibase is an open-source, low-code platform that helps teams turn data into ac
 Thousands of companies in all kinds of industries choose Budibase to save time and money building internal tools that integrate seamlessly with any workflow.
 
 We will do a fuller comparison of Budibase and Retool a little later. For now, here’s what makes our platform tick.
+
+![Budibase design platform interface](https://res.cloudinary.com/daog6scxm/image/upload/v1680181644/ui/homepage-design-ui_sizp7b.webp)
 
 
 ### Features
@@ -127,8 +112,6 @@ Check out our [product overview](https://budibase.com/product/) to learn more.
 
 {{< cta >}}
 
-||||||||||
-
 ## 2. Mendix
 Mendix is one of the oldest names in the low-code space. Like Retool, the goal is to expedite internal tool projects - but with an even heavier slant towards professional developers.
 
@@ -142,6 +125,8 @@ One of the really big selling points here is Mendix’s built-in IDE - Mendix St
 Mendix is also a strong offering in terms of extensibility. Like any low-code platform, there is a large number of integration options available. What sets Mendix apart, however, is its SDK which facilitates a huge range of admin, analysis, and legacy modernization actions.
 
 Lastly, Mendix has a large, active community of developers. This means that there is an abundance of resources for expanding capabilities, solving key pain points, and generally maximizing value from the platform.
+
+![Mendix image](https://res.cloudinary.com/daog6scxm/image/upload/v1701788478/cms/alternatives/Mendix_o247iy.webp)
 
 ### Cons
 Compared to Retool - and other alternatives - Mendix presents a relatively high technical skills barrier for developing solutions. Low-code is a spectrum and Mendix sits towards the code-reliant end, particularly when it comes to creating more sophisticated applications.
@@ -159,12 +144,13 @@ Basic and standard charge $50 and $800 per month for five users respectively, pl
 
 If you want to build multiple applications, the cheapest paid option is the standard tier at $2000 per month, plus each additional user. This is a large jump from an already expensive license, creating real issues with scalability.
 
-||||||||||
-
 ## 3. OutSystems
 OutSystems is another veteran in the low-code market. Like Mendix, it’s heavily focused on development teams within enterprises. Unlike Mendix, OutSystems isn’t fully open-source. However, their Forge repository provides a helpful resource for community contributions and extensions.
 
 Given its enterprise focus, OutSystems is built with more complex full-stack development processes in mind. So, it offers a range of dedicated tools around things like testing, user management, and data modeling. 
+
+![Outsystems image](https://res.cloudinary.com/daog6scxm/image/upload/v1701788478/cms/alternatives/OutSystems_ne26bn.webp)
+
 
 ### Pros
 One particular area where OutSystems really shines multi-platform development. Like most low-code platforms, it’s an effective tool for building cloud-native web applications - but it’s also highly suited to native app development for Android and iOS.
@@ -187,12 +173,12 @@ A license for multiple applications starts from $1513 per month, with no limit o
 
 To access these features, you’ll need to opt for custom pricing. Therefore, OutSystems is likely to be prohibitively expensive for many organizations - as well as being difficult to demo, validate, or scale.
 
-||||||||||
-
 ## 4. Appian
 Appian is a departure from some of our other Retool alternatives. It’s still primarily aimed at enterprise customers, but this time the target users are primarily business users, rather than specialist developers.
 
 In line with this, the core functionality is more aimed at process transformation than application development per se. Although, there’s obviously a lot of overlap between these and, in practice, the end solutions might be very similar.
+
+![Appian website](https://res.cloudinary.com/daog6scxm/image/upload/v1701788479/cms/alternatives/Appian_wmf5ys.webp)
 
 ### Pros
 Appian is one of the most attractive options here in the realm of process automation - with a range of native tools around process orchestration, robotic process automation, AI modeling, and API integration. This is all centered around a diagram-based process builder.
@@ -217,47 +203,46 @@ The Application tier is priced per user - with three different user types - stan
 
 A paid license is required to access self-hosting, along with other key enterprise features.
 
-||||||||||
-
-
-## 5. Power Apps
-Microsoft’s offering, Power Apps, is probably the most ubiquitous player in the low-code market. 
+## 5. PowerApps
+Microsoft’s offering, PowerApps, is probably the most ubiquitous player in the low-code market. 
 
 As you might expect, this is an attractive option for businesses that are highly embedded in the Microsoft ecosystem - with close integrations with tools like SharePoint, Dynamics, SQL Server, and Power BI.
 
-However, Power Apps developers tend to be platform specialists - and it doesn’t exactly have a reputation for being easy to get to grips with.
+However, PowerApps developers tend to be platform specialists - and it doesn’t exactly have a reputation for being easy to get to grips with.
+
+![PowerApps website image](https://res.cloudinary.com/daog6scxm/image/upload/v1701788481/cms/alternatives/PowerApps_n1s2xt.png)
 
 ### Pros
 Microsoft provides a vast number of sample applications and templates to help kick-start projects. This is obviously a big benefit if you want to build applications around relatively generic business processes.
 
 Close integration with the rest of the Microsoft ecosystem can also be a major selling point, particularly if your business is already heavily reliant on Excel, Power BI, Dynamics, or other Microsoft platforms.
 
-Power Apps uses a proprietary language called Power Fx to handle application logic. This is derived from Visual Basic, meaning that it will be relatively familiar to business users with a high skill level in Excel.
+PowerApps uses a proprietary language called Power Fx to handle application logic. This is derived from Visual Basic, meaning that it will be relatively familiar to business users with a high skill level in Excel.
 
 ### Cons
-The biggest detractor from Power Apps is its steep learning curve. For example, learning Power Fx properly takes time - whereas other Retool competitors allow you to simply jump in with more common languages like JavaScript.
+The biggest detractor from PowerApps is its steep learning curve. For example, learning Power Fx properly takes time - whereas other Retool competitors allow you to simply jump in with more common languages like JavaScript.
 
-On top of this, Power Fx is fairly notorious for being strict on syntax and formatting. Many users report problems with getting Power Apps to do what they want when creating complex logic.
+On top of this, Power Fx is fairly notorious for being strict on syntax and formatting. Many users report problems with getting PowerApps to do what they want when creating complex logic.
 
-Since Power Apps isn’t a standalone tool, but a part of the wider Power suite, relatively simple tasks like connecting new data sources can also be fairly convoluted - especially compared to other solutions in this class.
+Since PowerApps isn’t a standalone tool, but a part of the wider Power suite, relatively simple tasks like connecting new data sources can also be fairly convoluted - especially compared to other solutions in this class.
 
 You’ll also need a license for Power Automate if you want to handle business logic effectively.
 
 ### Pricing
-Another key reason for Power Apps’ ubiquity is its affordable, simple pricing model. There’s just one paid tier - billed at $20 per user per month. However, related services like Power Pages and AI Builder are billed separately.
+Another key reason for PowerApps’ ubiquity is its affordable, simple pricing model. There’s just one paid tier - billed at $20 per user per month. However, related services like Power Pages and AI Builder are billed separately.
 
-Power Apps Premium comes with unlimited application projects, although there are other service limits - including database storage in the Microsoft Dataverse platform.
+PowerApps Premium comes with unlimited application projects, although there are other service limits - including database storage in the Microsoft Dataverse platform.
 
 There’s also no pricing distinction between end users and developers - all users are billed on the same basis.
-
-||||||||||
 
 ## 6. AppSheet
 Finally, we have AppSheet - Google’s offering in the low-code space. 
 
-So, like Power Apps, there’s a clear bias towards the vendor’s wider ecosystem. However, out of all of the Retool alternatives we’ve seen - it’s the most suited for non-technical users who want to build applications.
+So, like PowerApps, there’s a clear bias towards the vendor’s wider ecosystem. However, out of all of the Retool alternatives we’ve seen - it’s the most suited for non-technical users who want to build applications.
 
 AppSheet’s developer experience is tightly focused on combining no-code with Google’s proprietary AI tools.
+
+![AppSheet website image](https://res.cloudinary.com/daog6scxm/image/upload/v1701788479/cms/alternatives/AppSheet_qzknxh.webp)
 
 ### Pros
 With AppSheet, it’s possible for non-techincal colleagues to output working applications in just a few minutes using data contained in a spreadsheet or external SaaS platform, like Salesforce.
@@ -279,8 +264,6 @@ AppSheet is free for up to 10 users. Beyond this, there are four paid tiers - St
 You’ll need to opt for custom pricing through Enterprise Standard or Enterprise Plus in order to leverage external databases, SaaS platforms, or APIs as data for your applications.
 
 So, for anything but the most simple applications, AppSheet has the potential to be a very expensive option.
-
-||||||||||
 
 ## Retool vs Budibase
 Now that we’ve seen a range of options from across the low-code market, it’s time to dive deep into how Budibase and Retool stack up. 
@@ -313,8 +296,6 @@ We offer free SSO across the board, custom branding for non-enterprise customers
 
 Budibase also makes the process of self-hosting considerably easier than Retool - with a wider range of supported methods, including Ansible, Azure, Digital Ocean, Kubernetes, Podman, Linode, Portainer, and more - whereas Retool only supports Docker and AWS.
 
-||||||||||
-
 ## How to choose a Retool alternative
 So, to wrap up, we want to outline a few key decision points. After all, we have a horse in the race, but it’s not realistic to think any single platform would be right for every buyer.
 
@@ -333,7 +314,7 @@ The other issue we need to consider under budgeting is where specific pieces of 
 
 One way to approach this is to distinguish between requirements and nice-to-haves. Focusing on firm requirements - for instance, SSO, SCIM, air-gapped deployments, or multi-player collaboration - gives us an unambiguous point of comparison when it comes to budgeting.
 
-### Open-source/Source-available vs closed-source
+### Source-available vs closed-source
 This is perhaps the biggest cleavage across the market for Retool alternatives. Transparent, auditable code is also a potential deal breaker - especially for enterprises or users in security-first organizations more broadly.
 
 Here’s a summary of how this breaks up:
