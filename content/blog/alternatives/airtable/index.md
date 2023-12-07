@@ -2,8 +2,8 @@
 date: 2023-12-06
 title: Top 5 Airtable Alternatives & Competitors in 2024
 description: Take a look at our round-up of the top alternatives to Airtable that could improve your internal workflows and save you time.
-image: "https://res.cloudinary.com/daog6scxm/image/upload/v1701356335/cms/alternatives/meta_retool_alts_kew9ly.png"
-cover: "https://res.cloudinary.com/daog6scxm/image/upload/v1701359841/cms/alternatives/retool_alts_dark_narrow_sfeis5.webp"
+image: "https://res.cloudinary.com/daog6scxm/image/upload/v1701876144/cms/alternatives/airtable_meta_xp99xm.png"
+cover: "https://res.cloudinary.com/daog6scxm/image/upload/v1701875774/cms/alternatives/airtable-header_armrqa.webp"
 type: alternatives
 layout: airtable
 author: Ronan McQuillan
