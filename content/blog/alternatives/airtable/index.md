@@ -92,6 +92,8 @@ In particular, Airtable users will love Budibase’s data grids. Use a powerful 
 
 Finally, we give our users complete control over how and where they deploy their workflow applications. Use Budibase Cloud or deploy to your own infrastructure, using Kubernetes, Docker, Digital Ocean, Linode, Portainer, and more.
 
+![Budibase design platform interface](https://res.cloudinary.com/daog6scxm/image/upload/v1680181644/ui/homepage-design-ui_sizp7b.webp)
+
 ### Use cases
 Budibase users choose our platform to handle all kinds of workflows, including requests/approvals, data entry, CRUD operations, information management, self-service tasks, and more.
 
@@ -112,6 +114,8 @@ Our Premium tier bills at $50 per month for creators and $5 for end users, compl
 SmartSheet is more of a direct Airtable competitor. It’s another tool that seeks to introduce more advanced functionality on top of a familiar spreadsheet interface. Like Airtable, it also provides functionality around interface design, workflow automation, and data centralization.
 
 However, it skews more heavily toward task, workload, and project management, whereas Airtable is more suited to a wider range of use cases and applications.
+
+![Smartsheet website](https://res.cloudinary.com/daog6scxm/image/upload/v1701964769/cms/alternatives/SmartSheet_od0l6i.png)
 
 ### Pros
 Like Airtable, SmartSheet offers an extensive range of direct integrations with SaaS tools - like SalesForce, Slack, DropBox, and Teams. The goal is, similarly, to provide a centralized platform for interacting with relevant data within workflows.
@@ -139,6 +143,7 @@ Like Airtable, NocoDB aims to combine the power and functionality of traditional
 
 It’s also fully open-source - which is a clear differentiator from Airtable.
 
+![Nocodb ui](https://res.cloudinary.com/daog6scxm/image/upload/v1701964768/cms/alternatives/NocoDB_fw8qdx.png)
 
 ### Pros
 NocoDB’s core selling point is enabling teams to easily collaborate on large data sets - while eliminating some of the issues that come along with traditional spreadsheets - including poor centralization, human error, inefficiencies, and inaccuracy.
@@ -166,6 +171,8 @@ AppSheet is another one of Google’s offerings. This time, it’s their no-code
 
 It offers a relatively clean, intuitive interface for creating UIs based on spreadsheets or other connected data.
 
+![Appsheet ui](https://res.cloudinary.com/daog6scxm/image/upload/v1701788479/cms/alternatives/AppSheet_qzknxh.webp)
+
 ### Pros
 AppSheet makes it incredibly easy to build working tools on top of spreadsheets or external SaaS data, without needing to write any custom code. A simple, effective drag-and-drop interface for adding and configuring UI components exists.
 
@@ -191,6 +198,8 @@ Therefore, AppSheet is likely to be prohibitively expensive if you want to build
 Creator is Zoho’s low-code offering. It positions itself as a solution for business users to collaborate with IT when building custom tools on top of internal data assets. 
 
 Like Airtable, it’s built around an online internal database that can be easily configured and managed, without needing to write extensive custom queries.
+
+![Zoho creator website](https://res.cloudinary.com/daog6scxm/image/upload/v1701964768/cms/alternatives/ZohoCreator_vubfr9.png)
 
 ### Pros
 One of Zoho Creator’s biggest selling points is the ease of pulling in data from a diverse range of touchpoints, including CRMs, task management tools, service desks, and more. This is a really effective solution for creating unified, centralized insights.
