@@ -295,7 +295,7 @@ In line with this, it’s important to understand that each of the platforms we�
 
 For example, Airtable and SmartSheet aim primarily at teams that would otherwise be handling internal processes using spreadsheets or struggling to make sense of information from disparate external platforms - although database support is available for premium users.
 
-Google Sheets and AppSheet target users who want to continue using spreadsheets, but add additional sophistication and capabilities on top of these.
+NocoDB and AppSheet target users who want to continue using spreadsheets, but add additional sophistication and capabilities on top of these.
 
 Finally, Budibase and Zoho Creator offer solutions that are more in line with the reality of most modern businesses’ data operations - seeking instead to offer fast, flexible experiences for building applications and workflows to enable colleagues to fully leverage existing data assets.
 
@@ -315,7 +315,7 @@ Here’s a summary of how our Airtable alternatives break up in this regard:
 ## Creator personas
 Lastly, we want to consider the kinds of colleagues that will ultimately be responsible for building solutions in whichever platform we choose.
 
-We can think of this as a spectrum. On the one hand, we have platforms like Google Sheets and AppSheet, which are firmly aimed at on-the-ground employees who need an easy way to manage data within relatively small-scale processes.
+We can think of this as a spectrum. On the one hand, we have platforms like NocoDB and AppSheet, which are firmly aimed at on-the-ground employees who need an easy way to manage data within relatively small-scale processes.
 
 Airtable and SmartSheet don’t introduce much more in the way of technical skills barriers for colleagues that need to manage slightly larger scale, more complex internal processes - particularly departmental leaders and project managers.
 
