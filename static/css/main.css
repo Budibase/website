@@ -3750,7 +3750,7 @@ pre>code {
   }
 }
 
-.InstrumentSansnal-db {
+.Internal-db {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -6857,12 +6857,12 @@ ul {
   }
 }
 
-.InstrumentSansnal-tool-contain-container {
+.Internal-tool-contain-container {
   display: flex;
   flex-direction: column;
 }
 
-.InstrumentSansnal-tools-chapters {
+.Internal-tools-chapters {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
@@ -6875,7 +6875,7 @@ ul {
 }
 
 @media (max-width: 760px) {
-  .InstrumentSansnal-tools-chapters {
+  .Internal-tools-chapters {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -6887,7 +6887,7 @@ ul {
 }
 
 
-.InstrumentSansnal-tools-chapter {
+.Internal-tools-chapter {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -6897,7 +6897,7 @@ ul {
   transition: all 200ms ease-in-out;
 }
 
-.InstrumentSansnal-tools-chapter:hover {
+.Internal-tools-chapter:hover {
   cursor: pointer;
   border-radius: 12px;
   border: 1px var(--gray-700) solid;
@@ -7004,7 +7004,7 @@ ul {
   color: var(--gray-600);
 }
 
-.InstrumentSansnal-tools-title-container {
+.Internal-tools-title-container {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
@@ -7013,13 +7013,13 @@ ul {
 }
 
 @media (min-width: 800px) {
-  .InstrumentSansnal-tools-title-container {
+  .Internal-tools-title-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
 
-.InstrumentSansnal-tools-title-image {
+.Internal-tools-title-image {
   height: 400px;
 }
 
