@@ -18342,7 +18342,7 @@ button.bg-blue:focus {
     margin-bottom: .5rem;
     font-size: 20px;
     line-height: 1.25;
-    color: var(--coral);
+    color: var(--hiContrast);
   }
 
   .article h4::before {
@@ -18360,7 +18360,7 @@ button.bg-blue:focus {
     margin-bottom: .5rem;
     font-variation-settings: 'wght' 550;
     font-size: 16px;
-    color: var(--text-color-regular);
+    color: var(--coral);
     line-height: 1.1;
   }
 
