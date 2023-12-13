@@ -23,7 +23,7 @@ Specifically, we’re going to cover:
 - [Why would you need an Airtable alternative?](#why-would-you-need-an-airtable-alternative)
 - [Top 5 Airtable Alternatives](#top-5-airtable-alternatives)
 - [Airtable vs Budibase](#airtable-vs-budibase)
-- [How to choose an Airtable alternative](#how)
+- [How to choose an Airtable alternative](#how-to-choose-an-airtable-alternative)
 
 Let’s jump right in.
 
@@ -270,7 +270,8 @@ By contrast, Budibase offers users the power and flexibility to host their inter
 On top of this, Budibase is a much more attractive proposition when it comes to enterprise features. We offer free SSO across the board - whereas this is a premium feature for Airtable users.
 
 Similarly, Airtable imposes limitations on synced data at all pricing tiers, whereas Budibase offers unlimited external data connections for all of our users.
-How to choose an Airtable alternative
+
+## How to choose an Airtable alternative
 To wrap up, let’s run through some of the key decision points that you’ll need to consider when choosing an Airtable alternative.
 
 ### Budgeting
