@@ -92,7 +92,7 @@ Budibase empowers busy IT teams to turn data into action. Our open-source, low-c
 
 With expansive connectivity, intuitive design tools, powerful automations, and extensive flexibility, Budibase is the fast, easy way to build all kinds of workflow tools.
 
-![Budibase design platform interface](https://res.cloudinary.com/daog6scxm/image/upload/v1702478876/cms/alternatives/CleanShot_2023-12-13_at_14.47.47_2x_qlxjtx.webp)
+![Budibase design platform interface](https://res.cloudinary.com/daog6scxm/image/upload/v1702479061/cms/alternatives/CleanShot_2023-12-13_at_14.50.55_2x_yus5e1.webp)
 
 ### Features
 Budibase is a clear leader for external data support. Alongside our internal database, we offer dedicated connectors for a huge range of SQL and NoSQL DBMSs, as well as Google Sheets and REST APIs. You can even use our dedicated CLI to build custom data sources.
