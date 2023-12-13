@@ -117,7 +117,7 @@ Budibase bills on a per-user basis, distinguishing between the colleagues who bu
 
 Uniquely, our free plan comes with SSO.
 
-Premium licenses bull at $50 per creator per month, and $5 per end-user. This also comes along with custom branding, synchronous automations, and application back-ups.
+Premium licenses bill at $50 per creator per month, and $5 per end-user. This also comes along with custom branding, synchronous automations, and application back-ups.
 
 We also offer custom enterprise pricing, with enforceable SSO, audit logs, active directory support, air-gapped deployment, and more.
 
@@ -128,7 +128,7 @@ Airtable is one of the most ubiquitous players in this space. The core value her
 
 On top of this, it offers useful capabilities around building interfaces, automating processes, and handling different users’ permissions and data exposure.
 
-![Airtable UI](https://res.cloudinary.com/daog6scxm/image/upload/v1702478043/cms/alternatives/Airtable_lggz2x.webp)
+![Airtable UI](https://res.cloudinary.com/daog6scxm/image/upload/v1702484737/cms/alternatives/Updated_Airtable_Screenie_a2cjmu.webp)
 
 ### Pros
 Airtable’s big selling point is how easy it is to create advanced data management solutions, without requiring extensive technical skills or expertise. Instead, you can interact with your data in much the same way you would in Excel or Google Sheets.
