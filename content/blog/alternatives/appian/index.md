@@ -2,8 +2,8 @@
 date: 2024-01-02
 title: Top 5 Appian Alternatives & Competitors in 2024
 description: Learn about the top 5 Appian alternatives & competitors to improve your internal workflows and save you time.
-image: "https://res.cloudinary.com/daog6scxm/image/upload/v1701356335/cms/alternatives/meta_retool_alts_kew9ly.png"
-cover: "https://res.cloudinary.com/daog6scxm/image/upload/v1701359841/cms/alternatives/retool_alts_dark_narrow_sfeis5.webp"
+image: "https://res.cloudinary.com/daog6scxm/image/upload/v1704207063/cms/alternatives/appian-meta_fb0dog.png"
+cover: "https://res.cloudinary.com/daog6scxm/image/upload/v1704207063/cms/alternatives/appian-banner_la0g7x.webp"
 type: alternatives
 layout: appian
 author: Ronan McQuillan
@@ -100,7 +100,7 @@ Budibase is the open-source, low-code platform that turns data into action. Our 
 
 With extensive database connectivity, intuitive developer experiences, vast scope for customization, optional self-hosting, and advanced security features, there’s never been a better way to output solutions at pace.
 
-![Budibase design platform interface](https://res.cloudinary.com/daog6scxm/image/upload/v1680181644/ui/homepage-design-ui_sizp7b.webp)
+![Budibase design platform interface](https://res.cloudinary.com/daog6scxm/image/upload/v1704207816/cms/alternatives/CleanShot_2024-01-02_at_15.03.25_2x_jutwvs.webp)
 
 #### Features
 Budibase is centered around fast, easy experiences for handling external data. We offer dedicated connectors for a huge range of SQL and NoSQL databases, Airtable, Google Sheets, REST APIs, and more.
@@ -138,6 +138,8 @@ Retool is one of the biggest names in the low-code space. Like Budibase, it’s 
 
 As such, it offers extensive customization options - but does so at the expense of usability for less technical users, potentially including most typical Appian users.
 
+![Retool UI](https://res.cloudinary.com/daog6scxm/image/upload/v1702486684/cms/alternatives/Retool_Screenshot_uajr8r.webp)
+
 #### Pros
 A huge part of Retool’s popularity can be explained by its intuitive, flexible user interface. It provides a clean, accessible drag-and-drop interface for arranging, styling, and configuring a large range of built-in UI components.
 
@@ -163,6 +165,8 @@ SSO and custom branding are restricted to the Enterprise tier, with custom prici
 OutSystems is another Appian alternative that mainly targets developers. So, we have some of the most powerful capabilities around customization and extensibility - although it may be beyond the skills of less technical users.
 
 It’s also highly enterprise-centric. As such, it offers a range of tools for larger development teams, including for testing, monitoring, user management, and other related tasks.
+
+![Outsystems UI](https://res.cloudinary.com/daog6scxm/image/upload/v1701788478/cms/alternatives/OutSystems_ne26bn.webp)
 
 #### Pros
 OutSystems really shines on extensibility. It offers support for external code libraries, frameworks, and SDKs. If you have the development skills, the possibilities are huge. It also offers an extensive marketplace for community contributions.
@@ -190,6 +194,7 @@ PowerApps is Microsoft’s offering in the low-code market. It’s also one of t
 
 However, it also presents limitations compared to some of the other Appian alternatives on the market today.
 
+![PowerApps UI](https://res.cloudinary.com/daog6scxm/image/upload/v1701788481/cms/alternatives/PowerApps_n1s2xt.webp)
 
 #### Pros
 Microsoft go to great lengths to make it easy to get up and running with PowerApps. There’s a huge range of templates and sample applications to help get you started with all sorts of common use cases.
@@ -216,6 +221,8 @@ We’d also be billed separately if we wanted to use related tools like Power Au
 Lastly, we have Mendix. Again, this is one of the older players in the space. It’s a developer-focused platform that’s built for teams in large enterprises.
 
 So, there’s a range of capabilities targeted at these kinds of teams. At the same time, experiences may not be particularly well optimized for other kinds of users - especially smaller teams or less technical colleagues.
+
+![Mendix UI](https://res.cloudinary.com/daog6scxm/image/upload/v1701788478/cms/alternatives/Mendix_o247iy.webp)
 
 #### Pros
 Mendix offers extensive capabilities for specialist development teams. It’s built around a visual IDE, with built-in version control, testing functionality, substantive code editing, and generative AI tools.
