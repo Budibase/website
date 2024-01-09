@@ -106,7 +106,7 @@ This means managing network and infrastructure resources, especially cloud-based
 
 ![DevOps statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1688734709/cms/itops-vs-devops/DevOps_Stats_https___renaissancetech.media_devops_pr0gkt.webp "DevOps statistics")
 
-([Renaissance Tech](https://renaissancetech.media/devops))
+(Renaissance Tech)
 
 ## IT operations vs DevOps: common ground
 

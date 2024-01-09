@@ -116,7 +116,7 @@ However, once the application has gone live, these will more often be monitored 
 
 ![Average Software Build Time](https://res.cloudinary.com/daog6scxm/image/upload/v1665139217/cms/index.html_psig_AOvVaw12dQX2x2tFpTiMlJcxz4-e_ust_1665218170717000_source_images_cd_vfe_ved_0CA4Q3YkBahcKEwiw7uae2836AhUAAAAAHQAAAAAQDQ_kv2h6e.webp "Average Software Build Time")
 
-([Virginia Tech](https://courses.cs.vt.edu/csonline/SE/Lessons/LifeCycle/index.html))
+(Virginia Tech)
 
 ## When is rapid development used?
 

@@ -457,7 +457,7 @@ For more advanced users, we offer a range of additional design features, includi
 
 ### Deployable app templates
 
-We’re so convinced that Budibase is the perfect way to build modern business tools, that we’ve created over 50 free [app templates](http://budibase.com/templates/) to prove it. Use one of our pre-built apps to get started with a huge range of use cases.
+We’re so convinced that Budibase is the perfect way to build modern business tools, that we’ve created over 50 free [app templates](https://budibase.com/templates/) to prove it. Use one of our pre-built apps to get started with a huge range of use cases.
 
 Of course, you also have the option of building your own tools from scratch.
 
