@@ -179,7 +179,7 @@ There are several ways that this can have a concrete impact on your bottom line,
 
 All of these culminate in providing better return on investment within internal processes - either through reducing costs, boosting revenues, or a combination of the two.
 
-![UX stats](https://res.cloudinary.com/daog6scxm/image/upload/v1686910971/UX_Differentiator_https___uxplanet.org_why-investing-in-ui-design-saves-costs-increases-revenue-and-retains-customers-c762b78c0526_b28psa.webp "UX stats")
+![UX stats](https://res.cloudinary.com/daog6scxm/image/upload/v1656427407/cms/Enterprise_UX_Stats_uat4y7.webp "UX stats")
 
 ([UX Planet](https://uxplanet.org/why-investing-in-ui-design-saves-costs-increases-revenue-and-retains-customers-c762b78c0526))
 

@@ -1,4 +1,4 @@
-+++ 
++++
 date = "2019-02-01" 
 title = "Progressive Web Apps Can Now Be Shipped Via The Play Store" 
 description = "With Chrome 72, you can now publish your progressive web app in the Play Store and from the browser." 
@@ -6,8 +6,6 @@ author = "Joe Johnston"
 draft = "false"
 
 +++
-
-{{< figure src="/google-play-store.png" alt="Google Play Store" >}}
 
 
 With Chrome 72, you can now publish your PWA in the Play Store and from the browser. 

@@ -28,7 +28,7 @@ We’re going to base this around some dummy data for inventory management - jus
 
 Essentially, we have a MySQL database with five tables - and we’re going to create a simple tool for users to *create, read, update*, and *delete* entries - including managing relationships between different entities.
 
-You might also like our tutorial on how to build a [MySQL GUI](http://budibase.com/blog/tutorials/mysql-gui).
+You might also like our tutorial on how to build a [MySQL GUI](https://budibase.com/blog/tutorials/mysql-gui).
 
 Let’s jump right in.
 
@@ -156,7 +156,7 @@ And that’s our MySQL admin tools totally finished.
 
 All that’s left is to hit *Publish* and start sending our app to users.
 
-If you liked this tutorial, check out our guide on how to build a [SQL GUI.](http://budibase.com/blog/tutorials/sql-gui)
+If you liked this tutorial, check out our guide on how to build a [SQL GUI.](https://budibase.com/blog/tutorials/sql-gui)
 
 ## Turn data into action with Budibase
 
