@@ -22,18 +22,18 @@ We noticed at the start of this year that one of our CouchDB nodes had been conf
 
 We decided that the easiest way to do this would be to add a new node to the cluster, then turn down the outlier one. We use an "Infrastructure as Code" approach at Budibase, so we have automated processes for adding a new node to our CouchDB cluster.
 
-So at 13:52 UTC on January 9th, we added the new node to our CouchDB cluster. Straight away, it begins to synchronise data from the other 3 nodes. This is expected, and can be seen in our monitoring.
+So at 13:52 UTC on January 9th, we add the new node to our CouchDB cluster. Straight away, it begins to synchronise data from the other 3 nodes. This is expected, and can be seen in our monitoring.
 
 {{< figure src="total-databases.png" alt="A graph of total databases per CouchDB node. We see 3 nodes sitting the same value, and at 13:52 a new nodes joins and the number of databases on it starts to increase slowly" >}}
 
-Our production database cluster is called "chesterfield" (after the [sofa][3]), and each of the nodes is numbered sequentially. `004` is the new node in this graph, and you can see when it joins, when it starts getting data, when we disconnect it from the cluster, and when we bring it back down.
+Our production database cluster is called "chesterfield" (after the [sofa][3]), and each of the nodes is numbered sequentially. `chester-004` is the new node in this graph. When it first shows up is what it joined the cluster, then we see the number of databases on it slowly increase as it synchronises, then we see the number of databases plateau when we remove it from the cluster, and then the line disappears when the node is turned down.
 
-The mistake we made in our automated process for adding nodes was to add the new node to our load balancer before it had fully synchronised. You can see that in this graph showing the number of healthy nodes our database load balancer is aware of.
+The mistake we made in our automated process for adding nodes was to add the new node to our load balancer before it had fully synchronised. We have a load balancer in front of our CouchDB cluster because any node can service any request, so we round-robin requests between them. You can see that in this graph showing the number of healthy nodes our database load balancer is aware of.
 
 {{< figure src="healthy-nodes.png" alt="A graph showing a line that hovers at the value 3 until 13:52, where it jumps to 4, and then at 13:58 goes back down to 3 and stays there" >}}
 
 CouchDB is what's called a "master-master" database. Many distributed database systems will have one node that's more important
-than the others (the "master" node) and this is the node responsible for handling new data, while the other nodes can only handle the fetching of data. This is not the case in CouchDB, all nodes are equal and can handle writes. The way this works under the hood is that conflicting writes, e.g. 2 separate writes to the same data on 2 different nodes, is resolved through a conflict-resolution process.
+than the others (the "master" node) and this is the node responsible for handling new data, while the other nodes can only handle the fetching of data. This is not the case in CouchDB, all nodes are equal and can handle writes. The way this works under the hood is that conflicting writes, e.g. 2 separate writes to the same data on 2 different nodes, are resolved through a conflict-resolution process.
 
 For historical reasons, most requests that Budibase makes to its internal database first check to make sure that the database they're writing to exists. If it does not, it gets created. For the 6 minutes that `chesterfield-004` was in the load balancer, most requests to check that a database existed would have reported that no, the database does not exist. A new, empty database would be created and the code would continue. This empty database was then replicated to other nodes, effectively deleting all of their contents. We were able to reproduce this behaviour locally, and you can check our methodology [here][4].
 
@@ -53,7 +53,7 @@ This was both lucky and unfortunate. Lucky because we inadvertently fixed what w
 
 The first customer reports got to us in the engineering team at 14:13 UTC, and we immediately suspected our work on the database cluster was the cause. The timing lined up perfectly, and it was a substantial change to our infrastructure. By 14:28 UTC we had confirmed data loss in the tenants that had reached out to us and began executing our disaster recovery plan.
 
-We managed to confirm data loss in 11 customers by looking at our records of failed logins, and given that the rate of failed logins was not increasing we believed that without `chesterfield-004` in the cluster, the problem was not spreading. However, 11 tenants was a lower bound. It was difficult to know what writes had been served by `chesterfield-004` prior to it being taken down, and the log files on the machine had not been preserved. Because of this, we decided to play it safe and restore all data to the last known-good backup we had, which was from 13:33 UTC.
+We managed to confirm data loss in 11 customers by looking at our records of failed logins, and given that the rate of failed logins was not increasing we believed that without `chesterfield-004` in the cluster, the problem was not spreading. However, 11 customers was a lower bound. It was difficult to know what writes had been served by `chesterfield-004` prior to it being taken down, and the log files on the machine had not been preserved. Because of this, we decided to play it safe and restore all data to the last known-good backup we had, which was from 13:33 UTC.
 
 We started by taking `chesterfield-001` offline and restoring its hard disk to the 13:33 UTC snapshot. When that was done, we re-added it to the cluster and to our dismay it immediately synchronised its state with the other two nodes, re-deleting the data we were trying to restore. Our disaster recovery plan covered partial recovery of data for when we know what we're restoring, and recovering from a single node failure. There were no steps for rolling the entire cluster back to a known-good state.
 
@@ -72,7 +72,7 @@ This incident has revealed several weaknesses in our processes that need resolvi
 1. We are going to fix our automation around bringing up new CouchDB nodes and test it thoroughly in a safe, non-production environment. This is an automation we run very infrequently, and in this instance we should have first tested it in a non-production environment instead of trusting that it still worked.
 2. We are going to write a disaster recovery plan for a full cluster rollback, so that if this happens again in future we will be able to react quicker. Had we had this available to us in this incident, we could have saved approximately 30 minutes in recovery time.
 3. We were not alerted to this problem automatically, relying instead on the diligence of our customers reaching out to us. It is only through luck that so few customers were affected this time, and we don't want to rely on luck going forward. We are going figure out a good way to be automatically alerted to data loss situations in future.
-4. The Budibase code should not be lazily creating databases the way that it does. This is technical debt we have carried with us from the days that Budibase was a desktop app, and it's time we paid it down. We are going to prioritise work to only create databases when necessary, a change that would have prevented this problem entirely.
+4. The Budibase code should not be lazily creating databases the way that it does. This is technical debt we have carried with us from the days that Budibase was a desktop app, and it's time we paid it down. We are going to prioritise work to only create databases when necessary. This change would likely have prevented much of the data loss we saw.
 
 # Conclusion
 
