@@ -43,7 +43,9 @@ This manifested for most users as the inability to log in, as their user record 
 
 {{< figure src="login-403s.png" alt="A graph showing HTTP requests to Budibase Cloud that had a 403 response, indicating login failure" >}}
 
-Unfortunately we were not aware that there was a problem until 14:13 UTC, when we started receiving reports from customers that they were not able to log in. Why, then, had we removed the node from the cluster and turned it down?
+Unfortunately we were not aware that there was a problem until 14:13 UTC, when we started receiving reports from customers that they were not able to log in. We do have automated tests of our login process running every few minutes, but they succeeded throughout because the users we use in the tests were not affected.
+
+Why, then, had we removed the node from the cluster and turned it down by 13:58?
 
 When our automation brought up the node, it failed at the point where it was installing CouchDB. We investigated this at the time and found it had used an incorrect CouchDB version string when installing the CouchDB package. We attempted to correct this and re-run the automation, but that didn't work. This prompted us to bring the node down completely, and start again from the beginning.
 
@@ -64,6 +66,8 @@ In the end, we decided we'd have to accept a small period of downtime. The plan 
 {{< figure src="restoration-dance.png" alt="A graph of healthy Chesterfield hosts, showing the total drop from 3 to 0 before rising back up to 3 again" >}}
 
 By 15:39 UTC we were restored, but running on a single CouchDB node. By 15:49 UTC our cluster was fully restored to the 13:33 UTC snapshot and Budibase Cloud was operational again.
+
+We had one problem that persisted after the recovery. Some types of data from our CouchDB cluster get cached in the Budibase app, and during the incident window we had cached some reads from `chesterfield-004` that were empty. These cached keys persisted after the cluster had recovered, but we were able to resolve this problem by clearing that part of the cache and allowing it to rebuild from the newly-restored cluster.
 
 # What we're going to do next
 
