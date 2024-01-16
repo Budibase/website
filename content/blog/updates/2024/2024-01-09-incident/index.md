@@ -2,8 +2,8 @@
 author = "Sam Rose"
 date = 2024-01-16T00:00:00Z
 description = "What caused the Budibase Cloud incident on January 9th, and what we're doing to prevent it happening again."
-image = ""
-images = []
+image = "https://res.cloudinary.com/daog6scxm/image/upload/v1705398760/cms/incident-report/Incident_bevbsa.png"
+images = ['https://res.cloudinary.com/daog6scxm/image/upload/v1705398760/cms/incident-report/Incident_bevbsa.png']
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1705397586/Me_echy6x.jpg"
 title = "Budibase Cloud January 9th Incident"
 +++
