@@ -12,7 +12,7 @@ On January 9th, a subset of Budibase Cloud customers were unable to log in. We w
 
 We regret that we had to do this, and apologise for the inconvenience it has caused. This post is going to discuss in detail how this came to happen, and what we’re doing to prevent it from happening again.
 
-# What happened
+## What happened
 
 As part of our ongoing work to make Budibase Cloud a faster and more stable environment, we have been making lots of changes to our technical infrastructure. We've added lots of new observability into our platform, we've introduced continuous profiling and used this to make a number of [performance][1] [improvements][2], and we've made changes to our health checks to ensure when tasks become unhealthy, they are replaced.
 
@@ -51,7 +51,7 @@ When our automation brought up the node, it failed at the point where it was ins
 
 This was both lucky and unfortunate. Lucky because we inadvertently fixed what was causing data corruption. The data that had been lost was still gone, but we weren't losing more data. Unfortunate because when this node went, it took valuable debugging information with it.
 
-# How we responded
+## How we responded
 
 The first customer reports got to us in the engineering team at 14:13 UTC, and we immediately suspected our work on the database cluster was the cause. The timing lined up perfectly, and it was a substantial change to our infrastructure. By 14:28 UTC we had confirmed data loss in the tenants that had reached out to us and began executing our disaster recovery plan.
 
@@ -69,7 +69,7 @@ By 15:39 UTC we were restored, but running on a single CouchDB node. By 15:49 UT
 
 We had one problem that persisted after the recovery. Some types of data from our CouchDB cluster get cached in the Budibase app, and during the incident window we had cached some reads from `chesterfield-004` that were empty. These cached keys persisted after the cluster had recovered, but we were able to resolve this problem by clearing that part of the cache and allowing it to rebuild from the newly-restored cluster.
 
-# What we're going to do next
+## What we're going to do next
 
 This incident has revealed several weaknesses in our processes that need resolving.
 
@@ -78,7 +78,7 @@ This incident has revealed several weaknesses in our processes that need resolvi
 3. We were not alerted to this problem automatically, relying instead on the diligence of our customers reaching out to us. It is only through luck that so few customers were affected this time, and we don't want to rely on luck going forward. We are going figure out a good way to be automatically alerted to data loss situations in future.
 4. The Budibase code should not be lazily creating databases the way that it does. This is technical debt we have carried with us from the days that Budibase was a desktop app, and it's time we paid it down. We are going to prioritise work to only create databases when necessary. This change would likely have prevented much of the data loss we saw.
 
-# Conclusion
+## Conclusion
 
 Thank you for reading this incident report. We believe by understanding these incidents in full, coming up with action items that would prevent them in future, and following through on those action items, Budibase will get better every day.
 
