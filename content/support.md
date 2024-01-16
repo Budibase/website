@@ -3,11 +3,11 @@ title: "Support Policy"
 description: The different support offerings provided by the Budibase team
 layout: single
 type: support
-date: 2023-03-06
+date: 2024-01-16
 ---
 
  - [Community support](#community-support)
- - [Business support](#business-support)
+ - [Premium support](#premium-support)
  - [Enterprise support](#enterprise-support)
 
 Budibase provides community support by default, but extended support is available for customers. 
@@ -16,7 +16,7 @@ Budibase provides community support by default, but extended support is availabl
 
 #### Community support
 
-As an open source platform, Budibase offers community support to everyone. This includes responding to [GitHub Issues](https://github.com/Budibase/budibase/issues), answering [GitHub Discussions](https://github.com/Budibase/budibase/issues), and chatting across a number of public channels on our [Discord Server](https://discord.gg/ZepTmGbtfF).
+As an open source platform, Budibase offers community support to everyone. This includes responding to [GitHub Issues](https://github.com/Budibase/budibase/issues), answering [GitHub Discussions](https://github.com/Budibase/budibase/discussions), and chatting across a number of public channels on our [Discord Server](https://discord.gg/ZepTmGbtfF).
 
 When interacting with community support you may receive help from either our Customer Success team, or another supportive community member. While this support is not obligated, the Budibase team endeavours to answer what we can, and all community contributions are appreciated! 
 
@@ -24,16 +24,16 @@ The GitHub repository is a good place to look for FAQs.
 
 ---
 
-#### Business support
+#### Premium support
 
-In addition to having all of the community resources available, users on the Business plan can contact support directly via email. This provides a private communication channel for support.
+In addition to having all of the community resources available, users on the Premium plan can contact support directly via email. This provides a private communication channel for support.
 
 ###### What is supported?
 
  - ✓ Answering questions about building Budibase apps
  - ✓ Investigating issues relating to the Budibase platform
  - ✓ Guidance on building custom plugins
- - ✓ Business-tier licensed instances
+ - ✓ Premium-tier licensed instances
  - ✓ The most recent version of Budibase
 
 ###### Not supported
