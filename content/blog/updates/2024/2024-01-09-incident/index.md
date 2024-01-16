@@ -32,7 +32,7 @@ The mistake we made in our automated process for adding nodes was to add the new
 
 {{< figure src="https://res.cloudinary.com/daog6scxm/image/upload/v1705397472/healthy-nodes_fcdmqp.png" alt="A graph showing a line that hovers at the value 3 until 13:52, where it jumps to 4, and then at 13:58 goes back down to 3 and stays there" >}}
 
-CouchDB is what's called a "master-master" database. Many distributed database systems will have one node that's more important
+CouchDB is what's called a "multi-master" database. Many distributed database systems will have one node that's more important
 than the others (the "master" node) and this is the node responsible for handling new data, while the other nodes can only handle the fetching of data. This is not the case in CouchDB, all nodes are equal and can handle writes. The way this works under the hood is that conflicting writes, e.g. 2 separate writes to the same data on 2 different nodes, are resolved through a conflict-resolution process.
 
 For historical reasons, most requests that Budibase makes to its internal database first check to make sure that the database they're writing to exists. If it does not, it gets created. For the 6 minutes that `chesterfield-004` was in the load balancer, most requests to check that a database existed would have reported that no, the database does not exist. A new, empty database would be created and the code would continue. This empty database was then replicated to other nodes, effectively deleting all of their contents. We were able to reproduce this behaviour locally, and you can check our methodology [here][4].
