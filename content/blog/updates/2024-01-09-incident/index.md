@@ -4,7 +4,7 @@ date = 2024-01-15T00:00:00Z
 description = "What happened to cause the Budibase Cloud incident on January 9th, and what we're doing to prevent it happening again."
 image = ""
 images = []
-profilePic = "https://samwho.dev/images/me.jpg"
+profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1705397586/Me_echy6x.jpg"
 title = "Budibase Cloud January 9th Incident"
 +++
 
@@ -14,7 +14,7 @@ We regret that we had to do this, and apologise for the inconvenience it has cau
 
 # What happened
 
-As part of our ongoing work to make Budibase Cloud a faster and more stable environment, we have been making lots of changes to our technical infrastructure. We've added lots of new observability into our platform, we've introduced continuous profiling and used this to make a number of [performance][1] [improvements][2], and we've made changes to our healthchecks to ensure when tasks become unhealthy, they are replaced.
+As part of our ongoing work to make Budibase Cloud a faster and more stable environment, we have been making lots of changes to our technical infrastructure. We've added lots of new observability into our platform, we've introduced continuous profiling and used this to make a number of [performance][1] [improvements][2], and we've made changes to our health checks to ensure when tasks become unhealthy, they are replaced.
 
 Another area we've been improving is our production database. Budibase Cloud is backed by a database called CouchDB, which we run across 3 servers (or "nodes"). We do this so that if one of these nodes were to go down or have problems, nobody would notice because we still have 2 other nodes available.
 
@@ -24,24 +24,24 @@ We decided that the easiest way to do this would be to add a new node to the clu
 
 So at 13:52 UTC on January 9th, we add the new node to our CouchDB cluster. Straight away, it begins to synchronise data from the other 3 nodes. This is expected, and can be seen in our monitoring.
 
-{{< figure src="total-databases.png" alt="A graph of total databases per CouchDB node. We see 3 nodes sitting the same value, and at 13:52 a new nodes joins and the number of databases on it starts to increase slowly" >}}
+{{< figure src="https://res.cloudinary.com/daog6scxm/image/upload/v1705397473/total-databases_y9aucp.png" alt="A graph of total databases per CouchDB node. We see 3 nodes sitting the same value, and at 13:52 a new nodes joins and the number of databases on it starts to increase slowly" >}}
 
 Our production database cluster is called "chesterfield" (after the [sofa][3]), and each of the nodes is numbered sequentially. `chester-004` is the new node in this graph. When it first shows up is what it joined the cluster, then we see the number of databases on it slowly increase as it synchronises, then we see the number of databases plateau when we remove it from the cluster, and then the line disappears when the node is turned down.
 
 The mistake we made in our automated process for adding nodes was to add the new node to our load balancer before it had fully synchronised. We have a load balancer in front of our CouchDB cluster because any node can service any request, so we round-robin requests between them. You can see that in this graph showing the number of healthy nodes our database load balancer is aware of.
 
-{{< figure src="healthy-nodes.png" alt="A graph showing a line that hovers at the value 3 until 13:52, where it jumps to 4, and then at 13:58 goes back down to 3 and stays there" >}}
+{{< figure src="https://res.cloudinary.com/daog6scxm/image/upload/v1705397472/healthy-nodes_fcdmqp.png" alt="A graph showing a line that hovers at the value 3 until 13:52, where it jumps to 4, and then at 13:58 goes back down to 3 and stays there" >}}
 
 CouchDB is what's called a "master-master" database. Many distributed database systems will have one node that's more important
 than the others (the "master" node) and this is the node responsible for handling new data, while the other nodes can only handle the fetching of data. This is not the case in CouchDB, all nodes are equal and can handle writes. The way this works under the hood is that conflicting writes, e.g. 2 separate writes to the same data on 2 different nodes, are resolved through a conflict-resolution process.
 
 For historical reasons, most requests that Budibase makes to its internal database first check to make sure that the database they're writing to exists. If it does not, it gets created. For the 6 minutes that `chesterfield-004` was in the load balancer, most requests to check that a database existed would have reported that no, the database does not exist. A new, empty database would be created and the code would continue. This empty database was then replicated to other nodes, effectively deleting all of their contents. We were able to reproduce this behaviour locally, and you can check our methodology [here][4].
 
-{{< figure src="chesterfield-004-writes.png" alt="A graph showing the number of writes per second to chesterfield-004. It peaks at 1 write per second at 13:54, then trails off until the line disappears at 13:58">}}
+{{< figure src="https://res.cloudinary.com/daog6scxm/image/upload/v1705397472/chesterfield-004-writes_dtxga2.png" alt="A graph showing the number of writes per second to chesterfield-004. It peaks at 1 write per second at 13:54, then trails off until the line disappears at 13:58">}}
 
 This manifested for most users as the inability to log in, as their user record had been deleted.
 
-{{< figure src="login-403s.png" alt="A graph showing HTTP requests to Budibase Cloud that had a 403 response, indicating login failure" >}}
+{{< figure src="https://res.cloudinary.com/daog6scxm/image/upload/v1705397472/login-403s_nutffq.png" alt="A graph showing HTTP requests to Budibase Cloud that had a 403 response, indicating login failure" >}}
 
 Unfortunately we were not aware that there was a problem until 14:13 UTC, when we started receiving reports from customers that they were not able to log in. We do have automated tests of our login process running every few minutes, but they succeeded throughout because the users we use in the tests were not affected.
 
@@ -63,7 +63,7 @@ At around 15:00 UTC we started to discuss how we could restore the full state of
 
 In the end, we decided we'd have to accept a small period of downtime. The plan was to take `chesterfield-001` offline again, restore it to the 13:33 UTC snapshot, but before bringing it back up take `chesterfield-002` and `chesterfield-003` offline. We would have downtime until `chesterfield-001` came back up, but timed well this should only be a minute or two. This way `chesterfield-001` would not synchronise to the other two nodes, and we could bring the other two nodes back up shortly after, restored to the 13:33 UTC snapshot.
 
-{{< figure src="restoration-dance.png" alt="A graph of healthy Chesterfield hosts, showing the total drop from 3 to 0 before rising back up to 3 again" >}}
+{{< figure src="https://res.cloudinary.com/daog6scxm/image/upload/v1705397473/restoration-dance_ijjd3m.png" alt="A graph of healthy Chesterfield hosts, showing the total drop from 3 to 0 before rising back up to 3 again" >}}
 
 By 15:39 UTC we were restored, but running on a single CouchDB node. By 15:49 UTC our cluster was fully restored to the 13:33 UTC snapshot and Budibase Cloud was operational again.
 
