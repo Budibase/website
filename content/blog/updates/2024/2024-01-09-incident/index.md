@@ -26,7 +26,7 @@ So at 13:52 UTC on January 9th, we add the new node to our CouchDB cluster. Stra
 
 {{< figure src="https://res.cloudinary.com/daog6scxm/image/upload/v1705397473/total-databases_y9aucp.png" alt="A graph of total databases per CouchDB node. We see 3 nodes sitting the same value, and at 13:52 a new nodes joins and the number of databases on it starts to increase slowly" >}}
 
-Our production database cluster is called "chesterfield" (after the [sofa][3]), and each of the nodes is numbered sequentially. `chester-004` is the new node in this graph. When it first shows up is what it joined the cluster, then we see the number of databases on it slowly increase as it synchronises, then we see the number of databases plateau when we remove it from the cluster, and then the line disappears when the node is turned down.
+Our production database cluster is called "chesterfield" (after the [sofa][3]), and each of the nodes is numbered sequentially. `chesterfield-004` is the new node in this graph. When it first shows up is what it joined the cluster, then we see the number of databases on it slowly increase as it synchronises, then we see the number of databases plateau when we remove it from the cluster, and then the line disappears when the node is turned down.
 
 The mistake we made in our automated process for adding nodes was to add the new node to our load balancer before it had fully synchronised. We have a load balancer in front of our CouchDB cluster because any node can service any request, so we round-robin requests between them. You can see that in this graph showing the number of healthy nodes our database load balancer is aware of.
 
