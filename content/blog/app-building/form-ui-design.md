@@ -5,7 +5,7 @@ description = "Form UI design is one of the essential skills in any designer’s
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1656427647/cms/Form_UI_Design_Header_isqpxm.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1656427656/cms/Form_UI_Design_Header_lleswh.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "21 Tips for Professional Form UI Design"
+title = "Form UI Design | 22 Tips"
 
 +++
 Form UI design is one of the essential skills in any designer’s arsenal. Forms are the basis of countless different kinds of apps and tools. An effective form can be the difference between a profitable app project and one with poor usability, retention, and engagement.
@@ -130,6 +130,8 @@ The key here is to ensure that all fields are labeled with simple, non-technical
 
 For more complex use-cases, you might also choose to provide extra rubric on different fields, using text boxes, or even modal pop-ups.
 
+![Form UI](https://res.cloudinary.com/daog6scxm/image/upload/v1705672342/cms/form-ui-design/Form_UI_Design_1_xtbcbb.webp "Form UI")
+
 ## 3. Start with the easiest attributes
 
 This one is more experience-focused. The idea here is to ease users in, by placing the short, easy form fields at the beginning. Longer or more open-ended attributes can be collected later.
@@ -183,6 +185,12 @@ We’d use _next_ and _back_ buttons to navigate between form steps, before disp
 
 When you opt for multi-step forms, it’s also worth displaying users’ progress to them. For example, we could use a progress bar or a simple text field to show how many stages they’ve completed and how many they have left to go.
 
+With Budibase, it’s never been easier to create multi-step form UIs. Our multi-step form block inherits the schema of supported data sources. All you need to do is arrange your fields and form steps - and apply any styling you want.
+
+Use our multi-step form blocks to create, update, or view records in internal tables and SQL databases.
+
+![Multi Step Form UI](https://res.cloudinary.com/daog6scxm/image/upload/v1705672341/cms/form-ui-design/Form_UI_Design_2_sumixw.webp "Multi Step Form UI")
+
 ## 7. Conditional form UIs
 
 Conditionality means creating rules to display, hide, or update different components, based on set criteria. This could mean leveraging user information, back-end data, environmental factors, or in-app behavior.
@@ -192,6 +200,12 @@ This has countless uses when designing form UXs.
 One way to leverage conditionality is by using user attributes to alter UIs. For example, you might provide additional form fields for users who have a higher access role.
 
 Alternatively, you could use users’ current devices to display entirely different versions of your UIs. So, you might create multi-step forms for mobile users, but use a single screen for desktop devices.
+
+Budibase leads the form builders market for flexible, advanced conditional UIs. Every Budibase UI component offers a dedicated conditionality editor. 
+
+You can use our dropdown editors - along with handlebars expressions and custom JavaScript to build bespoke rules - for any of the component’s configuration options.
+
+![Form UI Design](https://res.cloudinary.com/daog6scxm/image/upload/v1705672341/cms/form-ui-design/Form_UI_Design_3_vfdfin.webp "Form UI Design")
 
 ## 8. Know your users
 
@@ -270,6 +284,8 @@ On the flip side, if users assume that mandatory fields are optional and then re
 
 We can use several different techniques to signpost mandatory or optional fields, including asterisks, additional textual elements, or differentiating with color-coding.
 
+{{< cta >}}
+
 ## 13. Display formatting rules in placeholders
 
 Another easy way to improve accuracy and efficiency in your forms is to clearly communicate the correct format for different attributes in your placeholder texts. These are the strings that appear in form fields before users have provided values.
@@ -303,6 +319,10 @@ Misaligned elements project a negative image of your brand, making your tools ap
 Poor alignment can also create problems for users accessing your forms from different kinds of devices. This is obviously problematic for public and internal apps alike.
 
 As such, it’s vital that all form fields and components are consistently and neatly aligned.
+
+Budibase is the clear choice for design customization. We offer huge scope for styling, arranging, and aligning UI elements with minimal custom code. Or, you can add your own CSS on a per-component basis, for near-endless customization.
+
+![Form UI Design](https://res.cloudinary.com/daog6scxm/image/upload/v1705672341/cms/form-ui-design/Form_UI_Design_5_p7cvhs.webp "Form UI Design")
 
 ## 16. Use appropriate CTAs
 
@@ -360,6 +380,10 @@ Each of these has its own benefits and drawbacks. For example, applying validati
 
 By contrast, inline validation is more complex to implement but provides real-time feedback as users work through your forms.
 
+Budibase provides extensive flexibility for adding custom validation rules to forms. Again, we can add custom rules to any form component, using a combination of drop-downs, handlebars expressions, and JavaScript.
+
+![Form UI Validation](https://res.cloudinary.com/daog6scxm/image/upload/v1705672341/cms/form-ui-design/Form_UI_Design_4_a3i9vk.webp "Form UI Validation")
+
 ## 20. Dropdowns vs radio buttons
 
 In many situations, we’ll want to present our users with a variety of set options for enumerator attributes.
@@ -392,6 +416,21 @@ You can leverage personalization to different extents.
 This could be as simple as displaying users’ names in your titles. You could also opt for a more in-depth strategy. For example, by using users’ previous responses to modify your messaging around future form fields.
 
 You could even display entirely different form fields based on user responses at each step, to create branching logic within surveys.
+
+## 22. Low-code form UI design
+
+We can also think about how we design and output forms at a broader level. Forms are some of the most common UIs around. So, it makes sense to think about how we can build them at scale - as well as how we design individual interfaces.
+
+Most teams rely on one of two approaches to form UI design:
+
+1. Dedicated form builders - like Google Forms or JotForm.
+2. Front-end frameworks - like Angular or React.
+
+The trouble is that traditional form builders lack advanced capabilities. The likes of React and Angular require comparatively high technical skills - without eliminating the need for full-on development tasks - and the associated time and cost.
+
+Low-code development bridges this gap. Budibase offers intuitive visual experiences for building forms that don’t compromise on advanced functionality or customization. There’s never been an easier way to build professional, advanced forms.
+
+Connect to any data, build bespoke form UIs, automate processes, and deploy your custom to the cloud or your own infrastructure with our open-source, low-code platform.
 
 {{< cta >}}
 

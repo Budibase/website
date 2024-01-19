@@ -85,12 +85,16 @@ The design of the builder is superior to other builders on this list. It's not e
 * Simplest of all form builders to get started and use
 * Power to generate forms from a schema
 * Database attached
+* External database support
+* Optional self-hosting
 
 ### Conclusion
 
 If you are building a web app/internal tool, Budibase is the best option hands-down. It comes with a database and plugs into other databases, making it a complete form builder. Budibase is a powerful/flexible builder, precisely why it is not the best option if you have a pre-existing codebase to which you would like to add a form.
 
-[Budibase Github link](https://github.com/Budibase/budibase)
+![Open Source Form Builder](https://res.cloudinary.com/daog6scxm/image/upload/v1705672342/cms/form-ui-design/Form_UI_Design_1_xtbcbb.webp "Open Source Form Builder")
+
+{{< cta >}}
 
 ***
 
@@ -290,6 +294,8 @@ Budibase is the best option if this is a requirement for you. With it, you can u
 This allows you to quickly create your forms and host answers as table rows. In addition, the internal DB allows you to add new fields at any point, making the data source more flexible than usual relational databases.
 
 There are other options for form builders with database connections, such as Form.io, but they do require you to host answers using an external database. Budibase also has a superior list of supported external data types.
+
+{{< cta >}}
 
 ### A great HTML5 form generator
 
