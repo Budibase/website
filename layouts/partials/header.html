@@ -7,27 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="https://res.cloudinary.com/daog6scxm/image/upload/v1698314967/Branding/Assets/Symbol/RGB/Full%20Colour/trans_ag0ndy.svg" type="image/x-icon" />
   <link rel="shortcut icon" href="https://res.cloudinary.com/daog6scxm/image/upload/v1698314967/Branding/Assets/Symbol/RGB/Full%20Colour/trans_ag0ndy.svg" type="image/x-icon" />
-  
    <!-- CSS -->
    <link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
    <link rel="stylesheet" href="{{ "css/hs.megamenu.css" | absURL }}">
    <link rel="stylesheet" href="{{ "css/animate.min.css" | absURL }}">
-   
 
   {{ partial "meta.html" . }}
   {{ with .Site.Params.Author }}<meta name="author" content="{{ . }}">{{ end }}
- 
-  {{ hugo.Generator }}
-
 
   <meta name="twitter:site" content="@budibase">
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
   {{ template "_internal/schema.html" . }}
  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <script defer src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+   {{ hugo.Generator }}
 </head>
 
 <body lang="{{ .Site.LanguageCode }}">
