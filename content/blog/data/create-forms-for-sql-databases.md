@@ -95,7 +95,7 @@ Here’s what we have so far:
 
 We can view all of the records in our table, click on any row to access an update form, or use the *Create row* button to add a new entry.
 
-<iframe
+<video
 src="https://res.cloudinary.com/daog6scxm/video/upload/v1705932924/cms/sql-forms/SQL_Forms_Video_1_rqstmb.mp4"
 width="1920"
 height="1080"
@@ -103,7 +103,7 @@ style="height: auto; width: 100%; aspect-ratio: 640 / 360;"
 allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
 allowfullscreen
 frameborder="0"
-></iframe>
+></video>
 
 We can also add form fields for searchability using the *search fields* dropdown:
 
