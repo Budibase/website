@@ -95,7 +95,7 @@ Here’s what we have so far:
 
 We can view all of the records in our table, click on any row to access an update form, or use the *Create row* button to add a new entry.
 
-<video width="1920" height="1080" controls>   <source src="https://res.cloudinary.com/daog6scxm/video/upload/v1705932924/cms/sql-forms/SQL_Forms_Video_1_rqstmb.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
+<video width="1920" height="1080" autoplay>   <source src="https://res.cloudinary.com/daog6scxm/video/upload/v1705932924/cms/sql-forms/SQL_Forms_Video_1_rqstmb.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
 
 We can also add form fields for searchability using the *search fields* dropdown:
 
@@ -127,7 +127,7 @@ Here’s what this will look like:
 
 We want a multi-step form with two steps. The first will let the user choose a title for their post. The second will allow them to input their content, choose a category, and save the new blog article to the database.
 
-<video width="1920" height="1080" controls>   <source src="https://res.cloudinary.com/daog6scxm/video/upload/v1705932924/cms/sql-forms/SQL_Forms_Video_2_kkmgvf.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
+<video width="1920" height="1080" autoplay>   <source src="https://res.cloudinary.com/daog6scxm/video/upload/v1705932924/cms/sql-forms/SQL_Forms_Video_2_kkmgvf.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
 
 
 
