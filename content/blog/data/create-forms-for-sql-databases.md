@@ -95,15 +95,7 @@ Here’s what we have so far:
 
 We can view all of the records in our table, click on any row to access an update form, or use the *Create row* button to add a new entry.
 
-<video
-src="https://res.cloudinary.com/daog6scxm/video/upload/v1705932924/cms/sql-forms/SQL_Forms_Video_1_rqstmb.mp4"
-width="1920"
-height="1080"
-style="height: auto; width: 100%; aspect-ratio: 640 / 360;"
-allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-allowfullscreen
-frameborder="0"
-></video>
+<video width="1920" height="1080" controls>   <source src="https://res.cloudinary.com/daog6scxm/video/upload/v1705932924/cms/sql-forms/SQL_Forms_Video_1_rqstmb.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
 
 We can also add form fields for searchability using the *search fields* dropdown:
 
@@ -135,15 +127,9 @@ Here’s what this will look like:
 
 We want a multi-step form with two steps. The first will let the user choose a title for their post. The second will allow them to input their content, choose a category, and save the new blog article to the database.
 
-<iframe
-src="https://res.cloudinary.com/daog6scxm/video/upload/v1705932924/cms/sql-forms/SQL_Forms_Video_2_kkmgvf.mp4"
-width="1920"
-height="1080"
-style="height: auto; width: 100%; aspect-ratio: 640 / 360;"
-allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-allowfullscreen
-frameborder="0"
-></iframe>
+<video width="1920" height="1080" controls>   <source src="https://res.cloudinary.com/daog6scxm/video/upload/v1705932924/cms/sql-forms/SQL_Forms_Video_2_kkmgvf.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
+
+
 
 We’ll start by adding a *multi-step form block*. As the name suggests, this creates a multi-step form for whichever data source we point it at:
 
