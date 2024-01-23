@@ -2592,9 +2592,10 @@ pre>code {
   cursor: pointer;
 }
 
-
 .btn-forms-cta:focus {
-  box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
+  color: var(--form-pink);
+  background-color: var(--form-teal) !important;
+  border: 1px solid var(--form-teal);
 }
 
 
@@ -4192,8 +4193,6 @@ details[open]>summary {
   align-items: end;
 }
 
-
-
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -5317,18 +5316,22 @@ details[open]>summary {
   padding: 0.875rem;
   background-color: var(--beige-light);
   border: 1px solid transparent;
+  &:hover {
+    background-color: white;
+    border: 1px solid var(--border-color-regular);
+    color: white;
+    cursor: pointer;
+  }
 }
 
-
-.solutions-tab-wrapper div:hover {
-  background-color: white;
-  border: 1px solid var(--border-color-regular);
-  cursor: pointer;
-}
 
 .solutions-tab-wrapper div.active {
-  background-color: white;
+  background-color: white!important;
   border: 1px solid var(--form-blue);
+}
+
+.solutions-tab-wrapper h5.active {
+  color: blue !important; 
 }
 
 /* Style the tab */
