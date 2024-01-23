@@ -1,13 +1,13 @@
 +++
 author = "Ronan McQuillan"
-date = 2022-08-21T23:00:00Z
+date = 2024-01-01T23:00:00Z
 description = "Budibase is the perfect solution for using a form to enter Google Sheets data. Follow our tutorial to find out more."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1661162349/cms/Using_a_Form_to_Enter_Google_Sheets_Data-2_c9wd4k.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1661162354/cms/Using_a_Form_to_Enter_Google_Sheets_Data-2_gw9fv9.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Create a Form to Enter Google Sheets Data in 7 Steps"
-
 +++
+
 Obviously, Google Sheets is great for collaboratively managing all sorts of data. There are big downsides here too though, especially if you’re working at scale. One solution is using a form to enter data into Google Sheets.
 
 Today, we’re going to look at exactly how you can do this in Budibase.
@@ -32,15 +32,15 @@ Similarly, what if you had a whole army of admin staff working on a lot of data 
 
 Real-time collaboration is cool and everything, but it can also get very messy, very fast. Data entry and update forms are critical for ensuring accuracy and error prevention.
 
-Check out our ultimate guide on [databases vs spreadsheets](/blog/data/spreadsheet-vs-database/) for more details.
+Check out our ultimate guide on databases vs spreadsheets for more details.
 
 ## Why would I build forms for Google Sheets with Budibase?
 
 Another excellent question!
 
-No doubt, you’re well aware that Google offer their own solutions here. So, you could build a form on a separate sheet and use built-in functions and Google Apps scripts code or other script editors to add rows to your dataset.
+No doubt, you’re well aware that Google offers its own solutions here. So, you could build a form on a separate sheet and use built-in functions and Google Apps script code or other script editors to add rows to your dataset.
 
-Alternatively, you could do something similar with Google Forms - or other Google Drive integrations. You might also like our guide to [data access control](https://budibase.com/blog/app-building/data-access-control/).
+Alternatively, you could do something similar with Google Forms - or other Google Drive integrations. You might also like our guide to[ data access control](https://budibase.com/blog/app-building/data-access-control/).
 
 There are three big problems here though:
 
@@ -56,13 +56,13 @@ So, how exactly is this possible?
 
 Budibase offers an unbeaten range of dedicated connectors for external data sources. One of these just so happens to be for Google Sheets. All you need to do is sign in with your existing Google account, paste a link to your spreadsheet, and you’re ready to go.
 
-Then, you can use Budibase to automatically generate a fully-functioning [CRUD app](https://budibase.com/blog/crud-app/).
+Then, you can use Budibase to automatically generate a fully functioning[ CRUD app](https://budibase.com/blog/crud-app/).
 
 We’re going to look at the full details in a second, but the whole process won’t take you any more than a couple of minutes. You’ll also enjoy far superior functionality, customization, data validation, and flexibility than you would with an all-Google solution.
 
 Simply connect a sheet and create your custom UIs and business processes.
 
-We’ll return to some of the more specific features of Budibase that make it the ideal solution for using a form to enter data to Google Sheets a little later.
+We’ll return to some of the more specific features of Budibase that make it the ideal solution for using a form to enter data into Google Sheets a little later.
 
 For now, though, let’s jump into the practical stuff.
 
@@ -70,231 +70,193 @@ For now, though, let’s jump into the practical stuff.
 
 ## Building Google Sheets forms: step-by-step
 
-We do have a couple of obvious prerequisites. We can safely assume that you have a Google account already, along with a spreadsheet you want to manage. You’ll also need to sign up to Budibase, of course. You can use the same email address for this.
+We do have a couple of obvious prerequisites. We can safely assume that you have a Google account already, along with a spreadsheet you want to manage. You’ll also need to sign up for Budibase, of course. You can use the same email address for this.
 
 With that out of the way, here are the specific steps you can follow to start using a form to enter data to Google Sheets.
 
 ### 1. Create a new app & select Google Sheets as your data source
 
-Unsurprisingly, our first step is to start a new app project. So, once you’re signed in to Budibase, hit _Create new app_, and then choose _Start from scratch_. At this point, you’ll be prompted to choose a name and URL:
+Unsurprisingly, our first step is to start a new app project. So, once you’re signed in to Budibase, hit Create new app, and then choose Start from scratch. At this point, you’ll be prompted to choose a name and URL:
 
-![Create your app](https://res.cloudinary.com/daog6scxm/image/upload/v1661164919/cms/Screenshot_2022-08-10_at_09.45.37_x9oh7p.webp "Create your app")
+![Using a form to enter google sheets data](https://res.cloudinary.com/daog6scxm/image/upload/v1706019894/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_1_ojp0l8.webp "Using a form to enter google sheets data")
 
-Hit _Create app_ when you’re ready. Next, you’ll see a modal with a list of all of the data sources you can choose.
+Hit Create app when you’re ready. Next, you’ll see a modal with a list of all of the data sources you can choose.
+
+![Data sources](https://res.cloudinary.com/daog6scxm/image/upload/v1706019893/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_2_yrwovz.webp "Data sources")
 
 Pick Google Sheets. No surprises here.
 
-You might also like our tutorial on how to [make an app from an Excel spreadsheet](/blog/data/make-an-app-from-excel-spreadsheets/).
+You might also like our tutorial on how to make an app from an Excel spreadsheet.
 
 ### 2. Configure your data connection
 
-With your app created, the next thing you’ll be prompted to do is sign in with Google to connect your accounts.
+With your app created, the next thing you’ll be prompted to do is sign in with Google to connect your accounts. We’re then asked to input the URL of the Google Sheets file we want to connect to:
 
-You’ll then see a screen like this:
+![Connection URL](https://res.cloudinary.com/daog6scxm/image/upload/v1706019893/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_3_zi8b2m.webp "Connection URL")
 
-![Google Sheets Data Connector](https://res.cloudinary.com/daog6scxm/image/upload/v1661164874/cms/Screenshot_2022-08-10_at_09.52.24_n2fcx7.webp "Google Sheets Data Connector")
+Next, we need to choose which individual sheets from the file we want to fetch and pull into Budibase:
 
-We need to do two things here.
+![Fetch Sheets](https://res.cloudinary.com/daog6scxm/image/upload/v1706019893/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_4_fwmzwo.webp "Fetch Sheets")
 
-First, we’ll give our [data source](https://budibase.com/blog/data/data-sources/) a name. This is only for internal purposes, so the important thing is that you use something that’s easily distinguished from other data sources you might use.
+Straight away, we can edit our data in a spreadsheet-like interface in Budibase’s back end:
 
-We only have one data source for our example, so we’ve just gone with _Form_.
+![Form to Enter Google Sheets Data](https://res.cloudinary.com/daog6scxm/image/upload/v1706019892/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_5_psvpre.webp "Form to enter Google Sheets Data")
 
-Then, we simply paste the URL of our spreadsheet into the second field.
+We can also edit the schema of our sheet, including adding JavaScript formula variables or relationships to other tables - as well as creating custom queries to manipulate our data.
 
-You might also want to check out our guide to [throwaway prototyping](https://budibase.com/blog/inside-it/throwaway-prototyping/).
+### 3. Autogenerate CRUD screens
 
-### 3. Fetch tables
+Next, we want to start building our forms. 
 
-Next, we’ll fetch our tables. This means pulling in our Google Sheets data so that we can interact with it in Budibase, as we would any other type of database.
-
-First, hit _Fetch Tables_. You’ll then see something like this, with all of the data from each of your spreadsheet’s tables:
-
-![Google Sheets Data UI](https://res.cloudinary.com/daog6scxm/image/upload/v1661164837/cms/Screenshot_2022-08-10_at_13.10.47_pigqct.webp "Google Sheets Data UI")
-
-For context, our spreadsheet looks like this:
-
-![Google Sheets Data](https://res.cloudinary.com/daog6scxm/image/upload/v1661164796/cms/Screenshot_2022-08-10_at_09.58.54_lbgev4.webp "Google Sheets Data")
-
-Notice that you have a few extra options at this stage. You can add new columns or rows to your Google Sheets data from the Budibase backend. You can also import or export data in bulk, or, if you have multiple tables, define relationships between them.
-
-We just have one table today though.
-
-As we’ll see in a few minutes, we also have the option to set minimum access levels for different kinds of queries.
-
-### 4. Autogenerate CRUD screens
-
-Next, we want to build our forms. Specifically, we want one form to add new rows to our spreadsheet and another one for updating existing rows. For the second type of form, we’ll also need to provide an interface for users to find the right entries before they can edit them.
+Specifically, we want one form to add new rows to our spreadsheet and another one for updating existing rows. For the second type of form, we’ll also need to provide an interface for users to find the right entries before they can edit them.
 
 Budibase offers you a couple of different options here. On the one hand, you can build your own interfaces from scratch, if that’s what you want to do. We offer a huge range of built-in components, making it easy to build professional apps, with minimal technical skills.
 
 For our purposes today though, we’re going to let our auto-generated CRUD screens do the heavy lifting.
 
-Head over to the design tab at the top of the Budibase builder and hit _Add screen_ on the left-hand side. You’ll then be given a choice to either create a blank screen or to use autogenerated screens:
+Head over to the design tab at the top of the Budibase builder and hit Add screen on the left-hand side. You’ll then be given a choice to either create a blank screen or to use autogenerated screens:
 
-![Generate Screens](https://res.cloudinary.com/daog6scxm/image/upload/v1661164628/cms/Screenshot_2022-08-10_at_13.32.24_yh7plu.webp "Generate Screens")
+![New Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1706019892/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_6_szodsx.webp "New Screen")
 
-Choose the second option, and hit _Continue._ You’ll then be asked which data source you’d like to autogenerate screens for:
+Choose the second option, and hit Continue. You’ll then be asked which data source you’d like to autogenerate screens for:
 
-Remember, we only have one sheet in our connected spreadsheet, but if you had more you’d need to choose between them:
+![Autogenerate Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1706019892/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_7_lg7r9u.webp "Autogenerate Screen")
 
-![Create CRUD Screens](https://res.cloudinary.com/daog6scxm/image/upload/v1661164581/cms/Screenshot_2022-08-10_at_13.33.39_v4cjf0.webp "Create CRUD Screens")
+Remember, we only have one sheet in our connected spreadsheet, but if you had more you’d need to choose between them.
 
-Hit _Confirm_ and Budibase will build three screens for you. One is a table for reading and navigating to existing entries:
+Here’s what this will look like:
 
-![Google Sheets CRUD App](https://res.cloudinary.com/daog6scxm/image/upload/v1661164519/cms/Screenshot_2022-08-10_at_10.00.54_tewyph.webp "Google Sheets CRUD App")
+![Google Sheets CRUD App](https://res.cloudinary.com/daog6scxm/image/upload/v1706019892/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_8_m8trhd.webp "Google Sheets CRUD App")
 
-Each row has a link with the anchor text ‘_View’_. Users can click on this to access the _Update_ form:
+Before we go any further, let’s make sure our app actually works, though. Hit Preview up in the top right corner to open your demo app. First, we’ll try updating a row. Click on any row to open an update form in the side panel:
 
-![Google Sheets Update Form](https://res.cloudinary.com/daog6scxm/image/upload/v1661164486/cms/Screenshot_2022-08-10_at_10.01.05_vkxqnl.webp "Google Sheets Update Form")
+![Using a form to enter google sheets data](https://res.cloudinary.com/daog6scxm/image/upload/v1706019891/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_9_rqo9le.webp "Using a form to enter google sheets data")
 
-And finally, we also have a form for creating new entries:
+We want to see if changes made in our app are reflected in the connected Google Sheets document, so make a change to one of the attributes. We’ve added the word TEST to the first_name field:
 
-![Form to enter Google Sheets data](https://res.cloudinary.com/daog6scxm/image/upload/v1661164452/cms/Screenshot_2022-08-10_at_10.01.13_ecm02q.webp "Form to enter Google Sheets data")
+![Test](https://res.cloudinary.com/daog6scxm/image/upload/v1706019891/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_10_dixv5a.webp "Test")
 
-So far so good!
+Hit Save and head back to your spreadsheet to confirm the change has been made:
 
-Before we go any further, let’s make sure our app actually works, though. Hit _Preview_ up in the top right corner to open your demo app. First, we’ll try updating a row. Navigate to any existing entry, using the _View_ link on the relevant table row.
-
-We want to see if changes made in our app are reflected in the connected Google Sheets document, so make a change to one of the attributes. We’ve added the word _TEST_ to the first_name field:
-
-![Test form](https://res.cloudinary.com/daog6scxm/image/upload/v1661164371/cms/Screenshot_2022-08-10_at_10.03.31_snbyjy.webp "Test form")
-
-Hit _Save_ and head back to your spreadsheet to confirm the change has been made:
-
-![Test form data in Google Sheets](https://res.cloudinary.com/daog6scxm/image/upload/v1661164341/cms/Screenshot_2022-08-10_at_10.03.48_sllevv.webp "Test form data")
+![Google Sheets](https://res.cloudinary.com/daog6scxm/image/upload/v1706019891/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_11_tvgjaz.webp "Google Sheets")
 
 Happy days!
 
-We can repeat the same process for our _Create_ form too. We can also reverse this process - so make a change in your connected spreadsheet and then refresh your Budibase data screen, to confirm the update is reflected.
+We can repeat the same process for our Create form too. We can also reverse this process - so make a change in your connected spreadsheet and then refresh your Budibase data screen, to confirm the update is reflected.
 
 Now, for really simple use cases, we could use what we have so far as a deployable solution. For example, you might not be too worried about access control or design for your Google Sheets form - in which case you could simply skip to step 7 and publish your app.
 
 But, part of the beauty of Budibase is that we don’t need too much more effort to transform this simple app into something really impressive.
 
-Take a look at our guide to building [MongoDB CRUD apps](/blog/data/mongodb-crud-app/).
+{{< cta >}}
 
-Let’s think about how we could spend a couple of extra minutes really supercharging our forms to enter data to Google Sheets.
+Let’s think about how we could spend a couple of extra minutes really supercharging our forms to enter data into Google Sheets.
+
+### 4. Build a Google Sheets data entry form
+
+Our autogenerated UI also contains a side-panel form for creating new rows. But, Budibase gives us the option of building something a little bit more advanced too. 
+
+We’re eventually going to give different types of users access to different forms, so we want our data entry form to live on a separate screen.
+
+Start by adding a new blank screen:
+
+![Blank Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1706019891/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_12_vuxxdj.webp "Blank Screen")
+
+We’re then prompted to designate a URL slug:
+
+![URL](https://res.cloudinary.com/daog6scxm/image/upload/v1706019890/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_13_nrtdbb.webp "URL")
+
+Here’s what this will look like:
+
+![Using a form to enter google sheets data](https://res.cloudinary.com/daog6scxm/image/upload/v1706019890/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_14_ng5ejw.webp "Using a form to enter google sheets data")
+
+By the end, we want a multi-step form for users to add new rows to our spreadsheet.
+
+We’ll start by adding a multi-step form block. This is a prebuilt set of components that will build a form based on the schema of whichever data source we point it at:
+
+![Google Sheets Data Entry Form](https://res.cloudinary.com/daog6scxm/image/upload/v1706019890/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_15_i7novd.webp "Google Sheets Data entry form")
+
+All we need to do is tweak the design to our liking.
+
+The first part of this is arranging our various fields into different steps. By default our form only has one step. We’ll start by selecting the fields we want to appear on this, using the sliders on the right:
+
+![MultiStep Form UI](https://res.cloudinary.com/daog6scxm/image/upload/v1706019889/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_16_jiyhp8.webp "Multi-step Form UI")
+
+Next, we’ll add a second step:
+
+![Using a form to enter google sheets data](https://res.cloudinary.com/daog6scxm/image/upload/v1706019889/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_17_ny2hbc.webp "Using a form to enter google sheets data")
+
+ And set it to display our two remaining fields:
+
+![Google Sheets Form](https://res.cloudinary.com/daog6scxm/image/upload/v1706019889/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_18_aylco8.webp "Google Sheets Form")
+
+Currently, the title displays the current step. We’re going to cut and paste this to the description field instead and then give our form a more descriptive title.
+
+![Form UI](https://res.cloudinary.com/daog6scxm/image/upload/v1706019888/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_19_hczsjw.webp "Form UI")
+
+The last change we’ll make for now is to reposition our buttons. Under style, there’s a dropdown selector, where we can move these up to be inline with our title:
+
+![Google Sheets Data entry Form](https://res.cloudinary.com/daog6scxm/image/upload/v1706019888/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_20_j7vg1r.webp "Google Sheets Data entry Form")
 
 ### 5. Assign access levels
 
-First, let’s think about how we want different kinds of people to use our app. We have two forms, so it’s unlikely that they’ll be used in the exact same way.
+One of the big reasons that you’d want to create a dedicated form to enter Google Sheets data is to tightly control how different kinds of users interact with your data.
 
-For example, maybe we want customers to be able to add their details, but only internal users to read or update existing entries. Luckily, Budibase has you covered with our built-in [role-based access control](https://budibase.com/blog/app-building/role-based-access-control/) system.
+Say, we wanted certain colleagues to enter data into our spreadsheet - but we only wanted more experienced team members to be able to view and edit entries.
 
-Essentially, this allows us to give each user a _role_ and then assign access to different resources to groups of users based on this.
+We can easily achieve this using Budibase’s built-in role-based access control.
 
-For our Google Sheets forms, we could do this at a few different levels. One option is to restrict queries under the _Manage Access_ modal in the _Data_ tab:
+We’re going to use two access roles to show off how this works. Basic users will be able to access and use our data entry form. Admin users will have full access to this plus our table view, with the update form.
 
-![Manage data RBAC](https://res.cloudinary.com/daog6scxm/image/upload/v1661164292/cms/Screenshot_2022-08-10_at_14.22.58_bizjsy.webp "Manage data access")
+By default, all screens are assigned to the Basic role, unless we choose a different one:
 
-This simple [data access control](https://budibase.com/blog/app-building/data-access-control/) screen allows us to set the minimum role required to carry out different kinds of queries. We’ll need to set _Write_ to _Public_ so that external users can sign up using our form.
+![RBAC](https://res.cloudinary.com/daog6scxm/image/upload/v1706019888/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_21_suxfwv.webp "RBAC")
 
-We’re also going to set the minimum role required to access each individual screen. So, let’s say we want our _Create_ screen to be accessible to _Public_ users, but for the other two, you need to be a _Basic_ internal user.
+We’ll use the access drop-down to set our table screen to Admin:
 
-We can use a simple dropdown selector to set the minimum access level for each screen.
+![Access Roles](https://res.cloudinary.com/daog6scxm/image/upload/v1706019888/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_22_p79yjs.webp "Access roles")
 
-Our _Create_ form is already set to public:
+Then, we’ll check the set as homescreen option on both screens, to set them as the primary screen for each respective role:
 
-![Create form for Google Sheets](https://res.cloudinary.com/daog6scxm/image/upload/v1661164245/cms/Screenshot_2022-08-10_at_10.01.13_xxbwfx.webp "Create form for Google Sheets")
+![Set as home screen](https://res.cloudinary.com/daog6scxm/image/upload/v1706019887/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_23_hmmstk.webp "Set as home screen")
 
-And we can quickly change the others to _Basic_:
+### 6. Customize your design and UX
 
-![Set screen roles](https://res.cloudinary.com/daog6scxm/image/upload/v1661164208/cms/Screenshot_2022-08-10_at_10.01.41_w7xi5r.webp "Set screen roles")
+Now we have totally functional forms to enter Google Sheets data or update existing entries. If we wanted to, we could push this live as it is. But, we want to make a few tweaks to our app design to improve user experiences.
 
-Since different users can access different screens, we need to adjust our in-app navigation too. That is, we don’t want to show users nav elements that relate to screens they can’t actually access.
+We’ll start with in-app navigation.
 
-This would make our UI much too confusing.
+Under configure links, we can update the text that’s displayed in our nav bar for each of our pages - as well as setting the minimum role required for these to be displayed to users:
 
-Again, Budibase gives you a bunch of different options for achieving this. One approach would be setting custom conditionality rules to hide individual components. For our app though, there’s an easier way.
+![Nav](https://res.cloudinary.com/daog6scxm/image/upload/v1706019887/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_24_xxlhpu.webp "Nav")
 
-First, we’ll set the home screen for each of our two access roles, using the checkbox on the right-hand side. Check this for the _Create_ form and the _Table UI_:
+Here’s what this will look like to a Basic user:
 
-![Set as home screen](https://res.cloudinary.com/daog6scxm/image/upload/v1661164121/cms/Screenshot_2022-08-10_at_10.04.23_y4lqjk.webp "Set as home screen")
+![Form to enter google sheets data](https://res.cloudinary.com/daog6scxm/image/upload/v1706019887/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_25_rntkda.webp "Form to enter google sheets data")
 
-We can designate more than one interface as the home screen, but only if they have different roles assigned to them. When a user opens our app, they’ll see the home screen for the highest role they have access to.
+And for Admins:
 
-Finally, we’ll deselect the _Show navigation_ setting for our _Create_ form:
+![Google Sheets Admin Panel](https://res.cloudinary.com/daog6scxm/image/upload/v1706019887/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_26_z0rlih.webp "Google Sheets Admin Panel")
 
-![Hide navigation](https://res.cloudinary.com/daog6scxm/image/upload/v1661164057/cms/Screenshot_2022-08-10_at_14.51.33_cgkdrr.webp "Hide navigation")
+Remember, the Create New button on our table screen still opens a side panel with a pre-build form on it. Our next task is to update this so that it navigates to our custom form screen.
 
-Now, when a public user lands on the app, they’ll see the form, but they’ll have no way of navigating to any other screens:
+We can configure this using the button settings within the Table Block component on this screen - adding a Navigate To action:
 
-![Auto generated form](https://res.cloudinary.com/daog6scxm/image/upload/v1661164020/cms/Screenshot_2022-08-10_at_14.54.24_mxlxta.webp "Auto generated form")
+![Button actions](https://res.cloudinary.com/daog6scxm/image/upload/v1706019887/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_27_zb2jyy.webp "Button actions")
 
-### 6. Customize your design
+Similarly, we’ll set the Save button on our form screen to navigate back to the table UI:
 
-As you might have guessed from the last image, we’re also going to put some work into making our design a little bit more visually appealing. A form to enter data to Google Sheets isn’t the most exciting app in the world, but we should still aim for an attractive UX.
+![Button actions](https://res.cloudinary.com/daog6scxm/image/upload/v1706019887/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_28_holfkx.webp "Button actions")
 
-First, let’s change our app’s theme a little bit. We’re creating a customer-facing tool, so we’ll go with something light and airy.
+Lastly, we’re going to make a couple of tweaks to the appearance of our app. 
 
-First, we’ll set the default theme to _Lightest_:
+First, we’re going to set our theme to Lightest:
 
-![App theme](https://res.cloudinary.com/daog6scxm/image/upload/v1661163993/cms/Screenshot_2022-08-10_at_14.59.39_tlahof.webp "App theme")
+![Theme](https://res.cloudinary.com/daog6scxm/image/upload/v1706019887/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_29_v7rhap.webp "Theme")
 
-Then, if we like we can also change our accent color while we’re here. Let’s go with green since we’re talking about Google Sheets:
+And lastly, we’ll set our button colors to green, just as a little visual nod to Google Sheets:
 
-![Button color](https://res.cloudinary.com/daog6scxm/image/upload/v1661163946/cms/Screenshot_2022-08-10_at_15.01.15_pnagqg.webp "Button color")
-
-Now, let’s focus on the _Create_ form to show off what we can do in Budibase to make our UIs pop.
-
-First, autogenerated screens come with breadcrumbs by default, but our _Public_ users can only access one screen, so we might as well delete these:
-
-![Remove breadcrumbs](https://res.cloudinary.com/daog6scxm/image/upload/v1661163735/cms/Screenshot_2022-08-10_at_15.02.16_ryvm3o.webp "Remove breadcrumbs")
-
-Then we’ll add a bit of margin to the top of our form:
-
-![Margin](https://res.cloudinary.com/daog6scxm/image/upload/v1661163707/cms/Screenshot_2022-08-10_at_15.08.32_kgv74t.webp "Margin")
-
-We’ll also set the _Variant_ field for the _Save_ button to _Action_, so we can use the theme colors we chose a minute ago:
-
-![Using a form to enter Google Sheets Data](https://res.cloudinary.com/daog6scxm/image/upload/v1661163657/cms/Screenshot_2022-08-10_at_15.09.18_x6wwjj.webp "Using a form to enter Google Sheets Data")
-
-_New Row_ isn’t much of a headline. To change this, select the _Title_ component on the left, and add something a bit more exciting to its _Text_ field:
-
-![Form Header](https://res.cloudinary.com/daog6scxm/image/upload/v1661163632/cms/Screenshot_2022-08-10_at_15.12.02_hwfmlx.webp "Form header")
-
-This is already much better, but our [form UI design](https://budibase.com/blog/app-building/form-ui-design/) still looks a little strange. Next, we’ll select the _Field Group_ component. This is essentially a container that controls certain settings for each individual field component.
-
-We can use this to move the labels above the text boxes, instead of to the left of them:
-
-![Adjust labels](https://res.cloudinary.com/daog6scxm/image/upload/v1661163606/cms/Screenshot_2022-08-10_at_15.14.29_o36svh.webp "Adjust labels")
-
-Finally, we’re dealing with members of the public here, so we don’t necessarily want them to know we’re using our form to enter data to Google Sheets.
-
-We can change the _Label_ and _Placeholder_ text for each form field to something more user-friendly than our spreadsheet headings. Just take care to leave the _Field_ as it is:
-
-![Improve form UX](https://res.cloudinary.com/daog6scxm/image/upload/v1661163572/cms/Screenshot_2022-08-10_at_15.17.34_lhubab.webp "Improve form UX")
-
-Et voila! We now have a clean, professional-looking form to enter data to Google Sheets:
-
-![App preview](https://res.cloudinary.com/daog6scxm/image/upload/v1661163486/cms/Screenshot_2022-08-10_at_15.19.29_fa1pcw.webp "APp preview")
-
-It even looks great on mobile:
-
-![Using a form to enter Google Sheets Data](https://res.cloudinary.com/daog6scxm/image/upload/v1661163455/cms/Screenshot_2022-08-10_at_15.20.08_w4yroq.webp "Using a form to enter Google Sheets Data")
-
-We can also make all of the same kinds of improvements on our _Update_ form, but we won’t bore you with showing you all the same ideas twice.
-
-Let’s just make a couple of quick adjustments to our [_Table_ UI](https://budibase.com/blog/app-building/table-ui-design/), and we’re all done. Here’s what this looks like at present:
-
-![Home Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1661163424/cms/Screenshot_2022-08-10_at_15.23.34_by7dvl.webp "Home screen")
-
-By default, the heading is the name of your source sheet. Let’s change this just like before, except this time we’ll bind the current user’s first name to make it a little bit more personalized:
-
-![Data bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1661163368/cms/Screenshot_2022-08-10_at_15.27.03_xqzjzs.webp "Data bindings")
-
-We’ll also change the _Create New_ button to the _Action_ variant again. Now our app looks like this:
-
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1661163232/cms/Screenshot_2022-08-10_at_15.28.33_n1bo5o.webp)
-
-Finally, we want users to be able to search for specific entries to edit. Select the _Data Provider_, hit _Add component_, and choose the _Dynamic Filter:_
-
-![Using a form to enter Google Sheets Data](https://res.cloudinary.com/daog6scxm/image/upload/v1661163173/cms/Screenshot_2022-08-10_at_15.29.36_vjzp0j.webp "Using a form to enter Google SHeets data")
-
-This gives your team a simple way to create complex filters for finding specific data:
-
-![Dynamic filter](https://res.cloudinary.com/daog6scxm/image/upload/v1661163149/cms/Screenshot_2022-08-10_at_15.31.54_sd1gwo.webp "Dynamic filter")
+![Button colour](https://res.cloudinary.com/daog6scxm/image/upload/v1706019887/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_30_ydgdfx.webp "Button colour")
 
 ### 7. Publish your app
 
@@ -306,20 +268,24 @@ This may not seem like the top priority when using a form to enter data to Googl
 
 For example, you might want to introduce extra levels of security, monitoring, or other measures.
 
-Or you might simply have your own infrastructure and want to use it. As the leading [open-source, low-code platform](https://budibase.com/blog/open-source-low-code-platforms/), our goal is to give you the tools you need, whatever your specific use case.
+Or you might simply have your own infrastructure and want to use it. As the leading[ open-source, low-code platform](https://budibase.com/blog/open-source-low-code-platforms/), our goal is to give you the tools you need, whatever your specific use case.
+
+Here’s what our finished app looks like:
+
+![Published app](https://res.cloudinary.com/daog6scxm/image/upload/v1706019887/cms/Form%20to%20Enter%20Google%20Sheets%20Data/Google_Sheets_Form_31_jhjpne.webp "Published app")
+
+We can use it as a standalone web app or use an iframe to embed it in an existing webpage or application.
 
 {{< cta >}}
 
 ## The smart option for using a form to enter data to Google Sheets
 
-Budibase is the fast, easy way to build all sorts of custom solutions. Our intuitive low-code tool is the perfect solution for [internal tools](https://budibase.com/internal-tools), customer-facing apps, dashboards, and more.
+Budibase is the fast, easy way to build all sorts of custom solutions. Our intuitive low-code tool is the perfect solution for[ internal tools](https://budibase.com/internal-tools), customer-facing apps, dashboards, and more.
 
 The vast majority of apps that businesses use are simple interfaces on top of a data source.
-
-You might also like our tutorial on building a [Google Sheets dashboard](/blog/data/google-sheets-dashboard/).
 
 We’re on a mission to create the world’s largest ecosystem of open-source tools. Budibase is the smart way to create custom solutions for a whole range of business problems.
 
 Sign up today for free to start building your own incredible, low-code solutions.
 
-Or, check out our library of free, deployable [app templates](https://budibase.com/templates/) to see more of what Budibase can do.
+Or, check out our library of free, deployable[ app templates](https://budibase.com/templates/) to see more of what Budibase can do.
