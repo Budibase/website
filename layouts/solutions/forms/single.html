@@ -2,64 +2,8 @@
 {{ partial "forms/navigation.html" . }}
 {{ partial "forms/hero.html" . }} 
 {{ partial "forms/features.html" . }} 
+{{ partial "forms/benefits.html" . }} 
 
-
-
-<div class="space-2" id="features">
-    <div class="container text-center">
-        <h2 class="mb-3">{{ .Section | singularize | humanize }} features</h2>
-        <p class="mb-6 w-lg-40 mx-auto text-center">With Budibase, it's easy to build fully powerful forms that
-            perfectly fit your
-            operations.
-        </p>
-        <div class="solutions-features">
-            <div class="solutions-features-card rounded-xs">
-                <h4>Multi-step forms</h4>
-                <p class="text-xs text-thin">Create beautiful, inviting multi-step forms</p>
-            </div>
-            <div class="solutions-features-card rounded-xs">
-                <h4>Custom validation</h4>
-                <p class="text-xs text-thin">Add custom validation to form inputs</p>
-            </div>
-            <div class="solutions-features-card rounded-xs">
-                <h4>Form logic</h4>
-                <p class="text-xs text-thin">If the user answers X to question 1, skip to question 3</p>
-            </div>
-            <div class="solutions-features-card rounded-xs">
-                <h4>Self-host your data</h4>
-                <p class="text-xs text-thin">Store data form data on your own databases and infrastructure</p>
-            </div>
-            <div class="solutions-features-card rounded-xs">
-                <h4>Accessible components</h4>
-                <p class="text-xs text-thin">All form components are accessibly tested</p>
-            </div>
-            <div class="solutions-features-card rounded-xs">
-                <h4>Responsive</h4>
-                <p class="text-xs text-thin">All form components work on all devices</p>
-            </div>
-            <div class="solutions-features-card rounded-xs">
-                <h4>100% customizable</h4>
-                <p class="text-xs text-thin">Add images, videos, text to your forms and questions.</p>
-            </div>
-            <div class="solutions-features-card rounded-xs">
-                <h4>Default values</h4>
-                <p class="text-xs text-thin">Set default value on your form inputs </p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="space-2-top space-3-bottom" id="deploy">
-    <div class="container text-center">
-        <h2 class="mb-3">Deploy your {{ .Section }}</h2>
-        <p class="mx-auto w-lg-50 text-center">Deploy your {{ .Section }} via Kubernetes, Docker, Digital Ocean. Or
-            choose the Budibase
-            Cloud and let Budibase manage everything for you.
-        </p>
-        {{ partial "deploy-options.html" . }}
-    </div>
-</div>
-</div>
 
 <div class="bg-light-2">
     <div class="container space-2 mx-auto">
@@ -97,10 +41,7 @@
     </div>
 </div>
 
-{{ partial "integrations-templates.html" . }}
-
 {{ partial "cta.html" . }}
-<hr style="width: 30%" />
 {{ partial "footer.html" . }}
 </div>
 
