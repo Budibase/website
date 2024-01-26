@@ -95,7 +95,7 @@ Here’s what we have so far:
 
 We can view all of the records in our table, click on any row to access an update form, or use the *Create row* button to add a new entry.
 
-{{< youtube _M6oiCIkjWE >}}
+{{< iframe "https://player.cloudinary.com/embed/?public_id=cms%2Fsql-forms%2FSQL_Forms_Video_2_kkmgvf&cloud_name=daog6scxm" >}}
 
 We can also add form fields for searchability using the *search fields* dropdown:
 
@@ -127,7 +127,7 @@ Here’s what this will look like:
 
 We want a multi-step form with two steps. The first will let the user choose a title for their post. The second will allow them to input their content, choose a category, and save the new blog article to the database.
 
-{{< youtube eOXYsxts1HQ >}}
+{{< iframe "https://player.cloudinary.com/embed/?public_id=cms%2Fsql-forms%2FSQL_Forms_Video_1_rqstmb&cloud_name=daog6scxm" >}}
 
 We’ll start by adding a *multi-step form block*. As the name suggests, this creates a multi-step form for whichever data source we point it at:
 
