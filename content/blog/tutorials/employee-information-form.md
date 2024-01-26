@@ -56,7 +56,7 @@ With Budibase, we have the option of connecting to a huge range of external data
 
 We could then use the data captured using our form app within a whole host of other workflows and tools, using our employee database as a single source of truth.
 
-{{ <iframe   src="https://player.cloudinary.com/embed/?public_id=cms%2Femployee-information-form%2FEmployee_Information_Form_bek3t1&cloud_name=daog6scxm"   width="640"   height="360"    style="height: auto; width: 100%; aspect-ratio: 640 / 360;"   allow="autoplay; fullscreen; encrypted-media; picture-in-picture"   allowfullscreen   frameborder="0" ></iframe> }}
+{{ < iframe "https://player.cloudinary.com/embed/?public_id=cms%2Femployee-information-form%2FEmployee_Information_Form_bek3t1&cloud_name=daog6scxm" >}}
 
 ## How to build an employee information form in 6 steps
 
