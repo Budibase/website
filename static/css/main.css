@@ -878,7 +878,7 @@ a {
 }
 
 a:hover {
-  color: var(--coral-dark);
+  color: var(--coral-light);
 }
 
 a:focus {
