@@ -49,7 +49,7 @@ And all that without a single line of custom code.
 
 You might also like our guide to building an [employee information form](https://budibase.com/blog/tutorials/employee-information-form/).
 
-{{< iframe "https://player.cloudinary.com/embed/?public_id=cms%2Fchange-request-form%2FChange_Request_Form_vdzcvv&cloud_name=daog6scxm&autoplay=yes" >}}
+{{< iframe "https://player.cloudinary.com/embed/?public_id=cms%2Fchange-request-form%2FChange_Request_Form_vdzcvv&cloud_name=daog6scxm" >}}
 
 Let’s jump in.
 
