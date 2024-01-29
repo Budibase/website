@@ -11101,8 +11101,8 @@ button.bg-blue:focus {
 }
 
 .rounded-left {
-  border-top-left-radius: 0.25rem !important;
-  border-bottom-left-radius: 0.25rem !important;
+  border-top-left-radius: 1rem !important;
+  border-bottom-left-radius: 1rem !important;
 }
 
 .rounded-circle {
