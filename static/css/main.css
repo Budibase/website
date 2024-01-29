@@ -8212,20 +8212,20 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: white;
   background-color: var(--hiContrast);
-  border: 1px solid var(--dark-light-border);
+  border: 1px solid var(--hiContrast);
 }
 
 .btn-primary:hover {
   color: var(--loContrast);
-  background-color: var(--indigo);
-  border: 1px solid var(--indigo);
+  background-color: var(--gray-1100);
+  border: 1px solid var(--gray-1100);
   cursor: pointer;
 }
 
 .btn-primary:focus,
 .btn-pimary.focus {
   box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
-  color: var(--indigo);
+  color: var(--white);
 }
 
 .btn-white {
