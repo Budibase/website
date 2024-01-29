@@ -19,7 +19,7 @@
 
 {{- if .IsPage -}}
   {{ $base := resources.Get "og_base.png" }}
-  {{ $boldFont := resources.Get "/InstrumentSans-SemiBold.ttf"}}
+  {{ $boldFont := resources.Get "/InstrumentSans-SemiBold.ttf" }}
   {{ $img := $base.Filter (images.Text .Page.Title (dict
     "color" "#ffffff"
     "size" 52
