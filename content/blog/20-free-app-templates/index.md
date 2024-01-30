@@ -3,6 +3,7 @@ author = "Ronan McQuillan"
 date = 2022-03-24T00:00:00Z
 description = "Check out a selection of our favorite free app templates, ready to deploy and use, or customize in Budibase."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1648131824/cms/20_Free_App_Templates_lthryn.png"
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1648131824/cms/20_Free_App_Templates_lthryn.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "20 Free App Templates from Budibase"
 

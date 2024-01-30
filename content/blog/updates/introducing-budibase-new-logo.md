@@ -4,7 +4,8 @@ description: Budibase has a vibrant new look, with the aim of making Budibase as
 type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/joe_illustration_gray_bg_e97wdl.jpg
-image: https://res.cloudinary.com/daog6scxm/image/upload/v1699272056/cms/new-branding/new-branding_kqj02h.png
+images:
+- https://res.cloudinary.com/daog6scxm/image/upload/v1699272056/cms/new-branding/new-branding_kqj02h.png
 date: "2023-11-06"
 author: Joe Johnston
 draft: false
