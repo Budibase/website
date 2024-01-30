@@ -18414,7 +18414,6 @@ button.bg-blue:focus {
     margin-top: 4px;
     margin-bottom: 4px;
     color: var(--text-color-light);
-    opacity: .8;
   }
 
   @media (min-width: 600px) {
