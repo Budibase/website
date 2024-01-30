@@ -1366,7 +1366,7 @@ h2,
   text-indent: .01em;
   letter-spacing: -0.72px;
   text-rendering: optimizeLegibility;
-  line-height: 1.2;
+  line-height: 1.15;
 }
 
 @media (min-width: 600px) {
@@ -1380,7 +1380,7 @@ h2,
     letter-spacing: 0.05px;
     text-indent: .01em;
     text-rendering: optimizeLegibility;
-    line-height: 1.25 !important;
+    line-height: 1.2 !important;
     display: block;
     -webkit-font-smoothing: antialiased;
   }
