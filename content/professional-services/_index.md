@@ -2,7 +2,8 @@
 date: 2022-03-03
 title: Low Code for Professional Services Automation | Budibase
 description: Budibase is the smart choice for low-code professional services automation. Our open-source platform is the fast, cost-effective way to digitize admin processes.
-cover: "/homepage-meta.png"
+image: 
+- /homepage-meta.png
 draft: false
 type: "industries/professional-services"
 layout: single

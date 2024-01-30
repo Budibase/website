@@ -4,6 +4,7 @@ title: The Budibase Automation Blog
 description: Budibase's Process Automation Blog – attracting thousands of monthly
   ops professionals and developers – covers everything you need to know to automate
   processes and workflows.
-cover: "/homepage-meta.png"
+image: 
+-  /homepage-meta.png
 
 ---

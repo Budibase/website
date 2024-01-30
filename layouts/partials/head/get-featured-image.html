@@ -1,0 +1,22 @@
+{{ $images := $.Resources.ByType "image" }}
+{{ $featured := $images.GetMatch "*feature*" }}
+{{ if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end }}
+{{ if not $featured }}
+    {{ $featured = resources.Get "/opengraph/og_base.png" }}
+    {{ $size := 55 }}
+    {{ $title := $.LinkTitle }}
+    {{ $text := $title }}
+                {{ $textOptions := dict 
+                    "color" "#FFF"
+                    "size" $size
+                    "lineSpacing" 4
+                    "x" 70 "y" 450
+                    "font" (resources.Get "/opengraph/InstrumentSans-SemiBold.ttf")
+                }}
+
+    {{ $featured = $featured | images.Filter (images.Text $text $textOptions) }}
+    {{ $featured = resources.Copy (path.Join .Page.RelPermalink "og.png") $featured }}
+
+{{ end }}
+
+{{ return $featured }}
