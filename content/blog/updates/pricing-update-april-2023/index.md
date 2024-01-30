@@ -6,7 +6,7 @@ date: 2023-05-01
 profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1683132110/Photos/joe-prof-profilepic_sglwrl.webp"
 image: "/blog/updates/pricing-update-april-2023/cover.png"
 images:
-- budibase-logo.jpg
+- /blog/updates/pricing-update-april-2023/cover.png
 author: Joe Johnston
 
 ---

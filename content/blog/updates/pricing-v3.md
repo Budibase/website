@@ -6,7 +6,7 @@ layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/joe_illustration_gray_bg_e97wdl.jpg
 image: https://res.cloudinary.com/daog6scxm/image/upload/v1699448683/cms/pricing/pricing-v3_post_qdvqoz.png
 images:
-  - https://res.cloudinary.com/daog6scxm/image/upload/v1697027553/cms/pricing/pricing-v3_ht378y.png
+- https://res.cloudinary.com/daog6scxm/image/upload/v1697027553/cms/pricing/pricing-v3_ht378y.png
 date: "2023-11-07"
 author: Joe Johnston
 draft: false

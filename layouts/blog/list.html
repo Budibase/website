@@ -1,7 +1,7 @@
-{{ partial "header.html" . }}
+{{ partial "head/header.html" . }}
 {{ partial "navigation.html" . }}
 <div class="space-2 container blog-grid">
-  <section class="feature-nav">
+  <section class="blog-nav">
     <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1628150998/3.%20Stickers/Sticker2_urwgif.webp" class="img-fluid u-lg-avatar mb-4" alt="budibase spaceman" />
     <h1 class="mb-3 h2">Think fast</h1>
     <p class="mb-6">Thoughts and ideas on how to build tools, automate workflows and speed-up the workplace.</p>
@@ -34,16 +34,19 @@
       {{ range (.Paginate .RegularPagesRecursive).Pages }}
       <a href="{{ .Permalink }}">
         <div class="blog-feature-card">
-          <img class="rounded"
-            src=" {{ if $.Site.Params.cloudinary_base_url }}{{ .Params.image }}{{else}}{{ .Params.image }}{{end}}" />
-          <h2 class="h4 mb-2 mt-4 line-clamp-1">{{ .Title }}</h2>
-          <p class="two-line-clamp">{{ .Description }} </p>
-          <p class="mt-2 text-grey text-xs"> {{ if (.Params.profilePic) }}
-            <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+          <div>
+            <h2 class="h3 mb-2 mt-4 line-clamp-2">{{ .Title }}</h2>
+            <p class="three-line-clamp opacity-75">{{ .Summary }} </p>
+          </div>
+          <div>
+            {{ if (.Params.profilePic) }}
+            <img class="u-avatar-4 rounded-circle mb-1" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
             {{ else }}
-            <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
-            {{ end }}{{ .Params.author }} | {{ .Date.Format .Site.Params.dateform }}
-          </p>
+            <img class="u-avatar-4 rounded-circle mb-1" src="/budibase-symbol.svg">
+            {{ end }}
+            <p class="mb-1">{{ .Params.author }}</p>
+            <p class="opacity-50 mb-1">{{ .Date.Format .Site.Params.dateform }} </p>
+          </div>
         </div>
       </a>
       {{ end }}

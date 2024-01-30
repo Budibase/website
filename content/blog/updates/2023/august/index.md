@@ -4,7 +4,8 @@ description: August 2023 release - New updates and improvements to Budibase.
 type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/joe_illustration_gray_bg_e97wdl.jpg
-image: https://res.cloudinary.com/daog6scxm/image/upload/v1694440512/features/CleanShot_2023-09-11_at_14.55.04_2x_yafhxn.png
+images:
+- https://res.cloudinary.com/daog6scxm/image/upload/v1694440512/features/CleanShot_2023-09-11_at_14.55.04_2x_yafhxn.png
 date: "2023-09-09"
 author: Joe Johnston
 draft: false
