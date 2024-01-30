@@ -4,8 +4,10 @@ description: In the world of application development, speed and quality often si
 type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1704878154/Photos/headshot_aw4uce.png
-date: "2024-01-09"
+images:
+- https://res.cloudinary.com/daog6scxm/image/upload/v1706626653/cms/globalBindings/globalBindings_ibbjgy.png
+date: "2024-01-30"
 author: Jamie Birss
-draft: false
+draft: true
 ---
 

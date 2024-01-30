@@ -127,6 +127,7 @@ html {
   --red-200: rgb(255, 205, 195);
   --red-100: rgb(255, 223, 217);
   --border-color-regular: rgba(0, 0, 0, 0.1);
+  --text-color-light: rgb(38, 38, 39, 0.9);
   --text-color-regular: rgb(38, 38, 39);
   --text-color-dark: hsl(200 12% 4%);
   --hiContrast: hsl(0, 0%, 9%);
@@ -7254,15 +7255,13 @@ ul {
   background-color: white;
 }
 
-.blog-nav-items {
-  display: none;
-}
+
 
 .blog-grid {
   position: relative;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   .blog-grid {
     position: relative;
     display: grid;
@@ -7272,7 +7271,30 @@ ul {
   }
 }
 
-@media (min-width: 800px) {
+
+.blog-nav {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+@media (min-width: 1000px) {
+  .blog-nav {
+    display: block;
+    padding: 0;
+    position: sticky;
+    overflow-y: hidden;
+    overscroll-behavior: contain;
+    top: 80px;
+    max-height: calc(100vh - 80px);
+  }
+}
+
+.blog-nav-items {
+  display: none;
+}
+
+@media (min-width: 1000px) {
   .blog-nav-items {
     list-style-type: none;
     padding-inline-start: 0;
@@ -7300,7 +7322,6 @@ ul {
 @media (min-width: 800px) {
   .blog-feature-cards {
     grid-template-columns: repeat(2, 1fr);
-    margin: 0px 16px;
   }
 }
 
@@ -7308,6 +7329,7 @@ ul {
 @media (min-width: 1200px) {
   .blog-feature-cards {
     grid-template-columns: repeat(2, 1fr);
+    margin: 0px 16px;
   }
 }
 
@@ -18210,7 +18232,7 @@ button.bg-blue:focus {
 
   .article p {
     font-family: var(--body-font);
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5;
     font-weight: 400;
     word-break: break-word;
@@ -18219,7 +18241,7 @@ button.bg-blue:focus {
     margin-block-start: 8px;
     margin: 16px 0px;
     display: block;
-    color: var(--text-color-regular);
+    color: var(--text-color-light);
     font-variation-settings: "wdth" 100, "wght" 420;
     font-feature-settings: "ss12" on,"liga" on;
   }
@@ -18228,10 +18250,10 @@ button.bg-blue:focus {
     .article p {
       font-family: var(--body-font);
       font-feature-settings: "ss12" on,"liga" on;
-      font-size: 1.05rem;
+      font-size: 1.25rem;
       line-height: 28px;
-      font-variation-settings: "wdth" 100, "wght" 420;
-      color: var(--text-color-regular);
+      font-variation-settings: "wght" 420;
+      color: var(--text-color-light);
       word-break: break-word;
       overflow-wrap: break-word;
       margin-block-end: 10px;
@@ -18384,23 +18406,24 @@ button.bg-blue:focus {
 
   .article li {
     font-family: var(--body-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5;
     font-weight: 400;
     word-break: break-word;
     overflow-wrap: break-word;
     margin-top: 4px;
     margin-bottom: 4px;
-    color: var(--text-color-regular);
+    color: var(--text-color-light);
+    opacity: .8;
   }
 
   @media (min-width: 600px) {
     .article li {
       font-family: InstrumentSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-      font-size: 1.05rem;
+      font-size: 1.25rem;
       line-height: 28px;
       font-weight: 400;
-      color: var(--hiContrast);
+      color: var(--text-color-light);
       word-break: break-word;
       overflow-wrap: break-word;
       margin-top: 8px;
