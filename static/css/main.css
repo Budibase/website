@@ -1,10 +1,10 @@
 
 @font-face {
-  font-family: 'InstrumentSans';
+  font-family: 'InterVar';
   font-style: normal;
   font-weight: 125 950;
-  src: local('InstrumentSans'),
-       url('/fonts/InstrumentSans.woff2') format('woff2'); 
+  src: local('InterVar'),
+       url('/fonts/InterVar.woff2') format('woff2'); 
 }
 
 
@@ -142,10 +142,10 @@ html {
   --transparentPanel: hsl(0 0% 0% / 97%);
   --shadowLight: hsl(206 22% 7% / 35%);
   --shadowDark: hsl(206 22% 7% / 20%);
-  --headline-font: "InstrumentSans", -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-  --body-font: "InstrumentSans", -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-  --headline-font-features: "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08";
-  --body-font-features:  "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08";
+  --headline-font: "InterVar", -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  --body-font: "InterVar", -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  --headline-font-features: "case", "ss01", "ss03", "cv01", "cv06", "cv10";
+  --body-font-features:  "case", "ss01", "ss03";
   --font-variation-settings: "wght" 500 !important;
   --space-1: 5px;
   --space-2: 10px;
@@ -546,7 +546,7 @@ h1,
 h2 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'InstrumentSans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
   font-feature-settings: var(--body-font-features);
@@ -556,7 +556,7 @@ h3,
 h4 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'InstrumentSans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
   font-feature-settings: var(--body-font-features);
@@ -566,7 +566,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'InstrumentSans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   color: var(--hiContrast);
   text-rendering: optimizeLegibility;
   font-feature-settings: var(--body-font-features);
@@ -576,7 +576,7 @@ p {
   margin-top: 0;
   margin-bottom: 0;
   color: var(--text-color-regular);
-  font-family: 'InstrumentSans', sans-serif;
+  font-family: 'InterVar', sans-serif;
   font-weight: 400 !important;
   font-variation-settings: 'wght' 440;
   font-style: normal !important;
@@ -610,7 +610,7 @@ table td {
 }
 
 .intro-text {
-  font-family: 'InstrumentSans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   color: var(--hiContrast);
   font-size: clamp(var(--fontsize-7), 2.5vw, var(--fontsize-8));
   font-weight: 600;
@@ -767,7 +767,7 @@ table td {
 }
 
 .font-sans {
-  font-family: InstrumentSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif !important;
+  font-family: InterVar, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif !important;
 }
 
 
@@ -866,7 +866,7 @@ a {
   opacity: 1 !important;
   cursor: pointer;
   display: inline;
-  font-family: 'InstrumentSans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   font-variation-settings: 'wght' 500;
 }
 
@@ -886,7 +886,7 @@ a:focus {
   cursor: pointer;
   display: inline;
   font-variation-settings: 'wght' 440;
-  font-family: 'InstrumentSans';
+  font-family: 'InterVar';
   text-decoration: none !important;
 }
 
@@ -900,7 +900,7 @@ a:focus {
   -webkit-text-decoration-skip: objects;
   line-height: 0;
   padding: 0;
-  font-family: 'InstrumentSans';
+  font-family: 'InterVar';
 }
 
 
@@ -915,7 +915,7 @@ a:focus {
   text-decoration-thickness: .8px;
   display: inline;
   font-variation-settings: "wght" 540  ;
-  font-family: 'InstrumentSans';
+  font-family: 'InterVar';
 }
 
 .a-underline:hover {
@@ -1252,7 +1252,7 @@ a:focus {
 
 
 .hero-description {
-  font-family: 'InstrumentSans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;    
+  font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;    
   font-variation-settings: "wght" 460;
   font-size: 20px;
   line-height: 1.5;
@@ -1263,7 +1263,7 @@ a:focus {
 }
 
 .hero-description-lg {
-  font-family: 'InstrumentSans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;    
+  font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;    
   font-variation-settings: "wght" 460;
   font-size: 26px;
   line-height: 1.5;
@@ -3757,7 +3757,7 @@ pre>code {
   line-height: 16px;
   transition: background-position .2s;
   font-variation-settings: "wght" 600,  ;
-  font-family: 'InstrumentSans';
+  font-family: 'InterVar';
 }
 
 .badge-hero {
@@ -3775,7 +3775,7 @@ pre>code {
   line-height: 16px;
   transition: background-position .2s;
   font-variation-settings: "wght" 600,  ;
-  font-family: 'InstrumentSans';
+  font-family: 'InterVar';
 }
 
 .badge-hero:hover {
@@ -3812,7 +3812,7 @@ pre>code {
   justify-items: center;
   border: 1px solid var(--indigo);
   font-variation-settings: "wght" 550;
-  font-family: 'InstrumentSans', sans-serif;
+  font-family: 'InterVar', sans-serif;
 }
 
 .tag-gray {
@@ -3838,7 +3838,7 @@ pre>code {
   display: inline-flex;
   align-items: center;
   justify-items: center;
-  font-family: 'InstrumentSans', sans-serif;
+  font-family: 'InterVar', sans-serif;
   font-variation-settings: "wght" 450;
   border: 1px solid var(--gray-500);
 }
@@ -3853,7 +3853,7 @@ pre>code {
   display: inline-flex;
   align-items: center;
   justify-items: center;
-  font-family: 'InstrumentSans', sans-serif;
+  font-family: 'InterVar', sans-serif;
   font-variation-settings: "wght" 450;
   border: 1px solid var(--gray-500);
 }
@@ -4731,7 +4731,7 @@ details[open]>summary {
   font-size: 19px;
   color: var(--hiContrast);
   line-height: 1;
-  font-family: 'InstrumentSans' sans-serif;
+  font-family: 'InterVar' sans-serif;
   font-variation-settings: 'wght' 480 !important;
   font-feature-settings: var(--body-font-features);
 }
@@ -5223,7 +5223,7 @@ details[open]>summary {
   color: var(--gray-900);
   border: none;
   background-color: transparent;
-  font-family: "InstrumentSans", Helvetica, Arial, sans-serif;
+  font-family: "InterVar", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -8233,7 +8233,7 @@ label {
 .hs-button {
   display: inline-block;
   font-variation-settings: 'wght' 610;
-  font-family: "InstrumentSans", Helvetica, Arial, sans-serif;
+  font-family: "InterVar", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -8445,7 +8445,7 @@ select {
   background: var(--gray-500);
   color: var(--hiContrast);
   font-variation-settings: 'wght' 600,  ;
-  font-family: "InstrumentSans", Helvetica, Arial, sans-serif;
+  font-family: "InterVar", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -8490,7 +8490,7 @@ select {
   background: var(--blue-500);
   color: var(--hiContrast);
   font-variation-settings: 'wght' 600,  ;
-  font-family: "InstrumentSans", Helvetica, Arial, sans-serif;
+  font-family: "InterVar", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -8522,7 +8522,7 @@ select {
   background: var(--red-1000);
   color: var(--hiContrast);
   font-variation-settings: 'wght' 600,  ;
-  font-family: "InstrumentSans", Helvetica, Arial, sans-serif;
+  font-family: "InterVar", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -8555,7 +8555,7 @@ select {
   font-size: 14px;
   padding: 10px 20px;
   font-variation-settings:  'wght' 500;
-  font-family: "InstrumentSans", Helvetica, Arial, sans-serif;
+  font-family: "InterVar", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -8588,7 +8588,7 @@ select {
   font-size: 14px;
   padding: 10px 20px;
   font-variation-settings:  'wght' 500;
-  font-family: "InstrumentSans", Helvetica, Arial, sans-serif;
+  font-family: "InterVar", Helvetica, Arial, sans-serif;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -11327,7 +11327,7 @@ button.bg-blue:focus {
 
 
   .text-monospace {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "InstrumentSans", "Courier New", monospace;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "InterVar", "Courier New", monospace;
   }
 
   .text-justify {
@@ -11978,7 +11978,7 @@ button.bg-blue:focus {
     color: #cccccc;
     font-size: 16px;
     font-weight: 600;
-    font-family: "InstrumentSans", Arial, Helvetica, sans-serif;
+    font-family: "InterVar", Arial, Helvetica, sans-serif;
   }
 
   .u-header__nav-link-icon {
@@ -12001,7 +12001,7 @@ button.bg-blue:focus {
   }
 
   .u-header__sub-menu-nav-link {
-    font-family: 'InstrumentSans', sans-serif;
+    font-family: 'InterVar', sans-serif;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
@@ -18419,7 +18419,7 @@ button.bg-blue:focus {
 
   @media (min-width: 600px) {
     .article li {
-      font-family: InstrumentSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+      font-family: InterVar, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
       font-size: 1.25rem;
       line-height: 28px;
       font-weight: 400;
