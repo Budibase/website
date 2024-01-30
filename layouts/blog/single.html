@@ -1,8 +1,5 @@
 {{ partial "head/header.html" . }}
-
 {{ partial "navigation.html" . }}
-
-
 <main id="content" role="main">
   <!-- Article Content -->
   <article>
@@ -14,29 +11,22 @@
                 Published {{ .Date.Format .Site.Params.dateform }} </span>
               <h1 class="mt-2 mb-4">{{ .Title }}</h1>
               {{ if (.Params.profilePic) }}
-            <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
-            {{ else }}
-            <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
-            {{ end }}By {{ .Params.author }}
-            <hr />
+              <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+              {{ else }}
+              <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
+              {{ end }}By {{ .Params.author }}
+              <hr />
             </header>
-
             <div class="mx-md-auto mb-9">
               {{ .Content }}
             </div>
-            
       </div>
     </div>
-
     </div>
     </div>
     </div>
-
   </article>
 </main>
-
 <!--Article-->
-
 {{ partial "cta.html" . }}
-
 {{ partial "footer.html" . }}

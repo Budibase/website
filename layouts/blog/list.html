@@ -34,16 +34,19 @@
       {{ range (.Paginate .RegularPagesRecursive).Pages }}
       <a href="{{ .Permalink }}">
         <div class="blog-feature-card">
-          <img class="rounded"
-            src=" {{ if $.Site.Params.cloudinary_base_url }}{{ .Params.image }}{{else}}{{ .Params.image }}{{end}}" />
-          <h2 class="h4 mb-2 mt-4 line-clamp-1">{{ .Title }}</h2>
-          <p class="two-line-clamp">{{ .Description }} </p>
-          <p class="mt-2 text-grey text-xs"> {{ if (.Params.profilePic) }}
-            <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+          <div>
+            <h2 class="h3 mb-2 mt-4 line-clamp-2">{{ .Title }}</h2>
+            <p class="three-line-clamp">{{ .Summary }} </p>
+          </div>
+          <div>
+            {{ if (.Params.profilePic) }}
+            <img class="u-avatar-4 rounded-circle mb-1" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
             {{ else }}
-            <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
-            {{ end }}{{ .Params.author }} | {{ .Date.Format .Site.Params.dateform }}
-          </p>
+            <img class="u-avatar-4 rounded-circle mb-1" src="/budibase-symbol.svg">
+            {{ end }}
+            <p class="mb-1">{{ .Params.author }}</p>
+            <p class="opacity-50 mb-1">{{ .Date.Format .Site.Params.dateform }} </p>
+          </div>
         </div>
       </a>
       {{ end }}
