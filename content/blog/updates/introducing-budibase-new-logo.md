@@ -15,7 +15,7 @@ Today, we’re sharing the biggest change to the Budibase brand in our recent hi
 
 It’s a makeover a long time in the making, and a lot of love went into it. We hope it shows.
 
-{{< vimeo >}}
+{{< vimeo id="880990987" title="Budibase new branding" >}}
 
 ## Why a rebrand?
 
