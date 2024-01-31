@@ -29,11 +29,11 @@ With Global Bindings, the development process has been streamlined. To make the 
 
 ![Budibase global bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1706704750/changelog/globalBindings/bindingsNewWay_o1sfpf.webp)
 
-With this update, the component's underlying bindings are built exactly as before, but global resolution means that they can be leveraged anywhere. 
+With this update, the component's underlying bindings are built exactly as before, but **global resolution** means they can be leveraged anywhere. 
 
-The `Form block` here provides a binding containing a list of expenses, `Details form block.Fields.Expense`. This was previously only accessible within the internal block settings, but now, in the global context, it can be accessed directly within the neighboring `Table block` to filter the expense list. **Both components are still completely independent and can be moved freely around the screen without the binding breaking.**
+The `Table block` here provides a binding containing a list of expenses - `Expenses table block.Rows`.This was previously only accessible locally to the block, but now, in the global context, it can be accessed directly within the neighboring `Details side panel` to calculate the sum of the expenses. **Both components are still completely independent and can be moved freely around the screen without the binding breaking.**
 
-We’re excited to see the creative and effective ways our community will leverage Global Bindings to turn data into meaningful action. 
+Our aim is to streamline the creation of world-class applications, making the process both rapid and intuitive. We’re excited to see the creative and effective ways our community will leverage Global Bindings to turn data into meaningful action.
 
 **To try Global Bindings for yourself, please update to the latest version of Budibase.**
 
