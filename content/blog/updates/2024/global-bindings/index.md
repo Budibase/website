@@ -33,10 +33,10 @@ With Global Bindings, the development process has been streamlined. To make the 
 
 With this update, the component's underlying bindings are built exactly as before, but **global resolution** means they can be leveraged anywhere. 
 
-The `Table block` here provides a binding containing a list of expenses - `Expenses table block.Rows`.This was previously only accessible locally to the block, but now, in the global context, it can be accessed directly within the neighboring `Details side panel` to calculate the sum of the expenses. **Both components are still completely independent and can be moved freely around the screen without the binding breaking.**
+The `Table block 1` here provides a binding containing a list of expenses - `Expenses table block.Rows`.This was previously only accessible locally to the block, but now, in the global context, it can be accessed directly within the neighboring `Details side panel` to calculate the sum of the expenses. **Both components are still completely independent and can be moved freely around the screen without the binding breaking.**
 
 Our aim is to streamline the creation of world-class applications, making the process both rapid and intuitive. We’re excited to see the creative and effective ways our community will leverage Global Bindings to turn data into action. 
 
-**To try Global Bindings for yourself, please update to the latest version of Budibase.**
+**To try Global Bindings for yourself, [please update to the latest version of Budibase.](https://account.budibase.app/auth/login)**
 
-Have some feedback for this release? Let us know on the [Budibase forum](https://github.com/Budibase/budibase/discussions). We’d love to hear your thoughts.
+Have some feedback for this release? Let us know on the [Budibase forum.](https://github.com/Budibase/budibase/discussions) We’d love to hear your thoughts.
