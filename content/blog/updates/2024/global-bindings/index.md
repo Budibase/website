@@ -11,8 +11,6 @@ author: Jamie Birss
 draft: false
 ---
 
-To try Global Bindings for yourself, please update to the latest version of Budibase.
-
 At Budibase, we are continually evolving to make application development more intuitive, accessible, and powerful. With our latest update, we are thrilled to announce a significant enhancement that aligns perfectly with this vision - Global Bindings. Before diving into the exciting details, we assure you that your existing data structures are safe. This update is designed to integrate seamlessly with your existing setup, ensuring that everything you've built so far continues to function flawlessly with the new version of Budibase.
 
 Now we’ve got that out of the way - let’s jump into it. Data is at the heart of Budibase. It’s the foundation of every application and is the first thing you focus on when getting started. Global Bindings make accessing data within your application easier than ever by eliminating the need for complex nested component trees, allowing you to access any data source or static binding from any component within the same screen. This removes unnecessary friction from the development experience, offering new-found flexibility that simplifies the development process, making app building more efficient, intuitive, and user-friendly.
@@ -35,6 +33,8 @@ With this update, the component's underlying bindings are built exactly as befor
 
 The `Form block` here provides a binding containing a list of expenses, `Details form block.Fields.Expense`. This was previously only accessible within the internal block settings, but now, in the global context, it can be accessed directly within the neighboring `Table block` to filter the expense list. **Both components are still completely independent and can be moved freely around the screen without the binding breaking.**
 
-We’re excited to see the creative and effective ways our community will leverage Global Bindings to turn data into meaningful action.
+We’re excited to see the creative and effective ways our community will leverage Global Bindings to turn data into meaningful action. 
+
+**To try Global Bindings for yourself, please update to the latest version of Budibase.**
 
 Have some feedback for this release? Let us know on the [Budibase forum](https://github.com/Budibase/budibase/discussions). We’d love to hear your thoughts.
