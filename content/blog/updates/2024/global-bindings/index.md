@@ -6,7 +6,7 @@ layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1704878154/Photos/headshot_aw4uce.png
 images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1706626653/cms/globalBindings/globalBindings_ibbjgy.png
-date: 2024-01-30
+date: 2024-01-31
 author: Jamie Birss
 draft: false
 ---
