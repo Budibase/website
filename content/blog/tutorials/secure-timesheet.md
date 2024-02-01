@@ -462,4 +462,4 @@ Here’s what our completed secure timesheet form will look like:
 
 ![Secure Timesheet](https://res.cloudinary.com/daog6scxm/image/upload/v1706804614/cms/secure-timesheet/Secure_Timesheet_56_zoiaam.webp "Secure Timesheet")
 
-If you enjoyed this article, why not check out our guide to building a [change request form](https://budibase.com/blog/tutorials/change-request-form/)?
+If you enjoyed this article, check out our guide to building a [change request form](https://budibase.com/blog/tutorials/change-request-form/).
