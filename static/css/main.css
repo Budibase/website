@@ -2619,6 +2619,28 @@ pre>code {
   border-radius: 8px;
 }
 
+.security-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+}
+
+@media (min-width: 600px) {
+  .security-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(4, 100px);
+  }
+}
+.security-card {
+  padding: 24px;
+  border: 1px solid var(--dark-light-border);
+  background-color: var(--midnight);
+}
+
+.solution-lp-header {
+  min-width: 260px;
+}
+
 
 .hero-bg-image {
   position: absolute;
@@ -15598,6 +15620,9 @@ button.bg-blue:focus {
 
   .mt--8 {
     margin: -4rem !important;
+  }
+  .mt--10 {
+    margin: -6rem !important;
   }
 
   .mt-1,
