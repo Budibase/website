@@ -2613,10 +2613,13 @@ pre>code {
 }
 
 .guide {
-  width: 385px;
+  width: 280px;
   border: 1px solid var(--gray-500);
   padding: 24px;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .security-grid {
