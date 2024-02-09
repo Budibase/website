@@ -2,8 +2,6 @@
 author = "Ronan McQuillan"
 date = 2023-10-27
 description = "Check out our guide to building a vendor request form."
-image = "https://res.cloudinary.com/daog6scxm/image/upload/v1698414283/cms/vendor-request-form/Vendor_Request_Form_drlq94.png"
-images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1698414283/cms/vendor-request-form/Vendor_Request_Form_drlq94.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "How to Build a Vendor Request Form"
 

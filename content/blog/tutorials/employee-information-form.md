@@ -2,8 +2,6 @@
 author = "Ronan McQuillan"
 date = 2024-01-26
 description = "Today we’re building an advanced employee information form with Budibase."
-image = "https://res.cloudinary.com/daog6scxm/image/upload/v1706264068/cms/employee-information-form/Employee_Information_Form_aboyph.png"
-images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1706264068/cms/employee-information-form/Employee_Information_Form_aboyph.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "How to Build an Employee Information Form"
 +++

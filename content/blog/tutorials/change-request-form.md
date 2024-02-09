@@ -2,8 +2,6 @@
 author = "Ronan McQuillan"
 date = 2024-01-29
 description = "Follow our tutorial to build a custom change request form with Budibase."
-image = "https://res.cloudinary.com/daog6scxm/image/upload/v1706537673/cms/change-request-form/Change_Request_Form_lxnz8d.png"
-images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1706537673/cms/change-request-form/Change_Request_Form_lxnz8d.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "How to Build a Change Request Form in 5 Steps"
 

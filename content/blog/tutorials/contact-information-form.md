@@ -2,8 +2,6 @@
 author = "Ronan McQuillan"
 date = 2024-02-06
 description = "Learn how to build a contact information form with Budibase"
-image = "https://res.cloudinary.com/daog6scxm/image/upload/v1707232508/cms/contact-information-form/Contact_Information_Form_yicxf1.png"
-images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1707232508/cms/contact-information-form/Contact_Information_Form_yicxf1.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "How to Build an Embeddable Contact Information Form"
 +++
