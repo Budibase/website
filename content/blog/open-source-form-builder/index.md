@@ -315,4 +315,4 @@ If you just want to use simple JS apps without React, then Alpaca is again a goo
 
 Forms are a critical component of the internet. As our need and demand for software increases, so does our need for great forms. Each of the open-source form builders above offers something unique. If you are building a form/web app / internal tool from scratch - use Budibase. If you have a pre-existing React codebase, use Kinto. If you are in an enterprise org with a pre-existing Angular codebase, use Form.io. If you need a lightweight html5 form builder, have coding experience, Alpaca is brilliant. If you are interested in what is the next up-and-coming open-source form builder, check out OhMyForm.
 
-Thanks for reading, and good luck on your form-building journey.
+Thanks for reading, and good luck on your form-building journey. Check out our [forms page](https://budibase.com/forms/) to learn more about how Budibase empowers teams to build advanced forms on top of exiting data.
