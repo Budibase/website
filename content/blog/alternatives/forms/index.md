@@ -58,7 +58,7 @@ You can build forms from scratch or autogenerate forms based on connected data s
 
 Uniquely, Budibase offers self-hosted forms across all free and paid plans - alongside our cloud-based platform. You can deploy your solutions to your own infrastructure for maximal security.
 
-Check out our [forms page](https://budibase.com/forms/) to learn more about how Budibase empowers teams to build advanced forms on top of exiting data.
+Check out our [forms page](https://budibase.com/forms/) to learn more about how Budibase empowers teams to build advanced forms on top of existing data.
 
 ### JotForm
 

@@ -268,7 +268,7 @@ This may not seem like the top priority when using a form to enter data to Googl
 
 For example, you might want to introduce extra levels of security, monitoring, or other measures.
 
-Or you might simply have your own infrastructure and want to use it. Check out our [forms page](https://budibase.com/forms/) to learn more about how Budibase empowers teams to build advanced forms on top of exiting data.
+Or you might simply have your own infrastructure and want to use it. Check out our [forms page](https://budibase.com/forms/) to learn more about how Budibase empowers teams to build advanced forms on top of existing data.
 
 Here’s what our finished app looks like:
 
