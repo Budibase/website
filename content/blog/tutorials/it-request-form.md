@@ -2,8 +2,6 @@
 author = "Ronan McQuillan"
 date = 2024-02-07
 description = "Follow along with our tutorial to build a custom IT request form."
-image = "https://res.cloudinary.com/daog6scxm/image/upload/v1707323201/cms/it-request-form/IT_Request_Form_hc31yg.png"
-images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1707323201/cms/it-request-form/IT_Request_Form_hc31yg.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "How to Build an IT Request Form"
 +++
