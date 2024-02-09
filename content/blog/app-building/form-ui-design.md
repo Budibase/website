@@ -417,6 +417,8 @@ This could be as simple as displaying users’ names in your titles. You could a
 
 You could even display entirely different form fields based on user responses at each step, to create branching logic within surveys.
 
+Check out our [forms page](https://budibase.com/forms/) to learn more about how Budibase empowers teams to build advanced forms on top of exiting data.
+
 ## 22. Low-code form UI design
 
 We can also think about how we design and output forms at a broader level. Forms are some of the most common UIs around. So, it makes sense to think about how we can build them at scale - as well as how we design individual interfaces.

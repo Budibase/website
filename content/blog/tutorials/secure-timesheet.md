@@ -46,6 +46,8 @@ We’re building this on top of a MySQL database - although Budibase gives us th
 
 We’re going to use Budibase’s extensive customization options - including conditional logic and contextual bindings - to build a sleek, efficient experience for users submitting timesheets.
 
+Check out our [forms page](https://budibase.com/forms/) to learn more about how Budibase empowers teams to build advanced forms on top of exiting data.
+
 ![Secure timesheet](https://res.cloudinary.com/daog6scxm/image/upload/v1706804614/cms/secure-timesheet/Secure_Timesheet_56_zoiaam.webp "Secure timesheet")
 
 Let’s jump in.
