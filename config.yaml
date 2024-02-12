@@ -40,3 +40,6 @@ params.publisher.logo:
 
 params.logo:
   url: "/budibase-logo.png"
+
+imaging:
+  quality: 100
