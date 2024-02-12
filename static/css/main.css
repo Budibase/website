@@ -5455,6 +5455,7 @@ details[open]>summary {
   text-decoration: none;
   background: none;
   text-align: inherit;
+  box-shadow: none;
 }
 
 
