@@ -10,7 +10,7 @@ icon = "/img/icon/portal.svg"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642418579/cms/University_Portal_App_GIF_snihoc.gif"
 summary = "Our open-source university portal template offers a quickly deployable and powerful app for managing resources, services, and information."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/University_Portal_App_Thumbnail_New_k0t9fk.png"
-thumbnailColor = "forestgreen"
+thumbnailColor = "bb-forestgreen"
 title = "Open-Source University Portal | Budibase | Low-Code Platform "
 type = "templates"
 
