@@ -8296,7 +8296,7 @@ ul {
   padding: 10px 16px;
   font-size: 16px;
   line-height: none;
-  border-radius: 0px !important;
+  border-radius: 2px !important;
   transition: all 0.2s ease-in-out;
   overflow: hidden;
   outline: none;
