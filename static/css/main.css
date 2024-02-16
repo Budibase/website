@@ -921,7 +921,6 @@ a {
   cursor: pointer;
   display: inline;
   font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-  font-variation-settings: 'wght' 500;
 }
 
 a:hover {
