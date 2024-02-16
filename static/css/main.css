@@ -4245,7 +4245,6 @@ details[open]>summary {
 }
 
 details {
-  border-radius: 0.2rem;
   padding: 0.5rem;
 }
 
@@ -10810,7 +10809,7 @@ button.close {
 
 
 .border-top {
-  border-top: 1px solid var(--base-12);
+  border-top: 1px solid var(--base-8);
   z-index: 2;
 }
 
