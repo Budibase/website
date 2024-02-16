@@ -2128,7 +2128,7 @@ pre>code {
 
 @media (min-width: 1600px) {
   .hero-content {
-    grid-area: 1 / 4 / 4 / 12; 
+    grid-area: 1 / 3 / 4 / 11; 
     width: 100%;
     padding: 0;
   }
@@ -2136,7 +2136,7 @@ pre>code {
 
 @media (min-width: 1600px) {
   .hero-media { 
-    grid-area: 1 / 12 / 4 / 25; 
+    grid-area: 1 / 11 / 4 / 25; 
   }
 }
 
