@@ -10,7 +10,7 @@ layout = "single"
 preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642421826/cms/Travel_Approval_Request_App_GIF_v8boae.gif"
 summary = "Our travel approval request template is designed to streamline and simplify the way your employees book and manage business trips."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642588436/cms/Travel_Approval_Request_Template_Thumbnail_new_y17mmf.png"
-thumbnailColor = "indigo"
+thumbnailColor = "bb-indigo"
 title = "Travel Approval Request Template | Budibase | Low-Code Builder"
 type = "templates"
 

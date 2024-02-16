@@ -10,7 +10,7 @@ preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642412335/cms/Age
 summary = "Our agency client portal provides an effective platform for managing clients, sharing project files, and streamlining communications."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642517071/cms/Agency_Client_Portal_Thumbnail_New_h5cpvh.png"
 icon = "/img/icon/portal.svg"
-thumbnailColor = "forestgreen"
+thumbnailColor = "bb-forestgreen"
 title = "Agency Client Portal Template | Budibase | Low-Code Portals"
 type = "templates"
 

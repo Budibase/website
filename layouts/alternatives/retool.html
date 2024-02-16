@@ -22,7 +22,7 @@
             {{ $content_parts := split .Content "||||||||||" }}
             {{ index $content_parts 0 | safe.HTML}}
         </div>
-        <div class="mx-md-auto space-1 space-3-bottom bg-beige">
+        <div class="mx-md-auto space-1 space-3-bottom bg-base-300">
             <div class="container-8 mx-auto">
                 {{ index $content_parts 1 | safe.HTML}}
                 <details class="mt-6 my-1 p-3 bg-white border rounded-sm">
