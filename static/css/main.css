@@ -2078,7 +2078,7 @@ pre>code {
 @media (min-width: 1200px) {
   .hero-container {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(24, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -2102,33 +2102,33 @@ pre>code {
 
 @media (min-width: 1000px) {
   .hero-content {
-    grid-area: 1 / 1 / 2 / 8; 
+    grid-area: 1 / 1 / 4 / 16; 
     width: 80%;
   }
 }
 
 @media (min-width: 1000px) {
   .hero-media { 
-    grid-area: 1 / 6 / 2 / 13; 
+    grid-area: 1 / 12 / 2 / 25; 
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .hero-content {
-    grid-area: 1 / 1 / 2 / 7; 
+    grid-area: 1 / 2 / 4 / 11; 
     width: 100%;
   }
 }
 
 @media (min-width: 1200px) {
   .hero-media { 
-    grid-area: 1 / 6 / 2 / 13; 
+    grid-area: 1 / 10 / 4 / 25; 
   }
 }
 
 @media (min-width: 1600px) {
   .hero-content {
-    grid-area: 1 / 2 / 2 / 6; 
+    grid-area: 1 / 4 / 4 / 12; 
     width: 100%;
     padding: 0;
   }
@@ -2136,7 +2136,7 @@ pre>code {
 
 @media (min-width: 1600px) {
   .hero-media { 
-    grid-area: 1 / 6 / 2 / 13; 
+    grid-area: 1 / 12 / 4 / 25; 
   }
 }
 
