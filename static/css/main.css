@@ -1353,7 +1353,7 @@ a:focus {
   }
 }
 .hero-title-lg {
-  font-size: 3.4rem;
+  font-size: 2.8rem;
   margin-top: 0;
   margin-bottom: 0;
   font-family: var(--headline-font), sans-serif;
@@ -1365,9 +1365,25 @@ a:focus {
   line-height: 1.1;
 }
 
-@media (min-width: 1200px) {
+
+@media (min-width: 1000px) {
   .hero-title-lg {
     font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: var(--headline-font), sans-serif;
+    font-feature-settings: var(--headline-font-features);
+    font-variation-settings: 'wght' 580 !important;
+    letter-spacing: -0.02em !important;
+    text-rendering: optimizeLegibility;
+    font-variant-ligatures: none;
+    line-height: 1.1;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-title-lg {
+    font-size: 3.2rem;
     margin-top: 0;
     margin-bottom: 0;
     font-family: var(--headline-font), sans-serif;
