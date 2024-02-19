@@ -5162,9 +5162,7 @@ details[open]>summary {
   -webkit-box-flex: 1;
   flex-grow: 1;
   gap: 1rem;
-  border: 1px solid var(--base-8);
   border-radius: 16px;
-  background-color: white;
 }
 
 .pricing-inner {
@@ -5511,7 +5509,7 @@ details[open]>summary {
   flex-direction: column;
   position: relative;
   border-radius: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--base-5);
   overflow: hidden;
   -webkit-box-flex: 1;
   flex-grow: 1;
