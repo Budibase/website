@@ -1,29 +1,39 @@
 
-<div class="bg-base-200">
+<div class="bg-base-3">
     <div class="container-12 space-2 mx-auto">
         <h2 class="mb-6 hero-title text-center">
             Start with a template
-            </h1>
+            </h2>
             <div class="space-1-bottom">
                 <div class="templates-cards">
-                    {{ range where .Pages "Section" "!=" "templates" }}
-                    {{ range first 3 .Pages }}
-                    <a href="{{.Permalink}}">
-                        <div class="templates-card">
-                            <div class="template-thumbnail mb-4 rounded-lg shadow border">
-                                <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1705678480/cms/forms/checklist2_qkxxmu.webp"
-                                class="img-fluid" />                            
-                            </div>
-                            <h2 class="h4 mb-2">{{ .Params.label }}</h2>
-                            <p class="two-line-clamp opacity-75">{{ .Summary }} </p>
+                    <div class="template-card">
+                        <div class="template-card-image bg-base-6 px-4 py-8">
+                            <img src="/img/industries/design-2.png" class="img-fluid" />
                         </div>
-                    </a>
-                    {{ end }}
-                    {{ end }}
+                        <h4 class="mt-3">Change request form</h4>     
+                        <p class="mt-3">The change request form template allows users to request changes, securely. Process owners can also review and update requests.</p>               
+                        <button class="mt-3 btn-primary btn btn-sm" popovertarget="my-popover">View template</button>
+                    </div>               
+                    <div class="template-card">
+                        <div class="template-card-image bg-base-6 px-4 py-8">
+                            <img src="/img/industries/design-2.png" class="img-fluid" />
+                        </div>                        
+                        <h4 class="mt-3">Change request form</h4>     
+                        <p class="mt-3">The change request form template allows users to request changes, securely. Process owners can also review and update requests.</p>               
+                        <button class="mt-3 btn-primary btn btn-sm" popovertarget="my-popover">View template</button>
+                    </div> 
+                    <div class="template-card">
+                        <div class="template-card-image bg-base-6 px-4 py-8">
+                            <img src="/img/industries/design-2.png" class="img-fluid" />
+                        </div>
+                         <h4 class="mt-3">Change request form</h4>     
+                        <p class="mt-3">The change request form template allows users to request changes, securely. Process owners can also review and update requests.</p>               
+                        <button class="mt-3 btn-primary btn btn-sm" popovertarget="my-popover">View template</button>             
+                    </div>      
                 </div>
             </div>
             <div class="my-3 text-center">
-                <a href="/{{ .Section }}/templates" class="btn btn-forms-cta btn-lg"> Browse all {{ .Section | singularize |
+                <a href="/{{ .Section }}/templates"> Browse all {{ .Section | singularize |
                     humanize | lower }} templates</a>
             </div>
     </div>
