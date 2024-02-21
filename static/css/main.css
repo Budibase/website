@@ -7189,6 +7189,10 @@ ul {
   }
 }
 
+.template-card-image {
+  min-height: 300px;
+}
+
 @media (max-width: 800px) {
   .template-card-sm {
     max-width: 70%;
@@ -7366,7 +7370,7 @@ ul {
   display: grid;
   margin: 16px auto 0px;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 72px 24px;
+  gap: 72px 42px;
   -webkit-box-pack: center;
   justify-content: center;
 }
@@ -9918,10 +9922,10 @@ button.close {
   background-color: var(--base-5)
 }
 .bg-base-6 {
-  background-color: var(--base-8)
+  background-color: var(--base-6)
 }
 .bg-base-7 {
-  background-color: var(--base-8)
+  background-color: var(--base-7)
 }
 .bg-base-8 {
   background-color: var(--base-8)
