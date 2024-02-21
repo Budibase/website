@@ -63,9 +63,9 @@ html {
   --coral-dark: #ff4b44;
   --forestgreen-light: #545d57;
   --forestgreen-dark: #001b1f;
-  --form-gradient: linear-gradient(45deg, var(--accent-navy), var(--accent-teal), var(--accent-blue), var(--accent-pink));
-  --border: var(--base-8);
-  --border-dark: var(--base-16);
+  --form-gradient: linear-gradient(45deg, var(--accent-navy), var(--accent-teal), var(--accent-pink));
+  --border: var(--base-5);
+  --border-dark: var(--base-12);
   --text-color-light: var(--base-16);
   --text-color-regular: var(--base-18);
   --text-color-dark: var(--base-20);
@@ -114,12 +114,6 @@ html {
   --radius-8: 24px;
   --radius-round: 55%;
   --radius-pill: 999px;
-  --zindex-1: 100;
-  --zindex-2: 200;
-  --zindex-3: 300;
-  --zindex-4: 400;
-  --zindex-5: 400;
-  --zindex-max: 9999;
   --breakpoint-xs: 0;
 }
 
