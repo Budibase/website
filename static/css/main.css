@@ -8023,7 +8023,7 @@ ul {
 .btn {
   display: inline-block;
   font-family: var(--body-font);
-  font-variation-settings: "wght" 580 !important;
+  font-variation-settings: "wght" 550 !important;
   font-feature-settings: var(--body-font-features);
   letter-spacing: 0em;
   text-align: center;
