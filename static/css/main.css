@@ -9,9 +9,9 @@
 
 html {
   --bb-coral: #FF4E4E;
-  --bb-coral-night: #F97777;
+  --bb-coral-light: #F97777;
   --bb-indigo: #6E56FF;
-  --bb-indigo-night: #9F8FFF;
+  --bb-indigo-light: #9F8FFF;
   --bb-ivory: #F7F5F2FF;
   --bb-graphite: #1E1919FF;
   --bb-lime: #ecffb5;
@@ -54,7 +54,7 @@ html {
   --accent-yellow: #FAD24B;
   --accent-gold: #9B6400;
   --accent-blue: #125FF6;
-  --accent-blue-steal: #274F9C;
+  --accent-blue-steel: #274F9C;
   --white: white;
   --black: black;
   --indigo: #6E56FF;
@@ -258,12 +258,12 @@ summary::marker {
 }
 
 ::selection {
-  background: var(--bb-indigo-night);
+  background: var(--bb-indigo-light);
   /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-  background: var(--bb-indigo-night);
+  background: var(--bb-indigo-light);
   /* Gecko Browsers */
 }
 
@@ -282,10 +282,24 @@ summary {
   translate: -50% 0;
 }
 
-#my-popover::backdrop {
+#change-request-template::backdrop , #information-request-form::backdrop, #visitor-check-in-form::backdrop {
   background: rgba(21, 27, 38, 0.85);
 }
+ 
+iframe {
+  aspect-ratio: 9/12;
+  width: 100%;
+}
 
+@media (min-width: 1000px) {
+  iframe {
+    aspect-ratio: 16/9;
+    width: 100%;
+  }
+}
+iframe::backdrop {
+  background: rgba(21, 27, 38, 0.85);
+}
 
 .modal-container {
   background-color: #F6F8F9;
@@ -794,7 +808,7 @@ a {
 }
 
 a:hover {
-  color: var(--bb-coral-night);
+  color: var(--bb-coral-light);
 }
 
 a:focus {
@@ -6894,7 +6908,7 @@ ul {
   animation-duration: 8s;
   animation-play-state: running;
   animation-delay: 0s;
-  background-image: linear-gradient(60deg, var(--accent-orchid), var(--bb-coral-night));
+  background-image: linear-gradient(60deg, var(--accent-orchid), var(--bb-coral-light));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -8039,6 +8053,16 @@ ul {
   box-shadow: 0 0.3259259164px 0.7333333492px 0 rgba(0,0,0,.12), 0 1.5407407284px 2.8666665554px 0 rgba(0,0,0,.07), 0 4px 9px 0 rgba(0,0,0,.05)
 }
 
+.btn::after {
+  content: "->";
+  transition: 0.1s ease-in;
+}
+
+.btn:hover:after {
+  content: "->";
+  transform: translateX(25%)
+}
+
 @media screen and (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
@@ -8093,8 +8117,8 @@ fieldset:disabled a.btn {
 
 .btn-cta:hover {
   color: white;
-  background-color: var(--indigo-1000);
-  border: 1px solid var(--indigo-1000);
+  background-color: var(--bb-indigo-light);
+  border: 1px solid var(--bb-indigo-light);
   cursor: pointer;
 }
 
@@ -8106,8 +8130,8 @@ fieldset:disabled a.btn {
 
 .btn-cta-light:hover {
   color: var(--text-color-dark);
-  background-color: var(--bb-indigo-night);
-  border: 1px solid var(--bb-indigo-night);
+  background-color: var(--bb-indigo-light);
+  border: 1px solid var(--bb-indigo-light);
   cursor: pointer;
 }
 
@@ -8124,8 +8148,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: var(--loContrast);
-  background-color: var(--base-17);
-  border: 1px solid var(--base-17);
+  background-color: var(--base-15);
+  border: 1px solid var(--base-15);
   cursor: pointer;
 }
 
@@ -8372,6 +8396,7 @@ select {
   font-size: 18px;
   padding: 12px 24px;
   font-variation-settings: 'wght' 550;
+  height: 70px;
 }
 
 
@@ -8402,9 +8427,10 @@ select {
 }
 
 .btn-block {
-  display: block !important;
+  display: flex !important;
   width: 100%;
   border: 1px solid transparent;
+  justify-content: space-between;
 }
 
 .btn-square {
@@ -9855,7 +9881,7 @@ button.close {
 
 }
 .dotted-background {
-  background-image: radial-gradient(var(--bb-indigo-night), var(--bb-indigo-night) 15%, transparent 15%);
+  background-image: radial-gradient(var(--bb-indigo-light), var(--bb-indigo-light) 15%, transparent 15%);
   background-position: 0, 0, 8px, 8px;
   background-size: 12px 12px;
   background-color: transparent;
@@ -9874,7 +9900,7 @@ button.close {
 
 .hero-gradient-light {
   background: rgb(255, 252, 252);
-  background: linear-gradient(80deg, var(--accent-sunset) 0%, var(--indigo-100) 40%, var(--bb-indigo-night) 100%);
+  background: linear-gradient(80deg, var(--accent-sunset) 0%, var(--indigo-100) 40%, var(--bb-indigo-light) 100%);
 }
 
 .bg-graph {
@@ -9884,17 +9910,18 @@ button.close {
 
 /* Background colors */
 
-.bg-bb-coral {
+.bg-bb-coral, .bg-coral {
   background-color: var(--bb-coral);
 }
-.bg-bb-coral-night {
-  background-color: var(--bb-coral-night);
+.bg-bb-coral-light, .bg-coral-light {
+  background-color: var(--bb-coral-light);
 }
-.bg-bb-indigo {
+
+.bg-bb-indigo, .bg-indigo {
   background-color: var(--bb-indigo);
 }
-.bg-bb-indigo-night {
-  background-color: var(--bb-indigo-night);
+.bg-bb-indigo-light, .bg-indigo-light {
+  background-color: var(--bb-indigo-light);
 }
 .bg-bb-lime {
   background-color: var(--bb-lime);
@@ -9951,7 +9978,7 @@ button.close {
 .bg-base-17 {
   background-color: var(--base-17);
 }
-.bg-base-18 {
+.bg-base-18, .bg-graphite {
   background-color: var(--base-18);
 }
 .bg-base-19 {
@@ -9975,8 +10002,8 @@ button.close {
 .bg-blue {
   background-color: var(--accent-blue);
 }
-.bg-blue-steal {
-  background-color: var(--accent-blue-steal);
+.bg-blue-steel {
+  background-color: var(--accent-blue-steel);
 }
 .bg-sky-blue {
   background-color: var(--accent-sky-blue)
@@ -10046,7 +10073,7 @@ button.close {
   background-color: var(--bb-graphite);
 }
 .bg-indigo-light {
-  background-color: var(--bb-indigo-night);
+  background-color: var(--bb-indigo-light);
 }
 
 /* Colors */
@@ -10123,7 +10150,7 @@ button.close {
   color: var(--accent-sky-blue)
 }
 .coral-light {
-  color: var(--bb-coral-night);
+  color: var(--bb-coral-light);
 }
 .coral {
   color: var(--bb-coral);
@@ -10136,7 +10163,7 @@ button.close {
   color: var(--accent-orchid)
 }
 .indigo-light {
-  color: var(--bb-indigo-night)
+  color: var(--bb-indigo-light)
 }
 .indigo {
   color: var(--bb-indigo);
