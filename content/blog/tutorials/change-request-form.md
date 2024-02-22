@@ -45,7 +45,7 @@ Finally, we’ll use Budibase’s intuitive yet powerful design tools to create 
 
 And all that without a single line of custom code.
 
-You might also like our guide to building an [employee information form](https://budibase.com/blog/tutorials/employee-information-form/).
+Even better, you can sign up to Budibase today and use our [change request form template](https://budibase.app/builder?template=app/change-request-form).
 
 {{< vimeo id="910036061" title="Change Request Form" >}}
 
