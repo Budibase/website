@@ -8053,6 +8053,16 @@ ul {
   box-shadow: 0 0.3259259164px 0.7333333492px 0 rgba(0,0,0,.12), 0 1.5407407284px 2.8666665554px 0 rgba(0,0,0,.07), 0 4px 9px 0 rgba(0,0,0,.05)
 }
 
+.btn::after {
+  content: "->";
+  transition: 0.1s ease-in;
+}
+
+.btn:hover:after {
+  content: "->";
+  transform: translateX(25%)
+}
+
 @media screen and (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
@@ -8107,8 +8117,8 @@ fieldset:disabled a.btn {
 
 .btn-cta:hover {
   color: white;
-  background-color: var(--indigo-1000);
-  border: 1px solid var(--indigo-1000);
+  background-color: var(--bb-indigo-light);
+  border: 1px solid var(--bb-indigo-light);
   cursor: pointer;
 }
 
@@ -8138,8 +8148,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: var(--loContrast);
-  background-color: var(--base-17);
-  border: 1px solid var(--base-17);
+  background-color: var(--base-15);
+  border: 1px solid var(--base-15);
   cursor: pointer;
 }
 
@@ -8386,6 +8396,7 @@ select {
   font-size: 18px;
   padding: 12px 24px;
   font-variation-settings: 'wght' 550;
+  height: 70px;
 }
 
 
@@ -8416,9 +8427,10 @@ select {
 }
 
 .btn-block {
-  display: block !important;
+  display: flex !important;
   width: 100%;
   border: 1px solid transparent;
+  justify-content: space-between;
 }
 
 .btn-square {
