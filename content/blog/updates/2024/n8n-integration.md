@@ -6,7 +6,8 @@ layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1704878154/Photos/headshot_aw4uce.png
 image: https://res.cloudinary.com/daog6scxm/image/upload/v1708525147/product-marketing-images/Screenshot_2024-02-21_at_14.18.54_ye6yee.png
 images:
-  - https://res.cloudinary.com/daog6scxm/image/upload/v1704834216/changelog/multi-step-form-block/abstract-multi-step_form_block_vu7heb.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1708525147/product-marketing-images/Screenshot_2024-02-21_at_14.18.54_ye6yee.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1708526820/product-marketing-images/select-n8n.png
 date: "2024-02-21"
 author: Jamie Birss
 ---
