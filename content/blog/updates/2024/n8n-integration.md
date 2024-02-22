@@ -18,7 +18,7 @@ First up, let's talk about [bringing n8n into Budibase.](https://docs.budibase.c
 
 ![Select n8n](https://res.cloudinary.com/daog6scxm/image/upload/v1708526820/product-marketing-images/select-n8n.png)
 
-This update significantly enhances Budibase by not only expanding the total number of integrations available but also broadening the capabilities of our existing integrations. Automate a follow-up email sequence, sync customer data across platforms, trigger notifications based on app interactions, and more. With n8n integrated into Budibase, you're not just building apps; you're creating highly intelligent, interconnected digital ecosystems.
+This update significantly enhances Budibase by not only expanding the total number of integrations available but also broadening the capabilities of our existing integrations. Automate a follow-up email sequence, sync customer data across platforms, trigger notifications based on app interactions, and more. With n8n integrated into Budibase, you're not just building apps; you're creating powerful automated workflows.
 
 ## Connect Budibase DB with n8n 
 
