@@ -61,8 +61,6 @@ Typically, we’re either sending API requests or querying an external database.
 
 For the most part, traditional form builders will allow us to save data to their internal databases or send it via native integrations. However, they lack the flexibility to query external databases directly or populate custom API requests.
 
-{{< cta >}}
-
 So…
 
 ## How do form embeds work in Budibase?
