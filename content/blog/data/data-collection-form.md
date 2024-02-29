@@ -12,7 +12,7 @@ Data collection forms are critical to countless workflows - as diverse as client
 
 In fact, they’re the building blocks of any data-centric process.
 
-Today, we’re diving deep into everything you need to know.
+Today, we’re diving deep into everything you need to know. 
 
 Specifically, we’ll be covering the basics of what data collection forms are and where they’re used - as well as what our priorities are for creating effective solutions.
 
