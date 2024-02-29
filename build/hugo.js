@@ -31,7 +31,8 @@ const getDataFromApi = async () => {
       "x-budibase-app-id": BB_APP_ID,
     }
   );
-  return res.data.data;
+  const filtered = res.data.data.filter(i => !i.Hidden);
+  return filtered;
 };
 
 const toKebabCase = (string) => {
