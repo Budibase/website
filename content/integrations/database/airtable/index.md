@@ -5,7 +5,7 @@ page_title: Airtable
 categories: 
 - data
 description: 'Airtable is a low-code, spreadsheet-database hybrid solution.'
-draft: 'false'
+draft: true
 published_by: Budibase
 site_url: 'https://airtable.com'
 plan: Free
