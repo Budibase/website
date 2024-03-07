@@ -2001,7 +2001,7 @@ pre>code {
 
 @media (min-width: 1200px) {
   .hero-content {
-    grid-area: 1 / 2 / 4 / 11; 
+    grid-area: 1 / 2 / 4 / 10; 
     width: 100%;
   }
 }
@@ -2014,7 +2014,7 @@ pre>code {
 
 @media (min-width: 1600px) {
   .hero-content {
-    grid-area: 1 / 3 / 4 / 11; 
+    grid-area: 0 / 3 / 4 / 10; 
     width: 100%;
     padding: 0;
   }
@@ -4628,6 +4628,7 @@ details[open]>summary {
   will-change: height;
   transition: height 400ms ease 0s;
   padding-inline-start: 0;
+  margin: 0 auto;
 }
 
 .enterprise-benefit {
@@ -4642,14 +4643,9 @@ details[open]>summary {
     "description ";
   border-radius: 16px;
   background: white;
-  border: 1px solid var(--base-5);
   padding: 24px;
   transition: background 70ms ease 0s, border;
   grid-row-gap: 10px;
-}
-
-.enterprise-benefit:hover {
-  border: 1px solid var(--base-8);
 }
 
 .enterprise-benefit-icon {
@@ -6959,6 +6955,11 @@ ul {
 .text-white {
   color: white !important;
 }
+
+.text-ivory {
+  color: var(--bb-ivory) !important;
+}
+
 
 .text-white-alt > * {
   color: white !important;
