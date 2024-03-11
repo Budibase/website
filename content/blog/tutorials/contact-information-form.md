@@ -14,6 +14,8 @@ However, not all contact forms are equal. Most web forms are either built manual
 
 Today, we’re going to show off how Budibase offers unrivaled flexibility for building secure, advanced forms on top of just about any data source.
 
+{{< youtube SHRE-u2Jzkg >}}
+
 But first…
 
 ## What is a contact information form?
