@@ -1,5 +1,5 @@
 ---
-title: New screen template – Forms
+title: New screen template – Forms 📄
 description: Forms are fundamental to the Budibase experience. They are the gateway to your database, allowing you to add and update data with ease. With the critical importance of forms in mind, we're excited to unveil our latest release - the Forms template.
 type: blog
 layout: single
