@@ -14,6 +14,8 @@ This can then be used for categorizing, prioritizing, delegating, and ultimately
 
 Today, we’re exploring how Budibase empowers teams to build secure, advanced forms for all sorts of request workflows. By the end, you’ll have a fully functional, customizable IT request form.
 
+{{< youtube 1k8RFSmsohk >}}
+
 But first …
 
 ## What is an IT request form?

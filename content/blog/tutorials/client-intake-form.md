@@ -15,6 +15,8 @@ Today, we’re going to see how Budibase empowers teams to build advanced forms 
 
 Specifically, we’re going to build a fully custom, multi-step client intake form. Even better, we’ll have a working UI in just a few minutes.
 
+{{< youtube 28CkwakDm6I >}}
+
 But before we begin…
 
 ## What is a client intake form?
