@@ -4,5 +4,5 @@ description: Budibase Enterprise is a secure, single source of truth that helps 
 type: enterprise
 layout: single
 date: 2023-01-20
-images: https://res.cloudinary.com/daog6scxm/image/upload/v1709821322/cms/enterprise/enterpriseHero_ggno2l.png
+images: ["https://res.cloudinary.com/daog6scxm/image/upload/v1709821322/cms/enterprise/enterpriseHero_ggno2l.png"]
 ---
