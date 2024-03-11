@@ -1,11 +1,11 @@
 ---
-title: New screen template – Forms 📄
+title: New screen template – Forms
 description: Forms are fundamental to the Budibase experience. They are the gateway to your database, allowing you to add and update data with ease. With the critical importance of forms in mind, we're excited to unveil our latest release - the Forms template.
 type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1704878154/Photos/headshot_aw4uce.png
 images:
-  - https://res.cloudinary.com/daog6scxm/image/upload/v1707323201/cms/it-request-form/IT_Request_Form_30_voahs7.png
+  - https://res.cloudinary.com/daog6scxm/video/upload/v1709745251/product-marketing-images/formsScreenTemplate2_exoepi.gif
 date: "2024-03-11"
 author: Jamie Birss
 ---
