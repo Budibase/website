@@ -245,11 +245,21 @@ Budibase can also be used as a client for connecting to APIs as a data source or
 
 We offer an intuitive, form-based interface for adding headers to API requests - including bindable values using handlebars and JavaScript formulas:
 
-![Configure API headers](https://res.cloudinary.com/daog6scxm/image/upload/v1689339019/cms/what-are-the-components-of-an-api/Budibase_Screenshot_nypfwr.webp "configure api headers")
+{{< vimeo id="922821851" title="API Headers" >}}
 
-It’s never been easier to dynamically pass values to API headers based on app states, user actions, or stored data.
+We can also use Budibase's intuitive, low-code builder to create professional interfaces and populate API requests with user inputs.
 
-Take a look at our ultimate guide to [custom application development](https://budibase.com/blog/app-building/custom-app-development/).
+First, by creating bindable parameters within our requests:
+
+![API Bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1708349807/cms/send-form-data-to-api/Send_Form_Data_to_API_5_txnqlc.webp "API Bindings")
+
+And then by assigning values to these within our front-end builder:
+
+![API Bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1708349800/cms/send-form-data-to-api/Send_Form_Data_to_API_27_ghoke3.webp "API Bindings")
+
+For instance, we might want to build a form to [send data to an API request](https://budibase.com/blog/data/send-form-data-to-api/):
+
+{{< vimeo id="914423121" title="API Form" >}}
 
 {{< cta >}}
 
