@@ -29,6 +29,12 @@ The faster they can do this, the more efficient any subsequent workflow will be.
 
 Therefore, optimizing table UIs is one of the first things you should look to do within any wider UX optimization project.
 
+With Budibase, we can autogenerate fully functioning, customizable table UIs based on connected database tables in under a minute.
+
+{{< vimeo id="922830128" title="Table UI Design" >}}
+
+{{< cta >}}
+
 ### What makes an effective table UI?
 
 So what does success look like here?
