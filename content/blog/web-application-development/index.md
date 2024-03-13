@@ -1,6 +1,6 @@
 +++
 author = "Joe Johnston"
-date = 2020-01-24T00:00:00Z
+date = 2024-01-24T00:00:00Z
 description = "Web application development is the process of building web-based UIs and tools."
 images = ["/web-application-development/guide-to-web-application-development.jpg"]
 title = "A beginners guide to web application development (2024)"
