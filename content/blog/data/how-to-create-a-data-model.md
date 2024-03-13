@@ -16,6 +16,12 @@ However, coming up with an effective data model presents a few key challenges. T
 
 Today, we’re going to look at exactly how you can create a successful data model.
 
+Budibase is the fast, easy way to connect to just about any data source and build professional UIs in minutes.
+
+{{< vimeo id="922836741" title="Create a data model" >}}
+
+{{< cta >}}
+
 First thing’s first, let’s start with the basics.
 
 ## What is a data model?
@@ -68,7 +74,7 @@ For example, if we were building an [employee timesheet app,](https://budibase.c
 
 Of course, these are just a few illustrative examples of the kinds of requirements that we might settle on.
 
-![Data model timesheet form example](https://res.cloudinary.com/daog6scxm/image/upload/v1653319970/cms/Timesheet_Form_Example_lgv0m6.png "Data model timesheet form example")
+![Data model timesheet form example](https://res.cloudinary.com/daog6scxm/image/upload/v1653319970/cms/Timesheet_Form_Example_lgv0m6.webp "Data model timesheet form example")
 
 ### 2. Define business processes
 
@@ -116,7 +122,7 @@ Next, we’ll create a brief outline of the kinds of data we’ll store for each
 
 Finally, your conceptual model should include an overview of how different entities are related. For example, each project has one owner, each employee can submit multiple timesheets, et cetera.
 
-![Relational Data Model](https://res.cloudinary.com/daog6scxm/image/upload/v1653319905/cms/Relational_Schema_w9wahs.png "Relational Data Model")
+![Relational Data Model](https://res.cloudinary.com/daog6scxm/image/upload/v1653319905/cms/Relational_Schema_w9wahs.webp "Relational Data Model")
 
 ### 4. Define entities and attributes
 
@@ -133,7 +139,7 @@ If you decide that you need to create a new database for your application, this 
 
 Check out our in-depth guide, [what is a database schema](/blog/data/what-is-a-database-schema), to find out more.
 
-![table in a data model](https://res.cloudinary.com/daog6scxm/image/upload/v1653319835/cms/Attributes_demgxx.png "Data model table")
+![table in a data model](https://res.cloudinary.com/daog6scxm/image/upload/v1653319835/cms/Attributes_demgxx.webp "Data model table")
 
 ### 5. Identify data sources
 
@@ -149,7 +155,7 @@ This can include:
 
 Note that these are the main sources of existing data that we can use. We can also add or update values within them by sending queries from our finished app, depending on the data modeling techniques we want to use.
 
-![External data connectors](https://res.cloudinary.com/daog6scxm/image/upload/v1653319798/cms/External_Data_Connectors_objpgk.png "External data connectors")
+![External data connectors](https://res.cloudinary.com/daog6scxm/image/upload/v1707724175/cms/client-intake-form/Client_Intake_Form_2_fycxju.webp "External data connectors")
 
 One of the key tasks here is deciding whether to create entirely new data sources or to rely on existing ones. Of course, we can build our data model around a combination of both.
 
