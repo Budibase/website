@@ -1,5 +1,5 @@
 <div class="pricing-plan-3 container-12 space-1-bottom">
-  <div class="pricing-card">
+  <div class="pricing-card bg-base-1">
     <div class="pricing-inner">
       <div class="icon-container bg-base-3 mb-3">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
@@ -13,7 +13,7 @@
         Free
       </h2>
       <p class="mb-4">For small teams getting started.</p>
-      <p class="price-text">Free
+      <p class="price-text">$0
       </p>
       <svg width="12" height="12" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
@@ -25,7 +25,7 @@
       <div class="my-4">
         <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=pricing-cta">
           <button onClick="goToAccountPortal('free');" type="submit" class="btn btn-cta btn-block btn-lg" id="free_plan_cta">
-            Sign up
+            Sign up free
           </button>
         </a>
       </div>
@@ -83,27 +83,10 @@
         </div>
       </ul>
     </div>
-    <div class="bg-base-3 p-3">    
-      <p class="text-xs">Deployment options</p>
-      <div class="flex-row mt-2 gap-xs">    
-        <div class="tag">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000000" viewBox="0 0 256 256">
-            <path d="M160,42A86.11,86.11,0,0,0,82.43,90.88,62,62,0,1,0,72,214h88a86,86,0,0,0,0-172Zm0,160H72a50,50,0,0,1,0-100,50.67,50.67,0,0,1,5.91.35A85.61,85.61,0,0,0,74,128a6,6,0,0,0,12,0,74,74,0,1,1,74,74Z"></path>
-          </svg>
-          <p class="text-xs ml-1">Budibase Cloud</p>
-        </div>
-        <div class="tag">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000000" viewBox="0 0 256 256">
-            <path d="M208,138H48a14,14,0,0,0-14,14v48a14,14,0,0,0,14,14H208a14,14,0,0,0,14-14V152A14,14,0,0,0,208,138Zm2,62a2,2,0,0,1-2,2H48a2,2,0,0,1-2-2V152a2,2,0,0,1,2-2H208a2,2,0,0,1,2,2ZM208,42H48A14,14,0,0,0,34,56v48a14,14,0,0,0,14,14H208a14,14,0,0,0,14-14V56A14,14,0,0,0,208,42Zm2,62a2,2,0,0,1-2,2H48a2,2,0,0,1-2-2V56a2,2,0,0,1,2-2H208a2,2,0,0,1,2,2ZM190,80a10,10,0,1,1-10-10A10,10,0,0,1,190,80Zm0,96a10,10,0,1,1-10-10A10,10,0,0,1,190,176Z"></path>
-          </svg>
-          <p class="text-xs ml-1">On-premise</p>
-        </div>
-      </div>
-    </div>
   </div>
 
 
-  <div class="pricing-card">
+  <div class="pricing-card bg-base-1">
     <div class="pricing-inner">
       <div class="icon-container bg-base-3 mb-3">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
@@ -117,11 +100,10 @@
       </div>
       <div class="flex-row mb-2">
       <h2>Premium</h2>
-      <div class="ml-auto tab rounded flex-row gap-sm align-center">
+      <div class="ml-auto tab rounded flex-row gap-xs align-center">
         <button class="tablinks" onclick="openPricing(event, 'annual')" id="defaultOpen">
           Yearly 
         </button>
-        <p class="base-8">|</p>
         <button class="tablinks" onclick="openPricing(event, 'monthly')" >
           Monthly 
         </button>
@@ -179,6 +161,12 @@
         <div>
           <li class="pricing-item">
             <svg width="18" height="18" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+            <p class="ml-1">Reusable snippets</p>
+          </li>
+        </div>
+        <div>
+          <li class="pricing-item">
+            <svg width="18" height="18" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
             <p class="ml-1">Configure access to Views</p>
           </li>
         </div>
@@ -202,25 +190,8 @@
         </div>
       </ul>
     </div>
-<div class="bg-base-3 p-3"> 
-      <p class="text-xs">Deployment options</p>
-      <div class="flex-row mt-2 gap-xs">    
-        <div class="tag">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000000" viewBox="0 0 256 256">
-            <path d="M160,42A86.11,86.11,0,0,0,82.43,90.88,62,62,0,1,0,72,214h88a86,86,0,0,0,0-172Zm0,160H72a50,50,0,0,1,0-100,50.67,50.67,0,0,1,5.91.35A85.61,85.61,0,0,0,74,128a6,6,0,0,0,12,0,74,74,0,1,1,74,74Z"></path>
-          </svg>
-          <p class="text-xs ml-1">Budibase Cloud</p>
-        </div>
-        <div class="tag">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000000" viewBox="0 0 256 256">
-            <path d="M208,138H48a14,14,0,0,0-14,14v48a14,14,0,0,0,14,14H208a14,14,0,0,0,14-14V152A14,14,0,0,0,208,138Zm2,62a2,2,0,0,1-2,2H48a2,2,0,0,1-2-2V152a2,2,0,0,1,2-2H208a2,2,0,0,1,2,2ZM208,42H48A14,14,0,0,0,34,56v48a14,14,0,0,0,14,14H208a14,14,0,0,0,14-14V56A14,14,0,0,0,208,42Zm2,62a2,2,0,0,1-2,2H48a2,2,0,0,1-2-2V56a2,2,0,0,1,2-2H208a2,2,0,0,1,2,2ZM190,80a10,10,0,1,1-10-10A10,10,0,0,1,190,80Zm0,96a10,10,0,1,1-10-10A10,10,0,0,1,190,176Z"></path>
-          </svg>
-          <p class="text-xs ml-1">On-premise</p>
-        </div>
-      </div>
-    </div>
   </div>
-  <div class="pricing-card">
+  <div class="pricing-card bg-base-1">
     <div class="pricing-inner">
       <div class="icon-container bg-base-3 mb-3">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
@@ -320,23 +291,6 @@
           </li>
         </div>
       </ul>
-    </div>
-    <div class="bg-base-3 p-3">    
-      <p class="text-xs">Deployment options</p>
-      <div class="flex-row mt-2 gap-xs">    
-        <div class="tag">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000000" viewBox="0 0 256 256">
-            <path d="M160,42A86.11,86.11,0,0,0,82.43,90.88,62,62,0,1,0,72,214h88a86,86,0,0,0,0-172Zm0,160H72a50,50,0,0,1,0-100,50.67,50.67,0,0,1,5.91.35A85.61,85.61,0,0,0,74,128a6,6,0,0,0,12,0,74,74,0,1,1,74,74Z"></path>
-          </svg>
-          <p class="ml-1 text-xs">Budibase Cloud</p>
-        </div>
-        <div class="tag">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000000" viewBox="0 0 256 256">
-            <path d="M208,138H48a14,14,0,0,0-14,14v48a14,14,0,0,0,14,14H208a14,14,0,0,0,14-14V152A14,14,0,0,0,208,138Zm2,62a2,2,0,0,1-2,2H48a2,2,0,0,1-2-2V152a2,2,0,0,1,2-2H208a2,2,0,0,1,2,2ZM208,42H48A14,14,0,0,0,34,56v48a14,14,0,0,0,14,14H208a14,14,0,0,0,14-14V56A14,14,0,0,0,208,42Zm2,62a2,2,0,0,1-2,2H48a2,2,0,0,1-2-2V56a2,2,0,0,1,2-2H208a2,2,0,0,1,2,2ZM190,80a10,10,0,1,1-10-10A10,10,0,0,1,190,80Zm0,96a10,10,0,1,1-10-10A10,10,0,0,1,190,176Z"></path>
-          </svg>
-          <p class="ml-1 text-xs">On-premise</p>
-        </div>
-      </div>
     </div>
   </div>
 </div>
