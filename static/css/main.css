@@ -12,7 +12,7 @@ html {
   --bb-coral-light: #F97777;
   --bb-indigo: #6E56FF;
   --bb-indigo-light: #9F8FFF;
-  --bb-indigo-dark: #4635a4;
+  --bb-indigo-dark: #2D2460;
   --bb-ivory: #F7F5F2FF;
   --bb-graphite: #1E1919FF;
   --bb-lime: #ecffb5;
@@ -63,7 +63,7 @@ html {
   --border-dark: var(--base-12);
   --text-color-light: var(--base-16);
   --text-color-regular: var(--base-18);
-  --text-color-dark: var(--base-20);
+  --text-color-dark: var(--base-18);
   --dark: var(--base-19);
   --dark-light: var(--base-18);
   --headline-font: "InterVar", -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
@@ -608,6 +608,9 @@ table td {
   color: var(--purple-500);
 }
 
+.text-rust{
+  color: var(--accent-rust)
+}
 .text-orange {
   color: var(--orange-700);
 }
@@ -5269,7 +5272,7 @@ details[open]>summary {
   background-color: var(--base-3);
   padding: 4px 8px;
   border-radius: 24px;
-  color: var(--bb-indigo);
+  color: var(--dark);
   border: none;
 }
 
@@ -8028,9 +8031,9 @@ ul {
   display: flex;
   justify-content: space-between;
   font-family: var(--body-font);
-  font-variation-settings: "wght" 550 !important;
+  font-variation-settings: "wght" 560 !important;
   font-feature-settings: var(--body-font-features);
-  letter-spacing: 0em;
+  min-height: 36px;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -8038,10 +8041,10 @@ ul {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding: 10px 16px;
+  padding: 5px 12px;
   font-size: 16px;
   line-height: none;
-  border-radius: 6px !important;
+  border-radius: 5px !important;
   transition: all 0.2s ease-in-out;
   overflow: hidden;
   outline: none;
@@ -8409,10 +8412,9 @@ select {
 }
 @media (min-width: 600px) {
   .btn-xl {
-    font-size: 19px;
-    padding: 12px 24px;
+    font-size: 20px;
+    padding: 16px 24px;
     font-variation-settings: 'wght' 550;
-    height: 70px;
   }
 }
 .btn-xl::after {
