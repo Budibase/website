@@ -8031,9 +8031,9 @@ ul {
   display: flex;
   justify-content: space-between;
   font-family: var(--body-font);
-  font-variation-settings: "wght" 550 !important;
+  font-variation-settings: "wght" 560 !important;
   font-feature-settings: var(--body-font-features);
-  letter-spacing: 0em;
+  min-height: 36px;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -8041,10 +8041,10 @@ ul {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding: 8px 17px;
+  padding: 5px 12px;
   font-size: 16px;
   line-height: none;
-  border-radius: 8px !important;
+  border-radius: 5px !important;
   transition: all 0.2s ease-in-out;
   overflow: hidden;
   outline: none;
@@ -8412,10 +8412,9 @@ select {
 }
 @media (min-width: 600px) {
   .btn-xl {
-    font-size: 19px;
-    padding: 12px 24px;
+    font-size: 20px;
+    padding: 16px 24px;
     font-variation-settings: 'wght' 550;
-    height: 70px;
   }
 }
 .btn-xl::after {
