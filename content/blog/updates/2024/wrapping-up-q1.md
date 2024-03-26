@@ -5,6 +5,7 @@ type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/joe_illustration_gray_bg_e97wdl.webp
 image: https://res.cloudinary.com/daog6scxm/image/upload/v1707496630/cms/forms/metaImage2_wyze9v.png
+images:
   - https://res.cloudinary.com/daog6scxm/image/upload/v1707496630/cms/forms/metaImage2_wyze9v.png
 date: "2024-03-25"
 author: Joe Johnston
