@@ -2,19 +2,34 @@
 {{ partial "navigation.html" . }}
 <main id="content" role="main">
   <!-- Article Content -->
-  <article>
-    <div class="article space-1-top">
+  <article class="bg-base-1">
+    <div class="article space-1">
       <div class="container-8 mx-auto">
         <a class="opacity-75 font-weight-medium a-alt" href="/blog/"><- All posts</a>
             <header class="mb-2 mt-6">
-              <span class="opacity-50 text-xs">
-                Published {{ .Date.Format .Site.Params.dateform }} </span>
               <h1 class="hero-title mt-2 mb-4">{{ .Title }}</h1>
-              {{ if (.Params.profilePic) }}
-              <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
-              {{ else }}
-              <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
-              {{ end }}By {{ .Params.author }}
+              <div class="flex-row align-center border-y py-1">
+                <div>
+                  {{ if (.Params.profilePic) }}
+                  <img class="u-avatar-5 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+                  {{ else }}
+                  <img class="u-avatar-5 rounded-circle mr-2" src="/img/team/joe.webp">
+                  {{ end }}
+                </div>
+                <div class="flex-column">
+                  <div>
+                    {{ .Params.author }}
+                  </div>
+                  <div>
+                    <span class="opacity-50 text-xs">{{ .ReadingTime }} min read</span>
+                    <span>
+                      ·
+                    </span>
+                    <span class="opacity-50 text-xs">{{ .Date.Format .Site.Params.dateform }}</span>
+                  </div>
+                </div>
+              </div>
+
             </header>
             <div class="mx-md-auto mt-6 mb-9">
               {{ .Content }}
