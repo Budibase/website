@@ -8044,10 +8044,10 @@ ul {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding: 5px 12px;
+  padding: 8px 14px;
   font-size: 16px;
   line-height: none;
-  border-radius: 5px !important;
+  border-radius: 32px !important;
   transition: all 0.2s ease-in-out;
   overflow: hidden;
   outline: none;
@@ -8119,7 +8119,7 @@ fieldset:disabled a.btn {
 .btn-cta:hover {
   color: white;
   background-color: var(--bb-indigo-dark);
-  border: 1px solid var(--bb-indigo-dark);
+  border: 1px solid var(--bb-indigo);
   cursor: pointer;
 }
 
@@ -8143,19 +8143,18 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: white;
-  background-color: var(--text-color-dark);
-  border: 1px solid var(--text-color-dark);
+  background-color: var(--base-18);
+  border: var(--base-18);
 }
 
 .btn-primary:hover {
   color: var(--white);
-  background-color: var(--base-15);
-  border: 1px solid var(--base-15);
+  background-color: var(--base-14);
   cursor: pointer;
 }
 
 .btn-primary:focus,
-.btn-pimary.focus {
+.btn-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
   color: var(--white);
 }
@@ -8174,7 +8173,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-white:focus,
-.btn-pimary.focus {
+.btn-white.focus {
   box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
   color: var(--white);
 }
@@ -8399,7 +8398,7 @@ select {
 .btn-lg::after {
   content: "->";
   transition: 0.1s ease-in;
-  padding-left: 1rem;
+  padding-left: .5rem;
   padding-right: 2px;
 }
 
@@ -8461,7 +8460,6 @@ select {
   display: flex !important;
   width: 100%;
   border: 1px solid transparent;
-  justify-content: space-between;
 }
 
 .btn-square {
@@ -9930,8 +9928,8 @@ button.close {
 }
 
 .hero-gradient-light {
-  background: rgb(255, 252, 252);
   background: linear-gradient(80deg, var(--accent-sunset) 0%, var(--indigo-100) 40%, var(--bb-indigo-light) 100%);
+  background-blend-mode: overlay, overlay, difference, difference, difference, normal;
 }
 
 .bg-graph {
@@ -9956,13 +9954,19 @@ button.close {
 .bg-bb-indigo-dark, .bg-indigo-dark {
   background-color: var(--bb-indigo-dark);
 }
+.bg-bb-linear-gradient {
+  background: linear-gradient(45deg, var(--bb-coral-light), var(--bb-indigo-light));
+}
+.bg-bb-radial-gradient {
+  background: radial-gradient(var(--bb-coral-light), var(--bb-indigo-light), var(--base-4), var(--base-4));
+  
+}
 .bg-bb-lime {
   background-color: var(--bb-lime);
 }
 .bg-bb-forestgreen {
   background-color: var(--bb-forestgreen);
 }
-
 .bg-base, .bg {
   background-color: var(--base-3)
 }
