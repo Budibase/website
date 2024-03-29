@@ -10008,6 +10008,12 @@ button.close {
 .bg-base-14 {
   background-color: var(--base-14)
 }
+.bg-base-15 {
+  background-color: var(--base-15);
+}
+.bg-base-16 {
+  background-color: var(--base-16);
+}
 .bg-base-17 {
   background-color: var(--base-17);
 }
