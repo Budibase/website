@@ -1,12 +1,12 @@
 {{ partial "head/header.html" . }} {{ partial "navigation.html" . }}
 
 
-<div class="container-fluid space-2">
+<div class="container-fluid space-2-top">
   <div class="container">
     <header class="w-lg-60 mx-md-auto">
       <h1 class="text-center mb-4 h3">
         What are internal tools?
-        <span class="h1"><br />The definitive guide to internal tools in 2022</span>
+        <span class="h1"><br />The definitive guide to internal tools in 2024</span>
       </h1>
       <p class="text-center mb-4">
         My name is Joe Johnston and I am obsessed with internal tools. Over the last 10 years, I've created over 80 of
@@ -18,35 +18,19 @@
       </p>
       <a href="#what"><button class="btn btn-secondary btn-block w-lg-40 mx-auto text-center mt-4 mb-6"><b>Let's get
             started!</b></button></a>
-      <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2431_RC04/embed_loader.js"></script>
-      <script type="text/javascript">
-        trends.embed.renderExploreWidget(
-          "TIMESERIES",
-          {
-            comparisonItem: [
-              { keyword: "/m/0g5r88p", geo: "", time: "today 5-y" },
-            ],
-            category: 0,
-            property: "",
-          },
-          {
-            exploreQuery: "date=today%205-y&q=%2Fm%2F0g5r88p",
-            guestPath: "https://trends.google.com:443/trends/embed/",
-          }
-        );
-      </script>
+
     </header>
   </div>
 </div>
 
-<div class="container-9 space-2">
-  <h2 class="text-center mb-6">Contents</h2>
-  <div class="internal-tools-chapters ">
+<div class="container-10 space-1">
+  <h2 class="text-center mb-4">Contents</h2>
+  <div class="internal-tools-chapters">
     <a href="#what">
       <div class="internal-tools-chapter">
-        <div class="chapter-icon bg-gray rounded-circle"></div>
+        <div class="chapter-icon bg-base-5 rounded-circle"></div>
         <div class="internal-tool-contain-container">
-          <p>Chapter 1</p>
+          <p class="detail-sm">Chapter 1</p>
           <h2 class="chapter-title">What are internal tools</h2>
         </div>
       </div>
@@ -55,7 +39,7 @@
       <div class="internal-tools-chapter">
         <div class="chapter-icon bg-green rounded-circle"></div>
         <div class="internal-tool-contain-container">
-          <p>Chapter 2</p>
+          <p class="detail-sm">Chapter 2</p>
           <h2 class="chapter-title">Who builds internal tools</h2>
         </div>
       </div>
@@ -65,7 +49,7 @@
       <div class="internal-tools-chapter">
         <div class="chapter-icon bg-red rounded-circle"></div>
         <div class="internal-tool-contain-container">
-          <p>Chapter 3</p>
+          <p class="detail-sm">Chapter 3</p>
           <h2 class="chapter-title">How to build internal tools</h2>
         </div>
       </div>
@@ -75,7 +59,7 @@
       <div class="internal-tools-chapter">
         <div class="chapter-icon bg-yellow rounded-circle"></div>
         <div class="internal-tool-contain-container">
-          <p>Chapter 4</p>
+          <p class="detail-sm">Chapter 4</p>
           <h2 class="chapter-title">Why build internal tools</h2>
         </div>
       </div>
@@ -85,7 +69,7 @@
       <div class="internal-tools-chapter">
         <div class="chapter-icon bg-blue rounded-circle"></div>
         <div class="internal-tool-contain-container">
-          <p>Chapter 5</p>
+          <p class="detail-sm">Chapter 5</p>
           <h2 class="chapter-title">Introducing Budibase</h2>
         </div>
       </div>
@@ -95,7 +79,7 @@
       <div class="internal-tools-chapter">
         <div class="chapter-icon bg-indigo rounded-circle"></div>
         <div class="internal-tool-contain-container">
-          <p>Chapter 6</p>
+          <p class="detail-sm">Chapter 6</p>
           <h2 class="chapter-title">Free templates</h2>
         </div>
       </div>
@@ -103,8 +87,8 @@
 
   </div>
 </div>
-
-<div id="what" class="container-fluid space-3-bottom">
+<hr />
+<div id="what" class="container-fluid space-2-bottom">
   <div class="mx-auto">
     <div class="p-4 p-sm-8">
       <h5 class="text-center">Chapter 1</h5>
@@ -291,7 +275,7 @@
   </div>
 </div>
 
-<div id="who" class="container-fluid space-3-bottom">
+<div id="who" class="container-fluid space-2-bottom">
   <div class="mx-auto">
     <div class="p-4 p-sm-8">
       <h5 class="text-center">Chapter 2</h5>
@@ -312,7 +296,7 @@
       </div>
     </div>
   </div>
-  <div class="container space-3-bottom">
+  <div class="container space-2-bottom">
     <div class="w-md-75 w-lg-50 mx-auto mt-8">
       <p class="lead">
         Internal tools are generally built by developers, but if we're honest, they're not the projects developers like
@@ -386,11 +370,11 @@
       </p>
     </div>
   </div>
-
-  <div id="how" class="container-fluid space-3-bottom">
+<hr />
+  <div id="how" class="container-fluid space-2-bottom">
     <div class="mx-auto">
       <div class="p-4 p-sm-8">
-        <h5 class="text-center  ">Chapter 3</h5>
+        <h5 class="text-center">Chapter 3</h5>
         <h2 class="text-center p-2">How to build internal tools?</h2>
         <hr class="p-2" style="width: 50%" />
         <div class="internal-tools-title-container w-lg-75 w-xxl-50 mx-auto">
@@ -412,7 +396,7 @@
         </div>
       </div>
     </div>
-    <div class="container space-3-bottom">
+    <div class="container space-2-bottom">
       <div class="w-md-75 w-lg-50 mx-auto mt-8">
         <p class="lead mb-2">
           There are primarily two ways to build an internal tool; completely
@@ -645,12 +629,11 @@
         <p class="mb-4">The key, therefore, is furnishing your team with the tools they need to build effective internal software,
           without undermining your broader IT strategy.</p>
         <p class="mb-4">We’ll return to how Budibase can help you balance all of these concerns a little later.</p>
-
       </div>
     </div>
   </div>
-
-  <div id="why" class="container-fluid space-3-bottom">
+  <hr />
+  <div id="why" class="container-fluid space-2-bottom">
     <div class="mx-auto">
       <div class="p-4 p-sm-8">
         <h5 class="text-center">Chapter 4</h5>
@@ -791,8 +774,8 @@
       </div>
     </div>
   </div>
-
-  <div id="budibase" class="container-fluid space-3-bottom">
+  <hr />
+  <div id="budibase" class="container-fluid space-2-bottom">
     <div class="mx-auto">
       <div class="p-4 p-sm-8">
         <h5 class="text-center text-blue">Introducing Budibase</h5>
@@ -816,7 +799,7 @@
           </div>
         </div>
       </div>
-        <div class="container space-3-bottom">
+        <div class="container space-2-bottom">
           <div class="w-md-75 w-lg-50 mx-auto mt-8">
             <h3 class="space-1-top mb-2">Building internal tools with Budibase in 6 steps</h3>
             <p class="mb-4">As we said earlier, most of our users are professional developers. That is, they know how to code, but
@@ -968,10 +951,8 @@
               Compose, Digital Ocean, and more.</p>
             </div>
           </div>
-
-
-
-            <div id="budibase" class="container-fluid space-3-bottom">
+          <hr />
+            <div id="templates" class="container-fluid space-2-bottom">
               <div class="mx-auto">
                 <div class="p-4 p-sm-8">
                   <h5 class="text-center text-blue">Free templates</h5>
@@ -997,7 +978,7 @@
                 </div>
               
 
-                <div class="container space-3-bottom">
+                <div class="container space-2-bottom">
                   <div class="w-md-75 w-lg-50 mx-auto mt-8">
             <p class="mb-4">Why should you take our word for it that Budibase is the best way to build modern internal
               tools?</p>
@@ -1095,10 +1076,9 @@
 
             <hr />
               <p class="my-4">Thank you for reading our definitive guide on internal tools. If you liked this post, please share with your colleagues. If you've not tried Budibase before, give it a whirl and let us know what you think on the Budibase <a href="https://github.com/Budibase/budibase/discussions">forum</a>.
-            {{ partial "cta.html" . }}
           </div>
         </div>
       </div>
     </div>
-
+    {{ partial "cta.html" . }}
     {{ partial "footer.html" . }}
