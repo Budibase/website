@@ -1168,7 +1168,7 @@ a:focus {
   margin-top: 0;
   margin-bottom: 0;
   font-family: var(--headline-font), sans-serif;
-  font-variation-settings: "wght" 550 !important;
+  font-variation-settings: "wght" 580 !important;
   font-feature-settings: var(--headline-font-features);
   color: var(--text-color-dark);
   text-rendering: optimizeLegibility;
@@ -1227,7 +1227,7 @@ a:focus {
     margin-bottom: 0;
     font-family: var(--headline-font), sans-serif;
     font-feature-settings: var(--headline-font-features);
-    font-variation-settings: 'wght' 520 !important;
+    font-variation-settings: 'wght' 560 !important;
     letter-spacing: -0.02em !important;
     text-rendering: optimizeLegibility;
     font-variant-ligatures: none;
@@ -1242,7 +1242,7 @@ a:focus {
     margin-bottom: 0;
     font-family: var(--headline-font), sans-serif;
     font-feature-settings: var(--headline-font-features);
-    font-variation-settings: 'wght' 520 !important;
+    font-variation-settings: 'wght' 560 !important;
     letter-spacing: -0.02em !important;
     text-rendering: optimizeLegibility;
     font-variant-ligatures: none;
@@ -1256,7 +1256,7 @@ a:focus {
     margin-bottom: 0;
     font-family: var(--headline-font), sans-serif;
     font-feature-settings: var(--headline-font-features);
-    font-variation-settings: 'wght' 520 !important;
+    font-variation-settings: 'wght' 580 !important;
     letter-spacing: -0.02em !important;
     text-rendering: optimizeLegibility;
     font-variant-ligatures: none;
