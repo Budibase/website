@@ -1,7 +1,7 @@
 ---
 date: 2023-11-30
-title: Top 6 Retool Alternatives & Competitors in 2024
-description: Learn about the top 6 Retool alternatives & competitors to improve your internal workflows and save you time.
+title: Top 10 Retool Alternatives & Competitors in 2024
+description: Learn about the top 10 Retool alternatives & competitors to improve your internal workflows and save you time.
 images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1701356335/cms/alternatives/meta_retool_alts_kew9ly.png
 cover: "https://res.cloudinary.com/daog6scxm/image/upload/v1701359841/cms/alternatives/retool_alts_dark_narrow_sfeis5.webp"
@@ -17,7 +17,7 @@ Retool is one of the biggest players in the low-code space. However, that doesn�
 Today, we’re covering the following:
 - [What is Retool?](#what-is-retool)
 - [Why would you look for an alternative to Retool?](#why-would-you-look-for-a-retool-alternative)
-- [6 Retool alternatives for 2024](#6-retool-alternatives-for-2024)
+- [10 Retool alternatives for 2024](#10-retool-alternatives-for-2024)
 - [Retool vs Budibase](#retool-vs-budibase)
 - [How to choose a low-code platform](#how-to-choose-a-retool-alternative)
 
@@ -70,7 +70,7 @@ These include the following:
 
 ||||||||||
 
-## 6 Retool Alternatives for 2024
+## 10 Retool Alternatives for 2024
 With that bit of context out of the way, we can start to think about some of the best platforms to bridge this gap as alternatives to Retool.
 
 We’ve chosen six tools from different points across the low-code market:
@@ -80,6 +80,10 @@ We’ve chosen six tools from different points across the low-code market:
 4. [Appian](#4-appian)
 5. [PowerApps](#5-power-apps)
 6. [AppSheet](#6-appsheet)
+7. [Filemaker](#7-filemaker)
+8. [Zoho Creator](#8-zoho-creator)
+9. [Quickbase](9-quickbase)
+10. [Caspio](#10-caspio)
 
 Let’s jump right in.
 
@@ -265,6 +269,134 @@ AppSheet is free for up to 10 users. Beyond this, there are four paid tiers - St
 You’ll need to opt for custom pricing through Enterprise Standard or Enterprise Plus in order to leverage external databases, SaaS platforms, or APIs as data for your applications.
 
 So, for anything but the most simple applications, AppSheet has the potential to be a very expensive option.
+
+### 7. Filemaker
+
+Filemaker is one of the oldest names in the low-code space, having been around since the 1980s. There are some areas where we can see its age in comparison to more modern low-code solutions.
+
+However, more generally, it’s a fairly stable, reliable option for building certain kinds of solutions.
+
+![Filemaker](https://res.cloudinary.com/daog6scxm/image/upload/t_1920x1080/v1712828442/cms/alternatives/Filemaker_qmixdn.webp "Filemaker")
+
+#### Pros
+
+At its core, Filemaker is a low-code database tool, intended for users whose data set is too complex for a spreadsheet - but who lack the technical skills to use a traditional relational database tool.
+
+So, there’s a quite effective interface for designing custom data schemas without having to write queries manually. Nowadays, Filemaker also provides an interface builder, enabling users to ship applications on top of their stored data.
+
+One area where Filemaker is particularly strong is creating native mobile apps. For instance, it integrates directly with Apple’s App Store SDK, making it a great solution for creating custom iOS tools on top of existing business data.
+
+#### Cons
+
+However, there are some areas where Filemaker might leave you wanting. One relates to the fact that Filemaker is intended to be sticky. Data is stored in a proprietary format, creating additional barriers to migrating to a traditional RDBMS later.
+
+Many users also complain that Filemaker presents a relatively steep learning curve compared to more modern platforms, which place a greater focus on creating intuitive user experiences.
+
+While Filemaker does offer support for external data, this is also somewhat limited compared to our other Retool alternatives. For instance, we’ll need to manually configure API requests to work with NoSQL tools rather than using native connectors.
+
+#### Pricing
+
+Filemaker’s pricing positions it well towards the enterprise end of the market. It’s one of our more expensive options, with two fixed pricing tiers for the cloud product. For $21 per user per month, the Essentials tier offers three applications for between five and ten users.
+
+The Standard tier ($43) expands these limits to 125 applications for up to 99 users. For 100 or more users, we’ll need to opt for custom enterprise pricing. 
+
+On top of this, there are usage limits across all pricing tiers relating to data storage, API requests, and computing resources.
+
+### 8. Zoho Creator
+
+Part of the wider Zoho ecosystem, Creator is a low-code platform that primarily seeks to enable IT teams and non-technical colleagues to collaborate on internal tools development.
+
+So, IT teams can retain control over their internal data assets while still empowering on-the-ground teams to create solutions for their own needs - without undermining existing governance policies.
+
+![Zoho Creator](https://res.cloudinary.com/daog6scxm/image/upload/v1702478043/cms/alternatives/Zoho_SG_jy3wve.webp "Zoho Creator")
+
+#### Pros
+
+Compared to some other Retool competitors, Creator is a strong offering in terms of external data support. In particular, it offers extensive options for natively integrating with other SaaS tools, such as CRMs, ERPs, and marketing platforms.
+
+One of the other real selling points here is the degree to which IT teams can retain control and governance. Creator offers flexible RBAC as well as custom security policies, so technical leaders can establish highly granular governance over how users interact with tools.
+
+Creator also offers front-end scripting with a proprietary language called Deluge. This provides a great deal of power and flexibility in an intuitive, easy-to-learn coding language.
+
+#### Cons
+
+However, Zoho Creator is unlikely to be suitable for all use cases. In fact, it’s probably best suited to citizen development programs - where IT teams and non-technical colleagues each have a role in development processes.
+
+However, it might not be ideal for situations where these kinds of users are working independently. So, it might lack the capabilities IT teams need but be too technical for business-level users.
+
+Strangely, although Zoho offers a self-hosted version of Creator, this doesn’t come with the full suite of features provided in the cloud offering. This could be frustrating if on-prem hosting is a firm requirement.
+
+#### Pricing
+
+Creator’s pricing is based around three tiers o As such, this has the potential to be a very cost-effective option - although it’s worth noting that we’re limited to a single application on the Standard tier.
+
+Zoho’s pricing also falls down somewhat in terms of predictability. There are additional usage-based limits in terms of connected data and automation runs, which might require us to upgrade to a more expensive license.
+
+One potential upside is that certain enterprise features like SSO can be purchased as an add-on for all pricing tiers - although these are free across the board with some other platforms.
+
+### 9. Quickbase
+
+Quickbase’s raison d'etre is empowering teams to de-silo data. In effect, it’s a low-code database with additional features on top of this for designing interfaces and automating data management workflows.
+
+However, unlike most other Retool alternatives, it’s focused on a relatively narrow range of use cases - primarily project, task, and resource management.
+
+![Quickbase](https://res.cloudinary.com/daog6scxm/image/upload/v1712831624/cms/alternatives/Quickbase_q4p0ki.webp "Quickbase")
+
+#### Pros
+
+Quickbase makes it particularly easy for non-technical colleagues to ship working tools - especially for relatively simple use cases like forms, dashboards, and reporting, with an intuitive WYSIWYG editor.
+
+It’s also an effective solution for larger teams. For example, Quickbase offers a range of security features like RBAC, custom governance policies, admin functionality, and more - helping IT teams control how users interact with data.
+
+There’s also an effective visual builder for automating tasks, helping non-technical colleagues to create more advanced solutions without requiring extensive coding skills. 
+
+#### Cons
+
+One of Quickbase’s potential pitfalls is that it’s optimized for a relatively small subset of use cases. So, it’s a great option if you want to build internal tools for managing projects or tasks, but it might leave something to be desired for applications outside of this.
+
+Despite being aimed at a less technical user persona, a common complaint is that Quickbase presents relatively complex experiences for performing certain tasks - for instance, connecting to external data sources.
+
+Additionally, it’s one of the more expensive platforms in our round-up today. It’s also fully closed-source, which will mean that it’s not a viable option for certain businesses.
+
+#### Pricing
+
+Quickbase is one of the few Retool alternatives we’ve seen today that doesn’t offer a fully free tier. Rather, there’s a 30-day free trial. Besides this, the cheapest price point is the Team tier, which bills at $35 per user per month on a minimum 20-user commitment.
+
+The Business tier bills at $55 per user on a minimum commitment of 40 users. This will unlock key security features like SSO and SCIM provisioning, as well as additional UI tools, including interactive Gantt charts.
+
+We can also opt for custom enterprise pricing to access additional security features and enhanced audit logging. 
+
+### 10. Caspio
+
+Caspio is another one of the older players in the low-code space, having been around since the year 2000. It has a clear focus on enabling business users in large enterprises to output working web apps.
+
+It’s another platform that’s primarily built around a low-code database with interface design tools on top of this.
+
+![Caspio](https://res.cloudinary.com/daog6scxm/image/upload/v1712828638/cms/alternatives/caspio_mc4axs.webp "Caspio")
+
+#### Pros
+
+One unique selling point of Caspio is that its internal database is built on top of SQL Server. This means that users can have a high degree of confidence in the security and scalability of their stored data.
+
+Additionally, we can use customer SQL statements within the platform to enhance and manipulate our data.
+
+As one of the larger players in the space, Caspio also has a strong reputation for stability, prompt support, and a large, active community of users, making it an attractive option for teams that prioritize reliability.
+
+#### Cons
+
+Compared to more modern alternatives, Caspio’s UIs feel a little bit dated - both in terms of the platform itself and the applications we can build with it - although it is still perfectly effective in terms of building working interfaces.
+
+It’s also somewhat lacking in terms of automation functionality. We can build very simple data management automations using Triggered Actions and Tasks - but what’s possible here is quite limited.
+
+Lastly, Caspio lacks many of the key features of more modern low-code tools - especially direct connectors for external data sources. If we want to access third-party data, we’ll either have to set up API connections or import our data set in its entirety.
+
+#### Pricing
+
+Interestingly, Caspio is one of the few platforms that doesn’t bill on a per-user basis. Rather, all monthly and annual licenses offer unlimited seats for a fixed price. This means that it could be a very cost-effective option for large user volumes.
+
+There are four pricing tiers that are billed monthly - Free, Starter ($50), Professional ($600), and Enterprise ($2,250). Each of these is limited in terms of stored records and the DataPages we can build. A DataPage is essentially any UI element that allows us to take a database action.
+
+Specific features are also limited to different pricing tiers. For example, SSO is limited to the Enterprise plan.
 
 ## Retool vs Budibase
 Now that we’ve seen a range of options from across the low-code market, it’s time to dive deep into how Budibase and Retool stack up. 
