@@ -1,6 +1,6 @@
 ---
 date: 2024-01-02
-title: Top 5 Appian Alternatives & Competitors in 2024
+title: Top 8 Appian Alternatives & Competitors in 2024
 description: Learn about the top 5 Appian alternatives & competitors to improve your internal workflows and save you time.
 images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1704207063/cms/alternatives/appian-meta_fb0dog.png
@@ -26,7 +26,7 @@ Specifically, we’re going to cover:
 - [What is Appian?](#what-is-appian)
 - [Who uses Appian?](#who-uses-appian)
 - [Why would you want an Appian alternative?](#why-would-you-want-an-appian-alternative)
-- [5 Appian alternatives](#5-appian-alternatives)
+- [8 Appian alternatives](#8-appian-alternatives)
 - [Appian vs Budibase](#appian-vs-budibase)
 - [How to choose an Appian alternative](#how-to-choose-an-appian-alternative)
 
@@ -78,7 +78,7 @@ We might find that an alternative platform offers the same value more cost-effec
 
 Lastly, Appian is a closed-source solution. So, security teams are unable to audit its source-code before hosting it on their internal infrastructure or connecting it to production databases.
 
-## 5 Appian Alternatives
+## 8 Appian Alternatives
 Now that we have a clear picture of what Appian is, what it offers, and where it could fall short, we can survey the wider market.
 
 It’s important to note once again that individual platforms within the low-code market are optimized for distinct user personas in different kinds of organizations - from developers in major enterprises - to non-techincal users in small teams.
@@ -89,6 +89,9 @@ We’re checking out a range of tools from across this spectrum. Our picks are:
 3. [OutSystems](#3-outsystems)
 4. [PowerApps](#4-outsystems)
 5. [Mendix](#5-mendix)
+6. [Filemaker](#6-filemaker)
+7. [Zoho Creator](#7-zoho-creator)
+8. [Caspio](#8-caspio)
 
 ||||||||||
 
