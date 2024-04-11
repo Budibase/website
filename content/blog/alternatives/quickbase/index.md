@@ -26,7 +26,7 @@ Specifically, we’ll cover:
 - [What is Quickbase?](#what-is-quickbase)
 - [Who Uses Quickbase?](#who-uses-quickbase)
 - [Why would you need a Quickbase alternative?](#why-would-you-need-a-quickbase-alternative)
-- [Top 7 Quickbase Alternatives](#top-5-quickbase-alternatives)
+- [Top 7 Quickbase Alternatives](#top-7-quickbase-alternatives)
 - [Quickbase vs Budibase](#quickbase-vs-budibase)
 - [How to choose a Quickbase alternative](#how-to-choose-a-quickbase-alternative)
 
