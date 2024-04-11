@@ -1,6 +1,6 @@
 ---
 date: 2024-01-02
-title: 5 Filemaker Alternatives & Competitors for 2024
+title: 8 Filemaker Alternatives & Competitors for 2024
 description: Check out our round-up of the top FileMaker alternatives.
 images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1704298222/cms/alternatives/filemaker-meta_jpztjp.png
@@ -24,7 +24,7 @@ Specifically, we’re going to cover:
 - [What is FileMaker?](#what-is-filemaker)
 - [Who uses FileMaker?](#who-uses-filemaker)
 - [Why would you need a FileMaker alternative?](#why-would-you-need-a-filemaker-alternative)
-- [5 FileMaker alternatives](#5-filemaker-alternatives)
+- [8 FileMaker alternatives](#8-filemaker-alternatives)
 - [FileMaker vs Budibase](#filemaker-vs-budibase)
 - [How to choose a FileMaker alternative](#how-to-choose-a-filemaker-alternative)
 
@@ -63,7 +63,7 @@ For example, handling unstructured data in NoSQL databases may be possible via A
 
 Finally, as with any other IT procurement decision, you may determine that FileMaker could be a viable solution for your particular use case - but that other vendors offer a more cost-effective way to achieve the same thing.
 
-## 5 FileMaker alternatives
+## 8 FileMaker alternatives
 With a fuller picture of what FileMaker is and what it does, we can start to survey the wider market.
 
 First, though, we should make a couple of general points. The market for low-code platforms has a huge amount of internal variation. Different vendors take a different approach to helping teams improve their internal data operations. 
@@ -78,6 +78,8 @@ Our top picks for FileMaker alternatives are:
 3. [Retool](#3-retool)
 4. [Appian](#4-appian)
 5. [Mendix](#5-mendix)
+6. [Airtable](#6-airtable)
+7. [Zoho Creator](#7-zoho-creator)
 
 Here’s a summary of what each one brings to the table.
 
