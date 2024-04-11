@@ -1,6 +1,6 @@
 ---
 date: 2023-12-06
-title: Top 5 Airtable Alternatives & Competitors in 2024
+title: Top 7 Airtable Alternatives & Competitors in 2024
 description: Take a look at our round-up of the top alternatives to Airtable that could improve your internal workflows and save you time.
 images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1701876144/cms/alternatives/airtable_meta_xp99xm.png
@@ -22,7 +22,7 @@ Specifically, we’re going to cover:
 - [What is Airtable?](#what-is-airtable)
 - [Who Uses Airtable?](#who-uses-airtable)
 - [Why would you need an Airtable alternative?](#why-would-you-need-an-airtable-alternative)
-- [Top 5 Airtable Alternatives](#top-5-airtable-alternatives)
+- [Top 7 Airtable Alternatives](#top-7-airtable-alternatives)
 - [Airtable vs Budibase](#airtable-vs-budibase)
 - [How to choose an Airtable alternative](#how-to-choose-an-airtable-alternative)
 
@@ -59,7 +59,7 @@ Other reasons for seeking out an Airtable alternative are more in line with trad
 
 Or, perhaps Airtable can’t match your non-functional requirements, even though the core functionality would add value. For instance, ruling it out because it’s closed-source and can’t be self-hosted.
 
-## Top 5 Airtable alternatives
+## Top 7 Airtable alternatives
 Before we jump into looking at specific alternatives to Airtable, it’s worth noting that there are a few distinct classes of tools that could be leveraged to meet the same core pain points. 
 
 So, we have direct competitors, of course, but other options include low-code platforms, database tools, and even more traditional spreadsheet solutions. Each of these offers a slightly different slant on improving experiences around collaborative data management.
@@ -70,6 +70,8 @@ Our top picks are:
 - [NocoDB](#3-nocodb)
 - [Appsheet](#4-appsheet)
 - [Zoho Creator](#5-zoho-creator)
+- [Filemaker](#6-filemaker)
+- [Quickbase](#7-quickbase)
 
 ||||||||||
 
@@ -222,6 +224,70 @@ Zoho Creator has a three-tier per-user pricing model - Standard ($6.42), Profess
 Zoho’s pricing model also imposes rigid limits on usage, including automation runs, connected data sources, and other factors that might inhibit your ability to create viable solutions without upgrading to more expensive tiers.
 
 Uniquely, SAML-based SSO is available on all tiers but billed as an optional extra for Standard and Professional licenses.
+
+### 6. Filemaker
+
+Claris Filemaker has been around since the 1980s. Just like Airtable, the goal is to empower users with some of the capabilities of a traditional database platform without necessarily having the technical skills this would typically require.
+
+It also offers extensive functionality for creating custom UIs and basic automations on top of your stored data.
+
+![Filemaker](https://res.cloudinary.com/daog6scxm/image/upload/t_1920x1080/v1712828442/cms/alternatives/Filemaker_qmixdn.webp "Filemaker")
+
+#### Pros
+
+Filemaker’s primary selling point is just how easy it makes it for users to create database schemas without having to write queries manually. Instead, you can use a simple visual UI to define and populate your data model.
+
+On top of this, Filemaker offers extensive functionality for creating web apps, PWAs, or native mobile apps based on your data. In fact, it even offers direct integration with the iOS SDK, so we can easily publish to Apple’s App Store.
+
+Much like Airtable, Filemaker is a suitable solution for teams that need to output sophisticated data management tools without having to dedicate internal development resources to this.
+
+#### Cons
+
+Like Airtable, with Filemaker, it’s in the vendor’s interest for you to migrate your data ops to their platform and then continue using it. For instance, database files are stored in a proprietary format, which could be awkward if you eventually want to move to a traditional RDBMS.
+
+There are also a number of areas where Filemaker shows its age somewhat compared to more modern alternatives. For one thing, the UI can feel a little bit dated. It also lacks support for key types of external data, including NoSQL tools.
+
+Customization is relatively limited. For instance, we can’t add our own custom components or data sources in the way we can with some other Airtable alternatives.
+
+#### Pricing
+
+Filemaker is also one of the pricier options on the market. There’s no free version, and both of the paid tiers for the cloud product come along with minimum and maximum user volumes. For $21 per user, the Essentials tier allows us to build up to three apps for 5-10 users.
+
+The Standard tier bills at $43 per user per month and expands these limits to 125 applications for up to 99 users. Beyond this, we’ll need to opt for custom pricing.
+
+On top of this, Filemaker imposes usage limits based on data storage, API requests, and computing resources. It’s likely to be a very expensive option for larger use cases.
+
+### 7. Quickbase
+
+Like Airtable, Quickbase’s core mission is to help teams de-silo data. It’s another platform that primarily seeks to help teams achieve some of the functionality of traditional databases in a package that’s more friendly to non-technical users.
+
+However, where most of the other tools we’ve seen are aimed at a wide set of use cases, Quickbase primarily shines when it comes to managing projects, resources, tasks, and workloads.
+
+![Quickbase](https://res.cloudinary.com/daog6scxm/image/upload/v1712831624/cms/alternatives/Quickbase_q4p0ki.webp "Quickbase")
+
+#### Pros
+
+Quickbase is particularly popular among teams that need a fast, easy way to ship working solutions - especially simple internal tools like forms, dashboards, reports, and other basic data management apps.
+
+We can also take advantage of a range of features that make Quickbase an attractive option for large teams. For instance, it offers key security features, including RBAC, custom governance policies, and other tools to enable IT teams to control how end users interact with data.
+
+Lastly, Quickbase’s automation builder is relatively strong for a tool aimed at less technical colleagues. We can build quite powerful custom rules in a flow-chart-style interface, without needing much development skill.
+
+#### Cons
+
+Of course, Quickbase’s big downside is that it’s intended for a tighter subset of use cases than some of the other platforms we’ve seen today. It could be the ideal platform if your use case falls inside of this, but it might not be ideal otherwise.
+
+Quickbase also has some key limitations compared to more technical platforms. In fact, many users complain that key customization features are lacking - for instance, front-end scripting.
+
+On the flip side, certain basic development tasks are a little bit convoluted and overly complex to perform - for example, some users report difficulty connecting to external data sources.
+
+#### Pricing
+
+Quickbase is at the more expensive end of the market for Airtable alternatives. There’s also no free tier - only a 30-day free trial. Each of the paid tiers also comes along with a minimum user commitment, with the Team tier starting at $35 per user per month, for 20+ users.
+
+The Business tier bills at $55 per user per month, with a minimum 40-user commitment. This also unlocks some key security features, including SSO and SCIM - plus additional UI elements like interactive Gantt Charts.
+
+Custom pricing is also available, bringing along additional security features, enhanced account management, and extended audit logging. 
 
 ---
 
