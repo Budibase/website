@@ -78,8 +78,9 @@ Our top picks for FileMaker alternatives are:
 3. [Retool](#3-retool)
 4. [Appian](#4-appian)
 5. [Mendix](#5-mendix)
-6. [Airtable](#6-airtable)
-7. [Zoho Creator](#7-zoho-creator)
+6. [OutSystems](#6-outsystems)
+7. [Airtable](#7-airtable)
+8. [Zoho Creator](#8-zoho-creator)
 
 Here’s a summary of what each one brings to the table.
 
@@ -259,6 +260,102 @@ Mendix’s pricing works a little bit differently from most other tools in this 
 The Basic and Standard tiers charge flat fees of $80 and $500 per month respectively for a single application - with extra charges for each additional user.
 
 You’ll need to pay at least $2,000 per month to build multiple applications, while features like self-hosting are only available with custom pricing.
+
+### 6. OutSystems
+
+OutSystems is a slightly different proposition to most of our other FileMaker alternatives. It’s probably the most developer-focused tool in the low-code space - although it’s also widely used by other IT job roles.
+
+As such, it offers some of the most extensive capabilities of the tools platforms in this round-up - but the trade-off here is that it also requires a lot more technical expertise from users.
+
+![OutSystems](https://res.cloudinary.com/daog6scxm/image/upload/v1701788478/cms/alternatives/OutSystems_ne26bn.webp "OutSystems")
+
+#### Pros
+
+OutSystems outshines many other low-code platforms when it comes to advanced use cases. In particular, it's a very strong offering in terms of multi-platform development - with specific capabilities for building PWAs, native mobile apps, and more.
+
+It’s also hugely extensible. OutSystems is one of the few platforms in its class that offers a dedicated SDK, meaning that developers can build custom data sources, components, and other extensions. It also provides a native marketplace for community contributions.
+
+Another area where OutSystem is particularly impressive is generative AI. There are effective tools for writing, testing, and monitoring custom code - but with the important caveat that this is most helpful if you have the expertise to understand the code itself.
+
+#### Cons
+
+Unfortunately, the reality is that OutSystems will be beyond the technical skill level of most users who don’t have some development experience. In fact, it can even be difficult to get up and running - with no one-click deployment for self-hosting.
+
+On top of this, the cloud-based version of OutSystems comes along with additional feature limitations - including with regard to accessing external data. As such, it might not be a viable option for many businesses.
+
+This technical skills barrier applies to actually using the platform too. For instance, there will be many development tasks that require us to use at least some custom code - which might be natively possible in other platforms.
+
+#### Pricing
+
+OutSystems presents a slightly opaque pricing model. To create multiple apps in a production environment, you’ll need to pay $1,513 per month - although this comes with unlimited users. For more extensive use, we’ll need custom enterprise pricing.
+
+The reason for this is that OutSystems limits usage based on what are known as Application Objects. An AO can be an app screen, API connection, or other key element of your final application.
+
+As such, predictability is quite poor - in the sense that it’s difficult to know how many AOs we’re going to need for a particular use case, and the pricing of additional objects is not publicly advertised.
+
+### 7. Airtable
+
+Airtable is a slightly more modern take on the same core problem that FileMaker sets out to address.
+
+Much like FileMaker, the goal is to provide teams with more advanced ways to store and manage data, without necessarily having the skills required to use a more traditional RDBMS tool.
+
+![Airtable](https://res.cloudinary.com/daog6scxm/image/upload/v1702478043/cms/alternatives/Airtable_lggz2x.webp "Airtable")
+
+#### Pros
+
+Airtable has achieved an enormous market share over the past decade thanks to its familiar, intuitive user experiences. Its core value proposition is that we can create and interact with fully functioning databases using spreadsheet-based UIs.
+
+Like FileMaker, it also provides extensive tools for building end-user interfaces and automating workflows. Since Airtable is primarily a database tool, it’ll be no surprise that it’s particularly strong on forms, dashboards, and other reporting UIs.
+
+Airtable also shines in terms of the speed and ease with which we can get up and running. There’s a huge library of templates for both database schemas and related app UIs, especially in the realms of project management, finances, internal processes, and more.
+
+#### Cons
+
+However, much like FileMaker, one of Airtable’s big downsides is that its primary goal is for teams to migrate their data ops to the platform. So, it’s relatively sticky, and external data support is mostly limited to external SaaS platforms and APIs - not other databases.
+
+Compared to other tools in the no/low-code space, Airtable falls down on flexibility and customization. One big detraction relative to other tools we’ve seen today is that we can’t query SQL databases and use the responses within our front ends.
+
+We’re also generally limited in terms of the front-ends we can build on top of our data. So, Airtable works very well in terms of shipping general data management apps but leaves more to be desired for less generic use cases.
+
+#### Pricing
+
+Airtable bills on a per-user basis, at least nominally. In practice, things are a bit more complex, as there are also restrictions across pricing tiers relating to stored data and automation runs. For example, the free tier gives us five users but only 1,000 rows per base.
+
+The Team ($20) and Business ($45) tiers each impose their own limits on stored data and automations too. Additionally, since Airtable doesn’t distinguish between end users and creators, it can be quite an expensive platform to scale.
+
+Custom pricing is required for more than 500,000 stored rows or monthly automation runs, as well as advanced security features. So, for larger use cases, you’ll probably want to look at a traditional DBMS instead.
+
+### 8. Zoho Creator
+
+Lastly, we have Zoho Creator. Again, this puts a slightly different spin on low-code development than some of the other tools we’ve seen so far today.
+
+It’s a particularly strong platform for IT teams who want to empower their on-the-ground colleagues to build solutions for themselves in a controlled manner - for instance, within a citizen development program.
+
+![Zoho Creator](https://res.cloudinary.com/daog6scxm/image/upload/v1702478043/cms/alternatives/Zoho_SG_jy3wve.webp "Zoho Creator")
+
+#### Pros
+
+One of Creator’s big strengths is integrability. In fact, it offers a wide array of native integrations for external SaaS tools, CRMs, ERPs, and more, as well as intuitive, flexible experiences for configuring API requests.
+
+It’s also a strong offering in terms of security and governance. With flexible RBAC, custom security policies, and more, IT teams can create highly granular frameworks for governing how users interact with data assets and other resources.
+
+Creator also offers extensive scope for front-end scripting using a proprietary language called Deluge, which is comparatively easy to learn.
+
+#### Cons
+
+Some Creator users complain that there’s a general lack of design customization, with end-user applications being limited to a small number of built-in themes. Often, app designs can also feel a little dated compared to some other platforms in this class.
+
+As a platform that’s optimized for IT teams empowering their on-the-ground colleagues to build tools, it can also leave a little bit to be desired for one kind of user or other acting in isolation.
+
+For instance, we might need custom code to perform certain kinds of tasks - putting it beyond the skill level of most non-technical users, but at the same time, the degree of customization on offer might not be sufficient for developers or IT specialists.
+
+#### Pricing
+
+Creator offers three per-user pricing tiers - Standard ($8), Professional ($20), and Enterprise ($25). However, we’ll need a Professional license or above in order to create multiple applications.
+
+At first glance, this appears to be quite a cost-effective option - but it’s important to note that each tier also comes along with restrictions on data storage and automation runs, so we may need to upgrade to a more expensive license on this basis.
+
+One interesting point here is that some enterprise features like SSO are available as optional add-ons across all pricing tiers - whereas for many platforms, we’ll need custom pricing to get access to these.
 
 
 ## FileMaker vs Budibase
