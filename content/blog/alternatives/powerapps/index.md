@@ -1,7 +1,7 @@
 ---
 date: 2023-12-05
-title: Top 6 PowerApps Alternatives & Competitors in 2024
-description: Learn about the top 6 PowerApps alternatives & competitors to improve your internal workflows and save you time.
+title: Top 10 PowerApps Alternatives & Competitors in 2024
+description: Learn about the top 10 PowerApps alternatives & competitors to improve your internal workflows and save you time.
 images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1701356335/cms/alternatives/meta_retool_alts_kew9ly.png
 cover: "https://res.cloudinary.com/daog6scxm/image/upload/v1701359841/cms/alternatives/retool_alts_dark_narrow_sfeis5.webp"
@@ -26,7 +26,7 @@ Specifically, we’ll cover the following:
 - [What is PowerApps?](#what-is-power-apps)
 - [Who uses PowerApps?](#who-uses-powerapps)
 - [Why would you need a PowerApps alternative?](#why-would-you-need-a-powerapps-alternative)
-- [6 PowerApps alternatives](#6-powerapps-alternatives)
+- [10 PowerApps alternatives](#10-powerapps-alternatives)
 - [PowerApps vs Budibase](#powerapps-vs-budibase)
 - [How to choose a PowerApps alternative](#how-to-choose-a-powerapps-alternative)
 
@@ -67,7 +67,7 @@ Finally, PowerApps is entirely closed-source. As such, it’s almost impossible 
 
 Similarly, it can’t be self-hosted. Or, much more simply - PowerApps may be a viable option for you - but you may find a more cost-effective way to meet the same objectives.
 
-## 6 PowerApps Alternatives
+## 10 PowerApps Alternatives
 Now that we’ve seen what PowerApps is and where it sits in the market, we can start to run through some of its key competitors.
 
 The low-code market is fairly varied in terms of the users that specific vendors target. This ranges from platforms for empowering everyday users to build solutions on one end of the spectrum - to full-blown developer tools at the other.
@@ -81,6 +81,10 @@ These are:
 4. [Appian](#4-appian)
 5. [AppSheet](#5-appsheet)
 6. [OutSystems](#6-outsystems)
+7. [Quickbase](#7-quickbase)
+8. [Zoho Creator](#8-zoho-creator)
+9. [Filemaker](#9-filemaker)
+10. [Airtable](#10-airtable)
 
 ||||||||||
 
@@ -277,6 +281,134 @@ However, OutSystems imposes limits on Application Objects (AOs), which include t
 There’s very little transparency around how much additional AOs will cost and it’s hard to predict how many you’ll need to build an app.
 
 Custom pricing is required for large app portfolios - or to access self-hosting or ISO270001/SOC 2 compliance.
+
+### 7. Quickbase
+
+Quickbase is one of many platforms that aim to help businesses use their data more effectively. Its purpose is to first centralize and de-silo data - and then enable teams to build internal tools and processes around this.
+
+Compared to some of our other Power Apps alternatives, Quickbase is aimed at users with a somewhat lower technical skill level. The goal is largely empowering non-IT colleagues to build solutions while allowing IT teams to retain governance and control.
+
+![Quickbase](https://res.cloudinary.com/daog6scxm/image/upload/v1712831624/cms/alternatives/Quickbase_q4p0ki.webp "Quickbase")
+
+#### Pros
+
+One of Quickbase’s major selling points is the ease with which non-technical colleagues can output working tools - especially for simple tools like forms, dashboards, and reports. This is aided by an intuitive, flexible WYSIWYG editor for building UIs.
+
+Quickbase also provides extensive functionality aimed at larger teams. For example, it offers tools for enabling IT teams to govern access to internal data assets, including RBAC, admin functionalities, custom governance policies, and more.
+
+In terms of specific use cases, Quickbase is a particularly strong offering for basic data-centric solutions like reporting and dashboards. However, it also offers a visual automation builder, so it can be an effective tool for handling internal processes and workflows too.
+
+#### Cons
+
+While Quickbase is largely aimed at non-technical colleagues, many users complain that experiences for relatively common tasks are overly complicated. For instance, while it’s possible to query external data sources, configuring this is difficult compared to some competitors.
+
+On the flip side, Quickbase’s UI builder is highly opinionated. This makes it easy to build certain kinds of tools, but can also limit the degree of flexibility and customization on offer - with many users complaining this is insufficient for their requirements.
+
+Another common complaint is that Quickbase is relatively expensive compared to other tools in its class. It’s also fully closed-source and lacks support for self-hosting, so can be ruled out if either of these are firm requirements.
+
+#### Pricing
+
+Unlike many Power Apps alternatives, Quickbase lacks a proper free tier. Rather, it only offers a 30-day free trial. Beyond this, the cheapest price point is the Team tier which bills at $35 per user per month - with a minimum commitment of 20 users.
+
+We’ll need to upgrade to the Business tier for $55 per user per month on a minimum 40-user basis to access security features like SSO and SCIM - along with certain design functionalities, like interactive Gantt charts. 
+
+Custom enterprise pricing is also available with further security enhancements, extended audit logging, and account enhancement services. On the whole, though, Quickbase’s pricing means it’s only likely to be a viable solution for very large organizations with extensive internal adoption.
+
+### 8. Zoho Creator
+
+Next, we have Creator, Zoho’s low-code offering. This occupies a slightly different corner of the app-building market than platforms like Power Apps. It’s squarely aimed at the citizen development market.
+
+So, it’s strongest in terms of providing IT teams with a platform to empower their on-the-ground colleagues to output solutions for their own needs in a controlled manner - without undermining existing governance policies.
+
+![Zoho Creator](https://res.cloudinary.com/daog6scxm/image/upload/v1702478043/cms/alternatives/Zoho_SG_jy3wve.webp "Zoho")
+
+#### Pros
+
+As part of the wider Zoho ecosystem, Creator is relatively strong on external data support - in particular around other SaaS platforms. Users can easily access and manipulate data from a wide range of CRMs, ERPs, and other platforms, using native integrations.
+
+As a platform aimed at the citizen development market, Creator is also an attractive offering when it comes to governance. We can combine flexible RBAC with custom security policies to create very granular rules for how users interact with our data assets.
+
+Unlike some other Power Apps alternatives, Creator offers custom front-end scripting using a proprietary language called Deluge, which is relatively easy to learn.
+
+#### Cons
+
+Despite its focus on citizen development, one common criticism of Zoho Creator is that it can present a relatively high technical skills barrier for certain use cases. So, we might find that we need custom code to achieve functionality that would be possible natively with other tools.
+
+Similarly, Creator is generally optimized for IT teams and on-the-ground users working in tandem to create solutions. Therefore, it might be less suitable for other kinds of low-code developments where these cohorts are working in isolation.
+
+While there is a self-hostable version of Creator, Zoho doesn’t provide the full complement of features for this - which could make it an unviable option, depending on your needs.
+
+#### Pricing
+
+Creator’s pricing is based on three monthly per-user tiers - Standard ($8), Professional ($20), and Enterprise ($25). This makes it a relatively cost-effective option, although we’re limited to a single application on the Standard tier.
+
+Pricing is also a little bit less predictable than some other vendors in the low-code space. There are additional usage-based limits based on both automation runs and connected data, so we might need to upgrade to a premium tier as a result of these.
+
+Novelly, certain enterprise features like SSO are available on all tiers but billed as an optional extra for Standard and Professional licenses.
+
+### 9. Filemaker
+
+FileMaker is one of the oldest names in the low-code space. In fact, it’s been around since the 1980s. On the one hand, this makes it a stable, relatable solution for building certain kinds of internal tools.
+
+On the other, it means that it’s a legacy tool in a fast-moving space. So, there are some areas where it falls short of modern competitors, as we’ll see.
+
+![Filemaker](https://res.cloudinary.com/daog6scxm/image/upload/t_1920x1080/v1712828442/cms/alternatives/Filemaker_qmixdn.webp "Filemaker")
+
+#### Pros
+
+Filemaker is available as a local package for Windows and Mac, as well as a cloud-based tool. Its key use case is situations where data sets are too large or complex to be managed using spreadsheets - but users lack the expertise for traditional RDBMS platforms.
+
+It’s centered around a drag-and-drop interface for creating database schemas - without the need to manually write queries. We can also build simple interfaces like Forms - or even create automations for basic database management tasks.
+
+Filemaker provides dedicated functionality for shipping native web and mobile applications - making it an effective solution for teams that need to develop cross-platform tools without necessarily having extensive technical skills.
+
+#### Cons
+
+There are some areas where Filemaker really shows its age compared to newer platforms. For example, it presents a particularly steep learning curve in comparison to modern low-code platforms that prioritize intuitive user experiences more emphatically.
+
+On top of this, Filemaker is designed to be sticky. Database files are stored in a proprietary format, making it difficult to migrate to a more sophisticated RDBMS solution as your needs grow and evolve.
+
+There are also no dedicated connectors for non-relational data. So, if we want to integrate with NoSQL tools, we’ll need to configure our own API requests. This is a relatively awkward process compared to some other competitors.
+
+#### Pricing
+
+Filemaker is also a relatively expensive option. There are two pricing tiers. The Essentials tier bills at $21 per user per month. However, this is limited to three applications for five to ten users.
+
+The Standard tier costs $43 per user per month and expands these limits to 125 applications for up to 99 users. Both tiers also come with usage limits in terms of API requests, stored data, and computing resources.
+
+Customer enterprise pricing and single-user licenses are also available for use cases that fall outside of these defined tiers.
+
+### 10. Airtable
+
+Lastly, we have Airtable. Again, this occupies a slightly different corner of the market than Power Apps, but as one of the most popular options for creating custom solutions quickly, it’s an important platform to be familiar with.
+
+Its niche is empowering teams to take advantage of much of the power and flexibility of traditional database tools - with a familiar, spreadsheet-like experience. On top of that, there’s extensive functionality for building interfaces and automating workflows.
+
+![Airtable](https://res.cloudinary.com/daog6scxm/image/upload/v1702484737/cms/alternatives/Updated_Airtable_Screenie_a2cjmu.webp "Airtable")
+
+#### Pros
+
+Airtable’s popularity largely comes down to how easily users can create advanced data management solutions - both in terms of storage and facilitating user interactions. On the one hand, users can interact with data in much the same way they would in Excel or Google Sheets.
+
+More importantly, as a Power Apps alternative, Airtable offers functionality for building custom interfaces on top of stored data - in particular, reports, forms, tabular UIs, and dashboards. 
+
+Like Power Apps, Airtable offers an impressive number of pre-built interface and data model templates, making it easy to get up and running with the platform for a broad range of use cases.
+
+#### Cons
+
+The real downside to Airtable is that it’s largely focused on getting businesses to migrate their data ops in their entirety. So, there’s relatively little support for external data sources - except for Saas integrations and API requests.
+
+We can’t, for example, query SQL databases directly and use their responses to populate Airtable front-ends. Rather, we’d need to import a dump of our database into SQL or configure API requests manually to achieve similar functionality.
+
+Airtable is also an exclusively cloud-based platform. So, if self-hosting your internal tools or data assets is a firm requirement, you’ll need to look elsewhere.
+
+#### Pricing
+
+Airtable is primarily billed on a per-user basis, but there are also usage limits in terms of stored data and automation runs. The free tier offers up to 1,000 rows per base for up to five users.
+
+The Team and Business tiers bill at $20 and $45 per user per month, respectively. However, Airtable doesn’t distinguish between end users and creators, meaning that it has the potential to be very expensive to scale solutions.
+
+Additionally, custom pricing is required to store more than 500,000 rows per base, to make more than 500,000 automation runs in a month, or to access premium security features.
 
 ## PowerApps vs Budibase
 Now that we’ve seen a range of different platforms from across the no/low-code market, it’s time to dive deeper into how PowerApps and Budibase stack up together.
