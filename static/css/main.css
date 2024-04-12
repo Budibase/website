@@ -8123,6 +8123,13 @@ fieldset:disabled a.btn {
   cursor: pointer;
 }
 
+.btn-cta:focus {
+  background-color: var(--bb-indigo-dark) !important;
+  border: 1px solid var(--bb-indigo-dark);
+  color: white;
+
+}
+
 .btn-cta-light {
   color: var(--text-color-dark);
   background-color: var(--accent-orchid);
