@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2022-05-23T23:00:00Z
+date = 2023-11-23T23:00:00Z
 description = "Knowing how to implement RBAC is a crucial skill for building modern web applications. Here’s our 8 step guide."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1653385829/cms/How_to_Implement_RBAC_ngjzus.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1653385829/cms/How_to_Implement_RBAC_ngjzus.png"]
