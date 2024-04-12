@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2022-09-22T23:00:00Z
+date = 2023-12-22T23:00:00Z
 description = "With Budibase, building a custom SQL GUI has never been easier. Here's everything you need to know."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1664187039/cms/How_to_Build_a_SQL_GUI_ttdmca.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1664187046/cms/How_to_Build_a_SQL_GUI_hlukgc.png"]
