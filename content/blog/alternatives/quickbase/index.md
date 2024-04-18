@@ -1,6 +1,6 @@
 ---
 date: 2023-12-12
-title: Top 5 Quickbase Alternatives & Competitors in 2024
+title: Top 7 Quickbase Alternatives & Competitors in 2024
 description: Take a look at our round-up of the top alternatives to Quickbase that could improve your internal workflows and save you time.
 images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1702477772/cms/alternatives/quickbase_meta_mrwuxe.png
@@ -26,7 +26,7 @@ Specifically, we’ll cover:
 - [What is Quickbase?](#what-is-quickbase)
 - [Who Uses Quickbase?](#who-uses-quickbase)
 - [Why would you need a Quickbase alternative?](#why-would-you-need-a-quickbase-alternative)
-- [Top 5 Quickbase Alternatives](#top-5-quickbase-alternatives)
+- [Top 7 Quickbase Alternatives](#7-quickbase-alternatives)
 - [Quickbase vs Budibase](#quickbase-vs-budibase)
 - [How to choose a Quickbase alternative](#how-to-choose-a-quickbase-alternative)
 
@@ -72,7 +72,7 @@ In this case, Quickbase may not be a viable option. Similarly, it can’t be sel
 
 Alternatively, you might decide that Quickbase is a potential solution for you - but that another vendor offers the same value more cost-effectively.
 
-## 5 Quickbase alternatives
+## 7 Quickbase alternatives
 So, now that we have good grasp of what Quickbase offers and where it can fall short, we can start thinking about some of its key competitors. 
 
 It’s helpful to briefly think about the makeup of the low-code market more broadly. Really, this is a spectrum - ranging from platforms for business users with little coding skills, to more advanced developer tools, with a huge range of variation in between.
@@ -83,6 +83,8 @@ Our picks are:
 - [AppSheet](#3-appsheet)
 - [Appian](#4-appian)
 - [Zoho Creator](#5-zoho-creator)
+- [Filemaker](#6-filemaker)
+- [SmartSheet](#7-smartsheet)
 
 ||||||||||
 
@@ -241,6 +243,70 @@ Zoho offers three user-based pricing tiers for Creator - Standard ($8), Professi
 There are also other usage-based limits across each of the tiers. These include restrictions on automation runs and connected data. So, we might quickly need to upgrade to a more expensive option for advanced, data-heavy use cases.
 
 Some enterprise features like SSO are available on all tiers but billed as an optional extra for Standard and Professional licenses.
+
+### 6. Filemaker
+
+Claris Filemaker is Apple’s low-code offering. It entered the market in the 1980s as an [alternative to Microsoft Access](https://budibase.com/blog/data/microsoft-access-alternatives/). As such, it’s primarily based around a visual editor for creating database schemas - with additional tools for building UIs and automations.
+
+It’s positioned primarily at situations where spreadsheets are no longer a viable option for managing data, but teams don’t want to move to a traditional RDBMS.
+
+![Filemaker](https://res.cloudinary.com/daog6scxm/image/upload/t_1920x1080/v1712828442/cms/alternatives/Filemaker_qmixdn.webp "Filemaker")
+
+#### Pros
+
+A huge part of Filemaker’s popularity is the ease with which we can create functional, custom databases. In fact, we can create relatively sophisticated relational data models without needing to write custom queries.
+
+We can easily create data management interfaces like forms and CRUD apps - or draw insights from our data in reports and dashboards. 
+
+Filemaker also offers some unique capabilities around shipping PWAs and native mobile apps. It even offers direct integration with Apple’s iOS SDK, making it incredibly easy to ship working apps to the App Store.
+
+#### Cons
+
+However, there are also some key downsides to Filemaker compared to other Quickbase alternatives. One is that its UI feels relatively dated, especially alongside some of its more modern competitors.
+
+Filemaker is intended to be a sticky platform. So, some users complain that if they eventually need to migrate their workflows to a more sophisticated custom solution, porting their data can be slightly tricky.
+
+While the integration options are generally quite strong, Filemaker lacks dedicated connectors for querying NoSQL tools, which many other platforms in this space provide.
+
+#### Pricing
+
+Filemaker is one of the less affordable options in this space. To begin with, there’s no free trial - although uniquely lifetime single-user licenses are available for the local Windows and MacOS packages.
+
+But to compare with other platforms, we’re mainly interested in the cloud offering. This bills at $21 per user per month for 5-10 users and up to three apps or $43 for 10-99 users with up to 125 apps.
+
+There are also usage limits covering stored data, API requests, and computing resources. Therefore, Filemaker has the potential to be a particularly expensive option, especially as you scale out your usage.
+
+### 7. SmartSheet
+
+Much like Airtable, SmartSheet is a Quickbase competitor that seeks to combine the power and flexibility of a traditional database with a user experience that will be familiar to spreadsheet users.
+
+However, like Quickbase, it’s primarily aimed at quite a narrow range of use cases, including managing tasks, projects, workloads, and internal resources.
+
+![SmartSheet](https://res.cloudinary.com/daog6scxm/image/upload/v1701964769/cms/alternatives/SmartSheet_od0l6i.webp "SmartSheet")
+
+#### Pros
+
+One of SmartSheet’s real strengths is its range of native integration options, particularly with external SaaS, marketing, finance, CRM, ERP, and other key business platforms. It’s a very effective solution for non-technical colleagues to centralize disparate internal data.
+
+It’s easy to create custom views for interacting with our data - including calendars, Gantt charts, Kanban boards, and more. However, as you’ll notice, these skew heavily toward project management use cases.
+
+We can also build more custom UIs using the SmartSheet WorkApps platform. This is a relatively effective no-code tool for building simple apps like forms and calculators to be used within project workflows.
+
+#### Cons
+
+One obvious potential drawback to SmartSheet is that it’s optimized for a relatively tight range of use cases. This could be ideal if you’re specifically looking to create solutions around relevant use cases - but it might not be much use outside of this.
+
+It also offers comparatively little customization relative to some of the more technical platforms we’ve seen - although this is always a trade-off when it comes to enabling non-technical colleagues to output solutions.
+
+Interestingly, SmartSheet can be connected to external databases but only offers scheduled syncs rather than direct querying - so this might only be viable in certain circumstances with low-volume database transactions.
+
+#### Pricing
+
+SmartSheet positions itself towards the more affordable end of the market. There are four monthly per-user tiers - Free, Pro ($7), Business ($25), and Enterprise (Custom). However, we’ll need the Business tier if we have more than 10 users.
+
+However, there are usage-based limitations in terms of automation runs and stored data - as well as restricted features across the pricing tiers. So, although it’s quite an affordable option, the cost of scaling could vary quite a bit.
+
+SmartSheet also offers basic SSO across all of its pricing tiers, which is relatively generous compared to some competitors.
 
 ---
 

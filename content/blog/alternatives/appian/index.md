@@ -1,6 +1,6 @@
 ---
 date: 2024-01-02
-title: Top 5 Appian Alternatives & Competitors in 2024
+title: Top 8 Appian Alternatives & Competitors in 2024
 description: Learn about the top 5 Appian alternatives & competitors to improve your internal workflows and save you time.
 images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1704207063/cms/alternatives/appian-meta_fb0dog.png
@@ -26,7 +26,7 @@ Specifically, we’re going to cover:
 - [What is Appian?](#what-is-appian)
 - [Who uses Appian?](#who-uses-appian)
 - [Why would you want an Appian alternative?](#why-would-you-want-an-appian-alternative)
-- [5 Appian alternatives](#5-appian-alternatives)
+- [8 Appian alternatives](#8-appian-alternatives)
 - [Appian vs Budibase](#appian-vs-budibase)
 - [How to choose an Appian alternative](#how-to-choose-an-appian-alternative)
 
@@ -78,7 +78,7 @@ We might find that an alternative platform offers the same value more cost-effec
 
 Lastly, Appian is a closed-source solution. So, security teams are unable to audit its source-code before hosting it on their internal infrastructure or connecting it to production databases.
 
-## 5 Appian Alternatives
+## 8 Appian Alternatives
 Now that we have a clear picture of what Appian is, what it offers, and where it could fall short, we can survey the wider market.
 
 It’s important to note once again that individual platforms within the low-code market are optimized for distinct user personas in different kinds of organizations - from developers in major enterprises - to non-techincal users in small teams.
@@ -89,6 +89,9 @@ We’re checking out a range of tools from across this spectrum. Our picks are:
 3. [OutSystems](#3-outsystems)
 4. [PowerApps](#4-outsystems)
 5. [Mendix](#5-mendix)
+6. [Filemaker](#6-filemaker)
+7. [Zoho Creator](#7-zoho-creator)
+8. [Caspio](#8-caspio)
 
 ||||||||||
 
@@ -245,6 +248,102 @@ Mendix is one of the pricier low-code platforms out there. It offers different l
 For multi-app licenses, there are three tiers - Free, Standard, and Premium. The free tier includes unlimited apps and users but limits us to a proprietary environment.
 
 Paid multi-app licenses start from $2,000 per month for five users - plus additional per-user fees.
+
+### 6. Filemaker
+
+Next, we have Filemaker. Launched way back in the 1980s, this is Apple’s offering in the low-code market. As such, it’s one of the oldest names in this space.
+
+In this time, it’s acquired a huge user base of teams in large organizations that need to centralize and de-silo data, as well as outputting working tools for interacting with this.
+
+![Filemaker UI](https://res.cloudinary.com/daog6scxm/image/upload/t_1920x1080/v1712828442/cms/alternatives/Filemaker_qmixdn.webp "Appian Alternative Filemaker")
+
+#### Pros
+
+Filemaker offers a visual interface for defining schemas and creating databases - without needing to manually write custom queries. This opens up a huge amount of power and flexibility for users who might not have the skills to work with a traditional RDBMS.
+
+On top of this, there’s a range of tools for designing interfaces, automating data workflows, and managing access to our data sets.
+
+Another unique selling point of Filemaker is the ease with which we can output working solutions for a range of platforms. In particular, it offers a direct integration with Apple’s iOS SDK - so we can easily ship iPhone and iPad apps with minimal custom code.
+
+#### Cons
+
+However, there are certain areas where Filemaker falls down compared to our other Appian alternatives. One issue is that Filemaker databases are stored in a proprietary format, which can make migrating them to a traditional DBMS slightly more difficult.
+
+Another common complaint with Filemaker users is that the development experience feels a little bit dated compared to some of the more modern platforms on the market - although this is equally a common criticism of Appian too.
+
+External data support is a somewhat mixed affair compared to other platforms in this class. For instance, we can’t directly query NoSQL tools using a native connector - instead, having to rely on custom API requests.
+
+#### Pricing
+
+Filemaker is also one of the pricier platforms on the market. There’s no free version available, although, novelly, we can buy lifetime single-user licenses.
+
+The Essentials tier bills at $21 per user per month for 5-10 users and up to three applications. The Standard tier ($43) expands this to up to 99 users and 125 applications. As such, pricing is particularly prohibitive for smaller teams and use cases.
+
+On top of this, there are usage-based limits across the tiers relating to stored data, computing resources, and API requests - making the cost of scaling slightly harder to predict.
+
+### 7. Zoho Creator
+
+Creator is Zoho’s offering in the low-code market. It’s a particularly strong option for IT teams that want to empower non-developers and other on-the-ground colleagues to build solutions for their own needs - without sacrificing control and governance.
+
+It’s also a popular platform by virtue of the power and flexibility that it offers for custom internal tools development.
+
+![Zoho Creator](https://res.cloudinary.com/daog6scxm/image/upload/v1702478043/cms/alternatives/Zoho_SG_jy3wve.webp "Zoho Creator")
+
+#### Pros
+
+As part of the Zoho ecosystem, Creator is particularly strong when it comes to integration with your existing tool stack. In particular, it offers a huge range of native integration options for external SaaS tools, CRMs, data management solutions, and more.
+
+There’s also huge scope for customization. Front-end scripting is performed using the proprietary Deluge language. This is a relatively forgiving, easy to learn scripting language, offering a great deal of flexibility to users with minimal existing coding skills.
+
+For IT teams, Creator really shines in terms of retaining control and governance over how colleagues interact with data assets. 
+
+#### Cons
+
+However, there are some big downsides to Zoho Creator too. Proprietary scripting languages are always a double-edged sword. They might be easier for non-developers to learn - but this is counteracted by the fact that users with coding skills can’t use a language they already know.
+
+Some users also complain that Creator doesn’t quite strike the perfect balance between usability and capabilities. Indeed, some users complain that it presents a steep learning curve for non-technical colleagues - while also lacking the power and flexibility of other tools.
+
+Creator can be self-hosted, which is a huge benefit to many businesses. However, teams that deploy the platform to their own infrastructure won’t enjoy the full complement of features that are available in the cloud platform
+
+#### Pricing
+
+Zoho’s pricing model positions Creator as one of the most cost-effective solutions in the low-code market. There are three monthly per-user tiers - Standard ($8), Professional ($20), and Enterprise ($25).
+
+However, we’ll need a Professional license or above to build multiple applications. There are also usage-based restrictions across the tiers in terms of automation runs and connected data.
+
+One aspect that’s unique to Zoho’s pricing is that certain enterprise features, such as SSO, are available as optional extras at any price point.
+
+### 8. Caspio
+
+Lastly, we have Caspio. Launched in 2000, this is a very direct competitor to Appian. It’s highly targeted towards teams in large enterprises that need to output large volumes of web apps at pace.
+
+As low-code platforms go, it skews more heavily toward the technical users - and even experienced developers.
+
+![Caspio](https://res.cloudinary.com/daog6scxm/image/upload/v1712828638/cms/alternatives/caspio_mc4axs.webp "Caspio")
+
+#### Pros
+
+One particularly interesting part of Caspio’s offering is its internal database. This is actually based on SQL Server. Like most tools, we can use a visual interface to create and manage databases, but we can also write SQL queries directly within the platform.
+
+As a large, well-established player in the space, Caspio has a strong track record in terms of security and reliability - as well as an active community of users and a wealth of resources.
+
+It also offers a wide range of configurable charts, table UIs, reporting tools, and more, making it easy to create effective data-centric applications with little to no custom code.
+
+#### Cons
+
+Compared to some of the more modern Appian alternatives we’ve seen, there are some areas where Caspio really shows its age. In particular, developer experiences feel a bit dated relative to other tools that place a greater emphasis on UX.
+
+It’s also somewhat lacking in terms of automation capabilities. We can schedule basic database actions and other tasks using basic if/then conditions, but this falls short of what’s possible in some other platforms, including Appian.
+
+Caspio is also more focused on building tools around internally stored data, so it doesn’t offer as extensive support for external data sources as we might expect from other low-code tools.
+
+#### Pricing
+
+Caspio is also one of the only platforms in its class that doesn’t bill on a per-user basis. Instead, there are several tiers of fixed licenses for unlimited users. As such, it has the potential to be very cost-effective for larger user bases.
+
+There are four tiers - Free, Starter ($50), Professional ($600), and Enterprise ($2,250). Each of these comes with usage-based limitations based on stored records and DataPages - a proprietary concept that essentially equates to a UI for interacting with data.
+
+Additionally, there are feature limitations across the different price points. For instance, we’ll need an Enterprise license to access single sign-on.
 
 ## Appian vs Budibase
 Now that we’ve seen a range of options from across the low-code market, it’s time to dive deeper into how Budibase and Appian stack up against each other. 
