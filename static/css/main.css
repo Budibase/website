@@ -801,7 +801,6 @@ a {
   -webkit-text-decoration-skip: objects;
   opacity: 1 !important;
   cursor: pointer;
-  display: inline-block;
   font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
 }
 
@@ -8120,7 +8119,7 @@ fieldset:disabled a.btn {
 .btn-cta:hover {
   color: white;
   background-color: var(--bb-indigo-dark);
-  border: 1px solid var(--bb-indigo);
+  border: 1px solid var(--bb-indigo-dark);
   cursor: pointer;
 }
 
@@ -8466,7 +8465,7 @@ select {
 
 .btn-block {
   display: flex !important;
-  width: 100%;
+  width: 100% !important;
   border: 1px solid transparent;
 }
 
