@@ -582,6 +582,9 @@ table td {
 .text-red {
   color: var(--accent-crimson);
 }
+.text-crimson {
+  color: var(--accent-crimson);
+}
 .text-lime {
   color: var(--bb-lime);
 }
@@ -594,7 +597,7 @@ table td {
 
 
 .text-purple {
-  color: var(--purple-900);
+  color: var(--bb-indigo);
 }
 
 .text-indigo {
