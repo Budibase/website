@@ -10082,6 +10082,9 @@ button.close {
 .bg-orange{
   background-color: var(--accent-orange)
 }
+.bg-orange-light{
+  background-color: var(--accent-orange-light)
+}
 .bg-orchid{
   background-color: var(--accent-orchid)
 }
