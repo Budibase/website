@@ -3896,8 +3896,8 @@ pre>code {
 }
 
 .tag-indigo {
-  background-color: var(--indigo-200);
-  color: var(--indigo-1000);
+  background-color: var(--bb-indigo-dark);
+  color: var(--bb-indigo-light);
   border-radius: 4px;
   font-size: 12px;
   height: 24px;
