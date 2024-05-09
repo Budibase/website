@@ -2,7 +2,6 @@
 author = "Ronan McQuillan"
 date = 2024-05-09
 description = "Take a look at our in-depth comparison of Retool and Superblocks."
-images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1715251503/cms/superblocks-vs-retool/Superblocks_vs_Retool_3_ewrrbg.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Superblocks vs Retool: In-Depth Comparison"
 
