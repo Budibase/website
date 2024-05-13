@@ -594,6 +594,9 @@ table td {
 .text-green {
   color: rgb(80, 208, 82);
 }
+.text-coral {
+  color: var(--bb-coral);
+}
 
 
 .text-purple {
