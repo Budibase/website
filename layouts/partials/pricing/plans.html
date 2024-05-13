@@ -24,8 +24,8 @@
       </p>
       <div class="my-4">
         <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=pricing-cta">
-          <button onClick="goToAccountPortal('free');" type="submit" class="btn btn-cta btn-block btn-lg" id="free_plan_cta">
-            Sign up free
+          <button onClick="goToAccountPortal('free');" type="submit" class="btn btn-secondary btn-block btn-lg" id="free_plan_cta">
+            Get started
           </button>
         </a>
       </div>
@@ -88,15 +88,23 @@
 
   <div class="pricing-card bg-base-1">
     <div class="pricing-inner">
-      <div class="icon-container bg-base-3 mb-3">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-          <circle cx="9" cy="7" r="4" />
-          <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-          <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-        </svg>
+      <div class="flex-row justify-space-between  mb-3">
+        <div class="icon-container bg-base-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+          </svg>
+        </div>
+        <div>
+          <span class="tag-forestgreen">                                
+            Try for free
+          </span>        
+        </div>
       </div>
+
       <div class="flex-row mb-2">
       <h2>Premium</h2>
       <div class="ml-auto tab rounded flex-row gap-xs align-center">
@@ -134,9 +142,9 @@
       </p>
     </div>
     <div class="my-4">
-      <a href="/contact">
-        <button class="btn btn-primary btn-lg btn-block" id="premium_plan_cta">
-          Contact sales
+      <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=pricing-cta">
+        <button onClick="goToAccountPortal('free');" type="submit" class="btn btn-cta btn-block btn-lg" id="free_plan_cta">
+          Get started
         </button>
       </a>
     </div>
@@ -217,7 +225,7 @@
       <p class="price-text">Volume-based discounts
       </p>
       <a href="/contact">
-        <button class="btn btn-block btn-primary my-4 btn-lg" id="enterprise_plan_cta">
+        <button class="btn btn-block btn-secondary my-4 btn-lg" id="enterprise_plan_cta">
           Contact sales
         </button>
       </a>

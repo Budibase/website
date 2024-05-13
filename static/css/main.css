@@ -8064,7 +8064,7 @@ ul {
   justify-content: center;
   text-align: center;
   appearance: none;
-  box-shadow: 0 0.3259259164px 0.7333333492px 0 rgba(0,0,0,.12), 0 1.5407407284px 2.8666665554px 0 rgba(0,0,0,.07), 0 4px 9px 0 rgba(0,0,0,.05)
+  /*box-shadow: 0 0.3259259164px 0.7333333492px 0 rgba(0,0,0,.12), 0 1.5407407284px 2.8666665554px 0 rgba(0,0,0,.07), 0 4px 9px 0 rgba(0,0,0,.05)*/
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
@@ -8191,7 +8191,7 @@ fieldset:disabled a.btn {
 .btn-secondary {
   color: var(--text-color-dark);
   background: var(--white);
-  border: 1px solid var(--base-8) !important;
+  border: 1.5px solid var(--base-9) !important;
   transition: all 200ms ease-in-out;
   cursor: pointer;
 }
@@ -8199,7 +8199,7 @@ fieldset:disabled a.btn {
 .btn-secondary:hover {
   color: var(--text-color-dark);
   background: var(--white);
-  border: 1px solid var(--base-12) !important;
+  border: 1.5px solid var(--base-12) !important;
 }
 
 .btn-secondary:focus,
@@ -8407,7 +8407,7 @@ select {
 }
 .btn-lg::after {
   content: "->";
-  transition: 0.1s ease-in;
+  transition: 0.05s ease-in;
   padding-left: .5rem;
   padding-right: 2px;
 }
