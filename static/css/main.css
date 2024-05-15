@@ -12,7 +12,7 @@ html {
   --bb-coral-light: #F97777;
   --bb-indigo: #6E56FF;
   --bb-indigo-light: #9F8FFF;
-  --bb-indigo-dark: #2D2460;
+  --bb-indigo-dark: #302d45;
   --bb-ivory: #F7F5F2FF;
   --bb-graphite: #1E1919FF;
   --bb-lime: #ecffb5;
@@ -2010,7 +2010,7 @@ pre>code {
 
 @media (min-width: 1200px) {
   .hero-content {
-    grid-area: 1 / 2 / 4 / 10; 
+    grid-area: 1 / 2 / 4 / 11; 
     width: 100%;
   }
 }
@@ -18192,7 +18192,6 @@ button.bg-blue:focus {
   width: 100%;
   z-index: 0;
 }
-
 
 .container-nav {
   width: 100%;
