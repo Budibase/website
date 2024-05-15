@@ -32,8 +32,6 @@ Or, we might want a more use cae-specific GUI. For example, one that’s based a
 
 With our open-source, low-code platform, non-developers can easily create custom workflow tools in a fraction of the time it would take with custom development.
 
-{{< cta >}}
-
 So…
 
 ## What are we building?
@@ -56,11 +54,15 @@ Here’s what our MariaDB GUI will look like when we’re finished.
 
 {{< vimeo id="946635436" title="MariaDB GUI" >}}
 
+
+
 Let’s jump in.
 
 ## How to build a MariaDB GUI in 6 steps
 
 The first thing we need to do is sign up for a free Budibase account.
+
+{{< cta >}}
 
 We’ll begin by creating a new application. We have the option of importing an existing app dump or using a template, but today, we’re going to start from scratch. When we choose this option, we’re prompted to give our new Budibase app a name and URL extension.
 
