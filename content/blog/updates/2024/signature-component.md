@@ -35,7 +35,7 @@ We can also “start” the delivery, which can update the status of the package
 
 Once at the destination warehouse, the delivery driver has two options to confirm the item's delivery. First, using the new signature component, the driver captures the recipient's signature directly on a tablet or mobile device. This validates that the correct person is getting the package, as well as providing proof of delivery. This signature is then securely stored in the Budibase app for future reference. The driver can then snap a photo of the delivered item, attaching it to the delivery record.
 
-![Signature](https://res.cloudinary.com/daog6scxm/video/upload/v1716379757/product-marketing-images/Signature%20Component/Screen_Recording_2024-05-22_at_13.07.50_bpkjdr.gif)
+![Signature](https://res.cloudinary.com/daog6scxm/video/upload/e_loop/v1716379757/product-marketing-images/Signature%20Component/Screen_Recording_2024-05-22_at_13.07.50_bpkjdr.gif)
 
 
 Once the package has successfully been delivered, delivery information, such as delivery time, will be recorded. Budibase can also trigger any additional Automations you have set up. This could mean sending a confirmation email, updating internal inventory records, or anything else you require.
