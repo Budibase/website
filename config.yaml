@@ -1,7 +1,7 @@
 baseURL: "https://budibase.com/"
 enableRobotsTXT: false
 languageCode: "en-uk"
-title: "Budibase | Build internal tools in minutes, the easy way"
+title: "Budibase - The secure way to build internal software in minutes"
 enableEmoji: "true"
 disableKinds: ["taxonomy", "categories"]
 ignoreErrors: ["error-disable-taxonomy"]
