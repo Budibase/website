@@ -11,13 +11,16 @@ html {
   --bb-coral: rgb(255, 78, 78);
   --bb-coral-light: rgb(249, 119, 119);
   --bb-coral-lightest: rgb(244, 214, 214);
-  --bb-coral-darkest: hsl(0, 53%, 31%);
   --bb-coral-dark: rgb(232, 65, 65);
+  --bb-coral-darkest: hsl(0, 55%, 27%);
   --bb-indigo: rgb(110, 86, 255);
   --bb-indigo-light: rgb(159, 143, 255);
   --bb-indigo-lightest: hsl(249, 76%, 90%);
   --bb-indigo-dark: rgb(94, 71, 225);
   --bb-indigo-darkest: rgb(57, 46, 129);
+  --bb-gradient: linear-gradient(60deg, var(--bb-indigo), var(--bb-coral));
+  --bb-gradient-dark: linear-gradient(60deg, var(--bb-indigo-dark), var(--bb-coral-dark));
+  --bb-gradient-darkest: linear-gradient(60deg, var(--bb-indigo-darkest), var(--bb-coral-darkest));
   --bb-midnight: #09061A;
   --bb-ivory: #F7F5F2FF;
   --bb-graphite: #1E1919FF;
@@ -6940,6 +6943,23 @@ ul {
   -webkit-text-fill-color: transparent;
 }
 
+.linear-wipe-darkest::before {
+  display: block;
+  padding-left: .2em;
+
+}
+
+.linear-wipe-darkest {
+  animation: flow ease-in-out infinite;
+  animation-duration: 8s;
+  animation-play-state: running;
+  animation-delay: 0s;
+  background-image: linear-gradient(60deg, var(--bb-indigo-darkest), var(--bb-coral-darkest));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @keyframes flow {
   0% {
     background-position: 0 50%;
@@ -8150,6 +8170,26 @@ fieldset:disabled a.btn {
   border: 1px solid var(--bb-indigo) !important;
   color: white;
 }
+
+.btn-cta-gradient-darkest {
+  color: var(--white);
+  background: var(--bb-gradient-darkest);
+  border: 1px solid transparent !important;
+}
+
+.btn-cta-gradient-darkest:hover {
+  color: white;
+  background: var(--bb-gradient-dark);
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.btn-cta-gradient-darkest:focus {
+  background: var(--bb-gradient);
+  border: 1px solid transparent;
+  color: white;
+}
+
 
 .btn-cta-gradient {
   color: var(--white);
@@ -10010,10 +10050,16 @@ button.close {
   background-color: var(--bb-indigo-dark);
 }
 .bg-bb-linear-gradient {
-  background: linear-gradient(45deg, var(--bb-coral-light), var(--bb-indigo-light));
+  background: linear-gradient(60deg, var(--bb-indigo), var(--bb-coral));
 }
 .bg-bb-linear-gradient-light {
-  background: linear-gradient(45deg, var(--bb-coral-lightest), var(--bb-indigo-lightest));
+  background: linear-gradient(60deg, var(--bb-coral-light), var(--bb-indigo-light));
+}
+.bg-bb-linear-gradient-dark {
+  background: linear-gradient(60deg, var(--bb-coral-dark), var(--bb-indigo-dark));
+}
+.bg-bb-linear-gradient-darkest {
+  background: linear-gradient(60deg, var(--bb-indigo-darkest), var(--bb-coral-darkest));
 }
 .bg-bb-comic-gradient {
   background: conic-gradient(from 180.95deg at 43.84% 60.61%, #DA4A39 0deg, #9B0C1A 43.62deg, #E1903F 78.83deg, #D9313E 125.44deg, #D92E3D 136.87deg, #E84538 179.26deg, #A1141B 228.3deg, #DF873F 266.83deg, #C24036 288.89deg, #8B1008 309.17deg, #9F8FFF 334.13deg, #A8291F 347.93deg, #DA4A39 360deg),
