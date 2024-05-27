@@ -10,15 +10,17 @@
 html {
   --bb-coral: rgb(255, 78, 78);
   --bb-coral-light: rgb(249, 119, 119);
-  --bb-coral-lightest: rgb(244, 214, 214);
+  --bb-coral-lightest: rgb(246, 203, 203);
   --bb-coral-dark: rgb(232, 65, 65);
   --bb-coral-darkest: hsl(0, 55%, 27%);
   --bb-indigo: rgb(110, 86, 255);
   --bb-indigo-light: rgb(159, 143, 255);
-  --bb-indigo-lightest: hsl(249, 76%, 90%);
+  --bb-indigo-lightest: hsl(249, 77%, 88%);
   --bb-indigo-dark: rgb(94, 71, 225);
   --bb-indigo-darkest: rgb(57, 46, 129);
   --bb-gradient: linear-gradient(60deg, var(--bb-indigo), var(--bb-coral));
+  --bb-gradient-light: linear-gradient(60deg, var(--bb-indigo-light), var(--bb-coral-light));
+  --bb-gradient-lightest: linear-gradient(60deg, var(--bb-indigo-lightest), var(--bb-coral-lightest));
   --bb-gradient-dark: linear-gradient(60deg, var(--bb-indigo-dark), var(--bb-coral-dark));
   --bb-gradient-darkest: linear-gradient(60deg, var(--bb-indigo-darkest), var(--bb-coral-darkest));
   --bb-midnight: #09061A;
@@ -2469,7 +2471,7 @@ pre>code {
 .security-card {
   padding: 24px;
   border: 1px solid var(--border-dark);
-  background-color: var(--bb-graphite);
+  background-color: var(--base-17);
 }
 
 .solution-lp-header {
@@ -8157,14 +8159,12 @@ fieldset:disabled a.btn {
   border: 1px solid var(--bb-indigo) !important;
   color: white;
 }
-
 .btn-cta:hover {
   background-color: var(--bb-indigo-dark);
   border: 1px solid var(--bb-indigo) !important;
   color: white;
   cursor: pointer;
 }
-
 .btn-cta:focus {
   background-color: var(--bb-indigo-darkest);
   border: 1px solid var(--bb-indigo) !important;
@@ -8176,7 +8176,6 @@ fieldset:disabled a.btn {
   background: var(--bb-gradient-darkest);
   border: 1px solid transparent !important;
 }
-
 .btn-cta-gradient-darkest:hover {
   color: white;
   background: var(--bb-gradient-dark);
@@ -8185,7 +8184,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-cta-gradient-darkest:focus {
-  background: var(--bb-gradient);
+  background: var(--bb-gradient-dark);
   border: 1px solid transparent;
   color: white;
 }
@@ -8196,14 +8195,12 @@ fieldset:disabled a.btn {
   background: linear-gradient(60deg, var(--bb-indigo), var(--bb-coral));
   border: 1px solid transparent !important;
 }
-
 .btn-cta-gradient:hover {
   color: white;
   background: linear-gradient(60deg, var(--bb-indigo-dark), var(--bb-coral-dark));
   border: 1px solid transparent;
   cursor: pointer;
 }
-
 .btn-cta-gradient:focus {
   background: linear-gradient(60deg, var(--bb-indigo-dark), var(--bb-coral-dark));
   border: 1px solid transparent;
@@ -8211,18 +8208,27 @@ fieldset:disabled a.btn {
 }
 
 .btn-cta-light {
-  color: var(--text-color-dark);
-  background-color: var(--accent-orchid);
-  border: 1px solid var(--accent-orchid);
+  color: var(--text-color-light);
+  background: var(--bb-gradient-light);
+  border: 0px solid transparent;
 }
-
 .btn-cta-light:hover {
-  color: var(--text-color-dark);
-  background-color: var(--bb-indigo-light);
-  border: 1px solid var(--bb-indigo-light);
+  color: var(--text-color-light);
+  background: var(--bb-gradient-lightest);
+  border: 0px solid transparent;
   cursor: pointer;
 }
-
+.btn-cta-lightest {
+  color: var(--text-color-light);
+  background: var(--bb-gradient-lightest);
+  border: 0px solid transparent;
+}
+.btn-cta-lightest:hover {
+  color: var(--text-color-light);
+  background: var(--bb-gradient-light);
+  border: 0px solid transparent;
+  cursor: pointer;
+}
 .btn-cta:focus,
 .btn-pimary.focus {
   box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
@@ -8233,13 +8239,11 @@ fieldset:disabled a.btn {
   background-color: var(--base-18);
   border: var(--base-18);
 }
-
 .btn-primary:hover {
   color: var(--white);
   background-color: var(--base-14);
   cursor: pointer;
 }
-
 .btn-primary:focus,
 .btn-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
@@ -8251,14 +8255,12 @@ fieldset:disabled a.btn {
   background-color: var(--white);
   border: 1px solid var(--white);
 }
-
 .btn-white:hover {
   color: var(--text-color-dark);
   background-color: var(--base-5);
   border: 1px solid var(--base-5);
   cursor: pointer;
 }
-
 .btn-white:focus,
 .btn-white.focus {
   box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
@@ -8272,13 +8274,11 @@ fieldset:disabled a.btn {
   transition: all 200ms ease-in-out;
   cursor: pointer;
 }
-
 .btn-secondary:hover {
   color: var(--text-color-dark);
   background: var(--white);
   border: 1.5px solid var(--base-12) !important;
 }
-
 .btn-secondary:focus,
 .btn-secondary.focus {
   box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
@@ -8479,7 +8479,6 @@ select {
     font-size: 18px;
     padding: 12px 24px;
     font-variation-settings: 'wght' 550;
-    height: 52px;
   }
 }
 

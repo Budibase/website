@@ -101,11 +101,11 @@
 
 {{ partial "solutions/benefits.html" . }}
 
-<section class="text-center space-2 bg-green">
+<section class="text-center space-2 bg-bb-linear-gradient-darkest">
   {{ partial "logo-reel-dark.html" }}
 </section>
 <section class="text-center">
-  {{ partial "forms/security.html" }}
+  {{ partial "solutions/security.html" }}
 </section>
 {{ partial "solutions/support.html" . }}
 <div class="space-2">
@@ -129,9 +129,11 @@
           {{ end }}
       </div>
       <div class="my-3 text-center">
-        <a href="/{{ .Section }}/templates" class="btn btn-cta btn-lg"> Browse all {{ .Section | singularize |
-          humanize
-          | lower }} templates
+        <a href="/{{ .Section }}/templates">
+          <button class="btn btn-cta btn-lg"> Browse all {{ .Section | singularize |
+            humanize
+            | lower }} templates
+          </button>
         </a>
       </div>
     </div>
@@ -155,10 +157,10 @@
     </div>
   </div>
 </section>
-<section class="space-2 ">
+<section class="space-2 bg-base-3">
   {{ partial "stats.html" . }}
 </section>
-<div class="article space-2 bg-base-3">
+<div class="article space-2 bg-base-1">
   <div class="container-9">
     <h2>FAQs</h2>
     <div class="faq space-1-top space-3-bottom ">
