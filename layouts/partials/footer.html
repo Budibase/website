@@ -1,7 +1,36 @@
 {{ $staticHash := now.Unix }}
 
 <footer>
-    <div class="container space-2">
+  <div class="container space-2">
+    <div class="flex justify-content-md-between border-bottom pb-3 align-center">
+      <div class="flex gap-md align-center">
+        <div>
+          <a class="navbar-brand u-header__navbar-brand logo mr-4" href="/" aria-label="Space">
+            <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1696515187/Branding/Assets/Logo/RGB/Full%20Colour/bb_logo_fullcolor_uejofd.svg"
+              alt="Budibase logo" width="140" data-atf="1" data-frt="0" />
+          </a>   
+        </div>
+     <!-- List Group -->
+        <div class="list-group list-group-flush">
+          <a class="list-group-item list-group-item-action" href="/about">Platform</a>
+        </div>
+        <div class="list-group list-group-flush">
+          <a class="list-group-item list-group-item-action" href="/careers">Solutions</a>
+        </div>
+        <div class="list-group list-group-flush">
+          <a class="list-group-item list-group-item-action" href="/privacy">Resources</a>
+        </div>
+        <div class="list-group list-group-flush">
+          <a class="list-group-item list-group-item-action" href="/support">Pricing</a>
+        </div>
+        <div class="list-group list-group-flush">
+          <a class="list-group-item list-group-item-action" href="/terms-of-service">Contact sales</a>
+        </div>    <!-- End List Group -->
+      </div>
+      <div><p class="text-grey">All rights reserved. ©Budibase 2024</p></div>
+    </div>
+    <div>
+    <div class="container space-1">
       <div class="row justify-content-md-between">
         <div class="col-6 col-md-3 col-lg-2 order-lg-3 mb-7 mb-lg-0 mr-2">
           <h3 class="h6 mb-3">Company</h3>
@@ -92,62 +121,20 @@
           <!-- End List -->
         </div>
   
-        <div class="col-6 col-md-3 col-lg-2 order-lg-6 mb-7 mb-lg-0">
-          <!-- Logo -->
-          <a class="d-inline-block mb-5 logo" href="/" aria-label="Space" style="width: 160px; max-width: 100%;">
-            <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1696515187/Branding/Assets/Logo/RGB/Full%20Colour/bb_logo_fullcolor_uejofd.svg"
-            alt="Budibase logo" width="142" data-atf="1" data-frt="0" />
-          </a>
-          <!-- End Logo -->
-          <p class="text-grey mb-4">All rights reserved. ©Budibase 2024</p>
-        </div>
-      </div>
-    </div>
-
-  <div class="container-fw space-2 bg-base-3">
-    <div class="container">
-      <div class="row justify-content-md-between">
-        <div class="col-6 col-md-3 col-lg-2 order-lg-3 mb-7 mb-lg-0 mr-2">
-          <h3 class="h6 mb-3">Portal tutorials</h3>
-          <div class="list-group list-group-flush"><a class="list-group-item list-group-item-action" href="/blog/tutorials/b2b-customer-portal/">How to build a customer portal</a> </div>
-          <div class="list-group list-group-flush"><a class="list-group-item list-group-item-action" href="/blog/tutorials/contractor-portal/">How to build a contractor portal</a></div>
-          <div class="list-group list-group-flush">
-            <a class="list-group-item list-group-item-action" href="/blog/tutorials/it-portal/">How to build a self-service IT portal</a>
-          </div>
-          <div class="list-group list-group-flush">
-            <a class="list-group-item list-group-item-action" href="/blog/tutorials/fleet-management-portal/">How to build a fleet mgmt portal</a>
-          </div>         
-        </div>
-
-        <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0 mr-2">
-          <h3 class="h6 mb-3">Form tutorials</h3>
+        <div class="col-6 col-md-3 col-lg-2 order-lg-6 mb-7 mb-lg-0 mr-2">
+          <h3 class="h6 mb-3">How-to tutorials</h3>
+  
+          <!-- List -->
           <div class="list-group list-group-flush ">
-            <a class="list-group-item list-group-item-action" href="/blog/tutorials/client-intake-form/">How to build a client intake form</a>
-            <a class="list-group-item list-group-item-action" href="/blog/tutorials/it-request-form/">How to build an IT request form</a>
-            <a class="list-group-item list-group-item-action" href="/blog/tutorials/audit-form/">How to build an audit form</a>
-            <a class="list-group-item list-group-item-action" href="/blog/tutorials/change-request-form/">How to build a change request form</a>
+            <a class="list-group-item list-group-item-action" href="/blog/tutorials/google-sheets-gui/">Google Sheets GUI</a>
+            <a class="list-group-item list-group-item-action" href="/blog/tutorials/mysql-gui/">MySQL GUI</a>
+            <a class="list-group-item list-group-item-action" href="/blog/tutorials/postgres-gui/">Postgres GUI</a>
+            <a class="list-group-item list-group-item-action" href="/blog/tutorials/it-request-form/">IT request form</a>
+            <a class="list-group-item list-group-item-action" href="/blog/tutorials/how-to-build-a-crm/">CRM</a>
+            <a class="list-group-item list-group-item-action" href="/blog/tutorials/inventory-management-app-free/">Inventory app</a>
           </div>
-        </div>
-
-        <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0 mr-2">
-          <h3 class="h6 mb-3">Management app tutorials</h3>
-          <div class="list-group list-group-flush ">
-            <a class="list-group-item list-group-item-action" href="/blog/tutorials/employee-onboarding-app/">How to build an employee onboarding app</a>
-            <a class="list-group-item list-group-item-action" href="/blog/tutorials/how-to-build-a-crm/">How to build a CRM</a>
-            <a class="list-group-item list-group-item-action" href="/blog/tutorials/inventory-management-app-free/">How to build an inventory management app</a>
-            <a class="list-group-item list-group-item-action" href="/blog/tutorials/employee-management-app/">How to build an employee management app</a>
-          </div>
-        </div>
-
-        <div class="col-6 col-md-3 col-lg-2 order-lg-4 mb-7 mb-lg-0 mr-2">
-          <h3 class="h6 mb-3">GUI tutorials</h3>
-          <div class="list-group list-group-flush ">
-            <a class="list-group-item list-group-item-action" href="/blog/tutorials/mongodb-gui/">How to build a MongoDB GUI</a>
-            <a class="list-group-item list-group-item-action" href="/blog/tutorials/google-sheets-gui/">How to build a Google Sheets GUI</a>
-            <a class="list-group-item list-group-item-action" href="/blog/tutorials/mysql-gui/">How to build a MySQL GUI</a>
-            <a class="list-group-item list-group-item-action" href="/blog/tutorials/postgres-gui/">How to build a Postgres GUI</a>
-          </div>
-        </div>
+          
+          <!-- End List -->
         </div>
       </div>
     </div>

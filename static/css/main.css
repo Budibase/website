@@ -3731,6 +3731,23 @@ pre>code {
   font-family: 'InterVar';
 }
 
+.badge-gradient {
+  display: inline-block;
+  align-items: center;
+  padding: 8px 24px;
+  border: 1px solid hsla(0, 0%, 0%, 0.05);
+  background: var(--bb-gradient-darkest);
+  background-position: 100% 0;
+  border-radius: 46px;
+  color: var(--base-1) !important;
+  font-size: 12px;
+  gap: 8px;
+  line-height: 16px;
+  transition: background-position .2s;
+  font-variation-settings: "wght" 600,  ;
+  font-family: 'InterVar';
+}
+
 .badge-hero {
   display: inline-block;
   align-items: center;
@@ -3803,6 +3820,21 @@ pre>code {
   background-color: var(--white);
   color: var(--text-color-dark);
   font-size: 12px !important;
+  line-height: normal !important;
+  padding: 4px 8px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+  font-family: 'InterVar', sans-serif;
+  font-variation-settings: "wght" 450;
+  border: 1px solid var(--base-5);
+}
+
+.tag-md {
+  background-color: var(--base-2);
+  color: var(--text-color-dark);
+  font-size: inherit !important;
   line-height: normal !important;
   padding: 4px 8px;
   border-radius: 6px;
@@ -4708,11 +4740,11 @@ details[open]>summary {
 }
 
 .price-text {
-  font-size: 19px;
+  font-size: 21px;
   color: var(--text-color-dark);
   line-height: 1;
   font-family: 'InterVar' sans-serif;
-  font-variation-settings: 'wght' 480 !important;
+  font-variation-settings: 'wght' 560 !important;
   font-feature-settings: var(--body-font-features);
 }
 
