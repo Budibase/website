@@ -5,7 +5,7 @@ description: Budibase is the smart choice for custom healthcare software develop
 images:
 - /homepage-meta.png
 draft: false
-type: "industries/healthcare"
+type: "solutions/industries/healthcare"
 layout: single
 ---
 

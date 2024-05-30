@@ -5,7 +5,7 @@ description: We’re revolutionizing how businesses manage manufacturing workflo
 image: 
 - /homepage-meta.png
 draft: false
-type: "industries/manufacturing"
+type: "solutions/industries/manufacturing"
 layout: single
 ---
 

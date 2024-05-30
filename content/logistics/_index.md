@@ -4,7 +4,7 @@ title: Open-Source Logistics Software | Budibase | Low-Code Platform
 description: At Budibase, we’re changing logistics management software development, forever. Create fully deployable, custom tools, in under five minutes.
 cover: "/homepage-meta.png"
 draft: false
-type: "industries/logistics"
+type: "solutions/industries/logistics"
 layout: single
 ---
 

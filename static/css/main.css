@@ -1184,7 +1184,7 @@ a:focus {
   margin-top: 0;
   margin-bottom: 0;
   font-family: var(--headline-font), sans-serif;
-  font-variation-settings: "wght" 580 !important;
+  font-variation-settings: "wght" 620 !important;
   font-feature-settings: var(--headline-font-features);
   color: var(--text-color-dark);
   text-rendering: optimizeLegibility;
@@ -1197,7 +1197,7 @@ a:focus {
     margin-top: 0;
     margin-bottom: 0;
     font-family: var(--headline-font), sans-serif;
-    font-variation-settings: "wght" 520 !important;
+    font-variation-settings: "wght" 620 !important;
     font-feature-settings: var(--headline-font-features);
     color: var(--text-color-dark);
     text-rendering: optimizeLegibility;
@@ -1212,7 +1212,7 @@ a:focus {
     margin-bottom: 0;
     font-family: var(--headline-font), sans-serif;
     font-feature-settings: var(--headline-font-features);
-    font-variation-settings: 'wght' 520 !important;
+    font-variation-settings: 'wght' 620 !important;
     letter-spacing: -0.02em !important;
     color: var(--text-color-dark);
     text-rendering: optimizeLegibility;
@@ -8188,54 +8188,84 @@ fieldset:disabled a.btn {
 
 .btn-cta {
   background-color: var(--bb-indigo);
-  border: 1px solid var(--bb-indigo) !important;
+  border: 0px solid var(--bb-indigo) !important;
   color: white;
 }
 .btn-cta:hover {
   background-color: var(--bb-indigo-dark);
-  border: 1px solid var(--bb-indigo) !important;
+  border: 0px solid var(--bb-indigo) !important;
   color: white;
   cursor: pointer;
 }
 .btn-cta:focus {
   background-color: var(--bb-indigo-darkest);
-  border: 1px solid var(--bb-indigo) !important;
+  border: 0px solid var(--bb-indigo) !important;
   color: white;
 }
 
 .btn-cta-gradient-darkest {
   color: var(--white);
   background: var(--bb-gradient-darkest);
-  border: 1px solid transparent !important;
+  border: 0px solid transparent !important;
 }
 .btn-cta-gradient-darkest:hover {
   color: white;
   background: var(--bb-gradient-dark);
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   cursor: pointer;
 }
 
 .btn-cta-gradient-darkest:focus {
   background: var(--bb-gradient-dark);
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   color: white;
+}
+
+.btn-cta-glass {
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: var(--white);
+}
+
+.btn-cta-glass:hover {
+  background: rgba( 255, 255, 255, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.27 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: var(--white);
+}
+
+.btn-cta-glass:active {
+  background: rgba( 255, 255, 255, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.27 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: var(--bb-indigo);
 }
 
 
 .btn-cta-gradient {
   color: var(--white);
   background: linear-gradient(60deg, var(--bb-indigo), var(--bb-coral));
-  border: 1px solid transparent !important;
+  border: 0px solid transparent !important;
 }
 .btn-cta-gradient:hover {
   color: white;
   background: linear-gradient(60deg, var(--bb-indigo-dark), var(--bb-coral-dark));
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   cursor: pointer;
 }
 .btn-cta-gradient:focus {
   background: linear-gradient(60deg, var(--bb-indigo-dark), var(--bb-coral-dark));
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   color: white;
 }
 
@@ -10086,6 +10116,9 @@ button.close {
 .bg-bb-linear-gradient-light {
   background: linear-gradient(60deg, var(--bb-coral-light), var(--bb-indigo-light));
 }
+.bg-bb-linear-gradient-lightest {
+  background: linear-gradient(60deg, var(--bb-indigo-lightest), var(--bb-coral-lightest));
+}
 .bg-bb-linear-gradient-dark {
   background: linear-gradient(60deg, var(--bb-coral-dark), var(--bb-indigo-dark));
 }
@@ -10099,6 +10132,14 @@ button.close {
 
 .bg-bb-radial-gradient {
   background: radial-gradient(45deg,var(--bb-coral-light), var(--bb-indigo-light));
+}
+.bg-bb-glass {
+  background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .bg-bb-lime {
   background-color: var(--bb-lime);

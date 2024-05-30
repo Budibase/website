@@ -4,7 +4,7 @@ title: Low-Code Legal Management Software | Budibase
 description: Budibase is the smart choice for building legal management software. Our open-source, low-code platform is ideal for automating all kinds of admin tasks in the legal industry.
 cover: "/homepage-meta.png"
 draft: false
-type: "industries/legal"
+type: "solutions/industries/legal"
 layout: single
 ---
 
