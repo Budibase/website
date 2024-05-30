@@ -16,8 +16,10 @@ $RECYCLE.BIN/
 .env
 
 #generated on build
-data/Component
-data/Integration
+# no longer dynamic (temporary)
+
+# data/Component
+# data/Integration
 
 
 # Hugo default output directory
