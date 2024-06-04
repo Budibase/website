@@ -17,7 +17,7 @@ html {
   --bb-indigo-light: rgb(159, 143, 255);
   --bb-indigo-lightest: hsl(249, 77%, 88%);
   --bb-indigo-dark: rgb(94, 71, 225);
-  --bb-indigo-darkest: rgb(57, 46, 129);
+  --bb-indigo-darkest: hsl(248, 47%, 34%);
   --bb-gradient: linear-gradient(60deg, var(--bb-indigo), var(--bb-coral));
   --bb-gradient-light: linear-gradient(60deg, var(--bb-indigo-light), var(--bb-coral-light));
   --bb-gradient-lightest: linear-gradient(60deg, var(--bb-indigo-lightest), var(--bb-coral-lightest));
@@ -1149,14 +1149,6 @@ a:focus {
   }
 }
 
-.noise {
-  /* ... */
-  background-image: 
-    url(https://res.cloudinary.com/daog6scxm/image/upload/v1700864763/wallpapers/noise-light_1_wqb2oj.png);
-
-}
-
-
 .hero-description {
   font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;    
   font-variation-settings: "wght" 460;
@@ -1372,7 +1364,6 @@ h6,
   font-size: var(--fontsize-4);
   line-height: 1.4;
   letter-spacing: -0.3px;
-  font-weight: 480;
 }
 
 @media (min-width: 600px) {
@@ -2496,6 +2487,11 @@ pre>code {
   z-index: 0;
 }
 
+.noise {
+  background-image: 
+    url(https://res.cloudinary.com/daog6scxm/image/upload/v1700864763/wallpapers/noise-light_1_wqb2oj.png);
+}
+
 .hero-svg-line-section {
   position: absolute;
   padding: 14rem 5rem;
@@ -3166,7 +3162,7 @@ pre>code {
 }
 .home-solutions-card {
   height: 320px;
-  background-color: var(--base-2);
+  background-color: var(--base-3);
   border-radius: 8px;
   text-decoration: none;
   transition: box-shadow .5s;
@@ -3175,7 +3171,7 @@ pre>code {
 @media (min-width: 800px) {
 .home-solutions-card {
   height: 400px;
-  background-color: var(--base-2);
+  background-color: var(--base-3);
   border-radius: 8px;
   text-decoration: none;
   transition: box-shadow .5s;
@@ -10125,6 +10121,9 @@ button.close {
 .bg-bb-linear-gradient-darkest {
   background: linear-gradient(60deg, var(--bb-indigo-darkest), var(--bb-coral-darkest));
 }
+.bg-bb-linear-gradient-midnight {
+  background: linear-gradient(60deg, rgb(26, 14, 61), rgb(65, 15, 15));
+}
 .bg-bb-comic-gradient {
   background: conic-gradient(from 180.95deg at 43.84% 60.61%, #DA4A39 0deg, #9B0C1A 43.62deg, #E1903F 78.83deg, #D9313E 125.44deg, #D92E3D 136.87deg, #E84538 179.26deg, #A1141B 228.3deg, #DF873F 266.83deg, #C24036 288.89deg, #8B1008 309.17deg, #9F8FFF 334.13deg, #A8291F 347.93deg, #DA4A39 360deg),
   conic-gradient(from 180.95deg at 43.84% 60.61%, #DA4A39 0deg, #9B0C1A 43.62deg, #E1903F 78.83deg, #D9313E 125.44deg, #D92E3D 136.87deg, #E84538 179.26deg, #A1141B 228.3deg, #DF873F 266.83deg, #C24036 288.89deg, #8B1008 309.17deg, #9F8FFF 334.13deg, #A8291F 347.93deg, #DA4A39 360deg);
@@ -10135,11 +10134,53 @@ button.close {
 }
 .bg-bb-glass {
   background: rgba( 255, 255, 255, 0.2 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.grid {
+  height: auto;
+  background-image:
+      linear-gradient(to right, var(--bb-coral-darkest) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--bb-indigo-darkest) 1px, transparent 1px);
+  background-size: 5rem 3rem;
+  background-position: center center;
+}
+.bg-bb-animated-gradient > header {
+  background-color: transparent;
+}
+.bg-bb-animated-gradient {
+  background-color: var(--bb-coral-darkest) ;
+  background-image:
+  radial-gradient(at 29% 74%, hsla(248, 47%, 34%,1) 0px, transparent 50%),
+  radial-gradient(at 31% 83%, hsla(248, 47%, 34%,1) 0px, transparent 50%),
+  radial-gradient(at 77% 7%, hsla(248, 47%, 34%,1) 0px, transparent 50%),
+  radial-gradient(at 19% 18%, hsla(255, 56%, 22%,1) 0px, transparent 50%),
+  radial-gradient(at 70% 36%, hsla(255, 59%, 15%,1) 0px, transparent 50%),
+  radial-gradient(at 5% 0%, hsla(255, 59%, 19%,1) 0px, transparent 50%),
+  radial-gradient(at 59% 57%, hsla(255, 59%, 21%,1) 0px, transparent 50%);
+  background-size: 150% 150%;
+  animation: my_animation 10s ease infinite;
+  border-top-left-radius: 100%;
+}
+@keyframes my_animation {
+  0% {
+      background-position: 0% 0%;
+  }
+  25% {
+      background-position: 100% 0%;
+  }
+  50% {
+      background-position: 100% 100%;
+  }
+  75% {
+      background-position: 0% 100%;
+  }
+  100% {
+      background-position: 0% 0%;
+  }
 }
 .bg-bb-lime {
   background-color: var(--bb-lime);
@@ -12734,7 +12775,7 @@ button.bg-blue:focus {
     .u-header__nav-link {
       color: var(--text-color-dark);
       font-size: 16px;
-      font-variation-settings:  'wght' 440;
+      font-variation-settings:  'wght' 520;
       font-family: var(--body-font);
     }
 
