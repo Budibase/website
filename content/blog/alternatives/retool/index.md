@@ -82,7 +82,7 @@ We’ve chosen six tools from different points across the low-code market:
 6. [AppSheet](#6-appsheet)
 7. [Filemaker](#7-filemaker)
 8. [Zoho Creator](#8-zoho-creator)
-9. [Quickbase](9-quickbase)
+9. [Quickbase](#9-quickbase)
 10. [Caspio](#10-caspio)
 
 Let’s jump right in.
