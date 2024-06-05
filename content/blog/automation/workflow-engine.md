@@ -1,11 +1,9 @@
 +++
 author = "Ronan McQuillan"
-date = 2023-08-18
-description = "Workflow Engines are one of the most common strategies for automating and optimizing internal processes."
-image = "https://res.cloudinary.com/daog6scxm/image/upload/v1692367751/cms/workflow-engine/Workflow_Engine_Header_lyf2wc.png"
-images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1692367751/cms/workflow-engine/Workflow_Engine_Header_lyf2wc.png"]
+date = 2024-05-01
+description = "Check out our guide to choosing an open-source workflow engine."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "What is a Workflow Engine?"
+title = "What is a Workflow Engine? + 5 Open Source Tools"
 
 +++
 
@@ -19,7 +17,7 @@ Today, we’re exploring everything you need to know.
 
 Specifically, we’re going to start by checking out what workflow engines are and what they’re used for. Then, we’re going to take a look under the hood at how they work and the kinds of solutions that are out there.
 
-We’ll wrap up by thinking about what you’ll want to consider when it comes time to build a workflow engine of your own.
+We’ll wrap up by thinking about some of our top picks for open-source workflow engines as well as some of the top decision-points for rolling out a solution of your own.
 
 First, though, let’s think about the basics.
 
@@ -43,37 +41,7 @@ So, at the most basic level, a workflow engine does a couple of things:
 2. Managing triggers and actions for automation events.
 3. Facilitating user inputs and interactions.
 
-Besides this, workflow engines have an important role to play in your integration efforts. Rather than separately configuring the same rules across multiple nodes and platforms, we can connect disparate tools to a single solution to achieve the same ends.
-
-Before we get any deeper into how workflow engines work, it’s worth taking a step back and thinking about what we really mean by a *workflow*.
-
-So…
-
-### What is a workflow?
-
-A workflow is a defined sequence of steps that are required to complete a particular business task. 
-
-In other words, it’s made up of three components:
-
-1. The goal we’re trying to achieve.
-2. The constituent actions that we need to take to achieve this goal.
-3. The logic that governs when these actions are taken.
-
-Check out our guide to [workflow analysis](https://budibase.com/blog/automation/what-is-workflow-analysis/) to learn more about how you can outline these steps and the logic underpinning them.
-
-Strictly speaking, a workflow can concern just about anything - from basic admin tasks to top-secret research and development. That is, assuming that it’s a regular task, requiring the same or similar steps each time it’s completed.
-
-To make things easier, we can point to a few distinct *types* of workflows.
-
-These include approval and request workflows, data management tasks, numerical and analytical tasks, human interactions, compliance tasks, document/information management, and general admin.
-
-We don’t need to worry about these in-depth for now. Rather, the point is simply to illustrate how we can think about workflows in more abstract terms - without getting bogged down in the very specific details relating to particular tasks.
-
-But, our focus today isn’t the theory behind workflows, so let’s get back to the main topic at hand.
-
-![Workflow Engine Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1688734431/cms/information-management-workflows/Menial_Tasks_https___sloanreview.mit.edu_projects_artificial-intelligence-in-business-gets-real__h5t5vu.webp "Workflow Engine Stats")
-
-[MIT](https://sloanreview.mit.edu/projects/artificial-intelligence-in-business-gets-real/)
+Besides this, workflow engines play an important role in your integration efforts. Rather than separately configuring the same rules across multiple nodes and platforms, we can connect disparate tools to a single solution to achieve the same ends.
 
 ## Where are workflow engines used?
 
@@ -85,23 +53,15 @@ Very broadly, this includes any *non-centralized* solutions for implementing bus
 
 So, when do we need centralization?
 
-### Cross-platform workflows
-
 There are several factors to consider here. First, there’s the complexity of our workflows - both in and of themselves and in terms of the technology we use to implement them.
 
 For instance, the greater the number of distinct tools and actors involved in a workflow, the more difficult it’s going to be to consistently and manageably enforce business rules without some degree of centralization.
 
-Following on from this, consider what happens when the business rules that underpin a workflow change - say for example that we raised the cost threshold for automatically approving expenses. 
+Following this, consider what happens when the business rules that underpin a workflow change - for example, we raise the cost threshold for automatically approving expenses. 
 
-This is easier when we use a single orchestration engine to enforce business rules.
+This is obviously going to be much easier when our rules are managed in a central location compared to in a range of unrelated tools.
 
-When these are stored and enforced from one central location - managing this is relatively easy - as we’ll only need to do it once, potentially without ever touching other platforms that are involved in the task at hand.
-
-By contrast, if *multiple* platforms enforced this rule independently of each other - we’d need to action the relevant changes in *each* of these.
-
-However, highly integrated processes aren’t the only scenario where workflow engines can provide value.
-
-### Interoperability and implementing similar logic in multiple workflows
+### Interoperability
 
 Workflow engines are also commonly leveraged in scenarios where we have the same *kinds* of logic across many distinct workflows.
 
@@ -117,7 +77,7 @@ As we’ll see a little bit later, one of the options for implementing this kind
 
 Since we’d be handling *all* of our approval workflows in a single platform in this scenario, this is a comparatively cost-effective and robust approach to implementing a whole range of automation and digital transformation efforts.
 
-### Operational control
+### Control
 
 Another key impetus for implementing workflow engines is a need for a high degree of operational centralization and control - particularly as this relates to oversight from particular departments, like IT or ops.
 
@@ -126,47 +86,6 @@ We can contrast this with workflows that are controlled and implemented by the i
 To this end, operations or IT colleagues might build or configure centralized workflow engines as a more viable alternative to managing business rules within discrete tools - as their on-the-ground counterparts might do.
 
 This offers a number of important benefits, including increased oversight, ease of maintenance, and cost-effectiveness.
-
-![Workflow engine stats](https://res.cloudinary.com/daog6scxm/image/upload/v1681719396/cms/Automation_with_existing_tools_https___www.mckinsey.com_featured-insights_future-of-work_jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages_ex7ekl.webp "workflow engine stats")
-
-[McKinsey](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages)
-
-We’ll consider each of these factors more deeply a little bit later.
-
-## How do workflow engines work?
-
-That’s enough theory for now. It’s time to start thinking about the technical details of how workflow engines actually work.
-
-It won’t surprise you to learn that there are a few distinct models here.
-
-A traditional workflow engine is based on what’s known in computer science as a *state machine*. This is a relatively simple piece of software that stores all of the possible *states* a task can be in, alongside how it can *transition* from one state to another.
-
-Examples of generic *states* might include:
-
-- Requested.
-- Approved.
-- Declined.
-- In-progress.
-- Queried.
-
-Or, you could have any number of other, more task-specific states.
-
-*Transitions* are made up of two elements:
-
-- Each of the possible states that a task can move to from its *current state*.
-- The trigger that’s required to initiate this.
-
-So, at any point in time, there might be several states that a request can transfer to next.
-
-*Triggers* can be data conditions, external events, or even manual actions.
-
-This is where a workflow engine departs from being a *strict* state machine - in the sense that a typical state machine would only store these transitions - without necessarily offering the capability to enact them.
-
-To manage workflows with a state machine, we’d need some additional way to trigger transitions through external events.
-
-A functional workflow engine provides the additional functionality to actually trigger and handle transitions.
-
-In terms of architecture, we have a few options for achieving this.
 
 ## 3 types of workflow engines
 
@@ -188,7 +107,7 @@ There’s also a tradeoff in the sense that this kind of workflow engine becomes
 
 Check out our in-depth guide to [workflow management database design](https://budibase.com/blog/data/workflow-management-database-design/) to learn more.
 
-![Workflow Engine Database](https://res.cloudinary.com/daog6scxm/image/upload/v1692367751/cms/workflow-engine/Workflow_Management_Database_Design_ov2vl7.webp "Workflow Engine Database")
+![Workflow engine database](https://res.cloudinary.com/daog6scxm/image/upload/v1692367751/cms/workflow-engine/Workflow_Management_Database_Design_ov2vl7.webp "Worfklow engine database")
 
 ### 2. API-based & hard-coded solutions
 
@@ -218,7 +137,97 @@ Effectively, we can achieve the same levels of functionality, flexibility, and c
 
 Check out our in-depth guide to [open-source low-code development platforms](https://budibase.com/blog/open-source-low-code-platforms/) to learn more.
 
-![Workflow Engine](https://res.cloudinary.com/daog6scxm/image/upload/v1692367751/cms/workflow-engine/Workflow_Engine_yrbyyk.webp "Workflow Engine")
+![Budibase workflow engine](https://res.cloudinary.com/daog6scxm/image/upload/v1692367751/cms/workflow-engine/Workflow_Engine_yrbyyk.webp "Budibase workflow engine")
+
+## Top 5 open-source workflow engine tools
+
+Next, we can think about some more specific options for powering our workflow management efforts.
+
+Many teams prioritize open-source solutions here. Since workflow engines will typically interact with a range of mission-critical processes, data, and tools, auditability, visibility, security, and control are critical requirements. 
+
+For example, if we want to self-host a solution or audit its source code.
+
+With that in mind, here are our five top picks for open-source workflow engines across a variety of different internal teams and use cases.
+
+### 1. Budibase - for IT teams
+
+{{< vimeo id="953876374" title="Workflow Engine" >}}
+
+Budibase is the open-source, low-code platform that turns data into action. With extensive external data support, intuitive visual design tools, a powerful automation builder, a public API, and enterprise-grade security, it’s the ideal solution for handling all kinds of internal workflows.
+
+With dedicated connectors for RDBMSs, NoSQL tools, APIs, spreadsheet, and more alongside our built-in low-code database, Budibase is ideal positioned to drive digital transformation efforts, without compromising on control and security.
+
+Seamless ship professional interfaces on top of any data source, with autogenerated CRUD screens, optional JavaScript, role-based access control, custom conditionality rules, and mobile-responsive design as standard.
+
+IT teams also choose Budibase to create, store, and manage workflow logic. Our automation builder offers a library of chainable, configurable actions, as well as extensive connectivity with external platforms and data.
+
+Budibase is the top choice for security-focused teams. Our open-source product is self-hostable using Kubernetes, Docker, Digital Ocean, Azure, Cloud Run, Ansible, and more. We even offer free SSO.
+
+Check out our guide to using Budibase as a [business rules engine](https://budibase.com/blog/automation/business-rules-engine/) to learn more.
+
+{{< cta >}}
+
+### 2. Gitea - for DevOps teams
+
+![Gitea](https://res.cloudinary.com/daog6scxm/image/upload/v1717578561/cms/workflow-engine/Gitea_vshz6q.webp "Gitea")
+
+Gitea is an open-source solution for automating key development and DevOps workflows. One easy way to look at this is as an open-source alternative to GitHub or Bitbucket.
+
+As such, Gitea’s core functionality largely relates to building automations for the likes of version control, managing deployments, reviewing and approving contributions, auditing changes, and hosting code for other kinds of workflow rules.
+
+One big selling point is that Gitea is highly focused on providing experiences that will be very familiar to anyone who has used GitHub before, including in terms of the integrated UI. There’s also full compatibility with GitHub Actions across the platform.
+
+Gitea is also impressive in terms of integration options. It supports a wide range of databases, hosting options, and other third-party platforms, along with a platform API for connecting to other tools.
+
+On top of this, Gitea offers a range or helpful workflow tools such as project boards, issue tracking, team management, and custom project wikis.
+
+### 3. Wexflow - for admin tasks
+
+![Wexflow](https://res.cloudinary.com/daog6scxm/image/upload/v1717578561/cms/workflow-engine/Wexflow_l1ype6.webp "Wexflow")
+
+Wexflow is an open-source workflow engine that’s tightly focused on recurring admin tasks. It allows users to define and chain constituent tasks within workflows using either a visual editor or XML/JSON definitions.
+
+Some of the target use cases include orchestration tasks, file management, database administration, reporting, document generation, and email/SMS automation.
+
+It’s available on local machines or as a Docker image, with support for a range of SQL databases as well as MongoDB as persistence providers. There’s also a native Android app that could make Wexflow an attractive option for managing workflow automations in the field.
+
+Wexflow’s UI is an effective way to build, manage, and monitor custom workflow rules, as well as basic user interfaces. However, this also feels slightly dated compared to some of the other platforms in this round-up.
+
+Integration options are largely centered around a platform API. This offers us a lot of scope to connect to external platforms, although Wexflow is slightly more limited when it comes to native integration options.
+
+There are also a couple of key areas where Wexflow is somewhat inflexible. For example, user permissions are relatively simplistic, offering just two distinct tiers. This could rule it out for larger-scale or more security-focused workflows.
+
+### 4. Activepieces - no-code workflow engine
+
+![Activepieces](https://res.cloudinary.com/daog6scxm/image/upload/v1717578561/cms/workflow-engine/Activepieces_fiumyk.webp "Activepieces")
+
+Activepieces is an open-source, no-code solution for empowering non-technical colleagues to build and manage workflows across existing tools. In other words, we can think of it as an open-source alternative to tools like Zapier.
+
+In particular, it’s tightly focused on providing visual experiences for building AI, operations, sales, marketing, and support workflows.
+
+The real selling point here is Activepieces’ simple, lightweight automation builder interface. Essentially, this allows us to configure and chain pre-built blocks to connect to a range of SaaS tools using webhooks. 
+
+We’re also particularly impressed by the capabilities on offer around creating complex logic, including looping actions, conditional branches, and auto-retries.
+
+Activepieces offers a range of hosting options, including Docker, Digital Ocean, and AWS, as well as a proprietary cloud platform.
+
+Notably, there’s also an active community of contributors, building custom automation blocks using Activepieces’ highly extensible development environment.
+
+### 5. Plynx - for complex data workflows
+
+![Plynx](https://res.cloudinary.com/daog6scxm/image/upload/v1717578561/cms/workflow-engine/Plynx_ddahvu.webp "Plynx")
+
+Lastly, we have Plynx, an open-source visual tool for automating complex data workflows.
+
+The core functionality here is enabling us to define operations using Python or bash scripts, and then structure these using directed acyclic graphs using a visual flow-chart-based interface. Alternatively, we can also define operations using existing repositories.
+
+This makes it a particularly attractive option for complex data science and AI use cases, but we’ll also need a strong grasp of Python to take advantage of this.
+
+Plynx is also highly extensible, offering both custom plug-ins for interacting with external back-end services and a powerful RESTful API for connecting to existing tools and data sets.
+
+We can deploy Plynx using Docker and Kubernetes, making it a viable solution for powering data workflows while maintaining security.
+
+Overall, it offers a powerful solution for a relatively tight range of use cases, but it’s unlikely to be a viable option for more simplistic day-to-day internal workflows.
 
 ## Workflow engines: benefits and challenges
 
@@ -238,7 +247,7 @@ First, let’s think about how workflow engines provide positive value. Workflow
 - **Standardization** - Ensuring that the same outcomes are arrived at no matter which users are involved.
 - **Morale** - Empowering colleagues to focus on more challenging, cognate tasks.
 
-Of course, these are only the high-level business benefits. In more technical and IT ops terms, they also offer benefits including:
+Of course, these are only the high-level business benefits. In more technical and IT ops terms, they also offer benefits, including:
 
 - **Ease-of-maintenance** - Compared to enforcing business rules in a range of disparate platforms.
 - **Connectivity** - Facilitating cross-platform integrations and automation rules.
@@ -258,14 +267,14 @@ Indeed, workflow engines come along with their own trade-offs, challenges, and o
 
 Specific issues to keep in mind include:
 
-- **Up-front-costs** - We may incur relatively high up-front costs compared to alternative strategies.
+- **Up-front costs** - We may incur relatively high up-front costs compared to alternative strategies.
 - **Maintenance and lifecycle management** - When we build fully custom solutions, we’re liable for maintenance and lifecycle management costs.
 - **Variability within or across workflows** - Workflow engines aren’t always the appropriate solution when our processes lack homogeneity.
 - **Stakeholder buy-in** - We need to convince stakeholders at all levels that a workflow engine is the most viable solution.
 - **Centralization risks** - Centralization can leave us more vulnerable to certain threats.
 - **Redundancy** - If something goes wrong with our workflow engine, we’ll need some kind of backup plan to avoid service interruptions.
 - **High technical barriers** - Traditional developments will be beyond the ability of less technical colleagues - whereas SaaS-based solutions might not be.
-- **Hiddens costs** - We may incur additional costs from the tools we need to connect to our workflow engine - for instance, on a per-API call basis.
+- **Hidden costs** - We may incur additional costs from the tools we need to connect to our workflow engine - for instance, on a per-API call basis.
 - **Implementation and change management** - We’ll need to plan and resource our roll-out.
 
 So, implementing a workflow engine won’t be the right option in every scenario. Broadly speaking, we can point to two strands here.
@@ -274,18 +283,14 @@ On the one hand, there are times when a workflow engine is just not the right so
 
 However, that latter point is becoming increasingly alleviated with the rise of low-code development.
 
-## How to build a workflow engine in 7 steps
+## Make work flow with Budibase
 
-Let’s wrap up by thinking about the specific sequence of steps you can follow to plan, implement, and optimize a workflow engine project.
+Budibase is the fast, easy way for IT teams to build all kinds of workflow tools including user interfaces, data models, and powerful low-code automations.
 
-Here’s what this looks like in practice:
+Alongside extensive data support and intuitive app design tools, Budibase is the ideal solution for creating, storing, and triggering business logic. Our automation builder offers a range of triggers, including in-app actions, external events, chron jobs, database queries, and more.
 
-1. **Analyze workflows** - First, we need to analyze the workflows that will be handled by our engine, to determine the constituent actions that go into completing each task.
-2. **Create a data model** - Next, we need to map out the requisite data objects we need to properly represent our resources, requests, and transitions.
-3. **Define transition rules** - Determining the specific conditions and triggers that will govern when and how requests transition between states.
-4. **Choose your tools** - Making a cost/benefit decision around the type of workflow engine to build and the development tools to use.
-5. **Implementation** - Creating our workflow engine.
-6. **Testing** - Testing our workflow engine against defined requirements - as well as fringe cases and user testing.
-7. **Roll-out and monitoring** - Planning and implementing our changeover - alongside continuous monitoring to find further opportunities for improvement and optimization.
+Budibase also integrates seamlessly with your existing tool stack, via webhooks, custom REST requests, and our powerful platform API. This perfectly positions it for creating centralized, accessible business logic across your internal tools.
 
-To learn more about choosing the right tools to support your workflow management efforts, check out our in-depth guide to [digital transformation platforms](https://budibase.com/blog/inside-it/digital-transformation-platforms/).
+With optional self-hosting, custom JavaScript, free SSO, flexible RBAC, and much more, Budibase is the ideal solution for powering workflows within mission-critical internal processes.
+
+Check out our [features overview](https://budibase.com/product/) to learn more.
