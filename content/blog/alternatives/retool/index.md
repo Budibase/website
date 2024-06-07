@@ -1,5 +1,5 @@
 ---
-date: 2023-11-30
+date: 2024-04-30
 title: Top 10 Retool Alternatives & Competitors in 2024
 description: Learn about the top 10 Retool alternatives & competitors to improve your internal workflows and save you time.
 images:
