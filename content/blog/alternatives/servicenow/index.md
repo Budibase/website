@@ -160,6 +160,8 @@ So, even with ServiceNow’s bulk discounts, Budibase has the potential to be or
 
 Check out our [pricing page](https://budibase.com/pricing) to learn more.
 
+{{< cta >}}
+
 ## 2. BMC Helix
 
 BMC Helix is probably ServiceNow’s most direct, comparable competitor. It’s another enterprise-focuses, one-stop-shop platform for delivering internal IT services to colleagues.
