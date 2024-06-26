@@ -62,7 +62,7 @@ Here’s what our artificial intelligence ticketing system will look like when w
 
 {{< vimeo id="968666181" title="Artificial Intelligence Tickets" >}}
 
-You might also enjoy our guide to [open-source help desk software](https://budibase.com/blog/inside-it/open-source-help-desk-software/#:~:text=Our platform is the ideal,for managing critical business data.).
+You might also enjoy our guide to [open-source help desk software](https://budibase.com/blog/inside-it/open-source-help-desk-software/).
 
 Let’s start building.
 
@@ -94,7 +94,7 @@ However, we’re going to import a CSV into BudibaseDB. When we choose this opti
 
 Here’s the CSV data we’re using.
 
-{{< highlight plaintext "linenos=table" >}}
+{{< highlight plaintext "linenos=false" >}}
 
 Title,Description,Status,Priority,Date Created,Date Updated,Category,Language,Comments,Translated Comments
 
