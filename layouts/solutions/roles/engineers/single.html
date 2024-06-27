@@ -1,0 +1,29 @@
+{{ partial "head/header.html" . }} {{ partial "navigation.html" . }}
+
+<section class="bg-base-20"> 
+    <div class="hero-container">
+        <div class="mx-auto hero-content">
+            <p class="detail-sm mb-2 linear-wipe-light">For engineers</p>
+            <h1 class="hero-title-lg font-weight-semi-bold mb-4 text-white">The happy path for Engineers</h1>
+            <p class="hero-description-lg text-left text-white opacity-80">Budibase is everything engineers need to build internal tools faster. No more wrestling with UI libraries, RBAC, and authentication. </p>
+            <div class="flex mb-lg-6 mt-4 gap-sm">
+                <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=homepage-hero-section"
+                  target="_blank" rel="noopener">
+                  <button type="submit" class="btn btn-cta-gradient btn-lg">Sign up free</button>
+                </a>
+                <a href="/contact"
+                target="_blank" rel="noopener">
+                  <button type="submit" class="btn btn-secondary-dark btn-lg">Contact sales</button>
+                </a>
+            </div>
+        </div>
+        <div class="hero-media feature-image-lg">
+            <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1717690029/cms/solutions/teams/engineering/engineerHeroSimplev2_dodt4x.webp" class="img-fluid" />
+        </div>
+    </div>
+</section>
+{{ partial "logo-reel-banner.html" }}
+
+{{ partial "cta.html" . }}
+{{ partial "footer.html" . }}
+
