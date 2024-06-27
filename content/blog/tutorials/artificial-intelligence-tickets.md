@@ -92,27 +92,7 @@ However, we’re going to import a CSV into BudibaseDB. When we choose this opti
 
 ![Table](https://res.cloudinary.com/daog6scxm/image/upload/v1719396364/cms/artificial-intelligence-tickets/Artificial_Intelligence_Tickets_3_uwraax.webp "Table")
 
-Here’s the CSV data we’re using.
-
-{{< highlight plaintext "linenos=false" >}}
-
-Title,Description,Status,Priority,Date Created,Date Updated,Category,Language,Comments,Translated Comments
-
-Password Reset,User unable to reset password,Open,Low,2024-06-04T00:00:00.000Z,2024-06-04T00:00:00.000Z,Account,English,,
-
-Network Issue,Unable to connect to the internet,Open,High,2024-06-01T00:00:00.000Z,2024-06-01T00:00:00.000Z,Network,English,,
-
-Network Connectivity Problem,Can't connect my laptop to the network.,Open,Medium,2024-06-24T13:33:18.083Z,,Network,English,,
-
-Laptop on fire,My laptop is on fire,Open,High,2024-06-24T13:37:03.275Z,,Hardware,English,,
-
-Laptop broken,My laptop won't turn on.,Open,Medium,2024-06-24T13:38:13.956Z,,Hardware,English,,
-
-Fire in server room 2,There is still a fire in the server room.,Open,High,2024-06-24T13:40:24.109Z,,Hardware,English,,
-
-Fire in server room,There is a fire in the server room.,Open,Medium,2024-06-24T13:40:04.463Z,,Hardware,English,,
-
-{{< /highlight >}}
+Here’s the [CSV data](https://res.cloudinary.com/daog6scxm/raw/upload/v1719477224/cms/artificial-intelligence-tickets/AI_Tickets_zy58hw.csv) we’re using.
 
 When we upload this, we’ll be prompted to configure the data types of each individual column. Some of our columns can be left as the default option of Text, but we’ll need to make the following changes:
 
