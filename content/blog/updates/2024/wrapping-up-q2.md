@@ -4,9 +4,9 @@ description: It's that time again! Here's your update on everything that's been 
 type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/joe_illustration_gray_bg_e97wdl.webp
-image: https://res.cloudinary.com/daog6scxm/image/upload/v1708118900/cms/forms/formsHero5_uj9csq.png
+image: https://res.cloudinary.com/daog6scxm/image/upload/t_1920x1080/v1717516938/changelog/modal/modalx2_qxpflj.png
 images:
-  - https://res.cloudinary.com/daog6scxm/image/upload/v1708118900/cms/forms/formsHero5_uj9csq.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/t_1920x1080/v1717516938/changelog/modal/modalx2_qxpflj.png
 date: "2024-06-27"
 author: Joe Johnston
 draft: false
@@ -14,12 +14,10 @@ draft: false
 
 We spent Q2 delivering several new components and quality-of-life improvements. 
 
-## Quality of life improvements
-
 ### Modal component
-This week, we released this new modal component. Modals are a great way to focus the app's interface on a specific experience. The new modal component comes in different sizes, and the design experience is similar to the existing Side Panel component. Kudos to [Gerard](https://github.com/Ghrehh) for getting this out before the end of quarter. Discover the [modal component](https://docs.budibase.com/changelog/modal-component).
+This week, we released this new modal component. Modals are a great way to focus the app's interface on a specific experience. The new modal component comes in different sizes, and the design experience is similar to the existing Side Panel component. Kudos to [Gerard](https://github.com/Ghrehh) for getting this out before the end of quarter. Discover more about the [modal component](https://docs.budibase.com/changelog/modal-component).
 
-![Modal component](https://files.readme.io/215fd8a-popout-modal.jpg)
+![Modal component](https://res.cloudinary.com/daog6scxm/image/upload/v1717516938/changelog/modal/modalx2_qxpflj.webp)
 
 ### Table component improvements
 The table component update included a number of new enhancements, fixes and UX improvements delivered by [Andrew](https://github.com/aptkingston). Learn more about all the new [table component improvements](https://docs.budibase.com/changelog/table-component-quality-of-life-improvements).
@@ -52,21 +50,20 @@ Back in April, [Adria](https://github.com/adrinr) added a new [single-user colum
 - [Use bindings to filter views](https://docs.budibase.com/changelog/view-filters-can-now-use-bindings)
   
 
-## Reading corner
+## Reading corner 📚
 
 - [Implementing an Enterprise Data Catalog](https://budibase.com/blog/data/enterprise-data-catalog/)
 - [Intelligent Tickets with Budibase and OpenAI](https://budibase.com/blog/tutorials/artificial-intelligence-tickets/)
 - [The Incident Management Guide](https://budibase.com/blog/inside-it/enterprise-incident-management/)
 
-## Channel BB
+## Channel BB 📺
 
 - Our first ever workshhop - [App building with Budibase](https://app.livestorm.co/budibase/app-building-with-budibase/live?s=53a7a2ae-3b9d-4529-b6ba-f53721d95740)
 
 
-## Up next in Q3
+## Up next in Q3 👀
 
-### Preparing for Liftoff
-Budibase 3.0, coming Q4 2024 👾 🎉 
+- Preparing for Liftoff: Budibase 3.0, coming Q4 2024 👾 🎉 
 
 
  
