@@ -12,7 +12,7 @@ author: Joe Johnston
 draft: false
 ---
 
-We spent Q2 delivering several new components and quality-of-life improvements. 
+We spent Q2 delivering several new components and quality-of-life improvements. We also ran our first workshop! Read on to find out more.
 
 ### Modal component
 This week, we released this new modal component. Modals are a great way to focus the app's interface on a specific experience. The new modal component comes in different sizes, and the design experience is similar to the existing Side Panel component. Kudos to [Gerard](https://github.com/Ghrehh) for getting this out before the end of quarter. Discover more about the [modal component](https://docs.budibase.com/changelog/modal-component).
