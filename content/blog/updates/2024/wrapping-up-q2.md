@@ -65,8 +65,7 @@ Back in April, [Adria](https://github.com/adrinr) added a new [single-user colum
 
 ## Up next in Q3 👀
 
-- A major update to Budibase DB
-- Preparing for Liftoff: Budibase 3.0, coming Q4 2024 👾 🎉 
+- A major update to Budibase DB 👾 🎉 
 
 
  
