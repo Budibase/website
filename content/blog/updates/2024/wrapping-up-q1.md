@@ -132,7 +132,7 @@ In Q2, we will focus on another popular use case: Portals. For those of you buil
 
 ### Budibase DB improvements (and more :eye: )
 
-We’re also planning a major update to the Budibase DB’s and a solution to its Achilles heel - filtering by relationship.
+We’re also planning a major update to Budibase DB - filtering by relationship.
 
 ### GovTech event
 
