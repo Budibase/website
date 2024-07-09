@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2022-09-19T23:00:00Z
+date = 2024-03-19T23:00:00Z
 description = "Throwaway prototyping is an alternative way of thinking about building applications. Here's everything you need to know."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1665139515/cms/Citizen_Development_Governance_Header_rb6g89.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1665139522/cms/Citizen_Development_Governance_Header_wqff2r.png"]

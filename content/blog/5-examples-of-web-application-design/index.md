@@ -1,6 +1,6 @@
 +++
 author = "Joe Johnston"
-date = 2019-07-28T00:00:00Z
+date = 2024-02-28T00:00:00Z
 description = "Web application design is an important step for building effective user experiences."
 images = ["/web-app-ideas/dashboard-web-app.jpg"]
 title = "5 Examples of Modern Web Application Design"
