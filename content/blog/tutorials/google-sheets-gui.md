@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2023-12-20T23:00:00Z
+date = 2024-02-20T23:00:00Z
 description = "Read our step-by-step guide to creating a Google Sheets GUI in under 5 minutes."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1664958669/cms/How_to_Build_a_Google_Sheets_GUI_jmuyxw.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1664958676/cms/How_to_Build_a_Google_Sheets_GUI_ahakka.png"]

@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2022-09-22T23:00:00Z
+date = 2024-02-22T23:00:00Z
 description = "Budibase is the fast, easy way to build a database GUI, with minimal coding skills."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1664185459/cms/How_to_Build_a_Database_GUI_k33cro.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1664185459/cms/How_to_Build_a_Database_GUI_k33cro.png"]
