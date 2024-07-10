@@ -5,7 +5,7 @@ description = "Throwaway prototyping is an alternative way of thinking about bui
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1665139515/cms/Citizen_Development_Governance_Header_rb6g89.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1665139522/cms/Citizen_Development_Governance_Header_wqff2r.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "What is Throwaway Prototyping? In-Depth Guide"
+title = "Throwaway Prototyping | In-Depth Guide"
 
 +++
 Throwaway prototyping is an alternative way of thinking about building applications. Prototypes play several vital roles in the development process. For instance, providing proof of concept, fleshing out NFRs, experimenting with ideas, or simply gathering feedback.
