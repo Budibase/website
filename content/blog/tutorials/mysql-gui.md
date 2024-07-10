@@ -5,7 +5,7 @@ description = "Read our step-by-step guide to learn how to build a MySQL GUI, in
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1664899844/cms/How_to_Build_a_MySQL_GUI_yvx10e.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1664899852/cms/How_to_Build_a_MySQL_GUI_zefmyr.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Create a MySQL GUI in 5 Steps"
+title = "Create a Free MySQL GUI in 5 Steps"
 
 +++
 MySQL is one of the most popular database systems out there. And that’s for a good reason. It is lightweight, fast, easy to learn, and widely available. Using a MySQL GUI to manage your databases will help you make the most out of this tool.

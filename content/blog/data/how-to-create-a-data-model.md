@@ -5,7 +5,7 @@ description = "In this guide, we’ll walk through everything you need to know t
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1653319610/cms/What_is_database_schema_header_ahhxph.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1653319610/cms/What_is_database_schema_header_ahhxph.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Create a Data Model in 9 Steps"
+title = "How to Create a Data Model"
 
 +++
 Knowing how to create a data model is the first step toward building a successful app. This is the foundation of how you’ll transform your business requirements into reality.

@@ -6,7 +6,7 @@ description = "There are four primary ways to perform REST API authentication."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1689941920/cms/rest-api-authentication/REST_API_AUTHENTICATION_j2ukfx.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1689941920/cms/rest-api-authentication/REST_API_AUTHENTICATION_j2ukfx.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "REST API Authentication | 4 Methods"
+title = "4 Methods for REST API Authentication"
 
 +++
 
