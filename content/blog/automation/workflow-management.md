@@ -212,7 +212,7 @@ Besides this, at its core, workflow management involves building oversight, moni
 
 ![Workflow Management and Human Error](https://res.cloudinary.com/daog6scxm/image/upload/v1672746364/cms/Incidents_https___venturebeat.com_datadecisionmakers_workflow-automation-what-it-is-and-how-it-can-make-your-job-easier__fvk0ct.webp "Workflow Management and Human Error")
 
-([VentureBeat](https://venturebeat.com/datadecisionmakers/workflow-automation-what-it-is-and-how-it-can-make-your-job-easier/))
+VentureBeat
 
 ### Client and employee satisfaction
 

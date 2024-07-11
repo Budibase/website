@@ -179,7 +179,7 @@ Conditionality is a powerful tool for enabling us to build sleek, efficient user
 
 ![Human error in workflows](https://res.cloudinary.com/daog6scxm/image/upload/v1693301807/cms/workflow-application/Incidents_https___venturebeat.com_datadecisionmakers_workflow-automation-what-it-is-and-how-it-can-make-your-job-easier__wtvkfy.webp "Human error in workflows")
 
-([VentureBeat](https://venturebeat.com/datadecisionmakers/workflow-automation-what-it-is-and-how-it-can-make-your-job-easier/))
+VentureBeat
 
 ### Access to information
 
