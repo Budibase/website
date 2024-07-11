@@ -237,7 +237,7 @@ Of course, the exact nature of this is going to depend on your more specific nee
 
 ![Workflow modelling](https://res.cloudinary.com/daog6scxm/image/upload/v1672747546/cms/Incidents_https___venturebeat.com_datadecisionmakers_workflow-automation-what-it-is-and-how-it-can-make-your-job-easier__msuklp.webp "Workflow modelling")
 
-([VentureBeat](https://venturebeat.com/datadecisionmakers/workflow-automation-what-it-is-and-how-it-can-make-your-job-easier/))
+VentureBeat
 
 ### 6. Manual vs automated actions
 
