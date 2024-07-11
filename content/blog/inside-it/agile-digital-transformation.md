@@ -66,8 +66,6 @@ This greatly enhances our ability to deliver projects that actually deliver valu
 
 ![Agile digital transformation](https://res.cloudinary.com/daog6scxm/image/upload/v1685701134/cms/agile-digital-transformation/Digital_Transformation_ROI_https___boardview.io_blog_digital-transformation-stats__ysl7bb.webp "Agile digital transformation")
 
-([BoardView](https://boardview.io/blog/digital-transformation-stats/))
-
 ## 5 principles of Agile transformation
 
 Agile digital transformation - like the Agile methodology more broadly - is built on a total shift in the way we think about software development. 

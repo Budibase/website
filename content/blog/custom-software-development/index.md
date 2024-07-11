@@ -165,6 +165,6 @@ On a recent call with David Singleton (lead engineer at [Stripe](https://www.str
    Monese is made up of two sides; outward-facing apps and inward-facing apps. Part of the later is a web application called Backoffice. Monese built Backoffice to help their internal teams communicate with their customers better. Backoffice helps their employees answer video calls, open accounts, answer questions, resolve automatically generated tasks. In the future, they hope to have a dedicated team, which focuses on maintaining and improving Backoffice - pretty incredible!
 
 
-I hope the examples above inspire you. Due to platforms like [Budibase](https://www,budibase.com),  the barrier for building custom software is at an all-time low. You don't need to be a developer. You don't need to know how to code. And you can build custom software in minutes, not months. A new generation of software development awaits us. 
+I hope the examples above inspire you. Due to platforms like [Budibase](https://www.budibase.com),  the barrier for building custom software is at an all-time low. You don't need to be a developer. You don't need to know how to code. And you can build custom software in minutes, not months. A new generation of software development awaits us. 
 
 Thank you for reading and good luck. If you are interested, please sign-up to Budibase below, and get started (it's free and no CC required).

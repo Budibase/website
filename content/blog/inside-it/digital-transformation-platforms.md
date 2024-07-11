@@ -90,7 +90,7 @@ To understand how these issues are impacted by digital solutions, we’ll need t
 
 ![Digital Transformation Platforms Statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1677240737/cms/Digital_Transformation_ROI_https___boardview.io_blog_digital-transformation-stats__prfb9w.webp "Digital Transformation Statistics")
 
-([Broadview](https://boardview.io/blog/digital-transformation-stats/))
+
 
 ## 5 types of transformation solutions
 

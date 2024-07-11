@@ -269,7 +269,7 @@ We can think about high-profile blunders to illustrate this, like the UK governm
 
 ![Spreadsheet vs database error reduction](https://res.cloudinary.com/daog6scxm/image/upload/v1661161357/cms/Spreadsheet_Error_Stats_nvosjq.webp "Spreadsheet vs database error reduction")
 
-Spreadsheet errors are one of the most common [cyber security issues](https://finsburysolutions.com/what-is-spreadsheet-risk/).
+Spreadsheet errors are one of the most common cyber security issues.
 
 ### Interoperability
 

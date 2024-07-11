@@ -50,7 +50,7 @@ The success of this is going to depend on a whole bunch of factors besides the a
 
 ![Digital Enablement](https://res.cloudinary.com/daog6scxm/image/upload/v1683900004/cms/digital-enablement/Digital_Transformation_ROI_https___boardview.io_blog_digital-transformation-stats__sb2kbk.webp "Digital Enablement stats")
 
-([BoardView](https://boardview.io/blog/digital-transformation-stats/))
+
 
 The point of digital enablement is to remove transformation blockers and put in place measures to ensure the smooth implementation of new technologies.
 
