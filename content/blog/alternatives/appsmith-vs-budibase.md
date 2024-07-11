@@ -116,6 +116,8 @@ For instance, we can build [data collection forms](https://budibase.com/blog/dat
 
 ![Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1715613722/cms/appsmith-vs-budibase/Appsmith_vs_Budibase_4_v3qabz.webp "Budibase")
 
+You might also like our round-up of the top [SharePoint alternatives](https://budibase.com/blog/alternatives/sharepoint/).
+
 ### User interfaces
 
 Next, we can think about how we can build interfaces in Appsmith vs Budibase. Again, both platforms have a lot in common here, but there are some important differences that we’ll want to be aware of.

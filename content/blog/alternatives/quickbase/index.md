@@ -72,6 +72,8 @@ In this case, Quickbase may not be a viable option. Similarly, it can’t be sel
 
 Alternatively, you might decide that Quickbase is a potential solution for you - but that another vendor offers the same value more cost-effectively.
 
+Take a look at our guide to the top [FileMaker alternatives.](https://budibase.com/blog/alternatives/filemaker/)
+
 ## 7 Quickbase alternatives
 So, now that we have good grasp of what Quickbase offers and where it can fall short, we can start thinking about some of its key competitors. 
 

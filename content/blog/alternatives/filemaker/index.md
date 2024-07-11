@@ -63,6 +63,8 @@ For example, handling unstructured data in NoSQL databases may be possible via A
 
 Finally, as with any other IT procurement decision, you may determine that FileMaker could be a viable solution for your particular use case - but that other vendors offer a more cost-effective way to achieve the same thing.
 
+You might also like our round-up of the top [Quickbase alternatives](https://budibase.com/blog/alternatives/quickbase/).
+
 ## 8 FileMaker alternatives
 With a fuller picture of what FileMaker is and what it does, we can start to survey the wider market.
 

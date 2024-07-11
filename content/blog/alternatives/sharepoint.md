@@ -86,6 +86,8 @@ Second, configuring SharePoint for specific tasks can be excessively complex com
 
 Lastly, SharePoint is typically priced as part of the wider Microsoft 365 ecosystem - so we may end up paying for capabilities that are completely redundant if we only need specific functionality.
 
+You might also like our guide comparing [Appsmith vs Budibase](https://budibase.com/blog/alternatives/appsmith-vs-budibase/).
+
 ## 5 SharePoint alternatives
 
 So, let’s check out what the market for SharePoint alternatives looks like. Before we dive into individual platforms, it’s worth noting that there are a few different categories of tools we may want to consider here.

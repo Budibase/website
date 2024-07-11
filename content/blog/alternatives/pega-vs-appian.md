@@ -187,6 +187,8 @@ As noted earlier, Appian also provides some clever functionality to expedite des
 
 ![Appian](https://res.cloudinary.com/daog6scxm/image/upload/v1715093819/cms/pega-vs-appian/Pega_vs_Appian_4_cljsf8.webp "Appian")
 
+You might also like our guide to the top [PowerApps alternatives.](https://budibase.com/blog/alternatives/powerapps/)
+
 ### Management, monitoring, and admin
 
 Lastly, we can examine some of the tools on offer in each platform in terms of lifecycle management.
