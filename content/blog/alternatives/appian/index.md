@@ -78,6 +78,8 @@ We might find that an alternative platform offers the same value more cost-effec
 
 Lastly, Appian is a closed-source solution. So, security teams are unable to audit its source-code before hosting it on their internal infrastructure or connecting it to production databases.
 
+You might also like our round-up of [Smartsheet alternatives](https://budibase.com/blog/alternatives/smartsheet/).
+
 ## 8 Appian Alternatives
 Now that we have a clear picture of what Appian is, what it offers, and where it could fall short, we can survey the wider market.
 

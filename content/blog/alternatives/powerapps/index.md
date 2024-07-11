@@ -67,6 +67,8 @@ Finally, PowerApps is entirely closed-source. As such, it’s almost impossible 
 
 Similarly, it can’t be self-hosted. Or, much more simply - PowerApps may be a viable option for you - but you may find a more cost-effective way to meet the same objectives.
 
+Check out our guide comparing [Pega vs Appian](https://budibase.com/blog/alternatives/pega-vs-appian/).
+
 ## 10 PowerApps Alternatives
 Now that we’ve seen what PowerApps is and where it sits in the market, we can start to run through some of its key competitors.
 

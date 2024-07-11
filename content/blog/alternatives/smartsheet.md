@@ -73,6 +73,8 @@ We can also consider non-functional requirements. For example, Smartsheet is com
 
 Lastly, as with any software procurement decision, we might simply find that another platform offers us the same capabilities while incurring lower costs. We’ll see how the market breaks down in this regard a little later.
 
+Take a look at our guide to the top [Appian alternatives](https://budibase.com/blog/alternatives/appian/).
+
 ## 5 Smartsheet alternatives
 
 So, now that we know some of the key areas where Smartsheet might let us down, we can start to check out which alternatives are out there - and when each of these is likely to be our best bet.
