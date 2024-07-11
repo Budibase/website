@@ -52,8 +52,6 @@ The trouble is that technical teams often struggle to see the big picture - espe
 
 ![IT Transformation Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1675958011/cms/Digital_Transformation_ROI_https___boardview.io_blog_digital-transformation-stats__b8lw4m.webp "IT Transformation Stats")
 
-([BoardView](https://boardview.io/blog/digital-transformation-stats/))
-
 This is why alignment between your IT team and your wider strategic goals is so important.
 
 ### The 3 pillars of IT transformation

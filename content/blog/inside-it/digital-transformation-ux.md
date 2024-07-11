@@ -54,8 +54,6 @@ Therefore, digital transformation UX design requires us to provide the *right* e
 
 ![Digital Transformation Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1678702810/cms/Digital_Transformation_ROI_https___boardview.io_blog_digital-transformation-stats__gq8gft.webp "Digital Transformaion Stats")
 
-([BoardView](https://boardview.io/blog/digital-transformation-stats/))
-
 ## Elements of digital transformation UI
 
 Now we understand what digital transformation UX means in the abstract. The next challenge is understanding how we can achieve this.

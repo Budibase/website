@@ -239,7 +239,7 @@ Unsurprisingly, human-centric BPM is ideally suited to use cases where interacti
 
 ![Automatable Tasks](https://res.cloudinary.com/daog6scxm/image/upload/v1669735437/cms/workflow_automation_stats_hussb9.webp "Automatable Tasks")
 
-[McKinsey](https://www.mckinsey.com/\~/media/mckinsey/featured%20insights/Digital%20Disruption/Harnessing%20automation%20for%20a%20future%20that%20works/MGI-A-future-that-works-Executive-summary.ashx)
+McKinsey
 
 ### Integration-centric BPM
 
