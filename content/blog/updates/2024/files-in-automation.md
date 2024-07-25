@@ -120,7 +120,7 @@ There we have it - a fully functional Budibase workflow that handles an ordering
 ## Sending & processing a job offer contract with PandaDoc
 In the next example, we’ll create an HR app that uses the PandaDoc API to send a new employee their contract. When the employee is added to the database, they will automatically be emailed with a link to PandaDoc where they can sign their contract. Once the contract is signed, PandaDoc will trigger a Budibase automation which will download the signed contract and save it to the employee’s record.
 
-![PandaDoc workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1721903430/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc_flow_gv2zdq.mp4)
+![PandaDoc workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1721903430/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc_flow_gv2zdq.gif)
  
 
 ### Step 1: Creating a template & setting up the PandaDoc API endpoints 
