@@ -47,10 +47,10 @@ To demonstrate this new functionality, we’ve pulled together two practical wor
 *Let’s jump into it!*
 
 ## Send an invoice as an email attachment
-For our first example, we will use [Carbone.io](carbone.io), an open-source report generator, to build an invoice using data pulled from Budibase. We have already set up an invoice template and stored it in Carbone, but this would work with any major PFD generator, such as Adobe Acrobat, PandaDoc, and more.
+For our first example, we will use [Carbone.io,](carbone.io) an open-source report generator, to build an invoice using data pulled from Budibase. We have already set up an invoice template and stored it in Carbone, but this would work with any major PFD generator, such as Adobe Acrobat, PandaDoc, and more.
 
 **Here's what the end result will look like from start-to-finish:**
-![Carbone workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1721903659/product-marketing-images/Files%20in%20automation/carbone/email_demo_720_24fps_ciwxli.mp4)
+![Carbone workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1721903659/product-marketing-images/Files%20in%20automation/carbone/email_demo_720_24fps_ciwxli.gif)
 
 We'll use the [Carbone Cloud API](https://carbone.io/api-reference.html#carbone-cloud-api) to create a PDF with our order data. This document will dynamically pull our Budibase data into a set template, giving us complete control over the output. 
 
@@ -120,7 +120,7 @@ There we have it - a fully functional Budibase workflow that handles an ordering
 ## Sending & processing a job offer contract with PandaDoc
 In the next example, we’ll create an HR app that uses the PandaDoc API to send a new employee their contract. When the employee is added to the database, they will automatically be emailed with a link to PandaDoc where they can sign their contract. Once the contract is signed, PandaDoc will trigger a Budibase automation which will download the signed contract and save it to the employee’s record.
 
-![PandaDoc workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1721912991/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc9_1_tat3ze.mp4)
+![PandaDoc workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1721912991/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc9_1_tat3ze.gif)
  
 
 ### Step 1: Creating a template & setting up the PandaDoc API endpoints 
