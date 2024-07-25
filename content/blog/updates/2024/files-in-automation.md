@@ -140,7 +140,7 @@ For this, we simply use the [Send Document](https://developers.pandadoc.com/refe
 
 ![Send doc](https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc3.png) 
 
-The third query we need to add is for the [Download Document endpoint](https://developers.pandadoc.com/reference/download-document). In this case, we only need to pass the Document ID as a binding.
+The third query we need to add is for the [Download Document endpoint.](https://developers.pandadoc.com/reference/download-document) In this case, we only need to pass the Document ID as a binding.
 
 When a Budibase REST query runs and has a file to be downloaded as the response, it uploads it to a temporary bucket so that you can use it elsewhere in the system. The most important part of the response object is the URL value. We will later use this value to save the contract document to our employees' table.
 
@@ -170,7 +170,7 @@ When the webhook trigger is hit, it will include the relevant Document ID. This 
 ![Trigger Webhook](https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc7.png) 
 
 ### Step 5: Trigger an automation when the employee signs the contract
-For this step, we will use a webhook trigger. When the candidate signs the contract, an event in PandaDoc will trigger the Budibase webhook, causing the automation to run.
+For this step, we will use another webhook trigger. When the candidate signs the contract, an event in PandaDoc will trigger the Budibase webhook, causing the automation to run.
 
 Add the Trigger URL from your Budibase webhook as a new Configuration in the PandaDoc Settings. Then, you can select which PandaDoc events will trigger our automation in Budibase.
 
