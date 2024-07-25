@@ -1,15 +1,31 @@
 ---
 title: Unlocking Workflows with Files in Automation
-description: Over the past few months, the Budibase team has been hard at work enhancing the form-building experience. Today, we’re happy to announce the new signature component, opening up a range of powerful new workflows with Forms. 
+description: Automations transform standard applications into advanced workflows, bridging the gap between Budibase and your wider tech ecosystem. Today, we’re taking Automations up another level by introducing support for files and attachments.
 type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1704878154/Photos/headshot_aw4uce.png
-image: https://res.cloudinary.com/daog6scxm/image/upload/v1716380243/product-marketing-images/Signature%20Component/signature_vgleqx.png
+image: https://res.cloudinary.com/daog6scxm/image/upload/v1717519421/changelog/attachmentsAutomations/automationAttachments_z4tqqs.png
 images:
-  - https://res.cloudinary.com/daog6scxm/image/upload/v1716284386/product-marketing-images/Signature%20Component/please-scan_kxzb9b.png
-  - https://res.cloudinary.com/daog6scxm/image/upload/v1716284390/product-marketing-images/Signature%20Component/in-transit_bzsbaq.png
-  - https://res.cloudinary.com/daog6scxm/video/upload/v1716379757/product-marketing-images/Signature%20Component/Screen_Recording_2024-05-22_at_13.07.50_bpkjdr.gif
-  - https://res.cloudinary.com/daog6scxm/image/upload/v1716284384/product-marketing-images/Signature%20Component/order-complete_cno0g7.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721903659/product-marketing-images/Files%20in%20automation/carbone/email_demo_720_24fps_ciwxli.gif
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830285/product-marketing-images/Files%20in%20automation/carbone/carbone1.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830302/product-marketing-images/Files%20in%20automation/carbone/carbone2.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830324/product-marketing-images/Files%20in%20automation/carbone/carbone3.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830324/product-marketing-images/Files%20in%20automation/carbone/carbone4.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830324/product-marketing-images/Files%20in%20automation/carbone/carbone5.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830324/product-marketing-images/Files%20in%20automation/carbone/carbone6.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830324/product-marketing-images/Files%20in%20automation/carbone/carbone7.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721903430/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc_flow_gv2zdq.gif
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc1.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc2.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc3.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc4.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc5.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc6.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc7.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc8.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc9.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc10.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc11.png
 date: "2024-07-25"
 author: Jamie Birss
 draft: false
@@ -31,7 +47,7 @@ To demonstrate this new functionality, we’ve pulled together two practical wor
 *Let’s jump into it!*
 
 ## Send an invoice as an email attachment
-For our first example, we will use [Carbone.io](carbone.io), an open-source report generator, to build an invoice using data pulled from Budiase. We have already set up an invoice template and stored it in Carbone, but this would work with any major PFD generator, such as Adobe Acrobat, PandaDoc, and more.
+For our first example, we will use [Carbone.io](carbone.io), an open-source report generator, to build an invoice using data pulled from Budibase. We have already set up an invoice template and stored it in Carbone, but this would work with any major PFD generator, such as Adobe Acrobat, PandaDoc, and more.
 
 **Here's what the end result will look like from start-to-finish:**
 ![Carbone workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1721903659/product-marketing-images/Files%20in%20automation/carbone/email_demo_720_24fps_ciwxli.gif)
@@ -43,7 +59,6 @@ The first step is to create a Microsoft Word document that will act as our templ
 
 ![Invoice template](https://res.cloudinary.com/daog6scxm/image/upload/v1721830285/product-marketing-images/Files%20in%20automation/carbone/carbone1.png)
 
-The invoice template with the merge fields set up
 Once you have uploaded your template to Carbone Studio, you will need to grab its template ID and your Carbone API key for the next step.
 
 ### Step 2: Set up the API endpoints in Budibase
@@ -68,7 +83,7 @@ We're making use of the templateId binding in the query URL, and data is being s
 }
 ```
 
-You can see more options for the request body in [Carbone's documentation of the render endpoint here.](https://carbone.io/api-reference.html#post-api-carbone-io-render-templateid)
+You can see more options for the request body in [Carbone\'s documentation of the render endpoint here.](https://carbone.io/api-reference.html#post-api-carbone-io-render-templateid)
 
 This request returns a Render ID as a response and will use a simple [transformer](https://docs.budibase.com/docs/transformers) to make the query return that specific value. We'll use this value in the next endpoint to download the PDF with our data merged in.
 
@@ -105,7 +120,7 @@ There we have it - a fully functional Budibase workflow that handles an ordering
 ## Sending & processing a job offer contract with PandaDoc
 In the next example, we’ll create an HR app that uses the PandaDoc API to send a new employee their contract. When the employee is added to the database, they will automatically be emailed with a link to PandaDoc where they can sign their contract. Once the contract is signed, PandaDoc will trigger a Budibase automation which will download the signed contract and save it to the employee’s record.
 
-![PandaDoc workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1721903430/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc_flow_gv2zdq.gif)
+![PandaDoc workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1721903430/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc_flow_gv2zdq.mp4)
  
 
 ### Step 1: Creating a template & setting up the PandaDoc API endpoints 
@@ -113,7 +128,7 @@ To begin, we will first need to create a contract template that can be fed to Pa
 
 ![Create template](https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc1.png) 
 
-Now, it's time to head over to Budibase. The first step is to set up your authentication with the PandaDoc API. You can see how to get your [PandaDoc API key here](https://developers.pandadoc.com/reference/api-key-authentication-process), which you can then add to your Budibase REST data source as a header.
+Now, it's time to head over to Budibase. The first step is to set up your authentication with the PandaDoc API. You can see how to get your [PandaDoc API key here,](https://developers.pandadoc.com/reference/api-key-authentication-process) which you can then add to your Budibase REST data source as a header.
 
 Once the authentication is set up, we can build our REST queries. The first one to add is [Create Document from Template.](https://developers.pandadoc.com/reference/create-document-from-pandadoc-template) It takes bindings for our candidate's name and email address, and then passes those to the PandaDoc API in the body. You will also need to add the ID for the template we created above. When a POST request is sent to this endpoint, a document is rendered asynchronously on PandaDoc’s server with the data relevant to our candidate.
 
@@ -159,7 +174,7 @@ For this step, we will use a webhook trigger. When the candidate signs the contr
 
 Add the Trigger URL from your Budibase webhook as a new Configuration in the PandaDoc Settings. Then, you can select which PandaDoc events will trigger our automation in Budibase.
 
-![Automation trigger](https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc9.png) 
+![Automation trigger](https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc10.png) 
 
 When this automation is triggered, we want it to get the newly signed contract using the Download Document query and then save that file to the attachment column in our employee row. First, we add an External Data Connector step that runs that query, passing the Document ID from the trigger. This will return a URL for our file, which is stored on a temporary bucket, and we will now save it back to the Budibase DB.
 
