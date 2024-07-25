@@ -94,9 +94,9 @@ The second endpoint is a more simple GET request. We need to provide the renderI
 As mentioned previously, Budibase can now download files from an API - automatically storing the file on a temporary bucket for us to use later. You can see the URL for our PDF file as part of the query response. We'll use this URL in our automation to send our invoice as an email attachment.
 
 ### Step 3: Create a form in the Design section
-Now that we’ve hooked up the API - let’s get a little creative (or minimalistic in our case) and design a screen in Budibase. We set up a few simple tables in my Budibase DB for orders, and now we want to give the user the option to create a new one.
+Now that we’ve hooked up the API - let’s get a little creative and design a screen in Budibase. We set up a few simple tables in my Budibase DB for orders, and now we want to give the user the option to create a new one.
 
-In the Design section, I have made a simple screen to create new order records. I’ve avoided complexity here just for the demonstration, but in reality, this should be more comprehensive and, ideally, a little prettier. However for the purpose of this demo, this will work. This can be adapted to whatever you need - the main principle is to set up some action on your screen that can [trigger an automation.](https://docs.budibase.com/docs/trigger)
+In the Design section, I have made a simple screen to create new order records. However for the purpose of this demo, this will work. This can be adapted to whatever you need - the main principle is to set up some action on your screen that can [trigger an automation.](https://docs.budibase.com/docs/trigger)
 
 ![Create a customer](https://res.cloudinary.com/daog6scxm/image/upload/v1721830361/product-marketing-images/Files%20in%20automation/carbone/carbone5.png)
 
@@ -148,7 +148,7 @@ When a Budibase REST query runs and has a file to be downloaded as the response,
 
 
 ### Step 2: Design the ‘new employee’ form in Budibase
-First, we have to create a table for your employees - for this example, we’ll use Budibase DB. I have added an Attachment column to the table, which we will later use to store the signed employee contract. Once you set up the table for your employees, you can build a screen to add new employees easily.
+First, we have to create a table for your employees - for this example, we’ll use Budibase DB. I have added an [Attachment column](https://docs.budibase.com/docs/attachments) to the table, which we will later use to store the signed employee contract. Once you set up the table for your employees, you can build a screen to add new employees easily.
 
 ![Design form](https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc5.png) 
 
@@ -161,7 +161,7 @@ The automation for this step will be triggered when a new employee is created us
 To help us later, I've also created an additional column in my Employees table to store the Document ID returned by the PandaDoc API. Using this Update Row step, we update the newly created employee record with the Document ID from our query response.
 
 ### Step 4: Use a webhook automation to send the document to the candidate 
-As briefly mentioned earlier, the Create Document endpoint generates the document asynchronously, so we need to wait for the document status to update on the PandaDoc side before sending it to the candidate. To wait for this, we can use a PandaDoc webhook, which will trigger a Budibase automation.
+As briefly mentioned earlier, the Create Document endpoint generates the document asynchronously, so we need to wait for the document status to update on the PandaDoc side before sending it to the candidate. To wait for this, we can use a PandaDoc webhook, which will [trigger a Budibase automation.](https://docs.budibase.com/docs/webhook)
 
 ![Create Webhook](https://res.cloudinary.com/daog6scxm/image/upload/v1721830432/product-marketing-images/Files%20in%20automation/pandadoc/pandadoc8.png) 
 
