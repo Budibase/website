@@ -47,7 +47,7 @@ To demonstrate this new functionality, we’ve pulled together two practical wor
 *Let’s jump into it!*
 
 ## Send an invoice as an email attachment
-For our first example, we will use [Carbone.io,](carbone.io) an open-source report generator, to build an invoice using data pulled from Budibase. We have already set up an invoice template and stored it in Carbone, but this would work with any major PFD generator, such as Adobe Acrobat, PandaDoc, and more.
+For our first example, we will use [Carbone.io,](carbone.io) an open-source report generator, to build an invoice using data pulled from Budibase. We have already set up an invoice template and stored it in Carbone, but this would work with any major PDF generator, such as Adobe Acrobat, PandaDoc, and more.
 
 **Here's what the end result will look like from start-to-finish:**
 ![Carbone workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1721903659/product-marketing-images/Files%20in%20automation/carbone/email_demo_720_24fps_ciwxli.gif)
