@@ -1,5 +1,5 @@
 ---
-title: New functionality for superior ticketing systems
+title: New Functionality for Superior Ticketing Systems
 description: One workflow that we see come up time and time again is internal ticketing systems, with some very consistent requirements, regardless of what the tickets are tracking. Today, we're taking these systems to the next level with a new set of features.
 type: blog
 layout: single
