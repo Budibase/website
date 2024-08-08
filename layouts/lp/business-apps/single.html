@@ -14,11 +14,22 @@
                     target="_blank" role="button" data-overlay-color="#151b26">
                     Get started free
                 </a>
-                <a class="btn btn-coral-outline btn-xl sm-btn-block" rel="noopener"
-                href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=navigation-cta"
-                target="_blank" role="button" data-overlay-color="#151b26">
-                Book a demo
-            </a>
+                <button popovertarget="my-popover" class="trigger-btn btn btn-coral-outline btn-xl sm-btn-block">Book a demo</button>
+                <div id="my-popover" popover=auto>
+                    <button class="close-btn" popovertarget="my-popover" popovertargetaction="hide">
+                    <span aria-hidden="true"><svg class="svg" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path fill="#000" fill-opacity="1" fill-rule="nonzero" stroke="none" d="m6 5.293 4.789-4.79.707.708-4.79 4.79 4.79 4.789-.707.707-4.79-4.79-4.789 4.79-.707-.707L5.293 6 .502 1.211 1.21.504 6 5.294z"></path></svg></span>
+                    <span class="sr-only">Close</span>
+                    </button>
+                    <h2 class="mb-3">Request a demo</h2>
+                    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+                    <script>
+                    hbspt.forms.create({
+                        region: "eu1",
+                        portalId: "26121987",
+                        formId: "a4687f29-561b-4aee-8f68-29d130f47c15"
+                    });
+                    </script>
+                </div>
                 </div>
 
             </div>

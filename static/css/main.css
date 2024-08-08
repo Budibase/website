@@ -282,6 +282,19 @@ summary {
   outline: 0 !important;
 }
 
+[popover] {
+  padding: 1.5rem 1.5rem;
+  border-radius: 12px;
+  gap: 1rem;
+  border: none;
+  min-width: 400px;
+}
+
+[popover]::backdrop {
+  background-color: var(--black);
+  opacity: 0.5;
+}
+
 .price-popover {
   bottom: calc(anchor(bottom));
   left: anchor(center);
@@ -8648,7 +8661,7 @@ select {
 
 .btn-xl {
   font-size: 18px;
-  padding: 12px 18px;
+  padding: 14px 18px;
   font-variation-settings: 'wght' 550;
 }
 @media (min-width: 600px) {
@@ -8657,17 +8670,6 @@ select {
     padding: 16px 24px;
     font-variation-settings: 'wght' 550;
   }
-}
-.btn-xl::after {
-  content: "->";
-  transition: 0.1s ease-in;
-  padding-left: 1rem;
-  padding-right: 2px;
-}
-
-.btn-xl:hover:after {
-  content: "->";
-  transform: translateX(6px)
 }
 
 .btn-wide {
