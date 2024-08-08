@@ -7,7 +7,7 @@ profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1704878154/Photos
 image: https://res.cloudinary.com/daog6scxm/image/upload/v1723107572/product-marketing-images/Ticketing%20workflow/Ticketing_hero_image_rjbzop.webp
 images:
   - 
-date: "2024-08-07"
+date: "2024-08-08"
 author: Jamie Birss
 draft: false
 ---
