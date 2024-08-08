@@ -4,7 +4,7 @@ description: One workflow that we see come up time and time again is internal ti
 type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1704878154/Photos/headshot_aw4uce.png
-image: 
+image: https://res.cloudinary.com/daog6scxm/image/upload/v1723107572/product-marketing-images/Ticketing%20workflow/Ticketing_hero_image_rjbzop.webp
 images:
   - 
 date: "2024-08-07"
