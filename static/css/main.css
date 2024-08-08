@@ -8390,10 +8390,17 @@ fieldset:disabled a.btn {
   background-color: var(--base-14);
   cursor: pointer;
 }
+.btn-primary:active,
+.btn-primary.active {
+  box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
+  color: var(--white);
+  background: var(--bb-indigo) !important;
+}
 .btn-primary:focus,
 .btn-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
   color: var(--white);
+  background: var(--bb-indigo);
 }
 
 .btn-white {
