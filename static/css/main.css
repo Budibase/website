@@ -1010,6 +1010,10 @@ textarea {
   font-variation-settings: 'wght' 400;
 }
 
+textarea {
+  min-height: 100px;
+}
+
 .pricing-select-wrapper {
   display: flex;
   flex-direction: row;
