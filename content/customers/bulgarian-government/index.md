@@ -10,9 +10,9 @@ images:
 customer: Bulgarian Gov
 headcount: "83,943"
 founded: "1942/1989"
-Revenue: 24 billion USD
-Industry: Government
-Website: https://www.gov.bg/en
+revenue: 24 billion USD
+industry: Government
+website: https://www.gov.bg/en
 author: Bozhidar Bozhanov
 position: Minister of Electronic Governance
 ---

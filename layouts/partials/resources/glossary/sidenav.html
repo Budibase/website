@@ -1,0 +1,29 @@
+<aside class="resources_sidebar">
+    <nav aria-label="Main Navigation">
+        <ul class="ul-none text-xs">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+              <li class="my-3">
+                <a 
+                class="a-alt {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) }}is-active{{ end }}"
+                href="{{ .URL }}">
+                {{ .Name }}
+                </a>
+                {{ if .HasChildren }}
+                  <ul class="text-xs ul-none pl-3">
+                    {{ range .Children }}
+                      <li class="my-2">
+                        <a
+                        class="a-alt {{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}"
+                        href="{{ .URL }}">
+                          {{ .Name }}
+                        </a>
+                      </li>
+                    {{ end }}
+                  </ul>
+                {{ end }}
+              </li>
+            {{ end }}
+          </ul>
+       </nav>
+</aside>

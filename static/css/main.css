@@ -174,6 +174,10 @@ section {
   display: block;
 }
 
+.breadcrumb {
+  padding: 0 .25rem;
+}
+
 .mobile-nav {
   display: block;
   padding: 0 16px;
@@ -844,7 +848,7 @@ a:focus {
 
 
 .a-alt {
-  color: #111;
+  color: var(--base-13);
   background-color: transparent;
   opacity: 1 !important;
   cursor: pointer;
@@ -899,6 +903,12 @@ a:focus {
   color: var(--white);
 }
 
+.is-active {
+  color: var(--black);
+  font-weight: 500;
+  font-variation-settings: "wght" 570;
+  opacity: 1;
+}
 
 u {
   text-underline-offset: 6px;
@@ -6936,6 +6946,135 @@ ul {
   }
 }
 
+/* Resources */
+
+.resources_layout_main {
+  min-height: 100vh
+}
+
+.resources_layout_main>div {
+  display: flex;
+  min-height: calc(100vh - var(--header-height))
+}
+
+.resources_layout_wrapper {
+  margin: 0 auto;
+  position: relative;
+  max-width: var(--ds-page-width-with-margin)
+}
+
+@media screen and (max-width: 950px) and (min-width:450px) {
+  .resources_layout_wrapper {
+      padding:0 24px
+  }
+}
+
+@media (min-width: 951px) {
+  .resource_layout {
+      display:grid;
+      grid-template-columns: minmax(300px,auto) 1fr minmax(300px,auto)
+  }
+}
+
+
+.resources_sidebar {
+  padding: 16px 24px;
+  -webkit-overflow-scrolling: touch;
+  flex-shrink: 0;
+  background-color: var(--white);
+  max-width: 300px;
+  height: calc(100vh - 64px);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 64px;
+  overflow-y: auto;
+  width: 300px;
+  scrollbar-color: auto transparent;
+  scrollbar-width: thin
+}
+
+.resources_sidebar::-webkit-scrollbar {
+  background: var(--base-1);
+  border-radius: 4px;
+  height: 8px;
+  width: 8px
+}
+
+.resources_sidebar::-webkit-scrollbar-thumb {
+  background: var(--base-2);
+  border-radius: 4px
+}
+
+.resources_sidebarGuide {
+  -webkit-overflow-scrolling: touch;
+  flex-shrink: 0;
+  background-color: var(--base-1);
+  height: calc(100vh - 64px);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 64px;
+  overflow-y: scroll
+}
+
+.resources_sidebarGuides,.resources_sidebarGuides {
+  padding-right: 20px;
+  padding-left: 20px;
+  max-width: 300px;
+  width: 300px
+}
+
+.resources_sidebarWithSecondaryNav {
+  top: 106px
+}
+
+.resources_sidebarGuidesBackground::-webkit-scrollbar {
+  background: var(--accents-1)
+}
+
+.resources_sidebarWithStyledScrollbar::-webkit-scrollbar {
+  border-radius: 4px;
+  height: 8px;
+  width: 8px
+}
+
+.resources_sidebarWithStyledScrollbar::-webkit-scrollbar-thumb {
+  background: var(--accents-2);
+  border-radius: 4px
+}
+
+.resources_hideSidebar {
+  display: none
+}
+
+@media screen and (max-width: 950px) {
+  .resources_sidebarGuides,.resources_sidebar {
+      border-right:0;
+      display: none;
+      left: 0;
+      padding: 40px 24px;
+      right: 0;
+      width: 100%
+  }
+
+  .resources_sidebarGuides__t_k9r.resources_sidebar_active,.resources_sidebar.resources_sidebar_active {
+      display: block
+  }
+}
+
+.github-button {
+  height: 36px;
+}
+.resources_content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 904px;
+  margin-left: auto;
+  min-width: 0;
+  margin-right: auto;
+  padding: 20px 48px 64px;
+}
+
 .internal-tool-contain-container {
   display: flex;
   flex-direction: column;
@@ -7135,7 +7274,7 @@ ul {
 
 
 .text-gray {
-  color: var(--base-8);
+  color: var(--base-8) !important;
 }
 
 .internal-tools-title-container {
@@ -10510,67 +10649,67 @@ button.close {
 /* Colors */
 
 .base-1 {
-  color: var(--base-1)
+  color: var(--base-1) !important;
 }
 .base-2 {
-  color: var(--base-2)
+  color: var(--base-2) !important;
 }
 
 .base-3 {
-  color: var(--base-3)
+  color: var(--base-3) !important;
 }
 
 .base-4 {
-  color: var(--base-4)
+  color: var(--base-4) !important;
 }
 
 .base-5 {
-  color: var(--base-5)
+  color: var(--base-5) !important;
 }
 .base-6 {
-  color: var(--base-6)
+  color: var(--base-6) !important;
 }
 .base-7 {
-  color: var(--base-7)
+  color: var(--base-7) !important;
 }
 .base-8 {
-  color: var(--base-8)
+  color: var(--base-8) !important;
 }
 .base-9 {
-  color: var(--base-9)
+  color: var(--base-9) !important;
 }
 .base-10 {
-  color: var(--base-10)
+  color: var(--base-10) !important;
 }
 .base-11 {
-  color: var(--base-11)
+  color: var(--base-11) !important;
 }
 .base-12 {
-  color: var(--base-12)
+  color: var(--base-12) !important;
 }
 .base-13 {
-  color: var(--base-13)
+  color: var(--base-13) !important;
 }
 .base-14 {
-  color: var(--base-14)
+  color: var(--base-14) !important;
 }
 .base-15{
-  color: var(--base-15)
+  color: var(--base-15) !important;
 }
 .base-16 {
-  color: var(--base-16)
+  color: var(--base-16) !important;
 }
 .base-17 {
-  color: var(--base-17)
+  color: var(--base-17) !important;
 }
 .base-18 {
-  color: var(--base-18)
+  color: var(--base-18) !important;
 }
 .base-19 {
-  color: var(--base-19)
+  color: var(--base-19) !important;
 }
 .base-20 {
-  color: var(--base-20)
+  color: var(--base-20) !important;
 }
 
 .green {
