@@ -252,7 +252,7 @@ The challenge here is that incorporating a new resource within any of these prac
 
 As such, it’s important to define and implement data-sharing requirements between processes as part of our request and fulfillment lifecycle stages.
 
-The other most common interactions between asset management and other internal services relate to our **incident management **and **support desk** practices. These will often act as triggers during the service stage of our asset management lifecycle for hardware devices.
+The other most common interactions between asset management and other internal services relate to our **incident management** and **support desk** practices. These will often act as triggers during the service stage of our asset management lifecycle for hardware devices.
 
 For instance, if an incident response or support ticket necessitates maintenance actions within our asset estate. Handling this requires us to establish appropriate integrations between our incident management, support ticketing, and asset management solutions.
 
