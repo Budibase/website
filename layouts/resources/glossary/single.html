@@ -9,7 +9,7 @@
     <div class="container-8 article">
       <nav class="flex-row flex space-1-bottom" aria-label="breadcrumbs">
         {{- range after 2 .Ancestors.Reverse }}
-          <a href="{{ .RelPermalink }}" class="text-xs base-12 no-underline">{{ if .IsHome }}{{ i18n "home" }}{{ else }}{{ .LinkTitle }}{{ end }}</a><span class="px-1 opacity-50 text-xs">></span>
+          <a href="{{ .RelPermalink }}" class="text-xs base-12 no-underline">{{ .LinkTitle }}</a><span class="px-1 opacity-50 text-xs">></span>
         {{- end }}
             <a class="a no-underline text-xs text-indigo" aria-current="location">{{ .Title }}</a>
       </nav>
@@ -22,7 +22,6 @@
         {{ .Title }}
       </h1>
       <div class="mb-6">{{ .Content }}</div>
-      <p> {{.Params.Author }}<br><span class="opacity-50">{{.Params.Position }}</span></p>
     </div>
   </section>
 </div>

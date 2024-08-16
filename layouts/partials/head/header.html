@@ -15,7 +15,9 @@
   {{- partial "head/opengraph.html" . -}}
   {{- partial "head/twitter-cards.html" . -}}
   {{- partial "head/meta.html" . -}}
-  {{ with .Site.Params.Author }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.Author }}
+  <meta name="author" content="{{ . }}">
+  {{ end }}
  
   {{ hugo.Generator }}
 
@@ -23,7 +25,8 @@
   <meta name="twitter:site" content="@budibase">
   {{ template "_internal/schema.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
-  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>  
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
 <body lang="{{ .Site.LanguageCode }}">

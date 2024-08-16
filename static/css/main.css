@@ -7075,7 +7075,6 @@ ul {
   font-weight: 500;
   font-variation-settings: "wght" 525;
   opacity: 1;
-
 }
 
 .not-active-link {
@@ -9147,6 +9146,19 @@ input[type="button"].btn-block {
 
 .fade:not(.show) {
   opacity: 0;
+}
+
+.animated {
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+
+.fade-in {
+  animation-name: fadeIn;
 }
 
 .collapse:not(.show) {
