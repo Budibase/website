@@ -9148,19 +9148,6 @@ input[type="button"].btn-block {
   opacity: 0;
 }
 
-.animated {
-  -webkit-animation-duration: .2s;
-  animation-duration: .2s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-}
-
-.fade-in {
-  animation-name: fadeIn;
-}
-
 .collapse:not(.show) {
   display: none;
 }
