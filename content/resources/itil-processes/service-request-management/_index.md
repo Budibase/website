@@ -1,6 +1,6 @@
 ---
 date: 2024-08-10
-title: Service request management
+title: What is Service Request Management?
 description: Learn how to design effective change management processes and apply ITIL thinking to drive organizational value.
 image: "https://res.cloudinary.com/daog6scxm/image/upload/v1723816303/cms/itil-resources/ITIL-Hero_l3gpgt.png"
 images: 
