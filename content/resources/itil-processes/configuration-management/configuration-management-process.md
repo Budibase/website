@@ -54,15 +54,15 @@ Broadly speaking, we can place most CIs into one of the following categories:
 
 
 
-* **Hardware **- including end-user devices, network hardware, peripherals, and other assets.
-* **Software **- including SaaS licenses, custom solutions, libraries, code repositories, and other software resources.
-* **Networks and cloud environments **- elements contributing to our on-prem or cloud environments.
-* **Data and information resources **- databases, views, reports, spreadsheets, files, and documents.
-* **Facilities **- including buildings and other infrastructure required for IT service delivery.
-* **People **- service users and delivery colleagues, as well as other stakeholders like vendors, suppliers, contractors, or any other personas required to deliver our services.
-* **Policies, procedures, and processes **- including business rules, data governance, and more.
-* **Contracts **- including our relationships with a variety of stakeholders. For example, support arrangements with vendors.
-* **Services **- one service can typically be dependent on several others. These dependencies must be handled in the same way we’d manage any other CIs.
+* **Hardware** - including end-user devices, network hardware, peripherals, and other assets.
+* **Software** - including SaaS licenses, custom solutions, libraries, code repositories, and other software resources.
+* **Networks and cloud environments** - elements contributing to our on-prem or cloud environments.
+* **Data and information resources** - databases, views, reports, spreadsheets, files, and documents.
+* **Facilities** - including buildings and other infrastructure required for IT service delivery.
+* **People** - service users and delivery colleagues, as well as other stakeholders like vendors, suppliers, contractors, or any other personas required to deliver our services.
+* **Policies, procedures, and processes** - including business rules, data governance, and more.
+* **Contracts** - including our relationships with a variety of stakeholders. For example, support arrangements with vendors.
+* **Services** - one service can typically be dependent on several others. These dependencies must be handled in the same way we’d manage any other CIs.
 
 Of course, each of these also includes a great deal of scope for variation. For instance, our information needs relating to end-user devices and data center infrastructure, two types of hardware, are likely to differ greatly.
 

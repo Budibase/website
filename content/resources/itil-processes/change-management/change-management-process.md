@@ -52,9 +52,9 @@ These are:
 
 
 
-* **Standard changes **- low-risk, regular changes that are required as part of defined service delivery and, therefore, require little or no authorization. For example, add a user to an existing software tool.
-* **Normal changes **- irregular changes with varying levels of risk that are required to modify or update our service provision. The authorization steps involved are commensurate with the specific level of risk. For example, deploying a new feature to an existing software tool.
-* **Emergency changes **- changes that are required to respond to a disaster, major incident, interruption, or other emergency. The priority is implementing the required changes as soon as possible so authorization processes may be expedited, but this should not undermine our normal controls. For example, rolling out a security patch in response to a data breach.
+* **Standard changes** - low-risk, regular changes that are required as part of defined service delivery and, therefore, require little or no authorization. For example, add a user to an existing software tool.
+* **Normal changes** - irregular changes with varying levels of risk that are required to modify or update our service provision. The authorization steps involved are commensurate with the specific level of risk. For example, deploying a new feature to an existing software tool.
+* **Emergency changes** - changes that are required to respond to a disaster, major incident, interruption, or other emergency. The priority is implementing the required changes as soon as possible so authorization processes may be expedited, but this should not undermine our normal controls. For example, rolling out a security patch in response to a data breach.
 
 Each of these is handled slightly differently, requiring distinct models to manage change effectively, although ITIL does not go so far as to outline specific steps for each.
 
@@ -143,7 +143,7 @@ An effective change authorization flow has two elements:
 
 
 1. **The change authority** - whether this is a dedicated change manager, a change authority board, a technical colleague, an IT manager, or any other team member responsible for approving a request.
-2. **The change criteria **- the specific business rules that we enforce to determine which changes should be approved.
+2. **The change criteria** - the specific business rules that we enforce to determine which changes should be approved.
 
 By the end of this stage, approved changes will be ready to be added to our change schedule.
 

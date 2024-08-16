@@ -480,7 +480,7 @@ The three constituent practices here are as follows.
 
 #### Deployment management
 
-**Deployment management **deals with moving CIs to live environments. This could be hardware, software, documentation, new processes, or any other elements of our IT service delivery. The goal is to provide a smooth, incident-free transition when implementing changes.
+**Deployment management** deals with moving CIs to live environments. This could be hardware, software, documentation, new processes, or any other elements of our IT service delivery. The goal is to provide a smooth, incident-free transition when implementing changes.
 
 A wide variety of strategies can be employed for managing deployments, such as:
 
@@ -488,7 +488,7 @@ A wide variety of strategies can be employed for managing deployments, such as:
 
 * Iterative deployments - Changes are released on a fixed, regular schedule.
 * Continuous deployment - Changes are deployed as and when they are ready.
-* Bing-bang deployment - Changes are bundled into major versions.
+* Big-bang deployment - Changes are bundled into major versions.
 * Git-based deployment - Changes are handled using a controlled repository, allowing end users to determine when and if to pull updates.
 
 
