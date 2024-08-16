@@ -2,12 +2,18 @@
 date: 2024-08-10
 title: Designing Service Request Management Processes
 description: Learn to design sleek, efficient service request management processes and apply ITIL’s core principles.
-image: "https://res.cloudinary.com/daog6scxm/image/upload/v1723107292/cms/ticketing-system/ticketing_systems_blog_post_v2_ylncwt.png"
+image: "https://res.cloudinary.com/daog6scxm/image/upload/v1723816303/cms/itil-resources/ITIL-Hero_l3gpgt.png"
 images: 
-- https://res.cloudinary.com/daog6scxm/image/upload/v1723107292/cms/ticketing-system/ticketing_systems_blog_post_v2_ylncwt.png
+- https://res.cloudinary.com/daog6scxm/image/upload/v1723816303/cms/itil-resources/ITIL-Hero_l3gpgt.png
 draft: false
 type: resources/glossary
 layout: single
+menus:
+  main:
+    name: Process
+    parent: serviceRequestManagement
+    post: service-request-management-process
+    identifier: serviceRequestManagementProcess
 ---
 
 Service requests are at the heart of how we deliver IT capabilities across organizations. These are the interactions that enable on-the-ground colleagues to access the services they need to carry out their own daily tasks.
@@ -123,8 +129,8 @@ These are:
 
 
 
-1. **Assessment criteria **- the rules that determine whether or not a request is approved.
-2. **The approval authority **- the colleagues or other actors responsible for approving a specific type of request.
+1. **Assessment criteria** - the rules that determine whether or not a request is approved.
+2. **The approval authority** - the colleagues or other actors responsible for approving a specific type of request.
 
 Assessment criteria can vary hugely depending on the nature of the request at hand, potentially including technical, operational, financial, and other considerations.
 
