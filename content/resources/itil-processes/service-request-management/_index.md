@@ -12,6 +12,7 @@ menus:
   main:
     name: Service request management
     identifier: serviceRequestManagement
+    post: service-request-management
 ---
 
 Service request management is central to how we handle interactions between the IT team and end users.
