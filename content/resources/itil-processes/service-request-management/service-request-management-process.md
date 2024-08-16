@@ -8,6 +8,11 @@ images:
 draft: false
 type: resources/glossary
 layout: single
+menus:
+  main:
+    name: Process
+    parent: serviceRequestManagement
+    post: service-request-management-process
 ---
 
 Service requests are at the heart of how we deliver IT capabilities across organizations. These are the interactions that enable on-the-ground colleagues to access the services they need to carry out their own daily tasks.
