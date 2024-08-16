@@ -904,9 +904,9 @@ a:focus {
 }
 
 .is-active {
-  color: var(--black);
+  color: var(--black) !important;
   font-weight: 500;
-  font-variation-settings: "wght" 570;
+  font-variation-settings: "wght" 525;
   opacity: 1;
 }
 
@@ -6977,7 +6977,7 @@ ul {
 }
 
 @media (min-width: 951px) {
-  .resource_layout {
+  .resources_layout {
       display:grid;
       grid-template-columns: minmax(300px,auto) 1fr minmax(300px,auto)
   }
@@ -7068,6 +7068,21 @@ ul {
   }
 }
 
+.active-link {
+  border-left: 1px solid var(--bb-indigo) !important;
+  padding-left: 1rem;
+  color: var(--black) !important;
+  font-weight: 500;
+  font-variation-settings: "wght" 525;
+  opacity: 1;
+
+}
+
+.not-active-link {
+  border-left: 1px solid var(--base-6) !important;
+  padding-left: 1rem;
+}
+
 .github-button {
   height: 36px;
 }
@@ -7081,6 +7096,8 @@ ul {
   margin-right: auto;
   padding: 20px 48px 64px;
 }
+
+
 
 .internal-tool-contain-container {
   display: flex;
