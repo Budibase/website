@@ -129,8 +129,8 @@ These are:
 
 
 
-1. **Assessment criteria **- the rules that determine whether or not a request is approved.
-2. **The approval authority **- the colleagues or other actors responsible for approving a specific type of request.
+1. **Assessment criteria** - the rules that determine whether or not a request is approved.
+2. **The approval authority** - the colleagues or other actors responsible for approving a specific type of request.
 
 Assessment criteria can vary hugely depending on the nature of the request at hand, potentially including technical, operational, financial, and other considerations.
 
