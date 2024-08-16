@@ -13,6 +13,7 @@ menus:
     name: Lifecycle
     parent: assetManagement
     post: asset-management-lifecycle
+    identifier: assetManagementLifecycle
 ---
 
 Within our asset management practice, one of the fundamental challenges is defining and controlling our resources, tools, and devices from the point of acquisition until we no longer need them.

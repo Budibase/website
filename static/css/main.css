@@ -848,7 +848,7 @@ a:focus {
 
 
 .a-alt {
-  color: var(--base-13);
+  color: var(--base-13) !important;
   background-color: transparent;
   opacity: 1 !important;
   cursor: pointer;
@@ -3139,6 +3139,13 @@ pre>code {
   }
 }
 
+.dn {
+  display: none !important;
+}
+
+.db {
+  display: block !important;
+}
 
 /* Homepage */
 

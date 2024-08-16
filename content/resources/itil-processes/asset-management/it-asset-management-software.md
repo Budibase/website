@@ -13,6 +13,7 @@ menus:
     name: Software
     parent: assetManagement
     post: asset-management-software
+    identifier: assetManagementSoftware
 ---
 
 

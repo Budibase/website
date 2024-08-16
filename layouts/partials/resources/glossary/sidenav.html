@@ -1,27 +1,27 @@
+{{ $currentPage := . }}
 <aside class="resources_sidebar">
     <nav aria-label="Main Navigation">
         <ul class="ul-none text-xs">
-            {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
               <li class="my-3">
                 <a 
-                class="a-alt {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) }}is-active{{ end }}"
-                href="{{ .URL }}">
+                class="js-toggle a-alt bb  {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) }}is-active {{ end }}" 
+                href="{{ .URL }}" data-target="{{ .Identifier }}">
                 {{ .Name }}
                 </a>
-                {{ if .HasChildren }}
-                  <ul class="text-xs ul-none pl-3">
-                    {{ range .Children }}
+                {{- if .HasChildren }}
+                  <ul class="{{ .Identifier }} desktopmenu text-xs ul-none pl-3 {{if or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) }} db {{ else }} dn {{ end }}">
+                    {{- range .Children }}
                       <li class="my-2">
                         <a
-                        class="a-alt {{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}"
+                        class="db a-alt {{ if $currentPage.IsMenuCurrent "main" . }} is-active {{ end }}"
                         href="{{ .URL }}">
                           {{ .Name }}
                         </a>
                       </li>
-                    {{ end }}
+                    {{- end }}
                   </ul>
-                {{ end }}
+                {{- end }}
               </li>
             {{ end }}
           </ul>
