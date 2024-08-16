@@ -1,0 +1,39 @@
+{{ partial "head/header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+<div class="container-12 resources_layout_main">
+  <div class="resources_layout_wrapper">
+{{ partial "resources/glossary/sidenav.html" . }}
+  <section class="resources_content">
+    <div class="container-8 article">
+      <nav class="flex-row flex space-1-bottom" aria-label="breadcrumbs">
+        {{- range after 2 .Ancestors.Reverse }}
+          <a href="{{ .RelPermalink }}" class="text-xs base-12 no-underline">{{ .LinkTitle }}</a><span class="px-1 opacity-50 text-xs">></span>
+        {{- end }}
+            <a class="a no-underline text-xs text-indigo" aria-current="location">{{ .Title }}</a>
+      </nav>
+      {{ with .Resources.Match "*/cover*" }}
+      {{ range . }}
+      <img src="{{ .RelPermalink }}" class="w-100 rounded mb-4" />
+      {{ end }}
+      {{ end }}
+      <h1 class="hero-title mb-2">
+        {{ .Title }}
+      </h1>
+      <div class="mb-6">{{ .Content }}</div>
+    </div>
+  </section>
+</div>
+
+</div>
+<!--Article-->
+
+{{ partial "cta.html" . }} 
+
+{{ partial "footer.html" . }}
+
+<script src="{{ "js/menutoggle.js" | absURL }}"></script>
+
+<!-- JS -->
+

@@ -7,6 +7,18 @@ disableKinds: ["taxonomy", "categories"]
 ignoreErrors: ["error-disable-taxonomy"]
 copyright: "This work is licensed and owned by Budibase"
 
+
+menus:
+  main:
+  - name: ITIL processes
+    url: /resources/itil-processes/
+    weight: 1
+    identifier: itilProcesses
+  - name: Asset management
+    url: /resources/itil-processes/asset-management/
+    weight: 2
+    identifier: assetManagement
+
 markup:
   goldmark:
     rendered:  
@@ -28,9 +40,6 @@ params:
   dateform: "Jan 2, 2006"
   lang: "en"
   images: ['homepage-meta.png']
-
-author:
-  name: "Joseph Johnston"
 
 params.publisher:
   name: "Budibase"
