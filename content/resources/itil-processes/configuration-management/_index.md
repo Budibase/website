@@ -2,9 +2,9 @@
 date: 2024-08-10
 title: What is Configuration Management?
 description: ITIL configuration management deals with how we handle data on all elements that contribute to our IT service portfolio.
-image: "https://res.cloudinary.com/daog6scxm/image/upload/v1723107292/cms/ticketing-system/ticketing_systems_blog_post_v2_ylncwt.png"
+image: "https://res.cloudinary.com/daog6scxm/image/upload/v1723816303/cms/itil-resources/ITIL-Hero_l3gpgt.png"
 images: 
-- https://res.cloudinary.com/daog6scxm/image/upload/v1723107292/cms/ticketing-system/ticketing_systems_blog_post_v2_ylncwt.png
+- https://res.cloudinary.com/daog6scxm/image/upload/v1723816303/cms/itil-resources/ITIL-Hero_l3gpgt.png
 draft: false
 type: resources/glossary
 layout: single
