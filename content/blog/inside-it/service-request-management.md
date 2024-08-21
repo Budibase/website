@@ -3,7 +3,7 @@ author = "Ronan McQuillan"
 date = 2024-06-04
 description = "Check out our guide to service request management for IT teams."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "What is Service Request Management?"
+title = "Service Request Management | In-Depth Guide"
 +++
 
 IT teams handle huge volumes of service requests every day. This is a key part of how we deliver internal services to colleagues and customers.
