@@ -39,6 +39,8 @@ In some organizations, we’ll see teams relying on centralized off-the-shelf to
 
 In others, handling change is more of a shared responsibility across the IT team and, therefore, requires a distributed system of internal tools and other solutions.
 
+{{< vimeo id="1001639751" title="Change request management software" >}}
+
 
 ### Key capabilities
 
@@ -167,6 +169,8 @@ As such, when we develop end-user capabilities within our change management syst
 An additional challenge here can stem from the fact that the specific data we need might be stored in different locations and formats. 
 
 In these cases, we may need to perform extensive data transformations and aggregations in order to surface the appropriate views for particular users.
+
+{{< vimeo id="1001639737" title="Change request management software" >}}
 
 
 ### Approval and authorization workflows
