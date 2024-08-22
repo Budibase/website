@@ -6,13 +6,19 @@
        url('/fonts/InterVar.woff2') format('woff2'); 
 }
 
+@font-face{
+  font-family: 'IBM Plex Mono';
+  font-weight: 500;
+  src: url('/fonts/IBMPlexMono-Medium.woff2') format('woff2');
+}
+
 html {
   --bb-coral: hsl(0, 100%, 65%);
   --bb-coral-light: rgb(249, 119, 119);
   --bb-coral-lightest: rgb(246, 203, 203);
   --bb-coral-dark: rgb(232, 65, 65);
   --bb-coral-darkest: hsl(0, 55%, 27%);
-  --bb-indigo: #7057ff;
+  --bb-indigo: hsl(249, 100%, 67%);
   --bb-indigo-light: rgb(159, 143, 255);
   --bb-indigo-lightest: hsl(249, 77%, 88%);
   --bb-indigo-dark: rgb(94, 71, 225);
@@ -291,6 +297,7 @@ summary {
   gap: 1rem;
   border: none;
   min-width: 400px;
+  max-width: 600px;
 }
 
 [popover]::backdrop {
@@ -4624,6 +4631,13 @@ details[open]>summary {
   justify-content: center !important;
 }
 
+@media (min-width: 1000px) {
+  .justify-center-lg {
+    -ms-flex-pack: justify !important;
+    justify-content: center !important;
+  }
+}
+
 @media (min-width: 1400px) {
   .justify-center-xl {
     -ms-flex-pack: justify !important;
@@ -8441,6 +8455,32 @@ fieldset:disabled a.btn {
   color: white;
 }
 
+.btn-v3 {
+  background-color: hsla(249, 100%, 67%, 20%);
+  border: 1px solid hsla(249, 100%, 67%, 25%) !important;
+  color: white;
+  border-radius: 6px !important;
+}
+.btn-v3:hover {
+  background-color: hsla(249, 100%, 67%, 40%);
+  border: 1px solid hsla(249, 100%, 67%, 50%) !important;
+  color: white;
+  border-radius: 6px !important;
+  cursor: auto ;
+}
+.btn-v3:focus {
+  background-color: hsla(249, 100%, 67%, 60%);
+  border: 1px solid hsla(249, 100%, 67%, 75%) !important;
+  color: white;
+  border-radius: 6px !important;
+}
+.btn-v3:active {
+  background-color: hsla(249, 100%, 67%, 80%);
+  border: 1px solid hsla(249, 100%, 67%, 100%) !important;
+  color: white;
+  border-radius: 6px !important;
+}
+
 .btn-cta-gradient-darkest {
   color: var(--white);
   background: var(--bb-gradient-darkest);
@@ -8665,6 +8705,47 @@ label {
 .hs-error-msg {
   color: var(--accent-crimson);
   font-size: 12px !important;
+}
+
+.legal-consent-container . {
+  margin: 0;
+}
+
+.hs-form-field {
+  padding: 6px 0;
+}
+
+.hs-richtext {
+  font-size: 11px;
+  text-align: left;
+  margin: 12px 0;
+}
+.hs-richtext>p {
+  font-size: 11px;
+  text-align: left;
+}
+.hs-fieldtype-booleancheckbox>* {
+  margin-left: 0 !important;
+  list-style-type: none !important;
+}
+.inputs-list {
+  list-style-type: none !important;
+  padding-inline-start: 0px;
+  margin: 0 !important;
+}
+.actions {
+  text-align: right;
+}
+
+.hs-form-booleancheckbox-display {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.hs-form-booleancheckbox-display>input {
+  width: 1.25em !important;
+  height: 1.25em;
 }
 
 .fieldset.form-columns-1 {
@@ -10972,6 +11053,7 @@ button.bg-light:focus {
 .bg-black {
   background-color: black;
   z-index: -2;
+  position: absolute;
 }
 
 .bg-white {
@@ -11035,6 +11117,44 @@ a.bg-blue:focus,
 button.bg-blue:hover,
 button.bg-blue:focus {
   background-color: #1655b4 !important;
+}
+
+.v3-section {
+  max-width: unset;
+  margin: 0;
+  width: 100vw;
+  overflow: hidden;
+}
+
+
+
+.v3-bg-image {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+.v3-bg-image>img {
+  right: -36vw;
+  left: -36vw;
+  height: 100%;
+  pointer-events: none;
+}
+
+.v3-content {
+  z-index: 2;
+  pointer-events: all;
+}
+
+
+
+.z-2 {
+  position: relative;
+  z-index: 2;
 }
 
 .rounded {
@@ -11482,7 +11602,7 @@ button.bg-blue:focus {
 
 
   .text-monospace {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "InterVar", "Courier New", monospace;
+    font-family: "IBM Plex Mono", monospace;
   }
 
   .text-justify {
@@ -11584,14 +11704,17 @@ button.bg-blue:focus {
   }
 
   .font-weight-normal {
+    font-weight: 400;
     font-variation-settings: "wght" 400 !important;
   }
 
   .font-weight-medium {
+    font-weight: 500;
     font-variation-settings: "wght" 500 !important;
   }
 
   .font-weight-semi-bold {
+    font-weight: 600;
     font-variation-settings: "wght" 580 !important;
 
   }
