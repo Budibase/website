@@ -4060,6 +4060,19 @@ pre>code {
   font-variation-settings: "wght" 600;
 }
 
+.tag-orange {
+  background-color: var(--bb-midnight)/20;
+  border-radius: 20px;
+  border: 1px solid var(--accent-sunset);
+  font-size: 12px;
+  height: 24px;
+  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+  font-variation-settings: "wght" 600;
+}
+
 details>summary {
   list-style-type: '＋ ';
 }
@@ -5039,6 +5052,10 @@ details[open]>summary {
 
 .border-light {
   border: 1px solid var(--base-18);
+}
+
+.border-orange {
+  border: 1px solid var(--orange-300);
 }
 
 .border-y {
@@ -8425,18 +8442,23 @@ fieldset:disabled a.btn {
 }
 
 .btn-cta {
-  background-color: var(--bb-indigo);
+  background-color: var(--bb-indigo) !important;
   border: 0px solid var(--bb-indigo) !important;
   color: white;
 }
 .btn-cta:hover {
-  background-color: var(--bb-indigo-dark);
+  background-color: var(--bb-indigo-dark) !important;
   border: 0px solid var(--bb-indigo) !important;
   color: white;
   cursor: pointer;
 }
 .btn-cta:focus {
-  background-color: var(--bb-indigo-darkest);
+  background-color: var(--bb-indigo-darkest) !important;
+  border: 0px solid var(--bb-indigo) !important;
+  color: white;
+}
+.btn-cta:active {
+  background-color: var(--bb-midnight) !important;
   border: 0px solid var(--bb-indigo) !important;
   color: white;
 }
