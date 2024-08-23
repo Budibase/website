@@ -1010,6 +1010,14 @@ img {
   opacity: 0.25;
 }
 
+.opacity-20 {
+  opacity: 0.20;
+}
+
+.opacity-10 {
+  opacity: 0.1;
+}
+
 label {
   display: inline-block;
 }
