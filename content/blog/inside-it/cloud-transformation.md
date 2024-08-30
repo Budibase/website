@@ -213,7 +213,7 @@ So, cloud transformation *typically* offers the same or better performance with 
 
 ![Productivity stats](https://res.cloudinary.com/daog6scxm/image/upload/v1678702809/cms/Digital_Transformation_ROI_https___boardview.io_blog_digital-transformation-stats__2_guprir.webp "Productivity stats")
 
-([Boardview](https://boardview.io/blog/digital-transformation-stats/))
+(Boardview)
 
 ### Improved agility
 
