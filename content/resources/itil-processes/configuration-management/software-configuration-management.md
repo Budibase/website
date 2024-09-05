@@ -1,6 +1,6 @@
 ---
 date: 2024-09-05
-title: What is software configuration management?
+title: What is Software Configuration Management?
 description: Check out our in-depth guide to software configuration management processes.
 image: "https://res.cloudinary.com/daog6scxm/image/upload/v1723816303/cms/itil-resources/ITIL-Hero_l3gpgt.png"
 images: 
