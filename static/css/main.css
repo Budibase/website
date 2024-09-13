@@ -11167,6 +11167,10 @@ button.bg-blue:focus {
   max-width: 220px;
 }
 
+.blur {
+  filter: blur(5px);
+}
+
 .z-2 {
   position: relative;
   z-index: 2;
