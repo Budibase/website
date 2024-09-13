@@ -6571,9 +6571,7 @@ ul {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    border-top: 1px solid var(--light4);
-    border-bottom: 1px solid var(--light4);
-    background-color: var(--light3);
+    background-color: var(--black);
     font-size: 15px;
   }
 }
