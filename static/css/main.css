@@ -11134,8 +11134,6 @@ button.bg-blue:focus {
   overflow: hidden;
 }
 
-
-
 .v3-bg-image {
   position: absolute;
   inset: 0;
@@ -11158,7 +11156,18 @@ button.bg-blue:focus {
   pointer-events: all;
 }
 
+.v3-schedule-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 32px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
+.v3-schedule-wrapper>img {
+  max-width: 220px;
+}
 
 .z-2 {
   position: relative;
