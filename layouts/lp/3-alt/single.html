@@ -1,0 +1,43 @@
+{{ partial "head/header.html" . }}
+<section class="v3-section bg-indigo h-100vh v3-grid-image">
+{{ partial "navigation.html" . }}
+<div class="space-2 flex justify-center-lg mx-auto">
+    <div class="v3-grid container flex flex-column border bg-indigo">
+        <div class="flex flex-row" id="v3-info">
+            <div class="v3-title border flex-grow p-4" id="v3-title"><h1 class="text-white">Budibase 3.0 Launch Week</h1></div>
+            <div class="v3-date border p-4" id="v3-date"><h1 class="text-white">21st - 25th October</h1></div>
+        </div>
+        <div class="flex flex-row flex-grow" id="v3-days">
+            <div class="v3-day border flex-grow p-4" id="v3-day-1"><h4 class="text-white">DAY 1</h4></div>
+            <div class="v3-day border flex-grow p-4" id="v3-day-2"><h4 class="text-white">DAY 2</h4></div>
+            <div class="v3-day border flex-grow p-4" id="v3-day-3"><h4 class="text-white">DAY 3</h4></div>
+            <div class="v3-day border flex-grow p-4" id="v3-day-4"><h4 class="text-white">DAY 4</h4></div>
+            <div class="v3-day border flex-grow p-4" id="v3-day-5"><h4 class="text-white">DAY 5</h4></div>
+        </div>
+        <div class="flex flex-row " id="v3-cta">
+            <div class="border flex-grow p-5">
+                <p class="text-white lead-xl font-weight-semi-bold">Join us for a week of new features and experiences every day at 3 PM UTC.</p>
+            </div>
+            <div class="v3-title border flex-grow text-center py-4 px-4" id="v3-cta">
+                <button popovertarget="my-popover" class="trigger-btn btn btn-white btn-lg">Register for the launch</button>
+                <div id="my-popover" class="bg-base-3" popover=auto>
+                    <button class="close-btn" popovertarget="my-popover" popovertargetaction="hide">
+                    <span aria-hidden="true"><svg class="svg" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path fill="#000" fill-opacity="1" fill-rule="nonzero" stroke="none" d="m6 5.293 4.789-4.79.707.708-4.79 4.79 4.79 4.789-.707.707-4.79-4.79-4.789 4.79-.707-.707L5.293 6 .502 1.211 1.21.504 6 5.294z"></path></svg></span>
+                    <span class="sr-only">Close</span>
+                    </button>
+                    <h2 class="mb-3 text-left">Register for the 3.0 launch</h2>
+                    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+                    <script>
+                    hbspt.forms.create({
+                        region: "eu1",
+                        portalId: "26121987",
+                        formId: "3dc01c8c-fac6-4701-bfd7-994f12711831"
+                    });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>

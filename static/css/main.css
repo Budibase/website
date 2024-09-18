@@ -8625,10 +8625,10 @@ fieldset:disabled a.btn {
   border: 1px solid var(--base-5);
   cursor: pointer;
 }
-.btn-white:focus,
+.btn-white:focus, .btn-white:active,
 .btn-white.focus {
   box-shadow: 0 0 0 0.2rem rgba(100, 111, 121, 0.5);
-  color: var(--white);
+  color: var(--dark);
 }
 
 .btn-secondary {
@@ -10502,9 +10502,13 @@ button.close {
 }
 .bg-bb-indigo, .bg-indigo {
   background-color: var(--bb-indigo);
+  z-index: -2;
+  position: absolute;
 }
 .bg-bb-indigo-light, .bg-indigo-light {
   background-color: var(--bb-indigo-light);
+  z-index: -2;
+  position: absolute;
 }
 .bg-bb-indigo-lightest, .bg-indigo-lightest {
   background-color: var(--bb-indigo-lightest);
@@ -11132,6 +11136,36 @@ button.bg-blue:focus {
   overflow: hidden;
 }
 
+.v3-grid-image {
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='20' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(240, 0%, 100%, 0)'/><path d='M 10,-2.55e-7 V 20 Z M -1.1677362e-8,10 H 20 Z'  stroke-width='0.5' stroke='hsla(0, 0%, 100%, 0.12)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.v3-grid {
+  display: flex;
+  height: auto;
+}
+@media (min-width: 1000px) {
+  .v3-grid {
+    display: flex;
+    height: 682px;
+  }
+}
+
+.v3-date {
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .v3-date {
+    width: auto;
+  }
+}
+.v3-day {
+  min-width: 260px !important;
+}
+
 .v3-bg-image {
   position: absolute;
   inset: 0;
@@ -11621,7 +11655,7 @@ button.bg-blue:focus {
 
 
   .text-monospace {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "IBM Plex Mono", monospace !important;
   }
 
   .text-justify {
