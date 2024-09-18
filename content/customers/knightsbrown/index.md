@@ -41,6 +41,8 @@ Seeking a more user-friendly and efficient platform, Michael and his team turned
 
 This wasn’t just theoretical — **“I think we went from trialing it on the web to downloading it, hosting it, getting our own custom domain on there. It only took a couple of hours, and it was all done and ready to use.”**
 
+![TickIT](https://res.cloudinary.com/daog6scxm/image/upload/v1726674064/knights-brown-tick-it.png)
+
 A critical requirement of this application was getting live data, which their previous solution was struggling to meet. **“One of the challenges with the previous attempt at digitizing the system was that every time we had a new job, someone needed to manually update the list so it appeared in the dropdown in the application, which sometimes resulted in people's sites not being available at the beginning of jobs.”**
 
 **“With Budibase it integrates and gets the latest list of live projects.”**
@@ -52,10 +54,13 @@ The rapid deployment, live data, and intuitive interface of Budibase made it an 
 
 Building on the success of the Tick-IT application, Knights Brown recognized the broader potential of Budibase and began exploring additional use cases across the organization. The flexibility and ease of use that Budibase offers allowed the team to rapidly develop and deploy two new applications:
 
-
-
 1. Branded Clothing Ordering System: This app streamlined the process for staff to view catalogs, place orders, and specify delivery sites. The Buying Department could then efficiently create bulk orders, saving time and enhancing the company’s professional image. **“The clothing order system has saved a lot of time. We appear more professional rather than using pen and paper,”** Michael remarked.
-2. Interactive Site Map: Knights Brown also developed an app that displayed all active worksites across the UK on an interactive map. Jobs were color-coded by division, and users could click on each job for more detailed information. **“Within a couple of hours of the data being input, the location of our live projects is displayed on a map. That’s really nice,”** Michael said, highlighting the efficiency and real-time accuracy of the system.
+
+![Branded Clothing](https://res.cloudinary.com/daog6scxm/image/upload/v1726674064/knights-brown-beanie.png)
+
+1. Interactive Site Map: Knights Brown also developed an app that displayed all active worksites across the UK on an interactive map. Jobs were color-coded by division, and users could click on each job for more detailed information. **“Within a couple of hours of the data being input, the location of our live projects is displayed on a map. That’s really nice,”** Michael said, highlighting the efficiency and real-time accuracy of the system.
+
+![Interactive Map](https://res.cloudinary.com/daog6scxm/image/upload/v1726674064/knights-brown-map.png)
 
 Each new application built with Budibase demonstrated the platform’s versatility, addressing unique challenges while improving overall operational efficiency. **“Once we built the first application, Budibase became another tool in our belt. The next time we had a challenge, we thought ‘Could this be done in Budibase?’”**.
 
