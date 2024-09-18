@@ -5071,7 +5071,12 @@ details[open]>summary {
 .border {
   border: 1px solid var(--border);
 }
-
+.border-left {
+  border-left: 1px solid var(--border);
+}
+.border-right {
+  border-right: 1px solid var(--border);
+}
 .border-none {
   border: none;
 }
