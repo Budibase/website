@@ -312,17 +312,21 @@ to take effect, as the specificity is the same */
   }
 }
 
-
 [popover]::backdrop {
-  background-color: rgb(0 0 0 / 0%);
+  background-color: hsla(249, 100%, 67%, 30%);
   transition:
-    display 0.3s allow-discrete,
-    overlay 0.3s allow-discrete,
-    background-color 0.3s;
+  transform 0.3s,
+  display 0.3s allow-discrete,
+  overlay 0.3s allow-discrete,
+  background-color 0.3s;
 }
 
 [popover]:popover-open::backdrop {
-  background-color: hsla(249, 100%, 67%, 30%);
+  transition:
+  transform 0.3s,
+  display 0.3s allow-discrete,
+  overlay 0.3s allow-discrete,
+  background-color 0.3s;
 }
 
 [popover]>label {
