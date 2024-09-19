@@ -12189,9 +12189,13 @@ button.bg-blue:focus {
     height: 100%;
   }
 
+
+@media (min-width: 600px) {
   .h-100vh {
     height: 100vh;
   }
+}
+
 
   /*------------------------------------
   Borders
