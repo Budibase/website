@@ -292,17 +292,41 @@ summary {
 }
 
 [popover] {
-  padding: 1.5rem 1.5rem;
-  border-radius: 12px;
+  padding: 1.5rem;
+  border-radius: 6px;
   gap: 1rem;
-  border: none;
   min-width: 400px;
   max-width: 600px;
+  transition:
+    opacity 0.3s,
+    transform 0.3s,
+    overlay 0.3s allow-discrete,
+    display 0.3s allow-discrete;
 }
 
+/* Needs to be after the previous [popover]:popover-open rule
+to take effect, as the specificity is the same */
+@starting-style {
+  [popover]:popover-open {
+    opacity: 0;
+  }
+}
+
+
 [popover]::backdrop {
-  background-color: var(--black);
-  opacity: 0.5;
+  background-color: rgb(0 0 0 / 0%);
+  transition:
+    display 0.3s allow-discrete,
+    overlay 0.3s allow-discrete,
+    background-color 0.3s;
+}
+
+[popover]:popover-open::backdrop {
+  background-color: hsla(249, 100%, 67%, 30%);
+}
+
+[popover]>label {
+  color: white !important;
 }
 
 .price-popover {
@@ -8467,29 +8491,29 @@ fieldset:disabled a.btn {
 }
 
 .btn-v3 {
-  background-color: hsla(249, 100%, 67%, 20%);
-  border: 1px solid hsla(249, 100%, 67%, 25%) !important;
-  color: white;
-  border-radius: 6px !important;
-}
-.btn-v3:hover {
-  background-color: hsla(249, 100%, 67%, 40%);
+  background-color: hsla(249, 100%, 67%, 30%);
   border: 1px solid hsla(249, 100%, 67%, 50%) !important;
   color: white;
-  border-radius: 6px !important;
+  border-radius: 24px !important;
+}
+.btn-v3:hover {
+  background-color: hsla(249, 100%, 67%, 50%);
+  border: 1px solid hsla(249, 100%, 67%, 60%) !important;
+  color: white;
+  border-radius: 24px !important;
   cursor: auto ;
 }
 .btn-v3:focus {
   background-color: hsla(249, 100%, 67%, 60%);
   border: 1px solid hsla(249, 100%, 67%, 75%) !important;
   color: white;
-  border-radius: 6px !important;
+  border-radius: 24px !important;
 }
 .btn-v3:active {
   background-color: hsla(249, 100%, 67%, 80%);
   border: 1px solid hsla(249, 100%, 67%, 100%) !important;
   color: white;
-  border-radius: 6px !important;
+  border-radius: 24px !important;
 }
 
 .btn-cta-gradient-darkest {
@@ -11205,6 +11229,8 @@ button.bg-blue:focus {
 .v3-schedule-wrapper>img {
   max-width: 220px;
   pointer-events: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
 }
 
 .blur {
