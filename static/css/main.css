@@ -11204,6 +11204,7 @@ button.bg-blue:focus {
 
 .v3-schedule-wrapper>img {
   max-width: 220px;
+  pointer-events: none;
 }
 
 .blur {
