@@ -1,6 +1,6 @@
 ---
 date: 2024-09-20
-title: What is IT Asset Discovery
+title: What is IT Asset Discovery?
 description: Read our in-depth guide to asset discovery.
 image: "https://res.cloudinary.com/daog6scxm/image/upload/v1723816303/cms/itil-resources/ITIL-Hero_l3gpgt.png"
 images: 
