@@ -41,6 +41,8 @@ However, as with any ITSM task, our priority must be delivering maximum organiza
 
 As far as possible, this means eliminating the need for manual data entry. We’ll see the specific tools and strategies that are available for achieving this a little bit later.
 
+Take a look at our guide to [ITIL asset management](https://budibase.com/resources/itil-processes/asset-management/) for a broader overview of ITAM.
+
 ### Why do we need to track assets?
 
 First, though, we can consider the underling business goals of IT asset tracking in a little bit more detail.
@@ -92,6 +94,8 @@ The core challenge here is that users need to manually locate the appropriate as
 They may then need to add additional details manually, too.
 
 As such, this can be a useful option for relatively small asset estates or irregular tasks, but we may prefer more systematic approaches for larger-scale use cases.
+
+Check out our guide to [IT asset inventory management](https://budibase.com/resources/itil-processes/asset-management/it-asset-inventory-management/) to learn more about storing and processing data.
 
 ### Barcodes
 

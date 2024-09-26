@@ -76,6 +76,8 @@ Similarly, actions that can be initiated through service request flows must also
 
 Additionally, by virtue of being included in our regular service catalog, we can almost always characterize the related service actions as being low-risk as they should follow predefined, risk-assesed pathways.
 
+Check out our in-depth resource on [service requests vs change requests](https://budibase.com/resources/itil-processes/service-request-management/service-requests-vs-change-requests/).
+
 ### What is an incident?
 
 An incident is an unplanned or unexpected event that has the potential to disrupt, interupt, or otherwise undermine our ITSM offering. Or, it may relate to our IT estate, but have the potential to negatively impact the business more broadly.

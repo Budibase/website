@@ -113,6 +113,8 @@ Another key benefit of asset discovery is feeding our configuration management p
 
 Similarly, the data we surface during asset discovery acts as a critical input within multiple other aspects of our ITSM portfolio, including relating to how we manage finances, risk, capacity, change, planning, and more.
 
+Check out our guide to [IT asset tracking](https://budibase.com/resources/itil-processes/asset-management/it-asset-tracking/) to learn more about how we can manage the status of devices across their lifecycle.
+
 ## Active vs passive asset discovery
 
 Next, we can begin to flesh out our understanding of IT asset discovery by considering how this can look at a more practical level.
@@ -147,6 +149,8 @@ However, the downside is that we’re typically only able to gather less detaile
 So, passive discovery is useful for gathering less intensive information on a more regular basis.
 
 As such, it’s common for active and passive techniques to be used in tandem, even within a single asset discovery tool.
+
+Take a look at our guide to [IT asset management software](https://budibase.com/resources/itil-processes/asset-management/it-asset-management-software/) for a broader overview of the tools we can rely on for ITAM.
 
 ## Agent-based vs agentless asset discovery tools
 

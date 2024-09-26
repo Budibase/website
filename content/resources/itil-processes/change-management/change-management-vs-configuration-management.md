@@ -86,6 +86,8 @@ Therefore, change management requires us to design and enforce appropriate proce
 
 As we’ll see a little later, there are several ways we might handle this internally, including relying on a centralized change management team, managing change within existing functional teams, or a combination of both.
 
+You might also enjoy our resource on [change management vs release management](https://budibase.com/resources/itil-processes/change-management/change-management-vs-release-management/).
+
 ## Overlap and intersections
 
 Now that we have a clear understanding of what each practice means, we can begin to flesh out the relationship between change management and configuration management. First, let’s think about how and where these overlap, both in terms of their core goals and daily activities.

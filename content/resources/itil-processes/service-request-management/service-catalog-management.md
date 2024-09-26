@@ -86,6 +86,8 @@ This is particularly important in the context of service catalog management, giv
 
 As such, we can consider each of the benefits we outlined above at both the level of individual services and our ITSM provision as a whole.
 
+Check out our resource on structuring [service request management processes](https://budibase.com/resources/itil-processes/service-request-management/service-request-management-process/).
+
 ## Catalog management tasks
 
 Now that we have a clear understanding of what service catalogs are and the value that they provide, we can move on to thinking in more detailed about what’s required to establish, maintain, and manage a service catalog of our own.
@@ -192,6 +194,8 @@ However, we’ll also want to account for differences in the language various us
 Similarly, it’s important to recognize that our service catalog users may have different UX needs in terms of their relative levels of technical expertise and knowledge. 
 
 Therefore, we must account for this with respect to the language we use to outline SLAs, deliverables, and request workflows, ensuring that users can access information that’s appropriate for their level of understanding of key IT concepts.
+
+You might also enjoy our guide to [service request management software](https://budibase.com/resources/itil-processes/service-request-management/service-request-management-software/).
 
 ### Integration with service request management practices
 
