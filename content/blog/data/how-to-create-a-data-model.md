@@ -51,6 +51,8 @@ A large part of developing a data model is establishing the data you’ll need, 
 
 Having an effective data model in place also allows you to ensure compatibility between multiple sources, optimum performance, scalability, and effective security within your data warehouse or other information assets.
 
+Check out our guide to [ITIL configuration management](https://budibase.com/resources/itil-processes/configuration-management/) for an example of a complex, organization-wide data model.
+
 ## How to create a data model for your app project in 9 steps
 
 To ensure the best results, it’s useful to follow a reproducible framework.

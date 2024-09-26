@@ -52,6 +52,8 @@ For example, the latter will generally need to offer specific workflow capabilit
 
 Of course, security requirements are also stronger around enterprise usage, including the need for various tools, such as SSO, audit logs, and other security measures.
 
+Check out our resource on [ITIL asset management](https://budibase.com/resources/itil-processes/asset-management/).
+
 ### Why would we opt for an open-source solution?
 
 There are a few key reasons why we might opt for an open-source digital asset management tool. The most obvious is cost. That is, most open-source platforms are available to use for free. Even when they offer paid licenses, this is often more cost-effective than COTS equivalents.

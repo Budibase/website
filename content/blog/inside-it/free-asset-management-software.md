@@ -28,6 +28,8 @@ On top of this, asset management also requires us to handle devices across their
 
 We may even analyze and predict usage trends as part of our asset management efforts in order to better inform procurement decisions down the line.
 
+Check out our resource on [ITIL asset management](https://budibase.com/resources/itil-processes/asset-management/).
+
 ### What do asset management tools do?
 
 So, that’s what asset management means in theory. The next question is, what does asset management software do?
