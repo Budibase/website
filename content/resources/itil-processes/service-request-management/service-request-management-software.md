@@ -143,6 +143,8 @@ To avoid duplicating our efforts by providing distinct catalogs for each class o
 
 As noted earlier, an additional challenge can stem from the fact that request data might be stored in different locations. Therefore, we’ll need suitable capabilities for querying these sources directly within our service catalogs or using embedded forms.
 
+Check out our guide to [service catalog management](https://budibase.com/resources/itil-processes/service-request-management/service-catalog-management/) to learn more.
+
 ### Service request forms
 
 Service request forms are the most common tool for initiating agreed actions. These might be provided as standalone tools or within a broader solution, such as a ticketing, service catalog, or intranet platform.

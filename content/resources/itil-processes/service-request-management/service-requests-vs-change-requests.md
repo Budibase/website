@@ -46,6 +46,8 @@ Service requests can also be governed by access rules and policies. That is, cer
 
 While service requests are used to initiate a wide range of workflows across our entire portfolio, they’re primarily handled within the service request management function.
 
+Read our in-depth resource on [service request management](https://budibase.com/resources/itil-processes/service-request-management/) to learn more.
+
 ### What is a change request?
 
 A change request is a different kind of user interaction. Whereas a service request deals how users initiate normal service actions, change requests are concerned with instances where we need to alter this somehow in order to meet the user’s requirements.
@@ -121,6 +123,8 @@ For example, when a user submits a ticket via our help desk platform. End users 
 So, we need appropriate methods in place to ensure that the right procedures are followed based on the established business rules for each type of interaction. 
 
 We’ll return to some practical ways to handle the overlap between these practices a little later.
+
+You might also enjoy our resource on [incidents vs service requests](https://budibase.com/resources/itil-processes/service-request-management/incidents-vs-service-requests/).
 
 ## Structuring workflows for changes and service requests
 

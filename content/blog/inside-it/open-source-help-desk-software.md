@@ -32,6 +32,8 @@ Most help desk solutions also provide additional functionality to improve resolu
 
 One critical aspect to this is providing different kinds of users with interfaces, tools, and data exposure that are appropriate to their needs within a given process. Typically, this takes the form of role-based access control.
 
+Take a look at our guide to [ITIL service request management](https://budibase.com/resources/itil-processes/service-request-management/) to learn more.
+
 ### Types of help desks
 
 Let’s think in a bit more detail about some specific types of help desk software.

@@ -82,6 +82,8 @@ Therefore, we must consider our configuration data management in the wider conte
 
 In these cases, we’ll need to ensure consistency across shared data entities and avoid creating issues such as excessive redundancy or duplication. As we’ll see a little later, there are a few distinct approaches to balancing this.
 
+Check out our resource on designing [configuration management processes](https://budibase.com/resources/itil-processes/configuration-management/configuration-management-process/).
+
 ## Why do we need a configuration management database?
 
 Before we look at some more granular processes and technical considerations relating to configuration data management, it’s helpful to zoom out and think about some of the more high-level factors that can determine whether or not a centralized CDMB is our best option.

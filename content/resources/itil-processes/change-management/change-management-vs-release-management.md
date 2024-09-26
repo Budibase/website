@@ -156,6 +156,8 @@ Specifically, we’re reliant on a clear picture of the real-world state of our 
 
 However, it’s important to recognize that both change management and release management also have a role to play in achieving this. That is, we must also reflect the outcomes of both practices within our CMDB in order to keep this up to date with additions and alterations.
 
+Check out our to [change management vs configuration management](https://budibase.com/resources/itil-processes/change-management/change-management-vs-configuration-management/) to learn more.
+
 Similarly, given the close interaction between change control and release management, we must be cognizant of the need to establish oversight, visibility, and collaboration across both functions.
 
 Neither practice will be able to operate effectively if they’re constrained by siloed data and poor communication between teams. Instead, we must establish reliable, authoritative sources of truth in order to minimize redundancy, data conflicts, delays, and other errors.

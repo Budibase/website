@@ -40,6 +40,8 @@ Of course, if you only have a handful of users, you could manage this on a case-
 
 As such, the idea of any access control system is to create a framework to assign permission to different users, based on some defined criteria.
 
+You might also enjoy our in-depth resource on [ITIL change management](https://budibase.com/resources/itil-processes/change-management/).
+
 Let’s take a look at the different frameworks you can use here, as well as how RBAC fits into the equation.
 
 ## Access control systems
