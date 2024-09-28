@@ -10557,13 +10557,11 @@ button.close {
 }
 .bg-bb-indigo, .bg-indigo {
   background-color: var(--bb-indigo);
-  z-index: -2;
-  position: absolute;
+
 }
 .bg-bb-indigo-light, .bg-indigo-light {
   background-color: var(--bb-indigo-light);
-  z-index: -2;
-  position: absolute;
+
 }
 .bg-bb-indigo-lightest, .bg-indigo-lightest {
   background-color: var(--bb-indigo-lightest);
