@@ -53,6 +53,8 @@ For instance, SCM is obviously a bigger concern in large organizations with exte
 
 This is also a highly interdisciplinary effort, requiring input from a range of technical and non-technical stakeholders, including developers, DevOps teams, project managers, product owners, solutions architects, systems engineers, and more.
 
+Take a look at our resource on [network configuration management](https://budibase.com/resources/itil-processes/configuration-management/network-configuration-management/).
+
 ### Why do we need to track changes to software systems?
 
 Software configuration management plays a key role, both within development projects and across our IT estate more broadly.
