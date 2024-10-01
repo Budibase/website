@@ -121,7 +121,7 @@ We have made improvements to the query creation process for data sources allowin
 - Customers cannot access app backups #7467  
 - More than filter not working for static number type formula, when changed from a dynamic formula #7449 https://github.com/Budibase/budibase/issues/11669 
 - Finish and test automation for cron trigger ignores test timestamp when filtering #7447 https://github.com/Budibase/budibase/issues/11663 
-- Relationship picker incorrectly renders selections, and not all records show in the dropdown #7375 https://github.com/Budibase/budibase/issues/11478 
+- Relationship picker incorrectly renders selections, and not all records show in the dropdown #7375 https://github.com/budibase/budibase/issues/11478 
 - Data table does not display when table name is matched in a different schema - MS SQL #7269 https://github.com/Budibase/budibase/issues/11225 
 - Deleting account that hasn't been verified, or failed provisioning, produces 500 #6973  
 - The Number 0 cannot be displayed on input number fields, when being pulled in from a data provider. #6922 https://github.com/Budibase/budibase/issues/10412 
