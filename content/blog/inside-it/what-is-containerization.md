@@ -36,7 +36,7 @@ In this way, it’s functionally independent of the environment or end-user’s 
 
 ![What is containerization statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1690551257/cms/what-is-containerization/Containerization_Stats_https___www.bmc.com_blogs_state-of-containers__bpltks.webp "What is containerization statistics")
 
-([BMC](https://www.bmc.com/blogs/state-of-containers/))
+(BMC)
 
 But - that’s just a very high-level definition. Things are obviously a lot more complex in the nitty-gritty of the real world.
 
