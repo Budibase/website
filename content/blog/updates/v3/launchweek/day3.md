@@ -1,5 +1,5 @@
 ---
-title: Day 3: Automation Branching
+title: Automation Branching
 description: It’s day 3 of our 2024 launch week. Today, we’re thrilled to unveil Automation Branching, empowering you to build sophisticated, automated workflows with ease. 
 type: blog
 layout: single
@@ -7,7 +7,7 @@ profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1699284176/Brandi
 images:
   - 
 image: 
-date: "2024-10-23"
+date: 2024-10-23
 author: Dean Hannigan, Ronan McQuillan
 draft: true
 ---
