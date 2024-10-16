@@ -5,8 +5,8 @@ type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1699284176/Branding/Assets/Symbol/RGB/Full%20Colour/bb-symbol-trans_v60zdz.svg
 images:
-  - https://res.cloudinary.com/daog6scxm/video/upload/v1709745251/product-marketing-images/formsScreenTemplate2_exoepi.gif
-image: 
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1729080433/campaigns/3.0/day_4_kgqmrj.png
+image: https://res.cloudinary.com/daog6scxm/image/upload/v1729080433/campaigns/3.0/day_4_kgqmrj.png
 date: 2024-10-24
 author: Martin McKeaveney, Joe Johnston
 draft: true
