@@ -9,7 +9,7 @@ images:
 image: 
 date: "2024-10-15"
 author: Michael Drury, Jamie Birss
-draft: true
+draft: false
 ---
 
 Welcome to day one of the Budibase 3.0 launch week! Over the next few days, we’ll be diving into a variety of exciting new developments, each designed to enhance the way you build and manage your apps. Each day, we’ll explore a different theme, offering insights and guidance to help you get the most out of Budibase 3.0.
