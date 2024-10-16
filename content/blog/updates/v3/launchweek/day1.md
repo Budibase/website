@@ -9,7 +9,7 @@ images:
 image: 
 date: "2024-10-15"
 author: Michael Drury, Jamie Birss
-draft: false
+draft: true
 ---
 
 Welcome to day one of the Budibase 3.0 launch week! Over the next few days, we’ll be diving into a variety of exciting new developments, each designed to enhance the way you build and manage your apps. Each day, we’ll explore a different theme, offering insights and guidance to help you get the most out of Budibase 3.0.
@@ -57,12 +57,11 @@ First things first, let’s set up our custom role in our Access settings, like 
 
 Next, let’s create a new Approver view. We’ll set up a filter on our table to ensure that the Approver can only access requests to which they’ve been assigned. For this example, we’re checking that the Approver email column matches the email of the currently logged-in user to Budibase.
 
-[gif]
+{{< vimeo id="1020231834" title="View Filters" >}}
 
 With Views, you can then customize and manage role permissions effortlessly. Use filters to control which rows each role has access to, or assign permissions to each column—edit, read-only, or hidden.
 
 [gif]
-
 
 You can create as many Views as you want, which you can easily toggle between using the tabs above. 
 
@@ -74,7 +73,7 @@ Let’s dive into our next feature—**Default Values**.
 
 Default values offer a more streamlined experience for gathering data. You can set columns to a specific value when a new entry is created, such as setting status to “In progress” or setting the name of the submitter to the currently logged-in user. 
 
-[gif]
+{{< vimeo id="1020234072" title="Default Values" >}}
 
 Default values eliminate the need for repetitive manual data entry, and ensure that information collected automatically is accurate and consistent.
 
@@ -86,7 +85,8 @@ For example, in an approval workflow, an approver can **approve** or **reject** 
 
 Let’s see how to set up the Approve action:
 
-[gif]
+{{< vimeo id="1020235112" title="Row Actions" >}}
+
 
 This targeted approach lets users take specific actions on a table, such as approving a request, without full access to make unrestricted changes. By controlling user actions, Budibase 3.0 enhances the usability and security of your applications, simplifying automation creation and role management.
 
@@ -96,7 +96,7 @@ View Joins offer enhanced control over how users interact with related data, whi
 
 For instance, in an approval app, we might want to set up a relationship between the **Requests** and **Approvers** views. This way, using View Joins, we can easily pull in columns like the Approver's name or email and show them directly in the Requests view without modifying your schema.
 
-[gif]
+{{< vimeo id="1020237703" title="View Joins" >}}
 
 Related data, such as the employee's name, is always view-only, preserving security while providing essential context. View Joins will also only display data from the immediately related table, keeping your views clean and manageable.
 
@@ -109,7 +109,7 @@ You’ll now notice a new Generate button in your data section—this is where t
 
 *With just a click, generate screens from your Views and watch them come to life in seconds!*
 
-[gif]
+{{< vimeo id="1020240787" title="Generate Screen" >}}
 
 You have several screen templates to choose from, including the option to generate a table, or one of our many powerful pre-built forms. In our example, we’ve instantly created a screen for our Approvers, allowing them to view requests, click through, and update the status field.
 
