@@ -1366,7 +1366,7 @@ a:focus {
 }
 @media (min-width: 2000px) {
   .hero-title-lg {
-    font-size: 4rem;
+    font-size: 3.7rem;
     margin-top: 0;
     margin-bottom: 0;
     font-family: var(--headline-font), sans-serif;
@@ -1381,7 +1381,7 @@ a:focus {
 
 @media (min-width: 1200px) {
   .hero-title-xl {
-    font-size: 4.2rem;
+    font-size: 4rem;
     margin-top: 0;
     margin-bottom: 0;
     font-family: var(--headline-font), sans-serif;
