@@ -5,13 +5,17 @@ type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1699284176/Branding/Assets/Symbol/RGB/Full%20Colour/bb-symbol-trans_v60zdz.svg
 images:
-  - https://res.cloudinary.com/daog6scxm/video/upload/v1709745251/product-marketing-images/formsScreenTemplate2_exoepi.gif
-image: 
-date: 2024-10-25
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1729096122/campaigns/3.0/day%205/day_5_blog_crbwgn.png
+image: https://res.cloudinary.com/daog6scxm/image/upload/v1729096122/campaigns/3.0/day%205/day_5_blog_crbwgn.png
+date: 2024-10-10
 author: Michael Shanks
 draft: true
 ---
+
+![Day-five-marketing-image](https://res.cloudinary.com/daog6scxm/image/upload/v1729096202/campaigns/3.0/day%205/day_5_blog_lg_qibmob.webp)
+
 It’s the final day of our first launch week, and today, we’re going to look into the future of Budibase.
+
 
 It’s been two years since we launched Budibase 2.0. In that time, we’ve launched several game-changing features, including multi-player mode, global bindings, screen templates, and lots more. Now, with the 3.0 launch, we firmly believe our new data-first experience positions Budibase as the best, and most secure platform for building workflow apps.
 

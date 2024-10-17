@@ -12,6 +12,8 @@ author: Martin McKeaveney, Joe Johnston
 draft: true
 ---
 
+![Day-four-marketing-image](https://res.cloudinary.com/daog6scxm/image/upload/v1729080433/campaigns/3.0/day_4_kgqmrj.webp)
+
 Today, we’re excited to release several new AI features. These latest enhancements will enable you to power your workflows securely with AI.
 
 In total, we have four new AI features to demo:
