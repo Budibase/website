@@ -7,7 +7,7 @@ profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1699284176/Brandi
 images:
   - https://res.cloudinary.com/daog6scxm/image/upload/v1729080433/campaigns/3.0/day_4_kgqmrj.png
 image: https://res.cloudinary.com/daog6scxm/image/upload/v1729080433/campaigns/3.0/day_4_kgqmrj.png
-date: 2024-10-24
+date: 2024-11-07
 author: Martin McKeaveney, Joe Johnston
 draft: true
 ---

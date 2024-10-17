@@ -7,7 +7,7 @@ profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1699284176/Brandi
 images:
   - https://res.cloudinary.com/daog6scxm/image/upload/v1729096122/campaigns/3.0/day%205/day_5_blog_crbwgn.png
 image: https://res.cloudinary.com/daog6scxm/image/upload/v1729096122/campaigns/3.0/day%205/day_5_blog_crbwgn.png
-date: 2024-10-10
+date: 2024-11-08
 author: Michael Shanks
 draft: true
 ---
@@ -28,18 +28,20 @@ To support the claim above, we’re launching three new production-ready templat
 
 3. Risk management
 
-These templates are available within the Budibase platform. We’ve also added how-to guides within the Budibase Docs site.
+These templates are available within the Budibase platform. We’ve also added how-to guides within the [Budibase Docs](https://docs.budibase.com).
 
 ## Future
 This release puts us in an excellent position for our next chapter...
 
 I’ve never seen Budibase as a no-code platform, or a low-code platform. I’ve always seen it as a platform for transforming workflows, after all, our brand motto is “Make work flow”.
 
-A workflow is simply a sequence of tasks and decisions. Today, our users transform company workflows with Budibase apps. We’ve invested heavily in our app-building experience and will continue to do so.
+When you consider it, a workflow is simply a sequence of tasks and decisions. And today, our users transform company workflows with Budibase apps. We’ve invested heavily in our app-building experience and will continue to do so.
 
-But apps are just a part of the workflow equation. We see a huge opportunity to evolve Budibase automations. An opportunity to help our users transform workflows with AI agents.
+But, apps are just a part of the workflow equation. We see a huge opportunity to evolve Budibase automations. An opportunity to help our users transform workflows with AI agents.
 
-What if, when you recorded a risk or an incident, Budibase agents could automatically suggest an improvement plan to reduce the risk or avoid future incidents? AI agents could even identify the most high-impact improvements across all your risks, saving you time and improving output.
+![AI Agents](https://res.cloudinary.com/daog6scxm/image/upload/v1729176142/campaigns/3.0/day%205/AI_Agents_ov9nvv.webp)
+
+What if, when you recorded a risk or an incident, Budibase agents could automatically suggest an improvement plan to reduce the risk or avoid future incidents. AI agents could even identify the most high-impact improvements across all your risks, saving you time and improving output.
 
 So, over the next few months, we will focus on becoming the most secure, open, and enjoyable platform for transforming workflows with AI. On top of that, we plan to invest more in the community and provide our users with a place where they can transform workflows together.
 
