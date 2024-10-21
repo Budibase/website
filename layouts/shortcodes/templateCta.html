@@ -1,13 +1,23 @@
+{{- $template := .Get "template" -}}
+{{- $heading := "" -}}
+{{- if eq $template "changeManagement" -}}
+    {{- $heading = "Change management template" -}}
+{{- else if eq $template "expenseApproval" -}}
+    {{- $heading = "Expense approval template" -}}
+{{- else if eq $template "riskManagement" -}}
+    {{- $heading = "Risk management template" -}}
+{{- end -}}
+
 <div style="background-color: #22252a; padding: 20px; max-width: 800px; margin: auto; border-radius: 10px;">
     <div style="display: flex; align-items: center; flex-wrap: wrap;">
         <div style="flex: 1; text-align: center;">
             <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1729518252/cms/templates-cta/ChangeManagementCTA_GIF_lml2we.gif" 
-                 alt="Change Management Template" style="width: 100%; height: auto; max-width: 400px;"/>
+                 alt="{{ $heading }}" style="width: 100%; height: auto; max-width: 400px;"/>
         </div>
         <div style="flex: 1; text-align: left; padding-left: 20px;">
-            <h1 style="color: #fff; margin-bottom: 15px; font-size: 18px;">Get started with our free</h1>
+            <h1 style="color: #fff; margin-bottom: 15px; font-size: 18px;">Get started with our</h1>
             <h2 style="margin: 0; font-size: 28px; margin-bottom: 15px; font-weight: bold; color: #fff;">
-                Change management template
+                {{ $heading }}
             </h2>
             <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=homepage-hero-section" target="_blank" rel="noopener">
                 <button class="btn btn-cta"> <!-- Reference your button class -->
