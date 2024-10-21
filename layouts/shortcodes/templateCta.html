@@ -1,20 +1,26 @@
 <div style="background-color: #22252a; padding: 20px; max-width: 800px; margin: auto; border-radius: 10px;">
-    <div style="display: flex; flex-wrap: wrap;">
+    <div style="display: flex; align-items: stretch; flex-wrap: wrap;"> <!-- Ensures both columns stretch equally -->
+        <!-- Left Image Column -->
         <div style="flex: 1; text-align: center;">
             <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1729507787/cms/templates-cta/TemplatePlaceHolderSquare_uoht4e.png" 
-                 alt="Change Management Template" style="width: 100%; height: auto; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.2);"/>
+                 alt="Change Management Template" style="width: 100%; height: auto; max-width: 400px;">
         </div>
-        <div style="flex: 1; text-align: left; padding-left: 20px; display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
-            <div style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+        
+        <!-- Right Text & Button Column -->
+        <div style="flex: 1; padding-left: 20px; display: flex; flex-direction: column; justify-content: space-between;">
+            <!-- Text Section Vertically Centered -->
+            <div style="margin: auto 0;"> <!-- Centers the text vertically -->
                 <h1 style="color: #fff; margin-bottom: 15px; font-size: 18px;">Get started with our free</h1>
                 <h2 style="margin: 0; font-size: 28px; font-weight: bold; color: #fff;">
                     Change management template
                 </h2>
             </div>
-            <div> <!-- This keeps the button at the bottom -->
-                <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=homepage-hero-section" target="_blank" rel="noopener">
-                    <button type="submit" class="btn btn-cta no-underline" style="margin: 0;"> <!-- Updated button class -->
-                        Sign up free
+            <!-- Button at the Bottom -->
+            <div style="text-align: right;"> <!-- Aligns the button at the bottom of the column -->
+                <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=homepage-hero-section" 
+                   target="_blank" rel="noopener">
+                    <button class="btn btn-cta">
+                        Sign up for free
                     </button>
                 </a>
             </div>
