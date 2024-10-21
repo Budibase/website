@@ -1,86 +1,18 @@
 <!-- File: layouts/shortcodes/templateCta.html -->
-<div class="cta-container">
+<div class="cta-container" style="display: flex; width: 100%; height: auto;">
     <!-- Left side: Static Image -->
-    <div class="cta-left">
+    <div class="cta-left" style="width: 50%; display: flex; justify-content: center; align-items: center;">
         <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1729504725/cms/templates-cta/TemplateCTAPlaceholderVertHalf_gmfmpo.png" 
-             alt="Sign up promotion" class="cta-image" />
+             alt="Sign up promotion" style="max-width: 100%; height: auto; display: block;" />
     </div>
     <!-- Right side: Text and Button -->
-    <div class="cta-right">
-        <h2 class="hero-title">Use Our Free Change Management Template</h2>
+    <div class="cta-right" style="width: 50%; color: black; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px;">
+        <h2 class="hero-title" style="text-align: center; margin-bottom: 20px;">Use Our Free Change Management Template</h2>
         <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=body-section-cta"
            rel="noopener" target="_blank">
-            <button type="submit" class="btn btn-cta btn-xl">
+            <button type="submit" class="btn btn-cta btn-xl" style="background-color: #6E56FF; color: white; padding: 15px 30px; border: none; font-size: 16px; cursor: pointer;">
                 Sign up free        
             </button>
         </a>
     </div>
 </div>
-
-<style>
-    /* Remove default margin and padding from body */
-    body {
-        margin: 0;                  /* Remove default body margin */
-        padding: 0;                 /* Remove default body padding */
-        overflow: hidden;            /* Prevent any overflow issues */
-    }
-
-    /* Container for the entire CTA */
-    .cta-container {
-        display: flex;               /* Flexbox for the two-column layout */
-        width: 100vw;                /* Full width of the viewport */
-        height: auto;                /* Auto height to fit content */
-    }
-
-    /* Left Column: Image */
-    .cta-left {
-        width: 50%;                  /* 50% width for the left column */
-        display: flex;
-        justify-content: center;      /* Center the image horizontally */
-        align-items: center;          /* Center the image vertically */
-        padding: 0;                  /* Remove padding around the left column */
-        margin: 0;                   /* Remove margin */
-    }
-
-    .cta-image {
-        max-width: 100%;             /* Ensure the image scales responsively */
-        height: auto;                /* Maintain the aspect ratio of the image */
-        display: block;              /* Prevent any inline spacing */
-    }
-
-    /* Right Column: Text and Button */
-    .cta-right {
-        width: 50%;                  /* 50% width for the right column */
-        color: black;                /* Change text color to black */
-        display: flex;
-        flex-direction: column;      /* Stack content vertically */
-        justify-content: center;     /* Center content vertically */
-        align-items: center;         /* Center content horizontally */
-        padding: 20px;               /* Add some padding around the content */
-    }
-
-    /* Ensure text and button are centered */
-    .hero-title {
-        text-align: center;
-        margin-bottom: 20px;         /* Space between text and button */
-    }
-
-    .btn {
-        background-color: #6E56FF;   /* Button color set to the specified shade of purple */
-        color: white;                /* Button text color */
-        padding: 15px 30px;
-        border: none;
-        font-size: 16px;
-        cursor: pointer;
-    }
-
-    /* Mobile responsiveness */
-    @media (max-width: 768px) {
-        .cta-container {
-            flex-direction: column;   /* Stack the columns vertically */
-        }
-        .cta-left, .cta-right {
-            width: 100%;              /* Each section takes full width */
-        }
-    }
-</style>
