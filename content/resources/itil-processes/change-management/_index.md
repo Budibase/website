@@ -37,6 +37,8 @@ As such, change management comprises the full lifecycle of new initiatives, from
 
 At the highest level, the goal is to ensure that we have the controls in place to implement the changes that will deliver value to service users without incurring unnecessary costs, risks, disruption, or other issues.
 
+{{< templateCta >}}
+
 
 ### Why do we need change management?
 
