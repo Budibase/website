@@ -22,7 +22,7 @@
         </div>
     </div>
     <!-- Right Side with Updated Background Color -->
-    <div style="flex: 1; background-color: rgb(30, 25, 25); display: flex; align-items: center; justify-content: left; padding-left: 20px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+    <div class="right-side" style="flex: 1; background-color: rgb(30, 25, 25); display: flex; align-items: center; justify-content: left; padding-left: 20px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
         <div style="padding: 20px 20px 20px 0;"> <!-- Added vertical padding -->
             <h1 style="color: #fff; margin-bottom: 15px; font-size: 18px;">Get started with our</h1>
             <h2 style="margin: 0; font-size: 28px; margin-bottom: 15px; font-weight: bold; 
@@ -45,9 +45,10 @@
         .left-side {
             display: none; /* Hide the entire left-side container on mobile */
         }
-        div[style*="flex: 1; background-color: rgb(30, 25, 25);"] {
-            padding: 20px; /* Adding vertical padding on mobile */
-            border-radius: 10px; /* Round all corners on mobile */
+        .right-side {
+            border-top-left-radius: 10px; /* Round left corners on mobile */
+            border-bottom-left-radius: 10px; /* Round left corners on mobile */
+            padding: 20px; /* Add vertical padding */
         }
         h1, h2 {
             font-size: 16px; /* Adjust font size for h1 */
