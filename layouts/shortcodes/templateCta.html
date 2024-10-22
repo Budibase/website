@@ -1,26 +1,23 @@
 {{- $template := .Get "template" -}}
 {{- $heading := "" -}}
+{{- $imageURL := "" -}}
+
 {{- if eq $template "changeManagement" -}}
     {{- $heading = "Change management template" -}}
+    {{- $imageURL = "https://res.cloudinary.com/daog6scxm/image/upload/v1729518252/cms/templates-cta/ChangeManagementCTA_GIF_lml2we.gif" -}}
 {{- else if eq $template "expenseApproval" -}}
     {{- $heading = "Expense approval template" -}}
+    {{- $imageURL = "https://res.cloudinary.com/daog6scxm/image/upload/v1729518252/cms/templates-cta/ChangeManagementCTA_GIF_lml2we.gif" -}}  <!-- Same URL for testing -->
 {{- else if eq $template "riskManagement" -}}
     {{- $heading = "Risk management template" -}}
+    {{- $imageURL = "https://res.cloudinary.com/daog6scxm/image/upload/v1729518252/cms/templates-cta/ChangeManagementCTA_GIF_lml2we.gif" -}}  <!-- Same URL for testing -->
 {{- end -}}
 
 <div style="background-color: #22252a; padding: 20px; max-width: 800px; margin: auto; border-radius: 10px;">
     <div style="display: flex; align-items: center; flex-wrap: wrap;">
-        <div style="flex: 1; text-align: center;">
-            {{- if eq $template "changeManagement" -}}
-                <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1729518252/cms/templates-cta/ChangeManagementCTA_GIF_lml2we.gif" 
-                     alt="{{ $heading }}" style="width: 100%; height: auto; max-width: 400px;"/>
-            {{- else if eq $template "expenseApproval" -}}
-                <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1729518252/cms/templates-cta/ExpenseApprovalCTA_GIF_example.gif" 
-                     alt="{{ $heading }}" style="width: 100%; height: auto; max-width: 400px;"/>
-            {{- else if eq $template "riskManagement" -}}
-                <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1729518252/cms/templates-cta/RiskManagementCTA_GIF_example.gif" 
-                     alt="{{ $heading }}" style="width: 100%; height: auto; max-width: 400px;"/>
-            {{- end -}}
+        <div class="cta-image" style="flex: 1; text-align: center;">
+            <img src="{{ $imageURL }}" 
+                 alt="{{ $heading }}" style="width: 100%; height: auto; max-width: 400px;"/>
         </div>
         <div style="flex: 1; text-align: left; padding-left: 20px;">
             <h1 style="color: #fff; margin-bottom: 15px; font-size: 18px;">Get started with our</h1>
@@ -31,7 +28,7 @@
                 {{ $heading }}
             </h2>
             <a href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=homepage-hero-section" target="_blank" rel="noopener">
-                <button class="btn btn-cta"> <!-- Reference your button class -->
+                <button class="btn btn-cta">
                     Sign up for free
                 </button>
             </a>
@@ -42,18 +39,17 @@
 <style>
     @media (max-width: 768px) {
         .cta-image {
-            display: none;
-        }
-        h1, h2 {
-            font-size: 16px;
-        }
-        h2 {
-            font-size: 22px;
-            text-align: center; /* Center the heading on mobile */
+            display: none; /* Hides the image on mobile */
         }
         div[style*="flex: 1; text-align: left; padding-left: 20px;"] {
-            text-align: center; /* Center the text on mobile */
+            text-align: left; /* Keep text left-aligned on mobile */
             padding-left: 0; /* Remove padding on mobile */
+        }
+        h1, h2 {
+            font-size: 16px; /* Adjust font size */
+        }
+        h2 {
+            font-size: 22px; /* Adjust font size for h2 */
         }
     }
 </style>
