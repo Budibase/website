@@ -1,6 +1,6 @@
 ---
 date: 2024-01-02
-title: 8 Filemaker Alternatives & Competitors for 2024
+title: 8 Filemaker Alternatives & Competitors for 2025
 description: Check out our round-up of the top FileMaker alternatives.
 images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1704298222/cms/alternatives/filemaker-meta_jpztjp.png
