@@ -1,7 +1,7 @@
 +++
 author = "Ronan McQuillan"
 date = 2024-05-06
-description = "Check out our round-up of the top Smartsheet alternatives for 2024."
+description = "Check out our round-up of the top Smartsheet alternatives for 2025."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "5 Smartsheet Alternatives & Competitors"
 +++

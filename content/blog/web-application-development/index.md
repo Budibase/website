@@ -3,7 +3,7 @@ author = "Joe Johnston"
 date = 2024-04-24T00:00:00Z
 description = "Web application development is the process of building web-based UIs and tools."
 images = ["/web-application-development/guide-to-web-application-development.jpg"]
-title = "A beginners guide to web application development (2024)"
+title = "A beginners guide to web application development (2025)"
 
 +++
 {{< figure src="/web-application-development/guide-to-web-application-development.jpg" alt="Guide to web application development" >}}
@@ -291,7 +291,7 @@ Vue describes itself as 'the progressive JavaScript framework'. Vue is smaller i
 
 Svelte describes itself as 'cybernativally enhanced web apps'. Svelte is the new kid on the block and is a compiler rather than a framework. This means no virtual DOM, no frameworks on top of frameworks, and **no framework to load at runtime**, resulting in incredibly performant web applications. Svelte's syntax makes the framework the easiest to learn from the frontend frameworks mentioned, and perfect for small to medium sized web applications. It is unproven with large web applications. The community and ecosystem is smaller than React and Vue, but it's growing. Budibase uses Svelte, and we truly love it.
 
-## **Web application development in 2024*
+## **Web application development in 20245
 
 {{< figure src="/web-application-development/budibase.jpg" alt="Budibase platform" >}}
 

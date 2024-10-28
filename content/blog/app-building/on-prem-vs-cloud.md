@@ -6,7 +6,7 @@ description = "On-prem vs cloud is a huge decision point for custom builds. Here
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1682672765/cms/on-prem-vs-cloud/blog_post_template_2_qenx6f.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1682672765/cms/on-prem-vs-cloud/blog_post_template_2_qenx6f.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "On-Prem vs Cloud Hosting in 2024"
+title = "On-Prem vs Cloud Hosting in 2025"
 
 +++
 
