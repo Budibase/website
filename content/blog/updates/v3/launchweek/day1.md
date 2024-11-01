@@ -1,5 +1,5 @@
 ---
-title: Introducing Our New Data-first Experience - Day 3, Budibase Launch Week
+title: Introducing Our New Data-first Experience - Day 1, Budibase Launch Week
 description: Welcome to day one of Budibase 3.0. We’ve reimagined the data experience from the ground up, introducing five powerful features that make it faster and easier than ever to build secure workflow apps. 
 type: blog
 layout: single
