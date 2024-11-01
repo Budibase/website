@@ -27,40 +27,32 @@ Well, with today’s update, you can!
 
 ## Visual Role-Based Access Control 
 
-Picture this: a clean, drag-and-drop editor where you can visually define your roles and their relationships. Want to make sure one role inherits permissions from another? Just drag and drop to connect them. It’s that simple — and powerful.
+Imagine a streamlined, drag-and-drop editor where you can visually define roles and their relationships. Want to ensure one role inherits permissions from another? Just drag and drop to connect them. It’s that simple — and powerful.
 
-Introducing branched permission inheritance, a game-changer for managing permissions. Any role further down the inheritance chain automatically gets all the permissions of the roles before it, making it easy to see the hierarchy and how different roles are interconnected.
+Enter branched permission inheritance, a game-changer for managing permissions. Any role further down the inheritance chain automatically gains all the permissions of the roles before it, creating a clear visual hierarchy of interconnected roles.
 
-[GIF]
+Let’s explore how you might set up permissions in an approval app:
 
-Roles can also be renamed and given a color, like so.
+![RBAC UI](https://res.cloudinary.com/daog6scxm/image/upload/v1730470042/campaigns/3.0/day%202/rbac_i_xjbtrz.webp)
 
-[GIF]
+In this setup, we start with the Submitter role, responsible for creating and submitting requests. Flowing from the Submitter, the permissions branch into two specialized Approvers: an Engineer for technical review and QA for quality control. Each can approve their respective sections independently, but the request is only marked as approved once both have given the green light.
 
-Let’s take a look at how you would set up permissions for an approval app: 
+At the end, we have the Manager role. This role inherits all permissions from both Approvers, giving full visibility and control over the approval process while retaining the division of responsibilities at the approver level. Visually, the branches from the Technical and Quality Approvers merge back into the Manager, showing how permissions converge.
 
-[image]
-
-In this example, we have our default app permissions (**App User** and **App Admin**), and the custom roles **Submitter**, **Approver**, and **Head of Department**.
-
-The Head of Department inherits all the permissions of the Approvers and App users, but the branching structure prevents them from accessing Submitter permissions. While the Head of Department needs access to Approver data, sensitive Submitter information, such as draft requests, remains restricted.
-
-This separation maintains privacy for Submitters while allowing the Head of Department full visibility over the approval process.
-
-Simply put, branched permission gives you more control over how permissions are assigned and allows you to intuitively understand your app's role structure at a glance. 
+This hierarchy ensures that the Manager has oversight without needing to micromanage, while specialized Approvers focus on their expertise areas. With branched permission, you now have the freedom to control role access intuitively, understanding your app’s role structure at a glance.
 
 
 ## Updates to Role Definitions and Names
 
-We’re moving towards a more intuitive and flexible approach, encouraging users to create custom roles tailored to their real-world business processes—for example, **Requestor** and **Approver** or **Producer** and **Consumer**.
+We’re moving towards a more intuitive and flexible approach, encouraging users to create custom roles tailored to their real-world business processes—for example, `Requestor` and `Approver` or `Producer` and `Consumer`.
 
 Relying on generic role names such as Basic and Power can lead to a confusing user experience where it’s unclear which permissions apply to which role.
 
 To avoid this, we’ve made some key changes to our default roles:
-- **Admin** is now called **App Admin**: This role has full control, with the highest level of permissions.
-- **Basic** user is now **App User**: The most restricted role, with no built-in permissions.
-- **Power** role has been phased out for new apps but remains unchanged for existing apps.
-- **Custom** roles can now inherit permissions from multiple other roles, giving you more flexibility.
+- `Admin` is now called `App Admin`: This role has full control, with the highest level of permissions.
+- `Basic` user is now `App User`: The most restricted role, with no built-in permissions.
+- `Power` role has been phased out for new apps but remains unchanged for existing apps.
+- `Custom` roles can now inherit permissions from multiple other roles, giving you more flexibility.
 
 
 ## Up next with Budibase 3.0
