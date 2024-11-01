@@ -57,8 +57,6 @@ The more complex our rules are, the trickier it is to understand their structure
 
 With our new pan and zoom buttons, we can quickly shift our focus between granular subflows - or we can take a step back and view the big picture.
 
-We’ve also added a new duplicate option to all automation steps, enabling you to seamlessly add new steps based on existing actions.
-
 ## Branch Tests
 
 ![Branching added to automation testing experience](https://res.cloudinary.com/daog6scxm/image/upload/v1730387928/campaigns/3.0/day%203/test_ufzu87.webp)
