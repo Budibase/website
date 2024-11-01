@@ -1,5 +1,5 @@
 ---
-title: Role-based Access Control - Day 3, Budibase Launch Week
+title: Role-based Access Control - Day 2, Budibase Launch Week
 description: Welcome to day 2 of Budibase 3.0 launch week, where we introduce Role Based Access Control - a powerful new way to manage access and permissions.  
 type: blog
 layout: single
