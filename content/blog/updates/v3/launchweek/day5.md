@@ -1,18 +1,19 @@
 ---
-title: The future of Budibase
+title: The Future Of Budibase - Day 5, Budibase Launch Week
 description: It’s day 5 of our first launch week. Today, we’re going to look into the future of Budibase. 
 type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1699284176/Branding/Assets/Symbol/RGB/Full%20Colour/bb-symbol-trans_v60zdz.svg
 images:
-  - https://res.cloudinary.com/daog6scxm/image/upload/v1729096122/campaigns/3.0/day%205/day_5_blog_crbwgn.png
-image: https://res.cloudinary.com/daog6scxm/image/upload/v1729096122/campaigns/3.0/day%205/day_5_blog_crbwgn.png
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1730463909/campaigns/3.0/day%205/day_5_ftcbr1.png
+image: https://res.cloudinary.com/daog6scxm/image/upload/v1730463909/campaigns/3.0/day%205/day_5_ftcbr1.png
 date: 2024-11-08
 author: Michael Shanks
 draft: true
 ---
 
-![Day-five-marketing-image](https://res.cloudinary.com/daog6scxm/image/upload/v1729096202/campaigns/3.0/day%205/day_5_blog_lg_qibmob.webp)
+{{< youtube id="ts2uFSwmCyM" >}}
+
 
 It’s the final day of our first launch week, and today, we’re going to look into the future of Budibase.
 

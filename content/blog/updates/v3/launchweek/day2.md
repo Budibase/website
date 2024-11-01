@@ -1,18 +1,22 @@
 ---
-title: Role-based Access Control – Budibase 3.0
+title: Role-based Access Control - Day 3, Budibase Launch Week
 description: Welcome to day 2 of Budibase 3.0 launch week, where we introduce Role Based Access Control - a powerful new way to manage access and permissions.  
 type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1699284176/Branding/Assets/Symbol/RGB/Full%20Colour/bb-symbol-trans_v60zdz.svg
 images:
-  - https://res.cloudinary.com/daog6scxm/video/upload/v1709745251/product-marketing-images/formsScreenTemplate2_exoepi.gif
-image: 
-date: "2024-10-15"
+  - https://res.cloudinary.com/daog6scxm/image/upload/v1730364261/campaigns/3.0/day%202/day_2_light_ebhyc1.png
+image: https://res.cloudinary.com/daog6scxm/image/upload/v1730364261/campaigns/3.0/day%202/day_2_light_ebhyc1.png
+date: 2024-11-05
 author: Andrew Kingston, Jamie Birss
 draft: true
 ---
 
-Welcome back to another day of Budibase 3.0 *madness*. Yesterday, we covered the brand-new data experience in Budibase, and today, we’re continuing the fun with **Role-Based Access Control**. 
+
+{{< youtube id="KkEM5GcMP44" >}}
+
+
+Welcome back to day 2 of the Budibase 3.0 launch week. Yesterday, we covered the [brand-new data experience](/blog/updates/v3/launchweek/day1) in Budibase, and today, we’re continuing the excitement with a new and improved **RBAC** experience. 
 
 Managing user permissions is one of the most important aspects of building secure applications. Ensuring that users have the right level of access is crucial for protecting sensitive data and maintaining the integrity of your app. 
 
