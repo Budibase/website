@@ -9,7 +9,7 @@ images:
 image: https://res.cloudinary.com/daog6scxm/image/upload/v1730364165/campaigns/3.0/day%201/day_1_light_b7c2kr.png
 date: 2024-11-04
 author: Michael Drury, Jamie Birss
-draft: true
+draft: false
 ---
 ![Budibase 3.0 launch week](https://res.cloudinary.com/daog6scxm/image/upload/v1730463943/campaigns/3.0/playlist_thumb_fhp65f.webp)
 
