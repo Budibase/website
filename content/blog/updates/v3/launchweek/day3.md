@@ -22,8 +22,6 @@ We’ve introduced a new step to add Branching to your automations. Use the Bran
 
 We can create as many parallel Branches as we like or even Branches within Branches. 
 
-Each Branch begins with a **Run Condition**. Adjacent Branches are evaluated from left to right. When the first Run Condition evaluates to true, the branch will be executed.
-
 Budibase Automations are now fully optimized for handling advanced use cases—like multi-step approvals, working with API responses, or categorizing and routing tickets.
 
 ![Two branched in Budibase automations](https://res.cloudinary.com/daog6scxm/image/upload/v1730386001/campaigns/3.0/day%203/branching_djgn0q.webp)
@@ -33,6 +31,8 @@ Let’s say we wanted to handle incoming asset requests, depending on whether th
 We’d then add two branches - for in-stock or out-of-stock items.
 
 Then, we can add whichever actions we like under these. For instance, updating the status of the original rental request.
+
+Each Branch begins with a **Run Condition**. Adjacent Branches are evaluated from left to right. When the first Run Condition evaluates to true, the branch will be executed.
 
 ![Automation run conditions](https://res.cloudinary.com/daog6scxm/image/upload/v1730386002/campaigns/3.0/day%203/branching_condition_bbhyc0.webp)
 
