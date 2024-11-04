@@ -1,5 +1,5 @@
 ---
-title: Day 1 - Introducing Our New Data-first Experience
+title: Day 1 - Introducing our new data-first experience
 description: Welcome to day one of Budibase 3.0. We’ve reimagined the data experience from the ground up, introducing five powerful features that make it faster and easier than ever to build secure workflow apps. 
 type: blog
 layout: single
@@ -9,15 +9,16 @@ images:
 image: https://res.cloudinary.com/daog6scxm/image/upload/v1730364165/campaigns/3.0/day%201/day_1_light_b7c2kr.png
 date: 2024-11-04
 author: Michael Drury, Jamie Birss
-draft: true
+draft: false
 ---
-![Budibase 3.0 launch week](https://res.cloudinary.com/daog6scxm/image/upload/v1730721015/campaigns/3.0/playlist_thumb_nj6nek.webp)
+{{< youtube id="zhKWphiOsPE" >}}
+
 
 Welcome to day one of the Budibase 3.0 launch week! Over the next few days, we’ll be diving into a variety of exciting new developments, each designed to enhance the way you build and manage your apps. Each day, we’ll explore a different theme, offering insights and guidance to help you get the most out of Budibase 3.0.
 
 *But let’s not get ahead of ourselves! We’re kicking off the week by diving into the new data experience in Budibase.*
 
-## New data experience
+## New data-first experience
 
 Every great application starts with a strong foundation—its data. In Budibase, the Data section is your starting point for building powerful apps and lays the groundwork for everything that follows. 
 
@@ -29,10 +30,8 @@ With this in mind, we’ve reimagined the data experience from the ground up, in
 4. [View Joins](#using-view-joins-to-connect-related-data)
 5. [Dynamic Screen Generation](#dynamically-generate-screens)
 
-{{< youtube id="zhKWphiOsPE" >}}
 
-
-## Controlling Role-Based Access With Enhanced Views
+## Control access with Enhanced Views
 
 Controlling who can view, access, and manipulate data is crucial to building secure applications in Budibase. 
 
@@ -75,7 +74,7 @@ You can create as many Views as you want, which you can easily toggle between us
 
 ---
 
-## Default Values
+## Set Default Values
 
 ![Default values](https://res.cloudinary.com/daog6scxm/image/upload/v1730382869/campaigns/3.0/day%201/Default_valuesportrait_pr8o6r.webp)
 
@@ -86,7 +85,7 @@ Default values offer a streamlined experience for gathering data. You can set co
 
 ---
 
-## Streamline Data Workflows with Row Actions
+## Streamline data workflows with Row Actions
 
 ![Row Actions](https://res.cloudinary.com/daog6scxm/image/upload/v1730407457/campaigns/3.0/day%201/Row_actions_zhc8le.webp)
 
@@ -102,7 +101,7 @@ This targeted approach lets users take specific actions on a table, such as appr
 
 ---
 
-## Using View Joins to Connect Related Data
+## Connect data with View Joins
 
 ![View Joins](https://res.cloudinary.com/daog6scxm/image/upload/v1730409505/campaigns/3.0/day%201/view_relationships_mjtaun.webp)
 
@@ -114,7 +113,7 @@ Related data, such as the employee's name, is always view-only, preserving secur
 
 ---
 
-## Dynamically Generate Screens
+## Dynamic Screen Generation
 
 For our fifth and final feature today, we’re covering Dynamic Screen Generation.
 
@@ -135,5 +134,3 @@ We hope you’ve enjoyed today’s release! As we’ve explored today, Budibase 
 From Dynamic Views that control role-based access to powerful new features like Automatic Screen Generation, the enhanced data experience streamlines app development and elevates what you can achieve with the platform.
 
 Throughout the week, we'll be unveiling more features that will transform your app-building journey. Tomorrow, we'll explore Role-Based Access Control, reinforcing our commitment to secure-by-design app development.
-
-Ready to explore Budibase 3.0? Dive into the new data experience and **[start building today](https://account.budibase.app/)**.
