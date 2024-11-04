@@ -24,14 +24,14 @@ Every great application starts with a strong foundation—its data. In Budibase,
 
 With this in mind, we’ve reimagined the data experience from the ground up, introducing five powerful features that make it faster and easier than ever to build secure workflow apps:
 
-1. [Enhanced Views](#controlling-role-based-access-with-enhanced-views)
-2. [Default Values](#default-values)
-3. [Row Actions](#streamline-data-workflows-with-row-actions)
-4. [View Joins](#using-view-joins-to-connect-related-data)
-5. [Dynamic Screen Generation](#dynamically-generate-screens)
+1. [Enhanced Views](#enhanced-views)
+2. [Default Values](#dafault-values)
+3. [Row Actions](#row-actions)
+4. [View Joins](#view-joins)
+5. [Dynamic Screen Generation](#screen-generation)
 
 
-## Control access with Enhanced Views
+## Control access with Enhanced Views {#enhanced-views}
 
 Controlling who can view, access, and manipulate data is crucial to building secure applications in Budibase. 
 
@@ -74,7 +74,7 @@ You can create as many Views as you want, which you can easily toggle between us
 
 ---
 
-## Set Default Values
+## Set Default Values {#default-values}
 
 ![Default values](https://res.cloudinary.com/daog6scxm/image/upload/v1730382869/campaigns/3.0/day%201/Default_valuesportrait_pr8o6r.webp)
 
@@ -85,7 +85,7 @@ Default values offer a streamlined experience for gathering data. You can set co
 
 ---
 
-## Streamline data workflows with Row Actions
+## Streamline data workflows with Row Actions {#row-actions}
 
 ![Row Actions](https://res.cloudinary.com/daog6scxm/image/upload/v1730407457/campaigns/3.0/day%201/Row_actions_zhc8le.webp)
 
@@ -101,7 +101,7 @@ This targeted approach lets users take specific actions on a table, such as appr
 
 ---
 
-## Connect data with View Joins
+## Connect data with View Joins {#view-joins}
 
 ![View Joins](https://res.cloudinary.com/daog6scxm/image/upload/v1730409505/campaigns/3.0/day%201/view_relationships_mjtaun.webp)
 
@@ -113,7 +113,7 @@ Related data, such as the employee's name, is always view-only, preserving secur
 
 ---
 
-## Dynamic Screen Generation
+## Dynamic Screen Generation {#screen-generation}
 
 For our fifth and final feature today, we’re covering Dynamic Screen Generation.
 
