@@ -134,3 +134,5 @@ We hope you’ve enjoyed today’s release! As we’ve explored today, Budibase 
 From Dynamic Views that control role-based access to powerful new features like Automatic Screen Generation, the enhanced data experience streamlines app development and elevates what you can achieve with the platform.
 
 Throughout the week, we'll be unveiling more features that will transform your app-building journey. Tomorrow, we'll explore Role-Based Access Control, reinforcing our commitment to secure-by-design app development.
+
+Try out the new features above by logging into your Budibase account or [signing up](https://account.budibase.app/register).
