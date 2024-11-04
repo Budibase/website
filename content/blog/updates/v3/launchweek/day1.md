@@ -25,7 +25,7 @@ Every great application starts with a strong foundation—its data. In Budibase,
 With this in mind, we’ve reimagined the data experience from the ground up, introducing five powerful features that make it faster and easier than ever to build secure workflow apps:
 
 1. [Enhanced Views](#enhanced-views)
-2. [Default Values](#dafault-values)
+2. [Default Values](#default-values)
 3. [Row Actions](#row-actions)
 4. [View Joins](#view-joins)
 5. [Dynamic Screen Generation](#screen-generation)
