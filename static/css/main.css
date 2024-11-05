@@ -6621,7 +6621,7 @@ ul {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    background-color: var(--black);
+    background-color: var(--bb-indigo);
     font-size: 15px;
   }
 }
