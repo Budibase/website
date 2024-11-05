@@ -9,7 +9,7 @@ images:
 image: https://res.cloudinary.com/daog6scxm/image/upload/v1730364261/campaigns/3.0/day%202/day_2_light_ebhyc1.png
 date: 2024-11-05
 author: Andrew Kingston, Jamie Birss
-draft: true
+draft: false
 ---
 
 
