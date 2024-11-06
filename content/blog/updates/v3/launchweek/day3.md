@@ -18,7 +18,7 @@ Welcome to day three of the Budibase 3.0 Launch Week! Over the past few days, we
 
 ## Automation Branches
 
-We’ve introduced Branching to Budibase automations. Use the Branch icon to add a new sub-flow beneath any existing automation trigger or action. We can create as many parallel Branches as we like or even Branches within Branches. 
+We’ve introduced Branching to Budibase automations. Use the Branch icon to add a new sub-flow beneath any existing automation trigger or action. We can create as many parallel branches as we like - or even branches within branches. 
 
 Budibase Automations are now fully optimized for handling advanced use cases—like multi-step approvals, working with API responses, or categorizing and routing tickets.
 
@@ -42,7 +42,7 @@ Alongside Branching, we’ve introduced drag-and-drop for automation actions. Qu
 
 Branching opens the door to a huge degree of sophistication within our automation rules. To keep this manageable, we’ve added panning and zooming within the Automation section of Budibase.
 
-The more complex your rules are, the trickier it is to understand their structure. With our new pan and zoom buttons, we can quickly shift our focus between granular subflows - or we can take a step back and view the big picture.
+The more complex your rules are, the trickier it is to understand their structure. With our new pan and zoom buttons, we can quickly shift our focus between indivudal branches - or we can take a step back and view the big picture.
 
 ![Pan and Zoom automations](https://res.cloudinary.com/daog6scxm/image/upload/v1730387330/campaigns/3.0/day%203/CleanShot_2024-10-31_at_15.08.13_d8kvls.gif)
 
