@@ -28,11 +28,11 @@ Budibase Automations are now fully optimized for handling advanced use cases—l
 
 ## Reordering Branches
 
-Since Branches are evaluated from left to right, we’ve also added horizontal reordering. Use the left and right arrow icons to shift entire branches in order of precedence. Remember, the first branch with a Run Condition that evaluates to true will be executed.
+Since Branches are evaluated from left to right, we’ve also added horizontal reordering. Use the left and right arrow icons to shift entire branches in order of precedence. Remember, the first branch with a Run Condition that evaluates to `true` will be executed.
 
 ![Reordering branches](https://res.cloudinary.com/daog6scxm/image/upload/v1730387063/campaigns/3.0/day%203/move-branch_figxtu.webp)
 
-## Drag and Drop
+## Drag-and-Drop
 
 Alongside Branching, we’ve introduced drag-and-drop for automation actions. Quickly drag-and-drop steps without losing any of their configuration. When we grab any step, all of the available positions are highlighted in green, providing an intuitive visual cue for structuring automation flows.
 
