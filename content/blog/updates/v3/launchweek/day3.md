@@ -18,7 +18,7 @@ Welcome to day three of the Budibase 3.0 Launch Week! Over the past few days, we
 
 ## Automation Branches
 
-We’ve introduced Branching to Budibase automations. Use the Branch icon to add a new sub-flow beneath any existing automation trigger or action. We can create as many parallel Branches as we like or even Branches within Branches. 
+We’ve introduced Branching to Budibase automations. Use the Branch icon to add a new sub-flow beneath any existing automation trigger or action. We can create as many parallel branches as we like - or even branches within branches. 
 
 Budibase Automations are now fully optimized for handling advanced use cases—like multi-step approvals, working with API responses, or categorizing and routing tickets.
 
@@ -28,11 +28,11 @@ Budibase Automations are now fully optimized for handling advanced use cases—l
 
 ## Reordering Branches
 
-Since Branches are evaluated from left to right, we’ve also added horizontal reordering. Use the left and right arrow icons to shift entire branches in order of precedence. Remember, the first branch with a Run Condition that evaluates to true will be executed.
+Since Branches are evaluated from left to right, we’ve also added horizontal reordering. Use the left and right arrow icons to shift entire branches in order of precedence. Remember, the first branch with a Run Condition that evaluates to `true` will be executed.
 
 ![Reordering branches](https://res.cloudinary.com/daog6scxm/image/upload/v1730387063/campaigns/3.0/day%203/move-branch_figxtu.webp)
 
-## Drag and Drop
+## Drag-and-Drop
 
 Alongside Branching, we’ve introduced drag-and-drop for automation actions. Quickly drag-and-drop steps without losing any of their configuration. When we grab any step, all of the available positions are highlighted in green, providing an intuitive visual cue for structuring automation flows.
 
@@ -42,7 +42,7 @@ Alongside Branching, we’ve introduced drag-and-drop for automation actions. Qu
 
 Branching opens the door to a huge degree of sophistication within our automation rules. To keep this manageable, we’ve added panning and zooming within the Automation section of Budibase.
 
-The more complex your rules are, the trickier it is to understand their structure. With our new pan and zoom buttons, we can quickly shift our focus between granular subflows - or we can take a step back and view the big picture.
+The more complex your rules are, the trickier it is to understand their structure. With our new pan and zoom buttons, we can quickly shift our focus between indivudal branches - or we can take a step back and view the big picture.
 
 ![Pan and Zoom automations](https://res.cloudinary.com/daog6scxm/image/upload/v1730387330/campaigns/3.0/day%203/CleanShot_2024-10-31_at_15.08.13_d8kvls.gif)
 
