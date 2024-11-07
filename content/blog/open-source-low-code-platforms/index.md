@@ -1,7 +1,7 @@
 +++
 author = "Joe Johnston"
 date = 2024-04-05T00:00:00Z
-description = "Open source low-code platforms come in all shapes and sizes. Here's everything you need to know in 2023"
+description = "Open source low-code platforms come in all shapes and sizes. Here's everything you need to know in 2025"
 images = ["/open-source-low-code-platforms/open-source-low-code-platforms.jpg"]
 title = "5 best open source low-code platforms (tried and tested)"
 

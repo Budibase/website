@@ -3,7 +3,7 @@ author = "Ronan McQuillan"
 date = 2024-02-19T23:00:00Z
 description = "Rapid application development tools are critical for building performant apps at pace."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Top 7 Rapid Application Development Tools for 2024"
+title = "Top 7 Rapid Application Development Tools for 2025"
 
 +++
 Choosing the right rapid application development tools for your team is a tricky prospect.

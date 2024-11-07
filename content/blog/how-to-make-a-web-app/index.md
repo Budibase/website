@@ -2,7 +2,7 @@
 author = "Joe Johnston"
 date = 2024-04-23T00:00:00Z
 description = "Follow our step-by-step guide for how to build a web app."
-title = "How to Build a Web App: Beginner's Guide (2024)"
+title = "How to Build a Web App: Beginner's Guide (2025)"
 
 +++
 {{< figure src="/how-to-make-a-web-app/how-to-make-a-web-app.jpg" attr="Picture by [Med Badr](https://unsplash.com/@medbadrc)" alt="How to make a web app" >}}
@@ -113,7 +113,7 @@ Even _with_ these tools, this is an involved process.
 
 That’s before you even think about testing, hosting, and deployment. Again, we’ll cover each stage of this process in a few minutes.
 
-### Building a web app in 2024
+### Building a web app in 2025
 
 These days, more and more developers are turning to more high-level, abstracted tools to build web apps.
 

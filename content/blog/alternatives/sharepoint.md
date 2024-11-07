@@ -1,7 +1,7 @@
 +++
 author = "Ronan McQuillan"
 date = 2024-05-08
-description = "Check out our breakdown of the market for SharePoint alternatives in 2024."
+description = "Check out our breakdown of the market for SharePoint alternatives in 2025."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "5 SharePoint Alternatives and Competitors"
 +++

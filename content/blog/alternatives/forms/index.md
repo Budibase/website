@@ -1,7 +1,7 @@
 ---
 date: 2024-02-06
 title: JotForm vs Typeform vs FormStack vs Budibase
-description: Take a look at our deep dive into the leading form builders on the market in 2024
+description: Take a look at our deep dive into the leading form builders on the market in 2025
 images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1707235664/cms/forms-vs-post/formsAltGuideMeta_k0nuc2.png
 cover: "https://res.cloudinary.com/daog6scxm/image/upload/v1707235424/cms/forms-vs-post/FormsAltGuideBanner_wwo5ug.webp"
@@ -31,7 +31,7 @@ Different platforms are aimed at specific target personas and use cases. So, weâ
 
 Letâ€™s jump right in.
 
-## Form Builders in 2024
+## Form Builders in 2025
 
 Form builders have been around for decades. At the most basic level, the idea is to provide a fast, easy way to build simple interfaces for users to submit information within a defined schema.
 

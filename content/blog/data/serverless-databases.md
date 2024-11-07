@@ -1,11 +1,11 @@
 +++
 author = "Ronan McQuillan"
 date = 2023-10-13
-description = "Check out 8 of our favorite serverless databases for 2024."
+description = "Check out 8 of our favorite serverless databases for 2025."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1697194631/cms/serverless-databases/Serverless_Databases_p33edl.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1697194631/cms/serverless-databases/Serverless_Databases_p33edl.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "What is a Serverless Database? + 8 Picks for 2024"
+title = "What is a Serverless Database? + 8 Picks for 2025"
 
 +++
 

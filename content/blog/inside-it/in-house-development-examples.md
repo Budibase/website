@@ -5,7 +5,7 @@ description = "Internal builds are widely misunderstood. Today, we’re putting 
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1667829617/cms/In-House_Development_Examples_wudhqt.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1667829721/cms/In-House_Development_Examples_aaeyvs.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "6 In-House Development Examples for 2024"
+title = "6 In-House Development Examples for 2025"
 
 +++
 Internal IT teams have never faced greater demand for custom solutions. This is well documented. However, there’s a lot of misunderstanding about the kinds of tools they actually build. Today, we’re putting this right with our roundup of in-house development examples.

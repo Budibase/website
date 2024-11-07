@@ -1,6 +1,6 @@
 ---
-date: 2023-12-12
-title: Top 7 Quickbase Alternatives & Competitors in 2024
+date: 2024-04-12
+title: Top 7 Quickbase Alternatives & Competitors in 2025
 description: Take a look at our round-up of the top alternatives to Quickbase that could improve your internal workflows and save you time.
 images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1702477772/cms/alternatives/quickbase_meta_mrwuxe.png

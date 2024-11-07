@@ -1,11 +1,11 @@
 +++
 author = "Ronan McQuillan"
 date = 2022-09-18T23:00:00Z
-description = "Today we’re looking at nine enterprise software industry trends for 2023."
+description = "Today we’re looking at nine enterprise software industry trends for 2025."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1666609618/cms/Enterprise_Software_Industry_Trends-2_d9wqdq.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1666609626/cms/Enterprise_Software_Industry_Trends-2_odebrg.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "9 Enterprise Software Industry Trends for 2024"
+title = "9 Enterprise Software Industry Trends for 2025"
 
 +++
 The way we build tools is constantly changing. New technologies, emergent risks, and external economic factors have always influenced business’ decision-making. Today we’re looking at nine enterprise software industry trends for 2023.

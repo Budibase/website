@@ -1,6 +1,6 @@
 ---
 date: 2024-01-02
-title: Top 8 Appian Alternatives & Competitors in 2024
+title: Top 8 Appian Alternatives & Competitors in 2025
 description: Learn about the top 5 Appian alternatives & competitors to improve your internal workflows and save you time.
 images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1704207063/cms/alternatives/appian-meta_fb0dog.png

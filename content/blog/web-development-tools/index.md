@@ -3,7 +3,7 @@ author = "Joe Johnston"
 date = 2020-02-12T00:00:00Z
 description = "Web development is hard. Thankfully, there are tools at our disposal to help make life easier. Within this post, you will find 40 web development tools to help improve your workflow."
 images = ["/web-development-tools/budibase.png"]
-title = "40 web development tools you must know about in 2024"
+title = "40 web development tools you must know about in 2025"
 
 +++
 What does a doctor, builder, and developer have in common?
