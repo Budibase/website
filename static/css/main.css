@@ -18903,12 +18903,13 @@ button.bg-blue:focus {
     cursor: pointer;
     display: inline;
     font-variation-settings: "wght" 420;
-    color: var(--text-color-dark);
+    color: var(--bb-indigo-dark);
     text-decoration: underline;
   }
   
   .article a:hover {
     cursor: pointer;
+    color: var(--bb-indigo);
   }
 
   .article a button {

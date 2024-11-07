@@ -42,7 +42,9 @@ Today, Budibase supports:
 You can also add other OpenAI-compatible LLMs using the Custom option. We will continue to add to the list of supported LLMs.
 
 #### Pricing and availability
-AI Configs are only available to Enterprise customers. [Talk to sales to get started.](/contact)
+AI Configs are only available to Enterprise customers. 
+
+[Talk to sales to get started.](/contact)
 
 
 #### Getting started
@@ -82,7 +84,9 @@ Go to the Automation section of your app and create a new automation. Give your 
 The fourth and, internally, our favorite AI feature is the new, powerful AI column. The latest AI column harnesses the power of AI plus the context of data within your row. Simply select the AI column, add a prompt, and let AI do the work for you - from analyzing customer feedback to triaging support tickets, drafting responses, or writing inventory descriptions. 
 
 #### Pricing and availability
-This feature is only available if you have Budibase AI activated or successfully connected an AI Config. The new AI column is only available when using Budibase DB, but we do plan to add suport for external databases such as Postgres and MySQL. [Talk to sales to get started.](/contact)
+This feature is only available if you have Budibase AI activated or successfully connected an AI Config. The new AI column is only available when using Budibase DB, but we do plan to add suport for external databases such as Postgres and MySQL. 
+
+[Talk to sales to get started.](/contact)
 
 #### Getting started
 Head to the data section of your app. Add `Budibase DB` as a data source. Create a new table, click the `Add column` button, give your new column a name — `AI Test` — and select `AI Column` as your column type.
