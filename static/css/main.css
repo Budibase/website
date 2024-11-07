@@ -391,6 +391,16 @@ iframe::backdrop {
   }
 }
 
+.alert {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .75rem;
+  padding: 4px 12px;
+  border: 1px solid var(--base-4);
+  border-radius: 12px;
+}
+
 .close-btn {
   border: none;
   background: none;
@@ -18893,12 +18903,13 @@ button.bg-blue:focus {
     cursor: pointer;
     display: inline;
     font-variation-settings: "wght" 420;
-    color: var(--text-color-dark);
+    color: var(--bb-indigo-dark);
     text-decoration: underline;
   }
   
   .article a:hover {
     cursor: pointer;
+    color: var(--bb-indigo);
   }
 
   .article a button {
