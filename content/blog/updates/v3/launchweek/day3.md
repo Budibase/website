@@ -22,7 +22,7 @@ We’ve introduced Branching to Budibase automations. Use the Branch icon to add
 
 Budibase Automations are now fully optimized for handling advanced use cases—like multi-step approvals, working with API responses, or categorizing and routing tickets.
 
-{{< alert "Automation branching is available for free.">}}
+{{< alert-positive "Automation branching is available for free.">}}
 
 ![Two branched in Budibase automations](https://res.cloudinary.com/daog6scxm/image/upload/v1730386001/campaigns/3.0/day%203/branching_djgn0q.webp)
 
