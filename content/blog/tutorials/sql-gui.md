@@ -1,459 +1,805 @@
 +++
 author = "Ronan McQuillan"
-date = 2024-02-22T23:00:00Z
+date = 2024-06-22T23:00:00Z
 description = "With Budibase, building a custom SQL GUI has never been easier. Here's everything you need to know."
-image = "https://res.cloudinary.com/daog6scxm/image/upload/v1664187039/cms/How_to_Build_a_SQL_GUI_ttdmca.png"
-images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1664187046/cms/How_to_Build_a_SQL_GUI_hlukgc.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "How to build a Free SQL GUI in 5 Steps"
 
 +++
-SQL is a powerful database query language that can be used to unlock valuable insights stored in databases. But SQL can be difficult to learn and use, particularly for non-specialists.
+SQL is a powerful query language that’s used to unlock valuable insights stored in databases. 
 
-That’s where a SQL GUI (Graphical User Interface) comes in handy.
+No matter how large our database is or what we’re using it for, we need a streamlined, accessible way to interact with our data. But we also need to do this in a controlled, secure manner.
 
-SQL GUIs are useful for developers and non-developers alike. They provide intuitive interfaces to interact with the database without writing SQL syntax commands. You can visually interact with tables, rows, fields, searches, and more, without any specialist knowledge.
+That’s where an effective SQL GUI comes in. A GUI - graphical user interface - is an application that allows us to interact visually with our data, rather than relying solely on written commands. 
 
-Thus, you don’t need to worry about the right code syntax to get the data you want to see. You just use the GUI components, like you would with any other app.
+This could range from performing simple CRUD actions to more advanced database operations.
 
-They can cater to advanced users as well. With them, you can quickly perform simple tasks. And if you want to write SQL code anyway, it’s always possible to do it.
+The bad news is that buying a SQL GUI to manage databases isn’t always an easy decision. There are many things to consider, such as licensing, access control, user volumes, app installs, and custom workflows.
 
-Another benefit of a dedicated GUI tool is that you can have a single tool to load data from different databases with completely different architectures. Therefore, with a single tool, you can see all your MySQL, MariaDB,  Oracle, and even Microsoft SQL Server databases, wherever you are.
+Budibase offers an alternative approach.
 
-The bad news is that buying a SQL GUI to manage databases might not be an easy decision. There are many things to consider, such as licensing, access control, user volumes, app installs, and custom workflows.
+The key thing here is that our GUI aligns with the actions we want to enable users to take regarding our data. That is, we need a tool that supports the specific ways we want to interact with our database.
 
-But you can solve this with low-code development.
+Today, we’re showing off how Budibase makes this a breeze. 
 
-It’s possible to build your own SQL GUI in just 5 steps. Using Budibase, you can create a tool that does exactly what you want it to, that loads all your data, for unlimited users and with web access.
+Specifically, we’re building a SQL GUI that allows different user types to do two things:
 
-This is the beauty of low-code development.
+1. Perform defined CRUD actions on our database tables.
+2. Write, test, execute, and save custom queries.
 
-The truth is, you don’t even need the full 5 steps. If you just want a simple CRUD interface, you can do it with just steps one and two. But today, we’re going to look at how to create something a little more sophisticated.
-
-Here is a quick overview of how to create a GUI for SQL databases using our open-source platform.
-
-1. Create your app and connect to your database.
-2. Create your CRUD interface with one click.
-3. Custom DB connections to read, write and delete data.
-4. Custom screens to see and filter all your tables.
-5. Forms to edit data from any table.
+Budibase is the security-first low-code platform that helps IT teams turn data into action.
 
 You might also like our guide to building a [REST API GUI](https://budibase.com/blog/tutorials/rest-api-gui/).
 
-Let’s get started!
+First, let’s think a little bit more about why we would opt to build our own GUI rather than going for an off-the-shelf option.
 
-## Does SQL have a GUI?
+### What is the best GUI for SQL?
 
-SQL is a standard language that lets you store, manipulate and retrieve data in databases. It doesn’t have a GUI in itself, but there are many applications you can use for that.
+The right GUI depends on your needs. Some are more popular than others. For example, phpMyAdmin is the most ubiquitous option.
 
-They come in a vast range of options and prices, and you can even build your own GUI for free, by following this tutorial.
-
-In case you want to check out what options there are out there, here is a list of off-the-shelf graphical interfaces that database administrators use for writing SQL queries:
-
-* DBeaver.
-* SQLyog.
-* DataGrip by JetBrain.
-* DbVisualizer.
-* DronaHQ.
-* MySQL Workbench.
-* OmniDB.
-* DataGrip.
-* HeidiSQL.
-
-## What is the best GUI for SQL?
-
-The best GUI depends on your needs. Some are more popular, due to how they are distributed. For example, phpMyAdmin is pretty ubiquitous.
-
-Others cater to very specific needs.
+Others cater to very specific needs. For instance, these could be proprietary for a specific database engine or service. Or, you might have dedicated GUIs for more specific internal use cases.
 
 Here are some points to consider when you pick a SQL GUI (or if you build your own):
 
-* **License cost** - be it one time, monthly or yearly.
-* **Licensing limitations** - number of users, number of instances.
-* **Local or web-based** - some are accessible online, others only work as desktop installations.
-* **Databases supported** - some work with a specific database, and others can work with multiple databases.
-* **Ease of use** - how complex the interface is.
-* **Customization** - if it’s possible to add new features to it via plugins, or even editing the source code.
-* **Reliability** - if the tool works all the time or if it breaks.
+- **License cost** - be it one-time, monthly, or yearly.
+- **Licensing limitations** - number of users, number of instances.
+- **Local or web-based** - some are accessible online, others only work as desktop installations.
+- **Databases supported** - some work with a specific database, and others can work with multiple databases.
+- **Ease of use** - how complex the interface is or how well it’s optimized for particular use cases.
+- **Customization** - if it’s possible to add new features to it via plug-ins or even editing the source code.
+- **Reliability** - if the tool works all the time or if it breaks.
+- **Security and user management** - including authentication, authorization, credential management, and access control.
 
 You might also like our round-up of [open-source form builders](https://budibase.com/blog/open-source-form-builder/).
 
-## How do you create a GUI?
+## What are we building?
 
-You can create your SQL GUI using Budibase. There are actually two methods to interact with your databases, and you’ll learn both:
+As we said earlier, our SQL GUI provides two clusters of capabilities, with each one accessible to a different set of end users. To achieve this, we’re making heavy use of Budibase’s role-based access control.
 
-1. Using the one-click interface to generate CRUD pages for a table.
-2. Using drag-and-drop components, custom connections, queries, and a little bit of custom code to make a flexible SQL interface that loads any table from a database connection.
+Budibase offers custom RBAC. We can use these to configure which data sets and operations users have access to within Budibase’s Data section.
 
-The end result is something like this:
+Then, all we need to do is autogenerate UIs or even automations and customize them to suit our needs.
 
-![Custom SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664187961/cms/01_scfb6k.webp "Custom SQL GUI")
+For our SQL GUI, we’re using an existing MySQL database, representing an employee time management system.
 
-This is the main app page. In it, you can select the tables, filter data, add new records, and edit rows. The add new/edit screen looks like this:
+We’re going to create one set of screens so that users with a role called **Employees** will be able to perform CRUD actions, allowing them to create and view their own timesheets.
 
-![SQL GUI home screens](https://res.cloudinary.com/daog6scxm/image/upload/v1664187936/cms/02_gfitiy.webp "SQL GUI home screen")
+Our second cohort, called **Query Editors**, will be able to write, send, test, and save custom database queries, as well as viewing a complete history of queries that have previously been sent from our GUI.
 
-The form is the same for both the new row and edit options. The only difference is that one creates a new row, and the other updates a current row.
+Here’s what our CRUD screens look like.
 
-In addition, there is the App Settings page:
+{{< vimeo id="1027314576" title="SQL GUI" >}}
 
-![App settings](https://res.cloudinary.com/daog6scxm/image/upload/v1664187918/cms/03_aux7st.webp "App settings")
+And our query editor.
 
-The settings page is where you add your DB tables. Using this method your end users don’t need to edit the Budibase app to add new data. They can just insert them using this screen.
+{{< vimeo id="1027314554" title="SQL GUI" >}}
 
-If you take a closer look, it is quite similar to the home screen. The difference is that the settings screen is created using the auto-generated pages, while the home screen is custom-built.
+## How to build a SQL GUI in 5 Steps
 
-This may seem like a small difference in terms of end result, but they have different use cases and capabilities.
-
-It’s worth mentioning that we’re not going to dive too deep into security and user-control today. If you have a lot of users or critical data, make sure to include protections against SQL injection and proper user controls in your pages and queries.
-
-You might also like our in-depth guide to [data modeling](https://budibase.com/blog/data/how-to-create-a-data-model/).
-
-## 1. Create your app and connect to a database
-
-To get started, you can create a free Budibase account.
-
-Once that’s done, it’s time to connect to your [data source](https://budibase.com/blog/data/data-sources/). In our demo SQL user interface, we are using a MySQL database.
-
-Add the connection details on the interface:
-
-![Connect to SQL](https://res.cloudinary.com/daog6scxm/image/upload/v1657707519/cms/007_lksa6e.webp "Connect to SQL")
-
-Make sure you have [whitelisted the Budibase IP](https://docs.budibase.com/docs/whitelisting) in your server. Otherwise, even with the right credentials, you won’t be able to connect.
-
-![Import Tables](https://res.cloudinary.com/daog6scxm/image/upload/v1657707582/cms/008_zp3juc.webp "Import tables")
-
-Next we need to store our App’s settings. You can use one of your tables to do it, but another option is to use Budibase DB.
-
-In our demo app we have a table called “_app_setting_s” with these columns:
-
-* Table_name.
-* ID.
-* Title.
-* Value.
-
-You’ll use this table to select which columns from the MySQL tables correspond to this format. This allows us to use a single table with a fixed structure to display data from any table we want.
-
-For example, in the MySQL tables we have these tables and columns:
-
-* Posts:
-  * id,
-  * title,
-  * content,
-  * date,
-* Settings:
-  * id,
-  * settings_key,
-  * value.
-
-Therefore, we need to tell Budibase, which attributes from each of the tables go into each of the columns we have available.
-
-These are the _mappings_:
-
-![App settings table](https://res.cloudinary.com/daog6scxm/image/upload/v1664187832/cms/04_rsrtrq.webp "App settings table")
-
-## 2. Generate a SQL GUI automatically
-
-If you just need a simple GUI, you can create it automatically with Budibase. Let’s do this with the App Settings so you can use this method for your tables.
-
-Go to the _Design_ tab, select the screens menu, and hit _add screen_.
-
-![Add screens](https://res.cloudinary.com/daog6scxm/image/upload/v1664187812/cms/05_kevrex.webp "Add screens")
-
-Then select the “Autogenerated screens” option and pick the _app_settings_ table.
-
-![CRUD screens for SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664187730/cms/06_qrg0gs.webp "CRUD Screen for SQL GUI")
-
-This is what you should see:
-
-![SQL GUI Design](https://res.cloudinary.com/daog6scxm/image/upload/v1664187631/cms/07_qlladj.webp "SQL GUI Design")
-
-And that’s all you need for a basic SQL GUI. You can repeat this process with all tables in case you want just these functions.
-
-In our example, we’ve changed the app formatting a bit too. You can do this in the “_Theme_” section:
-
-![App theme](https://res.cloudinary.com/daog6scxm/image/upload/v1664187614/cms/08_pmz7kh.webp "App theme")
-
-We picked a dark theme and a CSS gradient for the header background. You can add any valid CSS background values in here, including simple colors or complex values, such as gradients and even background images.
-
-Now let’s see how you can spice up your SQL GUI with a single screen that loads multiple tables.
+Let’s dive into creating our SQL GUI. If you haven’t already, sign up for a free Budibase account to build as many apps as you like, for free. 
 
 {{< cta >}}
 
-## 3. Custom database connections and queries
+We’ll provide the queries you need to create the database tables we’re using in our example a little bit later.
 
-If you have a lot of tables to manage, maybe manually creating a CRUD interface for each of them isn’t the best option. It’s possible to create your own interface that loads tables and databases automatically.
+### 1. Configuring our database connection
 
-For your end users, this might be an easier option, since they can add new tables and databases without editing the app itself.
+We’re starting by creating a new Budibase application, which we’ll simply call SQL GUI.
 
-They just need to add the tables in a settings table. As long as your current DB connection has the right capabilities to access data, you’ll see it automatically.
+Once we’ve created our app, the first thing we’re prompted to do is select a data source. Budibase offers unrivaled connectivity for external databases, including dedicated connectors for a huge range of relational databases, NoSQL tools, APIs, and custom sources.
 
-Now, as for how you can create this dynamic SQL GUI, there are a few important elements:
+Today, we’re choosing MySQL, although the same principles apply to building a GUI for any SQL database.
 
-* **The DB commands** - they depend on your database, so you’ll need a screen for each of your database connections
-* **The tables schema** - here we use a mapping method so all tables respond to the same schema. There are other ways of doing this though
+![SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1730990312/cms/updated-sql-gui/GUI_1_bycdgu.webp "SQL GUI")
 
-The tricky part here is to take a user input (tables options) and add it to your queries dynamically. This is hard because SQL usually doesn’t allow functions or variables in table names.
+When we choose MySQL, we’ll then be prompted to add our configuration details using a modal form.
 
-So you can’t just use a command like _SELECT * FROM {{ table }}_, because this binding is treated like a plain string (wrapped by single quotes).
+![Database Credentials](https://res.cloudinary.com/daog6scxm/image/upload/v1730990312/cms/updated-sql-gui/GUI_2_tlx55o.webp "Database credentials")
 
-Check out our guide to [database schemas](https://budibase.com/blog/data/what-is-a-database-schema/) for more information.
+Once we’ve successfully connected to our database, we can choose which of its tables we’d like to **fetch**. This pulls the tables we select into Budibase. We can then view and edit them in our Data section or use them to build UIs and automations.
 
-Some DBs such as MariaDB have a handy command for this, EXECUTE IMMEDIATE. It allows you to send a SQL command with variables or anything else you need.
+![Fetch Tables](https://res.cloudinary.com/daog6scxm/image/upload/v1730990312/cms/updated-sql-gui/GUI_3_cdizg6.webp "Fetch Tables")
 
-If your DB has this command, then you can just use something like this in your queries:
+Our database contains two tables called **employees** and **submissions**. The employees table stores attributes called first_name and last_name, as well as a unique ID.
 
-EXECUTE IMMEDIATE ‘CONCAT ( 'SELECT * from ‘, {{ table }} ) ’
+The submissions table stores our timesheets. This includes the submitters information, attributes for the date and time of the submission, a comments section, a unique ID, and an attribute called employee_id which corresponds to a row in the employees table.
 
-But since we are using MySQL we need something else. If you look closely, the EXECUTE IMMEDIATE command is actually just a shorthand for this:
+Here’s what these look like in Budibase’s Data section. First, employees:
+
+![Employees Table](https://res.cloudinary.com/daog6scxm/image/upload/v1730990312/cms/updated-sql-gui/GUI_4_gexcwe.webp "Employees Table")
+
+And, second, submissions:
+
+![Submissions Table](https://res.cloudinary.com/daog6scxm/image/upload/v1730990312/cms/updated-sql-gui/GUI_5_efge77.webp "Submissions Table")
+
+If you’d like to create lookalike tables so you can build along with our tutorial, you can use the following queries. 
+
+This one creates the employees table:
+
+This query creates the submissions table:
 
 {{< highlight sql "linenos=inline" >}}
 
-PREPARE stmt 
-from ‘CONCAT ( 'SELECT * FROM ‘, {{ table }} ) ’;
-EXECUTE stmt;
-DEALLOCATE PREPARE stmt;
+-- Create the table
+
+CREATE TABLE timesheet (
+
+  submission_id INT,
+
+  email VARCHAR(255),
+
+  week_beginning DATE,
+
+  day_of_week VARCHAR(10),
+
+  in_hours INT,
+
+  in_mins INT,
+
+  out_hours INT,
+
+  out_mins INT,
+
+  comments VARCHAR(255),
+
+  employee_id INT
+
+);
+
+-- Insert the data
+
+INSERT INTO timesheet (
+
+  submission_id, email, week_beginning, day_of_week, in_hours, in_mins, out_hours, out_mins, comments, employee_id
+
+) VALUES
+
+(32, 'jane.smith@example.com', '2024-01-29', 'Monday', 8, 30, 17, 0, 'Client meetings', 2),
+
+(33, 'jane.smith@example.com', '2024-01-29', 'Tuesday', 9, 0, 17, 30, 'Project work', 2),
+
+(34, 'jane.smith@example.com', '2024-01-29', 'Wednesday', 8, 30, 16, 30, 'Meeting with team', 2),
+
+(35, 'jane.smith@example.com', '2024-01-29', 'Thursday', 9, 0, 17, 0, 'Coding tasks', 2),
+
+(36, 'jane.smith@example.com', '2024-01-29', 'Friday', 8, 0, 16, 0, 'Client presentation', 2),
+
+(37, 'john.doe@example.com', '2024-01-29', 'Monday', 10, 0, 18, 0, 'Analyzing data', 1),
+
+(38, 'john.doe@example.com', '2024-01-29', 'Wednesday', 9, 0, 16, 0, 'Database design', 1),
+
+(39, 'john.doe@example.com', '2024-01-29', 'Friday', 8, 30, 15, 30, 'Code review', 1);
 
 {{< /highlight >}}
 
-And this is actually possible with MySQL. You just need access to your DB (using PHPMyAdmin or similar) and you can create a procedure there with something like this:
+This one creates our employees table:
 
-{{< highlight php "linenos=inline" >}}
+{{< highlight sql "linenos=inline" >}}
+
+-- Create the employees table
+
+CREATE TABLE employees (
+
+  id INT,
+
+  first_name VARCHAR(50),
+
+  last_name VARCHAR(50)
+
+);
+
+-- Insert the data
+
+INSERT INTO employees (id, first_name, last_name) VALUES
+
+(1, 'John', 'Doe'),
+
+(2, 'Jane', 'Smith');
+
+{{< /highlight >}}
+
+### 2. Building our CRUD tools
+
+Now that we’ve got our table in place, we can start creating our GUI. As we said earlier, we’re going to show off two distinct methods for creating interfaces to interact with SQL data in Budibase.
+
+First, we’re going to create some simple CRUD interfaces. Later, we’ll add UIs to write custom database queries.
+
+This is going to allow users with the **Employee** role to create new records on our submissions table - or view and edit their own previous submissions.
+
+In Budibase, we can start by configuring our data, including who can access it and which actions they can perform. Then, we can use this to autogenerate secure interfaces at the press of a button.
+
+Let’s see how this works.
+
+#### Add a user column
+
+Before we create our interfaces, we’re going to make a few tweaks within the Data section.
+
+The first thing we need to do is set our tables up so that we can associate individual rows in each one with specific Budibase users.
+
+To do this, we’re going to add a **single user column** to both tables. This is a special data type that creates a relationship with Budibase’s internal users table. We also offer a **multi-user column** to assign a single row to multiple users.
+
+Hit the plus icon to create a column on the employees table. We’ll select the single-user type and call our new column **bb_user**.
+
+![BB User](https://res.cloudinary.com/daog6scxm/image/upload/v1730990316/cms/updated-sql-gui/GUI_6_obunia.webp "BB User")
+
+We’ll then repeat this process for the submissions table, calling our user column **submitted_by**. This time, we’ll also select the option to **Default to Current User**. That way, the column will automatically be populated to the appropriate end-user when a row is created.
+
+In our test data, we have two employees called John Doe and Jane Smith. For testing purposes, we’re going to link our own user account to John Doe’s rows in both tables.
+
+![SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1730990325/cms/updated-sql-gui/GUI_7_edevfh.webp "SQL GUI")
+
+While we’re here, we’re also going to make one more tweak. Specifically, the employees table stores a text attribute called **comments**. 
+
+We’re going to update this by changing it to the **long-form text** type. When we generate screens later, this will give us a larger text box within forms.
+
+![Comments](https://res.cloudinary.com/daog6scxm/image/upload/v1730990330/cms/updated-sql-gui/GUI_8_pmuyt5.webp "Comments")
+
+#### Set up relationships
+
+Next, we can configure the relationship between our two tables in Budibase’s data section. Recall that our submissions table already has an attribute called *employee_id* that corresponds to the unique ID in the employees table.
+
+We simply need to define this in Budibase. From the employees table, hit **Define Relationship**.
+
+![Define Relationship](https://res.cloudinary.com/daog6scxm/image/upload/v1730990334/cms/updated-sql-gui/GUI_9_o9ysus.webp "Define Relationship")
+
+This opens a modal form where we can set up our relationship. We’re creating a **one-to-many** link. Our **primary key** will be the **ID** attribute in our employees table. The foreign key is the **employee_id** attribute in our submissions table.
+
+![Define Relationship](https://res.cloudinary.com/daog6scxm/image/upload/v1730990337/cms/updated-sql-gui/GUI_10_obojvk.webp "Define Relationship")
+
+#### Create a filtered view
+
+Next, we’re going to use Views to set up our data access rules. Views are used to create subsets of our data for specific purposes and user groups. So, we can set these up, configure them for a particular role, and then generate screens or automations.
+
+That way, we can give users the exact level of data exposure they need to perform their required tasks.
+
+From the submissions table, we’ll hit **Create a View**. We’ll call this **user_filtered**.
+
+![Create a View](https://res.cloudinary.com/daog6scxm/image/upload/v1730990337/cms/updated-sql-gui/GUI_11_ynhugl.webp "Create a View")
+
+We’ll set the **Access** for this to our **Employees** role.
+
+We can also use filters within Views to control which rows users can view or edit. For our purposes, we want to create a filter so that end users can only access rows that are related to their entry in the internal users table.
+
+We’ll start by hitting the **Filter** button to open the filtering modal.
+
+![Add A filter](https://res.cloudinary.com/daog6scxm/image/upload/v1730990340/cms/updated-sql-gui/GUI_12_q2frmi.webp "Add A filter")
+
+Here, we’re going to create a rule so that we’ll only include rules where submitted_by is equal to {{ Current User.globalId }}. We can select this from the Bindings menu by hitting the lightning bolt icon.
+
+![Filter](https://res.cloudinary.com/daog6scxm/image/upload/v1730990340/cms/updated-sql-gui/GUI_13_yruzba.webp "Filter")
+
+Here’s what our completed view will look like.
+
+![View](https://res.cloudinary.com/daog6scxm/image/upload/v1730990316/cms/updated-sql-gui/GUI_14_yd4mif.webp "View")
+
+#### Generate CRUD UIs
+
+With our data set up, we can start building our UIs. In Budibase, we can autogenerate our app screens from the Data section. Start by hitting **Generate App Screen** under **Screens**.
+
+![Generate Screens](https://res.cloudinary.com/daog6scxm/image/upload/v1730990325/cms/updated-sql-gui/GUI_15_mmm4ct.webp "Generate Screens")
+
+Then, we can choose between a Form or a Table layout. We’re choosing Table.
+
+![Table](https://res.cloudinary.com/daog6scxm/image/upload/v1730990329/cms/updated-sql-gui/GUI_16_uvlhwx.webp "Table")
+
+Then, we’ll be presented with a few options here. All of these are centered around a table UI, with different ways to present our create and update forms.
+
+We’re going to use side panels.
+
+![Table](https://res.cloudinary.com/daog6scxm/image/upload/v1730990333/cms/updated-sql-gui/GUI_17_hbkede.webp "Table")
+
+Here’s what our screen looks like.
+
+![SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1730990336/cms/updated-sql-gui/GUI_18_f9jjh0.webp "SQL GUI")
+
+This is fully functional straight out of the box, but we’re going to make a few adjustments to better suit our purposes.
+
+Firstly, we don’t need our users to be able to edit their submissions, so we’re going to make this form read-only by selecting the View option. We’ll also update the Title to reflect this.
+
+![CRUD UI](https://res.cloudinary.com/daog6scxm/image/upload/v1730990337/cms/updated-sql-gui/GUI_19_a3fvng.webp "CRUD UI")
+
+Next, when a user submits a timesheet, we want to automatically populate certain data without them having to fill them in manually.
+
+We’ll start by deselecting the employee field in our form.
+
+![Create Form](https://res.cloudinary.com/daog6scxm/image/upload/v1730990340/cms/updated-sql-gui/GUI_20_pa4zwm.webp "Create Form")
+
+We can do this within the Actions drawer for our **Save** button under the **Save Row** action. Here, we have the option to add values to our saved row that are populated any time we hit the Save button.
+
+We’ll start by adding employee_id.
+
+![Employee ID](https://res.cloudinary.com/daog6scxm/image/upload/v1730990338/cms/updated-sql-gui/GUI_21_to9wqf.webp "Employee ID")
+
+However, our form isn’t currently exposed to the information we need to populate a value for our employee_id field. This should correspond to the ID of the row in the employees table that the current user is linked to.
+
+To access this, we’ll need to add a **Data Provider** component to our app screen. We’ll set the data field for this to our employees table.
+
+![Data Provider](https://res.cloudinary.com/daog6scxm/image/upload/v1730990316/cms/updated-sql-gui/GUI_22_qlp0eq.webp "Data Provider")
+
+Then, we’ll give it a filtering expression so that it only returns the employees row that’s linked to the current user, where bb_user is equal to {{ Current User.globalId }}.
+
+![Save Row](https://res.cloudinary.com/daog6scxm/image/upload/v1730990323/cms/updated-sql-gui/GUI_23_hkd94d.webp "Save Row")
+
+Now, back under our Save Row button, we can access this with the binding {{ Employee Data Provider.Rows.0.id }}.
+
+![Binding](https://res.cloudinary.com/daog6scxm/image/upload/v1730990328/cms/updated-sql-gui/GUI_24_u7mpx2.webp "Binding")
+
+We can then try and save a row to test this out. And that’s it for now. We’ll make a few design tweaks to our UI a little later, but in the meantime, let’s move on to our other method for creating a SQL GUI.
+
+### 3. Building our query editor
+
+Almost all GUIs also enable users to write and send custom queries from an interface. 
+
+As we said earlier, the second capability we’re going to build will enable users with a higher level of access to write, test, and save custom queries to our database.
+
+#### Adding a prepared statement
+
+Depending on which type of SQL database we’re using, the next couple of steps will be a little bit different. 
+
+For example, in some databases, we can handle dynamic SQL by wrapping them in an EXECUTE IMMEDIATE statement. However, MySQL doesn’t support this.
+
+So, in order to send dynamic queries from our app front-end, we’ll need to create and execute a prepared statement to replicate EXECUTE IMMEDIATE.
+
+However, it’s important to note that this approach comes along with security implications relating to SQL injection. Because of this, we’re using a prepared statement that only allows users to send single SELECT queries, disallowing more dangerous keywords.
+
+For example, this could be used by our data team to return simple insights from our database, or we could use this to test queries on a dummy database.
+
+If you want to do something similar, you’ll need to determine appropriate security measures for your needs. Alternatively, you could rely on the existing, already secure query testing and saving tools in Budibase’s Data section for more complex use cases.
+
+The prepared statement we’re relying on is:
+
+{{< highlight sql "linenos=inline" >}}
+
+CREATE PROCEDURE execute_immediate(IN query TEXT)
 
 BEGIN
-SET @q = query;
-PREPARE stmt FROM @q;
-EXECUTE stmt;
-DEALLOCATE PREPARE stmt;
-END
+
+  -- Trim any trailing semicolon
+
+  SET query = TRIM(TRAILING ';' FROM query);
+
+  -- Check if the query contains only a single SELECT statement (case-insensitive)
+
+  IF UPPER(LEFT(query, 6)) = 'SELECT' 
+
+​    AND INSTR(UPPER(query), 'INSERT') = 0
+
+​    AND INSTR(UPPER(query), 'UPDATE') = 0
+
+​    AND INSTR(UPPER(query), 'DELETE') = 0
+
+​    AND INSTR(UPPER(query), 'DROP') = 0
+
+​    AND INSTR(UPPER(query), 'ALTER') = 0
+
+​    AND INSTR(UPPER(query), 'CREATE') = 0
+
+  THEN
+
+​    -- Execute the query if it's a valid SELECT statement
+
+​    SET @sql = query;
+
+​    PREPARE stmt FROM @sql;
+
+​    EXECUTE stmt;
+
+​    DEALLOCATE PREPARE stmt;
+
+  ELSE
+
+​    -- Raise an error if the query is not a valid SELECT-only statement
+
+​    SIGNAL SQLSTATE '45000'
+
+​    SET MESSAGE_TEXT = 'Only SELECT statements are allowed.';
+
+  END IF;
+
+END;
 
 {{< /highlight >}}
 
-Now you are ready to perform the same actions as you could do with MariaDB, with a slightly different syntax. This is how we do it:
+We can create this by sending it under the Query tab of our MySQL connection in Budibase’s data section. We can also save this for future reference if we like.
 
-CALL execute_immediate( ‘CONCAT ( 'SELECT * from ‘, {{ table }} ) ’ )
+![Execute Immediate](https://res.cloudinary.com/daog6scxm/image/upload/v1730990332/cms/updated-sql-gui/GUI_25_su2flx.webp "Execute Immediate")
 
-That’s it, you are ready to run any type of command that you need using variables.
+#### Create a custom query
 
-Head over to the “_Data”_ section, and let’s create three queries. One to select data, the second to edit/add data, and the last query to delete data.
+Next, we need to create a custom query that will execute our prepared statement, passing a user-defined input to it as an argument.
 
-Here is the setup for the _variable_select_ query:
+We’ll start by creating a query called Execute Immediate, setting its function to **Read** and access to **Query Editor**. We’re also setting the **Access** to **App Admin**, so only users with permissions to manage our Budibase app can send this.
 
-![Build a SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664187551/cms/09_q1hjlr.webp "Build a SQL GUI")
+![Query Editor](https://res.cloudinary.com/daog6scxm/image/upload/v1730990335/cms/updated-sql-gui/GUI_26_bvovfm.webp "Query Editor")
 
-Then use this SQL command for the fields:
+We’ll then need to configure this to accept a user input. To do this, we’ll add a binding and call it **query**. We can set a default value for testing purposes. We’ll use:
 
-CALL execute_immediate( CONCAT ( 'SELECT ', {{ID}}, ' as "ID", ', {{Title}}, ' as "Title", ', {{Value}}, ' as "Value" FROM ', {{table}} ) )
+{{< highlight sql "linenos=inline" >}}
 
-This command takes the bindings and use them to build the query. Notice how everything is variable, including the table name and the column names, which are mapped to _ID, Title,_ and _Value_.
-
-Also, notice that we are mapping the table columns to standard names, ID, Title, and Value. This allows us to use a single table and a single form to view and edit all of them.
-
-Make sure to use this transformer:
-
-{{< highlight javascript "linenos=inline" >}}
-
-return data[0]
+SELECT * FROM employees;
 
 {{< /highlight >}}
 
-By default, when you execute a stored procedure, MySQL returns some extra data that you don’t really need. So you can just read the first value of the data array _(data\[0\])_ to get the query results.
+![SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1730990337/cms/updated-sql-gui/GUI_27_vljnlp.webp "SQL GUI")
 
-You can run this query and save it.
+Then, we’ll call our stored procedure with this binding, using:
 
-Next, there’s the insert/edit query.
+{{< highlight sql "linenos=inline" >}}
 
-This time, the entire command is dynamic, given that we use the form fields to create it.
+CALL execute_immediate( {{ query }} );
 
-Here is the setup:
+{{< /highlight >}}
 
-![SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664187521/cms/10_qazb43.webp "SQL GUI")
+![Execute](https://res.cloudinary.com/daog6scxm/image/upload/v1730990337/cms/updated-sql-gui/GUI_28_fpjvfx.webp "Execute")
 
-Lastly, there’s the delete query. Here is the setup for it:  
-![Custom SQL Query](https://res.cloudinary.com/daog6scxm/image/upload/v1664187487/cms/11_nqecxa.webp "Custom SQL Query")
+We can then run this.
 
-Now your queries are ready. Let’s load them up in your screens.
+![Run Query](https://res.cloudinary.com/daog6scxm/image/upload/v1730990337/cms/updated-sql-gui/GUI_29_qwaugn.webp "Run Query")
 
-## 4. Load any table from your database
-
-If you want to load your tables dynamically, you need a few data points. Each of these can be pulled with the data provider component in Budibase.
-
-This should be the hierarchy of your data points:
-
-* Load all possible tables (from the Budibase DB app_settings table),
-  * Dropdown for the user to pick their desired table,
-    * Load the selected table’s mappings (ID, Value from app_settings)
-      * Load the table data sending the correct bindings (table name, id, value) to the variable_select MySQL query.
-
-If you want to implement this screen, you just need to follow that structure. This is your final element tree:
-
-![SQL GUI component tree](https://res.cloudinary.com/daog6scxm/image/upload/v1664187459/cms/12_t5vrf3.webp "SQL GUI component tree")
-
-The first component is the main container. This is used to hold all of your other components.
-
-Then there’s the first _App Settings_ Provider. It has no settings, and it just loads data from the _app_settings_ table.
-
-Inside of that provider you’ll add the _Select Table_ form. All form components require a form to be their parent, otherwise they won’t work. This form is there just to make the dropdown work, you don’t need to change its settings.
-
-Next there’s the table options picker. We are using these settings for it:
-
-![Table Picker](https://res.cloudinary.com/daog6scxm/image/upload/v1664187441/cms/13_yhi5b9.webp "Table picker")
-
-When your user picks a new option, your table should change. You can do this by creating an _app state_. This is just a way to store variables temporarily in your app, based on user actions. To do that, use this option for the _OnChange_ action of the button:
-
-![Button Action](https://res.cloudinary.com/daog6scxm/image/upload/v1664187421/cms/14_ld1jtu.webp "Button Action")
-
-In addition, we want that dropdown to automatically select the current table. But when users first load your app there will be no selection. Thus, you can select the default value of that field to be a JS function, like this:
+This returns more data than we need. We only want the first part of the response, with the actual returned values from the query. So, we’ll add the following JavaScript transformer.
 
 {{< highlight javascript "linenos=inline" >}}
 
-var ret = $("State.selected_table");
-if ( ! ret ) {
-    ret = "posts";
+return data[0];
+
+{{< /highlight >}}
+
+![Transformer](https://res.cloudinary.com/daog6scxm/image/upload/v1730990315/cms/updated-sql-gui/GUI_30_jr2hpj.webp "Transformer")
+
+When we’re happy, we can hit save.
+
+#### Add internal tables
+
+The core functionality of our GUI will be to enable users to write and save queries from the app UI, as well as creating a record of queries that have previously been executed.
+
+To achieve this, we’re going to create two tables in Budibase’s internal database. One will be used to handle saved queries, and the other will record our GUI’s history. Both of these will have their **Access** set to **App Admin**.
+
+We’ll start hitting the plus icon to add a new data source, this time selecting the option for an internal table.
+
+![Data Sources](https://res.cloudinary.com/daog6scxm/image/upload/v1730990323/cms/updated-sql-gui/GUI_31_mfjyzg.webp "Data Sources")
+
+First, we’ll add a table called **queries**. This will store the queries that our users save. We’re going to add three columns with the following names and data types:
+
+- name - Text,
+- query - Long-Form Text,
+- response - JSON.
+
+Here’s how this should look.
+
+![Empty Table](https://res.cloudinary.com/daog6scxm/image/upload/v1730990328/cms/updated-sql-gui/GUI_32_g4iujh.webp "Empty Table")
+
+We’ll then repeat this process to create a second table called **history**, including setting the same access rules.
+
+This time, our columns are:
+
+- date - Date,
+- query - Long-Form Text,
+- response - JSON.
+
+![Queries](https://res.cloudinary.com/daog6scxm/image/upload/v1730990332/cms/updated-sql-gui/GUI_33_cmbuqe.webp "Queries")
+
+#### Generate CRUD UIs
+
+Now, we can start building our query editor. Like before, we’re going to begin by autogenerating Table screens, this time, for the **queries** table. However, this time, we’re choosing the option for host our Create and Edit forms on separate screens.
+
+![Generate Screens](https://res.cloudinary.com/daog6scxm/image/upload/v1730990335/cms/updated-sql-gui/GUI_34_xiujnv.webp "Generate Screens")
+
+Our query editor is going to be based around the **Create** form that’s output. Here’s what this looks like out of the box.
+
+![Create Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1730990334/cms/updated-sql-gui/GUI_35_bsk70e.webp "Crete Screen")
+
+We’re going to make some important changes to this so that users can write and send queries, view the response, and, if they wish, save them.
+
+The first thing we’ll do is deselect the **response** field, as we don’t want to accept user inputs for this.
+
+![SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1730990334/cms/updated-sql-gui/GUI_36_x8q8pd.webp "SQL GUI")
+
+Currently, our form has a single button - Save. We’re going to change the **Style** of this to **Secondary** and then add a second button next to it. We’ll set the **Style** of this to **Action** and the **Text** to **Run**.
+
+![Query Editor](https://res.cloudinary.com/daog6scxm/image/upload/v1730990334/cms/updated-sql-gui/GUI_37_q7oe2k.webp "Query Editor")
+
+#### Sending queries from the app UI
+
+To enable users to send the query they’ve written, we’ll use **Actions** menu for our new button. 
+
+The first action we’ll add here is called **Execute Query**. We’re going to point this at our **Execute Immediately** query that we created at the beginning of this section.
+
+![Button Actions](https://res.cloudinary.com/daog6scxm/image/upload/v1730990315/cms/updated-sql-gui/GUI_38_ndgirg.webp "Button Actions")
+
+Here, we can populate our **query** binding that we created in the Data section. We could use {{ Create row form block.queries.query }} to insert the user input exactly as it’s been provided. However, this wouldn’t be ideal from a UX perspective.
+
+More specifically, users will probably want to place more complex statements across multiple lines. For example, if they’re using a WHERE clause in their SELECT statement. This means errors could occur with whitespace.
+
+To enable this, we’ll use a little bit of custom JavaScript. Start by opening the bindings menu and then selecting the JavaScript tab.
+
+![JavaScript Editor](https://res.cloudinary.com/daog6scxm/image/upload/v1730990323/cms/updated-sql-gui/GUI_39_flh4t6.webp "JavaScript Editor")
+
+The code we’re going to use is:
+
+{{< highlight javascript "linenos=inline" >}}
+
+let str = String($("Create row form block.Fields.query"));
+
+// Remove all newline characters (both \n and \r\n)
+
+let cleanedStr = str.replace(/(\r\n|\n|\r)/g, ' ');
+
+return cleanedStr;
+
+{{< /highlight >}}
+
+![JavaScript](https://res.cloudinary.com/daog6scxm/image/upload/v1730990328/cms/updated-sql-gui/GUI_40_vgaqsy.webp "JavaScript")
+
+#### Setting up testing and handling responses
+
+Now, users can send a custom query from the front-end. The next thing we need to do is provide a user experience for reviewing the response of the query.
+
+We’re going to display this in a table UI.
+
+First, though, we need to save our response. We don’t want to save this to our **history** table just yet, though. 
+
+For now, we’re going to save it as a temporary **app state**.
+
+Within our **Run** button’s **Actions** menu, we’ll add a second step. This time, we’re choosing **Update State**. Here, we’ll create a new state called **response**.
+
+![Update State](https://res.cloudinary.com/daog6scxm/image/upload/v1730990331/cms/updated-sql-gui/GUI_41_j2nk1k.webp "Update state")
+
+We can access the output of the previous action within the bindings menu. We’re going to populate a value for our state using the following JavaScript expression to format the **data** object from our response as JSON:
+
+{{< highlight javascript "linenos=inline" >}}
+
+const jsonObj = $("Action 1.Query result")
+
+return jsonObj.data
+
+{{< /highlight >}}
+
+![JavaScript](https://res.cloudinary.com/daog6scxm/image/upload/v1730990331/cms/updated-sql-gui/GUI_42_he42rc.webp "JavaScript")
+
+Next, we’re going to add a **Table** component beneath our existing form UI. We’ve set the **Data** for this to **JSON/CSV**.
+
+![Tale](https://res.cloudinary.com/daog6scxm/image/upload/v1730990331/cms/updated-sql-gui/GUI_43_vx0hj5.webp "Table")
+
+We’ll then use the **cog** icon to open our bindings menu and set the data source to {{ State.response }}.
+
+![JSON](https://res.cloudinary.com/daog6scxm/image/upload/v1730990330/cms/updated-sql-gui/GUI_44_fsl2fb.webp "JSON")
+
+Now, if we preview our app and run a query, the response will be loaded into our table.
+
+![Preview](https://res.cloudinary.com/daog6scxm/image/upload/v1730990330/cms/updated-sql-gui/GUI_45_tqop6i.webp "Preview")
+
+However, we only want our **Table** to be displayed when there is actually data to populate it.
+
+We can achieve this using **Conditions**. These enable us to define rules to hide, display, or update the native settings of Budibase components.
+
+We’ll start by opening the **Conditions** drawer for our **Table** component.
+
+![Conditions](https://res.cloudinary.com/daog6scxm/image/upload/v1730990314/cms/updated-sql-gui/GUI_46_mr0ll3.webp "Conditions")
+
+Here, we’ll create a row so that it’s only shown if {{ State.response }} is **not empty**.
+
+![Conditions](https://res.cloudinary.com/daog6scxm/image/upload/v1730990323/cms/updated-sql-gui/GUI_47_w6bgpw.webp "Conditions")
+
+Now, our UI preview will look like this until a query is submitted.
+
+![Preview](https://res.cloudinary.com/daog6scxm/image/upload/v1730990327/cms/updated-sql-gui/GUI_48_xvvjzy.webp "Preview")
+
+#### Recording query history
+
+Next, we want to add functionality so that each time a query is run, a record is created in our **history** table.
+
+We’ll start by adding a **Save Row** action to our **Run** button. Here, we can specify the values that we want to save without our users having to specify them.
+
+We’ll add all three columns - **date, query,** and **response.**
+
+![Save Row](https://res.cloudinary.com/daog6scxm/image/upload/v1730990327/cms/updated-sql-gui/GUI_49_di1vhk.webp "Save Row")
+
+We’re going to set the **data** column to the current date and time. We can do this using the following JavaScript.
+
+{{< highlight javascript "linenos=inline" >}}
+
+var date = new Date();
+
+return date;
+
+{{< /highlight >}}
+
+For our **query** field, we’re going to use the same JavaScript expression we used earlier. 
+
+Lastly, we’ll bind our result field to {{ Action 1.Query result }}.
+
+![Save Row](https://res.cloudinary.com/daog6scxm/image/upload/v1730990327/cms/updated-sql-gui/GUI_50_ihgjj0.webp "Save Row")
+
+We can then run a test of this in our app preview.
+
+![SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1730990326/cms/updated-sql-gui/GUI_51_ynhnt2.webp "SQL GUI")
+
+And we can head to the Data section to confirm it’s worked.
+
+![Saved Query](https://res.cloudinary.com/daog6scxm/image/upload/v1730990325/cms/updated-sql-gui/GUI_52_hsamnj.webp "Saved Query")
+
+#### Saving queries
+
+The last thing we need to do with our query editor screen is enable users to save queries. Luckily, with our existing **Save** button, we’re already most of the way there.
+
+Currently, this is set up to save the user-provided **name** and **query** values.
+
+We’ll need to add a couple of steps to include the following actions in our flow:
+
+- Run the provided query so that we can populate the **result** field.
+- Save an appropriate row to the history table.
+
+First, though, we’re going to overwrite the user-submitted **query** value with the **JavaScript** version, as we have seen a couple of times already.
+
+![Save Row](https://res.cloudinary.com/daog6scxm/image/upload/v1730990325/cms/updated-sql-gui/GUI_53_aiy2sn.webp "Save Row")
+
+Next, we’ll add an **Execute Query** action, second in the existing chain, between **Validate Form** and **Save Row**. This will match the exact configuration we used for the **Execute Query** action on our **Run** button.
+
+![Execute Query](https://res.cloudinary.com/daog6scxm/image/upload/v1730990314/cms/updated-sql-gui/GUI_54_dpl13c.webp "Execute Query")
+
+Then, we’ll head to the **Save Row** action and bind our **result** value to the output of our **Execute Query** step, using {{ Action 2.Query result }}.
+
+Here’s what we have so far:
+
+![Save Row](https://res.cloudinary.com/daog6scxm/image/upload/v1730990320/cms/updated-sql-gui/GUI_55_nfcze5.webp "Save Row")
+
+Lastly, we’re going to add a second **Save Row** action, this time pointing it at our **history** table.
+
+We’ll use the exact same configuration as we did for our other button, setting values for the **date, query,** and **result** columns. We’ll also remove the existing **Navigate To** action.
+
+Here’s our final chain of action.
+
+![SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1730990323/cms/updated-sql-gui/GUI_56_tn3n50.webp "SQL GUI")
+
+#### Adding a history screens
+
+Finally, we want to add a screen for users to view our query history. We’ll repeat the exact process as before to generate a CRUD UI, pointing it at our **history** table and choosing the **side panels** option.
+
+![History Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1730990322/cms/updated-sql-gui/GUI_57_aykog4.webp "History Screen")
+
+However, we want to make this read-only. We’ll start by deleting the Side-Panel for our Create form, as well as the button that’s used to access this.
+
+![History Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1730990321/cms/updated-sql-gui/GUI_58_zjdrtd.webp "History Screen")
+
+Then, we’re going to select the **View** option on our remaining form, so users can’t edit saved rows. We’ll also update the **Title** to reflect this.
+
+![Query HIstory](https://res.cloudinary.com/daog6scxm/image/upload/v1730990320/cms/updated-sql-gui/GUI_59_a3ensh.webp "Query HIstory")
+
+### 4. Adding automations
+
+We want to give our users the ability to re-submit saved queries at the press of a button. The easiest way to do this is using a **Row Action**. This is an automation relating to a table row that can be trigger by a user-action.
+
+#### Generate a Row Action
+
+From the Data section, we’ll head to **Row Actions** for **queries** and hit **Create new row action**.
+
+![Row Action](https://res.cloudinary.com/daog6scxm/image/upload/v1730990320/cms/updated-sql-gui/GUI_60_yplsjq.webp "Row Action")
+
+We’re then prompted to give this a name. We’ll call ours **run_saved_query**.
+
+![Run Saved Query](https://res.cloudinary.com/daog6scxm/image/upload/v1730990320/cms/updated-sql-gui/GUI_61_aczke5.webp "Run Saved Query")
+
+This will then take us to the Automation section, with a trigger set for our new rule.
+
+![Run Saved Query](https://res.cloudinary.com/daog6scxm/image/upload/v1730990314/cms/updated-sql-gui/GUI_62_xzc2va.webp "Run Saved Query")
+
+#### Building our automation
+
+We want to do the following:
+
+- Send our query.
+- Save an appropriate row to the history table.
+
+We’ll begin by adding an automation step called **query rows**, which we’ll point at our **queries** table.
+
+![SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1730990319/cms/updated-sql-gui/GUI_63_qffucj.webp "SQL GUI")
+
+We’ll then add a filter to this so that its **_id** equals our trigger output, using {{ trigger.id }}.
+
+![Filter](https://res.cloudinary.com/daog6scxm/image/upload/v1730990319/cms/updated-sql-gui/GUI_64_jsq8a7.webp "Filter")
+
+After this, we’ll add an **external data connector** action, which will fire our **Execute Immediate** query. We’re binding the **query** field to the output of our previous step, using {{ steps.Query rows.rows.0.query }}.
+
+![Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1730990319/cms/updated-sql-gui/GUI_65_qfthyy.webp "Automation")
+
+Lastly, we’ll add a **create row** action, which we’ll point at our history table. We’ll bind the **data** field to the same JavaScript we used earlier to get the current date:
+
+{{< highlight javascript "linenos=inline" >}}
+
+var date = new Date();
+
+return date
+
+{{< /highlight >}}
+
+For the **query** value, we’ll use {{ steps.Query rows.rows.0.query }}.
+
+And we’ll use the following JavaScript to clean and format our response:
+
+{{< highlight javascript "linenos=inline" >}}
+
+// Initialize an empty array inside an object with a "data" key
+
+let myObj = {
+
+ data: []
+
+};
+
+// Store the response in a variable (assuming it's an array of objects)
+
+const responseArray = $("steps.External Data Connector.response");
+
+// Iterate over the array and push each object into the "data" array
+
+for (let i = 0; i < responseArray.length; i++) {
+
+ const currentRow = responseArray[i];
+
+ myObj.data.push(currentRow); // Add each object into the "data" array
+
 }
-return ret;
+
+// Return the final object
+
+return myObj;
 
 {{< /highlight >}}
 
-The next component to implement is the Selected Table Meta, which loads the metadata for the current user selection. It is a data provider just like the first one, loading data from the app_settings table.
+![Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1730990318/cms/updated-sql-gui/GUI_66_jtj0s4.webp "Automation")
 
-The difference is that now we add a filter to it. You can set it to load items with table_name equals _{{ State.selected_table }}_.
+We can then test this to confirm that it works as we expected.
 
-Then add a repeater to expose the fields of that data provider. And inside that repeater it’s finally time to load the table data.
+![Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1730990317/cms/updated-sql-gui/GUI_67_skl0vr.webp "Autonation")
 
-As the name suggests, the _Selected Table Data Provider_ loads data for your selected table using the _variable_select_ query. But you need to set the correct bindings to it to make sure it loads the current table’s data and maps it:
+#### Updating our saved query screens
 
-![Query bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1664187342/cms/15_bh6qmx.webp "Dynamic filter bindings")
+Next, we’ll make a few updates to our saved query UIs.
 
-Now you can add a dynamic filter so users can view only what they want from that table.
+The first thing we’ll do is add a button to trigger our row action.
 
-The next component is the “_add new_” button. It is a simple button that has a “_navigate to_” action when users click on it:![Button Action](https://res.cloudinary.com/daog6scxm/image/upload/v1664187322/cms/16_upu9dp.webp "Button action")
+![Row Action Button](https://res.cloudinary.com/daog6scxm/image/upload/v1730990317/cms/updated-sql-gui/GUI_68_vkv5tw.webp "Row Action BUtton")
 
-You can add your table inside the selected table data provider, and add a button inside of it to edit rows. Just like the add new button, the edit button simply navigates to another screen. But this time we use the current row as part of our URL:
+Next, we want to make a few adjustments to the screen for editing saved queries. We’ll start by deleting the existing **form block**.
 
-![SQL GUI screenshot](https://res.cloudinary.com/daog6scxm/image/upload/v1664187298/cms/17_thbhzg.webp "SQL GUI screenshot")
+![Saved Query](https://res.cloudinary.com/daog6scxm/image/upload/v1730990317/cms/updated-sql-gui/GUI_69_xph935.webp "Saved Query")
 
-These URLs may look weird, but they are just a method to pass data to Budibase. In short, you are telling it to load the /edit/ screen with the row ID, or with zero, if it’s a new item. Then that screen handles these numbers as a variable.
+We’ll then copy and paste in the query editor form we built earlier, changing its **type** to **update** and setting the **Row ID** to {{ URL.id }}. All of our button actions will still work correctly.
 
-Let’s see how to do it in the next section.
+![SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1730990313/cms/updated-sql-gui/GUI_70_ryywif.webp "SQL GUI")
 
-## 5. Insert, edit, and delete data
+We’ll then paste our results table from the query editor screen beneath this, allowing users to view the responses of queries they’ve resent.
 
-Just like the home screen, the edit screen requires some data points to work correctly.
+![Table](https://res.cloudinary.com/daog6scxm/image/upload/v1730990313/cms/updated-sql-gui/GUI_71_kxmh2h.webp "Table")
 
-First, you need a URL variable to get which item is being updated. To do that, use _/:id_ in your route. For example, our demo uses _/edit/:id_.
+### 5. Design tweaks and publishing
 
-Therefore, if you visit _myapp/edit/130_, then the id variable is set as 130. This works not just for numbers. If your app requires text-based variables, you can use them, for example, _/edit/myitem_. In this case, the id variable is _myitem_.
+Functionally, that’s our SQL GUI done. However, we’re going to make a few extra adjustments to the design of our app.
 
-It’s worth noting here that this will only work if the variable you bind to your URL is unique. We’d normally use _ID_, because this is an automatically generated attribute that’s unique to each individual row.
+#### UX changes
 
-In terms of data points, this is what you need for the edit screen:
+We’ve relied heavily on autogenerated UIs. These are part of what makes Budiabse such a fast, easy option for shipping internal tools on top of your data. However, by default, all UI fields use the column names, as they’re stored in our database.
 
-* Item ID (URL),
-* Current table (app state),
-* Table mappings from app_settings,
-  * Add new item form inputs,
-  * Data provider to load the default values for the edit mode,
-    * Edit item form inputs,
-* Item update state (for the success message).
+This isn’t always the best user experience. We’re going to go through all of our tables and forms, updating our display texts with proper capitalization and spacing.
 
-You can copy the following component tree:
+![SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1730990313/cms/updated-sql-gui/GUI_72_cbcwim.webp "SQL GUI")
 
-![How to Build a SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664187273/cms/18_wjuetf.webp "How to build a sql GUI")
+Then, under **screen** and **theme**, we’re going to choose **Midnight**.
 
-Again, you have a main container to organize all your components.
+![SQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1730990313/cms/updated-sql-gui/GUI_73_l9klvy.webp "SQL GUI")
 
-Then, inside of it there’s the _App Settings Provider_. It loads the _app_settings_ table. This time, we are filtering it by table name equal to this function:
+While we’re here, we’ll also update our **button colors** to better match our internal brand.
 
-{{< highlight javascript "linenos=inline" >}}
+![Button Color](https://res.cloudinary.com/daog6scxm/image/upload/v1730990312/cms/updated-sql-gui/GUI_74_kovhs5.webp "Button Color")
 
-var state=$("State.selected_table");
-if ( state ) {
-return state
-} else {
-return "posts"
-}
+#### Pushing our app live
 
-{{< /highlight >}}
+When we’re ready to send our app to end-users, we can hit **Publish** to push it live.
 
-This function returns either the currently selected table or the default table, which in our case is _posts_.
+![Publish](https://res.cloudinary.com/daog6scxm/image/upload/v1730990312/cms/updated-sql-gui/GUI_75_cwpqnq.webp "Publish")
 
-The _Add New_ container should only be visible if we are adding a new item. To do this, add a new container and set the conditions to Hide component if _{{ URL.id }}_ Not equals 0. So, if the url is anything other than _/edit/0_, we are editing an item.
+Here’s a reminder of what our finished SQL GUI looks like.
 
-Therefore, the _add new_ option shouldn’t be visible.
+{{< vimeo id="1027314554" title="SQL GUI" >}}
 
-The _Add New_ form is just a placeholder for the components. This time, the entire action is accessed in the _Add New_ button. You can insert the headline and text fields, then use this set of actions for the button:
-
-1. **Update State** - Set the app state updated_rows to zero (so the success message is hidden).
-2. **Execute Quer**y - the variable_update query, with settings for the “insert” mode and using the form values along with the bindings coming from the app_settings.
-   1. table = _INSERT INTO {{ State.selected_table }}_
-   2. fields = _(\`{{ App Settings Provider.Rows.\[0\].\[Title\] }}\`, \`{{ App Settings Provider.Rows.\[0\].\[Value\] }}\`) VALUES ( "{{ Add New Form.Fields.New Title }}", "{{ Add New Form.Fields.New Value }}" )_
-   3. Where = “”
-   4. Important: Make sure to set the where as “ “, an empty space, so the default value won’t be used.
-3. **Update State** - Set the app state updated_rows to one to display the success message
-
-That’s all you need for the “_add new”_ form. The edit form is quite similar, the main difference is that you have default values for the form items.
-
-Add a “_view row_” data provider. In it, you can load the variable_select query and use the bindings coming from the App Settings Provider:
-
-* table = _{{ App Settings Provider.Rows.\[0\].\[table_name\] }}_
-* ID = _{{ App Settings Provider.Rows.\[0\].\[ID\] }}_
-* Title = _{{ App Settings Provider.Rows.\[0\].\[Title\] }}_
-* Value = _{{ App Settings Provider.Rows.\[0\].\[Value\] }}_
-
-In addition, set the conditions for the data provider to “Hide Component” if _{{ URL.id }}_ Equals zero. Therefore, if we are adding a new item (/edit/0), this entire block is hidden.
-
-Next, add a repeater to expose the data provider fields so they are easier to work with.
-
-Then, add a new button. This is the button to delete items. You can use this Custom CSS:
-
-{{< highlight css "linenos=inline" >}}
-
-position: absolute;
-right: 0;
-
-{{< /highlight >}}
-
-Now you can add three actions when that button is clicked:
-
-1. Execute the variable delete - Make sure to require confirmation and use these bindings:
-   1. table = _{{ State.selected_table }}_
-   2. ID = _{{ App Settings Provider.Rows.\[0\].\[ID\] }}_
-   3. IDValue = _{{ New Repeater.variable_select.ID }}_
-2. Update State updated_rows to zero, so the next time you load the edit page this message is hidden.
-3. Navigate to _/home_.
-
-Then, you can add a headline with the value _{{ New Repeater.variable_select.Title }}_
-
-This is the same value that you’ll use in the default value for the title text input. For the value text input, you can use _{{ New Repeater.variable_select.Value }}_.
-
-Like the previous form, the update form is just a placeholder. The actions are in the update button. The logic for this button is quite similar to the previous one. Here are the actions you’ll run:
-
-1. Update State updated_rows = 0
-2. Execute Query _variable_update_:
-   1. table = _UPDATE {{ State.selected_table }}_
-   2. fields = _SET {{ App Settings Provider.Rows.\[0\].\[Title\] }}="{{ Update Form.Fields.Title }}", {{ App Settings Provider.Rows.\[0\].\[Value\] }}="{{ Update Form.Fields.Value }}"_
-   3. where = _WHERE {{ App Settings Provider.Rows.\[0\].\[ID\] }}={{ New Repeater.variable_select.ID }}_
-3. Update State _updated_rows_ = 1
-
-That’s it, your form is ready to edit items.
-
-The finishing touch is a message to let users know that the add new / update action worked. You can add a container and set its conditions to Show component if _{{ State.updated_rows }}_ Equals to 1.
-
-You can add a green border around it, and a headline component with your update message.
-
-{{< cta >}}
-
-## How to build a SQL GUI
-
-We’ve only scratched the surface of what is possible with SQL GUI development, we hope you are now inspired to create your own.
-
-In this article, we have explored many different techniques, such as autogenerated screens, dynamic queries, different data loading methods.
-
-Only the sky is the limit when it comes to what you can do following the 5 steps from this tutorial.
-
-We hope you’ve enjoyed, and see you again next time!
-
-Check out our guide to building [database GUIs](/blog/tutorials/database-gui).
-
-To see more of what Budibase can do, why not check out our 50+ free, deployable [app templates](https://budibase.com/templates).
+Budibase is the secure, fast way to build custom tools on top of any data. Check out our [product overview](https://budibase.com/product/) to learn more.
