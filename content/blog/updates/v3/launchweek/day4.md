@@ -24,8 +24,6 @@ In total, we have four new AI features to demo:
 3. [AI CRON generator](#ai-cron-generator)
 4. [AI Column](#ai-column)
 
-
-
 ---
 
 ## AI Configs
