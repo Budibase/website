@@ -1,5 +1,5 @@
 ---
-title: The Future Of Budibase - Day 5, Budibase Launch Week
+title: Day 5 - The Future
 description: It’s day 5 of our first launch week. Today, we’re going to look into the future of Budibase. 
 type: blog
 layout: single
@@ -8,8 +8,8 @@ images:
   - https://res.cloudinary.com/daog6scxm/image/upload/v1730463909/campaigns/3.0/day%205/day_5_ftcbr1.png
 image: https://res.cloudinary.com/daog6scxm/image/upload/v1730463909/campaigns/3.0/day%205/day_5_ftcbr1.png
 date: 2024-11-08
-author: Michael Shanks
-draft: true
+author: Michael Shanks, Joe Johnston
+draft: false
 ---
 
 {{< youtube id="ts2uFSwmCyM" >}}
