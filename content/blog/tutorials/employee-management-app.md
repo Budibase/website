@@ -1,7 +1,7 @@
 +++
 
 author = "Ronan McQuillan"
-date = 2024-06-06
+date = 2024-06-22
 description = "Check out our guide to building an employee management app in just 6 steps."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Creating an Employee Management App | 6-Step Guide"
