@@ -21,15 +21,15 @@ It’s the final day of our first launch week, and today, we’re going to look 
 It’s been two years since we launched Budibase 2.0. In that time, we’ve launched several game-changing features, including multi-player mode, global bindings, screen templates, and lots more. Now, with the 3.0 launch, we firmly believe our new data-first experience positions Budibase as the best, and most secure platform for building workflow apps.
 
 ## Templates
-To support the claim above, we’re launching three new production-ready templates covering the following workflows:
+To support the claim above, we’re launching three new production-ready templates covering the following workflows. To get started, simply the click the template of your choice:
 
-1. Change control
+1. [Change control](https://budibase.app/builder?template=app/change-request)
 
-2. Expense approval
+2. [Expense approval](https://budibase.app/builder?template=app/expense-approval)
 
-3. Risk management
+3. [Risk management](https://budibase.app/builder?template=app/risk-management)
 
-These templates are available within the Budibase platform. We’ve also added how-to guides within the [Budibase Docs](https://docs.budibase.com).
+We’ve also added how-to guides within the [Budibase Docs](https://docs.budibase.com/docs/templates).
 
 ## Future
 This release puts us in an excellent position for our next chapter...
