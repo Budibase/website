@@ -17,7 +17,7 @@ After months of development, over 3,500 commits, a full documentation overhaul, 
 ![Budibase 3.0 launch week thumbnail](https://res.cloudinary.com/daog6scxm/image/upload/v1730721015/campaigns/3.0/playlist_thumb_nj6nek.webp)
 
 ## Why Budibase 3.0?
-This release was inspired by a key insight: when using Budibase, engineers are most productive when configuring data and logic rather than on UI design.
+This release was inspired by a key insight: Budibase engineers are most productive when configuring data and logic versus designing interfaces.
 
 With the 3.0 release, we aimed to create an exceptional data-first experience for building secure workflow applications. We’ve reimagined the process of setting up your data structures, configuring security, and effortlessly generating interfaces. It's still early, but the feedback has been overwhelmingly positive so far, and we hope you enjoy it too!
 
@@ -74,9 +74,8 @@ You can quickly reorder branches and drag-and-drop specific steps. For managing 
 
 With Automation Branching, Budibase 3.0 adds flexibility and control to every workflow.
 
-[Learn more about Automation Branching.](/blog/v3/launchweek/day3)
+[Learn more about Automation Branching.](/blog/updates/v3/launchweek/day3)
 
- 
 
 ## Day 4: AI
 
@@ -102,7 +101,7 @@ The final feature, AI Columns, brings the power of AI directly to your data. By 
 
 These updates mark the beginning of Budibase’s journey into secure, AI-powered workflows, setting the stage for even more intelligent automation. Just as past technological revolutions transformed society, AI stands ready to reshape the way we work, helping teams and organizations operate smarter, faster, and with greater impact. We believe that within the next decade, almost all internal workflows will be supported by AI agents, and Budibase is in a prime position to help engineers and teams make this transformation a reality.
 
-Explore the [full launch post](/blog/v3/launchweek/day4) to learn more about Budibase AI.
+Explore the [full launch post](/blog/updates/v3/launchweek/day4) to learn more about Budibase AI.
 
  
 
@@ -120,7 +119,7 @@ But we’re not stopping here. Budibase isn’t simply a low-code or no-code pla
 
 As we look ahead, our commitment is clear: We’re building a secure, open, and beautifully designed platform for the future of workflow transformation. We’re also excited to invest even more in our community, creating a place where you can connect, innovate, and build together with us.
 
-Check out the [full launch post](/blog/v3/launchweek/day5) to learn more about the future of Budibase.
+Check out the [full launch post](/blog/updates/v3/launchweek/day5) to learn more about the future of Budibase.
 
 ---
 
