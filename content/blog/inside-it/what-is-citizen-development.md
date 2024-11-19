@@ -119,8 +119,6 @@ However, none of this is to say that only certain job roles square with citizen 
 
 ![Citizen Development Skills](https://res.cloudinary.com/daog6scxm/image/upload/v1663690168/cms/Citizen_Development_Department_Stats_Regarding365_z2t1zq.webp "Citizen Development Coding SKills")
 
-([Regarding365](https://regarding365.com/time-for-citizen-developers-part-1-23de36e36587))
-
 ### Process and operational awareness
 
 You could probably argue that ops professionals are the best best-positioned teams for citizen development. As we’ll see, low/no-code tools don’t present particularly high usability barriers for employees.

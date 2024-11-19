@@ -38,8 +38,6 @@ Instead, the point is that we must be *systematic* about these variations - perh
 
 ![Onboarding automation](https://res.cloudinary.com/daog6scxm/image/upload/v1688128541/cms/onboarding-automation/Retention_https___www.oak.com_blog_employee-onboarding-statistics__hyhii2.webp "Onboarding automation")
 
-([Oak](https://www.oak.com/blog/employee-onboarding-statistics/))
-
 ## Why automate onboarding processes?
 
 You might think that onboarding automation only offers benefits for massive enterprises that bring in thousands of new hires every year. While scale undoubtedly plays a role, it’s a mistake to think that smaller orgs can’t see substantial benefits too.
