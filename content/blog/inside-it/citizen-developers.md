@@ -457,8 +457,6 @@ You should also think about your team. Are they more suited to self-directed lea
 
 ![Citizen Developer Job Roles](https://res.cloudinary.com/daog6scxm/image/upload/v1663689476/cms/Citizen_Development_Department_Stats_Regarding365_lxjuit.webp "Citizen Developer Job Roles")
 
-([Regarding365](https://regarding365.com/time-for-citizen-developers-part-1-23de36e36587))
-
 ### 9. Monitoring, auditing, and continuous improvement
 
 Finally, we’ll need to build processes that allow us to monitor and audit our developers’ output. The trouble is that we need to do this at a few different levels. There’s the quality of the tools themselves, on the one hand, and process adherence and ROI on the other.
