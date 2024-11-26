@@ -1,0 +1,13 @@
+<script type="application/ld+json">
+    [
+        {{ range $index, $app := .Params.softwareApplications }}
+        {
+          "@context": "http://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "{{ $app.name }}",
+          "applicationCategory": "{{ $app.applicationCategory }}",
+          "url": "{{ $app.url }}"
+        }{{ if lt $index (sub (len .Params.softwareApplications) 1) }},{{ end }}
+        {{ end }}
+    ]
+    </script>
