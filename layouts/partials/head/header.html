@@ -19,7 +19,10 @@
   {{ with .Site.Params.Author }}
   <meta name="author" content="{{ . }}">
   {{ end }}
- 
+  {{ if .Params.softwareApplications }}
+  {{ partial "schema/software-pplication.html" . }}
+{{ end }}
+
   {{ hugo.Generator }}
 
 
