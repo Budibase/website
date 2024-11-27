@@ -19,9 +19,6 @@
   {{ with .Site.Params.Author }}
   <meta name="author" content="{{ . }}">
   {{ end }}
-  {{ if .Params.softwareApplications }}
-  {{ partial "schema/software-application.html" . }}
-{{ end }}
 
   {{ hugo.Generator }}
 

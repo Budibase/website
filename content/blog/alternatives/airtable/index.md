@@ -10,14 +10,23 @@ layout: airtable
 author: Ronan McQuillan
 profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 draft: false
+about:
+  - name: "Airtable"
+    sameAs: "https://www.airtable.com"
+    type: "Thing"
+mentions:
+  - name: "Airtable 2 TEST"
+    sameAs: "https://www.airtable.com"
+    type: "Thing"
 softwareApplications:
   - name: "Platform A"
     applicationCategory: "Low Code Development"
     url: "https://example.com/platform-a"
   - name: "Platform B"
-    applicationCategory: "App Builder"
+    applicationCategory: "Low Code Development"
     url: "https://example.com/platform-b"
 ---
+
 
 When Airtable launched in 2012, it was a real innovation. Spreadsheets hadn’t changed much in several decades. So, the power to add interfaces, automations, advanced in-line components, and external data syncing on top of this was huge.
 

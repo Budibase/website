@@ -1,5 +1,5 @@
 +++
-date = "2021-29-01"
+date = "2021-01-29"
 title = "Docker integration with Budibase | Self-host your Budibase apps with Docker"
 page_title = "Docker"
 categories = ["infra"] 

@@ -1,0 +1,11 @@
+{{ $mentionsInfo := .Params.mentions | default (slice) }}
+[
+    {{ range $index, $item := $mentionsInfo }}
+    {
+        "@context": "http://schema.org",
+        "@type": "{{ default "Thing" $item.type }}",
+        "name": "{{ $item.name }}",
+        "sameAs": "{{ $item.sameAs }}"
+    }{{ if lt $index (sub (len $mentionsInfo) 1) }},{{ end }}
+    {{ end }}
+]

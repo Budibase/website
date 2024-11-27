@@ -1,5 +1,5 @@
 +++
-date = "2021-29-01"
+date = "2021-01-29"
 title = "DigitalOcean integration with Budibase | Self-host your Budibase apps with Digital Ocean"
 page_title = "DigitalOcean"
 categories = ["infra"] 

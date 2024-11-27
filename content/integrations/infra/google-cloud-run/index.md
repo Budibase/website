@@ -1,5 +1,5 @@
 +++
-date = "2022-29-06"
+date = "2022-06-29"
 title = "Google Cloud Run Integration"
 page_title = "Google Cloud Run"
 categories = ["infra"]

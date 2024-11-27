@@ -1,13 +1,14 @@
 <script type="application/ld+json">
     [
-        {{ range $index, $app := .Params.softwareApplications }}
+        {{ $softwareApps := .Params.softwareApplications | default (slice) }}
+        {{ range $index, $app := $softwareApps }}
         {
-          "@context": "http://schema.org",
-          "@type": "SoftwareApplication",
-          "name": "{{ $app.name }}",
-          "applicationCategory": "{{ $app.applicationCategory }}",
-          "url": "{{ $app.url }}"
-        }{{ if lt $index (sub (len .Params.softwareApplications) 1) }},{{ end }}
+            "@context": "http://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "{{ $app.name }}",
+            "applicationCategory": "{{ $app.applicationCategory }}",
+            "url": "{{ $app.url }}"
+        }{{ if lt $index (sub (len $softwareApps) 1) }},{{ end }}
         {{ end }}
     ]
-    </script>
+</script>

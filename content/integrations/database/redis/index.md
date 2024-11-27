@@ -1,5 +1,5 @@
 ---
-date: '2021-30-01'
+date: '2021-01-30'
 title: Redis integration
 page_title: Redis
 categories: 
