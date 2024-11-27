@@ -10,6 +10,39 @@ layout: quickbase
 author: Ronan McQuillan
 profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 draft: false
+about:
+  - name: "Quickbase"
+    sameAs: "https://www.wikidata.org/wiki/Q25025169"
+    type: "Thing"
+softwareApplications:
+  - name: "Budibase"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.budibase.com"
+  - name: "Airtable"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.airtable.com/"
+  - name: "AppSheet"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://about.appsheet.com/home/"
+  - name: "Appian"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://appian.com/"
+  - name: "Zoho Creator"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.zoho.com/creator/"
+  - name: "Filemaker"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.claris.com/filemaker/"
+  - name: "SmartSheet"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.smartsheet.com/"
 ---
 
 Quickbase is one of many tools on the market today that seeks to give teams a single platform for unifying data, managing internal processes, and automating menial tasks.
