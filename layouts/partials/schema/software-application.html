@@ -7,6 +7,7 @@
             "@type": "SoftwareApplication",
             "name": "{{ $app.name }}",
             "applicationCategory": "{{ $app.applicationCategory }}",
+            "operatingSystem": "{{ $app.operatingSystem }}",
             "url": "{{ $app.url }}"
         }{{ if lt $index (sub (len $softwareApps) 1) }},{{ end }}
         {{ end }}
