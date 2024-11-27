@@ -124,15 +124,15 @@
   {{- end }}
   "description": "{{ .Description }}"
   {{- if .Params.about }},
-  "about": {{ partial "schema/about.html" . | safeJS }}
+  "about": {{ partial "head/schema/about.html" . | safeJS }}
   {{- end }}
   {{- if .Params.mentions }},
-  "mentions": {{ partial "schema/mentions.html" . | safeJS }}
+  "mentions": {{ partial "head/schema/mentions.html" . | safeJS }}
   {{- end }}
 }
 
 </script>
 {{ if .Params.softwareApplications }}
-{{ partial "schema/software-application.html" . }}
+{{ partial "head/schema/software-application.html" . }}
 {{ end }}
 {{- end }}

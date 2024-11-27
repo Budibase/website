@@ -12,7 +12,7 @@ profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/I
 draft: false
 about:
   - name: "Airtable"
-    sameAs: "https://www.airtable.com"
+    sameAs: "https://www.wikidata.org/wiki/Q23016614"
     type: "Thing"
 softwareApplications:
   - name: "Budibase"
