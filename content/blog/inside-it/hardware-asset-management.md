@@ -4,6 +4,10 @@ date = 2024-06-13
 description = "Take a look at our in-depth guide to hardware asset management."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "What is Hardware Asset Management? + 5 Essential Tools"
+[[mentions]]
+name = "IT asset management"
+sameAs = "https://www.wikidata.org/wiki/Q5975185"
+type = "Thing"
 +++
 
 Hardware asset management is one of the central pillars of a successful ITSM strategy. Put simply, we can’t deliver effective services to users without first furnishing them with the right devices, environments, and infrastructure to do their jobs.

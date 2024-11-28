@@ -4,6 +4,10 @@ date = 2024-05-24
 description = "Check out our round-up of the top open-source digital asset management software."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Top 5 Open-Source Digital Asset Management Tools"
+[[mentions]]
+name = "IT asset management"
+sameAs = "https://www.wikidata.org/wiki/Q5975185"
+type = "Thing"
 +++
 
 Digital asset management tools are critical to teams that need to store, share, and collaborate on large volumes of media, like images, videos, and other files.

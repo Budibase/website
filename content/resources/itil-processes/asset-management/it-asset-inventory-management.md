@@ -13,8 +13,7 @@ menus:
     name: Inventory Management
     parent: assetManagement
     post: it-asset-inventory-management
-    identifier: assetManagementInventory
-
+    identifier: assetManagementInventory   
 ---
 
 An up-to-date, accurate IT asset inventory is the cornerstone of almost all ITAM processes, from capacity planning and financial management to on-the-ground tasks like maintenance scheduling and request fulfillment.

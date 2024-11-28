@@ -4,6 +4,10 @@ date = 2024-06-11
 description = "Check out our round-up of the best free asset management software."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Top 5 Free Asset Management Software Tools"
+[[mentions]]
+name = "IT asset management"
+sameAs = "https://www.wikidata.org/wiki/Q5975185"
+type = "Thing"
 +++
 
 Asset management is one of the most common, mission-critical ITSM workflows. Efficiently handling requests for devices helps us to minimize internal admin costs as well as ensuring that our IT resources are deployed as effectively as possible.
