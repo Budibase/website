@@ -14,7 +14,6 @@ menus:
     parent: assetManagement
     post: it-asset-discovery
     identifier: assetDiscovery
-
 ---
 
 What is IT Asset Discovery?

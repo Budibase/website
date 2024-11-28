@@ -14,7 +14,6 @@ menus:
     parent: assetManagement
     post: it-asset-tracking
     identifier: assetManagementTracking
-
 ---
 
 Tracking IT assets as they move across their lifecycles is one of the most challenging, laborious elements of delivering IT services to users.
