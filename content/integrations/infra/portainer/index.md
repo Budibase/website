@@ -1,5 +1,5 @@
 +++
-date = "2022-29-06"
+date = "2022-06-29"
 title = "Portainer integration with Budibase | Self-host your Budibase apps with Portainer"
 page_title = "Portainer"
 categories = ["infra"] 

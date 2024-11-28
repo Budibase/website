@@ -1,5 +1,5 @@
 +++
-date = "2022-29-06"
+date = "2022-06-29"
 title = "Ansible integration"
 page_title = "Azure"
 categories = ["infra"] 

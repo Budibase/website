@@ -123,6 +123,16 @@
   },
   {{- end }}
   "description": "{{ .Description }}"
+  {{- if .Params.about }},
+  "about": {{ partial "head/schema/about.html" . | safeJS }}
+  {{- end }}
+  {{- if .Params.mentions }},
+  "mentions": {{ partial "head/schema/mentions.html" . | safeJS }}
+  {{- end }}
 }
+
 </script>
+{{ if .Params.softwareApplications }}
+{{ partial "head/schema/software-application.html" . }}
+{{ end }}
 {{- end }}

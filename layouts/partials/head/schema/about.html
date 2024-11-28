@@ -1,0 +1,11 @@
+    {{ $aboutInfo := .Params.about | default (slice) }}
+    [
+        {{ range $index, $item := $aboutInfo }}
+        {
+            "@context": "http://schema.org",
+            "@type": "{{ default "Thing" $item.type }}",
+            "name": "{{ $item.name }}",
+            "sameAs": "{{ $item.sameAs }}"
+        }{{ if lt $index (sub (len $aboutInfo) 1) }},{{ end }}
+        {{ end }}
+    ]

@@ -10,7 +10,41 @@ layout: airtable
 author: Ronan McQuillan
 profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 draft: false
+about:
+  - name: "Airtable"
+    sameAs: "https://www.wikidata.org/wiki/Q23016614"
+    type: "Thing"
+softwareApplications:
+  - name: "Budibase"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.budibase.com"
+  - name: "SmartSheet"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.smartsheet.com"
+  - name: "NocoDB"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://nocodb.com"
+  - name: "AppSheet"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://about.appsheet.com/home/"
+  - name: "Zoho Creator"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.zoho.com/creator/"
+  - name: "Filemaker"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.claris.com/filemaker/"
+  - name: "Quickbase"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.quickbase.com"
 ---
+
 
 When Airtable launched in 2012, it was a real innovation. Spreadsheets hadn’t changed much in several decades. So, the power to add interfaces, automations, advanced in-line components, and external data syncing on top of this was huge.
 

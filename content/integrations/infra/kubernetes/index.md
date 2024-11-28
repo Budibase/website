@@ -1,5 +1,5 @@
 +++
-date = "2021-29-01"
+date = "2021-01-29"
 title = "Kubernetes integration with Budibase | Self-host your Budibase apps with Kubernetes"
 page_title = "Kubernetes"
 categories = ["infra"] 
