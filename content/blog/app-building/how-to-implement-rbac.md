@@ -6,7 +6,10 @@ image = "https://res.cloudinary.com/daog6scxm/image/upload/v1653385829/cms/How_t
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1653385829/cms/How_to_Implement_RBAC_ngjzus.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "How to Implement RBAC in 8 Steps"
-
+[[mentions]]
+name = "role-based access control"
+sameAs = "https://budibase.com/blog/app-building/role-based-access-control/"
+type = "Thing"
 +++
 Knowing how to implement RBAC is a crucial skill for building modern web applications. With an ever-increasing need to maximize security, efficiency, and usability, RBAC is an essential tool for successful app projects.
 
