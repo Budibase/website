@@ -54,7 +54,9 @@ First up, there’s the newcomer, Budibase - the platform that helps teams turn 
 
 Unlike traditional form builders, with Budibase, you can build forms on top of any data source, with a range of dedicated connectors for SQL and NoSQL databases, REST APIs, Google Sheets, Airtable, and more - as well as a built-in low-code database.
 
-You can build forms from scratch or autogenerate forms based on connected data sources - with complete scope for customization. We also offer a step-based automation editor with a wide range of configurable triggers and actions.
+App-building is centered around our data section. We build secure, role-specific views on top of connected data, configure read-and-write permissions, and use these to output forms without writing a single line of custom code.
+
+You can build forms from scratch or autogenerate forms based on connected data sources - with complete scope for customization. We also offer a step-based automation editor with a wide range of configurable triggers and actions, including branching or looping logic for individual steps.
 
 Uniquely, Budibase offers self-hosted forms across all free and paid plans - alongside our cloud-based platform. You can deploy your solutions to your own infrastructure for maximal security.
 
@@ -156,9 +158,9 @@ Here’s what you need to know.
 
 Budibase takes a different approach. Our platform is the ideal way to build advanced forms on top of any data source. Unlike other form builders, our internal database offers formula variables, relationships between tables, and schema editing independent of UIs.
 
-![Budibase database](https://res.cloudinary.com/daog6scxm/image/upload/v1707217911/cms/forms-vs-post/Vs10_xnbne0.webp)
+![Budibase database](https://res.cloudinary.com/daog6scxm/image/upload/v1732812361/cms/appsmith-vs-budibase/Appsmith_vs_Budibase_4_v3qabz.webp "Budibase Database")
 
-Where Budibase really stands apart though is external database support. We offer dedicated connectors for SQL Server, MySQL, Postgres, Oracle Airtable, Mongo, Couch, Arango, S3, REST APIs, Google Sheets, and more. Build forms from scratch or automatically generate UIs based on the schema of supported data sources.
+Where Budibase really stands apart though is external database support. We offer dedicated connectors for SQL Server, MySQL, Postgres, Oracle Airtable, Mongo, Couch, Arango, S3, REST APIs, Google Sheets, and more. Build forms from scratch or automatically generate UIs based on the schema of supported data sources, including custom views.
 
 #### JotForm
 
@@ -202,7 +204,9 @@ Here’s a summary of what options each platform offers for connecting to extern
 
 Budibase offers an extensive range of integration options too - but our focus is on providing flexibility, rather than rigid connections to individual platforms. So, our integration options are mostly focused on data, APIs, infrastructure, authentication, and other development issues.
 
-Alongside our proprietary API and WebHook support, you can use custom REST and SOAP requests as data sources - as well as automation triggers and actions - providing a highly flexible vehicle for creating custom integration solutions.
+Alongside our proprietary API and WebHook support, you can use custom REST and SOAP requests as data sources - as well as automation triggers and actions - providing a highly flexible vehicle for creating custom integration solutions. 
+
+Budibase's AI features, including the AI formula column, can be powered by OpenAI, or your chosen LLM, using our custom AI configs support. This opens the door to a range of advanced form use cases, including triaging, categorization, translation, or sentiment analysis.
 
 We offer optional self-hosting using Kubernetes, Docker, Digital Ocean, Portainer, Podman, and more. You can also use a range of external auth tools, with support for OAuth, OpenID, Microsoft Auth, Google Auth, and a range of other SSO solutions - for free.
 
@@ -238,11 +242,11 @@ Finally, we need to consider how each platform enables us to manage submissions 
 
 Budibase is the clear leader for implementing custom business logic on top of professional form UIs. We offer extensive capabilities for creating advanced conditional logic using handlebars or JavaScript expressions.
 
-![Budibase automations UI](https://res.cloudinary.com/daog6scxm/image/upload/v1707217911/cms/forms-vs-post/Vs11_xqgnzc.webp)
+![Budibase automations UI](https://res.cloudinary.com/daog6scxm/image/upload/v1732812395/cms/appsmith-vs-budibase/Budibase_vs_Appsmith_8_a4ana2.webp)
 
-Unlike traditional form builders, we offer a dedicated automation builder, providing incredible flexibility to implement custom logic, workflows, and processes on top of form submissions.
+Unlike traditional form builders, we offer a dedicated automation builder, providing incredible flexibility to implement looping and branching logic, workflows, and processes on top of form submissions.
 
-Since we also offer much more control over the data model of your form solutions, Budibase is the ideal vehicle for creating complex approval flows using form submissions using complex, bespoke data models.
+Since we also offer much more control over the data model of your form solutions, Budibase is the ideal vehicle for creating complex approval flows using form submissions using complex, bespoke data models. This centers around our visual RBAC and database views features, which make it easy to provide the exact right permissions and data exposure to different users, based on their needs within workflows.
 
 #### JotForm
 
@@ -315,7 +319,7 @@ There are a few key aspects to this.
 
 One important issue is how submitted data is stored and managed. Most form builders are primarily intended to be used with their own cloud-based internal database. This isn’t inherently insecure, but it could be problematic for many use cases.
 
-So, if security is a priority, you might want to focus on platforms that offer key functionality like self-hosting, external database support, SSO, air-gapped deployments, auditing, back-ups, or other mission-critical features.
+So, if security is a priority, you might want to focus on platforms that offer key functionality like self-hosting, visual RBAC, external database support, SSO, air-gapped deployments, auditing, back-ups, or other mission-critical features.
 
 Of course, we also need to be conscious of where security features sit within individual vendors’ pricing models - assuming they’re provided at all.
 
