@@ -99,23 +99,25 @@ Below are the top open source low-code platforms:
 
 ### Budibase - The low-code platform for building business apps
 
-{{< youtube 1ozAAtg5kfk >}}
+{{< youtube 6wZAr-148u0 >}}
 
-[Budibase](https://www.budibase.com) is an all-in-one open source low-code platform for building business applications. With over 35,000 downloads in 6 months and over 3,000 stars on Github, it is quickly becoming the leading open source low code platform - and for a good reason.
+[Budibase](https://www.budibase.com) is an all-in-one open source low-code platform for building internal tools. IT teams in thousands of companies across all industries choose it as the leading open source low code platform - and for a good reason.
 
 With Budibase, users can design, build, automate and deploy web apps and user interfaces on their infrastructure in minutes.
 
-Users can benefit from Budibase's internal database or connect to their own - Budibase supports multiple external data sources, including; MongoDB, PostgreSQL, MySQL, Elasticsearch, Airtable, and more.
+Users can benefit from Budibase's internal database or connect to their own - Budibase supports multiple external data sources, including REST APIs, relational databases, NoSQL tools, and more. You can use plug-ins to create your own data sources, or connect to the LLM of your choice with our custom AI configs feature.
 
-In the design section of Budibase, users can benefit from a catalog of prebuilt, powerful components that they can quickly hook up to their data. Budibase also comes out of the box with prebuilt layouts, user auth, and a data provider component that allows users to filter, sort, and paginate data with just a few clicks!
+In the design section of Budibase, users can benefit from a catalog of prebuilt, powerful components that they can quickly hook up to their data. Budibase even allows you to autogenerate UIs based on connected data, including the filtering and access rules that you create in the Data section.
 
-Users can also access several prebuilt automations, including Sendgrid, Zapier, Integromat, and more, or utilize a webhook. Automations are simple to create and integrate perfectly with data sources. It is also possible to add Javascript to integrations, increasing extensibility.
+Budibase also empowers users to automate complete workflows, with optional custom code. Our automation editor offers a wide range of triggers and actions, alongside looping, branching, and conditional logic, making it the ideal solution for automating end-to-end tasks in just a few clicks.
 
-[Budibase](https://www.budibase.com) is primarily for business apps, and use cases range from admin panels and dashboards to approval apps and inventory lists.
+[Budibase](https://www.budibase.com) is primarily for internal tools, and use cases range from admin panels and forms to approval apps and inventory management apps.
 
-[Github Repo](https://github.com/Budibase/budibase) Github Stars - 15K 
+[Github Repo](https://github.com/Budibase/budibase) Github Stars - 23K 
 
 Actively maintained - Yes
+
+{{< cta >}}
 
 ***
 
@@ -130,7 +132,7 @@ Huginn's Agents create and consume events visualized via a directed graph.
 Some of the things users can do with Huginn include receiving emails with weather updates to connecting to a host of applications, including Basecamp, Slack, Twilio, and more.
 
 [Github Repo](https://github.com/huginn/huginn)
-Github Stars - 31.4k
+Github Stars - 44k
 Actively maintained - Yes
 
 ***
@@ -146,7 +148,7 @@ WordPress's popularity is due to its simple, extensible platform and its plugin/
 The thriving community, famous plugin/template ecosystem, and simple-to-use platform are why WordPress is the world's leading CMS.
 
 [Github repo](https://github.com/WordPress/WordPress)
-Github Stars - 15k
+Github Stars - 19.6k
 Actively maintained - Yes
 
 ***
@@ -160,7 +162,7 @@ Node-RED is a programming tool for wiring together hardware devices, APIs, and o
 Node-red is an excellent solution for building IoT applications, and out of the box comes with nodes dedicated to Raspberry Pi, BeagleBone Boards, and Androids.
 
 [Github Repo](https://github.com/node-red/node-red)
-Github stars - 12.1k
+Github stars - 20k
 Actively maintained - Yes
 
 ***
@@ -174,7 +176,7 @@ PyCaret is an open-source, low-code machine learning library in Python that aims
 PyCaret is well suited for data scientists. Developers with no previous data science experience may find the platform challenging to get started. The docs are surprisingly good and contain several tutorials.
 
 [Github Repo](https://github.com/pycaret/pycaret)
-Github Stars - 3.4k
+Github Stars - 9k
 Actively maintained - Yes
 
 ***
@@ -263,8 +265,6 @@ Of course, this is an overly simplistic example.
 
 All the same, we could apply the same logic to any specific feature or functionality you require. As such, it’s vitally important that you have a clear idea of what you want to build before you start considering specific low-code platforms.
 
-Check out our ultimate guide to workflow automation for more information.
-
 ### Data and integrations
 
 Finally, we need to think about how different low-code platforms are going to interact with your existing tools and data.
@@ -281,32 +281,6 @@ Let’s take external data support first. There’s a good chance you’re compa
 Then we have integrations with external tools.
 
 Most often, this means that we want to use our low-code platform to trigger events in third-party apps, or vice-versa. Nowadays, this mostly works by offering support for integration tools, which act as sort of intermediaries between platforms.
-
-Take a look at our integrations page for more details on connecting Budibase to your wider software stack.
-
-### Our open-source, low-code platform
-
-Our open-source, low-code platform is the fast, easy way to create solutions for all kinds of business pain points. With autogenerated CRUD screens, flexible deployment options, extensive data support, and a huge range of built-in components, it's never been easier to ship tools at scale.
-
-Use Budibase to create professional, fully-function applications, in a fraction of the time.
-
-### Connect your data
-
-We lead the pack for external data support. Budibase offers dedicated data connectors for SQL Server, MySQL, Postgres, S3, Oracle, Airtable, Mongo, Couch, Google Sheets, REST, and more.
-
-We even have our own built-in database, with full support for CSV uploads
-
-### Take control of your deployment
-
-Security-first organizations love Budibase for our optional self-hosting. Deploy to your own infrastructure with Kubernetes, Docker, Docker Compose, Digital Ocean, and more.
-
-Or, use Budibase Cloud and let us take care of everything.
-
-### Create custom plugins
-
-No other open-source, low-code platform comes near Budibase for extensibility. Use our CLI tools to build your own components and data sources, and ship them across all of your tools.
-
-Check out our [plug-ins docs](https://docs.budibase.com/docs/custom-plugin) to learn more.
 
 ### Generous pricing structures
 

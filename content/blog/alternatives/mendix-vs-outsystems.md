@@ -239,8 +239,8 @@ And Budibase is leading the charge.
 
 {{< vimeo id="930591556" title="Budibase Mini Demo" >}}
 
-Our open-source, low-code platform is the fast, easy way to build custom applications on top of just about any data source - with direct connections to RDBMSs, NoSQL tools, APIs, Google Sheets, and custom data sources - as well as our built-in database.
+Our open-source, low-code platform is the fast, easy way to build custom applications on top of just about any data source - with direct connections to RDBMSs, NoSQL tools, APIs, Google Sheets, and custom data sources - as well as our built-in database. Seemlessly build interfaces on top of any data, including using powerful custom views.
 
-Budibase is the ideal solution for busy IT teams that need to output professional solutions in a fraction of the time. We offer auto-generated UIs, intuitive low-code workflow automation, optional self-hosting, free SSO, and more.
+Budibase is the ideal solution for busy IT teams that need to output professional solutions in a fraction of the time. We offer auto-generated UIs, intuitive low-code workflow automation, optional self-hosting, free SSO, custom AI configs, visual RBAC and more.
 
 Check out our [product overview](https://budibase.com/product/) to learn more about what makes Budibase the top choice for building incredible web apps with minimal custom code.
