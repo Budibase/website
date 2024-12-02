@@ -133,13 +133,13 @@ With expansive connectivity, intuitive design tools, powerful automations, and e
 ![Budibase design platform interface](https://res.cloudinary.com/daog6scxm/image/upload/v1702479061/cms/alternatives/CleanShot_2023-12-13_at_14.50.55_2x_yus5e1.webp)
 
 ### Features
-Budibase is a clear leader for external data support. Alongside our internal database, we offer dedicated connectors for a huge range of SQL and NoSQL DBMSs, as well as Google Sheets and REST APIs. You can even use our dedicated CLI to build custom data sources.
+Budibase is a clear leader for external data support. Alongside our internal database, we offer dedicated connectors for a huge range of SQL and NoSQL DBMSs, as well as Google Sheets and REST APIs. You can even use our dedicated CLI to build custom data sources. Quickly create granular views based on your data, assign them to user roles, and autogenerate secure UIs in just a few clicks.
 
 Our drag-and-drop UI builder offers a wide range of configurable components for displaying and managing connected data. We even offer auto-generated CRUD UIs, flexible forms, in-line table editing, custom conditionality rules, front-end JavaScript, and more.
 
-Budibase also makes automating manual tasks quick and easy. Combine and configure our built-in actions to build custom rules, triggered using in-app actions, database events, incoming WebHooks, or chron expressions.
+Budibase also makes automating manual tasks quick and easy. Combine and configure our built-in actions, looping, and branching logic to build custom rules, triggered using in-app actions, database events, incoming WebHooks, or chron expressions.
 
-We’re proud to have one of the most generous offerings in terms of enterprise functionality in the low-code space. Budibase is fully self-hostable and offers free SSO alongside highly scalable per-user pricing.
+We’re proud to have one of the most generous offerings in terms of enterprise functionality in the low-code space. Budibase is fully self-hostable and offers free SSO alongside highly scalable per-user pricing. We even offer connectivity for a range of LLMs with our custom AI configs.
 
 ### Use-cases
 At Budibase, our goal is to empower IT teams to provide their colleagues with high-quality solutions, without expending excessive development resources.
@@ -158,6 +158,8 @@ Uniquely, our free plan comes with SSO.
 Premium licenses bill at $50 per creator per month, and $5 per end-user. This also comes along with custom branding, synchronous automations, and application back-ups.
 
 We also offer custom enterprise pricing, with enforceable SSO, audit logs, active directory support, air-gapped deployment, and more.
+
+{{< cta >}}
 
 ---
 
@@ -377,7 +379,7 @@ There’s huge potential here for creating highly streamlined data ops around th
 
 Quickbase also offers plug-ins, but these are limited to a small number of native expansions.
 
-Budibase is the clear leader for extensibility. On top of extensive database and API connectivity, we offer custom data sources and components via our dedicated CLI tools.
+Budibase is the clear leader for extensibility. On top of extensive database and API connectivity, we offer custom data sources and components via our dedicated CLI tools. You power Budibase AI features with the LLM of your choice using our custom AI configs.
 
 Or, you can use our API to manage and interact with your apps from external tools.
 

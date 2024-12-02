@@ -122,7 +122,7 @@ Budibase is the open-source, low-code platform that empowers IT teams to turn da
 
 Tens of thousands of businesses in all sorts of industries choose Budibase to ship custom solutions, the fast, easy way.
 
-{{< vimeo id="930591556" title="Budibase Mini Demo" >}}
+{{< vimeo id="968666181" title="Budibase Mini Demo" >}}
 
 Here’s what makes our platform tick.
 
