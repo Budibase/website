@@ -98,15 +98,15 @@ However, unlike FileMaker, Budibase is optimized for busy IT teams in large orga
 ![Budibase design platform interface](https://res.cloudinary.com/daog6scxm/image/upload/v1680181644/ui/homepage-design-ui_sizp7b.webp)
 
 ### Features
-Whereas external data sources must be configured manually in FileMaker using API requests and ODBC, we offer a range of dedicated connectors for SQL and NoSQL databases, as well as REST APIs, Google Sheets, Airtable, and more.
+Whereas external data sources must be configured manually in FileMaker using API requests and ODBC, we offer a range of dedicated connectors for SQL and NoSQL databases, as well as REST APIs, Google Sheets, Airtable, and more. You can use our visual editor to create custom filtering and transformation views, assign them to custom user roles, and autogenerate secure screens and automations in just a few clicks.
 
 We also offer a built-in low-code database with full support for CSV imports and a spreadsheet-like interface for performing CRUD actions or altering table schemas. Budibase users can even create their own custom data sources using our CLI tools.
 
 Our interface designer makes custom coding totally optional. We offer a range of tools for building highly advanced user experiences without writing a single line of code - including adding conditionality, mobile responsiveness, app theming, and more.
 
-Budibase also makes it incredibly easy to automate manual tasks. Use our flow-chart-based automation builder to craft custom rules by configuring a huge range of built-in triggers and actions.
+Budibase also makes it incredibly easy to automate manual tasks. Use our flow-chart-based automation builder to craft custom rules by configuring a huge range of built-in triggers and actions, including looping or branching logic. We even offer custom AI configs to connect to external models for handling app logic.
 
-We even offer free SSO, optional self-hosting, custom branding, flexible RBAC, and more.
+We even offer free SSO, optional self-hosting, custom branding, flexible visual RBAC, and more.
 
 
 ### Use cases
@@ -127,6 +127,8 @@ We also offer one of the most generous free tiers in the low-code market. Build 
 Our Premium tier bills at $50 per month for creators and $5 for end users with custom branding, configurable views, app backups, and more.
 
 We also offer custom enterprise pricing with a range of advanced security features.
+
+{{< cta >}}
 
 ## 2. PowerApps
 PowerApps is one of FileMaker’s most direct competitors. It’s Microsoft’s low-code offering and the flagship of their Power Platform ecosystem.
@@ -397,7 +399,7 @@ Automations in FileMaker are script-based. But we don’t necessarily have to do
 
 This can be powerful, but it’s not ideal if you don’t have the coding skills to understand what each step does or how it works.
 
-Budibase’s flow-based automation editor offers a much more effective experience for non-developers. Simply combine our built-in trigger and action blocks to build highly configurable automation rules.
+Budibase’s flow-based automation editor offers a much more effective experience for non-developers. Simply combine our built-in trigger and action blocks to build highly configurable automation rules. Add looping or branching logic to automate complex, end-to-end processes with ease.
 
 We also offer support for custom scripting using JavaScript within automations.
 

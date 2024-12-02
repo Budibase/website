@@ -109,7 +109,7 @@ With extensive database connectivity, intuitive developer experiences, vast scop
 ![Budibase design platform interface](https://res.cloudinary.com/daog6scxm/image/upload/v1704207816/cms/alternatives/CleanShot_2024-01-02_at_15.03.25_2x_jutwvs.webp)
 
 #### Features
-Budibase is centered around fast, easy experiences for handling external data. We offer dedicated connectors for a huge range of SQL and NoSQL databases, Airtable, Google Sheets, REST APIs, and more.
+Budibase is centered around fast, easy experiences for handling external data. We offer dedicated connectors for a huge range of SQL and NoSQL databases, Airtable, Google Sheets, REST APIs, and more. Combine our powerful database views and visual RBAC editor to create secure apps on top of any data.
 
 We also have a built-in low-code database with full support for CSV uploads - along with dedicated CLI tools for building custom data sources.
 
@@ -117,9 +117,9 @@ Our interface builder combines the ease and speed of a drag-and-drop UI with the
 
 You can even build your own custom components or import community contributions - for added extensibility.
 
-Budibase is also ideally suited to eliminating menial tasks through automation. We offer a flowchart-based editor for combining, configuring, and managing a library of built-in triggers and actions.
+Budibase is also ideally suited to eliminating menial tasks through automation. We offer a flowchart-based editor for combining, configuring, and managing a library of built-in triggers and actions. You can even utilize branching or looping logic to automate end-to-end processes in a single flow.
 
-Our platform also integrates with a wide range of external tools, using WebHooks, Zapier, REST APIs, and more. We even offer our own platform API, along with free external SSO.
+Our platform also integrates with a wide range of external tools, using WebHooks, Zapier, REST APIs, custom AI configs, and more. We even offer our own platform API, along with free external SSO.
 
 #### Use cases
 Budibase is aimed at busy IT teams that need to output workflow applications at pace. Solutions architects, support engineers, data specialists, product owners, project managers, and more choose our platform to build incredible internal tools in a fraction of the time.
@@ -138,6 +138,8 @@ We even offer free SSO across all plans.
 Premium licenses cost $50 per creator per month and $5 for end users - giving a highly cost-effective way to scale your usage as your needs grow and change.
 
 We also offer custom pricing for enterprises, with enhanced security controls, audit logging, air-gapped deployments, and more.
+
+{{< cta >}}
 
 ### 2. Retool
 Retool is one of the biggest names in the low-code space. Like Budibase, it’s aimed at improving the way teams output custom internal tools. However, the difference is that Retool is optimized for professional developers, rather than other IT colleagues.
@@ -365,7 +367,7 @@ Budibase provides vastly superior experiences for handling external data.
 
 We offer dedicated connectors for a range of SQL and NoSQL databases, as well as Airtable, Google Sheets, REST APIs, and more. We also have a built-in low-code database and a dedicated CLI for building your own data sources.
 
-We even offer a spreadsheet-like interface for performing CRUD operations on supported data sources, either in Budibase’s back end or as a user-facing UI component.
+We even offer a spreadsheet-like interface for performing CRUD operations on supported data sources, either in Budibase’s back end or as a user-facing UI component. You can easily create role-specific database views for performing controlled CRUD actions or viewing calculations and aggregations. UIs that we generate based on these will inherit access policies from the underlying data source.
 
 
 ### UIs
@@ -384,7 +386,7 @@ At the same time, there’s a disconnect between this kind of extensibility and 
 
 Budibase offers dedicated CLI tools for building custom components and data sources. 
 
-Or, you can import community contributions from our plug-ins repo and start leveraging existing extensions across your low-code development projects.
+Or, you can import community contributions from our plug-ins repo and start leveraging existing extensions across your low-code development projects. We also offer custom AI configs, enabling you to power key Budibase AI features with the LLM of your choice.
 
 ### Management, administration, and hosting
 Appian is available as either a self-hosted solution or a cloud-based platform. However, users with free licenses are limited to the cloud offering. However, some users complain that self-hosted releases do not keep pace with the cloud offering.
