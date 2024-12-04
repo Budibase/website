@@ -13,6 +13,10 @@ menus:
     name: Change management
     identifier: changeManagement
     post: change-management
+about:
+  - name: "Change Management"
+    sameAs: "https://www.wikidata.org/wiki/Q1061970"
+    type: "Thing"
 ---
 
 

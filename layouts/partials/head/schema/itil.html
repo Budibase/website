@@ -1,0 +1,37 @@
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "{{ if eq .Section "itil-processes" }}WebPage{{ else }}Article{{ end }}",
+    "headline": "{{ .Title }}",
+    "description": "{{ .Description }}",
+    "url": "{{ .Permalink }}",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ .Permalink }}"
+    },
+    "publisher": {{ partial "head/schema/organization.html" . | safeJS }},
+    {{- if .Params.about }}
+    "about": {{ partial "head/schema/about.html" . | safeJS }},
+    {{- end }}
+
+    {{ if eq .Section "itil-processes" }}
+    "hasPart": [
+      {{ range .Pages }}
+      {
+        "@type": "WebPage",
+        "name": "{{ .Title }}",
+        "url": "{{ .Permalink }}"
+      }
+      {{ if not (last .Pages) }},{{ end }}
+      {{ end }}
+    ]
+    {{ else if .Parent }}
+    "isPartOf": {
+      "@type": "WebPage",
+      "name": "{{ .Parent.Title }}",
+      "url": "{{ .Parent.Permalink }}"
+    }
+    {{ end }}
+  }
+  </script>
+  

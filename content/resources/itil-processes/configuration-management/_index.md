@@ -12,6 +12,10 @@ menus:
   main:
     name: Configuration management
     identifier: configurationManagement
+about:
+  - name: "Configuration Management"
+    sameAs: "https://www.wikidata.org/wiki/Q5160111"
+    type: "Thing"
 ---
 
 Configuration management is one of the responsibilities of the IT team that has the most far-reaching impact across our entire service portfolio.

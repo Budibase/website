@@ -12,6 +12,10 @@ menus:
   main:
     name: ITIL Processes
     identifier: itilProcesses
+about:
+  - name: "ITIL"
+    sameAs: "https://www.wikidata.org/wiki/Q152361"
+    type: "Thing"
 ---
 
 

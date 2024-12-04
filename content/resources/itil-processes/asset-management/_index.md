@@ -13,6 +13,10 @@ menus:
     name: Asset management
     identifier: assetManagement
     post: asset-management
+about:
+  - name: "IT Asset Management"
+    sameAs: "https://www.wikidata.org/wiki/Q5975185"
+    type: "Thing"
 ---
 
 
