@@ -13,6 +13,10 @@ menus:
     name: Service request management
     identifier: serviceRequestManagement
     post: service-request-management
+about:
+  - name: "Service Request Management"
+    sameAs: "https://www.wikidata.org/wiki/Q3958030"
+    type: "Thing"
 ---
 
 Service request management is central to how we handle interactions between the IT team and end users.

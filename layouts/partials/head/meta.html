@@ -61,6 +61,10 @@
     "target": "http://example.com/search?&q={query}",
     "query-input": "required"
   } */}}
+
+  {{ else if strings.Contains .Permalink "/resources/itil-processes" }}
+  {{ partial "head/schema/itil.html" . }}
+
 {{- else if .IsPage -}}
 <script type="application/ld+json">
 {
