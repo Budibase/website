@@ -5,6 +5,16 @@ description = "Check out our in-depth comparison of Mendix and OutSystems."
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1714139175/cms/outsystems-vs-mendix/Mendix_vs_OutSystems_osqot9.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Mendix vs OutSystems"
+[[softwareApplications]]
+name = "Mendix"
+applicationCategory = "businessApplication"
+operatingSystem = "Windows, MacOS"
+url = "https://www.mendix.com/"
+[[softwareApplications]]
+name = "OutSystems"
+applicationCategory = "businessApplication"
+operatingSystem = "Windows, MacOS"
+url = "https://www.outsystems.com/"
 +++
 
 OutSystems and Mendix are two of the oldest names in the low-code space. Together, they occupy a huge corner of the market, with tens of thousands of businesses relying on them to ship custom applications.
