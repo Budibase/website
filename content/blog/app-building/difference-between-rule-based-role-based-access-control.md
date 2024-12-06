@@ -6,10 +6,6 @@ image = "https://res.cloudinary.com/daog6scxm/image/upload/v1653385079/cms/What_
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1653385079/cms/What_is_the_difference_between_rule_based_and_role_based_access_control_header_berf5j.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Rule-Based vs Role-Based Access Control"
-[[mentions]]
-name = "role-based access control"
-sameAs = "https://budibase.com/blog/app-building/role-based-access-control/"
-type = "Thing"
 +++
 How you control user access to your app has a huge impact on its performance, security, and usability. Today, we’re going to explore the differences between rule-based and role-based access control, the two predominant systems for modern applications.
 

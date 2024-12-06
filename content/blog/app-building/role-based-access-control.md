@@ -6,10 +6,6 @@ image = "https://res.cloudinary.com/daog6scxm/image/upload/v1653383363/cms/How_t
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1653383363/cms/How_to_Integrate_Multiple_Databases_header_qwivo9.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Role-Based Access Control | Ultimate Guide"
-[[about]]
-name = "role-based access control"
-sameAs = "https://www.wikidata.org/wiki/Q1702839"
-type = "Thing"
 +++
 Granting users the right level of access to your systems and data is essential for security and UX alike. Today we’re going to dive deep into the most prominent way to achieve this - **_role-based access control_** (RBAC).
 
