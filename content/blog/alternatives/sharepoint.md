@@ -1,10 +1,35 @@
-+++
-author = "Ronan McQuillan"
-date = 2024-05-08
-description = "Check out our breakdown of the market for SharePoint alternatives in 2025."
-profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "5 SharePoint Alternatives and Competitors"
-+++
+---
+author: "Ronan McQuillan"
+date: "2024-05-08"
+description: "Check out our breakdown of the market for SharePoint alternatives in 2025."
+profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
+title: "5 SharePoint Alternatives and Competitors"
+about:
+  - name: "SharePoint"
+    sameAs: "https://www.wikidata.org/wiki/Q18833"
+    type: "Thing"
+softwareApplications:
+  - name: "Budibase"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.budibase.com"
+  - name: "Google Workspace"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Cloud"
+    url: "https://workspace.google.com/intl/en_uk/"
+  - name: "OutSystems"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Windows, MacOS"
+    url: "https://www.outsystems.com"
+  - name: "Confluence"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.atlassian.com/software/confluence"
+  - name: "Mendix"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Windows, MacOS"
+    url: "https://www.mendix.com"
+---
 
 SharePoint is the backbone of countless organizations. It’s really the go-to platform for businesses that want to enhance productivity, drive collaboration, and centralize resources.
 

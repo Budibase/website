@@ -4,7 +4,16 @@ date = 2024-05-10
 description = "Take a look at our in-depth comparison of Appsmith and Retool."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Appsmith vs Retool: In-Depth Guide"
-
+[[softwareApplications]]
+name = "Retool"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.retool.com"
+[[softwareApplications]]
+name = "AppSmith"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.appsmith.com/"
 +++
 
 The market for low-code platforms has grown massively over the past decade, with new players coming to the fore. Retool and Appsmith are two of the most prominent brands in this space, offering developers a range of visual tools for shipping internal applications quickly.

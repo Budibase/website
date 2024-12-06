@@ -1,10 +1,35 @@
-+++
-author = "Ronan McQuillan"
-date = 2024-05-06
-description = "Check out our round-up of the top Smartsheet alternatives for 2025."
-profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "5 Smartsheet Alternatives & Competitors"
-+++
+---
+author: "Ronan McQuillan"
+date: "2024-05-06"
+description: "Check out our round-up of the top Smartsheet alternatives for 2025."
+profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
+title: "5 Smartsheet Alternatives & Competitors"
+about:
+  - name: "SmartSheet"
+    sameAs: "https://www.wikidata.org/wiki/Q7544153"
+    type: "Thing"
+softwareApplications:
+  - name: "Budibase"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.budibase.com"
+  - name: "Airtable"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.airtable.com"
+  - name: "Quickbase"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.quickbase.com"
+  - name: "Asana"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://asana.com"
+  - name: "Appsheet"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://about.appsheet.com/home/"
+---
 
 Managing data around projects, tasks, workloads, and resources is one of the most basic challenges every business deals with.
 

@@ -10,6 +10,43 @@ layout: appian
 author: Ronan McQuillan
 profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 draft: false
+about:
+  - name: "Appian"
+    sameAs: "https://www.wikidata.org/wiki/Q56273983"
+    type: "Thing"
+softwareApplications:
+  - name: "Budibase"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.budibase.com"
+  - name: "Retool"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://retool.com/"
+  - name: "Mendix"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Windows, MacOS"
+    url: "https://www.mendix.com"
+  - name: "OutSystems"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Windows, MacOS"
+    url: "https://www.outsystems.com"
+  - name: "Power Apps"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Windows, MacOS"
+    url: "https://www.microsoft.com/en-gb/power-platform/products/power-apps"
+  - name: "FileMaker"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Windows, MacOS"
+    url: "https://www.claris.com/" 
+  - name: "Zoho Creator"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.zoho.com/creator/"
+  - name: "Caspio"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Windows, MacOS"
+    url: "https://www.caspio.com"
 ---
 
 Appian is one of the most popular low-code platforms on the market today. Founded in 1999, it’s also one of the older players in this space.
