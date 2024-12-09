@@ -3,42 +3,42 @@
 {{ partial "navigation.html" . }}
 
     <div class="container-12 space-2-top text-center">
-        <h1 class="hero-title mb-3">
-            Meet our Customers
+        <h1 class="hero-title-lg mb-8 w-lg-70 mx-auto">
+           Helping over 200,000 teams transform workflows
         </h1>
-            <p class="hero-description mb-6">The platform behind 100,000 fast-moving teams.</p>
-            {{ partial "logo-reel-no-text.html" . }}
+        {{ partial "logo-reel-no-text.html" . }}
     </div>
-
-
-    <section class="space-2 container-12">
-        <div class="customers-grid">
-            <a href="/customers/covanta" class="customers-grid-featured">
-                 <img src="/customers/covanta/images/grid.png" class="customer-image rounded-lg img-fluid" /> 
+    <section class="space-2 container-fw flex-row justify-center-lg">
+        <div class="customers-grid mx-auto">
+            <a href="/customers/ströer-x" class="customer-card top--25">
+                <img src="/customers/ströer-x/images/cover.png" class="rounded-lg img-fluid" /> 
+                <div class="customers-grid-gradient rounded-lg"></div>
+                <span class="customer-link">Read more -></span>
+                <div class="customer-title"><h2 class="text-white h3">Ströer X</h2></div>
+           </a>
+           <a href="/customers/knightsbrown" class="customer-card">
+            <img src="/customers/knightsbrown/images/cover.png" class="rounded-lg img-fluid" /> 
+            <div class="customers-grid-gradient rounded-lg"></div>
+            <span class="customer-link">Read more -></span>
+            <div class="customer-title"><h2 class="text-white h3">Knights Brown</h2></div>
+       </a>
+            <a href="/customers/covanta" class="customer-card top--25">
+                 <img src="/customers/covanta/images/grid.png" class="rounded-lg img-fluid" /> 
                  <div class="customers-grid-gradient rounded-lg"></div>
-                 <div class="customer-title"><h2 class="text-white">Covanta</h2></div>
-                 <div class="customer-description"><p class="text-white lead-lg font-weight-semi-bold">"Covanta expects to make $3.2MM in savings."</p></div>
+                 <span class="customer-link">Read more -></span>
+                 <div class="customer-title"><h2 class="text-white h3">Covanta</h2></div>
             </a>
-                <a href="/customers/herrenknecht" class="customers-grid-b">
-                <img src="/customers/herrenknecht/images/cover.jpg" class="customer-image rounded-lg img-fluid"/>
+            <a href="/customers/herrenknecht" class="customer-card">
+                <img src="/customers/herrenknecht/images/cover.jpg" class="rounded-lg img-fluid"/>
                 <div class="customers-grid-gradient rounded-lg"></div>
-                <div class="customer-title"><h2 class="text-white">Herrenknecht</h2></div>
-                <div class="customer-description"><p class="text-white lead-lg font-weight-semi-bold">"The user friendliness of Budibase is outstanding!"</p></div>
+                <span class="customer-link">Read more -></span>
+                <div class="customer-title"><h2 class="text-white h3">Herrenknecht</h2></div>
             </a>
-            <a href="/customers/schnellecke" class="customers-grid-c">
-                <img src="/customers/schnellecke/images/grid.png" class="customer-image rounded-lg img-fluid"/>                    
-                <div class="customers-grid-gradient rounded-lg"></div>
-                <div class="customer-title"><h2 class="text-white">Schnellecke</h2></div>
-                <div class="customer-description"><p class="text-white lead-lg font-weight-semi-bold">"Those same apps are now here in less than an hour."</p></div>
-            </a>
-            <a href="/customers/bulgarian-government" class="customers-grid-d">
+            <a href="/customers/bulgarian-government" class="customer-card top--25">
                 <img src="/customers/bulgarian-government/images/grid.png" class="customer-image rounded-lg img-fluid"/>                    
                 <div class="customers-grid-gradient rounded-lg"></div>
-                <div class="customer-title"><h2 class="text-white">Bulgarian Government</h2></div>
-                <div class="customer-description"><p class="text-white lead-lg font-weight-semi-bold">The Bulgarian Gov rehomes 100,000 refugees using Budibase.</p></div>
+                <span class="customer-link">Read more -></span>
+                <div class="customer-title"><h2 class="text-white h3">Bulgarian Government</h2></div>
             </a>
         </div>
     </section>
-
-    {{ partial "cta.html" . }}
-    {{ partial "footer.html" . }}
