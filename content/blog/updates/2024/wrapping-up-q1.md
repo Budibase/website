@@ -117,7 +117,7 @@ We plan to write a detailed post about our Cloud performance efforts in the upco
 
 - Native n8n integration - A few weeks back, we launched our native n8n integration. [Read the changelog](https://docs.budibase.com/changelog/new-n8n-integration).
 - Automation Scripting Action UX improvements - We made a small yet impactful improvement to the user experience within the automation scripting action. [Read the changelog.](https://docs.budibase.com/changelog/ux-improvement-in-automation-scripting-action)
-- Over 100,000 teams have used Budibase to build apps.
+- over 200,000 teams have used Budibase to build apps.
 - We reached [20,000 Github stars](https://github.com/Budibase/budibase).
 - Thank you to Sourcee, mheim_sx, and Poirasiz for all their community contributions.
 - Check out the following ChatGPT clone created by a community member:

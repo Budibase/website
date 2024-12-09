@@ -71,7 +71,7 @@ We are committed to our mission of helping teams turn data into action. These ch
 - Improving RBAC and introducing more granular control
 - And so much more.
 
-We are delighted and feel very privileged that over 100,000 teams have chosen Budibase to build internal tools and speed-up their workflows. We would like to thank all the customers who partnered with us in the process of crafting these changes.
+We are delighted and feel very privileged that over 200,000 teams have chosen Budibase to build internal tools and speed-up their workflows. We would like to thank all the customers who partnered with us in the process of crafting these changes.
 
 Thank you Budis,
 
