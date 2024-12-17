@@ -264,7 +264,7 @@ It's too early to tell for OhMyForm, but the future is bright if they can delive
 
 ## What is the best free online form builder?
 
-The 5 best online form builders today are:
+The 5 best open-source form builders today are:
 
 * Budibase.
 * Kinto form builder.
@@ -281,9 +281,13 @@ Here are some other features that you might want to consider:
 * Self-hosted form builder.
 * Form builder API.
 
-Check out our free guide to [IT process automation](https://budibase.com/blog/automation/it-process-automation/).
+You might also want to consider free versions of closed source tools - particularly if you're considering open-source options for cost reasons. 
 
-In addition to these, let’s look at some clear winners based on a few popular requests for online form builders.
+Most SaaS form builders also offer a free tier of their product, although the limitations that are applied to these can vary. For instance, [JotForm, TypeForm, and FormStack](https://budibase.com/blog/alternatives/forms/) are all stand-alone COTS form builders that offer free tiers.
+
+However, other types of SaaS platforms also offer form-building capabilities either as a subset of their wider product or as a standalone tool. These are often a great option if you're already using the parent platform extensiveley. For example, [HubSpot Forms](https://www.hubspot.com/products/marketing/forms) is a free form builder that's highly optimzed for working with existing CRM workflows in HubSpot - for instancing, analyzing Contact Sales submissions.
+
+With this in mind, let’s wrap up by thinking about some of the key factors you'll want to consider when choosing an open-source or free form builder..
 
 ### The best online form builder with a database
 
