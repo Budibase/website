@@ -6,12 +6,6 @@
        url('/fonts/InterVar.woff2') format('woff2'); 
 }
 
-@font-face{
-  font-family: 'IBM Plex Mono';
-  font-weight: 500;
-  src: url('/fonts/IBMPlexMono-Medium.woff2') format('woff2');
-}
-
 html {
   --bb-coral: hsl(0, 100%, 65%);
   --bb-coral-light: rgb(249, 119, 119);
