@@ -6,7 +6,7 @@ destination = "https://budibase.app/builder?template=app/it-incident-report-form
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639153307/cms/IT_Incident_Report_Form_Featured_tpdmwv.png"]
 label = "IT Incident Report"
 layout = "single"
-preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639395708/cms/IT_Incident_report_form_template_gif_ydajjq.gif"
+preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1734521320/cms/new-template-images/IT_Incident_Report_q28pqp.gif"
 summary = "Our IT incident report template gives businesses a simple form to record incidents in seconds."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642523404/cms/IT_Incident_Report_Form_THumbnail_New_vodckc.png"
 thumbnailColor = "bb-forestgreen"
@@ -23,7 +23,7 @@ With our incident report template, you can quickly build a platform to manage re
 
 An IT incident report form is a simple tool for employees to record incidents. These can include cyberattacks, service disruption, or hardware issues. Effective incident report forms ensure quick, thorough, and consistent reporting.
 
-Our incident report form template offers a quick and easy way for employees to record issues. Gain complete oversight over all IT incidents with our simple and intuitive form template.
+Our incident report form template offers a quick and easy way for employees to record issues. Their IT colleagues can then submit responses and track the history of incidents. Gain complete oversight over all IT incidents with our simple and intuitive form template.
 
 ### Why do you need an IT incident report form?
 
@@ -35,7 +35,7 @@ Our IT incident report template prevents this.
 
 ### What should an IT incident report include?
 
-IT incident reports are used to thoroughly record the details of an incident. This includes giving a chronological account of what happened, what the impact was, and trying to establish a cause.
+IT incident reports are used to thoroughly record the details of an incident. This includes giving a detailed account of what happened, what the impact was, and trying to establish a cause.
 
 Reports should also identify who or what was affected by the incident, and a corrective action plan.
 
@@ -48,7 +48,6 @@ Our IT incident report template uses a simple form to create an effective record
 Out of the box, our template offers:
 
 * Custom databases.
-* Searchability.
 * Automations.
 * Intuitive UI.
 * Access control.
@@ -64,9 +63,9 @@ Incident reporting is crucial. Having a central record of all IT incidents helps
 
 Our IT incident report formats key information about the incident and affected systems in a clear, concise manner. When an incident occurs, any employee can note the required details in seconds.
 
-We’ve also added an additional form, for IT workers to qualify and respond to incidents. On a separate record, your IT team can assign actions, incident severity, or escalate each case.
+We’ve also added an additional form, for IT workers to qualify and respond to incidents. On a separate record, your IT team can record actions or update the incident's status or severity.
 
-![IT incident report template](https://res.cloudinary.com/daog6scxm/image/upload/v1639155409/cms/IT_Incident_Report_Template_1_yjvo3j.webp "IT Incident Report Template form Interface")
+![IT incident report template](https://res.cloudinary.com/daog6scxm/image/upload/v1734521316/cms/new-template-images/IT_Incident_Report_1_hxcbki.webp "IT Incident Report Template form Interface")
 
 ### Customize report fields
 
@@ -78,7 +77,7 @@ Our template is designed for quick deployment. We’ve provided the most common 
 
 ### Automate workflows
 
-Our ICT incident report template is built to simplify internal processes. When IT incidents occur, communication is key. The sooner your IT team receives your incident reports, the better.
+Our ICT incident report template is built to simplify internal processes. When IT incidents occur, communication is key. The sooner your IT team receives your incident reports, the better. We've included two automations, which maintain a separate `History` table, creating entries when an incident is created or updated.
 
 With Budibase, any in-app action can trigger our vast library of automations.
 
@@ -94,8 +93,6 @@ Optimize internal processes by classifying incidents based on required actions. 
 
 With Budibase, you have complete control to organize and classify incidents as you see fit.
 
-![Search and filter IT Incidents](https://res.cloudinary.com/daog6scxm/image/upload/v1639155626/cms/IT_Incident_Report_Template_2_qsz8pu.webp "Search IT Incident reports")
-
 ### Streamline processes
 
 Clear delegation is crucial when responding to IT incidents. The right team members must be assigned to respond to different incidents. This improves response times and internal learning.
@@ -108,11 +105,9 @@ Whether you want to divide incident categories into different workflows, or simp
 
 Different teams use incident records differently. Most employees only need the ability to report incidents. IT teams must then be able to access, edit, and take action based on these initial reports.
 
-Our template features four permission tiers. _Basic_ users can access the initial form, and report incidents. _Power_ and _admin_ users can then view all reports, and access an additional form for responding to initial reports.
+Our template is based around two custom user roles. `Employee` users can access the initial form report incidents, or view their own submissions. `Manager` users can then view all reports, and access an additional form for responding to initial reports.
 
 With Budibase, you have complete control to add and remove permission tiers as you see fit.
-
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1639155626/cms/IT_Incident_Report_Template_2_qsz8pu.webp)
 
 ### Design and usability
 
@@ -132,7 +127,7 @@ With conditionality in Budibase, you can quickly transform simple forms into fle
 
 ## Why build an IT incident report form with Budibase?
 
-At Budibase, we’re building the world’s largest ecosystem of business tools. Our low-code builder offers:
+Budibase is the fast, easy way to build secure internal tools, with:
 
 * Open-source design.
 * Scalability.
@@ -152,8 +147,6 @@ At Budibase, we’re building the world’s largest ecosystem of business tools.
 
 Budibase is completely open-source. Unlike other low-code tools, we don’t charge hidden fees. Self-host, and enjoy unlimited users and apps.
 
-You’ll even own the finished product.
-
 We do offer premium support contracts and SLAs for enterprise clients. Our users are a community of passionate open-source app builders. Check out our [pricing page](https://budibase.com/pricing) for more details.
 
 ### Security
@@ -163,8 +156,6 @@ Open-source means secure. Budibase works seamlessly with a wide range of data so
 Budibase apps also give you complete control over who accesses your platform. With fully customizable user permissions, you can give your users access to the exact information they need.
 
 As a Budibase user, you’ll also enjoy free SSO across all of your apps.
-
-![IT Incident Report Detail screen](https://res.cloudinary.com/daog6scxm/image/upload/v1639155783/cms/IT_Incident_Report_Template_3_bfecae.webp "IT Incident Report Template 3")
 
 ### Flexible hosting
 

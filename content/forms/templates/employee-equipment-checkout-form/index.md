@@ -6,7 +6,7 @@ destination = "https://budibase.app/builder?template=app/employee-equipment-chec
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639388152/cms/Employee_Equipment_Checkout_Form_Template_1_lyhmin.png"]
 label = "Equipment Checkout Form"
 layout = "single"
-preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1639396182/cms/Employee_equipment_checkout_form_gif_w3mbd0.gif"
+preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1734521310/cms/new-template-images/Equipment_Check_out_ildr7w.gif"
 summary = "Our employee equipment checkout form template provides a simple, effective way to manage device rental."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/Employee_Equipment_Checkout_Form_Thumbnail_New_to8dqi.png"
 thumbnailColor = "bb-indigo"
@@ -36,7 +36,7 @@ When a user makes an equipment rental request, a new row is created in the datab
 
 This gives employees a streamlined equipment sign-out sheet for borrowing and returning company assets.
 
-This database is then used by IT and operations teams, to manage and approve equipment requests. Depending on your needs, this might be done automatically, or manually. The database also provides a record of how and when borrowed equipment is used.
+This database is then used by IT and operations teams, to track usage. Depending on your needs, this might be done automatically, or manually. The database also provides a record of how and when borrowed equipment is used.
 
 ### Why do you need an employee checkout form app?
 
@@ -46,8 +46,6 @@ For example, multiple employees might need to use the same piece of equipment, a
 
 If this only happens occasionally, checkout forms help you to make a decision on who gets priority. If it happens more frequently, checkout form data helps your team to make decisions about procuring additional devices, to improve operations.
 
-![Employee equipment checkout form template 1](https://res.cloudinary.com/daog6scxm/image/upload/v1639388152/cms/Employee_Equipment_Checkout_Form_Template_1_lyhmin.png "Employee equipment checkout form template")
-
 ## Our employee equipment checkout form template
 
 Our free equipment checkout template is built for efficiency and functionality.
@@ -55,7 +53,6 @@ Our free equipment checkout template is built for efficiency and functionality.
 With our free template, you’ll have access to:
 
 * Connection to external databases.
-* Limitless customization.
 * Automated emails.
 * Intuitive UI.
 * Tiered permissions.
@@ -69,19 +66,19 @@ In minutes, you can create a fully functional employee equipment checkout form. 
 
 ### Streamlined device management
 
-Our equipment checkout form is designed for optimal employee experiences. We’ve provided data fields on employee information, the checkout request, and a long-form text field to provide additional information.
+Our equipment checkout form app is designed for optimal employee experiences. We’ve provided data fields on employee information, the checkout request, and a long-form text field to provide additional information.
 
-As employees request equipment checkouts, a record is created in your database. This allows your team to manage device rentals, in line with your internal processes.
+As employees request equipment checkouts, a record is created in your database. This allows your team to manage device rentals, in line with your internal processes. We've provided dedicated CRUD screens for different types of users to access and manage device and request information.
 
 With Budibase, you have full control and oversight of how employees check out equipment. Build your perfect equipment checkout form around your existing internal processes, creating streamlined workflows.
 
-### Instant request and approval
+### Instant request and availability management
 
 Employee equipment checkout forms are a powerful way to save time and cut costs. Without a digital system in place, employees are forced to take calls or meetings to organize equipment rental.
 
 This causes unnecessary delays and inefficiencies.
 
-Our form template allows employees to request, manage, and approve equipment checkouts in seconds. You can even set automatic rules, to approve equipment rentals instantly, if a certain device is available.
+Our form template allows employees to request devices. We then use back-end automation to manage the status of the affected device, marking it as in-use, so it can't be requested by other users until it is returned.
 
 ### Manage communications
 
@@ -89,9 +86,9 @@ Digital forms provide seamless communications. When an employee makes an equipme
 
 Add SMTP credentials to automate emails within your digital form app.
 
-Budibase also offers integration with a number of softphones and instant messaging apps, including Slack. Our employee equipment checkout form is a simple way to massively improve internal communications.
+Budibase also offers integration with a number of instant messaging apps, including Slack. Our employee equipment checkout form is a simple way to massively improve internal communications.
 
-![Employee equipment checkout system template](https://res.cloudinary.com/daog6scxm/image/upload/v1639388460/cms/Employee_equipment_checkout_form_template_2_iaatib.png "Manage employee equipment checkouts")
+![Employee equipment checkout system template](https://res.cloudinary.com/daog6scxm/image/upload/v1734521304/cms/new-template-images/Equipment_Check_Out_2_o5bp4p.webp "Manage employee equipment checkouts")
 
 Check out our free [employee portal app template](https://budibase.com/portals/templates/employee-portal-app/).
 
@@ -105,9 +102,7 @@ Budibase also offers a range of third-party integrations, through Zapier and Web
 
 ### Control access
 
-Use tiered access to create efficient and secure workflows. Our template comes with four permission tiers. _Basic_ users have the ability to check out equipment or view and manage their previous requests.
-
-Users with higher permissions can then manage and approve all requests, or edit and add new users.
+Use tiered access to create efficient and secure workflows. Our template comes with two custom roles. *Employees* can view all equipment entries, submit rental requests, or view their own previous submissions. *IT Team* users inherit all permissions from Employees, but they can also view all submissions or perform CRUD actions on equipment.
 
 This ensures that users have access to the exact data and functionality they need. Effective access control with Budibase provides a clean user experience while maximizing data security.
 
@@ -133,17 +128,13 @@ At Budibase, we’re on a mission to build the world’s largest ecosystem of bu
 
 * Open-source design.
 * Scalability.
-* Quick deployment.
-* Access control.
-* Flexible hosting.
+* Custom RBAC.
+* Optional self-hosting.
 * Mobile-responsiveness.
-* Security.
+* Free SSO.
 * Automation.
 * Integrations.
-* Low-code.
 * Multiple data sources.
-* Infinite customization.
-* Built-in JavaScript editor.
 
 ### Free, open-source digital forms
 
@@ -153,7 +144,7 @@ Unlike other low-code platforms, we don’t charge hidden fees to build new self
 
 ### External data support
 
-Budibase offers support for external datasets through CouchDB, Airtable, MySQL, Postgresql, S3, Rest API, and more. Connect your digital forms to existing databases, providing improved functionality in seconds.
+Budibase offers support for external datasets through CouchDB, MySQL, Postgresql, S3, Rest API, and more. Connect your digital forms to existing databases, providing improved functionality in seconds.
 
 We also offer our own built-in database, for the fastest deployments possible. Use direct CSV uploads to begin using the Budibase DB, in seconds.
 
@@ -167,9 +158,7 @@ Deploy to your own infrastructure using Kubernetes, DigitalOcean, Docker, and mo
 
 Our open-source platform provides leading security standards. Self-hosting gives Budibase users complete control over the security of their business apps.
 
-Our low-code platform also offers a range of security features to protect business data. With fully customizable access control, free SSO, OAuth, and OpenID, security is at the heart of Budibase.
-
-For secure fleet management, take a look at our free [car rental admin panel](https://budibase.com/admin-panels/templates/car-rental-admin-panel/) template.
+Our low-code platform also offers a range of security features to protect business data. With fully customizable access control, free SSO, and more, security is at the heart of Budibase.
 
 ### Mobile-responsive forms
 
@@ -182,8 +171,6 @@ Empower your team to use our employee equipment checkout form anywhere, from any
 The tools your employees use are constantly changing. As technology advances, and your organization changes, your checkout forms need to evolve too. Budibase offers unrivaled scalability and customization.
 
 With our low-code platform, you can add new data fields or users in seconds. The flexibility to quickly alter forms is crucial for future-proofing your equipment checkout process.
-
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1639388603/cms/Employee_equipment_checkout_form_template_3_qr4qko.png)
 
 ### Integrations
 
