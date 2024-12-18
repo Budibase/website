@@ -6,7 +6,7 @@ destination = "https://budibase.app/builder?template=app/employee-check-in-out"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1647950284/cms/Employee_Check-in_check-out_template_1_izgikq.png"]
 label = "Employee Check-In"
 layout = "single"
-preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1647950336/cms/Employee_check-in_check-out_gif_kxmjrt.gif"
+preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1734521313/cms/new-template-images/Employee_Check_In_zn1rjx.gif"
 summary = "Our employee check-in/check-out template is built to simplify time management and facility booking. "
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1647950326/cms/Employee_check-in_check_out_thumbnail_cabwkz.png"
 thumbnailColor = "bb-indigo"
@@ -21,13 +21,11 @@ This data can then be used for facility planning, payroll automation, office sch
 
 ## What is an employee check-in/check-out app?
 
-As the name suggests, check-in/check-out apps are used to register when employees enter or leave different locations. Employees can use a simple [form interface](https://budibase.com/forms) to log their location, time of entry, time of departure, and any other relevant details.
+As the name suggests, check-in/check-out apps are used to register when employees enter or leave different locations. Users can simply select their office location and check-in or out at the click of a button. Our app uses context to determine if the user is checking in or out, as well as recording their details without requiring any manual inputs.
 
 The goal is to ensure that data is consistent, accurate, and accessible for your leadership team. This also enables you to leverage your check-in/out data across other tools through third-party integrations.
 
-For example, employee check-in data might be used in project management tools, payroll software, scheduling apps, and more.
-
-![Employee Check in Check Out template home screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647950482/cms/Employee_Check-in_check-out_template_1_yiytkf.png "Employee Check in Check Out template home screen")
+For example, employee check-in data might be used alongside project management tools, payroll software, scheduling apps, and more.
 
 ### Why digitize employee check-ins?
 
@@ -44,7 +42,7 @@ Employee check-in apps are based on two elements:
 1. **A front-end** interface for checking in and out.
 2. **A back-end data layer** for storing, organizing, and managing entries.
 
-When an employee checks in or out, a record is created in the database. Our template uses simple relationships to link two databases for _employees_ and _check-ins_/_outs_. When a new check-in or out is created, the relevant employee details are also updated.
+When an employee checks in or out, a record is created in the database. Our template uses simple relationships to link three database tables for *locations*, _employees_ and _check-ins_/_outs_. When a new check-in or out is created, the relevant employee details are also updated.
 
 The most effective check-in/check-out systems for employees offer additional features for streamlining workflows, including external data support, third-party integrations, and custom process automation.
 
@@ -71,19 +69,17 @@ Use our check-in/check-out app as a fully deployable solution, or customize and 
 
 Our template is built to fully streamline the check-in/check-out process. Say goodbye to time-consuming manual clock-ins. With our simple app, employees can register entrances and exits, in seconds.
 
-We’ve built our app around a simple, single-screen interface. Users can select their name, and add their location and time of arrival or departure in a concise modal form.
+We’ve built our app around two distinct user roles. `Employees` can view all company locations and check-in or out of them. `Managers` can view all employees, manage locations, and view the check-in/out history across both.
 
-Our template also tracks which employees are currently at different sites, giving clear oversight of your workforce at all times.
+This gives complete visibility over which employees have visited different sites and when.
 
-![Check out screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647950534/cms/Employee_Check-in_check-out_template_2_bekm2c.png "Check out screen")
+![Check out screen](https://res.cloudinary.com/daog6scxm/image/upload/v1734521314/cms/new-template-images/Employee_Check_In_1_qf0wsk.webp "Check out screen")
 
-### Auto-populated forms
+### One-click check-ins
 
-We’ve set our check-in/check-out form to auto-populate with key employee data. Personal details, locations, and whether an employee is checking in or out are all automatically populated in our forms.
+We’ve set our check-in/check-out form to auto-populate a new database entry at the click of a button. We've created an automation rule that determines whether a user would need to check-in or out of the selected location, and automatically records their details.
 
 Minimize the input needed from employees to maximize accuracy, efficiency, and process adherence.
-
-All auto-populated data can also be overridden. This ensures that employees can quickly manage fringe cases, or correct data if they’ve forgotten to check in or out on a given day.
 
 ### Responsive design
 
@@ -93,11 +89,9 @@ Our app components are also fully tested for key accessibility standards.
 
 Ensure maximum app adoption by giving your employees a tool they can use anywhere, on any device.
 
-![Check in screen](https://res.cloudinary.com/daog6scxm/image/upload/v1647950555/cms/Employee_Check-in_check-out_template_3_lnhyfl.png "Check in screen")
-
 ### Custom automations
 
-Our check-in/check-out app is the perfect platform for automating all kinds of workflows. We’ve provided formula variables to automatically update employee details based on their form completions.
+Our check-in/check-out app is the perfect platform for automating all kinds of workflows. 
 
 Use any in-app action to trigger Budibase’s vast library of built-in automations. Data gathered in our app can be used to feed automations for employee communications, facility management, maintenance scheduling, resourcing, and more.
 
@@ -121,13 +115,11 @@ Add your logo, custom colors palettes, and other branding elements, or optimize 
 
 ### Custom RBAC
 
-Budibase offers fully customizable role-based access control. Assign permissions to different user groups, based on their department, job role, seniority, location, or any other attribute. Restrict different screens to certain user classes, with our simple drop-down menu.
+Budibase offers fully customizable, visual role-based access control. Assign permissions to different user groups, based on their department, job role, seniority, location, or any other attribute. Restrict different screens to certain user classes, with our simple visual editor.
 
-We’ve provided four permission tiers, giving you complete scope to tailor your app to your specific security and usability needs.
+Our template utilizes two custom roles, giving you complete scope to tailor your app to your specific security and usability needs.
 
 Ensure maximum app adoption and privacy, by giving each user access to the exact data and features they need.
-
-![Add an employee](https://res.cloudinary.com/daog6scxm/image/upload/v1647950580/cms/Employee_Check-in_check-out_template_4_dvtnhy.png "Add an employee")
 
 ## Manage employee check-ins with Budibase
 
@@ -159,7 +151,7 @@ We also provide a range of SLAs and support contracts for enterprises and large 
 
 ### External database support
 
-Connect your Budibase tools to a wide range of external data sources. Add external data to Budibase apps, using MySQL, MSSQL, Postgresql, S3, Airtable, MongoDB, CouchDB, Oracle, Rest API, and more.
+Connect your Budibase tools to a wide range of external data sources. Add external data to Budibase apps, using MySQL, MSSQL, Postgresql, S3, MongoDB, CouchDB, Oracle, Rest API, and more.
 
 We also offer our own built-in database, with support for direct CSV uploads. Say goodbye to managing disorganized spreadsheets. Budibase is the fast and easy way to centralize data.
 

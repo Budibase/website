@@ -7,7 +7,7 @@ images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1642419863/cms/Inv
 label = "Invoice Approval"
 icon = "/img/icon/approval.svg"
 layout = "single"
-preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1642419884/cms/Invoice_Approval_Software_GIF_elphj4.gif"
+preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1734521309/cms/new-template-images/Invoice_Approval_zed9tf.gif"
 summary = "Our invoice approval software template offers a simple and secure platform to receive, manage, and approve business payments."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642522155/cms/Invoice_Approval_Software_Thumbnail_New_sce5mc.png"
 thumbnailColor = "bb-coral-light"
@@ -15,15 +15,15 @@ title = "Invoice Approval Software | Budibase | Low-Code Platform"
 type = "templates"
 
 +++
-In large organizations, managing vendors, suppliers, and payments is a huge challenge. The key issue here is organizing and administering payments. When handling payments for multiple vendors, it’s easy for things to go wrong.
+In large organizations, managing vendors, suppliers, and payments is a huge challenge. The key issue here is organizing and administering payments. When handling large volumes of payments, it’s easy for things to go wrong.
 
 Our template is designed to streamline invoice approval workflows, reduce admin costs, and create better vendor relationships.
 
 ## What is invoice approval software?
 
-Invoice approval software allows your supplier and vendors to submit invoices. These can then be viewed, managed, and paid by your team, within one tool. In other words, this is a closed platform for submitting, managing, and processing supplier payments and purchase orders according to defined business rules.
+Invoice approval software allows your employees to submit invoices. These can then be viewed, managed, and paid by your finance team, within one tool. In other words, this is a closed platform for submitting, managing, and processing supplier payments and purchase orders according to defined business rules.
 
-This replaces manual invoice submission and management. For example, without a dedicated tool, suppliers generally have to send invoices to their account managers. This leads to poor oversight, miscommunications, and disorganization.
+This replaces manual invoice submission and management. For example, without a dedicated tool, users generally have to send invoices to their managers. This leads to poor oversight, miscommunications, and disorganization.
 
 In extreme cases, invoices might go unpaid, leading to poor vendor relationships.
 
@@ -31,23 +31,21 @@ Our free invoice approval software offers a user-friendly alternative to manuall
 
 ### Why do businesses use digital approval tools?
 
-Dedicated approval workflow tools are a much smarter way to manage invoices. Digitizing your approval workflows is a simple and effective way to reduce admin costs and streamline internal processes.
+Dedicated approval workflow tools are a much smarter way to manage invoices. Digitizing your approval workflows is a simple and effective way to reduce admin costs and streamline internal processes, while also maximizing process adherence.
 
 Invoice approval workflow software also leads to improved supplier experiences.
 
-Rather than manually sending invoices to your account owners, vendors can simply upload new invoices directly to a centralized platform. They can then view, edit, and query the status of each invoice, without the need for excessive calls and emails.
-
-![Invoice Approval Software Home Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1642419913/cms/Invoice_Approval_Software_Screenshot_1_dwoxqp.png "Invoice Approval Software Home Screen")
+Rather than manually sending invoices to your account owners, employeess can simply upload new invoices directly to a centralized platform. They can then view, edit, and query the status of each invoice, without the need for excessive calls and emails.
 
 ### What should invoice approval software include?
 
 A basic invoice approval app has three components:
 
-1. A [form interface](https://budibase.com/forms) for vendors to submit invoices.
+1. A [form interface](https://budibase.com/forms) for users to submit invoices.
 2. Functionality for users to manage and respond to new invoices.
-3. A back-end database for storing and managing invoice information.
+3. A back-end database for storing and managing invoice information, including a history of status changes.
 
-The best tools allow you to automate your invoice approval workflows. When an invoice is approved or rejected in the approval software, it triggers automations for payment processing or client communications.
+The best tools allow you to automate your invoice approval workflows. 
 
 ## Our invoice approval software template
 
@@ -70,29 +68,21 @@ With our template, you can build deployable custom approval software in minutes.
 
 ### Instant invoice submission
 
-Our template is built around a fast and intuitive interface for submitting invoices. In seconds, vendors can upload invoices to your workflow software, without the hassle of manually contacting your team.
+Our template is built around a fast and intuitive interface for submitting invoices. In seconds, users can upload invoices to your workflow software, without the hassle of manually contacting your finance team.
 
-Vendors can upload a wide range of attachments. Key data fields, including the vendor’s name and date of submission, auto-complete, for maximum efficiency and convenience.
+Users can upload a wide range of attachments. Other fields are automatically populated using default values.
 
-When a user completes the submission form, a new row is created in the _invoices_ database. Vendors can then view or edit key details of their own invoices, while internal users can access invoices from all suppliers.
+When a user completes the submission form, a new row is created in the _invoices_ database. Employees can then view or edit key details of their own invoices, while their managers can view submissions from all users.
 
 ### Custom invoive approval workflows
 
 Of course, every business has different approval workflows. Customize your invoice approval software to fully match your internal processes. We’ve provided a _status_ data field for entries in our _invoices_ database.
 
-When a new invoice is submitted, it’s assigned the _pending_ status. Internal users can then change this to _approved, declined,_ or _queried_, and provide comments for vendors.
+When a new invoice is submitted, it’s assigned the _submitted_ status. Internal users can then change this to _approved, declined,_ or _queried_, and provide comments for submitters. Each time an invoice's status changes, a new row is created in the *History* table, providing a clear track record of how each one progresses through our workflow.
 
 With Budibase, you can easily set up rules for automatic approval. For example, you might want to create auto-approve conditions, based on trusted suppliers, or for invoices under a value threshold.
 
-![Invoice Approval Software - Submission Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1642419951/cms/Invoice_Approval_Software_Screenshot_2_tfgjnl.png "Invoice Submissions Screen")
-
-### Simplify communications
-
-Our invoice workflow template is built to streamline supplier management. Invoice approval software eliminates the need for most common vendor queries. Vendors can submit simple invoices and receive payments, without ever having to contact your team.
-
-We’ve also added functionality for when your team needs to query an invoice submission or request additional information. Simply set the invoice’s status to _queried_ and provide comments for the vendor.
-
-Add your SMTP credentials, and use built-in email automation to notify vendors of your query, simplifying the communications process.
+![Invoice Approval Software - Submission Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1734521303/cms/new-template-images/Invoice_Approval_1_v9j8mo.webp "Invoice Submissions Screen")
 
 ### Process automation
 
@@ -106,19 +96,11 @@ You might also like our [client portal for accountants](https://budibase.com/por
 
 ### Access control
 
-When it comes to invoice processing, data protection is crucial. Our template makes it easy to control how different users access your invoice approval software. _Basic_ users can submit invoices, and view their own previous submissions.
+When it comes to invoice processing, data protection is crucial. Our template makes it easy to control how different users access your invoice approval software. We've based our workflow around two custom roles. _Employee_ users can submit invoices, and view their own previous submissions.
 
-_Power_ users can view and respond to any submitted invoice.
+_Manager_ users can view and respond to any submitted invoice.
 
 With Budibase, you have the power to fully customize your permission tiers. All Budibase apps come with four levels of access. You also have the complete flexibility to add and remove tiers as you see fit.
-
-### Searchability, filtering, and organization
-
-Our invoice approval tool makes it easy to search and filter different submissions. We’ve provided separate invoice list pages for vendors and internal teams. The vendor list screen only displays entries that were created by the specific user.
-
-Each of these features our dynamic filter component. Users can filter invoice tables by a variety of different data fields. Search for specific invoices based on their value, vendor, submission date, or invoice number.
-
-Reduce admin costs and provide optimized vendor experiences with our filtering tools.
 
 ### Access from mobile devices
 
@@ -126,9 +108,7 @@ Like all Budibase tools, our invoice approval template is fully mobile responsiv
 
 Business apps are only as good as the way users interact with them. Mobile responsiveness is crucial for adoption by internal and external users.
 
-Give your vendors an invoicing tool that they can use anywhere, from any device.
-
-![Invoice Management Software Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1642419990/cms/Invoice_Approval_Software_Screenshot_3_gggq4z.png "Manage Invoices Screen")
+Give your team an invoicing tool that they can use anywhere, from any device.
 
 ## Why build approval workflow software with Budibase?
 
@@ -138,23 +118,18 @@ Our platform offers:
 
 * Open-source design.
 * Scalability.
-* Fast deployment.
-* Tiered permissions.
-* Flexible hosting.
+* Optional self-hosting.
+* Custom RBAC
 * Mobile-responsiveness.
-* Security.
+* Free SSO.
 * Automation.
-* Integrations.
-* Low-code app development.
 * Support for external data sources.
-* Infinite customization.
-* Built-in JavaScript editor.
 
 ### Open-source, low code approval apps
 
 Budibase is the smart way to build custom approval workflow software. Our open-source, low-code platform allows you to create deployable approval software, in minutes.
 
-Unlike other platforms, we don’t charge excessive fees to add new users or access premium features. Check out our [pricing page](https://budibase.com/pricing) for details. Even better, when you build software with Budibase, you’ll actually own the finished product.
+Unlike other platforms, we don’t charge excessive fees to add new users or access premium features. Check out our [pricing page](https://budibase.com/pricing) for details.
 
 ### Flexible hosting
 
@@ -168,13 +143,11 @@ The Budibase platform offers powerful conditionality for all design elements. Hi
 
 Use conditionality to provide simplified UIs for complex admin tasks. Hide different elements on mobile devices for improved user experiences across all devices.
 
-![Invoice Submissions Form](https://res.cloudinary.com/daog6scxm/image/upload/v1642420113/cms/Invoice_Approval_Software_Screenshot_4_dlqb7o.png "Invoice Approval Submission Screen")
-
 ### Connect to existing datasets
 
 Budibase connects seamlessly with a range of different data sources. Use our template to query, manipulate, and edit existing databases, for seamless deployment. Our template can be used as a modern interface for existing tools, or as a full-stack replacement app.
 
-Budibase offers support for external databases, using MySQL, MSSQL, Postgresql, Airtable, MongoDB, CouchDB, S3, and more.
+Budibase offers support for external databases, using MySQL, MSSQL, Postgresql, MongoDB, CouchDB, S3, and more.
 
 ### Third-party app integrations
 

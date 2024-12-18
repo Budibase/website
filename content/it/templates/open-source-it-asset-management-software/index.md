@@ -6,7 +6,7 @@ destination = "https://budibase.app/builder?template=app/it-asset-management-sof
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646385879/cms/IT_Asset_Management_Template_1_nbxtnj.png"]
 label = "IT Asset Management"
 layout = "single"
-preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646385728/cms/IT_Asset_Management_Template_GIF_uxehtv.gif"
+preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1734521316/cms/new-template-images/Asset_Management_blig7w.gif"
 summary = "Our open-source IT asset management software is built to simplify device management workflows."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1646385716/cms/IT_Asset_Management_Template_Gif_fovtua.png"
 thumbnailColor = "bb-indigo"
@@ -15,7 +15,7 @@ type = "templates"
 icon = "/img/icon/app.svg"
 
 +++
-An effective IT team is the heart of any successful organization. Asset maintenance and inventory management are key here. Ensuring that the right devices are available and working correctly is critical to all other business processes.
+An effective IT team is the heart of any successful organization. Asset maintenance and inventory management are key here. Ensuring that the right devices are accessible is critical to all other business processes.
 
 When done properly, asset management helps to ensure profitability, by reducing admin costs. When assets are managed poorly, businesses are exposed to risks, inefficiencies, and poor outcomes.
 
@@ -53,8 +53,6 @@ For example, businesses might store and use data on how devices are used, their 
 
 Our web-based open-source asset management system empowers you to use this information, without the need for advanced database skills. This saves time and money, by creating intuitive and streamlined asset tracking workflows for IT teams.
 
-![Open source IT asset Management software](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646385879/cms/IT_Asset_Management_Template_1_nbxtnj.webp "open source IT asset management software")
-
 ## Our open-source asset management template
 
 Our IT asset management software is built for functionality and fast deployment.
@@ -65,11 +63,11 @@ With our free template, you’ll have access to asset management features includ
 * Complete customization.
 * Email automation.
 * Intuitive UI.
-* Tiered permissions.
+* Custom permissions.
 * Third-party integrations.
 * Responsive design.
 * Optional self-hosting.
-* Automation rules.
+* Custom automations.
 * Streamlined processes.
 
 Budibase is the fast and easy way to build asset management software.
@@ -78,51 +76,33 @@ Budibase is the fast and easy way to build asset management software.
 
 Our template offers unrivaled device management experiences. We’ve provided multiple user-friendly screens for managing costs deployment, asset requests, and maintenance schedules.
 
-With intuitive forms, searchable tables, and advanced data visualization, our template offers a simple yet powerful platform to manage inventories - it's perfect for all sorts of IT colleagues, across service desks, operations specialists, and more.
+We've based it on a simple two-step, two-role request and approval workflow. Users with the `Requestor` role can view available assets and submit requests, as well as viewing and cancelling their own previous submissions. `Approver` users are able to create and edit assets, respond to requests, or view the history and current deployment of individual deviced.
 
-We’ve also provided extensive functionality for automating admin tasks. Our template automatically calculates asset depreciation and maintenance scheduling. Simply edit our automation rules to suit your specific inventory.
+We've also added automated logic to prevent requests from clashing with one another by preventing users from booking an asset that's already been scheduled for the requested dates.
 
 ### Instant deployment and rental
 
 A key part of asset management is deploying the right devices to the right users. Our template offers instantaneous asset requests. With a searchable inventory screen and intuitive rental form, employees can quickly and easily request the devices they need in real-time.
 
-Our template is built around three databases for _assets_, _requests_, and _services_. When a user completes a rental form, a new row is created on the _requests_ table. This is linked to the respective row of the _assets_ table, using simple relationships
+Our template is built around three databases for _assets_, _requests_, and _schedule_. When a user completes a rental form, a new row is created on the _requests_ table. This is linked to the respective row of the _assets_ table, using simple relationships
 
-Your IT team can then search, view, manage, and approve all requests. When a request is approved, the asset is then marked as unavailable, and updated with the current user’s information.
-
-### Cost management
-
-Our open-source IT asset management software offers advanced cost management. We’ve provided functionality to automatically calculate depreciation over time. Quickly view current asset values, either as a gross figure or percentage of the purchase price.
-
-Simply set an annual depreciation rate for each asset, and our platform takes care of the rest.
-
-Budibase offers a built-in JavaScript editor, for creating custom depreciation rules. Set additional variables, or alter the depreciation interval, to suit your specific needs.
-
-![cost control screen](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646385971/cms/IT_Asset_Management_Template_2_dzrsb7.webp "Cost control screen")
-
-### Maintenance scheduling
-
-Scheduling preventive maintenance can be a challenge for many businesses. Our asset management template automatically schedules device maintenance work, based on customizable intervals and service histories.
-
-Cut admin costs, by automating asset maintenance management.
-
-We’ve provided a simple [form interface](https://budibase.com/forms) for registering services. Our template is the smart way to schedule, record, and oversee maintenance work, across your entire inventory.
+Your IT team can then search, view, manage, and approve all requests. When a request is approved, the relevant data is then added to the *schedule*, which is linked to the relevant rows in the two other tables.
 
 ### Role-based access control
 
 Budibase offers customizable role-based access control. Set your own access rules, based on job role, seniority, department, and more. Take control over how different users interact with your app’s data.
 
-Our template is built around two permissions tiers. _Basic_ users can browse your organization’s asset inventory, and submit rental requests.
+Our template is built around two permissions tiers - `Requestors` and `Approvers`.
 
-_Power_ users can add or update devices, view and approve asset requests, or access maintenance data.
+In Budibase users with the `App Admin` role have permissions to update your applications or edit any of the underlying data.
 
-![Open-source IT asset management software request workflow](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646386094/cms/IT_Asset_Management_Template_6_fxqlts.webp "Asset Request Workflow")
+![Open-source IT asset management software request workflow](https://res.cloudinary.com/daog6scxm/image/upload/v1734521314/cms/new-template-images/Asset_Management_1_nzffht.webp "Asset Request Workflow")
 
 ### Process automation
 
 Budibase is the smart way to automate asset management workflows. Use any in-app action to trigger our wide library of built-in automations. We also offer a built-in JavaScript editor, and third-party integrations, to create powerful, custom automations.
 
-Our template is built to automate cost controls, maintenance scheduling, asset requests, and more.
+Our template uses three distinct automation rules to handle scheduling conflicts, approvals, and request cancellations.
 
 Add your SMTP credentials to trigger email automations using in-app actions, for streamlined communications.
 
@@ -156,27 +136,25 @@ With Budibase, you can achieve the benefits of IT asset management tools in a fu
 
 ### Our open-source, low-code platform
 
-Budibase offers unparalleled functionality, ease of use, and development times. With auto-generated app screens, an intuitive UI, and complete customization, our platform is the smart way to build business tools.
+Budibase offers unparalleled functionality, ease of use, and development times. With auto-generated app screens, an intuitive UI, and complete customization, our platform is the secure way to build internal tools.
 
 Organizations around the world choose Budibase for our leading development experiences. We also offer premium support packages and SLAs for enterprise customers. Check out our [pricing page](https://budibase.com/pricing) for more information.
 
-![Maintenance workflow](https://res.cloudinary.com/daog6scxm/image/upload/h_678,w_1038/v1646386046/cms/IT_Asset_Management_Template_3_q4w061.webp "Maintenance workflow")
-
 ### Self-hosting or Budibase Cloud
 
-You’re in control of how you host and deploy your Budibase tools. Choose self-hosting or our proprietary Budibase Cloud platform. Our template is perfect for deployment as a web app, or internal tool.
+You’re in control of how you host and deploy your Budibase tools. Choose self-hosting or our proprietary Budibase Cloud platform. 
 
 Deploy your asset management software to your own infrastructure, using Kubernetes, Docker, Docker Compose, Digital Ocean, and more.
 
 ### External database support
 
-With Budibase, it’s easy to collect and centralize asset data. We offer support for a wide range of external data sources. Connect our template to existing data, using SQL, Airtable, MongoDB, Rest API, CouchDB, S3, and more.
+With Budibase, it’s easy to collect and centralize asset data. We offer support for a wide range of external data sources. Connect our template to existing data, using SQL, MongoDB, Rest API, CouchDB, S3, and more.
 
 We also offer our own built-in database, with support for CSV uploads. Use Budibase as a fast and effective way to centralize asset data which is spread across multiple spreadsheets.
 
 ### Third-party integrations
 
-Budibase works seamlessly alongside your existing software stack. We offer support for a vast number of third-party app integrations, using Zapier. You can even use in-app actions to trigger automations in external tools.
+Budibase works seamlessly alongside your existing software stack. We offer support for a vast number of third-party app integrations, using Zapier, REST, and more. You can even use in-app actions to trigger automations in external tools.
 
 Connect our template to communications tools, work order apps, [portals](https://budibase.com/portals), invoicing software, and more, for unrivaled functionality.
 
@@ -194,6 +172,6 @@ Add capacity, functionality, users, and screens, without the need for excessive 
 
 ## Start using Budibase today
 
-At Budibase, we’re building the world’s largest ecosystem of free, open-source [business apps](https://budibase.com/business-apps).
+At Budibase, we’re building the world’s largest ecosystem of free, open-source [internal tools](https://budibase.com/internal-tools/).
 
 To start using our open-source asset management software, simply click below.
