@@ -6,7 +6,7 @@ destination = "https://budibase.app/builder?template=app/maintenance-schedule-te
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1648028522/cms/Maintenanec_Schedule_App_Screenshot_1_tqorpf.png"]
 label = "Maintenance Schedule"
 layout = "single"
-preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1648028545/cms/Maintenance_Schedule_App_Gif_zlprry.gif"
+preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1734521311/cms/new-template-images/Maintenance_Schedule_hxungh.gif"
 summary = "Use our maintenance schedule template to plan regular servicing."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1648031915/cms/Maintenance_schedule_thumbnail_fnine1.png"
 thumbnailColor = "bb-indigo"
@@ -36,8 +36,6 @@ Digitizing maintenance scheduling enables businesses to effectively manage equip
 It also brings the potential for human error.
 
 This can mean missing essential maintenance, or overspending on unnecessary services. Digitizing your maintenance scheduling workflows simultaneously improves outcomes and cuts administrative costs.
-
-![Maintenance schedule template homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1648028813/cms/Maintenanec_Schedule_App_Screenshot_1_qjjguf.webp "Maintenance schedule template homescreen")
 
 ### What does a maintenance schedule app include?
 
@@ -76,9 +74,9 @@ Our template is built to streamline maintenance scheduling processes. Simply set
 
 On the app’s home screen, you’ll find a real-time notification center, listing all entries which are due for maintenance.
 
-We’ve also provided intuitive multi-step form interfaces for editing devices, viewing service notes, and registering task completion. In seconds, your team can locate, action, and record maintenance tasks.
+We’ve also provided intuitive form interfaces for editing devices, viewing service notes, and registering task completion. In seconds, your team can locate, action, and record maintenance tasks.
 
-![Track and manage equipment maintenance](https://res.cloudinary.com/daog6scxm/image/upload/v1648028853/cms/Maintenanec_Schedule_App_Screenshot_2_xengaw.webp "Track and manage equipment maintenance")
+![Track and manage equipment maintenance](https://res.cloudinary.com/daog6scxm/image/upload/v1734521304/cms/new-template-images/Maintenance_Schedule_1_idexge.webp "Track and manage equipment maintenance")
 
 ### Set custom maintenance intervals and rules
 
@@ -96,8 +94,6 @@ Create, edit, or remove database entries in seconds. All forms in our template a
 
 Our template is fully mobile responsive. All design elements automatically scale and resize to fit perfectly on any device. Improve efficiency by giving your maintenance team a tool that they can take anywhere.
 
-![Register Maintenance](https://res.cloudinary.com/daog6scxm/image/upload/v1648028902/cms/Maintenanec_Schedule_App_Screenshot_3_dn5xlr.webp "Register Maintenance")
-
 ### Automate workflows
 
 We’ve created our service schedule template to automate workflows. Use any in-app action to trigger Budibase’s wide library of built-in automations. Automatically send email notifications, schedule calendar events, and more.
@@ -108,21 +104,17 @@ Budibase is the smart way to fully digitize maintenance workflows. With minimal 
 
 ### Notify users
 
-Automatically notify your maintenance team when new work is required. Our template’s home screen is built around a real-time notification carousel. On logging in, users will immediately see which equipment currently requires preventative maintenance.
-
 Add your SMTP credentials to trigger automated emails to service team members.
 
-We’ve also provided a searchable equipment listing screen. Service team members can quickly search for entries based on last service date, due dates, or any other data fields, helping to improve resource planning.
+We’ve also provided a searchable vehicle listing screen. Service team members can quickly search for entries based on last service date, due dates, or any other data fields, helping to improve resource planning.
 
 ### Manage fleets, networks, and inventories
 
 Use our maintenance scheduling template to track and manage fleets, networks, inventories, and more. We’ve built our template around a robust fleet management and maintenance tracking database.
 
-Quickly call, add, manipulate, or remove database entries from our intuitive front-end interface.
+Quickly add or view maintenance records from our sleak front-end interface.
 
 Use our range of data connectors and third-party app integrations to manipulate existing data sets using our maintenance schedule template.
-
-![Add assets](https://res.cloudinary.com/daog6scxm/image/upload/v1648028934/cms/Maintenanec_Schedule_App_Screenshot_5_rqfvoh.webp "Add assets")
 
 ### Mobile-friendly design
 
@@ -139,20 +131,13 @@ At Budibase, we’re changing the way businesses build custom tools. Our open-so
 Our innovative low-code platform features:
 
 * Open-source design.
-* Scalability.
-* Fast deployment.
 * Access control.
 * Self-hosting.
 * Advanced security.
-* Automation.
+* Powerful automations.
 * Integrations.
-* Conditionality.
 * External data connection.
-* Total customization.
-* Built-in JavaScript editor.
 * Auto-generated screens.
-* Real-time data analysis.
-* Data visualization.
 
 With Budibase, you can create the perfect maintenance tools for your business, with minimal lead times or development costs.
 
@@ -164,7 +149,7 @@ Use our maintenance schedule template as a deployable app, or customize it to yo
 
 ### External database support
 
-We offer support for a wide range of external datasets. Connect our template to external data sources, using MySQL, MSSQL, Postgresql, MongoDB, Airtable, CouchDB, Rest API, S3, and more.
+We offer support for a wide range of external datasets. Connect our template to external data sources, using MySQL, MSSQL, Postgresql, MongoDB, CouchDB, Rest API, S3, and more.
 
 Budibase also features a built-in database, with support for direct CSV uploads.
 
@@ -188,9 +173,9 @@ Quickly add new features, users, datasets, and functions, without the need for e
 
 ### Security
 
-Choose Budibase for unrivaled security. We offer fully customizable access control, SSO, OpenID, OAuth, and more. WIth Budibase, you have complete control over how different users access your apps.
+Choose Budibase for unrivaled security. We offer fully customizable access control, free SSO, SCIM, and more. WIth Budibase, you have complete control over how different users access your apps.
 
-With open-source design and optional self-hosting, Budibase is the smart choice for maximizing app security.
+With open-source design and optional self-hosting, Budibase is the smart choice for maximizing app security. We also offer air-gapped deployments on our Enterprise plan.
 
 ### Customization
 

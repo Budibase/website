@@ -6,7 +6,7 @@ destination = "https://budibase.app/builder?template=app/project-cost-estimation
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1646327546/cms/Project_Cost_Estimation_Template_1_zsej5t.png"]
 label = "Project Cost Estimation"
 layout = "single"
-preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1646327431/cms/Project_Cost_Estimation_Template_Gif_ui4eao.gif"
+preview = "https://res.cloudinary.com/daog6scxm/image/upload/v1734522101/cms/new-template-images/Project_Cost_File_u8opgk.gif"
 summary = "Our project cost estimation template is built to simplify the quotation and sign-off process. Itemize project tasks and calculate estimates, in seconds."
 thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1646327418/cms/Project_Cost_Estimation_Template_Thumbnail_nlvkgo.png"
 thumbnailColor = "bb-forestgreen"
@@ -27,7 +27,7 @@ As the name suggests, a project cost estimator calculates what a project will co
 
 This process gets tricky when you have multiple stakeholders, disciplines, and departments working on a single project. Of course, this is the reality for most professional services businesses.
 
-Dedicated tools simplify this process, by storing key assumptions about your projects. These include rates for different kinds of work, material purchase prices, and details of any other fixed project costs.
+Dedicated tools simplify this process, by storing key assumptions about your projects, including hourly rates for different kinds of tasks.
 
 ### Why use a dedicated tool for estimating costs?
 
@@ -48,11 +48,9 @@ For service businesses, the data layer should include the daily or hourly rate f
 
 For example, you could modify this to be used as a financial services, legal, or software development project cost estimation template - or some other type of service.
 
-Estimates can then be viewed, shared, and filtered by department, client, project, and more.
-
 The most effective project estimate tools maximize profitability by cutting unnecessary admin tasks, through automation, file sharing, and third-party integrations.
 
-![Cost Estimation Template Homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1646327569/cms/Project_Cost_Estimation_Template_1_kmqxkk.png "Cost Estimation Template Homescreen")
+![Cost Estimation Template Homescreen](https://res.cloudinary.com/daog6scxm/image/upload/v1734521304/cms/new-template-images/Project_Cost_Estimation_1_ia5o5w.webp "Cost Estimation Template Homescreen")
 
 ## Our project cost estimation template
 
@@ -60,7 +58,6 @@ We’ve built our project cost estimate template for maximum efficiency. Users c
 
 Our template offers:
 
-* Complex estimation rules.
 * Complete customization.
 * Workflow automations.
 * Intuitive UI.
@@ -75,55 +72,33 @@ Our template is the smart way to create, manage, and share estimates.
 
 ### Itemized estimates, in seconds
 
-Use our cost estimate template to create detailed, real-time project cost estimates, in just a few clicks. We’ve built our estimator tool around four linked databases for *projects, project items, rates,* and *clients*. Quickly estimate the costs of entire projects or individual tasks.
+Use our cost estimate template to create detailed, real-time project cost estimates, in just a few clicks. We’ve built our estimator tool around three linked database tables for projects, project items, and rates. Quickly estimate the costs of entire projects or individual tasks.
 
 Store your fixed rates for each service vertical, and use our simple form interfaces to create project estimates. Our template minimizes admin time, with instant cost calculations and intuitive UIs.
 
-View, share, and manage estimates by project, client, department, and more.
-
-### Custom formula variables
-
-Our template makes extensive use of formula variables. Use Handlebars statements and our built-in JavaScript editor to create, customize, and implement powerful automation rules across your cost estimator.
-
-We’ve used formula variables throughout our template to calculate total costs, across entire projects and individual items.
-
-Use our JavaScript editor to create more complex custom rules, which perfectly match your existing process and policies. Modify our app to be used as a financial, legal, consulting, or software project cost estimation template.
-
-![Cost Estimation Form Tool](https://res.cloudinary.com/daog6scxm/image/upload/v1646327641/cms/Project_Cost_Estimation_Template_5_gvplx8.png "Cost Estimate Form Tool")
+Simply select a project, and begin adding line items to start creating a detailed estimate. Rates can be added or updated by Admins in the app's back-end.
 
 ### Streamlined project management
 
-Use our template to build efficient project management workflows. We’ve provided dedicated screens for managing _projects_, _costs_, _estimates,_ and _clients._ Our intuitive interfaces make it fast and easy to manage key project information.
+Use our template to build efficient project management workflows. This consists of a single screen for performing complex CRUD actions across related tables.
 
-When you add an estimate for a specific task, the totals for the respective project and client are automatically updated.
-
-Share our estimate screens directly with clients to simplify communications and approval workflow management.
+When you add an estimate for a specific task, the totals for the respective project automatically updated using Budibase's custom Automations builder.
 
 ### Powerful automations
 
-Our template is built to automate processes. Use any in-app action to trigger our library of built-in automations. Instantly trigger everything from client communications, to [invoice approval](https://budibase.com/approval-apps/templates/invoice-approval-software/) and [project initiation](https://budibase.com/approval-apps/templates/project-approval-system/).
+Our template is built to automate processes. Use any in-app action to trigger our library of built-in automations, complete with branching and looping logic. Instantly trigger everything from client communications, to [invoice approval](https://budibase.com/approval-apps/templates/invoice-approval-software/) and [project initiation](https://budibase.com/approval-apps/templates/project-approval-system/).
 
-Use our third-party integrations, JavaScript editor, and formula variable to create powerful custom automations.
+Use our third-party integrations, JavaScript editor, and formula variables to create powerful custom automations.
 
 With Budibase, it’s easy to create highly automated project estimation workflows.
-
-### Conditionality and multi-step forms
-
-We’ve based our template around a highly intuitive and usable cost estimation interface. This is built around a simple multi-step form, with extensive conditional formatting. Users can choose the project elements they’d like to include, and provide details of each.
-
-Use our conditional formatting to hide, display, or update any component, based on user behavior, form inputs, back-end data, and more.
-
-Our conditional formatting and [multi-step forms](https://budibase.com/forms) are ideal for creating intuitive designs, that work perfectly across all devices.
-
-![Multi-Step Form](https://res.cloudinary.com/daog6scxm/image/upload/v1646327672/cms/Project_Cost_Estimation_Template_4_zwnhju.png "Multi-step Forms")
 
 ### Role-based access control
 
 Our template offers fully customizable role-based access control. Assign permissions to users based on their location, seniority, job title, behavior, and more. Ensure maximum security and usability by giving your team access to the exact features and data they need.
 
-We’ve built our project cost estimation template around three permission tiers. _Basic_ users can add, edit, and manage details on entire projects, or specific tasks. _Power_ users can manage data on all clients.
+We’ve built our project cost estimation template around a single permission tiers. App Users can add, edit, and manage line items within projects or view the total estimate for the project.
 
-_Admin_ users can add business functions, and alter rates for existing functions.
+_App Admin_ users have full CRUD permissions across all tables within the Budibase builder, to add additional rates, projects, or other data.
 
 ### Mobile-friendly design
 
@@ -143,13 +118,10 @@ Budibase offers:
 * Scalability.
 * Self-hosting.
 * Custom RBAC.
-* Visualization.
-* Advanced security.
+* Free SSO
 * Automation.
 * Integrations.
 * Support for external databases.
-* Total customization.
-* Built-in JavaScript editor.
 * Auto-generated screens.
 
 Use our template as a deployable solution, or tweak and customize it to fit your specific requirements.
@@ -164,11 +136,9 @@ We also offer enterprise support packages and SLAs. Check out our [pricing page]
 
 ### Connect to existing data
 
-Build your Budibase tools around existing datasets. Connect to external databases, using MSSQL, MySQL, Postgresql, S3, Airtable, MongoDB, CouchDB, Oracle, RestAPI, and more. We also offer our own built-in database, with support for direct CSV uploads.
+Build your Budibase tools around existing datasets. Connect to external databases, using MSSQL, MySQL, Postgresql, S3, MongoDB, CouchDB, Oracle, RestAPI, and more. We also offer our own built-in database, with support for direct CSV uploads.
 
 Budibase is the smart way to centralize data. Call, query, and manipulate information from several sources, using centralized, intuitive tools.
-
-![Project Cost Estimation Detail Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1646327728/cms/Project_Cost_Estimation_Template_3_maowv0.png "Project Management Detail Screen")
 
 ### Self-hosting or cloud deployments
 
@@ -184,7 +154,7 @@ With Budibase, it’s easy to create fully streamlined professional services wor
 
 ### Security
 
-Budibase offers unrivaled security. Enterprises around the world trust us to keep their data safe. With self-hosting and custom RBAC, you have complete control over how and when users access your apps.
+Budibase offers unrivaled security. Enterprises around the world trust us to keep their data safe. With self-hosting and custom RBAC, you have complete control over how and when users access your apps. Enterprise customers can even take advantage of air-gapped deployments.
 
 We also offer free SSO across all of your Budibase tools, as well as support for OAuth and OpenID.
 
