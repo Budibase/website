@@ -57,6 +57,8 @@ The other key thing is user experience. It’s important to note that we’ll al
 
 Our workload management tool must provide an appropriate UX for each of these. So, the most basic solution might have one type of user that can create tasks and assign them to employees - and then another type that can view the tasks that have been assigned to them.
 
+You might also like our guide to [open-source low-code platforms](https://budibase.com/blog/open-source-low-code-platforms/).
+
 ### Why do we need workload management software?
 
 Why bother?

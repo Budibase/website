@@ -53,6 +53,8 @@ Take for example the time the UK government lost thousands of COVID test results
 
 Spreadsheets *do* provide intuitive user experiences, but this is compromised the larger our data set becomes. So, they’re a great solution for working with a few dozen rows, but things get very messy when we start dealing with *thousands* of data entries.
 
+You might also like our guide to [web application development](https://budibase.com/blog/web-application-development/).
+
 ## Migrating vs connecting Sheets to Postgres
 
 It’s also worth exploring what our options are for moving data from Sheets to Postgres. Today, we mainly want to focus on *migration*, but this isn’t the only show in town.

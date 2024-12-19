@@ -38,6 +38,8 @@ The goal is to provide *real-time* data transfer in both directions.
 
 Data is transferred continuously while the WebSocket is live - meaning we don’t need to wait for the connection to refresh for information on either side to update.
 
+You might also like our guide to [open-source low-code platforms](https://budibase.com/blog/open-source-low-code-platforms/).
+
 #### How do WebSockets work?
 
 Let’s get a bit more technical - by thinking about the key principles that underpin WebSockets.

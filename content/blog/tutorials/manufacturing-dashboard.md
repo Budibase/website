@@ -48,6 +48,8 @@ This is made up of five interrelated tables, called *production*, *machines*, *q
 
 We’re going to create custom queries within Budibase to extract the information we need from these - and then use this to populate our display elements. Budibase is the ideal solution for SQL pros who need to turn data into professional UIs.
 
+You might also like our guide to [open-source low-code platforms](https://budibase.com/blog/open-source-low-code-platforms/).
+
 Let’s dive right in.
 
 ## How to build a manufacturing dashboard in 5 steps

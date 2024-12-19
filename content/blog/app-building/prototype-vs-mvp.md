@@ -100,6 +100,8 @@ The key factor here is the amount of time and effort that we’d have to go thro
 
 Therefore, the bigger the project, the more important it is to get user input as early in the process as possible.
 
+You might also like our guide to [open-source low-code platforms](https://budibase.com/blog/open-source-low-code-platforms/).
+
 ### MVPs
 
 MVPs are leveraged in a slightly different context. Actually, there are a couple of scenarios we can explore here. 

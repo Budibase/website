@@ -38,6 +38,8 @@ What’s most important is the relationship between the interface and process la
 
 For instance, the date range of the subset of items they want to include.
 
+You might also like our guide to [web application development](https://budibase.com/blog/web-application-development/).
+
 ## What are we building?
 
 Our inventory calculator will be a simple form interface that enables users to calculate the net changes in their stock levels and values over a given time period. They can also specify whether they’d like to do this for specific items or on aggregate for the entire inventory.
