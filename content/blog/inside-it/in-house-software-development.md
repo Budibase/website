@@ -349,7 +349,6 @@ We also want to eliminate delays and roadblocks here, as far as possible. In tur
 
 ![Scope Creep](https://res.cloudinary.com/daog6scxm/image/upload/v1667827333/cms/Scope_Creep_https___www.business2community.com_strategy_what-is-scope-creep-in-project-management-definition-causes-and-solutions-02068428_ba4gpw.webp "Scope Creep")
 
-([Business2Community](https://www.business2community.com/strategy/what-is-scope-creep-in-project-management-definition-causes-and-solutions-02068428))
 
 There are several important levels of communication we need to get right by choosing the right platforms for our needs.
 
