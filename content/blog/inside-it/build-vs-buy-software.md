@@ -168,7 +168,6 @@ Check out our ultimate guide to [in-house software development](/blog/inside-it/
 
 ![Build vs buy software scope creep](https://res.cloudinary.com/daog6scxm/image/upload/v1667829342/cms/Scope_Creep_https___www.business2community.com_strategy_what-is-scope-creep-in-project-management-definition-causes-and-solutions-02068428_utqo01.webp "Build vs buy software scope creep")
 
-([Business2Community](https://www.business2community.com/strategy/what-is-scope-creep-in-project-management-definition-causes-and-solutions-02068428))
 
 ### Hosting, deployment, and security
 
