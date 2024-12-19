@@ -230,7 +230,6 @@ It’s easy to see how this increases the likelihood of something going wrong.
 
 ![Scope creep](https://res.cloudinary.com/daog6scxm/image/upload/v1667828334/cms/Scope_Creep_https___www.business2community.com_strategy_what-is-scope-creep-in-project-management-definition-causes-and-solutions-02068428_rpuwq3.webp "Scope creep")
 
-([Business2Community](https://www.business2community.com/strategy/what-is-scope-creep-in-project-management-definition-causes-and-solutions-02068428))
 
 Besides this, streamlined communications and increased access between stakeholders have a tangible impact on the quality of your solutions, as end users have a much greater stake in the project’s outcome.
 
