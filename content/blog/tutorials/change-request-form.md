@@ -33,6 +33,8 @@ So, we might have additional UIs for managing submissions - or automations, stor
 
 After all, receiving change requests is only part of the story.
 
+You might also like our guide to [web application development](https://budibase.com/blog/web-application-development/).
+
 Let’s take a look at the change request form solution we’re going to build.
 
 ## What are we building?

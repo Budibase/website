@@ -167,6 +167,8 @@ We can set our trigger to accept arguments whenever it’s initiated. We’re go
 
 ![Trigger](https://res.cloudinary.com/daog6scxm/image/upload/v1719396451/cms/artificial-intelligence-tickets/Artificial_Intelligence_Tickets_12_qyqcat.webp "Trigger")
 
+You might also like our guide to [web application development](https://budibase.com/blog/web-application-development/).
+
 #### Writing prompts
 
 Next, we’ll hit the plus icon to add an automation action and choose OpenAI.

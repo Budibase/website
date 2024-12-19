@@ -50,6 +50,8 @@ And our ticketing tools:
 
 So, let’s see how this works in Budibase.
 
+You might also like our guide to [open-source low-code platforms](https://budibase.com/blog/open-source-low-code-platforms/).
+
 ## How to build an IT portal in 9 steps
 
 If you haven’t already, the first thing you’ll want to do is sign up for a free Budibase account to start building as many custom applications as you need.

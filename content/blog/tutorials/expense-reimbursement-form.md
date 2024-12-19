@@ -28,6 +28,8 @@ So, in the first instance, we want to give users an efficient way to submit the 
 
 Therefore, when it comes to building an expense form, the priority is having the flexibility to accurately mimic internal processes and workflows.
 
+You might also like our guide to [web application development](https://budibase.com/blog/web-application-development/).
+
 With that in mind…
 
 ## What are we building?

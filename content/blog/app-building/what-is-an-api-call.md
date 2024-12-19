@@ -34,6 +34,8 @@ For example, say we were trying to build a system for our customers to update th
 
 One of our options would be to use API calls to connect our new tool to our CRM’s back-end data.
 
+You might also like our guide to [open-source low-code platforms](https://budibase.com/blog/open-source-low-code-platforms/).
+
 ### What are API calls used for?
 
 API calls are used any time we need to use one application to access data or trigger actions in an external platform. This can include all kinds of integration, data retrieval, automation, and other day-to-day tasks that involve two or more platforms.

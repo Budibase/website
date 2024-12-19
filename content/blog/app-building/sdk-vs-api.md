@@ -42,6 +42,8 @@ Vendors create APIs to enable their users to access data or trigger in-app actio
 
 APIs are also useful for building applications that require publically available information - for instance by leveraging map APIs or weather APIs. This basically saves us the effort of going and collecting this data ourselves.
 
+You might also like our guide to [open-source low-code platforms](https://budibase.com/blog/open-source-low-code-platforms/).
+
 Let’s think quickly about what’s going on under the hood.
 
 ### How does an API work?

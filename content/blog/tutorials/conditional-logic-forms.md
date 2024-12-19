@@ -37,7 +37,7 @@ Basically, this is when a form displays different fields to a user based on thei
 
 With most traditional form builder tools, this is the limit of what can be achieved using conditional logic.
 
-With Budibase, we can achieve so much more.
+With Budibase, we can achieve so much more. You might also like our guide to [web application development](https://budibase.com/blog/web-application-development/).
 
 ## How to build forms with conditional logic
 
