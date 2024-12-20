@@ -54,6 +54,8 @@ Far from replacing these other techniques, data access management complements th
 
 In fact, data access control is fundamental to any modern security and data governance strategy.
 
+You might also like our guide to the top [Microsoft Access alternatives.](https://budibase.com/blog/data/microsoft-access-alternatives/)
+
 ![Compliance](https://res.cloudinary.com/daog6scxm/image/upload/v1653387510/cms/Compliance_obxxoz.png "Compliance")
 
 #### 2. Compliance

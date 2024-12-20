@@ -74,6 +74,8 @@ You can use form components to change how your dashboard loads data. With them, 
 
 In addition to the front-end page, you might want an admin page. In our example, we have the repository as a form option. You can have more options though, such as visibility toggles, styling, user profile restrictions, global filters, and more.
 
+You might also like our guide to the top [Microsoft Access alternatives.](https://budibase.com/blog/data/microsoft-access-alternatives/)
+
 ## How to create your mockup
 
 You can start to plan your dashboard with a simple pen-and-paper exercise.
