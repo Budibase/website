@@ -118,6 +118,8 @@ On the other, there are dashboards, CRUD apps, and other internal tools that all
 
 Distribution therefore also stems off into all of the transformation, aggregation, and processing that we do within specific business processes.
 
+You might also like our guide on [how to make a web app](https://budibase.com/blog/how-to-make-a-web-app/).
+
 ### 4. Archiving
 
 Archiving is an often overlooked, yet important part of the lifecycle. However, it doesn’t necessarily apply to all data. Basically, this is how we store data that’s no longer *actively* used.
