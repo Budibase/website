@@ -146,6 +146,8 @@ We’ll then need to pay an additional $480 per month for dedicated hosting. Sto
 
 All plans give us access to continuous integrations, SSH, 24/7 monitoring, unlimited developer accounts, and more.
 
+You might also like our round-up of the top [free asset management software.](https://budibase.com/blog/inside-it/free-asset-management-software/)
+
 ### 3. JotForm
 
 ![JotForm](https://res.cloudinary.com/daog6scxm/image/upload/v1716298349/cms/free-field-service-management-software/JotForm_svpc4f.webp "JotForm")

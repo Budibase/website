@@ -69,7 +69,7 @@ For example, cloud-based data warehousing gives us the insights that we need to 
 
 ![Cloud transformation and digital transformation](https://res.cloudinary.com/daog6scxm/image/upload/v1678702810/cms/Digital_Transformation_ROI_https___boardview.io_blog_digital-transformation-stats__gq8gft.webp "Cloud transformation and digital transformation")
 
-
+You might also like our round-up of the top [free asset management software.](https://budibase.com/blog/inside-it/free-asset-management-software/)
 
 We might also leverage cloud-based tools for security and performance benefits, as we’ll see a little later - facilitating efficiency savings through digital transformation without compromising on other critical business factors.
 
