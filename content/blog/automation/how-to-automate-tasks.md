@@ -48,6 +48,8 @@ Automation helps your team to complete tasks faster. This feeds profitability, w
 
 ![How to automate tasks statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1658736520/cms/Marketing_automation_stats_otblpt.webp "How to automate tasks statistics")
 
+You might also like our guide on [how to make a web app](https://budibase.com/blog/how-to-make-a-web-app/).
+
 ### Optimized resource allocation
 
 Another way of looking at efficiency is that you can divert resources away from unprofitable tasks and towards higher priority work.

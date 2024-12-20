@@ -43,6 +43,8 @@ We’ll also typically achieve higher levels of maintainability, as well as avoi
 
 Even better, the vast majority of forms are embedded using iframe tags in HTML. This means that they’re essentially platform agnostic. That is, we can use iframes within any tool or UI that supports standard HTML.
 
+You might also like our guide on [how to make a web app](https://budibase.com/blog/how-to-make-a-web-app/).
+
 ### Why do we need embedded forms?
 
 Before we move on to embedding Budibase forms, let’s take a minute to think more deeply about some of the key use cases here. 
