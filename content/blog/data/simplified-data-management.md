@@ -48,6 +48,8 @@ On top of this, we’ll also have additional layers of data management - largely
 
 One important element of this is managing how data moves across your organization. For instance, ETL processes, data centralization, infrastructure and hosting tasks, security, access control, and more.
 
+You might also like our round-up of the top [Airtable alternatives](https://budibase.com/blog/alternatives/airtable/).
+
 ![Data management costs](https://res.cloudinary.com/daog6scxm/image/upload/v1693907174/cms/database-connections/Digital_Transformation_ROI_https___media.edq.com_49061a_globalassets_blog-images_2018-data-management-stats.png_nslpw0.webp "Data management costs")
 
 ([EdQ](https://media.edq.com/49061a/globalassets/blog-images/2018-data-management-stats.png))

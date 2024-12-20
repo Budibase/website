@@ -29,7 +29,9 @@ It would be unviable for our data entry team to manually write these requests ea
 
 In other words, we need to send form data to APIs in any situation where we want to build repeatable, user-friendly workflows for populating requests.
 
-So..
+You might also like our round-up of the top [Retool alternatives.](https://budibase.com/blog/alternatives/retool/)
+
+So...
 
 ## What are we building?
 

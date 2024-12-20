@@ -42,6 +42,8 @@ But, these are just semantic variations for you to be aware of. For our purposes
 
 We’ll look at examples of how to establish database connections in specific platforms a little bit later.
 
+You might also like our round-up of the top [Airtable alternatives](https://budibase.com/blog/alternatives/airtable/).
+
 ### When do we need to configure database connections?
 
 So when does this come into play? One obvious answer would be any time that we need to connect a client to a database, right?

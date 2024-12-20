@@ -79,6 +79,8 @@ It’s worth noting that if you opt for CSV uploads to connect your data, this w
 
 If you need to continue using your spreadsheet software as well as your new app and keep both up to date with the latest version of your data, you’ll want to opt for the second method.
 
+You might also like our round-up of the top [Airtable alternatives](https://budibase.com/blog/alternatives/airtable/).
+
 ### Option 2 - Integrating with Google Sheets
 
 Budibase offers a dedicated data connector for Google Sheets. Nowadays, there’s a fair chance you’re using Google’s Excel alternative anyway.

@@ -50,6 +50,8 @@ Server-side validation is what’s used to apply constraints and maintain consis
 
 Client-side validation applies these rules in the front end and won’t allow a database query to be sent if they’re not met. This serves a few key purposes, which we’ll return to in a minute.
 
+You might also like our round-up of the top [Retool alternatives.](https://budibase.com/blog/alternatives/retool/)
+
 ### Types of validation rules
 
 Another key consideration is there are several different types of validation that we can apply to form data. One way of thinking about this is what the rule concerns.
