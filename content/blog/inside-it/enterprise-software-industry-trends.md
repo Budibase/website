@@ -102,6 +102,8 @@ So what exactly is a progressive web app?
 
 Essentially, a web application that works seamlessly across devices, circumventing the need for distribution through native application stores. Generally, we’d also expect a high degree of compatibility with native hardware, like phone cameras, as well as offline functionality.
 
+You might also like our round-up of the top [free asset management software.](https://budibase.com/blog/inside-it/free-asset-management-software/)
+
 ## 7. Increasing interest in DevSecOps
 
 Interest in DevSecOps is an enterprise software industry trend that’s quickly becoming a part of the mainstream. For the uninitiated, this is a framework that positions security as a shared concern across all actors within software development life cycles.

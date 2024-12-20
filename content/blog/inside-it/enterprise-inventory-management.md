@@ -66,6 +66,8 @@ As a very basic example, if we don’t have an accurate real-time picture of our
 
 Lastly, inventory management is deeply tied to a range of enterprise resource management processes, including demand forecasting, financial controls, compliance tasks, resource allocation, planning, and more.
 
+You might also like our round-up of the top [free asset management software.](https://budibase.com/blog/inside-it/free-asset-management-software/)
+
 ## 7 requirements for managing enterprise inventories
 
 Of course, businesses of all sizes need to handle inventories. However, this looks quite a bit different in the context of large organizations.

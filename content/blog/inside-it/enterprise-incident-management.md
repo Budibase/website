@@ -53,6 +53,8 @@ On top of this, another key benefit is systematizing learnings from incidents an
 
 As with any ITSM process, our incident management efforts also have an impact on our wider operational efficiency. That is, when we’re able to reach effective resolutions quickly, our IT team and business colleagues alike are able to focus on more productive tasks.
 
+You might also like our round-up of the top [free asset management software.](https://budibase.com/blog/inside-it/free-asset-management-software/)
+
 ### Challenges
 
 However, there are several issues that can easily impede our incident responses, especially in an enterprise context.

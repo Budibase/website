@@ -38,6 +38,8 @@ For example, many airlines and other large, public-facing organizations use trul
 
 To understand this better, let’s think about what *exactly* we mean when we talk about legacy apps in the context of application transformation.
 
+You might also like our round-up of the top [free asset management software.](https://budibase.com/blog/inside-it/free-asset-management-software/)
+
 ### What are legacy applications?
 
 Legacy apps are any tools that are outdated or obsolete, even if they’re still technically functional. So, these might be based on dated technology, or they might have failed to keep up with your changing business needs.
