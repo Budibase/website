@@ -56,6 +56,8 @@ However, in some ways, Appsmith presents less of a steep learning curve than Ret
 
 Whereas Retool is positioned more towards enterprises, Appsmith could be a more attractive option to a wider range of organizations, with key enterprise features available at lower price points than its larger competitor.
 
+You might also like our guide to the top [Microsoft Access alternatives.](https://budibase.com/blog/data/microsoft-access-alternatives/)
+
 ### Use cases
 
 Both platforms are heavily focused on internal tool development, but we can see subtle differences between the two even within this. 
