@@ -71,6 +71,8 @@ Rather than every individual data object sharing the same attributes - they can 
 
 Therefore, we sacrifice some of the inherent consistency and ease of management we’d enjoy with a structured alternative. We also can’t readily represent this kind of data in a tabular format - since each row might have completely different columns.
 
+You might also like our round-up of the top [Retool alternatives.](https://budibase.com/blog/alternatives/retool/)
+
 ![Unstructured data management](https://res.cloudinary.com/daog6scxm/image/upload/v1686561935/cms/data-entry-automation/Unreliable_https___thrivemyway.com_data-entry-stats__we7hq5.webp "Unstructured data management")
 
 ([ThriveMyWay](https://thrivemyway.com/data-entry-stats/))

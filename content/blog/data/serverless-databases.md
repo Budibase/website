@@ -59,6 +59,8 @@ They also introduce the possibility of *geographic scale*. In the most basic cas
 
 This means that our data can be moved dynamically across different regions to minimize latency issues and even help with compliance.
 
+You might also like our round-up of the top [Retool alternatives.](https://budibase.com/blog/alternatives/retool/)
+
 ## Challenges
 
 However, there are potential downsides to serverless databases too, of course. Otherwise, everyone would be using them.

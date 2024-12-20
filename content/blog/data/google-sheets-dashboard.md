@@ -130,6 +130,8 @@ Choose the right hosting solution for your unique requirements.
 
 Build a Google Sheets dashboard and deploy it to the cloud, your local network, or a dedicated machine. With Budibase, the choice is yours.
 
+You might also like our round-up of the top [Airtable alternatives](https://budibase.com/blog/alternatives/airtable/).
+
 ## Building a Google Sheets Dashboard with Budibase in 7 easy steps
 
 Enough theory. If you’re reading this, you probably already know you want to build a Google Sheets dashboard.

@@ -90,6 +90,8 @@ Any of these methods will give you a connection string. For this example, I just
 
 That’s it! Now Budibase is connected to your MongoDB instance. Connecting Budibase to external data sources really couldn’t be much easier.
 
+You might also like our round-up of the top [Airtable alternatives](https://budibase.com/blog/alternatives/airtable/).
+
 ### Step 2 - Set up the MongoDB CRUD operations
 
 In this step, you’ll create the CRUD operations to manipulate your database. Still in the “_Data_” Panel of Budibase with your MongoDB connection selected, click “_Add query_”.

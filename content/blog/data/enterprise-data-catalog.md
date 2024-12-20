@@ -50,6 +50,8 @@ Metadata can also include information about data ownership and lineage. That is,
 
 Other types of metadata include governance rules, summaries, or even the schema of the database in question.
 
+You might also like our round-up of the top [Retool alternatives.](https://budibase.com/blog/alternatives/retool/)
+
 ### What does a data catalog do?
 
 Now that we have a good grasp of the basic problem that enterprise data catalogs solve, we can move on to thinking about how we can implement this at a technical level.
