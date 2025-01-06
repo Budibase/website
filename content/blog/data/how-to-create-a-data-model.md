@@ -265,6 +265,8 @@ For a more practical example, check out our tutorial on [workflow management dat
 
 ![BudibaseDB](https://res.cloudinary.com/daog6scxm/image/upload/v1653319692/cms/Budibase_DB_d4ksvg.png "Budibase DB")
 
+You might also like our round-up of the top [Airtable alternatives](https://budibase.com/blog/alternatives/airtable/).
+
 ## Data modeling in Budibase
 
 There are countless data modeling tools on the market today. Budibase offers a range of features to make it faster and easier to create an effective data model for your app.

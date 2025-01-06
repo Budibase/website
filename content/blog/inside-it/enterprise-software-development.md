@@ -42,6 +42,8 @@ We’ll return to the more concrete implications of each of these issues a littl
 
 With these in mind, we can start to think more specifically about the operational and process-level side of building enterprise software.
 
+You might also like our round-up of the top [free asset management software.](https://budibase.com/blog/inside-it/free-asset-management-software/)
+
 ## How do enterprises build software solutions?
 
 Unsurprisingly, there isn’t a single straightforward answer here. Rather, there’s a large amount of variance both across and within enterprises. That is, different approaches, frameworks, and methodologies can be used, based on a range of contextual factors.

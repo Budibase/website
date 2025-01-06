@@ -10,6 +10,43 @@ layout: filemaker
 author: Ronan McQuillan
 profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 draft: false
+about:
+  - name: "FileMaker"
+    sameAs: "https://www.wikidata.org/wiki/Q832312"
+    type: "Thing"
+softwareApplications:
+  - name: "Budibase"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.budibase.com"
+  - name: "Retool"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://retool.com/"
+  - name: "Mendix"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Windows, MacOS"
+    url: "https://www.mendix.com"
+  - name: "Power Apps"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Windows, MacOS"
+    url: "https://www.microsoft.com/en-gb/power-platform/products/power-apps"
+  - name: "Appian"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Cloud"
+    url: "https://appian.com"
+  - name: "OutSystems"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Windows, MacOS"
+    url: "https://www.outsystems.com"
+  - name: "Airtable"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.airtable.com"
+  - name: "Zoho Creator"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.zoho.com/creator/"
 ---
 
 Claris FileMaker Pro is one of the oldest names in the low-code space. Claris is a subsidiary of Apple, so FileMaker was originally conceived as essentially being a Microsoft Access alternative for Mac users.

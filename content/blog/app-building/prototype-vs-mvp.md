@@ -100,6 +100,8 @@ The key factor here is the amount of time and effort that we’d have to go thro
 
 Therefore, the bigger the project, the more important it is to get user input as early in the process as possible.
 
+You might also like our guide to [open-source low-code platforms](https://budibase.com/blog/open-source-low-code-platforms/).
+
 ### MVPs
 
 MVPs are leveraged in a slightly different context. Actually, there are a couple of scenarios we can explore here. 
@@ -117,6 +119,8 @@ As we said earlier, the goal of a minimum viable product is to begin adding valu
 Therefore, an MVP might be built in the context of larger-scale internal applications in order to minimize the time to value.
 
 However, as we’ll see a little bit later, there are certain kinds of projects where a high degree of centralization and control is required, which can easily preclude MVPs as an approach.
+
+You might also like our guide to the top [Microsoft Access alternatives.](https://budibase.com/blog/data/microsoft-access-alternatives/)
 
 ## Benefits of prototyping
 

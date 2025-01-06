@@ -49,6 +49,8 @@ For example, the process for submitting a bug in an internal software system cou
 
 As you can see, the workflow is represented by how the *status* of the resource changes as it passes through different actions. As we said earlier, the *transitions* and *actions* are what must happen for the resource to move from one status to the next.
 
+You might also like our round-up of the top [Retool alternatives.](https://budibase.com/blog/alternatives/retool/)
+
 ### How does this work?
 
 So, before we dive into designing a workflow management database, let’s think about how this works in the abstract.

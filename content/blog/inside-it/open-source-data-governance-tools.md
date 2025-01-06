@@ -4,6 +4,35 @@ date = 2024-05-29
 description = "Check out our round-up of the top open-source data governance tools."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Top 5 Open-Source Data Governance Tools"
+[[mentions]]
+name = "Data Governance"
+sameAs = "https://www.wikidata.org/wiki/Q872685"
+type = "Thing"
+[[softwareApplications]]
+name = "Apache Atlas"
+applicationCategory = "businessApplication"
+operatingSystem = "Windows, Mac"
+url = "https://atlas.apache.org/#/"
+[[softwareApplications]]
+name = "TrueDat"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.truedat.io"
+[[softwareApplications]]
+name = "Amundsen"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.amundsen.io"
+[[softwareApplications]]
+name = "Magda"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://magda.io"
+[[softwareApplications]]
+name = "Egeria"
+applicationCategory = "businessApplication"
+operatingSystem = "Cloud"
+url = "https://egeria-project.org"
 +++
 
 As a modern business, your data is your most valuable asset. Data underpins all of our internal processes and informs critical decision-making. However, it can also be a massive risk factor, especially if we don’t know what information we’re storing and how it’s being used.

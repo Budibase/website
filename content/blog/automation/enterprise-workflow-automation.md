@@ -89,6 +89,8 @@ Triggers can be based on system conditions, user actions, database queries, exte
 
 Once you understand the logic behind your workflows in the abstract, you can begin to implement this with a range of tools. Again, we’ll return to this a little bit later.
 
+You might also like our guide on [how to make a web app](https://budibase.com/blog/how-to-make-a-web-app/).
+
 ### What kind of enterprise workflows can be automated?
 
 It’s also worth considering which kinds of workflows are suitable for automation. This is particularly important in the context of enterprises, where processes are generally more complex and multi-actored.

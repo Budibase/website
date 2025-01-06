@@ -444,7 +444,6 @@ Unfortunately, this is most software projects.
 
 ![scope creep](https://res.cloudinary.com/daog6scxm/image/upload/v1677855203/cms/Scope_Creep_https___www.business2community.com_strategy_what-is-scope-creep-in-project-management-definition-causes-and-solutions-02068428_izf61u.webp "scope creep")
 
-([Business2Community](https://www.business2community.com/strategy/what-is-scope-creep-in-project-management-definition-causes-and-solutions-02068428))
 
 See, requirements change. The problem with waterfall-based methodologies is that they fail to account for this fact. This will often leave us with solutions that match the letter of our requirements but don’t really solve the problems they set out to address.
 

@@ -38,6 +38,8 @@ In more niche cases, we might also want to include data around sales, returns, s
 
 For visualization, dashboards can include a range of charts, tables, display cards, and other UI elements.
 
+You might also like our guide to [open-source low-code platforms](https://budibase.com/blog/open-source-low-code-platforms/).
+
 ## What are we building?
 
 Our dashboard is going to be built around two screens. The first will concern our current inventory levels across different kinds of products - and the second will relate to the value of our stock at both an item level and aggregated for the inventory as a whole.

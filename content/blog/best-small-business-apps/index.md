@@ -78,7 +78,7 @@ Here are the categories:
 
 ## Accounting and finance {#accounting}
 
-### [Xero](https://www.xero.com/us/)
+### Xero
 
 {{< figure src="/small-business-apps/xero-ui.jpg" alt="Xero UI" >}}
 

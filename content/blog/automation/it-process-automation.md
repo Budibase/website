@@ -139,6 +139,8 @@ That is, creating bots to mimic user interactions is relatively difficult from a
 
 This can mean that it is comparatively expensive and inflexible, compared to other frameworks.
 
+You might also like our guide on [how to make a web app](https://budibase.com/blog/how-to-make-a-web-app/).
+
 ### Business process automation (BPA)
 
 Like workflow automation, business process automation aims to eliminate manual tasks where possible and ensure maximum efficiency where human inputs are unavoidable.

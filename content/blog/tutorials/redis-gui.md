@@ -42,6 +42,8 @@ Redis by itself doesn’t have an official GUI. But there are many good options 
 
 You can even build your own Redis GUI by following this tutorial. You can do it in just 3 steps and it requires no coding knowledge.
 
+You might also like our guide to [open-source low-code platforms](https://budibase.com/blog/open-source-low-code-platforms/).
+
 ## How do I visualize a Redis Database?
 
 The easiest way to visualize data is with a Redis GUI. With it, you can display data in any way you want, and get access to commands to manipulate data in many ways.

@@ -130,6 +130,8 @@ We might also use simple yes/no assessments - or more complex logic that weighs 
 
 If our approval workflow is particularly complex, we’ll also need to account for the factors that determine if a request can move from one stage to the next or not - or even which stage it needs to move to next, in the case of non-sequential processes.
 
+You might also like our guide on [how to make a web app](https://budibase.com/blog/how-to-make-a-web-app/).
+
 #### Structure
 
 Finally, we have the structure of our workflows. This is the order that different constituent steps must follow in order to complete the wider task at hand. 

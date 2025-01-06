@@ -51,6 +51,8 @@ This means that there may be different scenarios where users could be assigned t
 
 Branching logic also helps you to create highly detailed access control policies. For instance, you might have a rule that grants human resources users a particular set of permissions, but give them additional privileges if they access the app from a particular IP address.
 
+You might also like our guide to the top [Microsoft Access alternatives.](https://budibase.com/blog/data/microsoft-access-alternatives/)
+
 #### Efficient administraion
 
 The other key benefit of using rules-based permissions is a greatly reduced admin burden when adding new users.
