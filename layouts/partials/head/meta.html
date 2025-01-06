@@ -52,7 +52,8 @@
   {{ with .Site.Copyright -}}
   "license": "{{ . }}",
   {{- end }}
-  "name": "{{ .Site.Title }}"
+  "name": "{{ .Site.Title }}",
+  "publisher": {{ partial "schema/organization.html" . | safeJS }}
 }
 </script>
 {{/*
@@ -71,6 +72,7 @@
     "@type": "WebPage",
     "@id": "{{ .Permalink }}"
   },
+  "publisher": {{ partial "schema/organization.html" . | safeJS }},
   {{ if ge (.Param "image.width") 696 -}}
   "image": {
     "@type": "ImageObject",
