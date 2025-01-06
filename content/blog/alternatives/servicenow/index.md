@@ -10,6 +10,35 @@ layout: servicenow
 author: Ronan McQuillan
 profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 draft: false
+about:
+  - name: "ServiceNow"
+    sameAs: "https://www.wikidata.org/wiki/Q7455653"
+    type: "Thing"
+softwareApplications:
+  - name: "Budibase"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.budibase.com"
+  - name: "BMC Helix"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Cloud"
+    url: "https://www.bmc.com/it-solutions/bmc-helix.html"
+  - name: "Jira Service Desk"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.atlassian.com/software/jira/service-management/features/service-desk"
+  - name: "SalesForce Serivce Cloud"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.salesforce.com/uk/service/cloud/"
+  - name: "Fresh Desk"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.freshworks.com/freshdesk/"
+  - name: "Zendesk"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "Web"
+    url: "https://www.zendesk.co.uk"
 ---
 
 ServiceNow is totally synonymous with IT service management. In fact, it’s hugely embedded in how countless IT teams deliver services to colleagues. However, despite its dominant market share, it’s not the only option out there.
