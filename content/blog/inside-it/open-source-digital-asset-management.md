@@ -4,10 +4,31 @@ date = 2024-05-24
 description = "Check out our round-up of the top open-source digital asset management software."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Top 5 Open-Source Digital Asset Management Tools"
-[[mentions]]
-name = "IT asset management"
-sameAs = "https://www.wikidata.org/wiki/Q5975185"
-type = "Thing"
+[[softwareApplications]]
+name = "Razuna"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://razuna.com"
+[[softwareApplications]]
+name = "HyperCMS"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.hypercms.com/home/"
+[[softwareApplications]]
+name = "Pimcore"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://pimcore.com/en"
+[[softwareApplications]]
+name = "Resource Space"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.resourcespace.com"
+[[softwareApplications]]
+name = "Nuxeo"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://doc.nuxeo.com"
 +++
 
 Digital asset management tools are critical to teams that need to store, share, and collaborate on large volumes of media, like images, videos, and other files.

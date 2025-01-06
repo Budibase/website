@@ -4,7 +4,35 @@ date = 2024-05-21
 description = "Check out our round-up of free field management software solutions."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Top 5 Free Field Service Management Software Tools"
-
+[[mentions]]
+name = "Field Service Management"
+sameAs = "https://www.wikidata.org/wiki/Q5447122"
+type = "Thing"
+[[softwareApplications]]
+name = "Budibase"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.budibase.com"
+[[softwareApplications]]
+name = "Odoo"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.odoo.sh"
+[[softwareApplications]]
+name = "JotForm"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.jotform.com"
+[[softwareApplications]]
+name = "Airtable"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.airtable.com"
+[[softwareApplications]]
+name = "Connecteam"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://connecteam.com"
 +++
 
 Field service management can be a mission-critical process for a wide range of businesses, from large enterprises to small contractors.
