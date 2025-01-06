@@ -3,7 +3,32 @@ author = "Ronan McQuillan"
 date = 2024-05-22
 description = "Take a look at our round-up of the top open-source help desk software."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Top 5 Open-Source Help Desk Software Tools "
+title = "Top 5 Open-Source Help Desk Software Tools"
+[[softwareApplications]]
+name = "Budibase"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://razuna.com"
+[[softwareApplications]]
+name = "GLPI"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://glpi-project.org"
+[[softwareApplications]]
+name = "REI3 Tickets"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://rei3.de"
+[[softwareApplications]]
+name = "ERPNext"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://erpnext.com"
+[[softwareApplications]]
+name = "OS Ticket"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://osticket.com"
 +++
 
 Help desk software is one of the most critical parts of your ITSM tool stack. Enabling employees and other users to access service quickly and easily has an enormous impact on your wider operational efficiency.

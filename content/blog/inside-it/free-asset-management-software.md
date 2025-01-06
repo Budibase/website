@@ -8,6 +8,31 @@ title = "Top 5 Free Asset Management Software Tools"
 name = "IT asset management"
 sameAs = "https://www.wikidata.org/wiki/Q5975185"
 type = "Thing"
+[[softwareApplications]]
+name = "Budibase"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.budibase.com"
+[[softwareApplications]]
+name = "Ralph 3"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://ralph-ng.readthedocs.io/en/stable/"
+[[softwareApplications]]
+name = "Snipe-IT"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://snipeitapp.com"
+[[softwareApplications]]
+name = "CMD Build"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.cmdbuild.org/en/products/cmdbuild"
+[[softwareApplications]]
+name = "AssetTiger"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.assettiger.com"
 +++
 
 Asset management is one of the most common, mission-critical ITSM workflows. Efficiently handling requests for devices helps us to minimize internal admin costs as well as ensuring that our IT resources are deployed as effectively as possible.
