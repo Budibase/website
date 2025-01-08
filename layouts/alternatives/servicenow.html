@@ -69,9 +69,81 @@
           </details>
       </div>
   </div>
+
+  <div class="mx-md-auto mb-4 mt-4 container-8">
+    {{ index $content_parts 2 | safe.HTML}}
+  </div>
+  
+    <div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
+      <div class="alt-container">
+        <table class="alt-table no-scrollbar mx-auto">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Category</th>
+              <th>Cost per agent</th>
+              <th>Free tier</th>
+              <th>Open-source vs Closed-source</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="text-xs">ServiceNow</td>
+              <td class="text-xs">ITSM platform</td>
+              <td class="text-xs">Custom</td>
+              <td class="text-xs"><span class="tag-dark">No</span></td>
+              <td class="text-xs"><span class="tag-dark">Closed-source</span></td>
+            </tr>
+            <tr>
+              <td class="text-xs">Budibase</td>
+              <td class="text-xs">Low-code platform</td>
+              <td class="text-xs">$5 - $50</td>
+              <td class="text-xs"><span class="tag-forestgreen">Yes</span></td>
+              <td class="text-xs"><span class="tag-forestgreen">Open-source</span></td>
+            </tr>
+            <tr>
+              <td class="text-xs">BMC Helix</td>
+              <td class="text-xs">ITSM platform</td>
+              <td class="text-xs">Custom</td>
+              <td class="text-xs"><span class="tag-dark">No</span></td>
+              <td class="text-xs"><span class="tag-dark">Closed-source</span></td>
+            </tr>
+            <tr>
+              <td class="text-xs">Jira</td>
+              <td class="text-xs">ITSM platform</td>
+              <td class="text-xs">$17.38 - $49.35</td>
+              <td class="text-xs"><span class="tag-forestgreen">Yes</span></td>
+              <td class="text-xs"><span class="tag-dark">Closed-source</span></td>
+            </tr>
+            <tr>
+              <td class="text-xs">Salesforce</td>
+              <td class="text-xs">Service CRM</td>
+              <td class="text-xs">$25 - $330</td>
+              <td class="text-xs"><span class="tag-dark">No</span></td>
+              <td class="text-xs"><span class="tag-dark">Closed-source</span></td>
+            </tr>
+            <tr>
+              <td class="text-xs">Freshdesk</td>
+              <td class="text-xs">Support desk and ticketing</td>
+              <td class="text-xs">$15 - $95</td>
+              <td class="text-xs"><span class="tag-forestgreen">Yes</span></td>
+              <td class="text-xs"><span class="tag-dark">Closed-source</span></td>
+            </tr>
+            <tr>
+              <td class="text-xs">Zendesk</td>
+              <td class="text-xs">Support desk and ticketing</td>
+              <td class="text-xs">$19-$115</td>
+              <td class="text-xs"><span class="tag-dark">No</span></td>
+              <td class="text-xs"><span class="tag-dark">Closed-source</span></td>
+            </tr>
+          </tbody>
+        </table>              
+      </div>
+    </div>
+
     <div class="mx-md-auto container-8">
       {{ $content_parts := split .Content "||||||||||" }} {{ index
-      $content_parts 2 | safe.HTML}}
+      $content_parts 3 | safe.HTML}}
     </div>
     <div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
       <div class="alt-container">
@@ -166,7 +238,7 @@
       </div>
     </div>
     <div class="mx-md-auto mb-4 mt-4 container-8">
-      {{ index $content_parts 3 | safe.HTML}}
+      {{ index $content_parts 4 | safe.HTML}}
     </div>
     
       <div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
@@ -249,7 +321,7 @@
         </div>
       </div>
     <div class="mx-md-auto mt-9 mb-4 container-8">
-      {{ index $content_parts 4 | safe.HTML}}
+      {{ index $content_parts 5 | safe.HTML}}
     </div>
     
       <div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
@@ -291,9 +363,6 @@
                 </th>
                 <th>
                   <div class="flex-row align-center">
-                      <div>
-                          <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1701689454/cms/alternatives/outsystems_hlcsrj.png" class="u-xxs-avatar mr-1"/>
-                      </div>
                       <p class="alt-header font-weight-medium">Zendesk</p>
                   </div>
               </th>
@@ -305,29 +374,30 @@
                   Open-source vs Closed-source
                 </td>
                 <td class="text-xs" data-title="ServiceNow">
-                  <span class="tag"> Closed-source </span>
+                  <span class="tag-dark"> Closed-source </span>
                 </td>
                 <td class="text-xs" data-title="Budibase">
                   <span class="tag-forestgreen"> Open-source </span>
                 </td>
                 <td class="text-xs" data-title="BMC">
-                  <span class="tag"> Closed-source </span>
+                  <span class="tag-dark"> Closed-source </span>
                 </td>
                 <td class="text-xs" data-title="Jira">
-                  <span class="tag"> Closed-source </span>
+                  <span class="tag-dark"> Closed-source </span>
                 </td>
                 <td class="text-xs" data-title="Salesforce">
-                  <span class="tag"> Closed-source </span>
+                  <span class="tag-dark"> Closed-source </span>
                 </td>
                 <td class="text-xs" data-title="Freshdesk">
-                  <span class="tag"> Closed-source </span>
+                  <span class="tag-dark"> Closed-source </span>
             <td class="text-xs" data-title="Zendesk">
-                  <span class="tag"> Closed-source </span>
+                  <span class="tag-dark"> Closed-source </span>
                 </td>
+              </tr>
             </tbody>
           </table>
           <div class="mx-md-auto mt-9 mb-4 container-8">
-          {{ index $content_parts 5 | safe.HTML}}
+          {{ index $content_parts 6 | safe.HTML}}
         </div>
         </div>
       </div>
