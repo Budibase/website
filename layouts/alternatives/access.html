@@ -1,0 +1,472 @@
+{{ partial "head/header.html" . }} {{ partial "navigation.html" . }}
+
+<main id="content" role="main">
+  <article class="article">
+    <div class="space-1-bottom">
+      <img class="img-fluid" src="{{ .Params.cover }}" />
+    </div>
+    <div class="container-8 mx-auto">
+      <header class="my-6">
+        <h1 class="mt-2 mb-4">{{ .Title }}</h1>
+        {{ if (.Params.profilePic) }}
+        <img
+          class="u-avatar-4 rounded-circle mr-2"
+          src="{{ with .Params.profilePic }}{{ . }}{{ end }}"
+        />
+        {{ else }}
+        <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp" />
+        {{ end }}Published by {{ .Params.author }}, {{ .Date.Format
+        .Site.Params.dateform }}
+      </header>
+    </div>
+    <div class="mx-md-auto my-9 container-8">
+        {{ $content_parts := split .Content "||||||||||" }}
+        {{ index $content_parts 0 | safe.HTML}}
+    </div>
+    <div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
+        <div class='alt-container'>
+            <table class='alt-table no-scrollbar mx-auto'>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>                                
+                            <div class="flex-row align-center">
+                                <div>
+                                    <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1736501803/cms/microsoft-access-alternatives/Access_Logo_gsrrlu.webp" class="u-xxs-avatar mr-2" />
+                                </div>
+                                <p class="alt-header font-weight-medium">Access</p>
+                            </div>
+                        </th>
+                        <th class=''>
+                            <div class="flex-row align-center">
+                                <div>
+                                    <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1696515725/Branding/Assets/Symbol/RGB/Full%20Colour/Budibase_Symbol_RGB_FullColour_cbqvha_1_z5cwq2.svg" class="u-xxs-avatar mr-2" />
+                                </div>
+                                <p class="alt-header font-weight-medium">Budibase</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="flex-row align-center">
+                                <div>
+                                    <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1736501802/cms/microsoft-access-alternatives/OpenOffice_Base_Logo_abhneu.webp" class="u-xxs-avatar mr-1"/>
+                                </div>
+                                <p class="alt-header font-weight-medium">OpenOffice</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="flex-row align-center">
+                                <div>
+                                    <img src="https://res.cloudinary.com/daog6scxm/image/upload/a_90/v1736503929/cms/microsoft-access-alternatives/axisbase_logo_y120w8.webp" class="u-xxs-avatar mr-1"/>
+                                </div>
+                                <p class="alt-header font-weight-medium">AxisBase</p>
+                            </div>
+                        </th>
+                        <th class=''>
+                            <div class="flex-row align-center ">
+                                <div>
+                                    <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1736501802/cms/microsoft-access-alternatives/LibreBase_Logo_ena1ah.webp" class="u-xxs-avatar mr-2"/>
+                                </div>
+                                <p class="alt-header font-weight-medium">LibreOffice</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="flex-row align-center ">
+                                <div>
+                                    <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1736503809/cms/microsoft-access-alternatives/sqlite_logo_vvinfo.webp" class="u-xxs-avatar mr-2" />
+                                </div>
+                                <p class="alt-header font-weight-medium">SQLite</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="flex-row align-center">
+                                <div>
+                                    <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1736501802/cms/microsoft-access-alternatives/NeonDB_logo_ovzsat.webp" class="u-xxs-avatar mr-1"/>
+                                </div>
+                                <p class="alt-header font-weight-medium">NeonDB</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="flex-row align-center">
+                              <div>
+                                <img
+                                  src="https://res.cloudinary.com/daog6scxm/image/upload/v1736504057/cms/microsoft-access-alternatives/MongoDB_Logo_enkyth.svg"
+                                  class="u-xxs-avatar mr-1"
+                                />
+                              </div>
+                              <p class="alt-header font-weight-medium">MongoDB</p>
+                            </div>
+                          </th>
+                          <th class=''>
+                            <div class="flex-row align-center ">
+                                <div>
+                                    <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1736501802/cms/microsoft-access-alternatives/Google_SheetsLogo_vaqvn6.webp" class="u-xxs-avatar mr-2"/>
+                                </div>
+                                <p class="alt-header font-weight-medium">Sheets</p>
+                            </div>
+                        </th>
+                        <th>                                
+                            <div class="flex-row align-center">
+                                <div>
+                                    <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1736508042/cms/microsoft-access-alternatives/Airtable_Logo_ouj1sy.webp" class="u-xxs-avatar mr-2" />
+                                </div>
+                                <p class="alt-header font-weight-medium">Airtable</p>
+                            </div>
+                        </th>
+                        <th class=''>
+                            <div class="flex-row align-center ">
+                                <div>
+                                    <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1736501802/cms/microsoft-access-alternatives/SmartSheet_Logo_h1htf1.webp" class="u-xxs-avatar mr-2"/>
+                                </div>
+                                <p class="alt-header font-weight-medium">Smartsheet</p>
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class=''>
+                        <td class='text-xs' data-title=''>Internal Database</td>
+                        <td class='text-xs' data-title='Access'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Budibase'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='OpenOffice'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='AxisBase'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='LibreOffice'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='SQLite'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='NeonDB'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='MongoDB'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Sheets'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Airtable'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Smartsheet'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                    </tr>
+
+                    <tr class=''>
+                        <td class='text-xs' data-title=''>SQL Connectors</td>
+                        <td class='text-xs' data-title='Access'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Budibase'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='OpenOffice'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='AxisBase'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='LibreOffice'> <span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='SQLite'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='NeonDB'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='MongoDB'> <span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Sheets'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Airtable'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Smartsheet'> <span class="tag-dark">                                
+                            No
+                        </span></td>
+                    </tr>
+
+                    <tr class=''>
+                        <td class='text-xs' data-title=''>NoSQL Connectors</td>
+                        <td class='text-xs' data-title='Access'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Budibase'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='OpenOffice'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='AxisBase'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='LibreOffice'> <span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='SQLite'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='NeonDB'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='MongoDB'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Sheets'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Airtable'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Smartsheet'> <span class="tag-dark">                                
+                            No
+                        </span></td>
+                    </tr>
+
+                    <tr class=''>
+                        <td class='text-xs' data-title=''>REST Data Sources</td>
+                        <td class='text-xs' data-title='Access'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Budibase'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='OpenOffice'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='AxisBase'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='LibreOffice'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='SQLite'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='NeonDB'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='MongoDB'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Sheets'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Airtable'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Smartsheet'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                    </tr>
+
+                    <tr class=''>
+                        <td class='text-xs' data-title=''>App Builder</td>
+                        <td class='text-xs' data-title='Access'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Budibase'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='OpenOffice'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='AxisBase'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='LibreOffice'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='SQLite'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='NeonDB'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='MongoDB'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Sheets'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Airtable'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Smartsheet'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                    </tr>
+
+                    <tr class=''>
+                        <td class='text-xs' data-title=''>Workflow Automations</td>
+                        <td class='text-xs' data-title='Access'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Budibase'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='OpenOffice'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='AxisBase'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='LibreOffice'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='SQLite'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='NeonDB'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='MongoDB'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Sheets'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Airtable'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Smartsheet'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                    </tr>
+
+                    <tr class=''>
+                        <td class='text-xs' data-title=''>Cloud Platform</td>
+                        <td class='text-xs' data-title='Access'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Budibase'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='OpenOffice'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='AxisBase'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='LibreOffice'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='SQLite'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='NeonDB'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='MongoDB'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Sheets'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Airtable'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Smartsheet'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                    </tr>
+
+                    <tr class=''>
+                        <td class='text-xs' data-title=''>Self-Hosting</td>
+                        <td class='text-xs' data-title='Access'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Budibase'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='OpenOffice'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='AxisBase'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='LibreOffice'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='SQLite'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='NeonDB'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='MongoDB'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Sheets'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Airtable'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Smartsheet'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                    </tr>
+
+                    <tr class=''>
+                        <td class='text-xs' data-title=''>Open-Source</td>
+                        <td class='text-xs' data-title='Access'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Budibase'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='OpenOffice'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='AxisBase'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='LibreOffice'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='SQLite'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='NeonDB'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='MongoDB'><span class="tag-forestgreen">                                
+                            Yes
+                        </span></td>
+                        <td class='text-xs' data-title='Sheets'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Airtable'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                        <td class='text-xs' data-title='Smartsheet'><span class="tag-dark">                                
+                            No
+                        </span></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="mx-md-auto my-9 container-8">
+        {{ $content_parts := split .Content "||||||||||" }}
+        {{ index $content_parts 1 | safe.HTML}}
+    </div>
+  </article>
+</main>
+
+<!--Article-->
+
+{{ partial "cta.html" . }} {{ partial "footer.html" . }}
