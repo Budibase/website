@@ -41,6 +41,12 @@ Along the way, we’ll see the relative strengths, weaknesses, and ideal use cas
 
 By the end, you’ll be fully equipped to make an informed decision on which solution is right for you.
 
+We’re covering the following:
+- [What is digital asset management?](#what-is-digital-asset-management)
+- [Types of DAM tools](#types-of-dam-tools)
+- [Why would we opt for an open-source solution?](#why-would-we-opt-for-an-open-source-solution)
+- [Top 5 open-source digital asset management tools](#top-5-open-source-digital-asset-management-tools)
+
 Let’s start with the basics.
 
 ## What is digital asset management?
@@ -98,6 +104,13 @@ On the other hand, storing assets on our own existing infrastructure will typica
 Now that we have a good grasp of what we’re looking for when it comes to open-source digital asset management, we can start to drill into some specific platforms.
 
 As we said earlier, we’ve chosen a range of options from across the market. At the end, we’ll also see how Budibase empowers teams to build custom, low-code asset management solutions.
+
+Our top picks are:
+1. [Razuna DAM](#1-razuna-dam)
+2. [HyperCMS](#2-hypercms)
+3. [Pimcore](#3-pimcore)
+4. [Resource Space](#4-resource-space)
+5. [Nuxeo](#5-nuxeo)
 
 Let’s jump in.
 

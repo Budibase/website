@@ -39,6 +39,12 @@ This can be a particularly tricky market to navigate. Many businesses prioritize
 
 Therefore, we must carefully consider our options. Our goal today is to flag the top picks for open-source ticketing solutions, including their respective pros, cons, and ideal use cases.
 
+We’re covering the following:
+- [What does help desk software do?](#what-does-help-desk-software-do)
+- [Types of help desks](#types-of-help-desks)
+- [Why opt for an open-source solution?](#why-opt-for-an-open-source-solution)
+- [Top 5 open-source help desks](#top-5-open-source-help-desks)
+
 By the end, you will be fully equipped to make an informed decision based on your own unique requirements.
 
 Let’s start with the basics.
@@ -92,6 +98,13 @@ However, it’s important to note that not all open-source vendors allow this, a
 Now that we have a firm grasp of what we’re looking for when it comes to open-source help desk software, it’s time to see how specific platforms stack up against one another.
 
 We’ve chosen an assortment of platforms, each targeting distinct use cases and corners of the market. Along the way, we’ll flag some of the key selling points and potential issues relating to each.
+
+Our top picks are:
+1. [Budibase](#1-budibase)
+2. [GLPI](#2-glpi)
+3. [REI3 Tickets](#3-rei3-tickets)
+4. [ERPNext](#4-erpnext)
+5. [osTicket](#5-osticket)
 
 Let’s jump in.
 

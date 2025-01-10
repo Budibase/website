@@ -43,7 +43,12 @@ Today, we’re examining the market for open-source data governance tools. Speci
 
 Then, we’ll wrap up by seeing how Budibase empowers teams to turn data into action.
 
-By the end, you’ll be fully equipped to make an informed decision about the right solution for your specific data governance requirements.
+By the end, you’ll be fully equipped to make an informed decision about the right solution for your specific data governance requirements. This includes:
+- [What is data governance?](#what-is-data-governance)
+- [What do data governance tools do?](#what-do-data-governance-tools-do)
+- [Types of data governance tools](#types-of-data-governance-tools)
+- [Why opt for an open-source-tool?](#why-opt-for-an-open-source-tool)
+- [5 open-source-data-governance-tools](#5-open-source-data-governance-tools)
 
 First, though, let’s start with the basics.
 
@@ -110,6 +115,13 @@ You might also like our round-up of the top [open-source digital asset managemen
 Now that we have a strong grasp on what open-source data governance tools do, it’s time to drill into some of our specific options within this space.
 
 As we said earlier, our goal is to present a variety of options to suit different requirements and target use cases. Along the way, we’ll flag the relative strengths, weaknesses, and other key considerations for using each one.
+
+Our top picks are:
+1. [Apache Atlas](#1-apache-atlas)
+2. [TrueDat](#2-truedat)
+3. [Amundsen](#3-amundsen)
+4. [Magda](#4-magda)
+5. [Egeria](#5-egeria)
 
 Let’s jump right in.
 
