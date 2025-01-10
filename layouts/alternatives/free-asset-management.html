@@ -1,0 +1,369 @@
+{{ partial "head/header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+
+<main id="content" role="main">
+    <article class="article">
+        <div class="space-1-bottom">
+            <img class="img-fluid" src="{{ .Params.cover }}" />
+        </div>
+        <div class="container-8 mx-auto">
+            <header class="mt-6">
+                <h1 class="mt-2 mb-4">{{ .Title }}</h1>
+                {{ if (.Params.profilePic) }}
+                <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+                {{ else }}
+                <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
+                {{ end }}Published by {{ .Params.author }}, {{ .Date.Format .Site.Params.dateform }}
+            </header>
+        </div>
+        <div class="mx-md-auto my-9 container-8">
+            {{ $content_parts := split .Content "||||||||||" }}
+            {{ index $content_parts 0 | safe.HTML}}
+        </div>
+        <div class="mx-md-auto space-1 space-2-bottom bg-base-3">
+            <div class="container-8 mx-auto">
+                {{ index $content_parts 1 | safe.HTML}}
+                <details class="mt-6 my-1 p-3 bg-white border rounded-sm">
+                    <summary class="lead">What is asset management?</summary>
+                    <p>
+                    Asset management comprises all workflows involved in deploying devices to end users. This includes maintenance, monitoring, and lifecycle management.
+                    </p>
+                    <p>
+                    This can take a few different forms. For example, buying, preparing, and deploying assets as a part of an onboarding process.
+                    </p>
+                    <p>
+                        However, the core of this is around handling requests for device rentals. That is, helping IT teams to respond to asset requests based on internal business rules and device availability.
+                    </p>
+                    <p>
+                        On top of this, asset management also requires us to handle device lifecycles. This includes tasks such as scheduling maintenance, patch management, or calculating annual depreciation.
+                    </p>
+                    <p>
+                        We may even predict usage trends in order to inform procurement decisions down the line
+                    </p>
+                    <p>
+                        Check out our resource on <a href = "https://budibase.com/resources/itil-processes/asset-management/"> ITIL asset management.</a>
+                    </p>
+                </details>
+                <details class="my-1 p-3 bg-white border rounded-sm">
+                    <summary class="lead">What do asset management tools do?</summary>
+                <p>
+                    So, that’s what asset management means in theory. The next question is, what does asset management software do?
+                </p>
+                <p>
+                    The most basic functionality is providing an asset inventory. This tracks the assets we have, usage data, deployment information, related business rules, and more.
+                </p>
+                <p>
+                    Asset management tools then allow us to build out workflows leveraging this inventory data with a combination of end-user interfaces and automation rules.
+                </p>
+                <p>
+                    So, for example, we can provide forms to service users to to request a device rental. We could then automate approvals based on stored rules and availability or require manual input from our IT team.
+                </p>
+                <p>
+                    IT colleagues and service users must have suitable access to data and actions for their role.
+                </p>
+                <p>
+                    For example, allowing service users to browse available devices and view their own previous requests. But, exposing service-desk colleagues to real-time data relating to all devices and requests.
+                </p>
+                <p>
+                    You might also like our roundup of <a href ="https://budibase.com/blog/alternatives/servicenow/">ServiceNow alternatives</a>.
+                </p>
+                </details>
+                <details class="my-1 p-3 bg-white border rounded-sm">
+                    <summary class="lead">Why opt for an open-source solution?</summary>
+                    <p>
+                        There are a few reasons you might prioritize open-source asset management software.
+                    </p>
+                    <p>
+                        The first is control. Open-source tools offer us flexibility for self-hosting or using existing databases.
+                    </p>
+                    <p>
+                        We can also expect a higher level of configurability than we would with COTS solutions. So, integrating with other platforms in our ITSM tool stack or enforcing custom business rules. 
+                    </p>
+                    <p>
+                        Security is another key driver for businesses to adopt open-source technologies
+                    </p>
+                    <p>
+                        A huge part of this is the ability to audit, control, and potentially even internally maintain the source code. Especially for applications that interact with mission-critical data, infrastructure, and processes.
+                    </p>
+                    <p>
+                        Many businesses opt for open-source asset management tools because of financial reasons. That is, open-source tools can generally be used wholly or in-part for free. 
+                    </p>
+                </details>
+            </div>
+        </div>
+
+        <div class="mx-md-auto mb-4 mt-4 container-8">
+            {{ index $content_parts 2 | safe.HTML}}
+        </div>
+        <div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
+            <div class="alt-container ">
+                <table class='alt-table no-scrollbar mx-auto'>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th class=''>
+                                <div class="flex-row align-center">
+                                    <p class="alt-header font-weight-medium">Budibase</p>
+                                </div>
+                            </th>
+                            <th>                                
+                                <div class="flex-row align-center">
+                                    <p class="alt-header font-weight-medium">Ralph-3</p>
+                                </div>
+                            </th>
+                            <th>                                
+                                <div class="flex-row align-center">
+
+                                    <p class="alt-header font-weight-medium">Snipe-IT</p>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="flex-row align-center">
+
+                                    <p class="alt-header font-weight-medium">CMDBuild</p>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="flex-row align-center">
+                                    <p class="alt-header font-weight-medium">AssetTiger</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>
+                                Internal Database
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>
+                                External Database Connectors
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-dark">                                
+                                    No
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-dark">                                
+                                    No
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-dark">                                
+                                    No
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-dark">                                
+                                    No
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>
+                                Public API
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-dark">                                
+                                    No
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>
+                                Cloud Platform
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-dark">                                
+                                    No
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-dark">                                
+                                    No
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>
+                                Self-Hosting
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-dark">                                
+                                    No
+                                </span>
+                            </td>
+                        </tr>
+
+
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>
+                                Open-Source
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-dark">                                
+                                    No
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>
+                                Free Assets
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Unlimited
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Unlimited
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Unlimited
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-forestgreen">                                
+                                    Unlimited
+                                </span>
+                            </td>
+                            <td class='text-xs' data-title=''>
+                                <span class="tag-dark">                                
+                                    250
+                                </span>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="mx-md-auto my-9 container-8">
+            {{ $content_parts := split .Content "||||||||||" }}
+            {{ index $content_parts 3 | safe.HTML}}
+        </div>
+    </article>
+</main>
+
+<!--Article-->
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}

@@ -4,6 +4,8 @@ date = 2024-06-11
 description = "Check out our round-up of the best free asset management software."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Top 5 Free Asset Management Software Tools"
+type = "alternatives"
+layout = "free-asset-management"
 [[mentions]]
 name = "IT asset management"
 sameAs = "https://www.wikidata.org/wiki/Q5975185"
@@ -45,51 +47,8 @@ By the end, you’ll be able to make a fully informed decision about which optio
 
 But first, let’s start with the basics.
 
-## What is asset management?
-
-Asset management comprises all workflows involved in deploying devices to end users. This includes maintenance, monitoring, and lifecycle management.
-
-This can take a few different forms. For example, buying, preparing, and deploying assets as a part of an onboarding process.
-
-However, the core of this is around handling requests for device rentals. That is, helping IT teams to respond to asset requests based on internal business rules and device availability.
-
-On top of this, asset management also requires us to handle device lifecycles. This includes tasks such as scheduling maintenance, patch management, or calculating annual depreciation.
-
-We may even predict usage trends in order to inform procurement decisions down the line.
-
-Check out our resource on [ITIL asset management](https://budibase.com/resources/itil-processes/asset-management/).
-
-### What do asset management tools do?
-
-So, that’s what asset management means in theory. The next question is, what does asset management software do?
-
-The most basic functionality is providing an asset inventory. This tracks the assets we have, usage data, deployment information, related business rules, and more.
-
-Asset management tools then allow us to build out workflows leveraging this inventory data with a combination of end-user interfaces and automation rules.
-
-So, for example, we can provide forms to service users to to request a device rental. We could then automate approvals based on stored rules and availability or require manual input from our IT team.
-
-IT colleagues and service users must have suitable access to data and actions for their role.
-
-For example, allowing service users to browse available devices and view their own previous requests. But, exposing service-desk colleagues to real-time data relating to all devices and requests.
-
-You might also like our roundup of [ServiceNow alternatives](https://budibase.com/blog/alternatives/servicenow/).
-
-## Why opt for an open-source solution?
-
-There are a few reasons you might prioritize open-source asset management software.
-
-The first is control. Open-source tools offer us flexibility for self-hosting or using existing databases.
-
-We can also expect a higher level of configurability than we would with COTS solutions. So, integrating with other platforms in our ITSM tool stack or enforcing custom business rules.
-
-Security is another key driver for businesses to adopt open-source technologies. 
-
-A huge part of this is the ability to audit, control, and potentially even internally maintain the source code. Especially for applications that interact with mission-critical data, infrastructure, and processes.
-
-Many businesses opt for open-source asset management tools because of financial reasons. That is, open-source tools can generally be used wholly or in-part for free.
-
-With that in mind…
+||||||||||
+||||||||||
 
 ## Top 5 open-source and free asset management tools
 
@@ -97,7 +56,18 @@ As we said earlier, we’ve chosen a range of options from across the market for
 
 Some offer ready-to-use tools straight out of the box, while others will enable us to build internal tools to match our existing asset information management flows.
 
-Let’s jump right in.
+Our top picks are
+1. [Budibase](#1-budibase)
+2. [Ralph 3](#2-ralph-3)
+3. [Snipe-IT](#3-snipe-it)
+4. [CMDBuild](#4-cmdbuild)
+5. [AssetTiger](#5-assettiger)
+
+Here's a summary of what each one offers.
+
+||||||||||
+
+Let's check out of our free asset management tools in more detail.
 
 ### 1. Budibase
 
@@ -266,6 +236,7 @@ All pricing plans offer unlimited users, meaning that it has the potential to be
 Importantly, AssetTiger also doesn’t impose feature restrictions across its pricing tiers. As such, it has the potential to be a relatively affordable solution.
 
 ## Turn data into action with Budibase
+![Budibase design platform interface](https://res.cloudinary.com/daog6scxm/image/upload/v1680181644/ui/homepage-design-ui_sizp7b.webp)
 
 Budibase is the open-source, low-code platform that empowers IT teams to turn data into action. 
 

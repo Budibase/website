@@ -118,7 +118,7 @@ These include the following:
 ## 10 Retool Alternatives for 2025
 With that bit of context out of the way, we can start to think about some of the best platforms to bridge this gap as alternatives to Retool.
 
-We’ve chosen six tools from different points across the low-code market:
+We’ve chosen ten tools from different points across the low-code market:
 1. [Budibase](#1-budibase)
 2. [Mendix](#2-mendix)
 3. [OutSystems](#3-outsystems)
