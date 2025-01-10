@@ -241,11 +241,10 @@ Again, SmartSheet is a strong option for non-techincal teams who want to move aw
 
 ## Turn data into action with Budibase
 
+![Budibase design platform interface](https://res.cloudinary.com/daog6scxm/image/upload/v1680181644/ui/homepage-design-ui_sizp7b.webp)
+
 Budibase is the fast, easy way to build custom solutions on top of just about any data source. We offer our own low-code, built-in databases, alongside dedicated connectors for RDBMSs, NoSQL tools, REST APIs, Google Sheets, and more.
 
 Countless teams in all kinds of industries choose Budibase to build forms, admin panels, dashboards, portals, approval apps, and all sorts of other solutions for managing workflows.
 
 Sign up for free today to start build as many apps as you need.
-
-{{< cta >}}
-
