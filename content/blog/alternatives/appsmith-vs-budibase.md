@@ -34,6 +34,7 @@ Let’s jump right in with a summary of what each platform offers.
 
 ||||||||||
 
+
 ## Appsmith vs Budibase: positioning
 
 Before we get to the nitty-gritty of the features of each platform, it’s important to understand how they position themselves.
