@@ -4,6 +4,8 @@ date = 2024-05-10
 description = "Take a look at our in-depth comparison of Appsmith and Retool."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Appsmith vs Retool: In-Depth Guide"
+type = "alternatives"
+layout = "appsmith-vs-retool"
 [[softwareApplications]]
 name = "Retool"
 applicationCategory = "businessApplication"
@@ -26,7 +28,9 @@ Today, we’re covering everything you need to know. Specifically, we’re going
 
 We’ll also check out where Budibase fits into the picture, serving the needs of busy IT teams that need to ship professional tools at pace.
 
-By the end, we’ll be fully equipped to make an informed decision on which low-code platform is right for particular use cases and situations.
+By the end, we’ll be fully equipped to make an informed decision on which low-code platform is right for particular use cases and situations. Here's a summary of what each platform offers
+
+||||||||||
 
 Let’s jump in.
 

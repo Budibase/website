@@ -4,6 +4,8 @@ date = 2024-05-13
 description = "Check out our in-depth comparison of Appsmith and Budibase."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Appsmith vs Budibase: In-Depth Comparison"
+type = "alternatives"
+layout = "appsmith-vs-budibase"
 [[softwareApplications]]
 name = "Budibase"
 applicationCategory = "businessApplication"
@@ -26,9 +28,11 @@ You are, of course, on the Budibase website right now - and we’re obviously bi
 
 So, we’re going to present a totally fact-based account of where each tool sits in the market, what they offer, and who they’re optimized for.
 
-By the end, you’ll be ready to make a fully informed decision about which is the right option for your specific requirements.
+By the end, you’ll be ready to make a fully informed decision about which is the right option for your specific requirements. 
 
-Let’s jump right in.
+Let’s jump right in with a summary of what each platform offers.
+
+||||||||||
 
 ## Appsmith vs Budibase: positioning
 
