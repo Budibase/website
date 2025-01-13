@@ -1,0 +1,238 @@
+{{ partial "head/header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+
+<main id="content" role="main">
+    <article class="article">
+        <div class="space-1-bottom">
+            <img class="img-fluid" src="{{ .Params.cover }}" />
+        </div>
+        <div class="container-8 mx-auto">
+            <header class="mt-6">
+                <h1 class="mt-2 mb-4">{{ .Title }}</h1>
+                {{ if (.Params.profilePic) }}
+                <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+                {{ else }}
+                <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
+                {{ end }}Published by {{ .Params.author }}, {{ .Date.Format .Site.Params.dateform }}
+            </header>
+        </div>
+        <div class="mx-md-auto my-9 container-8">
+            {{ $content_parts := split .Content "||||||||||" }}
+            {{ index $content_parts 0 | safe.HTML}}
+        </div>
+        <div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
+            <div class='alt-container mx-auto'>
+                <table class='alt-table no-scrollbar mx-auto' >
+                    <thead>
+                        <tr></tr>
+                            <th style="width:267px"></th>
+                            <th style="width:267px">
+                                <div class="flex-row align-center">
+                                    <div>
+                                        <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1736765102/cms/alternatives/appsmith_logo_ekw7iu.webp" class="u-xxs-avatar mr-2" />
+                                    </div>
+                                    <p class="alt-header font-weight-medium">Appsmith</p>
+                                </div>
+                            </th>
+                            <th style="width:267px">
+                                <div class="flex-row align-center">
+                                    <div>
+                                        <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1696515725/Branding/Assets/Symbol/RGB/Full%20Colour/Budibase_Symbol_RGB_FullColour_cbqvha_1_z5cwq2.svg" class="u-xxs-avatar mr-2" />
+                                    </div>
+                                    <p class="alt-header font-weight-medium">Budibase</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>Pricing Model</td>
+                            <td class='text-xs' data-title='Appsmith'>Per user</td>
+                            <td class='text-xs' data-title='Budibase'>Per creator +<br> per user</td>
+
+                        </tr>
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>Free Apps</td>
+                            <td class='text-xs' data-title='Appsmith'>Unlimited</td>
+                            <td class='text-xs' data-title='Budibase'>Unlimited</td>
+
+                        </tr>
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>Built-In Database</td>
+                            <td class='text-xs' data-title='Appsmtih'><span class="tag-forestgreen">                                
+                                Yes
+                            </span></td>
+                            </td>
+                            <td class='text-xs' data-title='Budibase'> <span class="tag-forestgreen">                                
+                                Yes
+                            </span>
+                            </td>
+                        </tr>
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>Multiplayer mode</td>
+                            <td class='text-xs' data-title='Appsmith'><span class="tag-dark">                                
+                                No
+                            </span></td>
+                            <td class='text-xs' data-title='Budibase'><span class="tag-forestgreen">                                
+                                Yes
+                            </span></td>
+                              </tr>
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>Front-End Scripting</td>
+                            <td class='text-xs' data-title='Appsmith'><code class="text-xs coral">JavaScript</code></td>
+                            <td class='text-xs' data-title='Budibase'><code class="text-xs coral">JavaScript</code><div class="mt-1"></div><code class="text-xs indigo">Handlebars</code></td>
+                        </tr>
+
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>RBAC</td>   
+                            <td class='text-xs' data-title='Appsmith'> <span class="tag-forestgreen">                                
+                                Yes
+                            </span></td>
+                            <td class='text-xs' data-title='Budibase'><span class="tag-forestgreen">                                
+                                Yes
+                            </span></td>
+                        </tr>
+
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>Custom Components</td>
+                            <td class='text-xs' data-title='Appsmith'> <span class="tag-forestgreen">                                
+                                Yes
+                            </span></td>
+                            <td class='text-xs' data-title='Budibase'> <span class="tag-forestgreen">                                
+                                Yes
+                            </span></td>
+                              </tr>
+
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>Custom Data Sources</td>
+                            <td class='text-xs' data-title='Appsmith'> <span class="tag-dark">                                
+                                No
+                            </span></td>
+                            <td class='text-xs' data-title='Budibase'> <span class="tag-forestgreen">                                
+                                Yes
+                            </span></td>
+                              </tr>
+
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>Automation Builder</td>
+                            <td class='text-xs' data-title='Appsmith'>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span></td>
+                            <td class='text-xs' data-title='Budibase'> <span class="tag-forestgreen">                                
+                                Yes
+                            </span></td>
+                        </tr>
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>SSO</td>
+                            <td class='text-xs' data-title='Appsmith'><span class="tag-forestgreen">                                
+                                Free
+                            </span></td>
+                            <td class='text-xs font-weight-medium' data-title='Budibase'><span class="tag-forestgreen">                                
+                                Free
+                            </span></td>
+                        </tr>
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>Security certs</td>
+                            <td class='text-xs' data-title='Appsmith'>SOC 2</td>
+                            <td class='text-xs' data-title='Budibase'>ISO27001</td>
+                        </tr>
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>Audit Logs</td>
+                            <td class='text-xs' data-title='Appsmith'><span class="tag-forestgreen">                                
+                                Yes
+                            </span></td>
+                            <td class='text-xs' data-title='Budibase'> <span class="tag-forestgreen">                                
+                                Yes
+                            </span></td>
+                        </tr>
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>SCIM</td>
+                            <td class='text-xs' data-title='Appsmith'>Enterprise</td>
+                            <td class='text-xs' data-title='Budibase'>Enterprise</td>
+                        </tr>
+                        <tr class='hide-mobile'>
+                            <td class='text-xs' data-title=''>Public API</td>
+                            <td class='text-xs' data-title='Appsmith'> <span class="tag-dark">                                
+                                No
+                            </span></td>
+                            <td class='text-xs' data-title='Budibase'> <span class="tag-forestgreen">                                
+                                Yes
+                            </span></td>
+                        </tr>
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>App Embeds</td>
+                            <td class='text-xs' data-title='Appsmith'>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            </td>
+                            <td class='text-xs' data-title='Budibase'>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>Custom AI Configs</td>
+                            <td class='text-xs' data-title='Appsmith'> <span class="tag-dark">                                
+                                No
+                            </span></td>
+                            <td class='text-xs' data-title='Budibase'>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>Automation Branching</td>
+                            <td class='text-xs' data-title='Appsmith'>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                            </td>
+                            <td class='text-xs' data-title='Budibase'>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr class=''>
+                            <td class='text-xs' data-title=''>Visual RBAC</td>
+                            <td class='text-xs' data-title='Appsmith'>
+                                <span class="tag-dark">                                
+                                    No
+                                </span>
+                            </td>
+                            </td>
+                            <td class='text-xs' data-title='Budibase'>
+                                <span class="tag-forestgreen">                                
+                                    Yes
+                                </span>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="mx-md-auto my-9 container-8">
+            {{ $content_parts := split .Content "||||||||||" }}
+            {{ index $content_parts 1 | safe.HTML}}
+        </div>
+        
+    </article>
+</main>
+
+<!--Article-->
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}
