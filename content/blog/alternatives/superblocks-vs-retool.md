@@ -4,7 +4,18 @@ date = 2024-05-09
 description = "Take a look at our in-depth comparison of Retool and Superblocks."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Superblocks vs Retool: In-Depth Comparison"
-
+type = "alternatives"
+layout = "superblocks-vs-retool"
+[[softwareApplications]]
+name = "Retool"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.retool.com"
+[[softwareApplications]]
+name = "Superblocks"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.superblocks.com"
 +++
 
 Low-code development has exploded in popularity over the past decade, with more and more companies seeking out faster, more cost-effective ways to output custom applications.
@@ -15,9 +26,11 @@ See, the low-code market is hugely varied. In particular, different vendors targ
 
 Retool and Superblocks occupy a similar corner of the market, focusing on empowering developers to ship internal tools faster by prioritizing visual development, reusability, and streamlined UI design.
 
-By the end of this guide, we’ll have a clear picture of how each platform compares to the other, including its strengths, weaknesses, and ideal use cases.
+By the end of this guide, we’ll have a clear picture of how each platform compares to the other, including its strengths, weaknesses, and ideal use cases. We'll also see how Budibase stacks up against each.
 
-Let’s jump in.
+Let’s jump in with a summary of what each platform offers.
+
+||||||||||
 
 ## Retool vs Superblocks: positioning
 

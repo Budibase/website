@@ -5,6 +5,8 @@ description = "Check out our in-depth comparison of Mendix and OutSystems."
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1714139175/cms/outsystems-vs-mendix/Mendix_vs_OutSystems_osqot9.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Mendix vs OutSystems"
+type = "alternatives"
+layout = "mendix-vs-outsystems"
 [[softwareApplications]]
 name = "Mendix"
 applicationCategory = "businessApplication"
@@ -27,7 +29,9 @@ Along the way, we’ll highlight the key situations where each one excels or fal
 
 By the end, we’ll be fully able to make an informed decision about the right platform for our specific requirements and use cases.
 
-Let’s start with the basics. 
+Let’s start with the a summary of what each platform offers.
+
+||||||||||
 
 ## Mendix & Outsystems: background
 

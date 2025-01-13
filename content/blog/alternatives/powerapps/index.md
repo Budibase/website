@@ -68,9 +68,6 @@ However, that doesn’t mean that PowerApps is the right fit for every organizat
 Today, we’re checking out some of the top PowerApps alternatives from across the market.
 
 Specifically, we’ll cover the following:
-- [What is PowerApps?](#what-is-power-apps)
-- [Who uses PowerApps?](#who-uses-powerapps)
-- [Why would you need a PowerApps alternative?](#why-would-you-need-a-powerapps-alternative)
 - [10 PowerApps alternatives](#10-powerapps-alternatives)
 - [PowerApps vs Budibase](#powerapps-vs-budibase)
 - [How to choose a PowerApps alternative](#how-to-choose-a-powerapps-alternative)
@@ -79,42 +76,13 @@ The goal isn’t just to present a list of platforms. Rather, we want to give yo
 
 Let’s jump right in.
 
-## What is PowerApps?
-PowerApps is Microsoft’s low-code offering - within the wider Power Platform ecosystem. 
+||||||||||
+## Background
+To frame our discussion, here are some of the key details you need to know about Microsoft's internal application builder.
+||||||||||
 
-It’s based around building apps in a couple of different ways. PowerApps Studio is a visual builder, where creators with slightly lower levels of development skills can create interfaces on top of connected data using a drag-and-drop interface.
 
-Advanced users can build model-driven apps by defining a sitemap, creating server-side and client-side logic, and implementing more advanced integrations.
-
-As a Microsoft product, PowerApps skews heavily toward other platforms in their ecosystem. So, there’s close integration with the Dataverse, SQL Server, Power Automate, Dynamics, Sharepoint, and more.
-
-Therefore, it’s a particularly powerful solution for businesses that already have Microsoft platforms deeply embedded in their ops.
-
-### Who uses PowerApps?
-PowerApps users fall into two camps. On the one hand, it’s a popular platform for citizen development programs. This involves upskilling specific business users within departments to output solutions for their colleagues.
-
-These people effectively become PowerApps specialists. 
-
-Besides citizen development, PowerApps is also popular within IT teams. In particular, it’s deeply embedded in the way many large organizations build internal tools. 
-
-So, professional developers can take advantage of a range of more advanced capabilities, including writing server-side functions using Azure, client-side functions in JavaScript, custom plug-ins, workflow extensions, and more.
-
-So…
-
-## Why would you need a PowerApps alternative?
-There are several reasons why you might be here today - whether you’re a current PowerApps user or you’re assessing low-code development platforms for the first time. The reality is that there are several challenges of using PowerApps which have the potential to make it unviable for many use cases.
-
-One issue is that it has a particularly steep learning curve compared to other platforms in this sector. It’s comparatively difficult for a user - technical or not - to simply jump in and start building working tools. PowerApps users typically really are PowerApps specialists. Besides this, it’s important to be cognizant that PowerApps is heavily embedded in the wider Microsoft ecosystem. This means that developer experiences tend to prioritize working with native platforms.
-
-On the flip side, this can mean that handling external data is somewhat more convoluted than in some of PowerApps’ competitors. This largely requires us to go through the Dataverse or Dynamics 365 in order to pull data into PowerApps projects. Similarly, the full complement of functionality can only be achieved through the use of the wider Power Platform ecosystem. For example, using PowerApps to build interfaces but relying on Power Automate for codifying internal processes.
-
-Finally, PowerApps is entirely closed-source. As such, it’s almost impossible for security teams to audit the source code. In many organizations, this can be a deal breaker for any platform that’s going to have access to production data. 
-
-Similarly, it can’t be self-hosted. Or, much more simply - PowerApps may be a viable option for you - but you may find a more cost-effective way to meet the same objectives.
-
-Check out our guide comparing [Pega vs Appian](https://budibase.com/blog/alternatives/pega-vs-appian/).
-
-## 10 PowerApps Alternatives
+## 10 PowerApps alternatives
 Now that we’ve seen what PowerApps is and where it sits in the market, we can start to run through some of its key competitors.
 
 The low-code market is fairly varied in terms of the users that specific vendors target. This ranges from platforms for empowering everyday users to build solutions on one end of the spectrum - to full-blown developer tools at the other.
