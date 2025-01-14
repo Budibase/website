@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2024-04-20
+date = 2024-08-20
 description = "Check out our round-up of 10 Microsoft Access alternatives."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1695986297/cms/microsoft-access-alternatives/Microsoft_Access_Alternatives_yp90gy.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1695986297/cms/microsoft-access-alternatives/Microsoft_Access_Alternatives_yp90gy.png"]
@@ -8,13 +8,14 @@ profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/
 title = "10 Microsoft Access Alternatives for 2025"
 type = "alternatives"
 layout = "access"
+
 +++
 
 For a lot of businesses, finding a suitable Microsoft Access alternative for their needs is becoming pretty urgent.
 
 See, Access has been rumored to be reaching its end-of-life for a few years now - although Microsoft hasn’t unveiled any formal plans for a retirement party.
 
-Even so, in 2023, Access feels like a bit of a product of a bygone era. Not to be outwardly critical, but in the age of cloud computing, low-code development, DBaaS tools, and even AI, it’s tough for legacy platforms to keep up with the needs of modern businesses.
+Even so, in 2024, Access feels like a bit of a product of a bygone era. Not to be outwardly critical, but in the age of cloud computing, low-code development, DBaaS tools, and even AI, it’s tough for legacy platforms to keep up with the needs of modern businesses.
 
 Despite this, countless businesses still use Access. Indeed - and to its credit - it’s been at the center of all kinds of solutions for decades.
 
