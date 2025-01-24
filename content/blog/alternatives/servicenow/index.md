@@ -102,6 +102,8 @@ Clearly, then, there are several angles that we can take here in terms of choosi
 
 With that in mind, we’ve picked a range of options from across the market. So, we have direct competitors in the enterprise class, along with newer SaaS alternatives and low-code options for building custom solutions to the same core pain points.
 
+||||||||||
+
 Let’s look at each one in detail.
 
 ## 1. Budibase
@@ -143,7 +145,7 @@ Like ServiceNow, Budibase is priced on a per-user basis, distinguishing between 
 
 Our simple, transparent pricing model makes it easy to predict what your ITSM solutions are going to cost - with our Premium tier billing at $50 per month for creators and $5 per month for end-users.
 
-We also offer custom enterprise pricing, with dedicated SLAs, onboarding assistance, enforceable SSO, air-gapped deployments, and more.
+We also offer creator-only enterprise pricing, with dedicated SLAs, onboarding assistance, enforceable SSO, air-gapped deployments, and more. Only pay for the colleagues who build applications, not end users.
 
 So, even with ServiceNow’s bulk discounts, Budibase has the potential to be orders of magnitude more cost-effective.
 
