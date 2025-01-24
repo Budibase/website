@@ -106,6 +106,8 @@ However, this won’t be possible in all cases, since incidents, by their nature
 
 For instance, in the event of a more serious security breach or cyber attack, we might have a high-level operational plan in place, but the specific restoration and mitigation actions we’ll need, along with the teams involved, could be more dependent on context.
 
+{{< template-cta template = "incidentReport" >}}
+
 #### Examples
 
 We’re specifically interested in incidents that are identified via user submissions, either directly or indirectly.
