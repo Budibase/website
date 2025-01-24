@@ -41,6 +41,7 @@ In others, handling change is more of a shared responsibility across the IT team
 
 {{< vimeo id="1001639751" title="Change request management software" >}}
 
+{{< template-cta template = "changeManagement" >}}
 
 ### Key capabilities
 
