@@ -70,7 +70,7 @@ The impact on productivity and satisfaction is hard to overstate. As Thierry put
 
 In the near future, Thierry plans to upgrade to Budibase’s Enterprise plan. With access to advanced features and direct training, he hopes to unlock even more of Budibase’s capabilities, particularly around custom triggers and automations. 
 
-> **“The time I spent learning Budibase has been gained back tenfold,”** he said, 
+> **“The time I spent learning Budibase has been gained back tenfold.”**
 
 **“and I’m excited to see how far we can go with formal training and even deeper functionality.”**
 
