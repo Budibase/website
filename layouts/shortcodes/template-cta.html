@@ -1,0 +1,39 @@
+{{- $template := .Get "template" -}}
+{{- $heading := "" -}}
+{{- $templateURL := "" -}}
+
+{{- if eq $template "changeManagement" -}}
+    {{- $heading = "change control template" -}}
+    {{- $templateURL = "https://budibase.app/builder?template=app/change-request" -}} 
+{{- else if eq $template "expenseApproval" -}}
+    {{- $heading = "expense approval app template" -}}
+    {{- $templateURL = "https://budibase.app/builder?template=app/expense-approval" -}} 
+{{- else if eq $template "riskManagement" -}}
+    {{- $heading = "risk management template" -}}
+    {{- $templateURL = "https://budibase.app/builder?template=app/risk-management" -}} 
+{{- else if eq $template "assetManagement" -}}
+    {{- $heading = "asset management template" -}}
+    {{- $templateURL = "https://budibase.app/builder?template=app/it-asset-management-software" -}} 
+{{- else if eq $template "ticketingSystem" -}}
+    {{- $heading = "ticketing system template" -}}
+    {{- $templateURL = "https://budibase.app/builder?template=app/it-help-desk" -}}  
+{{- else if eq $template "incidentReport" -}}
+    {{- $heading = "incident report template" -}}
+    {{- $templateURL = "https://budibase.app/builder?template=app/it-incident-report-form" -}}  
+{{- end -}}
+
+
+<div class="bg-base-18 border rounded-sm cta-shortcode">
+    <p class="hero-description font-weight-medium text-white" style="font-size:larger;">
+        Start building with our free
+        <span style="margin: 0; margin-bottom: 15px; font-weight: bold; 
+                     background: linear-gradient(60deg, #C8AFF0, rgb(249, 119, 119));
+                     -webkit-background-clip: text;
+                     -webkit-text-fill-color: transparent;">
+            {{- $heading -}}
+        </span>
+    </p>
+    <a href="{{- $templateURL -}}" rel="noopener" class="no-underline" target="_blank">
+        <button type="submit" class="btn btn-cta no-underline">Sign up now</button>
+    </a>
+</div>
