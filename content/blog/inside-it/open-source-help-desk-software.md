@@ -142,6 +142,8 @@ Alongside our self-hosted, open-source product, Budibase pricing is designed to 
 
 Custom enterprise licenses are also available, with enhanced security, enforceable SSO, creator RBAC, air-gapped deployments, priority support, SLAs, and more. Check out our [pricing page](https://budibase.com/pricing/) to learn more.
 
+{{< template-cta template = "ticketingSystem" >}}
+
 ### 2. GLPI
 
 ![Open Source Help Desk Software](https://res.cloudinary.com/daog6scxm/image/upload/v1716391725/cms/open-source-help-desk-software/GLPI_wpwyqq.webp "Open Source Help Desk Software")
