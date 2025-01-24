@@ -1,0 +1,434 @@
+{{ partial "head/header.html" . }} {{ partial "navigation.html" . }}
+
+<main id="content" role="main">
+  <article class="article">
+    <div class="space-1-bottom">
+      <img class="img-fluid" src="{{ .Params.cover }}" />
+    </div>
+    <div class="container-8 mx-auto">
+      <header class="my-6">
+        <h1 class="mt-2 mb-4">{{ .Title }}</h1>
+        {{ if (.Params.profilePic) }}
+        <img
+          class="u-avatar-4 rounded-circle mr-2"
+          src="{{ with .Params.profilePic }}{{ . }}{{ end }}"
+        />
+        {{ else }}
+        <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp" />
+        {{ end }}Published by {{ .Params.author }}, {{ .Date.Format
+        .Site.Params.dateform }}
+      </header>
+    </div>
+    <div class="mx-md-auto my-9 container-8">
+      {{ $content_parts := split .Content "||||||||||" }}
+      {{ index $content_parts 0 | safe.HTML}}
+  </div>
+  <div class="mx-md-auto space-1 space-3-bottom bg-base-3">
+      <div class="container-8 mx-auto">
+          {{ index $content_parts 1 | safe.HTML}}
+          <details class="mt-6 my-1 p-3 bg-white border rounded-sm">
+              <summary class="lead">Complexity</summary>
+              <p>The flip side of JSM’s extensive configurability is that it presents comparatively steep barriers to getting up and running. On the one hand, some users report that the required setup and configuration work is too high, either from a resourcing or technical skills point of view.</p>
+                
+                <p>Another common complaint is that JSM presents a steep learning curve for IT teams, admins, and end users alike. In turn, this undercuts the benefits of implementing an ITSM platform, as it can harm adoption rates internally.</p>
+          </details>
+          <details class="my-1 p-3 bg-white border rounded-sm">
+              <summary class="lead">Cost</summary>
+              <p>JSM is competitively priced, with several per-agent tiers. There are, nonetheless, scenarios where other platforms might work out more cost-effective. One issue is that usage limits are imposed at different pricing points, including for emails, data, and automation runs.
+            </p>
+              <p>On top of this, certain features are also restricted to higher pricing tiers. For example, we need an enterprise license or a separate Atalassian Guard subscription to implement external SSO. 
+            </p>
+                <p>As such, you might find yourself forced to a higher license tier to access certain functionality, even if you don’t require the higher usage limits. In these cases, other ITSM platforms may be more financially viable.
+                </p>
+                </details>
+          <details class="my-1 p-3 bg-white border rounded-sm">
+              <summary class="lead">Out-of-the-box-workflows</summary>
+              <p>Lastly, JSM is highly optimized for teams that need extensive configuration. By contrast, some users report that it falls behind some competitors in terms of out-of-the-box workflows.
+            </p>
+              <p>For instance, other platforms can be better optimized for simply rolling out as-is, although you may sacrifice some configurability for this.
+            </p>
+              <p>Additionally, certain key workflows require more expensive licenses with Jira. For instance, change management and approval features are reserved for the Premium and Enterprise tiers.
+            </p>
+          </details>
+
+      </div>
+  </div>
+    <div class="mx-md-auto container-8">
+      {{ $content_parts := split .Content "||||||||||" }} {{ index
+      $content_parts 2 | safe.HTML}}
+    </div>
+    <div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
+      <div class="alt-container">
+        <table class="alt-table no-scrollbar mx-auto">
+          <thead>
+            <tr>
+              <th></th>
+              <th>
+                <div class="flex-row align-center">
+                    <div>
+                        <img
+                          src="https://res.cloudinary.com/daog6scxm/image/upload/v1737649984/cms/alternatives/jira-service-management/jira-icon-512x512-kkop6eik_bflzgl.webp"
+                          class="u-xxs-avatar mr-2"
+                        />
+                      </div>
+                  <p class="alt-header font-weight-medium">Jira</p>
+                </div>
+              </th>
+              <th class="">
+                <div class="flex-row align-center">
+                    <div>
+                        <img
+                          src="https://res.cloudinary.com/daog6scxm/image/upload/v1696515725/Branding/Assets/Symbol/RGB/Full%20Colour/Budibase_Symbol_RGB_FullColour_cbqvha_1_z5cwq2.svg"
+                          class="u-xxs-avatar mr-2"
+                        />
+                      </div>
+                  <p class="alt-header font-weight-medium">Budibase</p>
+                </div>
+              </th>
+              <th>
+                <div class="flex-row align-center">
+                    <div>
+                        <img
+                          src="https://res.cloudinary.com/daog6scxm/image/upload/v1737651317/cms/alternatives/jira-service-management/servicenow_logo_bsnji7.webp"
+                          class="u-xxs-avatar mr-2"
+                        />
+                      </div>
+                  <p class="alt-header font-weight-medium">ServiceNow</p>
+                </div>
+              </th>
+              <th>
+                <div class="flex-row align-center">
+                    <div>
+                    <img
+                    src="https://res.cloudinary.com/daog6scxm/image/upload/v1737649986/cms/alternatives/jira-service-management/freshworks_it-service-management-platforms_1699350912950_pkt1kx.webp"
+                    class="u-xxs-avatar mr-2"
+                  />
+                </div>
+                  <p class="alt-header font-weight-medium">FreshService</p>
+                </div>
+              </th>
+
+              <th>
+                <div class="flex-row align-center">
+                        <div>
+                        <img
+                        src="https://res.cloudinary.com/daog6scxm/image/upload/v1737649986/cms/alternatives/jira-service-management/manageEngine_APM_icon__3_-removebg-preview_wkaafe.webp"
+                        class="u-xxs-avatar mr-2"
+                      />
+                    </div>
+                  <p class="alt-header font-weight-medium">ManageEngine</p>
+                </div>
+              </th>
+              <th class="">
+                <div class="flex-row align-center">
+                    <div>
+                        <img
+                        src="https://res.cloudinary.com/daog6scxm/image/upload/v1737649985/cms/alternatives/jira-service-management/solarwindslogosquare_rdlwca.webp"
+                        class="u-xxs-avatar mr-2"
+                      />
+                    </div>
+                  <p class="alt-header font-weight-medium">SolarWinds</p>
+                </div>
+              </th>
+              <th class="">
+                <div class="flex-row align-center">
+                    <div>
+                        <img
+                        src="https://res.cloudinary.com/daog6scxm/image/upload/v1737649984/cms/alternatives/jira-service-management/sysaid_logo_square_f5kx5r.webp"
+                        class="u-xxs-avatar mr-2"
+                      />
+                    </div>
+                  <p class="alt-header font-weight-medium">SysAid</p>
+                </div>
+              </th>
+              <th class="">
+                <div class="flex-row align-center">
+                    <div>
+                        <img
+                        src="https://res.cloudinary.com/daog6scxm/image/upload/v1737649984/cms/alternatives/jira-service-management/BMC_logo_square_fon3j4.webp"
+                        class="u-xxs-avatar mr-2"
+                      />
+                    </div>
+                  <p class="alt-header font-weight-medium">BMC Helix</p>
+                </div>
+              </th>
+              <th>
+                <div class="flex-row align-center">
+                    <div>
+                        <img
+                        src="https://res.cloudinary.com/daog6scxm/image/upload/v1737649984/cms/alternatives/jira-service-management/Zendesk_logo_square_zfq9eb.svg"
+                        class="u-xxs-avatar mr-2"
+                      />
+                    </div>
+                    <p class="alt-header font-weight-medium">Zendesk</p>
+                </div>
+            </th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr class="">
+                <td class="text-xs" data-title="">Platform Type</td>
+                <td class="text-xs" data-title="Jira">
+                  <div class="flex-row align-center">
+                  ITSM
+                  </div>
+                </td>
+                <td class="text-xs" data-title="Budibase">
+                  <div class="flex-row align-center">
+                  Low-Code
+                  </div>
+                </td>
+                <td class="text-xs" data-title="ServiceNow">
+                  ITSM
+                </td>
+                <td class="text-xs" data-title="FreshService">ITSM</td>
+                <td class="text-xs" data-title="ManageEngine">
+                  ITSM
+                </td>
+                <td class="text-xs" data-title="SolarWinds">
+                  ITSM
+                </td>
+                <td class="text-xs" data-title="SysAid">
+                  ITSM
+                </td>
+                <td class="text-xs" data-title="BMC Helix">
+                  ITSM
+                </td>
+                <td class="text-xs" data-title="ZenDesk">
+                  Help Desk
+                </td>
+                </tr>
+
+            <tr class="">
+              <td class="text-xs" data-title="">Pricing Model</td>
+              <td class="text-xs" data-title="Jira">
+                Per-agent
+              </td>
+              <td class="text-xs" data-title="Budibase">
+                Per-user/creator +<br>Creator-only
+              </td>
+              <td class="text-xs" data-title="ServiceNow">
+                Custom
+              </td>
+              <td class="text-xs" data-title="FreshService">Per-agent</td>
+              <td class="text-xs" data-title="ManageEngine">
+                Per-agent
+              </td>
+              <td class="text-xs" data-title="SolarWinds">
+                Per-agent
+              </td>
+              <td class="text-xs" data-title="SysAid">
+                Custom
+              </td>
+              <td class="text-xs" data-title="BMC Helix">
+                Custom
+              </td>
+              <td class="text-xs" data-title="ZenDesk">
+                Per-agent
+              </td>
+              </tr>
+
+              <tr class="">
+                <td class="text-xs" data-title="">Cloud</td>
+                <td class="text-xs" data-title="Jira">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+                <td class="text-xs" data-title="Budibase">
+                   <span class="tag-forestgreen">Yes</span>
+                </td>
+                <td class="text-xs" data-title="ServiceNow">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+                <td class="text-xs" data-title="FreshService">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+                <td class="text-xs" data-title="ManageEngine">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+                <td class="text-xs" data-title="SolarWinds">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+                <td class="text-xs" data-title="SysAid">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+                <td class="text-xs" data-title="BMC Helix">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+                <td class="text-xs" data-title="ZenDesk">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+                </tr>
+
+ <tr class="">
+                    <td class="text-xs" data-title="">Self-Hosting</td>
+                    <td class="text-xs" data-title="Jira">
+                        <span class="tag-forestgreen">Yes</span>
+                    </td>
+                    <td class="text-xs" data-title="Budibase">
+                       <span class="tag-forestgreen">Yes</span>
+                    </td>
+                    <td class="text-xs" data-title="ServiceNow">
+                        <span class="tag-forestgreen">Yes</span>
+                    </td>
+                    <td class="text-xs" data-title="FreshService">
+                        <span class="tag-dark">No</span>
+                    </td>
+                    <td class="text-xs" data-title="ManageEngine">
+                        <span class="tag-forestgreen">Yes</span>
+                    </td>
+                    <td class="text-xs" data-title="SolarWinds">
+                        <span class="tag-forestgreen">Yes</span>
+                    </td>
+                    <td class="text-xs" data-title="SysAid">
+                        <span class="tag-forestgreen">Yes</span>
+                    </td>
+                    <td class="text-xs" data-title="BMC Helix">
+                        <span class="tag-forestgreen">Yes</span>
+                    </td>
+                    <td class="text-xs" data-title="ZenDesk">
+                        <span class="tag-dark">No</span>
+                    </td>
+                    </tr>
+
+
+                    <tr class="">
+                        <td class="text-xs" data-title="">SSO</td>
+                        <td class="text-xs" data-title="Jira">
+                            <span class="tag-dark">Paid plan</span>
+                        </td>
+                        <td class="text-xs" data-title="Budibase">
+                            <span class="tag-forestgreen">Free</span>
+                        </td>
+                        <td class="text-xs" data-title="ServiceNow">
+                            <span class="tag-dark">Paid plan</span>
+                        </td>
+                        <td class="text-xs" data-title="FreshService">
+                            <span class="tag-dark">Paid plan</span>
+                        </td>
+                        <td class="text-xs" data-title="ManageEngine">
+                            <span class="tag-dark">Paid plan</span>
+                        </td>
+                        <td class="text-xs" data-title="SolarWinds">
+                            <span class="tag-dark">Paid plan</span>
+                        </td>
+                        <td class="text-xs" data-title="SysAid">
+                            <span class="tag-dark">Paid plan</span>
+                        </td>
+                        <td class="text-xs" data-title="BMC Helix">
+                            <span class="tag-dark">Paid plan</span>
+                        </td>
+                        <td class="text-xs" data-title="ZenDesk">
+                            <span class="tag-dark">Paid plan</span>
+                        </td>
+                        </tr>
+
+                        <tr class="">
+                            <td class="text-xs" data-title="">Open-Source</td>
+                            <td class="text-xs" data-title="Jira">
+                                <span class="tag-dark">No</span>
+                            </td>
+                            <td class="text-xs" data-title="Budibase">
+                                <span class="tag-forestgreen">Yes</span>
+                            </td>
+                            <td class="text-xs" data-title="ServiceNow">
+                                <span class="tag-dark">No</span>
+                            </td>
+                            <td class="text-xs" data-title="FreshService">
+                                <span class="tag-dark">No</span>
+                            </td>
+                            <td class="text-xs" data-title="ManageEngine">
+                                <span class="tag-dark">No</span>
+                            </td>
+                            <td class="text-xs" data-title="SolarWinds">
+                                <span class="tag-dark">No</span>
+                            </td>
+                            <td class="text-xs" data-title="SysAid">
+                                <span class="tag-dark">No</span>
+                            </td>
+                            <td class="text-xs" data-title="BMC Helix">
+                                <span class="tag-dark">No</span>
+                            </td>
+                            <td class="text-xs" data-title="ZenDesk">
+                                <span class="tag-dark">No</span>
+                            </td>
+                            </tr>
+
+                            <tr class="">
+                                <td class="text-xs" data-title="">Query external DBs</td>
+                                <td class="text-xs" data-title="Jira">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                <td class="text-xs" data-title="Budibase">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                <td class="text-xs" data-title="ServiceNow">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                <td class="text-xs" data-title="FreshService">
+                                    <span class="tag-dark">No</span>
+                                </td>
+                                <td class="text-xs" data-title="ManageEngine">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                <td class="text-xs" data-title="SolarWinds">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                <td class="text-xs" data-title="SysAid">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                <td class="text-xs" data-title="BMC Helix">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                <td class="text-xs" data-title="ZenDesk">
+                                    <span class="tag-dark">No</span>
+                                </td>
+                                </tr>
+
+                                <tr class="">
+                                    <td class="text-xs" data-title="">API</td>
+                                    <td class="text-xs" data-title="Jira">
+                                        <span class="tag-forestgreen">Yes</span>
+                                    </td>
+                                    <td class="text-xs" data-title="Budibase">
+                                        <span class="tag-forestgreen">Yes</span>
+                                    </td>
+                                    <td class="text-xs" data-title="ServiceNow">
+                                        <span class="tag-forestgreen">Yes</span>
+                                    </td>
+                                    <td class="text-xs" data-title="FreshService">
+                                        <span class="tag-forestgreen">Yes</span>
+                                    </td>
+                                    <td class="text-xs" data-title="ManageEngine">
+                                        <span class="tag-forestgreen">Yes</span>
+                                    </td>
+                                    <td class="text-xs" data-title="SolarWinds">
+                                        <span class="tag-forestgreen">Yes</span>
+                                    </td>
+                                    <td class="text-xs" data-title="SysAid">
+                                        <span class="tag-forestgreen">Yes</span>
+                                    </td>
+                                    <td class="text-xs" data-title="BMC Helix">
+                                        <span class="tag-forestgreen">Yes</span>
+                                    </td>
+                                    <td class="text-xs" data-title="ZenDesk">
+                                        <span class="tag-forestgreen">Yes</span>
+                                    </td>
+                                    </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="mx-md-auto mb-4 mt-4 container-8">
+      {{ index $content_parts 3 | safe.HTML}}
+    </div>
+   
+    
+  
+  </article>
+</main>
+
+<!--Article-->
+
+{{ partial "cta.html" . }} {{ partial "footer.html" . }}
