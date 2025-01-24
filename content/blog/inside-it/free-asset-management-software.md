@@ -103,7 +103,7 @@ Custom enterprise pricing provides enforceable SSO, air-gapped deployments, envi
 
 Check out our [pricing page](https://budibase.com/pricing/) to learn more.
 
-{{< cta >}}
+{{< template-cta template = "assetManagement" >}}
 
 ### 2. Ralph 3
 

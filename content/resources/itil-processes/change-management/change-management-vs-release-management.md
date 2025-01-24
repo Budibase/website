@@ -56,7 +56,7 @@ Our primary method is often allowing users to submit change requests through for
 
 Similarly, change management deals with how we prioritize different initiatives based on their associated costs, risks, and benefits. This culminates in a change schedule, which allows us to manage the delivery of concurrent initiatives in line with their required resources.
 
-Take a look at our guide to [ITIL change management](https://budibase.com/resources/itil-processes/change-management/) to learn more.
+{{< template-cta template = "changeManagement" >}}
 
 ### Release management
 

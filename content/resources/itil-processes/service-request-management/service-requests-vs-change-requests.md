@@ -74,6 +74,8 @@ Change requests also comprise the data object that’s created, along with the i
 
 Therefore, change requests are also best handled using dedicated forms or ticketing tools as part of our change control practice within ITIL.
 
+{{< template-cta template = "changeManagement" >}}
+
 ### Key differences
 
 We’ve already alluded to a couple of important differences between service requests vs change requests. 

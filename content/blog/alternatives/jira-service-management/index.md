@@ -141,7 +141,7 @@ Premium licenses bill at $50 per month for creators and $5 for end users, provid
 
 Our Enterprise plan offers creator-only pricing, making it ideal for large-scale ITSM processes. Unlike most tools in this space, you only pay for app-builders - not service agents. Enterprise customers also get enforceable SSO, air-gapped deployments, and custom LLM configs.
 
-{{< cta >}}
+{{< template-cta template = "changeManagement" >}}
 
 ### 2. ServiceNow
 

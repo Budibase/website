@@ -62,6 +62,8 @@ This includes accounting for data interactions across all areas of service deliv
 
 Depending on the needs of individual organizations and the resources they have available, configuration management may be a dedicated function. Alternatively, responsibility for managing CI data might be shared among the relevant functional teams.
 
+{{< template-cta template = "changeManagement" >}}
+
 ### What is change management?
 
 As the name suggests, change management is concerned with how we handle and administer change in our IT estate. Within ITIL V4, however, different aspects of this are divided across distinct practices, known as change control and organizational change management.

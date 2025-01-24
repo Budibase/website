@@ -135,7 +135,7 @@ Budibase is perfectly positioned to empower non-developers within IT teams to sh
 
 Our platform is the top choice for solution architects, data professionals, systems engineers, automation specialists, infrastructure professionals, IT ops colleagues, service desk teams, and other IT pros who need to build professional, functional tools for handling internal processes.
 
-{{< cta >}}
+{{< template-cta template = "changeManagement" >}}
 
 ### Pricing
 
