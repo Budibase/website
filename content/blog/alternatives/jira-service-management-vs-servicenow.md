@@ -5,16 +5,6 @@ date = 2025-01-29
 description = "Check out our in-depth comparison of ServiceNow and JSM."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Jira Service Management vs ServiceNow"
-[[softwareApplications]]
-name = "ServiceNow"
-applicationCategory = "businessApplication"
-operatingSystem = "Web"
-url = "https://www.servicenow.com/"
-[[softwareApplications]]
-name = "Jira Service Management"
-applicationCategory = "businessApplication"
-operatingSystem = "Web"
-url = "https://www.atlassian.com/software/jira/service-management"
 
 +++
 
