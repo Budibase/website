@@ -55,7 +55,7 @@ We’ll provide all of the queries you need to create our database and build alo
 
 Budibase also gives you the power to choose how and where you deploy your internal tools. We offer a cloud platform, as well as optional self-hosting on your own infrastructure.
 
-{{< vimeo id=”1053113559” >}}
+{{< vimeo id="1053113559" title="Compliance Management System" >}}
 
 ## How to build a compliance management system in 6 steps
 
@@ -640,7 +640,7 @@ Once we’re happy, we can hit `Publish` to push our new application live.
 
 Here’s a reminder of what the finished product should look like.
 
-{{< vimeo id=”1053113559” >}}
+{{< vimeo id="1053113559" title="Compliance Management System" >}}
 
 ## Turn data into action with Budibase
 
