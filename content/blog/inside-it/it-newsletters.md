@@ -8,15 +8,11 @@ title = "Top 15 IT Newsletters for 2025"
 
 +++
 
-The IT department is probably the team under the greatest pressure to stay informed. 
-
-The problem is finding the time. IT teams already have some of the busiest, most varied workloads across the organization. 
+The IT department is probably the team under the greatest pressure to stay informed. The problem is finding the time. IT teams already have some of the busiest, most varied workloads across the organization. 
 
 How do you carve an hour to get to grips with the latest AI fads when you’ve got a full backlog of tickets to work through?
 
-To try and alleviate this pressure, countless brands run IT newsletters, claiming to give you the key facts and insights, directly to your mailbox.
-
-But you still only want to bother with the good ones. Otherwise, you’re back at square one - only with a more chaotic inbox every morning.
+To try and alleviate this pressure, countless brands run IT newsletters, claiming to give you the key facts in your mailbox. But you still only want to bother with the good ones. Otherwise, you’re back at square one - only with a more chaotic inbox every morning.
 
 Today, we’re cutting through the noise to give you the best publications under a range of IT themes, including
 
