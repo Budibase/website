@@ -58,11 +58,11 @@ This digest-style approach is great if you want an overview of the top trending 
 
 However, other newsletters go into more granular detail on specific themes. TLDR can also be a little light on topics that are most applicable to IT teams in large organizations, casting a broader net for its readership.
 
-🕒 **Frequency** - Daily & weekly.
-
-✅ **`Great for`** - A concise, daily summary of the top tech topics.
-
-❌ `Look elsewhere for` - More detailed, actionable insights for enterprise IT teams.
+> 🕒 **Frequency** - Daily & weekly.
+>
+> ✅ **Great for** - A concise, daily summary of the top tech topics.
+>
+> ❌ **Look elsewhere for** - More detailed, actionable insights for enterprise IT teams.
 
 #### 2. IT Brew
 
@@ -74,11 +74,11 @@ For one thing, they primarily publish original journalism rather than syndicatin
 
 This covers a range of themes that are relevant to enterprise IT teams, including ITOps, security, strategy, data, hardware, and more. On the flip side, since it’s mainly original content, IT Brew’s individual issues can sometimes cover less ground than competitors.
 
-🕒 `Frequency` - Daily.
-
-✅ `Great for` - Insightful, original stories on key IT topics.
-
-❌ `Look elsewhere for` - Broader, digest-style editions.
+> 🕒 **Frequency** - Daily.
+>
+> ✅ **Great for** - Insightful, original stories on key IT topics.
+>
+> ❌ **Look elsewhere for** - Broader, digest-style editions.
 
 #### 3. Hacker Newsletter
 
@@ -90,11 +90,11 @@ Hacker News rewards novel, niche stories. Often, these relate to highly granular
 
 As such, Hacker Newsletter is undoubtedly informative, unique, and entertaining. But it can also vary widely in terms of the topics included, so you might not see actionable value from every edition.
 
-🕒 `Frequency` - Weekly.
-
-✅ `Great for` - Unique takes on a huge range of topics.
-
-❌ `Look elsewhere for` - More specific, actionable insights on running an IT team.
+> 🕒 **Frequency** - Weekly.
+>
+> ✅ **Great for** - Unique takes on a huge range of topics.
+>
+> ❌ **Look elsewhere for** - More specific, actionable insights on running an IT team.
 
 ### Service management
 
@@ -110,11 +110,11 @@ Since it’s backed by an enterprise-grade ITSM platform, JtITG provides origina
 
 Despite being a good source of information for underlying IT processes, JtITG typically doesn’t get into more technical detail or explore specific solutions.
 
-🕒 `Frequency` - Irregular.
-
-✅ `Great for` - Insightful content on ITSM processes.
-
-❌ `Look elsewhere for` - A traditional, regularized newsletter.
+> 🕒 **Frequency** - Irregular.
+>
+> ✅ **Great for** - Insightful content on ITSM processes.
+>
+> ❌ **Look elsewhere for** - A traditional, regularized newsletter.
 
 #### 5. iTSM Group
 
@@ -126,11 +126,11 @@ Their content is well-researched and informed, and could be a good option if you
 
 However, it also mixes in their own company news. Since they’re also a ServiceNow, they also focus heavily on developments within it as a platform.
 
-🕒 `Frequency` - Monthly,
-
-✅ `Great for` - Regulatory topics, enterprise management, ServiceNow content.
-
-❌ `Look elsewhere for` - Broader industry news, more frequent publication, or content on other solutions.
+> 🕒 **Frequency** - Monthly,
+>
+> ✅ **Great for** - Regulatory topics, enterprise management, ServiceNow content.
+>
+> ❌ **Look elsewhere for** - Broader industry news, more frequent publication, or content on other solutions.
 
 #### 6. ITSM.tools
 
@@ -142,11 +142,11 @@ Within the ITSM niche, this is highly focused on ITIL, service desks, and employ
 
 Again, though, ITSM.Tools is primarily centered around original content, so it might not quite fit the bill if you’re looking for a more general briefing newsletter.
 
-🕒 `Frequency` - Not fixed.
-
-✅ `Great for` - ITIL-focused content, service desk management topics.
-
-❌ `Look elsewhere for` - Syndicated or digest-style content, daily briefings.
+> 🕒 **Frequency** - Not fixed.
+>
+> ✅ **Great for** - ITIL-focused content, service desk management topics.
+>
+> ❌ **Look elsewhere for** - Syndicated or digest-style content, daily briefings.
 
 ### Tech stacks
 
@@ -162,11 +162,11 @@ It’s specifically focused on the changing face of software development, with r
 
 This is a great resource if you’re heavily development-focused, but it might not be quite the ticket if you’re more focused on general IT or enterprise use cases.
 
-🕒 `Frequency` - Weekly.
-
-✅ `Great for` - In-depth, developer-centric topics.
-
-❌ `Look elsewhere for` - General IT, service management, enterprise content.
+> 🕒 **Frequency** - Weekly.
+>
+> ✅ **Great for** - In-depth, developer-centric topics.
+>
+> ❌ **Look elsewhere for** - General IT, service management, enterprise content.
 
 #### 8. Serverless Framework
 
@@ -178,11 +178,11 @@ So expect a tight focus on deployment, CI/CD, software architecture, testing, an
 
 Like Changelog Weekly, Serverless Framework is a great resource for topics within their niche but may be less applicable to more general IT pros.
 
-🕒 `Frequency` - Not fixed.
-
-✅ `Great for` - Serverless infrastructure and technology.
-
-❌ `Look elsewhere for` - Content on other aspects of IT.
+> 🕒 **Frequency** - Not fixed.
+>
+> ✅ **Great for** - Serverless infrastructure and technology.
+>
+> ❌ **Look elsewhere for** - Content on other aspects of IT.
 
 #### 9. Level Up
 
@@ -194,11 +194,11 @@ This is all mixed in with the personal experience of Level Up’s author, Patric
 
 However, it’s worth noting that this may not be the most suitable for readers looking for a broader overview of topics, as Kua tends to primarily share more in-depth content.
 
-🕒 `Frequency` - Weekly.
-
-✅ `Great for` - A unique, insightful curation of engineering topics.
-
-❌ `Look elsewhere for` - More news-style, digested syndication.
+> 🕒 **Frequency** - Weekly.
+>
+> ✅ **Great for** - A unique, insightful curation of engineering topics.
+>
+> ❌ **Look elsewhere for** - More news-style, digested syndication.
 
 ### Emerging tech
 
@@ -214,11 +214,11 @@ This folds in some more up-to-date industry news syndication, but the bigger foc
 
 The Algorithm is an excellent resource for leaders in this space, but may be less relevant for more use-case-specific or directly actionable content for IT teams.
 
-🕒 `Frequency` - Weekly.
-
-✅ `Great for` - Well-researched content relating to AI policy and developments.
-
-❌ `Look elsewhere for` - Specific, actionable insights on using AI for specific IT use cases.
+> 🕒 **Frequency** - Weekly.
+>
+> ✅ **Great for** - Well-researched content relating to AI policy and developments.
+>
+> ❌ **Look elsewhere for** - Specific, actionable insights on using AI for specific IT use cases.
 
 #### 11. Future Crunch
 
@@ -230,11 +230,11 @@ Naturally, this pulls in emerging technology topics, such as quantum computing, 
 
 So, it’s one that will no doubt be of interest to many IT pros, even if the content itself isn’t always directly relevant to their roles.
 
-🕒 `Frequency` - Weekly.
-
-✅ `Great for` - Positive news stories covering science, technology, and more.
-
-❌ `Look elsewhere for` - Content that’s more directly applicable to IT professionals.
+> 🕒 **Frequency** - Weekly.
+>
+> ✅ **Great for** - Positive news stories covering science, technology, and more.
+>
+> ❌ **Look elsewhere for** - Content that’s more directly applicable to IT professionals.
 
 #### 12. Import AI
 
@@ -246,11 +246,11 @@ So, you can expect well-informed, cogent articles on a mixture of AI’s role in
 
 It’s a great choice for readers who are already well-informed about working with AI, but it may be a bit too technically detailed for readers who are less up-to-speed.
 
-🕒 `Frequency` - Weekly.
-
-✅ `Great for` - Granular, highly technical AI topics.
-
-❌ `Look elsewhere for` - More detailed content on using AI for specific use cases.
+> 🕒 **Frequency** - Weekly.
+>
+> ✅ **Great for** - Granular, highly technical AI topics.
+>
+> ❌ **Look elsewhere for** - More detailed content on using AI for specific use cases.
 
 ### Business management, skills, and industry news
 
@@ -266,11 +266,11 @@ This also ties in original research, webinars, and events, along with more speci
 
 This can be an invaluable resource for IT professionals who want to develop their soft skills or advance their careers, although it doesn’t typically cover more technical or solution-focused content.
 
-🕒 `Frequency` - Weekly.
-
-✅ `Great for` - Leadership and management skills for IT professionals.
-
-❌ `Look elsewhere for` - Solutions-focused or technical content.
+> 🕒 **Frequency** - Weekly.
+>
+> ✅ **Great for** - Leadership and management skills for IT professionals.
+>
+> ❌ **Look elsewhere for** - Solutions-focused or technical content.
 
 #### 14. CIO Center Stage
 
@@ -282,11 +282,11 @@ The really big benefit is we’re hearing from people with hands-on experience o
 
 On the flip side, IT leaders might not always be in the weeds when it comes to rolling out specific solutions. Additionally, some of what’s included might not be applicable to smaller organizations.
 
-🕒 `Frequency` - Every other Wednesday.
-
-✅ `Great for` - Hands-on expertise from top IT leaders.
-
-❌ `Look elsewhere for` - More practical, on-the-ground stories.
+> 🕒 **Frequency** - Every other Wednesday.
+>
+> ✅ **Great for** - Hands-on expertise from top IT leaders.
+>
+> ❌ **Look elsewhere for** - More practical, on-the-ground stories.
 
 #### 15. Lenny’s Newsletter
 
@@ -298,8 +298,8 @@ One particular strength is Lenny’s regular features on how household SaaS tool
 
 Lenny’s is also a great source of career information, especially around soft skills for professionals in technical roles.
 
-🕒 `Frequency` - Weekly.
-
-✅ `Great for` - Product development processes and insights.
-
-❌ `Look elsewhere for` - Coverage of broader IT subjects.
+> 🕒 **Frequency** - Weekly.
+>
+> ✅ **Great for** - Product development processes and insights.
+>
+> ❌ **Look elsewhere for** - Coverage of broader IT subjects.
