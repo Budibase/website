@@ -58,9 +58,9 @@ This digest-style approach is great if you want an overview of the top trending 
 
 However, other newsletters go into more granular detail on specific themes. TLDR can also be a little light on topics that are most applicable to IT teams in large organizations, casting a broader net for its readership.
 
-🕒 `Frequency` - Daily & weekly.
+🕒 **Frequency** - Daily & weekly.
 
-✅ `Great for` - A concise, daily summary of the top tech topics.
+✅ **`Great for`** - A concise, daily summary of the top tech topics.
 
 ❌ `Look elsewhere for` - More detailed, actionable insights for enterprise IT teams.
 
