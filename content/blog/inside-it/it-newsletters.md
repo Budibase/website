@@ -128,7 +128,7 @@ However, it also mixes in their own company news. Since they’re also a Service
 >
 > ❌ **Look elsewhere for** - Broader industry news, more frequent publication, or content on other solutions.
 
-#### 6. ITSM.tools
+#### 6. ITSM.Tools
 
 ![ITSM.Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1738766043/cms/it-newsletters/ITSM.Tools_sjrsmx.webp "ITSM.Tools")
 
