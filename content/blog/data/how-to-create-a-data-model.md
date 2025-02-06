@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2024-03-22T23:00:00Z
+date = 2024-05-22T23:00:00Z
 description = "In this guide, we’ll walk through everything you need to know to create a data model for your next app project."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1653319610/cms/What_is_database_schema_header_ahhxph.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1653319610/cms/What_is_database_schema_header_ahhxph.png"]
