@@ -4,7 +4,4 @@ description: Budibase is the low-code platform of choice for category leading co
 type: customers
 layout: list
 date: "2021-02-02"
-images:
-- /img/meta-images/customers.png
-- budibase-logo.jpg
 ---
