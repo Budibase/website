@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 125 950;
   src: local('InterVar'),
-       url('/fonts/InterVar.woff2') format('woff2'); 
+       url('/fonts/InterVar.woff2') format('woff2');
 }
 
 html {
@@ -336,7 +336,7 @@ to take effect, as the specificity is the same */
 #change-request-template::backdrop , #information-request-form::backdrop, #visitor-check-in-form::backdrop {
   background: rgba(21, 27, 38, 0.85);
 }
- 
+
 iframe {
   aspect-ratio: 9/12;
   width: 100%;
@@ -403,20 +403,20 @@ iframe::backdrop {
   top: 0.5rem;
   filter: grayscale(100) brightness(0);
   transition: opacity 150ms ease-in-out;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .close-btn:hover {
-  filter: grayscale(8) brightness(2); 
+  filter: grayscale(8) brightness(2);
 }
 
 .sr-only:not(:focus):not(:active) {
-  clip: rect(0 0 0 0); 
+  clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
-  white-space: nowrap; 
+  white-space: nowrap;
   width: 1px;
 }
 
@@ -1223,7 +1223,7 @@ a:focus {
 }
 
 .hero-description {
-  font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;    
+  font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   font-variation-settings: "wght" 460;
   font-size: 20px;
   line-height: 1.5;
@@ -1233,7 +1233,7 @@ a:focus {
 }
 
 .hero-description-lg {
-  font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;    
+  font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   font-variation-settings: "wght" 460;
   font-size: 22px;
   line-height: 1.5;
@@ -1245,7 +1245,7 @@ a:focus {
 
 @media (min-width: 1200px) {
   .hero-description-lg {
-    font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;    
+    font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     font-variation-settings: "wght" 460;
     font-size: 24px;
     line-height: 1.5;
@@ -1258,7 +1258,7 @@ a:focus {
 
 @media (min-width: 1600px) {
   .hero-description-lg {
-    font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;    
+    font-family: 'InterVar', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     font-variation-settings: "wght" 460;
     font-size: 26px;
     line-height: 1.5;
@@ -1530,7 +1530,7 @@ h6,
 
 
 .arrow-indigo {
-  display: inline-block;  
+  display: inline-block;
   height: 54px;
   margin-left: 0px;
   margin-right: 2px;
@@ -1552,12 +1552,12 @@ h6,
   height: 0px;
   width: 0px;
   margin-right: -18px;
-  right: 0; 
+  right: 0;
 }
 
 @media (min-width: 600px) {
 .arrow-indigo {
-  display: inline-block;  
+  display: inline-block;
   height: 64px;
   margin-left: 0px;
   margin-right: 2px;
@@ -1579,13 +1579,13 @@ h6,
   height: 0px;
   width: 0px;
   margin-right: -18px;
-  right: 0; 
+  right: 0;
 }
 }
 
 
 .arrow-coral {
-  display: inline-block;  
+  display: inline-block;
   height: 54px;
   margin-left: 0px;
   margin-right: 2px;
@@ -1607,12 +1607,12 @@ h6,
   height: 0px;
   width: 0px;
   margin-right: -18px;
-  right: 0; 
+  right: 0;
 }
 
 @media (min-width: 600px) {
 .arrow-coral {
-  display: inline-block;  
+  display: inline-block;
   height: 64px;
   margin-left: 0px;
   margin-right: 2px;
@@ -1634,12 +1634,12 @@ h6,
   height: 0px;
   width: 0px;
   margin-right: -18px;
-  right: 0; 
+  right: 0;
 }
 }
 
 .arrow-lime {
-  display: inline-block;  
+  display: inline-block;
   height: 72px;
   margin-left: 0px;
   margin-right: 28px;
@@ -1661,7 +1661,7 @@ h6,
   height: 0px;
   width: 0px;
   margin-right: -18px;
-  right: 0; 
+  right: 0;
 }
 
 hr {
@@ -2126,41 +2126,41 @@ pre>code {
 
 @media (min-width: 1000px) {
   .hero-content {
-    grid-area: 1 / 1 / 4 / 11; 
+    grid-area: 1 / 1 / 4 / 11;
     width: 80%;
   }
 }
 
 @media (min-width: 1000px) {
-  .hero-media { 
-    grid-area: 1 / 12 / 2 / 25; 
+  .hero-media {
+    grid-area: 1 / 12 / 2 / 25;
   }
 }
 
 @media (min-width: 1200px) {
   .hero-content {
-    grid-area: 1 / 2 / 4 / 11; 
+    grid-area: 1 / 2 / 4 / 11;
     width: 100%;
   }
 }
 
 @media (min-width: 1200px) {
-  .hero-media { 
-    grid-area: 1 / 11 / 4 / 25; 
+  .hero-media {
+    grid-area: 1 / 11 / 4 / 25;
   }
 }
 
 @media (min-width: 1600px) {
   .hero-content {
-    grid-area: 1 / 2 / 4 / 11; 
+    grid-area: 1 / 2 / 4 / 11;
     width: 100%;
     padding: 0;
   }
 }
 
 @media (min-width: 1600px) {
-  .hero-media { 
-    grid-area: 1 / 11 / 4 / 25; 
+  .hero-media {
+    grid-area: 1 / 11 / 4 / 25;
   }
 }
 
@@ -2282,9 +2282,9 @@ pre>code {
     align-items: start;
   }
 }
-    
-.forms-benefit-title { 
-  grid-area: 1 / 1 / 4 / 2; 
+
+.forms-benefit-title {
+  grid-area: 1 / 1 / 4 / 2;
   align-items: start;
   position: sticky;
 }
@@ -2620,7 +2620,7 @@ pre>code {
 }
 
 .noise {
-  background-image: 
+  background-image:
     url(https://res.cloudinary.com/daog6scxm/image/upload/v1700864763/wallpapers/noise-light_1_wqb2oj.png);
 }
 
@@ -4324,13 +4324,13 @@ details[open]>summary {
       padding: 0 15px;
     }
   }
-  
- .logos-content { 
-  grid-area: 1 / 2 / 2 / 5; 
+
+ .logos-content {
+  grid-area: 1 / 2 / 2 / 5;
   padding: 0 12px;
 }
- .logos-media { 
-  grid-area: 1 / 5 / 2 / 11; 
+ .logos-media {
+  grid-area: 1 / 5 / 2 / 11;
 }
 
 .trusted-by-logos-grid {
@@ -5435,7 +5435,7 @@ details[open]>summary {
 }
 
 .solutions-tab-wrapper h5.active {
-  color: blue !important; 
+  color: blue !important;
 }
 
 /* Style the tab */
@@ -5776,7 +5776,7 @@ ul {
   width: 100%;
   margin-bottom: 6px;
   text-align: center;
-  
+
 }
 
 .pricing-table-feature {
@@ -5861,7 +5861,7 @@ ul {
 }
 
 
-/* nonprofit */ 
+/* nonprofit */
 .nonprofit-wrapper {
   display: flex;
   flex-direction: column;
@@ -6193,7 +6193,7 @@ ul {
   width: 100%;
   margin-bottom: 6px;
   text-align: center;
-  
+
 }
 
 .alt-table-row {
@@ -6275,7 +6275,7 @@ ul {
     margin: 0 !important;
   }
 
-  
+
   .alt-header > * {
     display: block;
   }
@@ -6286,7 +6286,7 @@ ul {
   .alt-dek {
     font-size: 1em;
   }
-  
+
   .alt-source {
     margin: 0;
     font-size: 0.75em;
@@ -6295,11 +6295,11 @@ ul {
   .alt-source .pre-colon {
     text-transform: uppercase;
   }
-  
+
   .alt-source .post-colon {
     font-weight: bold;
   }
-  
+
   /* table */
   table.alt-table {
     width: 100%;
@@ -6315,7 +6315,7 @@ ul {
   }
   table.alt-table tbody {
     overflow-x: hidden;
-  } 
+  }
   table.alt-table tr {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -6363,13 +6363,13 @@ ul {
   td.number {
     text-align: right;
   }
-  
+
   /* media queries */
   @media screen and (max-width: 600px) {
     .alt-container {
       max-width: 600px;
       margin: 0 auto;
-      
+
     }
     table.alt-table {
       width: 100%;
@@ -7510,7 +7510,7 @@ ul {
     grid-column-gap: 1rem;
     grid-template-columns: repeat(12, 1fr);
     max-width: 1288px;
-    margin: 0 auto;  
+    margin: 0 auto;
   }
 }
 
@@ -8063,6 +8063,7 @@ ul {
     align-items: center;
     gap: 1.25rem;
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -8110,6 +8111,7 @@ ul {
   position: absolute;
   top: 20px;
   left: 20px;
+  right: 20px;
   z-index: 2;
 }
 
@@ -8800,9 +8802,9 @@ select {
   background: url("data:image/svg+xml,<svg height='10px' width='10px' viewBox='0 0 16 16' fill='%23000000' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>") no-repeat;
   background-position: calc(100% - 0.75rem) center !important;
   -moz-appearance:none !important;
-  -webkit-appearance: none !important; 
+  -webkit-appearance: none !important;
   appearance: none !important;
-  padding-right: 2rem !important;  
+  padding-right: 2rem !important;
   -webkit-background-position: right 19px top 50%;
   background-repeat: no-repeat;
 }
@@ -18657,7 +18659,7 @@ button.bg-blue:focus {
       font-size: 48px;
       line-height: 1.15;
     }
-  
+
     .article h1::before {
       content: "";
       display: block;
@@ -18671,7 +18673,7 @@ button.bg-blue:focus {
   .article h2 {
     font-family: var(--headline-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     font-feature-settings: var(--headline-font-features);
-    font-variation-settings: 'wght' 620 !important;    
+    font-variation-settings: 'wght' 620 !important;
     text-rendering: optimizeLegibility;
     margin-top: 3.5rem;
     margin-bottom: .75rem;
@@ -18686,7 +18688,7 @@ button.bg-blue:focus {
   .article h2 {
     font-family: var(--headline-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     font-feature-settings: "ss12" off,"liga" on;
-    font-variation-settings: 'wght' 620 !important;    
+    font-variation-settings: 'wght' 620 !important;
     text-rendering: optimizeLegibility;
     margin-top: 3.5rem;
     margin-bottom: .75rem;
@@ -18708,7 +18710,7 @@ button.bg-blue:focus {
   .article h3 {
     font-family: var(--headline-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     font-feature-settings: var(--headline-font-features);
-    font-variation-settings: 'wght' 550 !important;    
+    font-variation-settings: 'wght' 550 !important;
     margin-top: 2rem;
     font-size: 26px;
     color: var(--text-color-dark);
@@ -18725,7 +18727,7 @@ button.bg-blue:focus {
   .article h4 {
     font-family: var(--headline-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     font-feature-settings: var(--headline-font-features);
-    font-variation-settings: 'wght' 550 !important;    
+    font-variation-settings: 'wght' 550 !important;
     margin-top: 2rem;
     margin-bottom: .5rem;
     font-size: 20px;
@@ -18821,7 +18823,7 @@ button.bg-blue:focus {
     color: var(--bb-indigo-dark);
     text-decoration: underline;
   }
-  
+
   .article a:hover {
     cursor: pointer;
     color: var(--bb-indigo);
