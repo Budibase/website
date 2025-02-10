@@ -74,7 +74,7 @@ Ultimately, the point is to empower users to do more with their data without req
 
 Given Smartsheet’s focus, it’s obviously particularly popular with project managers, operations specialists, and team leads. However, it’s popular with a range of roles and personas - given its comparatively low technical skill requirement.
 
-In many, Smartsheet is positioned more toward large teams. 
+In many, Smartsheet is positioned more toward large teams.
 
 So, there’s extensive functionality aimed at enterprise users, including SAML-based SSO, custom email domains, directory sync, and more - although Smartsheet’s pricing model makes it an attractive option for smaller teams, too.
 
@@ -142,13 +142,13 @@ Budibase also provides enterprise-grade functionality and seamless developer exp
 
 #### Use cases
 
-Budibase is the fast, easy way to ship custom internal tools. 
+Budibase is the fast, easy way to ship custom internal tools.
 
 Thousands of teams in all sorts of industries choose our platform to ship forms, dashboards, CRUD apps, admin panels, ticketing systems, approval apps, inventory tools, directories, portals, scheduling systems, trackers, and more.
 
 Our platform is ideally suited to IT colleagues who need to ship secure, functional tools without overusing internal development resources.
 
-Major enterprises rely on Budibase to [save millions of dollars on data entry](https://budibase.com/customers/covanta/) and other basic administrative tasks.
+Major enterprises rely on Budibase to [save millions of dollars on data entry](https://budibase.com/customers/reworld/) and other basic administrative tasks.
 
 #### Prices
 
@@ -282,7 +282,7 @@ Many users complain that AppSheet is a good option for building relatively small
 
 Since AppSheet is an entirely no-code solution, it lacks much of the flexibility and scope for customization we’d expect with some of the other app builder tools we’ve looked at so far.
 
-On top of this, some AppSheet users report performance issues for more complex applications - as well as a steep learning curve for manipulating and using stored data while building UIs. 
+On top of this, some AppSheet users report performance issues for more complex applications - as well as a steep learning curve for manipulating and using stored data while building UIs.
 
 #### Pricing
 
@@ -294,7 +294,7 @@ To access the full range of supported data sources, we’ll need to opt for cust
 
 ## Smartsheet vs Budibase
 
-Now that we’ve seen a range of options from across the market, we can dive a little deeper into how Budibase and Smartsheet stack up against one another. 
+Now that we’ve seen a range of options from across the market, we can dive a little deeper into how Budibase and Smartsheet stack up against one another.
 
 Of course, this is a pretty big topic in and of itself - with a wide range of different decision factors and points of comparison that we could drill into.
 
@@ -370,7 +370,7 @@ Similarly, all of the platforms we’ve seen impose feature restrictions across 
 
 ### Scale
 
-The next thing we’ll need to consider is the scale of our usage. 
+The next thing we’ll need to consider is the scale of our usage.
 
 When assessing Smartsheet competitors, we’ll need to think about two distinct types of scales.
 

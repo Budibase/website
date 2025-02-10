@@ -14,16 +14,16 @@ Today, we’re announcing that we’ve raised $7M in Seed II funding led by Sign
 
 Since November 2021, 50k companies— from startups to enterprises — use Budibase to develop internal tools and automate workflows. Budibase’s platform and development experience are becoming the standard for high-performing IT teams, and the strong Budibase community is a hub for builders. Enterprises, Like Schnellecke, mention how Budibase helps them develop and innovate faster.
 
-“Those same apps, with Budibase, are now here in less than an hour. Colleagues were stunned by the data import functionality, seeing a sheet turn into a web app in minutes was the cherry on top.”  
+“Those same apps, with Budibase, are now here in less than an hour. Colleagues were stunned by the data import functionality, seeing a sheet turn into a web app in minutes was the cherry on top.”
 — Davide Lenzarini, IT manager, Schnellecke Logistics
 
 ## Helping companies streamline development and processes
 
-Platforms like Budibase have become even more critical amidst layoffs and tight budgets in a market like this. As businesses like Covanta, focus on optimization, there are huge savings to be made.
+Platforms like Budibase have become even more critical amidst layoffs and tight budgets in a market like this. As businesses like Reworld, focus on optimization, there are huge savings to be made.
 
-“Covanta expects to realize $3.2MM in savings due to the elimination of redundant data entry. This is critical in times like these when there are more jobs than people. We simply must reduce the amount of redundant low-value activities burdening our workforce. On top of that, we expect our data quality to improve significantly and bring more credibility to the metrics and KPIs we use to manage our business.”
+“Reworld expects to realize $3.2MM in savings due to the elimination of redundant data entry. This is critical in times like these when there are more jobs than people. We simply must reduce the amount of redundant low-value activities burdening our workforce. On top of that, we expect our data quality to improve significantly and bring more credibility to the metrics and KPIs we use to manage our business.”
 
-— Charles Link, Senior Director, Data and Analytics, Covanta
+— Charles Link, Senior Director, Data and Analytics, Reworld
 
 It’s our mission to help every company on the planet build their own tools, and we’re honored to see our monthly active users surpass 20,000. This is fantastic validation of the product and community we have built and, of course, provides us with a great opportunity to build a healthy and sustainable business for Budibase.
 
