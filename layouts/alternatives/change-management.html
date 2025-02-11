@@ -1,0 +1,312 @@
+{{ partial "head/header.html" . }} {{ partial "navigation.html" . }}
+
+<main id="content" role="main">
+  <article class="article">
+    <div class="space-1-bottom">
+      <img class="img-fluid" src="{{ .Params.cover }}" />
+    </div>
+    <div class="container-8 mx-auto">
+      <header class="my-6">
+        <h1 class="mt-2 mb-4">{{ .Title }}</h1>
+        {{ if (.Params.profilePic) }}
+        <img
+          class="u-avatar-4 rounded-circle mr-2"
+          src="{{ with .Params.profilePic }}{{ . }}{{ end }}"
+        />
+        {{ else }}
+        <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp" />
+        {{ end }}Published by {{ .Params.author }}, {{ .Date.Format
+        .Site.Params.dateform }}
+      </header>
+    </div>
+    <div class="mx-md-auto my-9 container-8">
+      {{ $content_parts := split .Content "||||||||||" }}
+      {{ index $content_parts 0 | safe.HTML}}
+  </div>
+
+  </div>
+    <div class="mx-md-auto container-8">
+      {{ $content_parts := split .Content "||||||||||" }}
+    </div>
+    <div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
+      <div class="alt-container">
+        <table class="alt-table no-scrollbar mx-auto">
+          <thead>
+            <tr>
+              <th></th>
+
+              <th class="">
+                <div class="flex-row align-center">
+                    <div>
+                        <img
+                          src="https://res.cloudinary.com/daog6scxm/image/upload/v1696515725/Branding/Assets/Symbol/RGB/Full%20Colour/Budibase_Symbol_RGB_FullColour_cbqvha_1_z5cwq2.svg"
+                          class="u-xxs-avatar mr-2"
+                        />
+                      </div>
+                  <p class="alt-header font-weight-medium">Budibase</p>
+                </div>
+              </th>
+              <th>
+                <div class="flex-row align-center">
+                    <div>
+                        <img
+                          src="https://res.cloudinary.com/daog6scxm/image/upload/v1737649984/cms/alternatives/jira-service-management/jira-icon-512x512-kkop6eik_bflzgl.webp"
+                          class="u-xxs-avatar mr-2"
+                        />
+                      </div>
+                  <p class="alt-header font-weight-medium">Jira</p>
+                </div>
+              </th>
+              <th>
+                <div class="flex-row align-center">
+                    <div>
+                        <img
+                          src="https://res.cloudinary.com/daog6scxm/image/upload/v1739291086/cms/alternatives/Wrike_Logo_fvziba.webp"
+                          class="u-xxs-avatar mr-2"
+                        />
+                      </div>
+                  <p class="alt-header font-weight-medium">Wrike</p>
+                </div>
+              </th>
+              <th class="">
+                <div class="flex-row align-center">
+                    <div>
+                        <img
+                        src="https://res.cloudinary.com/daog6scxm/image/upload/v1737649984/cms/alternatives/jira-service-management/BMC_logo_square_fon3j4.webp"
+                        class="u-xxs-avatar mr-2"
+                      />
+                    </div>
+                  <p class="alt-header font-weight-medium">BMC Helix</p>
+                </div>
+              </th>
+              <th>
+                <div class="flex-row align-center">
+                        <div>
+                        <img
+                        src="https://res.cloudinary.com/daog6scxm/image/upload/v1739291086/cms/alternatives/Process_Street_Logo_Square_hutlpt.png"
+                        class="u-xxs-avatar mr-2"
+                      />
+                    </div>
+                  <p class="alt-header font-weight-medium">Process Street</p>
+                </div>
+              </th>
+              <th>
+                <div class="flex-row align-center">
+                    <div>
+                    <img
+                    src="https://res.cloudinary.com/daog6scxm/image/upload/v1737649986/cms/alternatives/jira-service-management/freshworks_it-service-management-platforms_1699350912950_pkt1kx.webp"
+                    class="u-xxs-avatar mr-2"
+                  />
+                </div>
+                  <p class="alt-header font-weight-medium">FreshService</p>
+                </div>
+              </th>
+
+
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr class="">
+                <td class="text-xs" data-title="">Platform Type</td>
+
+                <td class="text-xs" data-title="Budibase">
+                  <div class="flex-row align-center">
+                  Low-Code
+                  </div>
+                </td>
+                <td class="text-xs" data-title="Jira">
+                    <div class="flex-row align-center">
+                    ITSM
+                    </div>
+                  </td>
+                <td class="text-xs" data-title="Wrike">
+                    Workflow Management
+                </td>
+                <td class="text-xs" data-title="BMC Helix">
+                    ITSM
+                  </td>
+                  <td class="text-xs" data-title="Process Street">
+                    Workflow Management
+                  </td>
+                <td class="text-xs" data-title="FreshService">ITSM</td>
+
+                </tr>
+
+            <tr class="">
+              <td class="text-xs" data-title="">Pricing Model</td>
+
+              <td class="text-xs" data-title="Budibase">
+                Per-user/creator +<br>Creator-only
+              </td>
+              <td class="text-xs" data-title="Jira">
+                Per-agent
+              </td>
+              <td class="text-xs" data-title="Wrike">
+                Per User
+              </td>
+              <td class="text-xs" data-title="BMC Helix">
+                Custom
+              </td>
+              <td class="text-xs" data-title="Process Street">
+                Usage
+              </td>
+              <td class="text-xs" data-title="FreshService">Per-agent</td>
+
+              </tr>
+
+              <tr class="">
+                <td class="text-xs" data-title="">Cloud</td>
+                <td class="text-xs" data-title="Budibase">
+                   <span class="tag-forestgreen">Yes</span>
+                </td>
+                <td class="text-xs" data-title="Jira">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+                <td class="text-xs" data-title="Wrike">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+                <td class="text-xs" data-title="BMC Helix">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+                <td class="text-xs" data-title="Process Street">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+                <td class="text-xs" data-title="FreshService">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+
+                </tr>
+
+ <tr class="">
+                    <td class="text-xs" data-title="">Self-Hosting</td>
+                    <td class="text-xs" data-title="Budibase">
+                       <span class="tag-forestgreen">Yes</span>
+                    </td>
+                    <td class="text-xs" data-title="Jira">
+                        <span class="tag-forestgreen">Yes</span>
+                    </td>
+                    <td class="text-xs" data-title="Wrike">
+                        <span class="tag-dark">No</span>
+                    </td>
+                    <td class="text-xs" data-title="BMC Helix">
+                        <span class="tag-forestgreen">Yes</span>
+                    </td>
+                    <td class="text-xs" data-title="Process Street">
+                        <span class="tag-dark">No</span>
+                    </td>
+                    <td class="text-xs" data-title="FreshService">
+                        <span class="tag-dark">No</span>
+                    </td>
+                    </tr>
+
+
+                    <tr class="">
+                        <td class="text-xs" data-title="">SSO</td>
+
+                        <td class="text-xs" data-title="Budibase">
+                            <span class="tag-forestgreen">Free</span>
+                        </td>
+                        <td class="text-xs" data-title="Jira">
+                            <span class="tag-dark">Paid plan</span>
+                        </td>
+                        <td class="text-xs" data-title="Wrike">
+                            <span class="tag-dark">Paid plan</span>
+                        </td>
+                        <td class="text-xs" data-title="BMC Helix">
+                            <span class="tag-dark">Paid plan</span>
+                        </td>
+                        <td class="text-xs" data-title="Process Street">
+                            <span class="tag-dark">Paid plan</span>
+                        </td>
+                        <td class="text-xs" data-title="FreshService">
+                            <span class="tag-dark">Paid plan</span>
+                        </td>
+
+                        </tr>
+
+                        <tr class="">
+                            <td class="text-xs" data-title="">Open-Source</td>
+
+                            <td class="text-xs" data-title="Budibase">
+                                <span class="tag-forestgreen">Yes</span>
+                            </td>
+                            <td class="text-xs" data-title="Jira">
+                                <span class="tag-dark">No</span>
+                            </td>
+                            <td class="text-xs" data-title="Wrike">
+                                <span class="tag-dark">No</span>
+                            </td>
+                            <td class="text-xs" data-title="BMC Helix">
+                                <span class="tag-dark">No</span>
+                            </td>
+                            <td class="text-xs" data-title="Process Street">
+                                <span class="tag-dark">No</span>
+                            </td>
+                            <td class="text-xs" data-title="FreshService">
+                                <span class="tag-dark">No</span>
+                            </td>
+
+                            </tr>
+
+                            <tr class="">
+                                <td class="text-xs" data-title="">Query external DBs</td>
+                                <td class="text-xs" data-title="Budibase">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                <td class="text-xs" data-title="Jira">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                <td class="text-xs" data-title="Wrike">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                <td class="text-xs" data-title="BMC Helix">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                <td class="text-xs" data-title="Process Street">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                <td class="text-xs" data-title="FreshService">
+                                    <span class="tag-dark">No</span>
+                                </td>
+                                </tr>
+
+                                <tr class="">
+                                    <td class="text-xs" data-title="">API</td>
+                                    <td class="text-xs" data-title="Budibase">
+                                        <span class="tag-forestgreen">Yes</span>
+                                    </td>
+                                    <td class="text-xs" data-title="Jira">
+                                        <span class="tag-forestgreen">Yes</span>
+                                    </td>
+                                    <td class="text-xs" data-title="Wrike">
+                                        <span class="tag-forestgreen">Yes</span>
+                                    </td>
+                                    <td class="text-xs" data-title="BMC Helix">
+                                        <span class="tag-forestgreen">Yes</span>
+                                    </td>
+                                    <td class="text-xs" data-title="Process Street">
+                                        <span class="tag-forestgreen">Yes</span>
+                                    </td>
+                                    <td class="text-xs" data-title="FreshService">
+                                        <span class="tag-forestgreen">Yes</span>
+                                    </td>
+
+                                    </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="mx-md-auto mb-4 mt-4 container-8">
+      {{ index $content_parts 1 | safe.HTML}}
+    </div>
+   
+    
+  
+  </article>
+</main>
+
+<!--Article-->
+
+{{ partial "cta.html" . }} {{ partial "footer.html" . }}
