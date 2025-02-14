@@ -1,1 +1,32 @@
-<iframe src="https://budibase.substack.com/embed" width="480" height="250" frameborder="0" scrolling="no"></iframe>
+<div style="position: relative; width: 100%; background-color: #111827; padding-top: 80px; padding-bottom: 20px;" class="responsive-container">
+    <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1666619825/1.%20Illustrations/SVG/plug-in_lyv1fl.svg" 
+         alt="Plug-in Illustration" 
+         style="position: absolute; top: 10px; bottom:10px; left: 50%; transform: translateX(-50%); width: 100px; height: auto;" 
+         class="responsive-img">
+    <iframe src="https://budibase.substack.com/embed" 
+            width="100%" height="250" 
+            frameborder="0" scrolling="no">
+    </iframe>
+</div>
+
+<!-- Media Queries for Mobile -->
+<style>
+    @media (max-width: 768px) {
+        /* Hide the image on mobile */
+        .responsive-img {
+            display: none !important;
+        }
+
+        /* Remove the padding-top and padding-bottom on mobile */
+        .responsive-container {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+        }
+
+        /* Show only the iframe on mobile */
+        .responsive-container iframe {
+            display: block !important;
+        }
+    }
+</style>
+

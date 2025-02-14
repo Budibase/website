@@ -63,7 +63,6 @@ Managing these risks requires a systematic, proactive approach to identifying ho
 
 Typically, this will be based on some logic for quantifying and prioritizing specific risks. This enables us to put appropriate measures in place to monitor, mitigate, or eliminate them, including routing them to specific colleagues or assigning other resources.
 
-{{< substack-cta >}}
 
 ## What do risk management tools do?
 
