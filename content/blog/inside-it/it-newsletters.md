@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-02-05
 description = "Take a look at our round-up of the top newsletters for staying informed as an IT pro."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Top 15 IT Newsletters for 2025"
+title = "Top 16 IT Newsletters for 2025"
 
 +++
 
@@ -34,17 +34,37 @@ Neither is a problem in and of itself.
 
 It’s the specific balance between their interests and yours that matters. So, if you’re actually getting sent insightful, actionable content, that’s great. If you’re just being spammed with webinar links and sponsored content, maybe look elsewhere.
 
-## Top 15 IT newsletters for 2025
+## Top 16 IT newsletters for 2025
 
-Obviously, you’re here because you want recommendations. We’ve curated 15 of our favorite newsletters from across the IT space.
+Obviously, you’re here because you want recommendations. We’ve curated 16 of our favorite newsletters from across the IT space.
 
 Since this is a hugely varied niche, we’ve split these into five categories to cover the whole span of what you need to know.
 
 ### General IT newsletters
 
-First up, we’ve got three broad newsletters covering a wide range of topics across the IT sector.
+First up, we’ve got four broad newsletters covering a wide range of topics across the IT sector.
 
-#### 1. TLDR Tech
+#### 1. Bandwidth
+Bandwidth is Budibase's bi-weekly newsletter for IT professionals. It offers a hand-curated view of the top stories across the world of IT, across new technology, industry trends, soft-skills, key events, and more.
+
+It's aimed at busy teams who need to balance staying informed with keeping the lights on.
+
+Bandwidth also provides wider coverage of the IT space, including important dates for the diary, community news, and insights on the state of the industry.   
+
+
+> 🕒 **Frequency** - Bi-weekly.
+>
+> ✅ **Great for** - Curated, actionable insights for busy IT professionals.
+>
+> ❌ **Look elsewhere for** - Daily digests, non-IT tech news, hardware-focused newsletters.     
+    
+
+
+{{< substack-cta >}}  
+
+---
+
+#### 2. TLDR Tech
 
 ![TLDR IT Newsletter](https://res.cloudinary.com/daog6scxm/image/upload/v1738766044/cms/it-newsletters/TLDR_Tech_ui5o9q.webp "TLDR IT Newsletter")
 
@@ -60,7 +80,7 @@ However, other newsletters go into more granular detail on specific themes. TLDR
 >
 > ❌ **Look elsewhere for** - More detailed, actionable insights for enterprise IT teams.
 
-#### 2. IT Brew
+#### 3. IT Brew
 
 ![IT Brew](https://res.cloudinary.com/daog6scxm/image/upload/v1738766043/cms/it-newsletters/IT_Brew_neprii.webp "IT Brew")
 
@@ -76,7 +96,7 @@ This covers a range of themes that are relevant to enterprise IT teams, includin
 >
 > ❌ **Look elsewhere for** - Broader, digest-style editions.
 
-#### 3. Hacker Newsletter
+#### 4. Hacker Newsletter
 
 ![Hacker Newsletter](https://res.cloudinary.com/daog6scxm/image/upload/v1738766042/cms/it-newsletters/Hacker_Newsletter_g1kn4l.webp "Hacker Newsletter")
 
@@ -96,7 +116,7 @@ As such, Hacker Newsletter is undoubtedly informative, unique, and entertaining.
 
 Next up, we’ve got a selection of IT newsletters that are more focused on the daily grind of delivering internal services.
 
-#### 4. Joe the IT Guy
+#### 5. Joe the IT Guy
 
 ![Joe the IT Guy](https://res.cloudinary.com/daog6scxm/image/upload/v1738766042/cms/it-newsletters/Joe_the_IT_Guy_aeoav8.webp "Joe the IT Guy")
 
@@ -112,7 +132,7 @@ Despite being a good source of information for underlying IT processes, JtITG ty
 >
 > ❌ **Look elsewhere for** - A traditional, regularized newsletter.
 
-#### 5. iTSM Group
+#### 6. iTSM Group
 
 ![ITSM Group](https://res.cloudinary.com/daog6scxm/image/upload/v1738766042/cms/it-newsletters/ITSM_Group_xxi4sm.webp "ITSM Group")
 
@@ -128,7 +148,7 @@ However, it also mixes in their own company news. Since they’re also a Service
 >
 > ❌ **Look elsewhere for** - Broader industry news, more frequent publication, or content on other solutions.
 
-#### 6. ITSM.Tools
+#### 7. ITSM.Tools
 
 ![ITSM.Tools](https://res.cloudinary.com/daog6scxm/image/upload/v1738766043/cms/it-newsletters/ITSM.Tools_sjrsmx.webp "ITSM.Tools")
 
@@ -148,7 +168,7 @@ Again, though, ITSM.Tools is primarily centered around original content, so it m
 
 Next, we can consider some IT newsletters with a specific focus on empowering teams to choose the right tools for their needs.
 
-#### 7. Changelog Weekly
+#### 8. Changelog Weekly
 
 ![Changelog Weekly](https://res.cloudinary.com/daog6scxm/image/upload/v1738766042/cms/it-newsletters/Changelog_Weekly_zycges.webp "Changelog Weekly")
 
@@ -164,7 +184,7 @@ This is a great resource if you’re heavily development-focused, but it might n
 >
 > ❌ **Look elsewhere for** - General IT, service management, enterprise content.
 
-#### 8. Serverless Framework
+#### 9. Serverless Framework
 
 ![Serverless Framework](https://res.cloudinary.com/daog6scxm/image/upload/v1738766042/cms/it-newsletters/Serverless_Framework_gcfcvw.webp "Serverless Framework")
 
@@ -180,7 +200,7 @@ Like Changelog Weekly, Serverless Framework is a great resource for topics withi
 >
 > ❌ **Look elsewhere for** - Content on other aspects of IT.
 
-#### 9. Level Up
+#### 10. Level Up
 
 ![LevelUp](https://res.cloudinary.com/daog6scxm/image/upload/v1738766041/cms/it-newsletters/LevelUp_otjz8j.webp "LevelUp")
 
@@ -200,7 +220,7 @@ However, it’s worth noting that this may not be the most suitable for readers 
 
 One of the areas where IT pros face the most pressure to stay informed is new technology. Unsurprisingly, this is also one of the most popular genres of IT newsletters.
 
-#### 10. The Algorithm
+#### 11. The Algorithm
 
 ![The Algorithm IT Newsletter](https://res.cloudinary.com/daog6scxm/image/upload/v1738766039/cms/it-newsletters/The_Algorithm_iwemet.webp "The Algorithm IT Newsletter")
 
@@ -216,7 +236,7 @@ The Algorithm is an excellent resource for leaders in this space, but may be les
 >
 > ❌ **Look elsewhere for** - Specific, actionable insights on using AI for specific IT use cases.
 
-#### 11. Future Crunch
+#### 12. Future Crunch
 
 ![Future Crunch](https://res.cloudinary.com/daog6scxm/image/upload/v1738766040/cms/it-newsletters/Future_Crunch_uhonwo.webp "Future Crunch")
 
@@ -232,7 +252,7 @@ So, it’s one that will no doubt be of interest to many IT pros, even if the co
 >
 > ❌ **Look elsewhere for** - Content that’s more directly applicable to IT professionals.
 
-#### 12. Import AI
+#### 13. Import AI
 
 ![Import AI](https://res.cloudinary.com/daog6scxm/image/upload/v1738766039/cms/it-newsletters/Import_AI_lejpvx.webp "Import AI")
 
@@ -252,7 +272,7 @@ It’s a great choice for readers who are already well-informed about working wi
 
 Lastly, we have IT newsletters that deal with the wider industry, including the jobs market, economics, and IT’s intersection with other business verticals.
 
-#### 13. LeadDev
+#### 14. LeadDev
 
 ![LeadDev](https://res.cloudinary.com/daog6scxm/image/upload/v1738766039/cms/it-newsletters/LeadDev_yptpwm.webp "LeadDev")
 
@@ -268,7 +288,7 @@ This can be an invaluable resource for IT professionals who want to develop thei
 >
 > ❌ **Look elsewhere for** - Solutions-focused or technical content.
 
-#### 14. CIO Center Stage
+#### 15. CIO Center Stage
 
 ![CIO](https://res.cloudinary.com/daog6scxm/image/upload/v1738766040/cms/it-newsletters/CIO_ep0rxb.webp "CIO")
 
@@ -284,7 +304,7 @@ On the flip side, IT leaders might not always be in the weeds when it comes to r
 >
 > ❌ **Look elsewhere for** - More practical, on-the-ground stories.
 
-#### 15. Lenny’s Newsletter
+#### 16. Lenny’s Newsletter
 
 ![Lenny's](https://res.cloudinary.com/daog6scxm/image/upload/v1738766040/cms/it-newsletters/Lenny_s_d2lmym.webp "Lenny's")
 
