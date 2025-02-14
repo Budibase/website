@@ -55,11 +55,12 @@ We can also provide very basic information that’s helpful for server monitorin
 
 API headers also give us more control over how data is returned to us. For example, specifying a particular format for the response.
 
-![API stats](https://res.cloudinary.com/daog6scxm/image/upload/v1685701489/cms/API-integration/API_use_https___nordicapis.com_apis-have-taken-over-software-development__y2sarz.webp "API stats")
-
-([NordisCapis](https://nordicapis.com/apis-have-taken-over-software-development/))
 
 Finally, we might need to use headers simply because the server requires it - and we won’t get a response if we don’t meet the documented requirements.
+
+{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
+>
+{{< substack-cta >}}
 
 ## What are API headers used for?
 

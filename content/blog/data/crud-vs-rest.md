@@ -109,9 +109,9 @@ Just as a little extra note - we mentioned a second ago that REST requests can a
 
 Again though - we won’t delve too deeply into that, since it’s beyond the scope of what we want to talk about today.
 
-![REST API usage](https://res.cloudinary.com/daog6scxm/image/upload/v1685701489/cms/API-integration/API_use_https___nordicapis.com_apis-have-taken-over-software-development__y2sarz.webp "REST API usage")
-
-([NordiCapis](https://nordicapis.com/apis-have-taken-over-software-development/))
+{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
+>
+{{< substack-cta >}}
 
 ### RESTful principles
 

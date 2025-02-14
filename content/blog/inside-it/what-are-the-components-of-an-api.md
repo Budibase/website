@@ -340,6 +340,10 @@ Just like earlier, this comes in the form of a data object - a series of key/val
 
 And that’s it - all of the components of an API that we need to be aware of.
 
+{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
+>
+{{< substack-cta >}}
+
 ## 4 types of APIs
 
 For a bit of extra context, it’s important to know that APIs aren’t all created equal. In fact, there are a couple of different types of APIs that vendors might provide for different kinds of developers and projects.

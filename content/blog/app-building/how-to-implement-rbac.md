@@ -231,6 +231,6 @@ Issues can emerge over time with any access control system. For example, you mig
 
 This means adding or removing roles from your framework, or making adjustments to existing ones. The key here is identifying the situations where this might be necessary, so you can take action in advance.
 
-With Budibase, it’s never been easier to create professional web apps, with fully functional RBAC. Our low-code platform offers conditional UIs, custom automations, optional self-hosting, and extensive support for external data sources.
-
-Sign up to Budibase for free today.
+{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
+>
+{{< substack-cta >}}

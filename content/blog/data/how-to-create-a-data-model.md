@@ -18,10 +18,6 @@ Today, we’re going to look at exactly how you can create a successful data mod
 
 Budibase is the fast, easy way to connect to just about any data source and build professional UIs in minutes.
 
-{{< vimeo id="922836741" title="Create a data model" >}}
-
-{{< cta >}}
-
 First thing’s first, let’s start with the basics.
 
 ## What is a data model?
@@ -51,7 +47,9 @@ A large part of developing a data model is establishing the data you’ll need, 
 
 Having an effective data model in place also allows you to ensure compatibility between multiple sources, optimum performance, scalability, and effective security within your data warehouse or other information assets.
 
-Check out our guide to [ITIL configuration management](https://budibase.com/resources/itil-processes/configuration-management/) for an example of a complex, organization-wide data model.
+{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
+>
+{{< substack-cta >}}
 
 ## How to create a data model for your app project in 9 steps
 

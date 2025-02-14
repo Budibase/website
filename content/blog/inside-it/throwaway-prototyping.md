@@ -181,7 +181,9 @@ So, if someone else tries to tackle a similar problem down the line, they won’
 
 With inter-team communications and stakeholder management, the challenge is how you record, manage and implement feedback. For example, if you spend time creating prototypes but don’t make the effort to document what works and what doesn’t, a lot of value is lost.
 
-You might also like our guide to [using forms to enter Google Sheets data](https://budibase.com/blog/data/using-a-form-to-enter-google-sheets-data/).
+{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
+>
+{{< substack-cta >}}
 
 ## When would you build a throwaway prototype?
 
