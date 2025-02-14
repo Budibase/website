@@ -63,6 +63,7 @@ Managing these risks requires a systematic, proactive approach to identifying ho
 
 Typically, this will be based on some logic for quantifying and prioritizing specific risks. This enables us to put appropriate measures in place to monitor, mitigate, or eliminate them, including routing them to specific colleagues or assigning other resources.
 
+
 ## What do risk management tools do?
 
 At their core, risk management tools are used to gather, store, and manage information relating to identified risks. In the most common configuration, this means enabling employees across the organization to report potential risks as they encounter them.
