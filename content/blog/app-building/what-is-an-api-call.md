@@ -294,6 +294,10 @@ Again, the degree of flexibility on offer here will vary from client to client. 
 
 We’ll check out some of the most important categories of tools for managing APIs towards the end of this guide.
 
+{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
+>
+{{< substack-cta >}}
+
 ## Common API protocols
 
 So far, we’ve primarily focused on working with making calls to REST APIs. While this is the most common protocol, it isn’t the only show in town. Therefore, it’s worth briefly checking out the landscape here more fully.

@@ -209,7 +209,9 @@ We can contrast this with a *column-based store*, where all values for a given a
 The point is that, in order to handle a transaction, the querying actor must have exposure to the full record for a relevant entity - or at least an index or view thereof.
 
 In other words, transactional databases are structured for efficiency in terms of manipulating individual entries - rather than performing aggregation or analysis across the data set as a whole.
-
+{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
+>
+{{< substack-cta >}}
 ## Examples of transactional databases
 
 We’ve covered a whole lot of theory at this point. Now, it’s time to start thinking about some real-world examples of transactional databases.

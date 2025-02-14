@@ -88,7 +88,9 @@ Most often, data transformation tools fall into one of four categories:
 
 So you can see, the kind of data transformation tools you’re going to need for integrating two SaaS tools is going to be very different from the solution you’ll need to centralize and warehouse *all* of your organizational data as part of an ETL process.
 
-To see this in context, take a look at our guide to [finance transformation](https://budibase.com/blog/inside-it/finance-transformation/).
+{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
+>
+{{< substack-cta >}}
 
 ## Top 10 data transformation tools
 

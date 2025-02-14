@@ -80,7 +80,9 @@ It’s up to us to account for the implications of these changes.
 
 *Eventually consistent* infers that we’re not sacrificing consistency entirely. Rather, the point is that - at any given moment - we might have inconsistencies, but these should be resolved in the longer term.
 
-{{< cta >}}
+{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
+>
+{{< substack-cta >}}
 
 ## Examples of ACID and BASE DBMSs
 

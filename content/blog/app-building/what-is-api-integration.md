@@ -63,10 +63,9 @@ These can all be configured with *headers* and *parameters* - essentially, varia
 
 For example, allowing us to prove that we have authorization to access a dataset or using filtering to retrieve a specific row.
 
-![API integration stats](https://res.cloudinary.com/daog6scxm/image/upload/v1685701489/cms/API-integration/API_use_https___nordicapis.com_apis-have-taken-over-software-development__y2sarz.webp "API integration")
-
-([NordiCapis](https://nordicapis.com/apis-have-taken-over-software-development/))
-
+{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
+>
+{{< substack-cta >}}
 ## Why do we need API integration?
 
 So, why is API integration such a priority for modern IT teams? We gave a flavor of this already in our intro today, but to fully understand this, it’s worth reflecting on the present state of your typical organization’s IT ops.

@@ -76,7 +76,9 @@ The reason this is important should be fairly obvious.
 
 Say we ran an ecommerce site. We’d have a lot of unhappy customers to deal with if all of that day’s orders were lost any time our power dropped out.
 
-{{< cta >}}
+{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
+>
+{{< substack-cta >}}
 
 ## Why does ACID compliance matter?
 

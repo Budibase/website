@@ -35,6 +35,10 @@ Specifically, we need secure, performant solutions for storing, accessing, and u
 
 This has led to a boom in new approaches to storing and handling data.
 
+{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
+>
+{{< substack-cta >}}
+
 ## 8 data management trends
 
 Today, we’re checking out eight data management trends in 2023 - that are increasingly dominating the landscape. We’ll also check out some examples of each - totaling eleven new and exciting platforms.
