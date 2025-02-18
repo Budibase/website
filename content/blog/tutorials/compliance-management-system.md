@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-02-04
 description = "Follow our tutorial to build a compliance management system in Budibase."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Build a Compliance Management System in 6 Step"
+title = "How to Build a Compliance Management System in 6 Steps"
 
 +++
 
