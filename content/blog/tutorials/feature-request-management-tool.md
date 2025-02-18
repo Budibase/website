@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-02-18
 description = "Learn how to build a feature request management tool in Budibase."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Build a Feature Request Management Tool in 5 Steps
+title = "How to Build a Feature Request Management Tool in 5 Steps"
 
 +++
 
