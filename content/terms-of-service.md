@@ -8,7 +8,7 @@ layout: single
 
 type: legal
 
-date: 2025-02-21
+date: 2025-02-24
 
 
 
@@ -26,7 +26,7 @@ date: 2025-02-21
 
 1.4 Any order placed by Customer (including orders for additional User Licences or to upgrade access Tiers) shall only be deemed to be accepted upon BB’s signature of the Proposal, or acceptance of the relevant Checkout Process submission by the Customer via the BB platform (which acceptance shall be confirmed by email or notification via the platform) at which point, and on which date, the Agreement shall come into existence.
 
-1.5 These General Terms are published on BB’s website. Customer should print or save a copy of these General Terms for its records.  BB may amend these General Terms from time to time as set out in clause 18.15. Every time Customer completes the Checkout Process or signs or agree a new Proposal with BB it should check these General Terms to ensure that it understands the terms which will apply to the Agreement at that time. This version five of these General Terms was most recently updated on 21st February 2025. Historic versions, where applicable, may be obtained by contacting us. 
+1.5 These General Terms are published on BB’s website. Customer should print or save a copy of these General Terms for its records.  BB may amend these General Terms from time to time as set out in clause 18.15. Every time Customer completes the Checkout Process or signs or agree a new Proposal with BB it should check these General Terms to ensure that it understands the terms which will apply to the Agreement at that time. This version five of these General Terms was most recently updated on 24th February 2025. Historic versions, where applicable, may be obtained by contacting us. 
 
 1.6 If BB issues a written Proposal (which it will not normally do, save where Development Services are being provided, most / all of the other Services being self-service via an applicable Checkout Process) it shall be valid for a period of 30 days (or such longer period specified on the Proposal) from the date of issue, if not agreed by Customer, at which point the offer outlined in the Proposal shall lapse.
 
