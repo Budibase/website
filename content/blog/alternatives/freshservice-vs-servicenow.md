@@ -26,7 +26,7 @@ Today, we’re diving deep into where each of these tools sits in the market, in
 
 More specifically, we’ll be covering:
 
-- [Background & overview](#overview)
+- [Background and overview](#overview)
 - [Target usage, pricing, and implementation](#target-usage-pricing-and-implementation)
 - [Managing ITSM workflows](#managing-itsm-workflows)
 
