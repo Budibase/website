@@ -25,7 +25,7 @@ In this guide, we’re diving deep into what each one offers, who it’s aimed a
 Specifically, we’ll be covering:
 
 - [Background and platform overviews](#background-and-platform-overviews)
-- [Target users, pricing & implementation](#target-users-pricing-and-implementation)
+- [Target users, pricing and implementation](#target-users-pricing-and-implementation)
 - [Managing services and IT workflows](#managing-services-and-it-workflows)
 
 We’ll also wrap up by seeing what Budibase brings to the table for managing IT workflows.
