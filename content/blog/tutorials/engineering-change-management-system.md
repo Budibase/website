@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-02-27
 description = "Learn how to build an engineering change management tool in Budibase."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Build an engineering change management system in 5 Steps"
+title = "How to Build an Engineering Change Management System in 5 Steps"
 
 +++
 
