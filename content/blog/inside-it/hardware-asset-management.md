@@ -240,7 +240,7 @@ So, we might rely on several tools, including dashboards, admin panels, automate
 
 ## Budibase for ITSM
 
-Budibase is the open-source low-code platform that empowers IT teams to turn data into action. It’s the ideal solution for ITSM professionals, data specialists, solutions architects, systems engineers, and other technical colleagues who need to output professional tools at pace.
+Budibase is the [open-source, low-code platform](https://budibase.com/blog/open-source-low-code-platforms/) that empowers IT teams to turn data into action. It’s the ideal solution for ITSM professionals, data specialists, solutions architects, systems engineers, and other technical colleagues who need to output professional tools at pace.
 
 We offer market-leading support for external data sources, with dedicated connectors for all kinds of RDBMSs, NoSQL tools, data warehouses, APIs, spreadsheets, and more, alongside our built-in database. 
 

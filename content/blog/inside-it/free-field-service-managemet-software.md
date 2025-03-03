@@ -278,7 +278,7 @@ Feature restrictions across the pricing tiers are a little bit less generous. Fo
 
 {{< vimeo id="917827479" title="Data Collection Form" >}}
 
-Budibase is the open-source, low-code platform that empowers IT teams to output professional solutions at pace.
+Budibase is the [open-source, low-code platform](https://budibase.com/blog/open-source-low-code-platforms/) that empowers IT teams to output professional solutions at pace.
 
 With extensive external data support, intuitive design tools, powerful automations, role-based access control, optional self-hosting, and an incredibly generous free tier with SSO, there’s never been a faster, more cost-effective way to ship field service management solutions.
 
