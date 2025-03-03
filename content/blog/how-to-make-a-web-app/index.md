@@ -2,7 +2,7 @@
 author = "Joe Johnston"
 date = 2024-04-23T00:00:00Z
 description = "Follow our step-by-step guide for how to create a web app."
-title = "Build a Web App in 2025 | 12-Step Guide"
+title = "How to Build a Web App in 2025 | 12-Step Guide"
 
 +++
 {{< figure src="/how-to-make-a-web-app/how-to-make-a-web-app.jpg" attr="Picture by [Med Badr](https://unsplash.com/@medbadrc)" alt="How to make a web app" >}}
