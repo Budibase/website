@@ -1,11 +1,51 @@
 +++
 author = "Ronan McQuillan"
 date = 2024-05-22T23:00:00Z
-description = "In this guide, we’ll walk through everything you need to know to create a data model for your next app project."
+description = "Follow our step-by-step guide to creating a data model."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1653319610/cms/What_is_database_schema_header_ahhxph.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1653319610/cms/What_is_database_schema_header_ahhxph.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Create a Data Model"
+title = "How to Create a Data Model in 9 Steps"
+[[howto]]
+name = "How to Create a Data Model"
+description = "A step-by-step guide to designing an effective data model."
+image = "https://budibase.com/path-to-article-image.jpg"
+[[howto.steps]]
+name = "Gather Business Requirements"
+text = "Determine underling goals and needs."
+url = "https://budibase.com/blog/data/how-to-create-a-data-model/#1-gather-business-requirements"
+[[howto.steps]]
+name = "Define Business Processes"
+text = "Understand when, how, and why our data is used."
+url = "https://budibase.com/blog/data/how-to-create-a-data-model/#2-define-business-processes"
+[[howto.steps]]
+name = "Create a Conceptual Data Model"
+text = "Build a structured plan of the data we need to process."
+url = "https://budibase.com/blog/data/how-to-create-a-data-model/#3-create-a-conceptual-data-model"
+[[howto.steps]]
+name = "Define Entities and Attributes"
+text = "Establishing the tables that our data model will comprise."
+url = "https://budibase.com/blog/data/how-to-create-a-data-model/#4-define-entities-and-attributes"
+[[howto.steps]]
+name = "Identify Data Sources"
+text = "Determining where values will come from and how they will be stored."
+url = "https://budibase.com/blog/data/how-to-create-a-data-model/#5-identify-data-sources"
+[[howto.steps]]
+name = "Establish relationships between entities"
+text = "Defining how entities in our data model relate to one another."
+url = "https://budibase.com/blog/data/how-to-create-a-data-model/#6-establish-relationships-between-entities"
+[[howto.steps]]
+name = "Creating a physical model"
+text = "Implementing our data model within a DBMS."
+url = "https://budibase.com/blog/data/how-to-create-a-data-model/#7-physical-modeling"
+[[howto.steps]]
+name = "Normalization and ensuring the integrity of data"
+text = "Ensuring the long-term validity, reliability, and integrity of your app’s data."
+url = "https://budibase.com/blog/data/how-to-create-a-data-model/#8-normalization-and-ensuring-the-integrity-of-data"
+[[howto.steps]]
+name = "Maintaining your Data Model"
+text = "Keeping our data fit for purpose."
+url = "https://budibase.com/blog/data/how-to-create-a-data-model/#9-maintaining-your-data-model"
 
 +++
 Knowing how to create a data model is the first step toward building a successful app. This is the foundation of how you’ll transform your business requirements into reality.
