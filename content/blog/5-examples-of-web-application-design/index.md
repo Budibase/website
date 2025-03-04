@@ -201,6 +201,8 @@ Thankfully, the rebuild paid off. Notion is now used by over 1,000,000 users and
 
 For me, Notion was my number 1 pick for the best example of modern web application design. It's use of emojis against a clean interface is incredibly smart and gives the user options to creative.
 
+You might also like our round-up of the top [open-source low-code platforms](https://budibase.com/blog/open-source-low-code-platforms/).
+
 Design - ❤️❤️❤️❤️
 
 Usability - 😻😻😻
@@ -265,6 +267,6 @@ If you are considering building a web app, I would start by reading the followin
 
 If you are considering building a web app, and but you don't know what to build, we've got you covered. Check out the following inspirational post:
 
-[Micro SaaS Ideas](https://www.budibase.com/blog/micro-saas-ideas/)
+[Internal Tools](https://budibase.com/internal-tools/)
 
 And if you are looking considering tools to build your next web application, reduce your development time by choosing Budibase. Simply sign up using the form below.
