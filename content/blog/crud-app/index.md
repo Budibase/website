@@ -155,6 +155,8 @@ Budibase is a low code platform that is designed for creating CRUD applications.
 
 {{< youtube DsBudu6Kzls >}}
 
+{{< cta >}}
+
 ### Overview
 
 A local library is currently using an spreadsheet to manage their catalogue of books, and they would like to upgrade to a CRUD application.
