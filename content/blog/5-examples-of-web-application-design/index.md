@@ -1,14 +1,14 @@
 +++
 author = "Joe Johnston"
 date = 2024-02-28T00:00:00Z
-description = "Web application design is an important step for building effective user experiences."
+description = "Find inspiration for your next project with our round-up of the best web application design examples."
 images = ["/web-app-ideas/dashboard-web-app.jpg"]
-title = "5 Examples of Modern Web Application Design"
+title = "10 Examples of Modern Web Application Design"
 
 +++
 {{< figure src="/web-app-ideas/dashboard-web-app.jpg" alt="The CEO Dashboard Web App" >}}
 
-Every once in a while, I'll come across examples of web application design that really draw me in. I've listed these web applications below and ranked them from 5 - 1.
+Every once in a while, I'll come across examples of web application design that really draw me in. I've listed these web applications below and ranked them from 10 - 1.
 
 These web applications contain a beautiful mix of design, usability and creativity. They are masterpieces, and wonderful tokens of inspiration.
 
@@ -51,7 +51,7 @@ Here is a quick checklist to make sure you design web apps that work well:
 
 Check out our guide on [how to build a web app](https://budibase.com/blog/how-to-make-a-web-app/) for more information.
 
-## Our Top 5 Web Application Designs
+## Our Top 10 Web Application Designs
 
 The following web applications were chosen from a list of 62 entrants submitted by the Budibase team. Scoring was based on:
 
@@ -61,13 +61,103 @@ The following web applications were chosen from a list of 62 entrants submitted 
 
 The goal is to choose the best web application design examples from across all sorts of use-cases. Ok, let’s do this!
 
+### 10. Carbon
+
+![Carbon Web Application Design](https://res.cloudinary.com/daog6scxm/image/upload/v1741097841/cms/web-application-design-examples/Carbon_sykyct.webp "Carbon Web Application Design")
+
+First up, we've got Carbon. 
+
+This is a free, super minimal tool that enables developers to output shareable, stylized images with their code snippets. From a design perspective, it's the perfect example of lightweight web app that does one thing well.
+
+Developers don't have time to spend on graphic design. Carbon offers professional visual assets for your code with just three settings - a theme, the language for your syntax highlighting, and a color for your border.
+
+It's used by developers in huge organization including Google and Microsoft, which just goes to show that we don't need to reinvent the wheel when it comes to designing web apps.
+
+Design - ❤️❤️
+
+Usability - 😻😻😻😻
+
+Creativity - 🌟🌟
+
+### 9. Miro
+
+![Miro](https://res.cloudinary.com/daog6scxm/image/upload/v1741097841/cms/web-application-design-examples/Miro_m6bbcy.webp "Miro")
+
+Miro is a great example of web application design that combines practical functionality with aesthetic appeal. 
+
+At its core, it's a visual collaboration platform, allowing multiple users to edit documents, idea boards, project timelines, and more, in real time.
+
+Its clean, modern interface offers an intuitive experience for manipulating visual elements, with minimal learning curve. We're particular fans of Miro's startegic use of colors, helping to highlight important functionality without creating excessive mental load.
+
+Collaboration features are integrated seamlessly, with color-coded cursors helping to signpost which team members are currently taking different actions. Miro is excellent proof that feature-heavy tools can still have great design
+
+Design - ❤️❤️❤️❤️
+
+Usability - 😻😻😻
+
+Creativity - 🌟🌟
+
+### 8. PostHog
+
+![PostHog](https://res.cloudinary.com/daog6scxm/image/upload/v1741097841/cms/web-application-design-examples/Posthog_xxrqno.webp "PostHog")
+
+PostHog is a hugely flexible, configurable analytics platform for software products. It's probably also the best example of a web application design that uses clever information architecture to ensure that key features are easily located.
+
+It utilizes logical, consistent side-bar navigation to seamlessly guide users from one task to the next.
+
+Like Miro, PostHog also offers a range of collaboration features, including allowing users to tag their experiences. That way, your team can share insights in seconds, without ever leaving the platform.
+
+Of course, we can't mention talking about its customizable dashboards and reporting, which allow even non-data professionals to ship stunning visualizations.
+
+Design - ❤️❤️❤️❤️❤️
+
+Usability - 😻😻😻
+
+Creativity - 🌟
+
+### 7. Zapier
+
+![Zapier](https://res.cloudinary.com/daog6scxm/image/upload/v1741097841/cms/web-application-design-examples/Zapier_peajmj.webp "Zapier")
+
+Zapier is a visual automation and integration platform, that empowers non-techincal users to set up sophisticated workflows and processes, leveraging their existing tech stack - tasks that might otherwise require a professional developer.
+
+This simply wouldn't be possible without exceptional design. More specifically, where Zapier succeeds is carefully guiding users through the process of setting up Zaps. This starts with onboarding, including clear labellign and genuinely helpfull tooltips that educate users on the basics of integration.
+
+Zapier's core experience centers around a flow-chart interface, which offers a clean, intuitive experience for setting up even complex rules.
+
+It's also a great example of one of the core principles of great web app design - recognition over recall. In particular, it carefully leverages visual elements like icons for specific action types or logos for connected applications, to allow users to quickly scan their automation flows to understand how they work.
+
+Design - ❤️❤️❤️❤️
+
+Usability - 😻😻😻
+
+Creativity - 🌟🌟
+
+### 6. Canva
+
+![Canva](https://res.cloudinary.com/daog6scxm/image/upload/v1741098018/cms/web-application-design-examples/Canva_fm1swb.webp "Canva")
+
+Canva is another tool that empowers users to perform tasks that might otherwise require more niche skills. This time, though, it's focused on graphic design. Part of the reason that this works so well is its unique visual identity. Canva's curved lines and soft color scheme are the antithesis of more specialized design tools, making it a much more appealing, less intimidating platform.
+
+Similarly, it leverages large CTAs and easy-to-read typography to keep things accessible for less technical colleagues.
+
+Another real strong suit how Canva balances more advanced capabilities with intuitive user experiences. This is achieved with a clear hierarchy of information, with core tasks like recoloring or repositioning elements always being prominent.
+
+It's little wonder that Canva has established itself as one of the go-to platforms for desining assets, in a relatively short span of time.
+
+Design - ❤️❤️❤️
+
+Usability - 😻😻😻😻
+
+Creativity - 🌟🌟
+
 ### 5. Intercom
 
 {{< figure src="/web-app-design/intercom.png" alt="Intercom UI" >}}
 
-The first on our list is Intercom.
+Next on our list is Intercom.
 
-Intercom describes their company as a suite of messaging-first products, designed to accelerate business growth. Founded in 2011, the Intercom suite of products have went through multiple design iterations, including most recently, in March 2019.
+Intercom describes their company as a suite of messaging-first products, designed to accelerate business growth. Founded in 2011, the Intercom suite of products have went through multiple design iterations.
 
 {{< figure src="/web-app-design/intercom-old-v-new.png" alt="Intercom old v new UI" >}}
 
@@ -85,7 +175,7 @@ Creativity - 🌟🌟
 
 {{< figure src="/web-app-design/buffer.png" alt="Buffer UI" >}}
 
-Buffer is one of the original social media management platforms. in 2014, Buffer solved one of my biggest problems as a young digital marketer - scheduling social media posts. Since then, Buffer has grown and just recently divided their offering into 3 products. Along with the new offering, was a new UI.
+Buffer is one of the original social media management platforms. In 2014, Buffer solved one of my biggest problems as a young digital marketer - scheduling social media posts. Since then, Buffer has grown and just recently divided their offering into 3 products. Along with the new offering, was a new UI.
 
 Buffer takes advantage of a primary top nav, and secondary left navigation panel. This makes it easy to navigate between products and functionality. The UI is very clean and utilises whitespace well. It also mixes it's brand colours wonderfully throughout the UI giving it character and creativity.
 
@@ -110,10 +200,6 @@ When I first used the web app, it was slow and unresponsive in some cases. I was
 Thankfully, the rebuild paid off. Notion is now used by over 1,000,000 users and performs flawlessly.
 
 For me, Notion was my number 1 pick for the best example of modern web application design. It's use of emojis against a clean interface is incredibly smart and gives the user options to creative.
-
-Well done to Notion, who recently  raised a tiny $10 million against an $800 million evaluation.
-
-_Budibase is similar to Notion. Both platforms aim to bring the power of databases to people with less technical capability. You could, in fact, build a platform similar to Notion using_ [_Budibase_](https://www.budibase.com) _- a personal side-project for Budibase cofounder, Mike._
 
 Design - ❤️❤️❤️❤️
 
@@ -169,7 +255,7 @@ Creativity - 🌟🌟🌟🌟🌟
 
 ***
 
-I hope you enjoyed and take inspiration from our top 5 web application designs - we certainly did! We will continue to update this post as new web application designs are released.  If you have any web application designs you feel should be on the list, send us a DM on [Twitter](https://twitter.com/budibase) and let us know.
+I hope you enjoyed and take inspiration from our top 10 web application designs - we certainly did! We will continue to update this post as new web application designs are released.  If you have any web application designs you feel should be on the list, send us a DM on [Twitter](https://twitter.com/budibase) and let us know.
 
 ## Considering Building A Web Application?
 
