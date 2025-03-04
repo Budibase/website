@@ -5,8 +5,7 @@
     "@type": "HowTo",
     "name": "{{ $howTo.name }}",
     "description": "{{ $howTo.description }}",
-    "image": "{{ $howTo.image }}"
-    "totalTime": "{{ $howTo.totalTime | default "PT30M" }}",
+    "image": "{{ $howTo.image }}",
     "step": [
         {{ range $stepIndex, $step := $howTo.steps }}
         {
