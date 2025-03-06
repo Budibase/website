@@ -215,6 +215,8 @@ Memgraph has also recently released a cloud beta version with support for multi-
 
 Pricing depends on how big you want your instance to be. If you're running it in the cloud, one instance of one gigabyte starts at $25 per month. 
 
+Check out our other tutorial on building a [SQL GUI](https://budibase.com/blog/tutorials/sql-gui/).
+
 ## 6. Time-series databases
 
 Another trend in databases is time series databases. These are databases where every data point has a timestamp. Time series data might be measurements or events that are tracked and aggregated over time.

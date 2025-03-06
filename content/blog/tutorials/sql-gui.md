@@ -1,9 +1,9 @@
 +++
 author = "Ronan McQuillan"
-date = 2024-06-22T23:00:00Z
+date = 2024-10-31T23:00:00Z
 description = "With Budibase, building a custom SQL GUI has never been easier. Here's everything you need to know."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to build a Free SQL GUI in 5 Steps"
+title = "Build a Free SQL GUI in 5 Steps"
 
 +++
 SQL is a powerful query language that’s used to unlock valuable insights stored in databases. 
@@ -33,7 +33,23 @@ You might also like our guide to building a [REST API GUI](https://budibase.com/
 
 First, let’s think a little bit more about why we would opt to build our own GUI rather than going for an off-the-shelf option.
 
-### What is the best GUI for SQL?
+## What is a SQL GUI?
+A SQL GUI is a tool that allows us to interact with our database using visual elements, rather than soley relying on textual commands. For instance, with buttons, form fields, tables, or other UI components.
+
+This facilitates a few key things:
+- Querying - providing a visual editor to write, test, and send SQL queries, including syntax highlighting and debugging,
+- Database management - allowing users to manage our database's structure, schema, or stored values, without needing to write manual queries,
+- Data manipulation - using or editing stored data, often in a spreadsheet-like interface,
+- Visualization - including for relationships, schemas, data structures, or aggregated values,
+- Import/export - allowing us to perform bulk actions on stored data,
+- Managing integrations - including connecting our database to external tools,
+- Performance monitoring - tracking key metrics relating to our database's usage and performance.
+
+The core value-add here is providing a more efficient and accurate experience for interacting with our SQL database. On the one hand, this means enabling non-technical colleagues to manage databases.
+
+On the other, it means that we can perform common tasks in a faster, less labor-intensive fashion.
+
+## What is the best GUI for SQL?
 
 The right GUI depends on your needs. Some are more popular than others. For example, phpMyAdmin is the most ubiquitous option.
 
@@ -49,6 +65,22 @@ Here are some points to consider when you pick a SQL GUI (or if you build your o
 - **Customization** - if it’s possible to add new features to it via plug-ins or even editing the source code.
 - **Reliability** - if the tool works all the time or if it breaks.
 - **Security and user management** - including authentication, authorization, credential management, and access control.
+
+With this in mind, some of the top off-the-shelf SQL GUIs include:
+ - DBeaver,
+ - MySQL Workbench,
+ - pgAdmin,
+ - SQL Server Management Studio,
+ - Heidi SQL,
+ - Datagrip,
+ - Toad,
+ - Navicat,
+ - Sequel Pro,
+ - Acqua Data Studio.
+
+Alternatively, in recent years more and more teams have turned to SQL Database-as-a-Service platforms. These are generally cloud-based services, where a managed SQL database, GUI, and hosting are offered within a web-based UI. Examples include NeonDB for Postgres or Aiven for MySQL. This can be a great approach for quickly managing a SQL database, without needing to set up your own GUI.
+
+Another key consideration is the type of license offered for specific platforms. Many teams will want to prioritize an open-source GUI for SQL databases, for cost, security, and maintenance reasons.
 
 You might also like our round-up of [open-source form builders](https://budibase.com/blog/open-source-form-builder/).
 
@@ -198,7 +230,7 @@ INSERT INTO employees (id, first_name, last_name) VALUES
 
 {{< /highlight >}}
 
-### 2. Building our CRUD tools
+### 2. Building our CRUD tools within our SQL GUI
 
 Now that we’ve got our table in place, we can start creating our GUI. As we said earlier, we’re going to show off two distinct methods for creating interfaces to interact with SQL data in Budibase.
 
@@ -802,4 +834,10 @@ Here’s a reminder of what our finished SQL GUI looks like.
 
 {{< vimeo id="1027314554" title="SQL GUI" >}}
 
-Budibase is the secure, fast way to build custom tools on top of any data. Check out our [product overview](https://budibase.com/product/) to learn more.
+## Turn data into action with Budibase
+
+Budibase is the secure, fast way to build custom tools on top of any data. With dedicated connectors for a huge range of RDBMSs, NoSQL tools, APIs, and spreadsheets, it's the perfect solution for building SQL GUIs, internal tools, approval workflows, and more.
+
+Once you've connected your data you can configure access roles, autogenerate UIs, build powerful automations, all on our cloud-based or self-hostable platform.
+
+Check out our [product overview](https://budibase.com/product/) to learn more.

@@ -494,6 +494,8 @@ And we can see that this has been saved correctly to our queries table.
 
 ![Saved Row](https://res.cloudinary.com/daog6scxm/image/upload/v1715954401/cms/sqlite-gui/SQLite_GUI_41_j6siuc.webp "Saved Row")
 
+Check out our other tutorial on building a [SQL GUI](https://budibase.com/blog/tutorials/sql-gui/).
+
 ### Saving a history row
 
 When a user hits Save, their query is sent. So, we also need to record this using our history table.
