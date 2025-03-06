@@ -1,9 +1,9 @@
 +++
 author = "Joe Johnston"
-date = 2024-04-24T00:00:00Z
-description = "Web application development is the process of building web-based UIs and tools."
+date = 2024-11-01T00:00:00Z
+description = "Learn everything you need to know about web app development, including tools, frameworks, approaches, and architecture."
 images = ["/web-application-development/guide-to-web-application-development.jpg"]
-title = "A beginners guide to web application development (2025)"
+title = "Beginners Guide to Web Application Development (2025)"
 
 +++
 {{< figure src="/web-application-development/guide-to-web-application-development.jpg" alt="Guide to web application development" >}}
@@ -253,6 +253,110 @@ Hosting involves running your web application on a server. You will need to buy 
 
 And in a nutshell, that's the web application development process. Once again, if you require more information on how to build a web application, visit [How to build a web app](https://www.budibase.com/blog/how-to-make-a-web-app/)
 
+## Elements of web application development
+
+In the following sections, we'll be thinking more concretely about how to develop a web application, including the tools and frameworks that are available to us.
+
+First though, it's important to understand the components that make up a web app. As we've hinted at already, we can divide these into front-end and back-end elements.
+
+Here are the high-level components you need to know.
+
+### Database
+
+The database is the center of any effective web app. As you probably already know, a database is a structured system for storing, organizing, and retrieving data that's required for the application.
+
+Most applications use a relational database engine, like Postgres or MySQL. However, this is dependent on our needs in terms of our app's underlying data structure, as well as scalability. Many platforms also rely on NoSQL tools like MongoDB, or other unstructured data management solutions.
+
+Many web application development projects use multiple data sources.
+
+The core role of the database is to make data accessible to the application server, via a supported query language. This is normally SQL, but it might also be an object relational mapper or a proprietary query language for certain database engines.
+
+Our choice of database play a couple of other important roles, across security, performance, and optimization. This includes handling caching, persisentence, indexing, and transaction management.
+
+### Application server
+
+An application server is the component of a web application that handles business logic, user authentication, and communication between the client and the database. This forms a key part of the back-end of our web app development project.
+
+At it's core, this allows us to execute server-side logic. For instance, using JavaScript, Python, PHP, Java, or Ruby.
+
+This logic can be fairly basic, or it might be more sophisticated, depending on what our app actually does. A very common example would be performing validation on forms before they're sent to the database.
+
+Application servers can utilize a few different types of architecture. For standalone web apps, this might be `monolithic`, meaning that all logic is bundled together. Or, we might utilize a `microservices` architecture, where shared aspects of our logic processing are used by multiple applications. We'll check out some common architecture patterns shortly.
+
+Typically, application servers are hosted on cloud infrastructure like AWS and Azure, or in containerized environments, like Docker or Kubernetes.
+
+### Client
+
+The client is the front-end portion of our web app, which end users actually interact with. This comprises all code that's run in the user's browser.
+
+Generally, this consists of HTML and CSS for design elements, and JavaScript for interactivity. These files are then interpreted by the browser, to present the web app's interface. 
+
+However, modern web apps aren't necessarily written from scratch with raw HTML and JavaScript. Instead, many designers use frameworks like Vue, React, or Angular, or rely on low-code tools to ship designs.
+
+Of course, one of the key aspects of our app's front-end is its user experience, including both design and performance.
+
+Certain logic is also handled within the application client. For example, we might coniditionally display or style particular elements based on contextual factors. The application client also has a role to play in performance optimization, including the likes of CDN integration, lazy loading, or caching.
+
+The client interacts with the application's back-end via APIs or WebSockets.
+
+### APIs
+
+API stands for `application programming interface`. At the highest level, these are sets of rules, protocols, and standards that allow different elements of our web application development project to communicate with eachother.
+
+The most common example of this is enabling the front-end and back-end of the app to send data back and forth in structured formats. An API is made up of several `endpoints`. These are defined in the application server, including the commands we need to use to access them, the structure of the data they'll accept, and the responses we can expect in a response.
+
+To learn more, check out our guide to the [components of an API](https://budibase.com/blog/inside-it/what-are-the-components-of-an-api/).
+
+However, that's just our web app's own API endpoints. API requests are also used to interact with external tools. For example, authentication tools, external databases, third-party apps, payment gateways, or analytics platforms.
+
+This is crucial for the integrability of our web app.
+
+### Middleware
+
+Lastly, we have middelware. While not present in every app, middleware is a software layer that can be helpful for handling concerns that cut across other elements of our web app development project, like security, auditing, and performance.
+
+We can think of this as a bridge that sits between our client, application server, and database, to handle specific tasks, before passing the data on to the next layer. This can include security tasks like authentication, authorization, and audit logging, or performance related functions such as rate-limiting, caching, data transformation, or compression.
+
+This also helps to make our web app project more modular, as specific tasks are handled in separate packages. This helps with reusability and maintenance.
+
+Some middleware may be purpose-built for a particular web app project, but we'll often rely on existing tools for specific functions, like SpringBoot, Django, or Express Middleware.
+
+## Web app design patterns and architecture
+
+With a good understanding of the consituent element of a web application, we can begin to think about a few common configurations of these. Specific archictectures can place different levels of importance on the various components of a web app that we just saw, or organize them in slightly different ways.
+
+Here are three of the most common variations web app architecture patterns.
+
+### Model View Controller (MVC)
+The Model View Controller architecture divides a web application into three interconnected components:
+- `Model` - representing the app's data and business logic,
+- `View` - the app's UI,
+- `Controller` - which updates the View and Model, according to user inputs.
+
+This is a modular approach that enables web app developers to work on core aspects of the project separately. This is also beneficial for testing, maintenance, and reusability.
+
+However, it might be an overly complex approach for certain applications, presenting a comparatively steep learning curve. 
+
+Over time, constiuent elements of an MVC application might become highly coupled, which can reduce flexibility compared to some other architectures.
+
+### Single Page Application (SPA)
+Singe Page Applications is a single HTML page that dynamically updates according to user inputs, without the need to be reloaded. This means that a relatively large proportion of logic is handled in the front-end.
+
+This reduces the load on the server, which can improve performance for repeat visits or longer sessions. SPAs can also be easier to build for simple use cases.
+
+However, there are some important limitations to this approach. For instance, initial load times and memory usage can suffer compared to more back-end-centric approaches.
+
+Similarly, for more complex logic, SPAs can be more complex to build and maintain, as we don't have as extensive separation of concerns.
+
+### Microservices architecture
+A microservices architecture breaks an web app down into small, independent services that can communicate with one another via HTTP or message queues. Each microservice handles a specific piece of functionality.
+
+The benefit is that these can be used, maintained, modified, or scaled independently. This is often more resource-efficient, as well as enabling a high degree of agility and flexibility.
+
+Microservices are also typically technology agnostic, since the various elements don't need to be built with the same tools in order to communicate with eachother.
+
+However, this also introduces a comparatively large amount of complexity. For instance, when it comes to monitoring, testing, or lifecycle management. As such, a microservices architecture is best kept for advanced development projects, where their additional modularity is really needed.
+
 ## Web application development frameworks {#frameworks}
 
 {{< figure src="/web-application-development/framework.jpg" alt="React framework" >}}
@@ -291,11 +395,31 @@ Vue describes itself as 'the progressive JavaScript framework'. Vue is smaller i
 
 Svelte describes itself as 'cybernativally enhanced web apps'. Svelte is the new kid on the block and is a compiler rather than a framework. This means no virtual DOM, no frameworks on top of frameworks, and **no framework to load at runtime**, resulting in incredibly performant web applications. Svelte's syntax makes the framework the easiest to learn from the frontend frameworks mentioned, and perfect for small to medium sized web applications. It is unproven with large web applications. The community and ecosystem is smaller than React and Vue, but it's growing. Budibase uses Svelte, and we truly love it.
 
-## **Web application development in 20245
+## Web application development trends in 2025
+Like many aspects of software development, the way web applications are built has shifted greatly over the past few years. More and more of the work of building software is being replaced by a mixture of reusable resources, visual development platforms, and artificial intelligence.
 
-{{< figure src="/web-application-development/budibase.jpg" alt="Budibase platform" >}}
+Let's take a look at the two biggest disruptors in this space today.
+### Low-code web app development
+Low-code development means relying on visual tools and pre-built components to minimize the amount of custom code we need to ship applications. This idea is not new, with some platforms having been on the market for decades at this point.
 
-Web application development platforms are a super-fast and easier way to build web applications. They remove many of the complexities experienced with coding and replace them with a simple-to-use user interface. This is a pretty new category and the tools can also be described as low-code platforms.
+However, in recent years the development for low-code platforms has exploded, thanks in part to changes in technology, as well as economic pressures on internal IT teams.
+
+The goal is to provide a faster time to value within development projects, by allowing teams to build solutions without requiring repetitive, boilerplate tasks. This also empowers non-developers to create solutions that would previously not have been possible.
+
+The extent of coding skills that's required varies from platform to platform. We'll see what makes Budibase tick as an [open-source low-code platform](https://budibase.com/blog/open-source-low-code-platforms/) a little later.
+### AI-driven web app development
+
+The other big trend here is, of course, the rise of AI. Like low-code platforms, the core value-add here is eliminating common development tasks, resulting in faster, more cost-effective projects.
+
+It's important to note that, in the context of developing web applications, this can take a few different forms. Which of these is viable for you will depend on your specific circumstances and existing knowledge.
+
+First, we have the introduction of AI capabilities to traditional development projects. This include AI-assisted development tools, such as GitHub Copilot. Broadly, this approach means that software is still largely built from scratch, with the addition of AI assistants to help with certain tasks like debugging or even code generation.
+
+On the other hand, we've also seen a range of tools come to the market that will output entire applications from a prompt using AI. While this is an exciting development, it's worth keeping a few key limitations in mind. 
+
+One is that, the output of these kinds of tools will often require a lot of refinement, so we still need to have the right tools in place to handle these, whether with low-code or traditional development approaches.
+
+The other is that it's still important to have a broad grasp of core development concepts in order work with AI tools, as well as some awareness of prompt engineering - especially if we requirements beyond a very basic web application.
 
 ## Introducing Budibase
 
