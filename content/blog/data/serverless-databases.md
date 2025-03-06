@@ -95,6 +95,8 @@ That is, we can create, manage, and merge Git-like branches relating to our data
 
 This makes NeonDB highly suited to modern development workflows. It’s also open-source and offers incremental auto-backups.
 
+Check out our other tutorial on building a [SQL GUI](https://budibase.com/blog/tutorials/sql-gui/).
+
 ![FaunaDB](https://res.cloudinary.com/daog6scxm/image/upload/v1697194543/cms/serverless-databases/FaunaDB_n5wgfy.webp "FaunaDB")
 
 ### 2. FaunaDB
