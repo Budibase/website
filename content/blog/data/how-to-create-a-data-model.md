@@ -9,7 +9,7 @@ title = "How to Create a Data Model in 9 Steps"
 [[howto]]
 name = "How to Create a Data Model"
 description = "A step-by-step guide to designing an effective data model."
-image = "https://budibase.com/path-to-article-image.jpg"
+image = "https://res.cloudinary.com/daog6scxm/image/upload/v1653319610/cms/What_is_database_schema_header_ahhxph.png"
 [[howto.steps]]
 name = "Gather Business Requirements"
 text = "Determine underling goals and needs."
