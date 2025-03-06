@@ -5,7 +5,39 @@ description = "Budibase is the perfect solution for using a form to enter Google
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1661162349/cms/Using_a_Form_to_Enter_Google_Sheets_Data-2_c9wd4k.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1661162354/cms/Using_a_Form_to_Enter_Google_Sheets_Data-2_gw9fv9.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Create a Form to Enter Google Sheets Data in 7 Steps"
+title = "How to Create a Data Entry Form for Google Sheets in 7 Steps"
+[[howto]]
+name = "How to Create a Google Sheets Data Entry Form"
+description = "A step-by-step guide to designing an effective data model."
+image = "https://res.cloudinary.com/daog6scxm/image/upload/v1661162349/cms/Using_a_Form_to_Enter_Google_Sheets_Data-2_c9wd4k.png"
+[[howto.steps]]
+name = "Create a new app and select Google Sheets as a data source"
+text = "Start a new Budibase project and choose Google Sheets from the available data sources"
+url = "https://budibase.com/blog/data/using-a-form-to-enter-google-sheets-data/#1-create-a-new-app-and-select-google-sheets-as-your-data-source"
+[[howto.steps]]
+name = "Configure your data connection"
+text = "Enter your Google Sheets data connection details"
+url = "https://budibase.com/blog/data/using-a-form-to-enter-google-sheets-data/#2-configure-your-data-connection"
+[[howto.steps]]
+name = "Autogenerate CRUD Screens"
+text = "Use Budibase to generate CRUD screens from connected data"
+url = "https://budibase.com/blog/data/using-a-form-to-enter-google-sheets-data/#3-autogenerate-crud-screens"
+[[howto.steps]]
+name = "Build a Google Sheets Data Entry Form"
+text = "Use Budibase to build a standalone data entry form for Google Sheets"
+url = "https://budibase.com/blog/data/using-a-form-to-enter-google-sheets-data/#4-build-a-google-sheets-data-entry-form"
+[[howto.steps]]
+name = "Assign access levels"
+text = "Define user roles and permissions for your data"
+url = "https://budibase.com/blog/data/using-a-form-to-enter-google-sheets-data/#5-assign-access-levels"
+[[howto.steps]]
+name = "Customize your design and UX"
+text = "Modify color schemes, display texts, and form layouts"
+url = "https://budibase.com/blog/data/using-a-form-to-enter-google-sheets-data/#6-customize-your-design-and-ux"
+[[howto.steps]]
+name = "Publish your app"
+text = "Push your app live for users"
+url = "https://budibase.com/blog/data/using-a-form-to-enter-google-sheets-data/#7-publish-your-app"
 +++
 
 Obviously, Google Sheets is great for collaboratively managing all sorts of data. There are big downsides here too though, especially if you’re working at scale. One solution is using a form to enter data into Google Sheets.
@@ -74,7 +106,7 @@ We do have a couple of obvious prerequisites. We can safely assume that you have
 
 With that out of the way, here are the specific steps you can follow to start using a form to enter data to Google Sheets.
 
-### 1. Create a new app & select Google Sheets as your data source
+### 1. Create a new app and select Google Sheets as your data source
 
 Unsurprisingly, our first step is to start a new app project. So, once you’re signed in to Budibase, hit Create new app, and then choose Start from scratch. At this point, you’ll be prompted to choose a name and URL:
 
