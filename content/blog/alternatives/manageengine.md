@@ -49,7 +49,7 @@ Along the way, we’ll see some of the most important decision points across the
 Specifically, we’re covering:
 
 - [What is ManageEngine?](#what-is-manageengine)
-- [Why would you need a ManageEngine alternative](#what-is-a-manageengine-alternative)
+- [Why would you need a ManageEngine alternative](#why-would-you-need-a-manageengine-alternative)
 - [Top 6 ManageEngine alternatives for 2025](#top-6-manageengine-alternatives-for-2025)
 
 Let’s jump right in.
