@@ -18,7 +18,7 @@ softwareApplications:
     url: "https://www.budibase.com"
   - name: "ServiceNow"
     applicationCategory: "BusinessApplication"
-    operatingSystem: "Cloud"
+    operatingSystem: "Web"
     url: "https://www.servicenow.com/"
   - name: "Jira Service Management"
     applicationCategory: "BusinessApplication"
