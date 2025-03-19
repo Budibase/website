@@ -1,7 +1,7 @@
 +++
 
 author = "Ronan McQuillan"
-date = 2024-05-22
+date = 2025-03-19
 description = "Take a look at our round-up of the top open-source IT ticketing systems."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Top 6 Open-Source IT Ticketing Systems"
