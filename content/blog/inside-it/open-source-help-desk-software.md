@@ -8,7 +8,7 @@ title = "Top 5 Open-Source Help Desk Software Tools"
 name = "Budibase"
 applicationCategory = "businessApplication"
 operatingSystem = "Web"
-url = "https://razuna.com"
+url = "https://budibase.com/"
 [[softwareApplications]]
 name = "GLPI"
 applicationCategory = "businessApplication"
