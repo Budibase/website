@@ -7,10 +7,6 @@ layout: freshservice
 author: Ronan McQuillan
 profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 draft: false
-about:
-  - name: ""
-    sameAs: ""
-    type: "Thing"
 softwareApplications:
   - name: "Budibase"
     applicationCategory: "BusinessApplication"
