@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2024-01-03T23:00:00Z
+date = 2024-10-03T23:00:00Z
 description = "Learn how to create forms for SQL databases in less than 5 minutes with Budibase"
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1657707152/cms/Forms_for_SQL_Database_ds2jru.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1657707158/cms/Forms_for_SQL_Database_dy3fis.png"]

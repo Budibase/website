@@ -1,7 +1,7 @@
 +++
 
 author = "Ronan McQuillan"
-date = 2023-06-23
+date = 2024-10-23
 description = "Check out our guide to building an inventory management app - for free."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1687525689/cms/inventory-management-app/Inventory_Management_App_h3fmp7.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1687525689/cms/inventory-management-app/Inventory_Management_App_h3fmp7.png"]
