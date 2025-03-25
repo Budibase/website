@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2024-06-11
+date = 2025-02-11
 description = "Check out our round-up of the best free asset management software."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Top 5 Free Asset Management Software Tools"

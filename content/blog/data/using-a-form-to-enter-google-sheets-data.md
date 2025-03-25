@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2024-01-01T23:00:00Z
+date = 2024-10-01T23:00:00Z
 description = "Budibase is the perfect solution for using a form to enter Google Sheets data. Follow our tutorial to find out more."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1661162349/cms/Using_a_Form_to_Enter_Google_Sheets_Data-2_c9wd4k.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1661162354/cms/Using_a_Form_to_Enter_Google_Sheets_Data-2_gw9fv9.png"]
