@@ -1,13 +1,14 @@
 +++
-
 author = "Jamie Birss"
 date = 2025-03-24
 description = "Explore five key root causes of Shadow IT, along with some strategies that you and your team can adopt to mitigate them."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1704878154/Photos/headshot_aw4uce.png"
 title = "Illuminating the Shadows: How to Manage and Mitigate Shadow IT"
+image = "https://res.cloudinary.com/daog6scxm/image/upload/v1743069881/1.%20Illustrations/Shadow_IT_hblppi.webp"
+images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1743069881/1.%20Illustrations/Shadow_IT_hblppi.webp"]
 +++
 
-![Shadow IT](https://res.cloudinary.com/daog6scxm/image/upload/v1743069881/1.%20Illustrations/Shadow_IT_hblppi.png)
+![Shadow IT](https://res.cloudinary.com/daog6scxm/image/upload/v1743069881/1.%20Illustrations/Shadow_IT_hblppi.webp)
 
 Shadow IT isn’t a new phenomenon. It’s been in organizations for years, surfacing whenever employees can’t find (or don’t trust) official channels to get the tools they need. And as digital transformation accelerates, those unofficial pathways multiply. According to [Qualys’ State of Cloud and SaaS Security Report](https://ntvoiceanddata.co.uk/the-cost-of-cybercrime-in-2025/#:~:text=As%20we%20step%20into%202025,a%20data%20breach%20or%20attack.), 28% of organizations experienced a cloud or SaaS-related breach in the last year, with over a third of those hit multiple times within 12 months. When even simple oversights can lead to multi-million-dollar security incidents, it’s clear that ignoring Shadow IT is no longer an option.
 
