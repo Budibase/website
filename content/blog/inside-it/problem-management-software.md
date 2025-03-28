@@ -2,6 +2,7 @@
 author = "Ronan McQuillan"
 date = 2025-03-28
 description = "Check out our round-up of the best problem management software tools."
+profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Top 5 Problem Management Software Tools"
 [[mentions]]
 name = "Problem Management"
