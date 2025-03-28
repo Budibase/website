@@ -51,7 +51,7 @@ Today, we’re cutting through the noise by detailing everything you need to kno
 
 - [What is problem management software](#what-is-problem-management-software)
 - [What to look for in a problem management tool](#what-to-look-for-in-a-problem-management-tool)
-- [Top 6 problem management tools for 2025](#top-6-problem-management-tools-for-2025)
+- [Top 5 problem management tools for 2025](#top-5-problem-management-tools-for-2025)
 
 Let’s jump right in.
 
@@ -87,7 +87,7 @@ Problem management is also a use case where security requirements are often heig
 
 Beyond this, it’s also important to consider your needs around more advanced monitoring or automated discovery capabilities. For instance, this may be a bigger concern in large, complex IT environments but less important for smaller organizations.
 
-## Top 6 problem management tools for 2025
+## Top 5 problem management tools for 2025
 
 Now that we have a better grasp of what problem management software is and what it does, we can begin to consider the specific options that are available to us across the market.
 
@@ -98,9 +98,8 @@ These are:
 1. [Budibase](#1-budibase)
 2. [ServiceNow](#2-servicenow)
 3. [Jira Service Management](#3-jira-service-management)
-4. [IssueTrak](#4-issuetrak)
-5. [Faveo](#5-faveo)
-6. [osTicket](#6-osticket)
+4. [Faveo](#4-faveo)
+5. [osTicket](#5-osticket)
 
 Let’s check each one out in turn.
 
