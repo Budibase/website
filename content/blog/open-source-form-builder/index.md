@@ -27,7 +27,7 @@ From a design perspective, it is safe to say forms have progressed a lot. A deca
 
 ![What is an open source form builder](https://res.cloudinary.com/daog6scxm/image/upload/t_1920x1080/v1675437167/ui/form_2x_mbli8y.webp "What is an open source form builder")
 
-Before diving into the 5 best open source form builders, let's understand what exactly a form builder is.
+Before diving into the 6 best open source form builders, let's understand what exactly a form builder is.
 
 > A form builder is a software-based tool that helps users build online forms with little to no code.
 
@@ -116,7 +116,7 @@ _Best open source form builder - React._
 
 Kinto Form builder is an open-source form builder built with React on top of Kinto.
 
-Kinto is a unique project, and the form builder is very flexible in nature. I felt it deserved a place in my top 5 because of its flexibility. This flexibility comes at a cost - it is the hardest of all the form builders to get started and use.
+Kinto is a unique project, and the form builder is very flexible in nature. I felt it deserved a place in my top 6 because of its flexibility. This flexibility comes at a cost - it is the hardest of all the form builders to get started and use.
 
 ### Ease of use - ⭐⭐
 
