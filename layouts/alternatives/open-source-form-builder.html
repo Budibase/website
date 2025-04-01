@@ -11,8 +11,15 @@
         <div class="container-8 mx-auto">
             <header class="my-6">
                 <h1 class="mt-2 mb-4">{{ .Title }}</h1>
-                Published by {{ .Params.author }}, {{ .Date.Format .Site.Params.dateform }}
-            </header>
+                {{ if (.Params.profilePic) }}
+                <img
+                  class="u-avatar-4 rounded-circle mr-2"
+                  src="{{ with .Params.profilePic }}{{ . }}{{ end }}"
+                />
+                {{ else }}
+                <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp" />
+                {{ end }}Published by {{ .Params.author }}, {{ .Date.Format
+                .Site.Params.dateform }}
         </div>
         <div class="mx-md-auto container-8">
             {{ $content_parts := split .Content "||||||||||" }}
