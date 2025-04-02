@@ -33,6 +33,8 @@ Still, many businesses don’t have an incident reporting system in place. When 
 
 Our IT incident report template prevents this.
 
+{{< template-cta template = "incidentReport" >}}
+
 ### What should an IT incident report include?
 
 IT incident reports are used to thoroughly record the details of an incident. This includes giving a detailed account of what happened, what the impact was, and trying to establish a cause.
@@ -124,6 +126,8 @@ Our template offers conditionality based on user class, front-end data, and in-a
 You need different information for data breaches and service outages, for example.
 
 With conditionality in Budibase, you can quickly transform simple forms into flexible and deployable data gathering apps.
+
+{{< template-cta template = "incidentReport" >}}
 
 ## Why build an IT incident report form with Budibase?
 

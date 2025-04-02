@@ -72,6 +72,8 @@ With our free template, you’ll have access to asset management features includ
 
 Budibase is the fast and easy way to build asset management software.
 
+{{< template-cta template = "assetManagement" >}}
+
 ### Streamlined asset management
 
 Our template offers unrivaled device management experiences. We’ve provided multiple user-friendly screens for managing costs deployment, asset requests, and maintenance schedules.
@@ -113,6 +115,8 @@ All of our app components and building blocks are fully mobile-responsive. Our a
 Budibase also supports conditional UIs. Hide or display any design element, based on the user’s device, for a fully streamlined mobile UX.
 
 Maximize app adoption, by giving your IT team an asset management tool they can take anywhere.
+
+{{< template-cta template = "assetManagement" >}}
 
 ## Open-source asset management software from Budibase
 
