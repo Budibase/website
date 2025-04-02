@@ -70,6 +70,8 @@ Check out our ultimate guide on databases vs spreadsheets for more details.
 
 Another excellent question!
 
+![Using a form to enter google sheets data Budibase UI](https://res.cloudinary.com/daog6scxm/image/upload/t_1920x1080/v1675437167/ui/form_2x_mbli8y.webp "Using a form to enter Google Sheets data Budibase UI")
+
 No doubt, you’re well aware that Google offers its own solutions here. So, you could build a form on a separate sheet and use built-in functions and Google Apps script code or other script editors to add rows to your dataset.
 
 Alternatively, you could do something similar with Google Forms - or other Google Drive integrations. You might also like our guide to[ data access control](https://budibase.com/blog/app-building/data-access-control/).
@@ -98,7 +100,7 @@ We’ll return to some of the more specific features of Budibase that make it th
 
 For now, though, let’s jump into the practical stuff.
 
-{{< cta >}}
+{{< form-builder-cta >}}
 
 ## Building Google Sheets forms: step-by-step
 
@@ -308,7 +310,7 @@ Here’s what our finished app looks like:
 
 We can use it as a standalone web app or use an iframe to embed it in an existing webpage or application.
 
-{{< cta >}}
+{{< custom-cta text="Build custom workflow apps on top of any data with Budibase" >}}
 
 ## The smart option for using a form to enter data to Google Sheets
 

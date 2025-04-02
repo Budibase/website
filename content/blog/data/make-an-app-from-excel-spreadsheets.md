@@ -18,6 +18,8 @@ At Budibase, we’re on a mission to revolutionize the way businesses build tool
 
 {{< youtube Wxyyj3qWHEk >}}
 
+{{< custom-cta text="Build custom workflow apps on top of any data with Budibase" >}}
+
 ## Why would I want to make an app from an Excel spreadsheet?
 
 Why move from Excel to apps? Without getting too philosophical - lots of reasons.
@@ -60,6 +62,8 @@ So what can you do to turn Excel into apps?
 ## How to turn Excel spreadsheets into apps with Budibase
 
 With Budibase, building custom business apps and web applications couldn’t be easier. There are actually two different ways that you can go about turning your spreadsheets into applications with our low-code development platform.
+
+![Make app with Excel Spreadsheet Budibase UI](https://res.cloudinary.com/daog6scxm/image/upload/t_1920x1080/v1675437167/ui/form_2x_mbli8y.webp "Make app with excel spreadsheet Budibase UI")
 
 At least, you can get started in a couple of different ways, depending on whether you want to replace your spreadsheets or build extra tools to help make them more effective. After this, you’ll enjoy the same fast, flexible, low-code app-building experience.
 
