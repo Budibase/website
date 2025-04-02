@@ -340,9 +340,7 @@ Just like earlier, this comes in the form of a data object - a series of key/val
 
 And that’s it - all of the components of an API that we need to be aware of.
 
-{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
->
-{{< substack-cta >}}
+{{< cta >}}
 
 ## 4 types of APIs
 

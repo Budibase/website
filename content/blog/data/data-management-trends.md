@@ -35,9 +35,7 @@ Specifically, we need secure, performant solutions for storing, accessing, and u
 
 This has led to a boom in new approaches to storing and handling data.
 
-{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
->
-{{< substack-cta >}}
+{{< cta >}}
 
 ## 8 data management trends
 

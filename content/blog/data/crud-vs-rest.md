@@ -109,9 +109,7 @@ Just as a little extra note - we mentioned a second ago that REST requests can a
 
 Again though - we won’t delve too deeply into that, since it’s beyond the scope of what we want to talk about today.
 
-{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
->
-{{< substack-cta >}}
+{{< cta >}}
 
 ### RESTful principles
 

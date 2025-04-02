@@ -63,9 +63,7 @@ These can all be configured with *headers* and *parameters* - essentially, varia
 
 For example, allowing us to prove that we have authorization to access a dataset or using filtering to retrieve a specific row.
 
-{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
->
-{{< substack-cta >}}
+{{< cta >}}
 ## Why do we need API integration?
 
 So, why is API integration such a priority for modern IT teams? We gave a flavor of this already in our intro today, but to fully understand this, it’s worth reflecting on the present state of your typical organization’s IT ops.
