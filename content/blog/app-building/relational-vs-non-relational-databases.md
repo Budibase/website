@@ -73,7 +73,7 @@ As the name suggests, this is a *language* rather than a *database management sy
 
 ![Relational vs non relational database statistics](https://res.cloudinary.com/daog6scxm/image/upload/v1661161416/cms/SQL_Developer_Stats_bcreav.webp "relational vs non relational database statistics")
 
-([Stack Overflow)](https://insights.stackoverflow.com/survey/2017#technologies-and-occupations)
+[Stack Overflow)](https://insights.stackoverflow.com/survey/2017#technologies-and-occupations)
 
 Today, there are a whole array of different SQL-based databases out there, so it’s worth briefly going through some of the most common examples.
 
@@ -138,9 +138,7 @@ One downside, however, is that you’ll need some Lua coding skills in order to 
 
 Amazon’s **DynamoDB** is perhaps the best-known wide-column store, while the most widely used graph database is probably **Neo4j.**
 
-{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
->
-{{< substack-cta >}}
+{{< cta >}}
 
 ## Relational vs non-relational databases: pros and cons
 

@@ -230,7 +230,3 @@ That is, ensuring that it continues to be fit for purpose.
 Issues can emerge over time with any access control system. For example, you might roll out new features and data, or implement changes to your workflows. In many cases, this will require adjustments to your existing roles.
 
 This means adding or removing roles from your framework, or making adjustments to existing ones. The key here is identifying the situations where this might be necessary, so you can take action in advance.
-
-{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
->
-{{< substack-cta >}}
