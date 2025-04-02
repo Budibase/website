@@ -1,6 +1,6 @@
 +++
 datasource = "Built-in database"
-date = 2022-01-18T00:00:00Z
+date = 2025-01-18T00:00:00Z
 description = "Our IT incident report template gives businesses a simple form to record incidents in seconds. Start using Budibase today."
 destination = "https://budibase.app/builder?template=app/it-incident-report-form"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639153307/cms/IT_Incident_Report_Form_Featured_tpdmwv.png"]
