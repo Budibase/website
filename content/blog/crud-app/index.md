@@ -13,6 +13,10 @@ We use CRUD apps every day. Most of the time, without noticing. They keep us org
 2. [How to build a CRUD app](#how)
 3. [Why CRUD is important](#why)
 
+{{< youtube DsBudu6Kzls >}}
+
+{{< custom-cta text="Build CRUD tools on top of any data with Budibase">}}
+
 ## What is a CRUD App {#what}
 
 > A CRUD app is a specific type of software application that consists of four basic operations; Create, Read, Update, Delete.
@@ -152,8 +156,6 @@ There are many, low code platforms, frameworks, or tech stacks that provide an e
 ## How to build a simple CRUD app {#how}
 
 Budibase is a low code platform that is designed for creating CRUD applications. From the frameworks, tech stacks, and platforms listed above, Budibase is the easiest and fastest way to build a CRUD application. For these reasons, we will use Budibase to build our CRUD app.
-
-{{< youtube DsBudu6Kzls >}}
 
 {{< cta >}}
 
