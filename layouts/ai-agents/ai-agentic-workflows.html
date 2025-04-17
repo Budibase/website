@@ -1,0 +1,121 @@
+{{ partial "head/header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+
+<main id="content" role="main">
+    <article class="article">
+        <div class="space-1-bottom">
+            <img class="img-fluid" src="{{ .Params.cover }}" />
+        </div>
+        <div class="container-8 mx-auto">
+            <a class="opacity-75 font-weight-medium a-alt" href="/blog/"><- All posts</a>
+            <header class="mt-6">
+                <h1 class="mt-2 mb-4">{{ .Title }}</h1>
+                {{ if (.Params.profilePic) }}
+                <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+                {{ else }}
+                <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
+                {{ end }}Published by {{ .Params.author }}, {{ .Date.Format .Site.Params.dateform }}
+            </header>
+        </div>
+
+<div class="mx-md-auto my-9 container-8">
+    {{ $content_parts := split .Content "||||||||||" }}
+    {{ index $content_parts 0 | safe.HTML}}
+</div>
+<div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
+    <div class='alt-container mx-auto'>
+
+        <table class="alt-table no-scrollbar mx-auto" style="border-collapse: separate; border-spacing: 0;">
+            <thead style="background-color: #c8aff0;">
+              <tr>
+                <th style="width:200px;"></th>
+                <th style="width:200px;">
+                  <div class="flex-row align-center">
+                    <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">Workflow Automation</p>
+                  </div>
+                </th>
+                <th style="width:200px;">
+                  <div class="flex-row align-center">
+                    <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">Non-Agentic AI</p>
+                  </div>
+                </th>
+                <th style="width:200px;">
+                  <div class="flex-row align-center">
+                    <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">Agentic AI</p>
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="background-color: #f7f5f2;">
+                <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Best Used When</td>
+                <td class="text-xs" style="line-height: 1.5;">
+                  - Tasks are deterministic<br>
+                  - Inputs/outputs are predictable<br>
+                  - Logic is static<br>
+                  - High traceability required
+                </td>
+                <td class="text-xs" style="line-height: 1.5;">
+                  - Tasks are high‑volume and repeatable<br>
+                  - Stateless execution is fine<br>
+                  - Clear I/O boundaries
+                </td>
+                <td class="text-xs" style="line-height: 1.5;">
+                  - Tasks are complex or multi‑step<br>
+                  - Requires adaptation<br>
+                  - Goal is high‑level
+                </td>
+              </tr>
+              <tr style="background-color: #f7f5f2;">
+                <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Autonomy</td>
+                <td class="text-xs" style="line-height: 1.5;">None — fully rule‑based.</td>
+                <td class="text-xs" style="line-height: 1.5;">Low — triggered per task.</td>
+                <td class="text-xs" style="line-height: 1.5;">High — agents operate independently.</td>
+              </tr>
+              <tr style="background-color: #f7f5f2;">
+                <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Memory / Context Awareness</td>
+                <td class="text-xs" style="line-height: 1.5;">None.</td>
+                <td class="text-xs" style="line-height: 1.5;">None.</td>
+                <td class="text-xs" style="line-height: 1.5;">Yes — agents can track state and history.</td>
+              </tr>
+              <tr style="background-color: #f7f5f2;">
+                <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Adaptability</td>
+                <td class="text-xs" style="line-height: 1.5;">None — requires manual updates.</td>
+                <td class="text-xs" style="line-height: 1.5;">Limited — fixed prompt‑based behavior.</td>
+                <td class="text-xs" style="line-height: 1.5;">High — agents can re‑plan and adapt.</td>
+              </tr>
+              <tr style="background-color: #f7f5f2;">
+                <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Examples</td>
+                <td class="text-xs" style="line-height: 1.5;">
+                  - Invoice processing<br>
+                  - Account provisioning
+                </td>
+                <td class="text-xs" style="line-height: 1.5;">
+                  - Ticket summarization<br>
+                  - Sentiment classification
+                </td>
+                <td class="text-xs" style="line-height: 1.5;">
+                  - IT onboarding<br>
+                  - Change request triage
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          
+                  
+    </div>
+  </div>
+  <div class="mx-md-auto my-9 container-8">
+    {{ index $content_parts 1 | safe.HTML}}
+</div>
+
+</article>
+</main>
+
+<!--Article-->
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}
