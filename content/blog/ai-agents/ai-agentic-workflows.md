@@ -1,5 +1,4 @@
 +++
-
 author = "Ronan McQuillan"
 date = 2025-04-17
 description = "Take a look at our comprehensive guide to implementing AI Agentic Workflows"
@@ -377,7 +376,7 @@ Just as a more traditional software tool, like a web app, has data, interface, a
 
 The following are the layers of an agentic system that we’ll need to account for.
 
-![AI Agentic WOrkflow Architecture](https://res.cloudinary.com/daog6scxm/image/upload/v1744893944/cms/ai-agents/ai-agentic-workflows/Agentic_Architecture_Diagram_dwwguq.webp "AI Agentic Workflow Architecture")
+![AI Agentic WOrkflow Architecture](https://res.cloudinary.com/daog6scxm/image/upload/t_square/v1744893944/cms/ai-agents/ai-agentic-workflows/Agentic_Architecture_Diagram_dwwguq.png "AI Agentic Workflow Architecture")
 
 The `Interface Layer` enables the agent to interact with the outside world, including communication with human users, software systems, and environments. This includes accepting and analyzing inputs.
 
