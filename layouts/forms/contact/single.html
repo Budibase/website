@@ -2,6 +2,37 @@
 
 {{ partial "navigation.html" . }}
 
+<style>
+
+.btn-book-call {
+  width: 100%;
+  max-width: 500px;
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+}
+
+form > label, button {
+  margin-top: 20px;
+}
+
+form > input, textarea {
+  border-radius: 5px;
+  width: 100%;
+  border-color: var(--base-10);
+  border-width: 1px;
+  border-style: solid;
+  padding:5px;
+}
+
+.or {
+  font-size: larger;
+}
+
+</style>
+
 <div class="free-trial-grid space-3-top space-5-bottom">
     <div>
         <h1 class="mb-3 hero-title">
@@ -47,33 +78,39 @@
    
 
       <div style="display:flex; align-items: center; flex-direction: column; gap: 20px">
-        <button type="submit" class="btn btn-cta btn-lg" style="border-radius: 0 !important; width: calc(100% - 21px);" data-cal-link="mjashanks/budibase-contact-sales" data-cal-namespace="budibase-contact-sales" data-cal-config='{"layout":"month_view","theme":"light"}'>
+        <a href="https://app.apollo.io/#/meet/jvb-hrs-7do/budibase-contact-sales" target="_blank" class="btn btn-cta btn-lg btn-book-call">
           Book a call with our sales team   
-        </button>
+        </a>
 
 
-        <p><em>or</em></p>
+        <p><em class="or">or</em></p>
+
+        <p>complete the form below and we'll get back to you.</p>
 
       
-      <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/czLSnTfzULpMvIFxaMXPDzmF0EF5DOneyXLFUr2WR8yLSICIiT4jyECtjKT9w2sNnt"><script src="https://webforms.pipedrive.com/f/loader"></script></div>
+        <form action="https://budibase.com/contact/" method="post" name="contact sales">
+          <label for="first_name">First Name</label>
+          <input type="text" id="first_name" name="first_name" required>
+
+          <label for="last_name">Last Name</label>
+          <input type="text" id="last_name" name="last_name" required>
         
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        
+          <label for="company">Company Name</label>
+          <input type="text" id="company" name="company" required>
+        
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <br>
+        
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
 
       </div>
    
-    <!-- Cal element-click embed code begins -->
-      <script type="text/javascript">
-        (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
-      Cal("init", "budibase-contact-sales", {origin:"https://cal.com"});
-
-        
-        // Important: Please add the following attributes to the element that should trigger the calendar to open upon clicking.
-        // `data-cal-link="mjashanks/budibase-contact-sales"`
-        // data-cal-namespace="budibase-contact-sales"
-        // `data-cal-config='{"layout":"month_view","theme":"light"}'`
-
-        Cal.ns["budibase-contact-sales"]("ui", {"theme":"light","cssVarsPerTheme":{"light":{"cal-brand":"#000000"}},"hideEventTypeDetails":false,"layout":"month_view"});
-        </script>
-        <!-- Cal element-click embed code ends -->
 
           
     </div>
