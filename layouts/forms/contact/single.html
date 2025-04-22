@@ -1,4 +1,3 @@
-
 {{ partial "head/header.html" . }}
 
 {{ partial "navigation.html" . }}
@@ -6,7 +5,7 @@
 <div class="free-trial-grid space-3-top space-5-bottom">
     <div>
         <h1 class="mb-3 hero-title">
-        Contact our sales team
+        Contact us
         </h1>
         <p class="lead-lg">Let’s explore how Budibase can work for you.
         </p>
@@ -45,14 +44,38 @@
     </div>
 
     <div class="bg-white px-5 mt-3">
-      <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
-      <script>
-        hbspt.forms.create({
-          region: "eu1",
-          portalId: "26121987",
-          formId: "59b1f493-4794-4229-9b9f-316628174eb9"
-        });
-      </script>
+   
+
+      <div style="display:flex; align-items: center; flex-direction: column; gap: 20px">
+        <button type="submit" class="btn btn-cta btn-lg" style="border-radius: 0 !important; width: calc(100% - 21px);" data-cal-link="mjashanks/budibase-contact-sales" data-cal-namespace="budibase-contact-sales" data-cal-config='{"layout":"month_view","theme":"light"}'>
+          Book a call with our sales team   
+        </button>
+
+
+        <p><em>or</em></p>
+
+      
+      <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/czLSnTfzULpMvIFxaMXPDzmF0EF5DOneyXLFUr2WR8yLSICIiT4jyECtjKT9w2sNnt"><script src="https://webforms.pipedrive.com/f/loader"></script></div>
+        
+
+      </div>
+   
+    <!-- Cal element-click embed code begins -->
+      <script type="text/javascript">
+        (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+      Cal("init", "budibase-contact-sales", {origin:"https://cal.com"});
+
+        
+        // Important: Please add the following attributes to the element that should trigger the calendar to open upon clicking.
+        // `data-cal-link="mjashanks/budibase-contact-sales"`
+        // data-cal-namespace="budibase-contact-sales"
+        // `data-cal-config='{"layout":"month_view","theme":"light"}'`
+
+        Cal.ns["budibase-contact-sales"]("ui", {"theme":"light","cssVarsPerTheme":{"light":{"cal-brand":"#000000"}},"hideEventTypeDetails":false,"layout":"month_view"});
+        </script>
+        <!-- Cal element-click embed code ends -->
+
+          
     </div>
 </div>
 
