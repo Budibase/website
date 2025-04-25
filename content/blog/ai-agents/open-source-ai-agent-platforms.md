@@ -8,7 +8,7 @@ type = "ai-agents"
 layout= "open-source-ai-agent-platforms"
 +++
 
-AI agents are probably the technology with the most hype around them today. Every day, we hear new reasons why they’re going to transform just about all aspects of daily life. But, practical information about how to make this a reality is less forthcoming.
+There's a huge amount of hype around AI agents. Every day, we hear new reasons why they’re going to transform just about all aspects of daily life. But, practical information about how to make this a reality is less forthcoming.
 
 The biggest question here is, how can we build agentic solutions of our own?
 
