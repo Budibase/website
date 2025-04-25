@@ -1,0 +1,107 @@
+{{ partial "head/header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+
+<main id="content" role="main">
+    <article class="article">
+        <div class="space-1-bottom">
+            <img class="img-fluid" src="{{ .Params.cover }}" />
+        </div>
+        <div class="container-8 mx-auto">
+            <a class="opacity-75 font-weight-medium a-alt" href="/blog/"><- All posts</a>
+            <header class="mt-6">
+                <h1 class="mt-2 mb-4">{{ .Title }}</h1>
+                {{ if (.Params.profilePic) }}
+                <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+                {{ else }}
+                <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
+                {{ end }}Published by {{ .Params.author }}, {{ .Date.Format .Site.Params.dateform }}
+            </header>
+        </div>
+
+<div class="mx-md-auto my-9 container-8">
+    {{ $content_parts := split .Content "||||||||||" }}
+    {{ index $content_parts 0 | safe.HTML}}
+</div>
+<div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
+    <div class='alt-container mx-auto'>
+  
+      <table class="alt-table no-scrollbar mx-auto" style="border-collapse: separate; border-spacing: 0;">
+        <thead style="background-color: #c8aff0;">
+          <tr>
+            <th style="width:240px;"></th>
+            <th style="width:260px;">
+              <div class="flex-row align-center">
+                <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">Great For</p>
+              </div>
+            </th>
+            <th style="width:240px;">
+              <div class="flex-row align-center">
+                <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">Open-Source?</p>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">CoPilot Studio</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Building business-oriented agents integrated with Microsoft tools.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">No</td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">n8n</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Workflow automation with strong integrations for building AI agents.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">Yes</td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">AutoGPT</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Complex, multi-agent workflows with autonomous reasoning.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">Source-code-available</td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">ChatFuel</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              No-code, visual platform for creating conversational agents, especially for sales.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">No</td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">BotPress</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Customizable AI agents and chatbots with strong analytics and insights.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">Yes</td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Watsonx.ai</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Enterprise-focused AI agent building with strong security and compliance features.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">No</td>
+          </tr>
+        </tbody>
+      </table>
+  
+    </div>
+  </div>
+  
+
+  <div class="mx-md-auto my-9 container-8">
+    {{ index $content_parts 1 | safe.HTML}}
+</div>
+
+</article>
+</main>
+
+<!--Article-->
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}
