@@ -1,14 +1,14 @@
 +++
 author = "Ronan McQuillan"
 date = 2025-04-23
-description = "Take a look at our round-up of the top open-source AI agent platforms"
+description = "Take a look at our round-up of the top open-source AI agent platforms."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "6 Open-Source AI Agent Platforms"
 type = "ai-agents"
 layout= "open-source-ai-agent-platforms"
 +++
 
-AI agents are probably the technology with the most hype around them today. Every day, we hear new reasons why they’re going to transform just about all aspects of daily life. But, practical information about how to make this a reality is less forthcoming.
+There's a huge amount of hype around AI agents. Every day, we hear new reasons why they’re going to transform just about all aspects of daily life. But, practical information about how to make this a reality is less forthcoming.
 
 The biggest question here is, how can we build agentic solutions of our own?
 
