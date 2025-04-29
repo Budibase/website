@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-04-29
 description = "Take a look at our in-depth guide to digital workers."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "What are Digital Workers? + Use Cases & Examples"
+title = "What are Digital Workers? + Examples"
 type = "ai-agents"
 layout= "digital-workers"
 
