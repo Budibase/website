@@ -1,5 +1,4 @@
 +++
-
 author = "Ronan McQuillan"
 date = 2025-05-01
 description = "Take a look at our comprehsive guide to enterprise chatbots and conversational automation."
@@ -32,6 +31,8 @@ Specifically, we’ll be covering:
 
 Let’s start with the basics.
 
+![Enterprise Chatbots](https://res.cloudinary.com/daog6scxm/image/upload/v1746087930/cms/ai-agents/enterprise-chatbots/Enterprise_Chatbots_wzfixr.webp "Enterprise Chatbots")
+
 ## What is an enterprise chatbot?
 
 Enterprise chatbots are AI-powered software agents designed specifically for use within large organizations.
@@ -51,6 +52,8 @@ That leads us to…
 Knowing that enterprise chatbots are more capable of autonomous reasoning and action than other tools, we can drill a little bit deeper into the specific characteristics that underlie this.
 
 Here are three defining characteristics that we need to be aware of.
+
+||||||||||
 
 #### Conversational automation
 
@@ -150,6 +153,8 @@ So far, we’ve alluded several times to the fact that chatbots provide end user
 In order to better understand what this might look like in a real-world setting, it’s vital to understand the practical side of how and where users will interact with our solution.
 
 There are two key configurations that we might opt for here - either deploying purpose-built interfaces or relying on existing communications channels.
+
+||||||||||
 
 Let’s think about each of these in turn.
 
@@ -278,6 +283,8 @@ So far, we’ve talked about this in quite broad terms, while also alluding to s
 To solidify this, it’s important to understand the architecture of enterprise chatbots. That is, before we can think about the specific tools and frameworks we might opt for, it’s vital to have a strong grasp of the underlying architecture and design patterns.
 
 The easiest way to think about this is in terms of the wider system’s constituent layers. This enables us to represent the key functional elements of an enterprise chatbot, independently of the specific tools that we choose to implement each one.
+
+||||||||||
 
 The first, which we’ve discussed already, is the `interface layer`. This is what enables the chatbot to communicate with end users or external software systems. At a high level, this accepts and analyzes inputs. 
 
