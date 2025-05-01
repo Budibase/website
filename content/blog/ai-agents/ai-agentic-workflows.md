@@ -163,6 +163,8 @@ This could be hard-coded, implemented dynamically with a `manager agent`, or rel
 
 In any case, the goal is to ensure that agentic systems remain scalable and modular, with agents able to act individually or in coordination to adapt to real-world, complex scenarios.
 
+You might also like our guide to the top [no-code AI agent builders](https://budibase.com/blog/ai-agents/no-code-ai-agent-builders/).
+
 ### Benefits of agentic AI
 
 Now that we have an in-depth understanding of what AI agentic workflows are and how they work, we can zoom out and think about some of the more practical, business-level pros and cons of implementing them.
@@ -424,6 +426,8 @@ Data & integration layer functions include:
 - Enrichment.
 - System of record integration.
 - Context retrieval.
+
+Check out our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
 
 ### Tool stacks for agentic workflows
 
