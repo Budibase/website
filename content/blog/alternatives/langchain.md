@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-05-02
 description = "Take a look at our round-up of the top LangChain alternatives."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Top 6 LangChain Alternaives & Competitors"
+title = "Top 6 LangChain Alternatives & Competitors"
 type = "ai-agents"
 layout= "langchain-alternatives"
 [[about]]
