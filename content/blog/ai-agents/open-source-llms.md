@@ -126,9 +126,9 @@ Therefore, the challenge is ascertaining which model is most appropriate for eac
 
 These are:
 
-1. [Phi-3 (Mini / Small)](#1-phi-3-mini-small)
+1. [Phi-3 (Mini / Small)](#1-phi-3-mini--small) 
 2. [Mistral 7B](#2-mistral-7b)
-3. [Command R+](#3-command-r+)
+3. [Command R+](#3-command-r)
 4. [Gemma](#4-gemma)
 5. [Nous Hermes 2](#5-nous-hermes-2)
 6. [Jamba](#6-jamba)
