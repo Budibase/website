@@ -166,7 +166,7 @@ Let’s think about each in turn. Unstructured data management enables vertical 
 Horizontal scalability is enhanced by greater flexibility to store unique information about individual data objects - allowing us to represent much more complex phenomena that would be possible with structured data.
 {{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
 >
-{{< substack-cta >}}
+{{< cta >}}
 
 ## Challenges for managing unstructured data
 

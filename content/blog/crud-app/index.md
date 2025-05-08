@@ -1,10 +1,10 @@
 +++
 author = "Joe Johnston"
-date = 2024-03-06T00:00:00Z
+date = 2024-10-06T00:00:00Z
 dateModified = 2022-04-04T00:00:00Z
-description = "A CRUD app is a piece of software that's used to create, read, update & delete data. Here's everything you need to know."
+description = "A CRUD app is a piece of software that's used to create, read, update & delete database entries"
 images = ["/blog/crud-app/images/read.webp"]
-title = "What is a CRUD App and How to Build One"
+title = "What is a CRUD App & How to Build One in 3 Steps"
 
 +++
 We use CRUD apps every day. Most of the time, without noticing. They keep us organized, they help digitise business processes, and they're critical to application development. But many of us are oblivious to what CRUD apps are, or how to build one. Within this post, I am to provide you with a simple and straightforward guide to the world of CRUD apps. The guide is broken down into three sections:
@@ -12,6 +12,10 @@ We use CRUD apps every day. Most of the time, without noticing. They keep us org
 1. [What is a CRUD app](#what)
 2. [How to build a CRUD app](#how)
 3. [Why CRUD is important](#why)
+
+{{< youtube DsBudu6Kzls >}}
+
+{{< custom-cta text="Build CRUD tools on top of any data with Budibase">}}
 
 ## What is a CRUD App {#what}
 
@@ -153,7 +157,7 @@ There are many, low code platforms, frameworks, or tech stacks that provide an e
 
 Budibase is a low code platform that is designed for creating CRUD applications. From the frameworks, tech stacks, and platforms listed above, Budibase is the easiest and fastest way to build a CRUD application. For these reasons, we will use Budibase to build our CRUD app.
 
-{{< youtube DsBudu6Kzls >}}
+{{< cta >}}
 
 ### Overview
 

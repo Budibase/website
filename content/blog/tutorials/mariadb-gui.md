@@ -30,7 +30,7 @@ Budibase offers sleek, visual tools for creating professional UIs on top of just
 
 Or, we might want a more use cae-specific GUI. For example, one that’s based around a particular data structure or has specific interfaces for carrying out defined tasks within an internal process.
 
-With our open-source, low-code platform, non-developers can easily create custom workflow tools in a fraction of the time it would take with custom development.
+With our open-source, low-code platform, non-developers can easily create custom workflow tools in a fraction of the time it would take with custom development. Check out our other tutorial on building a [SQL GUI](https://budibase.com/blog/tutorials/sql-gui/).
 
 So…
 

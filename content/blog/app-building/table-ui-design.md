@@ -1,11 +1,11 @@
 +++
 author = "Ronan McQuillan"
 date = 2024-06-27T23:00:00Z
-description = "Table UI design is central to how your users find, view, and interact with all kinds of data."
+description = "Check out our guide to creating beautiful table UI designs, with ease."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1656428330/cms/Table_UI_Design_Header_yqtrzd.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1656428363/cms/Table_UI_Design_Header_st4oix.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "14 Effective Table UI Design Tips + 6 Shortcuts"
+title = "14 Tips for Professional Table UI Design (+ 6 Shortcuts)"
 
 +++
 
@@ -297,6 +297,67 @@ By contrast, when tables are a lower priority within the wider interface, we can
 
 {{< cta >}}
 
+## 3 real-world examples of great table UI designs
+To put some of what we've learned into practice, we can think about some real-world examples of table UIs with great designs. We've chosen three tools from the field that provide sleak, attractive, and functional UXs.
+
+First, here's a table view from GitHub Issues. 
+
+![GitHub Issues Table UI Design](https://res.cloudinary.com/daog6scxm/image/upload/v1741255235/cms/table-ui-design/GitHub_Issues_f17ato.webp "GitHub issues Table UI Design")
+
+There are a couple of key things to notice here. The first is that there are multiple pre-configured views that users can switch between, giving them quick access to task-specific data.
+
+The other is that the table uses several types of visual cues to offer instant recognition, including emojis, star ratings, and other users' avatars. 
+
+Here's another example from NeonDB, a serverless Postgres instance. 
+
+![NeonDB](https://res.cloudinary.com/daog6scxm/image/upload/v1741255706/cms/table-ui-design/NeonDB_bc8jr4.webp "NeonDB")
+
+This is a deciptively simple table UI design. At first glance, it might not look like much, but compared to your typical database's admin panel, there are some really nice UX touches. 
+
+Firstly, it offers in-line editing. This means we can make simple changes to our stored data, without having to manually query Postgres.
+
+Similarly, it offers flexible filtering with expressions that are structured like actual SQL `WHERE` clauses `SELECT` statements, offering us huge power to return specific values in a familiar experience.
+
+Lastly, if we wanted to combine in-line editing with visual cues, Budibase's `Table` component is the ideal solution - we could even easily connect to GitHub Issues or NeonDB and build custom admin panels.
+
+Here's how this might look in the field.
+
+![Budibase Table UI Design](https://res.cloudinary.com/daog6scxm/image/upload/v1741255435/cms/table-ui-design/Budibase_Table_reiqkm.webp "Budibase Table UI Design")
+
+## Non-tabular UI options for presenting data
+Of course, tables aren't the only way to present database records. 
+
+In fact, there are plenty of use cases where they're unlikely to be suitable, either from a UX point of view or because we're dealing with non-tabular data.
+
+So, let's think about some of the key alternatives to table UIs.
+### Cards
+A card is a design pattern where related information is placed in a flexible container, often resembling a card. This can be repeated over for each entry in a database, creating an array of cards.
+
+The benfit is that cards can be made to look much more attractive than a table UI. For instance, only including title and tagline attributes from a database, along with a featured image. This makes it a more suitable approach for many B2B use cases.
+
+We can still add searchability and front-end filtering too, although this is a little less common. Here's how an array of cards might look for an employee directory, built in Budibase.
+![Cards UI](https://res.cloudinary.com/daog6scxm/image/upload/v1741255235/cms/table-ui-design/Cards_UI_jevwzs.webp "Cards UI")
+
+### Carousels
+Carousels are similar to arrays of cards, but they're generally used to focus users's attention on a small number of data objects, often just one.
+
+They then use interactive elements to allow users to scroll through items in the carrousel. As such, they're generally more focused on visuals than textual information.
+
+They're often used in ecommerce sites, where designers want to prioritize click through rates for certain items. Here's an example that will be familiar to most readers, from the Netflix home screen.
+
+![Netflix](https://res.cloudinary.com/daog6scxm/image/upload/v1741255237/cms/table-ui-design/Netflix_xbeghe.webp "Netflix")
+
+### Data trees
+Lastly, with the rise of NoSQL, we also need tools to present non-tabular data. That is, collections of objects that don't necesarily share the same schema.
+
+Often, this will still rely on table UIs to present high level information about our objects. For example, making them searchable by a unique ID or display attribute. However, if they don't share a schema, we can't present the full details in a table.
+
+An alternative approach to this are data trees. Basically, when we select a specific object, data trees expand their stored attributes in a stylized, more readable fashion than raw JSON. For instance, using indentation or other design elements to display the relationship between attributes.
+
+Here's how this looks if we expand a data object in MongoDB's back-end.
+
+![MongoDB](https://res.cloudinary.com/daog6scxm/image/upload/v1741255235/cms/table-ui-design/MongoDB_xfylgm.webp "MongoDB")
+
 ## Build better table UIs with Budibase
 
 Building data tables is one of the most repetitive, time-wasting tasks that designers contend with. Budibase offers a faster, more cost-effective way to build professional table UIs for a huge range of web app projects.
@@ -323,7 +384,7 @@ You might also like our guide to building a [SQL GUI](https://budibase.com/blog/
 
 Budibase is the fast way to build simple, functional web apps. Autogenerate customizable CRUD screens for a range of data sources, at the press of a button. Say goodbye to laborious, repetitive builds.
 
-![Autogenerate CRUD Screens](https://res.cloudinary.com/daog6scxm/image/upload/v1656428683/cms/Autogenerate_CRUD_Screens_gafwuf.webp "Autogenerate CRUD Screens")
+![Autogenerate CRUD Screens](https://res.cloudinary.com/daog6scxm/image/upload/v1680181644/ui/homepage-design-ui_sizp7b.webp "Autogenerate CRUD Screens")
 
 Without lifting a finger, you’ll have a fully functioning table UI, complete with in-line editing for each individual entry.Of course, our autogenerated screens still offer extensive configuration and customization.
 

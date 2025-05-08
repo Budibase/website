@@ -118,7 +118,7 @@ Let's check them out in more detail.
 
 ### Budibase
 
-First off, Budibase is the clear leader for open-source, low-code web app development. Our platform is the ideal solution for empowering teams to turn data into action.
+First off, Budibase is the leading [open-source, low-code platform](https://budibase.com/blog/open-source-low-code-platforms/). IT teams in all industries choose Budibase to turn data into action.
 
 {{< vimeo id="930591556" title="Budibase Mini Demo" >}}
 

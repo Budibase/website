@@ -1,0 +1,22 @@
+{{ $howToItems := .Params.howto | default slice }}
+{{ range $index, $howTo := $howToItems }}
+{
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "{{ $howTo.name }}",
+    "description": "{{ $howTo.description }}",
+    "image": "{{ $howTo.image }}",
+    "totalTime": "{{ $howTo.totalTime | default "PT30M" }}",
+    "step": [
+        {{ range $stepIndex, $step := $howTo.steps }}
+        {
+            "@type": "HowToStep",
+            "name": "{{ $step.name }}",
+            "text": "{{ $step.text }}",
+            "url": "{{ $step.url }}"
+        }{{ if lt $stepIndex (sub (len $howTo.steps) 1) }},{{ end }}
+                {{ end }}
+            ]
+        {{ if lt $index (sub (len $howToItems) 1) }},{{ end }}
+        {{ end }} 
+    }

@@ -49,6 +49,8 @@ We’re using Budibase Cloud, although you could also self-host your feature req
 
 Along the way, we’ll also provide all of the queries you need to build a lookalike database so you can build along. We’re storing our Postgres database in the free version of NeonDB, so we don’t have to worry about hosting that either.
 
+Check out our other tutorial on building a [SQL GUI](https://budibase.com/blog/tutorials/sql-gui/).
+
 ## How to build a feature request management tool in 5 steps
 
 If you haven’t already, sign up for a free Budibase account to start building as many internal tools as you need for free.

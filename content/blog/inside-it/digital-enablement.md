@@ -267,7 +267,7 @@ The reality is that our requirements are unlikely to remain static over the long
 
 ## Empower your team to do more with Budibase
 
-At Budibase, our mission is to help teams turn data into action. Businesses all around the world choose our open-source, low-code platform to create custom web apps for all sorts of use cases.
+At Budibase, our mission is to help teams turn data into action. Businesses all around the world choose our open-source, low-code platform to [create web apps](https://budibase.com/blog/how-to-make-a-web-app/) for all sorts of use cases.
 
 Here’s why.
 

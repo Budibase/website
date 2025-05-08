@@ -280,7 +280,7 @@ It’s worth noting, though, that the Nuxeo GitHub repository can still be clone
 
 We’ve seen a range of options for open-source digital asset management tools. 
 
-Budibase offers a clear alternative to using pre-built software solutions. Our open-source, low-code platform empowers IT teams to build fully custom internal tools on top of any data source.
+Budibase offers a clear alternative to using pre-built software solutions. Our open-source, low-code platform empowers IT teams to [create custom web apps](https://budibase.com/blog/how-to-make-a-web-app/) securely, on top of any data source.
 
 Our users choose Budibase to build a wide range of advanced workflow tools for digital asset management.
 
