@@ -1,5 +1,5 @@
 ---
-date: 2024-01-02
+date: 2025-01-02
 title: 8 Filemaker Alternatives & Competitors for 2025
 description: Check out our round-up of the top FileMaker alternatives.
 images:

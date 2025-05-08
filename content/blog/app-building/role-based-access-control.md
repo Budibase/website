@@ -338,9 +338,7 @@ For example, you might want to create a customer-facing web app. In this case, y
 
 Each of these would provide different levels of access. For example, unregistered customers may be able to view products, but not make an order.
 
-{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
->
-{{< substack-cta >}}
+{{< cta >}}
 
 ## RBAC rules
 

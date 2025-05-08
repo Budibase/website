@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2024-01-03T23:00:00Z
+date = 2024-10-03T23:00:00Z
 description = "Learn how to create forms for SQL databases in less than 5 minutes with Budibase"
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1657707152/cms/Forms_for_SQL_Database_ds2jru.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1657707158/cms/Forms_for_SQL_Database_dy3fis.png"]
@@ -49,7 +49,7 @@ Let’s jump right in.
 
 The first thing we need to do is create a new Budibase app. If you haven’t already, sign up for a free account using the link below.
 
-{{< cta >}}
+{{< form-builder-cta >}}
 
 When we hit *create new app* we’ll be given the choice of using a template or starting from scratch. We’re going to start from scratch. We’re prompted to give our new app a name, which will also be used to generate a URL slug:
 
@@ -189,7 +189,7 @@ Finally, we’ll alter the theme of our entire application under Screen and Them
 
 When we’re ready, we can hit Publish and share our live app with our team.
 
-{{< cta >}}
+{{< custom-cta text="Build custom workflow apps on top of any data with Budibase" >}}
 
 ## Build secure, advanced forms with Budibase
 

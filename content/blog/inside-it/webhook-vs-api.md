@@ -32,7 +32,7 @@ Let’s take a look at each one in turn.
 
 ### What is an API?
 
-API stands for *application programming interface*. Essentially, the principle here is using defined standards and protocols so that we can integrate with external tools, without needing to know how they’re built.
+API stands for *application programming interface*. Essentially, the principle here is using defined standards and protocols so that we can integrate with external tools, without needing to know how they’re built. This is a crucial element of [building web apps](https://budibase.com/blog/how-to-make-a-web-app/), and other types of software.
 
 If a vendor offers an API for their platform, they’ll also provide documentation on what requests can be made and how the system will respond to each one.
 

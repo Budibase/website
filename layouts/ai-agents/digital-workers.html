@@ -1,0 +1,96 @@
+{{ partial "head/header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+
+<main id="content" role="main">
+    <article class="article">
+        <div class="space-1-bottom">
+            <img class="img-fluid" src="{{ .Params.cover }}" />
+        </div>
+        <div class="container-8 mx-auto">
+            <a class="opacity-75 font-weight-medium a-alt" href="/blog/"><- All posts</a>
+            <header class="mt-6">
+                <h1 class="mt-2 mb-4">{{ .Title }}</h1>
+                {{ if (.Params.profilePic) }}
+                <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+                {{ else }}
+                <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
+                {{ end }}Published by {{ .Params.author }}, {{ .Date.Format .Site.Params.dateform }}
+            </header>
+        </div>
+
+<div class="mx-md-auto my-9 container-8">
+    {{ $content_parts := split .Content "||||||||||" }}
+    {{ index $content_parts 0 | safe.HTML}}
+</div>
+<div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
+    <div class='alt-container mx-auto'>
+  
+      <table class="alt-table no-scrollbar mx-auto" style="border-collapse: separate; border-spacing: 0;">
+        <thead style="background-color: #c8aff0;">
+          <tr>
+            <th style="width:240px;"></th>
+            <th style="width:260px;">
+              <div class="flex-row align-center">
+                <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">RPA-Based Digital Worker</p>
+              </div>
+            </th>
+            <th style="width:260px;">
+              <div class="flex-row align-center">
+                <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">Agentic AI-Based Digital Worker</p>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s font-weight-bold">Core Tech</td>
+            <td class="text-xs">Rules, scripts, UI automation</td>
+            <td class="text-xs">LLM + memory + tool use + orchestration</td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s font-weight-bold">Logic Type</td>
+            <td class="text-xs">Deterministic</td>
+            <td class="text-xs">Probabilistic, goal-driven</td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s font-weight-bold">Use Cases</td>
+            <td class="text-xs">Repetitive tasks (e.g. data entry)</td>
+            <td class="text-xs">Variable tasks (e.g. triaging, answering, updating)</td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s font-weight-bold">Adaptability</td>
+            <td class="text-xs">Low – breaks with change</td>
+            <td class="text-xs">High – handles change and ambiguity</td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s font-weight-bold">Learning</td>
+            <td class="text-xs">None</td>
+            <td class="text-xs">Learns from instructions, context, and feedback</td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s font-weight-bold">Best For</td>
+            <td class="text-xs">High-volume, predictable processes</td>
+            <td class="text-xs">Dynamic, knowledge-rich tasks</td>
+          </tr>
+        </tbody>
+      </table>
+  
+    </div>
+  </div>
+  
+  
+
+  <div class="mx-md-auto my-9 container-8">
+    {{ index $content_parts 1 | safe.HTML}}
+</div>
+
+</article>
+</main>
+
+<!--Article-->
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}

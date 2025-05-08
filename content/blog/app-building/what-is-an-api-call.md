@@ -294,9 +294,7 @@ Again, the degree of flexibility on offer here will vary from client to client. 
 
 We’ll check out some of the most important categories of tools for managing APIs towards the end of this guide.
 
-{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
->
-{{< substack-cta >}}
+{{< cta >}}
 
 ## Common API protocols
 

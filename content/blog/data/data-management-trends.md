@@ -35,9 +35,7 @@ Specifically, we need secure, performant solutions for storing, accessing, and u
 
 This has led to a boom in new approaches to storing and handling data.
 
-{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
->
-{{< substack-cta >}}
+{{< cta >}}
 
 ## 8 data management trends
 
@@ -214,6 +212,8 @@ In terms of pricing, the Community Edition is free. There's an Enterprise Editio
 Memgraph has also recently released a cloud beta version with support for multi-regions, automated updates, and managed backups.
 
 Pricing depends on how big you want your instance to be. If you're running it in the cloud, one instance of one gigabyte starts at $25 per month. 
+
+Check out our other tutorial on building a [SQL GUI](https://budibase.com/blog/tutorials/sql-gui/).
 
 ## 6. Time-series databases
 

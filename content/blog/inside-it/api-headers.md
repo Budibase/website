@@ -58,9 +58,7 @@ API headers also give us more control over how data is returned to us. For examp
 
 Finally, we might need to use headers simply because the server requires it - and we won’t get a response if we don’t meet the documented requirements.
 
-{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
->
-{{< substack-cta >}}
+{{< cta >}}
 
 ## What are API headers used for?
 

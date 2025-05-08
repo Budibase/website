@@ -1,12 +1,12 @@
 +++
 author = "Joe Johnston"
-date = 2024-04-05T00:00:00Z
+date = 2025-01-05T00:00:00Z
 description = "Open source low-code platforms come in all shapes and sizes. Here's everything you need to know in 2025"
 images = ["/open-source-low-code-platforms/open-source-low-code-platforms.jpg"]
-title = "5 best open source low-code platforms (tried and tested)"
+title = "10 best open source low-code platforms (tried and tested)"
 
 +++
-{{< figure src="/open-source-low-code-platforms/open-source-low-code-platforms.jpg" alt="Top 5 open source low-code platforms" >}}
+{{< figure src="/open-source-low-code-platforms/open-source-low-code-platforms.jpg" alt="Top 10 open source low-code platforms" >}}
 
 Low-code and no-code are the latest phenomena to take over our strategy meetings and development chats. These solutions are not new, but the emergence of new technologies and a shift in how we work has accelerated their need within the workplace.
 
@@ -85,9 +85,9 @@ Here are the key takeaways:
 * **Internal roll-out -** In larger organizations, there’s also the issue of getting new tools signed off for internal roll-out.
 * **Internal resistance -** You might come up against decision-makers who are skeptical of low-code development. They might think platforms are insecure, underpowered, or unreliable. All myths, of course, but you’ll need to be aware of these before you can dispel them.
 
-## The top 5 open source low-code platform
+## The top 10 open source low-code platform
 
-When selecting my top 5 open source low-code platforms, I deliberately chose different platforms for different use cases. That way, more readers with different use cases are satisfied.
+When selecting my top 10 open source low-code platforms, I deliberately chose different platforms for different use cases. That way, more readers with different use cases are satisfied.
 
 Below are the top open source low-code platforms:
 
@@ -96,6 +96,11 @@ Below are the top open source low-code platforms:
 3. WordPress - best for building drag-and-drop websites.
 4. Node-Red - best for IoT apps.
 5. PyCaret - best for machine learning and real-time applications.
+6. Manifest.Build - best for low-code backends.
+7. StackStorm - best for DevOps automation.
+8. GrapeJS - best for building HTML templates.
+9. Flowise - best for LLM orchestration.
+10. AppFlowy - best for collaboration and project management.
 
 ### Budibase - The low-code platform for building business apps
 
@@ -132,7 +137,9 @@ Huginn's Agents create and consume events visualized via a directed graph.
 Some of the things users can do with Huginn include receiving emails with weather updates to connecting to a host of applications, including Basecamp, Slack, Twilio, and more.
 
 [Github Repo](https://github.com/huginn/huginn)
+
 Github Stars - 44k
+
 Actively maintained - Yes
 
 ***
@@ -148,7 +155,9 @@ WordPress's popularity is due to its simple, extensible platform and its plugin/
 The thriving community, famous plugin/template ecosystem, and simple-to-use platform are why WordPress is the world's leading CMS.
 
 [Github repo](https://github.com/WordPress/WordPress)
+
 Github Stars - 19.6k
+
 Actively maintained - Yes
 
 ***
@@ -162,7 +171,9 @@ Node-RED is a programming tool for wiring together hardware devices, APIs, and o
 Node-red is an excellent solution for building IoT applications, and out of the box comes with nodes dedicated to Raspberry Pi, BeagleBone Boards, and Androids.
 
 [Github Repo](https://github.com/node-red/node-red)
+
 Github stars - 20k
+
 Actively maintained - Yes
 
 ***
@@ -176,7 +187,80 @@ PyCaret is an open-source, low-code machine learning library in Python that aims
 PyCaret is well suited for data scientists. Developers with no previous data science experience may find the platform challenging to get started. The docs are surprisingly good and contain several tutorials.
 
 [Github Repo](https://github.com/pycaret/pycaret)
+
 Github Stars - 9k
+
+Actively maintained - Yes
+
+***
+### Manifest.Build - best for low-code backends.
+![Mainfest Build Open Source Low Code Platform](https://res.cloudinary.com/daog6scxm/image/upload/v1741016408/cms/alternatives/Manifest_al2vrx.webp "Manifest Build Open Source Low Code Platform")
+
+Manifest is an open-source, low-code developer tool for creating micro-backends for websites, apps, and directories in a single YAML file.
+
+This can then be used to generate SQLLite or Postgres databases that can be connected to any front-end. There's also a modern, user-friendly admin panel.
+
+[Github Repo](https://github.com/mnfst/manifest)
+
+Github stars - 1.8k
+
+Actively maintained - Yes
+
+***
+### StackStorm - best for DevOps automation.
+
+{{< youtube MtPw1WC9pxA >}}
+
+StackStorm is an event-driven workflow automation tool. We can create simple if-this-then-that rules or more complex automations, using customizable internal and external triggers.
+
+It's a particularly popular option for DevOps professionals, offering support for a wide range of infrastructure tools.
+
+[Github Repo](https://github.com/stackstorm)
+
+Github stars - 6.2k
+
+Actively maintained - Yes
+
+***
+### GrapeJS - best for building HTML templates.
+![GrapeJS](https://res.cloudinary.com/daog6scxm/image/upload/v1741016408/cms/alternatives/GrapeJS_wyql1f.webp "GrapeJS")
+
+GrapeJS is a customizable visual editor for shipping HTML web pages, email layouts, newsletters or other designs.
+
+It's designed to be used within CMSs to provide a fast, easy experience for end users to create professional assets.
+
+[Github repo](https://github.com/GrapesJS/grapesjs)
+
+Github stars - 23.5k
+
+Actively maintained - Yes
+
+***
+### Flowise - best for LLM orchestration.
+![Flowise](https://res.cloudinary.com/daog6scxm/image/upload/v1741016408/cms/alternatives/Flowise_q7fyk1.webp "Flowise")
+
+Flowise is a drag-and-drop solution for creating AI orchestration flows, including connecting LLMs to caches, data loaders, and task-specific nodes.
+
+It's strong option for creating AI agents, leveraging a range of local LLMs, embeddings, and vector databases.
+
+[Github repo](https://github.com/FlowiseAI/Flowise)
+
+Github stars - 35.8k
+
+Actively maintained - Yes
+
+***
+### AppFlowy - best for collaboration and project management.
+{{< youtube Y1OHGh_OGdw >}}
+
+AppFlowy is an open-source alternative to Notion, providing a streamlined, collaborative platform for managing wikis, projects, notes, and other information securely.
+
+With extensive templates, AI capabilities, and plug-ins, it's a highly flexible solution for creating efficient project management and productivity tools.
+
+[Github repo](https://github.com/AppFlowy-IO/AppFlowy)
+
+Github stars - 61k
+
 Actively maintained - Yes
 
 ***

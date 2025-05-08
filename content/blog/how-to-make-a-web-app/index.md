@@ -1,11 +1,10 @@
 +++
 author = "Joe Johnston"
-date = 2024-04-23T00:00:00Z
-description = "Follow our step-by-step guide for how to build a web app."
+date = 2024-09-23T00:00:00Z
+description = "Follow our step-by-step guide for how to create a web app."
 title = "How to Build a Web App: Beginner's Guide (2025)"
 
 +++
-{{< figure src="/how-to-make-a-web-app/how-to-make-a-web-app.jpg" attr="Picture by [Med Badr](https://unsplash.com/@medbadrc)" alt="How to make a web app" >}}
 
 In this post, I’m going to show you EXACTLY how to make a web app.
 
@@ -13,79 +12,26 @@ In fact, this is the process I’ve used, revised and perfected over the last 5 
 
 I’ve used this exact process, or a version of it to build over 15 applications of all shapes and sizes. For me, this is 100% the best way to build web applications.
 
-But, before we start the  tutorial, a quick recap on what we define as a web application at Budibase.
+Today, we're covering:
+- [What is a web app?](#what-is-a-web-app)
+- [Slow-code vs low-code web app development](#how-to-build-a-web-app-slow-code-vs-low-code)
+- [Prerequisites to create a web app](#prerequisites-to-create-a-web-app)
+- [How to make a web app in 12 steps](#how-to-make-a-web-app-in-12-steps-4-stages)
+- [How to build a web app in 4 steps using Budibase](#how-to-build-a-web-app-in-budibase---4-steps)
 
-## What is a web app
+Before we start the tutorial, a quick recap on what we define as a web application at Budibase.
 
-An interactive computer program, built with web technologies (HTML, CSS, JS), which stores (Database, Files) and manipulates data (CRUD), and is used by a team or single user to perform tasks over the internet.
+## What is a web app?
+
+A web app is an interactive computer program, built with web technologies (HTML, CSS, JS), which stores (Database, Files) and manipulates data (CRUD), and is used by a team or single user to perform tasks over the internet.
 
 Users interact with these tools within their web browsers. Everything is handled server-side rather than client-side, so we're not dependent on certain operating systems or programming languages being installed on the user's device - like we would be with local software or a mobile app.
 
-There is a lot of confusion around what exactly is a web app. For the purpose of this post, we feel our definition above simplifies what a web app is. If you’re still unsure, we've included examples of what we believe are web apps, and what are not, below:
+To take a more high level definition, a web app is a software appliciation that's accessed through a web browser. This includes tools like Figma, Canva, Hubspot, or Trello. It doesn't include normal websites, most locally installed software, or native mobile apps.
 
-<table>
-<tr>
-<td><strong>Name</strong>
-</td>
-<td><strong>Web App?</strong>
-</td>
-</tr>
-<tr>
-<td>______________
-</td>
-<td>____________
-</td>
-</tr>
-<tr>
-<td>Amazon
-</td>
-<td>No
-</td>
-</tr>
-<tr>
-<td>Wikipedia
-</td>
-<td>No
-</td>
-</tr>
-<tr>
-<td>Facebook
-</td>
-<td>No
-</td>
-</tr>
-<tr>
-<td>Google
-</td>
-<td>No
-</td>
-</tr>
-<tr>
-<td>Trello
-</td>
-<td>Yes
-</td>
-</tr>
-<tr>
-<td>Gmail
-</td>
-<td>Yes
-</td>
-</tr>
-<tr>
-<td>Notion
-</td>
-<td>Yes
-</td>
-</tr>
-<tr>
-<td>Pipedrive
-</td>
-<td>Yes
-</td>
-</tr>
+Web apps are generally cloud-based, but there are a few important caveats to this. One is that we can have self-hosted web apps, which can run on local machines or on-prem infrastructure, but still be access through a browser. 
 
-</table><br>
+There are also progressive web apps, which are built like traditional web apps, but can be installed and run locally, particularly on mobile devices.
 
 ## How to build a web app: slow-code vs low-code
 
@@ -97,7 +43,7 @@ On the other hand, it makes writing a comprehensive guide to creating web apps a
 
 For simplicity’s sake, we’re going to divide your options into two separate types of web application development.
 
-The first is traditional development. The second is newer technologies, including low-code platforms. Let’s take a quick definition of each, and then later we’ll jump into the specific steps you’ll follow to create a web app using each.
+The first is traditional development. The second includes newer technologies, including low-code platforms an AI app builders. Let’s take a quick definition of each, and then later we’ll jump into the specific steps you’ll follow to create a web app using each.
 
 ### Traditional development
 
@@ -115,19 +61,36 @@ That’s before you even think about testing, hosting, and deployment. Again, we
 
 ### Building a web app in 2025
 
-These days, more and more developers are turning to more high-level, abstracted tools to build web apps.
+These days, more and more developers are turning to more high-level, abstracted tools to build web apps. In 2025, there are two key clusters of tools that are leveraged here.
 
-The no/low-code revolution is at the center of this.
+#### Building web apps with low/no-code tools
+
+First, we have low/no-code app builders.
 
 Instead of building apps from scratch, developers are realizing that even complex projects can be built faster, cheaper, and more effectively with low-code tools.
 
+![How to Build a Web App no/low-code tools](https://res.cloudinary.com/daog6scxm/image/upload/t_1920x1080/v1675437167/ui/form_2x_mbli8y.webp "How to build a web app no/low-code tools")
+
 And that’s just for people who _already_ know how to create a web application.
 
-Low-code offers just as much, if not more, for less technical types. For example, Budibase empowers users to build fully functional, professional web apps, without writing a single line of code.
+Low-code offers just as much, if not more, for less technical personas. For example, Budibase empowers users to build fully functional, professional web apps, without writing a single line of code.
 
 We’ll take a look at exactly how this works towards the end of this guide.
 
-Ok, now we’re on the same page, let’s jump into prerequisites.
+{{< web-app-cta >}}
+
+#### Creating web apps with AI tools
+In recent years, AI has made huge leaps forward in just about all aspects of life. But, one of the most prominent examples of this are AI tools that help us to develop software.
+
+So, we've seen a range of platforms bring functionality to market for generating web applications based on LLM prompts. Over the coming years, this will almost certainly transform the way we build web apps forever.
+
+At the same time, we have to take a realistic view of the pros and cons of using AI app builders in 2025. So, while there's undoubtedly time and money to be saved by using these platforms, there are also some key limitations at the current moment.
+
+For instance, whole applications that have been generated with AI prompts can be difficult to maintain or modify without the right underlying tools, whether these are low-code or traditional development-based.
+
+Similarly, a basic knowledge of the structure and architecture of web applications is helpful for writing effective prompts in the first place. So, while AI tools are certainly a helpful addition to web app projects, it's still crucial to have a strong grasp of the basic development skills we'd need to ship tools without these.
+
+Ok, now we’re on the same page, let’s jump into prerequisites for creating a web app. Think of this as the essential elements of the tech stack we'll need to ship effective tools. The core principles here will apply, whichever of the above approaches you decide on.
 
 ## **Prerequisites to create a web app**
 
@@ -249,7 +212,7 @@ If there is a market for your product, and there’s also established competitio
 
 ## Step 3 - Define your web apps functionality {#functionality}
 
-{{< figure src="/how-to-make-a-web-app/functionality.png" alt="Define functionality" >}}
+{{< figure src="/how-to-make-a-web-app/functionality.png" alt="How to make a web app - Define functionality" >}}
 
 You’ve got your idea, you’ve validated the market, it’s now time to list everything you want your app to do.
 
@@ -413,7 +376,7 @@ Exciting times!
 
 ## Step 8 – Architect and build your database {#database}
 
-{{< figure src="/how-to-make-a-web-app/database.png" alt="Architect the database" >}}
+{{< figure src="/how-to-make-a-web-app/database.png" alt="Create a web app database" >}}
 
 So, we know roughly our web application’s functionality, what it looks like, and the pages required. Now it’s time to determine what information we will store in our database.
 
@@ -701,6 +664,8 @@ Let’s take a look.
 
 Just like before, we need to put an effective data model in place.
 
+![How to make a web app BudibaseDB](https://res.cloudinary.com/daog6scxm/image/upload/v1732812361/cms/appsmith-vs-budibase/Appsmith_vs_Budibase_4_v3qabz.webp "How to make a web app BudibaseDB")
+
 Budibase offers two different strands here:
 
 1. BudibaseDB, our internal database.
@@ -716,11 +681,13 @@ BudibaseDB supports a full complement of data types. Obviously, we’ve got the 
 
 Alternatively, Budibase sits perfectly alongside your existing external data sources.
 
-Use dedicated connectors for a market-leading variety of [data sources](https://budibase.com/blog/data/data-sources/), including Google Sheets, SQL, Postgres, REST, Airtable, Oracle, and more.
+Use dedicated connectors for a market-leading variety of [data sources](https://budibase.com/blog/data/data-sources/), including Google Sheets, SQL, Postgres, REST, Oracle, NoSQL tools, and more.
 
 ### 2. Build your interfaces
 
 Next, we can start to create web app screens. The brutal truth about building web apps is that design isn’t rocket science. We’re really aiming for efficiency over all else. That is, we want to give our users the fastest route from point A to point B that we can.
+
+![Budibase Design](https://res.cloudinary.com/daog6scxm/image/upload/v1706115463/cms/forms/hero_igym45.webp "Budibase Design")
 
 More specifically, we want users to be able to carry out defined actions on our data, with minimal effort.
 
@@ -735,6 +702,8 @@ You can even autogenerate CRUD apps, at the click of a button.
 ### 3. Add automations
 
 Next, we can start to build out automated processes. Again, the idea behind Budibase is that you can achieve incredible results without writing code, but you still have the option to hard-code if you want to.
+
+![Budibase Automations](https://res.cloudinary.com/daog6scxm/image/upload/v1730385273/campaigns/3.0/day%203/Automation_Branching_4_bdorv5.webp "Budibase Automations")
 
 We offer a simple, step-based builder, for nesting built-in automation actions. All you need to do is decide how data is passed between each one.
 
@@ -752,7 +721,7 @@ Or, you might opt to self-host.
 
 That is, deploying to your own infrastructure using Kubernetes, Docker, Docker Compose, and Digital Ocean.
 
-Take a look at our deployment docs for more information.
+{{< cta >}}
 
 ## Start creating web apps today
 
@@ -768,7 +737,7 @@ Organizations all around the world choose our open-source, low-code platform to 
 
 ### External data support
 
-No other player in the low-code space comes close to Budibase for external data support. We offer dedicated conenctors for SQL, Postgres, Airtable, Mongo, Couch, S3, REST, Google Sheets, Couch, Oracle, and more.
+No other player in the low-code space comes close to Budibase for external data support. We offer dedicated conenctors for SQL, Postgres, Mongo, Couch, S3, REST, Google Sheets, Couch, Oracle, and more.
 
 We've also got our own built-in database, with full support for .CSV uploads, so it's never been easier to create a fully fledge data model, with minimal coding skills.
 
@@ -776,7 +745,7 @@ We've also got our own built-in database, with full support for .CSV uploads, so
 
 Host Budibase on your own infrastructure for complete control. We offer self-hosting through Kubernets, Docker, Docker Compose, Digital Ocean and more.
 
-We also offer Budibase Cloud, our own proprietary cloud-based hosting, to help you ship professional web apps in just a few clicks.33
+We also offer Budibase Cloud, our own proprietary cloud-based hosting, to help you ship professional web apps in just a few clicks.
 
 ### Configurable RBAC
 
@@ -789,11 +758,3 @@ There's never been an easier way to create secure web apps that don't compromise
 Budibase leads the pack for extensibility. Use our dedicated CLI tool to create your own data sources and components to ship across all of your low-code solutions.
 
 Take a look at our [plug-ins docs](https://docs.budibase.com/docs/custom-plugin) to learn more.
-
-### 50+ app templates
-
-Budibase is the fast, easy way to build incredible web apps. Whether you’re a complete beginner, or a professional developer, our low-code platform offers unrivaled speed, flexibility, and developer experiences.
-
-But don’t just take our word for it.
-
-We’ve also created 50+ free [app templates](https://budibase.com/templates) to show off just what Budibase can do. Use any one of them as a jumping-off point for your custom tools, or launch one today as a fully functional solution.

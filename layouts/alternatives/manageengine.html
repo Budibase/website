@@ -1,0 +1,397 @@
+{{ partial "head/header.html" . }} {{ partial "navigation.html" . }}
+
+<main id="content" role="main">
+  <article class="article">
+    <div class="space-1-bottom">
+      <img class="img-fluid" src="{{ .Params.cover }}" />
+    </div>
+    <div class="container-8 mx-auto">
+      <header class="my-6">
+        <h1 class="mt-2 mb-4">{{ .Title }}</h1>
+        {{ if (.Params.profilePic) }}
+        <img
+          class="u-avatar-4 rounded-circle mr-2"
+          src="{{ with .Params.profilePic }}{{ . }}{{ end }}"
+        />
+        {{ else }}
+        <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp" />
+        {{ end }}Published by {{ .Params.author }}, {{ .Date.Format
+        .Site.Params.dateform }}
+      </header>
+    </div>
+    <div class="mx-md-auto my-9 container-8">
+      {{ $content_parts := split .Content "||||||||||" }}
+      {{ index $content_parts 0 | safe.HTML}}
+  </div>
+  <div class="mx-md-auto space-1 space-3-bottom bg-base-3">
+      <div class="container-8 mx-auto">
+          {{ index $content_parts 1 | safe.HTML}}
+          <details class="mt-6 my-1 p-3 bg-white border rounded-sm">
+              <summary class="lead">Pricing</summary>
+              <p>Pricing is almost inevitably a more complex question than it might first appear.
+
+                 </p>
+
+                <p>ManageEngine offers a highly scalable pricing model across three tiers for either the cloud-based or on-prem platform. Feature restrictions apply across these, with the standard tier offering only core service desk functionality.
+                     </p>
+                
+                <p> We’ll need an Enterprise license to unlock the full range of capabilities.
+
+                </p>
+              <p>All tiers are billed on a per technician per month basis, but usage restrictions relating to asset data also apply on the Premium and Standard tiers.
+              </p>
+              <p>Therefore, for teams with large asset estates who need specific subsets of premium features, certain ManageEngine alternatives could work out more cost-effective.
+            </p>
+          </details>
+          <details class="my-1 p-3 bg-white border rounded-sm">
+              <summary class="lead">Customization</summary>
+              <p>
+                Vendors also take different approaches to enabling teams to customize and configure their platforms. While ManageEngine offers extensive scope for us to build our own workflows and even extend functionality, some other platforms might offer us more flexibility here.
+              </p>
+              <p>There’s often a tradeoff between the extent of configuration on offer and how easy it is to roll out a solution. Compared to some competitors, ManageEngine offers an easy implementation but might lack some more advanced configurability.
+                 </p>
+                <p>
+                    Additionally, there are other tools that might be more easy to extend, or even modify the source code.
+                </p>
+                <p>
+                    As such, it’s important to take account of how neatly our requirements fit the off-the-shelf capabilities of different platforms.
+                </p>
+                </details>
+          <details class="my-1 p-3 bg-white border rounded-sm">
+              <summary class="lead">Open-source vs closed source</summary>
+              <p>Lastly, ManageEngine is a closed-source solution. This isn’t necessarily a problem, but some teams do have a preference for open-source tools.
+                 </p>
+              <p>
+                There can be a few key reasons for this. One is the need to audit the source code of any tools that will interact with mission critical infrastructure, processes, or data.
+              </p>
+              <p>
+                Depending on the specific license, certain open-source tools also afford us a greater amount of control over extending functionality.
+              </p>
+              <p>
+                Some open-source tools can also be more cost-effective, but we’ll have to pay close attention to specific licenses in this regard.
+              </p>
+              <p>
+                Take a look at our guide to the top <a href="https://budibase.com/blog/open-source-low-code-platforms/">open-source low-code platforms.</a>
+              </p>
+          </details>
+      </div>
+  </div>
+
+  <div class="mx-md-auto container-8">
+    {{ $content_parts := split .Content "||||||||||" }} {{ index
+    $content_parts 2 | safe.HTML}}
+  </div>
+
+  <div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
+    <div class="alt-container">
+      <table class="alt-table no-scrollbar mx-auto">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="">
+                <div class="flex-row align-center">
+                    <div>
+                        <img
+                        src="https://res.cloudinary.com/daog6scxm/image/upload/v1737649986/cms/alternatives/jira-service-management/manageEngine_APM_icon__3_-removebg-preview_wkaafe.webp"
+                        class="u-xxs-avatar mr-2"
+                      />
+                    </div>
+                    <p class="alt-header font-weight-medium">ManageEngine</p>
+                </div>
+            </th>
+            <th class="">
+                <div class="flex-row align-center">
+                    <div>
+                        <img
+                          src="https://res.cloudinary.com/daog6scxm/image/upload/v1696515725/Branding/Assets/Symbol/RGB/Full%20Colour/Budibase_Symbol_RGB_FullColour_cbqvha_1_z5cwq2.svg"
+                          class="u-xxs-avatar mr-2"
+                        />
+                      </div>
+                  <p class="alt-header font-weight-medium">Budibase</p>
+                </div>
+              </th>
+              <th>
+                <div class="flex-row align-center">
+                    <div>
+                        <img
+                          src="https://res.cloudinary.com/daog6scxm/image/upload/v1737651317/cms/alternatives/jira-service-management/servicenow_logo_bsnji7.webp"
+                          class="u-xxs-avatar mr-2"
+                        />
+                      </div>
+                  <p class="alt-header font-weight-medium">ServiceNow</p>
+                </div>
+              </th>
+              <th>
+                <div class="flex-row align-center">
+                    <div>
+                        <img
+                          src="https://res.cloudinary.com/daog6scxm/image/upload/v1737649984/cms/alternatives/jira-service-management/jira-icon-512x512-kkop6eik_bflzgl.webp"
+                          class="u-xxs-avatar mr-2"
+                        />
+                      </div>
+                  <p class="alt-header font-weight-medium">Jira</p>
+                </div>
+              </th>
+            <th>
+                <div class="flex-row align-center">
+                    <div>
+                    <img
+                    src="https://res.cloudinary.com/daog6scxm/image/upload/v1741613390/cms/alternatives/otrs_logo_p9c0f7.webp"
+                    class="u-xxs-avatar mr-2"
+                  />
+                </div>
+                  <p class="alt-header font-weight-medium">OTRS</p>
+                </div>
+              </th>
+              <th>
+                <div class="flex-row align-center">
+                        <div>
+                        <img
+                        src="https://res.cloudinary.com/daog6scxm/image/upload/v1741613390/cms/alternatives/Zammad_Logo_izvz4c.webp"
+                        class="u-xxs-avatar mr-2"
+                      />
+                    </div>
+                  <p class="alt-header font-weight-medium">Zammad</p>
+                </div>
+              </th>
+            <th class="">
+              <div class="flex-row align-center">
+                  <div>
+                      <img
+                      src="https://res.cloudinary.com/daog6scxm/image/upload/v1741613390/cms/alternatives/GLPI_logo_a1umi6.webp"
+                      class="u-xxs-avatar mr-2"
+                    />
+                  </div>
+                <p class="alt-header font-weight-medium">GLPI</p>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr class="">
+              <td class="text-xs" data-title="">Platform Type</td>
+              <td class="text-xs" data-title="ManageEngine">
+                ITSM
+              </td>
+              <td class="text-xs" data-title="Budibase">
+                <div class="flex-row align-center">
+                Low-Code
+                </div>
+              </td>
+              <td class="text-xs" data-title="ServiceNow">
+                ITSM
+              </td>
+              <td class="text-xs" data-title="Jira">
+                <div class="flex-row align-center">
+                ITSM
+                </div>
+              </td>
+
+              <td class="text-xs" data-title="OTRS">ITSM</td>
+
+              <td class="text-xs" data-title="Zammad">
+                Ticketing
+              </td>
+              <td class="text-xs" data-title="GLPI">
+                ITSM
+              </td>
+              </tr>
+
+          <tr class="">
+            <td class="text-xs" data-title="">Pricing Model</td>
+            <td class="text-xs" data-title="ManageEngine">
+            Per-agent
+              </td>
+              <td class="text-xs" data-title="Budibase">
+                Per-user/creator +<br>Creator-only
+              </td>
+              <td class="text-xs" data-title="ServiceNow">
+                Custom
+              </td>
+              <td class="text-xs" data-title="Jira">
+                Per-agent
+              </td>
+
+            <td class="text-xs" data-title="OTRS">Tiered</td>
+            <td class="text-xs" data-title="Zammad">
+                Per agent
+              </td>  
+            <td class="text-xs" data-title="GLPI">
+              Tiered
+            </td>
+            </tr>
+
+            <tr class="">
+              <td class="text-xs" data-title="">Cloud</td>
+              <td class="text-xs" data-title="ManageEngine">
+                <span class="tag-forestgreen">Yes</span>
+            </td>
+            <td class="text-xs" data-title="Budibase">
+                <span class="tag-forestgreen">Yes</span>
+             </td>
+             <td class="text-xs" data-title="ServiceNow">
+                <span class="tag-forestgreen">Yes</span>
+            </td>
+             <td class="text-xs" data-title="Jira">
+                <span class="tag-forestgreen">Yes</span>
+            </td>
+
+              <td class="text-xs" data-title="OTRS">
+                <span class="tag-forestgreen">Yes</span>
+            </td>
+            <td class="text-xs" data-title="Zammad">
+                <span class="tag-forestgreen">Yes</span>
+            </td>
+              <td class="text-xs" data-title="GLPI">
+                  <span class="tag-forestgreen">Yes</span>
+              </td>
+              </tr>
+
+<tr class="">
+                  <td class="text-xs" data-title="">Self-Hosting</td>
+                  <td class="text-xs" data-title="ManageEngine">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+                <td class="text-xs" data-title="Budibase">
+                    <span class="tag-forestgreen">Yes</span>
+                 </td>
+                 <td class="text-xs" data-title="ServiceNow">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+                 <td class="text-xs" data-title="Jira">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+
+                <td class="text-xs" data-title="OTRS">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+                <td class="text-xs" data-title="Zammad">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+               <td class="text-xs" data-title="GLPI">
+                <span class="tag-forestgreen">Yes</span>
+            </td>
+        </tr>
+
+
+                  <tr class="">
+                      <td class="text-xs" data-title="">SSO</td>
+                      <td class="text-xs" data-title="ManageEngine">
+                        <span class="tag-dark">Paid plan</span>
+                    </td>
+                    <td class="text-xs" data-title="Budibase">
+                        <span class="tag-forestgreen">Free</span>
+                    </td>
+                    <td class="text-xs" data-title="ServiceNow">
+                        <span class="tag-dark">Paid plan</span>
+                    </td>
+                    <td class="text-xs" data-title="Jira">
+                        <span class="tag-dark">Paid plan</span>
+                    </td>
+
+                    <td class="text-xs" data-title="OTRS">
+                        <span class="tag-dark">Paid plan</span>
+                    </td>
+                    <td class="text-xs" data-title="Zammad">
+                        <span class="tag-forestgreen">Free</span>
+                    </td>
+                  <td class="text-xs" data-title="GLPI">
+                    <span class="tag-forestgreen">Yes</span>
+                </td>
+                </tr>
+
+                      <tr class="">
+                          <td class="text-xs" data-title="">Open-Source</td>
+                          <td class="text-xs" data-title="ManageEngine">
+                            <span class="tag-dark">No</span>
+                        </td>
+                        <td class="text-xs" data-title="Budibase">
+                            <span class="tag-forestgreen">Yes</span>
+                        </td>
+                        <td class="text-xs" data-title="ServiceNow">
+                            <span class="tag-dark">No</span>
+                        </td>
+                        <td class="text-xs" data-title="Jira">
+                            <span class="tag-dark">No</span>
+                        </td>
+
+                          <td class="text-xs" data-title="OTRS">
+                            <span class="tag-dark">No</span>
+                        </td>
+                        <td class="text-xs" data-title="Zammad">
+                            <span class="tag-dark">Yes</span>
+                        </td>
+                          <td class="text-xs" data-title="GLPI">
+                              <span class="tag-forestgreen">Yes</span>
+                          </td>
+                        </tr>
+
+                          <tr class="">
+                              <td class="text-xs" data-title="">Query external DBs</td>
+                              <td class="text-xs" data-title="ManageEngine">
+                                <span class="tag-forestgreen">Yes</span>
+                            </td>
+                            <td class="text-xs" data-title="Budibase">
+                                <span class="tag-forestgreen">Yes</span>
+                            </td>
+                            <td class="text-xs" data-title="ServiceNow">
+                                <span class="tag-forestgreen">Yes</span>
+                            </td>
+                            <td class="text-xs" data-title="Jira">
+                                <span class="tag-forestgreen">Yes</span>
+                            </td>
+
+                            <td class="text-xs" data-title="OTRS">
+                                <span class="tag-forest-green">Yes</span>
+                            </td>
+                            <td class="text-xs" data-title="Zammad">
+                                <span class="tag-forestgreen">Yes</span>
+                            </td>
+                          <td class="text-xs" data-title="GLPI">
+                            <span class="tag-dark">No</span>
+                        </td>
+                     </tr>
+
+                              <tr class="">
+                                  <td class="text-xs" data-title="">API</td>
+                                  <td class="text-xs" data-title="ManageEngine">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                <td class="text-xs" data-title="Budibase">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                <td class="text-xs" data-title="ServiceNow">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                <td class="text-xs" data-title="Jira">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+
+                                  <td class="text-xs" data-title="OTRS">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                <td class="text-xs" data-title="Zammad">
+                                    <span class="tag-forestgreen">Yes</span>
+                                </td>
+                                  <td class="text-xs" data-title="GLPI">
+                                      <span class="tag-forestgreen">Yes</span>
+                                  </td>
+                               </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="mx-md-auto container-8">
+    {{ $content_parts := split .Content "||||||||||" }} {{ index
+    $content_parts 3 | safe.HTML}}
+  </div>
+
+  </article>
+</main>
+
+<!--Article-->
+
+{{ partial "cta.html" . }} {{ partial "footer.html" . }}

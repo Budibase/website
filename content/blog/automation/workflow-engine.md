@@ -87,9 +87,7 @@ To this end, operations or IT colleagues might build or configure centralized wo
 
 This offers a number of important benefits, including increased oversight, ease of maintenance, and cost-effectiveness.
 
-{{< alert-positive "Get the must-read stories for IT professionals, straight to your inbox.">}}
->
-{{< substack-cta >}}
+{{< cta >}}
 
 ## 3 types of workflow engines
 
