@@ -214,33 +214,41 @@ We’ll hit the lightning bolt beside the `Prompt` to open the bindings modal.
 
 Here, we’ll enter the following text to tell our LLM to use the content of the `Description` field to generate a JSON object in our desired format.
 
-> Take the information provided in {{ Description}} and use it to create a JSON object with the following format. Return only the requested JSON object, no additional text or rationale. Note that we’re being very careful to specify our desired response format.
 
->{
 
-> "bug_report": {
+{{< highlight javascript "linenos=inline" >}}
 
-> "description": "App crashes when logging in with Google account.",
+Take the information provided in {{ Description}} and use it to create a JSON object with the following format. Return only the requested JSON object, no additional text or rationale. Note that we’re being very careful to specify our desired response format.
 
-> "affected_feature": "Login screen",
+{
 
-> "platforms_affected": ["Android", "iOS"],
+ "bug_report": {
 
-> "severity": "Critical",
+  "description": "App crashes when logging in with Google account.",
 
-> "reproduction_steps": [
+  "affected_feature": "Login screen",
 
-> "Try to log in with a Google account.",
+  "platforms_affected": ["Android", "iOS"],
 
-> "Observe app crash on Android and iOS."
+  "severity": "Critical",
 
->  ],
+  "reproduction_steps": [
 
-> "reported_at": "2025-05-08"
+   "Try to log in with a Google account.",
 
-> }
+   "Observe app crash on Android and iOS."
 
-> }
+  ],
+
+  "reported_at": "2025-05-08"
+
+ }
+
+}
+
+{{< /highlight >}}
+
+
 
 In the preview panel on the right-hand side, we can see the instruction that the LLM receives, followed by the formatted response that it returns.
 
