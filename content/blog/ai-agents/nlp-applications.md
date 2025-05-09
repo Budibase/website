@@ -216,9 +216,13 @@ Here, we’ll enter the following text to tell our LLM to use the content of the
 
 
 
-{{< highlight javascript "linenos=inline" >}}
+{{< highlight plaintext "linenos=inline" >}}
 
-Take the information provided in {{ Description}} and use it to create a JSON object with the following format. Return only the requested JSON object, no additional text or rationale. Note that we’re being very careful to specify our desired response format.
+Take the information provided in {{ Description}} 
+
+and use it to create a JSON object with the following format. 
+
+Return only the requested JSON object, no additional text or rationale.
 
 {
 
