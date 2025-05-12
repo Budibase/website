@@ -133,8 +133,8 @@ Our picks are:
 
 1. [Aisera](#1-aisera)
 2. [Resolve Systems](#2-resolve-systems)
-3. [Rasa](#3-rasa)
-4. [Freshservice + Freddy AI](#4-freshservice–freddy-ai)
+3. [Freshservice + Freddy AI](#3-freshservice–freddy-ai) 
+4. [Rasa](#4-rasa)
 5. [n8n](#5-n8n)
 6. [OpenDialog](#6-opendialog)
 
