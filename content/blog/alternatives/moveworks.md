@@ -57,7 +57,7 @@ Moveworks is fast becoming one of the key players under the agentic AI umbrella,
 In this guide, we’ll cover everything you need to know to determine which platform in this space is right for your specific needs, including:
 
 - [What is Moveworks?](#what-is-moveworks)
-- [Who uses Moveworks](#who-uses-moveworks)
+- [Who uses Moveworks?](#who-uses-moveworks)
 - [Why would you need a Moveworks alternative?](#why-would-you-need-a-moveworks-alternative)
 - [Top 6 Moveworks alternatives in 2025](#top-6-moveworks-alternatives-in-2025)
 
