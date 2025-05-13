@@ -1,12 +1,42 @@
-
 {{ partial "head/header.html" . }}
 
 {{ partial "navigation.html" . }}
 
+<style>
+
+.btn-book-call {
+  width: 100%;
+  max-width: 500px;
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+}
+
+form > label, button {
+  margin-top: 20px;
+}
+
+form > input, textarea {
+  border-radius: 5px;
+  width: 100%;
+  border-color: var(--base-10);
+  border-width: 1px;
+  border-style: solid;
+  padding:5px;
+}
+
+.or {
+  font-size: larger;
+}
+
+</style>
+
 <div class="free-trial-grid space-3-top space-5-bottom">
     <div>
         <h1 class="mb-3 hero-title">
-        Contact our sales team
+        Contact us
         </h1>
         <p class="lead-lg">Let’s explore how Budibase can work for you.
         </p>
@@ -45,14 +75,56 @@
     </div>
 
     <div class="bg-white px-5 mt-3">
-      <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
-      <script>
-        hbspt.forms.create({
-          region: "eu1",
-          portalId: "26121987",
-          formId: "59b1f493-4794-4229-9b9f-316628174eb9"
-        });
-      </script>
+   
+
+      <div style="display:flex; align-items: center; flex-direction: column; gap: 20px">
+
+        <button class="btn btn-cta btn-lg btn-book-call" data-cal-link="team/budibase/contact-sales" data-cal-namespace="contact-sales" data-cal-config='{"layout":"month_view"}'>
+          Book a call with our sales team 
+        </button>
+
+        <!-- Cal element-click embed code begins -->
+        <script type="text/javascript">
+          (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+        Cal("init", "contact-sales", {origin:"https://cal.com"});
+
+          
+
+          Cal.ns["contact-sales"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+          </script>
+          <!-- Cal element-click embed code ends -->
+
+
+        <p><em class="or">or</em></p>
+
+        <p>complete the form below and we'll get back to you.</p>
+
+      
+        <form method="post" name="contact sales"  data-netlify="true">
+          <label for="first_name">First Name</label>
+          <input type="text" id="first_name" name="first_name" required>
+
+          <label for="last_name">Last Name</label>
+          <input type="text" id="last_name" name="last_name" required>
+        
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        
+          <label for="company">Company Name</label>
+          <input type="text" id="company" name="company" required>
+        
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <br>
+        
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+      </div>
+   
+
+          
     </div>
 </div>
 
