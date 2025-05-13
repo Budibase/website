@@ -439,14 +439,12 @@ At Budibase, we’ve tailored our product for colleagues within IT teams who nee
 ### Data
 When it comes to supported data, PowerApps heavily favors the wider Microsoft ecosystem. So, it’s easy to interact with SQL Server, Dynamics, SharePoint, or data stored in other native platforms.
 
-However, connecting to other data sources is less of a smooth experience - largely requiring us to go through intermediary tools like the Dataverse or Dynamics 365.
-
 Budibase takes a very different approach. We offer a huge range of native data connectors, including MySQL, Postgres, MSSQL, Airtable, Couch, REST APIs, S3, Oracle, Mongo, Google Sheets, and many more.
 
 You can even build your own custom data source plug-ins with our dedicated CLI - or use BudibaseDB to create a data model from scratch without writing a single query.
 
 ### UIs
-PowerApps is well-known for presenting a steep learning curve when building app UIs. Even simple tasks like adding form logic or in-app navigation require us to manually write formulae using Power Fx - a proprietary language based on visual basic.
+PowerApps is well-known for presenting a steep learning curve when building app UIs. Some simple tasks like adding form logic or in-app navigation may require us to manually write formulae using Power Fx - a proprietary language based on visual basic.
 
 With Budibase, coding is very much optional. 
 
@@ -455,7 +453,7 @@ Our UI builder is focused on offering advanced capabilities within an easy-to-us
 Budibase also offers front-end scripting using JavaScript or a huge library of handlebar helpers. Whether you’re a seasoned developer or a less technical user, Budibase makes it easy to implement custom logic on top of professional designs.
 
 ### Automations
-PowerApps is somewhat behind the field when it comes to automating manual tasks. For the most part, this requires us to use Power Automate - which is a separate platform under the Power Platform umbrella.
+PowerApps is sometimes used for automating manual tasks. For the most part, this requires us to use Power Automate - which is a separate platform under the Power Platform umbrella.
 
 Crucially, Power Platform also bills separately.
 
@@ -464,7 +462,7 @@ By contrast, Budibase has a powerful built-in automation editor. We offer a larg
 It’s never been easier to build custom automations to manage internal processes, data, and workflows.
 
 ### Functionality
-Budibase is also the clear leader in terms of enterprise functionality. In stark contrast to PowerApps, we offer free SSO for all users, optional self-hosting, a public API, a built-in database, custom data source plug-ins, and much more. We also offer a range of advanced AI features, which can be powered by OpenAI or the external model of your choice.
+Budibase is also the clear leader in terms of enterprise functionality. In stark contrast to PowerApps, we offer free SSO for all users, optional self-hosting, a built-in database, custom data source plug-ins, and much more. We also offer a range of advanced AI features, which can be powered by OpenAI or the external model of your choice.
 
 You can even build as many applications as you want on our free tier, with pricing plans that scale as your needs grow and change.
 

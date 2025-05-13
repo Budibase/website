@@ -1,0 +1,115 @@
+{{ partial "head/header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+
+<main id="content" role="main">
+    <article class="article">
+        <div class="space-1-bottom">
+            <img class="img-fluid" src="{{ .Params.cover }}" />
+        </div>
+        <div class="container-8 mx-auto">
+            <a class="opacity-75 font-weight-medium a-alt" href="/blog/"><- All posts</a>
+            <header class="mt-6">
+                <h1 class="mt-2 mb-4">{{ .Title }}</h1>
+                {{ if (.Params.profilePic) }}
+                <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+                {{ else }}
+                <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
+                {{ end }}Published by {{ .Params.author }}, {{ .Date.Format .Site.Params.dateform }}
+            </header>
+        </div>
+
+<div class="mx-md-auto my-9 container-8">
+    {{ $content_parts := split .Content "||||||||||" }}
+    {{ index $content_parts 0 | safe.HTML}}
+</div>
+<div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
+    <div class='alt-container mx-auto'>
+  
+      <table class="alt-table no-scrollbar mx-auto" style="border-collapse: separate; border-spacing: 0; width: 800px;">
+        <thead style="background-color: #c8aff0;">
+          <tr>
+            <th style="width:200px;"></th>
+            <th style="width:440px;">
+              <div class="flex-row align-center">
+                <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">Great For</p>
+              </div>
+            </th>
+            <th style="width:160px;">
+              <div class="flex-row align-center">
+                <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">License</p>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">LangChain</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Developers building complex, flexible LLM workflows with modular components.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">MIT</td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">AutoGPT</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Building complex multi-agent systems.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">MIT</td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">MetaGPT</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Generating full-stack software using structured, role-based AI teams.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">MIT</td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">SuperAgent</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Developers creating assistant-style apps with SDKs and fast iteration.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">MIT</td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">CrewAI</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Coordinating multiple agents with task-based roles and reusable logic.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">MIT</td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">CAMEL</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Research scenarios involving multi-agent cooperation and role-play setups.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">Apache 2.0</td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">LlamaIndex</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Connecting agents to structured & unstructured data for context-rich retrieval.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">MIT</td>
+          </tr>
+        </tbody>
+      </table>
+  
+    </div>
+  </div>
+  
+  
+
+  <div class="mx-md-auto my-9 container-8">
+    {{ index $content_parts 1 | safe.HTML}}
+</div>
+
+</article>
+</main>
+
+<!--Article-->
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}

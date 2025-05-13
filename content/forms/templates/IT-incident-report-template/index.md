@@ -1,6 +1,6 @@
 +++
 datasource = "Built-in database"
-date = 2022-01-18T00:00:00Z
+date = 2025-01-18T00:00:00Z
 description = "Our IT incident report template gives businesses a simple form to record incidents in seconds. Start using Budibase today."
 destination = "https://budibase.app/builder?template=app/it-incident-report-form"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1639153307/cms/IT_Incident_Report_Form_Featured_tpdmwv.png"]
@@ -32,6 +32,8 @@ Even with robust systems in place, things can go wrong. IT incidents often stem 
 Still, many businesses don’t have an incident reporting system in place. When incidents occur, employees then have to report them manually. This leads to most issues going unreported.
 
 Our IT incident report template prevents this.
+
+{{< template-cta template = "incidentReport" >}}
 
 ### What should an IT incident report include?
 
@@ -124,6 +126,8 @@ Our template offers conditionality based on user class, front-end data, and in-a
 You need different information for data breaches and service outages, for example.
 
 With conditionality in Budibase, you can quickly transform simple forms into flexible and deployable data gathering apps.
+
+{{< template-cta template = "incidentReport" >}}
 
 ## Why build an IT incident report form with Budibase?
 

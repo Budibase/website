@@ -1,0 +1,366 @@
+{{ partial "head/header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+
+<main id="content" role="main">
+    <article class="article">
+        <div class="space-1-bottom">
+            <img class="img-fluid" src="{{ .Params.cover }}" />
+        </div>
+        <div class="container-8 mx-auto">
+            <a class="opacity-75 font-weight-medium a-alt" href="/blog/"><- All posts</a>
+            <header class="mt-6">
+                <h1 class="mt-2 mb-4">{{ .Title }}</h1>
+                {{ if (.Params.profilePic) }}
+                <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+                {{ else }}
+                <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
+                {{ end }}Published by {{ .Params.author }}, {{ .Date.Format .Site.Params.dateform }}
+            </header>
+        </div>
+
+<div class="mx-md-auto my-9 container-8">
+    {{ $content_parts := split .Content "||||||||||" }}
+    {{ index $content_parts 0 | safe.HTML}}
+</div>
+
+<div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
+    <div class='alt-container mx-auto'>
+  
+      <table class="alt-table no-scrollbar mx-auto" style="border-collapse: separate; border-spacing: 0;">
+        <thead style="background-color: #c8aff0;">
+          <tr>
+            <th style="width:200px;"></th>
+            <th style="width:300px;">
+              <div class="flex-row align-center">
+                <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">Description</p>
+              </div>
+            </th>
+            <th style="width:300px;">
+              <div class="flex-row align-center">
+                <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">Examples</p>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Conversational Automation</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Uses NLP to interpret natural language inputs and trigger actions or workflows.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Issue reporting via chatbot,<br>Natural language requests
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Autonomous Reasoning & Actions</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Uses LLMs to decide and execute steps using tool/function calling.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Self-directed actions,<br>API-based tool invocation
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Reflection & Continuous Improvement</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Learns from past interactions to improve future performance.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Context retention,<br>Feedback-driven optimization
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  
+    </div>
+  </div>
+  
+<div class="mx-md-auto my-9 container-8">
+    {{ index $content_parts 1 | safe.HTML}}
+</div>
+
+<div class="mx-md-auto my-9 container-8">
+    {{ $content_parts := split .Content "||||||||||" }}
+</div>
+
+<div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
+    <div class='alt-container mx-auto'>
+  
+      <table class="alt-table no-scrollbar mx-auto" style="border-collapse: separate; border-spacing: 0;">
+        <thead style="background-color: #c8aff0;">
+          <tr>
+            <th style="width:200px;"></th>
+            <th style="width:300px;">
+              <div class="flex-row align-center">
+                <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">Self-Service Portals</p>
+              </div>
+            </th>
+            <th style="width:300px;">
+              <div class="flex-row align-center">
+                <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">Existing Messaging Tools</p>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Interface</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Custom UI with textbox, status tracking, escalation options.<br>Embeds chatbot UI directly in portal workflows.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Uses native chat UI of platforms like Slack or Teams.<br>Connects via API/websocket to messaging tools.
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">User Experience</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Lighteweight, intuitive chat UI.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Feels like messaging a colleague — low friction.
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Use Cases</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Ideal for domain-specific or external-facing workflows.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Best for broad internal services across departments.
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">UI Flexibility</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              High — can customize elements and layout.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Limited — constrained by platform's native UI.
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Authentication & Access</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              May require separate auth setup in the portal.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Leverages existing access and login mechanisms.
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Benefits</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Clear, structured, and purpose-built interactions.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Seamless, centralized access across teams.
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Limitations</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              More setup and user onboarding required.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Less UI control; not ideal for external workflows.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  
+    </div>
+  </div>
+  
+  <div class="mx-md-auto my-9 container-8">
+    {{ index $content_parts 2 | safe.HTML}}
+</div>
+
+<div class="mx-md-auto my-9 container-8">
+    {{ $content_parts := split .Content "||||||||||" }}
+</div>
+
+<div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
+    <div class='alt-container mx-auto'>
+  
+      <table class="alt-table no-scrollbar mx-auto" style="border-collapse: separate; border-spacing: 0;">
+        <thead style="background-color: #c8aff0;">
+          <tr>
+            <th style="width:200px;"></th>
+            <th style="width:300px;">
+              <div class="flex-row align-center">
+                <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">Description</p>
+              </div>
+            </th>
+            <th style="width:300px;">
+              <div class="flex-row align-center">
+                <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">Functions</p>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Interface Layer</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Accepts, analyzes, and normalizes user inputs; handles output display.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Chat UI<br>NLP<br>Structured output formatting
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Cognitive Layer</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Uses LLMs to plan actions, make decisions, and handle task logic.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Task planning<br>Tool selection<br>Multi-agent orchestation
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Execution Layer</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Carries out planned tasks via tools, APIs, or external systems.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              API calls<br>File operations<br>Function calling
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Feedback & Memory Layer</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Stores session context, learns from outcomes, and supports iteration.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Session memory<br>User preferences<br>Execution history
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Data & Integration Layer</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Provides external data and context via system integrations and lookups.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Knowledge base access<br>CMDB integration<br>Data enrichment
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  
+    </div>
+  </div>
+  
+
+<div class="mx-md-auto my-9 container-8">
+    {{ index $content_parts 3 | safe.HTML}}
+</div>
+
+<div class="mx-md-auto my-9 container-8">
+    {{ $content_parts := split .Content "||||||||||" }}
+</div>
+
+<div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl">
+    <div class='alt-container mx-auto'>
+  
+      <table class="alt-table no-scrollbar mx-auto" style="border-collapse: separate; border-spacing: 0;">
+        <thead style="background-color: #c8aff0;">
+          <tr>
+            <th style="width:200px;"></th>
+            <th style="width:300px;">
+              <div class="flex-row align-center">
+                <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">Description</p>
+              </div>
+            </th>
+            <th style="width:300px;">
+              <div class="flex-row align-center">
+                <p class="alt-header font-weight-medium" style="font-size: 1.1rem;">Examples</p>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">LLMs</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Core models that interpret input, reason, and generate output.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              ChatGPT,<br>Mistral,<br>Claude
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Agent Frameworks</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Tools for building and managing LLM-based autonomous agents.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              LangChain,<br>AutoGen,<br>CrewAI
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">User Interfaces</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Interfaces for users to interact with the agent system.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Custom UIs,<br>Slack,<br>Low-code builders
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Task & Workflow Runners</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Coordinate and execute steps reliably and in order.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Temporal,<br>Prefect,<br>Airflow
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Tool Interfaces & Systems Integration</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Connect agents to external tools and systems.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              APIs,<br>Websockets,<br>Secrets/auth tools
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Memory & Knowledge Stores</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Store state, history, and documents for context and RAG.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Vector DBs,<br>SQL/NoSQL,<br>File stores
+            </td>
+          </tr>
+          <tr style="background-color: #f7f5f2;">
+            <td class="text-s" style="font-weight: 700; font-size: 1.1rem;">Monitoring & Observability</td>
+            <td class="text-xs" style="line-height: 1.5;">
+              Track system behavior and task-level outcomes.
+            </td>
+            <td class="text-xs" style="line-height: 1.5;">
+              OpenTelemetry,<br>LangFuse
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  
+    </div>
+</div>  
+
+<div class="mx-md-auto my-9 container-8">
+    {{ index $content_parts 4 | safe.HTML}}
+</div>
+
+</article>
+</main>
+
+<!--Article-->
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}

@@ -138,7 +138,14 @@
 }
 
 </script>
+<script type="application/ld+json">
+{{- if .Params.howto }}
+{{ partial "head/schema/howto.html" . | safeJS }}
+{{- end }}
+</script>
+
 {{ if .Params.softwareApplications }}
 {{ partial "head/schema/software-application.html" . }}
 {{ end }}
+
 {{- end }}
