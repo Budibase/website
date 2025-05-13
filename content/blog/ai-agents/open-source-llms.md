@@ -155,7 +155,7 @@ Mistral 7B is a 7.3 billion parameter model with impressive performance numbers 
 
 It also offers a high degree of flexibility for fine-tuning, making it a popular choice for use cases like chatbots, where developers don’t want to incur the comparatively high computational overhead that would come along with a larger model.
 
-Despite this, there are a few potential downsides. 7B’s parameter count restricts the knowledge it can store compared to larger models. It’s also somewhat prone to hallucinations and doesn’t include moderation mechanisms. So, it may need additional safeguards for more sensitive use cases.
+Despite this, there are a few potential downsides. 7B’s parameter count restricts the knowledge it can store compared to larger models. It’s also somewhat prone to hallucinations, according to some reports.
 
 ### 3. Command R+
 
