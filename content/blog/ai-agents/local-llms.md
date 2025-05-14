@@ -22,7 +22,7 @@ Specifically, we’ll be covering:
 
 - [What is a self-hosted LLM?](#what-is-a-self-hosted-llm)
 - [How can you run a model locally?](#how-can-you-run-a-model-locally)
-- [Why would we want to host a model locally?](#why-would-we-want-to-host-a-model-locally?)
+- [Why would we want to host a model locally?](#why-would-we-want-to-host-a-model-locally)
 - [What to look for in a self-hosted LLM](#what-to-look-for-in-a-self-hosted-llm)
 - [6 self-hosted LLMs for 2025](#6-self-hosted-llms-for-2025)
 
@@ -123,12 +123,20 @@ Rather, it’s to highlight some of the most prominent self-hosted LLMs, what th
 With this in mind, we’ve chosen a range of models, spanning different hardware requirements and target use cases. Our picks are:
 
 1. [Mistral 7B](#1-mistral-7b)
+
 2. [Phi-3 Mini](#2-phi-3-mini)
+
 3. [OLMo-2-1B](#3-olmo-2-1b)
-4. [Gemma](#4-gemma)
-5. [Dolphin](#5-dolphin)
+
+4. [Gemma 3](#4-gemma-3)
+
+5. [Dolphin 2.9 Mistral 7B](#5-dolphin-2-9-mistral-7b)
+
 6. [Jamba Mini](#6-jamba-mini)
-7. Let’s check out each one in more detail.
+
+   
+
+   Let’s check out each one in more detail.
 
 ### 1. Mistral 7B
 
