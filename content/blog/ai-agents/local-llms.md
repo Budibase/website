@@ -123,20 +123,13 @@ Rather, it’s to highlight some of the most prominent self-hosted LLMs, what th
 With this in mind, we’ve chosen a range of models, spanning different hardware requirements and target use cases. Our picks are:
 
 1. [Mistral 7B](#1-mistral-7b)
-
 2. [Phi-3 Mini](#2-phi-3-mini)
-
 3. [OLMo-2-1B](#3-olmo-2-1b)
-
 4. [Gemma 3](#4-gemma-3)
-
-5. [Dolphin 2.9 Mistral 7B](#5-dolphin-2-9-mistral-7b)
-
+5. [Dolphin 2.9 Mistral 7B](#5-dolphin-29-mistral-7b)
 6. [Jamba Mini](#6-jamba-mini)
 
-   
-
-   Let’s check out each one in more detail.
+Let’s check out each one in more detail.
 
 ### 1. Mistral 7B
 
