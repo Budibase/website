@@ -117,7 +117,7 @@ Let’s check each one out in turn.
 
 Budibase is an open-source, low-code platform that empowers IT professionals to build workflow solutions on top of any data.
 
-![Open-source Zapier Alternatives Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1730385273/campaigns/3.0/day 3/Automation_Branching_4_bdorv5.webp "Open-Source Zapier Alternatives Budibase")
+![Open-source Zapier Alternatives Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1730385273/campaigns/3.0/day%203/Automation_Branching_3_ra50gz.webp "Open-Source Zapier Alternatives Budibase")
 
 #### Features
 
