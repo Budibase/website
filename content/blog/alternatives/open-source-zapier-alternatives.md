@@ -49,6 +49,8 @@ Let’s start with the basics.
 
 Zapier is a web-based workflow automation tool that allows us to configure connections between apps and services, without requiring custom code.
 
+![Zapier](https://res.cloudinary.com/daog6scxm/image/upload/v1747320404/cms/ai-agents/open-source-zapier-alternatives/Zapier_enaf32.webp "Zapier")
+
 This centers around a visual, flow-chart-based interface for defining triggers and actions across platforms, and the logic for how these are executed.
 
 To achieve this, Zapier offers guided experiences for configuring API and webhook requests. This enables us to trigger actions in one platform based on events in another, as well as adding branching logic, looping, and generative AI reasoning for more complex rules.
@@ -107,7 +109,7 @@ With that in mind, we’ve selected:
 2. [n8n](#2-n8n)
 3. [Apache Airflow](#3-apache-airflow)
 4. [Automatisch](#4-automatisch)
-5. [Node-RED](#node-red)
+5. [Node-RED](#5-node-red)
 
 Let’s check each one out in turn.
 
@@ -115,7 +117,7 @@ Let’s check each one out in turn.
 
 Budibase is an open-source, low-code platform that empowers IT professionals to build workflow solutions on top of any data.
 
-![Open-Source Zapier Alternatives Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1730385273/campaigns/3.0/day 3/Automation_Branching_4_bdorv5.webp "Open Source Zapier Alternatives Budibase")
+![Open-source Zapier Alternatives Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1730385273/campaigns/3.0/day 3/Automation_Branching_4_bdorv5.webp "Open-Source Zapier Alternatives Budibase")
 
 #### Features
 
