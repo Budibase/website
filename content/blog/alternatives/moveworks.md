@@ -166,11 +166,11 @@ Lastly, like Moveworks, Aisera is a closed-source platform, so teams that priori
 
 #### Pricing
 
-Aisera’s pricing is not publicly advertised. Instead, license costs are calculated on an individual basis, depending on the requirements of specific organizations.
+Aisera’s pricing is not publicly advertised. 
+
+Instead, license costs are calculated on an individual basis, depending on the requirements of specific organizations.
 
 This may include factors such as user volumes, the number of AI agents we need, requirements for specific modules, support arrangements, and more.
-
-Notably, though, as a cloud-native platform, our associated costs for the likes of infrastructure, maintenance, and lifecycle management will likely be lower than other platforms that we’d need to self-host.
 
 ### 2. Resolve Systems
 
