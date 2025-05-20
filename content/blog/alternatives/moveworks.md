@@ -115,7 +115,7 @@ Licensing is also an obvious consideration.
 
 One element of this is pricing. In simple terms, some teams may find that certain Moveworks alternatives can more cost-effectively meet their needs.
 
-Additionally, many large organizations prioritize open-source solutions, especially for mission-critical tools. So, they might opt for an alternative platform that enables them to inspect the source code.
+Additionally, many large organizations prioritize open-source solutions, especially for mission-critical tools. So, they might opt for an alternative platform with an open-source license.
 
 Take a look at our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/) to learn more.
 
@@ -162,7 +162,7 @@ However, there are some important downsides to Aisera, too. One consideration he
 
 It may also lack some of the flexibility and customization that some other platforms in this space offer. For example, there’s less scope for customizing policy or adding logic as code, and instead, they retain these as configuration options. This may make some niche workflows more difficult.
 
-Lastly, like Moveworks, Aisera is a closed-source, cloud-native platform. This means that we cannot inspect the source code or host solutions on our own infrastructure, which may be firm requirements for certain teams.
+Lastly, like Moveworks, Aisera is a closed-source platform, so teams that prioritize open-source tools may wish to look elsewhere.
 
 #### Pricing
 
