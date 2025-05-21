@@ -23,7 +23,7 @@ operatingSystem = "Web"
 url = "https://flowiseai.com/"
 
 [[softwareApplications]]
-name = "Zapfer"
+name = "Zapier"
 applicationCategory = "businessApplication"
 operatingSystem = "Web"
 url = "https://zapier.com/"
