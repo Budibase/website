@@ -53,7 +53,7 @@ Along the way, we’ll cover a range of ground, including:
 
 - [What is Flowise?](#what-is-flowise)
 - [Who uses Flowise?](#who-uses-flowise)
-- [Why would you need a Flowise alternative?)[#why-would-you-need-a-flowise-alternative)
+- [Why would you need a Flowise alternative?](#why-would-you-need-a-flowise-alternative)
 - [5 Flowise alternatives for 2025](#5-flowise-alternatives-for-2025)
 
 Let’s jump right in.
@@ -124,7 +124,7 @@ We’ve chosen a diverse range of platforms to reflect this, while also focusing
 
 Our picks are:
 
-1. [Moveworks(#1-moveworks)
+1. [Moveworks](#1-moveworks)
 2. [Zapier](#2-zapier)
 3. [n8n](#3-n8n)
 4. [Aisera](#4-aisera)
