@@ -45,19 +45,17 @@ Since this is a hugely varied niche, we’ve split these into five categories to
 First up, we’ve got four broad newsletters covering a wide range of topics across the IT sector.
 
 #### 1. Bandwidth
-Bandwidth is Budibase's bi-weekly newsletter for IT professionals. It offers a hand-curated view of the top stories across the world of IT, across new technology, industry trends, soft-skills, key events, and more.
+Bandwidth is Budibase's newsletter for IT professionals. It offers a hand-curated view of the top stories across the world of IT, across new technology, industry trends, soft-skills, key events, and more.
 
 It's aimed at busy teams who need to balance staying informed with keeping the lights on.
 
 Bandwidth also provides wider coverage of the IT space, including important dates for the diary, community news, and insights on the state of the industry.   
 
 
-> 🕒 **Frequency** - Bi-weekly.
->
 > ✅ **Great for** - Curated, actionable insights for busy IT professionals.
 >
 > ❌ **Look elsewhere for** - Daily digests, non-IT tech news, hardware-focused newsletters.     
-    
+
 
 
 {{< substack-cta >}}  
