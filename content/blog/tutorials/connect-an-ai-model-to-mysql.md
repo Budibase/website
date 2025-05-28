@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-05-28
 description = "Learn how to build an AI-powered incident form by connecting MySQL to OpenAI with a Budibase automation."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Connect an AI model to MySQL in 4 Steps"
+title = "How to Connect an AI Model to MySQL in 4 Steps"
 
 +++
 
