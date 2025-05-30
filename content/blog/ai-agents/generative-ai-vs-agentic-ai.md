@@ -19,8 +19,8 @@ Specifically, we’ll be covering:
 - [What is generative AI?](#what-is-generative-ai)
 - [What is agentic AI?](#what-is-agentic-ai)
 - [Use cases](#use-cases)
-- [Benefits & challenges](#benefits–challenges)
-- [Tool stacks, resources & solutions](#tool-stacks-resources–solutions)
+- [Benefits and challenges](#benefits--challenges)
+- [Tool stacks, resources & solutions](#tool-stacks-resources--solutions)
 
 Let’s start with the basics.
 
@@ -175,7 +175,7 @@ For one thing, agentic AI is still a relatively novel technology. So, many busin
 
 Part of the problem here is that a huge number of vendors have come to market, alongside workflow-specific platforms introducing their own agentic functionality. As such, many teams face difficulties with agent sprawl, where they purchase multiple, overlapping solutions.
 
-Take a look at our guide to [low & no-code AI agent builders](https://budibase.com/blog/ai-agents/no-code-ai-agent-builders/) to learn more.
+Take a look at our guide to [low/no-code AI agent builders](https://budibase.com/blog/ai-agents/no-code-ai-agent-builders/) to learn more.
 
 AI agents also pose huge challenges at a cultural level, including overcoming internal resistance to change. As many colleagues will naturally be worried about the potential impact of agents on their roles, it’s vital to handle this with clear, open communication.
 
