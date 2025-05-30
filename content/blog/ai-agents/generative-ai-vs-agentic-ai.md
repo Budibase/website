@@ -20,7 +20,7 @@ Specifically, we’ll be covering:
 - [What is agentic AI?](#what-is-agentic-ai)
 - [Use cases](#use-cases)
 - [Benefits and challenges](#benefits--challenges)
-- [Tool stacks, resources & solutions](#tool-stacks-resources--solutions)
+- [Tool stacks, resources and solutions](#tool-stacks-resources-and-solutions)
 
 Let’s start with the basics.
 
@@ -179,7 +179,7 @@ Take a look at our guide to [low/no-code AI agent builders](https://budibase.com
 
 AI agents also pose huge challenges at a cultural level, including overcoming internal resistance to change. As many colleagues will naturally be worried about the potential impact of agents on their roles, it’s vital to handle this with clear, open communication.
 
-## Tools stacks, resources & solutions
+## Tools stacks, resources, and solutions
 
 Lastly, in order to effectively put what we’ve learned so far into practice, it’s vital to understand the tools and other resources we’ll need to account for in order to launch real-world solutions.
 
