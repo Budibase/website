@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2024-06-13
+date = 2025-01-13
 description = "Take a look at our in-depth guide to hardware asset management."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "What is Hardware Asset Management? + 5 Essential Tools"
@@ -8,6 +8,7 @@ title = "What is Hardware Asset Management? + 5 Essential Tools"
 name = "IT asset management"
 sameAs = "https://www.wikidata.org/wiki/Q5975185"
 type = "Thing"
+
 +++
 
 Hardware asset management is one of the central pillars of a successful ITSM strategy. Put simply, we can’t deliver effective services to users without first furnishing them with the right devices, environments, and infrastructure to do their jobs.
@@ -171,8 +172,6 @@ This has the potential to be a complex workflow, as there are potentially severa
 We’ve alluded to a whole range of internal tools that are helpful for supporting our asset management efforts.
 
 Some businesses opt for off-the-shelf asset management tools or more generalized ITSM solutions. Others will use custom solutions or a combination of both. 
-
-Check out our round-up of [ServiceNow alternatives](https://budibase.com/blog/alternatives/servicenow/) to learn more.
 
 Whichever approach we opt for, the core capabilities we’ll need to include the following…
 
