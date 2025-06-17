@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2024-08-20
+date = 2025-02-20
 description = "Check out our round-up of 10 Microsoft Access alternatives."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1695986297/cms/microsoft-access-alternatives/Microsoft_Access_Alternatives_yp90gy.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1695986297/cms/microsoft-access-alternatives/Microsoft_Access_Alternatives_yp90gy.png"]
@@ -8,7 +8,10 @@ profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/
 title = "10 Microsoft Access Alternatives for 2025"
 type = "alternatives"
 layout = "access"
-
+[[about]]
+name = "Microsoft Access"
+sameAs = "https://www.wikidata.org/wiki/Q80689"
+type = "Thing"
 +++
 
 For a lot of businesses, finding a suitable Microsoft Access alternative for their needs is becoming pretty urgent.
