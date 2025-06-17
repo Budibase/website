@@ -285,6 +285,8 @@ Feature restrictions across the pricing tiers are a little bit less generous. Fo
 
 Lastly, there's Sinc. This is a timecard and location tracking app that helps teams understand where their employees are and what they're working on.
 
+![Sinc](https://res.cloudinary.com/daog6scxm/image/upload/v1750172221/cms/alternatives/Sinc_u7kv3l.webp "Sinc")
+
 #### Pros
 
 Sinc offers a highly effective solution for tracking field colleagues, with minimal customization or configuraion required. End users can easily track time against jobs, while head office staff can use this information to manage costs, track tasks, and even see live locations for employees in the field.
