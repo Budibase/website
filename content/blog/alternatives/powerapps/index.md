@@ -1,5 +1,5 @@
 ---
-date: 2024-04-05
+date: 2024-10-05
 title: Top 10 PowerApps Alternatives & Competitors in 2025
 description: Learn about the top 10 PowerApps alternatives & competitors to improve your internal workflows and save you time.
 images:

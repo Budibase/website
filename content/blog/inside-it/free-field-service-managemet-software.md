@@ -1,9 +1,9 @@
 +++
 author = "Ronan McQuillan"
-date = 2024-05-21
+date = 2025-01-21
 description = "Check out our round-up of free field management software solutions."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Top 5 Free Field Service Management Software Tools"
+title = "Top 6 Free Field Service Management Software Tools"
 [[mentions]]
 name = "Field Service Management"
 sameAs = "https://www.wikidata.org/wiki/Q5447122"
@@ -33,6 +33,13 @@ name = "Connecteam"
 applicationCategory = "businessApplication"
 operatingSystem = "Web"
 url = "https://connecteam.com"
+
+[[softwareApplications]]
+name = "Sinc"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://sinc.business"
+
 +++
 
 Field service management can be a mission-critical process for a wide range of businesses, from large enterprises to small contractors.
@@ -96,7 +103,7 @@ Alternatively, an increasing number of organizations are turning to custom no/lo
 
 The goal of these platforms is to enable teams to create custom solutions for handling internal processes with minimal custom code, often with highly attractive free tiers.
 
-## Top 5 free field service management tools
+## Top 6 free field service management tools
 
 Now that we have a good grasp of what we’re looking for when it comes to FSM solutions, we can start drilling into specific platforms.
 
@@ -118,7 +125,7 @@ Budibase offers extensive connectivity for existing data sources, including dire
 
 Use our visual development tools and library of built-in components to craft professional interfaces without extensive design skills. We even offer auto-generated UIs, custom conditionality rules, screen and component-based RBAC, CSS editing, and front-end JavaScript.
 
-Budibase is the ideal solution for busy, security-focused teams. With optional self-hosting, low-code automations, custom plug-ins, digital signatures, and free SSO, there’s never been an easier way to ship effective tools for field agents.
+Budibase is the ideal solution for busy, security-focused teams. With optional self-hosting, low-code automations, custom plug-ins, LLM support, digital signatures, and free SSO, there’s never been an easier way to ship effective tools for field agents.
 
 {{< cta >}}
 
@@ -138,7 +145,7 @@ Build unlimited apps for up to five users in the cloud or twenty users if you de
 
 Paid plans start from $5 per month for end users and $50 for creators, with custom branding, reusable code snippets, and more. Our pricing is optimized for scalability, providing an affordable platform that will drive value across your operations.
 
-We also offer custom pricing for enterprises, including enforceable SSO, air-gapped deployments, enhanced audit logging, and priority support.
+We also offer custom pricing for enterprises, including enforceable SSO, air-gapped deployments, enhanced audit logging, PWAs, and priority support.
 
 Check out our [pricing page](https://budibase.com/pricing/) to learn more.
 
@@ -246,7 +253,7 @@ Take a look at our round-up of [Airtable alternatives](https://budibase.com/blog
 
 ![Connecteam](https://res.cloudinary.com/daog6scxm/image/upload/v1716298348/cms/free-field-service-management-software/Connecteam_vuawul.webp "Connecteam")
 
-Lastly, we have Connecteam. This is a SaaS tool designed specifically for deskless operations teams. 
+Next, we have Connecteam. This is a SaaS tool designed specifically for deskless operations teams. 
 
 It offers several viable off-the-shelf tools, including forms, checklists, time clocks, and scheduling capabilities.
 
@@ -273,6 +280,36 @@ Connecteam’s free tier is actually very generous. This offers extensive functi
 Paid tiers are also relatively affordable. These are priced on a bulk license model, with fees per additional user. So, the Basic tier is $29 per month for up to 30 users, plus $0.50 per additional user thereafter.
 
 Feature restrictions across the pricing tiers are a little bit less generous. For instance, we’ll need an Enterprise license, starting at $99 per month plus $3 per additional user to access key features like process automation, multi-branch support, and in-app links.
+
+### 6. Sinc
+
+Lastly, there's Sinc. This is a timecard and location tracking app that helps teams understand where their employees are and what they're working on.
+
+![Sinc](https://res.cloudinary.com/daog6scxm/image/upload/v1750172221/cms/alternatives/Sinc_u7kv3l.webp "Sinc")
+
+#### Pros
+
+Sinc offers a highly effective solution for tracking field colleagues, with minimal customization or configuraion required. End users can easily track time against jobs, while head office staff can use this information to manage costs, track tasks, and even see live locations for employees in the field.
+
+On top of this, Sinc offers a range of capabilities for streamlining communications, including job and shift notes, safety feedback, and more.
+
+Plus, there's functionality for reporting on payoll hours, managing projects, scheduling tasks, and more. Employee can even auto-clock-in to jobs using geofencing.
+
+#### Cons
+
+However, there are some important downsides to using Sinc too. For one thing, it lacks some of the more advanced automation capabilities that are on offer in some other platforms. So, we can automate basic tasks like report generation, but not more complex workflows.
+
+Similarly, Sinc lags behind other platforms somewhat in terms of integrations. For instance, if we want to send jobs data to our payroll team, we'll need to rely on CSV exports, rather than utilizing a direct integration.
+
+As such, Sinc is a highly effective platform for more straighforward field service management use cases, but may fall short of other platforms for more complex or large-scale processes.
+
+#### Pricing
+
+Sinc is a very affordable option, including a totally usable free tier for up to four users. Paid plans start from $14.99 per month for up to ten users, with basic functionality, including time sheets and locations.
+
+However, to access the likes of cost codes, time-off management, scheduling, job tracking, or overtime, we'll need an Essentials license at $24.99 per month, billed annually for up to 20 users.
+
+We can access unlimited users, as well as live location tracking and job-starts via geofence on the most expensive Growth license, at $49.99 per month.
 
 ## Build free field service management tools with Budibase
 
