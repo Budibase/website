@@ -1,6 +1,6 @@
 +++
 author = "Joe Johnston"
-date = 2024-11-01T00:00:00Z
+date = 2025-01-01T00:00:00Z
 description = "Learn everything you need to know about web app development, including tools, frameworks, approaches, and architecture."
 images = ["/web-application-development/guide-to-web-application-development.jpg"]
 title = "Beginners Guide to Web Application Development (2025)"

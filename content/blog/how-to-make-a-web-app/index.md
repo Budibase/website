@@ -1,6 +1,6 @@
 +++
 author = "Joe Johnston"
-date = 2024-09-23T00:00:00Z
+date = 2025-01-23T00:00:00Z
 description = "Follow our step-by-step guide for how to create a web app."
 title = "How to Build a Web App: Beginner's Guide (2025)"
 
