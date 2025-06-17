@@ -1,6 +1,6 @@
 +++
 author = "Joe Johnston"
-date = 2024-02-28T00:00:00Z
+date = 2025-01-28T00:00:00Z
 description = "Find inspiration for your next project with our round-up of the best web application design examples."
 images = ["/web-app-ideas/dashboard-web-app.jpg"]
 title = "10 Examples of Modern Web Application Design"
@@ -53,7 +53,7 @@ Check out our guide on [how to build a web app](https://budibase.com/blog/how-to
 
 ## Our Top 10 Web Application Designs
 
-The following web applications were chosen from a list of 62 entrants submitted by the Budibase team. Scoring was based on:
+The following web applications were chosen by the Budibase team. Scoring was based on:
 
 1. Design
 2. Usability
