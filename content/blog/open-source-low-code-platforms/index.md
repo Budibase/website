@@ -91,16 +91,16 @@ When selecting my top 10 open source low-code platforms, I deliberately chose di
 
 Below are the top open source low-code platforms:
 
-1. Budibase - best open-source, low-code app builder.
-2. Huginn - best for process automation.
-3. WordPress - best for building drag-and-drop websites.
-4. Node-Red - best for IoT apps.
-5. PyCaret - best for machine learning and real-time applications.
-6. Manifest.Build - best for low-code backends.
-7. StackStorm - best for DevOps automation.
-8. GrapeJS - best for building HTML templates.
-9. Flowise - best for LLM orchestration.
-10. AppFlowy - best for collaboration and project management.
+1. [Budibase](#budibase---the-low-code-platform-for-building-business-apps) - best open-source, low-code app builder.
+2. [Huginn](#huginn---the-low-code-automation-platform) - best for process automation.
+3. [WordPress](#wordpress---the-open-source-low-code-platform-for-building-websites) - best for building drag-and-drop websites.
+4. [Node-Red](#node-red---the-open-source-low-code-platform-for-build-event-driven--iot-applications) - best for IoT apps.
+5. [PyCaret](#pycaret---open-source-low-code-platform-python-and-machine-learning) - best for machine learning and real-time applications.
+6. [Manifest.Build](#manifestbuild---best-for-low-code-backends) - best for low-code backends.
+7. [StackStorm](#stackstorm---best-for-devops-automation) - best for DevOps automation.
+8. [GrapeJS](#grapejs---best-for-building-html-templates) - best for building HTML templates.
+9. [Flowise](#flowise---best-for-llm-orchestration) - best for LLM orchestration.
+10. [AppFlowy](#appflowy---best-for-collaboration-and-project-management) - best for collaboration and project management.
 
 ### Budibase - The low-code platform for building business apps
 

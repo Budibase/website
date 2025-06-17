@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2024-05-24
+date = 2025-01-24
 description = "Check out our round-up of the top open-source digital asset management software."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Top 5 Open-Source Digital Asset Management Tools"
@@ -29,6 +29,7 @@ name = "Nuxeo"
 applicationCategory = "businessApplication"
 operatingSystem = "Web"
 url = "https://doc.nuxeo.com"
+
 +++
 
 Digital asset management tools are critical to teams that need to store, share, and collaborate on large volumes of media, like images, videos, and other files.
@@ -118,6 +119,8 @@ Let’s jump in.
 
 ![Open Source Digital Asset Management](https://res.cloudinary.com/daog6scxm/image/upload/v1716561599/cms/open-source-digital-asset-management/Razuna_xcidxt.webp "Open Source Digital Asset Management")
 
+(*Razuna Website*)
+
 Razuna is a fully featured digital asset manager that’s available as a cloud-based or open-source platform.
 
 It offers a clean, user-friendly experience for managing files, including dedicated workspaces, self-service tools, and built-in image transformation.
@@ -149,6 +152,8 @@ Custom pricing is also available for enterprises with dedicated cloud or on-prem
 ### 2. HyperCMS
 
 ![HypeCMS](https://res.cloudinary.com/daog6scxm/image/upload/v1716561598/cms/open-source-digital-asset-management/HyperCMS_vrpcrk.webp "HyperCMS")
+
+(*HyperCMS Website*)
 
 Next up, we have HyperCMS. As the name suggests, this is an open-source content management platform as well as a DAM tool.
 
@@ -182,6 +187,8 @@ We’ll need to upgrade to an enterprise license to access key features, includi
 
 ![Pimcore](https://res.cloudinary.com/daog6scxm/image/upload/v1716561601/cms/open-source-digital-asset-management/Pimcore_of00hy.webp "Pimcore")
 
+(*Pimcore Website*)
+
 Pimcore is a slightly different proposition, offering master data, customer experience, and ecommerce data management alongside a fully functional DAM platform.
 
 It offers a solid, modern digital asset management experience that’s squarely aimed at enterprise usage.
@@ -214,6 +221,8 @@ Custom enterprise pricing gets us a self-hosted version of the fully-featured pl
 
 ![Resource Space](https://res.cloudinary.com/daog6scxm/image/upload/v1716561600/cms/open-source-digital-asset-management/Resource_Space_hf7jnt.webp "Resource Space")
 
+(*Resource Space Website*)
+
 Next up, we have Resource Space. This is a feature-rich standalone DAM that puts a real emphasis on customization.
 
 So, we can extensively tailor the platform for both our internal brand and workflows, making it a good alternative to a fully custom build.
@@ -245,6 +254,8 @@ There’s also a cloud-based solution. Again, this is free for up to 10 users an
 ### 5. Nuxeo
 
 ![Nuxeo](https://res.cloudinary.com/daog6scxm/image/upload/v1716561596/cms/open-source-digital-asset-management/Nuxeo_hj0dkm.webp "Nuxeo")
+
+(*Nuxeo Website*)
 
 The last open-source digital asset management tool we’ll look at today is Nuxeo. Taking a slightly different approach, this is a low-code tool for creating and configuring custom DAM solutions.
 
