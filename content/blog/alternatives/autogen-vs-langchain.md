@@ -82,6 +82,8 @@ Now that we have a baseline understanding of what both AutoGen and LangChain are
 
 That is, while we could create many of the same solutions in either platform, each one still has its own ideal use cases and target personas, which we’ll need to be aware of in order to make an informed decision about our specific needs.
 
+You might also like our guide to [enterprise chatbots](https://budibase.com/blog/ai-agents/enterprise-chatbots/).
+
 #### AutoGen
 
 Autogen excels at multi-agent use cases, offering a strong platform for building conversable agents that can perform tasks collectively through automated chat.
@@ -258,6 +260,8 @@ The LangChain ecosystem is also well-suited to use cases requiring human interac
 This can be performed at any point in the execution process.
 
 This facilitates feedback on tool calls, validating LLM outputs, providing additional context, and other use cases.
+
+You might also like our guide to [digital workers](https://budibase.com/blog/ai-agents/digital-workers/).
 
 ## Turn data into action with Budibase
 

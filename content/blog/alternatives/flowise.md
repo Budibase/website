@@ -198,6 +198,8 @@ There’s a usable free tier that will allow us to execute up to 100 tasks per m
 
 We’ll need custom enterprise pricing for advanced access control or observability features, while access to the full complement of chatbot capabilities is billed as an optional add-on from $13.33 per month.
 
+You might also like our guide to [digital workers](https://budibase.com/blog/ai-agents/digital-workers/).
+
 ### 3. n8n
 
 Like Zapier, n8n is another long-standing workflow automation platform that has evolved to offer more AI-focused capabilities over the past few years. However, it’s also aimed at somewhat more technical teams, compared to Zapier’s broader user personas.
@@ -293,6 +295,8 @@ OpenDialog offers a transparent pricing model, with several fixed license tiers,
 Paid plans start at $65 per month for a single active agent, with 50,000 steps, 100MB of memory storage, and unlimited LLM tokens. Licenses to build multiple agents start from $325 per month.
 
 Customer enterprise licenses offer unlimited usage, 1TB of memory storage, SSO, and more.
+
+You might also like our guide to [enterprise chatbots](https://budibase.com/blog/ai-agents/enterprise-chatbots/).
 
 ## Turn data into action with Budibase
 

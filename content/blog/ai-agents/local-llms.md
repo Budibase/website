@@ -88,6 +88,8 @@ The other key considerations relate to security. So, in sensitive, highly regula
 
 Some common examples that span both of these include internal knowledge assistants, document workflows, and a whole host of internal service processes such as finance, ITSM, HR, and more.
 
+You might also like our guide to [enterprise chatbots](https://budibase.com/blog/ai-agents/enterprise-chatbots/).
+
 ## What to look for in a self-hosted LLM
 
 Before we begin to explore some of our specific options, it’s also helpful to consider the broad decision points that will go into determining if one model or another is more suitable for our specific needs.
@@ -198,6 +200,8 @@ It also supports a context window of up to 256,000 tokens, making it suitable fo
 It’s offered under Jamba’s Open Model license, which permits both research and commercial usage.
 
 However, as an enterprise-focused model, Jamba could require comparatively high computing resources. These requirements will also be increased for performing long-context tasks.
+
+You might also like our guide to [digital workers](https://budibase.com/blog/ai-agents/digital-workers/).
 
 ## Turn data into action with Budibase
 

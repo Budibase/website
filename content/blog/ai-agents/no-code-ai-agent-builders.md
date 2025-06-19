@@ -109,6 +109,8 @@ Lastly, we’ll need to consider operational factors. A huge part of this is obs
 
 Similarly, hosting, deployment, and security features are also top considerations, especially in cases where AI agents will need to interact with mission-critical tools, data, or processes.
 
+You might also like our guide to [enterprise chatbots](https://budibase.com/blog/ai-agents/enterprise-chatbots/).
+
 ## 6 low & no-code AI agent builders for 2025
 
 Now that we have a better understanding of what we’re looking for, we can begin to explore some of the specific platforms that are available on the market today. 
@@ -208,6 +210,8 @@ AutoGPT itself is fully open-source and free to use, modify, and distribute unde
 However, there are two cost centers we must nonetheless consider. Firstly, we must pay for LLM calls from OpenAI, for each individual agent thought, prompt, or action.
 
 Secondly, we’ll need to account for hosting and compute costs, since we’ll need to self-host AutoGPT.
+
+You might also like our guide to [digital workers](https://budibase.com/blog/ai-agents/digital-workers/).
 
 ### 4. ChatFuel
 
