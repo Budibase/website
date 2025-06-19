@@ -182,6 +182,8 @@ Back in our data section, we can see that this has been successfully translated 
 
 ![German to English](https://res.cloudinary.com/daog6scxm/image/upload/v1746777003/cms/ai-agents/nlp-applications/NLP_Applications_9_lbnurs.webp "German to English")
 
+You might also like our guide to [enterprise chatbots](https://budibase.com/blog/ai-agents/enterprise-chatbots/).
+
 ### 4. Extracting data fields from natural language
 
 For many engineering projects, one key application of natural language processing is extracting structured data from human input.
@@ -297,6 +299,8 @@ Here’s how this should look.
 We can then use this data elsewhere in the Budibase builder. For instance, within visualizations for our customer feedback.
 
 ![Data Visualizations](https://res.cloudinary.com/daog6scxm/image/upload/v1746777000/cms/ai-agents/nlp-applications/NLP_Applications_21_lc86c6.webp "Data Visualizations")
+
+You might also like our guide to [digital workers](https://budibase.com/blog/ai-agents/digital-workers/).
 
 ## Turn data into action with Budibase
 

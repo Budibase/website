@@ -73,6 +73,8 @@ While some knowledge of development topics, like data structures or API usage, i
 
 As such, Zapier can be a powerful tool for a range of citizen development, automation, and workflow solutions across departments. For example, enabling team leaders to configure more efficient data flows across their SaaS tools.
 
+You might also like our guide to [digital workers](https://budibase.com/blog/ai-agents/digital-workers/).
+
 ## Why would you want an open-source Zapier alternative?
 
 So, understanding what Zapier is and how it’s used, we can begin to think about why we might want to opt for an open-source solution instead.

@@ -44,7 +44,7 @@ Well-known examples of generative AI tools include the likes of ChatGPT, Claude,
 
 However, it’s important to note that generative AI is capable of tasks beyond simply generating content. Crucially, most production models are able to store previous interactions as memory or context.
 
-This opens up a range of additional uses, as we can essentially communicate with AI tools in a back-and-forth fashion, as though they were human colleagues.
+This opens up a range of additional uses, as we can essentially communicate with AI tools in a back-and-forth fashion, as though they were human colleagues. You might also like our guide to [digital workers](https://budibase.com/blog/ai-agents/digital-workers/).
 
 ## What is agentic AI?
 
@@ -158,6 +158,8 @@ Compared to traditional automation techniques, one obvious one is that we’ll o
 Additionally, generative AI tools in and of themselves lack many of the capabilities that agentic systems can offer. After all, agentic systems are largely built around generative models, with extra componentry to enable them the ability to act autonomously.
 
 So, a non-agentic generative AI system will lack the ability to make decisions independently of humans. Unlike agentic systems, they’ll largely follow more fixed logic, which can limit their usability in more complex situations.
+
+You might also like our guide to [enterprise chatbots](https://budibase.com/blog/ai-agents/enterprise-chatbots/).
 
 ### Agentic AI
 

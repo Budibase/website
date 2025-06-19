@@ -112,6 +112,8 @@ However, there are two commercial services offered alongside this. LangSmith is 
 
 LangGraph is a graph-based orchestration framework build on top of LangChain. This is also open-source, although commercial licenses are available for enterprises too. Costs aren’t advertised, but this introduces premium support, SLAs, and hosting options.
 
+You might also like our guide to [digital workers](https://budibase.com/blog/ai-agents/digital-workers/).
+
 ### 2. CrewAI
 
 Next up, we have CrewAI. This is another highly popular open-source AI agent platform, but compared to LangChain it takes a slightly different approach. That is, it focuses on providing code-based and visual experiences for building and managing multiple agents.
@@ -199,7 +201,7 @@ Once again, SuperAgent is offered under the MIT license for use, modification, a
 
 According to their documentation, SuperAgent also offers a cloud platform that allows us to deploy agents without managing hosting for ourselves.
 
-However, as with many of the other platforms we’ve seen today, more specific information about using this isn’t forthcoming.
+However, as with many of the other platforms we’ve seen today, more specific information about using this isn’t forthcoming. You might also like our guide to [enterprise chatbots](https://budibase.com/blog/ai-agents/enterprise-chatbots/).
 
 ### 5. MetaGPT
 
