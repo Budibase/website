@@ -60,7 +60,7 @@ Back in April, [Adria](https://github.com/adrinr) added a new [single-user colum
 
 ## Channel BB 📺
 
-- Our first-ever workshop - [App building with Budibase](https://app.livestorm.co/budibase/app-building-with-budibase/live?s=53a7a2ae-3b9d-4529-b6ba-f53721d95740)
+- Our first-ever workshop
 
 
 ## Up next in Q3 👀
