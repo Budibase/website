@@ -283,8 +283,7 @@ Of course, this also means that we need to have a relatively high among of inter
 
 ![on-prem repatriation](https://res.cloudinary.com/daog6scxm/image/upload/v1682672765/cms/on-prem-vs-cloud/Repatriation_https___datacenterworld.com_sites_default_files_AFCOM_State_20of_20the_20Data_20Center_FINAL_2021_5-10-21.pdf_uczbxs.webp "on-prem repatriation")
 
-([Data Center World](https://datacenterworld.com/sites/default/files/AFCOM_State%20of%20the%20Data%20Center_FINAL_2021_5-10-21.pdf))
-
+(Data Center World)
 ## On-prem vs cloud: Decision points
 
 We’ve covered a lot of ground so far. Since a lot of the benefits and challenges of each option are relatively context-dependent, it’s worthwhile trying to distill this down into actionable decision points.

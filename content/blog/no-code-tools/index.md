@@ -249,7 +249,7 @@ Tools are excellent and imperative to building your no-code product, but behind 
 
 ### Makerpad
 
-[Makerpad](https://www.makerpad.co/) is described as the no-code version of the behemoth Github. I feel Makerpad has a long way before they reach those standards, but I do believe they will have the same impact on the no-code community as the giant. And one day, they will get there due to the sheer tenacity of their founder Ben Tossel. What they do offer, which Github does not, is a platform to educate. Education is a powerful strategy, and empowers makers to do more and to achieve what was once unachievable. This gives birth to an incredibly loyal following.
+Makerpad is described as the no-code version of the behemoth Github. I feel Makerpad has a long way before they reach those standards, but I do believe they will have the same impact on the no-code community as the giant. And one day, they will get there due to the sheer tenacity of their founder Ben Tossel. What they do offer, which Github does not, is a platform to educate. Education is a powerful strategy, and empowers makers to do more and to achieve what was once unachievable. This gives birth to an incredibly loyal following.
 
 Makerpad was started in Jan 2019 and has over 130 tutorials and 1000 pro members. They have free and paid tutorials.
 

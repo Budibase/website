@@ -78,7 +78,7 @@ Similarly, enterprise app development projects will also reflect heightened secu
 
 ![Enterprise App Development Security](https://res.cloudinary.com/daog6scxm/image/upload/v1666614734/cms/the-cost-of-a-breach-10-terrifying-cybersecurity-stats-your-msp-s-customers-need-to-know_kl9qlg.webp "Enterprise app development Security")
 
-([Comptia](https://connect.comptia.org/content/articles/the-cost-of-a-breach-10-terrifying-cybersecurity-stats-your-msp-s-customers-need-to-know))
+(Comptia)
 
 ### Hosting, deployment, and configuration
 
