@@ -278,7 +278,7 @@ Custom enterprise pricing is also available, along with optional add-ons for usa
 
 Lastly, we have IBM’s offering in the AI agent builder space, Watsonx.ai. This is arguably the most feature-rich platform we’ve seen, offering a comprehensive, end-to-end suite of tools for building agentic systems and conversational assistants.
 
-![WatsonXAI](https://res.cloudinary.com/daog6scxm/image/upload/v1745578242/cms/ai-agents/no-low-code-agent-builders/Watsonxai_mlhbp7.webp "WatsonXAI)
+![WatsonXAI](https://res.cloudinary.com/daog6scxm/image/upload/v1745578242/cms/ai-agents/no-low-code-agent-builders/Watsonxai_mlhbp7.webp "WatsonXAI")
 
 #### Pros
 
