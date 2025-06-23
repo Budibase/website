@@ -2,7 +2,7 @@
 
 author = "Ronan McQuillan"
 date = 2025-04-25
-description = "Take a look at our round-up of the top olow & no-code AI agent builders."
+description = "Take a look at our round-up of the top low & no-code AI agent builders."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "6 Low/No-Code AI Agent Builders"
 type = "ai-agents"
