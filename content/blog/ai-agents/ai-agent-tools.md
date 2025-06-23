@@ -3,7 +3,7 @@ author = "Ronan McQuillan"
 date = 2025-06-23
 description = "Take a look at our round-up of the top AI agent tools."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "9 AI Agent Tools"
+title = "9 AI Agent Tools for 2025"
 [[softwareApplications]]
 name = "IBM Watson X AI"
 applicationCategory = "businessApplication"
