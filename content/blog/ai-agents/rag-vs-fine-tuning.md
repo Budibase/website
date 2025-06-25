@@ -27,7 +27,7 @@ Specifically, we’ll be covering:
 - [Use cases](#use-cases)
   - [RAG](#rag)
   - [Fine-tuning](#fine-tuning)
-- [Key recommendations](#rag-vs-fine-tuning--key-recommendations)
+- [Key recommendations](#rag-vs-fine-tuning-key-recommendations)
 
 We’ll start with the basics.
 
