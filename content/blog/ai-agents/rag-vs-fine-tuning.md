@@ -21,13 +21,13 @@ Specifically, we’ll be covering:
   - [Benefits](#benefits)
   - [Challenges](#challenges)
 - [What is fine-tuning?](#what-is-fine-tuning)
-  - [How does fine-tuning work](#how-does-fine-tuning-work)
+  - [How does fine-tuning work?](#how-does-fine-tuning-work)
   - [Benefits](#benefits)
   - [Challenges](#challenges)
 - [Use cases](#use-cases)
   - [RAG](#rag)
   - [Fine-tuning](#fine-tuning)
-- [Key recommendations](#key-recommendations)
+- [Key recommendations](#rag-vs-fine-tuning--key-recommendations)
 
 We’ll start with the basics.
 
