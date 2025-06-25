@@ -23,7 +23,7 @@ Specifically, we’ll be covering:
 - [What is fine-tuning?](#what-is-fine-tuning)
   - [How does fine-tuning work?](#how-does-fine-tuning-work)
   - [Benefits](#benefits)
-  - [Challenges](#challenges)
+  - [Challenges](#fine-tuning-challenges)
 - [Use cases](#use-cases)
   - [RAG](#rag)
   - [Fine-tuning](#fine-tuning)
@@ -153,7 +153,7 @@ Before we get to that, though, it’s important to consider some of the limitati
 
 You might also like our guide to [digital workers](https://budibase.com/blog/ai-agents/digital-workers/).
 
-### Challenges
+### Fine-tuning challenges
 
 Fine-tuning can be a difficult process to get right, including in terms of acquiring and using the relevant data. 
 
