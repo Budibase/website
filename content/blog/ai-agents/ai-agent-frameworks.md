@@ -115,9 +115,9 @@ Our picks are:
 - [LangGraph](#1-langgraph)
 - [AugoGen](#2-autogen)
 - [Crew AI](#3-crew-ai)
-- [Semantic Kernel](#4- semantic-kernel)
+- [Semantic Kernel](#4-semantic-kernel)
 - [Atomic Agents](#5-atomic-agents)
-- [OpenAI Agents SDK](#6-open-ai-agents-sdk)
+- [OpenAI Agents SDK](#6-openai-agents-sdk)
 
 Let’s check each one out in turn.
 
@@ -140,7 +140,7 @@ Microsoft’s AutoGen is a suite of tools, including frameworks, for building AI
 
 These are:
 
-- **`**AutoGen Core` - A framework for building multi-agent systems.
+- `AutoGen Core` - A framework for building multi-agent systems.
 - `AgentChat` - A framework for prototyping single and multi-agent systems.
 - `AutoGen Studio` - A web-based UI for prototyping agents without writing custom code.
 - `Extensions` - For integrating AutoGen agents with external systems.
