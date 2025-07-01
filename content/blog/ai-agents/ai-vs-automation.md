@@ -30,7 +30,7 @@ Specifically, we’ll be covering:
   - [AI](#ai)
 - [Benefits and challenges](#benefits-and-challenges)
   - [Automation](#automation)
-  - [AI](#ai)
+  - [AI](#ai-benefits-and-challenges)
 - [Overlap and AI-powered automation solutions](#overlap-and-ai-powered-automation-solutions)
 
 Let’s start with the basics.
@@ -182,7 +182,7 @@ At the same time, there are some important limitations here to be aware of, incl
 - **Dependent on upfront configuration** - Traditional automation won’t adapt unless you explicitly tell it how.
 - **Hidden long-term costs in complexity** - As workflows grow in number and rulesets multiply, maintenance overhead can increase significantly.
 
-### AI
+### AI benefits and challenges
 
 Understanding the relative pros and cons of deterministic workflow automations, we can also consider AI tools in the same way. 
 
