@@ -105,7 +105,6 @@ All paid plans are billed on a fixed fee plus an additional $15 per user per mon
 
 Custom enterprise pricing is also available within both streams.
 
-![Mendix vs OutSystems](https://res.cloudinary.com/daog6scxm/image/upload/v1714139393/cms/outsystems-vs-mendix/OutSystems_vs_Mendix_1_fwisgq.webp "Mendix vs OutSYstems")
 
 OutSystems pricing appears a little bit simpler on the surface, but in reality, it’s quite a bit less transparent.
 
@@ -120,8 +119,6 @@ Application Objects are the building blocks of our applications. These include a
 For a medium-sized internal application, we’ll need about 150 AOs, which is what we get with the base annual license. The cost of adding additional AOs is not publicly advertised. But, since this includes database entities, things could quickly get very expensive.
 
 As such, in the vast majority of cases - including building multiple apps or high-volume data processing, Mendix is likely to be the considerably cheaper option.
-
-![Mendix vs OutSystems](https://res.cloudinary.com/daog6scxm/image/upload/v1714139392/cms/outsystems-vs-mendix/OutSystems_vs_Mendix_2_f76nuu.webp "Mendix vs OutSystems")
 
 You might also like our round-up of the top [Retool alternatives](https://budibase.com/blog/alternatives/retool/).
 
@@ -145,8 +142,6 @@ Mendix does not offer native connectivity with NoSQL tools, such as MongoDB, Cou
 
 If we want to connect to one of these, we’ll need to use custom REST requests, a third-party plug-in, or some other middleware like Zapier. We can also connect to external relational databases using the same methods or with the native Database Connector tool.
 
-![Data](https://res.cloudinary.com/daog6scxm/image/upload/v1714139392/cms/outsystems-vs-mendix/OutSystems_vs_Mendix_3_o4qv7r.webp "Data")
-
 OutSystems is also primarily optimized for handling relational data, but there are a couple of key differences here. 
 
 The cloud platform uses SQL Server or Oracle RDS for built-in databases. These are provisioned when your tenant is initially set up.
@@ -154,8 +149,6 @@ The cloud platform uses SQL Server or Oracle RDS for built-in databases. These a
 When we self-host OutSystems, we’ll need to configure a supported RDBMS, although there aren’t as many supported tools as we have with Mendix. We can use SQL Server, Azure SQL, Oracle RDS, or IBM DB2.
 
 OutSystems does provide native connectivity to NoSQL databases - but only MongoDB. Like Mendix, we can also use custom REST requests to return data from other external platforms.
-
-![Data](https://res.cloudinary.com/daog6scxm/image/upload/v1714139358/cms/outsystems-vs-mendix/OutSystems_vs_Mendix_4_eywzoh.webp "Data")
 
 ### UIs and design
 
@@ -169,8 +162,6 @@ Mendix also offers extensive scope for adding custom code to enhance our UIs. We
 
 There’s also impressive support for cross-channel development, giving teams a suite of tools to build web apps, native mobile tools, PWAs, and more using the same intuitive, visual IDE.
 
-![UIs](https://res.cloudinary.com/daog6scxm/image/upload/v1714139242/cms/outsystems-vs-mendix/OutSystems_vs_Mendix_5_i3rbzy.webp "UIs")
-
 The basic flow for building UIs in OutSystems is also largely template-driven, with the option to create app screens using pre-built or custom layouts.
 
 Custom templates are files that allow us to define the look and feel of applications, as well as managing core functionality and dependencies.
@@ -178,8 +169,6 @@ Custom templates are files that allow us to define the look and feel of applicat
 Each application is also associated with a style guide. This is a document that defines the key UX elements, including internal brand rules, in order to foster consistency across your applications.
 
 OutSystems also provides application Accelerators to further expedite UI design. These are contextual widgets that provide UI elements for common use cases like creating bookings - saving us the effort of building these from scratch.
-
-![UIs](https://res.cloudinary.com/daog6scxm/image/upload/v1714139176/cms/outsystems-vs-mendix/OutSystems_vs_Mendix_6_n0bkza.webp "UIs")
 
 ### Automations
 
@@ -191,8 +180,6 @@ Mendix sets out to minimize the need for hard code within automations, providing
 
 However, this can’t cover every possible edge case. When we do need to use custom code, we’ll need to modify the microflow’s logic in Java using an external IDE, like Eclipse. This provides a lot of flexibility, but it’s also a somewhat awkward experience.
 
-![Logic](https://res.cloudinary.com/daog6scxm/image/upload/v1714139176/cms/outsystems-vs-mendix/OutSystems_vs_Mendix_7_qwzjyx.webp "Logic")
-
 In OutSystems, workflow automations are also built visually using diagrams. Again, we have a wide array of built-in triggers and actions to take advantage of - and we can easily create branching or looping logic.
 
 One impressive quality-of-life improvement here is that when we build an automated workflow in OutSystems, the platform will automatically generate UIs for key steps, including asking for user inputs.
@@ -200,8 +187,6 @@ One impressive quality-of-life improvement here is that when we build an automat
 In terms of adding custom code to automation rules, OutSystems also offers much more streamlined developer experiences. We can use Code Mentor to generate custom code based on natural language prompts.
 
 We can then make any required tweaks to this. Alternatively, we could start from scratch with custom JavaScript actions.
-
-![Automations](https://res.cloudinary.com/daog6scxm/image/upload/v1714139176/cms/outsystems-vs-mendix/OutSystems_vs_Mendix_8_i7nxhd.webp "Automations")
 
 ### Extensibility, customization, and integrations
 

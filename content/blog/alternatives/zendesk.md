@@ -57,8 +57,6 @@ Let’s start with the basics.
 
 ## What is Zendesk?
 
-![Zendesk Alternatives](https://res.cloudinary.com/daog6scxm/image/upload/v1713453754/cms/service-now-alts/Zendesk_nvlm0s.webp "Zendesk Alternatives")
-
 Launched all the way back in 2007, Zendesk is a comprehensive suite of tools for helping businesses digitalize and manage customer and support interactions.
 
 At its core, Zendesk aims to help teams to centralize and coordinate a whole range of service workflows, including managing customer service, sales, internal services, or any other service interaction.
@@ -130,7 +128,9 @@ Novelly, we offer creator-only pricing for enterprise customers. That way, you o
 
 Jira Service Management is Atlassian’s offering in the service desk niche. You might also like our guide to the top [Jira Service Management alternatives](https://budibase.com/blog/alternatives/jira-service-management/).
 
-![Jira Service Management](https://res.cloudinary.com/daog6scxm/image/upload/v1713453767/cms/service-now-alts/Jira_Service_Desk_qsfolp.webp "Jira Service Management")
+![Jira Service Management](https://res.cloudinary.com/daog6scxm/image/upload/v1742482450/cms/alternatives/JSM_Website_zrpxlp.webp "Jira Service Management")
+
+(Atlassian Website)
 
 #### Pros
 
@@ -162,7 +162,8 @@ ServiceNow is undoubtedly the biggest name in the service management space. Alth
 
 Take a look at our guide to choosing a [ServiceNow alternative](https://budibase.com/blog/alternatives/servicenow/).
 
-![ServiceNow](https://res.cloudinary.com/daog6scxm/image/upload/v1738170076/cms/alternatives/jsm-vs-servicenow/What_is_ServiceNow_hyloog.webp "ServiceNow")
+![ServiceNow](https://res.cloudinary.com/daog6scxm/image/upload/v1739460072/cms/alternatives/freshservice-vs-servicenow/ServiceNow_Home_Page_vdipqj.webp "ServiceNow")
+(ServiceNow Website)
 
 #### Pros
 
@@ -191,8 +192,8 @@ Some organizations purchase directly through ServiceNow, while others use offici
 ### 4. FreshDesk
 
 Among the Zendesk alternatives we’ve seen so far, FreshDesk is probably the most like-for-like competitor.
-
-![FreshDesk](https://res.cloudinary.com/daog6scxm/image/upload/v1713453754/cms/service-now-alts/Freshdesk_gohuky.webp "FreshDesk")
+![FreshDesk](https://res.cloudinary.com/daog6scxm/image/upload/v1751363984/cms/alternatives/FreshDesk_Website_zjih8f.webp "FreshDesk")
+(FreshDesk Website)
 
 #### Pros
 
@@ -222,7 +223,8 @@ Enterprise licenses bill at $60 per user per month, making FreshDesk a highly af
 
 Service Cloud is Salesforce’s offering in the service management and helpdesk space.
 
-![Salesforce Service Cloud](https://res.cloudinary.com/daog6scxm/image/upload/v1713453755/cms/service-now-alts/Salesforce_dy5psk.webp "Salesforce Service Cloud")
+![Salesforce Service Cloud](https://res.cloudinary.com/daog6scxm/image/upload/v1751363288/cms/alternatives/SalesForce_Service_Cloud_bhjjw6.webp "Salesforce Service Cloud")
+(SalesForce Website)
 
 #### Pros
 
@@ -250,6 +252,8 @@ We’ll need the most expensive of these to access the full complement of AI fea
 
 ### 6. Zoho Desk
 ![Zoho Desk](https://res.cloudinary.com/daog6scxm/image/upload/v1738939946/cms/alternatives/Zoho_Desk_k7c0rf.webp "Zoho Desk")
+
+(Zoho Website)
 
 Lastly, we have Zoho’s offering in the service management space - Zoho Desk.
 

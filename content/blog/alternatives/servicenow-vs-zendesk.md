@@ -39,6 +39,7 @@ We’ll start by checking out the basics of each platform from a high level, acr
 ### What is ServiceNow?
 
 ![ServiceNow](https://res.cloudinary.com/daog6scxm/image/upload/v1739460072/cms/alternatives/freshservice-vs-servicenow/ServiceNow_Home_Page_vdipqj.webp)
+(ServiceNow Website)
 
 ServiceNow is probably the most ubiquitous ITSM platform on the market today, although it also offers capabilities for a wider range of solutions, including customer service management, enterprise service management, and IT operations management.
 
@@ -55,6 +56,7 @@ You might also like our round-up of the top [ServiceNow alternatives](https://bu
 ### What is Zendesk?
 
 ![Zendesk vs ServiceNow](https://res.cloudinary.com/daog6scxm/image/upload/v1740492953/cms/alternatives/servicenow-vs-zendesk/Zendesk_Website_aukhyu.webp "Zendesk vs ServiceNow")
+(Zendesk Website)
 
 Zendesk is a slightly different proposition. Like ServiceNow, it offers a comprehensive, enterprise-friendly service desk management platform. However, despite offering functionality for IT teams, this is not the main focus.
 
@@ -162,8 +164,6 @@ First of all, we can think about each platform’s respective capabilities aroun
 
 #### ServiceNow
 
-![ServiceNow Database](https://res.cloudinary.com/daog6scxm/image/upload/v1738169413/cms/alternatives/jsm-vs-servicenow/ServiceNow_Database_t4dgzo.webp "ServiceNow Database")
-
 The ServiceNow platform is built on RaptorDB, a Posgres-derived RDBMS. This provides a highly scalable, performant data layer for service management solutions.
 
 Notably, it also offers us a high degree of flexibility and customization. Specifically, it provides a familiar, tabular structure for defining and modifying the underlying data schema to suit a wide range of business processes.
@@ -177,8 +177,6 @@ It’s also worth noting that, as an ITSM platform, ServiceNow offers a robust, 
 From an analytics perspective, ServiceNow also provides highly advanced tools for extracting insights from data, including highly customizable reporting and dashboards, as well as AI-powered predictive analytics and forecasting.
 
 #### Zendesk
-
-![Zendesk Data](https://res.cloudinary.com/daog6scxm/image/upload/v1740492361/cms/alternatives/servicenow-vs-zendesk/Zendesk_Data_boupzb.webp "Zendesk Data")
 
 Zendesk also offers a strong amount of configurability for our service management data but in a more focused and potentially more user-friendly manner.
 
@@ -202,8 +200,6 @@ Now that we’ve seen how data is handled by ServiceNow and Zendesk, we can move
 
 #### ServiceNow
 
-![ServiceNow Portal](https://res.cloudinary.com/daog6scxm/image/upload/v1738169413/cms/alternatives/jsm-vs-servicenow/ServiceNow_UI_Builder_phogqq.webp "ServiceNow Portal")
-
 ServiceNow’s UX is based around the NextExperience UI, which provides a modern, unified experience for users to access services. More specifically to CSM, this includes configurable workspaces, allowing us to tailor experiences to the needs of a range of service users.
 
 Within core interfaces, ServiceNow provides a huge degree of flexibility. The NextExperience UI framework provides developers with a suite of tools for creating custom interfaces and reusable elements, using modern web frameworks.
@@ -215,8 +211,6 @@ Additionally, ServiceNow offers dedicated no-code, low-code, and more in-depth d
 This positions it as a viable for empowering colleagues with a range of technical skill-levels to build fully custom interfaces, including professional developers and non-developers alike.
 
 #### Zendesk
-
-![Zendesk Ticketing Form](https://res.cloudinary.com/daog6scxm/image/upload/v1740492361/cms/alternatives/servicenow-vs-zendesk/Zendesk_Ticketing_Form_siknjd.webp "Zendesk Ticketing Form")
 
 One of the reasons for Zendesk’s popularity is the modern, intuitive interface that’s offered out-of-the-box. This offers a highly user-friendly experience for service users and agents alike.
 
@@ -236,8 +230,6 @@ Service management is one use case where automation capabilities are a particula
 
 #### ServiceNow
 
-![ServiceNow Automations](https://res.cloudinary.com/daog6scxm/image/upload/v1738169413/cms/alternatives/jsm-vs-servicenow/ServiceNow_Automation_fgv6yz.webp "ServiceNow Automations")
-
 ServiceNow is an incredibly advanced offering for automating service delivery, including workflow automation, BPA, and agentic AI.
 
 We can create no-code automation rules using Flow Designer. This offers a visual, flow-chart-based experience for defining tasks and rules, with reusable actions. We can also create complex logic with the built-in decision builder and dynamic subflows.
@@ -251,8 +243,6 @@ Within this, we can use Integration Hub to connect to and orchestrate a wide ran
 As we’ll see in the following section, ServiceNow is also a leader in the field of agentic AI for automation use cases.
 
 #### Zendesk
-
-![Zendesk Automations](https://res.cloudinary.com/daog6scxm/image/upload/v1740492361/cms/alternatives/servicenow-vs-zendesk/Zendesk_Automation_yda93g.webp "Zendesk Automations")
 
 Zendesk also offers powerful automation tools, but in a more focused manner, centered around its core CSM and ticketing use cases. These fall into a few key categories.
 

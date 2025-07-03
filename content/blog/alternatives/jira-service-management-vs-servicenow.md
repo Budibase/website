@@ -34,7 +34,8 @@ We know that both JSM and ServiceNow are primarily used to manage internal IT se
 
 ### What is ServiceNow?
 
-![ServiceNow](https://res.cloudinary.com/daog6scxm/image/upload/v1738170076/cms/alternatives/jsm-vs-servicenow/What_is_ServiceNow_hyloog.webp "ServiceNow")
+![ServiceNow](https://res.cloudinary.com/daog6scxm/image/upload/v1739460072/cms/alternatives/freshservice-vs-servicenow/ServiceNow_Home_Page_vdipqj.webp "ServiceNow")
+(ServiceNow Website)
 
 ServiceNow is by far the larger of the two platforms, accounting for almost half of the ITSM market by itself. 
 
@@ -46,7 +47,8 @@ Take a look at our round-up of the top [ServiceNow alternatives](https://budibas
 
 ### What is Jira Service Management?
 
-![Jira Service Management vs ServiceNow](https://res.cloudinary.com/daog6scxm/image/upload/v1738170076/cms/alternatives/jsm-vs-servicenow/What_is_JSM_xtgmia.webp "Jira Service Management vs ServiceNow")
+![Jira Service Management](https://res.cloudinary.com/daog6scxm/image/upload/v1742482450/cms/alternatives/JSM_Website_zrpxlp.webp "Jira Service Management")
+(Atlassian Website)
 
 Part of the wider Atlassian ecosystem, Jira Service Management is a service desk platform, aimed at helping IT teams to deal with various types of requests and other submissions.
 
@@ -128,7 +130,6 @@ First of all, let’s think about how we can interact with data in each platform
 
 #### ServiceNow
 
-![ServiceNow Database](https://res.cloudinary.com/daog6scxm/image/upload/v1738169413/cms/alternatives/jsm-vs-servicenow/ServiceNow_Database_t4dgzo.webp "ServiceNow Database")
 
 ServiceNow is underpinned by a proprietary database architecture called the Common Service Data Model (CSDM). This is a tabular, relational system, that will be broadly familiar to most IT professionals. This is powered by RaptorDB in newer versions of the platform.
 
@@ -138,19 +139,18 @@ Most interactions with this in the back-end are visual, using list and table vie
 
 ServiceNow offers extensive connectivity for external databases via enterprise-grade APIs or by utilizing JDBC and MID servers.
 
-This provides a large degree of flexibility for enterprise users that need to access existing data assets, with the caveat that it will take a relatively high amount of technical expertise to configure.
+This provides a large degree of flexibility for enterprise users that need to access existing data assets.
 
 #### Jira
 
-![Jira Service Management Data](https://res.cloudinary.com/daog6scxm/image/upload/v1738169870/cms/alternatives/jsm-vs-servicenow/JSM_Data_gzroka.webp "JSM Database")
 
 By default, cloud-based deployments of Jira Service Management utilize a Postgres database. On-prem deployments support alternative database systems, like MySQL or Oracle.
 
 This provides a high degree of scalability and performance, as well as ACID compliance. Postgres is also a strong option for this type of use case, as it offers a comparatively high degree of flexibility, including JSON data types for semi-structured storage.
 
-Unlike ServiceNow, JSM doesn’t natively offer JDBC or ODBC support. However, we still have a number of options for integrating with external databases. One is utilizing plug-ins from Jira’s large community of third-party contributors.
+We have a number of options for integrating with external databases. One is utilizing plug-ins from Jira’s large community of third-party contributors.
 
-Alternatively, using a separate Atlassian Data Lake license, we can achieve much of the same functionality when querying external data. Compared to ServiceNow, this might offer somewhat less flexibility, but we can also expect less extensive implementation work.
+Alternatively, using a separate Atlassian Data Lake license, we can achieve much of the same functionality when querying external data. 
 
 Similarly, we have extensive options for connecting to external tools via APIs or Jira’s wide range of native integration options.
 
@@ -160,7 +160,6 @@ Next, we can think about how we can use each platform to create and configure en
 
 #### ServiceNow
 
-![ServiceNow Portal](https://res.cloudinary.com/daog6scxm/image/upload/v1738169413/cms/alternatives/jsm-vs-servicenow/ServiceNow_UI_Builder_phogqq.webp "ServiceNow Portal")
 
 When it comes to building end-user solutions, ServiceNow is one of the clear leaders in this space.
 
@@ -174,7 +173,6 @@ For developers wishing to build custom apps for the ServiceNow ecosystem, a dedi
 
 #### Jira
 
-![JSM Front End](https://res.cloudinary.com/daog6scxm/image/upload/v1738169869/cms/alternatives/jsm-vs-servicenow/JSM_Form_wkvfru.webp "JSM Form Builder")
 
 Jira Service Management still offers a relatively high degree of configuratbility and customization for end-user interfaces, but it nonetheless falls short in this regard compared to ServiceNow.
 
@@ -192,8 +190,6 @@ Naturally, the ITSM software market is one where automation capabilities are a k
 
 #### ServiceNow
 
-![ServiceNow Automations](https://res.cloudinary.com/daog6scxm/image/upload/v1738169413/cms/alternatives/jsm-vs-servicenow/ServiceNow_Automation_fgv6yz.webp "ServiceNow Automations")
-
 Like app-building, ServiceNow is a much more comprehensive solution for automating tasks within IT departments.
 
 For basic ITSM workflows, there’s the Flow Designer - a no-code, visual interface for defining rule-based automations that are triggered by defined events. Helpfully, this includes branching and looping, meaning we can create powerful rules with relative ease.
@@ -205,8 +201,6 @@ Separately from this, ServiceNow offers Automation Engine, a suite of tools for 
 Lastly, ServiceNow also supports more complex automations through custom JS scripting within the platform. This could be a powerful addition in many cases, although you’ll obviously need the development skills to take advantage of it.
 
 #### Jira
-
-![JSM Automations](https://res.cloudinary.com/daog6scxm/image/upload/v1738169869/cms/alternatives/jsm-vs-servicenow/JSM_Automation_f7sdmy.webp "JSM Automations")
 
 Natively, JSM’s automation capabilities are more tightly focused on its core service desk use case. These are also generally more streamlined, enabling less technical colleagues to ship working automated solutions without requiring much custom code.
 

@@ -37,6 +37,7 @@ So…
 ### What is Jira Service Management?
 
 ![Jira Service Management vs Zendesk](https://res.cloudinary.com/daog6scxm/image/upload/v1742482450/cms/alternatives/JSM_Website_zrpxlp.webp "Jira Service Management vs Zendesk")
+(Atlassian Website)
 
 Part of the Atlassian ecosystem, Jira Service Management is a wide-reaching service management tool, offering tools for a range of IT, customer service, and internal business teams.
 
@@ -51,6 +52,7 @@ Take a look at our round-up of the top [Jira Service Management alternatives](ht
 ### What is Zendesk?
 
 ![Zendesk](https://res.cloudinary.com/daog6scxm/image/upload/v1740492953/cms/alternatives/servicenow-vs-zendesk/Zendesk_Website_aukhyu.webp "Zendesk")
+(Zendesk Website)
 
 Like JSM, Zendesk is a comprehensive SaaS tool for handling a variety of different service management tasks.
 
@@ -142,8 +144,6 @@ First up, let’s consider what each platform offers in terms of how our service
 
 #### Jira Service Management
 
-![JSM Data](https://res.cloudinary.com/daog6scxm/image/upload/v1738169870/cms/alternatives/jsm-vs-servicenow/JSM_Data_gzroka.webp "JSM Data")
-
 By default, cloud-based version of JSM use a Postgres database, although it can also be conffigured to work with other tools, like MySQL or Oracle. This offers a performant, scalable platform, with familiar, tabular data structures.
 
 There are also a number of options for integrating with external data sources within service management workflows, including via API connections, native integrations or a wide range of third-party plugins.
@@ -155,8 +155,6 @@ Jira also offers us good flexibility for configuring data within our workflows, 
 On top of this, it ships with a fully working CMDB called Assets, which offers a powerful yet intuitive experience for defining, using, and tracking CIs, as well as visualizing the relationships between them.
 
 #### Zendesk
-
-![Zendesk Data](https://res.cloudinary.com/daog6scxm/image/upload/v1740492361/cms/alternatives/servicenow-vs-zendesk/Zendesk_Data_boupzb.webp "Zendesk Data")
 
 Zendesk is primarily built on top of MySQL and S3, although it also uses Amazon Aurora, a Postgres-compliant RDBMS, for its analytics platform, Zendesk Explore.
 
@@ -178,8 +176,6 @@ Having considered how each platform works from a more back-end perspective, we c
 
 #### Jira Service Management
 
-![Jira Service Management Form](https://res.cloudinary.com/daog6scxm/image/upload/v1738169869/cms/alternatives/jsm-vs-servicenow/JSM_Form_wkvfru.webp "Jira Service Management Form")
-
 Jira Service Management offers a sleek, modern interface for end users, service agents, and administrators alike. As noted before, we can utilize a range of templates for different service management use cases, including pre-configured interfaces for associated tasks.
 
 For end users, experiences are largely based around an intuitive self-service portal for submitting tickets, tracking their progress, and accessing relevant knowledge articles.
@@ -195,8 +191,6 @@ Additionally, we can utilize CSS, HTML, or JavaScript via Widgets to implement c
 This includes tools for the likes of time tracking and more nice reporting, making JSM a great option for rolling out ticketing and service management solutions with more complex requirements.
 
 #### Zendesk
-
-![Zendesk UI](https://res.cloudinary.com/daog6scxm/image/upload/v1740492361/cms/alternatives/servicenow-vs-zendesk/Zendesk_Ticketing_Form_siknjd.webp "Zendesk UI")
 
 A huge part of Zendesk’s popularity is thanks to its intuitive, easy-to-use interfaces for both service agents and end users. This makes it a great choice for teams that want to streamline service management workflows with strong out-of-the-box capabilities.
 
@@ -218,8 +212,6 @@ Let’s see what each one offers in this regard.
 
 #### Jira Service Management
 
-![Jira Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1738169869/cms/alternatives/jsm-vs-servicenow/JSM_Automation_f7sdmy.webp "Jira Automation")
-
 Jira offers a range of automation capabilities suitable for various specific workflows, use cases, and user personas.
 
 Templates come with pre-configured workflows for a range of core tasks, including asset management, problem management, incident management, and more. We can also create conditional rules based on status changes for different request objects.
@@ -235,8 +227,6 @@ As we said earlier, Jira is also highly adept at handling more technical ITSM pr
 Or, we can use the Atlassian apps marketplace to extend JSM’s automation capabilities. For instance, using solutions to add custom scripting or connect to dedicated automation tools, such as Microsoft Power Platform.
 
 #### Zendesk
-
-![Zendesk Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1740492361/cms/alternatives/servicenow-vs-zendesk/Zendesk_Automation_yda93g.webp "Zendesk Automation")
 
 Zendesk also offers a variety of options when it comes to automating aspects of our service delivery processes.
 
