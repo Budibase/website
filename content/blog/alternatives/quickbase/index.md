@@ -265,10 +265,10 @@ Compared to Quickbase, Zoho Creator is very strong on support for external data 
 
 Creator also shines on governance. You can combine its built-in RBAC with custom security policies to create highly granular controls around how specific users can interact with different data assets.
 
-For users with slightly more coding skills, Creator offers front-end scripting with JavaScript. This introduces a huge amount of additional flexibility and scope for customization compared to some of the other Quickbase alternatives we’ve seen.
+For users with slightly more coding skills, Creator offers front-end scripting. This introduces a huge amount of additional flexibility and scope for customization compared to some of the other Quickbase alternatives we’ve seen.
 
 ### Cons
-Compared to Quickbase, Zoho Creator presents considerably higher technical barriers to building tools. So, you’ll need to have some existing JavaScript abilities in order to get the most out of the platform.
+Compared to Quickbase, Zoho Creator presents considerably higher technical barriers to building tools. So, you’ll need to have some development knowledge in order to get the most out of the platform.
 
 Since the platform is optimized for collaboration between IT teams and business-level users - experiences may not be entirely satisfactory for either persona acting in isolation. So, it may be too inflexible for IT teams but too technical for other colleagues.
 

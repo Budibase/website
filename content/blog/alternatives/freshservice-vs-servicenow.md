@@ -42,6 +42,8 @@ Here are the basic details of each.
 
 ![FreshService vs ServiceNow](https://res.cloudinary.com/daog6scxm/image/upload/v1739460072/cms/alternatives/freshservice-vs-servicenow/FreshService_Home_Page_qjugp8.webp "FreshService vs ServiceNow")
 
+(FreshService Website)
+
 Part of the wider FreshWorks ecosystem, FreshService is a cloud-based, all-in-one service management platform. Although primarily aimed at IT teams, it offers enterprise service management capabilities, too.
 
 It’s also commonly used to manage internal services within other departments, like finance or HR.
@@ -53,6 +55,7 @@ FreshService has always been a solid option for automating ITSM tasks, but in re
 ### What is ServiceNow?
 
 ![ServiceNow](https://res.cloudinary.com/daog6scxm/image/upload/v1739460072/cms/alternatives/freshservice-vs-servicenow/ServiceNow_Home_Page_vdipqj.webp)
+(ServiceNow Website)
 
 ServiceNow is probably the biggest name in the ITSM space. Despite this, it’s a somewhat broader offering than its reputation suggests. Indeed, the Now platform also powers a range of operations, finance, HR, legal, procurement, and back office processes.
 
@@ -80,7 +83,7 @@ First up, let’s think about the target usage for FreshService and ServiceNow.
 
 FreshService bills itself as an enterprise-grade solution for managing IT services, but in some ways, it may be better suited to small and medium-sized businesses. Or at least, teams that don’t want to expend massive IT resources to implement a solution.
 
-Instead, a huge selling point is that FreshService can largely be used straight out of the box. This includes ready-to-use tools for core ITSM processes, including asset management, change management, incident management, ticketing, and more.
+Instead, a huge selling point is that FreshService can largely be implemented quite quickly. This includes ready-to-use tools for core ITSM processes, including asset management, change management, incident management, ticketing, and more.
 
 It still offers important enterprise capabilities like sandboxing and audit logs, although some other features, like Active Directory sync, require third-party plug-ins.
 
@@ -140,8 +143,6 @@ First of all, let’s compare FreshService vs ServiceNow when it comes to managi
 
 #### FreshService
 
-![FreshService](https://res.cloudinary.com/daog6scxm/image/upload/v1739460072/cms/alternatives/freshservice-vs-servicenow/FreshService_Database_yjping.webp)
-
 FreshService is built around a relational database system, although the specific platform that powers this isn’t disclosed. In any case, it provides a familiar, easy to understand experience for IT pros.
 
 The schema of this is largely pre-defined, at least in terms of structure. So, it already ships with objects relating to key entities within ITSM processes, such as tickets and assets. We can then modify the fields that are stored against each of these.
@@ -152,11 +153,9 @@ This approach gives us a reasonable degree of flexibility without sacrificing ou
 
 FreshService provides a fully functional configuration management database with built-in discovery tools and support for third-party discovery. This provides a streamlined experience, including dependency mapping. However, limits on assets apply across pricing tiers.
 
-One notable omission in terms of data management is native support for querying external databases. FreshService doesn’t offer JDCB natively, although workarounds are possible using API calls, middleware, or third-party plug-ins.
+One notable omission in terms of data management is native support for querying external databases, although workarounds are possible using API calls, middleware, or third-party plug-ins.
 
 #### ServiceNow
-
-![ServiceNow Database](https://res.cloudinary.com/daog6scxm/image/upload/v1738169413/cms/alternatives/jsm-vs-servicenow/ServiceNow_Database_t4dgzo.webp "ServiceNow Database")
 
 ServiceNow is also based on a relational database system. In 2024, they switched from a MariaDB-based solution to RaptorDB, a fork of PostgreSQL. This provides a scalable, reliable platform suitable for enterprise teams.
 
@@ -176,8 +175,6 @@ Having seen what each platform offers in terms of managing data, the next thing 
 
 #### FreshService
 
-![FreshService Dashboards](https://res.cloudinary.com/daog6scxm/image/upload/v1739460072/cms/alternatives/freshservice-vs-servicenow/FreshService_App_Building_zte7us.webp)
-
 For core workflows, FreshService’s approach here is largely centered around enabling us to configure and style existing UIs. So, we can quickly and easily adjust the look and feel of existing interfaces, including applying brand colors, themes, and logos.
 
 There’s a greater degree of customization available for certain types of UIs, such as dashboards.
@@ -191,8 +188,6 @@ FreshService also has impressive functionality for shipping self-service portals
 As we hinted at earlier, FreshWorks provides an effective SDK, which can be used to extend functionality. There’s also a huge library of third-party contributions using this. However, unlike ServiceNow, there’s no dedicated no/low-code app builder.
 
 #### ServiceNow
-
-![ServiceNow Portal](https://res.cloudinary.com/daog6scxm/image/upload/v1738169413/cms/alternatives/jsm-vs-servicenow/ServiceNow_UI_Builder_phogqq.webp "ServiceNow Portal")
 
 ServiceNow UI and app-building tools are incredibly comprehensive. Core ITSM tasks are handled within Service Portal, Agent Workspace, and UI Builder - all of which are highly customizable, enabling us to build experiences for end-users and agents alike.
 
@@ -214,8 +209,6 @@ Let’s take a closer look.
 
 #### FreshService
 
-![FreshService Automations](https://res.cloudinary.com/daog6scxm/image/upload/v1739460072/cms/alternatives/freshservice-vs-servicenow/FreshService_Automation_Builder_sgfmwb.webp "FreshService Automations")
-
 Like other aspects of the FreshService platform, automation tools are highly effective for teams that need to streamline workflows, without necessarily having the time and skills for more traditional solutions.
 
 There’s a simple, diagrammatic interface for creating automation rules, including drag-and-drop functionality for defining triggers, actions, and logic. 
@@ -227,8 +220,6 @@ There’s no specific option for adding our own scripting within the Workflow Au
 FreshService also offers a huge array of third-party integrations, both natively and with the App Ecosystem. This means that we can connect to all sorts of general business and more IT-specific tools with minimal effort and use them within automations.
 
 #### ServiceNow
-
-![ServiceNow Automations](https://res.cloudinary.com/daog6scxm/image/upload/v1738169413/cms/alternatives/jsm-vs-servicenow/ServiceNow_Automation_fgv6yz.webp "ServiceNow Automations")
 
 ServiceNow is a highly comprehensive solution for automating IT tasks, including workflow automation and end-to-end process automation.
 

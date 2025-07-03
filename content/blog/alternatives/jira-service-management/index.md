@@ -77,7 +77,8 @@ Additionally, JSM offers extensive scope for managing external data, third-party
 
 As such, it’s a particularly attractive option for teams with larger, more complex service portfolios, as well as the resources and expertise to output solutions for managing these.
 
-![Jira Service Management Alternatives](https://res.cloudinary.com/daog6scxm/image/upload/v1737643464/cms/alternatives/jira-service-management/JSM_Screenshot_onxa8c.webp)
+![Jira Service Management Alternatives](https://res.cloudinary.com/daog6scxm/image/upload/v1742482450/cms/alternatives/JSM_Website_zrpxlp.webp)
+(Atlassian Website)
 
 ||||||||||
 ## Why would you need a JSM alternative?
@@ -147,7 +148,8 @@ Our Enterprise plan offers creator-only pricing, making it ideal for large-scale
 
 ServiceNow is, without a doubt, the dominant player in the ITSM space. For many teams, it’s totally synonymous with delivering IT services. Let’s check out the areas where it shines and where it might fall short.
 
-![ServiceNow](https://res.cloudinary.com/daog6scxm/image/upload/v1713453820/cms/service-now-alts/Service_Now_tm4elc.webp)
+![ServiceNow](https://res.cloudinary.com/daog6scxm/image/upload/v1739460072/cms/alternatives/freshservice-vs-servicenow/ServiceNow_Home_Page_vdipqj.webp "ServiceNow Website")
+(ServiceNow Website)
 
 #### Pros
 
@@ -163,7 +165,7 @@ Check out our guide to the top [ServiceNow alternatives](https://budibase.com/bl
 
 On the flip side, some users report that ServiceNow’s enterprise focus can make it less suitable for smaller organizations or more sporadic use cases. At a high level, this comes down to its scope and complexity, which are potentially excessive for non-enterprise teams.
 
-ServiceNow also offers a comparatively high time-to-value. G2Crowd report that a basic implementation can take up to twice as long as the equivalent solutions in JSM. This may not be a concern for enterprise teams with longer time horizons, but it could be a decider for SMEs.
+G2Crowd reports that a basic implementation can take longer than the equivalent solutions in JSM. This may not be a concern for enterprise teams with longer time horizons, but it could be a decider for SMEs.
 
 Lastly, like JSM, some users complain of a relatively steep learning curve for end users in ServiceNow, especially when it comes to modifying and maintaining workflows. This can be prohibitive for smaller IT teams that lack the resources and expertise to learn the platform.
 
@@ -179,7 +181,8 @@ For example, licenses may be priced differently depending on whether you need to
 
 Part of the wider FreshWorks ecosystem, FreshService offers powerful out-of-the-box capabilities, making it a stronger option for smaller teams with relatively straightforward IT workflows.
 
-![FreshService](https://res.cloudinary.com/daog6scxm/image/upload/v1737643635/cms/alternatives/jira-service-management/FreshService_Screenshot_r01sjp.webp)
+![FreshService](https://res.cloudinary.com/daog6scxm/image/upload/v1747065047/cms/ai-agents/moveworks-alternatives/FreshService_hr8zfk.webp "FreshService")
+(FreshService Website)
 
 #### Pros
 
@@ -209,7 +212,8 @@ For instance, we need a Growth license for approval workflows, while change mana
 
 ManageEngine is a comprehensive suite of tools for IT teams, including an ITSM solution called ServiceDesk Plus, as well as security, identify management, end-point management, and other more technical use cases.
 
-![ManageEngine](https://res.cloudinary.com/daog6scxm/image/upload/v1737643635/cms/alternatives/jira-service-management/Manage_Engine_Screenshot_yujgpr.webp)
+![ManageEngine](https://res.cloudinary.com/daog6scxm/image/upload/v1743010183/cms/alternatives/ManageEngine_dmaabn.webp)
+(ManageEngine Website)
 
 #### Pros
 
@@ -240,7 +244,8 @@ In addition to feature restrictions, pricing also takes account of *nodes*, the 
 SolarWinds is another key player in the ITSM space. It offers extensive capabilities across key IT workflows, as well as related tasks such as device monitoring.
 
 
-![SolarWinds](https://res.cloudinary.com/daog6scxm/image/upload/v1737643634/cms/alternatives/jira-service-management/SolarWinds_Screenshot_hjzvoz.webp)
+![SolarWinds](https://res.cloudinary.com/daog6scxm/image/upload/v1751362922/cms/alternatives/SolarWinds_Website_b9xhmd.webp)
+(SolarWinds Website)
 
 #### Pros
 
@@ -270,7 +275,8 @@ At the same time, some useful enterprise features, such as custom user roles, ar
 
 SysAid is a highly established, mature offering in the ITSM space, aimed at medium to large enterprises with a particular focus on automation and customization.
 
-![Jira Service Management Alternatives - SysAid](https://res.cloudinary.com/daog6scxm/image/upload/v1737643634/cms/alternatives/jira-service-management/SysAid_Screenshot_vqrmhh.webp)
+![Jira Service Management Alternatives - SysAid](https://res.cloudinary.com/daog6scxm/image/upload/v1751363011/cms/alternatives/SysAid_Website_vpkdkz.webp) 
+(SysAid Website)
 
 #### Pros
 
@@ -300,7 +306,8 @@ Features are restricted across the three tiers. Novelly though, some tools, like
 
 Launched in 2016, Helix is a comprehensive service management platform that was introduced as a successor to BMC’s Remedy platform.
 
-![BMC Helix](https://res.cloudinary.com/daog6scxm/image/upload/v1713453820/cms/service-now-alts/BMC_Helix_hpuveh.webp)
+![BMC Helix](https://res.cloudinary.com/daog6scxm/image/upload/v1741778085/cms/alternatives/BMC_Helix_Website_mzp9p0.webp)
+(BMC Helix Website)
 
 #### Pros
 
@@ -330,7 +337,8 @@ This might be an attractive option in larger enterprises that need multi-year co
 
 Lastly, we have ZenDesk. Whereas most of the tools we’ve seen so far target a range of ITSM workflows, ZenDesk is more focused on ticketing and support capabilities - across other teams besides just IT.
 
-![Zendesk](https://res.cloudinary.com/daog6scxm/image/upload/v1713453754/cms/service-now-alts/Zendesk_nvlm0s.webp)
+![Zendesk](https://res.cloudinary.com/daog6scxm/image/upload/v1740492953/cms/alternatives/servicenow-vs-zendesk/Zendesk_Website_aukhyu.webp)
+(ZenDesk Website)
 
 #### Pros
 

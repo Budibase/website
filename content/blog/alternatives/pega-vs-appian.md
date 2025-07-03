@@ -107,8 +107,6 @@ This is contained within a visual interface where we can easily see and configur
 
 However, while this is an effective experience for viewing the flow from a top level, configuring individual tasks can be a little bit more counter-intuitive and inflexible.
 
-![Pega vs Appian](https://res.cloudinary.com/daog6scxm/image/upload/v1715093819/cms/pega-vs-appian/Pega_vs_Appian_1_ul03gv.webp "Pega Vs Appian")
-
 User experiences in Appian are also largely visual. However, given that it’s more aimed at end-to-end BPM, Appian’s core automation builder is based on more complex process diagrams.
 
 This allows us to easily view and edit the structure of more complex automation rules, including implementing conditional branches or looping logic.
@@ -121,7 +119,6 @@ These nodes fall into three categories:
 - Interfaces - for prompting users to take defined actions.
 - Subprocesses - for calling other process models and defined tasks.
 
-![Appian](https://res.cloudinary.com/daog6scxm/image/upload/v1715093819/cms/pega-vs-appian/Pega_vs_Appian_2_qt0ilo.webp "Appian")
 
 ### Functionality
 
@@ -133,8 +130,6 @@ Pega also offers effective tools for automating manual tasks through RPA from di
 
 Another element of Pega’s offering that we’re impressed by is the range of built-in compliance and security tools. For example, we can take advantage of a range of features such as role or client-based access control, data encryption, secure platform integration, and network protection.
 
-![Pega](https://res.cloudinary.com/daog6scxm/image/upload/v1715093819/cms/pega-vs-appian/Pega_vs_Appian_5_e4yp18.webp "Pega")
-
 Appian also offers extensive AI capabilities, but the standout capabilities here are around end-user application building. For example, we can use AI to create form applications by simply uploading PDFs of relevant documents.
 
 Appian has one of the most impressive offerings in this space in terms of process mining. In particular, we can use the platform to analyze large volumes of existing external platform logs in order to analyze and discover how digital work is performed in the field.
@@ -143,7 +138,6 @@ One of Appian’s major selling points is Data Fabric, a set of tools that enabl
 
 This is an effective way to build a single source of truth alongside your automated processes, using a graph-based interface to connect and leverage external data sources alongside Appian’s built-in database.
 
-![Appian](https://res.cloudinary.com/daog6scxm/image/upload/v1715093818/cms/pega-vs-appian/Pega_vs_Appian_6_digakl.webp "Appian")
 
 ### Integration options
 
@@ -173,8 +167,6 @@ We can combine and configure built-in components using Pega App Studio’s drag-
 
 Pega also provides a range of tools to streamline cross-platform development, making it easy to ship web apps, mobile tools, and more without requiring extensive technical expertise.
 
-![Pega](https://res.cloudinary.com/daog6scxm/image/upload/v1715093819/cms/pega-vs-appian/Pega_vs_Appian_3_lhvpew.webp "Pega")
-
 Appian also prioritizes speed by providing a drag-and-drop interface for configuring built-in UI elements. Given that it’s a platform aimed at larger-scale business processes, there’s also a focus on more complex applications such as portals and client-facing sites.
 
 Importantly, Appian targets citizen developers as well as users with more design and development experience. We can achieve highly granular configurations of built-in components and modules - both in terms of design and behavior.
@@ -185,7 +177,6 @@ For example, certain kinds of interfaces need to be wrapped in a Layout componen
 
 As noted earlier, Appian also provides some clever functionality to expedite design tasks, such as autogenerating forms from PDF documents.
 
-![Appian](https://res.cloudinary.com/daog6scxm/image/upload/v1715093819/cms/pega-vs-appian/Pega_vs_Appian_4_cljsf8.webp "Appian")
 
 You might also like our guide to the top [PowerApps alternatives.](https://budibase.com/blog/alternatives/powerapps/)
 

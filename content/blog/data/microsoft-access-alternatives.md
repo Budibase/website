@@ -14,11 +14,9 @@ sameAs = "https://www.wikidata.org/wiki/Q80689"
 type = "Thing"
 +++
 
-For a lot of businesses, finding a suitable Microsoft Access alternative for their needs is becoming pretty urgent.
+Microsoft Access is one of the most popular database solutions for businesses of all kinds.
 
-See, Access has been rumored to be reaching its end-of-life for a few years now - although Microsoft hasn’t unveiled any formal plans for a retirement party.
-
-Even so, in 2024, Access feels like a bit of a product of a bygone era. Not to be outwardly critical, but in the age of cloud computing, low-code development, DBaaS tools, and even AI, it’s tough for legacy platforms to keep up with the needs of modern businesses.
+However, many businesses are seeking out more modern alternatives, with the rise of new technologies including NoSQL tools, big data, AI, low-code development, and more.
 
 Despite this, countless businesses still use Access. Indeed - and to its credit - it’s been at the center of all kinds of solutions for decades.
 
@@ -77,9 +75,7 @@ Some people also use Access because it’s what they know. In fact, there are pl
 
 So, Access obviously suits plenty of teams. What are the motivations for change?
 
-We’ve already hinted at a few of the key factors. One is, naturally, Microsoft Access’s somewhat uncertain future.
-
-Besides this, there’s the pace of change elsewhere in the technology landscape. This actually harms Access’s user base from two angles. 
+For one thing, there’s the pace of change elsewhere in the technology landscape. This actually harms Access’s user base from two angles. 
 
 First, there’s been the emergence of new solutions that directly compete with Microsoft’s offering.
 

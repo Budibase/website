@@ -43,6 +43,7 @@ To kick things off, we’re going to check out what both ServiceNow and BMC Heli
 ServiceNow is a highly advanced, SaaS-based platform for managing all aspects of IT service delivery. This covers ITSM, ITOM, SecOps, ITAM, enterprise service management, and much more.
 
 ![ServiceNow vs BMC Helix](https://res.cloudinary.com/daog6scxm/image/upload/v1739460072/cms/alternatives/freshservice-vs-servicenow/ServiceNow_Home_Page_vdipqj.webp "ServiceNow vs BMC Helix")
+(ServiceNow Website)
 
 These various functions are built on top of the shared Now platform. This provides a highly customizable experience for businesses to digitalize workflows across the IT team and other departments.
 
@@ -57,6 +58,7 @@ Take a look at our guide to the top [ServiceNow alternatives and competitors](ht
 Formerly known as Remedy, BMC Helix is a comprehensive ITSM platform, including out-of-the-box tools for ITIL practices, along with ITOM, AI-powered service optimization, and more.
 
 ![BMC Helix](https://res.cloudinary.com/daog6scxm/image/upload/v1741778085/cms/alternatives/BMC_Helix_Website_mzp9p0.webp "BMC Helix")
+(BMC Website)
 
 Within this space, it’s one of ServiceNow’s most direct competitors. That is, it also targets large enterprise use cases, offering a highly secure, customizable platform for managing services across multiple environments.
 
@@ -118,7 +120,7 @@ This has the potential to make ServiceNow an attractive prospect for teams in a 
 
 ServiceNow can be bought directly or through third-party resellers and partners. 
 
-Many teams will also opt for implementation services or other consulting, which may incur additional costs. It’s also worth noting that, by some reports, ServiceNow can reportedly have a longer time to value than some other ITSM tools.
+Many teams will also opt for implementation services or other consulting, which may incur additional costs. 
 
 Check out our guide on [Jira Service Management vs ServiceNow](https://budibase.com/blog/alternatives/jira-service-management-vs-servicenow/).
 
@@ -148,8 +150,6 @@ First, there’s how each platform enables us to store, manage, and interact wit
 
 ServiceNow’s Now platform offers a unified database architecture called the Common Service Data Model (CSDM). This is a tabular, relational system that will be familiar to almost all IT pros. In newer versions of the platform, it’s powered by RaptorDB, which is built on top of Postgres.
 
-![ServiceNow Data](https://res.cloudinary.com/daog6scxm/image/upload/v1738169413/cms/alternatives/jsm-vs-servicenow/ServiceNow_Database_t4dgzo.webp "ServiceNow Data")
-
 While it is largely preconfigured, the CSDM also gives us massive scope to define the data schema we need, including mapping the relationships between proprietary and custom data objects across different aspects of the platform.
 
 In large part, we can interact with and manage this visually, using list and table views or report building tools. ServiceNow also offers GlideRecord, a scripting tool for interacting with stored data programmatically. 
@@ -161,8 +161,6 @@ On the whole, ServiceNow is a strong offering for enterprise users who require a
 #### Helix
 
 Helix’s database architecture is somewhat different. The platform can be implemented on top of a range of RDMBSs, including Postgres, SQL Server, or Oracle. 
-
-![Helix Data](https://res.cloudinary.com/daog6scxm/image/upload/v1741778085/cms/alternatives/BMC_Helix_Database_im1t3m.webp "Helix Database")
 
 This then interacts with the Action Request (AR) system, a flexible data model that allows teams to define custom forms, automation rules, and workflows to suit their own ITSM needs, including custom data object schemas.
 
@@ -180,8 +178,6 @@ Next, we can consider each platform in terms of the solutions we can use to inte
 
 ServiceNow offers a comprehensive suite of tools for shipping custom applications, including utilizing low/no-code solutions, or more traditional code-based developments.
 
-![ServiceNow UIs](https://res.cloudinary.com/daog6scxm/image/upload/v1738169413/cms/alternatives/jsm-vs-servicenow/ServiceNow_UI_Builder_phogqq.webp "ServiceNow UIs")
-
 For core ITSM tasks, we can utilize the highly customizable Service Portal, Agent Workspace, and UI Builder tools to output a range of common UIs, such as forms, ticketing tools, knowledge base entries, and more, using drag-and-drop experiences.
 
 App Engine Studio is ServiceNow’s proprietary low/no-code platform. This offers extensive scope for non-developers to output custom tools for a range of more advanced use cases.
@@ -193,8 +189,6 @@ For developers, ServiceNow also offers a dedicated SDK and IDE for creating appl
 #### Helix
 
 Helix is similarly geared towards teams that require a high level of customization to create end-user solutions.
-
-![Helix UIs](https://res.cloudinary.com/daog6scxm/image/upload/v1741778085/cms/alternatives/BMC_Helix_UIs_xmlhr7.webp "Helix UIs")
 
 Like ServiceNow, this begins with a suite of tools for creating UIs to manage core ITSM tasks, including drag-and-drop capabilities within the Self-Service Portal and Dashboards.
 

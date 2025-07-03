@@ -158,9 +158,9 @@ Aisera is also particularly strong on pre-built, ready-to-use workflows. It offe
 
 #### Cons
 
-However, there are some important downsides to Aisera, too. One consideration here is that it’s generally a fairly enterprise-focused platform. For instance, its integration options are extensive but potentially more skewed towards large organizations.
+However, there are some important downsides to Aisera, too. One consideration here is that it’s generally a fairly enterprise-focused platform. 
 
-It may also lack some of the flexibility and customization that some other platforms in this space offer. For example, there’s less scope for customizing policy or adding logic as code, and instead, they retain these as configuration options. This may make some niche workflows more difficult.
+For instance, its integration options are extensive but potentially more skewed towards large organizations.
 
 Lastly, like Moveworks, Aisera is a closed-source platform, so teams that prioritize open-source tools may wish to look elsewhere.
 
@@ -248,7 +248,7 @@ Rasa is also self-hostable, making it an ideal choice for teams with stringent s
 
 #### Cons
 
-One potential downside of Rasa is that it’s aimed at a somewhat more technical target persona. For instance, we’ll need a greater understanding of the underlying concepts for AI development compared to some other platforms.
+One potential downside of Rasa is that it’s aimed at a somewhat more technical target persona. Therefore, we may need a greater understanding of the underlying concepts for AI development compared to some other platforms.
 
 However, to help overcome this, there’s also Rasa Studio, a collaborative no-code solution for building AI assistants.
 

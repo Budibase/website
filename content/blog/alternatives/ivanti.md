@@ -57,17 +57,15 @@ Let’s jump right in.
 
 ![Ivanti Alternatives](https://res.cloudinary.com/daog6scxm/image/upload/v1743009695/cms/alternatives/Ivanti_gw84vn.webp "Ivanti Alternatives")
 
-We’ll start with the basics. Ivanti is a comprehensive, highly customizable solution for handling a wide range of service management, ITAM, security, networking, and governance tasks within IT teams and across the wider organization.
-
-It’s available as a cloud-based or on-prem platform, each offering an extensive range of workflow automation, UI customization, and integration options, making it highly suited to a range of processes.
+We’ll start with the basics. Ivanti offers comprehensive, highly customizable solutions for handling a wide range of service management, ITAM, security, networking, and governance tasks within IT teams and across the wider organization.
 
 Ivanti’s ITSM solutions are well suited to large organizations that need to build efficiency into their service processes, with tools for key ITIL processes, along with advanced asset management features, AI capabilities, customizable self-service portals, and more.
 
-It’s also a particularly effective solution for teams with more complex or large-scale service portfolios and IT environments.
+It’s also a particularly effective option for teams with more complex or large-scale service portfolios and IT environments.
 
 This includes highly sophisticated tools for configuration management, asset discovery, service relationship mapping, endpoint management, network monitoring, mobile device management, patch management, application control, privilege management, and more.
 
-This positions Ivanti as one of the most popular platforms for teams with heightened security needs across their organization, helping to provide a centralized approach to IT management, including service delivery compliance, and risk management efforts.
+This positions Ivanti as one of the most popular options for teams with heightened security needs across their organization, helping to provide a centralized approach to IT management, including service delivery compliance, and risk management efforts.
 
 ## Why look for an Ivanti alternative?
 
@@ -81,9 +79,9 @@ The most obvious questions in any software procurement decision are related to c
 
 So, it can sometimes be difficult to compare like-for-like.
 
-Ivanti pricing is not publicly advertised. Instead, quotes are customized to the needs of individual organizations, potentially pulling in the specific capabilities we need, user volumes, hosting requirements, license types, support services, or other factors.
+Ivanti's pricing is based on quotes, customized to the needs of individual organizations, potentially pulling in the specific capabilities we need, user volumes, hosting requirements, license types, support services, or other factors.
 
-Ivanti can be purchased directly or via a third party. We’ll also need to have a clear picture of our specific implementation needs, as these will come with an associated cost, whether they’re handled internally or externally.
+Ivanti's products can be purchased directly or via a third party. We’ll also need to have a clear picture of our specific implementation needs, as these will come with an associated cost, whether they’re handled internally or externally.
 
 ### Functional requirements
 
