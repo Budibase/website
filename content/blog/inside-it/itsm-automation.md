@@ -23,7 +23,7 @@ Specifically, we’ll be covering:
   - [Key ITSM workflows](#key-itsm-workflows)
   - [Benefits of automation](#benefits-of-automation)
   - [Challenges](#challenges)
-  - [Types of automation](#types-of-automation)
+  - [Types of automations](#types-of-automations)
 - [5 ITSM automation use cases and examples](#5-automation-use-cases-and-examples)
   - [Ticket categorization](#ticket-categorization)
   - [Incident triage](#incident-triage)
