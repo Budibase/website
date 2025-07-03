@@ -24,7 +24,7 @@ Specifically, we’ll be covering:
   - [Benefits of automation](#benefits-of-automation)
   - [Challenges](#challenges)
   - [Types of automations](#types-of-automations)
-- [5 ITSM automation use cases and examples](#5-automation-use-cases-and-examples)
+- [5 ITSM automation use cases and examples](#5-itsm-automation-use-cases-and-examples)
   - [Ticket categorization](#ticket-categorization)
   - [Incident triage](#incident-triage)
   - [Time-based notifications](#time-based-notifications)
