@@ -139,9 +139,9 @@ As you might expect, CoPilot Studio is also highly effective for building agenti
 
 However, this close integration with the wider Microsoft ecosystem may not benefit all teams. In fact, these integrations will be of considerably less value to teams that are not already embedded in Microsoft tooling.
 
-It also lacks some of the flexibility that we can see from more developer-focused platforms. For instance, there’s support for several LLMs, but it falls short of the full bring-your-own-model approach we see in other tools.
+Some users report that more CoPilot Studio can present a steep learning curve.
 
-Technical teams might also find some aspects of the platform more opaque. Logic and behavior can be abstracted behind GUIs, with comparatively little control over granular aspects of prompt engineering or model tuning.
+On top of this, some users state that other platforms might offer more fleixibilty for their particular use case.
 
 #### Pricing
 
