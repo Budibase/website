@@ -1,7 +1,7 @@
 +++
 
 author = "Ronan McQuillan"
-date = 2025-06-23
+date = 2025-07-11
 description = "Take a look at our round-up of the top AI workflow management tools."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "5 AI Workflow Management Tools"
