@@ -34,7 +34,7 @@ Let’s start with the basics.
 
 ## What is LangChain?
 
-LangChain is an open-source AI agent framework. This means that it provides a set of tools designed to help developers create autonomous, LLM-powered solutions.
+LangChain is an open-source AI framework. This means that it provides a set of tools designed to help developers create autonomous, LLM-powered solutions.
 
 ![LangChain Alternatives](https://res.cloudinary.com/daog6scxm/image/upload/v1745414287/cms/ai-agents/open-source-ai-agents/LangChain_hooj2w.webp "LangChain Alternatives")
 
@@ -50,11 +50,11 @@ With a better grasp of what LangChain is, we can begin to flesh out its position
 
 We’ve already hinted at some of these, including referring to the idea of *autonomy* within AI-based systems.
 
-More specifically, the top use cases for LangChain include:
+More specifically, use cases for LangChain include:
 
 - **Agentic AI** - Software systems that can act independently of humans in order to understand goals, plan tasks, and interact with APIs to reach a resolution.
 - **Retrieval augmented generation (RAG)** - Combining LLMs’ training data with external sources to provide more reliable, verifiable answers.
-  - **Conversational automation** - Tools that enable users to trigger specific workflows or service requests from a natural language interface, such as [enterprise chatbots](https://budibase.com/blog/ai-agents/enterprise-chatbots/).
+- **Conversational automation** - Tools that enable users to trigger specific workflows or service requests from a natural language interface, such as [enterprise chatbots](https://budibase.com/blog/ai-agents/enterprise-chatbots/).
 - **AI workflow orchestration** - Chaining prompts, models, tools, and memory stores to execute complex, multi-stage workflows.
 - **LLM-powered internal tools** - Internal applications, forms, or admin tools that leverage LLMs to perform tasks such as populating fields, analyzing inputs, or triggering backend tasks.
 - **Prototyping & experimentation** - Iterating over prompts, toolstacks, and workflows in order to develop agent behaviors.
