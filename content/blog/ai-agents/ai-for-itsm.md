@@ -377,7 +377,7 @@ We’ll open the bindings modal to populate this.
 
 The prompt we’re going to use is:
 
-{{< highlight javascript "linenos=inline" >}}
+{{< highlight plaintext "linenos=inline" >}}
 
 You are an IT service desk agent. The following is a ticket submission:
 
