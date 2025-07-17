@@ -84,13 +84,15 @@ Let’s dive in to see what each one offers.
 
 ### 1. LangChain
 
-First up, we have LangChain, perhaps the best-known and most widely adopted framework for building agentic workflows with LLMs. It’s a Python framework for building agents on top of existing LLMs.
+First up, we have LangChain, perhaps the best-known set of frameworks and tools for building agentic workflows with LLMs. This includes LangChain, LangSmith, and LangGraph, three frameworks for developling and managing AI solutions.
 
 ![Open Source AI Agents - LangChain](https://res.cloudinary.com/daog6scxm/image/upload/v1745414287/cms/ai-agents/open-source-ai-agents/LangChain_hooj2w.webp "Open Source AI Agent Platform LangChain")
 
+(LangChain Website)
+
 #### Pros
 
-One of LangChain’s biggest selling points is the granularity of its agent control, including a modular and composable architecture, with swappable elements like chains, memory, and tools, enabling custom logic, behavior, and reasoning.
+One of LangChain’s biggest selling points is its granuarity, including a modular and composable architecture, with swappable elements like chains, memory, and tools, enabling custom logic, behavior, and reasoning.
 
 LangChain is highly modular and works seamlessly alongside existing Python toolstacks. This offers flexible and easy deployment across apps, notebooks, production APIs, and other frameworks.
 
@@ -102,7 +104,7 @@ Many of the challenges of working with LangChain stem from its position as a mor
 
 On top of this, some users note that LangChain’s rich integration set leads to a heavy dependency footprint, including a variety of optional packages for models, vector databases, and other tools.
 
-This may lead to issues with installation and management, especially for less technical teams. Similarly, some users report that building logic is a somewhat complex experience, due to LangChain’s layered abstractions. This may make more streamlined solutions more viable for such teams.
+This may lead to issues  for less technical teams. This may make more streamlined solutions more viable for such teams. However, LangGraph Studio is also available for users who want to build agents with a drag-and-drop experience.
 
 #### Licensing
 
@@ -119,9 +121,11 @@ You might also like our guide to [digital workers](https://budibase.com/blog/ai-
 Next up, we have CrewAI. This is another highly popular open-source AI agent platform, but compared to LangChain it takes a slightly different approach. That is, it focuses on providing code-based and visual experiences for building and managing multiple agents.
 ![CrewAI](https://res.cloudinary.com/daog6scxm/image/upload/v1745414282/cms/ai-agents/open-source-ai-agents/CrewAI_lnzolc.webp "CrewAI")
 
+(CrewAI Website)
+
 #### Pros
 
-Compared to LangChain and similar platforms, one selling point of CrewAI is that it offers tools such as CrewAI studio, which make it more feasible for non-technical colleagues to create working agentic systems, using no-code development and templates.
+One selling point of CrewAI is that it offers tools such as CrewAI studio, which make it more feasible for non-technical colleagues to create working agentic systems, using no-code development and templates.
 
 On top of this, it’s a highly effective platform for creating solutions comprising multiple task-specific agents working together in `crews`. We can assign each agent its own role and responsibilities, making it easier to create coherent, predictable systems.
 
@@ -149,6 +153,8 @@ AutoGPT markets itself as a platform that empowers small businesses, non-technic
 
 ![AutoGPT](https://res.cloudinary.com/daog6scxm/image/upload/v1745414282/cms/ai-agents/open-source-ai-agents/AutoGPT_oww52v.webp "AutoGPT")
 
+(AutoGPT Website)
+
 #### Pros
 
 AutoGPT is a low-code open-source agent platform, enabling teams to rapidly connect tools within workflows. This makes it a good option for non-developers who want to take advantage of the power of agentic AI.
@@ -163,7 +169,7 @@ One potential downside is that, despite its position as a low-code offering, som
 
 There are also reports of issues with reliability. In particular, it has something of a reputation for becoming stuck in infinite loops, and may offer less insight into real-time agent behavior than some of its competitors.
 
-AutoGPT may also lack some of the flexibility and advanced functionality of other platforms, with the likes of LangChain potentially offering more sophisticated customization options.
+AutoGPT may also lack some of the flexibility and advanced functionality of other platforms, with some alternatives potentially offering more sophisticated customization options.
 
 #### Licensing
 
@@ -178,6 +184,8 @@ Some third parties also offer hosted versions of AutoGPT on a commercial basis, 
 SuperAgent is an open-source framework for creating AI assistants, as well as a cloud-based platform for deploying them into production with ease.
 
 ![SuperAgent](https://res.cloudinary.com/daog6scxm/image/upload/v1745414281/cms/ai-agents/open-source-ai-agents/SuperAgent_fsz1d5.webp "SuperAgent")
+
+(SuperAgent Website)
 
 #### Pros
 
@@ -211,6 +219,8 @@ Really, what this means is that it simulates a development team by orchestrating
 
 ![MetaGPT](https://res.cloudinary.com/daog6scxm/image/upload/v1745414282/cms/ai-agents/open-source-ai-agents/MetaGPT_srybtd.webp "MetaGPT")
 
+(MetaGPT Website)
+
 #### Pros
 
 MetaGPT is a very strong offering for its core use case of mimicking software teams. Once it has received a prompt, it assigns roles to agents, each of which follows Standard Operating Procedures (SOPs). This means it can predictably carry out complex tasks.
@@ -223,9 +233,9 @@ MetaGPT ships with a library of pre-defined agents for specific software develop
 
 One obvious downside of MetaGPT is its tight focus on software development tasks. While it’s highly effective in this respect, the flip side of this specialization is that it might lack the general applicability of some of the other tools we’ve seen so far.
 
-Some users also state that MetaGPT presents higher compute costs and resource overheads than some other tools. So, for more basic tasks, we might be better off considering a more lightweight solution.
+Some users also state that MetaGPT presents higher compute costs and resource overheads than some other tools. 
 
-On top of this, MetaGPT is strongest on single-shot workflows, but may be less effective for human-in-the-loop or iterative refinement agentic systems, compared to some other platforms.
+So, for more basic tasks, we might be better off considering a more lightweight solution.
 
 #### Licensing
 
@@ -242,6 +252,8 @@ Lastly, we have CAMEL. This stands for *Communicative Agents for Mind Exploratio
 Essentially, it’s an open-source framework and community focused on building and studying data-driven multi-agent systems.
 
 ![CAMEL](https://res.cloudinary.com/daog6scxm/image/upload/v1745414282/cms/ai-agents/open-source-ai-agents/Camel_AI_vuxrai.webp "CAMEL AI")
+
+(CAMEL AI Website)
 
 #### Pros
 
