@@ -84,7 +84,7 @@ Let’s dive in to see what each one offers.
 
 ### 1. LangChain
 
-First up, we have LangChain, perhaps the best-known set of frameworks and tools for building agentic workflows with LLMs. This includes LangChain, LangSmith, and LangGraph, three frameworks for developling and managing AI solutions.
+First up, we have LangChain, perhaps the best-known set of frameworks and tools for building software with LLMs. This includes LangChain, LangSmith, and LangGraph, three frameworks for developling and managing AI solutions.
 
 ![Open Source AI Agents - LangChain](https://res.cloudinary.com/daog6scxm/image/upload/v1745414287/cms/ai-agents/open-source-ai-agents/LangChain_hooj2w.webp "Open Source AI Agent Platform LangChain")
 
