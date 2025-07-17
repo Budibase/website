@@ -127,6 +127,8 @@ First up, we have Microsoft’s offer in the low/no-code AI agent builder market
 
 ![No code ai agent builder copilot studio](https://res.cloudinary.com/daog6scxm/image/upload/v1745584696/cms/ai-agents/no-low-code-agent-builders/CoPilot_Studio_i4giio.webp "No-code ai agent builder copilot studio")
 
+(Microsoft CoPilot Studio Website)
+
 #### Pros
 
 One of CoPilot Studio’s great strengths is its developer experience. It offers a highly streamlined, intuitive visual interface for creating agents using topics, trigger phrases, and flows, making it a great fit for less technical colleagues.
@@ -156,6 +158,8 @@ However, it’s important to note that certain tasks might require integration w
 Next, we have n8n. For a long time now, this has been one of the biggest names in the world of workflow automation more generally, but in recent years it’s also established itself as a top vendor for [AI agentic workflows](https://budibase.com/blog/ai-agents/ai-agentic-workflows/).
 
 ![n8n](https://res.cloudinary.com/daog6scxm/image/upload/v1745578244/cms/ai-agents/no-low-code-agent-builders/n8n_rovlkx.webp "n8n")
+
+(n8n Website)
 
 #### Pros
 
@@ -187,6 +191,8 @@ AutoGPT is a newer player, but it’s also one of the tools that helped to bring
 
 ![AutoGPT](https://res.cloudinary.com/daog6scxm/image/upload/v1745578244/cms/ai-agents/no-low-code-agent-builders/AutoGPT_zpwri5.webp "AutoGPT")
 
+(AutoGPT Website)
+
 #### Pros
 
 AutoGPT’s core selling point is the ability to create complex, multi-agent workflows that self-direct towards goals, using tool chains, memory, context, and autonomous reasoning, with minimal human oversight.
@@ -199,9 +205,9 @@ AutoGPT also benefits from a large, active community of users and developers. Th
 
 One potential downside of AutoGPT is that it may require more technical knowledge than some other platforms in this space. While there are visual, low-code tools available, advanced use cases might require us to use the CLI or dive into the source code.
 
-Some users also report issues with reliability, in particular with executions becoming stuck in loops. This will naturally be a concern for teams planning to deploy agentic systems within critical business processes.
+Some users also report issues with reliability, in particular with executions becoming stuck in loops. 
 
-It’s also important to note that AutoGPT is tightly coupled with OpenAI’s ChatGPT, which means that any changes to the pricing or access policies of this could have a significant impact on our solutions.
+This may naturally be a concern for teams planning to deploy agentic systems within critical business processes.
 
 #### Pricing
 
@@ -218,6 +224,8 @@ You might also like our guide to [digital workers](https://budibase.com/blog/ai-
 ChatFuel is a slightly different proposition to some of the other tools we’ve seen so far, offering a no-code, visual platform for non-technical users to create conversational agents for multi-channel sales use cases.
 
 ![ChatFuel](https://res.cloudinary.com/daog6scxm/image/upload/v1745578243/cms/ai-agents/no-low-code-agent-builders/ChatFuel_tmxqba.webp "ChatFuel")
+
+(ChatFuel Website)
 
 #### Pros
 
@@ -249,6 +257,8 @@ Next, we have BotPress. This is an open-source, low-code platform for technical 
 
 ![BotPress](https://res.cloudinary.com/daog6scxm/image/upload/v1745578242/cms/ai-agents/no-low-code-agent-builders/BotPress_oxsv9w.webp "BotPress")
 
+(BotPress Website)
+
 #### Pros
 
 BotPress combines exceptional levels of customization and flexibility with an intuitive, flow-based UI. We can fine-tune a huge number of aspects of agent behavior through code, making a great fit for teams with more advanced use cases.
@@ -279,6 +289,8 @@ Custom enterprise pricing is also available, along with optional add-ons for usa
 Lastly, we have IBM’s offering in the AI agent builder space, Watsonx.ai. This is arguably the most feature-rich platform we’ve seen, offering a comprehensive, end-to-end suite of tools for building agentic systems and conversational assistants.
 
 ![WatsonXAI](https://res.cloudinary.com/daog6scxm/image/upload/v1745578242/cms/ai-agents/no-low-code-agent-builders/Watsonxai_mlhbp7.webp "WatsonXAI")
+
+(IBM Website)
 
 #### Pros
 
