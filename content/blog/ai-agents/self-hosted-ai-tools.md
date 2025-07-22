@@ -71,7 +71,7 @@ With a better understanding of what self-hosted AI tools are and why we might op
 Earlier, we hinted at some of the more granular types of self-hosted AI tools we might want to adopt. Following on from this, we’ve divided our picks by specific kinds of tools. Specifically, we’ve chosen the following clusters of tools:
 
 - [LLMs](#llms)
-  - [Gemma](#gemma)
+  - [Gemma](#gemma-3)
   - [Mistral](#mistral)
 - [Frameworks](#frameworks)
   - [LangChain](#langchain)
