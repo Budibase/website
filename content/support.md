@@ -55,9 +55,9 @@ You can view the additional features included in Enterprise on the [pricing page
  - ✓ Investigating issues relating to the Budibase platform
  - ✓ Guidance on building custom plugins
  - ✓ Onboarding
- - ✓ Infrastructure support for self-hosted users
  - ✓ Enterprise licensed instances
  - ✓ The last 5 minor versions of Budibase
+ - ✓ Infrastructure support - access a Budibase DevOps engineer for an additional hourly rate
 
 ###### Not supported 
  - \- Maintaining custom plugins
