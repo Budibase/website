@@ -247,7 +247,7 @@ Next, under the AI subheading, we’ll add an `LLM Prompt` action.
 
 We’ll use the following prompt to define which requests can be automatically approved.
 
-{{< highlight javascript "linenos=inline" >}}
+{{< highlight plaintext "linenos=inline" >}}
 
 You are an AI assistant for IT Operations. Your task is to evaluate IT asset rental requests and return a structured decision in JSON format.
 
