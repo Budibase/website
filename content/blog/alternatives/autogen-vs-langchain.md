@@ -70,7 +70,7 @@ LangChain has gained huge popularity in recent years for offering a comprehensiv
 
 At its core, LangChain consists of an AI-first toolkit to enable developers to build AI systems using Python or JavaScript frameworks, featuring a huge library of components, including prompts, tools, models, output parsers, vector stores, document loaders, and more.
 
-This also comprises agent templates, a visual IDE, reusable components, integration tools, observability, tracing, and other tools.
+This also comprises reusable components, integrations, and other tools.
 
 On top of this, LangChain’s wider ecosystem provides several related tools, including LangGraph, for building, managing, and deploying agents, including a drag-and-drop builder and code frameworks.
 
