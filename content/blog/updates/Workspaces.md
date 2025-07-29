@@ -50,6 +50,6 @@ Our mission is simple: **Make the workplace faster**. We’re focused on improvi
 - **Automations:** Hundreds of new integrations and a best-in-class automation experience, making it easier to build AI-powered workflows.
 - **Forms:** Making it easier to build beautiful forms with 1st class automation support.
 
-Combined with Budibase's existing toolkit ( app builder, internal database, SQL GUI, REST API connector), Workspaces is our first in becoming the world’s leading workflow platform.
+Combined with Budibase's existing toolkit (app builder, internal database, SQL GUI, REST API connector), Workspaces is our first step in our quest to become the world’s leading workflow platform.
 
-Start exploring Workspaces today and let us know what you think.
+Start exploring Workspaces today and [let us know what you think](https://github.com/Budibase/budibase/discussions).
