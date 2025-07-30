@@ -286,7 +286,7 @@ Some datasets are offered under CC BY-NC 4.0, allowing use for non-commercial pu
 
 ### 6. LlamaIndex
 
-Lastly, we have LlamaIndex. This is a data framework that helps developers to ingest, index, and query data in conjunction with LLM usage.
+Lastly, we have LlamaIndex, a framework that helps developers to ingest, index, and query data in conjunction with LLM usage.
 
 ![LlamaIndex](https://res.cloudinary.com/daog6scxm/image/upload/v1746191983/cms/ai-agents/open-source-ai-agents/LlamaIndex_ruiapb.webp "LlamaIndex")
 
