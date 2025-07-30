@@ -190,9 +190,9 @@ Resolve Systems also integrates seamlessly with a wide range of common ITSM solu
 
 One potential limitation of Resolve Systems is its tight focus on ITSM and ITOps processes. For teams that want to build more unified service management automations across a broader range of functions, other Moveworks alternatives may be more suitable.
 
-Some users report that Resolve Systems can offer a comparatively steep learning curve. It’s a highly feature-rich platform aimed at technical teams, so additional training and onboarding may be beneficial to get up and running.
+Some users report that Resolve Systems can offer a comparatively steep learning curve. 
 
-Additionally, Resolve is less of a direct Moveworks competitor in terms of its AI capabilities. While it does offer certain functionalities, more user-facing features, such as conversational interfaces for [enterprise chatbots](https://budibase.com/blog/ai-agents/enterprise-chatbots/), are lacking and could require additional third-party tools.
+It’s a highly feature-rich platform aimed at technical teams, so additional time may be beneficial to get up and running.
 
 #### Pricing
 
