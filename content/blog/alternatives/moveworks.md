@@ -67,6 +67,8 @@ Let’s jump right in.
 
 ![Moveworks Alternatives](https://res.cloudinary.com/daog6scxm/image/upload/v1747065043/cms/ai-agents/moveworks-alternatives/Moveworks_bzi6pt.webp "Moveworks alternatives")
 
+(*Moveworks Website*)
+
 Moveworks is an agentic AI platform that enables teams to create custom solutions for managing internal processes. This centers around capabilities for building conversational assistants for a whole host of services and functions.
 
 The goal is to provide a single point of contact for end users to access agreed services via purpose-built chatbots or existing communications tools. In turn, this reduces burdens on service teams while also enhancing end-user experiences.
@@ -148,6 +150,8 @@ First up, we have Aisera. One of Movework’s most direct competitors, this is a
 
 ![Aisera](https://res.cloudinary.com/daog6scxm/image/upload/v1747065045/cms/ai-agents/moveworks-alternatives/Aisera_efsfwd.webp "Aisera")
 
+(*Aisera Website*)
+
 #### Pros
 
 Like Moveworks, Aisera’s focus is on empowering teams to build [AI agentic workflows](https://budibase.com/blog/ai-agents/ai-agentic-workflows/) that utilize their existing internal systems, tools, and data assets. As part of this, it offers extensive connectivity for a huge range of enterprise applications, out of the box.
@@ -177,6 +181,8 @@ This may include factors such as user volumes, the number of AI agents we need, 
 Resolve Systems is another enterprise IT-focused platform. It offers a suite of tools for automating and orchestrating IT operations processes, especially for incident management and problem resolution.
 
 ![Resolve Systems](https://res.cloudinary.com/daog6scxm/image/upload/v1747065045/cms/ai-agents/moveworks-alternatives/Resolve_Systems_xetv7o.webp "Resolve Systems")
+
+(*Resolve Website*)
 
 #### Pros
 
@@ -208,6 +214,8 @@ As a more comprehensive, end-to-end ITSM platform, Freshworks is a somewhat diff
 
 ![FreshService](https://res.cloudinary.com/daog6scxm/image/upload/v1747065047/cms/ai-agents/moveworks-alternatives/FreshService_hr8zfk.webp "FreshService")
 
+(*FreshService Website*)
+
 #### Pros
 
 Freshservice is a full-featured ITSM platform aimed at teams that need to build efficiency across the whole of their service portfolios. This includes a range of AI capabilities across agent assistance, custom chatbots, workflow automations, and response generation, under the Freddy AI umbrella.
@@ -237,6 +245,8 @@ Naturally though, comparing the cost-effectiveness of this versus other Movework
 Next, we have Rasa. This is an open-source conversational AI framework aimed at teams that need a high degree of control over the design, deployment, and behavior of AI assistants.
 
 ![Rasa](https://res.cloudinary.com/daog6scxm/image/upload/v1747065044/cms/ai-agents/moveworks-alternatives/Rasa_jzkjkc.webp "Rasa")
+
+(*Rasa Website*)
 
 #### Pros
 
@@ -268,6 +278,8 @@ Next up, we have n8n, one of the best-known workflow automation platforms on the
 
 ![n8n](https://res.cloudinary.com/daog6scxm/image/upload/v1747065046/cms/ai-agents/moveworks-alternatives/n8n_pr7e2r.webp "n8n")
 
+(*n8n Website*)
+
 #### Pros
 
 Arguably, n8n’s greatest strength is its powerful, intuitive experiences for building automation rules visually. This centers around a drag-and-drop experience for building logic and creating agents, with fully optional scripting.
@@ -297,6 +309,8 @@ A customer enterprise license will be needed for SSO, Git-based version control,
 Lastly, we have OpenDialog, a platform aimed at teams that need to build, manage, and scale AI agents safely and transparently.
 
 ![OpenDialog](https://res.cloudinary.com/daog6scxm/image/upload/v1747065043/cms/ai-agents/moveworks-alternatives/OpenDialog_gltrl3.webp "OpenDialog")
+
+(*OpenDialog Website*)
 
 #### Pros
 
