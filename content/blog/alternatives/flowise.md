@@ -220,7 +220,7 @@ On top of this, n8n is well-optimized for enterprise usage, with debugging tools
 
 Like Zapier, it’s worth noting that n8n was not purpose-built as an AI agent platform. So, we may find that certain more advanced features, including memory handling or multi-agent orchestration, are better served in other tools.
 
-It may be less well-suited to internal chatbot use cases too, as it doesn’t feature a native interface builder. Instead, we’ll have to rely on external solutions.
+It may be less well-suited to certain use cases too, as it doesn’t feature a native interface builder. Instead, we’ll have to rely on external solutions.
 
 Some users complain that n8n’s visual builder can become somewhat cluttered when dealing with complex agent use cases, although we can avoid this by following best practices, including modularizing solutions.
 

@@ -38,6 +38,8 @@ LangChain is an open-source AI framework. This means that it provides a set of t
 
 ![LangChain Alternatives](https://res.cloudinary.com/daog6scxm/image/upload/v1745414287/cms/ai-agents/open-source-ai-agents/LangChain_hooj2w.webp "LangChain Alternatives")
 
+(*LangChain Website*)
+
 More specifically, it offers a range of pre-built tools and functions for tasks like chaining prompts, facilitating memory, using tools, or interacting with external data. This facilitates more sophisticated AI behaviors than stand-alone API calls to an AI model.
 
 The goal is to give developers a structured way to build complex applications with LLMs, including agents that can autonomously plan tasks, understand context, interact with APIs, and maintain memory across interactions.
@@ -128,6 +130,8 @@ AutoGPT is one of the most prevalent agentic AI frameworks. Like LangChain, it�
 
 ![AutoGPT](https://res.cloudinary.com/daog6scxm/image/upload/v1745414282/cms/ai-agents/open-source-ai-agents/AutoGPT_oww52v.webp "AutoGPT")
 
+(*AutoGTP Website*)
+
 #### Pros
 
 One of AutoGPT’s particular strengths is its capabilities for building multi-agent systems. This makes it a strong choice for complex workflows, where we require an architecture that can support scalable tasks and high levels of delegation.
@@ -142,7 +146,7 @@ Compared to some other agentic AI platforms, AutoGPT is somewhat lacking in pre-
 
 On top of this, some users report issues with reliability. In particular, several sources mention that AutoGPT has a tendency to enter infinite loops, repeating the same actions without making progress.
 
-Similarly, AutoGPT may offer more limited debugging and error-handling capabilities than some other platforms, which might exclude it from important production usage.
+Similarly, AutoGPT may offer more limited debugging and error-handling capabilities than some other platforms, which are important for production usage.
 
 #### Licensing
 
@@ -157,6 +161,8 @@ However, this is caveated with the requirement that any distributed version, mod
 Next, we have MetaGPT. This is a slightly different proposition to LangChain or AutoGPT, offering a framework for building agentic solutions within software development processes, more specifically.
 
 ![MetaGPT](https://res.cloudinary.com/daog6scxm/image/upload/v1745414282/cms/ai-agents/open-source-ai-agents/MetaGPT_srybtd.webp "MetaGPT")
+
+(*MetaGPT Website*)
 
 #### Pros
 
@@ -188,6 +194,8 @@ SuperAgent is another open-source framework for creating AI agents. It also offe
 
 ![SuperAgent](https://res.cloudinary.com/daog6scxm/image/upload/v1745414281/cms/ai-agents/open-source-ai-agents/SuperAgent_fsz1d5.webp "SuperAgent")
 
+(*SuperAgent*)
+
 #### Pros
 
 SuperAgent’s cloud hosting could make it an attractive option for lean teams by significantly reducing infrastructure overhead. Developers can build agents without having to worry about managing runtimes, orchestrating containers, or provisioning servers.
@@ -214,9 +222,11 @@ While using this will eliminate the need for infrastructure overhead, it’s pos
 
 ### 4. CrewAI
 
-Built on top of LangChain, CrewAI is an open-source framework aimed at teams that need to build complex, multi-agent systems.
+CrewAI is an open-source framework aimed at teams that need to build complex, multi-agent systems.
 
 ![CrewAI](https://res.cloudinary.com/daog6scxm/image/upload/v1745414282/cms/ai-agents/open-source-ai-agents/CrewAI_lnzolc.webp "CrewAI")
+
+(*CrewAI Website*)
 
 #### Pros
 
@@ -248,6 +258,8 @@ CAMEL is another open-source AI agent framework. It’s generally focused on res
 
 ![CAMEL](https://res.cloudinary.com/daog6scxm/image/upload/v1745414282/cms/ai-agents/open-source-ai-agents/Camel_AI_vuxrai.webp "CAMEL")
 
+(*CAMEL Website*)
+
 #### Pros
 
 CAMEL is based around a ‘role-playing’ framework, where agents are assigned specific personas. They can then interact within workflows, delegating specific tasks based on their respective skills and tool exposure.
@@ -274,9 +286,11 @@ Some datasets are offered under CC BY-NC 4.0, allowing use for non-commercial pu
 
 ### 6. LlamaIndex
 
-Lastly, we have LlamaIndex. Rather than a full-on agentic AI platform, this is a data framework that helps developers to ingest, index, and query data in conjunction with LLM usage.
+Lastly, we have LlamaIndex, a framework that helps developers to ingest, index, and query data in conjunction with LLM usage.
 
 ![LlamaIndex](https://res.cloudinary.com/daog6scxm/image/upload/v1746191983/cms/ai-agents/open-source-ai-agents/LlamaIndex_ruiapb.webp "LlamaIndex")
+
+(*LlamaIndex Website*)
 
 #### Pros
 
@@ -288,11 +302,11 @@ It also offers a highly flexible retrieval and memory architecture, including ve
 
 #### Cons
 
-The big downside of LlamaIndex compared to other LangChain alternatives is that it isn’t a dedicated agent framework. While it is releasing more functionality that moves towards agentic use cases, this might make it less attractive for certain users.
+Some users note that LlamaIndex can be somewhat less intuitive than some other LangChain alternatives.
 
-On top of this, it lacks certain important observability features that are important for deploying agentic systems in the real world. As such, it may be best used alongside other agentic tools for production use cases.
+It's also more focused on data and document-centric workflows, so we may wish to look elsewhere for different use cases.
 
-It’s also a highly flexible and modular framework, but advanced use cases require a high level of technical expertise, including awareness of chunking strategies, embedding tuning, query engine composition, and other techniques.
+It’s also a highly flexible and modular framework, but advanced use cases may require a higher level of technical expertise than some other options.
 
 #### Licensing
 
