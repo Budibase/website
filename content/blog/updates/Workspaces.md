@@ -42,12 +42,12 @@ To support Workspaces, we’ve redesigned navigation. The top navigation is repl
 Index pages for apps and automations now show everything in your workspace at a glance. See which apps are published, which aren’t, and when each was last updated. Automations get the same treatment.
 
 ### Activate/deactivate apps
-![activate or deactive app image](https://res.cloudinary.com/daog6scxm/image/upload/v1753786042/deactivate_iwoj6k.webp)
+![activate or deactive app image](https://res.cloudinary.com/daog6scxm/image/upload/v1754312409/cms/updates/workspaces/deactivate_u40qrj.webp)
 You can now activate or deactivate any app—just like automations. Deactivated apps are hidden from users when the workspace is published.
 
 ## What’s next
 Our mission is simple: **Make the workplace faster**. We’re focused on improving workflows, not just building apps. Over the next year, we’ll be investing heavily in:
-- **Automations:** Hundreds of new integrations and a best-in-class automation experience, making it easier to build AI-powered workflows.
+- **Automations:** An automation experience designed for an AI-first world.
 - **Forms:** Making it easier to build beautiful forms with 1st class automation support.
 
 Combined with Budibase's existing toolkit (app builder, internal database, SQL GUI, REST API connector), Workspaces is our first step in our quest to become the world’s leading workflow platform.
