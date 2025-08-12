@@ -7,7 +7,7 @@ profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/jo
 image: https://res.cloudinary.com/daog6scxm/image/upload/v1753716631/cms/updates/workflows_in8wd6.png
 images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1753716631/cms/updates/workflows_in8wd6.png
-date: "2025-07-28"
+date: "2025-08-16"
 author: Joe Johnston
 draft: false
 ---
