@@ -3,7 +3,7 @@ author = "Ronan McQuillan"
 date = 2025-03-15
 description = "Check out our round-up of the best free asset management software."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Top 7 Free Asset Management Software Tools"
+title = "Top 7 Free Asset Management Software Tools for 2025"
 type = "alternatives"
 layout = "free-asset-management"
 [[mentions]]
