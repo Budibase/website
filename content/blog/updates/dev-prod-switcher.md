@@ -18,7 +18,7 @@ We're excited to announce a new feature that gives you more control over your de
 
 **Key Updates:**
 - Switching Environments: Easily toggle between "Dev" and "Prod" modes to view and work with the corresponding data.
-- External Tables: The switcher is fully compatible with external tables that use [environment variables](/pricing), making managing your different data sources easier. If you are using an external data source and you do not have environment variables, you will not have access to the Dev environment.
+- External Tables: The switcher is fully compatible with external tables that use [environment variables](/pricing), making managing your different data sources easier. If you use an external data source and do not have environment variables, you will not have access to the Dev environment.
 - Production Safety: In Prod mode, adding or editing a table's schema is disabled. It's still possible to update the records.
 - Import/Export: While in both dev and prod mode, you still have the flexibility to import and export your tables, ensuring you can manage your data as needed.
 - Seed data: You can seed prod tables with dev table data by clicking the arrow beside the workspace publish button and selecting "Seed and publish".
