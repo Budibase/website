@@ -23,6 +23,11 @@ applicationCategory = "businessApplication"
 operatingSystem = "Windows, macOS, Linux"
 url = "https://www.openoffice.org/product/base.html"
 [[softwareApplications]]
+name = "LibreOffice Base"
+applicationCategory = "businessApplication"
+operatingSystem = "Windows, macOS, Linux"
+url = "https://www.libreoffice.org/discover/base/"
+[[softwareApplications]]
 name = "SQLite"
 applicationCategory = "businessApplication"
 operatingSystem = "Windows, macOS, Linux, Android, iOS"
