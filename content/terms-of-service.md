@@ -84,7 +84,7 @@ __Development Services__ Charges has the meaning given in the Addendum;
 
 __Documents__ means the standard documents BB provides in connection with use of the Subscription Services, including user guides or manuals, for example; 
 
-__EULA__ means BB’s standard end-user licence agreement which all Authorised Users are required to sign up to before beginning to use the Subscription Services, which is available here: https://budibase.com/eula; 
+__EULA__ means BB’s standard end-user licence agreement which all Authorised Users are required to sign up to before beginning to use the Subscription Services, which is available here: https://budibase.com/eula ; 
 
 __Feature__ means a specific feature or function of the Subscription Services, as made available from time to time by Budibase within particular access Tiers; 
 
@@ -102,7 +102,7 @@ __Payment Terms__ means the payment terms for payment of any Charges. Unless oth
 
 __Purpose__ means approved Authorised Users accessing and using the functionality offered by the Subscription Services (including that contemplated within the Documents) as they are functionally contemplated to operate, namely to develop software applications to meet the legitimate internal business purposes of Customer (or any Subscribing Organisation(s)), in accordance with the Agreement; 
 
-__Privacy Policy__ means BB’s privacy and cookies notice and policy, available here: https://budibase.com/privacy;
+__Privacy Policy__ means BB’s privacy and cookies notice and policy, available here: https://budibase.com/privacy ;
 
 __Development ServicesProposal__ means (if applicable) a written quotation for provision of the Services, provided by BB to Customer; 
 
