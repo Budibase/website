@@ -28,3 +28,7 @@ We're excited to announce a new feature that gives you more control over your de
 
 **Important information for existing users**
 Before this release, the old system combined data in dev and prod in a way that was often confusing. We are creating a clear separation to better align with standard software development. This new feature will help you confidently build and test your apps without affecting your live production data.
+
+
+## Documentation
+[Read the docs](https://docs.budibase.com/docs/dev-prod-switcher) to learn more about  dev/prod environments.
