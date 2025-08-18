@@ -18,7 +18,7 @@ date: 2025-02-24
 1.1 Part 1 of these terms sets out the licence terms applicable to any source-available software you download from us unless you have entered into a separate written contract with us. Additional terms are set out in Part 2 below, which only apply to any consultancy services we provide in relation to self-hosted software. Finally, some terms specific to development services we provide are set out in Part 3 (these only apply where you are purchasing development services). 
  
 1.2 Different terms apply:
-a) for our hosted software offering (where you access our software as a service), or we provide you associated services, which are set out at: https://budibase.com/terms-of-service; or 
+a) for our hosted software offering (where you access our software as a service), or we provide you associated services, which are set out at: https://budibase.com/terms-of-service ; or 
  
 b) where you download and use our  open-source software without premium features, and you are not on an enhanced liability package. In that case we provide such  open-source software under open-source terms, which are set out at: https://github.com/Budibase/budibase/blob/master/LICENSE. If you have downloaded our  open-source software on that basis, but require services for that software, the terms in Part 2 below shall apply, but this Part 1 will not apply. 
  
