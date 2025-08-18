@@ -13,17 +13,20 @@ draft: false
 ---
 
 ![dev prod switcher](https://res.cloudinary.com/daog6scxm/image/upload/v1755010157/cms/updates/dev%20prod%20switcher/prod_mcmfua.webp)
-We're excited to announce a new feature that gives you more control over your development and production environments. The Dev/Prod switcher within the data section of the Budibase builder allows you to seamlessly switch between your development and production data.
+
+We're excited to announce a new feature that gives you more control over your development and production environments. The Dev/Prod switcher within the data section allows you to switch seamlessly between your development and production data.
 
 **Key Updates:**
 
-- Switching Environments: Easily toggle between "Dev" mode and "Prod" mode to view and work with the corresponding data.
-- External Tables: The switcher is fully compatible with external tables that use environment variables, making it easier to manage your different data sources.
-- Production Safety: When in production mode, the ability to add or edit a table's schema is disabled. It's still possible to update the records.
+- Switching Environments: Easily toggle between "Dev" and "Prod" modes to view and work with the corresponding data.
+- External Tables: The switcher is fully compatible with external tables that use environment variables, making managing your different data sources easier.
+- Production Safety: In production mode, adding or editing a table's schema is disabled. It's still possible to update the records.
 - Import/Export: While in both dev and production mode, you still have the flexibility to import and export your tables, ensuring you can manage your data as needed.
+- Seed data: You can seed prod tables with dev table data by clicking the arrow beside the workspace publish button and selecting "Seed and publish".
 
-**Important information for exisiting users**
+![Seed data flow](https://files.readme.io/6b653e142e4779d25de58a948f343ea820028ceffaa7109cd8fd70d6a6098fad-prod_publish.png)
 
-Before this release, the old system combined data in development and production in a way that was often confusing - to align better with the normal software development cycle we are creating clear separation. If you wish to create data in your production environment, then publish the table, switch to production, and create the rows there.
 
-This new feature will help you confidently build and test your apps without affecting your live production data.
+**Important information for existing users**
+
+Before this release, the old system combined data in dev and prod in a way that was often confusing. We are creating a clear separation to better align with standard software development. This new feature will help you confidently build and test your apps without affecting your live production data.
