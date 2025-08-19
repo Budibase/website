@@ -55,7 +55,7 @@ url = "https://assetfrog.com"
 
 +++
 
-Asset management is one of the most common, mission-critical ITSM workflows. Efficiently handling requests for devices helps us to minimize internal admin costs. This ensures that our IT resources are deployed as effectively as possible.
+Asset management is one of the most common, mission-critical ITSM workflows. Efficiently handling requests for devices helps us to minimize internal admin costs. This ensures that our IT resources are deployed as effectively as possible. 
 
 At the same time, we can improve experiences for service users with a centralized, accessible tool to submit and manage requests.
 
