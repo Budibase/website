@@ -3,7 +3,7 @@ author = "Ronan McQuillan"
 date = 2025-03-15
 description = "Check out our round-up of the best free asset management software."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Top 7 Free Asset Management Software Tools for 2025"
+title = "Top 8 Free Asset Management Software Tools for 2025"
 type = "alternatives"
 layout = "free-asset-management"
 [[mentions]]
@@ -47,9 +47,15 @@ applicationCategory = "businessApplication"
 operatingSystem = "Web"
 url = "https://www.shelf.nu/solutions/asset-tracking"
 
+[[softwareApplications]]
+name = "AssetFrog"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://assetfrog.com"
+
 +++
 
-Asset management is one of the most common, mission-critical ITSM workflows. Efficiently handling requests for devices helps us to minimize internal admin costs. This ensures that our IT resources are deployed as effectively as possible.
+Asset management is one of the most common, mission-critical ITSM workflows. Efficiently handling requests for devices helps us to minimize internal admin costs. This ensures that our IT resources are deployed as effectively as possible. 
 
 At the same time, we can improve experiences for service users with a centralized, accessible tool to submit and manage requests.
 
@@ -62,7 +68,7 @@ But first, let’s start with the basics.
 ||||||||||
 ||||||||||
 
-## Top 7 open-source and free asset management tools
+## Top 8 open-source and free asset management tools
 
 As we said earlier, we’ve chosen a range of options from across the market for open-source and free asset management tools.
 
@@ -76,6 +82,7 @@ Our top picks are
 5. [AssetTiger](#5-assettiger)
 6. [OpenMaint](#6-openmaint)
 7. [Shelf Asset Tracking](#7-shelf-asset-tracking)
+8. [AssetFrog](#8-assetfrog)
 
 Here's a summary of what each one offers.
 
@@ -295,7 +302,7 @@ Quotations are offered on a custom basis, according to our service level needs a
 
 (*Shelf Website*)
 
-Lastly, we have Shelf Asset Tracking. This is a modern, web-based asset management solution with a usable free tier, making it a strong option for teams of a range of sizes.
+Next, we have Shelf Asset Tracking. This is a modern, web-based asset management solution with a usable free tier, making it a strong option for teams of a range of sizes.
 
 #### Pros
 
@@ -320,6 +327,36 @@ As noted before, we can use Shelf with a single registered user for free. This g
 To overcome user limits, we'll need a Team license, with unlimited users for $370 per year. We can also add SSO to this plan as an optional extra.
 
 Custom enterprise pricing is available, as well as support-only packages for self-hosted instances.
+
+### 8. AssetFrog
+
+Lastly, we have AssetFrog, a feature-rich, freemium SaaS asset management tool.
+
+![AssetFrog](https://res.cloudinary.com/daog6scxm/image/upload/v1755616774/cms/alternatives/AssetFrog_ry95je.webp "AssetFrog") (Asset Frog Website)
+
+#### Pros
+
+AssetFrog is an attractive option for a wide range of asset management use cases. It offers a clean, modern UI, complete with barcode scanning, document uploads, check-in/outs, customizable dashboards, and asset history logging.
+
+It's also a particularly strong choice for asset depreciation calculations, with built-in standard accounting methods.
+
+AssetFrog is also a fully cloud-based solution, making it suitable for teams that want to get up and running quickly.
+
+#### Cons
+
+One downside of AssetFrog is that it's a fully SaaS-based platform, meaning that we can't self-host it.
+
+There are also restrictions on the free tier, limiting us to a single user, 50 assets, and three custom fields.
+
+So, you might want to look elsewhere if you need a free asset management software tool for more large-scale usage.
+
+#### Pricing
+
+Beyond the free tier, paid plans start from $16 AUD per month (around 10 USD) for unlimited users and up to 100 assets. 
+
+There are then three pricing tiers above this, with their own respective maximum asset counts.
+
+To track and manage more than 1,000 assets, we'll need to contact the sales team for a custom quote.
 
 ## Turn data into action with Budibase
 ![Budibase design platform interface](https://res.cloudinary.com/daog6scxm/image/upload/v1680181644/ui/homepage-design-ui_sizp7b.webp)
