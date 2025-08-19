@@ -104,7 +104,7 @@ These are:
 4. [FreeScout](#4-freescout)
 5. [Faveo](#5-faveo)
 6. [OpenSupports](#6-opensupports)
-7. [Frappe](#7-frappe)
+7. [Frappe Helpdesk](#7-frappe-helpdesk)
 
 Let’s check each one out in turn.
 
