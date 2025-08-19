@@ -1,10 +1,10 @@
 +++
 
 author = "Ronan McQuillan"
-date = 2025-03-19
+date = 2025-04-19
 description = "Take a look at our round-up of the top open-source IT ticketing systems."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Top 6 Open-Source IT Ticketing Systems for 2025"
+title = "Top 7 Open-Source IT Ticketing Systems for 2025"
 [[softwareApplications]]
 name = "Budibase"
 applicationCategory = "businessApplication"
@@ -38,6 +38,12 @@ applicationCategory = "businessApplication"
 operatingSystem = "Web"
 url = "https://www.opensupports.com/"
 
+[[softwareApplications]]
+name = "Frappe Helpdesk"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://frappe.io/helpdesk"
+
 +++
 
 Ticketing is absolutely fundamental to how IT teams interact with their service users across the organization. But, they come in a variety of forms, with many vastly different platforms on the market.
@@ -50,7 +56,7 @@ Along the way, we’ll see platforms that are optimized for a range of teams, de
 
 - [What is an IT ticketing system](#what-is-an-it-ticketing-system)
 - [Why opt for an open-source ticketing tool?](#why-opt-for-an-open-source-ticketing-tool)
-- [Top 6 open-source IT ticketing systems for 2025](#top-6-open-source-it-ticketing-systems-for-2025)
+- [Top 7 open-source IT ticketing systems for 2025](#top-7-open-source-it-ticketing-systems-for-2025)
 
 Let’s jump right in.
 
@@ -84,7 +90,7 @@ Alternatively, they may have a preference for open-source solutions because they
 
 You might also like our guide to the top [open-source Jira alternatives.](https://budibase.com/blog/alternatives/open-source-jira-alternatives/)
 
-## Top 6 open-source IT ticketing systems for 2025
+## Top 7 open-source IT ticketing systems for 2025
 
 Now that we have a better grasp of what we’re dealing with, we can start to think about some specific options for open-source ticketing tools.
 
@@ -98,6 +104,7 @@ These are:
 4. [FreeScout](#4-freescout)
 5. [Faveo](#5-faveo)
 6. [OpenSupports](#6-opensupports)
+7. [Frappe Helpdesk](#7-frappe-helpdesk)
 
 Let’s check each one out in turn.
 
@@ -139,6 +146,8 @@ Next up, we have osTicket, one of the most ubiquitous open-source IT ticketing s
 
 ![Open Source IT Ticketing System](https://res.cloudinary.com/daog6scxm/image/upload/v1716391724/cms/open-source-help-desk-software/osTicket_rcfc5y.webp "Open Source IT Ticketing System")
 
+(osTicket Website)
+
 #### Pros
 
 osTicket is a popular option for teams that need a free, relatively customizable ticketing and helpdesk solution. It’s available as an open-source or cloud-based platform, giving flexibility for a range of different teams.
@@ -167,7 +176,7 @@ Self-hosted support plans are also available, including customization of the pla
 
 Zammad is a popular open-source helpdesk and ticketing solution for customer service, IT, and logistics teams.
 
-![Zammad](https://res.cloudinary.com/daog6scxm/image/upload/v1740755846/cms/alternatives/incident-management-tools/Zammad_Screenshot_iz1dnt.webp "Zammad")
+![Zammad](https://res.cloudinary.com/daog6scxm/image/upload/v1740755846/cms/alternatives/incident-management-tools/Zammad_Screenshot_iz1dnt.webp "Zammad") (Zammad Website)
 
 #### Pros
 
@@ -197,7 +206,7 @@ With the self-hosted version of Zammad, we only need to pay for annual support a
 
 FreeScout is explicitly billed as a free, open-source [Zendesk alternative](https://budibase.com/blog/alternatives/zendesk/), offering a flexible, modern helpdesk platform.
 
-![FreeScout](https://res.cloudinary.com/daog6scxm/image/upload/v1742384646/cms/alternatives/FreeScout_iwgtyp.webp "FreeScout")
+![FreeScout](https://res.cloudinary.com/daog6scxm/image/upload/v1742384646/cms/alternatives/FreeScout_iwgtyp.webp "FreeScout") (FreeScout Website)
 
 #### Pros
 
@@ -227,7 +236,7 @@ As noted, FreeScout modules are also paid on a one-off basis. While these are ty
 
 Faveo is an open-source solution for support and service management, including a range of ITSM processes on top of ticket management.
 
-![Faveo](https://res.cloudinary.com/daog6scxm/image/upload/v1742384646/cms/alternatives/Faveo_jlilcy.webp "Faveo")
+![Faveo](https://res.cloudinary.com/daog6scxm/image/upload/v1742384646/cms/alternatives/Faveo_jlilcy.webp "Faveo") (Faveo Website)
 
 #### Pros
 
@@ -255,9 +264,9 @@ As noted before, we’ll need a custom license on the self-hosted platform to ac
 
 ### 6. OpenSupports
 
-Lastly, we have OpenSupports. This is a lightweight but highly functional open-source ticketing system, aimed at teams that need a simple, easy-to-use solution for handling support.
+Next, we have OpenSupports. This is a lightweight but highly functional open-source ticketing system, aimed at teams that need a simple, easy-to-use solution for handling support.
 
-![OpenSupports](https://res.cloudinary.com/daog6scxm/image/upload/v1742384646/cms/alternatives/OpenSupports_k84yub.webp "OpenSupports")
+![OpenSupports](https://res.cloudinary.com/daog6scxm/image/upload/v1742384646/cms/alternatives/OpenSupports_k84yub.webp "OpenSupports") (OpenSupports Website)
 
 #### Pros
 
@@ -282,6 +291,36 @@ As we said a moment ago, OpenSupports is entirely free to use under the GPL-3.0 
 As with any self-hosted solution, we’ll still need to factor in other costs, though. This includes hosting and managing it ourselves.
 
 Pricing information for OpenSupports services is difficult to ascertain. There is a page on their website that indicates that a managed SaaS version of the platform is available, but more specific costs are not detailed.
+
+### 7. Frappe Helpdesk
+
+Lastly, we have Frappe Helpdesk. Part of a wider suite of FOSS tools from the makers of ERPNext, Helpdesk is intended as a fully functional platform for handling all kinds of support workflows.
+
+![Frappe Helpdesk](https://res.cloudinary.com/daog6scxm/image/upload/v1755614137/cms/alternatives/Frappe_Helpdesk_ukdbck.webp "Frappe Helpdesk") (Frappe Website)
+
+#### Pros
+
+Frappe offers a highly effective, modern ticketing UI, making it a great choice for teams that want to build efficient workflows, without the need for an expensive COTS solution.
+
+It's also feature-rich, including multi-channel support, SLA automations, custom assignment rules, and more.
+
+Frappe is a good fit for teams that need a configurable open-source ticketing system, including offering custom scripts, so we can adapt the platform to our unique workflows.
+
+#### Cons
+
+However, like any software tools, Frappe is not without its downsides and challenges. One complaint from some users is that more advanced configurations can be difficult, especially for colleauges lacking more advanced technical skills.
+
+Some users also note that with the filtering options available, navigating data can be comparatively difficult.
+
+Another complaint from some users is that the community support on offer is not quite adequate for their needs.
+
+#### Pricing
+
+Frappe Helpdesk is totally free an open-source.
+
+It's offered under the AGPL-3.0 license.
+
+Support and implementation services are also available from a number of partners.
 
 ## Turn data into action with Budibase
 
