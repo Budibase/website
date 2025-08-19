@@ -7,7 +7,7 @@ profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1639747995/cms/jo
 image: https://res.cloudinary.com/daog6scxm/image/upload/v1753716631/cms/updates/workflows_in8wd6.png
 images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1753716631/cms/updates/workflows_in8wd6.png
-date: "2025-08-16"
+date: "2025-08-19"
 author: Joe Johnston
 draft: false
 ---
@@ -30,7 +30,7 @@ A workspace is your toolkit for transforming workflows - housing everything you 
 ## Design updates
 
 ### New navigation
-![new navigation](https://res.cloudinary.com/daog6scxm/image/upload/v1753784261/cms/updates/workspaces/navigation2_kj8qa8.webp)
+![new navigation](https://res.cloudinary.com/daog6scxm/image/upload/v1755617724/cms/updates/workspaces/navigation_ovek1i.avif)
 To support Workspaces, we’ve redesigned navigation. The top navigation is replaced by a new, collapsible side navigation that expands on hover. The new layout includes:
 
 - **Header:** Quick access to automations, apps, and data.
@@ -38,7 +38,7 @@ To support Workspaces, we’ve redesigned navigation. The top navigation is repl
 - **Footer:** Settings and User management.
 
 ### App & automation index pages
-![app and automation pages](https://res.cloudinary.com/daog6scxm/image/upload/v1753784238/cms/updates/workspaces/apps_list_screen_oquwcv.webp)
+![app and automation pages](https://res.cloudinary.com/daog6scxm/image/upload/v1755617873/cms/updates/workspaces/apps_list_screen_mmkfvw.avif)
 Index pages for apps and automations now show everything in your workspace at a glance. See which apps are published, which aren’t, and when each was last updated. Automations get the same treatment.
 
 ### Activate/deactivate apps
@@ -46,10 +46,10 @@ Index pages for apps and automations now show everything in your workspace at a 
 You can now activate or deactivate any app—just like automations. Deactivated apps are hidden from users when the workspace is published.
 
 ## What’s next
-Our mission is simple: **Make the workplace faster**. We’re focused on improving workflows, not just building apps. Over the next year, we’ll be investing heavily in:
-- **Automations:** An automation experience designed for an AI-first world.
-- **Forms:** Making it easier to build beautiful forms with 1st class automation support.
+Our mission is simple: **Make the workplace faster**. We’re focused on transforming workflows, not just building apps. Over the next year, we’ll be investing heavily in:
+- **Automations:** A complete toolkit for AI automation.
+- **Forms:** Making it easier to build beautiful forms.
 
-Combined with Budibase's existing toolkit (app builder, internal database, SQL GUI, REST API connector), Workspaces is our first step in our quest to become the world’s leading workflow platform.
+Combined with Budibase's existing toolkit (app builder, internal database, SQL GUI, REST API connector), Workspaces is our first step in our quest to become the world’s leading open source workflow platform.
 
 Start exploring Workspaces today and [let us know what you think](https://github.com/Budibase/budibase/discussions).
