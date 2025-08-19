@@ -27,9 +27,8 @@
                 {{ index $content_parts 1 | safe.HTML}}
                 <details class="mt-6 my-1 p-3 bg-white border rounded-sm">
                     <summary class="lead">Closed-source code</summary>
-                    <p>Retool is entirely closed-source. This means that their source code is not publicly visible. Unfortunately, this means it’s also not easily audited by security teams.
-                        This is inherently problematic for many businesses as they will be connecting Retool to their production databases - without full transparency about what it contains. 
-                        The same issue applies to hosting opaque code on your infrastructure. We’ll see an open-source Retool alternative a little later.
+                    <p>Retool is entirely closed-source. This means that the source code is not publicly available. </p>
+                    <p>As such, an open-source alternative may be a priority for many businesses, as Retool will likely interact with mission-critical databases, infrastructure, and processes
                     </p>
                 </details>
                 <details class="my-1 p-3 bg-white border rounded-sm">
@@ -38,19 +37,15 @@
                     </p>
                 </details>
                 <details class="my-1 p-3 bg-white border rounded-sm">
-                    <summary class="lead">Prohibitive pricing and restrictions</summary>
-                    <p>For many businesses, Retool’s pricing also makes it unviable. Like most other vendors in this space, Retool operates on a per-seat basis, with separate billing for app developers and end users. However, in Retool’s case, this is comparatively restrictive regarding user limits and functionality. For example, their business tier is limited to 25 users - while features like SSO and custom branding are limited to the enterprise tier.
+                    <summary class="lead">Pricing</summary>
+                    <p>For many businesses, Retool’s pricing also makes it unviable. Like most other vendors in this space, Retool operates on a per-seat basis, with separate billing for app developers and end users. </p>
+                        <p>Depending on your needs, other Retool alternatives may be more cost-effective. For example, their business tier is limited to 25 users - while features like SSO and custom branding are limited to the enterprise tier.
                     </p>
                 </details>
-                <details class="my-1 p-3 bg-white border rounded-sm">
-                    <summary class="lead">No custom data sources</summary>
-                    <p>Retool offers a strong range of native data connectors but no support for custom data sources. This can be especially problematic in large organizations, which need to build internal tools around legacy or esoteric data. Such businesses will need to look for solutions that offer more flexibility and extensibility.
-                    </p>
-                </details>
-                <details class="my-1 p-3 bg-white border rounded-sm">
-                    <summary class="lead">Self-hosted functionality</summary>
-                    <p>Retool is often slow in terms of rolling new functionality out to the self-hosted version. Users often experience long delays between features being released on the cloud version and them becoming available on self-hosted instances. Obviously, it can be a major cause of frustration if you need to self-host for security reasons - only to miss out on mission-critical functionality.
-                    </p>
+                    <details class="my-1 p-3 bg-white border rounded-sm">
+                    <summary class="lead">Target usage</summary>
+                    <p>Retool is a highly modern platform, but some tasks can be more streamlined in alternative tools, especially for less technical colleauges.</p>
+                        <p>At the other end of the low-code spectrum, some technical users might find that more advanced platforms offer them more flexibility and scope for customization.</p>
                 </details>
             </div>
         </div>
@@ -162,7 +157,7 @@
                             <td class='text-xs' data-title='Retool'>Per creator +<br> per user</td>
                             <td class='text-xs' data-title='Budibase'>Per creator +<br> per user</td>
                             <td class='text-xs' data-title='Mendix'>Flat fee +<br> per user</td>
-                            <td class='text-xs' data-title='OutSystems'>Per app +<br> custom</td>
+                            <td class='text-xs' data-title='OutSystems'>Custom</td>
                             <td class='text-xs' data-title='Appian'>Per user +<br> usage-based</td>
                             <td class='text-xs' data-title='Power Apps'>Per user</td>
                             <td class='text-xs' data-title='AppSheet'>Per user</td>
@@ -171,20 +166,25 @@
                             <td class='text-xs' data-title='Quickbase'>Per user</td>
                             <td class='text-xs' data-title='Caspio'>Fixed</td>
                         </tr>
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>Free Apps</td>
-                            <td class='text-xs' data-title='Retool'>Unlimited</td>
-                            <td class='text-xs' data-title='Budibase'>Unlimited</td>
-                            <td class='text-xs' data-title='Mendix'>0</td>
-                            <td class='text-xs' data-title='OutSystems'>1</td>
-                            <td class='text-xs' data-title='Appian'>Unlimited</td>
-                            <td class='text-xs' data-title='Power Apps'>0</td>
-                            <td class='text-xs' data-title='AppSheet'>Unlimited</td>
-                            <td class='text-xs' data-title='Filemaker'>0</td>
-                            <td class='text-xs' data-title='Zoho Creator'>1</td>
-                            <td class='text-xs' data-title='Quickbase'>0</td>
-                            <td class='text-xs' data-title='Caspio'>0</td>
+ <tr class=''>
+                            <td class='text-xs' data-title=''>Open-Source</td>
+                            <td class='text-xs' data-title='Retool'> <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
+                            <td class='text-xs' data-title='Budibase'> <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
+                                    stroke="black" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                </svg></td>
+                            <td class='text-xs' data-title='Mendix'> <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
+                            <td class='text-xs' data-title='OutSystems'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
+                            <td class='text-xs' data-title='Appian'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
+                            <td class='text-xs' data-title='Power Apps'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
+                            <td class='text-xs' data-title='AppSheet'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
+                            <td class='text-xs' data-title='Filemaker'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
+                            <td class='text-xs' data-title='Zoho Creator'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
+                            <td class='text-xs' data-title='Quickbase'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
+                            <td class='text-xs' data-title='Caspio'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
                         </tr>
+
                         <tr class=''>
                             <td class='text-xs' data-title=''>Built-In Database</td>
                             <td class='text-xs' data-title='Retool'> <svg xmlns="http://www.w3.org/2000/svg"
@@ -204,9 +204,11 @@
                                     stroke="black" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                                 </svg></td>
-                            <td class='text-xs' data-title='OutSystems'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
+                            <td class='text-xs' data-title='OutSystems'><svg xmlns="http://www.w3.org/2000/svg"
+                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
+                                    stroke="black" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                </svg> </td>
                             <td class='text-xs' data-title='Appian'> <svg xmlns="http://www.w3.org/2000/svg"
                                     class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
                                     stroke="black" stroke-width="2">
@@ -240,98 +242,7 @@
                                 </svg></td>
 
                         </tr>
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>Multiplayer mode</td>
-                            <td class='text-xs' data-title='Retool'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Budibase'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Mendix'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='OutSystems'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Appian'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Power Apps'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='AppSheet'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Filemaker'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Zoho Creator'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Quickbase'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Caspio'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                        </tr>
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>Front-End Scripting</td>
-                            <td class='text-xs' data-title='Retool'><code class="text-xs coral">JavaScript</code></td>
-                            <td class='text-xs' data-title='Budibase'><code class="text-xs coral">JavaScript</code><div class="mt-1"></div><code class="text-xs indigo">Handlebars</code></td>
-                            <td class='text-xs' data-title='Mendix'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='OutSystems'><code class="text-xs coral">JavaScript</code></td>
-                            <td class='text-xs' data-title='Appian'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Power Apps'><code class="text-xs forestgreen">Power FX</code></td>
-                            <td class='text-xs' data-title='AppSheet'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Filemaker'><code class="text-xs forestgreen">Proprietary</code></td>
-                            <td class='text-xs' data-title='Zoho Creator'><code class="text-xs forestgreen">Deluge</code></td>
-                            <td class='text-xs' data-title='Quickbase'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Caspio'><code class="text-xs coral">JavaScript</code></td>
-                        </tr>
-
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>RBAC</td>
-                            <td class='text-xs' data-title='Retool'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Budibase'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Mendix'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='OutSystems'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Appian'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Power Apps'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='AppSheet'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Filemaker'> <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                stroke="black" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                            </svg></td>
-                            <td class='text-xs' data-title='Zoho Creator'> <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                stroke="black" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                            </svg></td>
-                            <td class='text-xs' data-title='Quickbase'> <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                stroke="black" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                            </svg></td>
-                            <td class='text-xs' data-title='Caspio'> <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                stroke="black" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                            </svg></td>
-                        </tr>
-
+            
                         <tr class=''>
                             <td class='text-xs' data-title=''>Custom Components</td>
                             <td class='text-xs' data-title='Retool'> <svg xmlns="http://www.w3.org/2000/svg"
@@ -366,45 +277,15 @@
                                 </svg></td>
                             <td class='text-xs' data-title='AppSheet'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
                             <td class='text-xs' data-title='Filemaker'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Zoho Creator'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
+                            <td class='text-xs' data-title='Zoho Creator'><svg xmlns="http://www.w3.org/2000/svg"
+                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
+                                    stroke="black" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                </svg></td>
                             <td class='text-xs' data-title='Quickbase'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
                             <td class='text-xs' data-title='Caspio'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
                         </tr>
 
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>Custom Data Sources</td>
-                            <td class='text-xs' data-title='Retool'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Budibase'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Mendix'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='OutSystems'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Appian'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Power Apps'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='AppSheet'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Filemaker'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Zoho Creator'> <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                stroke="black" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                            </svg></td>
-                            <td class='text-xs' data-title='Quicbase'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Caspio'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                        </tr>
 
                         <tr class=''>
                             <td class='text-xs' data-title=''>Automation Builder</td>
@@ -496,132 +377,8 @@
                             <td class='text-xs' data-title='Quickbase'>ISO27001 +<br>SOC 2</td>
                             <td class='text-xs' data-title='Caspio'>ISO27001 +<br>SOC 2</td>
                         </tr>
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>Audit Logs</td>
-                            <td class='text-xs' data-title='Retool'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Budibase'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Mendix'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='OutSystems'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Appian'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Power Apps'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='AppSheet'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                                <td class='text-xs' data-title='Filemaker'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                                <td class='text-xs' data-title='Zoho Creator'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                                <td class='text-xs' data-title='Quickbase'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                                <td class='text-xs' data-title='Caspio'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                        </tr>
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>SCIM</td>
-                            <td class='text-xs' data-title='Retool'>Enterprise</td>
-                            <td class='text-xs' data-title='Budibase'>Enterprise</td>
-                            <td class='text-xs' data-title='Mendix'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='OutSystems'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Appian'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Power Apps'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='AppSheet'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Filemaker'>Paid</td>
-                            <td class='text-xs' data-title='Zoho Creator'>Paid</td>
-                            <td class='text-xs' data-title='Quickbase'>Business tier</td>
-                            <td class='text-xs' data-title='Caspio'>Enterprise tier</td>
-                        </tr>
-                        <tr class='hide-mobile'>
-                            <td class='text-xs' data-title=''>Public API</td>
-                            <td class='text-xs' data-title='Retool'>Under Alpha</td>
-                            <td class='text-xs' data-title='Budibase'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Mendix'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='OutSystems'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Appian'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Power Apps'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='AppSheet'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Filemaker'> <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                stroke="black" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                            </svg></td>
-                            <td class='text-xs' data-title='Zoho Creator'> <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                stroke="black" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                            </svg></td>
-                            <td class='text-xs' data-title='Quickbase'> <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                stroke="black" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                            </svg></td>
-                            <td class='text-xs' data-title='Caspio'> <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                stroke="black" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                            </svg></td>
-                        </tr>
+                      
+                       
                         <tr class=''>
                             <td class='text-xs' data-title=''>App Embeds</td>
                             <td class='text-xs' data-title='Retool'>
@@ -692,165 +449,9 @@
                             </td>
                         </tr>
 
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>Custom AI Configs</td>
-                            <td class='text-xs' data-title='Retool'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Budibase'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Mendix'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='OutSystems'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Appian'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                            <td class='text-xs' data-title='Power Apps'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                            <td class='text-xs' data-title='AppSheet'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                            <td class='text-xs' data-title='Filemaker'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Zoho Creator'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                            <td class='text-xs' data-title='Quickbase'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                            <td class='text-xs' data-title='Caspio'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                        </tr>
+                       
 
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>Automation Branching</td>
-                            <td class='text-xs' data-title='Retool'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Budibase'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Mendix'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='OutSystems'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Appian'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Power Apps'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                            <td class='text-xs' data-title='AppSheet'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Filemaker'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Zoho Creator'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Quickbase'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Caspio'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                        </tr>
-
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>Visual RBAC</td>
-                            <td class='text-xs' data-title='Retool'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                            <td class='text-xs' data-title='Budibase'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Mendix'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                            <td class='text-xs' data-title='OutSystems'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                            <td class='text-xs' data-title='Appian'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                            <td class='text-xs' data-title='Power Apps'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                            <td class='text-xs' data-title='AppSheet'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                            <td class='text-xs' data-title='Filemaker'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                            <td class='text-xs' data-title='Zoho Creator'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                            <td class='text-xs' data-title='Quickbase'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                            <td class='text-xs' data-title='Caspio'>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                            </td>
-                        </tr>
-
+                       
                     </tbody>
                 </table>
             </div>
@@ -1170,462 +771,7 @@
         <div class="mx-md-auto mt-9 mb-4 container-8">
             {{ index $content_parts 5 | safe.HTML}}
         </div>
-        <div class="mx-md-auto mb-9 container-fw flex-row-md justify-center-xl">
-            <div class='alt-container mx-md-auto '>
-                <table class='alt-table no-scrollbar'>
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th>                                
-                                <div class="flex-row align-center">
-                                    <div>
-                                        <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1701445919/cms/alternatives/retool-logos-idpLYn9I4G_i2jddf.svg" class="u-xxs-avatar mr-2" />
-                                    </div>
-                                    <p class="alt-header font-weight-medium">Retool</p>
-                                </div>
-                            </th>
-                            <th class=''>
-                                <div class="flex-row align-center">
-                                    <div>
-                                        <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1696515725/Branding/Assets/Symbol/RGB/Full%20Colour/Budibase_Symbol_RGB_FullColour_cbqvha_1_z5cwq2.svg" class="u-xxs-avatar mr-2" />
-                                    </div>
-                                    <p class="alt-header font-weight-medium">Budibase</p>
-                                </div>
-                            </th>
-                            <th>
-                                <div class="flex-row align-center">
-                                    <div>
-                                        <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1701689459/cms/alternatives/mendix.svg" class="u-xxs-avatar mr-1"/>
-                                    </div>
-                                    <p class="alt-header font-weight-medium">Mendix</p>
-                                </div>
-                            </th>
-                            <th>
-                                <div class="flex-row align-center">
-                                    <div>
-                                        <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1701689454/cms/alternatives/outsystems_hlcsrj.png" class="u-xxs-avatar mr-1"/>
-                                    </div>
-                                    <p class="alt-header font-weight-medium">Outsystems</p>
-                                </div>
-                            </th>
-                            <th class=''>
-                                <div class="flex-row align-center ">
-                                    <div>
-                                        <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1701445914/cms/alternatives/appian_lsssym.png" class="u-xxs-avatar mr-2"/>
-                                    </div>
-                                    <p class="alt-header font-weight-medium">Appian</p>
-                                </div>
-                            </th>
-                            <th>
-                                <div class="flex-row align-center ">
-                                    <div>
-                                        <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1701445903/cms/alternatives/PowerApps_scalable_qo29on.svg" class="u-xxs-avatar mr-2" />
-                                    </div>
-                                    <p class="alt-header font-weight-medium">PowerApps</p>
-                                </div>
-                            </th>
-                            <th>
-                                <div class="flex-row align-center">
-                                    <div>
-                                        <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1701445911/cms/alternatives/appsheet_rebrand_logo_dms5gb.svg" class="u-xxs-avatar mr-1"/>
-                                    </div>
-                                    <p class="alt-header font-weight-medium">AppSheet</p>
-                                </div>
-                            </th>
-                            <th>
-                                <div class="flex-row align-center">
-                                  <div>
-                                    <img
-                                      src="https://res.cloudinary.com/daog6scxm/image/upload/v1704296553/cms/alternatives/claris-svgrepo-com_fezesc.svg"
-                                      class="u-xxs-avatar mr-1"
-                                    />
-                                  </div>
-                                  <p class="alt-header font-weight-medium">Filemaker</p>
-                                </div>
-                              </th>
-                              <th class=''>
-                                <div class="flex-row align-center ">
-                                    <div>
-                                        <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1701874198/cms/alternatives/zohocreator_z9lcvy.png" class="u-xxs-avatar mr-2"/>
-                                    </div>
-                                    <p class="alt-header font-weight-medium">Zoho Creator</p>
-                                </div>
-                            </th>
-                            <th>                                
-                                <div class="flex-row align-center">
-                                    <div>
-                                        <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1702477420/cms/alternatives/quickbase_p1vsvx.svg" class="u-xxs-avatar mr-2" />
-                                    </div>
-                                    <p class="alt-header font-weight-medium">Quickbase</p>
-                                </div>
-                            </th>
-                            <th class=''>
-                                <div class="flex-row align-center ">
-                                    <div>
-                                        <img src="https://res.cloudinary.com/daog6scxm/image/upload/v1712826067/cms/alternatives/caspio_logo_icon_168448_mfr8lo.svg" class="u-xxs-avatar mr-2"/>
-                                    </div>
-                                    <p class="alt-header font-weight-medium">Caspio</p>
-                                </div>
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>Custom Components</td>
-                            <td class='text-xs' data-title='Retool'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Budibase'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Mendix'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='OutSystems'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Appian'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Power Apps'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='AppSheet'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Filemaker'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Zoho Creator'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Quickbase'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Caspio'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                        </tr>
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>Custom Data Sources</td>
-                            <td class='text-xs' data-title='Retool'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Budibase'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Mendix'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='OutSystems'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Appian'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Power Apps'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='AppSheet'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Filemaker'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Zoho Creator'> <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                stroke="black" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                            </svg></td>
-                            <td class='text-xs' data-title='Quickbase'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Caspio'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                        </tr>
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>REST API connector</td>
-                            <td class='text-xs' data-title='Retool'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Budibase'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Mendix'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='OutSystems'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Appian'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Power Apps'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                            </svg>
-                            </td>
-                            <td class='text-xs' data-title='AppSheet'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Filemaker'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Zoho Creator'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Quickbase'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Caspio'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                        </tr>
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>AI integrations</td>
-                            <td class='text-xs' data-title='Retool'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Budibase'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Mendix'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='OutSystems'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Appian'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Power Apps'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                            </svg>
-                            </td>
-                            <td class='text-xs' data-title='AppSheet'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Filemaker'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Zoho Creator'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Quickbase'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Caspio'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                        </tr>
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>Webhooks</td>
-                            <td class='text-xs' data-title='Retool'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Budibase'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Mendix'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='OutSystems'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Appian'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Power Apps'>Priced separately</td>
-
-                            <td class='text-xs' data-title='AppSheet'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Filemaker'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Zoho Creator'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Quickbase'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                            <td class='text-xs' data-title='Caspio'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="18" height="18"
-                                    fill="none" viewBox="0 0 24 24" stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </td>
-                        </tr>
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>Security certs</td>
-                            <td class='text-xs' data-title='Retool'>SOC 2</td>
-                            <td class='text-xs' data-title='Budibase'>ISO27001</td>
-                            <td class='text-xs' data-title='Mendix'>ISO27001 +<br>SOC 2</td>
-                            <td class='text-xs' data-title='OutSystems'>ISO27001 +<br>SOC 2</td>
-                            <td class='text-xs' data-title='Appian'>ISO27001 +<br>SOC 2</td>
-                            <td class='text-xs' data-title='Power Apps'>ISO27001 +<br>SOC 2</td>
-                            <td class='text-xs' data-title='AppSheet'>ISO27001 +<br>SOC 2</td>
-                            <td class='text-xs' data-title='Filemaker'>ISO27001 +<br>SOC 2</td>
-                            <td class='text-xs' data-title='Zoho Creator'>ISO27001 +<br>SOC 2</td>
-                            <td class='text-xs' data-title='Quickbase'>ISO27001 +<br>SOC 2</td>
-                            <td class='text-xs' data-title='Caspio'>ISO27001 +<br>SOC 2</td>
-                        </tr>
-                        
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>Public API</td>
-                            <td class='text-xs' data-title='Retool'>Under Alpha</td>
-                            <td class='text-xs' data-title='Budibase'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Mendix'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='OutSystems'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Appian'> <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                    stroke="black" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                                </svg></td>
-                            <td class='text-xs' data-title='Power Apps'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='AppSheet'><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></td>
-                            <td class='text-xs' data-title='Filemaker'> <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                stroke="black" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                            </svg></td>
-                            <td class='text-xs' data-title='Zoho Creator'> <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                stroke="black" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                            </svg></td>
-                            <td class='text-xs' data-title='Quickbase'> <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                stroke="black" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                            </svg></td>
-                            <td class='text-xs' data-title='Caspio'> <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6" width="18" height="18" fill="none" viewBox="0 0 24 24"
-                                stroke="black" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                            </svg></td>
-                        </tr>
-                        <tr class=''>
-                            <td class='text-xs' data-title=''>OIDC Auth support</td>
-                            <td class='text-xs' data-title='Retool'><code class="coral text-xxs">Enterprise plan</code>
-                            </td>
-                            <td class='text-xs font-weight-medium' data-title='Budibase'><code class="indigo text-xxs">Free plan</code>
-                                </td>
-                            <td class='text-xs' data-title='Mendix'><code class="coral text-xxs">Enterprise plan</code>
-
-                            </td>
-                            <td class='text-xs' data-title='OutSystems'><code class="coral text-xxs">Enterprise plan</code>
-
-                            </td>
-                            <td class='text-xs' data-title='Appian'><code class="coral text-xxs">Enterprise plan</code>
-
-                            </td>
-                            <td class='text-xs' data-title='Power Apps'><code class="coral text-xxs">Enterprise plan</code></td>
-                            <td class='text-xs' data-title='AppSheet'><code class="coral text-xxs">Enterprise plan</code>
-                            </td>
-                            <td class='text-xs' data-title='Filemaker'><code class="coral text-xxs">Paid</code>
-                            </td>
-                            <td class='text-xs' data-title='Zoho Creator'><code class="coral text-xxs">Enterprise plan</code>
-                            </td>
-                            <td class='text-xs' data-title='Quickbase'><code class="coral text-xxs">Business plan</code>
-                            </td>
-                            <td class='text-xs' data-title='Caspio'><code class="coral text-xxs">Enterprise plan</code>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+      
     </article>
 </main>
 
