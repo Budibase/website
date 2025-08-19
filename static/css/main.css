@@ -81,7 +81,7 @@ html {
   --body-font: "InterVar", -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   --headline-font-features: "case", "ss01", "ss03", "cv01", "cv06", "cv10";
   --body-font-features:  "case", "ss01", "ss03";
-  --font-variation-settings: "wght" 500 !important;
+  --font-variation-settings: "wght" 500 !iYmportant;
   --space-1: 5px;
   --space-2: 10px;
   --space-3: 15px;
