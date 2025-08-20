@@ -1,7 +1,7 @@
 +++
 
 author = "Ronan McQuillan"
-date = 2024-07-14
+date = 2025-01-14
 description = "API headers are used to provide additional information about requests and responses."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1689339038/cms/api-headers/What_are_API_Headers_nnu7wo.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1689339038/cms/api-headers/What_are_API_Headers_nnu7wo.png"]
@@ -95,10 +95,6 @@ For the client side, the most common request header here is **authorization**, w
 Second, it can indicate to the server which specific resources user agents can access via API requests - at least within role-based access control systems.
 
 The most common response header for authorization is **www-authenticate**. This indicates that some form of authentication is required before the server can respond to the original request.
-
-![API headers security](https://res.cloudinary.com/daog6scxm/image/upload/v1685701489/cms/API-integration/API_incident_https___nordicapis.com_20-impressive-api-economy-statistics__lkamoz.webp "API headers security")
-
-([NordisCapis](https://nordicapis.com/apis-have-taken-over-software-development/))
 
 ### Response caching
 
