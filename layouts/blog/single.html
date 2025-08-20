@@ -7,8 +7,8 @@
       <div class="container-8 mx-auto">
         <a class="opacity-75 font-weight-medium a-alt" href="/blog/"><- All posts</a>
             <header class="mb-2 mt-6">
-              <h1 class="hero-title mt-2 mb-4">{{ .Title }}</h1>
-              <div class="flex-row align-center border-y py-1">
+              <h1 class="hero-title mt-2">{{ .Title }}</h1>
+              <div class="flex-row align-center py-1">
                 <div>
                   {{ if (.Params.profilePic) }}
                   <img class="u-avatar-5 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
@@ -29,9 +29,8 @@
                   </div>
                 </div>
               </div>
-
             </header>
-            <div class="mx-md-auto mt-6 mb-9">
+            <div class="mx-md-auto mt-2 mb-9">
               {{ .Content }}
             </div>
       </div>
