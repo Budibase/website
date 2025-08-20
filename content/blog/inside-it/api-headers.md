@@ -272,7 +272,7 @@ Check out our [features overview](https://budibase.com/product) to learn more.
 
 ### External data support
 
-Budibase is the clear market leader for data support. We offer dedicated connectors for MySQL, SQL Server, Postgres, S3, Oracle, Airtable, Couch, Mongo, Arango, Google Sheets, REST API, and more.
+Budibase is the clear market leader for data support. We offer dedicated connectors for all kinds of RDBMSs, NoSQL tools, and REST APIs.
 
 We’ve also got our own built-in database, along with full support for custom data sources.
 
@@ -292,16 +292,10 @@ We also offer support for a huge array of third-party app integrations, using RE
 
 Seamlessly marry security and user experience with our built-in role-based access control. Assign users to defined roles and grant permissions based on data sources, queries, automation rules, app screens, and individual components.
 
-We also offer secure environment variables - alongside free SSO using OAuth, OpenID, Microsoft, and more.
+We also offer secure environment variables - alongside free SSO.
 
 ### Custom plug-ins
 
 Budibase won’t be beaten for extensibility. Build your own custom components, data sources, and automation actions with our dedicated CLI tools. Or, import community contributions from GitHub in just a few clicks.
 
 Check out our [plug-ins documentation](https://docs.budibase.com/docs/custom-plugin) to learn more.
-
-### 50+ free app templates
-
-Thousands of businesses across all industries choose Budibase to build professional, integrated tools to manage their internal processes. To show off what’s possible, we’ve created more than fifty free, fully customizable [app templates](https://docs.budibase.com/docs/custom-plugin).
-
-Sign up for Budibase today to start building custom solutions, in a fraction of the time.
