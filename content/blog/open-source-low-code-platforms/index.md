@@ -3,7 +3,67 @@ author = "Joe Johnston"
 date = 2025-01-05T00:00:00Z
 description = "Open source low-code platforms come in all shapes and sizes. Here's everything you need to know in 2025"
 images = ["/open-source-low-code-platforms/open-source-low-code-platforms.jpg"]
-title = "10 best open source low-code platforms (tried and tested)"
+title = "10 Open-Source Low-Code Platforms (Tried and Tested)"
+
+[[softwareApplications]]
+name = "Budibase"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://budibase.com"
+
+[[softwareApplications]]
+name = "Huginn"
+applicationCategory = "businessApplication"
+operatingSystem = "Linux, macOS, Windows, Web"
+url = "https://github.com/huginn/huginn"
+
+[[softwareApplications]]
+name = "WordPress"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://wordpress.org"
+
+[[softwareApplications]]
+name = "Node-RED"
+applicationCategory = "businessApplication"
+operatingSystem = "Linux, macOS, Windows, Web"
+url = "https://nodered.org"
+
+[[softwareApplications]]
+name = "PyCaret"
+applicationCategory = "businessApplication"
+operatingSystem = "Linux, macOS, Windows"
+url = "https://pycaret.org"
+
+[[softwareApplications]]
+name = "Manifest.Build"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://manifest.build"
+
+[[softwareApplications]]
+name = "StackStorm"
+applicationCategory = "businessApplication"
+operatingSystem = "Linux, Web"
+url = "https://stackstorm.com"
+
+[[softwareApplications]]
+name = "GrapesJS"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://grapesjs.com"
+
+[[softwareApplications]]
+name = "Flowise"
+applicationCategory = "businessApplication"
+operatingSystem = "Linux, macOS, Windows, Web"
+url = "https://flowiseai.com"
+
+[[softwareApplications]]
+name = "AppFlowy"
+applicationCategory = "businessApplication"
+operatingSystem = "Linux, macOS, Windows, iOS, Android"
+url = "https://appflowy.com"
 
 +++
 {{< figure src="/open-source-low-code-platforms/open-source-low-code-platforms.jpg" alt="Top 10 open source low-code platforms" >}}
