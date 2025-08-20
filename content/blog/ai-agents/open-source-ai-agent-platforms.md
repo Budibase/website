@@ -6,6 +6,36 @@ profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/
 title = " Top 6 Open-Source AI Agent Platforms for 2025"
 type = "ai-agents"
 layout= "open-source-ai-agent-platforms"
+[[softwareApplications]]
+name = "LangChain"
+applicationCategory = "businessApplication"
+operatingSystem = "Linux, macOS, Windows"
+url = "https://www.langchain.com"
+[[softwareApplications]]
+name = "CrewAI"
+applicationCategory = "businessApplication"
+operatingSystem = "Linux, macOS, Windows"
+url = "https://www.crewai.com"
+[[softwareApplications]]
+name = "AutoGPT"
+applicationCategory = "businessApplication"
+operatingSystem = "Linux, macOS, Windows"
+url = "https://agpt.co"
+[[softwareApplications]]
+name = "Superagent"
+applicationCategory = "businessApplication"
+operatingSystem = "Linux, macOS, Windows"
+url = "https://www.superagent.sh"
+[[softwareApplications]]
+name = "MetaGPT"
+applicationCategory = "businessApplication"
+operatingSystem = "Linux, macOS, Windows"
+url = "https://www.deepwisdom.ai"
+[[softwareApplications]]
+name = "CAMEL"
+applicationCategory = "businessApplication"
+operatingSystem = "Linux, macOS, Windows"
+url = "https://www.camel-ai.org"
 +++
 
 There's a huge amount of hype around AI agents. Every day, we hear new reasons why they’re going to transform just about all aspects of daily life. But, practical information about how to make this a reality is less forthcoming.
