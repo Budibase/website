@@ -23,7 +23,7 @@ Previously, Budibase centered everything around building a single app. Each app 
 With Workspaces, that changes. Now, you can group multiple apps, automations, and data sources together within a single workspace. This unlocks two of our most requested features:
 
 - **Shared data sources:** Multiple apps can now use the same datasource within a workspace.
-- **Reusable components:** Share components across apps in the same workspace.
+- **Copy/Paste components:** Share components across apps in the same workspace.
 
 A workspace is your toolkit for transforming workflows - housing everything you need to build, automate, and connect processes.
 
