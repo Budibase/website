@@ -1,7 +1,7 @@
 +++
 
 author = "Ronan McQuillan"
-date = 2024-07-14
+date = 2025-01-14
 description = "API headers are used to provide additional information about requests and responses."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1689339038/cms/api-headers/What_are_API_Headers_nnu7wo.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1689339038/cms/api-headers/What_are_API_Headers_nnu7wo.png"]
@@ -95,10 +95,6 @@ For the client side, the most common request header here is **authorization**, w
 Second, it can indicate to the server which specific resources user agents can access via API requests - at least within role-based access control systems.
 
 The most common response header for authorization is **www-authenticate**. This indicates that some form of authentication is required before the server can respond to the original request.
-
-![API headers security](https://res.cloudinary.com/daog6scxm/image/upload/v1685701489/cms/API-integration/API_incident_https___nordicapis.com_20-impressive-api-economy-statistics__lkamoz.webp "API headers security")
-
-([NordisCapis](https://nordicapis.com/apis-have-taken-over-software-development/))
 
 ### Response caching
 
@@ -276,7 +272,7 @@ Check out our [features overview](https://budibase.com/product) to learn more.
 
 ### External data support
 
-Budibase is the clear market leader for data support. We offer dedicated connectors for MySQL, SQL Server, Postgres, S3, Oracle, Airtable, Couch, Mongo, Arango, Google Sheets, REST API, and more.
+Budibase is the clear market leader for data support. We offer dedicated connectors for all kinds of RDBMSs, NoSQL tools, and REST APIs.
 
 We’ve also got our own built-in database, along with full support for custom data sources.
 
@@ -296,16 +292,10 @@ We also offer support for a huge array of third-party app integrations, using RE
 
 Seamlessly marry security and user experience with our built-in role-based access control. Assign users to defined roles and grant permissions based on data sources, queries, automation rules, app screens, and individual components.
 
-We also offer secure environment variables - alongside free SSO using OAuth, OpenID, Microsoft, and more.
+We also offer secure environment variables - alongside free SSO.
 
 ### Custom plug-ins
 
 Budibase won’t be beaten for extensibility. Build your own custom components, data sources, and automation actions with our dedicated CLI tools. Or, import community contributions from GitHub in just a few clicks.
 
 Check out our [plug-ins documentation](https://docs.budibase.com/docs/custom-plugin) to learn more.
-
-### 50+ free app templates
-
-Thousands of businesses across all industries choose Budibase to build professional, integrated tools to manage their internal processes. To show off what’s possible, we’ve created more than fifty free, fully customizable [app templates](https://docs.budibase.com/docs/custom-plugin).
-
-Sign up for Budibase today to start building custom solutions, in a fraction of the time.
