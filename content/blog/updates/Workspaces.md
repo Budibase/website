@@ -52,4 +52,6 @@ Our mission is simple: **Make the workplace faster**. We’re focused on transfo
 
 Combined with Budibase's existing toolkit (app builder, internal database, SQL GUI, REST API connector), Workspaces is our first step in our quest to become the world’s leading open source workflow platform.
 
+Not everyone will immediately have access to Workspaces. We will gradually roll it out across all users. Our plan is for all users to have access to Workspaces before the 29th August 2025.
+
 Start exploring Workspaces today and [let us know what you think](https://github.com/Budibase/budibase/discussions).
