@@ -1,7 +1,7 @@
 +++
 
 author = "Ronan McQuillan"
-date = "2023-06-30"
+date = "2024-09-30"
 description = "Today we're checking out the practical differences between CAP vs ACID for data storage."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1688129016/cms/cap-vs-acid/CAP_vs_ACID_c0rr20.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1688129016/cms/cap-vs-acid/CAP_vs_ACID_c0rr20.png"]

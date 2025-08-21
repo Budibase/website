@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2023-09-19
+date = 2024-09-19
 description = "Wide-column databases are a type of column-orientated NoSQL database."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1695121493/cms/wide-column-database/Wide_Column_Database_Header_kmjhsn.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1695121493/cms/wide-column-database/Wide_Column_Database_Header_kmjhsn.png"]

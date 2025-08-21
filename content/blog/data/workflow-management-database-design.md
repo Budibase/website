@@ -1,7 +1,7 @@
 +++
 
 author = "Ronan McQuillan"
-date = "2023-07-21"
+date = "2024-11-21"
 description = "The right workflow management database design is the key to building tools that drive efficiency."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1689941559/cms/workflow-management-database-design/Worfklow_Management_Database_Design_ayvcig.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1689941559/cms/workflow-management-database-design/Worfklow_Management_Database_Design_ayvcig.png"]
