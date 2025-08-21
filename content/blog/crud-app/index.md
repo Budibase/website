@@ -1,6 +1,6 @@
 +++
 author = "Joe Johnston"
-date = 2024-10-06T00:00:00Z
+date = 2025-03-06T00:00:00Z
 dateModified = 2022-04-04T00:00:00Z
 description = "A CRUD app is a piece of software that's used to create, read, update & delete database entries"
 images = ["/blog/crud-app/images/read.webp"]
@@ -65,7 +65,7 @@ Create allows you to add new rows/records to a database/table or other persisten
 
 1. Create/add a new book to our library management app
 
-{{< figure src="/blog/crud-app/images/create.webp"  alt="Create a record in a basic crud app" >}}
+![Create a CRUD App](https://res.cloudinary.com/daog6scxm/image/upload/v1755785802/cms/crud-app/CRUD_App_1_xh0gfd.webp "Create a CRUD App")
 
 #### Read
 
@@ -75,7 +75,7 @@ Read is the operation that allows us to see the recipe we just created. It does 
 
 1. View the books within our library
 
-{{< figure src="/blog/crud-app/images/read.webp"  alt="Read records from a basic crud app" >}}
+![READ Operation](https://res.cloudinary.com/daog6scxm/image/upload/v1755785803/cms/crud-app/CRUD_App_2_qadaua.webp "READ Operation")
 
 #### Update
 
@@ -85,7 +85,7 @@ Update is the operation that allows us to modify existing data and records withi
 
 1. Update a book's availability
 
-{{< figure src="/blog/crud-app/images/update-2.webp"  alt="Update a record in a basic crud app" >}}
+![UPDATE](https://res.cloudinary.com/daog6scxm/image/upload/v1755785802/cms/crud-app/CRUD_App_3_ga0x2b.webp "Update")
 
 #### Delete
 
@@ -95,7 +95,7 @@ Delete is the operation that allows us to remove records from a table using a CR
 
 1. Remove a book from our library management system
 
-{{< figure src="/blog/crud-app/images/delete.webp"  alt="Delete a record in a basic crud app" >}}
+![DELETE](https://res.cloudinary.com/daog6scxm/image/upload/v1755785802/cms/crud-app/CRUD_App_4_ercqiv.webp "Delete")
 
 ### Two additional basic CRUD app examples
 
@@ -178,41 +178,47 @@ There are three high-level steps to building our CRUD app; setting up Budibase, 
 
 #### Setting up Budibase
 
-If you are new to Budibase, click the ‘Get started’ button in the navigation (if on mobile, click the burger menu, then the ‘Get started’ button). Once you have Budibase setup, follow the actions below:
+If you are new to Budibase, click the ‘Get started’ button in the navigation (if on mobile, click the burger menu, then the ‘Get started’ button). Once you have Budibase setup, follow the actions below.
+
+Budibase projects center around Workspaces. These are group collections of data, automation rule, and end-user applications that can interact with one another. The first hting we need to do is create a new Workspace.
 
 ##### Actions:
 
-* Click the ‘Create new app’ button.
-* Give your app a name. We are going to call our app the ‘Library management app’ - very original.
+* Click the ‘Create workspace app’ button.
+* Give your workspace a name. We are going to call our Workspace the ‘Library management app’ - very original.
 
-{{< figure src="/blog/crud-app/images/create-new-app.webp"  alt="Create new crud app" >}}
+![New Workspace](https://res.cloudinary.com/daog6scxm/image/upload/v1755785803/cms/crud-app/CRUD_App_5_m7kmgl.webp "New Workspace")
 
 #### Create your data structure
 
 Budibase has its own database and supports several others; including MySQL, PostgreSQL, Mongo, and more. For our CRUD app, we will simply use Budibase’s internal database - Budibase DB.
 
+![Data](https://res.cloudinary.com/daog6scxm/image/upload/v1755785802/cms/crud-app/CRUD_App_6_or7lxy.webp "Data")
+
 ##### Actions:
 
 * Create a Budibase DB table, and call it ‘Books’
+
 * Create a column within your Books table, and fill out the form:
   * Name - Title
   * Type - Text
   * Select ‘Primary’ under search indexes
+  
 * Create another column within your Books table, and fill out the form:
   * Name - Author
   * Type - Text
   * Select ‘Secondary’ under search indexes
+  
 * Create another column within your Books table, and fill out the form:
   * Name - Status
   * Type - Options
     * Options 1 - Available
     * Options 2 - Not available
+  
 * Create another column within your Books table, and fill out the form:
   * Name - Checked out by
-  * Type - Relationship
-  * Table - Users
-  * Define the relationship - One Users row -> many Books rows
-  * Column name in other table - Books
+  * Type - Single User
+  
 * That’s our database and table structure setup. Now let’s add a few records for testing purposes:
   * Click ‘create row’
   * Complete the form:
@@ -235,68 +241,48 @@ Budibase has its own database and supports several others; including MySQL, Post
     * Status - Available
     * Checked out by - leave blank
     * Click 'save'
-  * Click on the Design tab (in the top navigation bar)
-
-{{< figure src="/blog/crud-app/images/data.webp"  alt="Create a new crud app table" >}}
+  
+  ![Database](https://res.cloudinary.com/daog6scxm/image/upload/v1755786626/cms/crud-app/CRUD_App_7_eicqic.webp "Database")
 
 #### Designing your user interface
 
-The design section is where we create our User Interface. You will notice on the left-hand side of your screen, there is a list of screens/routes and components. These screens were autogenerated by Budibase. Budibase is smart enough to know that for each Budibase table you create, you will need a new, list, and detail screen, in other words, a create (new), read (list), update + delete (detail) screen. This makes it faster and easier to build CRUD apps. Let’s get started.
+The Apps section of our Workpsace is where we can start creating end-user applications. 
 
-##### Actions:
+We're going to add an App, and call it `Library Management`.
 
-* Click the books/:id screen
-  * Click ‘Field group’
-  * In the settings panel, click ‘Update form fields’
+![New App](https://res.cloudinary.com/daog6scxm/image/upload/v1755786772/cms/crud-app/CRUD_App_8_h7bivc.webp)
 
-    _This should generate a form, with record details in it, and will allow us to update and delete individual records._
-* Click the books/new/row screen
-  * Click ‘Field group’
-  * In the settings panel, click ‘Update form fields’
+We can add a screen to our new app, either by starting from scratch or using one of Budibase's autogenerated layouts.
 
-    _This should generate a new form for adding new books_
+![Layouts](https://res.cloudinary.com/daog6scxm/image/upload/v1755787038/cms/crud-app/CRUD_App_9_ouufew.webp "Layouts")
 
-{{< figure src="/blog/crud-app/images/update-form-fields.webp"  alt="Update form fields in Budibase app" >}}
+We're going to select the `Table` option. This will automatically generate a working CRUD UI for whichever data table we select. As you might expect, we're choosing our `Books` table.
 
-_Adding search_
+![Books](https://res.cloudinary.com/daog6scxm/image/upload/v1755787039/cms/crud-app/CRUD_App_10_bcy9e5.webp "Books")
 
-* Click on the ‘Container’ component under /books
-* Add a form component (located within the component panel ((above the main screen))
-* Drag the ‘Data Provider’ component (with children) inside the ‘New Form’ component
-* Click on the ‘New Form’ component
-  * In the settings panel (right panel), select the Schema dropdown, and select Books
-  * Under Theme, select ‘Lightest’
-* Add a Text Field component (under Form in the component panel)
-  * Drag the text field component above the data provider component (and nested under 'New Form')
-  * In the settings panel, click the ‘Field’ dropdown and select Title.
-  * In the ‘Placeholder’ textbox, add a placeholder - we will use ‘Search title’.
-  * Find the ‘Margin’ section and change ‘Bottom’ to ‘20px’.
-* Click the ‘data provider’ component in your left nav panel
-  * Click ‘Define Filters’
-  * Click ‘Add expression’
-  * In the first dropdown, select 'Title'
-  * In the second dropdown, select ‘Starts with’
-  * In the third dropdown, select ‘Binding’
-  * And in the fourth input, click the little lightning bolt
-    * A new drawer will appear. Select the ‘New Form.Fields.Title' option under ‘Columns’, and click ‘Save’
-    * Click ‘Save’ again (to save your new filter)
+We're then offered several options for how we'd like to handle our CREATE and UPDATE row forms. We're selecting the option to wrap these in `Modals`.
 
-{{< figure src="/blog/crud-app/images/search.webp"  alt="Create search within your CRUD app" >}}
+![Modals](https://res.cloudinary.com/daog6scxm/image/upload/v1755787039/cms/crud-app/CRUD_App_11_evfquu.webp "Modals")
 
-You’ve successfully added search and we now have our final CRUD app that will:
+This will open our new screen in the Budibase builder. On the left-hand side, we can see each of its constituent components.
 
-1. Make it easier to add new books
-2. Make it easier to search books
-3. Make it faster to check the availability of books
-4. Improve the experience when updating book information, including availability
-5. Make it possible to assign users to books
-6. Improve the experience around deleting books
+![Components](https://res.cloudinary.com/daog6scxm/image/upload/v1755787732/cms/crud-app/CRUD_App_12_ie3oeo.webp "Components")
 
-And believe it our not, that’s us finished. Well done! Click the preview button (play icon) to view your CRUD app, or click Publish to push it live.  Click the Books link, and there is your table with search.
+As this is already a fully functional CRUD app, we're only going to make minor adjustments to alter its UX.
 
-> Tip - if you click the Books screen, and change the route to '/' it will reroute to your homepage.
+Firstly, we're adding a `Filter` component. This allows us to specify a specifc data-focused component and provides end-user filtering, based on whichever columns we select. We've pointed this at our table, and chosen the `Title`, `Author`, and `Status` columns.
 
-{{< figure src="/blog/crud-app/images/searching.webp"  alt="A picture of our new CRUD app" >}}
+![CRUD App](https://res.cloudinary.com/daog6scxm/image/upload/v1755788083/cms/crud-app/CRUD_App_13_eziu4o.webp "CRUD App")
+
+We're also going to make a few stylistic changes to our two forms, including setting their `Button Position` to `Top`, and updating their `Title` text to something more human readable.
+
+![How to Build a CRUD App](https://res.cloudinary.com/daog6scxm/image/upload/v1755788187/cms/crud-app/CRUD_App_14_eezsv3.webp "How to Build a CRUD App")
+
+Once we're happy, our CRUD app is ready to push live. Note that for today's example, we used a BudibaseDB table, but we could follow the exact same process to autogenerate CRUD UIs for all kinds of relational databases. Budibase also gives us the flexibility and power to output working UIs for performing CRUD operations on a range of NoSQL databases and APIs.
+
+Budibase is also the ideal solution for building internal tools in security-first organizations, including free SSO, optional self-hosting, fully customizable RBAC, and more. For more complex workflows, you can also build complex logic in our automation builder, complete with looping, branching, and a host of pre-build AI operations, powered by a choice of LLMs.
+
+{{< custom-cta text="Build CRUD tools on top of any data with Budibase">}}
 
 ***
 
