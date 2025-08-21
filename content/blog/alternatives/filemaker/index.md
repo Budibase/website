@@ -1,5 +1,5 @@
 ---
-date: 2024-01-02
+date: 2025-01-10
 title: 8 Filemaker Alternatives & Competitors
 description: Check out our round-up of the top FileMaker alternatives.
 images:
@@ -49,9 +49,9 @@ softwareApplications:
     url: "https://www.zoho.com/creator/"
 ---
 
-Claris FileMaker Pro is one of the oldest names in the low-code space. Claris is a subsidiary of Apple, so FileMaker was originally conceived as essentially being a Microsoft Access alternative for Mac users.
+Claris FileMaker Pro is one of the oldest names in the low-code space. Claris is a subsidiary of Apple, so FileMaker was long  thought of as essentially being a Microsoft Access alternative for Mac users. Today, the picture is quite a bit different.
 
-This is an important piece of context because it means that FileMaker started life as an integrated relational database engine and GUI. This remains its core offering, but it’s also evolved to include functionality around building custom interfaces and automations.
+This is an important piece of context because it means that FileMaker started life as an integrated relational database engine and GUI. This remains a key part of its core offering, but it’s also evolved to include functionality around building custom interfaces and automations, as well as extensive capabilities for leveraging AI within app projects.
 
 FileMaker can be a powerful solution, but it isn’t for everyone. Today, we’re situating it in the wide low-code market as we check out some of the top FileMaker alternatives.
 
@@ -72,14 +72,18 @@ Launched in the mid-1980s, FileMaker is a low-code tool for creating and managin
 
 The goal is to provide users with a drag-and-drop interface for establishing and populating database schemas, as well as building user interfaces for interactions with this data.
 
-It’s primarily aimed at facilitating basic data management tasks, including CRUD operations, validation, storage, auditing, and governing access. On top of this, it’s popular for automating menial tasks and creating simple forms, reports, and other UIs.
+It’s primarily aimed at facilitating data management tasks, including CRUD operations, validation, storage, auditing, and governing access. On top of this, it’s popular for automating menial tasks and creating simple applications, including forms, reports, and other UIs.
+
+More rcently, Claris has also introduced a whole suite of AI capabilties in FileMaker. This includes tools for using data alongside LLMs, document retreival and extraction, natural language search, and generating AI-powered responses for end users. 
+
+AI features can be powered by public models like OpenAI, Anthropic, and Cohere, or the locally-hosted model of your choice.
 
 Helpfully, FileMaker provides dedicated functionality for shipping native web and mobile apps, making it a great solution for teams that need to output cross-platform solutions. For more technical users, it also integrates with JavaScript, PHP, HTML, XML, and other tools.
 
 ## Who uses FileMaker?
 FileMaker is particularly popular among SMBs. One way of thinking about its niche is scenarios where data volumes are too large for spreadsheets to be tenable but the users tasked with managing this data lack the technical skills for a traditional RDBMS.
 
-As such, FileMaker users tend not to be developers - or even IT professionals. Rather, it’s used heavily by departmental leaders, business technologists, project managers, and other colleagues who need an accessible way to control internal data assets.
+As such, FileMaker users often aren't professional developers - or even IT professionals. Rather, it’s used heavily by departmental leaders, business technologists, project managers, and other colleagues who need an accessible way to control internal data assets.
 
 Where technical colleagues are involved, FileMaker is typically used as a means to output simple internal tools quickly - especially by already overburdened IT teams. For example, in industries like education or smaller-scale inventory, HR, and customer-facing contexts.
 
@@ -88,13 +92,13 @@ We’ve already hinted at some of the key use cases. On top of forms and reporti
 ## Why would you need a FileMaker alternative?
 FileMaker has been around for a very long time - especially in the context of the wider low-code market. The trouble is that this space has experienced huge disruption over the past few years and legacy vendors have struggled to keep pace.
 
-For example, many users complain that it lags behind newer platforms in terms of both capabilities and developer experiences. Compared to newer competitors, it also presents a relatively steep learning curve.
+For example, many users complain that it lags behind newer platforms in terms of both capabilities and developer experiences. Compared to some newer competitors, it may also present a relatively steep learning curve.
 
 For example, although the drag-and-drop interface designer is perfectly intuitive, it’s somewhat more limited in terms of customization than some other platforms on the market, as we’ll see shortly.
 
-FileMaker is also designed to be sticky. That is, the intention is for teams to adopt FileMaker and continue using it for storing data in the long term. Data is stored in a proprietary format, making it tricky to migrate to a more sophisticated RDBMS when you outgrow FileMaker.
+FileMaker is also designed to be sticky. That is, the intention is for teams to adopt FileMaker and continue using it for storing data in the long term. We can connect to external databases in our apps, but we'll need to this up with ODBC, rather than using native connectors.
 
-On top of this, FileMaker hasn’t exactly kept pace with changes to the way businesses handle data over the past decade or so. 
+On top of this, FileMaker hasn’t always kept pace with changes to the way businesses handle data over the past decade or so. 
 
 For example, handling unstructured data in NoSQL databases may be possible via API connections, but experiences for doing so are not streamlined. If this is important to you, you’ll want to look elsewhere.
 
@@ -128,22 +132,22 @@ Here’s a summary of what each one brings to the table.
 Let’s check each one out in turn.
 
 ## 1. Budibase
-Budibase is an open-source, low-code platform that empowers teams to turn data into action. Like FileMaker, we offer a built-in database, a drag-and-drop UI builder with front-end scripting, and a range of tools for automating and managing internal processes.
+Budibase is the open-source, low-code platform that empowers IT teams to turn data into action. Like FileMaker, we offer a built-in database, a drag-and-drop UI builder with front-end scripting, and a range of tools for automating and managing internal processes - including leveraging LLMs.
 
-However, unlike FileMaker, Budibase is optimized for busy IT teams in large organizations that need to output professional solutions at pace.
+However, unlike FileMaker, Budibase is fully optimized for busy IT teams in large organizations that need to output professional solutions at pace.
 
 ![Budibase design platform interface](https://res.cloudinary.com/daog6scxm/image/upload/v1680181644/ui/homepage-design-ui_sizp7b.webp)
 
 ### Features
-Whereas external data sources must be configured manually in FileMaker using API requests and ODBC, we offer a range of dedicated connectors for SQL and NoSQL databases, as well as REST APIs, Google Sheets, Airtable, and more. You can use our visual editor to create custom filtering and transformation views, assign them to custom user roles, and autogenerate secure screens and automations in just a few clicks.
+Whereas external data sources must be configured manually in many FileMaker alternatives using API requests and ODBC, we offer a range of dedicated connectors for SQL and NoSQL databases, as well as REST APIs, Google Sheets, and more. You can use our visual editor to create custom filtering and transformation views, assign them to custom user roles, and autogenerate secure screens and automations in just a few clicks.
 
 We also offer a built-in low-code database with full support for CSV imports and a spreadsheet-like interface for performing CRUD actions or altering table schemas. Budibase users can even create their own custom data sources using our CLI tools.
 
-Our interface designer makes custom coding totally optional. We offer a range of tools for building highly advanced user experiences without writing a single line of code - including adding conditionality, mobile responsiveness, app theming, and more.
+Our interface designer makes custom coding totally optional. We offer a range of tools for building highly advanced user experiences without writing a single line of code - including autogenerating app screens, and adding conditionality, mobile responsiveness, app theming, and more.
 
-Budibase also makes it incredibly easy to automate manual tasks. Use our flow-chart-based automation builder to craft custom rules by configuring a huge range of built-in triggers and actions, including looping or branching logic. We even offer custom AI configs to connect to external models for handling app logic.
+Budibase also makes it incredibly easy to automate manual tasks. Use our flow-chart-based automation builder to craft custom rules by configuring a huge range of built-in triggers and actions, including looping or branching logic. We offer a range of AI operations in the Data and Automation sections, powered by OpenAI, Azure, or Budibase AI.
 
-We even offer free SSO, optional self-hosting, custom branding, flexible visual RBAC, and more.
+We even offer free SSO, optional self-hosting, custom branding, flexible visual RBAC, and more. With Budibase Workspaces, teams can now reuse data and automations across all applications in a given Workspace.
 
 
 ### Use cases
@@ -170,9 +174,9 @@ We also offer custom enterprise pricing with a range of advanced security featur
 ## 2. PowerApps
 PowerApps is one of FileMaker’s most direct competitors. It’s Microsoft’s low-code offering and the flagship of their Power Platform ecosystem.
 
-It’s a particularly good choice for businesses for businesses that are already heavily embedded in the Microsoft ecosystem. However, there are a few key areas where it falls short for users who are not.
+It’s a particularly good choice for businesses for businesses that are already heavily embedded in the Microsoft ecosystem. However, there are a few key areas where it could fall short for users who are not.
 
-![PowerApps UI](https://res.cloudinary.com/daog6scxm/image/upload/v1701788481/cms/alternatives/PowerApps_n1s2xt.webp)
+![PowerApps UI](https://res.cloudinary.com/daog6scxm/image/upload/v1755611575/cms/alternatives/retool/Power_Apps_spexkf.webp "PowerApps FileMaker Alternative") (PowerApps Website)
 
 ### Pros
 As we hinted at, PowerApps works very neatly across other tools in the Power Platform and Office365 ecosystems. So, it offers integrations with Power Automation, SharePoint, Dynamics, PowerBI, SQL Server, and more.
@@ -186,14 +190,14 @@ PowerApps’ biggest downside is its steep learning curve. We said a second ago 
 
 It’s also very strict syntactically and many Power Apps users complain that it can be very difficult to get functions to work as intended without effective error messaging.
 
-PowerApps also lacks some of the key functionality of other FileMaker alternatives. For instance, it can’t be self-hosted. You’ll also need a separate license for Power Automate if you want to build automations.
+PowerApps also lacks some of the key functionality of other FileMaker alternatives. For instance, it can’t be self-hosted. You’ll also need a separate license for Power Automate if you want to build complex automations.
 
 ### Pricing
-One reason for Power Apps’ popularity is its simple, comparatively affordable pricing model. All users are billed at $20 per month - whether they’re creators or end users.
+One reason for Power Apps’ popularity is its simple, comparatively affordable pricing model. There's a working free tier, with limitations on stored data and automation runs. On the Premium plan users are billed at $20 per month - whether they’re creators or end users. This scales down to $12 if we have more than 2,000 seats.
 
-However, related platforms like Power Automate - which you might also need - bill separately.
+However, related platforms like Power Automate or Co Pilot Studio - which you might also need - bill separately.
 
-A PowerApps license enables us to build as many applications as we want, although there are other usage limitations. For instance, around data stored via the Microsoft Dataverse.
+A PowerApps license enables us to build as many applications as we want, although there are other usage limitations, including around data and automation runs.
 
 ### 3. Retool
 
@@ -201,7 +205,7 @@ Retool is probably the best-known modern low-code platform. Launched in 2017, it
 
 However, unlike most of the other tools we’ll see today, it’s aimed squarely at professional developers. This means that it offers a relatively high degree of flexibility and customization but at the expense of usability for less technical colleagues.
 
-![Retool UI](https://res.cloudinary.com/daog6scxm/image/upload/v1702486684/cms/alternatives/Retool_Screenshot_uajr8r.webp)
+![Retool UI](https://res.cloudinary.com/daog6scxm/image/upload/v1755611577/cms/alternatives/retool/Retool_eu6iyk.webp "Retool")(Retool Website)
 
 
 #### Pros
@@ -210,14 +214,16 @@ Retool took a large market share away from platforms like FileMaker and PowerApp
 
 It also offers strong experiences around configuring your data layer. Unlike FileMaker, there are a range of dedicated connectors for external databases - so we don’t have to set this up manually via ODBC.
 
-Retool also offers a flexible, flow-based automation builder. This gives developers extensive scope for adding custom code, branching logic, and more.
+Retool also offers a flexible, flow-based automation builder. This gives developers extensive scope for adding custom code, branching logic, and more. On top of this, they've recently launcehd a range of agentic AI capabilities.
 
 
 #### Cons
 
 Retool is a developer-focused platform, first and foremost. This isn’t a criticism as such - but it means that we’re more likely to need to write custom code for any given use case than we are with the other FileMaker alternatives in this list.
 
-Retool is also  closed-source, meaning that its source code can’t be audited by security teams - even though it’s intended to interact with external production databases.
+So, we might want want to look for a less code-intensive, or even a no-code option if we want to empower other types of colleagues to build applications.
+
+Retool is also closed-source, so we may want to look elsewhere if this is a firm requirement.
 
 
 #### Pricing
@@ -226,57 +232,57 @@ Retool has a four-tier billing model - Free, Team, Business, and Enterprise. Lik
 
 However, each pricing tier also introduces other restrictions. For example, the Team tier bills at $10 per month for developers and $5 for end users, but limits us to 5,000 automation runs. We’d need to go for a more expensive plan to overcome this limit.
 
-Key functionalities like custom branding and SSO are reserved for the Enterprise tier, which also has the potential to make Retool a very expensive option.
+Key functionalities like custom branding and SSO are reserved for the Enterprise tier, which also has the potential to make Retool a very expensive option if these are firm requirements.
 
 
 ### 4. Appian
 
 Appian occupies a slightly different corner of the low-code market. Like FileMaker, it still offers a built-in database and visual interface for building app UIs.
 
-However, it positions itself as a process automation tool as much as an app builder. Naturally, there’s a lot of overlap here, but it means that the priorities are a little bit different than with other FileMaker alternatives.
+However, it positions itself as a process automation tool as much as an app builder, including extensive capabilities for leveraging AI within workflows. Naturally, there’s a lot of overlap here, but it means that the priorities are a little bit different than with other FileMaker alternatives.
 
-![Appian website interface](https://res.cloudinary.com/daog6scxm/image/upload/v1701788479/cms/alternatives/Appian_wmf5ys.webp)
+![Appian website interface](https://res.cloudinary.com/daog6scxm/image/upload/v1755611575/cms/alternatives/retool/Appian_cqk9kj.webp "Appian") (Appian Website)
 
 
 #### Pros
 
 Appian offers some very advanced capabilities in the realm of automation. On top of its flowchart-based automation builder, there are dedicated tools for process modeling, RPA, machine learning, performance analytics, and more.
 
-It’s also aimed at a somewhat less technical target persona than a platform like Retool. Although it is still a low-code platform, so we do have scope to add custom scripting if required.
+It’s also a strong offering in terms of AI capabilities, including tools for building, deploying, and managing agents with processes. Importantly, there's also a range of features for putting guardrails in place around our AI-based automation systems.
 
-Users have the option to self-host Appian, which is an important selling point over the likes of PowerApps, which don’t support this.
+Appian also offers Data Fabric, a unified data layer for connecting disparate sources across the enterprise.
 
 
 #### Cons
 
-However, Appian doesn’t offer us the same degree of flexibility and customization as some other players in the low-code space. This is the trade-off of targeting their platform at less technical colleagues.
+However, Appian may not offer us the same degree of flexibility and customization as some other players in the low-code space when it comes to building UIs, compared to less automation-focused platforms. 
 
-While self-hosting is available, many users complain that releases to this don’t keep pace with the cloud-based counterpart. This is obviously frustrating, as it could mean we sacrifice new functionality if we want to deploy internal tools to our own infrastructure.
+On top of this, Appian's UI builder may look and feel a little bit dated compared to some more modern tools.
 
-Lastly, some users complain that Appian isn’t quite optimized for working with larger data sets. 
+Lastly, Appian is a somewhat enterprise-focused tool, so some of the capabilties on offer may be excessive for smaller teams or use cases.
 
 
 #### Pricing
 
-Appian has quite an interesting pricing model. Like most tools in this space, pricing is per-user. However, uniquely they treat users differently depending on how often they interact with the product.
+Appian’s pricing is based around three tiers, on a per-user per-month model - Standard, Advanced, and Premium.
 
-On the Application tier, this breaks down as $75 for standard users, $9 for infrequent users, and $2 for input-only users. This could potentially be very affordable or very expensive - depending on your real-world needs.
+The specific costs of these are not currently advertised on their pricing page.
 
-You can build unlimited apps for up to 15 users in the free plan, while there are also two separate enterprise tiers - with per-user and per-development pricing.
+Each tier implements distinct feature and usage restrictions. For example, we’ll need an Advanced license to access most AI capabilities.
 
 
 ### 5. Mendix
 
-Lastly, we have Mendix. This is another one of the more established names in the low-code space. Like Retool, it’s also heavily targeted towards developers, especially within larger organizations.
+Next, we have Mendix. This is another one of the more established names in the low-code space. Like Retool, it’s also heavily targeted towards developers, especially within larger organizations.
 
 So, we have some interesting functionality around integrating Mendix with various SDLCs, development processes, and other tools that are typically relied on by these kinds of teams.
 
-![Mendix UI](https://res.cloudinary.com/daog6scxm/image/upload/v1701788478/cms/alternatives/Mendix_o247iy.webp)
+![Mendix UI](https://res.cloudinary.com/daog6scxm/image/upload/v1755611576/cms/alternatives/retool/Mendix_qnd5ts.webp "Mendix") (Mendix Website)
 
 
 #### Pros
 
-Mendix is centered around a visual IDE - Mendix Studio Pro. This combines a drag-and-drop UI for handling components with extensive scope for adding front-end scripting, business logic, and integrations.
+Mendix is centered around a visual IDE - Mendix Studio Pro. This combines a drag-and-drop UI for handling components with extensive scope for adding front-end scripting, business logic, and integrations. There's also extensive AI capabilities across the entire SDLC.
 
 Mendix is also highly extensible. There’s a proprietary SDK for building custom integrations, components, reusable scripts, and more. Therefore, it can be a very powerful option - assuming you have the technical skills to take advantage of this.
 
@@ -285,7 +291,7 @@ There’s also a very large, active community of developers, providing helpful r
 
 #### Cons
 
-The place where Mendix really falls down is usability. It’s a very code-intensive platform, even for performing relatively simple tasks. For example, we’ll often need to write custom CSS for even basic design customization.
+The place where Mendix really falls down is usability. It’s a comparatively code-intensive platform, even for performing relatively simple tasks. For example, we may need to write custom CSS for comparatively basic design customization.
 
 Even aside from the high requirement for coding skills, Mendix presents a much steeper learning curve than many of the other tools we’ve seen.
 
@@ -294,11 +300,11 @@ It’s very enterprise-focused, meaning it will be prohibitively expensive for m
 
 #### Pricing
 
-Mendix’s pricing works a little bit differently from most other tools in this sector. For single-application licenses, there are four tiers - Free, Basic, Standard, and Premium. Of course, we can’t scale very far with just a single application.
+Compared to some other PowerApps alternatives, Mendix can be relatively expensive. There are three pricing tiers that allow us to build a single application - free, standard, and premium. Premium is the custom option for enterprises.
 
-The Basic and Standard tiers charge flat fees of $80 and $500 per month respectively for a single application - with extra charges for each additional user.
+Standard bills at $998 per month. However, we'll still need to pay additional fees for hosting and compute resources, which will be billed separately.
 
-You’ll need to pay at least $2,000 per month to build multiple applications, while features like self-hosting are only available with custom pricing.
+If you want to build for than one application in Mendix, the cheapest paid option is the standard tier at $2495 per month, plus additional user fees.
 
 ### 6. OutSystems
 
@@ -306,39 +312,39 @@ OutSystems is a slightly different proposition to most of our other FileMaker al
 
 As such, it offers some of the most extensive capabilities of the tools platforms in this round-up - but the trade-off here is that it also requires a lot more technical expertise from users.
 
-![OutSystems](https://res.cloudinary.com/daog6scxm/image/upload/v1701788478/cms/alternatives/OutSystems_ne26bn.webp "OutSystems")
+![OutSystems](https://res.cloudinary.com/daog6scxm/image/upload/v1755611576/cms/alternatives/retool/OutSystems_vankti.webp "OutSystems")(OutSystems Website)
 
 #### Pros
 
 OutSystems outshines many other low-code platforms when it comes to advanced use cases. In particular, it's a very strong offering in terms of multi-platform development - with specific capabilities for building PWAs, native mobile apps, and more.
 
-It’s also hugely extensible. OutSystems is one of the few platforms in its class that offers a dedicated SDK, meaning that developers can build custom data sources, components, and other extensions. It also provides a native marketplace for community contributions.
+It’s also hugely extensible. In particular, OutSystems offers a dedicated SDK, meaning that developers can build custom data sources, components, and other extensions. It also provides a native marketplace for community contributions.
 
-Another area where OutSystem is particularly impressive is generative AI. There are effective tools for writing, testing, and monitoring custom code - but with the important caveat that this is most helpful if you have the expertise to understand the code itself.
+Another area where OutSystem is particularly impressive is generative AI. There are effective tools for writing, testing, and monitoring custom code - but with the important caveat that this is most helpful if you have the expertise to understand the code itself. On top of this, we can use OutSystems to greatly accelerate AI agent development.
 
 #### Cons
 
 Unfortunately, the reality is that OutSystems will be beyond the technical skill level of most users who don’t have some development experience. 
 
-On top of this, the cloud-based version of OutSystems comes along with additional feature limitations - including with regard to accessing external data. As such, it might not be a viable option for many businesses.
+On top of this, the cloud-based version of OutSystems comes along with additional feature limitations.
 
-This technical skills barrier applies to actually using the platform too. For instance, there will be many development tasks that require us to use at least some custom code - which might be natively possible in other platforms.
+At the same time, we might find that, in smaller teams, a more streamlined FileMaker alternative is more suitable for our needs, particularly if OutSystems' more advanced capabilities are surplus to our requirements.
 
 #### Pricing
 
-OutSystems presents a slightly opaque pricing model. To create multiple apps in a production environment, you’ll need to pay $1,513 per month - although this comes with unlimited users. For more extensive use, we’ll need custom enterprise pricing.
+OutSystems pricing is somewhat different to many of the other FileMaker alternatives we’ve seen so far. This utilizes a concept known as *Application Objects* (AOs) to calculate usage. An AO can be any aspect of how we build an application, including databases, tables, screens, API requests, and more.
 
-The reason for this is that OutSystems limits usage based on what are known as Application Objects. An AO can be an app screen, API connection, or other key element of your final application.
+Licenses for OutSystems Developer Cloud start from $36,300 for a single application with up to 100 internal users. We’ll then need to pay additional fees for extra users, building multiple apps, or 24/7 support.
 
-As such, predictability is quite poor - in the sense that it’s difficult to know how many AOs we’re going to need for a particular use case, and the pricing of additional objects is not publicly advertised.
+Self-hosting is billed as an advanced add-on.
 
 ### 7. Airtable
 
-Airtable is a slightly more modern take on the same core problem that FileMaker sets out to address.
+Airtable is a slightly mdifferent take on many of the the same core problems that FileMaker set out to address.
 
 Much like FileMaker, the goal is to provide teams with more advanced ways to store and manage data, without necessarily having the skills required to use a more traditional RDBMS tool.
 
-![Airtable](https://res.cloudinary.com/daog6scxm/image/upload/v1702478043/cms/alternatives/Airtable_lggz2x.webp "Airtable")
+![Airtable](https://res.cloudinary.com/daog6scxm/image/upload/v1755696510/cms/alternatives/Airtable_pk2pgt.webp "Airtable")(Airtable Website)
 
 #### Pros
 
@@ -352,7 +358,7 @@ Airtable also shines in terms of the speed and ease with which we can get up and
 
 However, much like FileMaker, one of Airtable’s big downsides is that its primary goal is for teams to migrate their data ops to the platform. So, it’s relatively sticky, and external data support is mostly limited to external SaaS platforms and APIs - not other databases.
 
-Compared to other tools in the no/low-code space, Airtable falls down on flexibility and customization. One big detraction relative to other tools we’ve seen today is that we can’t query SQL databases and use the responses within our front ends.
+Compared to other tools in the no/low-code space, Airtable falls down on flexibility and customization. One big detraction relative to other tools we’ve seen today is that we can’t natively query SQL databases and use the responses within our front ends.
 
 We’re also generally limited in terms of the front-ends we can build on top of our data. So, Airtable works very well in terms of shipping general data management apps but leaves more to be desired for less generic use cases.
 
@@ -370,7 +376,7 @@ Lastly, we have Zoho Creator. Again, this puts a slightly different spin on low-
 
 It’s a particularly strong platform for IT teams who want to empower their on-the-ground colleagues to build solutions for themselves in a controlled manner - for instance, within a citizen development program.
 
-![Zoho Creator](https://res.cloudinary.com/daog6scxm/image/upload/v1702478043/cms/alternatives/Zoho_SG_jy3wve.webp "Zoho Creator")
+![Zoho Creator](https://res.cloudinary.com/daog6scxm/image/upload/v1755611575/cms/alternatives/retool/Zoho_Creator_fjhslk.webp "Zoho Creator")(Zoho Creator Website)
 
 #### Pros
 
@@ -378,11 +384,11 @@ One of Creator’s big strengths is integrability. In fact, it offers a wide arr
 
 It’s also a strong offering in terms of security and governance. With flexible RBAC, custom security policies, and more, IT teams can create highly granular frameworks for governing how users interact with data assets and other resources.
 
-Creator also offers extensive scope for front-end scripting using a proprietary language called Deluge, which is comparatively easy to learn.
+A great benefit of Creator for less technical teams is that we can use natural language prompts to output fully working applications.
 
 #### Cons
 
-Some Creator users complain that there’s a general lack of design customization, with end-user applications being limited to a small number of built-in themes. Often, app designs can also feel a little dated compared to some other platforms in this class.
+Some Creator users complain that there’s a comparative lack of design customization, with end-user applications being limited to a small number of built-in themes. Often, app designs may also feel a little dated compared to some other platforms in this class.
 
 As a platform that’s optimized for IT teams empowering their on-the-ground colleagues to build tools, it can also leave a little bit to be desired for one kind of user or other acting in isolation.
 
@@ -390,11 +396,11 @@ For instance, we might need custom code to perform certain kinds of tasks - putt
 
 #### Pricing
 
-Creator offers three per-user pricing tiers - Standard ($8), Professional ($20), and Enterprise ($25). However, we’ll need a Professional license or above in order to create multiple applications.
+Creator’s pricing is based on three fixed monthly per-user tiers - Standard, Professional, and Enterprise, as well as the option for custom pricing. This has the potential to be very cost-effective, although it's worth noting that there's no fully-featured free tier.
 
-At first glance, this appears to be quite a cost-effective option - but it’s important to note that each tier also comes along with restrictions on data storage and automation runs, so we may need to upgrade to a more expensive license on this basis.
+Pricing is also a little bit less predictable than some other vendors in the low-code space. There are additional usage-based limits based on both automation runs and connected data, so we might need to upgrade to a premium tier as a result of these.
 
-One interesting point here is that some enterprise features like SSO are available as optional add-ons across all pricing tiers - whereas for many platforms, we’ll need custom pricing to get access to these.
+Certain enterprise features like SSO are available on all tiers but billed as an optional extra for Standard and Professional licenses, which could be a great fit for smaller security-conscious teams.
 
 
 ## FileMaker vs Budibase
@@ -412,29 +418,27 @@ At its core, FileMaker is a database platform that gives non-technical users a s
 
 Ultimately, the goal is for teams to adopt FileMaker instead of using a more advanced DBMS. They can then build applications and automate workflows on top of this.
 
-Budibase is optimized for building internal tools on top of all sorts of existing data. We offer native connectors for all kinds of SQL and NoSQL databases, Google Sheets, Airtable, and REST APIs - as well as custom data sources via our plug-ins CLI.
+Budibase is optimized for building internal tools on top of all sorts of existing data. We offer native connectors for all kinds of SQL and NoSQL databases, Google Sheets, and REST APIs - as well as custom data sources via our plug-ins CLI.
 
 Like FileMaker, we also offer a built-in, low-code database, with full support for CSV uploads - so users can build their data model from scratch with minimal development experience.
 
 
 ### UIs
 
-FileMaker is more limited than more modern alternatives when it comes to building UIs. Some users complain that there’s a lack of flexibility when it comes to designing screens and app theming.
+FileMaker can be somewhat more limited than many alternatives when it comes to building UIs. Some users complain that there’s a lack of flexibility when it comes to designing screens and app theming.
 
 For the most part, it’s best suited to building things like forms and reports, but you might want to look elsewhere for tools that relate to more complex business logic.
 
-At Budibase, our UI builder makes custom code totally optional. You can add front-end logic with JavaScript or our library of built-in handlebars helpers. 
+At Budibase, our UI builder makes custom code totally optional. You can add front-end logic with JavaScript or our library of built-in handlebars helpers. We can even autogenerate a range of different types of app screens based on connected data schemas.
 
 But you can also add conditionality, mobile responsiveness, complex filtering, design customization, and more with no prior development skills.
 
 
 ### Automations
 
-Automations in FileMaker are script-based. But we don’t necessarily have to do this from scratch. Remember, the platform isn’t really aimed at professional developers. So, they provide a library of script steps that can be combined to create custom rules.
+Automations in FileMaker are script-based. But we don’t necessarily have to do this from scratch. Remember, the platform isn’t really aimed at professional developers. So, they provide a library of script steps that can be combined to create custom rules. More recently, they've also launched a range of capabilities for implementing advanced AI techniques within applications.
 
-This can be powerful, but it’s not ideal if you don’t have the coding skills to understand what each step does or how it works.
-
-Budibase’s flow-based automation editor offers a much more effective experience for non-developers. Simply combine our built-in trigger and action blocks to build highly configurable automation rules. Add looping or branching logic to automate complex, end-to-end processes with ease.
+Budibase’s flow-based automation editor offers a much more effective experience for non-developers. Simply combine our built-in trigger and action blocks to build highly configurable automation rules, including custom LLM prompts and pre-build AI actions. Add looping or branching logic to automate complex, end-to-end processes with ease.
 
 We also offer support for custom scripting using JavaScript within automations.
 
@@ -456,10 +460,6 @@ But, in reality, things are a bit more complicated than that. Some platforms tre
 
 This can mean that we might need a more expensive license for certain vendors in order to access certain functionality.
 
-So, it’s useful to have an exemplary breakdown of how costs might look for each of the platforms we’ve seen. We’re assuming that all users interact with your apps at least once per week and that unlimited automations are required.
-
-||||||||||
-
 ### User personas
 
 We’ve seen extensively that each of the FileMaker alternatives in our guide today aims to help different kinds of users manage data and build applications.
@@ -467,10 +467,6 @@ We’ve seen extensively that each of the FileMaker alternatives in our guide to
 The starkest aspect of this is their level of technical abilities. So, some platforms are aimed at business-level users with very little technical skills. Others are essentially platforms for professional developers.
 
 In between, we have tools that target users with some coding ability - who fall short of the skill levels of actual software engineers.
-
-Here’s one way that we can break this down.
-
-||||||||||
 
 ### Scalability
 
@@ -492,10 +488,6 @@ Extensibility is how easily we can add new capabilities to a platform or integra
 However, some offer additional functionality - like their own internal APIs which can be used to add even greater capabilities. Others offer custom plug-ins or even SDKs for adding to native functionality.
 
 In the world of low-code development, however, the most important thing is external data support. That is, the kinds of existing data sources that a platform enables you to interact with natively.
-
-Here’s a breakdown of how extensibility factors in across the FileMaker alternatives we’ve seen today. 
-
-||||||||||
 
 
 ### Open-source vs closed-source
