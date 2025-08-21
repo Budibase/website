@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2022-06-27T23:00:00Z
+date = 2023-11-27T23:00:00Z
 description = "Form UI design is one of the essential skills in any designer’s arsenal - contributing to all kinds of critical UX metrics."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1656427647/cms/Form_UI_Design_Header_isqpxm.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1656427656/cms/Form_UI_Design_Header_lleswh.png"]
@@ -41,8 +41,6 @@ For this to work, we need to have a concrete goal in mind.
 This should be something quantifiable. For instance, a certain percentage increase in the conversions on our lead forms, or a measurable reduction in the admin work required to complete an internal task.
 
 We can then compare the effectiveness of your UIs with your previous processes, and translate the resulting change into financial terms to figure out the return on investment.
-
-![Form UI abandonment stats](https://res.cloudinary.com/daog6scxm/image/upload/v1656427931/cms/Form_Abandon_Stats_eeibes.webp "Form UI abandonment stats")
 
 ## What makes an effective form UI?
 
@@ -117,8 +115,6 @@ Of course, there’s a bit of a balancing act here. That is, there’s also a re
 Long before the design stage, you can begin planning for this.
 
 This means thoroughly prioritizing the attributes you want to collect, as well as thinking about other strategies you can use to streamline your UXs, to make users more amenable to providing more in-depth information.
-
-![Form Length Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1656427947/cms/Form_Length_Stats_obh8mn.webp "Form Length Stats")
 
 ## 2. Use clear labels
 
@@ -232,8 +228,6 @@ You can also create a single interface for all kinds of devices, and use respons
 Responsive design means that on-screen elements automatically scale and resize, based on the device they’re viewed on.
 
 Of course, you can also use both of these strategies in tandem. Budibase offers custom conditionality rules and fully mobile responsive components across all of your tools.
-
-![Form UI Design Mobile Users Stats](https://res.cloudinary.com/daog6scxm/image/upload/v1656427830/cms/Mobile_Form_Statistics_mmmtcq.webp "Form UI Design Mobile Users Stats")
 
 ## 10. Divide fields into semantic groups
 

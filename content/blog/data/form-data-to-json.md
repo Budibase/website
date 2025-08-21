@@ -1,10 +1,11 @@
 +++
 author = "Ronan McQuillan"
-date = 2024-02-14
+date = 2024-10-14
 description = "Learn how to send form data to JSON with Budibase."
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1707903878/cms/json-forms/JSON_Forms_51_zkkw6l.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "How to Send Form Data to JSON: 4 Methods"
+
 +++
 
 Web forms are some of the most basic applications around. But the value we get from them really depends on what we can do with the data we gather. 
