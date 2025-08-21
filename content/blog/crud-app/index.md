@@ -1,7 +1,6 @@
 +++
 author = "Joe Johnston"
 date = 2025-03-06T00:00:00Z
-dateModified = 2022-04-04T00:00:00Z
 description = "A CRUD app is a piece of software that's used to create, read, update & delete database entries"
 images = ["/blog/crud-app/images/read.webp"]
 title = "What is a CRUD App & How to Build One in 3 Steps"
