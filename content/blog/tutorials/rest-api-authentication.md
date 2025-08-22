@@ -1,7 +1,7 @@
 +++
 
 author = "Ronan McQuillan"
-date = "2024-02-21"
+date = "2025-02-21"
 description = "There are four primary ways to perform REST API authentication."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1689941920/cms/rest-api-authentication/REST_API_AUTHENTICATION_j2ukfx.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1689941920/cms/rest-api-authentication/REST_API_AUTHENTICATION_j2ukfx.png"]
@@ -119,19 +119,19 @@ But, we aren’t necessarily going to want to hard code solutions, so let’s lo
 
 We’ve actually got two options for adding headers to queries. First, we can create a new query, and add key/value pairs under the *headers* tab, like so:
 
-![REST API authentication](https://res.cloudinary.com/daog6scxm/image/upload/v1689941920/cms/rest-api-authentication/REST_API_AUTH_1_hkdvvx.webp "REST API authentication")
+![REST API authentication](https://res.cloudinary.com/daog6scxm/image/upload/v1755867324/cms/rest-api-authentication/API_Authentication_1_pukxta.webp "REST API authentication")
 
 This allows us to stipulate authentication credentials on *query-by-query* basis.
 
 Alternatively, we can also add *global headers*. To do this, head to the configuration options for your REST data source, and hit the headers tab again:
 
-![Auth headers](https://res.cloudinary.com/daog6scxm/image/upload/v1689941919/cms/rest-api-authentication/Rest_api_auth_2_fwdgac.webp "Auth headers")
+![Auth headers](https://res.cloudinary.com/daog6scxm/image/upload/v1755867323/cms/rest-api-authentication/API_Authentication_2_nkmg6i.webp "Auth headers")
 
 With both options, if we simply enter our *API* key in the text box provided, it will be applied statically. We can also use the lightening bolt icon to open Budibase’s *binding menu* to create *dynamic* values.
 
 For example, if we wanted to use environment variables, user accounts, or even form inputs as our API headers. Here’s what this would look like with a secure environment variable:
 
-![Dynamic auth](https://res.cloudinary.com/daog6scxm/image/upload/v1689941919/cms/rest-api-authentication/REST_API_AUTH_3_z898xb.webp "Dynamic auth")
+![Dynamic auth](https://res.cloudinary.com/daog6scxm/image/upload/v1755867323/cms/rest-api-authentication/API_Authentication_3_svofwp.webp "Dynamic auth")
 
 Check out our in-depth guide to [API headers](https://budibase.com/blog/inside-it/api-headers/) for more information on what these can be used for.
 
@@ -165,17 +165,23 @@ In other words, to add a URL parameter to a query we append the provided endpoin
 
 Again, we’ve got a couple of different options for how we want to do this in Budibase.
 
-We could add this manually to our request URL or under the *parameters* tab for any given query. When we populate a parameter in one location, it will appear in the other - since these are actually the same thing:
+We could add this manually to our request URL or under the *parameters* tab for any given query. 
 
-![REST API Authentication](https://res.cloudinary.com/daog6scxm/image/upload/v1689941919/cms/rest-api-authentication/REST_API_AUTH_4_o1xesg.webp "REST API authentication")
+However, it's more management if we add this under the `Params` tab. Any parameters we specify here will automatically be added to our request when it's sent.
+
+![REST API Authentication](https://res.cloudinary.com/daog6scxm/image/upload/v1755867322/cms/rest-api-authentication/API_Authentication_4_nhvbyq.webp "REST API authentication")
 
 We also have the option of creating *bindable values* with a *default value* - and assigning these as parameters. 
 
 For example, we could create a binding called *apiKey* with a default value of *super-secret-key*, but use front-end logic to assign different contextual values to this - giving us more flexibility over our queries.
 
-Here’s what this would look like in-situ:
+Here’s what this would look like in-situ. First, creating our binding:
 
-![URL parameters](https://res.cloudinary.com/daog6scxm/image/upload/v1689941919/cms/rest-api-authentication/REST_API_AUTH_5_kfprwm.webp "REST API auth parameters")
+![URL parameters](https://res.cloudinary.com/daog6scxm/image/upload/v1755867321/cms/rest-api-authentication/API_Authentication_5_tmcadq.webp "REST API auth parameters")
+
+Then, using this to populate a value for our param:
+
+![REST API Authentication](https://res.cloudinary.com/daog6scxm/image/upload/v1755867320/cms/rest-api-authentication/API_Authentication_6_a1zjue.webp "REST API Authentication")
 
 You might also like our guide titled [What are the Components of an API?](https://budibase.com/blog/inside-it/what-are-the-components-of-an-api/)
 
@@ -185,21 +191,21 @@ Some vendors might want us to use what’s known as *basic authentication*. This
 
 To configure this, first head to the *Authentication* tab under your REST data source’s global settings and hit *add authentication*:
 
-![Basic auth](https://res.cloudinary.com/daog6scxm/image/upload/v1689941919/cms/rest-api-authentication/REST_API_AUTH_6_l1qfue.webp "Basic auth")
+![Basic auth](https://res.cloudinary.com/daog6scxm/image/upload/v1755867320/cms/rest-api-authentication/API_Authentication_7_r1psbl.webp "Basic auth")
 
 Then, we’ll see a modal where we can select *basic auth*, and give our method a name. We can also enter our credentials here:
 
-![Auth credentials](https://res.cloudinary.com/daog6scxm/image/upload/v1689941920/cms/rest-api-authentication/REST_API_AUTH_7_gipjch.webp "Auth credentials")
+![Auth credentials](https://res.cloudinary.com/daog6scxm/image/upload/v1755867320/cms/rest-api-authentication/API_Authentication_8_jv1xep.webp "Auth credentials")
 
-Once we’ve saved this, we can access it in individual queries using the *Auth* dropdown:
+Once we’ve saved this, we can access it in individual queries in the *Auth* menu:
 
-![Select basic auth](https://res.cloudinary.com/daog6scxm/image/upload/v1689941920/cms/rest-api-authentication/REST_API_AUTH_8_tvc23n.webp "select basic auth")
+![Select basic auth](https://res.cloudinary.com/daog6scxm/image/upload/v1755867320/cms/rest-api-authentication/API_Authentication_9_dcj0sk.webp "select basic auth")
 
 ### 4. Bearer tokens
 
 Under the global authentication tab, we can also provide a bearer token, if this is what the vendor requires - for instance, if they perform authentication via OAuth tokens.
 
-![Auth token](https://res.cloudinary.com/daog6scxm/image/upload/v1689941921/cms/rest-api-authentication/REST_API_AUTH_9_e7czvu.webp "Auth token")
+![Auth token](https://res.cloudinary.com/daog6scxm/image/upload/v1755867319/cms/rest-api-authentication/API_Authentication_10_pqqyzz.webp "Auth token")
 
 We have the option of simply adding our access token in manually as a string. Or, if we’re using the same SSO system as the API we’re trying to access, we can use the following binding to provide this dynamically, based on the current users:
 
