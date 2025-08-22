@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2022-05-23T23:00:00Z
+date = 2023-05-23T23:00:00Z
 description = "Rule-based and role-based access control are the dominant models for managing app access and data exposure."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1653385079/cms/What_is_the_difference_between_rule_based_and_role_based_access_control_header_berf5j.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1653385079/cms/What_is_the_difference_between_rule_based_and_role_based_access_control_header_berf5j.png"]

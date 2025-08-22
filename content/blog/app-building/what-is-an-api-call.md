@@ -1,7 +1,7 @@
 +++
 
 author = "Ronan McQuillan"
-date = 2023-07-28
+date = 2024-07-28
 description = "API calls are used to access information or trigger events in external platforms. Here’s what you need to know."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1690550450/cms/what-is-an-api-call/what_is_an_api_call_ug6kqm.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1690550450/cms/what-is-an-api-call/what_is_an_api_call_ug6kqm.png"]

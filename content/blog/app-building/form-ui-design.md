@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2023-11-27T23:00:00Z
+date = 2024-11-27T23:00:00Z
 description = "Form UI design is one of the essential skills in any designer’s arsenal - contributing to all kinds of critical UX metrics."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1656427647/cms/Form_UI_Design_Header_isqpxm.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1656427656/cms/Form_UI_Design_Header_lleswh.png"]

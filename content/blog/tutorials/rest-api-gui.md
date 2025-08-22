@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2022-09-23T23:00:00Z
+date = 2023-11-23T23:00:00Z
 description = "Learn how to create a simple yet powerful REST API GUI with Budibase."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1665483680/cms/Database_GUI_Post_Headers_oteert.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1665483688/cms/Database_GUI_Post_Headers_bt86x3.png"]
