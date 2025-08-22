@@ -1,6 +1,6 @@
 ---
 date: 2025-01-10
-title: 8 Filemaker Alternatives & Competitors
+title: 8 Filemaker Alternatives & Competitors for 2025
 description: Check out our round-up of the top FileMaker alternatives.
 images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1704298222/cms/alternatives/filemaker-meta_jpztjp.png
@@ -234,6 +234,8 @@ However, each pricing tier also introduces other restrictions. For example, the 
 
 Key functionalities like custom branding and SSO are reserved for the Enterprise tier, which also has the potential to make Retool a very expensive option if these are firm requirements.
 
+Take a look at our round-up of the top [Retool alternatives](https://budibase.com/blog/alternatives/retool/).
+
 
 ### 4. Appian
 
@@ -369,6 +371,8 @@ Airtable bills on a per-user basis, at least nominally. In practice, things are 
 The Team ($20) and Business ($45) tiers each impose their own limits on stored data and automations too. Additionally, since Airtable doesn’t distinguish between end users and creators, it can be quite an expensive platform to scale.
 
 Custom pricing is required for more than 500,000 stored rows or monthly automation runs, as well as advanced security features. So, for larger use cases, you’ll probably want to look at a traditional DBMS instead.
+
+Take a look at our round-up of the top [Airtable alternatives](https://budibase.com/blog/alternatives/airtable/).
 
 ### 8. Zoho Creator
 

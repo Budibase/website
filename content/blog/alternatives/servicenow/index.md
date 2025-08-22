@@ -1,6 +1,6 @@
 ---
 date: 2025-02-25
-title: 6 ServiceNow Alternatives & Competitors
+title: 6 ServiceNow Alternatives & Competitors for 2025
 description: Check out our round-up of the top alternatives to ServiceNow.
 images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1714046210/cms/alternatives/servicenow/servicenowMeta_wcdcnc.png
