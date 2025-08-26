@@ -1,66 +1,66 @@
 +++
 author = "Ronan McQuillan"
-date = 2023-11-20T23:00:00Z
+date = 2025-05-20T23:00:00Z
 description = "Learn to build a custom Postgres GUI web interface in minutes with Budibase."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1664959926/cms/How_to_Build_a_Postgres_GUI_pmhm0j.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1664959932/cms/How_to_Build_a_Postgres_GUI_kobhio.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Build a Free Web-Based Postgres GUI in 15 Minutes"
+title = "Build a Free Postgres GUI in 3 Steps"
 
 +++
 A Postgres GUI helps you make the most out of your database, whether you are a coder or not.
 
 Databases are incredible tools for businesses. They allow you to store and process data at scale so that you can make better-informed decisions.
 
-You have two options to load data from databases. You can use code, via a command line or a programming language. So, you type in the commands in a terminal or send your code to a server and you get the results.
+You have two options to load data from databases. You can use code via a command line or a programming language. So, you type in the commands in a terminal or send your code to a server, and you get the results.
 
-Or you can use a Graphical User Interface (GUI) to visually interact with your database objects. With a GUI you interact with your database using screens, buttons, and visual elements to see what is happening.
+Or you can use a Graphical User Interface (GUI) to visually interact with your database objects. With a GUI, you interact with your database using screens, buttons, and visual elements to see what is happening.
 
-Thus, a GUI allows you to access your database, even if you aren’t a coder. If you are a coder, it is still a great option to run simple tasks. You can always run your queries manually in case you need them either way.
+Thus, a GUI allows you to access your database, even if you aren’t a coder. If you are a coder, it is still a great option to run simple tasks. You can always run your queries manually if you need them either way.
 
 It is quite tricky to pick the right tool for managing SQL queries, though. There are many factors to consider, including licensing price, features, online access, number of users, ease of use, and many more.
 
-But there's a simple solution.
+But there’s a simple solution.
 
 You can build your own Postgres GUI using a free, [open-source low-code platform](https://budibase.com/blog/open-source-low-code-platforms/) like Budibase.
 
-It's much easier than it sounds, it requires no coding knowledge and you can do it in three steps.
+It’s much easier than it sounds, it requires no coding knowledge and you can do it in three steps.
 
 1. Connect to your Postgres Database.
 2. Auto-generate the GUI screens.
 3. Add your custom elements to your Postgres GUI.
 
-Today we walk you through this process. You’ll learn how you can connect to your database, get data from it, and generate screens automatically. Then, you’ll learn how to customize the app to add your own functions.
+Today, we’ll walk you through this process. You’ll learn how you can connect to your database, get data from it, and generate screens automatically. Then, you’ll learn how to customize the app to add your own functions.
 
 All of that with no coding knowledge, using Budibase.
 
-You might also like our guide to building a [GitHub metrics dashboard](https://budibase.com/blog/app-building/github-metrics-dashboard/).
+You might also like our guide to building a [GitHub metrics dashboard](https://budibase.com/blog/app-building/github-metrics-dashboard/) .
 
-Let's get started!
+Let’s get started!
 
-## Is there a GUI for Postgres?
+## **Is there a GUI for Postgres?**
 
 Postgres is an open-source database system. It is a tool to store and process data.
 
-Thus, it doesn't have an official GUI.
+Thus, it doesn’t have an official GUI.
 
-But there are many Postgres GUI options available. In addition, you can build your own GUI for database administration in just three steps.
+However, there are many Postgres GUI options available. In addition, you can build your own GUI for database administration in just three steps.
 
-Let’s see what you can build in the next section.
+We’ll see what you can build in the next section.
 
-You might also like our guide to building a [MySQL GUI](/blog/tutorials/mysql-gui).
+You might also like our guide to building a [MySQL GUI](https://budibase.com/blog/tutorials/mysql-gui) .
 
-## What is the best client for PostgreSQL?
+## **What is the best client for PostgreSQL?**
 
 The best Postgres GUI depends on your requirements. There are pre-made tools with a wide range of features and prices, yet there’s no guarantee that you’ll find the perfect fit for your business.
 
 At the end of the day, the best PostgreSQL client is the one that does everything you need. And very rarely will you find this in a premade tool.
 
-Building an app with code can take a lot of time and it can be very expensive. But you can use a low-code builder to do it for free.
+Building an app with code can take a lot of time, and it can be very expensive. But you can use a low-code builder to do it for free.
 
-You might also like our in-depth guide to [ACID compliance](https://budibase.com/blog/data/acid-compliance/).
+You might also like our in-depth guide to [ACID compliance](https://budibase.com/blog/data/acid-compliance/) .
 
-Let's see what we consider the best PostgreSQL client if you just want to get started.
+Let’s see what we consider the best PostgreSQL client if you just want to get started.
 
 The demo app is connected to a PostgreSQL database for a blog. You could alternatively connect to multiple databases - including SQL Server, MySQL, Oracle, and more.
 
@@ -68,189 +68,240 @@ There are two tables, one for posts and one for settings.
 
 The first screen you see when you load up the web application is the posts table:
 
-![](https://res.cloudinary.com/daog6scxm/image/upload/v1664960800/cms/01_johjiy.webp "Postgres GUI")
+![Postgres GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756207080/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_1_ha1w3n.webp "Postgres GUI")
 
-In it, you can see a drop-down to select which table you want to work with. This is a useful tool if you have many tables. It allows you to navigate between screens without adding a menu item for each.
+At the top, you can see the nav bar where we can select our other database table.
 
-If you scroll down a little bit you can see the search toggle. When you click this button, you see the table fields and you can use it to search items, like this:
+We’ve also added front-end filtering. We can select either of our table’s columns and apply whichever filtering rules we want, using the dropdown menu.
 
-![How to build a postgres GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664960815/cms/02_utalgm.webp "How to build a postgres GUI")
+![Filter](https://res.cloudinary.com/daog6scxm/image/upload/v1756207248/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_2_gtp6sg.webp "Filter")
 
-Next, you can see the table data. You can click on the "view" button or the add new button to manage items. These buttons open a modal screen with this form:
+Next, you can see the table data. You can click on individual rows or the `Create Row` button to manage items. These open a modal screen with forms based on our table schema.
 
-![Edit Row](https://res.cloudinary.com/daog6scxm/image/upload/v1664960839/cms/03_ahdv2k.webp "Edit Row")
+![Create Form](https://res.cloudinary.com/daog6scxm/image/upload/v1756207248/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_3_xhli5c.webp "Create Form")
 
 This is just a form with fields coming from the table. But you can spice it up in any way you want to. You can include reference data, API calls, data from other tables, and even actions to send emails alongside cross-team collaboration and connection to multiple data sources.
 
-The settings screen is very similar, but it uses different elements:
+The settings screen is very similar, but it uses slightly different elements:
 
-![ Postgres GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664960855/cms/04_tmdocc.webp "Postgres GUI")
+![Settings](https://res.cloudinary.com/daog6scxm/image/upload/v1756207244/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_4_rz8o5i.webp "Settings")
 
-All elements are the same, but instead of the search toggle, there’s a dynamic filter. This is another option to filter table data, and you can see the pros and cons of each item when you are creating them.
+All elements are the same, but instead of the dynamic filter, there’s a static search bar, pointed at the `setting_key` column. This is another option to filter table data, and you can see the pros and cons of each item when you are creating them.
 
-Let's build your Postgres GUI now.
+Let’s build your Postgres GUI now.
+
+## How to build a Postgres GUI in 3 steps
+
+If you haven’t already, the first thing you’ll need to do is sign up for a free Budibase account.
 
 {{< cta >}}
 
-## Step 1 - How do I connect to PostgreSQL GUI?
+We’ll then create a new Workspace, which we’ll call `PostgreSQL GUI`.
 
-You can connect your Postgres GUI with your database with the host URL, database name, username, and password. Make sure you whitelist the Budibase IP address in case your server has a firewall.
+![Workspace](https://res.cloudinary.com/daog6scxm/image/upload/v1756207244/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_5_y7yzeh.webp "Workspace")
 
-To build your app, head over to Budibase and create an account if you don't have one. Then create a new app and use PostgreSQL as your data source.
+In Budibase, a Workspace is a collection of data sources, automations, and end-user apps that can all interact with one another.
 
-Add your credentials, fetch your tables, and you are ready to use them on Budibase:
+We’ll next be prompted to connect our first data source. Budibase offers a built-in relational database, as well as native connectors for a huge range of RDBMSs, NoSQL tools, APIs, and more.
 
-![Data tab](https://res.cloudinary.com/daog6scxm/image/upload/v1664960936/cms/05_yuls2e.webp "Data tab")
+When we connect to an external database, Budibase acts as a proxy, querying your data without ever storing it.
 
-You don’t need to create any simple CRUD queries. Budibases does them for you automatically.
+![Data](https://res.cloudinary.com/daog6scxm/image/upload/v1756207243/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_6_s8yl8q.webp "Data")
 
-Now you can create a query to get a list of the tables in your database. It allows you to automatically add items to the tables selector dropdown, so you don’t need to manually add them to that component.
+### 1. Connecting our database
 
-While still with the PostgreSQL data source selected, click on add query and use these options:
+As you can likely guess, we’re going to choose the option to connect to a PostgreSQL database.
 
-![Postgres query](https://res.cloudinary.com/daog6scxm/image/upload/v1664961049/cms/06_qhx4zb.webp "Postgres query")
+When we do this, we’re presented with the following dialog, where we can add our config details.
 
-Just replace the username in this query with your own username in the SQL editor. Our syntax highlighting makes this easy. Run it and save it.
+![Postgres Config](https://res.cloudinary.com/daog6scxm/image/upload/v1756207243/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_7_cnd0s6.webp "Postgres Config")
 
-Next, let's follow the mandatory step in any app design and use a dark theme.
+We’re then asked which of our database’s constituent tables we’d like to `fetch`. This will enable us to interact with whichever tables we choose in the Budibase builder, or end-user applications and automations.
 
-Head over to the design tab, pick the theme menu option, and use the theme options.
+![Tables](https://res.cloudinary.com/daog6scxm/image/upload/v1756207243/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_8_oqugem.webp "Tables")
 
-![Them option](https://res.cloudinary.com/daog6scxm/image/upload/v1664961079/cms/07_hkr72y.webp "Theme Option")
+Once we’ve fetched our tables, we can interact with them using the spreadsheet-like interface in the Data section of our Workspace.
 
-In addition to the overall app theme, you can edit the app header/navigation. Click on the navigation section to bring the options to edit the menu items along with the header colors:
+![Data](https://res.cloudinary.com/daog6scxm/image/upload/v1756207243/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_9_wcdkxo.webp "Data")
 
-![Postgres GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664961283/cms/08_l2uyss.webp "Postgres GUI")
+Budibase also gives us the ability to write, test, and save custom queries for connected databases. This means that App Admins can use the Budibase builder as a fully functional Postgres GUI, right out of the box.
 
-You can pick any CSS color you want, from a simple hex value to CSS gradients.
+![Query Editor](https://res.cloudinary.com/daog6scxm/image/upload/v1756207240/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_10_cflfqn.webp "Query Editor")
 
-Now let’s create your app screens.
+However, our goal today is to build a GUI for end users to take defined actions. Specifically, we want to create UIs for performing CRUD operations on either of our two tables.
 
-## Step 2 - Autogenerate Postgres GUI screens
+Before we can examine our existing data model, we must consider some of the other actions that we can take in Budibase’s Data section.
 
-Head over to the “screens” section. That’s where you can create each of your app routes:
+Our database consists of two tables, representing the back end of a blogging platform. The `posts` table contains two attributes called `title` and `content`, as well as an autogenerated `id`.
 
-![Screens](https://res.cloudinary.com/daog6scxm/image/upload/v1664961303/cms/09_aakdbq.webp "Screens")
+Within the Data section, App Admins can add new rows and columns, adjust access roles, or alter how Budibase will handle certain columns.
 
-Click on “_add screen”,_ and select “_autogenerated screens”._
+![Postgres GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756207240/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_11_vxk2r0.webp "Postgres GUI")
 
-This option automatically creates CRUD screens for one of your tables. Select the posts table and then repeat this process for the setting stable.
+We’re going to make one small change here. Specifically, our two columns are stored as strings in Postgres, but this doesn’t account for the likely format or length of their respective values.
 
-At the end of this process, you have six screens, three for each of your tables.
+To alter how Budibase will handle this when we come to autogenerate CRUD forms, we’re going to change the `Type` of our `Content` column from `Text` to `Long-Form Text`, as well as enabling the `enable rich text support` option, so users can write Markdown in our Postgres GUI.
 
-This is what each of these screens do:
+![Markdown](https://res.cloudinary.com/daog6scxm/image/upload/v1756207240/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_12_rl3x23.webp "Markdown")
 
-* /tablename - this screen shows you the database table, a button to add new items and edit buttons on each of the table rows.
-* /tablename/new/row - this screen contains a form to add new items, and it uses fields from the table schema.
-* /tablename/:id - this screen uses a route with a variable :id. So, anything that goes after the /tablename/ portion of your URL is saved in the :id variable. This allows you to prepopulate the edit form with data from the item you want to edit.
+Our `settings` table represents the site settings we might include on our blog. This contains two text attributes called `setting_key` and `value`, alongside an autogenerated `id`. We’re going to leave this table as it is.
 
-If you want a simple Postgres GUI, that is all you need to do.
+![settings](https://res.cloudinary.com/daog6scxm/image/upload/v1756207239/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_13_ezpmxx.webp "settings")
 
-The beauty of using autogenerated screens is that it gives you an immense headstart. And you can edit these screens if you want to add more options.
+### 2. Autogenerating CRUD screens
 
-For example, you might want to connect to an API when editing items and populate a field with it. Or maybe you want to add search options to quickly find a specific entry from your tables. You can edit these screens, instead of starting from scratch.
+Once we’re happy with our data model, we can begin creating the front-end of our Postgres GUI.
 
-Let’s see some customization examples next.
+In Budibase, we can do this within the `Apps` section of our Workspace. Any Apps we create can be configured to access any data source within their parent Workspace.
 
-## Step 3 - Customize the GUI screens
+![Workspace](https://res.cloudinary.com/daog6scxm/image/upload/v1756207236/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_15_uajw9w.webp "Workspace")
 
-There are four main customizations in the demo app, and they show you how to do many different tasks with Budibase.
+When we hit `Create your first app`, we’ll be prompted to give it a name and URL extension. We’ll simply call ours `GUI`.
 
-1. Add tables navigation with a dropdown.
-2. Add dynamic filters to a table.
-3. Add custom search filters to a table.
-4. Open the edit/new screens in modals.
+![GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756207236/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_16_bbrmdb.webp "GUI")
 
-Here is how you can do each of them.
+This takes us to the Budibase builder, where a blank screen has been created.
 
-### How to add a dropdown to navigate through Postgres tables
+![Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1756207236/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_17_wod1xs.webp "Budibase")
 
-The logic of this feature is to list all your database tables, then when you select one of them your app loads the /tablename screen.
+We’re going to be relying heavily on Budibase’s autogenerated UIs, so we can simply delete this screen.
 
-Edit the posts screen and add a new component to it using the blue button. You can use this structure:
+Having done this, we’re presented with several options for creating our first screen, including starting from scratch or using one of Budibase’s autogenerated layouts.
 
-![Components](https://res.cloudinary.com/daog6scxm/image/upload/v1664961332/cms/10_lbilzk.webp "Components")
+![layouts](https://res.cloudinary.com/daog6scxm/image/upload/v1756207235/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_18_irn22l.webp "layouts")
 
-The parent component for the selector is just a container. Inside of it, you can add a data provider. This provider loads the show_tables query. This provider is simply a data source for the actual options picker.
+We’re going to select the `Table` option. This will generate a working CRUD UI, based on a supported data source. When we click on this, we’re asked to select the tables we’d like to base this on.
 
-Now add a form component inside the data provider, just to make sure that the options picker works. Add the options picker and select the data source as the data provider. Labels and values are the table name.
+We’re selecting both of the tables in our Postgres database, which we’ll create a working CRUD UI for each.
 
-![Postgres GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664961352/cms/11_zelr3s.webp "Postgres GUI")
+![Tables](https://res.cloudinary.com/daog6scxm/image/upload/v1756207235/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_19_lldfyr.webp "Tables")
 
-Then, add an onChange action for it, like this:
+We can then choose which kind of components we’d like to display our CRUD forms within. We’re picking the option to present these as `Modals`.
 
-![Button action](https://res.cloudinary.com/daog6scxm/image/upload/v1664961373/cms/12_l7jfq5.webp "Button action")
+![Modal](https://res.cloudinary.com/daog6scxm/image/upload/v1756207235/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_20_nqebvz.webp "Modal")
 
-That’s all you need to use this dropdown as a quick way to navigate to all the /tablename routes.
+Here’s how our `posts` screen looks within the Budibase builder.
 
-### How to add dynamic filters to Budibase tables
+![Postgres GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756207234/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_21_sdexdx.webp "postgres GUI")
 
-Now, let’s edit the settings page and add a filtering component to it. Click on the data provider, add new component and select the dynamic filter.
+We can access CREATE or UPDATE forms using the `Create Row` button or by clicking on individual table rows, respectively.
 
-This component automatically changes the data provider, allowing user inputs on each of the table columns, like this:
+![CREATE](https://res.cloudinary.com/daog6scxm/image/upload/v1756207223/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_22_k79mvn.webp "CREATE")
 
-![Filtering](https://res.cloudinary.com/daog6scxm/image/upload/v1664961408/cms/13_pbejfg.webp "Filtering")
+At this point, our Postgres GUI is already fully functional, in the sense that end-users can perform all CRUD operations on our two underlying database tables.
 
-That’s a very quick way to add search options to your Postgres GUI. But since this is a premade component you can’t fully customize it. If you want a custom logic in your search, then the next component works better.
+### 3. Modifying autogenerated UIs
 
-### How to create a custom search form
+Before we push our app live, though, we’re going to make a few UX improvements to each of our screens.
 
-Back to the posts page, add a form component above the table data provider. This form contains the search form itself. This is the final tree structure for that page so you can follow along:
+For simplicity’s sake, we’ll take each one in turn.
 
-![Postgres GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664961437/cms/14_j4vr3h.webp "Postgres GUI")
+### Posts
 
-The search form is a parent of the data provider, so you can use the form inputs in the data provider itself.
+Firstly, we can make a few adjustments to our `posts` screen. We’ll start by updating the `Text` setting of our `Headline` component, to give this more reader-friendly display text.
 
-The “search items” button toggles the visibility of the fields group. You can do it with an app state.
+![Display](https://res.cloudinary.com/daog6scxm/image/upload/v1756207183/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_23_cslu5x.webp "Display")
 
-Set the onclick actions of this button to run “Update State”, to “set value” with the key “search”. In the value click on the binding button, and then on the JS code.
+We’ll also deselect the `id` column on our table using the slider under `Columns`, so that it only displays `Title` and `Content`.
 
-Use this code:
+![Columns](https://res.cloudinary.com/daog6scxm/image/upload/v1756207182/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_24_itxcto.webp "Columns")
 
-{{< highlight javascript "linenos=inline" >}}
+Within each of our `Forms`, we’ll use the `Title` setting to add more human-readable display text.
 
-if ( $("State.search") ) {
-    return 0;
-} else {
-    return 1;
-}
+![Title](https://res.cloudinary.com/daog6scxm/image/upload/v1756207182/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_25_nnmjzj.webp "Title")
 
-{{< /highlight >}}
+Under `Styles`, we’ll then set the `Button Position` to `Top`.
 
-This code just alternates between 0 and 1. If the current app state is zero (search fields hidden), it sets this state as one (fields visible). If it is one, the app state is updated to zero (hiding the fields).
+![Form](https://res.cloudinary.com/daog6scxm/image/upload/v1756207182/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_26_gp4clz.webp "Form")
 
-As for the form fields themselves, here is where you can go crazy. You can add anything you want there. For example, you can use referenced fields, but instead of displaying a client_id, you allow users to search by the client name or even their address.
+Next, a key feature of our Postgres GUI will be enabling users to perform front-end filtering. To do this, we’re going to add a `Filter` component.
 
-Right now, we just use two simple text fields, as that’s what we have in our table.
+Start by hitting the `+` to open our components menu. Here, we can search for `Filter`.
 
-Then, to make these fields affect your data provider, set its filters like this:
+![Add Components](https://res.cloudinary.com/daog6scxm/image/upload/v1756207182/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_27_dw7c8z.webp "Add Components")
 
-![Bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1664961458/cms/15_irbnr4.webp "Bindings")
+We’ll add this and drag it alongside our existing button component, above our table.
 
-This is where you can set anything you want, from bindings to JS code.
+![Filters](https://res.cloudinary.com/daog6scxm/image/upload/v1756207103/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_28_bqkxbx.webp "Filters")
 
-That’s it, your custom search is ready.
+The `Filter` component can be pointed at any data-based element on our screen. We can then select the relevant columns from this which we’d like to enable users to filter on.
 
-### How to open and close modal screens in Budibase
+We’re pointing ours at the `Posts Table`, and selecting `title` and `content` as our fields.
 
-Lastly, you can make the _edit_ and _add new_ buttons to open in a modal screen, instead of reloading the app.
+![Filter](https://res.cloudinary.com/daog6scxm/image/upload/v1756207085/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_29_njlink.webp "Filter")
 
-You can do it by editing the original table item, removing the default link, and using a button instead. Then, use this onClick action for the edit button:
+Now, users will be able to dynamically set filtering expressions from the front-end of our Postgres GUI.
 
-![Buttons](https://res.cloudinary.com/daog6scxm/image/upload/v1664961479/cms/16_sbc3ni.webp "Buttons")
+![Filters](https://res.cloudinary.com/daog6scxm/image/upload/v1756207084/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_30_pdcock.webp "Filters")
 
-You can make a very similar edit to the _create new_ button, just check the “open in a modal’ option.
+### Settings
 
-This is enough to make the forms open in a modal. But you need to close it.
+Next, we can move on to making similar UX changes to our `Settings` screen. As we did a second ago, we’ll start by updating the `Headline` for our screen and deselecting the `id` column in our table.
 
-Edit the delete, and save buttons (from the edit and add new screens). Instead of “navigate to” actions, use “close modal” actions.
+![Postgres GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756207084/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_31_sr5iiy.webp "Postgres GUI")
 
-{{< cta >}}
+We’ll also repeat the same process of updating the display text and button positions on our forms.
 
-## How to build a Postgres GUI in Budibase
+![Edit](https://res.cloudinary.com/daog6scxm/image/upload/v1756207083/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_32_sxai7x.webp "Edit")
 
-Today you learned how you can create a Postgres GUI to interact with your database in just 3 steps. Now you can quickly deploy your own GUI, and customize it in any way you want to.
+This time, however, we want to take a different approach to front-end filtering.
 
-Check out our in-depth guide to building [database GUIs](https://budibase.com/blog/tutorials/database-gui/).
+Specifically, rather than offering users the ability to create complex filtering expressions on the fly, we’re going to create a static search bar.
 
-We hope you enjoyed it, and see you again next time!
+Thanks to Budibase’s Global Context, where all elements on a screen are exposed to the data outputs of all other components, this is easy.
+
+We’ll start by adding a `Text Field` component, alongside our existing Button.
+
+![Search](https://res.cloudinary.com/daog6scxm/image/upload/v1756207083/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_33_odyst3.webp "Search")
+
+This accepts several settings, but the ones we’re interested in are `Field`, which is used as a reference in the builder, and `Placeholder`, which will be our display text when the textbox is blank. 
+
+We’ve set each of these to `Search`.
+
+![Filtering](https://res.cloudinary.com/daog6scxm/image/upload/v1756207083/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_34_ymbldj.webp "Filtering")
+
+Unlike the `Filter` component, where we can simply select a target component, we’ll need to configure our `Table` to apply filters based on whichever value our user inputs in our text field.
+
+To achieve this, we’ll select our `Table` and open the filtering menu.
+
+![Postgres GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756207083/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_35_eehthc.webp "Postgres GUI")
+
+We want our users to be able to search for any row, based on its `setting_key`. To do this, we’re going to add a filter group with three expressions, to return rows where `setting_key` `equals`, `starts with` or is `like` our text input.
+
+![Filter Rules](https://res.cloudinary.com/daog6scxm/image/upload/v1756207081/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_36_qxgely.webp "Filter Rules")
+
+We can hit the lightning bolt icon alongside any of our comparison values to access Budibase’s bindings menu.
+
+![Bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1756207081/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_37_cwarqw.webp "Bindings")
+
+Here, we can see all of the data that our Table is exposed to, including the output of our `Search` text field.
+
+![Bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1756207080/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_38_v1eohj.webp "Bindings")
+
+Within this, we can select the user input value as a binding.
+
+![Handlebars](https://res.cloudinary.com/daog6scxm/image/upload/v1756207080/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_39_z7tljn.webp "Handlebars")
+
+We’ll then repeat this process for all three of our filtering expressions.
+
+![Filters](https://res.cloudinary.com/daog6scxm/image/upload/v1756207080/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_40_f8chr5.webp "FIlters")
+
+Lastly, we’ll use the dropdown at the bottom to set our filter so that all rows are returned if the text box is empty.
+
+![Postgres GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756207080/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_41_l3cqkp.webp "Postgres GUI")
+
+Now, our Postgres GUI has fully working search functionality, based on the `setting_key` column.
+
+![search](https://res.cloudinary.com/daog6scxm/image/upload/v1756207080/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_42_eicsgg.webp "search")
+
+When we’re happy with our UX, we can use the `Publish` button to push our Postgres GUI live for end users within our Workspace.
+
+![Publish](https://res.cloudinary.com/daog6scxm/image/upload/v1756207080/cms/tutorial-refreshes/postgres-gui/Postgres_GUI_43_ebhwmp.webp "Publish")
+
+## Turn data into action with Budibase
+
+Budibase is the open-source, low-code platform that empowers IT teams to turn data into action.
+
+With extensive external data support, powerful AI-driven automations, autogenerated UIs, custom RBAC, optional self-hosting, free SSO, and more, there’s never been a better way to ship professional internal tools at pace.
+
+Check out our [features overview](https://budibase.com/product/) to learn more.
