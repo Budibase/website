@@ -1,659 +1,343 @@
 +++
 author = "Ronan McQuillan"
-date = 2024-10-20T23:00:00Z
+date = 2025-05-20T23:00:00Z
 description = "Read our step-by-step guide to learn how to build a MySQL GUI, in minutes."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1664899844/cms/How_to_Build_a_MySQL_GUI_yvx10e.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1664899852/cms/How_to_Build_a_MySQL_GUI_zefmyr.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Create a Free MySQL GUI in 5 Steps"
+title = "Create a Free MySQL GUI in 3 Steps"
 
 +++
+
 MySQL is one of the most popular database systems out there. And that’s for a good reason. It is lightweight, fast, easy to learn, and widely available. Using a MySQL GUI to manage your databases will help you make the most out of this tool.
 
 A GUI (Graphical User Interface) allows you to interact with your database with a visual interface. This allows you to see your data and use visual elements as opposed to text-based terminals and command lines.
 
-Naturally, this is crucial if you want your non-technical team to manage data.
+Naturally, this is crucial if you want your non-technical colleagues to manage data.
 
-It can be hard to pick the right MySQL GUI tool though.
+It can be hard to pick the right MySQL GUI tool, though.
 
 There are many options to choose from - many price ranges, features, and operating systems. However, it’s not hard to build a free tool that can do anything you want, and work on any devices you want to, including mobiles.
 
-You can build your own MySQL GUI in just 5 steps.
+You can build your own MySQL GUI in just three steps.
 
-The craziest part is that if you just need a simple CRUD tool, you can do it in just 2 steps, as we’ll see in a few minutes.
-
-Therefore, today we are going to explore how you can build a free MySQL web interface using Budibase. You are going to learn how to:
-
-* Create an app and connect to a database server.
-* Auto-generate CRUD screens.
-* Dynamically load all tables in your database to import and export data.
-* Dynamically load all columns from a database table.
-* Create flexible forms that can edit and insert data into any table or database schema.
-* Create flexible tables to display data from any query.
-* Create multi-step forms for a query builder, to generate custom queries based on user inputs.
-* Deploy a fully working management tool with custom database connections.
+Therefore, today we are going to explore how you can build a free MySQL web interface using Budibase - or use the Data section within a Budibase Workspace as a fully functioning MySQL GUI.
 
 Let’s get started!
 
-## Does MySQL have a GUI?
+## **Does MySQL have a GUI?**
 
 MySQL is a database system. It doesn’t have an official GUI, but there are many app options to connect to it. There are free and open source apps, as well as paid options.
 
-In addition, you can build your own MySQL GUI using the tips from this 5-step guide, leveraging Budibase as a MySQL frontend builder.
+In addition, you can build your own MySQL GUI using the tips from this three-step guide, leveraging a Budibase app as a MySQL frontend.
 
-## What is the best GUI for MySQL?
+## **What is the best GUI for MySQL?**
 
-The right MySQL GUI depends on your use case and requirements. You can build your own MySQL GUI following this guide or you can use one of these great tools listed here:
+The right MySQL GUI depends on your use case and requirements. You can build your own MySQL GUI following this guide, or you can use one of these great tools listed here:
 
-* Adminer
-* BeeKeeper Studio
-* Database Workbench
-* DataGrip
-* DBeaver
-* DBEdit
-* dbForge Studio for MySQL
-* DronaHQ
-* HeidiSQL
-* LibreOffice Base
-* mySQL Workbench
-* Navicat for MySQL
-* OpenOffice.org Base
-* phpMyAdmin
-* SQLBuddy
-* SQLyog
-* Toad Edge for MySQL
-* Webmin
+- Adminer
+- BeeKeeper Studio
+- Database Workbench
+- DataGrip
+- DBeaver
+- DBEdit
+- dbForge Studio for MySQL
+- DronaHQ
+- HeidiSQL
+- LibreOffice Base
+- mySQL Workbench
+- Navicat for MySQL
+- OpenOffice.org Base
+- phpMyAdmin
+- SQLBuddy
+- SQLyog
+- Toad Edge for MySQL
+- Webmin
 
-It's important to research which features you need from specific tools - for instance, cross-platform integrations or auto completion. Often, custom builds are the most cost-effective option to meet bespoke requirements.
+It’s important to research which features you need from specific tools - for instance, cross-platform integrations or auto-completion. Often, custom builds are the most cost-effective option to meet bespoke requirements.
 
-You might also like our guide to building a [Postgres GUI](/blog/tutorials/postgres-gui).
+You might also like our guide to building a [Postgres GUI](https://budibase.com/blog/tutorials/postgres-gui) .
 
-## What is GUI in MySQL?
+## **What is a MySQL GUI?**
 
 A MySQL GUI allows you to interact with your data visually. Thus, you can filter, add, update, and delete data without using SQL commands.
 
-But a lot of these tools allow you to add your own commands as well since you’ll often need to perform custom queries.
+But a lot of these tools allow you to add your own commands as well, since you’ll often need to perform custom queries.
 
 This allows you to get the better of the two worlds. You can quickly perform actions using premade functions if you want. But you can run your own commands if you need to run a specific query as well.
 
-In this tutorial, you are going to create a MySQL UI that looks like this:
+## Using Budibase a MySQL GUI
 
-![MySQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664899937/cms/01_g2wkjm.webp "MySQL GUI")
+Straight out of the box, we can use Budibase as a fully functional GUI for connected databases, including MySQL. This enables App Admins within our Workspace to write, test, and save queries securely.
 
-The first screen allows you to pick one of the tables from your database, select the columns you want to show, and display the table data. If you click on the _edit_ or _add new_ button, you are going to see a form like this one:
+These can then be used within end-user applications and automations across the Workspace.
 
-![Edit Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1664899959/cms/02_sewsdx.webp "Edit Screen")
+Below, you can see the query editor, where we can write custom SQL statements to retrieve insights from our MySQL database.
 
-This form is the same for the _add new_ or _update_ actions. There are some differences internally and the _delete_ button is removed if you are adding new items.
+![MySQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756222430/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_1_xnuiax.webp "MySQL GUI")
 
-In addition to the home screen, you can see your data with a custom query, like this:
+When we run this, we can see the results in the right-hand side panel.
 
-![Custom MySQL Query](https://res.cloudinary.com/daog6scxm/image/upload/v1664899984/cms/03_xmn84w.webp "Custom Query")
+![Query Response](https://res.cloudinary.com/daog6scxm/image/upload/v1756222430/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_2_irtcgy.webp "Query Rersponse")
 
-This screen allows three methods to interact with your MySQL database. You can manually type your desired query, save and retrieve queries, or use the query builder, which is a three-step form to build custom queries based on your form selection.
+We can also create bindings that can be used to pass dynamic variables to our query from end-user apps and automations, or apply custom JavaScript transformations to our query responses.
 
-Once you run your query, you’ll see your data in a table.
+From the `Queries` tab of our MySQL data source, we can see all of the queries we have already saved.
 
-Next, there’s the auto-generated CRUD interface for saved queries:
+![Saved Queries](https://res.cloudinary.com/daog6scxm/image/upload/v1756222428/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_3_jvkjkc.webp "Saved Queries")
 
-![Saved Queries](https://res.cloudinary.com/daog6scxm/image/upload/v1664900004/cms/04_m3nhai.webp "Saved Queries")
+## What are we building?
 
-On this screen you can see, edit, insert and delete saved queries \- for on-the-fly data modeling.  These are the queries available in the custom query builder.
+In today’s tutorial, we’re going to build a MySQL GUI that allows end-users to perform a more specific set of actions.
 
-Let’s see how you can create this app.
+Specifically, we’ll be creating a CRUD tool, that enables users to create, read, update, or delete rows on two tables called `posts` and `categories`. These represent the backend of a blog platform.
 
-## Step 1 - Create an app and connect to a MySQL database
+![CRUD Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1756222427/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_4_ay9k1r.webp "CRUD Screen")
 
-If you haven’t already, sign up for Budibase. You can create free apps right away.
+On this screen, users can apply custom filtering expressions based on the `title` or `content` columns, or the related `categories` row.
+
+![Filter](https://res.cloudinary.com/daog6scxm/image/upload/v1756222425/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_7_prt1gk.webp "Filter")
+
+If you click on the *edit* or *add new* button, you are going to see a form like this one:
+
+![Form](https://res.cloudinary.com/daog6scxm/image/upload/v1756222426/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_6_auwoam.webp "Form")
+
+This form is the same for the *add new* or *update* actions. There are some internal differences, and the *delete* button is removed if you are adding new items.
+
+We’ve also created a similar screen for performing CRUD operations on our `categories` table. This time, however, we’ve added a static search bar to our table, based on the `category` column, rather than dynamic filters.
+
+![Categories](https://res.cloudinary.com/daog6scxm/image/upload/v1756222424/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_8_jrcqtb.webp "Categories")
+
+## How to build a MySQL GUI in 3 steps
+
+If you haven’t already, the first thing you’ll need to do is sign up for a free Budibase account, to start building as many applications as you like.
 
 {{< cta >}}
 
-After you’ve created your app, connect to your MySQL database as a [data source](https://budibase.com/blog/data/data-sources/). Don’t forget to [whitelist the Budibase servers](https://docs.budibase.com/docs/whitelisting) in your MySQL server \- or ask your database administrator to do so.
+Next, we’ll create a new Workspace. In Budibase, a Workspace is a collection of data sources, end-user apps, and automation rules, which can all interact with one another.
 
-Our demo data has three tables:
+For our project today, we’ll simply call our Workspace `MySQL GUI`.
 
-* **Saved queries** - A table using the Budibase DB to store the saved queries in the custom query screen
-* **Posts** - A demo table with posts for a blog, with id, title, content, date
-* **Settings** - A demo table with settings for a blog, with id, settings_key, and value
+![New Workspace](https://res.cloudinary.com/daog6scxm/image/upload/v1756222424/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_9_mhu2cu.webp "New Workspace")
 
-To make our life easier, we are going to use MySQL procedures. They allow us to execute custom functions in a regular query.
+### 1. Setting up our data layer
 
-For example, if you have a store, you can create a custom function that automatically propagates data to the sales, customers, and inventory tables.
+Once we’ve created this, we’re next prompted to choose our first data source. Budibase offers a range of dedicated connectors for all kinds of RDBMSs, NoSQL tools, APIs, and more, alongside our built-in low-code database.
 
-In our example, we are going to implement a procedure to run SQL commands programmatically. With it, we can pass table names as variables and we can run flexible queries for the custom queries page.
+For external databases, Budibase acts as a proxy, querying your data without ever storing it.
 
-You can use SQL statements to create a procedure for that in your MySQL using this code:
+![Data](https://res.cloudinary.com/daog6scxm/image/upload/v1756222422/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_10_a6sva7.webp "Data")
 
-{{< highlight php "linenos=inline" >}}
+As you may have guessed, we’re going to select the option to connect to a MySQL database.
 
-BEGIN
-SET @q = query;
-PREPARE stmt FROM @q;
-EXECUTE stmt;
-DEALLOCATE PREPARE stmt;
-END
+When we do so, we’re prompted to input our config details.
 
-{{< /highlight >}}
+![MySQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756222421/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_11_lawzik.webp "MySQL GUI")
 
-We create this procedure with the name execute_immediate. Budibase offers a dedicated SQL editor with syntax highlighting as a key feature of our query builder.
+We’re then asked to select which of our database’s constituent tables we’d like to `Fetch`, allowing us to interact with them within Budibase. Our table contains two tables called `posts` and `categories`. 
 
-Then in the data tab for Budibase, you can create these queries:
+We’re fetching both.
 
-* Execute
-  * Public
-  * Bindings:
-    * Command - Default: SELECT * from posts
-  * Fields:
-    * CALL execute_immediate( {{command}} )
-  * Data:
-    * return data\[0\]
-* Show_tables
-  * Public
-  * Fields:
-    * SHOW TABLES
-* Table_columns
-  * Public
-  * Bindings:
-    * Tablename - Default: posts
-  * Fields:
-    * SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = {{ tablename }}
+![Fetch Tables](https://res.cloudinary.com/daog6scxm/image/upload/v1756222421/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_12_z9kgaf.webp "Fetch Tables")
 
-That’s it!
+Here’s how these will look in the Data section of our Workspace.
 
-Now let’s create your first screen.
+![Table](https://res.cloudinary.com/daog6scxm/image/upload/v1756222419/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_13_iw6ua7.webp "Table")
 
-## Step 2 - CRUD interface for a quick MySQL GUI
+Already, we can interact with our databases, including adding new data via the spreadsheet-like UI.
 
-Head over to the design tab. Then, you can stop by the “theme” section and pick a different theme, such as the dark one. In addition, you can pick some other design options for your app such as the accent color and hover color.
+![Add A Row](https://res.cloudinary.com/daog6scxm/image/upload/v1756222419/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_14_jrerbm.webp "Add A Row")
 
-![MySQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664900046/cms/05_c0susq.webp "MySQL GUI")
+#### Configuring relationships
 
-Then, click on the Screens option, and add a new screen. Select autogenerated screens and pick the Saved_queries table.
+Before we can create a MySQL GUI that will enable us to perform CRUD actions across our two tables, we’ll need to configure the relationships between them in Budibase. As you can see above, the `posts` table contains a column called `category_id`.
 
-This should generate new screens that you can use to perform CRUD actions to your Saved_queries table. If you just want a simple MySQL GUI you could just use this method to auto-generate screens for each of your tables.
+This corresponds to the `id` column in the `categories` table, as shown below.
 
-But if you have a lot of tables, you can generate flexible interfaces. This allows you to automatically have new tables available to edit without editing your app.
+![Categories](https://res.cloudinary.com/daog6scxm/image/upload/v1756222418/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_15_p2183g.webp "Categories")
 
-Let’s see how you can implement this.
+To establish a relationship between our two tables, we’ll need to hit `Define Relationship` from the `categories` table.
 
-## Step 3 - Custom MySQL GUI to view data
+![Relationships](https://res.cloudinary.com/daog6scxm/image/upload/v1756222415/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_16_foyqx1.webp "Relationships")
 
-Create a new screen to be your home screen. You can check the “set as home screen” box in the builder:
+We’re setting up a `one-to-many` relationship, using `id` as our `primary key` and `category_id` as our `foreign key`.
 
-![MySQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664900074/cms/06_kstacw.webp "MySQL GUI")
+![Define Relationship](https://res.cloudinary.com/daog6scxm/image/upload/v1756222415/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_17_xtvfql.webp "Define Relationship")
 
-There are quite a few things going on to make this screen work.
+We can now see the display column of the relevant `categories` row alongside each of our `posts`.
 
-First, there’s the table selector. This is a data provider that loads the show_tables query. Thus, when you add new tables to your MySQL database, they are listed there automatically.
+![Categories](https://res.cloudinary.com/daog6scxm/image/upload/v1756222415/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_18_zpr5ww.webp "Categories")
 
-Then there’s the table columns picker. It’s populated by a data provider that gets the table columns from the currently selected table. It runs the table_columns query with a binding for the table.
+#### Handling long-form text
 
-Finally, there’s a data provider that executes a query based on the table selected and columns. This data provider populates a repeater that displays your table data.
+We’re going to make one last change within the Data section before we start creating the front-end for our MySQL GUI.
 
-This is the elements tree to implement that page in your MySQL GUI:
+Currently, our `posts` table contains two text columns, called `title` and `content`. When we autogenerate our UIs, we want to give users more space to edit the `content` field, as well as enabling them to use Markdown.
 
-![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1664900099/cms/07_hkrt2p.webp "Component Tree")
+To achieve this, we’ll update the `Type` for this column from `Text` to `Long-Form Text`, as well as selecting the option to enable rich text.
 
-Now you just need to replicate that logic. The list DB tables is a data provider for the show_tables query.
+![Schema](https://res.cloudinary.com/daog6scxm/image/upload/v1756222414/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_19_fh2pyc.webp "Schema")
 
-Then you need a form to hold the options picker for the table you want to load.
+This doesn’t alter the underlying schema of our database. Rather, it only changes the way Budibase handles this attribute internally.
 
-The tables picker is an options picker. You can display the tables as options by using the list DB tables provider as an options source:
+That’s the back-end of our MySQL GUI ready to go.
 
-![Options](https://res.cloudinary.com/daog6scxm/image/upload/v1664900118/cms/08_ympwv3.webp "Options")
+### 2. Autogenerating CRUD UIs
 
-Then the _table columns_ data provider has these binding options:
+To start building our front-end, we’ll head to the `Apps` section of our Workspace. Here, we’re presented with the option to create our first app, which can be used to access any data source contained in the same Workspace.
 
-![MySQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664900137/cms/09_gl1ll4.webp "MySQL GUI")
+![Apps](https://res.cloudinary.com/daog6scxm/image/upload/v1756222412/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_20_lrljbx.webp "Apps")
 
-This means that whenever you select a table, a new value is sent to the table columns query.
+We’re first prompted to give our app a name and URL extension. We’ll simply call ours `GUI`.
 
-Inside of it, the _columns picker_ is an options picker component, just like the _tables selector_. But with a checkbox mode:
+![MySQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756222411/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_21_nnnkwf.webp "MySQL GUI")
 
-![Checkboxes](https://res.cloudinary.com/daog6scxm/image/upload/v1664900154/cms/10_ezccjx.webp "Checkboxes")
+When we hit `Confirm`, we’ll be brought to the Budibase builder, where a new app has been created for us with a blank screen.
 
-The paragraph to preview the current query has the following JS code to output its text:
+![Blank Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1756222411/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_22_af7nxb.webp "Blank Screen")
 
-![Custom JavaScript](https://res.cloudinary.com/daog6scxm/image/upload/v1664900172/cms/11_womzwo.webp "Custom JavaScript")
+We could start building our GUI from scratch using Budibase’s built-in library of reusable components. However, we’re instead going to rely on autogenerated layouts to create the bulk of our app.
 
-The add new button and the edit buttons are quite similar.
+So, we can simply delete this screen.
 
-They are going to redirect your users to the _/{{ tablename }}/{{ id }}_ page. So if you click to edit an item from the posts table with id as 3, you are redirected to the /posts/3 page. And to create new items you are redirected to /posts/0, for example.
+When we do this, we’ll be offered several options for creating a new screen, including starting from scratch again or autogenerating a UI based on connected data.
 
-You can implement this with this _onclick_ action on your button:
+![Layouts](https://res.cloudinary.com/daog6scxm/image/upload/v1756222410/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_23_ituvce.webp "Layouts")
 
-![MySQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664900201/cms/12_jhyr2n.webp "MySQL")
+We’re selecting the `Table` option, which will output a fully working CRUD UI for any database tables we select. 
 
-The table data provider runs the execute query. You are going to use this binding (as JS code) in it:
+We’re picking both of our database’s constituent tables.
 
-{{< highlight javascript "linenos=inline" >}}
+![Tables](https://res.cloudinary.com/daog6scxm/image/upload/v1756222409/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_24_xh0fku.webp "Tables")
 
-var table = $("Select Table.Value.tablename");
-var columns = $("Select Table.Value.columns");
-if ( !columns || columns.length === 0 ) {
-columns = '*';
-}
-var ret = "";
-ret = "SELECT " + columns + " FROM " + table;
-return ret;
+We’re then asked how we’d like to display our forms for creating or updating rows. We’re selecting the option to contain these within `Modals`.
 
-{{< /highlight >}}
+![Modal](https://res.cloudinary.com/daog6scxm/image/upload/v1756222408/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_25_yhcf4t.webp "Modal")
 
-You could use a table to output your query results, and that’s a great way to do with when you have a fixed schema. Since our goal here is to build flexible queries, we need to create our own display for it.
+We now have a fully working CRUD screen for each of our tables.
 
-In this case, you can do it with a repeater, then output whatever data you have in it using cards.
+![Posts](https://res.cloudinary.com/daog6scxm/image/upload/v1756222407/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_26_esb8mc.webp "Posts")
 
-A repeater component outputs any of its child elements once per row of the data provider. Thus, if you have 10 posts, the repeater is going to run 10 times.
+We can access modal forms to create or update rows, using the `create row` button or by clicking any individual row on our table, respectively.
 
-In the demo screen, the repeater contains a paragraph and a button. The paragraph has some JS code to display all the row contents, like this:
+![Edit](https://res.cloudinary.com/daog6scxm/image/upload/v1756222406/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_27_n36jpb.webp "Edit")
 
-{{< highlight javascript "linenos=inline" >}}
+### 3. Editing our autogenerated screens
 
-var row = $("Repeater.Row Index");
-row = $("Table Data.Rows")[row];
-var ret = "";
-Object.entries(row).forEach(([key, val]) => {
-ret += key + ":\n";
-ret += JSON.stringify(val, null, "\t");
-ret += "\n\n";
-});
-return ret
+Functionally speaking, our MySQL GUI essentially does what we want it to at this point. However, we’re going to apply a few key UX improvements, as well as implementing some additional functionality to make it easier to locate specific rows on either table.
 
-{{< /highlight >}}
+To make things easier to follow, we’ll take each of our screens in turn.
 
-And the edit button follows the same logic as the add new button. This time you can use this path though:
+#### Posts
 
-/edit/{{ Select Table.Value.tablename }}/{{ Repeater.execute.id }}
+We’ll start with our `posts` screen. The first thing we’ll do here is update the `Text` setting of our `Heading` component to be more descriptive.
 
-Now, what happens when you click the _add new_ or _edit_ buttons? Let’s see the logic behind them in the next step.
+![CRUD UI](https://res.cloudinary.com/daog6scxm/image/upload/v1756222406/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_28_gjdxj3.webp "CRUD UI")
 
-## Step 4 - Edit MySQL data with flexible forms
+We’ll then use the `Columns` sliders on our `Table` component to deselect our `id` and `category_id` columns, as end users don’t really need to read these.
 
-Create a new screen, and in its route use /edit/:table/:id. This is how you tell Budibase to create app variables based on the current URL.
+![Columns](https://res.cloudinary.com/daog6scxm/image/upload/v1756222405/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_29_phdkh6.webp "Columns")
 
-Thus, when a user visits /edit/posts/3, your app has 2 variables at your disposal:
+We’ll also make some design tweaks to each of our forms. First, we’ll give them more descriptive `Titles`.
 
-* {{ URL.table }} = posts
-* {{ URL.id }} = 3
+![Form](https://res.cloudinary.com/daog6scxm/image/upload/v1756222404/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_30_bkg6ed.webp "Form")
 
-With this data, you can create flexible edit forms in your MySQL GUI.
+Then, under `Styles`, we’ll set the `Button Position` to `Top`.
 
-The entire form relies on the fact that new items have ID = 0, and updates have a valid number. With this information, the form understands if you are adding new items or editing them.
+![MySQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756222403/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_31_ynmlad.webp "MySQL GUI")
 
-This is the elements tree for that page:
+Lastly, we want to add functionality to this screen that will enable end-users to create and apply front-end filtering rules.
 
-![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1664900255/cms/13_qpcljq.webp "Component Tree")
+We’ll start by hitting the `+` icon to open the components menu. Here, we can search for the `Filter` component.
 
-The first data provider is the _Get Item_. In it, you run the execute query with this JS binding:
+![Filter](https://res.cloudinary.com/daog6scxm/image/upload/v1756222403/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_32_n7avvf.webp "Filter")
 
-{{< highlight javascript "linenos=inline" >}}
+We’ll place this alongside our existing `Create Row` button.
 
-var ret = ""
-if ( $("URL.table") && $("URL.id") != 0 ) {
-ret = "SELECT * FROM " + $("URL.table")" 
+![Filter](https://res.cloudinary.com/daog6scxm/image/upload/v1756222402/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_33_caxgsq.webp "Filter")
 
-WHERE id=" + $("URL.id");
-} else {
-ret = "SELECT 0 as 'id'";
-}
-return ret;
+Budibase’s `Filter` component accepts a setting called `Target Component`, and displays UI elements to allow users to filter any columns we select from the underlying data source of this.
 
-{{< /highlight >}}
+We’re choosing our `posts` table, and picking `title`, `content`, and `categories.category` as our fields.
 
-Here you are basically either loading a valid item (if ID > 0) or loading a dummy item (Select 0 as ‘id’). This dummy item is very important. If you don’t add it like this, you will need 2 forms, since this entire component is hidden - given that the main query has no results.
+![Target Component](https://res.cloudinary.com/daog6scxm/image/upload/v1756222401/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_34_wwjryl.webp "Target Component")
 
-Then you can add a repeater, as usual.
+The `category` field is labeled as `categories.category` because it’s actually stored in the related row of our `categories` table, rather than each individual row of our `posts` table.
 
-Inside it, there’s the _delete button_, a headline, and the _update form_.
+To address this, we can use the `Label` setting for this field to update its display text.
 
-The delete button is quite simple. It’s a button with these display conditions:
+![Display Text](https://res.cloudinary.com/daog6scxm/image/upload/v1756222401/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_35_l0hv0z.webp "Display Text")
 
-![MySQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664900293/cms/14_n70bjy.webp "MySQL GUI")
+Now, our users can create filtering expressions using any of these columns.
 
-So it only shows when you are editing an item. In addition, this button executes three actions when you click on it:
+![Filter](https://res.cloudinary.com/daog6scxm/image/upload/v1756222400/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_36_joqeeo.webp "Filter")
 
-1. Execute a query:
-   1. Query name: Execute
-   2. Require confirmation: yes
-   3. Bindings: DELETE FROM {{ URL.table }} WHERE id={{ URL.id }}
-2. Update state:
-   1. Updated_rows = 0
-3. Navigate to:
-   1. /home
+#### Categories
 
-In other words, it deletes the current item, deletes the udpated_rows state, and goes to the homepage.
+Next, we’ll start by making some similar changes to our `categories` screen. Once again, we’ll start by updating our table’s display text and deselecting the `id` column.
 
-The headline relies on the URL.id to define what text to show. You can use this JS code in it:
+![Categories](https://res.cloudinary.com/daog6scxm/image/upload/v1756222399/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_37_tmhjlc.webp "Categories")
 
-{{< highlight javascript "linenos=inline" >}}
+As before, we’ll also update the `Title` of each of our forms, and set their `Button Position` to `Top`.
 
-if ( $("URL.id") == 0 ) {
-return "Add new";
-} else {
-return "Edit item";
-}
+![Button Position](https://res.cloudinary.com/daog6scxm/image/upload/v1756222399/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_38_sbr1ik.webp "Button Position")
 
-{{< /highlight >}}
+However, this time we’re going to take a slightly different approach to enabling users to access specific rows in our MySQL GUI.
 
-Then, the update form has a data provider in it. This data provider loads the table_columns query, using the {{ URL.table }} binding.
+That is, rather than creating complex filtering expressions from the front-end, we want to provide a static search bar.
 
-Next, you are creating a field for each of these columns. As you saw before, you can create this kind of loop using a repeater.
+Budibase components have a global context, meaning that they can access the data outputs of any other components on the screen.
 
-You can create a text field, and use these options:
+We’ll start by adding a `Text Field` component, alongside our `Create Row` button.
 
-* Field: {{ Column.table_columns.COLUMN_NAME }}
-* Label: {{ Column.table_columns.COLUMN_NAME }}
-* Placeholder (JS code):
-  * return JSON.stringify($("Get item.Rows")\[$("Repeater.Row Index")\]\[$("Column.table_columns.COLUMN_NAME")\])
-* Default value (JS code):
-  * return $("Get item.Rows")\[$("Repeater.Row Index")\]\[$("Column.table_columns.COLUMN_NAME")\]
+![Text Field](https://res.cloudinary.com/daog6scxm/image/upload/v1756222398/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_39_yi4ply.webp "Text Field")
 
-These values create a unique field for each column, and load default data when it exists.
+This accepts several settings, but the only ones we’re interested in are `Field` and `Placeholder`. 
 
-If you want you can hide the ID column by using configuring conditions of the text field as _hide component_ if {{ Column.Row Index }} equals to 0.
+We’ll set both of these to `Search`.
 
-The entire action of this form is stored on the update button. You can begin by using this JS code in the text field for it:
+![Search](https://res.cloudinary.com/daog6scxm/image/upload/v1756222397/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_40_lvrrgo.webp "Search")
 
-{{< highlight javascript "linenos=inline" >}}
+Whereas the `Filter` we used on our previous screen simply allowed us to choose a target component, for our search bar to work, we’ll need to configure an appropriate filtering rule on our `Table`, using its data output.
 
-if ( $("URL.id") == 0 ) {
-return "Add new";
-} else {
-return "Update";
-}
+To do this, we can select our `Table`, and open the filtering menu.
 
-{{< /highlight >}}
+![MySQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756222397/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_41_eghlrz.webp "MySQL GUI")
 
-With this code your button is going to switch between “add new” and “update”, depending on the item ID.
+Here, we’ll add a filter group with three rules using the `Like`, `Starts With`, and `Equals` operators, based on our `category` column.
 
-Next, you can use 3 actions for this button:
+![Category](https://res.cloudinary.com/daog6scxm/image/upload/v1756222396/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_42_a86td2.webp "Category")
 
-Update state:
+We can use the lightning bolt icon alongside our comparison values to open the bindings drawer, enabling us to pass values to our filter dynamically.
 
-* Updated_rows = 0
+![Bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1756222395/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_43_xosfyn.webp "Bindings")
 
-Execute query:
+Here, we can see all of the categories of available bindings, including the output of our `Search Text Field`.
 
-- Query name: execute
+![Search Bar](https://res.cloudinary.com/daog6scxm/image/upload/v1756222395/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_44_je1ge4.webp "Search Bar")
 
-Binding (JS):
+Within this, we’ll select the `Value` binding.
 
-{{< highlight javascript "linenos=inline" >}}
+![Value](https://res.cloudinary.com/daog6scxm/image/upload/v1756222395/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_45_ngq82v.webp "Value")
 
-var id = $("URL.id");
-var ret = "";
-var table = $("URL.table");
-var formData = $("Update Form.Value");
-delete formData.id;
-if ( id == 0 ) {
-var keys = Object.getOwnPropertyNames(formData);
-var values = Object.values(formData);
-ret = "INSERT INTO " + table +
-" ( " + keys.join() + ' )
-VALUES ( "' + values.join('","') + '" )' ;
-} else {
-ret = "UPDATE " + table + " SET ";
-Object.entries(formData).forEach(([key, val]) => {
-ret += " " + key + "='" + val + "',";
-});
-ret = ret.slice(0, -1);
-ret += " WHERE id=" + id;
-}
-return ret;
+We’ll then repeat this process for our other two filter expressions.
 
-{{< /highlight >}}
+![Filter](https://res.cloudinary.com/daog6scxm/image/upload/v1756222394/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_46_vxc4ca.webp "Filter")
 
-Update State:
+Finally, we’ll use the dropdown menu to return `All Rows` when the filter is empty.
 
-* Updated_rows = 1
+![MySQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756222394/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_47_bwgiuh.webp "MySQL GUI")
 
-This JS code checks if it’s an update or insert action and generates the current SQL command for it.
+When we’re happy, we can use the `Publish` button to push our web-based MySQL GUI live for end users.
 
-Finally, you can use the updated_rows app state to display a message in case the data-saving actions work. You can do it by creating a container and then using the display condition as _show if_ {{ State.updated_rows }} equals to 1.
-
-## Step 5 - Use custom queries in your MySQL GUI
-
-Let’s create a screen to run your own queries, whenever you want to.
-
-### How it works
-
-You can use three methods to get data into the tables for the custom queries page:
-
-1. Use the text box.
-2. Use the query builder to generate a SQL command (that is put in the text box).
-3. Use the dropdown to select one of the saved queries.
-
-So, this is really a two-part logic. First, you need to find a way to execute the commands and display them in a table. And next, you need to find a way to create the query builder to generate some SQL code.
-
-Let’s dive into it.
-
-### Implement the custom query page
-
-The custom query page has this tree structure:
-
-![Components](https://res.cloudinary.com/daog6scxm/image/upload/v1664900499/cms/15_brryta.webp "Components")
-
-This is very similar to the home page in the sense that there’s a flexible query, and then you need to output your data somehow. On the homepage, you are using a cards-style layout. On this page it’s a bit different though.
-
-Notice the markdown viewer. That’s where the magic happens.
-
-With it you can create tables, even if you don’t really know the data structure beforehand.
-
-That’s because in markup code if you type something like this:
-
-{{< highlight md "linenos=inline" >}}
-
-|First column | Second column |
-
-|---|---|
-
-|Row one|Row one, second cell|
-
-|Last row|Last row, last cell|
-
-{{< /highlight >}}
-
-It turns into a table with a heading (first column, second column), 2 rows with 2 cells in each.
-
-In addition, you can use more markup code for advanced styling or even links.
-
-But before we get into that, let’s see how your query is generated.
-
-There’s a form with a data provider in it. This data provider uses the execute query with a binding for {{ State.query }}.
-
-This means that whenever you want to run a new query, you just need to edit the app state “query”.
-
-And that’s what both of the “run query” buttons do, each saving their own fields (text field or select) into the query app state.
-
-The query builder button just navigates to _/query-builder_.
-
-The save query button has an action to save a row to the saved_queries table, using the {{ Select Table.Fields._sql }} as the query command to be saved.
-
-The markdown viewer runs this JS code in its text:
-
-{{< highlight javascript "linenos=inline" >}}
-
-//get the table rows
-var rows = $("Table Data.Rows");
-
-//start the table markup syntax
-var ret = "";
-
-//create a variable to store headers
-var header = "|";
-
-//create a variable for the divisor 
-//between the head and body
-var div = "|";
-
-//loop each row
-Object.entries(rows).forEach(([row, content]) => {
-
-//start a row in markup
-ret += "|";
-
-//loop each row's content as a table cell
-Object.entries(content).forEach(([key, val]) => {
-
-//if it's the first row,
-//create the header and divisor
-if ( row == "0" ) {
-header += key + "|";
-div += "---|";
-}
-
-//add the cell contents
-ret += val;
-// if you might have objects as the value, 
-//you can use stringify to return them as text
-
-// ret += JSON.stringify(val, null, "\t");
-//end the current cell (or the row on the last item)
-ret += "|";
-});
-
-//line break to start a new row
-ret += "\n";
-});
-
-//bring it all together
-ret = header + "\n" + div + "\n" + ret;
-return ret;
-
-{{< /highlight >}}
-
-In short, this is what this code does:
-
-1. Gets the table data rows.
-2. Initializes variables to save the table body, header and divisor.
-3. Loops through each row.
-4. Adds a row start character.
-5. Loops through each cell, adding the contents to the table body, and if it’s the first row, adds the header, and divisor to their variables.
-6. Merge headers, divisor, and table body into a single variable.
-7. Return this variable.
-
-If you wanted to add an “edit” column, for example, you would just need to add the markup code for it above.
-
-The only downside of this approach is that the markup table is not full width out of the box. You can fix this by adding an embed element, then use this code in it:
-
-{{< highlight css "linenos=inline" >}}
-
-<style type="text/css">
-.markdown-viewer table {
-width: 100%;
-}
-</style>
-
-{{< /highlight >}}
-
-### Create the query builder screen
-
-The query builder screen is actually a three-step form.
-
-Many of the components of this screen are present on the other screens, but it’s nice to see them in action with a different purpose.
-
-This is the element tree for that screen:
-
-![MySQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664900618/cms/16_bcz9ba.webp "MySQL GUI")
-
-And also:
-
-![MySQL GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664900636/cms/17_c5n9zh.webp "MySQL GUI")
-
-When you add form steps to a form, you can use buttons to navigate between them. That’s what we do here, with the previous and next buttons.
-
-In the first step, things are quite simple. You just need to add an options picker with custom options for either _selec_t or _insert_.
-
-You can add more options later if you want (such as update, delete, joins), but let’s do it this way for this example.
-
-Use a button with the action “_Change form step_” set to next step.
-
-Then, on step 2, you can use the same table picker that you created on the homepage.
-
-Add the previous and next buttons, again using “the change form step” actions.
-
-The third and final step is a bit more complex. In it, there are two different cases.
-
-If you are using a “select” action, then you use the columns picker, the same way you did on the homepage.
-
-There’s a paragraph on that page as well to preview the SQL query. For the select action this is the JS code for it:
-
-{{< highlight javascript "linenos=inline" >}}
-
-var table = $("Build Query.Fields.tablename");
-var columns = $("Build Query.Fields.columns");
-if ( ! table ) {
-table = "posts";
-}
-if ( columns.length == 0 ) {
-columns = "*";
-}
-var ret = "";
-ret = "SQL Query: SELECT " + columns + " 
-FROM " + table;
-return ret;
-
-{{< /highlight >}}
-
-Then, you can use something very similar on the “save” button. In it, you can use 2 actions:
-
-- Save app state: Query_builder
-
-- JS code:
-
-{{< highlight javascript "linenos=inline" >}}
-
-var table = $("Build Query.Fields.tablename");
-var columns = $("Build Query.Fields.columns");
-if ( ! table ) {
-table = "posts";
-}
-if ( columns.length == 0 ) {
-columns = "*";
-}
-var ret = "";
-ret = "SELECT " + columns + " FROM " + table;
-return ret;
-
-{{< /highlight >}}
-
-* Navigate to:
-  * /custom-query
-
-The select options container has a display condition to be visible if {{ Build Query.Fields.query_type }} is select.
-
-Likewise, the Insert container is set to be visible if {{ Build Query.Fields.query_type }} is insert.
-
-About the insert form, it allows you to add the form field values. It works just like the edit form. In it, you get the table columns and use a repeater to generate your form fields.
-
-The save button for the insert action has the same two actions as the button for the select action. The main difference is that the insert button has this JS code:
-
-{{< highlight javascript "linenos=inline" >}}
-
-var ret = "";
-var table = $("Build Query.Fields.tablename");
-var formData = $("InsertFields.Value");
-delete formData.id;
-if ( ! table ) {
-table = "posts";
-}
-var keys = Object.getOwnPropertyNames(formData);
-var values = Object.values(formData);
-ret = "INSERT INTO " + table + " 
-( " + keys.join() + ' ) VALUES 
-( "' + values.join('","') + '" )' ;
-return ret;
-
-{{< /highlight >}}
-
-That’s all you need for the query builder. Once it’s saved it generates a query and saves it. Just make sure to use the {{ State.query_builder }} as the default state for the main text field in the custom query page. Thus, where there is a custom query, the text field is pre-populated.
-
-{{< cta >}}
-
-## Build a MySQL GUI with Budibase
-
-Today you learned how you can build a MySQL GUI in just 5 steps. In addition, you saw how you can build apps to interact with databases in many different ways. From a simple autogenerated CRUD interface to complex forms and lists to insert and read data coming from multiple tables.
+![publish](https://res.cloudinary.com/daog6scxm/image/upload/v1756222394/cms/tutorial-refreshes/mysql-gui/MySQL_GUI_48_ffrf8s.webp "publish")
 
 You might also like to check out our ultimate guide to building [database GUIs](https://budibase.com/blog/tutorials/database-gui/).
 
-We hope you’ve enjoyed it, and see you again next time!
+## Turn data into action with Budibase
+
+Budibase is the open-source, low-code platform that empowers IT teams to turn data into action.
+
+With extensive external data support, powerful AI-driven automations, autogenerated UIs, optional self-hosting, custom RBAC, free SSO, and much more, there’s never been a faster way to build secure internal tools.
+
+Take a look at our [features overview](https://budibase.com/product/) to learn more.
