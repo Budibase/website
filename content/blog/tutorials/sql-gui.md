@@ -376,7 +376,9 @@ However, it’s important to note that this approach comes along with security i
 
 For example, this could be used by our data team to return simple insights from our database, or we could use this to test queries on a dummy database.
 
-If you want to do something similar, you’ll need to determine appropriate security measures for your needs. Alternatively, you could rely on the existing, already secure query testing and saving tools in Budibase’s Data section for more complex use cases.
+If you want to do something similar, you’ll need to determine appropriate security measures for your needs. Generally though, this approach could be viable for testing data, but wouldn't be suitable for production databases.
+
+Alternatively, you could rely on the existing, already secure query testing and saving tools in Budibase’s Data section for more complex use cases.
 
 The prepared statement we’re relying on is:
 
