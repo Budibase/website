@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2024-10-31T23:00:00Z
+date = 2025-05-18T23:00:00Z
 description = "With Budibase, building a custom SQL GUI has never been easier. Here's everything you need to know."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Build a Free SQL GUI in 5 Steps"
@@ -376,7 +376,9 @@ However, it’s important to note that this approach comes along with security i
 
 For example, this could be used by our data team to return simple insights from our database, or we could use this to test queries on a dummy database.
 
-If you want to do something similar, you’ll need to determine appropriate security measures for your needs. Alternatively, you could rely on the existing, already secure query testing and saving tools in Budibase’s Data section for more complex use cases.
+If you want to do something similar, you’ll need to determine appropriate security measures for your needs. Generally though, this approach could be viable for testing data, but wouldn't be suitable for production databases.
+
+Alternatively, you could rely on the existing, already secure query testing and saving tools in Budibase’s Data section for more complex use cases.
 
 The prepared statement we’re relying on is:
 
