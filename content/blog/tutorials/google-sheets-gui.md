@@ -1,16 +1,16 @@
 +++
 author = "Ronan McQuillan"
-date = 2024-05-20T23:00:00Z
+date = 2025-05-17T23:00:00Z
 description = "Read our step-by-step guide to creating a Google Sheets GUI in under 5 minutes."
 image = "https://res.cloudinary.com/daog6scxm/image/upload/v1664958669/cms/How_to_Build_a_Google_Sheets_GUI_jmuyxw.png"
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1664958676/cms/How_to_Build_a_Google_Sheets_GUI_ahakka.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Build a Google Sheets GUI in 5 Steps"
+title = "Build a Free Google Sheets GUI in 5 Steps"
 
 +++
 A Google Sheets GUI can help you turn your spreadsheets into real apps.
 
-There are many useful free online tools for businesses. And Google Sheets is certainly one of the best of them. It allows you to get all the power of spreadsheets, databases, and scripting all at once.
+Google Sheets is one of the most ubiquitous, widely used business tools around today. It allows you to get all the power of spreadsheets, databases, and scripting all at once.
 
 But at the end of the day, it’s still a spreadsheet tool.
 
@@ -20,388 +20,324 @@ In general, it feels like you need to adjust all your workflows to work around t
 
 That’s where creating a Google Sheets GUI can come in handy.
 
-With a Graphical User Interface (GUI) you can use Google Sheets as a flexible data source. It includes options to manipulate data, collect data from other sites, or even run custom functions with Apps Script.
+With a Graphical User Interface (GUI, you can use Google Sheets as a flexible data source.
 
 At the same time, end users interact with your app using your Google Sheets UI. Thus, you can control data entry, create custom views, add charts and metrics, and create different user levels.
 
-This allows you to get the best of both worlds. A flexible [data source](https://budibase.com/blog/data/data-sources/), along with a powerful user-facing app.
+This allows you to get the best of both worlds. A flexible [data source](https://budibase.com/blog/data/data-sources/) , along with a powerful user-facing app.
 
-Today, we’ll show how you can use a free open-source no-code builder to create your Google Sheets GUI in just 5 steps. By the end of the day, you’ll know how you can create beautiful Google Sheets apps, get data, edit it, search and much more.
+Today, we’ll show how you can use a free open-source no-code builder to create your Google Sheets GUI in just four steps. By the end, you’ll know how you can create beautiful Google Sheets apps, get data, edit it, trigger automations, and much more.
 
 Let’s get started!
 
-## How do I create a dashboard in Google Sheets?
+## **How do I create a dashboard in Google Sheets?**
 
-You can use Google Sheets as a dashboard, by using custom styles, charts, and App Script to run functions. But it’s probably better and easier to use a free no-code builder such as Budibase to [create a custom Dashboard for Google sheets](https://budibase.com/blog/data/google-sheets-dashboard/).
+You can use Google Sheets as a dashboard, by using custom styles, charts, and App Script to run functions. But it’s probably better and easier to use a free no-code builder such as Budibase to [create a custom Dashboard for Google sheets](https://budibase.com/blog/data/google-sheets-dashboard/) .
 
 You can follow the tips from this tutorial to build a dashboard in addition to a Google Sheets GUI.
 
 {{< cta >}}
 
-## Can Google Sheets be used as a database?
+## **Can Google Sheets be used as a database?**
 
 Google Sheets is a great option for a free and simple database. With it, you can add data to your tables and use other apps to access it using the API.
 
 Check out our guide to [data entry automation](https://budibase.com/blog/data/data-entry-automation/).
 
-## How do I make Google Sheets more attractive?
+## What are we building?
 
-You can use the Google Sheets tools and create better designs. You can use options such as:
+Today, we’re building a two-screen app that will manage sheets called `Contacts` and `Messages`. Our `Contacts` screen will be a simple CRUD UI, enabling our internal users to manage the rows in this table in a controlled, streamlined manner.
 
-* Better font choices.
-* A nice color palette.
-* A modern design style.
-* Custom icons.
-* Fixed elements for improved readability.
+![Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756303382/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_1_kli30j.webp "Google Sheets GUI")
 
-But at the end of the day, the best way to make Google Sheets look nice is not to use it for your design.
+They can access modal forms to either add new rows or update existing ones.
 
-At the end of the day, it’s your data source, and its design options are quite limited. Today, we are going to explore how you can make your custom design with a UI for Google Sheets.
+![Form](https://res.cloudinary.com/daog6scxm/image/upload/v1756303382/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_2_ndf7gv.webp "Form")
 
-Our demo app is a simple CRM. It has two main menu items, and each of them has a few options:
+We’ve built a similar screen for users to view incoming `Messages`. 
 
-* Contacts
-  * Add / edit
-* Messages
-  * Reply
+![Messages](https://res.cloudinary.com/daog6scxm/image/upload/v1756303379/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_3_cjjfbg.webp "Messages")
 
-The contacts screen looks like this:
+However, rather than performing full CRUD operations, our modal form simply enables users to expand the message details, as well as submitting a reply.
 
-![Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664958787/cms/01_dorll2.webp "Google Sheets GUI")
+![Reply](https://res.cloudinary.com/daog6scxm/image/upload/v1756303379/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_4_p09grx.webp "Reply")
 
-In it, you can quickly see some KPIs at the top of your Google Sheets GUI. Then you have filtering options and a table with your clients list.
+When a user replies from the front-end of our Google Sheets GUI, an automation is triggered, sending this response to the original submitter, and updating the `status` attribute of the relevant row.
 
-These are the possible statuses for your clients:
+To learn more about how we can use a form to submit messages, check out our guide to building forms for [Google Sheets data entry](https://budibase.com/blog/data/using-a-form-to-enter-google-sheets-data/).
 
-* Lead - You have their contact (maybe via a lead magnet) but they aren’t in your sales funnel.
-* Funnel - They are in your sales funnel, so you are getting to know them, checking their problems, analyzing options, and negotiating.
-* Active - These customers have bought already and you need to deliver or nurture them with pos-sales actions.
-* Lost - These are customers who have received a proposal and rejected it, or who have ignored too many messages.
+## How to build a Google Sheets GUI in 4 steps
 
-Then if you click on “view” or “create new”, you’ll see a screen like this one:
+Let’s jump right in. If you haven’t already, sign up for a free Budibase account to start building as many applications as you like.
 
-![How to build a Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664958862/cms/02_emwvra.webp "How to build a Google Sheets GUI")
+{{< cta >}}
 
-This page is a form to add new customers. You can add form validation rules to make sure that all data points are correct, such as the email or last contact date.
+The first thing we need to do is create a new Budibase Workspace. This is a collection of data sources, end-user apps, and automation rules, which can all interact with one another. When we create a new Workspace, we’re first prompted to give it a name.
 
-Then, there’s the messages screen:
+We’ll simply call ours `Google Sheets GUI`.
 
-![Messages Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1664959023/cms/03_dgggxk.webp "Messages Screen")
+![Workspace](https://res.cloudinary.com/daog6scxm/image/upload/v1756303378/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_5_weqlgb.webp "Workspace")
 
-The messages screen includes a list of all messages, along with a UI component for filtering. Notice how some messages have a “reply” button and some don’t.
+### 1. Setting up our data layer
 
-That’s because of the message status. The messages status in your Google Sheets GUI follows this pattern:
+Once we’ve created our Workspace, we’re offered several options for connection to our first data source.
 
-1. Waiting - You have sent a message but the customer hasn’t replied.
-2. Replied - The customer replied, and you need to reply back.
-3. Closed - You have replied to the message and there are no further replies needed or you can send a new message and it has its own ID and status (starting with waiting again).
+![Data Sources](https://res.cloudinary.com/daog6scxm/image/upload/v1756303378/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_6_ln3jta.webp "Data Sources")
 
-Then if you click “reply” you’ll see this screen:
+Budibase offers dedicated connectors for a range of RDBMSs, NoSQL tools, and APIs, alongside our built-in low-code database. 
 
-![Response screen](https://res.cloudinary.com/daog6scxm/image/upload/v1664959047/cms/04_uto864.webp "Response screen")
+Today, however, we’re choosing Google Sheets.
 
-This seems like a simple form. But once you hit reply a lot of things will happen:
+When we choose this option, we’ll be prompted to complete Google’s SSO flow.
 
-1. Budibase sends an email to your customer, using the title and contents from your form
-2. The current message is updated to closed.
-3. A new message is created with the “waiting” status.
-4. Your customer profile is updated with the last message date.
+![Google SSO](https://res.cloudinary.com/daog6scxm/image/upload/v1756303376/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_7_ceo6tm.webp "Google SSO")
 
-Now let’s implement these screens
+Simply follow the steps to sign in. Then, we’ll be shown the following dialog, where we can input the URL for our target spreadsheet.
 
-## Step 1 - Create a Google Sheets GUI app
+![Google Sheets URL](https://res.cloudinary.com/daog6scxm/image/upload/v1756303374/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_8_jdwujz.webp "Google Sheets URL")
 
-If you haven’t already, sign up for Budibase. Then create a new app and select Google Sheets as your data source.
+We’re then asked which of the sheets within our spreadsheet we’d like to `Fetch`, making them usable within Budibase. As we said earlier, our spreadsheet has two tables, called `Contacts` and `Messages`. 
 
-![Select a data source](https://res.cloudinary.com/daog6scxm/image/upload/v1664959069/cms/05_vwlqq4.webp "Select a data source")
+We’re fetching both.
 
-Next, authorize the app to access your Google Cloud data, add the sheet link and fetch the tables.
+![Fetch Tables](https://res.cloudinary.com/daog6scxm/image/upload/v1756303374/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_9_kcr51f.webp "Fetch Tables")
 
-Our demo app has the contacts sheet:![Google Sheets](https://res.cloudinary.com/daog6scxm/image/upload/v1664959091/cms/06_qqe1ks.webp "Google Sheets")
+Here’s how these will look in Budibase’s Data section.
 
-The messages sheet:
+![Data](https://res.cloudinary.com/daog6scxm/image/upload/v1756303373/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_10_cn2fwo.webp "Data")
 
-![Google Sheets](https://res.cloudinary.com/daog6scxm/image/upload/v1664959112/cms/07_prilj1.webp "Google Sheets")
+Already, we can edit our data, add rows, or update the schema of our table, using Budibase’s spreadsheet-like interface.
 
-And the KPIs sheet:
+![Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756303371/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_11_dslvvt.webp "Google Sheets GUI")
 
-![Google Sheets](https://res.cloudinary.com/daog6scxm/image/upload/v1664959131/cms/08_lje01i.webp "Google Sheets")
+At this point, we could start generating screens. However, we’re going to make a few minor adjustments first that will save us time later.
 
-Keep in mind that you can use the Google Sheets functions to make your life much easier.
+Specifically, we’re going to make a few small changes to some of our columns, that will influence the kinds of components that are used to edit them when we come to generate our CRUD UIs.
 
-Here are some examples.
+Firstly, we’re going to change the `Type` of the `Message` attribute on our `Messages` table to `Long-Form Text`.
 
-Instead of using JS code to create our KPIs, we just use the Google Sheets formulas to get them.
+![Type](https://res.cloudinary.com/daog6scxm/image/upload/v1756303370/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_12_ae6xca.webp "Type")
 
-Then, we include the customer email on the messages sheet. This saves you a lot of data processing to get the email based on the client ID. We are doing it with this function:
+Similarly, there are several columns across our two tables where we’d like to offer users a choice of defined options. These are `Method` and `Status` on the `Messages` table, and `Status` on the `Contacts` table.
 
-*=VLOOKUP(B2,contacts!$A$2:$D$5,4,1)*
+For each of these, we’ll update the `Type` to `Single Select`, as well as inputting our available options based on the values in our dummy data.
 
-In addition, since the messages and client IDs are just a list, you can use a formula to generate them (=ROW() ). This saves you a lot of trouble in getting the size of the current sheet, then adding a new row with that number + 1.
+![Options](https://res.cloudinary.com/daog6scxm/image/upload/v1756303370/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_13_lmenet.webp "Options")
 
-Furthermore, sometimes you can use APIs or Apps Script to auto-update your Google Sheets. The sky's the limit, from something simple such as getting the current date, to complex operations like reading incoming emails from your inbox.
+We’ll make sure to repeat this for all three columns.
 
-In particular, if you can’t code, using the Google Sheets formulas is probably an easier route.
+![Options](https://res.cloudinary.com/daog6scxm/image/upload/v1756303369/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_14_v8xzlt.webp "Options")
 
-Now let’s create the queries to load and update data to and from your Google Sheets GUI.
+And that’s our data model ready to go.
 
-You can create these queries:
+### 2. Generating CRUD screens
 
-### close_message
+Next, we can head to the `Apps` section of our workspace to start building the front-end for our Google Sheets GUI. 
 
-* Function: Update
-* Bindings:
-  * id
-* Sheet: messages
-* RowIndex: {{ id }}
-* Row:
+In Budibase, Apps are end-user tools that can access any of the data sources within their parent Workspace.
 
-  { “status”: “closed” }
+![Apps](https://res.cloudinary.com/daog6scxm/image/upload/v1756303329/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_15_x4eefn.webp "Apps")
 
-### add_message
+We’ll then be prompted to give our new app a name. We’ll simply call ours `Google Sheets GUI` for demo purposes.
 
-* Function: Create
-* Bindings:
-  * Contact_id
-  * Title
-  * Message
-  * Contact_email
-  * Date
-* Sheet: messages
-* Row:
+![Name](https://res.cloudinary.com/daog6scxm/image/upload/v1756303328/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_16_iyzes4.webp "Name")
 
-  {
-  “id”: “=ROW()”,
-  “contact_id”: “{{ contact_id }}”,
-  “method”: “email”,
-  “date”: “{{ date }}”,
-  “title”: “{{ title }}”,
-  “message”: “{{ message }}”,
-  “status”: “waiting”,
-  “contact_email”: “{{ contact_email }}”
-  }
+We’ll then be brought to the Budibase builder, where a new app has been created with a blank screen.
 
-### Update_customer
+![Blank Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1756303328/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_17_sze5eq.webp "Blank Screen")
 
-* Function: Update
-* Bindings:
-  * id
-  * Date
-* Sheet: contacts
-* Row Index: {{ id }}
-* Row:
+At this point, we could start building our Google Sheets GUI from scratch using Budibase’s library of built-in components. However, today we’re going to rely on Budibase’s autogenerated layouts instead, so we can simply delete this screen.
 
-  { “last contact”: “{{ date }}” }
+When we do this, we’re offered several options for how we’d like to build our first screen, including starting from scratch or using a pre-built layout.
 
-That’s all for the “Data” tab. Now head over to the “Design” section and let’s create some screens.
+![Layouts](https://res.cloudinary.com/daog6scxm/image/upload/v1756303328/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_18_xduvat.webp "Layouts")
 
-## Step 2 - Clients list screen
+We’re going to choose the `Table` option. This will generate working CRUD UIs for any connected data tables we choose.
 
-You can create this page with stat cards and a table. In general, each data point of your page requires a data provider component.
+When asked, we’ll select both of our Google Sheets.
 
-The data providers return your queries as an array, even if it’s just one item. So, to access the individual items you can use repeaters, tables, cards, or access the data provider data using bindings.
+![Tables](https://res.cloudinary.com/daog6scxm/image/upload/v1756303308/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_19_zjsxgh.webp "Tables")
 
-Here is the elements tree for that page:
+We’re then given a choice of formats for hosting our CREATE and UPDATE forms. We’ll pick the option to wrap these in `Modals`.
 
-![Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664959199/cms/09_ijcerl.webp "Google Sheets GUI")
+![Forms](https://res.cloudinary.com/daog6scxm/image/upload/v1756303307/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_20_mo3dbd.webp "Forms")
 
-First, use the “_add component_” button to add new components to your page. Then add the title container. In it, you can add your page’s title and then a button.
+Here’s how our `Contacts` screen looks in the Budibase builder straight out of the box.
 
-Buttons don’t do anything by themselves, but you can assign actions to them. So, use this option for the button actions:
+![Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756303306/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_21_qfxiwt.webp "Google Sheets GUI")
 
-![Button Actions](https://res.cloudinary.com/daog6scxm/image/upload/v1664959220/cms/10_qst6op.webp "Button Actions")
+As we saw earlier, we can access forms to CREATE or UPDATE rows, using screen modals.
 
-Next, add the KPIs container, the data provider loading the KPIs sheet, and the repeater. Don’t forget to use the “direction” option to make all the stats cards appear on the same line:
+![CREATE](https://res.cloudinary.com/daog6scxm/image/upload/v1756303305/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_22_w3yx0a.webp "CREATE")
 
-![Add a container](https://res.cloudinary.com/daog6scxm/image/upload/v1664959256/cms/11_o1j8f9.webp "Add a containeer")
+At this point, our Google Sheets GUI offers full CRUD functionality. However, we’re going to make a few key changes to each of our screens, both to improve user experiences and to alter the actions we can take on each data table.
 
-Then, each of the cards is showing one of your KPIs. You just need to use the name/value pairs, so the Google Sheets data is loaded:
+### 3. Modifying autogenerated screens
 
-Title: {{ New Repeater.kpis.name }}
+To make things easier, we’ll take each screen in turn.
 
-Value: {{ New Repeater.kpis.value }}
+### Contacts
 
-Next, there’s the contacts table. You can use the data provider with the Google Sheets table “contacts”. Then add a dynamic filter and a table component to load and filter your data.
+On our `Contacts` screen, we want to retain full CRUD functionality for end-users. So, the changes we’re going to make will be fairly minimal.
 
-You can add a “view” link by clicking on the contacts table, then add a component. This allows you to add a new column with that component (a link, a button, or anything else you want).
+We’ll start by deselecting the `id` column on our table, since this is an autogenerated field in our spreadsheet, and users likely won’t need to access it.
 
-Then use this URL:
+![Contacts](https://res.cloudinary.com/daog6scxm/image/upload/v1756303304/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_23_h7e5he.webp "Contacts")
 
-*/contacts/{{ contacts Table.contacts._id }}*
+Besides this, all we want to do is make a few minor visual changes to our two forms.
 
-This URL makes it so that Budibase loads a different link for each row. They all follow the same pattern: /contacts/:ID.
+We’ll start by selecting our `Create Row` form and updating its `Title` setting to something a little more descriptive.
 
-Thus, you can use this pattern on your screen. You can extract the ID from the URL and pass it to your data providers. Let’s see how you can do it on the next screen.
+![New Contact](https://res.cloudinary.com/daog6scxm/image/upload/v1756303303/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_24_hbogyu.webp "New Contact")
 
-You might also like our guide on [how to build a dashboard](https://budibase.com/blog/tutorials/how-to-build-a-dashboard/).
+Again, we’ll also deselect the `id` field, because this is autogenerated in our Google Sheet anyway.
 
-## Step 3 - Add new and edit clients screens
+![Fields](https://res.cloudinary.com/daog6scxm/image/upload/v1756303301/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_25_mneas0.webp "Fields")
 
-Both forms are very similar in their structures. Here is the components tree for the _add new_ screen:
+The names of the columns in our spreadsheet are fully capitalized. We can use the `Label` and `Placeholder` settings alongside each form field to make these more human-readable.
 
-![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1664959301/cms/12_m7apmw.webp "Component Tree")
+![Text](https://res.cloudinary.com/daog6scxm/image/upload/v1756303301/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_26_ht6uak.webp "Text")
 
-And this is the components tree for the edit screen:
+Lastly, under `Styles`, we’ll set our `Button Position` to `Top`.
 
-![Edit Screen](https://res.cloudinary.com/daog6scxm/image/upload/v1664959326/cms/13_z8cs4w.webp "Edit Screen")
+![Styles](https://res.cloudinary.com/daog6scxm/image/upload/v1756303301/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_27_shx2n3.webp "Styles")
 
-The main difference between them is that the edit form uses a data provider to load the client information to pre-populate the form fields.
+We’ll also apply similar changes to our `Edit Row` form.
 
-Let’s build the edit form and you can use the same logic for the add new screen.
+![Edit Row](https://res.cloudinary.com/daog6scxm/image/upload/v1756303299/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_28_yyiqpt.webp "Edit Row")
 
-Create a new screen and use this route:
+### Messages
 
-*/contacts/:id*
+The changes that we’ll make to the `Messages` screen of our Google Sheets GUI will be more extensive. 
 
-This is what allows Budibase to understand that whatever is after contacts/ should be stored in a variable called “ID”. You can access it using {{ URL.id }}.
+Rather than offering full CRUD operations, we want end-users to be able to read and respond to incoming messages, as well as updating their status to reflect this. We’ll handle the logic for this in an automation in the following section.
 
-This screen starts with a data provider. The trick here is to load the contacts table just like you did for the previous screen, but use this filter:
+For now, though, we simply want to get our UI ready.
 
-![Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1664959360/cms/14_hbbjwq.webp "Google Sheets GUI")
+We’re going to start by deleting the `Create Row` button and the corresponding form modal.
 
-This allows you to load only the current contact. And then you can use a repeater to expose the contact’s fields.
+![Messages](https://res.cloudinary.com/daog6scxm/image/upload/v1756303299/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_29_gmmdbf.webp "Messages")
 
-You can create a form component, and use an update method with the “contacts” schema. This makes your life easier when you are creating the fields.
+We’ll then deselect the `id` column on our table, as we did with our other screen.
 
-The title container loads a title component loading the contact’s name, like this:
+![Table](https://res.cloudinary.com/daog6scxm/image/upload/v1756303298/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_30_qhnjlg.webp "Table")
 
-*{{ Repeater.contacts.Name }}*
+Next, we’re going to make some more wholesale changes to our remaining form. We’ll start by making the same changes as we did for the forms in our previous screens.
 
-Then, create a save button, with these actions:
+![Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756303297/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_31_uw2gai.webp "Google Sheets GUI")
 
-1. Validate form.
-2. Save row - to the contacts table.
-3. Navigate to the contacts page.
+We’ll then change the `Type` from `Update` to `View`, making our form read-only.
 
-For the fields group, you can use the “update form fields” button:
+![Type](https://res.cloudinary.com/daog6scxm/image/upload/v1756303213/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_32_i7e23w.webp "Type")
 
-![Field Group](https://res.cloudinary.com/daog6scxm/image/upload/v1664959398/cms/15_cvhh8j.webp "Field Group")
+We’ll also set each of our fields to `Disabled` to give more of a visual cue that these can’t be edited.
 
-This creates all the form fields automatically in your form.
+![Disabled](https://res.cloudinary.com/daog6scxm/image/upload/v1756303212/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_33_ur2rli.webp "Disabled")
 
-That’s all you need for the edit form. The _add new_ form is quite similar, just replace the save row action with the add new.
+Finally, we’ll drag our fields into a more logical order, and use the `Columns` setting to reduce their vertical real estate.
 
-# Step 4 - List messages
+![Columns](https://res.cloudinary.com/daog6scxm/image/upload/v1756303211/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_34_ka2qth.webp "Columns")
 
-The messages list screen is quite similar to the contacts list page. You can follow the same logic, just use this components tree:
+Finally, we need to add some UI components to enable users to submit their response.
 
-![Component Tree](https://res.cloudinary.com/daog6scxm/image/upload/v1664959419/cms/16_wlp9ru.webp "Component Tree")
+We’ll start by hitting the `+` icon to open the components menu, where we can search for `Container`.
 
-You can even use the option to copy the entire contacts page instead of creating a new one. Or maybe copy the components over. Click on the 3 dots next to the main container to access this.
+![Container](https://res.cloudinary.com/daog6scxm/image/upload/v1756303211/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_35_omkxhr.webp "Container")
 
-The only difference is that this page is going to load the reply link only for messages that aren’t closed.
+This provides a flexible space for us to add additional components within.
 
-You can do it using conditionality, like this:
+![Container](https://res.cloudinary.com/daog6scxm/image/upload/v1756303210/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_36_cpauva.webp "Container")
 
-![Conditionality editor](https://res.cloudinary.com/daog6scxm/image/upload/v1664959453/cms/17_d3edvg.webp "Conditionality editor")
+The first component we’ll nest inside our `Container` is a `Button` with its `Text` set to `Reply`.
 
-So you hide the link if {{ messages Table.messages.status }} is closed.
+![Button](https://res.cloudinary.com/daog6scxm/image/upload/v1756303209/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_37_wnkrcs.webp "Button")
 
-Also, don’t forget to update the messages link to be:
+We’ll configure what this will do in the following section, after we’ve created our automation rule.
 
-*/messages/{{ messages Table.messages._id }}*
+Next, we’ll add a `Long Form Field` beneath our button, setting its `Field`, `Label`, and `Placeholder` to `Response`.
 
-And update the add new button as well.
+![Response](https://res.cloudinary.com/daog6scxm/image/upload/v1756303209/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_38_pv7uno.webp "Response")
 
-You might also like our guide to building a [MongoDB GUI](https://budibase.com/blog/tutorials/mongodb-gui/).
+Now, our users have somewhere to draft responses to incoming messages.
 
-Let’s build the message reply form.
+### 4. Adding automations
 
-## Step 5 - Automatically email replies from your Google Sheets GUI
+Lastly, we’re going to create an automation flow that sends the user’s response to the original submitter of the `Message`, as well as updating the `Status` field of the appropriate row to reflect this.
 
-On the surface, the reply form is quite similar to the contacts edit page. You can create a new page and use the /messages/:id route.
+We’ll start by heading to the `Automations` section of our Budibase Workspace.
 
-Then use this components tree:
+![Automations](https://res.cloudinary.com/daog6scxm/image/upload/v1756303208/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_39_hupjch.webp "Automations")
 
-![Data provider](https://res.cloudinary.com/daog6scxm/image/upload/v1664959484/cms/18_upe8nz.webp "Data provider")
+Automations are global within a Workspace, meaning that they can interact with any of our data sources or apps.
 
-The overall page setup is quite similar, just make sure you use a long text form instead of a simple text field.
+When we create a new Automation, we’re prompted to choose a name and a trigger. We’re going to call our new rule `Respond`, and select the `User Action` trigger.
 
-Also, in this case, you can use a custom schema for your form, like this:
+![Trigger](https://res.cloudinary.com/daog6scxm/image/upload/v1756303207/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_40_f9scv1.webp "Trigger")
 
-![Form Schema](https://res.cloudinary.com/daog6scxm/image/upload/v1664959503/cms/19_zhvapm.webp "Form Schema")
+This brings us to Budibase’s automation editor.
 
-But the general setup is the same. Use a data provider, use the filtering options matching the URL, and add the components.
+![Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756303207/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_41_qgt298.webp "Google Sheets GUI")
 
-The real magic is in the “send reply” button.
+First, we need to configure our trigger with the appropriate inputs. Specifically, we’re going to need to pass two variables from the front-end of our Google Sheets GUI for this to work. These are an email address, the `Response` from our form field, and the `id` of the corresponding `Messages` row.
 
-But before we do this, you need to do 2 things.
+We’ll add these as fields.
 
-### SMTP setup
+![Fields](https://res.cloudinary.com/daog6scxm/image/upload/v1756303206/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_42_gzhnmn.webp "Fields")
 
-Go to your main Budibase screen - before the app selection - and click on “Email”.
+Next, we’ll hit the `+` icon to add a follow-up action, choosing `Send Email (SMTP)`.
 
-![SMTP setup](https://res.cloudinary.com/daog6scxm/image/upload/v1664959525/cms/20_gg4hac.webp "SMTP setup")
+![actions](https://res.cloudinary.com/daog6scxm/image/upload/v1756303205/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_43_gsbu5i.webp "actions")
 
-Add your email settings there and save. If everything is ok you’ll see a green confirmation message.
+We’ll use `{{ trigger.fields.email }}` as our `Send To` field and `{{ trigger.fields.response }}` as our `Message`. 
 
-### Automation setup
+We can use static values for the other fields.
 
-Now, go back to the app edit screen. At the top there are three tabs, _Data, Design,_ and _Automate_. Click on _Automate._
+![values](https://res.cloudinary.com/daog6scxm/image/upload/v1756303205/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_44_io4ijr.webp "values")
 
-You can use this section to run automated actions in your app. But you can use it to create actions that are triggered by your app as well.
+We can then run a test to confirm that this works.
 
-Create a new automation called “send email” that starts using an App Action:
+![Test Data](https://res.cloudinary.com/daog6scxm/image/upload/v1756303204/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_45_duch4p.webp "Test Data")
 
-![Create an automation](https://res.cloudinary.com/daog6scxm/image/upload/v1664959551/cms/21_xtyep4.webp "Create an automation")
+When we do so, we’ll see the correctly formatted email in our inbox.
 
-Add three fields to it, email, subject, and text. Then on the “_do this_” options, select send email, use the “_send to”_ field as the customer email, add the subject, and add the HTML contents as the text using their bindings:
+![Email](https://res.cloudinary.com/daog6scxm/image/upload/v1756303203/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_46_nu6rot.webp "Email")
 
-*{{ trigger.fields.email }}*
+Next, we’ll add an `Update Row` action, pointed at the row in our `Messages` table with ID matching `{{ trigger.fields.response }}`.
 
-*{{ trigger.fields.subject }}*
+![Update Row](https://res.cloudinary.com/daog6scxm/image/upload/v1756303203/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_47_v7btef.webp "Update Row")
 
-*{{ trigger.fields.text }}*
+We’ll then hit `Edit Fields` to set `STATUS` to `replied`.
 
-Save it and test it. You can add a backup email as BCC, which is hidden from customers. This allows you to make sure that all emails are being sent correctly as you get a copy in your inbox.
+![Status](https://res.cloudinary.com/daog6scxm/image/upload/v1756303202/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_48_dppngd.webp "Status")
 
-### The Send Reply action
+And, we’ll run another test to confirm that this has worked.
 
-Now that the email setup is ready, let’s configure your “send reply” actions.
+![Test](https://res.cloudinary.com/daog6scxm/image/upload/v1756303202/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_49_xno36x.webp "Test")
 
-You can use these actions:
+Back in the Apps section, we now need to configure our `Reply` button to trigger this automation with the correct data.
 
-Trigger Automation:
+We’ll start by opening the `On Click` actions drawer.
 
-* Use an existing automation
-* Automation: Send email
-* Fields
-  * Email: {{ Repeater.messages.contact_email }}
-  * Subject: {{ Form.Fields.title }}
-  * Text: {{ Form.Fields.message }}
+![On Click](https://res.cloudinary.com/daog6scxm/image/upload/v1756303202/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_50_lp9q1k.webp "On Click")
 
-Execute Query:
+Here, we’ll add a `Trigger Automation` action and point it at our new automation rule.
 
-* Datasource: Google Sheets
-* Query: close_message
-  * Bindings:
-    * Id: {{ URL.id }}
+![Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756303201/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_51_qtbder.webp "Google Sheets GUI")
 
-Execute Query:
+We’ll set our `email` to `{{ [Edit row form block].Messages.CONTACT_EMAIL }}`, `response` to `{{ [Long Form Field].Value }}`, and `rowId` to `{{ [Edit row form block].Messages._id }}`.
 
-* Datasource: Google Sheets
-* Query: add_message
-  * Contact_id: {{ Repeater.messages.contact_id }}
-  * Title: {{ Form.Fields.title }}
-  * Message: {{ Form.Fields.message }}
-  * Contact_email: {{ Repeater.messages.contact_email }}
-  * Date (JS code): return new Date().toLocaleDateString()
+![Bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1756303201/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_52_q9mfva.webp "Bindings")
 
-Execute Query:
+Now, when a user hits `Reply`, the appropriate data will be passed to our automation rule, firing an email and updating the appropriate row in our Sheet.
 
-* Datasource: Google Sheets
-* Query: update_customer
-  * Id: {{ Repeater.messages.contact_id }}
-  * Date (JS code): return new Date().toLocaleDateString()
+From a functional perspective, our Google Sheets GUI is ready to go. When you’re happy, you can hit `Publish` to push it live for end users.
 
-These queries perform the actions that we mentioned before. You send the email. Then you update the current message to closed. Next, you add a new message for the newly created email. And finally, you update your customer’s last contact.
+![Google Sheets GUI](https://res.cloudinary.com/daog6scxm/image/upload/v1756303201/cms/tutorial-refreshes/google-sheets-gui/Google_Sheets_GUI_53_yrvc7j.webp "Google Sheets GUI")
 
-That’s it. Your Google Sheets GUI is ready.
+## Turn data into action with Budibase
 
-## Building a Google Sheets GUI with Budibase
+Budibase is the open-source, low-code platform that empowers IT teams to turn data into action. 
 
-Today we looked into how you can use Google Sheets as a database, and create a custom app to manage your data without coding. With your Google Sheets GUI, you can read Sheets data, manipulate it, and perform other actions such as sending emails or connecting to APIs.
+With leading support for external data sources, autogenerated UIs, powerful AI-driven automations, optional self-hosting, custom RBAC, free SSO, and more, there’s never been a better way to build professional internal tools.
 
-Take a look at our ultimate guide to [database GUIs](https://budibase.com/blog/tutorials/database-gui/) for more inspiration.
-
-We hope you enjoyed it, and see you again next time!
+Check out our [features overview ](https://budibase.com/product/)to learn more.
