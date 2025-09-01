@@ -68,7 +68,7 @@ Specifically, we’ll be covering:
   - [Who uses JotForm?](#who-uses-jotform)
   - [Why would we look for a JotForm alternative?](#why-would-we-look-for-a-jotform-alternative)
 - [How to choose a JotForm alternative](#how-to-choose-a-jotform-alternative)
-- [8 JotForm alternatives for 2025](#8JotForm alternatives for 2025)
+- [8 JotForm alternatives for 2025](#8-jotform-alternatives-for-2025)
 
 Let’s start with the basics.
 
@@ -291,7 +291,7 @@ More expensive tiers bill at $83.25 per month for 20 users and $210.25 for 60. A
 
 Part of the wider Workspace platform, Google Forms is probably the best-known form builder solution on the market today.
 
-![Google Forms](https://res.cloudinary.com/daog6scxm/image/upload/v1756736003/cms/alternatives/individual-form-builders/Google_Workspace_gedssx.webp "Google Forms")(Google Forms)
+![Google Forms](https://res.cloudinary.com/daog6scxm/image/upload/v1756736003/cms/alternatives/individual-form-builders/Google_Workspace_gedssx.webp "Google Forms")(Google Forms Website)
 
 #### Pros
 
@@ -321,7 +321,7 @@ So, it could be a great fit if we’re already using Workspace across our wider 
 
 Next, we have Formbricks. This is an open-source survey builder and experience management platform, aimed at improving experiences for customers and internal employees.
 
-![FormBricks](https://res.cloudinary.com/daog6scxm/image/upload/v1756736002/cms/alternatives/individual-form-builders/Formbricks_t2kpbg.webp "FormBricks")(Formbricks Alternatives)
+![FormBricks](https://res.cloudinary.com/daog6scxm/image/upload/v1756736002/cms/alternatives/individual-form-builders/Formbricks_t2kpbg.webp "FormBricks")(Formbricks Website)
 
 #### Pros
 
