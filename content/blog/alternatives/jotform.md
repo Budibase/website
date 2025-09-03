@@ -333,7 +333,7 @@ It’s also one of the only open-source solutions we’ve seen so far, as well a
 
 #### Cons
 
-Some users might find that Formbricks is a little bit too technical for their needs or knowledge level. For instance, some reports state that we might need custom code for more advanced customization or to create our own integrations.
+Some users might find that Formbricks is a little bit too technical for their needs or knowledge level. For instance, some reports state that some coding skills might be helpful for advanced tasks, like creating our own integrations.
 
 As such, for a more streamlined, easy-to-implement JotForm alternative, we might want to look elsewhere.
 
