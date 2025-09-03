@@ -197,6 +197,8 @@ To overcome these limits, as well as accessing features such as custom domains a
 
 Novelly, TypeForm also has dedicated license types for marketing or HR teams, each coming with use-case specific features, including fixed or custom tiers within each vertical.
 
+You might also like our guide to the top [TypeForm alternatives](https://budibase.com/blog/alternatives/typeform/).
+
 ### 3. FormStack
 
 Part of the wider Intellistack ecosystem, FormStack is another no-code option for building forms within a range of business workflows, with a particular focus on providing a robust, efficient data collection process.
