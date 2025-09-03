@@ -197,6 +197,8 @@ To overcome these limits, as well as accessing features such as custom domains a
 
 Novelly, TypeForm also has dedicated license types for marketing or HR teams, each coming with use-case specific features, including fixed or custom tiers within each vertical.
 
+You might also like our guide to the top [TypeForm alternatives](https://budibase.com/blog/alternatives/typeform/).
+
 ### 3. FormStack
 
 Part of the wider Intellistack ecosystem, FormStack is another no-code option for building forms within a range of business workflows, with a particular focus on providing a robust, efficient data collection process.
@@ -333,7 +335,7 @@ It’s also one of the only open-source solutions we’ve seen so far, as well a
 
 #### Cons
 
-Some users might find that Formbricks is a little bit too technical for their needs or knowledge level. For instance, some reports state that we might need custom code for more advanced customization or to create our own integrations.
+Some users might find that Formbricks is a little bit too technical for their needs or knowledge level. For instance, some reports state that some coding skills might be helpful for advanced tasks, like creating our own integrations.
 
 As such, for a more streamlined, easy-to-implement JotForm alternative, we might want to look elsewhere.
 
