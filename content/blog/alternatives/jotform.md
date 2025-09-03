@@ -126,7 +126,7 @@ Specifically, our picks are:
 
 1. [Budibase](#1-budibase)
 2. [TypeForm](#2-typeform)
-3. [FormStack](#3-formstack)
+3. [Formstack](#3-formstack)
 4. [SurveyMonkey](#4-surveymonkey)
 5. [Wufoo Forms](#5-wufoo-forms)
 6. [Google Forms](#6-google-forms)
@@ -199,15 +199,15 @@ Novelly, TypeForm also has dedicated license types for marketing or HR teams, ea
 
 You might also like our guide to the top [TypeForm alternatives](https://budibase.com/blog/alternatives/typeform/).
 
-### 3. FormStack
+### 3. Formstack
 
-Part of the wider Intellistack ecosystem, FormStack is another no-code option for building forms within a range of business workflows, with a particular focus on providing a robust, efficient data collection process.
+Part of the wider Intellistack ecosystem, Formstack is another no-code option for building forms within a range of business workflows, with a particular focus on providing a robust, efficient data collection process.
 
 ![FormStack](https://res.cloudinary.com/daog6scxm/image/upload/v1756736004/cms/alternatives/individual-form-builders/FormStack_veldmy.webp "FormStack") (FormStack Website)
 
 #### Pros
 
-Users rate FormStack highly for its versatility and configurability. For instance, we have extensive opportunities to add conditional logic or automate approval flows within our form solutions.
+Users rate Formstack highly for its versatility and configurability. For instance, we have extensive opportunities to add conditional logic or automate approval flows within our form solutions.
 
 FormStack also offers capabilities around document generation and digital signatures, opening it up to a wide range of real-world administrative workflows.
 
@@ -215,7 +215,7 @@ On top of this, FormStack is well-regarded for its range of integrations with co
 
 #### Cons
 
-However, FormStack also has some important downsides. For one thing, some users complain that FormStack is not as effective as some other platforms when it comes to designing form UIs.
+However, Formstack also has some important downsides. For one thing, some users complain that Formstack is not as effective as some other platforms when it comes to designing form UIs.
 
 According to some reports, some users may also find it somewhat less intuitive than other JotForm alternatives, or that it presents a comparatively steep learning curve.
 
@@ -223,7 +223,7 @@ As with many other form builders, we’ll need to utilize Zapier or another inte
 
 #### Pricing
 
-Compared to some of the other JotForm alternatives we have seen, FormStack is a relatively expensive platform. Plans start from $82 per month for a single builder, 25 forms, with 1,000 responses each.
+Compared to some of the other JotForm alternatives we have seen, Formstack is a relatively expensive platform. Plans start from $82 per month for a single builder, 25 forms, with 1,000 responses each.
 
 We’ll need a Suite plan at $250 for three users and 100 forms to access important functionality, such as workflow automations.
 

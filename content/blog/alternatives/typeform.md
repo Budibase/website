@@ -115,7 +115,7 @@ Specifically, our chosen TypeForm alternatives for 2025 are:
 2. [JotForm](#2-jotform)
 3. [Formbricks](#3-formbricks)
 4. [Tally](#4-tally)
-5. [FormStack](#5-formstack)
+5. [Formstack](#5-formstack)
 6. [Wufoo Forms](#6-wufoo-forms)
 
 Let’s take each one in turn.
@@ -248,31 +248,31 @@ Paid licenses start from $24 per month, with important features such as custom b
 
 Business licenses bill at $74 per month, enabling us to control data retention, verify emails, and manage forms’ version histories.
 
-### 5. FormStack
+### 5. Formstack
 
-Part of the wider Intellistack ecosystem, FormStack is a no-code form builder aimed at creating professional data collection tools within a wide range of business workflows. 
+Part of the wider Intellistack ecosystem, Formstack is a no-code form builder aimed at creating professional data collection tools within a wide range of business workflows. 
 
 ![FormStack](https://res.cloudinary.com/daog6scxm/image/upload/v1756736004/cms/alternatives/individual-form-builders/FormStack_veldmy.webp "FormStack") (FormStack Website)
 
 #### Pros
 
-Many users choose FormStack for its high level of versatility and configurability. In particular, we can utilize it in a range of workflows, including using prefilled links, conditional logic, or automated approval flows.
+Many users choose Formstack for its high level of versatility and configurability. In particular, we can utilize it in a range of workflows, including using prefilled links, conditional logic, or automated approval flows.
 
-FormStack is also a highly attractive option for teams that need forms that can handle document management workflows. For instance, it offers digital signatures and document generation, facilitating a whole range of admin workflows.
+Formstack is also a highly attractive option for teams that need forms that can handle document management workflows. For instance, it offers digital signatures and document generation, facilitating a whole range of admin workflows.
 
-Users also regard FormStack highly for its breadth of integration options for common business tools. In particular, it offers close integration with the Salesforce platform, which could be a massive benefit if our wider operations already utilize this.
+Users also regard Formstack highly for its breadth of integration options for common business tools. In particular, it offers close integration with the Salesforce platform, which could be a massive benefit if our wider operations already utilize this.
 
 #### Cons
 
-However, like all platforms, FormStack is not without its potential downsides and limitations. One of the common complaints here, compared to some other TypeForm alternatives, is that FormStack may not offer as extensive design customization options.
+However, like all platforms, Formstack is not without its potential downsides and limitations. One of the common complaints here, compared to some other TypeForm alternatives, is that Formstack may not offer as extensive design customization options.
 
-Some users also note that FormStack can present a somewhat steep learning curve and may not be as intuitive as some other form builder tools.
+Some users also note that Formstack can present a somewhat steep learning curve and may not be as intuitive as some other form builder tools.
 
 Like most other form builder tools, we’ll need to utilize Zapier or another intermediary if we want to send submitted data to a SQL database.
 
 #### Pricing
 
-FormStack’s minimum pricing is a little bit more expensive than some of the other platforms we’ve seen. Licenses start from $82 per month for a single builder, 25 forms, with 1,000 responses each.
+Formstack’s minimum pricing is a little bit more expensive than some of the other platforms we’ve seen. Licenses start from $82 per month for a single builder, 25 forms, with 1,000 responses each.
 
 We’ll need a Suite plan at $250 for three users and 100 forms to access important functionality, such as workflow automations.
 
