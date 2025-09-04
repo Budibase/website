@@ -225,6 +225,8 @@ Paid plans start at $34 per month for 25 forms and 1,000 submissions, ranging up
 
 To overcome these limits or access features such as multiple internal users, SSO, or custom branding and domains, we’ll need an Enterprise license. So, JotForm may not be affordable if we only need to build a small number of forms with these more advanced capabilities.
 
+Take a look at our guide to the top [JotForm alternatives](https://budibase.com/blog/alternatives/jotform/).
+
 ### 4. Formbricks
 
 Next, we have Formbricks. This is a slightly different proposition in the market for Formstack alternatives, as an open-source survey builder and experience management platform.
