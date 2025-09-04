@@ -255,7 +255,7 @@ According to some reports, other platforms may offer more extensive design custo
 
 Generally speaking, SurveyMonkey has the potential to be quite cost-effective, with team plans starting from $30 per user per month. Individual plans bill at $39 per user per month, with unlimited surveys and up to 15,000 responses per year.
 
-However, in terms of feature restrictions across pricing tiers, SurveyMonkey has the potential to be quite expensive. For instance, on individual plans, we’ll need a Premier license, at $139 per month for custom branding or to export data to CSVs.
+However, in terms of feature restrictions across pricing tiers, SurveyMonkey has the potential to be quite expensive. For instance, on individual plans, we’ll need a Premier license, at $139 per month for custom branding.
 
 Additionally, key features such as SSO and data encryption are restricted to custom enterprise pricing, which may mean that SurveyMonkey isn’t a viable option for smaller-scale use cases where security is still a priority.
 
