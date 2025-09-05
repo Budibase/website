@@ -317,6 +317,8 @@ However, this also means that we can’t purchase a separate license for just th
 
 So, this could be a great pick for a simple Formstack alternative for teams already using Google tools, but may not be the most attractive choice for teams who do not.
 
+You might also like our round-up of the top [Google Forms alternatives](https://budibase.com/blog/alternatives/google-forms/).
+
 ## Turn data into action with Budibase
 
 Budibase is the open-source, low-code platform that empowers IT teams to turn data into action.

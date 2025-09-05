@@ -319,6 +319,8 @@ However, an important downside to this is that it can’t be purchased separatel
 
 So, it could be a great fit if we’re already using Workspace across our wider business, but it may not be the best choice if we are not.
 
+You might also like our round-up of the top [Google Forms alternatives](https://budibase.com/blog/alternatives/google-forms/).
+
 ### 7. Formbricks
 
 Next, we have Formbricks. This is an open-source survey builder and experience management platform, aimed at improving experiences for customers and internal employees.
