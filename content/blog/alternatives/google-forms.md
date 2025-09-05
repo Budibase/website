@@ -143,7 +143,7 @@ Once we’ve configured our data layer, we can autogenerate working forms and CR
 
 Budibase also offers a powerful visual automation builder, complete with a range of triggers, actions, LLM operations, looping, and branching logic, making it ideal for more advanced form use cases.
 
-{{< form-builders-cta >}}
+{{< form-builder-cta >}}
 
 #### Use cases
 
