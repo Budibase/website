@@ -49,7 +49,7 @@ url = "https://tally.so/"
 
 Google Forms is probably the most ubiquitous form builder tool available today, offering an intuitive, flexible platform for creating custom data collection UIs.
 
-However, this is a fairly crowded market, with a range of different vendors targeting distinct segments, including in terms of their primary users, use cases, and other aspects of their market positioning.
+However, this is a fairly crowded market, with a range of different vendors targeting distinct segments, including in terms of their primary users, use cases, and other aspects of their market positioning. 
 
 Therefore, in order to make an informed decision about the right form builder for your needs, we need to have a clear picture of what our options are, as well as their respective strengths and weaknesses.
 
