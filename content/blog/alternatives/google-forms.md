@@ -255,11 +255,11 @@ It’s also not quite as feature-rich as some of the other Google Forms alternat
 
 #### Pricing
 
-Wufoo offers relatively generous pricing. There’s a working free tier, offering a single user, ten forms, and 1,000 monthly combined responses.
+Wufoo offers relatively generous pricing. Paid plans start at $16.25 offering a single user, ten forms, and 1,000 monthly combined responses.
 
-Paid plans start from $33.25 for unlimited forms, with up to five users and 10,000 monthly submissions. 
+Other plans start from $33.25 for unlimited forms, with up to five users and 10,000 monthly submissions. 
 
-These range up to $210.25 for 60 users and 200,000 responses. Notably, Wufoo’s paid tiers largely have feature parity and only really vary in terms of usage limits. So, this could be a great choice for smaller-scale use cases with more advanced requirements.
+These range up to $210.25 for 60 users and 200,000 responses. Notably, besiders the Starter plan, Wufoo’s paid tiers largely have feature parity and only really vary in terms of usage limits. So, this could be a great choice for smaller-scale use cases with more advanced requirements.
 
 ### 5. Tally
 

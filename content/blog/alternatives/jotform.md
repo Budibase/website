@@ -283,11 +283,11 @@ Like many other form builder tools, Wufoo forms does not offer direct support fo
 
 #### Pricing
 
-Wufoo Forms has the potential to be relatively affordable. There’s a working free tier, which offers a single user, ten forms, and 1,000 combined responses. Notably though, we can’t password protect free forms.
+Wufoo Forms has the potential to be relatively affordable. The most affordable plan bills at $16.25 per month and offers a single user, ten forms, and 1,000 combined responses.
 
-On paid plans, we can create unlimited forms, with limits on internal users and total submissions across the tiers. These start from $33.25 per month for five users and 10,000 submissions.
+On other plans, we can create unlimited forms, with limits on internal users and total submissions across the tiers. These start from $33.25 per month for five users and 10,000 submissions.
 
-More expensive tiers bill at $83.25 per month for 20 users and $210.25 for 60. Additionally, it’s worth pointing out that Wufoo’s paid plans have feature parity. So, they only vary in terms of usage limits.
+More expensive tiers bill at $83.25 per month for 20 users and $210.25 for 60. Additionally, it’s worth pointing out that Wufoo’s paid plans, other than the Starter tier, mostly have feature parity. So, they only vary in terms of usage limits.
 
 ### 6. Google Forms
 

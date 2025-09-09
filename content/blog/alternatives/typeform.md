@@ -302,11 +302,11 @@ Again, we can’t connect directly to SQL databases without utilizing Zapier or 
 
 #### Pricing
 
-Wufoo is a relatively affordable option for a TypeForm alternative. There’s a working free tier, offering a single user, ten forms, and 1,000 combined responses. However, we can’t password-protect free forms.
+Wufoo is a relatively affordable option for a TypeForm alternative. Paid plans start at $16.25, offering a single user, ten forms, and 1,000 combined responses. However, we can’t password-protect free forms.
 
-Paid plans offer unlimited forms, with limits on internal users and total submissions. These start at $33.25 per month for five users and 10,000 submissions.
+Other plans offer unlimited forms, with limits on internal users and total submissions. These start at $33.25 per month for five users and 10,000 submissions.
 
-For $83.25 per month, we get 20 users and $210.25 for 60. Additionally, it’s worth pointing out that Wufoo’s paid plans mostly have feature parity. 
+For $83.25 per month, we get 20 users and $210.25 for 60. Additionally, it’s worth pointing out that Wufoo’s paid plans mostly have feature parity, besides the Starter tier. 
 
 ## Turn data into action with Budibase
 
