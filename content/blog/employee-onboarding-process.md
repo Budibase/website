@@ -11,7 +11,7 @@ sidenav_parts = [
   "/blog/employee-onboarding-process/",
   "/blog/employee-onboarding-software/"
 ]
-h1 = "Ultimate Guide to Employee Onboarding Processes"
+h1 = "Managing Employee Onboarding Processes: In-Depth Guide"
 menuTitle = "Part 1/2: Onboarding Processes"
 [[about]]
 name = "Onboarding"
