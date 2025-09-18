@@ -4,6 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-09-18T00:00:00Z
 description = "Part two of a two-part series, check out our guide to choosing an employee onboarding software solution."
 title = "10 Employee Onboarding Software Tools for 2025"
+profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 type = "workflow-guides"
 layout = "onboarding"
 cover = "https://res.cloudinary.com/daog6scxm/image/upload/v1758201778/cms/employee-onboarding/Employee_Onboarding_Process_Header_r0ajt7.webp"
@@ -49,20 +50,24 @@ applicationCategory = "businessApplication"
 operatingSystem = "Web"
 url = "https://www.zoho.com/people/"
 [[softwareApplications]]
-name = ""
+name = "n8n"
 applicationCategory = "businessApplication"
 operatingSystem = "Web"
-url = ""
+url = "https://n8n.io/"
 [[softwareApplications]]
-name = ""
+name = "Rippling"
 applicationCategory = "businessApplication"
 operatingSystem = "Web"
-url = ""
+url = "https://www.rippling.com/"
 [[softwareApplications]]
-name = ""
+name = "Jira Service Management"
 applicationCategory = "businessApplication"
 operatingSystem = "Web"
-url = ""
+url = "https://www.atlassian.com/software/jira/service-management"
+[[mentions]]
+name = "Onboarding"
+sameAs = "https://www.wikidata.org/wiki/Q7091744"
+type = "Thing"
 +++
 
 Employee onboarding is a far-reaching, complex process that just about every business needs to manage. This covers all aspects of how we transition a new hire from accepting an offer to becoming a fully productive member of the team.
