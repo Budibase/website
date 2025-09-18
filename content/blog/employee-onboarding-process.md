@@ -9,8 +9,8 @@ type = "workflow-guides"
 layout = "onboarding"
 cover = "https://res.cloudinary.com/daog6scxm/image/upload/v1758204296/cms/employee-onboarding/Employee_Onboarding_Software_Header_fxmdjz.webp"
 sidenav_parts = [
-  "/employee-onboarding-process/",
-  "/employee-onboarding-software/"
+  "/blog/employee-onboarding-process/",
+  "/blog/employee-onboarding-software/"
 ]
 h1 = "Managing Employee Onboarding Processes: In-Depth Guide"
 menuTitle = "Part 1/2: Onboarding Processes"

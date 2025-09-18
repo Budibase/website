@@ -1,21 +1,36 @@
 {{ $currentPage := . }}
 <aside class="resources_sidebar">
-    <p>TEST</p>
   <nav aria-label="Main Navigation">
     <ul class="ul-none text-xs">
       {{ $current := . }}
 
       {{ with .Params.sidenav_parts }}
         {{ range . }}
-          {{ with site.GetPage "page" . }}
-            {{ $p := . }}
+          {{/* ---- Robust slug resolution (handles /leading, trailing/, and Netlify differences) ---- */}}
+          {{ $raw := . }}
+          {{ $trimmed := replaceRE `^/|/$` "" $raw }}         {{/* e.g. "blog/employee-onboarding-process" */}}
+          {{ $rel := printf "/%s/" $trimmed }}                {{/* e.g. "/blog/employee-onboarding-process/" */}}
+
+          {{ $p := site.GetPage $rel }}
+          {{ if not $p }}{{ $p = site.GetPage "page" $rel }}{{ end }}
+          {{ if not $p }}{{ $p = site.GetPage (printf "/%s" $trimmed) }}{{ end }}
+          {{ if not $p }}{{ $p = site.GetPage "page" (printf "/%s" $trimmed) }}{{ end }}
+
+          {{/* Fallback: match by permalink among built pages */}}
+          {{ if not $p }}
+            {{ $hits := where site.RegularPages "RelPermalink" "eq" $rel }}
+            {{ if gt (len $hits) 0 }}{{ $p = index $hits 0 }}{{ end }}
+          {{ end }}
+          {{/* ---------------------------------------------------------------------------- */}}
+
+          {{ if $p }}
             {{ $isCurrent := eq $p.RelPermalink $current.RelPermalink }}
             {{ $title := $p.Param "menuTitle" | default $p.Title }}
 
             <li class="my-3">
               <a 
                 class="js-toggle a-alt {{ if $isCurrent }}is-active{{ end }}" 
-                href="{{ $p.RelPermalink }}" data-target="{{ $p.File.BaseFileName }}">
+                href="{{ $p.RelPermalink }}" data-target="{{ or $p.File.BaseFileName $trimmed }}">
                 {{ $title }}
               </a>
 
@@ -23,15 +38,21 @@
                 {{ with $p.TableOfContents }}
                   {{/* Rewrite TOC markup so it looks like the reference menu */}}
                   {{ $toc := . }}
-                  {{ $toc = replaceRE `<ul>` (printf `<ul class="%s desktopmenu text-xs ul-none mt-2 db">` $p.File.BaseFileName) $toc }}
+                  {{ $toc = replaceRE `<ul>` (printf `<ul class="%s desktopmenu text-xs ul-none mt-2 db">` (or $p.File.BaseFileName $trimmed)) $toc }}
                   {{ $toc = replaceRE `<li>` `<li class="resources_sublink">` $toc }}
                   {{ $toc = replaceRE `<a href=` `<a class="db a-alt py-1" href=` $toc }}
                   {{ $toc | safeHTML }}
                 {{ end }}
               {{ end }}
             </li>
-
+          {{ else }}
+            {{/* Render a safe fallback so the nav never disappears in prod */}}
+            <li class="my-3">
+              <a class="a-alt not-active-link" href="{{ $rel }}">{{ $trimmed }}</a>
+              <!-- sidenav_parts unresolved on build: {{ $raw }} -->
+            </li>
           {{ end }}
+
         {{ end }}
       {{ end }}
     </ul>
@@ -78,5 +99,4 @@
   color: #111 !important; /* dark gray for active */
   font-weight: 700;
 }
-
 </style>
