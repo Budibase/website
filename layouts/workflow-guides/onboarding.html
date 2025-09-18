@@ -1,0 +1,154 @@
+{{ partial "head/header.html" . }}
+
+{{ partial "navigation.html" . }}
+            <div class="space-1-bottom">
+            <img class="img-fluid" src="{{ .Params.cover }}" />
+        </div>
+        
+<div class="container-12 resources_layout_main">
+
+  <div class="resources_layout_wrapper">
+{{ partial "blog/sidenav.html" . }}
+  <section class="resources_content">
+    <div class="container-8 article">
+      {{ with .Resources.Match "*/cover*" }}
+      {{ range . }}
+      <img src="{{ .RelPermalink }}" class="w-100 rounded mb-4" />
+      {{ end }}
+      {{ end }}
+      <h1 class="hero-title mb-2">
+        {{ .Params.h1 }}
+      </h1>
+        <div class="mx-md-auto my-9 container-8">
+            {{ $content_parts := split .Content "||||||||||" }}
+            {{ index $content_parts 0 | safe.HTML}}
+        </div>
+
+<div class="mb-4 mt-4 container-fw flex-row-md justify-center-xl" style="width:100%;">
+  <div class="alt-container" style="width:100%; max-width:none; flex:1 1 100%;">
+    <table class="alt-table no-scrollbar" style="width:100%; table-layout:auto; border-collapse:collapse;">
+      <thead>
+        <tr>
+          <th style="text-align:left; vertical-align:top; width:22%;">
+            <div class="flex-row align-center">
+              <p class="alt-header font-weight-medium" style="margin:0; font-size:1rem;">Team</p>
+            </div>
+          </th>
+          <th style="text-align:left; vertical-align:top;">
+            <div class="flex-row align-center">
+              <p class="alt-header font-weight-medium" style="margin:0; font-size:1rem;">Tasks</p>
+            </div>
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td class="text" data-title="Team" style="font-size:0.95rem; font-weight:600; color:#000; vertical-align:top; width:22%;">HR team</td>
+          <td class="text-xs" data-title="Tasks" style="vertical-align:top;">
+            <ul style="margin:0.25rem 0 0 0; padding-left:1.25rem; list-style:disc;">
+              <li>Issue the contract.</li>
+              <li>Collect personal details and the signed contract.</li>
+              <li>Enter hire into the HRIS system.</li>
+              <li>Schedule in-person sessions and send welcome materials.</li>
+              <li>Track and manage onboarding tasks for all other colleagues.</li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="text" data-title="Team" style="font-size:0.95rem; font-weight:600; color:#000; vertical-align:top; width:22%;">IT team</td>
+          <td class="text-xs" data-title="Tasks" style="vertical-align:top;">
+            <ul style="margin:0.25rem 0 0 0; padding-left:1.25rem; list-style:disc;">
+              <li>Provision core accounts, including SSO, email, and Slack/Teams.</li>
+              <li>Order and configure devices.</li>
+              <li>Apply security policies (MDM, endpoint management, VPN, MFA).</li>
+              <li>Provision licenses for role-specific tools.</li>
+              <li>Provide access to IT support channels and ITSM portals.</li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="text" data-title="Team" style="font-size:0.95rem; font-weight:600; color:#000; vertical-align:top; width:22%;">Finance team</td>
+          <td class="text-xs" data-title="Tasks" style="vertical-align:top;">
+            <ul style="margin:0.25rem 0 0 0; padding-left:1.25rem; list-style:disc;">
+              <li>Create payroll record and confirm bank details.</li>
+              <li>Set up expense management.</li>
+              <li>Approve and track equipment or software processes.</li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="text" data-title="Team" style="font-size:0.95rem; font-weight:600; color:#000; vertical-align:top; width:22%;">New hire’s department</td>
+          <td class="text-xs" data-title="Tasks" style="vertical-align:top;">
+            <ul style="margin:0.25rem 0 0 0; padding-left:1.25rem; list-style:disc;">
+              <li>Assign a mentor.</li>
+              <li>Prepare and deliver role-specific resources.</li>
+              <li>Schedule intro meetings with relevant colleagues.</li>
+              <li>Define initial projects and performance goals.</li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="text" data-title="Team" style="font-size:0.95rem; font-weight:600; color:#000; vertical-align:top; width:22%;">The hiree</td>
+          <td class="text-xs" data-title="Tasks" style="vertical-align:top;">
+            <ul style="margin:0.25rem 0 0 0; padding-left:1.25rem; list-style:disc;">
+              <li>Complete intake forms and documentation.</li>
+              <li>Sign the contract.</li>
+              <li>Provide payroll information to finance.</li>
+              <li>Confirm access to devices and resources provided by IT.</li>
+              <li>Attend orientation and other scheduled sessions.</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<style>
+  /* Make the wrapper and table actually fill the available row width */
+  .flex-row-md .alt-container { flex: 1 1 100%; width: 100%; max-width: none !important; }
+  .alt-table { display: block; width: 100% !important; max-width: none !important; table-layout: auto; }
+  .alt-table th, .alt-table td { vertical-align: top; }
+
+  /* Bulleted tasks look clean */
+  .alt-table td ul {
+    margin: 0.25rem 0 0 0;
+    padding-left: 1.25rem;
+    list-style: disc;
+  }
+
+  /* Optional: give the Team column a fixed-ish width so Tasks can breathe */
+  .alt-table thead th:first-child,
+  .alt-table tbody td:first-child { width: 22%; }
+</style>
+
+
+
+
+
+        <div class="mx-md-auto my-9 container-8">
+            {{ $content_parts := split .Content "||||||||||" }}
+            {{ index $content_parts 1 | safe.HTML}}
+        </div>
+
+    </div>
+  </section>
+</div>
+
+</div>
+<!--Article-->
+
+{{ partial "cta.html" . }} 
+
+{{ partial "footer.html" . }}
+
+<script src="{{ "js/menutoggle.js" | absURL }}"></script>
+
+<!-- JS -->
+

@@ -1,0 +1,81 @@
+{{ $currentPage := . }}
+<aside class="resources_sidebar">
+  <nav aria-label="Main Navigation">
+    <ul class="ul-none text-xs">
+      {{ $current := . }}
+
+      {{ with .Params.sidenav_parts }}
+        {{ range . }}
+          {{ with site.GetPage "page" . }}
+            {{ $p := . }}
+            {{ $isCurrent := eq $p.RelPermalink $current.RelPermalink }}
+            {{ $title := $p.Param "menuTitle" | default $p.Title }}
+
+            <li class="my-3">
+              <a 
+                class="js-toggle a-alt {{ if $isCurrent }}is-active{{ end }}" 
+                href="{{ $p.RelPermalink }}" data-target="{{ $p.File.BaseFileName }}">
+                {{ $title }}
+              </a>
+
+              {{ if $isCurrent }}
+                {{ with $p.TableOfContents }}
+                  {{/* Rewrite TOC markup so it looks like the reference menu */}}
+                  {{ $toc := . }}
+                  {{ $toc = replaceRE `<ul>` (printf `<ul class="%s desktopmenu text-xs ul-none mt-2 db">` $p.File.BaseFileName) $toc }}
+                  {{ $toc = replaceRE `<li>` `<li class="resources_sublink">` $toc }}
+                  {{ $toc = replaceRE `<a href=` `<a class="db a-alt py-1" href=` $toc }}
+                  {{ $toc | safeHTML }}
+                {{ end }}
+              {{ end }}
+            </li>
+
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </ul>
+  </nav>
+</aside>
+
+<style>
+/* Match reference styling */
+.resources_sidebar .desktopmenu {
+  margin-left: 1rem;
+  padding-left: 0;
+  list-style: none;
+}
+.resources_sidebar .desktopmenu > li { margin: 0; }
+.resources_sidebar .desktopmenu ul {
+  margin-left: 1rem; /* deeper indentation */
+  padding-left: 0;
+  list-style: none;
+}
+.resources_sidebar .desktopmenu .resources_sublink > a {
+  display: block;
+}
+
+/* Page titles (inactive + active) */
+.resources_sidebar > nav > ul > li > a.a-alt {
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #000 !important; /* force black */
+}
+
+/* Subheadings (TOC links) */
+.resources_sidebar .desktopmenu .resources_sublink > a {
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: inherit; /* stay gray if theme applies it */
+}
+
+/* Active page title highlight */
+.resources_sidebar > nav > ul > li > a.is-active {
+  border-left: 3px solid #7c3aed; /* purple accent */
+  padding-left: 0.5rem;
+  color: #111 !important; /* dark gray for active */
+  font-weight: 700;
+}
+
+</style>
