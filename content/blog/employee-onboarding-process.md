@@ -32,10 +32,10 @@ Specifically, we’ll be covering:
 
 - [What is employee onboarding?](#what-is-employee-onboarding)
 - [Why is onboarding important?](#why-is-onboarding-important)
-- [4 stages of the employee onboarding process](4-stages-of-the-employee-onboarding-process)
+- [4 stages of the employee onboarding process](#4-stages-of-the-employee-onboarding-process)
 - [Employee onboarding checklists and trackers](#employee-onboarding-checklists-and-trackers)
 - [Handling dependencies, sequencing, and scheduling](#handling-dependencies-sequencing-and-scheduling)
-- [Software tools for employee onboarding](#software-tools-for-employee-onboarding)
+- [Software tools for employee onboarding](#software-tools-and-systems-design-for-employee-onboarding)
 - [How to automate the employee onboarding process](#how-to-automate-the-employee-onboarding-process)
 
 
