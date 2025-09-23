@@ -93,7 +93,7 @@ Specifically, we’re outlining four distinct options for creating dynamic forms
 
 - [Updating fields based on previous inputs](#1-updating-fields-based-on-previous-inputs)
 - [Updating fields based on context and user attributes](#2-updating-fields-based-on-context-and-user-attributes)
-- [Dynamically sending static forms](#3-dynamically-sending-static-forms)
+- [Dynamically serving static forms](#3-dynamically-serving-static-forms)
 - [AI-generated forms](#4-ai-generated-forms)
 
 Importantly, though, these aren’t necessarily mutually exclusive. Rather, they’re the basic building blocks of how we can apply dynamic schemas for our forms, and as such can easily be utilized in tandem with one another to create advanced solutions.
