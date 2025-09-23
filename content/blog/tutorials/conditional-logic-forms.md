@@ -80,6 +80,8 @@ When we bind values, we can access a range of variables relating to the current 
 
 We can either use these as they are or within more complex custom expressions.
 
+You might also like our guide to building [dynamic forms](https://budibase.com/blog/app-building/dynamic-forms)
+
 ### Outcomes
 
 Outcomes are what we do when our condition evaluates to true. Within Budibase, we have three options here:
