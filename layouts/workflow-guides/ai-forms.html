@@ -1,0 +1,41 @@
+{{ partial "head/header.html" . }}
+
+{{ partial "navigation.html" . }}
+            <div class="space-1-bottom">
+            <img class="img-fluid" src="{{ .Params.cover }}" />
+        </div>
+        
+<div class="container-12 resources_layout_main">
+
+  <div class="resources_layout_wrapper">
+{{ partial "blog/sidenav.html" . }}
+  <section class="resources_content">
+    <div class="container-8 article">
+      {{ with .Resources.Match "*/cover*" }}
+      {{ range . }}
+      <img src="{{ .RelPermalink }}" class="w-100 rounded mb-4" />
+      {{ end }}
+      {{ end }}
+      <h1 class="hero-title mb-2">
+        {{ .Params.h1 }}
+      </h1>
+        <div class="mx-md-auto my-9 container-8">
+            {{ $content_parts := split .Content "||||||||||" }}
+            {{ index $content_parts 0 | safe.HTML}}
+        </div>
+
+    </div>
+  </section>
+</div>
+
+</div>
+<!--Article-->
+
+{{ partial "cta.html" . }} 
+
+{{ partial "footer.html" . }}
+
+<script src="{{ "js/menutoggle.js" | absURL }}"></script>
+
+<!-- JS -->
+

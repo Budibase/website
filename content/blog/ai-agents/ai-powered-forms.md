@@ -41,6 +41,8 @@ As one of the primary ways that end users can interact with data, forms are requ
 
 Therefore, the form solutions we utilize, including any AI enhancements we add to them, can have an outsized impact on a huge range of processes.
 
+To learn more, take a look at our comprehensive guide to [AI forms](https://budibase.com/blog/ai-forms/)
+
 ## How do AI forms work?
 
 Before we start checking out some practical examples of AI forms, it’s worth spending some time considering how this actually works in more detail. In other words, how can we go about connecting forms to AI models?
@@ -122,6 +124,8 @@ For our example, we’re adding a photocopier.
 Back in the Data section, we can see that our AI column has successfully categorized this as `Office`.
 
 ![Office](https://res.cloudinary.com/daog6scxm/image/upload/v1750950487/cms/ai-agents/ai-forms/AI_Forms_10_mz512q.webp "Office")
+
+You might also like our round-up of the top [AI Form Builders](https://budibase.com/blog/ai-form-builders/)
 
 ### 2. Summarization with AI intake forms
 
