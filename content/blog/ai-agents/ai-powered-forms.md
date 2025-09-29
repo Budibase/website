@@ -41,7 +41,7 @@ As one of the primary ways that end users can interact with data, forms are requ
 
 Therefore, the form solutions we utilize, including any AI enhancements we add to them, can have an outsized impact on a huge range of processes.
 
-To learn more, take a look at our comprehensive guide to [AI forms](https://budibase.com/blog/ai-forms/)
+To learn more, take a look at our comprehensive guide to [AI forms](https://budibase.com/blog/ai-forms/).
 
 ## How do AI forms work?
 
@@ -125,7 +125,7 @@ Back in the Data section, we can see that our AI column has successfully categor
 
 ![Office](https://res.cloudinary.com/daog6scxm/image/upload/v1750950487/cms/ai-agents/ai-forms/AI_Forms_10_mz512q.webp "Office")
 
-You might also like our round-up of the top [AI Form Builders](https://budibase.com/blog/ai-form-builders/)
+You might also like our round-up of the top [AI Form Builders](https://budibase.com/blog/ai-form-builders/).
 
 ### 2. Summarization with AI intake forms
 
