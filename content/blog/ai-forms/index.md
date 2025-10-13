@@ -247,11 +247,11 @@ The question, therefore, is which of these platforms is most suitable for our ne
 
 The second important consideration here is integration options, including connecting to any data sources, APIs, SaaS tools, or other platforms we might want to integrate with.
 
-For a fuller discussion of both of these topics, as well as an exploration of the specific tools that are available on the market today, check out the second part of this guide on AI form builders.
+For a fuller discussion of both of these topics, as well as an exploration of the specific tools that are available on the market today, check out the second part of this guide on [AI form builders](https://budibase.com/blog/ai-form-builders/).
 
 ### Other AI-coding solutions
 
-We’ve already hinted at a different approach to AI form generation without considering it in great detail. That is utilizing AI to generate individual elements of our form rather than a wholesale solution.
+We’ve already hinted at a different approach to AI form generation without considering it in great detail. That is utilizing AI to generate individual elements of our form rather than a wholesale solution, as we would with an AI form builder.
 
 {{< vimeo id="1122878171" title="AI Forms" >}}
 
@@ -261,15 +261,15 @@ First, we might want to use AI to create form UIs on top of an existing database
 
 It’s worth noting that the situations where using AI to do this can be quite limited, as modern low-code platforms such as Budibase can simply output working form UIs based on the schemas of connected data sources, with a high level of customization.
 
-However, we may wish to utilize an AI coding agent to build form UIs for existing data in certain fringe cases where we need the flexibility of custom code, but are constrained by time or other development resources.
+However, we may wish to utilize an coding agent instead of an AI form builder to create custom form UIs for existing data in certain fringe cases where we need the flexibility of custom code, but are constrained by time or other development resources.
 
 For example, if we need our forms to be written in a particular language or framework for maintainability or interoperability reasons.
 
 Some of the specific coding agents we might rely on here include Claude Code, Cursor, GitHub CoPilot, and more.
 
-The more common option is using AI to generate a data model for our forms, before using other techniques, such as low-code development to build our UIs. The goal here is to greatly reduce time spent on boilerplate development tasks.
+The more common option is using AI to generate a data model for our forms, before using other techniques, such as low-code development to build our UIs. The goal here is to greatly reduce time spent on boilerplate development tasks. At the same time, this approach typically offers considerably greater customization options when we create AI-powered forms.
 
-For example, Budibase offers us the ability to generate fully functional relational data schemas within our built-in database, based on natural language prompts. We can then autogenerate highly customizable form UIs, as we would with any other data source.
+For example, Budibase offers us the ability to generate fully functional relational data schemas within our built-in database, based on natural language prompts. We can then autogenerate highly customizable UIs, as we would with any other data source - leading to truly custom forms that leverage AI within workflows.
 
 ### AI-powered processing on form submissions
 
@@ -301,7 +301,7 @@ To connect to more advanced tools, including MCP servers or memory stores, we mi
 
 ### Dynamic form generation within agentic workflows
 
-The last configuration of AI forms we need to understand involves enabling autonomous AI systems to output forms independently, when they determine that this is needed to progress a workflow.
+The last configuration of AI forms we need to understand involves enabling autonomous AI systems to create a form independently, when they determine that this is needed to progress a workflow.
 
 This requires a few distinct capabilities. Firstly, we’ll need to expose the ability to output forms in a relevant platform to our system, using an MCP server or an API request as a callable function. We’ll also need to provide the system with context as to how and when this can be executed.
 
@@ -309,9 +309,9 @@ Additionally, in order to create a system that is able to reason independently, 
 
 As we noted a second ago, one of the options available to us here is utilizing an AI agent framework. These are reusable, code-centric tools that expedite the process of creating custom AI agents.
 
-Alternatively, users with lower levels of technical skills might wish to opt for a [open-source AI agent platform](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+Alternatively, users with lower levels of technical skills might wish to opt for a low-code or [open-source AI agent platform](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
 
-An increasing number of AI-powered automation tools also offer human-in-the-loop forms natively, which can be a strong option, although it’s worth noting that many of these will only support relatively basic forms, so we’ll need to choose carefully.
+An increasing number of AI-powered automation tools also offer human-in-the-loop forms natively, which can be a strong option, although it’s worth noting that many of these will only support relatively basic forms, so we’ll need to choose carefully. That is, they may be able to create a form, but we might have limited customization options to tailor this to our needs.
 
 ## Turn data into action with Budibase
 
