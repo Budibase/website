@@ -1,0 +1,133 @@
+{{ partial "head/header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+<main id="content" role="main">
+  <article class="article">
+    <div class="space-1-bottom">
+      <img class="img-fluid" src="{{ .Params.cover }}" />
+    </div>
+
+    <div class="container-8 mx-auto">
+      <header class="mt-6">
+        <h1 class="mt-2 mb-4">{{ .Title }}</h1>
+        {{ if (.Params.profilePic) }}
+        <img class="u-avatar-4 rounded-circle mr-2" src="{{ with .Params.profilePic }}{{ . }}{{ end }}">
+        {{ else }}
+        <img class="u-avatar-4 rounded-circle mr-2" src="/img/team/joe.webp">
+        {{ end }}
+        Published by {{ .Params.author }}, {{ .Date.Format .Site.Params.dateform }}
+      </header>
+    </div>
+
+    <div class="mx-md-auto my-9 container-8">
+      {{ $content_parts := split .Content "||||||||||" }}
+      {{ index $content_parts 0 | safe.HTML}}
+    </div>
+
+    <!-- Offboarding tasks table -->
+    <div class="mx-md-auto mt-9 mb-9 container-8">
+      <div class="alt-container">
+        <table class="alt-table no-scrollbar" style="width:100%; table-layout:auto; border-collapse:collapse;">
+          <thead>
+            <tr>
+              <th style="text-align:left; vertical-align:top; width:22%;">
+                <p class="alt-header font-weight-medium" style="margin:0; font-size:1rem;">Team</p>
+              </th>
+              <th style="text-align:left; vertical-align:top;">
+                <p class="alt-header font-weight-medium" style="margin:0; font-size:1rem;">Offboarding Tasks</p>
+              </th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td class="text" style="font-size:0.95rem; font-weight:600; color:#000; vertical-align:top;">HR team</td>
+              <td class="text-xs" style="vertical-align:top;">
+                <ul style="margin:0.25rem 0 0 0; padding-left:1.25rem; list-style:disc;">
+                  <li>Initiate offboarding when notice is received.</li>
+                  <li>Confirm final working day and outstanding leave.</li>
+                  <li>Update HRIS and benefits providers.</li>
+                  <li>Prepare exit documentation and references.</li>
+                  <li>Ensure compliance with retention policies.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text" style="font-size:0.95rem; font-weight:600; color:#000; vertical-align:top;">Finance team</td>
+              <td class="text-xs" style="vertical-align:top;">
+                <ul style="margin:0.25rem 0 0 0; padding-left:1.25rem; list-style:disc;">
+                  <li>Process final payroll and benefits deductions.</li>
+                  <li>Reconcile outstanding reimbursements or advances.</li>
+                  <li>Deactivate any company cards or expense accounts.</li>
+                  <li>Record any severance or settlement payments.</li>
+                  <li>Confirm payroll data retention requirements.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text" style="font-size:0.95rem; font-weight:600; color:#000; vertical-align:top;">Legal team</td>
+              <td class="text-xs" style="vertical-align:top;">
+                <ul style="margin:0.25rem 0 0 0; padding-left:1.25rem; list-style:disc;">
+                  <li>Review and confirm NDA and post-employment clauses.</li>
+                  <li>Ensure intellectual property agreements are signed.</li>
+                  <li>Advise on data access and retention requirements.</li>
+                  <li>Support any dispute or compliance actions.</li>
+                  <li>Sign off on the final exit documentation.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text" style="font-size:0.95rem; font-weight:600; color:#000; vertical-align:top;">IT team</td>
+              <td class="text-xs" style="vertical-align:top;">
+                <ul style="margin:0.25rem 0 0 0; padding-left:1.25rem; list-style:disc;">
+                  <li>Revoke all system and VPN access.</li>
+                  <li>Collect and wipe company hardware.</li>
+                  <li>Transfer ownership of cloud accounts.</li>
+                  <li>Archive or reassign email inboxes.</li>
+                  <li>Remove from distribution lists and directories.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text" style="font-size:0.95rem; font-weight:600; color:#000; vertical-align:top;">Line manager</td>
+              <td class="text-xs" style="vertical-align:top;">
+                <ul style="margin:0.25rem 0 0 0; padding-left:1.25rem; list-style:disc;">
+                  <li>Document and oversee handover of work.</li>
+                  <li>Reassign responsibilities and client ownership.</li>
+                  <li>Conduct exit interview or feedback session.</li>
+                  <li>Retrieve access cards and physical assets.</li>
+                  <li>Confirm completion of all offboarding tasks.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text" style="font-size:0.95rem; font-weight:600; color:#000; vertical-align:top;">The leaver</td>
+              <td class="text-xs" style="vertical-align:top;">
+                <ul style="margin:0.25rem 0 0 0; padding-left:1.25rem; list-style:disc;">
+                  <li>Return all company property.</li>
+                  <li>Clear personal files and data.</li>
+                  <li>Submit handover notes or documentation.</li>
+                  <li>Provide forwarding contact details.</li>
+                  <li>Sign off on confidentiality and compliance forms.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="mx-md-auto mt-9 container-8">
+      {{ index $content_parts 1 | safe.HTML}}
+    </div>
+  </article>
+</main>
+
+{{ partial "cta.html" . }}
+{{ partial "footer.html" . }}
