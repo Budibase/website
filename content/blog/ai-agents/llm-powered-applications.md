@@ -185,6 +185,8 @@ Now, we can test this out by adding a row in another language. When we do this, 
 
 ![Translation](https://res.cloudinary.com/daog6scxm/image/upload/v1753353181/cms/ai-agents/llm-powered-applications/LLM_Powered_Applications_7_q35www.webp "Translation")
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ### AI in Budibase automations
 
 Lastly, we can also access extensive AI capabilities within Budibase’s Automation section, making it the perfect solution for implementing intelligent capabilities within all kinds of workflows and business rules.

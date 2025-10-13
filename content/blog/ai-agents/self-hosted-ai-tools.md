@@ -140,7 +140,7 @@ Next, we have a somewhat different class of self-hostable AI tools. Broadly spea
 
 This can take a couple of different forms. For instance, building automation rules, entire applications, or AI agents.
 
-So, we’ve chosen platforms from across this segment.
+So, we’ve chosen platforms from across this segment. You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
 
 #### Budibase
 

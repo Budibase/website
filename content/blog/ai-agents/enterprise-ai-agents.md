@@ -115,6 +115,8 @@ In short, AI agents are transformative for large enterprises, enabling us to aut
 
 In turn, this positions enterprise agents as a powerful solution for building efficiency in a huge range of processes and workflows across the organization.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ### Key use cases
 
 To flesh out our understanding of what this could look like in the real world, we can move on to thinking about how enterprise AI agents are commonly used.

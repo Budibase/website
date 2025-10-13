@@ -147,7 +147,7 @@ Therefore, describing their needs in their own words can provide a greatly impro
 
 One specific area where this can be hugely beneficial is enabling us to extract structured data from natural language inputs. This can then be used for downstream processing in a wide range of use cases.
 
-To show this off, we’ve built a simple maintenance request form in Budibase, where users can select a device and describe the issue they’re facing in their own words.
+To show this off, we’ve built a simple maintenance request form in Budibase, where users can select a device and describe the issue they’re facing in their own words. You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
 
 ![AI Asset Management](https://res.cloudinary.com/daog6scxm/image/upload/v1753456753/cms/ai-agents/ai-in-assset-management/AI_Asset_Management_1_etrzke.webp "AI Asset Management")
 

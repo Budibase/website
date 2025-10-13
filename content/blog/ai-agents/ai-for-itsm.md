@@ -42,6 +42,8 @@ Therefore, a huge proportion of the workload often revolves around routing reque
 
 Therefore, AI is often used as part of our efforts to automate ITSM workflows, with the overarching goals of providing better outcomes more efficiently.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ### Types of AI solutions
 
 Knowing what AI for ITSM involves at a high level, we can next start to think about the kinds of solutions that are available here.

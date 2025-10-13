@@ -198,6 +198,8 @@ Of course, these are just a few examples of the kinds of tools that rely heavily
 
 In truth, though, RAG is used for a large and growing set of use cases, across all kinds of industries and niches.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ### Fine-tuning
 
 Earlier, we said that fine-tuning is primarily relied on for adapting existing models to make them more effective for use cases requiring a higher level of domain specificity. 

@@ -154,6 +154,8 @@ The key thing here, compared to traditional automation flows, is that agents can
 
 AI agents can attempt to populate values from a range of publicly available information sources in sequence, in a way that would be very challenging with a basic automation script.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ### Software development
 
 As you might expect, some of the most prevalent agentic AI use cases are made by software developers, for software developers. 
@@ -227,6 +229,8 @@ Agentic systems can provide a couple of key benefits here. Rather than solely re
 For instance, many agent tools now support MCP servers, enabling them to interact with connected tools for a wide range of supported actions.
 
 In turn, this means that we’re less impacted by changes to individual endpoints within a vendor’s API, as well as reducing the development burden required to output solutions, as we don’t need to manage individual APIs manually.
+
+You might also like our guide to the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
 
 ## Turn data into action with Budibase
 

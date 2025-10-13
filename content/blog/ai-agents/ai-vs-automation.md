@@ -154,6 +154,8 @@ However, this does not mean that it will make traditional automation solutions r
 
 We’ll consider some of these in the following section.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ## Benefits and challenges
 
 To fully understand the respective place of traditional automation and AI-powered tools in a modern tech stack, we’l need to drill into their relative strengths and weaknesses in more detail.

@@ -80,6 +80,8 @@ This includes new and existing code bases.
 
 As such, agent frameworks are generally utilized by developers or even AI specialists, while other, more visually-focused development tools might be suited to other colleagues and user personas.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ## What to look for in an AI agent framework
 
 Lastly, before we begin examining specific examples from across the market for agent frameworks, it’s worth considering the decision points we’re likely to encounter when comparing various options.
@@ -188,6 +190,8 @@ In particular, OpenAI’s SDK provides a flexible, comprehensive set of tools fo
 It’s available as a framework for both Python and JavaScript/TypeScript, making OpenAI’s Agent SDK a good option for a variety of different teams and developers.
 
 On the whole, the OpenAI Agents SDK offers a strong combination of capabilities and usability, owing in large part to a relatively small number of primitives, enabling production applications without an excessive learning curve.
+
+You might also like our guide to the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
 
 ## Turn data into action with Budibase
 

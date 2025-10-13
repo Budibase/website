@@ -367,7 +367,7 @@ Therefore, we can’t sacrifice predictability entirely.
 
 Because of this, onboarding processes are a good example of a use case for combined approaches, where we may use deterministic automation rules as callable functions for AI agents, or agentic steps within static workflows.
 
-Check out our round-up of the top [low/no-code AI agent builders](https://budibase.com/blog/ai-agents/no-code-ai-agent-builders/) to see some examples of how this can work.
+Check out our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/) to see some examples of how this can work.
 
 ## Turn data into action with Budibase
 

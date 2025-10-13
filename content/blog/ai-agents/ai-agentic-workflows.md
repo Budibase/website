@@ -339,6 +339,8 @@ Here’s how we can apply a reactive execution agent to triage incoming tickets:
 
 Reactive execution agents are ideally positioned to automate ticketing workflows due to their ability to operate quickly at high volumes in situations where rapid, context-aware decisions are required.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ### Drafting knowledge base articles
 
 Lastly, drafting knowledge-based articles is a strong example of a workflow that can be effectively managed using agents with an iterative refinement pattern.

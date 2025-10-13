@@ -194,6 +194,8 @@ For instance, to facilitate retrieval augmented generation (RAG) or [tool callin
 
 As such, having a strong grasp of how both APIs and WebSockets work and how they can be used in the context of building a chatbot solution, we’re in a much stronger position to choose the appropriate communication methods for specific tasks and use cases.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ## Turn data into action with Budibase
 
 Budibase is the open-source, low-code platform that empowers IT teams to turn data into action.

@@ -42,6 +42,8 @@ The first of these relates to size. That is, any model we wish to self-host must
 
 We’ll return to some of the key decision points for choosing a specific model a little later.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ### How can you run a model locally?
 
 First, though, it’s worth fleshing out our understanding of the practical side of running an LLM locally. That is, how does this work, and what tools will we need?

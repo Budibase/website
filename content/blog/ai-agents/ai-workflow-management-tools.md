@@ -274,6 +274,8 @@ Paid plans start at $9 per month for up to 10,000 operations, with three distinc
 
 Enterprise licenses are also available, including advanced security features. It’s worth noting that Make’s lower license costs could make it highly cost-effective, but this might not apply to teams that need a relatively small number of automation rules with a large number of actions.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ### 5. Aisera
 
 Lastly, we have Aisera. This is an AI agent platform, aimed at utilizing LLMs to automate a huge range of workflow across the entire enterprise.

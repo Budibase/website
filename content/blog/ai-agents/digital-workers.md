@@ -131,6 +131,8 @@ The key implementation challenges for digital workers include:
 
 The bottom line here is that digital workers require the same level of planning, validation, and cost/benefit analysis as any other kind of enterprise IT initiative in order to maximize value.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ## Types of digital workers
 
 So far, we’ve discussed digital workers at a relatively high level. But, we haven’t explored what’s happening under the hood in quite as much depth. 
