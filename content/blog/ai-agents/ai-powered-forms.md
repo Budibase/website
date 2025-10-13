@@ -6,6 +6,11 @@ description = "Take a look at our comprehensive guide to building AI forms in Bu
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "AI-Powered Forms | 5 Use Cases and Examples"
 
+[[mentions]]
+name = "AI Forms"
+sameAs = "https://budibase.com/blog/ai-forms/"
+type = "Thing"
+
 +++
 
 AI forms are becoming a more and more prominent part of daily life. By offering more efficient, reliable data collection, they have great potential to transform and enhance a wide range of workflows and processes.
