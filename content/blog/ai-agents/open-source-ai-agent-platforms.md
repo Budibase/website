@@ -1,6 +1,6 @@
 +++
 author = "Ronan McQuillan"
-date = 2025-04-23
+date = 2025-07-23
 description = "Take a look at our round-up of the top open-source AI agent platforms."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = " Top 6 Open-Source AI Agent Platforms for 2025"
