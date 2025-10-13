@@ -111,6 +111,8 @@ So, in addition to offering security advantages across a wide range of use cases
 
 However, in order to achieve this, we also need a working knowledge of the tools and techniques we can use to maintain security within our agents, helping to overcome the risks and threats we discussed earlier.
 
+You might also like our guide to the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ## 10 key security measures for AI agents
 
 Having given a broader overview of the security implications of implementing AI agents, we can move on to checking out some of the key tools and techniques we can use to maximize security within our solutions.
@@ -141,6 +143,8 @@ This applies to data including API tokens, user inputs, and internal context. It
 Just as we would with human users, it’s imperative that we have appropriate roles in place for AI agents, limiting the resources they’re exposed to and the actions they can take. We might also implement time-limited access, with permissions expiring when a task is complete.
 
 In addition, we’ll need to account for end-user roles, including ensuring that agents cannot take actions that are not appropriate for the specific users interacting with them.
+
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
 
 ### 3. Authentication and authorization
 

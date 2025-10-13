@@ -111,6 +111,8 @@ So, proprietary or self-hosted models trained on relevant company data can be ut
 
 Of course, today, a growing use case for generative AI is acting as a basis for agentic systems.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ### Agentic AI
 
 With that in mind, we can also consider the situations where agentic AI is most useful. As we said earlier, one way to think about this is that agentic systems enable us to automate tasks that would likely otherwise require extensive human action and cognition.

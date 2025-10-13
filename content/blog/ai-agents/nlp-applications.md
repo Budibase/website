@@ -82,6 +82,8 @@ To cut through this and select the model that’s most suitable to our specific 
 
 We may also want to pay attention to other variables when comparing models, such as the length of their context windows or their parameter counts. These influence things like how much knowledge the model can retain within and across sessions.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ## 5 most prominent NLP applications in 2025
 
 With a good grasp of what NLP applications are, how they work, and how they’re built, we can move on to thinking about some more concrete, real-world examples.

@@ -316,6 +316,8 @@ Paid plans bill on a pay-as-you-go usage-based basis, pulling in LLM interaction
 
 As such, it has the potential to be a relatively scalable option, although careful attention will be required to determine its cost-effectiveness for individual use cases.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ## Build workflow tools on top of any data with Budibase
 
 ![Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1680181644/ui/homepage-design-ui_sizp7b.webp "Budibase")

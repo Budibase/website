@@ -309,7 +309,7 @@ Additionally, in order to create a system that is able to reason independently, 
 
 As we noted a second ago, one of the options available to us here is utilizing an AI agent framework. These are reusable, code-centric tools that expedite the process of creating custom AI agents.
 
-Alternatively, users with lower levels of technical skills might wish to opt for a [no-code AI agent builder](https://budibase.com/blog/ai-agents/no-code-ai-agent-builders/).
+Alternatively, users with lower levels of technical skills might wish to opt for a [open-source AI agent platform](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
 
 An increasing number of AI-powered automation tools also offer human-in-the-loop forms natively, which can be a strong option, although it’s worth noting that many of these will only support relatively basic forms, so we’ll need to choose carefully.
 

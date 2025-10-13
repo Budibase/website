@@ -166,6 +166,8 @@ This opens up a range of possibilities for adding AI functions to existing code 
 
 Semantic Kernel also offers orchestration and planning tools, as well as prompt templates, response handling, and more, making it a great choice for complex enterprise use cases.
 
+You might also like our guide to the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ### Low-code
 
 Having seen some of the most popular AI agent frameworks, we can next begin to think about platforms that leverage more visual development experiences for creating agentic systems.
@@ -230,6 +232,8 @@ In recent years, it’s also become one of the leading no-code AI agent tools. N
 We can simply explain what we’d like an agent to do, and Zapier will use this to define the specific steps and tools that are required to meet our goals. Importantly, we can also provide feedback with natural language, helping to refine and improve our agents.
 
 Zapier provides over 7,000 integration options, as well as a rich library of agent templates, making it one of the fastest, easiest ways to create working systems that can interact with real data.
+
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
 
 ### Observability, monitoring, and management
 

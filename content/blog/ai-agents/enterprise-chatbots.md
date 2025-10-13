@@ -440,6 +440,8 @@ This requires careful planning and monitoring to ensure continuity across agenti
 
 We might also potentially employ mitigation strategies, such as implementing fallback processes if an tool/function call does not execute as expected.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ### Enterprise chatbot platforms
 
 When discussing architecture and tool stacks for enterprise chatbots, we largely assumed a manual development project. That is, while frameworks can expedite the process of building agentic solutions for developers, this often still resembles a traditional development flow.
@@ -450,4 +452,4 @@ Instead, there is a growing market for teams that want to leverage reusability a
 
 For example, we might utilize pre-built integrations for common enterprise platforms, such as Microsoft, ServiceNow, Atlassian, or other tools. Or, the bulk of UI-building could be done for us, leaving us to focus on back-end development.
 
-Take a look at our guide to the top [low/no-code AI agent builders](https://budibase.com/blog/ai-agents/no-code-ai-agent-builders/) to learn more about the tools that are available on the market today.
+Take a look at our guide to the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/) to learn more about the tools that are available on the market today.

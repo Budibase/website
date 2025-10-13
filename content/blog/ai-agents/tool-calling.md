@@ -186,6 +186,8 @@ However, there is a wide range of use cases for AI systems with tool calling bey
 
 Other common examples include software development, QA, copywriting, sales prospecting, contract management, case management, and a host of other workflows where autonomous reasoning and actions supplement human users.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ### ESM agents and assistants
 
 Alternatively, a growing number of organizations are deploying agentic systems with tool-calling capabilities within more generalized solutions. Most often, this comes in the form of an ESM agent, chatbot, or assistant.

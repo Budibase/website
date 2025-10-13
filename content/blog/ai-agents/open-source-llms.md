@@ -91,6 +91,8 @@ However, cost isn’t the only concern here. Indeed, teams opt for open-source m
 
 So, on the whole, open-source models offer a flexible, adaptable basis for teams to build AI-powered solutions, especially in scenarios where security, control, or ongoing costs are priorities.
 
+You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
 ## Key use cases
 
 To illustrate this, it’s helpful to consider some of the most common ways that open-source LLMs are leveraged in real-world application projects.

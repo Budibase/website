@@ -399,7 +399,7 @@ In light of this, a growing number of teams are choosing to utilize agentic AI a
 
 For example, providing defined workflows that agents can call as functions, or utilizing agentic systems for specific actions and steps within otherwise deterministic rules.
 
-To learn more about how this can work, take a look at our guide to the top [no-code AI agent builders](https://budibase.com/blog/ai-agents/no-code-ai-agent-builders/).
+To learn more about how this can work, take a look at our guide to the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
 
 ## Turn data into action with Budibase
 ![Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1760351646/cms/employee-offboarding/Budibase_exrfcb.webp "Budibase")
