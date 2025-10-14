@@ -11,7 +11,7 @@ sidenav_parts = [
   "/blog/ai-forms/",
   "/blog/ai-form-builders/"
 ]
-h1 = "Top 6 AI Form Builders"
+h1 = "Top 10 AI Form Builders"
 menuTitle = "Part 2/2: AI Form Builders"
 
 [[softwareApplications]]
@@ -161,7 +161,7 @@ The important thing to understand, however, is that the significance of each of 
 
 So, when considering AI form builders, it’s crucial to have a clear picture of your own specific requirements in order to make an informed decision about which specific platform can offer the most value.
 
-## 6 AI form builders for 2025
+## 10 AI form builders for 2025
 
 With a clear idea of the specific decision points we’re likely to encounter when comparing and contrasting AI form generators, we can begin to look at some of the most prominent platforms on the market today.
 
