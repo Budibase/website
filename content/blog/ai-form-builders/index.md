@@ -74,7 +74,7 @@ Because of this, we now have a huge number of AI form generators to choose from,
 
 However, it’s also important to note that this comes as part of a wider rush for SaaS brands to implement AI functionality. This means that the actual quality and usefulness of specific tools can vary quite widely.
 
-In this second part of our guide to AI forms, we’re diving deep into the market for AI form builders. 
+In this second part of our guide to [AI forms](https://budibase.com/blog/ai-forms/), we’re diving deep into the market for AI form builders. 
 
 Specifically, we’ll be covering:
 
