@@ -2,7 +2,7 @@
 author = "Ronan McQuillan"
 date = 2025-09-26T00:00:00Z
 description = "Part two of a two-part series, check out our round-up of the top AI form builders."
-title = "Top 6 AI From Builders for 2025"
+title = "Top 10 AI From Builders for 2025"
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 type = "workflow-guides"
 layout = "ai-forms"
@@ -44,6 +44,28 @@ name = "Zoho Forms"
 applicationCategory = "businessApplication"
 operatingSystem = "Web"
 url = "https://www.zoho.com/forms/"
+
+[[softwareApplications]]
+name = "Fillout"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.fillout.com/"
+[[softwareApplications]]
+name = "Involve.me"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.involve.me/"
+[[softwareApplications]]
+name = "Makeforms"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://makeforms.io/"
+[[softwareApplications]]
+name = "Formester"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://formester.com/"
+
 +++
 
 AI form builders have exploded in popularity over the past couple of years, offering a fast, easy way to output working data collection tools.
@@ -59,7 +81,7 @@ Specifically, we’ll be covering:
 - [What is an AI form builder?](#what-is-an-ai-form-builder)
 - [Why use an AI form generator?](#why-use-an-ai-form-generator)
 - [What to look for in an AI form builder](#what-to-look-for-in-an-ai-form-builder)
-- [6 AI form builders for 2025](#6-ai-form-builders-for-2025)
+- [10 AI form builders for 2025](#10-ai-form-builders-for-2025)
 
 Let’s start with the basics.
 
@@ -153,6 +175,10 @@ Specifically, our picks are:
 4. [FormStack](#4-formstack)
 5. [Feathery](#5-feathery)
 6. [Zoho Forms](#6-zoho-forms)
+7. [Fillout](#7-fillout)
+8. [Involve.me](#8-involveme)
+9. [Makeforms](#9-makeforms)
+10. [Formester](#10-formester)
 
 Let’s check each one out in turn.
 
@@ -252,7 +278,7 @@ This makes it a highly powerful solution for technical teams, although this coul
 
 ### 6. Zoho Forms
 
-Lastly, we have Zoho Forms. Part of the wider Zoho ecosystem, Forms is a powerful, intuitive form builder platform, suitable for teams of a range of different sizes.
+Next,, we have Zoho Forms. Part of the wider Zoho ecosystem, Forms is a powerful, intuitive form builder platform, suitable for teams of a range of different sizes.
 
 ![Zoho Forms](https://res.cloudinary.com/daog6scxm/image/upload/v1759155503/cms/alternatives/individual-form-builders/Zoho_Forms_vn4ycu.webp "Zoho Forms")
 
@@ -265,6 +291,70 @@ Like Feathery, we can also generate form UIs based on uploaded PDFs, enabling us
 Zoho’s AI capabilities are powered by Zia, their built-in AI assistant. This facilitates a range of follow-on workflows from form submissions, including email content generation and AI-powered translation.
 
 For more complex use cases, we can also use AI features across the wider ecosystem, including within the Zoho Creator app building platform.
+
+### 7. Fillout
+
+Next, we have Fillout. This is a comprehensive, flexible platform that enables us to build professional looking forms, alongside tools for scheduling, payments, PDFs, workflows, and signatures.
+
+![AI Form Builder Fillout](https://res.cloudinary.com/daog6scxm/image/upload/v1760430813/cms/ai-form-builder/Fillout_ozw78r.webp "AI Form Builder Fillout")
+
+(*Fillout Website*)
+
+Like many of the other platforms we've seen, Fillout offers AI form generation as an embedded tool on their marketing site. There are also specific AI tools for creating quizzes, surveys, and signatures from natural language inputs.
+
+Novelly, it also offers AI generation tools for styling our forms, including creating customizable themes from images.
+
+As a more general form builder, Fillout is a strong choice for a range of use cases. For instance, it offers a combination of built-in styling options and custom CSS, meaning we can create highly on-brand UIs for a range of customer-facing scenarios.
+
+With 50+ integration options, as well as advanced features such as built-in calendar UIs and payment handling, Fillout is also viable for a range of more advanced forms use cases.
+
+### 8. Involve.me
+
+Involve.me is a slightly different proposition to some of the other AI form builders we've seen so far, offering embeddable forms and interactive landing pages, aimed at teams that want to capture leads at the top of their sales funnels.
+
+![Involve](https://res.cloudinary.com/daog6scxm/image/upload/v1760430813/cms/ai-form-builder/Involve.me_terdx0.webp "Involve")
+
+(*Involve.me Website*)
+
+As part of this, it offers a whole suite of AI-powered lead generation tools for sales and marketing teams, including form, survey, and landing page generation, personalization tools, and AI-powered analytics.
+
+Besides AI functionality, the platform itself is highly clean and intuitive, offering no-code experiences for designing UIs, as well as implementing logic within data collection tools.
+
+On top of this, there's a range of lead generation-specific capabilities, such as scoring formulae, A/B testing, and integrations with a range of platforms for handling customer data.
+
+As such it's a highly impressive offering for this specific use case, although it might be less suitable for teams looking for a more general AI form builder solution.
+
+### 9. Makeforms
+
+Makeforms is a sleak, highly intutive no-code form builder, offering workflows, lead generation, multi-step forms, document-to-form tools, and more.
+
+![Makeforms](https://res.cloudinary.com/daog6scxm/image/upload/v1760430813/cms/ai-form-builder/Makeforms_qm5cnn.webp "Makeforms")
+
+(*Makeforms Website*)
+
+Out of all of the platforms with form generation that we've seen so far, it's one of the more impressive offerings in terms of the control we have over the UIs we output.
+
+For instance, there are options to specify the number of steps we want to include in our forms or the languages we'd like to support as part of the prompting process. On top of this, Makeforms offers AI-powered document-to-form capabilities, which make it a good choice for digitalizing administrative workflows.
+
+As a broader form builder platform, Makeforms strengths include its intuitive, no-code experiences for creating professional-looking UIs.
+
+It's also a good choice for large organizations, with a range of data residency options, as well as tools for creating GDPR or HIPAA compliant forms.
+
+### 10. Formester
+
+Lastly, we have Formester. This is another no-code offering, aimed at teams that want to create professional data collection UIs for a range of use cases.
+
+![Formester](https://res.cloudinary.com/daog6scxm/image/upload/v1760430813/cms/ai-form-builder/Formester_tp0o2o.webp "Formester")
+
+(*Formester Website*)
+
+Like most similar platforms on the market today, it offers a suite of AI form generation tools as part of this. In addition to standard form generation, there are also more sophisticated tools, including the ability to generate forms with conditional logic from natural language.
+
+Besides AI capabilities, Formester is a particularly strong choice for larger organizations. One standout feature is multi-collaborations as part of the form-building process.
+
+Additionally, it offers more advanced capabilities that many other form builders, including sleak experiences for sending HTML forms to custom servers. This offers us more flexibility with our form data than many of Formester's larger competitors.
+
+As such, it has the potential to be an attractive option for a wide range of use cases where we might want to leverage AI form building.
 
 ## Turn data into action with Budibase
 
