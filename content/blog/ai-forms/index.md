@@ -3,7 +3,7 @@
 author = "Ronan McQuillan"
 date = 2025-09-26T00:00:00Z
 description = "Part one of a two-part series, check out our guide to working with AI forms."
-title = "AI Forms | Ultimate Guide"
+title = "What are AI Forms? + How to Build Them in 2025"
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 type = "workflow-guides"
 layout = "ai-forms"
@@ -12,7 +12,7 @@ sidenav_parts = [
   "/blog/ai-forms/",
   "/blog/ai-form-builders/"
 ]
-h1 = "Building AI Forms | Ultimate Guide"
+h1 = "AI Forms | Ultimate Guide"
 menuTitle = "Part 1/2: What are AI Forms?"
 
 +++
