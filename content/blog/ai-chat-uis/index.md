@@ -40,6 +40,8 @@ A chat interface is a conversational UI that enables us to interact with a softw
 
 In terms of design, this normally follows the same structure as an instant messaging platform. The difference is that we’re communicating with an AI system, rather than another human user.
 
+Here's a basic wireframe of what we're talking about.
+
 ![Chat UI design](https://res.cloudinary.com/daog6scxm/image/upload/v1760606931/cms/ai-chat-uis/Chat_UI_Better_io94i1.gif "Chat UI Design")
 
 We’ll return to chat UI design in more depth a little later, but for now, the important thing is that this mainly consists of a chatbox for sending messages, along with a message history made up of timestamped message bubbles.
