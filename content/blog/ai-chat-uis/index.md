@@ -27,7 +27,6 @@ Specifically, we’re going to cover:
   - [Benefits](#benefits)
   - [Challenges](#challenges)
 - [AI chat UI design](#ai-chat-ui-design)
-- [Examples](#examples)
 - [AI chat vs traditional internal tools](#ai-chat-vs-traditional-internal-tools)
 - [Architecture and technical considerations for chat interfaces](#architecture-and-technical-considerations-for-chat-interfaces)
 - [Build vs buy for chat UIs](#build-vs-buy-for-chat-uis)
