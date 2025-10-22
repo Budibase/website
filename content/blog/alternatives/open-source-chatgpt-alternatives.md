@@ -16,7 +16,7 @@ Today, we’re exploring one important element of this by checking out the marke
 
 Specifically, we’ll be covering:
 
-- [What is ChatGPT?](what-is-chatgpt)
+- [What is ChatGPT?](#what-is-chatgpt)
 - [Why would you want an open-source ChatGPT alternative?](#why-would-you-want-an-open-source-chatgpt-alternative)
 - [What to look for in an open-source ChatGPT alternative](#what-to-look-for-in-an-open-source-chatgpt-alternative)
 - [5 open-source ChatGPT alternatives for 2025](#5-open-source-chatgpt-alternatives-for-2025)
