@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-10-22
 description = "Check out our round-up of the top open-source ChatGPT alternatives."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "5 Open-Source ChatGPT Alternatives"
+title = "5 Open-Source ChatGPT Alternatives for 2025"
 
 +++
 
