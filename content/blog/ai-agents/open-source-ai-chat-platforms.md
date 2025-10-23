@@ -18,7 +18,7 @@ Today, we’re examining one solution to this problem by checking out some of th
 
 Specifically, we’ll be covering:
 
-- [What is an open-source chat platform?](#what-is-an-open-source AI chat platform)
+- [What is an open-source chat platform?](#what-is-an-open-source-AI-chat-platform)
 - [What do chat tools do?](#what-do-chat-tools-do)
 - [What to look for in an open-source chat tool](#what-to-look-for-in-an-open-source-chat-tool)
 - [Top 6 open-source AI chat platforms for 2025](#top-6-open-source-ai-chat-platforms-for-2025)
