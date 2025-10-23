@@ -3,7 +3,7 @@
 author = "Ronan McQuillan"
 date = 2025-09-18T00:00:00Z
 description = "Part one of a two-part series, check out our guide to employee onboarding processes"
-title = "Employee Onboarding Processes | Ultimate Guide"
+title = "How to Design an Employee Onboarding Process | Ultimate Guide"
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 type = "workflow-guides"
 layout = "onboarding"
