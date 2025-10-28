@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-10-23
 description = "Check out our round-up of the top open-source AI chat platforms."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Top 5 Open-Source AI Chat Platforms for 2025"
+title = "Top 6 Open-Source AI Chat Platforms for 2025"
 
 +++
 
