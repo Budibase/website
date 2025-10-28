@@ -25,7 +25,7 @@ Specifically, we’ll be covering:
 - [Architecture for internal use chatbots](#architecture-for-internal-use-chatbots)
 - [Tool stacks](#tool-stacks)
 - [Implementation challenges and best practices](#implementation-challenges-and-best-practices)
-- [4 internal chatbot tools](#4-internal-chatbot-tools)
+- [4 internal chat tools](#4-internal-chat-tools)
 
 Let’s start with the basics.
 
