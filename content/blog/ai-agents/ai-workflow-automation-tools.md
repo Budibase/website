@@ -55,7 +55,7 @@ Today, we’re tackling this question head-on by diving deep into the market for
 Specifically, we’ll be covering:
 
 - [What is AI workflow automation](#what-is-ai-workflow-automation)
-- [What do AI workflow tools do?](#what-do-ai-workflow-tools-do?)
+- [What do AI workflow tools do?](#what-do-ai-workflow-tools-do)
 - [What to look for in an AI workflow automation platform](#what-to-look-for-in-an-ai-workflow-automation-platform)
 - [6 AI workflow management tools for 2025](#6-ai-workflow-management-tools-for-2025)
 
@@ -139,7 +139,7 @@ We’ve chosen a range of tools to reflect the variation that we described earli
 
 1. [Budibase](#1-budibase)
 2. [n8n](#2-n8n)
-3. [Zapier](#-3-zapier)
+3. [Zapier](#3-zapier)
 4. [Langflow](#4-langflow)
 5. [Rasa](#5-rasa)
 6. [Flowise](#6-flowise)
