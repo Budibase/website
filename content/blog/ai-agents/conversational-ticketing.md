@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-10-30
 description = "Check out our in-depth guide to adopting conversational ticketing."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "What is Conversational Ticketing? + Tools & Use Cases"
+title = "What is Conversational Ticketing? + Tool Stacks & Use Cases"
 
 +++
 
