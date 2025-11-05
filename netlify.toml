@@ -323,3 +323,369 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
   to = "/business-apps/templates/invoice-approval-software/"
   status = 301
   force = true
+ 
+  [[redirects]]
+  from = "/portals/templates/agency-client-portal-template/"
+  to = "/blog/tutorials/b2b-customer-portal/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/portals/templates/"
+  to = "/business-apps/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/business-apps/templates/applicant-tracking-system/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/portals/templates/customer-account-portal/"
+  to = "/blog/tutorials/b2b-customer-portal/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/approval-apps/templates/"
+  to = "/business-apps/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/directories/templates/business-directory/"
+  to = "/business-apps/templates/employee-directory-template/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/business-apps/templates/client-contact-list-template/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/admin-panels/templates/car-rental-admin-panel/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/admin-panels/templates/school-admin-panel/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/portals/templates/university-portal-app/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/portals/"
+  to = "/business-apps/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/operations/templates/work-order-app/"
+  to = "/business-apps/templates/maintenance-schedule-template/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/forms/templates/multi-step-lead-form/"
+  to = "/blog/tutorials/contact-information-form/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/portals/templates/client-portal-for-accountants/"
+  to = "/blog/tutorials/b2b-customer-portal/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/forms/templates/call-back-form-template/"
+  to = "/blog/tutorials/contact-information-form/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/approval-apps/templates/content-approval-software/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/portals/templates/responsive-job-portal-template/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/admin-panels/"
+  to = "/business-apps/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/it/templates/open-source-it-knowledge-base/"
+  to = "/blog/tutorials/it-portal/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/approval-apps/"
+  to = "/business-apps/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/operations/templates/facility-management-app/"
+  to = "/business-apps/templates/maintenance-schedule-template/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/business-apps/templates/complaints-record-template/"
+  to = "/blog/tutorials/employee-complaint-form/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/it/"
+  to = "/business-apps/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/business-apps/templates/commission-calculation-template/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/operations/templates/distributor-management-system/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/manufacturing/templates/manufacturing-inventory-management-software/"
+  to = "/blog/tutorials/inventory-management-app-free/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/logistics/templates/remote-fleet-management-system/"
+  to = "/blog/tutorials/fleet-management-dashboard/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/approval-apps/templates/travel-approval-request-template/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/professional-services/templates/employee-timesheet-template/"
+  to = "/blog/tutorials/secure-timesheet/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/logistics/templates/logistics-request-form-template/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/professional-services/templates/project-cost-estimation-template/"
+  to = "/blog/tutorials/project-cost-management-software/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/forms/templates/vacation-request-form-template/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/operations/templates/okr-goal-template/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/forms/templates/maintenance-request-form-template/"
+  to = "/business-apps/templates/maintenance-schedule-template/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/directories/templates/membership-directory/"
+  to = "/business-apps/templates/employee-directory-template/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/healthcare/templates/hospital-admission-form-template/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/business-apps/templates/hashicorp-scorecard/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/operations/templates/requirements-gathering-template/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/manufacturing/"
+  to = "/business-apps/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/directories/templates/professional-directory/"
+  to = "/business-apps/templates/employee-directory-template/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/manufacturing/templates/manufacturing-quality-control-checklist/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/business-apps/templates/peer-feedback-template/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/healthcare/"
+  to = "/business-apps/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/legal/templates/legal-document-management-template/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/business-apps/templates/near-miss-register-template/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/healthcare/templates/hospital-discharge-form-template/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/forms/templates/recurring-credit-card-authorization-form/"
+  to = "/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/professional-services/"
+  to = "/business-apps/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/legal/templates/legal-case-management-template/"
+  to = "/business-apps/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/operations/templates/"
+  to = "/business-apps/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/admin-panels/templates/"
+  to = "/business-apps/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/manufacturing/templates/"
+  to = "/business-apps/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/directories/templates/"
+  to = "/business-apps/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/it/templates/"
+  to = "/business-apps/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/logistics/templates/"
+  to = "/business-apps/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/healthcare/templates/"
+  to = "/business-apps/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/professional-services/templates/"
+  to = "/business-apps/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/legal/"
+  to = "/business-apps/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/legal/templates/"
+  to = "/business-apps/templates/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/logistics/"
+  to = "/business-apps/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/operations/"
+  to = "/business-apps/"
+  status = 301
+  force = true
