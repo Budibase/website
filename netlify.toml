@@ -294,3 +294,32 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
   status = 301
   force = true
 
+[[redirects]]
+  from = "/it/templates/open-source-it-asset-management-software/"
+  to = "/business-apps/templates/open-source-it-asset-management-software/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/portals/templates/employee-portal-app/"
+  to = "/business-apps/templates/employee-portal-app/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/operations/templates/maintenance-schedule-template/"
+  to = "/business-apps/templates/maintenance-schedule-template/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/approval-apps/templates/project-approval-system/"
+  to = "/business-apps/templates/project-approval-system/"
+  status = 301
+  force = true
+ 
+  [[redirects]]
+  from = "/approval-apps/templates/invoice-approval-software/"
+  to = "/business-apps/templates/invoice-approval-software/"
+  status = 301
+  force = true
