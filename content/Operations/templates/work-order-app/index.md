@@ -13,7 +13,7 @@ thumbnailColor = "bb-coral"
 title = "Free Work Order App Template | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 Maintaining equipment, properties, and fleets is expensive. Between managing workloads, and retaining profitability, maintenance teams face massive challenges. These become more difficult, the larger your organization is.
 

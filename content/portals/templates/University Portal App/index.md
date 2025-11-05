@@ -13,7 +13,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642502300/cms/U
 thumbnailColor = "bb-forestgreen"
 title = "Open-Source University Portal | Budibase | Low-Code Platform "
 type = "templates"
-
+draft = true
 +++
 Universities and colleges spend vast sums on admin tasks. With thousands of staff and students to manage, higher education institutions face complex operational challenges. This can lead to rising costs and undermine student satisfaction.
 

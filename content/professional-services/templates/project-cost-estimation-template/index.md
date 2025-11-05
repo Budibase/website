@@ -13,7 +13,7 @@ thumbnailColor = "bb-forestgreen"
 title = "Free Project Cost Estimation Template"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 For service businesses, detailed, accurate estimates are vital. When projects are underestimated, they’ll run at a loss. If you overestimate costs, you're unlikely to secure new business.
 

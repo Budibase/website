@@ -4,7 +4,7 @@ title: Custom Healthcare Software Development | Budibase
 description: Budibase is the smart choice for custom healthcare software development. Our low-code platform offers fast builds and incredible functionality.
 images:
 - /homepage-meta.png
-draft: false
+draft: true
 type: "industries/healthcare"
 layout: single
 ---

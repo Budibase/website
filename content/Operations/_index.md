@@ -4,7 +4,7 @@ title: Open-Source Operations Software | Budibase | Low-Code Platform
 description: With Budibase, it’s easy to build operations software to cut costs, increase productivity, and reduce admin workloads. Get started today for free.
 image: 
 - /homepage-meta.png
-draft: false
+draft: true
 type: "industries/operations"
 layout: single
 ---
