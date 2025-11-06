@@ -149,10 +149,6 @@ This can also come with a tradeoff in terms of performance - although it does ma
 
 Virtual machines are largely suited to traditional, monolithic IT infrastructure models, while containerization has emerged to meet the needs of performant, distributed, cloud-based IT ops.
 
-![Containerized apps stats](https://res.cloudinary.com/daog6scxm/image/upload/v1690551257/cms/what-is-containerization/Containerized_apps_stats_https___www.dell.com_en-us_blog_container-adoption-trends-why-how-and-where__kyh3zv.webp "Containerized apps stats")
-
-([Dell](https://www.dell.com/en-us/blog/container-adoption-trends-why-how-and-where/))
-
 ## When is containerization used?
 
 Next, we can start to think about some of the more specific situations where containerization is useful - and the value that we can derive in the context of different kinds of processes.
