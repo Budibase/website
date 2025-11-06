@@ -1,11 +1,9 @@
 +++
-
 author = "Ronan McQuillan"
-date = 2025-07-16
-description = "Take a look at our comprehensive guide to common AI ITSM use cases."
+date = 2025-11-06
+description = "Take a look at our guide to AI data entry with Budibase."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "AI for ITSM | 5 Use Cases and Examples"
-
+title = "What is AI Data Entry? + Building 5 Examples"
 +++
 
 Data entry is one of the areas where the impact of AI is most apparent. As a highly repetitive, time-consuming task, AI-powered automations have the potential to be completely transformative here.
