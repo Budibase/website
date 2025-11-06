@@ -16,7 +16,7 @@ With that in mind, we’re diving deep into AI data entry forms.
 
 Specifically, we’ll be covering:
 
-- [What is AI data entry](#what-is-ai-data-entry)
+- [What is AI data entry?](#what-is-ai-data-entry)
 - [Why leverage AI in your data entry workflows](#why-leverage-ai-in-your-data-entry-workflows)
 - [How to build AI data entry forms with Budibase](#how-to-build-ai-data-entry-forms-with-budibase)
 
