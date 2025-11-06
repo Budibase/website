@@ -123,7 +123,7 @@ Hit save, and we can test this out by heading back to our form and submitting so
 ![Test](https://res.cloudinary.com/daog6scxm/image/upload/v1762446223/cms/ai-data-entry/AI_Date_Entry_5_ak5jdh.webp "Test")
 Back in the Data section, we can see that our AI data entry flow has successfully summarized this submission.
 
-![Summarry](https://res.cloudinary.com/daog6scxm/image/upload/v1762446222/cms/ai-data-entry/AI_Data_Entry_6_otoqj8.webp "Test)
+![Summarry](https://res.cloudinary.com/daog6scxm/image/upload/v1762446222/cms/ai-data-entry/AI_Data_Entry_6_otoqj8.webp "Test")
 ### Categorization
 
 Next up, we’re going to add some AI data entry logic to categorize our support calls. Like before, we have the option of doing this using the AI Column in Budibase’s data section.
@@ -137,7 +137,7 @@ We’ve started by creating an Automation rule with a `Row Created` trigger, poi
 ![Automation](https://res.cloudinary.com/daog6scxm/image/upload/v1762446222/cms/ai-data-entry/AI_Date_Entry_7_a1yyo3.webp "Test")
 We’ll hit the `+` to add a follow-on action. Here, we can scroll down to the `AI` category and choose the `Classify Text` operation.
 
-![Classify Text](https://res.cloudinary.com/daog6scxm/image/upload/v1762446222/cms/ai-data-entry/AI_Data_Entry_8_tw5w8r.webp "Classify Text)
+![Classify Text](https://res.cloudinary.com/daog6scxm/image/upload/v1762446222/cms/ai-data-entry/AI_Data_Entry_8_tw5w8r.webp "Classify Text")
 This accepts two arguments:
 
 1. `Text` - the specific text we’d like to categorize.
