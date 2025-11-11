@@ -4,6 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-11-11
 description = "Learn how to build workflow automations with forms in Budibase."
 title = "What is Form Automation? + Examples and Use Cases"
+profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 
 +++
 
