@@ -13,7 +13,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642587505/cms/S
 thumbnailColor = "bb-coral-light"
 title = "School Admin Panel Template | Budibase | Low-Code Platform"
 type = "templates"
-
+draft = true
 +++
 Any education professional can tell you that administering a school is a massive challenge. One element of this is tracking and managing students’ attendance, and tardiness rates. Many schools fail to track this properly, then struggle to implement effective policies.
 

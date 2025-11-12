@@ -13,7 +13,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642517413/cms/C
 thumbnailColor = "bb-coral"
 title = "Car Rental Admin Panel Template | Budibase"
 type = "templates"
-
+draft = true
 +++
 Managing a profitable fleet requires concrete data. Between maintenance, admin, and logistics, rental companies have incredibly high operating costs. It’s crucial for decision teams to have thorough oversight.
 

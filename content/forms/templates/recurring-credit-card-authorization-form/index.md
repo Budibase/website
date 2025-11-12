@@ -13,7 +13,7 @@ thumbnailColor = "bb-forestgreen"
 title = "Recurring Credit Card Authorization Form Template"
 type = "templates"
 icon = "/img/icon/form.svg"
-
+draft = true
 +++
 Managing recurring payments presents several challenges. On the one hand, there’s the need to store customers’ data securely. On the other, it’s critical to offer an effective customer experience, to maximize conversions.
 

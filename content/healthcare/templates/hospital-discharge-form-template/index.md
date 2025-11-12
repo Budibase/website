@@ -13,7 +13,7 @@ thumbnailColor = "bb-coral"
 title = "Hospital Discharge Form Template | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 Manage communications, admin tasks, and patient relationships, in a single intuitive tool.
 
