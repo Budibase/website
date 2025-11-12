@@ -341,3 +341,51 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
   to = "/templates/"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/admin-panels/templates/car-rental-admin-panel"
+  to = "/templates/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/admin-panels/templates/school-admin-panel"
+  to = "/templates/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/portals/templates/university-portal-app"
+  to = "/templates/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/healthcare/templates/hospital-admission-form-template"
+  to = "/templates/"
+  status = 301
+  force = true
+ 
+  [[redirects]]
+  from = "/healthcare/templates/hospital-discharge-form-template"
+  to = "/templates/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/forms/templates/recurring-credit-card-authorization-form"
+  to = "/templates/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/healthcare/templates"
+  to = "/templates/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/admin-panels/templates"
+  to = "/templates/"
+  status = 301
+  force = true
