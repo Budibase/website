@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-11-12
 description = "Take a look at our guide to implementing AI ticket triage."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "AI Ticket Triage | In-Depth Guide"
+title = "AI Ticket Triage | Benefits, Tools & Implementation"
 
 +++
 
