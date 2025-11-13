@@ -171,9 +171,13 @@ This accepts a single argument called `Prompt`. We’ll hit the lightning bolt i
 
 The specific prompt we’re going to use will use the `Amount`, `Category`, and `Justification` to decide if the request should be approved automatically, if it requires human review, or if it will likely be rejected.
 
-{{< highlight javascript "linenos=inline" >}}
+{{< highlight plaintext "linenos=inline" >}}
 
-You are an assistant for an internal expense-approval workflow. Your task is to analyse an expense request using the amount, category, and the employee’s written justification. Based on this analysis, return **one state only**, with no explanation or extra text.
+You are an assistant for an internal expense-approval workflow. 
+
+Your task is to analyse an expense request using the amount, category, and the employee’s written justification. 
+
+Based on this analysis, return **one state only**, with no explanation or extra text.
 
 Use the following decision logic:
 
