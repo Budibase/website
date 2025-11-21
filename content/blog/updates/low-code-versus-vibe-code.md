@@ -9,7 +9,7 @@ images:
 - https://res.cloudinary.com/daog6scxm/image/upload/v1695395248/Branding/Assets/Logo/CMYK/Full%20Colour/Budibase_Logo_CMYK_FullColour_Positive_tlxvdf.jpg
 date: "2025-11-21"
 author: Michael Shanks
-draft: true
+draft: false
 ---
 
 ![Low-code-vs-Vibe-code](https://res.cloudinary.com/daog6scxm/image/upload/v1763735433/cms/low-code-vibe-code/low-code-vs-vibe-code_v8u356.png)
