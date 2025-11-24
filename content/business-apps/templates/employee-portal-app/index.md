@@ -13,7 +13,7 @@ thumbnailColor = "bb-coral"
 icon = "/img/icon/portal.svg"
 title = "Employee Portal App Template | Budibase | Low-Code Portals"
 type = "templates"
-draft = true
+
 +++
 As your business grows, it becomes more costly and difficult to manage basic human resources tasks. This includes sharing information, managing communications, and staying on top of HR admin.
 

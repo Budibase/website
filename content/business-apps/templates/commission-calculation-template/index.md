@@ -13,7 +13,7 @@ thumbnailColor = "bb-coral"
 title = "Commission Calculation Template | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 Commission schemes are one of the most popular ways to boost morale and motivation. However, managing this can also create a huge admin burden. Different employees perform differently and can qualify for commission based on a number of complex rules.
 

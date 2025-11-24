@@ -13,7 +13,7 @@ thumbnailColor = "bb-coral-light"
 title = "Facility Management App Template | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 Managing properties is a challenge. Properly maintaining facilities requires high levels of organization. When done manually, this can lead to large volumes of admin work.
 

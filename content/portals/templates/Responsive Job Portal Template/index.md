@@ -13,7 +13,7 @@ thumbnailColor = "bb-indigo-light"
 icon = "/img/icon/portal.svg"
 title = "Job Portal App Development Template | Budibase | Low-Code Platform"
 type = "templates"
-
+draft = true
 +++
 
 Hiring staff is expensive. Between job boards, recruiters, and internal admin time, hiring a single employee typically costs thousands. In many organizations, this can lead to disruption, delay, and resourcing issues.

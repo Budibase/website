@@ -16,7 +16,7 @@ datasource: Built-in database
 destination: https://budibase.app/builder?template=app/lead-generation
 thumbnailColor: orange
 icon: "/img/icon/form.svg"
-
+draft: true
 ---
 Collecting data online is critical to many processes, including; customer feedback, lead generation, order intakes, feedback surveys, evaluations, and many more. This specific form template is for capturing leads online.
 

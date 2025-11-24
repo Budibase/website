@@ -13,7 +13,7 @@ thumbnailColor = "bb-indigo"
 title = "Client Contact List Template | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 Give your team a fast, intuitive way to record, search, and leverage customer contact information.
 

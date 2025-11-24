@@ -13,7 +13,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642518274/cms/C
 thumbnailColor = "bb-forestgreen"
 title = "Content Approval Software | Budibase | Low-Code Platform"
 type = "templates"
-
+draft = true
 +++
 Content approval can be a lengthy process. Like any creative process, there is massive scope for delay, miscommunication, and missed deadlines. This applies equally to agency and in-house creative teams.
 

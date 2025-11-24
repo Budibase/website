@@ -13,7 +13,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642588436/cms/T
 thumbnailColor = "bb-indigo"
 title = "Travel Approval Request Template | Budibase | Low-Code Builder"
 type = "templates"
-
+draft = true
 +++
 Business travel is expensive. However, some costs are avoidable. Implementing a robust travel approval process improves oversight of your bookings while reducing internal admin costs.
 

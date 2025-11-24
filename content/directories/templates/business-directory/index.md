@@ -13,7 +13,7 @@ thumbnailColor = "bb-coral"
 title = "Business Directory Template | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 Gathering, managing, and distributing company data can be an expensive task. On the one hand, there’s the actual cost of administration. On the other, there are hidden costs, like security risks, unnecessary communications, and avoidable mistakes.
 
