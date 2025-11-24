@@ -13,7 +13,7 @@ thumbnailColor = "bb-coral"
 title = "Complaints Record Template | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 With our lightweight template, employees and customers can log complaints, in seconds. Create a centralized, consistent record of all incidents, complaints, and feedback to maximize efficiency, accountability, and customer satisfaction.
 

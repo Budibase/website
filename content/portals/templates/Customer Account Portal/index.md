@@ -13,7 +13,7 @@ thumbnailColor = "bb-coral"
 icon = "/img/icon/portal.svg"
 title = "Customer Account Portal Template | Budibase | Low-Code Platform"
 type = "templates"
-
+draft = true
 +++
 Efficient customer service is crucial for modern businesses. Lengthy customer interactions cost money and create negative experiences. This impacts your profitability, client experiences, and your customer retention rates.
 

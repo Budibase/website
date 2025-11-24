@@ -13,7 +13,7 @@ thumbnailColor = "bb-coral"
 icon = "/img/icon/portal.svg"
 title = "Client Portal for Accountants | Budibase | Low-Code Platform"
 type = "templates"
-
+draft = true
 +++
 For accountancy firms, one of the biggest operational costs is client communications. Extensive back and forth with clients can quickly lead to a large burden on admin teams. In turn, this undermines profitability.
 

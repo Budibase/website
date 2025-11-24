@@ -13,7 +13,6 @@ thumbnailColor = "bb-indigo"
 title = "Open-Source IT Asset Management Software"
 type = "templates"
 icon = "/img/icon/app.svg"
-draft = true
 +++
 An effective IT team is the heart of any successful organization. Asset maintenance and inventory management are key here. Ensuring that the right devices are accessible is critical to all other business processes.
 

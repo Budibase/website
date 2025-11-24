@@ -13,7 +13,7 @@ thumbnailColor = "blue"
 title = "Call-Back Form Template | Budibase"
 type = "templates"
 icon = "/img/icon/form.svg"
-
+draft = true
 +++
 Your customers and clients are busy. Forcing them to wait in lengthy call queues is a guaranteed path to poor customer experiences. This quickly leads to poor satisfaction, and eventually lost revenue.
 
