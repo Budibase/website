@@ -715,13 +715,13 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
   force = true
 
   [[redirects]]
-  from = "https://budibase.com/blog/ai-form-builders/"
-  to = "https://budibase.com/blog/ai-forms/"
+  from = "/blog/ai-form-builders/"
+  to = "/blog/ai-forms/"
   status = 301
   force = true
 
   [[redirects]]
-  from = "https://budibase.com/blog/ai-form-builders"
-  to = "https://budibase.com/blog/ai-forms/"
+  from = "/blog/ai-form-builders"
+  to = "/blog/ai-forms/"
   status = 301
   force = true
