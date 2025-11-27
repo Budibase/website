@@ -4,8 +4,6 @@ date = 2025-09-26T00:00:00Z
 description = "Part two of a two-part series, check out our round-up of the top AI form builders."
 title = "Top 10 AI From Builders for 2025"
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-type = "workflow-guides"
-layout = "ai-forms"
 draft = true
 
 cover = "https://res.cloudinary.com/daog6scxm/image/upload/v1759156737/cms/ai-form-builder/AI_FORMS_tbrcup.png"

@@ -294,7 +294,7 @@ The question, therefore, is which of these platforms is most suitable for our ne
 
 The second important consideration here is integration options, including connecting to any data sources, APIs, SaaS tools, or other platforms we might want to integrate with.
 
-For a fuller discussion of both of these topics, as well as an exploration of the specific tools that are available on the market today, check out the second part of this guide on [AI form builders](https://budibase.com/blog/ai-form-builders/).
+We'll discuss these types of solutions in more detail a little later, including checking out some of the most prominent AI form builders on the market today.
 
 ### Other AI-coding solutions
 
