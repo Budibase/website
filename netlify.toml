@@ -713,3 +713,15 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
   to = "/templates/"
   status = 301
   force = true
+
+  [[redirects]]
+  from = "/blog/ai-form-builders/"
+  to = "/blog/ai-forms/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/blog/ai-form-builders"
+  to = "/blog/ai-forms/"
+  status = 301
+  force = true
