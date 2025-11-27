@@ -2,18 +2,61 @@
 
 author = "Ronan McQuillan"
 date = 2025-09-26T00:00:00Z
-description = "Part one of a two-part series, check out our guide to working with AI forms."
-title = "AI Forms | Use Cases, Examples & Solutions"
+description = "Check out our comprehensive guide to AI forms and AI form builders."
+title = "What are AI Forms? + 10 AI Form Builders"
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-type = "workflow-guides"
-layout = "ai-forms"
-cover = "https://res.cloudinary.com/daog6scxm/image/upload/v1759156737/cms/ai-form-builder/AI_FORMS_tbrcup.png"
-sidenav_parts = [
-  "/blog/ai-forms/",
-  "/blog/ai-form-builders/"
-]
-h1 = "AI Forms | Ultimate Guide"
-menuTitle = "Part 1/2: What are AI Forms?"
+
+[[softwareApplications]]
+name = "Budibase"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://budibase.com/"
+[[softwareApplications]]
+name = "JotForm"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.jotform.com"
+[[softwareApplications]]
+name = "TypeForm"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.typeform.com"
+[[softwareApplications]]
+name = "Formstack"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.formstack.com"
+[[softwareApplications]]
+name = "Feathery"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.feathery.io"
+[[softwareApplications]]
+name = "Zoho Forms"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.zoho.com/forms/"
+
+[[softwareApplications]]
+name = "Fillout"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.fillout.com/"
+[[softwareApplications]]
+name = "Involve.me"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.involve.me/"
+[[softwareApplications]]
+name = "Makeforms"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://makeforms.io/"
+[[softwareApplications]]
+name = "Formester"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://formester.com/"
 
 +++
 
@@ -40,8 +83,12 @@ Specifically, we’ll be covering:
   - [Key use cases](#key-use-cases)
   - [User personas](#user-personas)
 - [Tooling, solutions, and systems design for AI forms](#tooling-solutions-and-systems-design-for-ai-forms)
+- [What to look for in an AI form builder](#what-to-look-for-in-an-ai-form-builder)
+- [10 AI form builders for 2025](#10-ai-form-builders-for-2025)
 
 Let’s start with the basics.
+
+![AI Forms](https://res.cloudinary.com/daog6scxm/image/upload/v1759156737/cms/ai-form-builder/AI_FORMS_tbrcup.webp "AI Forms")
 
 ## What are AI forms?
 
@@ -49,11 +96,11 @@ As we said at the outset, AI forms can refer to a few distinct things in differe
 
 Broadly, though, what these have in common is that they involve utilizing LLM capabilities, either within the tooling we use to output forms or in the actual form solutions themselves. For example, using AI to provide feedback on users' form inputs in real time.
 
-{{< vimeo id="1122868305" title="AI Forms" >}}
-
 To make things easier throughout the course of this guide, we’re going to be more careful with our terminology. 
 
 So, we can distinguish between `AI-generated forms`, as in tools that have been created using AI, and `AI forms`, in the true sense of being forms that themselves utilize AI.
+
+{{< vimeo id="1122868305" title="AI Forms" >}}
 
 These are the types of systems we’ll need to be aware of.
 
@@ -313,9 +360,222 @@ Alternatively, users with lower levels of technical skills might wish to opt for
 
 An increasing number of AI-powered automation tools also offer human-in-the-loop forms natively, which can be a strong option, although it’s worth noting that many of these will only support relatively basic forms, so we’ll need to choose carefully. That is, they may be able to create a form, but we might have limited customization options to tailor this to our needs.
 
-## Turn data into action with Budibase
+## What to look for in an AI form builder
+
+Before we check out some of the specific platforms that are available on the market today, we’re going to outline some of the key decision points that we’re going to encounter along the way. In other words, what factors can we use to determine which platform best suits our needs?
+
+As with any software procurement decision, this draws in a range of interrelated issues, including:
+
+- **Pricing** - How much the platform will cost to use.
+- **License structure** - The pricing model that this is based on, including any usage or feature restrictions across individual tiers.
+- **Design flexibility and customization** - Our requirements around the form UIs we can create, for instance, adding custom code, building mobile-friendly forms, or utilizing conditionality rules.
+- **Data modelling requirements** - Including in terms of our data schema and the specific database tools that underpin this.
+- **Data residency, security, and compliance** - The specific security and compliance controls on offer, as well as our options around how and where our data is stored.
+- **Integration options** - The extent to which an AI form builder can integrate with our wider tool stack.
+- **Automation tools** - How easily we can implement automation logic based on form submissions, as well as the complexity of the solutions we can build.
+- **AI-specific considerations** - Including flexibility around utilizing different LLMs, as well as working with custom prompts and operations.
+- **Enterprise functionality** - Capabilities that are required in large organizations, such as SSO, self-hosting, air-gapped deployments, audit logs, and more.
+
+The important thing to understand, however, is that the significance of each of these will vary from one team to the next. This can be informed by your target use cases, budget, user personas, and other factors.
+
+So, when considering AI form builders, it’s crucial to have a clear picture of your own specific requirements in order to make an informed decision about which specific platform can offer the most value.
+
+## 10 AI form builders for 2025
+
+With a clear idea of the specific decision points we’re likely to encounter when comparing and contrasting AI form generators, we can begin to look at some of the most prominent platforms on the market today.
+
+As there’s a decent amount of variation between these, in terms of their target usage and customers, we’ve chosen a range of platforms to represent the full scope of what’s out there.
+
+Specifically, our picks are:
+
+1. [Budibase](#1-budibase)
+2. [JotForm](#2-jotform)
+3. [TypeForm](#3-typeform)
+4. [FormStack](#4-formstack)
+5. [Feathery](#5-feathery)
+6. [Zoho Forms](#6-zoho-forms)
+7. [Fillout](#7-fillout)
+8. [Involve.me](#8-involveme)
+9. [Makeforms](#9-makeforms)
+10. [Formester](#10-formester)
+
+Let’s check each one out in turn.
+
+### 1. Budibase
+
+Budibase is the open-source, low-code platform that empowers IT teams to turn data into action. With leading external data support, highly customizable autogenerated UIs, and powerful AI-driven automations, it’s the perfect solution for advanced forms use cases.
 
 ![Budibase AI Form Builder](https://res.cloudinary.com/daog6scxm/image/upload/v1758199016/cms/employee-onboarding/Employee_Onboarding_Software_Budibase_i5rfr3.webp "Budibase AI Form Builder")
+
+#### Features
+
+Budibase offers dedicated connectors for a huge range of RDBMSs, NoSQL tools, APIs, and more, alongside our built-in, low-code database, which supports CSV uploads, dedicated data types for LLM operations, and AI-generated schemas.
+
+Once we’ve connected our data, Budibase can autogenerate fully working, highly customizable forms and CRUD UIs. The Budibase app builder offers extensive customization, including optional CSS and JavaScript, mobile-friendly designs, conditional UIs, and more.
+
+Our visual automation builder is the perfect solution for triggering workflows on form submissions, including an extensive library of triggers and actions, LLM operations powered by a range of models, and looping and branching logic.
+
+Check out our [features overview](https://budibase.com/product) to learn more.
+
+#### Use cases
+
+Our users choose Budibase for all kinds of advanced form use cases. In particular, it’s highly optimized for IT teams that need to build data collection UIs for request management, approval apps, ticketing systems, admin panels, CRUD operations, and more.
+
+Budibase is also the clear choice for security-first teams. With free SSO, custom RBAC, optional self-hosting, air-gapped deployments, and more, Budibase gives teams full control over how and where their form data is stored and secured.
+
+On top of this, Budibase is ideal for busy IT teams that need to output professional solutions, at speed, including multi-player collaboration and reusable data sources and automation rules within Workspaces.
+
+{{< form-builder-cta >}}
+
+#### Pricing
+
+Budibase pricing is designed to scale. You can build as many applications as you want for free, for up to twenty users if you self-host. Our free plans even come with SSO for all users.
+
+Paid plans start from $5 per month for end users and $50 for app creators. This also introduces custom branding, reusable code snippets, Budibase AI, creator access control, PDF generation, and more.
+
+Custom enterprise licenses are available, with enforceable SSO, audit logs, PWA support, script injection, air-gapped deployments, and other enhancements for large organizations.
+
+Take a look at our [pricing page](https://budibase.com/pricing/) to find the Budibase plan that’s right for you.
+
+### 2. JotForm
+
+Next up, we have JotForm. As probably the best-known SaaS form builder on the market today, it’s a great choice for less technical colleagues that need to output professional forms and other data management UIs, with ease.
+
+![JotForm](https://res.cloudinary.com/daog6scxm/image/upload/v1756736005/cms/alternatives/individual-form-builders/JotForm_rztftd.webp "JotForm")(*JotForm Website*)
+
+In the past couple of years, JotForm has also established itself as a leader for AI-powered form building. In particular, JotForm is an attractive offering for teams that need to generate forms, as well as performing more advanced AI functions.
+
+As part of this, it offers an AI form generator, which can be accessed for free on the marketing site.
+
+This performs well at understanding the context of the form we’re asking for and suggesting fields based on this. The form that’s created is largely unstyled, although it does place shorter text fields into columns.
+
+In terms of AI, however, JotForm’s strengths are more apparent when it comes to follow-on workflows from form submissions. There are tools for creating apps, automations, AI-agents, and chatbots, positioning JotForm as a good fit for more complex form-building use cases.
+
+You might like our round-up of the top [JotForm alternatives](https://budibase.com/blog/alternatives/jotform/).
+
+### 3. TypeForm
+
+TypeForm is another highly prominent form builder, which is particularly popular for multi-step, customer-facing use cases.
+
+![TypeForm](https://res.cloudinary.com/daog6scxm/image/upload/v1756736004/cms/alternatives/individual-form-builders/TypeForm_vwjhdd.webp "TypeForm")(*TypeForm Website*)
+
+Out of all of the big-name form builder tools, it’s also one of the more impressive offerings in terms of AI-assisted experiences. This includes an AI form generator that forms a fully integrated experience within the platform.
+
+Notably, this offers specific prompt formats for different types of forms, as well as a more generalized option, helping to guide users through the process of providing relevant context to the model.
+
+Besides this, TypeForm’s AI tools for building forms are extensive, including capabilities for matching design assets to your brand, optimizing content, and drawing qualitative and quantitative insights from submitted data.
+
+On top of this, one of the platform’s most impressive features is Clarify AI, which can dynamically ask follow-up questions to open-ended questions, in order to guide end users to submit the precise information that we require.
+
+### 4. Formstack
+
+![FormStack](https://res.cloudinary.com/daog6scxm/image/upload/v1756736004/cms/alternatives/individual-form-builders/FormStack_veldmy.webp "FormStack")(*FormStack Website*)
+
+Formstack is a no-code form builder and workflow platform, which is particularly well-suited to internal admin use cases, with a range of capabilities including document generation, electronic signatures, and more.
+
+Like TypeForm, full AI generation is offered as a core experience within the platform. This is powered by Claude, offering a strong experience for outputting form drafts based on prompts describing the target workflow.
+
+On top of this, Formstack also offers AI generation for fillable document templates. 
+
+So, compared to many other AI form builders, this means that Formstack is a particularly strong option for empowering non-technical colleagues to transform complex, document-focused workflows.
+
+Formstack also offers AI-powered automation tools within the platform, opening it up to a wide range of use cases for handling processes based on form submissions.
+
+### 5. Feathery
+
+Feathery is a powerful, AI-driven form and workflow builder that’s specifically optimized for the financial services space.
+
+![Feathery](https://res.cloudinary.com/daog6scxm/image/upload/v1759155504/cms/alternatives/individual-form-builders/Feathery_r4wj9a.webp "Feathery")(*Feathery Website*)
+
+Although it offers an effective AI form generator, which is accessible within the platform, choosing this option to create a form simply redirects to the embedded generator on the marketing site.
+
+One particularly impressive aspect of Feathery’s AI form builder is its document extraction capabilities. With this, we can upload PDFs, and Feathery’s AI will convert them to forms to create fillable document templates.
+
+Once we’ve generated a form, Feathery is also one of the most highly customizable form builder tools. There are extensive opportunities to use custom code within the platform, as well as API connectivity and JavaScript/React SDKs.
+
+This makes it a highly powerful solution for technical teams, although this could be slightly constrained by its tighter focus on financial use cases.
+
+### 6. Zoho Forms
+
+Next, we have Zoho Forms. Part of the wider Zoho ecosystem, Forms is a powerful, intuitive form builder platform, suitable for teams of a range of different sizes.
+
+![Zoho Forms](https://res.cloudinary.com/daog6scxm/image/upload/v1759155503/cms/alternatives/individual-form-builders/Zoho_Forms_vn4ycu.webp "Zoho Forms")
+
+(*Zoho Forms Website*)
+
+Like many off-the-shelf solutions, Zoho provides an AI form generator within its platform. This has a couple of nice quality of life enhancements, including the ability to select a content tone from a dropdown or adjust our initial description to regenerate a form.
+
+Like Feathery, we can also generate form UIs based on uploaded PDFs, enabling us to use Zoho forms for dynamic document generation.
+
+Zoho’s AI capabilities are powered by Zia, their built-in AI assistant. This facilitates a range of follow-on workflows from form submissions, including email content generation and AI-powered translation.
+
+For more complex use cases, we can also use AI features across the wider ecosystem, including within the Zoho Creator app building platform.
+
+### 7. Fillout
+
+Next, we have Fillout. This is a comprehensive, flexible platform that enables us to build professional looking forms, alongside tools for scheduling, payments, PDFs, workflows, and signatures.
+
+![AI Form Builder Fillout](https://res.cloudinary.com/daog6scxm/image/upload/v1760430813/cms/ai-form-builder/Fillout_ozw78r.webp "AI Form Builder Fillout")
+
+(*Fillout Website*)
+
+Like many of the other platforms we've seen, Fillout offers AI form generation as an embedded tool on their marketing site. There are also specific AI tools for creating quizzes, surveys, and signatures from natural language inputs.
+
+Novelly, it also offers AI generation tools for styling our forms, including creating customizable themes from images.
+
+As a more general form builder, Fillout is a strong choice for a range of use cases. For instance, it offers a combination of built-in styling options and custom CSS, meaning we can create highly on-brand UIs for a range of customer-facing scenarios.
+
+With 50+ integration options, as well as advanced features such as built-in calendar UIs and payment handling, Fillout is also viable for a range of more advanced forms use cases.
+
+### 8. Involve.me
+
+Involve.me is a slightly different proposition to some of the other AI form builders we've seen so far, offering embeddable forms and interactive landing pages, aimed at teams that want to capture leads at the top of their sales funnels.
+
+![Involve](https://res.cloudinary.com/daog6scxm/image/upload/v1760430813/cms/ai-form-builder/Involve.me_terdx0.webp "Involve")
+
+(*Involve.me Website*)
+
+As part of this, it offers a whole suite of AI-powered lead generation tools for sales and marketing teams, including form, survey, and landing page generation, personalization tools, and AI-powered analytics.
+
+Besides AI functionality, the platform itself is highly clean and intuitive, offering no-code experiences for designing UIs, as well as implementing logic within data collection tools.
+
+On top of this, there's a range of lead generation-specific capabilities, such as scoring formulae, A/B testing, and integrations with a range of platforms for handling customer data.
+
+As such it's a highly impressive offering for this specific use case, although it might be less suitable for teams looking for a more general AI form builder solution.
+
+### 9. Makeforms
+
+Makeforms is a sleak, highly intutive no-code form builder, offering workflows, lead generation, multi-step forms, document-to-form tools, and more.
+
+![Makeforms](https://res.cloudinary.com/daog6scxm/image/upload/v1760430813/cms/ai-form-builder/Makeforms_qm5cnn.webp "Makeforms")
+
+(*Makeforms Website*)
+
+Out of all of the platforms with form generation that we've seen so far, it's one of the more impressive offerings in terms of the control we have over the UIs we output.
+
+For instance, there are options to specify the number of steps we want to include in our forms or the languages we'd like to support as part of the prompting process. On top of this, Makeforms offers AI-powered document-to-form capabilities, which make it a good choice for digitalizing administrative workflows.
+
+As a broader form builder platform, Makeforms strengths include its intuitive, no-code experiences for creating professional-looking UIs.
+
+It's also a good choice for large organizations, with a range of data residency options, as well as tools for creating GDPR or HIPAA compliant forms.
+
+### 10. Formester
+
+Lastly, we have Formester. This is another no-code offering, aimed at teams that want to create professional data collection UIs for a range of use cases.
+
+![Formester](https://res.cloudinary.com/daog6scxm/image/upload/v1760430813/cms/ai-form-builder/Formester_tp0o2o.webp "Formester")
+
+(*Formester Website*)
+
+Like most similar platforms on the market today, it offers a suite of AI form generation tools as part of this. In addition to standard form generation, there are also more sophisticated tools, including the ability to generate forms with conditional logic from natural language.
+
+Besides AI capabilities, Formester is a particularly strong choice for larger organizations. One standout feature is multi-collaborations as part of the form-building process.
+
+Additionally, it offers more advanced capabilities that many other form builders, including sleak experiences for sending HTML forms to custom servers. This offers us more flexibility with our form data than many of Formester's larger competitors.
+
+As such, it has the potential to be an attractive option for a wide range of use cases where we might want to leverage AI form building.
+
+## Turn data into action with Budibase
 
 Budibase is the open-source, low-code platform that empowers IT teams to turn data into action. 
 

@@ -6,6 +6,8 @@ title = "Top 10 AI From Builders for 2025"
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 type = "workflow-guides"
 layout = "ai-forms"
+draft = true
+
 cover = "https://res.cloudinary.com/daog6scxm/image/upload/v1759156737/cms/ai-form-builder/AI_FORMS_tbrcup.png"
 sidenav_parts = [
   "/blog/ai-forms/",
@@ -210,7 +212,7 @@ On top of this, Budibase is ideal for busy IT teams that need to output professi
 
 #### Pricing
 
-Budibase pricing is designed to scale. You can build as many applications as you want for free, for up to five users in the cloud or twenty if you self-host. Our free plans even come with SSO for all users.
+Budibase pricing is designed to scale. You can build as many applications as you want for free, for up to twenty users if you self-host. Our free plans even come with SSO for all users.
 
 Paid plans start from $5 per month for end users and $50 for app creators. This also introduces custom branding, reusable code snippets, Budibase AI, creator access control, PDF generation, and more.
 
@@ -278,7 +280,7 @@ This makes it a highly powerful solution for technical teams, although this coul
 
 ### 6. Zoho Forms
 
-Next,, we have Zoho Forms. Part of the wider Zoho ecosystem, Forms is a powerful, intuitive form builder platform, suitable for teams of a range of different sizes.
+Next, we have Zoho Forms. Part of the wider Zoho ecosystem, Forms is a powerful, intuitive form builder platform, suitable for teams of a range of different sizes.
 
 ![Zoho Forms](https://res.cloudinary.com/daog6scxm/image/upload/v1759155503/cms/alternatives/individual-form-builders/Zoho_Forms_vn4ycu.webp "Zoho Forms")
 
