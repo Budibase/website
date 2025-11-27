@@ -366,40 +366,7 @@ Choose self-hosting or our Budibase Cloud platform.
 </div>
 </div>
 
-<div class="bg-light-2">
-  <div class="container space-2 mx-auto">
-    <h2 class="mb-3 mb-4 text-center">
-      Free operations software templates
-    </h1>
-      <div class=" w-lg-60 mx-auto">
-        <p class="mx-auto lead-sm mb-6 text-center">We’ve built several free, deployable app templates to solve the most common challenges for operations teams. Use our templates to get started with Budibase, and build your perfect tools in minutes.
-        </p>
-      </div>
-      <div class="container-narrow space-2-bottom">
-        <div class="templates-cards">
-          {{ range where .Pages "Section" "!=" "templates" }}
-          {{ range first 3 .Pages }}
-          <a href="{{.Permalink}}">
-            <div class="templates-card rounded-sm">
-              <div class="template-thumbnail pt-4 pl-4  mb-4 img-fluid bg-{{ .Params.thumbnailColor }}">
-                <img class="template-card-img img-fluid" src="{{ .Params.thumbnail }}" />
-              </div>
-              <h2 class="h4 mb-3">{{ .Params.label }}</h2>
-              <p class="mb-3">{{ .Summary }} </p>
-              <p class="text-blue text-sm templates-card-link">Get this template</p>
-            </div>
-          </a>
-          {{ end }}
-          {{ end }}
-        </div>
-      </div>
 
-      <div class="my-3 text-center">
-        <a href="/{{ .Section }}/templates" class="btn btn-cta btn-lg"> Browse all {{ .Section | singularize | humanize
-          | lower }} templates</a>
-      </div>
-  </div>
-</div>
 
 
 <div class="article space-2 ">

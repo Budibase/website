@@ -13,7 +13,7 @@ thumbnailColor = "blue"
 title = "Professional Directory Template | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 For business groups, professional bodies, and industry associations, providing fast access to accurate information is critical. Managing this can lead to huge costs. This includes admin work, human error, miscommunications, and avoidable risk.
 

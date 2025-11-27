@@ -13,7 +13,7 @@ thumbnailColor = "bb-forestgreen"
 title = "Membership Directory Template | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 Manage data, share information, and automate repetitive tasks with our innovative low-code platform. Budibase is the smart way to cut operating costs and boost productivity for all kinds of membership organizations.
 

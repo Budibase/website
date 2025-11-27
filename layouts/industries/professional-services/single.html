@@ -95,34 +95,7 @@
   {{ partial "forms/security.html" }}
 </section>
 {{ partial "solutions/support.html" . }}
-<div class="space-2">
-  <h2 class="h1 mb-6 text-center">
-    Get started with a template
-    </h1>
-    <div class="container-10">
-      <div class="platform-card-grid">
-        {{ range where .Pages "Section" "!=" "templates" }}
-        {{ range first 3 .Pages }}
-        <li class="platform-card">
-          <a class="platform-card-inner" href="{{ .Permalink }}">
-            <div data-area="icon" class="template-icon-container bg-{{ .Params.thumbnailColor }}" > 
-              <img class="template-icon" src="{{ .Params.Icon }}" />
-          </div>
-            <span data-area="name" class="platform-card-name text-dark">{{ .Params.label }}</span>
-            <span data-area="description" class="platform-card-description text-dark opacity-75">{{ .Description }}</span>
-          </a>
-        </li>
-          {{ end }}
-          {{ end }}
-      </div>
-      <div class="my-3 text-center">
-        <a href="/{{ .Section }}/templates" class="btn btn-cta btn-lg"> Browse all {{ .Section | singularize |
-          humanize
-          | lower }} templates
-        </a>
-      </div>
-    </div>
-</div>
+
 
 <section class="space-2 bg-dark">
   <div class="enterprise-testimonial container">
