@@ -13,7 +13,7 @@ thumbnailColor = "blue"
 title = "Remote Fleet Management System | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 In the logistics industry, your vehicles are your most valuable asset. Our template ensures that they deliver maximum value.
 

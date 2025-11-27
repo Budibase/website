@@ -13,7 +13,7 @@ thumbnailColor = "bb-coral"
 title = "Legal Document Management Template | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 Upload, store, organize, and share key legal documents with clients and colleagues, in seconds.
 

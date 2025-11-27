@@ -13,7 +13,7 @@ thumbnailColor = "bb-indigo-light"
 title = "Employee Timesheet Template | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 In any business, it’s crucial to have a clear record of how your employees use their time. This ensures that your team is productive, your payroll is accurate, and your projects stay on budget.
 

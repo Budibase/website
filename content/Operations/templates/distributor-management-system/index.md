@@ -13,7 +13,7 @@ thumbnailColor = "bb-coral"
 title = "Free Distributor Management System Template"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 In large organizations, it’s incredibly difficult to maintain oversight of distributors. On the one hand, this can lead to poor logistics outcomes. In turn, this can undermine long-term profitability and distributor relationships.
 

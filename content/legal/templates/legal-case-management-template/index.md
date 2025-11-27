@@ -13,7 +13,7 @@ thumbnailColor = "bb-coral"
 title = "Legal Case Management Template | Budibase"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 Share documents, manage costs, and track performance, with our powerful, intuitive platform.
 

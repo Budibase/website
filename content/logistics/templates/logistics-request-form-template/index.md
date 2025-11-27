@@ -13,7 +13,7 @@ thumbnailColor = "bb-forestgreen"
 title = "Logistics Request Form Template | Budibase"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 Give customers an intuitive, automated tool for requesting and costing shipments, transportation, and stock movement.
 

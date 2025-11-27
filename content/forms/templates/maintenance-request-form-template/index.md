@@ -13,7 +13,7 @@ thumbnailColor = "bb-coral-light"
 title = "Maintenance Request Form Template | Budibase | Digital Forms"
 type = "templates"
 icon = "/img/icon/form.svg"
-
+draft = true
 +++
 Almost every business manages equipment, either internally, or on behalf of clients and tenants. Inevitably, this also means organizing repairs and maintenance for equipment users. This can be part of regular serving, or in response to an emergency.
 

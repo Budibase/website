@@ -13,7 +13,7 @@ thumbnailColor = "bb-indigo-light"
 title = "Near-Miss Register Template | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 Most businesses record incidents when someone gets hurt or property gets damaged. The goal here is to learn lessons and prevent similar incidents from occurring in the future. Sometimes employees come away from incidents unscathed. Your business can learn just as much here.
 

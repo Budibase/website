@@ -13,7 +13,7 @@ thumbnailColor = "bb-coral"
 title = "Requirements Gathering Template | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/form.svg"
-
+draft = true
 +++
 Detailed requirements are crucial for any project. Well-documented requirements ensure that projects are delivered on time, and to specification. In turn, this improves efficiency, cost-effectiveness, outcomes, and client satisfaction.
 

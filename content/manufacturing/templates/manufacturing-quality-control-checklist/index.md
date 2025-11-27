@@ -13,7 +13,7 @@ thumbnailColor = "bb-forestgreen"
 title = "Manufacturing Quality Control Checklist | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 As a business, your reputation is based on the quality of your products. Even minor defects will undermine your revenue. Customers base their purchasing decisions on your reputation, as well as their own experience of your products.
 
