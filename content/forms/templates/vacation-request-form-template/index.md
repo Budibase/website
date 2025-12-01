@@ -13,7 +13,7 @@ thumbnailColor = "bb-indigo"
 title = "Vacation Request Form Template | Budibase"
 type = "templates"
 icon = "/img/icon/form.svg"
-
+draft = true
 +++
 Time off can be a challenge. Without the right processes, it’s easy for disruptions and miscommunication to occur. Even so, many businesses still manage vacation requests manually, with emails, instant messages, and calendar reminders.
 

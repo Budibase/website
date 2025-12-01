@@ -13,7 +13,7 @@ thumbnailColor = "bb-forestgreen"
 title = "OKR Goal Template | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 We’ve created a dedicated app for creating, managing, and achieving OKRs.
 

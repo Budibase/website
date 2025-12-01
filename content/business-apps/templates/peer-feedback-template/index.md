@@ -13,7 +13,7 @@ thumbnailColor = "bb-coral-light"
 title = "Peer Feedback Template | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 Employees are often the best judges of their colleagues’ performance. Peer feedback is used to gain an accurate picture of each employee’s output, as well as providing an opportunity for colleagues to comment on each other's work, outside of regular review processes.
 

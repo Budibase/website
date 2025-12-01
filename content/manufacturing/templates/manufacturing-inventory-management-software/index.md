@@ -13,7 +13,7 @@ thumbnailColor = "bb-indigo"
 title = "Manufacturing Inventory Management Software | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 Managing inventories is a massive challenge for manufacturing businesses. Inventory management is the process of maintaining, tracking, and analyzing inventories of raw materials, finished goods, and works-in-progress.
 
