@@ -1013,3 +1013,15 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
   to = "/business-apps/templates/"
   status = 301
   force = true
+
+  [[redirects]]
+  from = "/portals/templates/employee-portal-app/"
+  to = "/templates/"
+  status = 301
+  force = true
+  
+  [[redirects]]
+  from = "/portals/templates/employee-portal-app"
+  to = "/templates/"
+  status = 301
+  force = true
