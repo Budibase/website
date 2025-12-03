@@ -296,169 +296,169 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
 
 [[redirects]]
   from = "/admin-panels/templates/car-rental-admin-panel/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/admin-panels/templates/school-admin-panel/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/portals/templates/university-portal-app/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/healthcare/templates/hospital-admission-form-template/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
  
   [[redirects]]
   from = "/healthcare/templates/hospital-discharge-form-template/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/forms/templates/recurring-credit-card-authorization-form/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/healthcare/templates/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/admin-panels/templates/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/admin-panels/templates/car-rental-admin-panel"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/admin-panels/templates/school-admin-panel"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/portals/templates/university-portal-app"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/healthcare/templates/hospital-admission-form-template"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
  
   [[redirects]]
   from = "/healthcare/templates/hospital-discharge-form-template"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/forms/templates/recurring-credit-card-authorization-form"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/healthcare/templates"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/admin-panels/templates"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/it/templates/open-source-it-asset-management-software/"
-  to = "/business-apps/templates/open-source-it-asset-management-software/"
+  to = "/business-apps/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/portals/templates/employee-portal-app/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/operations/templates/maintenance-schedule-template/"
-  to = "/business-apps/templates/maintenance-schedule-template/"
+  to = "/business-apps/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/approval-apps/templates/project-approval-system/"
-  to = "/business-apps/templates/project-approval-system/"
+  to = "/business-apps/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/approval-apps/templates/invoice-approval-software/"
-  to = "/business-apps/templates/invoice-approval-software/"
+  to = "/business-apps/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/it/templates/open-source-it-asset-management-software"
-  to = "/business-apps/templates/open-source-it-asset-management-software/"
+  to = "/business-apps/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/portals/templates/employee-portal-app"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
  [[redirects]]
   from = "/business-apps/templates/employee-portal-app/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/business-apps/templates/employee-portal-app"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/operations/templates/maintenance-schedule-template"
-  to = "/business-apps/templates/maintenance-schedule-template/"
+  to = "/business-apps/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/approval-apps/templates/project-approval-system"
-  to = "/business-apps/templates/project-approval-system/"
+  to = "/business-apps/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/approval-apps/templates/invoice-approval-software"
-  to = "/business-apps/templates/invoice-approval-software/"
+  to = "/business-apps/"
   status = 301
   force = true
 
@@ -488,13 +488,13 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
 
   [[redirects]]
   from = "/business-apps/templates/applicant-tracking-system/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/business-apps/templates/applicant-tracking-system"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
@@ -536,13 +536,13 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
 
   [[redirects]]
   from = "/business-apps/templates/client-contact-list-template/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/business-apps/templates/client-contact-list-template"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
@@ -608,25 +608,25 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
 
   [[redirects]]
   from = "/approval-apps/templates/content-approval-software/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/approval-apps/templates/content-approval-software"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/portals/templates/responsive-job-portal-template/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/portals/templates/responsive-job-portal-template"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
@@ -704,25 +704,25 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
 
   [[redirects]]
   from = "/business-apps/templates/commission-calculation-template/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/business-apps/templates/commission-calculation-template"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/approval-apps/templates/travel-approval-request-template/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/approval-apps/templates/travel-approval-request-template"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
@@ -740,13 +740,13 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
 
   [[redirects]]
   from = "/operations/templates/distributor-management-system/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/operations/templates/distributor-management-system"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
@@ -788,13 +788,13 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
 
   [[redirects]]
   from = "/logistics/templates/logistics-request-form-template/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/logistics/templates/logistics-request-form-template"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
@@ -812,25 +812,25 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
 
   [[redirects]]
   from = "/forms/templates/vacation-request-form-template/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/forms/templates/vacation-request-form-template"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/operations/templates/okr-goal-template/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/operations/templates/okr-goal-template"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
@@ -860,25 +860,25 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
 
   [[redirects]]
   from = "/business-apps/templates/hashicorp-scorecard/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/business-apps/templates/hashicorp-scorecard"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/operations/templates/requirements-gathering-template/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/operations/templates/requirements-gathering-template"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
@@ -896,49 +896,49 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
 
   [[redirects]]
   from = "/manufacturing/templates/manufacturing-quality-control-checklist/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/manufacturing/templates/manufacturing-quality-control-checklist"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/business-apps/templates/peer-feedback-template/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/business-apps/templates/peer-feedback-template"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/legal/templates/legal-document-management-template/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/legal/templates/legal-document-management-template"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/business-apps/templates/near-miss-register-template/"
-  to = "/templates/"
+  to = "/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/business-apps/templates/near-miss-register-template"
-  to = "/templates/"
+   to = "/"
   status = 301
   force = true
 
@@ -1025,3 +1025,155 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
   to = "/business-apps/templates/"
   status = 301
   force = true
+
+  [[redirects]]
+  from = "/templates/"
+  to = "/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/templates"
+  to = "/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/business-apps/templates/"
+  to = "/business-apps/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/business-apps/templates"
+  to = "/business-apps/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/forms/templates/"
+  to = "/business-apps/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/forms/templates"
+  to = "/business-apps/"
+  status = 301
+  force = true
+
+[[redirects]]
+from = "/business-apps/templates/open-source-ticketing-system/"
+to = "/business-apps/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/business-apps/templates/open-source-ticketing-system"
+to = "/business-apps/"
+status = 301
+force = true
+
+
+[[redirects]]
+from = "/business-apps/templates/open-source-it-asset-management-software/"
+to = "/business-apps/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/business-apps/templates/open-source-it-asset-management-software"
+to = "/business-apps/"
+status = 301
+force = true
+
+
+[[redirects]]
+from = "/forms/templates/it-incident-report-template/"
+to = "/business-apps/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/forms/templates/it-incident-report-template"
+to = "/business-apps/"
+status = 301
+force = true
+
+
+[[redirects]]
+from = "/business-apps/templates/employee-check-in-check-out-template/"
+to = "/business-apps/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/business-apps/templates/employee-check-in-check-out-template"
+to = "/business-apps/"
+status = 301
+force = true
+
+
+[[redirects]]
+from = "/business-apps/templates/employee-directory-template/"
+to = "/business-apps/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/business-apps/templates/employee-directory-template"
+to = "/business-apps/"
+status = 301
+force = true
+
+
+[[redirects]]
+from = "/business-apps/templates/maintenance-schedule-template/"
+to = "/business-apps/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/business-apps/templates/maintenance-schedule-template"
+to = "/business-apps/"
+status = 301
+force = true
+
+
+[[redirects]]
+from = "/business-apps/templates/project-approval-system/"
+to = "/business-apps/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/business-apps/templates/project-approval-system"
+to = "/business-apps/"
+status = 301
+force = true
+
+
+[[redirects]]
+from = "/business-apps/templates/invoice-approval-software/"
+to = "/business-apps/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/business-apps/templates/invoice-approval-software"
+to = "/business-apps/"
+status = 301
+force = true
+
+
+[[redirects]]
+from = "/forms/templates/employee-equipment-checkout-form/"
+to = "/business-apps/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/forms/templates/employee-equipment-checkout-form"
+to = "/business-apps/"
+status = 301
+force = true

@@ -13,7 +13,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642584487/cms/P
 thumbnailColor = "bb-indigo"
 title = "Project Approval System Template | Budibase | Low-Code Platform"
 type = "templates"
-
+draft = true
 +++
 In many businesses, approval workflows for new projects are complex, with numerous stakeholders involved. Digital approval tools improve oversight and efficiency when kicking off new projects.
 

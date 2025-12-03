@@ -13,7 +13,7 @@ thumbnailColor = "bb-indigo"
 title = "Free Maintenance Schedule Template"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 All kinds of businesses use preventative maintenance schedules. Different kinds of equipment, including tools, vehicles, and digital devices, require regular servicing to work correctly.
 

@@ -13,7 +13,7 @@ thumbnail = "https://res.cloudinary.com/daog6scxm/image/upload/v1642522155/cms/I
 thumbnailColor = "bb-coral-light"
 title = "Invoice Approval Software | Budibase | Low-Code Platform"
 type = "templates"
-
+draft = true
 +++
 In large organizations, managing vendors, suppliers, and payments is a huge challenge. The key issue here is organizing and administering payments. When handling large volumes of payments, it’s easy for things to go wrong.
 

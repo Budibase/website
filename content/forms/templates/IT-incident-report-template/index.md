@@ -13,7 +13,7 @@ thumbnailColor = "bb-forestgreen"
 title = "Free IT Incident Report Template"
 type = "templates"
 icon = "/img/icon/form.svg"
-
+draft = true
 +++
 Cyber security is critical for modern businesses. Reporting IT incidents helps you to mitigate their impact, and prevent future issues. Even so, many businesses don’t have a reporting process in place.
 

@@ -214,35 +214,7 @@
 </div>
 
 
-  <div class="container space-2 mx-auto">
-    <h2 class="mb-3 mb-4 text-center">
-      Free {{ .Section | singularize | humanize | lower }} templates
-    </h1>
-  <div class=" w-lg-60 mx-auto">
-    <p class="mx-auto lead-sm mb-6 text-center"> Explore our favourite free {{ .Section | singularize | humanize | lower  }} templates. With Budibase's intuitive low-code platform, you can customize your design in just a few clicks.
-  </p>
-  </div>
-  <div class="container-narrow space-3-bottom">
-    <ul class="platform-card-grid">
-      {{ range where .Pages "Section" "!=" "templates" }}
-        {{ range first 3 .Pages }}
-        <li class="platform-card">
-        <a class="platform-card-inner" href="{{.Permalink}}">
-          <div data-area="icon" class="template-icon-container bg-{{ .Params.thumbnailColor }}" > 
-            <img class="template-icon" src="/img/icon/app.svg" alt="Applicant tracking system icon"/>
-        </div>
-          <span data-area="name" class="platform-card-name">{{ .Params.label }}</span>
-          <span data-area="description"class="platform-card-description">{{ .Summary }}
-          </span>
-        </a>
-      </li>
-      {{ end }}
-    {{ end }}
-    </ul>
-    <div class="text-center mt-6">
-      <a href="/{{ .Section }}/templates" class="btn btn-cta btn-lg"> Browse all {{ .Section | singularize | humanize | lower  }} templates</a>
-    </div>
-  </div>
+  
 </div>
 
 

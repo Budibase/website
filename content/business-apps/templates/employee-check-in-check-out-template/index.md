@@ -13,7 +13,7 @@ thumbnailColor = "bb-indigo"
 title = "Employee Check-In/Check-Out Template | Budibase | Low-Code Platform"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 Create a reliable record of when each employee enters and leaves different sites, in seconds.
 
