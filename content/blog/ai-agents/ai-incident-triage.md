@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-12-03
 description = "Take a look at our comprehensive guide to AI ticket triage, routing, and prioritization."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "How to Perform AI Ticket Triage"
+title = "How to Perform AI Ticket Triage & Routing"
 
 +++
 
