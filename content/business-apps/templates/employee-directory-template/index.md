@@ -13,7 +13,7 @@ thumbnailColor = "bb-forestgreen"
 title = "Free Employee Directory Template"
 type = "templates"
 icon = "/img/icon/app.svg"
-
+draft = true
 +++
 In the age of remote working, collaboration is difficult. Let your employees find and collaborate with colleagues, no matter where they are.
 

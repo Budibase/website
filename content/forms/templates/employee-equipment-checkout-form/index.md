@@ -13,7 +13,7 @@ thumbnailColor = "bb-indigo"
 title = "Employee Equipment Checkout Form Template | Budibase"
 type = "templates"
 icon = "/img/icon/form.svg"
-
+draft = true
 +++
 In the age of remote working, the need to manage how and when employees use devices has increased. Managing company equipment requires strong and efficient organization, communications, and workflows.
 
