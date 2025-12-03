@@ -6,4 +6,5 @@ date: "2021-10-23"
 images:
 - /img/meta-images/templates.png
 - budibase-logo.jpg
+draft: true
 ---
