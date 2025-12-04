@@ -1064,26 +1064,26 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
 
 [[redirects]]
 from = "/business-apps/templates/open-source-ticketing-system/"
-to = "/business-apps/"
+to = "/blog/inside-it/open-source-it-ticketing-systems/"
 status = 301
 force = true
 
 [[redirects]]
 from = "/business-apps/templates/open-source-ticketing-system"
-to = "/business-apps/"
+to = "/blog/inside-it/open-source-it-ticketing-systems/"
 status = 301
 force = true
 
 
 [[redirects]]
 from = "/business-apps/templates/open-source-it-asset-management-software/"
-to = "/business-apps/"
+to = "/blog/inside-it/free-asset-management-software/"
 status = 301
 force = true
 
 [[redirects]]
 from = "/business-apps/templates/open-source-it-asset-management-software"
-to = "/business-apps/"
+to = "/blog/inside-it/free-asset-management-software/"
 status = 301
 force = true
 
