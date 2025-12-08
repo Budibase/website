@@ -1,5 +1,48 @@
 {{ partial "head/header.html" . }}
 {{ partial "navigation.html" . }}
+<style>
+  /* Container (optional, for horizontal scrolling on small screens) */
+.table-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Base table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  font-size: 0.95rem;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+/* Header */
+thead th {
+  background: #f5f5f5;
+  font-weight: 600;
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Body cells */
+td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Zebra striping */
+tbody tr:nth-child(odd) {
+  background: #fafafa;
+}
+
+
+/* Optional: Make long text wrap nicely */
+td, th {
+  word-wrap: break-word;
+}
+</style>
 <main id="content" role="main">
   <!-- Article Content -->
   <article class="bg-base-1">
