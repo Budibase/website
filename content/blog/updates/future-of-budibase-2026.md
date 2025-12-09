@@ -1,12 +1,12 @@
 ---
-title: Budibase 2026 - the AI Workflow toolkit
+title: Budibase 2026 - the AI Workflow Toolkit
 description: The direction of Budibase - AI Workflows for privacy-first teams
 type: blog
 layout: single
 profilePic: https://res.cloudinary.com/daog6scxm/image/upload/v1763733146/cms/mike-headshot.jpg
-image: https://res.cloudinary.com/daog6scxm/image/upload/v1695395248/Branding/Assets/Logo/CMYK/Full%20Colour/Budibase_Logo_CMYK_FullColour_Positive_tlxvdf.jpg
+image: https://res.cloudinary.com/daog6scxm/image/upload/v1696515375/Branding/Assets/Logo/RGB/Full%20Colour/bb_logo_fullcolor_ky6ozr.png
 images:
-- https://res.cloudinary.com/daog6scxm/image/upload/v1695395248/Branding/Assets/Logo/CMYK/Full%20Colour/Budibase_Logo_CMYK_FullColour_Positive_tlxvdf.jpg
+- https://res.cloudinary.com/daog6scxm/image/upload/v1696515375/Branding/Assets/Logo/RGB/Full%20Colour/bb_logo_fullcolor_ky6ozr.png
 date: "2025-12-08"
 author: Michael Shanks
 draft: false
@@ -16,7 +16,7 @@ Budibase has reached a pivotal moment, driven by rapid changes in AI and the nee
 
 In [my last post](https://budibase.com/blog/updates/low-code-versus-vibe-code/), I compared Lowcode to AI Code generators. Now, I’ll focus on Budibase - what we believe, what we’re doubling down on, and where we’re heading.
 
-## What we stand for
+## What We Stand For
 
 These are the principles that guide how we build Budibase:
 
@@ -29,7 +29,7 @@ Budibase has always been built for organizations that prioritize security, compl
 
 *Enable privacy-first teams to adopt AI with confidence*
 
-# AI Workflows
+## AI Workflows
 
 Today, you can build low-code apps and automations with Budibase. That won't change. In fact, automations and apps will become even more powerful. 
 
@@ -37,9 +37,9 @@ We're betting on a future where AI assistants will be embedded in most workflows
 
 ![Budibase AI Workflows](https://res.cloudinary.com/daog6scxm/image/upload/v1765209192/cms/future-of-bb-dec25/bb-ai-workflows_ydztyp.png)
 
-## 1. Agents
+### 1. Agents
 
-AI Agents work best when they are single-purpose - where each agent has a clear set of instructions and a limited set of tools to use.
+AI Agents work best when they are single-purpose - where each agent has a clear set of instructions and a well defined set of tools to perform its tasks.
 
 Inside Budibase, you’ll be able to create multiple specialized agents - each with access only to the data and APIs you choose. The chat interface (or another agent) will help orchestrate which agent to call for each request.
 
@@ -52,11 +52,22 @@ And, most importantly, Role-based access controls will apply.
 
 Budibase provides the foundation for secure AI automation in regulated environments.
 
+**Models**
+
+Budibase will support a range of LLMs via [LiteLLM](https://www.litellm.ai/), so you’ll be able to use any model that’s compatible with the OpenAI format. For beta, our testing will focus on smaller, open-source models:
+
+- Mistral: ministral-14b-2512
+- Qwen: qwen3-32b
+- OpenAI: gpt-oss-120b
+- Meta: llama-4-scout
+
+Budibase agents will also function well with the latest models on all the major public providers, including OpenAI, Gemini, Mistral, Anthropic, etc. 
+
 ![Budibase Agents](https://res.cloudinary.com/daog6scxm/image/upload/v1765206510/cms/future-of-bb-dec25/BB-Agent_rxvius.jpg)
 
-## 2. Chat++
+### 2. AI Chat
 
-You already know how to use chat - you use it every day with AI,  and with colleagues.
+You already know how to use chat - you use it every day with AI, and with colleagues.
 
 But chat alone isn’t enough for real internal workflows - we’re taking it further.
 
@@ -64,11 +75,11 @@ Budibase Chat will surface dynamic forms, tables, and charts within the chat exp
 
 ![Budibase AI Chat](https://res.cloudinary.com/daog6scxm/image/upload/v1765206959/cms/future-of-bb-dec25/BB-chat_xmiurh.jpg)
 
-# Release Schedule
+## Release Schedule
 
 | Date        | Release                       | Features |
 |-------------|-------------------------------|--------------------------|
-| **Dec 2025**| Agents Alpha                  | Agent node (automations). Mistral, Llama, Qwen support |
+| **Dec 2025**| Agents Alpha                  | Agent node (automations) |
 | **Feb 2026**| Agents Beta                   | Evals, logs, testing, stability |
 | **Feb 2026**| Chat Alpha                    | Chat interface connected to agents |
 | **Mar 2026**| Chat Beta                     | - |
