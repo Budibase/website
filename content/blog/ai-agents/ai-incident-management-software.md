@@ -246,7 +246,7 @@ Lastly, we have Freshservice. This is a far-reaching, user-friendly ITSM platfor
 
 ![FreshService](https://res.cloudinary.com/daog6scxm/image/upload/v1765294703/cms/ai-change-management/FreshService_nbqqfd.webp "FreshService")
 
-(Freshservice Wesbite)
+(Freshservice Website)
 
 Freshservice is well-regarded for offering a comprehensive solution for managing IT service portfolios, with intuitive experiences for leveraging AI.
 
