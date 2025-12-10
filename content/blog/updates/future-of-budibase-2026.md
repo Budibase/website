@@ -58,7 +58,7 @@ Budibase will support a range of LLMs via [LiteLLM](https://www.litellm.ai/), so
 
 - Mistral: ministral-14b-2512
 - Qwen: qwen3-32b
-- OpenAI: gpt-oss-120b
+- OpenAI: gpt-oss-20b
 - Meta: llama-4-scout
 
 Budibase agents will also function well with the latest models on all the major public providers, including OpenAI, Gemini, Mistral, Anthropic, etc. 
