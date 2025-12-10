@@ -20,7 +20,7 @@ This includes:
 - [Why does AI present challenges for managing permissions and access](#why-does-ai-present-challenges-for-managing-permissions-and-access)
 - [What types of tools do AI agents need to access](#what-types-of-tools-do-ai-agents-need-to-access)
 - [Key principles for effective AI access control](#key-principles-for-effective-ai-access-control)
-- [How to build safe boundaries for AI](#how-to-build-safe-boundaries-for-ai)
+- [How to build safe boundaries for AI systems](#how-to-build-safe-boundaries-for-ai-systems)
 - [Avoiding common pitfalls](#avoiding-common-pitfalls)
 
 Let’s start with the basics.
