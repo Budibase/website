@@ -1,6 +1,6 @@
 ---
 author: "Ronan McQuillan"
-date: "2025-05-15"
+date: "2025-12-11"
 description: "Check out our round-up of the top open-source Zapier alternatives."
 profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title: "5 Open-Source Zapier Alternatives for 2025"
