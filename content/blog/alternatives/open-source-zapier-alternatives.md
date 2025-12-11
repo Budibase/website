@@ -1,6 +1,6 @@
 ---
 author: "Ronan McQuillan"
-date: "2025-12-11"
+date: "2025-05-15"
 description: "Check out our round-up of the top open-source Zapier alternatives."
 profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title: "5 Open-Source Zapier Alternatives for 2025"
@@ -223,7 +223,7 @@ As such, a big selling point here is that Automatisch offers a direct replacemen
 
 #### Cons
 
-However, Automatisch isn’t necessarily as mature a product as some of the other tools we’ve seen. As such, it may be less suitable for more complex workflows.
+However, Automatisch isn’t necessarily as mature a product as some of the other tools we’ve seen. As such, it may be less suitable for more complex workflows. 
 
 Similarly, the integration options on offer aren’t nearly as extensive as we’d see with Zapier or n8n, although the selection is quite strong for the age of the product. This increases the likelihood we’ll need to build custom integrations or work with manual HTTP requests.
 
