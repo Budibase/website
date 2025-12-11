@@ -223,7 +223,7 @@ As such, a big selling point here is that Automatisch offers a direct replacemen
 
 #### Cons
 
-However, Automatisch isn’t necessarily as mature a product as some of the other tools we’ve seen. As such, it may be less suitable for more complex workflows. For instance, we can add logic using stop conditions, but not fully branching rules.
+However, Automatisch isn’t necessarily as mature a product as some of the other tools we’ve seen. As such, it may be less suitable for more complex workflows. 
 
 Similarly, the integration options on offer aren’t nearly as extensive as we’d see with Zapier or n8n, although the selection is quite strong for the age of the product. This increases the likelihood we’ll need to build custom integrations or work with manual HTTP requests.
 
