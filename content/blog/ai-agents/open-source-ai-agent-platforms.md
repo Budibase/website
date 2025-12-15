@@ -4,8 +4,6 @@ date = 2025-09-23
 description = "Take a look at our round-up of the top open-source AI agent platforms."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = " 8 Open-Source AI Agent Platforms for 2026"
-type = "ai-agents"
-layout= "open-source-ai-agent-platforms"
 [[softwareApplications]]
 name = "LangChain"
 applicationCategory = "businessApplication"
@@ -64,7 +62,7 @@ In this guide, we’ll give you the information you need to make a fully educate
 - [What is an AI agent platform?](#what-is-an-ai-agent-platform)
 - [What kinds of AI agent builders are available?](#what-kinds-of-ai-agent-builders-are-available)
 - [Why opt for an open-source solution](#why-opt-for-an-open-source-solution)
-- [Top 6 open-source AI agent platforms](#top-6-open-source-ai-agent-platforms)
+- [Top 8 open-source AI agent platforms](#top-8-open-source-ai-agent-platforms)
 
 Let’s start with the basics.
 
