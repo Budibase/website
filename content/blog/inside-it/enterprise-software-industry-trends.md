@@ -116,10 +116,6 @@ Obviously, the need for security must be balanced with the need for developers t
 
 As such, DevSecOps is equal parts a cultural shift as an impetus to seek out new tools and automated processes within enterprise SDLCs.
 
-![DevSecOps CAGR](https://res.cloudinary.com/daog6scxm/image/upload/v1666614212/cms/devsecops-market-122458587.html_wwgngn.webp "DevSecOps CAGR")
-
-([DevSecOps](https://www.marketsandmarkets.com/Market-Reports/devsecops-market-122458587.html))
-
 ## 8. Demand for microapps will increase
 
 Microapps are an interesting prospect. As a straightforward definition, these are tools that are built to do just one single thing. For instance, you might have a lightweight application that’s used for employees to update their details across multiple systems.
