@@ -1,11 +1,9 @@
 +++
 author = "Ronan McQuillan"
-date = 2025-07-23
+date = 2025-09-23
 description = "Take a look at our round-up of the top open-source AI agent platforms."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = " Top 6 Open-Source AI Agent Platforms for 2025"
-type = "ai-agents"
-layout= "open-source-ai-agent-platforms"
+title = " 8 Open-Source AI Agent Platforms for 2026"
 [[softwareApplications]]
 name = "LangChain"
 applicationCategory = "businessApplication"
@@ -22,9 +20,9 @@ applicationCategory = "businessApplication"
 operatingSystem = "Linux, macOS, Windows"
 url = "https://agpt.co"
 [[softwareApplications]]
-name = "Superagent"
+name = "n8n"
 applicationCategory = "businessApplication"
-operatingSystem = "Linux, macOS, Windows"
+operatingSystem = "Web"
 url = "https://www.superagent.sh"
 [[softwareApplications]]
 name = "MetaGPT"
@@ -36,6 +34,19 @@ name = "CAMEL"
 applicationCategory = "businessApplication"
 operatingSystem = "Linux, macOS, Windows"
 url = "https://www.camel-ai.org"
+
+[[softwareApplications]]
+name = "Semantic Kernel"
+applicationCategory = "businessApplication"
+operatingSystem = "Linux, macOS, Windows"
+url = "https://learn.microsoft.com/en-us/semantic-kernel/overview/"
+
+[[softwareApplications]]
+name = "Langflowl"
+applicationCategory = "businessApplication"
+operatingSystem = "MacOS, Windows"
+url = "https://www.langflow.org/"
+
 +++
 
 There's a huge amount of hype around AI agents. Every day, we hear new reasons why they’re going to transform just about all aspects of daily life. But, practical information about how to make this a reality is less forthcoming.
@@ -51,7 +62,7 @@ In this guide, we’ll give you the information you need to make a fully educate
 - [What is an AI agent platform?](#what-is-an-ai-agent-platform)
 - [What kinds of AI agent builders are available?](#what-kinds-of-ai-agent-builders-are-available)
 - [Why opt for an open-source solution](#why-opt-for-an-open-source-solution)
-- [Top 6 open-source AI agent platforms](#top-6-open-source-ai-agent-platforms)
+- [Top 8 open-source AI agent platforms](#top-8-open-source-ai-agent-platforms)
 
 Let’s start with the basics.
 
@@ -100,17 +111,13 @@ Open-source solutions offer a range of potential benefits, which are particularl
 - **Active communities** - Contributions from real-world users can mean faster developments, better documentation, and more alignment with real-world challenges.
 - **Easy integrations** - Open-source tools typically offer a high level of connectivity for external platforms, including LLMs, tools, and APIs.
 
-## Top 6 open-source AI agent platforms
+## Top 8 open-source AI agent platforms
 
 Now that we have a good grasp of what the market for open-source AI agent platforms looks like and what we’re looking for, we can begin to think about some of the top options available today.
 
 As we said earlier, we’ve selected a range of options, from flexible developer-first frameworks to more accessible tools for building agents.
 
-Here’s a summary of our top picks.
-
-||||||||||
-
-Let’s dive in to see what each one offers.
+We've chosen 8 open-source AI agent platforms from different corners of this space. Let's check each one out in turn.
 
 ### 1. LangChain
 
@@ -209,39 +216,7 @@ AutoGPT itself is free to use. However, we may incur costs for other elements we
 
 Some third parties also offer hosted versions of AutoGPT on a commercial basis, although these offer their own pricing models.
 
-### 4. SuperAgent
-
-SuperAgent is an open-source framework for creating AI assistants, as well as a cloud-based platform for deploying them into production with ease.
-
-![SuperAgent](https://res.cloudinary.com/daog6scxm/image/upload/v1745414281/cms/ai-agents/open-source-ai-agents/SuperAgent_fsz1d5.webp "SuperAgent")
-
-(SuperAgent Website)
-
-#### Pros
-
-SuperAgent offers a highly performant, customizable solution for creating AI agents. This includes support for a wide range of LLMs, vector stores, traceability tools, third-party data, and more.
-
-It’s also optimized for development teams that need to iterate quickly, with SuperAgent Markup Language (SAML) acting as an expedient tool to configure key agent configurations and attributes.
-
-It also supports TypeScript and Python SDKs, making it a great choice for teams that need to leverage the power of an open-source AI agent platform in the context of wider development projects and applications.
-
-#### Cons
-
-One clear downside of SuperAgent is that it’s highly geared towards developers and other more technical colleagues. For instance, it does not offer a visual builder, which will preclude most non-engineers from using it to ship agentic solutions.
-
-Even within its core persona of developers, some users may still find that SuperAgent offers a relatively steep learning curve.
-
-Some users also report that observability and tracing functions are more limited, although there is support for a decent range of third-party solutions here.
-
-#### Licensing
-
-Once again, SuperAgent is offered under the MIT license for use, modification, and distribution. 
-
-According to their documentation, SuperAgent also offers a cloud platform that allows us to deploy agents without managing hosting for ourselves.
-
-However, as with many of the other platforms we’ve seen today, more specific information about using this isn’t forthcoming. You might also like our guide to [enterprise chatbots](https://budibase.com/blog/ai-agents/enterprise-chatbots/).
-
-### 5. MetaGPT
+### 4. MetaGPT
 
 MetaGPT is a somewhat novel spin on the AI agent platform market. It bills itself as an AI software company.
 
@@ -275,9 +250,9 @@ However, unlike some of the other platforms we’ve seen, there’s currently no
 
 As with all tools we’ve seen, we’ll need to factor in costs associated with hosting and LLM usage.
 
-### 6. CAMEL
+### 5. CAMEL
 
-Lastly, we have CAMEL. This stands for *Communicative Agents for Mind Exploration of Large Language Models*.
+Next, we have CAMEL. This stands for *Communicative Agents for Mind Exploration of Large Language Models*.
 
 Essentially, it’s an open-source framework and community focused on building and studying data-driven multi-agent systems.
 
@@ -308,6 +283,104 @@ CAMEL is free to use, although, as ever, we’ll need to factor in the costs of 
 The source code itself is offered under the Apache 2.0 license, which permits free usage, modification, and distribution, including for commercial purposes.
 
 Some datasets are offered under CC BY-NC 4.0, allowing use for non-commercial purposes with appropriate attribution. 
+
+### 6. n8n
+
+Next, we have n8n. This is a slightly different proposition from some of the other open-source AI agent platforms we've seen so far. It's perhaps the best-known open-source worklfow automation platform, including low-code experiences for creating AI agents.
+
+![n8n](https://res.cloudinary.com/daog6scxm/image/upload/v1765810281/cms/ai-agents/n8n_cnhkk1.webp "n8n")
+
+(n8n Website)
+
+#### Pros
+
+A huge part of n8n's popularity is related to its highly intuitive experiences for creating custom workflow logic with integrated tools. As such, it provides over 1,200 for common business tools, as well as a wide range of templates to help us get started with core use cases, across both AI and traditional workflows.
+
+When it comes to building AI agents, n8n offers a powerful combination of visual development tools and optional custom code. This provides a highly flexible experience for building complex, multi-agent systems without needing to spend extensive time on boilerplate code.
+
+n8n is also an impressive offering when it comes to managing and maintaining production agentic systems, with a range of tools for human-in-the-loop interventions, implementing behavioral boundaries, auditing decisions, handling failures, and more.
+
+#### Cons
+
+Although n8n is a highly powerful option that will appeal to a range of teams, it's not a full-on AI agent framework like some of the other platforms we've seen. So, for certain highly advanced use cases, we might find that more code-intensive options are a better fit.
+
+For instance, some users note that n8n's visual approach can become somewhat confusing when dealing with complex agent workflows. However, we have the option of modularizing these to reduce visual clutter, so this is often more a case of understanding the platform's best practices.
+
+Although n8n's community edition is open-source, we'll need a paid license to access certain features, like SSO, version control, or environment variables.
+
+#### Licensing
+
+n8n's community edition is offered on a proprietary Sustainable Use License. This is based on the principles of fair-code, and allows free use, modification, and distribution, with certain caveats.
+
+This includes permitting internal business use, but not modification and distribution for commerical purposes.
+
+Paid licenses are offered across four tiers, each with distinct feature restrictions and limitations on shared projects and AI credits, as well as variable limits on workflow executions.
+
+You might also like our round-up of the top [n8n alternatives](https://budibase.com/blog/alternatives/n8n/).
+
+### 7. Semantic Kernel
+
+Next up, we have Microsoft's Semantic Kernel. This is a model-agnostic open-source SDK for building, orchestrating, and deploying AI agents.
+
+![Open Source AI Agent Platforms Semantic Kernel](https://res.cloudinary.com/daog6scxm/image/upload/v1765810281/cms/ai-agents/Semantic_Kernel_wyagok.webp "Open Source AI Agent Platforms Semantic Kernel")
+
+(Microsoft Website)
+
+#### Pros
+
+Semantic Kernel is designed to offer a lightweight, enterprise-ready toolkit for building AI agents using Java, C#, or Python. This enables us to build custom agents and implement AI models into our own code bases.
+
+The goal is to provide a flexible, modular, and reliable platform, enabling us to connect code to new models and technologies as they're released, ensuring that our agents are future-proofed.
+
+It's also well-optimized for the needs of large enterprises, offering observability, telemetry, and hooks and filters, helping to ensure that we can build secure, reliable AI systems that scale.
+
+#### Cons
+
+One notable potential downside of Semantic Kernel is the fact that it's a highly code-centered platform, compared to some of the other AI agent tools we've seen.
+
+While this provides a huge amount of flexibility, we'll need the appropriate development skills to take advantage of this.
+
+According to some reports, Semantic Kernel also offers a somewhat smaller community and ecosystem compared to the likes of LangChain, which may be seen as a con by some users.
+
+#### Licensing
+
+Semantic Kernel is free to use, although we'll need to factor in our own LLM usage.
+
+It's offered on an open-source basis under the MIT license.
+
+This is a highly permissive license as we've seen already.
+
+### 8. Langflow
+
+LangFlow is an open-source, low-code platform for building AI agents and MCP servers.
+
+![Langflow](https://res.cloudinary.com/daog6scxm/image/upload/v1765810281/cms/ai-agents/Langflow_i0qkfo.webp "Langflow")
+
+(Langflow Website)
+
+#### Pros
+
+Built on top of Python, Langflow centers around a visual drag-and-drop interface for defining AI workflows, enabling developers to build powerful, real-world solutions without extensive boilerplate code.
+
+This includes an Agent component, that we can configure with a variety of models, as well as adding custom system prompts, enabling tool calls, and handling chat memory.
+
+There's also an MCP component, which exposes MCP server functions as usable tools for agents. On the whole, Langflow is a highly powerful solution for taems that want to build custom AI agents, without extensive manual coding.
+
+#### Cons
+
+Although being aimed at teams that want to build AI agents visually, some reports note that Langflow still presents somewhat of a learning curve, and that some knowledge of Python will be useful to make the most of it as a platform.
+
+Additionally, Langflow themselves note that certain governance and enterprise controls are offered via integrations, where we may need to configure our own stack, whereas some other platforms offer these features out of the box.
+
+It also doesn't offer the same extensive pre-built templates as we might find in some other visual agent builders.
+
+#### Licensing
+
+Langflow is also free to use under the MIT license.
+
+This includes permissive usage, modification, and redistribution, with some conditions.
+
+Premier support and professional services are also available.
 
 ## Build workflow tools on top of any data with Budibase
 
