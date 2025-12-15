@@ -111,17 +111,13 @@ Open-source solutions offer a range of potential benefits, which are particularl
 - **Active communities** - Contributions from real-world users can mean faster developments, better documentation, and more alignment with real-world challenges.
 - **Easy integrations** - Open-source tools typically offer a high level of connectivity for external platforms, including LLMs, tools, and APIs.
 
-## Top 6 open-source AI agent platforms
+## Top 8 open-source AI agent platforms
 
 Now that we have a good grasp of what the market for open-source AI agent platforms looks like and what we’re looking for, we can begin to think about some of the top options available today.
 
 As we said earlier, we’ve selected a range of options, from flexible developer-first frameworks to more accessible tools for building agents.
 
-Here’s a summary of our top picks.
-
-||||||||||
-
-Let’s dive in to see what each one offers.
+We've chosen 8 open-source AI agent platforms from different corners of this space. Let's check each one out in turn.
 
 ### 1. LangChain
 
