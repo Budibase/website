@@ -1,10 +1,10 @@
 +++
 
 author = "Ronan McQuillan"
-date = 2025-04-19
+date = 2025-07-19
 description = "Take a look at our round-up of the top open-source IT ticketing systems."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Top 7 Open-Source IT Ticketing Systems for 2025"
+title = "Top 9 Open-Source IT Ticketing Systems for 2026"
 [[softwareApplications]]
 name = "Budibase"
 applicationCategory = "businessApplication"
@@ -44,6 +44,18 @@ applicationCategory = "businessApplication"
 operatingSystem = "Web"
 url = "https://frappe.io/helpdesk"
 
+[[softwareApplications]]
+name = "Znuny"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.znuny.org/"
+
+[[softwareApplications]]
+name = "GLPI"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.glpi-project.org/en/"
+
 +++
 
 Ticketing is absolutely fundamental to how IT teams interact with their service users across the organization. But, they come in a variety of forms, with many vastly different platforms on the market.
@@ -56,7 +68,7 @@ Along the way, we’ll see platforms that are optimized for a range of teams, de
 
 - [What is an IT ticketing system](#what-is-an-it-ticketing-system)
 - [Why opt for an open-source ticketing tool?](#why-opt-for-an-open-source-ticketing-tool)
-- [Top 7 open-source IT ticketing systems for 2025](#top-7-open-source-it-ticketing-systems-for-2025)
+- [Top 9 open-source IT ticketing systems for 2025](#top-9-open-source-it-ticketing-systems-for-2025)
 
 Let’s jump right in.
 
@@ -90,7 +102,7 @@ Alternatively, they may have a preference for open-source solutions because they
 
 You might also like our guide to the top [open-source Jira alternatives.](https://budibase.com/blog/alternatives/open-source-jira-alternatives/)
 
-## Top 7 open-source IT ticketing systems for 2025
+## Top 9 open-source IT ticketing systems for 2025
 
 Now that we have a better grasp of what we’re dealing with, we can start to think about some specific options for open-source ticketing tools.
 
@@ -105,6 +117,8 @@ These are:
 5. [Faveo](#5-faveo)
 6. [OpenSupports](#6-opensupports)
 7. [Frappe Helpdesk](#7-frappe-helpdesk)
+8. [Znuny](#8-znuny)
+9. [GLPI](#9-glpi)
 
 Let’s check each one out in turn.
 
@@ -294,7 +308,7 @@ Pricing information for OpenSupports services is difficult to ascertain. There i
 
 ### 7. Frappe Helpdesk
 
-Lastly, we have Frappe Helpdesk. Part of a wider suite of FOSS tools from the makers of ERPNext, Helpdesk is intended as a fully functional platform for handling all kinds of support workflows.
+Next, we have Frappe Helpdesk. Part of a wider suite of FOSS tools from the makers of ERPNext, Helpdesk is intended as a fully functional platform for handling all kinds of support workflows.
 
 ![Frappe Helpdesk](https://res.cloudinary.com/daog6scxm/image/upload/v1755614137/cms/alternatives/Frappe_Helpdesk_ukdbck.webp "Frappe Helpdesk") (Frappe Website)
 
@@ -321,6 +335,70 @@ Frappe Helpdesk is totally free an open-source.
 It's offered under the AGPL-3.0 license.
 
 Support and implementation services are also available from a number of partners.
+
+### 8. Znuny
+
+Znuny is perhaps a lesser known name in the open-source IT ticketing system market. It's a maintained branch of the better-known Community Edition of OTRS, which the original creator discontinued in January 2021.
+
+![Open Source IT TIcketing System Znuny](https://res.cloudinary.com/daog6scxm/image/upload/v1765816162/cms/alternatives/Znuny_yuwcz8.webp "Open Source IT Ticketing System Znuny")
+
+(Znuny Website)
+
+#### Pros
+
+Znuny provides a feature-rich open-source ticketing system, complete with multi-channel support, extensive security features, customer management, self-service tools, knowledge management, reporting, and much more, making it a good fit for larger teams.
+
+It's also a highly customizable platform, including options to alter the design, add custom fields for tickets and other objects, or utilize add-ons to expand on built-in functionality.
+
+On top of this, a particular highlight is Znuny's capabilities for automating ticketing workflows. This includes filtering rules for incoming emails, custom process flows, ticket classification, and automated updates to related CIs.
+
+#### Cons
+
+One potential downside of Znuny is that it's largely offered primarily as a ticketing system alongside some related ITSM processes like change management,  configuration management, incident management, and service level management.
+
+As such, it could be a good fit for teams that want a relatively straighforward, customizable ticketing system, but may fall short for teams with more comprehensive needs across the full scope of ITSM processes.
+
+It's also worth noting that feature releases aren't as frequent as we might find in some other platforms.
+
+#### Pricing
+
+Znuny is free to use, re-work, and redistribute, under the open-source GPL v3 license.
+
+As ever, we'll still need to factor in our own hosting and implementation costs.
+
+Professional services are also available, including training, consulting, development, and add-ons.
+
+### 9. GLPI
+
+Lastly, we have GLPI. This is an open-source service management platform, offering ticketing, asset management, and a huge range of other processes.
+
+![GLPI](https://res.cloudinary.com/daog6scxm/image/upload/v1765816162/cms/alternatives/GLPI_stiykr.webp "GLPI")
+
+(GLPI Website)
+
+#### Pros
+
+GLPI is an attractive option for teams that are looking for an open-source platform for handling the breadth of their IT service portfolios. This provides a streamlined, centralized experience for delivering reliable, efficient IT services across the organization.
+
+The ticketing funcitonality centers around an attractive, modern helpdesk, complete with multi-channel support, extensive automation options, SLA management, and highly effective reporting functionality.
+
+Another big plus for GLPI is the inclusion of a CMDB, helping to streamline a range of processes around physical assets management, mobile device management, data center management, and more.
+
+#### Cons
+
+One potential downside of GLPI is that it might be excessive for teams that simply want a stand-alone ticketing system. If this is the case, you might want to consider one of the more lightweight tools in this roundup instead.
+
+Similarly, some less technical users report finding the UI overwhelming or difficult to navigate.
+
+Some users also note encountering issues with versioning for plug-ins, which are developed independently of GLPI itself and can sometimes cause compatability issues.
+
+#### Pricing
+
+GLPI is free to use under the open-source GNU license.
+
+However, there are also paid versions of both the cloud and self-hosted product available. Paid self-hosted licenses start from €100 per month for 500 assets, unlimited end users, and features such as OAuth SSO and SCIM.
+
+Paid cloud plans start from €19 per user per month.
 
 ## Turn data into action with Budibase
 
