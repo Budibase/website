@@ -164,6 +164,8 @@ In recent years, n8n has also positioned itself as a powerful solution for build
 
 In addition, n8n offers a wealth of testing and debugging capabilities, making it a powerful option for developers who want to build production AI tools.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 #### CrewAI
 
 CrewAI is one of the leading platforms for transforming workflows with multi-agent systems. Within this, it offers a range of tools, including a coding framework and a low-code platform in the form of CrewAI Studio.

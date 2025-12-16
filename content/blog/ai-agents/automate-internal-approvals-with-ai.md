@@ -99,6 +99,8 @@ These include:
 
 The goal is to ensure that decisions made by AI-driven approval systems can be trusted, both in terms of making appropriate decisions and in terms of maintaining security across our wider data and tool stack.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ## How to implement AI for internal approvals using Budibase
 
 To put some of what we’ve learned so far into practice, we’re going to build a simple AI-driven workflow using Budibase.

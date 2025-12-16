@@ -263,6 +263,8 @@ The Manifest Generator is a helpful quality-of-life addition that helps create c
 
 As we said earlier, Moveworks offers support for a range of LLMs, including Microsoft, Meta, and other models, as well as Hugging Face and more.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ### Hosting, deployment, and security
 
 Lastly, agentic AI and enterprise search solutions will invariably need to interact with mission-critical systems, data, processes, and resources.

@@ -218,6 +218,8 @@ Langflow also offers hundreds of pre-built flows and components, making it easie
 
 It’s available as a cloud-based or self-hosted platform, making it suitable for a range of teams, although we may need more extensive technical skills than with some other AI workflow automation tools.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ### 5. Rasa
 
 Rasa is a comprehensive AI agent platform, aimed at large enterprises, combining elements of both visual and code-based development.

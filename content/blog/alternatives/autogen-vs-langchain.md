@@ -225,6 +225,8 @@ In terms of orchestration and multi-agent systems, LangGraph is available as bot
 
 This includes network, supervisor, hierarchical, and custom multi-agent architectures.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ### Monitoring, visibility, and control
 
 Lastly, although part of the appeal of AI systems is obviously their ability to act autonomously, it’s still crucial that we have the right mechanisms in place to maintain oversight, ensuring safety, accuracy, security, and effectiveness within our workflows.

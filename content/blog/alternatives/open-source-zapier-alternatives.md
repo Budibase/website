@@ -304,6 +304,8 @@ However, we'll still need to factor in costs associated with hosting and model u
 
 Professional services and support packages are also available.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ## Turn data into action with Budibase
 
 ![Budibase](https://res.cloudinary.com/daog6scxm/image/upload/v1680181644/ui/homepage-design-ui_sizp7b.webp "Budibase")

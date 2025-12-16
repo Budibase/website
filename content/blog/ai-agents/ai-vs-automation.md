@@ -206,6 +206,8 @@ These include:
 - **Greater regulatory and ethical concerns** - Bias, explainability, and accountability are critical, especially in regulated industries.
 - **Slower to deploy** - Initial setup often involves more development, testing, and iteration before results are reliable.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ## Overlap and AI-powered automation solutions
 
 As we said earlier, AI vs automation isn’t a clear one-or-the-other decision. Instead, there are several situations where we might employ solutions that incorporate elements of both approaches.

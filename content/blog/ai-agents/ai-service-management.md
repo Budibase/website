@@ -173,6 +173,8 @@ This includes a range of technical, operational, and cultural best practices tha
 - **Provide transparency to end users** - make it clear when they are interacting with AI, what it can help with, and what still requires human review.
 - **Keep humans in the loop for exceptions** - escalate unclear or risky cases to a human analyst rather than forcing the AI to guess.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ## Turn data into action with Budibase
 
 Budibase is the open-source, low-code platform that empowers IT teams to turn data into action. 

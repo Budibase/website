@@ -104,6 +104,8 @@ That is, platforms in this space can be thought of as existing on a spectrum, wi
 
 Within this, it’s important to select an n8n alternative that’s appropriate for both your desired level of customization and flexibility, and your requirements in terms of user experiences.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ## 6 n8n alternatives for 2026
 
 With a good grasp of what we’re looking for as we evaluate specific n8n alternatives, we can move on to checking out our specific options on the market today.
