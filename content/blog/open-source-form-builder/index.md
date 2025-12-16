@@ -1,7 +1,7 @@
 +++
 author = "Joe Johnston"
 date = 2025-01-19T00:00:00Z
-description = "Open source form builder apps come in all shapes and sizes but are critically different. This guide covers what's unique about the best open source form builder apps in 2025."
+description = "Open source form builder apps come in all shapes and sizes but are critically different. This guide covers what's unique about the best open source form builder apps in 2026."
 images = ["/open-source-form-builder/open-source-form-builder.png"]
 title = "Top 6 Open Source Form Builders for 2026 (Tried and Tested)"
 type = "alternatives"

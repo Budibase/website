@@ -84,7 +84,7 @@ But, today we’re exploring some more modern alternatives. Specifically, we’l
 - [What is Microsoft Access?](#what-is-microsoft-access)
 - [Who uses Access?](#who-uses-access)
 - [Why would you want a Microsoft Access Alternative?](#why-would-you-want-a-microsoft-access-alternative)
-- [11 Microsoft Access alternatives for 2025](#11-microsoft-access-alternatives)
+- [11 Microsoft Access alternatives for 2026](#11-microsoft-access-alternatives)
 
 
 Let’s kick off with a little bit of background.
@@ -113,7 +113,7 @@ Access also gained popularity for enabling users to leverage *database templates
 
 ### **Who uses Access?**
 
-This is actually quite an interesting question. A decent proportion of Access users in 2025 are enterprise IT teams in legacy industries, including banking, big corporations, and manufacturing companies, for a few examples.
+This is actually quite an interesting question. A decent proportion of Access users in 2026 are enterprise IT teams in legacy industries, including banking, big corporations, and manufacturing companies, for a few examples.
 
 Why?
 
@@ -157,7 +157,7 @@ Therefore, there are actually a couple of different approaches we could take to 
 
 Or, we might opt for a solution that addresses the same underlying pain points, but differs in terms of the approach to solving these problems - and therefore the specific functionality on offer.
 
-With that in mind, here are eight of our favorite Microsoft Access alternatives for 2025 and beyond.
+With that in mind, here are eight of our favorite Microsoft Access alternatives for 2026 and beyond.
 
 1. [Budibase](#budibase)
 2. [OpenOffice Base](#openoffice-base)

@@ -73,7 +73,7 @@ Open-source tools can also give us more flexibility as, depending on their speci
 
 You might also like our round-up of the top [Jira Service Management alternatives](https://budibase.com/blog/alternatives/jira-service-management/).
 
-## 5 open-source Jira alternatives for 2025
+## 5 open-source Jira alternatives for 2026
 
 We’ve chosen five distinct open-source platforms from across the market for Jira alternatives, each with its own strengths and weaknesses.
 

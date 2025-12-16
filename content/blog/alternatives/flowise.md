@@ -54,7 +54,7 @@ Along the way, we’ll cover a range of ground, including:
 - [What is Flowise?](#what-is-flowise)
 - [Who uses Flowise?](#who-uses-flowise)
 - [Why would you need a Flowise alternative?](#why-would-you-need-a-flowise-alternative)
-- [5 Flowise alternatives for 2025](#5-flowise-alternatives-for-2025)
+- [5 Flowise alternatives for 2026](#5-flowise-alternatives-for-2026)
 
 Let’s jump right in.
 
@@ -114,7 +114,7 @@ However, we might find that other platforms offer more extensive native integrat
 
 As ever, none of these are necessarily deal-breakers. Rather, they’re important considerations to keep in mind when comparing Flowise to its competitors.
 
-## 5 Flowise alternatives for 2025
+## 5 Flowise alternatives for 2026
 
 Now that we have a strong grasp of what Flowise is, what it does, and who uses it, we can start to check out some of the alternative platforms that are available on the market today.
 

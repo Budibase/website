@@ -41,7 +41,7 @@ Specifically, we’ll be covering:
 - [What is Zapier?](#what-is-zapier)
 - [Who uses Zapier?](#who-uses-zapier)
 - [Why would you want an open-source Zapier alternative?](#why-would-you-want-an-open-source-zapier-alternative)
-- [5 open-source Zapier alternatives for 2025](#5-open-source-zapier-alternatives-for-2025)
+- [5 open-source Zapier alternatives for 2026](#5-open-source-zapier-alternatives-for-2026)
 
 Let’s start with the basics.
 
@@ -97,7 +97,7 @@ This means we can ensure all data remains on-premises, as well as enforcing our 
 
 You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
 
-## 5 open-source Zapier alternatives for 2025
+## 5 open-source Zapier alternatives for 2026
 
 Now that we have a better grasp of what we may be looking for, we can start to check out some of the specific platforms that are available across the market. 
 
