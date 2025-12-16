@@ -3,7 +3,7 @@ author: "Ronan McQuillan"
 date: "2025-02-19"
 description: "Check out our round-up of the top open-source Jira alternatives."
 profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title: "5 Open-Source Jira Alternatives for 2025"
+title: "5 Open-Source Jira Alternatives for 2026"
 softwareApplications:
   - name: "GitLab"
     applicationCategory: "BusinessApplication"
@@ -73,7 +73,7 @@ Open-source tools can also give us more flexibility as, depending on their speci
 
 You might also like our round-up of the top [Jira Service Management alternatives](https://budibase.com/blog/alternatives/jira-service-management/).
 
-## 5 open-source Jira alternatives for 2025
+## 5 open-source Jira alternatives for 2026
 
 We’ve chosen five distinct open-source platforms from across the market for Jira alternatives, each with its own strengths and weaknesses.
 

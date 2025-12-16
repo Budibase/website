@@ -1,11 +1,12 @@
 +++
 author = "Joe Johnston"
 date = 2025-01-19T00:00:00Z
-description = "Open source form builder apps come in all shapes and sizes but are critically different. This guide covers what's unique about the best open source form builder apps in 2025."
+description = "Open source form builder apps come in all shapes and sizes but are critically different. This guide covers what's unique about the best open source form builder apps in 2026."
 images = ["/open-source-form-builder/open-source-form-builder.png"]
-title = "Top 6 Open Source Form Builders in 2025 (Tried and Tested)"
+title = "Top 6 Open Source Form Builders for 2026 (Tried and Tested)"
 type = "alternatives"
 layout = "open-source-form-builder"
+
 +++
 
 My name is Joe, and I have been building online forms for the last 10 years of my life. I have developed forms in several different ways; with html5 form builders, with Javascript form builders, to niche React form builders, and more. From my experience, I can conclude that the best open-source form builders make it quick and easy to create beautiful, functional, and accessible forms.
