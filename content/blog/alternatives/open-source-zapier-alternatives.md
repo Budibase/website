@@ -101,7 +101,7 @@ This means we can ensure all data remains on-premises, as well as enforcing our 
 
 You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
 
-## 5 open-source Zapier alternatives for 2026
+## 6 open-source Zapier alternatives for 2026
 
 Now that we have a better grasp of what we may be looking for, we can start to check out some of the specific platforms that are available across the market. 
 
@@ -116,7 +116,7 @@ With that in mind, we’ve selected:
 3. [Apache Airflow](#3-apache-airflow)
 4. [Automatisch](#4-automatisch)
 5. [Node-RED](#5-node-red)
-6. [Flowise](#6-flowise)
+6. [Langflow](#6-langflow)
 
 Let’s check each one out in turn.
 
