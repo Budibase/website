@@ -1,12 +1,10 @@
 +++
 
 author = "Ronan McQuillan"
-date = 2025-04-25
+date = 2025-07-25
 description = "Take a look at our round-up of the top low & no-code AI agent builders."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "6 Low/No-Code AI Agent Builders"
-type = "ai-agents"
-layout= "no-code-ai-agent-builders"
+title = "10 Low/No-Code AI Agent Builders for 2026"
 [[softwareApplications]]
 name = "CoPilot Studio"
 applicationCategory = "businessApplication"
@@ -37,6 +35,31 @@ name = "Watsonx.ai"
 applicationCategory = "businessApplication"
 operatingSystem = "Web"
 url = "https://www.ibm.com/products/watsonx-ai/"
+
+[[softwareApplications]]
+name = "Langflow"
+applicationCategory = "businessApplication"
+operatingSystem = "MacOS, Windows"
+url = "https://www.langflow.org/"
+
+[[softwareApplications]]
+name = "Zapier"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://zapier.com/"
+
+[[softwareApplications]]
+name = "Lindy"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.lindy.ai/"
+
+[[softwareApplications]]
+name = "Make"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.make.com/en"
+
 +++
 
 AI agents are probably the hottest tech topic around today. In almost all industries, software vendors have rushed to add agentic workflow tools to their platforms over the past few years.
@@ -51,7 +74,7 @@ We’re going to cover everything you need to know, including:
 
 - [What is a no/low code AI agent builder?](#what-is-a-nolow-code-ai-agent-builder)
 - [What to look for in an agent builder](#what-to-look-for-in-an-agent-builder)
-- [6 low/no-code AI agent builders for 2025](#6-low--no-code-ai-agent-builders-for-2025)
+- [10 low/no-code AI agent builders for 2025](#10-low--no-code-ai-agent-builders-for-2025)
 
 Let’s start with the basics.
 
@@ -111,14 +134,12 @@ Similarly, hosting, deployment, and security features are also top consideration
 
 You might also like our guide to [enterprise chatbots](https://budibase.com/blog/ai-agents/enterprise-chatbots/).
 
-## 6 low & no-code AI agent builders for 2025
+## 10 low & no-code AI agent builders for 2025
 
 Now that we have a better understanding of what we’re looking for, we can begin to explore some of the specific platforms that are available on the market today. 
 
 In order to give a full account of what’s available, we’ve chosen a broad range of tools, aimed at a diverse set of use cases and target personas.
 
-Here’s a summary of the tools in our round-up.
-||||||||||
 Let’s check out what each one offers in more detail.
 
 ### 1. CoPilot Studio
@@ -317,6 +338,132 @@ Paid plans bill on a pay-as-you-go usage-based basis, pulling in LLM interaction
 As such, it has the potential to be a relatively scalable option, although careful attention will be required to determine its cost-effectiveness for individual use cases.
 
 You might also like our ultimate guide to [AI forms](https://budibase.com/blog/ai-forms/).
+
+### 7. Langflow
+
+Next up, we have Langflow. This sits more towards the low-code end of the market for AI agent builders.
+
+![Langflow](https://res.cloudinary.com/daog6scxm/image/upload/v1765810281/cms/ai-agents/Langflow_i0qkfo.webp "Langflow")
+
+(Langflow Website)
+
+#### Pros
+
+Langflow centers around an intuitive, flexible interface for creating AI agents and MCP servers visually. This is built on top of Python and offers developers a streamlined experience for outputting custom agents, while still retaining some of the power of custom code.
+
+It's a particularly strong offering in terms of integration options. LangFlow offers hundreds of pre-built connectors, with a particularly impressive range of data sources, development tools, and other AI platforms.
+
+We can also use Langflow as both an MCP client and server, which could be useful in a range of scenarios. Every Langflow project runs a separate MCP server, making our workflows callable as tools from any other MCP-compatible client.
+
+#### Cons
+
+As we said earlier, Langflow is better thought of as a low-code AI agent builder, with the option to use custom Python across the platform. While this is optional, it could still mean that some coding skills are useful to get the most out of the platform.
+
+So, we might want to look elsewhere for a strictly no-code AI agent builder.
+
+While Langflow does offer templates for core use cases, the selection here isn't as extensive as in some other tools, which may be important for teams that want to get up and running quickly for certain use cases.
+
+#### Pricing
+
+Langflow is free to use under the open-source MIT license. This is a permissive license for use, modification, and redistribution, with some conditions.
+
+However, we'll still need to factor in costs associated with hosting and model usage.
+
+Professional services and support packages are also available.
+
+### 8. Zapier
+
+Next, we have Zapier. This is perhaps the best known platform in the world of no-code workflow automation, which in recent years has launched several features aimed at building AI agents.
+
+![Zapier](https://res.cloudinary.com/daog6scxm/image/upload/v1765470620/cms/alternatives/n8n/Zapier_fhbnz9.webp "Zapier")
+
+(Zapier Website)
+
+#### Pros
+
+Zapier is massively well-regarded for its intuitive, user-friendly experiences for building a wide range of workflow tools. This aims to empower non-technical colleagues to create automations and other solutions based on their existing tools.
+
+As part of this, Zapier offers a highly impressive range of pre-built integrations. This includes connectors for over 8,000 apps and software tools, across all sorts of use cases and business verticals.
+
+AI agent-building capabilities in Zapier are highly optimized for the needs of less technical colleagues. We can create agents from natural language inputs using Zapier Copilot, as well as configuring triggers, enabling tools, and adjusting behavior, without requiring custom code.
+
+#### Cons
+
+At the same time, there are a few key scenarios where Zapier might not be the ideal fit. For instance, more technical teams might find that other platforms offer a greater degree of flexibility and customization.
+
+For instance, some of the other tools we've seen allow us to fall back to code more extensively across the platform.
+
+Zapier also can't be self-hosted.
+
+#### Pricing
+
+Zapier can be used for free for up to 100 tasks per month. However, this only allows two-step Zaps. We can also use AI Agents for free for up to 400 activities per month.
+
+Paid tiers start from $19.99 per month to access multi-step automations, with a sliding scale for different numbers of monthly tasks. Importantly, we'll need a Team license, starting at $69 for SAML SSO. A Pro add-on for AI agents costs $33.33 per month for 1,500 activities.
+
+Custom enterprise pricing is also available, both with and without the AI Agents add-on.
+
+### 9. Lindy
+
+Next up, we have Lindy. This is a no-code platform that offers businesses a simple way to create, share and manage AI agents.
+
+![Lindy](https://res.cloudinary.com/daog6scxm/image/upload/v1765894359/cms/alternatives/n8n/Lindy_sreqcs.webp "Lindy")(Lindy Website)
+
+#### Pros
+
+Lindy offers a highly expedient experience for creating agents without extensive development skills. As part of this, it offers agent-creation from natural language inputs, alongside thousands of integrations and a flow-based visual editor.
+
+We can also choose from a huge range of templates for common use cases and connected applications, including for sales, support, marketing, operations, and other teams.
+
+On top of this, Lindy offers capabilities that are open it up to a wider range of use cases, including virtual machines for agents and AI voice agents.
+
+#### Cons
+
+As with other no-code AI agent builders, one potential downside of Lindy is that it may not offer the same extent of flexibility and customization as we might see in platforms with more extensive scope for adding our own code.
+
+So, we may wish to look elsewhere if this is a firm requirement.
+
+We also can't self-host Lindy, as it's only offered as a cloud product
+
+#### Pricing
+
+We can use Lindy for free for up to 40 tasks and 400 AI credits per month. This also includes a 1M character knowledge base and over 100 integrations.
+
+Beyond this, there are two fixed pricing tiers, starting from $49 per month. These are priced on a sliding scale based on AI credits, although the cheaper tier still limits us to 1,500 monthly tasks. We'll also need to pay an additional $19.99 for extra seats.
+
+Custom enterprise licenses are also available, introducing enterprise integrations and important features such as SSO, SCIM, RBAC, and audit logs.
+
+### 10. Make
+
+Lastly, we have Make. This is another no-code automation platform, including capabilities for building and orchestrating AI agents.
+
+![Make](https://res.cloudinary.com/daog6scxm/image/upload/v1765894358/cms/alternatives/n8n/Make_jpqc3x.webp "Make")
+
+(Make Website)
+
+#### Pros
+
+Like Zapier, Make has a strong reputation for offering a highly user friendly, intuitive experience for creating workflow automations that connect to business's existing tooling. As part of this, it offers over 3,000 pre-built apps and integrations, including both verified tools and community contributions.
+
+Make's core experience for building agents is highly streamlined and largely natural language based. We can define triggers and provide instructions via prompts to OpenAI-compatible models. This provides a flexible experience for creating and managing agents, without extensive technical abilities.
+
+Another novel feature is Make Grid. This is an automatically generated visualization of our entire automation landscape, providing a helpful overview designed to make our automation systems easier to scale and maintain.
+
+#### Cons
+
+The most obvious platform to compare Make to is Zapier, and one thing that we can note here, is that despite having a vast library of pre-built integrations, this is still somewhat lower than Make's larger competitor.
+
+Again, as with other no-code AI agent builders, some teams might find that Make lacks the flexibility and customization options they require, which could be better served in a low-code option.
+
+Lastly, like some of the other platforms we've seen, Make can't be self-hosted.
+
+#### Pricing
+
+Make offers highly affordable, scalable pricing, based on monthly credits, which correspond to individual actions like adding a row to a spreadsheet or fetching data. We can use it for free for up to 1,000 credits per month.
+
+Paid plans start from $9 per month for a Core license 10,000 credits, as well as API access and other features. There are two other fixed pricing tiers above this with additional features. Each of these three tiers is billed on a sliding scale based on required monthly credits.
+
+Custom pricing is also available, with enterprise integrations, additional security features, and more.
 
 ## Build workflow tools on top of any data with Budibase
 

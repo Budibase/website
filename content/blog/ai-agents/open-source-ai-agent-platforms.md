@@ -42,7 +42,7 @@ operatingSystem = "Linux, macOS, Windows"
 url = "https://learn.microsoft.com/en-us/semantic-kernel/overview/"
 
 [[softwareApplications]]
-name = "Langflowl"
+name = "Langflow"
 applicationCategory = "businessApplication"
 operatingSystem = "MacOS, Windows"
 url = "https://www.langflow.org/"
@@ -372,7 +372,7 @@ Although being aimed at teams that want to build AI agents visually, some report
 
 Additionally, Langflow themselves note that certain governance and enterprise controls are offered via integrations, where we may need to configure our own stack, whereas some other platforms offer these features out of the box.
 
-It also doesn't offer the same extensive pre-built templates as we might find in some other visual agent builders.
+While there are pre-built templates available, the range of these isn't as extensive as we might find in some other visual agent builders.
 
 #### Licensing
 
