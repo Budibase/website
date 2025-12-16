@@ -204,6 +204,8 @@ In particular, it offers a range of access control, cost control, encryption, an
 
 It’s also available as an open-source or cloud-based platform, as well as offering support for a wide range of models via the OpenAI API or using Lite LLM.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ## Turn data into action with Budibase
 
 Budibase is the open-source, low-code platform that empowers IT teams to turn data into action. 

@@ -109,6 +109,8 @@ Centralizing service requests within a unified point of interaction also helps t
 
 However, it’s important to note that none of these benefits are inevitable. Later, we’ll think about some of the key factors that influence our success here, but first, it’s worth taking a step back and thinking about conversational ticketing systems from a more technical perspective.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ## How do conversational ticketing systems work?
 
 Even if we don’t plan to build our own custom solution, it’s important to have a broad understanding of what’s going on under the hood of conversational systems. This will help to inform many of the decisions we make later.

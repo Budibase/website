@@ -86,6 +86,8 @@ Notably, the specific balance of these will vary from one team to the next. For 
 
 Smaller teams might be more inclined to prioritize other factors like ease of deployment. As such, the key thing is to have a clear idea of your own requirements, functionally, operationally, and commercially, before assessing specific platforms.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ## How to build AI ticket triage tools in Budibase
 
 To show off how we can build AI triage into ticketing workflows, we’re going to build a simple example in Budibase. 

@@ -242,6 +242,8 @@ With a Pro license, we can get increased usage limits, as well as access to feat
 
 Custom enterprise licenses are also available with features including SSO, Git-based version control, or extended data retention.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ### 4. Make
 
 Make is another popular no-code workflow automation platform, with extensive capabilities for leveraging AI within internal processes.

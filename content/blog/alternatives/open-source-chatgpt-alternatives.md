@@ -211,6 +211,8 @@ If we utilize Jan Server, we can also access important enterprise functionality,
 
 Overall, Jan is an impressive option for teams that want a direct open-source ChatGPT replacement. However, some other platforms may offer more advanced capabilities, including additional customization options or the ability to create callable workflow automations.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ## Turn data into action with Budibase
 
 Budibase is the open-source, low-code platform that empowers IT teams to turn data into action. 

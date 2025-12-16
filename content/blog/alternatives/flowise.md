@@ -232,6 +232,8 @@ Paid plans start from $24 for 2,500 executions per month. Increased usage limits
 
 A custom enterprise license will be needed for advanced features, such as SSO, Git-based version control, or extended data retention.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ### 4. Aisera
 
 Aisera is an AI agent platform that aims to automate all kinds of internal processes, making it one of Flowise’s most direct competitors.
