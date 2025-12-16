@@ -1,9 +1,9 @@
 ---
 author: "Ronan McQuillan"
-date: "2025-05-15"
+date: "2025-07-15"
 description: "Check out our round-up of the top open-source Zapier alternatives."
 profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title: "5 Open-Source Zapier Alternatives for 2026"
+title: "6 Open-Source Zapier Alternatives for 2026"
 softwareApplications:
   - name: "Budibase"
     applicationCategory: "BusinessApplication"
@@ -25,6 +25,10 @@ softwareApplications:
     applicationCategory: "BusinessApplication"
     operatingSystem: "Web"
     url: "https://nodered.org/"
+  - name: "Langflow"
+    applicationCategory: "BusinessApplication"
+    operatingSystem: "MacOS, Windows"
+    url: "https://www.langflow.org/"
 
 ---
 
@@ -41,7 +45,7 @@ Specifically, we’ll be covering:
 - [What is Zapier?](#what-is-zapier)
 - [Who uses Zapier?](#who-uses-zapier)
 - [Why would you want an open-source Zapier alternative?](#why-would-you-want-an-open-source-zapier-alternative)
-- [5 open-source Zapier alternatives for 2026](#5-open-source-zapier-alternatives-for-2026)
+- [6 open-source Zapier alternatives for 2026](#6-open-source-zapier-alternatives-for-2026)
 
 Let’s start with the basics.
 
@@ -112,6 +116,7 @@ With that in mind, we’ve selected:
 3. [Apache Airflow](#3-apache-airflow)
 4. [Automatisch](#4-automatisch)
 5. [Node-RED](#5-node-red)
+6. [Flowise](#6-flowise)
 
 Let’s check each one out in turn.
 
@@ -239,7 +244,7 @@ Enterprise pricing ranges from €180-550 per month, with unlimited usage, white
 
 ### 5. Node-RED
 
-Lastly, we have Node-RED. This is another well-known domain-specific workflow automation tool, enabling a wide range of users to build applications to automate data flows, especially relating to hardware and IoT devices.
+Next, we have Node-RED. This is another well-known domain-specific workflow automation tool, enabling a wide range of users to build applications to automate data flows, especially relating to hardware and IoT devices.
 
 ![Node-RED](https://res.cloudinary.com/daog6scxm/image/upload/v1747320404/cms/ai-agents/open-source-zapier-alternatives/Node-RED_yswobm.webp "Node-RED")
 
@@ -266,6 +271,38 @@ Like Airflow, Node-RED is free to use, modify, and distribute under the Apache 2
 As with any self-hosted solution, we’ll need to account for the costs associated with hosting and computational resources.
 
 Alternatively, there are some vendors that offer Node-RED-based solutions as cloud services, although these offer their own pricing models.
+
+### 6. Langflow
+
+Lastly, we have Langflow. This is an open-source, low-code platform for creating and deploying AI agents and MCP servers.
+
+![Langflow](https://res.cloudinary.com/daog6scxm/image/upload/v1765810281/cms/ai-agents/Langflow_i0qkfo.webp "Langflow")
+
+(Langflow Website)
+
+#### Pros
+
+Built on top of Python, Langflow offers an intuitive drag-and-drop experience for creating AI workflows, enabling developers to create powerful AI-driven systems, without extensive boilerplate code.
+
+This includes hundreds of pre-built integrations for common tools, as well as the option to create our own custom components, providing a strong combination of streamlined agent building and flexibility.
+
+We can also utilize Langflow as both an MCP server or client, opening it up to a wide range of advanced use cases, including utilizing our workflows as callable tools from external AI systems.
+
+#### Cons
+
+Compared to other open-source Zapier alternatives, one potential downside of Langflow is that it's primarily aimed at building AI systems, and might not be the right fit if you primarily want to build traditional, deterministic automations.
+
+It's also more of a low-code platform than some other Zapier competitors. While custom code is optional across the platform, some knowledge of Python will still be helpful for certain scenarios.
+
+While Langflow does provide an extensive set of templates to help us get started with common use cases, some other platforms provide a more comprehensive offering here.
+
+#### Pricing
+
+Langflow is free to use under the open-source MIT license. This is a permissive license for use, modification, and redistribution, with some conditions.
+
+However, we'll still need to factor in costs associated with hosting and model usage.
+
+Professional services and support packages are also available.
 
 ## Turn data into action with Budibase
 
