@@ -2,7 +2,7 @@
 author = "Joe Johnston"
 date = 2025-01-23T00:00:00Z
 description = "Follow our step-by-step guide for how to create a web app."
-title = "How to Build a Web App: Beginner's Guide (2025)"
+title = "How to Build a Web App: Beginner's Guide (2026)"
 
 +++
 
@@ -59,9 +59,9 @@ Even _with_ these tools, this is an involved process.
 
 That’s before you even think about testing, hosting, and deployment. Again, we’ll cover each stage of this process in a few minutes.
 
-### Building a web app in 2025
+### Building a web app in 2026
 
-These days, more and more developers are turning to more high-level, abstracted tools to build web apps. In 2025, there are two key clusters of tools that are leveraged here.
+These days, more and more developers are turning to more high-level, abstracted tools to build web apps. In 2026, there are two key clusters of tools that are leveraged here.
 
 #### Building web apps with low/no-code tools
 
@@ -84,7 +84,7 @@ In recent years, AI has made huge leaps forward in just about all aspects of lif
 
 So, we've seen a range of platforms bring functionality to market for generating web applications based on LLM prompts. Over the coming years, this will almost certainly transform the way we build web apps forever.
 
-At the same time, we have to take a realistic view of the pros and cons of using AI app builders in 2025. So, while there's undoubtedly time and money to be saved by using these platforms, there are also some key limitations at the current moment.
+At the same time, we have to take a realistic view of the pros and cons of using AI app builders in 2026. So, while there's undoubtedly time and money to be saved by using these platforms, there are also some key limitations at the current moment.
 
 For instance, whole applications that have been generated with AI prompts can be difficult to maintain or modify without the right underlying tools, whether these are low-code or traditional development-based.
 

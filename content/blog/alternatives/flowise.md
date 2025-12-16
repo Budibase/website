@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-05-21
 description = "Check out our in-depth round-up of the top Flowise alternatives."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "5 Flowise Alternatives & Competitors for 2025"
+title = "5 Flowise Alternatives & Competitors for 2026"
 [[softwareApplications]]
 name = "Moveworks"
 applicationCategory = "businessApplication"

@@ -3,7 +3,7 @@ author: "Ronan McQuillan"
 date: "2025-02-19"
 description: "Check out our round-up of the top open-source Jira alternatives."
 profilePic: "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title: "5 Open-Source Jira Alternatives for 2025"
+title: "5 Open-Source Jira Alternatives for 2026"
 softwareApplications:
   - name: "GitLab"
     applicationCategory: "BusinessApplication"
