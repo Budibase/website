@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-11-04
 description = "Take a look at our round-up of the top Open WebUI alternatives for 2025."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "6 Open WebUI Alternatives for 2025"
+title = "8 Open WebUI Alternatives for 2026"
 
 +++
 
@@ -21,7 +21,7 @@ To better understand this space, we’ll be covering:
 - [What is Open WebUI?](#what-is-open-webui)
 - [Why would you need an alternative to Open WebUI](#why-would-you-need-an-alternative-to-open-webui)
 - [What to look for in an Open WebUI alternative](#what-to-look-for-in-an-open-webui-alternative)
-- [6 Open WebUI alternatives](#6-open-webui-alternatives)
+- [8 Open WebUI alternatives](#8-open-webui-alternatives)
 
 Let’s start with the basics.
 
@@ -81,7 +81,7 @@ For example, the importance we place on features like security, integration opti
 
 Similarly, the extent of customization that’s available is obviously an important concern, but at the same time, this has to be balanced with appropriate experiences for our users, as well as the development resources we have available for implementation.
 
-## 6 Open WebUI alternatives
+## 8 Open WebUI alternatives
 
 With a good grasp of some of the key decisions we’re likely to encounter when comparing Open WebUI alternatives, we can move on to thinking about the specific platforms that are available on the market today.
 
@@ -97,6 +97,8 @@ Our picks are:
 4. [AnythingLLM](#4-anythingllm)
 5. [Chatbox AI](#5-chatbox-ai)
 6. [BionicGPT](#6-bionicgpt)
+7. [LM Studio](#7-lm-studio)
+8. [GPT4All](#8-gpt4all)
 
 Let’s check each one out in turn.
 
@@ -188,7 +190,7 @@ On the whole, it has the potential to be a good fit for users that need an easy 
 
 ### 6. BionicGPT
 
-Lastly, we have BionicGPT. Billing itself as an all-in-one platform for private AI, it offers a comprehensive set of tools for building AI-powered solutions, including agents, that can connect to external systems and data.
+Next, we have BionicGPT. Billing itself as an all-in-one platform for private AI, it offers a comprehensive set of tools for building AI-powered solutions, including agents, that can connect to external systems and data.
 
 ![BionicGPT](https://res.cloudinary.com/daog6scxm/image/upload/v1762266501/cms/alternatives/chatgpt/BionicGPT_wiinzp.webp "BionicGPT")
 
@@ -205,6 +207,42 @@ In particular, it offers a range of access control, cost control, encryption, an
 It’s also available as an open-source or cloud-based platform, as well as offering support for a wide range of models via the OpenAI API or using Lite LLM.
 
 You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
+### 7. LM Studio
+
+LM Studio is an open-source chat tool for local LLMs.
+
+![LM Studio](https://res.cloudinary.com/daog6scxm/image/upload/v1765982715/cms/alternatives/chatgpt/LM_Studio_p9yd9o.webp "LM Studio") (LM Studio Website)
+
+One key benefit here is how quickly and easily we can get up and running with a working chat tool, with minimal configuration. We simply need to download a model, load it into LM Studio, and straight away we can begin having conversations.
+
+The chat UI itself is highly attractive and easy to use, including the ability to manage and duplicate chats using a drag-and-drop experience.
+
+LM Studio supports document attachments within AI chats, and will either handle these in-context or using RAG, depending on their size and the supported context length of the model we're using.
+
+We can connect our chat systems to external tools via MCP, making LM Studio a powerful solution for creating more advanced solutions, capable of taking actions based on chat interactions.
+
+Configuration options include per-model default settings, speculative decoding, prompt templates, and more.
+
+LM Studio is potentially an attractive option for a range of types of users, although you may wish to consider other options if you need a more full-featured Open WebUI alternative for creating internal business chat systems.
+
+### 8. GPT4All
+
+Lastly, there's GPT4All. Part of the Nomic ecosystem, this is an open-source chatbot tool designed to work with local LLMs.
+
+![GPT4All](https://res.cloudinary.com/daog6scxm/image/upload/v1765982715/cms/alternatives/chatgpt/GPT4All_t4kp3w.webp "GPT4All")
+
+(GPT4All Website)
+
+This provides a highly effective, customizable chat UI that we can utilize on everyday Windows, Mac, or Linux devices.
+
+The chat UI itself is lightweight and intuitive, which will appeal to a range of different kinds of users.
+
+We can connect GPT4All to a huge range of LLMs, but it's specifically optimized for models in the 3-13B parameter count range, given its focus on use on consumer machines.
+
+GPT4All is also a highly effective tool for working with local files. In particular, the LocalDocs feature makes it easy to create collections of files on our local machine, and vectorize them for use in our chat responses.
+
+As well as this, GPT4All provides a Python SDK and support for OpenTelemetry, which could make it appealing to developers who need a chat UI for more advanced use cases.
 
 ## Turn data into action with Budibase
 

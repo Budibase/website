@@ -224,7 +224,7 @@ Next, we have LM Studio. This is a platform for running, chatting with, and conn
 
 One of the real selling points of LM Studio is how quickly and easily we can get up and running. We simply need to download an LLM, load it into the application, and we can have back-and-forth conversations using the native chat UI.
 
-We can also attach documents within chats, which LM Studio will either handle in-context or using RAG, depending on their length and the model we're using's  supported context size.
+We can also attach documents within chats, which LM Studio will either handle in-context or using RAG, depending on their size and the model we're using's  supported context size.
 
 The UI itself is highly funcitonal, including the ability to manage and duplicate chats using a drag-and-drop experience.
 
@@ -236,7 +236,7 @@ On the whole, LM Studio is a great option for users that want to run and interac
 
 ### 7. GPT4All
 
-Part of the Nomic ecosystem, GPT4All is an open-source for creating AI chatbots with local LLMs.
+Part of the Nomic ecosystem, GPT4All is an open-source application for running AI chatbots with local LLMs.
 
 ![GPT4All](https://res.cloudinary.com/daog6scxm/image/upload/v1765982715/cms/alternatives/chatgpt/GPT4All_t4kp3w.webp "GPT4All")
 
@@ -266,7 +266,7 @@ This centers around a modern, highly effective chat UI, with support for a wide 
 
 Open WebUI is also particularly well optimized for the needs of businesses that want to implement an internal chat solution, federated authentication, role-based access control, chat sharing, and more.
 
-At the same time, it's highly flexible tool for creating AI-powered workflows, including tool and function call capabilities, as well as web search and in-chat code execution.
+At the same time, it's highly flexible tool for creating AI-powered workflows, including tool and function calling capabilities, as well as web search and in-chat code execution.
 
 On the whole, it's a hugely powerful platform that will appeal to a range of different kinds of users.
 
