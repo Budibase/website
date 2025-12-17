@@ -391,8 +391,8 @@ command = "cd build && npm install && node hugo.js generate -f && cd .. && hugo 
   force = true
 
   [[redirects]]
-  from = "/blog/inside-it/free-asset-management-software/"
-  to = "/business-apps/"
+  from = "/it/templates/open-source-it-asset-management-software"
+  to = "/blog/inside-it/free-asset-management-software/"
   status = 301
   force = true
 
