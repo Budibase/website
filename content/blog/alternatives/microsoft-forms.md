@@ -2,9 +2,9 @@
 
 author = "Ronan McQuillan"
 date = 2025-07-01
-description = "Take a look at our round-up of the top Microsoft Forms alternatives for 2025."
+description = "Take a look at our round-up of the top Microsoft Forms alternatives for 2026."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "6 Microsoft Forms Alternatives for 2025"
+title = "6 Microsoft Forms Alternatives for 2026"
 
 [[about]]
 name="Microsoft Forms"
@@ -60,7 +60,7 @@ Specifically, we’ll be covering:
 - [What is Microsoft Forms?](#what-is-microsoft-forms)
   - [Who uses Microsoft Forms?](#who-uses-microsoft-forms)
 - [Why would we look for a Microsoft Forms alternative?](#why-would-we-look-for-a-microsoft-forms-alternative)
-- [6 Microsoft Forms alternatives for 2025](#6-microsoft-forms-alternatives-for-2025)
+- [6 Microsoft Forms alternatives for 2026](#6-microsoft-forms-alternatives-for-2026)
 
 Let’s start with the basics.
 
@@ -114,7 +114,7 @@ Lastly, while Microsoft Forms is included within the Microsoft 365 platform, we 
 
 As such, it’s often a great choice for teams that already heavily utilize Microsoft software internally, but might not make the most sense for teams that do not.
 
-## 6 Microsoft Forms alternatives for 2025
+## 6 Microsoft Forms alternatives for 2026
 
 With a good understanding of what Microsoft Forms is, how it’s used, and some of the factors that might lead us to seeking out other tools, we can begin to think about its key competitors.
 

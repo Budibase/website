@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-10-16
 description = "Check out our ultimate guide to designing and building chat UIs."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "What are AI Chat UIs? + Design, Architecture, and Implementation"
+title = "What is an AI Chat UI?"
 
 [[about]]
 name = "AI Chat"

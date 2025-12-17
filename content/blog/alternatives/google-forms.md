@@ -2,9 +2,9 @@
 
 author = "Ronan McQuillan"
 date = 2025-08-01
-description = "Take a look at our round-up of the top Google Forms alternatives for 2025."
+description = "Take a look at our round-up of the top Google Forms alternatives for 2026."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "6 Google Forms Alternatives for 2025"
+title = "6 Google Forms Alternatives for 2026"
 
 [[about]]
 name="Google Forms"
@@ -60,7 +60,7 @@ Specifically, we’ll be diving deep into:
 - [What is Google Forms?](#what-is-google-forms)
   - [Who uses Google Forms](#who-uses-google-forms)
 - [Why would we look for a Google Forms alternative?](#why-would-we-look-for-a-google-forms-alternative)
-- [6 Google Forms alternatives for 2025](#6-google-forms-alternatives-for-2025)
+- [6 Google Forms alternatives for 2026](#6-google-forms-alternatives-for-2026)
 
 Let’s start with the basics.
 
@@ -112,7 +112,7 @@ Alternatively, some other platforms can offer us a larger degree of flexibility 
 
 Lastly, although Google Forms offers a high level of security, it’s a closed-source platform and can’t be self-hosted. So, if these are must-haves, we’ll want to look elsewhere.
 
-## 6 Google Forms alternatives for 2025
+## 6 Google Forms alternatives for 2026
 
 With a clear understanding of what Google Forms is, what it offers, who uses it, and some its potential limitations, we can begin to consider some of the other platforms that are out there.
 
