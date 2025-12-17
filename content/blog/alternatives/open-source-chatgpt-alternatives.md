@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-10-22
 description = "Check out our round-up of the top open-source ChatGPT alternatives."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "5 Open-Source ChatGPT Alternatives for 2025"
+title = "8 Open-Source ChatGPT Alternatives for 2026"
 
 +++
 
@@ -19,7 +19,7 @@ Specifically, we’ll be covering:
 - [What is ChatGPT?](#what-is-chatgpt)
 - [Why would you want an open-source ChatGPT alternative?](#why-would-you-want-an-open-source-chatgpt-alternative)
 - [What to look for in an open-source ChatGPT alternative](#what-to-look-for-in-an-open-source-chatgpt-alternative)
-- [5 open-source ChatGPT alternatives for 2025](#5-open-source-chatgpt-alternatives-for-2025)
+- [8 open-source ChatGPT alternatives for 2026](#8-open-source-chatgpt-alternatives-for-2026)
 
 Let’s start with the basics.
 
@@ -105,7 +105,7 @@ Importantly, there’s no one-size-fits-all approach here.
 
 Instead, in order to effectively vet and assess our options, we’ll need to have a clear idea of how each of these factors plays into our own specific requirements, in order to choose the most appropriate open-source ChatGPT alternative for our needs.
 
-## 5 open-source ChatGPT alternatives for 2025
+## 8 open-source ChatGPT alternatives for 2026
 
 With a good grasp of why we might opt for an open-source alternative to ChatGPT, some of the specific forms that solutions can take, and the key decisions we’ll need to make when weighing up our options, we can move on to checking out our options on the market today.
 
@@ -118,6 +118,9 @@ In no particular order, these are:
 3. [H2oGPT](#3-h2ogpt)
 4. [Botpress](#4-botpress)
 5. [Jan](#5-jan)
+6. [LM Studio](#6-lm-studio)
+7. [GPT4All](#7-gpt4all)
+8. [Open WebUI](#8-open-webui)
 
 Let’s check each one out in turn.
 
@@ -195,7 +198,7 @@ As such, this is a highly flexible platform that will appeal to a range of teams
 
 ### 5. Jan
 
-Lastly, we have Jan. Billing itself directly as an open-source ChatGPT alternative, Jan offers a configurable yet ready-to-use AI chat tool for local and cloud-based models.
+Next, we have Jan. Billing itself directly as an open-source ChatGPT alternative, Jan offers a configurable yet ready-to-use AI chat tool for local and cloud-based models.
 
 ![Jan](https://res.cloudinary.com/daog6scxm/image/upload/v1761145216/cms/alternatives/chatgpt/Jan_rkim8c.webp "Jan")
 
@@ -212,6 +215,60 @@ If we utilize Jan Server, we can also access important enterprise functionality,
 Overall, Jan is an impressive option for teams that want a direct open-source ChatGPT replacement. However, some other platforms may offer more advanced capabilities, including additional customization options or the ability to create callable workflow automations.
 
 You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
+### 6. LM Studio
+
+Next, we have LM Studio. This is a platform for running, chatting with, and connecting tools to local models.
+
+![LM Studio](https://res.cloudinary.com/daog6scxm/image/upload/v1765982715/cms/alternatives/chatgpt/LM_Studio_p9yd9o.webp "LM Studio") (LM Studio Website)
+
+One of the real selling points of LM Studio is how quickly and easily we can get up and running. We simply need to download an LLM, load it into the application, and we can have back-and-forth conversations using the native chat UI.
+
+We can also attach documents within chats, which LM Studio will either handle in-context or using RAG, depending on their length and the model we're using's  supported context size.
+
+The UI itself is highly funcitonal, including the ability to manage and duplicate chats using a drag-and-drop experience.
+
+There's also support for MCP, meaning we can make a wide range of tools callable by AI models.
+
+Other helpful features include per-model default settings, speculative decoding, and prompt templates.
+
+On the whole, LM Studio is a great option for users that want to run and interact with LLMs on their local machines, but we might want to consider other options for a more fully-featured solution for creating internal chatbots for business usage.
+
+### 7. GPT4All
+
+Part of the Nomic ecosystem, GPT4All is an open-source for creating AI chatbots with local LLMs.
+
+![GPT4All](https://res.cloudinary.com/daog6scxm/image/upload/v1765982715/cms/alternatives/chatgpt/GPT4All_t4kp3w.webp "GPT4All")
+
+(GPT4All Website)
+
+The goal is to empower developers and teams with the ability to run local models on everyday Windows, Mac, or Linux machines.
+
+This includes a huge range of LLMs, with GPT4All specifically optimized to run models in the 3-13B parameter range.
+
+One stand-out feature of this is LocalDocs. With this, we can easily create collections of files on our local machine, and vectorize them to be usable within chats.
+
+The chat UI itself is intuitive and reasonably lightweight, meaning that it will likely be attractive to a range of users.
+
+GPT4All also offers a high degree of customization. This includes a Python SDK and integration with OpenTelemetry, making it a flexible offering for more advanced use cases.
+
+### 8. Open WebUI
+
+Lastly, we have Open WebUI. This is perhaps the best-known self-hostable UI for AI chat, making it an important open-source ChatGPT alternative to be aware of.
+
+![Open WebUI](https://res.cloudinary.com/daog6scxm/image/upload/v1765982715/cms/alternatives/chatgpt/Open_WebUI_wwpdqc.webp "Open WebUI")
+
+(Open WebUI Website)
+
+Open WebUI is hugely popular for offering an advanced, customizable front-end for working with local LLMs.
+
+This centers around a modern, highly effective chat UI, with support for a wide variety of LLM runners and OpenAI-compatible APIs.
+
+Open WebUI is also particularly well optimized for the needs of businesses that want to implement an internal chat solution, federated authentication, role-based access control, chat sharing, and more.
+
+At the same time, it's highly flexible tool for creating AI-powered workflows, including tool and function call capabilities, as well as web search and in-chat code execution.
+
+On the whole, it's a hugely powerful platform that will appeal to a range of different kinds of users.
 
 ## Turn data into action with Budibase
 
