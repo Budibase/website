@@ -3,7 +3,7 @@ author = "Ronan McQuillan"
 date = 2025-01-22
 description = "Take a look at our round-up of the top open-source help desk software."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "Top 5 Open-Source Help Desk Software Tools"
+title = "Top 6 Open-Source Help Desk Software Tools"
 [[softwareApplications]]
 name = "Budibase"
 applicationCategory = "businessApplication"
@@ -29,6 +29,13 @@ name = "OS Ticket"
 applicationCategory = "businessApplication"
 operatingSystem = "Web"
 url = "https://osticket.com"
+
+[[softwareApplications]]
+name = "Znuny"
+applicationCategory = "businessApplication"
+operatingSystem = "Web"
+url = "https://www.znuny.org/"
+
 +++
 
 Help desk software is one of the most critical parts of your ITSM tool stack. Enabling employees and other users to access service quickly and easily has an enormous impact on your wider operational efficiency.
@@ -43,7 +50,7 @@ We’re covering the following:
 - [What does help desk software do?](#what-does-help-desk-software-do)
 - [Types of help desks](#types-of-help-desks)
 - [Why opt for an open-source solution?](#why-opt-for-an-open-source-solution)
-- [Top 5 open-source help desks](#top-5-open-source-help-desks)
+- [Top 6 open-source help desks](#top-6-open-source-help-desks)
 
 By the end, you will be fully equipped to make an informed decision based on your own unique requirements.
 
@@ -93,7 +100,7 @@ Some teams also opt for open-source solutions to decrease reliance on the vendor
 
 However, it’s important to note that not all open-source vendors allow this, and what we can do with a particular piece of software depends on the license that it’s offered under.
 
-## Top 5 open-source help desks
+## Top 6 open-source help desks
 
 Now that we have a firm grasp of what we’re looking for when it comes to open-source help desk software, it’s time to see how specific platforms stack up against one another.
 
@@ -105,6 +112,7 @@ Our top picks are:
 3. [REI3 Tickets](#3-rei3-tickets)
 4. [ERPNext](#4-erpnext)
 5. [osTicket](#5-osticket)
+6. [Znuny](#6-znuny)
 
 Let’s jump in.
 
@@ -244,7 +252,7 @@ Custom enterprise pricing is available, too, complete with priority support and 
 
 ![osTicket](https://res.cloudinary.com/daog6scxm/image/upload/v1716391724/cms/open-source-help-desk-software/osTicket_rcfc5y.webp "osTicket")
 
-Lastly, we have osTicket. This is an open-source help desk and ticketing system that’s highly optimized for external-facing tasks, including customer support and aftersales.
+Next, we have osTicket. This is an open-source help desk and ticketing system that’s highly optimized for external-facing tasks, including customer support and aftersales.
 
 It’s also one of the most popular and mature solutions we’ve seen, with over 5 million global users across a wide range of industries. 
 
@@ -271,6 +279,38 @@ OsTicket is available as three different platforms. The fully open-source soluti
 The commercial equivalent is sold under the name ServiceSystem. This is available as a cloud-based product for $12 per agent per month. This also includes additional support alongside hosting.
 
 Custom pricing is available to deploy SupportSystem to virtual appliances, including help with customizing solutions to meet your specific internal requirements.
+
+### 6. Znuny
+
+Lastly, we have Znuny. Perhaps a lesser known name in the open-source helpdesk software space, this is a maintained fork of the better known OTRS platform, the community edition of which was discontinued in 2021.
+
+![Open Source IT TIcketing System Znuny](https://res.cloudinary.com/daog6scxm/image/upload/v1765816162/cms/alternatives/Znuny_yuwcz8.webp "Open Source IT Ticketing System Znuny")
+
+(Znuny Website)
+
+#### Pros
+
+Znuny is a feature-rich and highly effective open-source ticketing system. This includes capabilities such as multi-channel support, customer management, knowledge management, and self-service tools for end users.
+
+On top of this, it offers a strong degree of flexibility and customization, including options for altering designs, adding custom fields for tickets and other objects, or utilizing plug-ins to expand functionality.
+
+Znuny also offers effective tools for automating ticket management and helpdesk workflows, including filtering rules for incoming emails, custom process flows, ticket classification, and automated updates to related CIs.
+
+#### Cons
+
+Although it's a highly effective solution for ticketing and other related helpdesk workflows, like change management, incident management, and configuration management, some of the other tools we've seen might offer more extensive capabilities for a wider set of ITSM processes.
+
+Feature releases are also somewhat infrequent compared to some other platforms.
+
+Some users also note that Znuny may present a relatively steep learning curve, and that support options are somewhat more limited than some other open-source helpdesk platforms.
+
+#### Pricing
+
+Znuny is free to use, under the open-source GPL v3 license.
+
+However, we'll still need to factor in our own hosting and implementation costs.
+
+Professional services are also available, including training, consulting, development, and add-ons.
 
 ## Turn data into action with Budibase
 
