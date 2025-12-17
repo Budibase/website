@@ -12,7 +12,7 @@ author: Michael Shanks
 draft: false
 ---
 
-![Europe breaking away from US Tech. Created with Gemini Nano Banana](https://res.cloudinary.com/daog6scxm/image/upload/t_1920x1080/v1765819642/cms/eu-digital-sovereignty-and-oss/Gemini_Generated_Image_6svlea6svlea6svl_wojfdk.png)
+![Europe's digital sovereignty. Created with Gemini Nano Banana](https://res.cloudinary.com/daog6scxm/image/upload/t_1920x1080/v1765969117/cms/eu-digital-sovereignty-and-oss/Gemini_Generated_Image_2b58912b58912b58_w43hd7.png)
 
 The EU public sector has been actively trying to break away from US Tech, as part its movement towards digital sovereignty.
 
@@ -72,7 +72,7 @@ Most of these projects were treated as a cost-saving exercise rather than a stra
 
 Often, you get what you pay for.
 
-## This time it's different
+## This Time it's Different
 
 The above examples are focussed on Linux and Open/Libre Office.
 
