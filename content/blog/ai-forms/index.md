@@ -116,7 +116,7 @@ This is obviously incredibly convenient compared to building a form from scratch
 
 However, it’s not necessarily the appropriate option for using AI to output forms in all cases, especially as these types of form generators are typically highly opinionated.
 
-So, if we have more advanced needs from a UI-perspective, for instance creating [dynamic forms](https://budibase.com/blog/app-building/dynamic-forms/), we might utilize AI to create our data model, but use more traditional methods to build the form itself.
+So, if we have more advanced needs from a UI-perspective, for instance creating [dynamic forms](https://budibase.com/blog/app-building/dynamic-forms/), we might utilize AI to create our data model, but use more traditional methods to build the form itself. 
 
 Alternatively, we might wish to use a specific existing data source and leverage AI to generate forms on top of this.
 

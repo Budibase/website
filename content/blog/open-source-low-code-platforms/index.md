@@ -1,7 +1,7 @@
 +++
 author = "Joe Johnston"
 date = 2025-01-05T00:00:00Z
-description = "Open source low-code platforms come in all shapes and sizes. Here's everything you need to know in 2025"
+description = "Open source low-code platforms come in all shapes and sizes. Here's everything you need to know in 2026"
 images = ["/open-source-low-code-platforms/open-source-low-code-platforms.jpg"]
 title = "10 Open-Source Low-Code Platforms (Tried and Tested)"
 
@@ -145,7 +145,7 @@ Here are the key takeaways:
 * **Internal roll-out -** In larger organizations, there’s also the issue of getting new tools signed off for internal roll-out.
 * **Internal resistance -** You might come up against decision-makers who are skeptical of low-code development. They might think platforms are insecure, underpowered, or unreliable. All myths, of course, but you’ll need to be aware of these before you can dispel them.
 
-## The top 10 open source low-code platform
+## The top 10 open source low-code platforms
 
 When selecting my top 10 open source low-code platforms, I deliberately chose different platforms for different use cases. That way, more readers with different use cases are satisfied.
 

@@ -2,9 +2,9 @@
 
 author = "Ronan McQuillan"
 date = 2025-09-03
-description = "Take a look at our round-up of the top TypeForm alternatives for 2025."
+description = "Take a look at our round-up of the top TypeForm alternatives for 2026."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "6 TypeForm Alternatives for 2025"
+title = "6 TypeForm Alternatives for 2026"
 
 [[about]]
 name="TypeForm"
@@ -57,7 +57,7 @@ Specifically, we’ll start by examining where TypeForm sits in the market, incl
 - [What is TypeForm?](#what-is-typeform)
   - [Who uses TypeForm?](#who-uses-typeform)
 - [Why would we look for a TypeForm alternative?](#why-would-we-look-for-a-typeform-alternative)
-- [6 TypeForm alternatives for 2025](#6-typeform-alternatives-for-2025)
+- [6 TypeForm alternatives for 2026](#6-typeform-alternatives-for-2026)
 
 Let’s start with the basics.
 
@@ -105,7 +105,7 @@ The issue here is that individual vendors have their own models for pricing, oft
 
 Because of this, TypeForm may not be the most cost-effective option for specific teams and use cases, causing us to seek out an alternative.
 
-## 6 TypeForm alternatives for 2025
+## 6 TypeForm alternatives for 2026
 
 With a better grasp of what TypeForm is, who uses it, and why we might seek out an alternative platform, we can start thinking about some of the other prominent form builders on the market today.
 

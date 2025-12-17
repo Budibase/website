@@ -2,9 +2,9 @@
 
 author = "Ronan McQuillan"
 date = 2025-09-01
-description = "Take a look at our round-up of the top JotForm alternatives for 2025."
+description = "Take a look at our round-up of the top JotForm alternatives for 2026."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "8 JotForm Alternatives for 2025"
+title = "8 JotForm Alternatives for 2026"
 
 [[about]]
 name="JotForm"
@@ -68,7 +68,7 @@ Specifically, we’ll be covering:
   - [Who uses JotForm?](#who-uses-jotform)
   - [Why would we look for a JotForm alternative?](#why-would-we-look-for-a-jotform-alternative)
 - [How to choose a JotForm alternative](#how-to-choose-a-jotform-alternative)
-- [8 JotForm alternatives for 2025](#8-jotform-alternatives-for-2025)
+- [8 JotForm alternatives for 2026](#8-jotform-alternatives-for-2026)
 
 Let’s start with the basics.
 
@@ -118,7 +118,7 @@ For example, key features such as SSO and access to the API are limited to the E
 
 We’ll return to some of these ideas in the following section as we examine our specific picks for JotForm alternatives.
 
-## 8 JotForm alternatives for 2025
+## 8 JotForm alternatives for 2026
 
 As we noted earlier, the market for form builders is highly diverse. To reflect this, we’ve chosen a range of platforms from different corners of this space, giving a broader overview of some of the most prominent JotForm competitors.
 

@@ -2,9 +2,9 @@
 
 author = "Ronan McQuillan"
 date = 2025-08-01
-description = "Take a look at our round-up of the top Formstack alternatives for 2025."
+description = "Take a look at our round-up of the top Formstack alternatives for 2026."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "6 Formstack Alternatives for 2025"
+title = "6 Formstack Alternatives for 2026"
 
 [[about]]
 name="JotForm"
@@ -58,7 +58,7 @@ Specifically, we’ll be covering:
 - [What is Formstack?](#what-is-formstack)
   - [Who uses Formstack?](#who-uses-formstack)
 - [Why would you look for a Formstack alternative?](#why-would-you-look-for-a-formstack-alternative)
-- [6 Formstack alternatives for 2025](#6-formstack-alternatives-for-2025)
+- [6 Formstack alternatives for 2026](#6-formstack-alternatives-for-2026)
 
 Let’s start with the basics.
 
@@ -108,7 +108,7 @@ As such, it’s possible that a platform that is cost-effective for one team mig
 
 Lastly, Formstack is a closed-source platform and can’t be self-hosted. So, if there are firm requirements, we may need to look elsewhere.
 
-## 6 Formstack alternatives for 2025
+## 6 Formstack alternatives for 2026
 
 As we’ve noted already, the market for form builders is diverse, with individual vendors optimizing their platforms for a range of target users and use cases.
 
