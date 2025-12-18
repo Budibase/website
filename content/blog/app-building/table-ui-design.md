@@ -468,5 +468,3 @@ Connect a vast range of data sources and build [CRUD apps](https://budibase.com/
 We offer optional self-hosting, configurable RBAC, free SSO, custom automations, cloud deployments, an intuitive design system, and more.
 
 Build everything from simple data entry tools, free forms, and approval platforms to complex portal apps, in a matter of minutes.
-
-We’ve also created more than 50 free [app templates](https://budibase.com/templates/) to help you get started. Sign up to Budibase for free to start building stunning, professional applications.

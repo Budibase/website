@@ -128,7 +128,7 @@ This is an effective, easy way to provide a streamlined UX for each role. Users 
 
 However, this type of RBAC implementation also poses its own challenges, especially if you have multiple roles with different permissions on the same datasets.
 
-Let’s return to our [equipment checkout form](https://budibase.com/forms/templates/employee-equipment-checkout-form/) example to illustrate this.
+Let’s return to our equipment checkout form example to illustrate this.
 
 Remember our basic users can _read_ or _update_ rental requests that they’ve made themselves. They can also read certain attributes from the device management data, say item descriptions, but not others, like service or demand information.
 

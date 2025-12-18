@@ -568,8 +568,6 @@ This might proceed as follows:
 
 This is just a general structure to represent the basic idea behind an approval workflow. As such, you might choose to automate additional elements or reserve different actions for manual review and approval.
 
-Check out our [vacation request form template](https://budibase.com/forms/templates/vacation-request-form-template/) to learn more.
-
 ### Self-service admin tools
 
 Self-service tools are a common way to streamline a whole host of administrative tasks. The value here is in taking responsibility for a given task away from a centralized employee or team.
@@ -625,8 +623,6 @@ Categorization is critical. That is, when we have a large number of different re
 With information-focused internal tools, we’ll also want to prioritize navigability, as well as integration with external messaging, content management, and communications tools.
 
 ![Daily Tasks](https://res.cloudinary.com/daog6scxm/image/upload/v1672746540/cms/Looking_for_files_https___www.workato.com_the-connector_8-automation-stats-cio__z6zfgs.webp "Daily Tasks")([Workato](https://www.workato.com/the-connector/8-automation-stats-cio/))
-
-Take a look at our [IT knowledge base template](https://budibase.com/it/templates/open-source-it-knowledge-base/) to see how some of these ideas work in practice.
 
 ### Project management workflows
 
@@ -701,8 +697,6 @@ So, we have the same challenge as with CRUD tools. We need the ability to do thr
 * Create intuitive interfaces for users.
 
 These could be used as a standalone solution, or as screens within a more sophisticated application.
-
-Check out our [form templates](https://budibase.com/forms/templates/) to see what Budibase brings to the table here.
 
 ### Reporting and monitoring
 
@@ -791,9 +785,3 @@ Use user actions, external triggers, system conditions, or time-based rules to i
 With Budibase 2.0, we’re thrilled to have launched custom plug-ins. Build your own data sources and components with our CLI tools, and leverage them across all of your custom solutions.
 
 No other low-code platform even comes close to this level of flexibility. Take a look at our [plug-ins documentation](https://docs.budibase.com/docs/custom-plugin) to learn more.
-
-### 50+ free app templates
-
-We have complete confidence in our platform and what it can do. But, we appreciate that you can’t just take our word for it. So, we’ve built more than 50, free, customizable, and ready-to-deploy [app templates](https://budibase.com/templates/) to prove it.
-
-To get started building solutions the smart way, sign up to Budibase today for free.

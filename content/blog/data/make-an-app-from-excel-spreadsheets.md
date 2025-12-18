@@ -367,8 +367,6 @@ Low-code development is changing the way businesses build custom internal tools 
 
 We’re taking the hard work out of building incredible tools. With Budibase, you can build deployable solutions for all kinds of business problems, in minutes rather than months.
 
-We’ve even built over 50 free, deployable [app templates](https://budibase.com/templates/) to show off what Budibase can do.
-
 Sign up today for free.
 
 You might also like our guide to building a [MongoDB CRUD app](/blog/data/mongodb-crud-app/).

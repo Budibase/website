@@ -316,12 +316,6 @@ _Currently, to view your app, you have to navigate back to the app section (clic
 
 ![Form button](https://res.cloudinary.com/daog6scxm/image/upload/v1650884503/cms/CleanShot_2022-04-25_at_12.00.47_qsqupu.gif "Button")
 
-## Public form template
-
-You can explore over 50 templates, including [form templates](https://budibase.com/forms/templates/ "form templates"). If you would like to explore the app we created above, you can do, by downloading it from the link below, then uploading it to Budibase (from the Create app screen in Budibase).
-
-[Example public form app](https://drive.google.com/file/d/1s1Sm13IXJFG0W-tZrghj4K6NaDE8G2a0/view?usp=sharing "Example public form app")
-
 ## What to do after setting up your Public Form
 
 Personally, I would autogenerate CRUD screens (with basic access level). This way, I would have a UI to view, update, delete form submissions and create new ones too.

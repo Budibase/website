@@ -417,11 +417,3 @@ RBAC works by placing each user into a defined group, based on their needs and r
 That way, each employee has the lowest amount of data exposure that will allow them to do their jobs effectively. RBAC is the fastest, easiest way to administer access for large and small teams alike.
 
 ![RBAC Editor](https://res.cloudinary.com/daog6scxm/image/upload/v1658736302/cms/Screenshot_2022-07-22_at_14.34.20_ovxhpy.webp "How to Automate Tasks RBAC")
-
-### 50+ deployable app templates
-
-Low-code development is changing the way that businesses automate tasks and Budibase is leading the charge.
-
-Automating your business doesn’t have to mean expensive custom developments or SaaS licenses. With Budibase, you can start building custom automation for all kinds of business tasks, for free.
-
-Check out our extensive range of free, deployment-ready [app templates](https://budibase.com/templates/) to see more of what Budibase can do.

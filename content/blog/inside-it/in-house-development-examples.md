@@ -186,8 +186,6 @@ First, we can empower non-technical users with a simple, intuitive tool for logg
 
 All the while, we’re improving efficiency and cutting response times.
 
-Check out our [IT incident report form template](https://budibase.com/forms/templates/it-incident-report-template/) to see how this example in action.
-
 ### 3. Digitalizing approval workflows
 
 Some of the best in-house development examples are focused on codifying workflows around requests and approvals. These can relate to specific resources, actions, projects, or really anything else where there’s a need to follow set processes to authorize various requests.
@@ -209,8 +207,6 @@ Our in-house development example is a simple vacation request tool:
 On the one hand, employees can request time off. Their line manager can then manually review, approve, or decline this request.
 
 On the other, you can automate business logic to reduce the need for manual admin work. For example, by defining rules to automatically decline requests based on the individual employee’s remaining leave, upcoming project events, or the wider team’s resourcing needs.
-
-Take a look at our [vacation request form template](https://budibase.com/forms/templates/vacation-request-form-template/) to learn more.
 
 ### 4. Dynamic goal reporting
 
@@ -235,8 +231,6 @@ The core functionality here is allowing users to track progress across defined b
 We have a couple of options here in terms of how we populate data. So, we can draw on existing tools or we can allow users to manually input project updates.
 
 In either case, the idea is to create a single interface for decision-makers to review progress across wider business goals, as well as their constituent, granular objectives.
-
-Take a look at our [OKR goal template](https://budibase.com/operations/templates/okr-goal-template/) to learn more.
 
 ### 5. Self-service admin tools
 
@@ -264,8 +258,6 @@ We can solve both problems with our fifth in-house development example - a singl
 
 This one is pretty self-explanatory. With Budibase’s market-leading form builder tools, external data support, and custom automations, it’s never been easier to create solutions for managing employee information.
 
-Check out our [employee portal app template](https://budibase.com/portals/templates/employee-portal-app/) to see how you can implement this.
-
 ### 6. Directories and knowledge management
 
 Finally, we have in-house development examples that ensure that our team has access to the information they need, right at their fingertips. For the most part, we can talk about two distinct categories of information here.
@@ -285,8 +277,6 @@ This is an undersung yet indispensable tool for any modern organization - especi
 Consider the fact that your employees might never have even met in real life. So, for many queries, they’re unlikely to know who the best person to speak to is, let alone how to reach them. Then there are issues like language barriers.
 
 This is an extreme example of where directory tools can offer huge benefits across your organization.
-
-Check out our [employee directory template](https://budibase.com/business-apps/templates/employee-directory-template/) to find out more about implementing a custom solution.
 
 ## Budibase for in-house developers
 
@@ -339,11 +329,3 @@ Check out our in-depth guide to [implementing RBAC](https://budibase.com/blog/ap
 Budibase is the perfect solution for businesses that need to build automated workflows, fast. We offer an intuitive, flow-chart-based interface for combining, nesting, and configuring a range of built-in automation actions, along with defining triggers.
 
 Check out our in-depth guide to [workflow automation](https://budibase.com/blog/automation/workflow-automation/) for more details.
-
-### 50+ free app templates
-
-In case you didn’t realize, all of our in-house development examples were built in Budibase. However, our platform is capable of so much more than this.
-
-To prove it, we’ve created 50+ free, customizable, and fully functional [app templates](https://budibase.com/templates/).
-
-To get started building applications the fast, cost-effective way, sign up to Budibase today.

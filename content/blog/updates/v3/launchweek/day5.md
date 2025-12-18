@@ -29,7 +29,7 @@ To support this claim, we’re launching three new production-ready templates co
 
 3. [Risk management](https://budibase.app/builder?template=app/risk-management)
 
-We’ve also added how-to guides within the [Budibase Docs](https://docs.budibase.com/docs/templates).
+We’ve also added how-to guides within the Budibase Docs.
 
 ## Future
 This release puts us in an excellent position for our next chapter.

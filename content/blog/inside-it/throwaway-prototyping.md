@@ -289,8 +289,6 @@ The second is more of an operational challenge.
 
 So how do colleagues communicate to share ideas during a project? How do they leave a record of their decisions, ideas, learnings, and conclusions once the prototype is completed?
 
-You might even opt to create dedicated apps for managing these kinds of workflows, like an [IT knowledge base](https://budibase.com/it/templates/open-source-it-knowledge-base/).
-
 ### Readability
 
 Readability is the extent to which one developer can look at another’s work and immediately understand what’s going on. We normally talk about this in the context of how _readable_ specific coding languages are.
@@ -322,7 +320,5 @@ Budibase is leading the charge.
 Budibase is revolutionizing the way that businesses build custom solutions. With our [open-source, low-code platform](https://budibase.com/blog/open-source-low-code-platforms/), you can build fully functional, performant web apps in a matter of minutes.
 
 We offer custom components and data sources, support for external databases, customizable RBAC, optional self-hosting, intuitive design tools, free SSO, and more.
-
-We’re so confident in what Budibase can do, that we’ve also created 50+ free, deployable [app templates](https://budibase.com/templates), to help get you started.
 
 Sign up for free today to start building apps the smart way, with Budibase.

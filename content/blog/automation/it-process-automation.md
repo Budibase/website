@@ -285,8 +285,6 @@ In any case, there are a number of key tasks involved in any incident response p
 
 The key is ensuring that the total time between the incident occurring and being resolved is as short as possible. As such, a dedicated tool for managing incident responses is often the most effective option.
 
-Our [IT incident report template](https://budibase.com/forms/templates/it-incident-report-template/) offers streamlined UIs for reporting, delegating, and analyzing incidents.
-
 ![Device Rentals](https://res.cloudinary.com/daog6scxm/image/upload/v1654869717/cms/Device_Rentals_bchxf5.webp "Device Rentals")
 
 ### Device rentals
@@ -304,8 +302,6 @@ For example, one time-intensive element of rental management is manually checkin
 You might even automate approval workflows, for requests from certain employees or for certain devices. That is, if the device is available, the employee is automatically notified as to how and when they can collect it, with no need for your IT team to act.
 
 On top of this, all communications can be automated, using template emails and messaging app integrations.
-
-Check out our [employee equipment check-out template](https://budibase.com/forms/templates/employee-equipment-checkout-form/) to see why it’s the perfect vehicle for automation.
 
 ![Service Desk Processes](https://res.cloudinary.com/daog6scxm/image/upload/v1654869769/cms/Service_Desk_Management_vryzll.webp "Service Desk Processes")
 
@@ -325,8 +321,6 @@ One approach to this is using user-provided information to categorize queries an
 
 Often, new service desk queries point to a gap in your existing docs or knowledge base. Simple automations can also be used to notify your support team when these resources need to be updated.
 
-Check out our [IT knowledge base](https://budibase.com/it/templates/open-source-it-knowledge-base/) template to get started building integrated support resources.
-
 ![Asset Management](https://res.cloudinary.com/daog6scxm/image/upload/v1654869852/cms/Asset_Management_xcyvxi.webp "Asset Management")
 
 ### Asset management
@@ -337,12 +331,12 @@ For example, scheduling regular maintenance, retiring devices, and calculating c
 
 All of these processes involve relatively simple, time-based calculations, but they’re incredibly time-consuming to perform at scale.
 
-As such, automation is critical for managing devices efficiently. Our [IT asset management template](https://budibase.com/it/templates/open-source-it-asset-management-software/) offers automated maintenance scheduling, value calculations, and more in an intuitive, customizable solution.
+As such, automation is critical for managing devices efficiently.
 
 ## Automate IT processes with Budibase
 
 Budibase is the ideal solution for building custom applications to automate all kinds of IT processes. Our innovative low-code platform offers complete flexibility, with external data support, optional self-hosting, built-in RBAC, and powerful custom automations.
 
-Enterprises around the world choose Budibase to manage all kinds of workflows. With low-code automations, auto-generated CRUD screens, and a range of deployable templates, our platform is the fast, cost-effective way to build custom applications.
+Enterprises around the world choose Budibase to manage all kinds of workflows. With low-code automations and auto-generated CRUD screens, our platform is the fast, cost-effective way to build custom applications.
 
 Check out our ultimate guide to [workflow automation](/blog/automation/workflow-automation/) to find out more about how Budibase makes your organization smarter and more efficient.

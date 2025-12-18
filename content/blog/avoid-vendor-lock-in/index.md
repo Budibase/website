@@ -199,5 +199,3 @@ By using deployment tools like [Kubernetes](https://budibase.com/integration/kub
 At Budibase, we’re changing the way businesses build software, forever. Using our [open-source, low-code platform](https://budibase.com/product), you can build fully deployable tools in as little as five minutes.
 
 We also offer support for a wide range of external data sources, [third-party integrations](https://budibase.com/integration/), and hosting and deployment tools.
-
-Budibase is completely shifting the cost-benefit calculation when it comes to building new tools. Check out our range of [free app templates](https://budibase.com/templates/) to find out more.

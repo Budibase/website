@@ -105,7 +105,7 @@ Essentially, gathering requirements means figuring out what your app will actual
 
 This means engaging with different business stakeholders, including end-users, decision-makers, clients, and technical colleagues, to establish an overview of the app’s required functionality.
 
-For example, if we were building an [employee timesheet app,](https://budibase.com/professional-services/templates/employee-timesheet-template/) our high-level requirements would look something like this:
+For example, if we were building an employee timesheet app, our high-level requirements would look something like this:
 
 * Employees should be able to log hours against different projects.
 * Project owners should be able to monitor time usage.
