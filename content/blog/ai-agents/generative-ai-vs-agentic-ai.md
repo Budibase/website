@@ -161,7 +161,7 @@ Additionally, generative AI tools in and of themselves lack many of the capabili
 
 So, a non-agentic generative AI system will lack the ability to make decisions independently of humans. Unlike agentic systems, they’ll largely follow more fixed logic, which can limit their usability in more complex situations.
 
-You might also like our guide to [enterprise chatbots](https://budibase.com/blog/ai-agents/enterprise-chatbots/).
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
 
 ### Agentic AI
 

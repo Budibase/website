@@ -286,6 +286,8 @@ However, as noted above this includes feature and seat restrictions. There are t
 
 Custom enterprise licenses are also available, with additional features such as LDAP, granular access control, and API-enabled audit logs.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ## Turn data into action with Budibase
 
 {{< vimeo id="1058225094" title="Change Request Form" >}}

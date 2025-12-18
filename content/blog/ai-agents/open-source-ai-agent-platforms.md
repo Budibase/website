@@ -53,7 +53,7 @@ There's a huge amount of hype around AI agents. Every day, we hear new reasons w
 
 The biggest question here is, how can we build agentic solutions of our own?
 
-Today, we’re exploring an important subset of this by checking out the market for open-source agent builders.
+Today, we’re exploring an important subset of this by checking out the market for open-source agent platforms.
 
 Of course, this is a new, fast-moving space, with vendors rapidly bringing new solutions to market. While this brings huge opportunities for early adopters, it also makes it more challenging to assess our requirements and which tools are best positioned to meet them.
 
@@ -66,7 +66,7 @@ In this guide, we’ll give you the information you need to make a fully educate
 
 Let’s start with the basics.
 
-## What is an AI agent platform?
+## What is an open-source AI agent platform?
 
 As the name suggests, an AI agent builder is any software tool that helps us to build, manage, and deploy AI agents. 
 
@@ -81,6 +81,10 @@ Ultimately, the goal is to make the process of building AI agents faster and mor
 This works by enabling teams to focus on underlying goals and workflows, rather than building all aspects of their agents from scratch.
 
 Take a look at our guide to [AI agentic workflows](https://budibase.com/blog/ai-agents/ai-agentic-workflows/) to learn more.
+
+An open-source AI agent platform is one that's licensed in such a way that the source code is available. Generally, this means that we can use, modify, and redistribute the code base for free, although there will often be restrictions on things like commerical use, reselling, or crediting the original developers, depending on the specific license.
+
+In many but not all cases, an open-source version of an AI agent platform will be offered alongside a separate paid option. In these cases, we may need to pay license fees for additional features or support packages. Again, this depends on the individual vendor's specific license.
 
 ### What kinds of AI agent builders are available?
 
@@ -162,7 +166,7 @@ Next up, we have CrewAI. This is another highly popular open-source AI agent pla
 
 #### Pros
 
-One selling point of CrewAI is that it offers tools such as CrewAI studio, which make it more feasible for non-technical colleagues to create working agentic systems, using no-code development and templates.
+One selling point of CrewAI is that it offers tools such as CrewAI studio, which make it more feasible for non-technical colleagues to create working agentic systems, using visual development and templates.
 
 On top of this, it’s a highly effective platform for creating solutions comprising multiple task-specific agents working together in `crews`. We can assign each agent its own role and responsibilities, making it easier to create coherent, predictable systems.
 

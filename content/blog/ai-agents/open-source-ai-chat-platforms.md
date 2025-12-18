@@ -85,6 +85,8 @@ Even though we’re dealing with open-source AI chat platforms, we’ll still al
 
 Alternatively, we might opt to pay for service or support. At the same time, we’ll need to pay attention to how the project is maintained, including what community contributions and support options are available.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ## Top 6 open-source AI chat platforms for 2025
 
 With a good grasp of what open-source AI chat platforms are, what they do, and some of the key decision points we’ll encounter when evaluating specific options, we can move on to checking out some of the most prominent players in this space.
