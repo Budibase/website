@@ -6,7 +6,7 @@ image = "https://res.cloudinary.com/daog6scxm/image/upload/v1648131824/cms/20_Fr
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1648131824/cms/20_Free_App_Templates_lthryn.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "20 Free App Templates from Budibase"
-
+draft = true
 +++
 
 Recently, we’ve been quietly building a suite of free, ready-to-use app templates. Of course, we’re biased, but we think Budibase is the best way to build custom internal tools and web apps.

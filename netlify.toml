@@ -1177,3 +1177,15 @@ from = "/forms/templates/employee-equipment-checkout-form"
 to = "/business-apps/"
 status = 301
 force = true
+
+[[redirects]]
+from = "/blog/20-free-app-templates/"
+to = "/business-apps/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/20-free-app-templates"
+to = "/business-apps/"
+status = 301
+force = true
