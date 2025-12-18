@@ -94,6 +94,8 @@ Therefore, it’s helpful to consider the characteristics that these use cases h
 
 Specifically, these all encompass relatively repeatable workflows that are reliant on defined data and up-to-date information being shared across various stakeholders and systems, which may be difficult to automate wholesale using traditional, deterministic tools.
 
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
 ## What to look for in an internal chatbot
 
 With a better understanding of how internal chatbots are most commonly used, we can move on to some more practical questions around actually implementing them.
