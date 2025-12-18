@@ -200,8 +200,4 @@ Our pricing is built on the idea that businesses should only pay for what they u
 
 Check out our [pricing page](https://budibase.com/pricing) to find out more.
 
-### Free, deployable app templates
-
-We’re so confident in what Budibase can do that we’ve built over 50 free, deployable [app templates](https://budibase.com/templates/) to help you get started. Use any one of them as a working solution, or as a jumping-off point for your own custom build.
-
 To start using Budibase for free, sign up today.

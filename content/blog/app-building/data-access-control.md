@@ -221,8 +221,6 @@ The second and third are vital for allowing you to identify instances where user
 
 Additionally, this helps you to preempt situations where unauthorized access might occur, and put measures in place to prevent them.
 
-Check out our round-up of [free app templates](https://budibase.com/blog/20-free-app-templates/).
-
 #### 3. Configure and implement additional controls
 
 Once you have a robust entity-centric framework in place, you can begin to think about other measures that will complement this. For example, using additional data and context-centric access control methods, to fill in specific gaps in your policy.
@@ -255,8 +253,6 @@ For example, you might have a platform that meets all of your security requireme
 This becomes even more difficult in the context of modern IT environments, where assets and resources are typically distributed across a wide range of physical locations.
 
 The key is developing systems that intelligently provide the right permissions for the right users.
-
-Check out our [IT incident report template](https://budibase.com/forms/templates/it-incident-report-template/) to see our data access control features in action.
 
 Budibase offers an advanced suite of features to help you secure your company data.
 

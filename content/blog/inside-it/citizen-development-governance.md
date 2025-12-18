@@ -213,8 +213,6 @@ Of course, there’s also the issue of your immediate incident response. There�
 
 Sometimes your IT team will need to step in. Other times, it will be faster and easier for the original developer to respond. So, we need some way of categorizing incidents and issues, in terms of severity, complexity, and urgency.
 
-Check out our [IT incident report template](https://budibase.com/forms/templates/it-incident-report-template/) to find out more about how Budibase can play a role here.
-
 ## Creating a citizen development governance policy
 
 So now we have a good grounding in terms of what our citizen development governance policy will cover and what it will achieve.
@@ -339,7 +337,5 @@ We’re biased, but we think Budibase is the clear choice, for just about any bu
 It’s the perfect solution for empowering citizen developers or making your existing dev team’s life easier, faster, and more productive. We offer free SSO, optional self-hosting, customizable RBAC, intuitive design tools, third-party integrations, and more.
 
 Budibase is the perfect solution for creating custom web apps to meet all sorts of business problems.
-
-Don’t believe us? We’ve created more than 50 free deployable [app templates](https://budibase.com/templates) to show off what our platform can do.
 
 Sign up to Budibase today to get started, for free.

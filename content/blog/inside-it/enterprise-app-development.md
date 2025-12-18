@@ -208,8 +208,6 @@ Second, figuring out what actions need to be taken in each case and which staff 
 
 Your devs might then be tasked with coming up with a maintenance request tool to replace manual communications. The idea would be to codify triaging and scheduling workflows, to make it easier to provide a fair, scalable, and repeatable process for resolving issues.
 
-Check out our [maintenance request form template](https://budibase.com/forms/templates/maintenance-request-form-template/).
-
 ## Building enterprise apps in 6 steps
 
 Next, we can think more specifically about the concrete steps that you can follow for enterprise app development projects. Although we know that there’s a lot of variety in the form and goals of different projects, we still need a repeatable process.
@@ -432,9 +430,5 @@ Check out our article on [how to automate tasks](https://budibase.com/blog/autom
 Budibase is simple by default, but it’s extensible when it needs to be. Use our CLI to create your own custom plug-ins and data sources, to use across all of your enterprise app development projects.
 
 Check out our [plug-ins documentation](https://docs.budibase.com/docs/custom-plugin) to find out more.
-
-### 50+ free app templates
-
-We’re so confident in what our platform can do, that we don’t just want to tell you about it, we want to show you. We’ve built more than 50 free, customizable, deployable [app templates](https://budibase.com/templates/) to help get you started.
 
 Sign up for Budibase for free to start building applications the smart way, today.

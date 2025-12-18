@@ -335,8 +335,6 @@ BPO can greatly expedite and regularize this process, with measures including:
 
 For example, we could apply a framework like this to the process our employees use to book time off.
 
-Check out our [vacation request form template](https://budibase.com/forms/templates/vacation-request-form-template/) to see this in action.
-
 ### Project estimations and quotations
 
 Alternatively, we can also think about uses for process optimization within the commercial side of our business. Normally, our top priorities here are the tasks that eat up the largest proportion of our team’s time.
@@ -351,8 +349,6 @@ So, we can easily implement strategies including:
 * Crafting automation rules to reduce the need for manual calculations.
 * Implementing defined review and approval processes to speed up communications.
 * Leveraging integrations to create more efficient follow-on actions, including for billing.
-
-Take a look at our [project cost estimation template](https://budibase.com/professional-services/templates/project-cost-estimation-template/) to find out more.
 
 ### IT incident responses
 
@@ -370,8 +366,6 @@ To properly respond to IT incidents, we need a combination of the following:
 * Clear procedures about the steps that are required to put things right in the case of a known threat.
 * Oversight mechanisms for the status of specific responses.
 * Knowledge creation and documentation policies for preventing future incidents based on lessons learned.
-
-Check out our [IT incident report template ](https://budibase.com/forms/templates/it-incident-report-template/)to get started.
 
 ## Defining a process optimization strategy
 
@@ -642,15 +636,3 @@ Take a look at our [plug-ins documentation](https://docs.budibase.com/docs/custo
 RBAC is one of the easiest and most effective ways to ensure security, without compromising on usability. Grant users the perfect level of access for their needs, at the level of data sources, queries, screens, or components.
 
 With Budibase, it’s never been easier to [implement RBAC](https://budibase.com/blog/app-building/how-to-implement-rbac/) effectively.
-
-### Free app templates
-
-Tens of thousands of businesses around the world choose Budibase to build everything from simple workflow tools to complex, highly specialized solutions. We can’t speak for them all, but we think Budibase is the smart choice to build custom tools for business process optimization.
-
-But why just take our word for it?
-
-We’ve also built more than 50 free, deployable, and fully customizable [app templates](https://budibase.com/templates) to show off what Budibase is capable of.
-
-To start building better apps, faster, sign up to Budibase for free today.
-
-Why not also check out our ultimate guide to [business process management](/blog/automation/business-process-management)?

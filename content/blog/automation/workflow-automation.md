@@ -766,14 +766,4 @@ Use external app events as automation triggers, or use Budibase tools to initiat
 
 Connect to all kinds of tools, from CRMs and invoice management platforms to asset management software, inventory apps, and more.
 
-### Our workflow automation templates
-
-Budibase empowers you to build fully deployable, professional apps, in as little as five minutes. To help get you started, we’ve created a range of templates, which are perfect for workflow automation.
-
-Our [maintenance schedule template](https://budibase.com/operations/templates/maintenance-schedule-template/) automatically notifies your team when different devices are due to be serviced. Simply create assets, set their maintenance interval, and our platform will do the rest.
-
-We’ve also created a [commission calculation template](https://budibase.com/business-apps/templates/commission-calculation-template/) to quickly determine performance-based benefits owed to employees. Take the leg work out of calculating commissions for individual sales colleagues.
-
-Budibase is also perfect for building custom applications from scratch. Connect your data, build interfaces, and automate tasks, with our flexible, intuitive low-code platform.
-
 Sign up today to start using Budibase for free.

@@ -286,9 +286,3 @@ Check out our [plug-ins documentation](https://docs.budibase.com/docs/custom-plu
 Budibase offers configurable role-based access control, to fully marry security and usability. Assign users to a pre-defined role and grant permissions at the level of data sources, queries, automation rules, screens, or even individual components.
 
 We also offer free SSO through OpenID, OAuth, and more.
-
-### 50+ free application templates
-
-We have such confidence in what Budibase is capable of, that we decided we might as well show you. That’s why we created more than fifty free, deployment-ready, customizable [application templates](https://budibase.com/templates/).
-
-To start building apps the fast, easy way, sign up to Budibase today for free.

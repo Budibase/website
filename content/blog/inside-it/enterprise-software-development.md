@@ -644,10 +644,4 @@ New in Budibase 2.0 are our custom components and data sources. Our vision for t
 
 No other platform on the market offers the same level of functionality, flexibility, and customization as Budibase.
 
-### 50+ free app templates
-
-We’re so confident in what Budibase can do, that we don’t just want to talk about it - we want to show you. That’s why we’ve created more than 50 [app templates](https://budibase.com/templates/), for a huge variety of use cases.
-
-Better still, they’re all completely customizable, deployable, and free.
-
 To get started building custom tools the smart way, sign up to Budibase today for free.

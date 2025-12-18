@@ -180,7 +180,7 @@ Here’s how.
 
 Discrete tools are used to solve a specific pain point within your business processes. These are apps that are built for a dedicated function, often at a single point in your workflows.
 
-For example, many businesses waste large amounts of time tracking employee expenses. Here, you might use [invoice approval software](https://budibase.com/approval-apps/templates/invoice-approval-software/), to eliminate the need for manual reviews, meetings, and document sharing.
+For example, many businesses waste large amounts of time tracking employee expenses. 
 
 ![Invoice process discrete tool](https://res.cloudinary.com/daog6scxm/image/upload/v1642419951/cms/Invoice_Approval_Software_Screenshot_2_tfgjnl.png "Invoice approval software")
 
@@ -191,8 +191,6 @@ Low-code development eliminates these barriers. Instead of settling for an off-t
 ### End-to-end solutions
 
 Low-code tools can also be used to create end-to-end solutions. Where discrete apps only cover specific parts of your business processes, end-to-end solutions deal with the process in its entirety.
-
-An example of this might be an [agency client portal](https://budibase.com/portals/templates/agency-client-portal-template/), which allows your business to manage all aspects of the project delivery process, in a single platform.
 
 This could include requirements gathering, project sign-off, communications, delivery, and billing.
 
@@ -220,7 +218,7 @@ Mapping and analyzing your processes requires detailed planning and information 
 
 As we mentioned earlier, stakeholder engagement is crucial at all stages of your plan.
 
-Our [digital forms](https://budibase.com/forms) are a simple and easy way to gather information and feedback from team members, across your organization. Check out our [project approval system template](https://budibase.com/approval-apps/templates/project-approval-system/), for inspiration on how to kick off your process improvement efforts.
+Our [digital forms](https://budibase.com/forms) are a simple and easy way to gather information and feedback from team members, across your organization.
 
 Once you’ve gathered feedback on your current processes, you can use our range of charts and formula variables to analyze, visualize, and collate results.
 

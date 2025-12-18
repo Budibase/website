@@ -168,8 +168,6 @@ This is where knowledge management comes into play.
 
 Knowledge management platforms are used to centralize information, making it easier to share and disseminate. This has the added benefit of enabling you to retain knowledge, even after individual employees move on.
 
-Check out our [IT knowledge base](https://budibase.com/it/templates/open-source-it-knowledge-base/) template to see how this works in practice.
-
 ### 5. Workflow automation
 
 Automation is arguably the most powerful tool enterprises have at their disposal to gain and retain their competitive edge. There are a few distinct flavors of automation though. On the one hand, we have headline-grabbing, AI-driven solutions.
@@ -190,7 +188,7 @@ Check out our ultimate guide to [workflow automation](https://budibase.com/blog/
 
 There are countless different types of enterprise software solutions aimed at managing communications, both internally and externally. This comprises everything from instant messaging tools to email automation platforms.
 
-We also have a range of tools that help _facilitate_ communications, even if they aren’t explicitly used for communicating. For example, an [employee directory](https://budibase.com/business-apps/templates/employee-directory-template/) helps colleagues to identify the right contact person in different scenarios.
+We also have a range of tools that help _facilitate_ communications, even if they aren’t explicitly used for communicating. For example, an employee directory helps colleagues to identify the right contact person in different scenarios.
 
 Pretty much across the board, the challenge is achieving efficiency when we have huge numbers of actors involved.
 
@@ -255,12 +253,6 @@ Take a look at our [plug-ins documentation](https://docs.budibase.com/docs/custo
 We know that integrability is crucial for all types of enterprise software. Budibase tools integrate seamlessly with your existing software stack, using REST API, Zapier, WebHooks, and more.
 
 Budibase offers the perfect solution for building streamlined processes and workflows across multiple external tools.
-
-### 50+ app templates
-
-We’re on a mission to transform the way businesses build internal tools, forever. On the one hand, Budibase is the ideal platform for building solutions from scratch. On the other, it’s always nice to have a jump start.
-
-That’s why we’ve built more than 50 free, deployable, and fully customizable [app templates](https://budibase.com/templates/) to get you off the ground.
 
 Countless enterprises and international organizations choose Budibase to create everything from simple data entry forms to highly workflow-specific tools, in minutes.
 

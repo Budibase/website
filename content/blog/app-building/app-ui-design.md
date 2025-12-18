@@ -362,7 +362,7 @@ You could also tailor your CRUD UIs to your more specific needs using techniques
 
 ### 2. Sign-up forms
 
-Sign-up forms are another basic UI that can have a big impact. For example, onboarding screens, [lead-generation forms](https://budibase.com/forms/templates/multi-step-lead-form/), or call-back request tools. However, the important metric here isn’t so much efficiency as completion rates.
+Sign-up forms are another basic UI that can have a big impact. For example, onboarding screens or call-back request tools. However, the important metric here isn’t so much efficiency as completion rates.
 
 That is, the goal of your UIs is to encourage as many people as possible to provide their information.
 
@@ -486,8 +486,6 @@ Let’s take our directory example’s home screen. One option would be to base 
 That is, with the caveat that it won’t be the most exciting UI in the world.
 
 Alternatively, we could use a repeater, nested with cards to display key information or even imagery for each entry. This would be a more sophisticated UI, but you’d need to take additional steps to avoid clutter, especially with large datasets.
-
-Check out our [directory templates](https://budibase.com/directories) to see a few examples of different ways to approach this issue.
 
 ### 2. Wireframing and prototyping
 

@@ -39,8 +39,6 @@ So, say for example you wanted to monitor how different assets are deployed acro
 
 The missing step is creating a single resource for decision-makers to access key insights and important data about this.
 
-Check out our [open-source IT asset management software](https://budibase.com/it/templates/open-source-it-asset-management-software/) template for more details on how this works in practice.
-
 This simple example points to an important fact about dashboard apps.
 
 That is, the ultimate goal here is to facilitate better decision-making by empowering stakeholders with digestible, actionable insights.
@@ -326,8 +324,6 @@ We’re proud to offer the most innovative [open-source, low-code platform](http
 Whether you want to save your internal developers time, cut out contractors, or empower your employees as citizen devs, Budibase is built for speed, efficiency, and cost-effectiveness.
 
 We’re biased, but we think Budibase is the smart choice for busy teams who don’t want to compromise on results. Tens of thousands of companies think the same.
-
-We’ve even created 50+ free, deployable [app templates](https://budibase.com/templates) to show off just what Budibase is capable of.
 
 Sign up to Budibase for free today to start building apps the fast, easy way.
 

@@ -56,7 +56,7 @@ Note that this works a bit differently in NoSQL databases. We’ll dive into thi
 
 The first thing to do when creating a schema is to outline your database tables.
 
-Each table should represent a single _entity_. The columns represent the different _attributes_ that this entity can have, while the rows represent individual instances. So for example, say you have a table for all of your employees as part of a [company directory app](https://budibase.com/business-apps/templates/employee-directory-template/).
+Each table should represent a single _entity_. The columns represent the different _attributes_ that this entity can have, while the rows represent individual instances. So for example, say you have a table for all of your employees as part of a company directory app.
 
 The columns will be made up of all the information you want to store about each individual employee, like their name, job, address, and phone number. The rows in the table are then used to populate this information, for specific members of your team.
 

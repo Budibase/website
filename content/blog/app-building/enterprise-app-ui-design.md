@@ -222,8 +222,6 @@ Of course, this also has knock-on effects. Often, the idea behind creating B2B t
 
 As such, it’s crucial to design B2B interfaces that project the right brand image, as well as genuinely making your partners’ lives easier.
 
-Check out our round-up of [free app templates](https://budibase.com/blog/20-free-app-templates/).
-
 ## 6 enterprise interface design tips
 
 Now that we have a firmer grasp of the key principles involved in building different kinds of enterprise interfaces, we can start thinking about some concrete tips you can leverage in your designs.
@@ -370,8 +368,6 @@ Additionally, low-code platforms generally offer advanced features and configura
 We’re biased, but we think Budibase is the smart choice for enterprise app UI design.
 
 Our [open-source, low-code platform](https://budibase.com/blog/open-source-low-code-platforms/) is built to empower designers to create custom tools, in minutes. Enjoy custom RBAC, optional self-hosting, advanced automated, auto-generated CRUD screens, and a range of other incredible features while you build enterprise tools.
-
-We’ve even created 50+ [app templates](https://budibase.com/templates) to showcase what our platform can do.
 
 Budibase is trusted by massive organizations around the world for unrivaled functionality, security, expediency, and developer experiences.
 
