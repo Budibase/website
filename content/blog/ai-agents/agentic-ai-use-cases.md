@@ -4,7 +4,7 @@ author = "Ronan McQuillan"
 date = 2025-05-23
 description = "Check out our round-up of the most prevalent use cases for AI agents."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
-title = "10 Agentic AI Use Cases"
+title = "Top 10 Agentic AI Use Cases for 2026"
 
 +++
 

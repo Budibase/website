@@ -3,7 +3,7 @@ author = "Joe Johnston"
 date = 2025-01-05T00:00:00Z
 description = "Open source low-code platforms come in all shapes and sizes. Here's everything you need to know in 2026"
 images = ["/open-source-low-code-platforms/open-source-low-code-platforms.jpg"]
-title = "10 Open-Source Low-Code Platforms (Tried and Tested)"
+title = "10 Open-Source Low-Code Platforms"
 
 [[softwareApplications]]
 name = "Budibase"
