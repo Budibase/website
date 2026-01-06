@@ -1189,3 +1189,123 @@ from = "/blog/20-free-app-templates"
 to = "/business-apps/"
 status = 301
 force = true
+
+[[redirects]]
+from = "/blog/tutorials/employee-onboarding-app/"
+to = "/blog/employee-onboarding-software/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/tutorials/employee-onboarding-app"
+to = "/blog/employee-onboarding-software/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/automation/workflow-automation/"
+to = "/blog/ai-agents/ai-workflow-automation-tools/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/automation/workflow-automation"
+to = "/blog/ai-agents/ai-workflow-automation-tools/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/automation/workflow-management/"
+to = "/blog/ai-agents/ai-workflow-management-tools/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/automation/workflow-management"
+to = "/blog/ai-agents/ai-workflow-management-tools/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/automation/workflow-management-tools/"
+to = "/blog/ai-agents/ai-workflow-management-tools/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/automation/workflow-management-tools"
+to = "/blog/ai-agents/ai-workflow-management-tools/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/resources/itil-processes/asset-management/it-asset-inventory-management/"
+to = "https://budibase.com/blog/inside-it/free-asset-management-software/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/resources/itil-processes/asset-management/it-asset-inventory-management"
+to = "https://budibase.com/blog/inside-it/free-asset-management-software/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/resources/itil-processes/asset-management/it-asset-management-software/"
+to = "https://budibase.com/blog/inside-it/free-asset-management-software/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/resources/itil-processes/asset-management/it-asset-management-software"
+to = "https://budibase.com/blog/inside-it/free-asset-management-software/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/resources/itil-processes/asset-management/it-asset-tracking/"
+to = "https://budibase.com/blog/inside-it/free-asset-management-software/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/resources/itil-processes/asset-management/it-asset-tracking"
+to = "https://budibase.com/blog/inside-it/free-asset-management-software/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/resources/itil-processes/change-management/change-request-management/"
+to = "/blog/tutorials/change-request-form/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/resources/itil-processes/change-management/change-request-management"
+to = "/blog/tutorials/change-request-form/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/resources/itil-processes/change-management/change-management-software/"
+to = "blog/inside-it/change-management-tools/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/resources/itil-processes/change-management/change-management-software"
+to = "blog/inside-it/change-management-tools/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/alternatives/servicenow-vs-zendesk/"
+to = "/blog/alternatives/servicenow/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blog/alternatives/servicenow-vs-zendesk"
+to = "/blog/alternatives/servicenow/"
+status = 301
+force = true
