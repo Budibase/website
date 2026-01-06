@@ -1240,37 +1240,37 @@ force = true
 
 [[redirects]]
 from = "/resources/itil-processes/asset-management/it-asset-inventory-management/"
-to = "https://budibase.com/blog/inside-it/free-asset-management-software/"
+to = "/blog/inside-it/free-asset-management-software/"
 status = 301
 force = true
 
 [[redirects]]
 from = "/resources/itil-processes/asset-management/it-asset-inventory-management"
-to = "https://budibase.com/blog/inside-it/free-asset-management-software/"
+to = "/blog/inside-it/free-asset-management-software/"
 status = 301
 force = true
 
 [[redirects]]
 from = "/resources/itil-processes/asset-management/it-asset-management-software/"
-to = "https://budibase.com/blog/inside-it/free-asset-management-software/"
+to = "/blog/inside-it/free-asset-management-software/"
 status = 301
 force = true
 
 [[redirects]]
 from = "/resources/itil-processes/asset-management/it-asset-management-software"
-to = "https://budibase.com/blog/inside-it/free-asset-management-software/"
+to = "/blog/inside-it/free-asset-management-software/"
 status = 301
 force = true
 
 [[redirects]]
 from = "/resources/itil-processes/asset-management/it-asset-tracking/"
-to = "https://budibase.com/blog/inside-it/free-asset-management-software/"
+to = "/blog/inside-it/free-asset-management-software/"
 status = 301
 force = true
 
 [[redirects]]
 from = "/resources/itil-processes/asset-management/it-asset-tracking"
-to = "https://budibase.com/blog/inside-it/free-asset-management-software/"
+to = "/blog/inside-it/free-asset-management-software/"
 status = 301
 force = true
 
