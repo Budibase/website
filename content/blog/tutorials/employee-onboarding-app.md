@@ -7,7 +7,7 @@ image = "https://res.cloudinary.com/daog6scxm/image/upload/v1696866678/cms/emplo
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1696866678/cms/employee-onboarding-app/Emlpoyee_Onboarding_App_dipudx.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "How to Build an Employee Onboarding App in 7 Steps"
-
+draft = true
 +++
 
 Finding and hiring quality talent can be a lengthy, expensive process. So, once they’ve signed on the dotted line, we want to get our new colleagues up and running as quickly as possible. Today, we’re showing you how to build an effective employee onboarding app.

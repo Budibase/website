@@ -6,7 +6,7 @@ image = "https://res.cloudinary.com/daog6scxm/image/upload/v1672746202/cms/Workf
 images = ["https://res.cloudinary.com/daog6scxm/image/upload/v1672746208/cms/Workflow_Management_ymtsmd.png"]
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "Workflow Management | Ultimate Guide"
-
+draft = true
 +++
 Workflow management is an essential part of building an efficient, modern business. In fact, defining, implementing, and maintaining robust workflows is one of the most fundamental, far-reaching aspects of how your business operates.
 

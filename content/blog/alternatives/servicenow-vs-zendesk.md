@@ -14,6 +14,7 @@ name = "Zendesk"
 applicationCategory = "businessApplication"
 operatingSystem = "Web"
 url = "https://www.zendesk.co.uk/"
+draft = true
 +++
 
 Zendesk and ServiceNow are two of the biggest names in the service management space. Each platform offers a distinct slant on similar core functionality, including service desks, request management, ticketing, and related ITSM, ESM, or external-facing service workflows.

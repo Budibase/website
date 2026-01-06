@@ -5,7 +5,7 @@ description: Learn how to define build effective workflows for managing change r
 image: "https://res.cloudinary.com/daog6scxm/image/upload/v1723816303/cms/itil-resources/ITIL-Hero_l3gpgt.png"
 images: 
 - https://res.cloudinary.com/daog6scxm/image/upload/v1723816303/cms/itil-resources/ITIL-Hero_l3gpgt.png
-draft: false
+draft: true
 type: resources/glossary
 layout: single
 menus:
