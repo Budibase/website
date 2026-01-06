@@ -1288,13 +1288,13 @@ force = true
 
 [[redirects]]
 from = "/resources/itil-processes/change-management/change-management-software/"
-to = "blog/inside-it/change-management-tools/"
+to = "/blog/inside-it/change-management-tools/"
 status = 301
 force = true
 
 [[redirects]]
 from = "/resources/itil-processes/change-management/change-management-software"
-to = "blog/inside-it/change-management-tools/"
+to = "/blog/inside-it/change-management-tools/"
 status = 301
 force = true
 
