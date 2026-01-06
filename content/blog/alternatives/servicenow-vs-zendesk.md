@@ -4,6 +4,7 @@ date = 2025-02-25
 description = "Take a look at our in-depth comparison of ServiceNow and Zendesk."
 profilePic = "https://res.cloudinary.com/daog6scxm/image/upload/v1639756662/cms/IMG_3081_ubvpag.jpg"
 title = "ServiceNow vs Zendesk: In-Depth Guide"
+draft = true
 [[softwareApplications]]
 name = "ServiceNow"
 applicationCategory = "businessApplication"
@@ -14,7 +15,6 @@ name = "Zendesk"
 applicationCategory = "businessApplication"
 operatingSystem = "Web"
 url = "https://www.zendesk.co.uk/"
-draft = true
 +++
 
 Zendesk and ServiceNow are two of the biggest names in the service management space. Each platform offers a distinct slant on similar core functionality, including service desks, request management, ticketing, and related ITSM, ESM, or external-facing service workflows.
