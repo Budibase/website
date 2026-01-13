@@ -50,9 +50,9 @@ Today, we’re diving deep into this space by checking out some of the top open-
 
 Specifically, we’ll be covering:
 
-- [What are open-source workflow management tools?(#what-are-open-source-workflow-management-tools)
+- [What are open-source workflow management tools?](#what-are-open-source-workflow-management-tools)
 - [Why handle workflows with open-source tools?](#why-handle-workflows-with-open-source-tools)
-- [What to look for in an open-source workflow management system](#what-to-look-for-in-an-open-source-workflow-management-system)
+- [What to look for in an open-source workflow management platform](#what-to-look-for-in-an-open-source-workflow-management-platform)
 - [6 open-source workflow management tools for 2026](#6-open-source-workflow-management-tools-for-2026)
 
 Let’s start with the basics.
