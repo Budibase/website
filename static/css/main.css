@@ -81,7 +81,7 @@ html {
   --body-font: "InterVar", -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   --headline-font-features: "case", "ss01", "ss03", "cv01", "cv06", "cv10";
   --body-font-features:  "case", "ss01", "ss03";
-  --font-variation-settings: "wght" 500 !iYmportant;
+  --font-variation-settings: "wght" 500 !important;
   --space-1: 5px;
   --space-2: 10px;
   --space-3: 15px;
@@ -8689,7 +8689,7 @@ label {
   font-size: 12px !important;
 }
 
-.legal-consent-container . {
+.legal-consent-container {
   margin: 0;
 }
 
@@ -18886,6 +18886,7 @@ button.bg-blue:focus {
     justify-content: space-between;
     margin: auto;
   }
+}
 
 .container-fw {
   width: 100%;
