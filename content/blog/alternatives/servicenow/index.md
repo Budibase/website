@@ -133,7 +133,7 @@ Our platform is the top choice for solution architects, data professionals, syst
 
 ### Pricing
 
-Budibase is priced on a per-user basis, distinguishing between different types of colleagues. However, unlike ServiceNow, we empower teams to build unlimited applications and workflows for free - for up to 5 users in the cloud or 20 users if you self-host.
+Budibase is priced on a per-user basis, distinguishing between different types of colleagues. However, unlike ServiceNow, we empower teams to build unlimited applications and workflows for free with our open-source product.
 
 Our simple, transparent pricing model makes it easy to predict what your ITSM solutions are going to cost - with our Premium tier billing at $50 per month for creators and $5 per month for end-users.
 

@@ -129,7 +129,7 @@ Security-first teams choose Budibase for free SSO, optional self-hosting, air-ga
 
 #### Pricing
 
-Budibase offers highly scalable pricing to suit teams of all sizes. You can build as many applications as you want for free, for up to five users in the cloud - or twenty users if you self-host.
+Budibase offers highly scalable pricing to suit teams of all sizes. You can build as many applications as you want for free if you self-host.
 
 Premium licenses start at $5 per month for end-users and $50 for app creators, with custom branding, reusable code snippets, Budibase AI, and more.
 

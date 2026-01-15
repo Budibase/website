@@ -148,7 +148,7 @@ It’s also the ideal solution for security-first teams, with free SSO, optional
 
 #### Pricing
 
-Budibase is free to use for up to five users on our cloud product or twenty users on our open-source self-hosted plan - with no restrictions on the number of apps you can build.
+Budibase is free to use on our open-source self-hosted plan - with no restrictions on the number of apps you can build.
 
 Paid plans start from $5 per month for end-users and $50 for app creators, as well as introducing custom branding, reusable code snippets, synchronous automations, and Budibase AI.
 

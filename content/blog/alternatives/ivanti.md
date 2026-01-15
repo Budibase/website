@@ -147,7 +147,7 @@ There’s never been a better solution for IT teams that need to ship secure int
 
 #### Pricing
 
-Budibase offers scalable pricing to fit the needs of a wide range of organizations. You can use our platform to build as many apps as you like for up to five users in the cloud or twenty users if you self-host.
+Budibase offers scalable pricing to fit the needs of a wide range of organizations. You can use our platform to build as many apps as you like for free.
 
 Paid plans start from $5 per month for end users and $50 for app creators. This also introduces premium features including Budibase AI, reusable code snippets, custom app theming, and more.
 

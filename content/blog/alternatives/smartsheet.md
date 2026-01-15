@@ -152,7 +152,7 @@ Major enterprises rely on Budibase to [save millions of dollars on data entry](h
 
 #### Prices
 
-Budibase is billed on a per-user basis - distinguishing between the colleagues who build apps and those who use them. Our free tier offers unlimited custom applications for up to five users in the cloud - or 20 users if you self-host our open-source product.
+Budibase is billed on a per-user basis - distinguishing between the colleagues who build apps and those who use them. Our free tier offers unlimited custom applications if you self-host our open-source product.
 
 Beyond this, our Premium tier bills at $50 per month for app creators and $5 for end users - with custom branding, synchronous automations, reusable code snippets, and unlimited users.
 

@@ -168,7 +168,7 @@ Best of all, Budibase empowers teams to build custom low-code solutions on top o
 We even offer auto-generated CRUD UIs, a library of customizable templates, powerful design tools, and optional custom code across our platform.
 
 #### Pricing
-Budibase bills on a per-user basis - but we distinguish between the colleagues who create apps and the ones who use them. Build as many apps as you want in our free tier for five users in the cloud or twenty users, if you self-host.
+Budibase bills on a per-user basis - but we distinguish between the colleagues who create apps and the ones who use them. Build as many apps as you want in our self-hosted free tier.
 
 We even offer free SSO across all plans.
 
@@ -435,75 +435,3 @@ In terms of user limits, Appian distinguishes between Standard, Infrequent, and 
 Budibase’s cloud and self-hosted versions have significantly more feature parity. We also offer fast, easy installation for self-hosted licenses using Kubernetes, Docker, Digital Ocean, Portainer, Podman, and more.
 
 Our pricing model distinguishes between creators and end-users for easy scalability. We even offer free SSO across all pricing tiers.
-
-## How to choose an Appian alternative
-Lastly, it’s important to reemphasise that each platform in the low-code space targets distinct user personas and organizations. Therefore, we need to be realistic that no single platform can be fully optimized for every use case.
-
-Instead, we need a framework for deciding which of the platforms we’ve seen today is right for us.
-
-Here are the key decision points you’ll want to consider.
-
-### Pricing
-On paper, pricing seems like it should be a relatively simple variable to assess. But, in reality, it can be very difficult to compare like-with-like.
-
-Almost every platform we’ve seen bills on a per-user basis. 
-
-However, there’s a lot of variation within this - including whether or not vendors distinguish between different types of users, as well as how different feature restrictions and usage limits are imposed across pricing tiers.
-
-Therefore, one platform might be high cost-effective in certain situations, but excessively costly in others.
-
-Here’s an example scenario of what each of the Appian alternatives we’ve seen will cost for different user and app volumes, assuming we need unlimited automations and for all of our users to access the platform at least once per week.
-
-||||||||||
-
-*Appian provides a $66 discount for any user who accesses an application less than four times in a given month, so licensing costs may be considerably lower for infrequent usage.
-
-**OutSystems impose limits on Application Objects, which must be purchased on top of stated license fees. The number of these required to build a particular use case is unpredictable.
-
-### Scalability
-Scalability is how easily we can expand our usage of a given platform - including how costs will increase as our needs grow and change. 
-
-There are two elements to this. The first is pricing. The second is each platforms actual ability to accommodate increased usage from a technical point of view.
-
-On the pricing front, the issue stems from the fact that various platforms impose distinct usage limits and feature restrictions across their license tiers.
-
-On the technical front, we’re dealing with issues like performance, external data support, and functionality for dealing with larger use cases - including things like SSO or audit logging.
-
-The important thing is to factor in how these will impace our long-term usage of any given platform.
-
-
-### Open-source vs closed-source
-Open-source technology is a top priority for many businesses - especially enterprises and other large organizations. 
-
-For these kinds of companies, it’s important to be able to audit the source ode of any platforms that will interact with production data, internal infrastructure, or mission-critical processes.
-
-Closed-source technologies might require additional mitigations and policies, creating extra costs.
-
-Here’s a breakdown of how the Appian alternatives we’ve seen today sit in this regard.
-
-||||||||||
-
-
-### Builder personas
-We’ve seen extensively that vendors in the low-code space are aimed at different kinds of users - especially with regard to their level of technical skills and expertise.
-
-Some platforms like Appian are largely aimed at business-level users. Others, like OutSystems, are full-on developer tools.
-
-In between, we have a range of options that empower users of varying technical abilities to handle data, manage processes, and output internal tools.
-
-Here’s one way of breaking down the platforms we’ve seen today.
-
-||||||||||
-
-
-### Extensibility
-Lastly, extensibility is the degree to which we can add new capabilities to a platform. This can either mean building additional elements ourselves or integrating with other existing tools to add functionality.
-
-There are some aspects to this that most platforms have in common - like connecting to external platforms via API requests. 
-
-However, some platforms take extensibility much further than others. For instance, some of the tools that we’ve seen offer dedicated SDKs, some leverage custom plug-ins, and others offer little scope to add additional functionality.
-
-Here’s a summary of what each of our Appian alternatives offers.
-
-
-||||||||||

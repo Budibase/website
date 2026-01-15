@@ -157,7 +157,7 @@ Take a look at our [features overview](https://budibase.com/product/) to learn m
 
 #### Pricing
 
-With Budibase, you can build as many apps as you want for free for up to five users in the cloud, or twenty users if you self-host.
+With Budibase, you can build as many apps as you want for free if you self-host.
 
 Paid plans start from $5 per month for end users and $50 for creators. This introduces reusable code snippets, custom branding, synchronous automations, Budibase AI, and other premium features.
 

@@ -298,6 +298,3 @@ Connect to any database, autogenerate UIs, create custom user roles, and automat
 
 There’s never been an easier way to ship secure tools for handling IT workflows, including ticketing, asset management, service desks, request management, and more.
 {{< template-cta template = "changeManagement" >}}
->
->
->

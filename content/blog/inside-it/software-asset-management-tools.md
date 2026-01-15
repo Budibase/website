@@ -138,7 +138,7 @@ Budibase offers extensive scope for customization with minimal custom code, maki
 
 #### Pricing
 
-Budibase offers scalable pricing for teams of all sizes. On our free tier, you can build as many applications as you like for up to five users in the cloud or twenty if you self-host - including unlimited data sources. We even offer free SSO.
+Budibase offers scalable pricing for teams of all sizes. On our free tier, you can build as many applications as you like if you self-host - including unlimited data sources. We even offer free SSO.
 
 Premium licenses start from $50 per month for app creators and $5 for end users. This introduces Budibase AI, custom branding, synchronous automations, and more.
 

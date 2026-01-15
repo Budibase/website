@@ -129,7 +129,7 @@ Budibase is also the smart choice for IT workflows with heightened security need
 
 #### Pricing
 
-Budibase offers scalable pricing for teams of all sizes. You can build as many free apps as you like for up to five users in the cloud or twenty if you self-host. Unlike some other ManageEngine automations, we don’t place restrictions on connected data for free users.
+Budibase offers scalable pricing for teams of all sizes. You can build as many free apps as you like if you self-host. Unlike some other ManageEngine automations, we don’t place restrictions on connected data for free users.
 
 Paid plans start from $5 per end-user per month and $50 for app creators. This also introduces reusable code snippets, custom app branding, app back-ups, and Budibase AI.
 

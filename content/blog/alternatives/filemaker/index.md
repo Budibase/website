@@ -163,7 +163,7 @@ In particular, Budibase excels at enabling teams to build efficient user experie
 ### Pricing
 Budibase is priced on a per-user basis, distinguishing between the colleagues who build apps and the ones who use them. This means it’s incredibly cost-effective to scale as your needs evolve and grow.
 
-We also offer one of the most generous free tiers in the low-code market. Build unlimited applications with as many data sources as you want for up to five users in the cloud or twenty if you self-host. We even offer free SSO.
+We also offer one of the most generous free tiers in the low-code market. Build unlimited applications with as many data sources as you want if you self-host.
 
 Our Premium tier bills at $50 per month for creators and $5 for end users with custom branding, configurable views, app backups, and more.
 
