@@ -151,7 +151,7 @@ Solutions architects, product managers, data specialists, and other technical pr
 Budibase is the ideal solution for building all sorts of workflow and data management apps, including portals, admin panels, forms, approval tools, dashboards, CRUD applications, and more.
 
 ### Pricing
-Budibase bills on a per-user basis, distinguishing between the colleagues who build apps and their end-users. With our free tier, you can build as many apps as you want for up to five users in the cloud or 20 users if you self-host.
+Budibase bills on a per-user basis, distinguishing between the colleagues who build apps and their end-users. With our free tier, you can build as many apps as you want.
 
 Uniquely, our free plan comes with SSO.
 
@@ -389,68 +389,6 @@ Quickbase is fully cloud-based, although it can connect to on-prem data sources 
 Budibase offers self-hosting at all price points, alongside our cloud-based platform. Deploy to your own infrastructure using Kubernetes, Docker, Digital Ocean, Portainer, Podman, and more.
 
 We also have a much more generous offering for user management and administration features. For example, we offer free SSO across the board, whereas this requires a Business license in Quickbase, billing at $55 per user per month.
-
-## How to choose a Quickbase alternative
-Lastly, it’s important to be cognizant that all of the platforms we’ve seen today target distinct user personas and market segments.
-
-So, inevitably, the right solution is going to vary from one business to the next. 
-
-Therefore, we need a clear framework for assessing different platforms against our requirements.
-
-Here are some of the key decision points you’ll want to consider.
-
-### Pricing
-The first thing we need to contend with is pricing. Naturally, when we adopt any new platform, we want to ensure that we achieve a return on investment. However, given the different pricing structures we’ve seen, it can often be difficult to compare like with like.
-
-Most tools in this space bill on a per-user basis, but the more granular breakdown of features and other restrictions across individual tiers varies widely.
-
-So, a per-user estimate might be misleading because we might still need a particular piece of functionality that’s restricted to a higher price point.
-
-Despite this, having an illustrative idea of how different user volumes will incur costs for each platform is helpful.
-
-Here’s how this might break down, assuming each of our users access our tools at least once per week.
-
-||||||||||
-
-### Scale
-The scale of our needs - along with how we expect this to change over time - also plays an enormous role in any purchasing decision.
-
-In the specific case of Quickbase alternatives, we need to think about this from a few separate angles.
-
-User volumes are the most obvious - and we’ve already covered this extensively. The key thing to remember is that some vendors have maximum user numbers at different pricing tiers, so we need to account for this in our planning.
-
-There are also other usage-based restrictions at various pricing tiers for different platforms - potentially relating to elements like our stored data, automation runs, or even how often each user interacts with the platform.
-
-Lastly, we have feature restrictions. So if we have a firm requirement for a piece of functionality that’s restricted to a particular pricing tier, we’ll need to opt for this - even if it doesn’t match up with the vendor’s stated user-based pricing.
-
-### Open-source vs closed-source
-Open-source software is a big priority for a lot of larger organizations. Transparency and auditability are crucial when it comes to any software platform that could be interacting with production data or other mission-critical assets and processes.
-
-For these companies, additional assurances, policies, or other measures may be required to adopt closed-source tools, potentially slowing down procurement processes.
-
-Here’s a breakdown of the tools we’ve seen today.
-
-||||||||||
-
-### Existing data ops
-Each of the platforms we’ve seen today also targets very different organizations in terms of their existing data operations. 
-
-Almost every business in the world stands to benefit from improving the way their users interact with data assets. 
-
-However, there is a big difference between platforms that seek to replace spreadsheets and unify SaaS data - and those that are intended for building applications on top of more advanced database management systems.
-
-Here’s a breakdown of the data connectivity offered by each of our Quickbase alternatives.
-
-||||||||||
-
-### Creator personas
-Lastly, each vendor targets a subtly different kind of end user in terms of who is going to be building solutions on top of data assets. 
-
-Within the no/low-code space, there’s a spectrum of target user personas. At one end, there are tools aimed at non-technical users and at the other, there are full-blown developer tools.
-
-In between, there’s a wide range of tools that variously target citizen developers, IT professionals, departmental leaders, business technologists, and other more granular personas.
-
-Here’s one way that we can break down the market:
 
 
 

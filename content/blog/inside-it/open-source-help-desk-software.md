@@ -144,7 +144,7 @@ Use Budibase to fully streamline internal help desk workflows. Our flow-chart-ba
 
 #### Pricing
 
-Budibase empowers you to build unlimited applications for up to five users in the cloud or twenty users if you self-host. Beyond this, our paid tier bills at $50 per month for creators and $5 for end users, complete with custom branding, reusable code snippets, and more.
+Budibase empowers you to build unlimited free applications if you self-host. Beyond this, our paid tier bills at $50 per month for creators and $5 for end users, complete with custom branding, reusable code snippets, and more.
 
 Alongside our self-hosted, open-source product, Budibase pricing is designed to scale as your needs grow and change. We also believe that businesses of all sizes should be able to use our product without compromising on security, so we offer SSO and extensive data support across all tiers.
 

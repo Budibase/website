@@ -141,7 +141,7 @@ Take a look at our guide to building the [fleet management portal](https://budib
 
 #### Pricing
 
-Build unlimited apps for up to five users in the cloud or twenty users if you deploy Budibase on your own infrastructure. We’re proud to offer the most generous free tier in the low-code space, with full support for external data, free SSO, extensive internal storage, and more.
+Build unlimited free apps if you deploy Budibase on your own infrastructure. We’re proud to offer the most generous free tier in the low-code space, with full support for external data, free SSO, extensive internal storage, and more.
 
 Paid plans start from $5 per month for end users and $50 for creators, with custom branding, reusable code snippets, and more. Our pricing is optimized for scalability, providing an affordable platform that will drive value across your operations.
 

@@ -125,7 +125,7 @@ Budibase is fully optimized for busy IT teams that need to output solutions at p
 
 #### Pricing
 
-With Budibase, you can build as many tools as you want for free. Our open-source solution is free for up to 25 self-hosted users. You can also use the free tier of our cloud-based product for up to five users. Both ship key enterprise features, including free SSO.
+With Budibase, you can build as many tools as you want for free on our open-source plan.
 
 We also offer paid plans with no user limits, starting from $5 per end-user and $50 per creator, complete with synchronous automations, reusable code snippets, custom application branding, and more.
 

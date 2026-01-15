@@ -449,13 +449,6 @@ Specific features are also limited to different pricing tiers. For example, SSO 
 ## Retool vs Budibase
 Now that we’ve seen a range of options from across the low-code market, it’s time to dive deep into how Budibase and Retool stack up. 
 
-### Pricing
-Budibase offers by far the most generous free tier of any Retool competitor. Build unlimited applications with up to five users in the cloud or twenty users if you self-host. 
-
-Our free tier even includes SSO, along with embeds and multi-player collaboration. 
-
-Our premium tier is billed at $50 per creator and $5 per user per month, giving you custom branding, configurable access to views, synchronous automations, and more - many of which are only available from Retool via custom pricing arrangements.
-
 ### Data
 Retool and Budibase both offer extensive ranges of native database connectors - including MySQL, Postgres, SQL Server, and a whole host of NoSQL tools, APIs, and other common data sources.
 
@@ -494,8 +487,6 @@ Pricing might seem like the easiest decision point to wrap your head around, but
 The first variable we need to nail down is the number of users we’re dealing with. 
 
 As we’ve seen, almost all platforms distinguish between app creators and end users - and bill accordingly. Luckily, it’s relatively straightforward to establish the number of users we need. What’s trickier is accounting for how these costs will scale.
-
-For example, Budibase has some of the most generous user limits in the free tier, while other platforms are more prohibitive in their pricing.
 
 The other issue we need to consider under budgeting is where specific pieces of functionality are positioned across pricing tiers.
 

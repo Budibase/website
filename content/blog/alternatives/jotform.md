@@ -161,7 +161,7 @@ Take a look at our [features overview](https://budibase.com/) to learn more.
 
 #### Pricing
 
-Budibase offers highly scalable pricing that is perfect for all kinds of teams. You can build as many apps as you want for free, for up to five users in the cloud or twenty if you self-host. We also offer free SSO across all license tiers.
+Budibase offers highly scalable pricing that is perfect for all kinds of teams. You can build as many apps as you want for free if you self-host. We also offer free SSO across all license tiers.
 
 Paid plans start from $5 per-user per-month and $50 for app creators, including custom branding, reusable code snippets, Budibase AI, PDF generation, synchronous automations, and more.
 

@@ -136,7 +136,7 @@ Security-first teams choose Budibase to handle mission-critical workflows. With 
 
 #### Pricing
 
-Budibase offers three pricing tiers to suit the needs of a range of organizations. On our free plan, you can build as many applications as you like, with no limits on data or automation runs for up to five users in the cloud or twenty users if you self-host.
+Budibase offers three pricing tiers to suit the needs of a range of organizations. On our free plan, you can build as many applications as you like, with no limits on data or automation runs.
 
 Premium licenses bill at $50 per month for creators and $5 for end users, providing a simple, transparent model. Premium features include synchronous automations, custom branding, and Budibase AI.
 

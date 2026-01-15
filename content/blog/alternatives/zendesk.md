@@ -118,7 +118,7 @@ We also offer extensive workflow automation capabilities, including third-party 
 
 #### Pricing
 
-Budibase offers highly scalable pricing for teams of all sizes. You can build as many apps as you need for up to five authenticated users in the cloud or twenty if you self host - for free. 
+Budibase offers highly scalable pricing for teams of all sizes. You can build as many free apps as you need if you self host.
 
 Premium licenses bill at $5 per month for end users and $50 for app creators. This also introduces custom branding, reusable code snippets, Budibase AI, and more.
 
