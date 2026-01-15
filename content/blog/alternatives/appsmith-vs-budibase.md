@@ -85,7 +85,7 @@ Enterprise customers get access to SAML-based SSO, custom integrations, air-gapp
 
 ![Appsmith vs Budibase pricing](https://res.cloudinary.com/daog6scxm/image/upload/v1715613723/cms/appsmith-vs-budibase/Appsmith_vs_Budibase_1_s4dqdm.webp "Appsmith vs Budibase pricing")
 
-Budibase bills using a more traditional per-creator/per-user model. Our free tier offers unlimited applications for up to five users in the cloud or 25 if you self-host. Free users even get OIDC SSO and full access to Budibase’s RBAC tools.
+Budibase bills using a more traditional per-creator/per-user model. Our free tier offers unlimited applications if you self-host. Free users even get OIDC SSO and full access to Budibase’s RBAC tools.
 
 Our paid plans are built to scale, with distinct pricing for app developers and end users. 
 

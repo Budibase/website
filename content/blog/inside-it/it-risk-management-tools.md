@@ -153,7 +153,7 @@ Security-first teams choose our platform to power mission-critical workflows. Wi
 
 #### Pricing
 
-Our simple, predictable pricing is built to scale. We offer a fully-functioning free tier, enabling you to build as many applications as you need for up to five users in the cloud or twenty users if you self-host.
+Our simple, predictable pricing is built to scale. We offer a fully-functioning free tier, enabling you to build as many applications as you need if you self-host.
 
 Premium licenses bill at $50 per month for creators and $5 for end-users, providing custom branding, synchronous automations, AI functionality, and reusable code snippets.
 

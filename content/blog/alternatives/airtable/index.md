@@ -143,7 +143,7 @@ Budibase is priced on a per-user/per-creator basis. We bill separately for users
 
 We’re also proud to have the most generous offering in the low-code space for advanced functionality, including free SSO, app embeds, and multi-player collaboration. 
 
-With a free license, you can also build as many apps as you want for up to twenty users if you self-host or five if you use Budibase Cloud.
+With a free license, you can also build as many apps as you want.
 
 Our Premium tier bills at $50 per month for creators and $5 for end users, complete custom branding, synchronous automations, and application backups.
 

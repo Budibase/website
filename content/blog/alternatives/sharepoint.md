@@ -165,7 +165,7 @@ Major enterprises use Budibase to [save millions of dollars on data entry](https
 
 Budibase offers a highly scalable per-seat pricing model, distinguishing between the colleagues who build applications and their end users.
 
-You can build as many applications as you need for free for up to five users in the cloud or twenty users if you self-host. Our Premium plan is billed at $50 per creator per month and $5 for end users.
+You can build as many applications as you need for free if you self-host. Our Premium plan is billed at $50 per creator per month and $5 for end users.
 
 Uniquely, we provide free SSO for all Budibase users.
 

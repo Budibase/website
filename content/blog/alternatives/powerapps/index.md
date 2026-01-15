@@ -137,7 +137,7 @@ Budibase empowers non-developers in technical teams to leverage data and build c
 Check out our [features overview](https://budibase.com/product/) to learn more.
 
 ### Pricing
-Budibase offers three distinct pricing tiers to scale as your needs grow and evolve - Free, Premium, and Enterprise. On the free tier, you can build unlimited applications for up to five users in the cloud or twenty users if you self-host - with free SSO.
+Budibase offers three distinct pricing tiers to scale as your needs grow and evolve - Free, Premium, and Enterprise. On the free tier, you can build unlimited applications if you self-host.
 
 Premium licenses are billed based on usage. We distinguish between users who build applications and those who use them. Creators are billed at $50 per month while end-users are $5.
 

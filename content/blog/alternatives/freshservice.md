@@ -115,7 +115,7 @@ We’ve also recently released a range of AI capabilities, including custom LLM 
 
 #### Pricing
 
-Budibase offers scalable pricing for IT teams of all sizes. You can build as many apps as you want for free, for up to five users in the cloud or twenty users if you self-host. Our free tier also includes unlimited data connections.
+Budibase offers scalable pricing for IT teams of all sizes. You can build as many apps as you want for free. Our free tier also includes unlimited data connections.
 
 Paid plans start from $5 per month for end users and $50 for app creators, as well as introducing reusable code snippets, custom branding, synchronous automations, and app backup and restore.
 

@@ -146,7 +146,7 @@ Budibase is highly optimized for busy IT teams, offering a suite of visual devel
 
 #### Pricing
 
-Budibase offers a range of pricing options across our self-hosted and cloud platforms, making it a highly flexible solution for a range of teams. You can build as many apps as you like for up to five users in the cloud or 20 users on our open-source license.
+Budibase offers a range of pricing options across our self-hosted and cloud platforms, making it a highly flexible solution for a range of teams. You can build as many apps as you like on our open-source license.
 
 Paid licenses start from $50 for creators and $5 for end users, as well as introducing synchronous automations, Budibase AI, custom branding, reusable code snippets, and more.
 
