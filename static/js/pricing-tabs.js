@@ -1,16 +1,18 @@
 function openPricing(evt, pricingName) {
-  var i, tabcontent, tablinks;
+  var i, pricingBlocks, tablinks;
 
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
+  pricingBlocks = document.querySelectorAll("[data-pricing-period]");
+  for (i = 0; i < pricingBlocks.length; i++) {
+    pricingBlocks[i].classList.toggle(
+      "is-active",
+      pricingBlocks[i].dataset.pricingPeriod === pricingName
+    );
   }
 
-  tablinks = document.getElementsByClassName("tablinks");
+  tablinks = document.getElementsByClassName("pricing-period-tab");
   for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
+    tablinks[i].classList.remove("active");
   }
 
-  document.getElementById(pricingName).style.display = "block";
-  evt.currentTarget.className += " active";
+  evt.currentTarget.classList.add("active");
 }

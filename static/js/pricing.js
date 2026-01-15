@@ -21,3 +21,33 @@ const goToAccountPortal = (planType) => {
     window.open(`https://account.budibase.app/${path}${query}`, '_blank')
   }
 }
+
+const setHostingView = (hosting) => {
+  const container = document.querySelector(".pricing-hosting")
+  if (!container) {
+    return
+  }
+
+  container.dataset.hosting = hosting
+
+  const buttons = document.querySelectorAll(".pricing-hosting-button")
+  buttons.forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.hosting === hosting)
+  })
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const container = document.querySelector(".pricing-hosting")
+  if (!container) {
+    return
+  }
+
+  const buttons = document.querySelectorAll(".pricing-hosting-button")
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      setHostingView(button.dataset.hosting)
+    })
+  })
+
+  setHostingView(container.dataset.hosting || "cloud")
+})

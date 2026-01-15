@@ -5189,6 +5189,67 @@ details[open]>summary {
   gap: 12px;
 }
 
+.pricing-hosting-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 auto 24px;
+}
+
+.pricing-hosting-button {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: transparent;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.pricing-hosting-button.is-active {
+  background: var(--dark);
+  color: white;
+  border-color: var(--dark);
+}
+
+.pricing-hosting-controls {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 799px) {
+  .pricing-hosting-controls {
+    justify-content: center;
+  }
+}
+
+.pricing-hosting-group {
+  display: none;
+}
+
+.pricing-hosting[data-hosting="cloud"] .pricing-hosting-group[data-hosting="cloud"],
+.pricing-hosting[data-hosting="self-host"] .pricing-hosting-group[data-hosting="self-host"] {
+  display: block;
+}
+
+.pricing-hosting .pricing-hosting-cloud,
+.pricing-hosting .pricing-hosting-self {
+  display: none;
+}
+
+.pricing-hosting[data-hosting="cloud"] .pricing-hosting-cloud,
+.pricing-hosting[data-hosting="self-host"] .pricing-hosting-self {
+  display: inline;
+}
+
+.pricing-period {
+  display: none;
+}
+
+.pricing-period.is-active {
+  display: block;
+}
+
 @media (min-width: 800px) {
   .pricing-plan-3 {
     display: grid;
@@ -5721,6 +5782,14 @@ ul {
     grid-template-rows: auto;
     padding: 0;
   }
+
+  .pricing-hosting[data-hosting="self-host"] .pricing-table-wrapper {
+    grid-template-columns: 1.25fr repeat(2, minmax(0, 1fr));
+  }
+}
+
+.pricing-hosting[data-hosting="self-host"] .pricing-table-wrapper > :nth-child(4n+3) {
+  display: none;
 }
 
 .pricing-header {
