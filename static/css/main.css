@@ -1868,7 +1868,7 @@ pre>code {
 
 .container-benefit {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   text-align: left;
   gap: 20px;
   justify-content: space-between;
@@ -1893,7 +1893,7 @@ pre>code {
 
 .container-benefit2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   text-align: left;
   gap: 2rem;
   justify-content: space-between;
@@ -3294,7 +3294,7 @@ pre>code {
   grid-column-gap: 24px;
   grid-row-gap: 24px;
   grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
 }
@@ -4185,7 +4185,7 @@ details[open]>summary {
 
 @media (min-width: 1200px) {
   .feature-design-functions-subsection {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -5178,7 +5178,7 @@ details[open]>summary {
 @media (min-width: 1200px) {
   .pricing-test {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 0;
   }
 }
@@ -5187,7 +5187,10 @@ details[open]>summary {
   display: grid;
   grid-template-columns: 1fr;
   gap: 12px;
+  justify-content: center;
+  
 }
+
 
 .pricing-hosting-toggle {
   display: flex;
@@ -5207,7 +5210,7 @@ details[open]>summary {
 
 .pricing-hosting-button.is-active {
   background: var(--dark);
-  color: white;
+  color: white !important;
   border-color: var(--dark);
 }
 
@@ -5261,9 +5264,17 @@ details[open]>summary {
 @media (min-width: 1200px) {
 .pricing-plan-3 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   gap: 24px;
 }
+
+.pricing-hosting[data-hosting="cloud"] .pricing-plan-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pricing-hosting[data-hosting="self"] .pricing-plan-3 {
+  grid-template-columns: 1fr 1fr;
+}
+
 }
 
   .pricing-test-package {
@@ -5283,7 +5294,7 @@ details[open]>summary {
 @media (min-width: 1200px) {
   .pricing-test-package {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
   }
 }
@@ -5325,7 +5336,7 @@ details[open]>summary {
 @media (min-width: 1200px) {
   .pricing {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: var(--space-3);
   }
 }
@@ -5373,7 +5384,7 @@ details[open]>summary {
 @media (min-width: 1200px) {
   .pricing-tiers {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: var(--space-3);
   }
 }
@@ -5557,7 +5568,7 @@ details[open]>summary {
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: var(--base-3);
+  background-color: var(--base-7);
   padding: 4px 8px;
   border-radius: 24px;
   color: var(--dark);

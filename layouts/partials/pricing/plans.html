@@ -104,15 +104,20 @@
               class="price-text hover"
               data-tippy="App users can use existing apps but can't create new apps."
             >
-              <span>$2 per app user/month</span>
+              <span>$2.40 per app user/month</span>
             </p>
           </div>
           <div class="my-4">
             <a
-              href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=pricing-cta"
+              href="https://account.budibase.app/register?utm_source=website&utm_medium=cta&utm_campaign=pricing+page&utm_content=premium+plan"
             >
-              <button class="btn btn-secondary btn-block btn-lg" id="pro_plan_cta">
-                Get started
+              <button
+                onClick="goToAccountPortal('free');"
+                type="submit"
+                class="btn btn-cta btn-block btn-lg"
+                id="premium_plan_cta"
+              >
+                Start 14-day free trial
               </button>
             </a>
           </div>
@@ -136,10 +141,29 @@
                     clip-rule="evenodd"
                   ></path>
                 </svg>
+                <p class="ml-1">1 workspace</p>
+              </li>
+            </div>
+            <div>
+              <li class="pricing-item">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
                 <p class="ml-1">Unlimited apps</p>
               </li>
             </div>
-            <div>
+             <div>
               <li class="pricing-item">
                 <svg
                   width="18"
@@ -155,7 +179,7 @@
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <p class="ml-1">Unlimited data sources</p>
+                <p class="ml-1">Budibase AI</p>
               </li>
             </div>
             <div>
@@ -174,7 +198,7 @@
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <p class="ml-1">Unlimited automations</p>
+                <p class="ml-1">Reusable code snippets</p>
               </li>
             </div>
             <div>
@@ -193,7 +217,7 @@
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <p class="ml-1">SSO: OIDC, Google, Microsoft</p>
+                <p class="ml-1">Synchronous automations</p>
               </li>
             </div>
             <div>
@@ -212,31 +236,7 @@
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <p class="ml-1">Embeds (Public and private)</p>
-              </li>
-            </div>
-            <div>
-              <li class="pricing-item">
-                <svg
-                  width="18"
-                  height="18"
-                  viewBox="0 0 15 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z"
-                    fill="currentColor"
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <p
-                  class="ml-1 hover"
-                  data-tippy="Pro accounts are limited to a combined total of 5 users/creators when hosting with Budibase Cloud."
-                >
-                  <span class="dotted-underline">User limits</span>
-                </p>
+                <p class="ml-1">Public Embeds</p>
               </li>
             </div>
             <div>
@@ -370,7 +370,7 @@
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <p class="ml-1">No user limit</p>
+                <p class="ml-1">Multiple workspaces</p>
               </li>
             </div>
             <div>
@@ -389,7 +389,7 @@
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <p class="ml-1">Budibase AI (Cloud only)</p>
+                <p class="ml-1">SSO: OIDC, Google, Microsoft</p>
               </li>
             </div>
             <div>
@@ -411,25 +411,7 @@
                 <p class="ml-1">Custom branding</p>
               </li>
             </div>
-            <div>
-              <li class="pricing-item">
-                <svg
-                  width="18"
-                  height="18"
-                  viewBox="0 0 15 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z"
-                    fill="currentColor"
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <p class="ml-1">Reusable code snippets</p>
-              </li>
-            </div>
+
             <div>
               <li class="pricing-item">
                 <svg
@@ -447,25 +429,6 @@
                   ></path>
                 </svg>
                 <p class="ml-1">Creator access control</p>
-              </li>
-            </div>
-            <div>
-              <li class="pricing-item">
-                <svg
-                  width="18"
-                  height="18"
-                  viewBox="0 0 15 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z"
-                    fill="currentColor"
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <p class="ml-1">Multiple workspaces</p>
               </li>
             </div>
             <div>
@@ -503,7 +466,7 @@
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <p class="ml-1">Synchronous automations</p>
+                <p class="ml-1">Workspace backups</p>
               </li>
             </div>
             <div>
@@ -522,7 +485,7 @@
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <p class="ml-1">Email support</p>
+                <p class="ml-1">Community Support</p>
               </li>
             </div>
           </ul>
@@ -885,6 +848,44 @@
                     clip-rule="evenodd"
                   ></path>
                 </svg>
+                <p class="ml-1">1 workspace</p>
+              </li>
+            </div>
+            <div>
+              <li class="pricing-item">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <p class="ml-1">Unlimited users</p>
+              </li>
+            </div>
+            <div>
+              <li class="pricing-item">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
                 <p class="ml-1">Unlimited apps</p>
               </li>
             </div>
@@ -961,33 +962,10 @@
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <p class="ml-1">Embeds (Public and private)</p>
+                <p class="ml-1">Public Embeds</p>
               </li>
             </div>
-            <div>
-              <li class="pricing-item">
-                <svg
-                  width="18"
-                  height="18"
-                  viewBox="0 0 15 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z"
-                    fill="currentColor"
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <p
-                  class="ml-1 hover"
-                  data-tippy="Open source accounts are limited to a combined total of 20 users/creators when self-hosting on-prem."
-                >
-                  <span class="dotted-underline">User limits</span>
-                </p>
-              </li>
-            </div>
+     
             <div>
               <li class="pricing-item">
                 <svg

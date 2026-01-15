@@ -23,12 +23,15 @@ const goToAccountPortal = (planType) => {
 }
 
 const setHostingView = (hosting) => {
-  const container = document.querySelector(".pricing-hosting")
-  if (!container) {
+  const containers = document.querySelectorAll(".pricing-hosting")
+  if (!containers) {
     return
   }
 
-  container.dataset.hosting = hosting
+
+  containers.forEach(container => {
+    container.dataset.hosting = hosting
+  }) 
 
   const buttons = document.querySelectorAll(".pricing-hosting-button")
   buttons.forEach((button) => {
