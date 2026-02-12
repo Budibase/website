@@ -153,8 +153,6 @@ Next, we can start building our AI-driven ticketing logic. Budibase offers a ded
 
 In order to utilize this, you’ll need to add your API key as an environment variable within your Budibase installation. 
 
-Check out our [OpenAI docs](https://docs.budibase.com/docs/openai) to learn more.
-
 #### Creating an automation
 
 Head to the Automation section. Here, we’ll create a new rule and call it New Ticket. We have a choice of several triggers, including user actions, webhooks, database events, and chron expressions. 
