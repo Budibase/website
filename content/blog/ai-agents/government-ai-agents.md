@@ -16,7 +16,7 @@ Today, we’re examining the key issues that are faced by public sector organiza
 
 Specifically, we’ll be covering:
 
-- [What are AI agents](#what-are-ai-agents)
+- [What are AI agents?](#what-are-ai-agents)
   - [How is this different for the public sector?](#how-is-this-different-for-the-public-sector)
 - [Government use cases for agentic AI](#government-use-cases-for-agentic-ai)
 - [Public sector requirements for AI systems](#public-sector-requirements-for-ai-systems)
