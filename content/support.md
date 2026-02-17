@@ -6,9 +6,14 @@ type: support
 date: 2024-01-16
 ---
 
- - [Community support](#community-support)
- - [Premium support](#premium-support)
- - [Enterprise support](#enterprise-support)
+- [Community support](#community-support)
+- [Email support](#email-support)
+    - [What is supported?](#what-is-supported)
+    - [Not supported](#not-supported)
+- [Enterprise support](#enterprise-support)
+    - [What is supported?](#what-is-supported-1)
+    - [Not supported](#not-supported-1)
+    - [SLA](#sla)
 
 Budibase provides community support by default, but extended support is available for customers. 
 
@@ -24,16 +29,15 @@ The GitHub repository is a good place to look for FAQs.
 
 ---
 
-#### Premium support
+#### Email support
 
-In addition to having all of the community resources available, users on the Premium plan can contact support directly via email. This provides a private communication channel for support.
+In addition to having all of the community resources available, users can contact the support team directly via email. This provides a private communication channel for support.
 
 ###### What is supported?
 
  - ✓ Answering questions about building Budibase apps
  - ✓ Investigating issues relating to the Budibase platform
  - ✓ Guidance on building custom plugins
- - ✓ Premium-tier licensed instances
  - ✓ The most recent version of Budibase
 
 ###### Not supported
