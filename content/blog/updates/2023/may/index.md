@@ -20,8 +20,6 @@ draft: false
 
 Today we’re thrilled to announce multiplayer collaboration support for the data section within Budibase. Now, multiple users can work together to connect to data sources, customize schemas, and update data within our new spreadsheet-like grid, all at the same time.
 
-[Learn how to add collaborators](https://docs.budibase.com/docs/application-access)
-
 ---
 
 ![autocomplete bindings](https://res.cloudinary.com/daog6scxm/image/upload/v1686557262/features/bindings_autocomplete_ev64eq.webp)

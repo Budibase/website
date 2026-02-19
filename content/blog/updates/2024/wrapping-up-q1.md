@@ -34,9 +34,9 @@ The effort to improve form-building involved multiple teams pulling together.
 
 From a product perspective, [Jamie Birss](https://github.com/jamie-budibase) worked with the product and engineering team to release several features:
 
-- [Multi-step form block](https://docs.budibase.com/changelog/multi-step-form-block)
-- [Global bindings](https://docs.budibase.com/changelog/introducing-global-bindings)
-- [Form screen template](https://docs.budibase.com/changelog/new-screen-template-forms)
+- Multi-step form block
+- Global bindings
+- Form screen template
 
 ![New form template](https://res.cloudinary.com/daog6scxm/video/upload/v1709745251/product-marketing-images/formsScreenTemplate2_exoepi.gif)
 
@@ -115,8 +115,8 @@ We plan to write a detailed post about our Cloud performance efforts in the upco
 
 ## And then some…
 
-- Native n8n integration - A few weeks back, we launched our native n8n integration. [Read the changelog](https://docs.budibase.com/changelog/new-n8n-integration).
-- Automation Scripting Action UX improvements - We made a small yet impactful improvement to the user experience within the automation scripting action. [Read the changelog.](https://docs.budibase.com/changelog/ux-improvement-in-automation-scripting-action)
+- Native n8n integration - A few weeks back, we launched our native n8n integration.
+- Automation Scripting Action UX improvements - We made a small yet impactful improvement to the user experience within the automation scripting action. 
 - over 200,000 teams have used Budibase to build apps.
 - We reached [20,000 Github stars](https://github.com/Budibase/budibase).
 - Thank you to Sourcee, mheim_sx, and Poirasiz for all their community contributions.
