@@ -161,7 +161,6 @@ We've moved app settings from the portal to the app building experience. The exp
 
 ### Docs
 
-- [OpenAI automation action](https://docs.budibase.com/docs/openai)
 - [App embeds](https://docs.budibase.com/docs/embedded-app)
 - [Troubleshooting SQL](https://docs.budibase.com/docs/troubleshooting-sql)
 

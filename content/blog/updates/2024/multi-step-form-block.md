@@ -34,5 +34,3 @@ Customizing buttons in multi-step forms has also been streamlined. Budibase inte
 This new feature is more than an upgrade — it's a testament to our commitment to making application development and form building both easier and more efficient. We invite you to explore the new multi-step form block functionality, and experience firsthand how it can transform your workflows. Stay tuned for more updates as Budibase continues to evolve.
 
 For more information, please visit our [documentation](https://docs.budibase.com).
-
-Never want to miss an update? Make sure to check out our brand new [Changelog](https://docs.budibase.com/changelog) to stay looped in.
