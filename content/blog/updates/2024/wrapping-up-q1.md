@@ -65,8 +65,6 @@ To top the quarter off and help new users streamline the onboarding process, we 
 2. Information request form
 3. Visitor check-in form (demo below)
 
-{{< iframe "https://budimaster.budibase.app/embed/visitor-management-app" >}}
-
 These templates offer a great starting point when building forms with Budibase. You can find out more about the templates on the [Budibase Forms landing page](https://budibase.com/forms).
 
 ### A different type of form builder
