@@ -47,11 +47,7 @@ Connect ChatGPT to Budibase automations and build AI apps in minutes with the ne
 
 ## Embed
 
-With the Budibase Embed feature, you can share your public apps outside of Budibase and integrate them directly within websites or apps. You can try a Budibase embed below:
-
-{{< iframe "https://budimaster.budibase.app/embed/inventory" >}} 
-
-_**The embed above is restricted to read-only access for demo purposes. You'll not be able to access the embed if your browser is set to Incognito.**_
+With the Budibase Embed feature, you can share your public apps outside of Budibase and integrate them directly within websites or apps. 
 
 [Find our more about Embeds](https://docs.budibase.com/docs/embedded-app)
 
