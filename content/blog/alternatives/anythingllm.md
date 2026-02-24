@@ -46,7 +46,7 @@ Specifically, we’ll be covering:
 
 - [What is AnythingLLM?](#what-is-anythingllm)
 - [What to look for in an AnythingLLM alternative](#what-to-look-for-in-an-anythingllm-alternative)
-- [5 AnythingLLM alternatives for 2026](#5-anything-llm-alternatives-for-2026)
+- [5 AnythingLLM alternatives for 2026](#5-anythingllm-alternatives-for-2026)
   - [LM Studio](#1-lm-studio)
   - [GPT4All](#2-gpt4all)
   - [Jan.ai](#3-jan-ai)
@@ -131,7 +131,7 @@ Another key strength is GPT4All’s experiences around working with local files 
 
 The core Chats experience is also highly user-friendly, including savable chat histories. On top of this, we can optionally add and edit `Chat Templates`, allowing us to provide our own system message to configure model behavior.
 
-### 3. Jan.ai
+### 3. Jan AI
 
 Jan.AI is a popular platform that bills itself directly as an open-source ChatGPT alternative, making it a good fit for users who want a relatively quick and easy way to interact with a variety of LLMs.
 
