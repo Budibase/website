@@ -66,79 +66,44 @@ AI agents are probably the hottest tech topic around today. In almost all indust
 
 At the same time, several stand-alone tools have come to market for creating AI agents.
 
-Today, we’re zooming in on an important segment of this space by checking out the top low/no-code AI agent builders.
+Today, we're zooming in on an important segment of this space by checking out the top no-code AI agent builders, along with some low-code AI agent platforms that offer a bit more flexibility for advanced use cases.
 
-See, agentic AI systems are highly complex, and building them from scratch is well beyond the means of most non-developers. The tools we’re checking out get around this problem, by facilitating different kinds of colleagues with visual tools to set up AI agents of their own.
+See, agentic AI systems are highly complex, and building them from scratch is well beyond the means of most non-developers. The tools we're checking out get around this problem by giving different kinds of colleagues visual tools to set up AI agents of their own.
+
+At the same time, it's important to note that not every team needs exactly the same thing here. Some will want to build agents entirely without code, while others will want the option to drop into custom logic or deeper integrations as their use case becomes more complex.
 
 We’re going to cover everything you need to know, including:
 
-- [What is a no/low code AI agent builder?](#what-is-a-nolow-code-ai-agent-builder)
-- [What to look for in an agent builder](#what-to-look-for-in-an-agent-builder)
-- [10 low/no-code AI agent builders for 2025](#10-low--no-code-ai-agent-builders-for-2025)
+- [What is a no-code AI agent builder?](#what-is-a-no-code-ai-agent-builder)
+- [10 no-code AI agent builders and low-code platforms for 2026](#10-no-code-ai-agent-builders-and-low-code-platforms-for-2026)
+- [What to look for in a no/low-code agent builder](#what-to-look-for-in-a-nolow-code-agent-builder)
+- [No-code vs low-code AI agents](#no-code-vs-low-code-ai-agents)
 
 Let’s start with the basics.
 
-## What is a no/low-code AI agent builder?
+## What is a no-code AI agent builder?
 
 An AI agent is a software system that can act autonomously to interact with data, tools, and its environment in order to carry out tasks and meet a defined goal. This means that it can learn, adapt, and reason, without requiring constant human input and direction.
 
-A no/low-code AI agent builder is any platform that helps us to create, deploy, or manage agents, without having to build them from scratch using hard code. So, code might be optional, minimized, or not required at all.
+A no-code AI agent builder is any platform that helps us create, deploy, or manage agents without having to build them from scratch using hard code. In other words, these tools make it possible to build AI agents without code. Low-code platforms retain some ability to add custom code, without needing to build every element from scratch ourselves.
 
 Typically, this means using a visual interface, such as a drag-and-drop builder or a flowchart UI. Alternatively, we might even set up agents using a prompt dialog UI in certain builders.
 
-In any case, low/no-code tools are characterized by a high degree of pre-configuration and re-usability. Rather than building all triggers, logic, actions, or integrations ourselves, we can simply select from and configure pre-built elements.
+In any case, no-code and low-code tools are characterized by a high degree of pre-configuration and re-usability. Rather than building all triggers, logic, actions, or integrations ourselves, we can simply select from and configure pre-built elements.
 
 As such, these tools are often targeted at users who lack the time, resources, or technical skills for traditional, hard-coded solutions.
 
-The extent to which we can - or must - add our own custom code varies from one option to the next, often dictated by the type of user it's aimed at. 
+The extent to which we can, or must, add our own custom code varies from one option to the next, often dictated by the type of user it's aimed at.
 
-So, there might be more scope for customization in a tool aimed at speeding up projects for developers, compared to one that’s intended for less technical users.
+So, there might be more scope for customization in a tool aimed at speeding up projects for developers, compared to one that's intended for less technical users.
 
 Across the board, though, the goal is to make it faster and easier to implement agentic systems within our workflows, including automating tasks and augmenting or even replacing human interactions.
 
-## What to look for in an agent builder
-
-There’s no getting around the fact that a huge and growing number of vendors are moving into this space. So, figuring out which tools meet our specific requirements can be a fraught process.
-
-We can start by thinking about how we can break the market down.
-
-### Types of agent builders
-
-The first thing to recognize is that a few distinct clusters of tools can meet our definition of an AI agent builder. AI agents come in a few distinct forms, so it makes sense that there would also be agent builders that correspond to these.
-
-First, there are dedicated agent builders. These have been developed from the ground up to enable teams to build agentic systems, including goal-setting, multi-agent collaboration, and context tracking as core features.
-
-These offer visual or declarative building experiences but often prioritize true autonomy over static flows.
-
-However, for simpler use cases, many teams opt for a different approach. This means using traditional automation tools, many of which have introduced agentic functionality over the past number of years.
-
-These are an excellent choice for technical and non-technical teams alike who want to build agents with more static flows, using streamlined, visual experiences.
-
-Lastly, some more advanced AI agent frameworks and SDKs also support an element of no/low-code building. For example, by offering templates or visual interfaces. These are still primarily aimed at technical teams, with the idea being to speed up delivery of solutions.
-
-You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
-
-### Features and decision points
-
-Whichever style of low/no-code agent builder we opt for, we’ll need to be conscious of several other factors, including specific functionality and other practical considerations.
-
-One broad grouping of these relates to specific agent capabilities. For instance, we’ll need to pay careful attention to the level of autonomy the specific agent builder supports supports, as well as memory and context handling, and tool use and integrations.
-
-Developer experiences are also crucial. Of course, a huge part of this is the solution’s core UX, including whether it utilizes drag-and-drop, declarative, or flowchart-style interfaces. 
-
-We’ll also need to consider how and when we can (or need to) add custom code when visual tools hit their limits.
-
-Lastly, we’ll need to consider operational factors. A huge part of this is observability and monitoring. So, does the agent builder offer run logs, debugging, performance tracking, or roll-back functionality?
-
-Similarly, hosting, deployment, and security features are also top considerations, especially in cases where AI agents will need to interact with mission-critical tools, data, or processes.
-
-You might also like our guide to [enterprise chatbots](https://budibase.com/blog/ai-agents/enterprise-chatbots/).
-
-## 10 low & no-code AI agent builders for 2025
+## 10 no-code AI agent builders and low-code platforms for 2026
 
 Now that we have a better understanding of what we’re looking for, we can begin to explore some of the specific tools that are available on the market today. 
 
-In order to give a full account of what’s available, we’ve chosen a broad range of tools, aimed at a diverse set of use cases and target personas.
+In order to give a full account of what’s available, we’ve chosen a broad range of tools, including both no-code builders and low-code AI agent platforms, aimed at a diverse set of use cases and target personas. That also means touching on a few adjacent AI agent platforms that sit somewhere between the two ends of the market.
 
 Let’s check out what each one offers in more detail.
 
@@ -178,7 +143,9 @@ However, it’s important to note that certain tasks might require integration w
 
 Next, we have n8n. For a long time now, this has been one of the biggest names in the world of workflow automation more generally, but in recent years it’s also established itself as a top vendor for [AI agentic workflows](https://budibase.com/blog/ai-agents/ai-agentic-workflows/).
 
-![n8n](https://res.cloudinary.com/daog6scxm/image/upload/v1745578244/cms/ai-agents/no-low-code-agent-builders/n8n_rovlkx.webp "n8n")
+Compared to some other tools on this list, n8n sits closer to the low-code end of the market, especially for teams that are comfortable working with APIs, data flows, and more technical workflow logic.
+
+![Low-code AI agent platform n8n](https://res.cloudinary.com/daog6scxm/image/upload/v1745578244/cms/ai-agents/no-low-code-agent-builders/n8n_rovlkx.webp "Low-code AI agent platform n8n")
 
 (n8n Website)
 
@@ -244,6 +211,8 @@ You might also like our guide to [digital workers](https://budibase.com/blog/ai-
 
 ChatFuel is a slightly different proposition to some of the other tools we’ve seen so far, offering a no-code, visual solution for non-technical users to create conversational agents for multi-channel sales use cases.
 
+So, compared to many of the other options in this guide, ChatFuel sits much closer to the no-code end of the spectrum.
+
 ![ChatFuel](https://res.cloudinary.com/daog6scxm/image/upload/v1745578243/cms/ai-agents/no-low-code-agent-builders/ChatFuel_tmxqba.webp "ChatFuel")
 
 (ChatFuel Website)
@@ -307,7 +276,7 @@ Custom enterprise pricing is also available, along with optional add-ons for usa
 
 ### 6. Watsonx.ai
 
-Lastly, we have IBM’s offering in the AI agent builder space, Watsonx.ai. This is arguably the most feature-rich tools we’ve seen, offering a comprehensive, end-to-end suite of tools for building agentic systems and conversational assistants.
+Next, we have IBM’s offering in the AI agent builder space, Watsonx.ai. This is arguably the most feature-rich tools we’ve seen, offering a comprehensive, end-to-end suite of tools for building agentic systems and conversational assistants.
 
 ![WatsonXAI](https://res.cloudinary.com/daog6scxm/image/upload/v1745578242/cms/ai-agents/no-low-code-agent-builders/Watsonxai_mlhbp7.webp "WatsonXAI")
 
@@ -343,7 +312,9 @@ You might also like our ultimate guide to [AI forms](https://budibase.com/blog/a
 
 Next up, we have Langflow. This sits more towards the low-code end of the market for AI agent builders.
 
-![Langflow](https://res.cloudinary.com/daog6scxm/image/upload/v1765810281/cms/ai-agents/Langflow_i0qkfo.webp "Langflow")
+That is to say, Langflow is probably better understood as a low-code option than a strictly no-code AI agent builder, especially for teams that want to retain some of the power of custom Python.
+
+![Low-code AI agent platform Langflow](https://res.cloudinary.com/daog6scxm/image/upload/v1765810281/cms/ai-agents/Langflow_i0qkfo.webp "Low-code AI agent platform Langflow")
 
 (Langflow Website)
 
@@ -374,6 +345,8 @@ Professional services and support packages are also available.
 ### 8. Zapier
 
 Next, we have Zapier. This is perhaps the best known option in the world of no-code workflow automation, which in recent years has launched several features aimed at building AI agents.
+
+Compared to some of the other tools we're looking at, Zapier is likely to feel more approachable for teams that want a more no-code experience.
 
 ![Zapier](https://res.cloudinary.com/daog6scxm/image/upload/v1765470620/cms/alternatives/n8n/Zapier_fhbnz9.webp "Zapier")
 
@@ -464,6 +437,64 @@ Make offers highly affordable, scalable pricing, based on monthly credits, which
 Paid plans start from $9 per month for a Core license 10,000 credits, as well as API access and other features. There are two other fixed pricing tiers above this with additional features. Each of these three tiers is billed on a sliding scale based on required monthly credits.
 
 Custom pricing is also available, with enterprise integrations, additional security features, and more.
+
+## What to look for in a no/low-code agent builder
+
+There’s no getting around the fact that a huge and growing number of vendors are moving into this space. So, figuring out which tools meet our specific requirements can be a fraught process.
+
+We can start by thinking about how we can break the market down.
+
+### Types of agent builders
+
+The first thing to recognize is that a few distinct clusters of tools can meet our definition of an AI agent builder. AI agents come in a few distinct forms, so it makes sense that there would also be agent builders that correspond to these.
+
+First, there are dedicated agent builders. These have been developed from the ground up to enable teams to build agentic systems, including goal-setting, multi-agent collaboration, and context tracking as core features.
+
+These offer visual or declarative building experiences but often prioritize true autonomy over static flows.
+
+However, for simpler use cases, many teams opt for a different approach. This means using traditional automation tools, many of which have introduced agentic functionality over the past number of years.
+
+These are an excellent choice for technical and non-technical teams alike who want to build agents with more static flows, using streamlined, visual experiences.
+
+Lastly, some more advanced AI agent frameworks and SDKs also support an element of no-code or low-code building. For example, by offering templates or visual interfaces. These are still primarily aimed at technical teams, with the idea being to speed up delivery of solutions.
+
+You might also like our round-up of the top [open-source AI agent platforms](https://budibase.com/blog/ai-agents/open-source-ai-agent-platforms/).
+
+### Features and decision points
+
+Whichever style of agent builder we opt for, we'll need to be conscious of several other factors, including specific functionality and other practical considerations.
+
+One broad grouping of these relates to specific agent capabilities. For instance, we’ll need to pay careful attention to the level of autonomy the specific agent builder supports, as well as memory and context handling, and tool use and integrations.
+
+Developer experiences are also crucial. Of course, a huge part of this is the solution’s core UX, including whether it utilizes drag-and-drop, declarative, or flowchart-style interfaces. 
+
+We’ll also need to consider how and when we can add custom code when visual tools hit their limits.
+
+Lastly, we’ll need to consider operational factors. A huge part of this is observability and monitoring. So, does the agent builder offer run logs, debugging, performance tracking, or roll-back functionality?
+
+Similarly, hosting, deployment, and security features are also top considerations, especially in cases where AI agents will need to interact with mission-critical tools, data, or processes.
+
+You might also like our guide to [enterprise chatbots](https://budibase.com/blog/ai-agents/enterprise-chatbots/).
+
+### What to look for in a low-code AI agent platform
+
+If we're looking specifically at the low-code end of the market, there are a few additional things we might want to weigh up.
+
+For one thing, a low-code AI agent platform should give us more room to handle complexity. That might mean more advanced branching logic, deeper integration with internal systems, or the ability to layer custom behavior on top of a visual builder when pre-configured elements stop short of what we need.
+
+It's also worth thinking carefully about operational requirements. If an agent is going to sit close to core business processes, then governance, deployment controls, observability, and exception handling all become much more important than they might be in a simple proof of concept.
+
+So, while ease of use still matters, the best low-code AI agent platforms tend to be the ones that offer a visual development experience without boxing us in once requirements start to grow.
+
+For teams with more advanced requirements, the right low-code AI agent platform can offer a better balance of speed and flexibility than a strictly no-code tool, especially compared to lighter-weight AI agent platforms that are designed primarily around speed and ease of use.
+
+## No-code vs low-code AI agents
+
+It's worth pausing here to make one distinction clear.
+
+No-code AI agents are designed for teams that want to get up and running quickly with visual interfaces, templates, and minimal technical setup. Low-code AI agents, on the other hand, are usually a better fit for teams that want a visual development experience but still need to add custom logic, connect internal systems, or support more involved operational requirements.
+
+In practice, many teams don't draw a hard line between these two categories. Instead, they'll start with a no-code AI agent builder for speed, before moving towards a more low-code AI agent platform as their requirements become more advanced.
 
 ## Build workflow tools on top of any data with Budibase
 
