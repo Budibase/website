@@ -45,7 +45,7 @@ Today, we’re examining an important segment of AI automation builders by check
   - [n8n](#2-n8n)
   - [Zapier](#3-zapier)
   - [Make](#4-make)
-  - [Automatisch](#5-automatish)
+  - [Automatisch](#5-automatisch)
   - [LangFlow](#6-langflow)
 
 Let’s start with the basics.
