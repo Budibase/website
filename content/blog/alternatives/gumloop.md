@@ -90,7 +90,7 @@ Since we’ve already noted that this is a largely varied space, we’ve chosen 
 - [n8n](#2-n8n)
 - [Zapier](#3-zapier)
 - [Make](#4-make)
-- [Automatisch](#5-automatish)
+- [Automatisch](#5-automatisch)
 - [LangFlow](#6-langflow)
 
 Let’s check each one out in turn.
